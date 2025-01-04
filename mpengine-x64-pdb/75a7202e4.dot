@@ -1,0 +1,11 @@
+digraph sqlite3MutexInit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7202e4 -> BB75a7203c4 [color="green"];
+  BB75a7202e4 -> BB75a7202f8 [color="red"];
+  BB75a7202f8 -> BB75a720342 [color="green"];
+  BB75a7202f8 -> BB75a720301 [color="red"];
+  BB75a720301 -> BB75a720381 [color="blue"];
+  BB75a720342 -> BB75a720381 [color="blue"];
+  BB75a720381 -> BB75a7203c4 [color="blue"];
+}

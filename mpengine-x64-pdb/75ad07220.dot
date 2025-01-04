@@ -1,0 +1,22 @@
+digraph GetUncompressTableVA {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad07220 -> BB75ad0729a [color="green"];
+  BB75ad07220 -> BB75ad07295 [color="red"];
+  BB75ad07295 -> BB75ad0729a [color="red"];
+  BB75ad0729a -> BB75ad07358 [color="green"];
+  BB75ad0729a -> BB75ad072a3 [color="red"];
+  BB75ad072a3 -> BB75ad072cc [color="green"];
+  BB75ad072a3 -> BB75ad072c3 [color="red"];
+  BB75ad072c3 -> BB75ad072d5 [color="blue"];
+  BB75ad072cc -> BB75ad072d5 [color="blue"];
+  BB75ad072d5 -> BB75ad07358 [color="green"];
+  BB75ad072d5 -> BB75ad072f5 [color="red"];
+  BB75ad072f5 -> BB75ad07319 [color="green"];
+  BB75ad072f5 -> BB75ad0730f [color="red"];
+  BB75ad0730f -> BB75ad0732a [color="blue"];
+  BB75ad07319 -> BB75ad0732a [color="blue"];
+  BB75ad0732a -> BB75ad07358 [color="green"];
+  BB75ad0732a -> BB75ad07345 [color="red"];
+  BB75ad07345 -> BB75ad07358 [color="blue"];
+}

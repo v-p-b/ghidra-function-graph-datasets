@@ -1,0 +1,10 @@
+digraph ~CAutoImpersonate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a59bb5c -> BB75a59bb73 [color="green"];
+  BB75a59bb5c -> BB75a59bb6d [color="red"];
+  BB75a59bb73 -> BB75a59bb8f [color="green"];
+  BB75a59bb73 -> BB75a59bb79 [color="red"];
+  BB75a59bb79 -> BB75a59bb6d [color="blue"];
+  BB75a59bb8f -> BB75a59bb79 [color="blue"];
+}

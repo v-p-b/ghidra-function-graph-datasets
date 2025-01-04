@@ -1,0 +1,22 @@
+digraph truncate_ctrl_z_if_present {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7af950 -> BB75a7af9ff [color="green"];
+  BB75a7af950 -> BB75a7af987 [color="red"];
+  BB75a7af987 -> BB75a7af9ff [color="green"];
+  BB75a7af987 -> BB75a7af98d [color="red"];
+  BB75a7af98d -> BB75a7af9bb [color="green"];
+  BB75a7af98d -> BB75a7af9a5 [color="red"];
+  BB75a7af9a5 -> BB75a7af9ff [color="green"];
+  BB75a7af9a5 -> BB75a7af9b2 [color="red"];
+  BB75a7af9b2 -> BB75a7afa01 [color="blue"];
+  BB75a7af9bb -> BB75a7af9ed [color="green"];
+  BB75a7af9bb -> BB75a7af9d6 [color="red"];
+  BB75a7af9d6 -> BB75a7af9ed [color="green"];
+  BB75a7af9d6 -> BB75a7af9de [color="red"];
+  BB75a7af9de -> BB75a7af9b2 [color="green"];
+  BB75a7af9de -> BB75a7af9ed [color="red"];
+  BB75a7af9ed -> BB75a7af9b2 [color="green"];
+  BB75a7af9ed -> BB75a7af9ff [color="red"];
+  BB75a7af9ff -> BB75a7afa01 [color="blue"];
+}

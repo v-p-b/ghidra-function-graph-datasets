@@ -1,0 +1,11 @@
+digraph ZSTD_buildBlockEntropyStats_sequences {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abf8558 -> BB75abf85fb [color="green"];
+  BB75abf8558 -> BB75abf859d [color="red"];
+  BB75abf859d -> BB75abf863d [color="blue"];
+  BB75abf85fb -> BB75abf863d [color="blue"];
+  BB75abf863d -> BB75abf8677 [color="green"];
+  BB75abf863d -> BB75abf864f [color="red"];
+  BB75abf864f -> BB75abf8677 [color="blue"];
+}

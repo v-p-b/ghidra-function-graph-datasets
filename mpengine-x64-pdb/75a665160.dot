@@ -1,0 +1,10 @@
+digraph isTrustedPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a665160 -> BB75a66517a [color="green"];
+  BB75a665160 -> BB75a66516a [color="red"];
+  BB75a66516a -> BB75a665171 [color="blue"];
+  BB75a66517a -> BB75a66516a [color="green"];
+  BB75a66517a -> BB75a665183 [color="red"];
+  BB75a665183 -> BB75a665171 [color="blue"];
+}

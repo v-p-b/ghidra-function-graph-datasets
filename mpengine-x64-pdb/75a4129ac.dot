@@ -1,0 +1,14 @@
+digraph MonitorReadWriteVm {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4129ac -> BB75a412a26 [color="green"];
+  BB75a4129ac -> BB75a4129e7 [color="red"];
+  BB75a4129e7 -> BB75a4129f5 [color="green"];
+  BB75a4129e7 -> BB75a4129ef [color="red"];
+  BB75a4129ef -> BB75a4129f5 [color="blue"];
+  BB75a4129f5 -> BB75a412a26 [color="green"];
+  BB75a4129f5 -> BB75a412a08 [color="red"];
+  BB75a412a08 -> BB75a412a26 [color="green"];
+  BB75a412a08 -> BB75a412a0e [color="red"];
+  BB75a412a0e -> BB75a412a26 [color="red"];
+}

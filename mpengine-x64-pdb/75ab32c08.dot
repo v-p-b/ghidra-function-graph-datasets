@@ -1,0 +1,16 @@
+digraph PutBytes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab32c08 -> BB75ab32c2e [color="green"];
+  BB75ab32c08 -> BB75ab32c29 [color="red"];
+  BB75ab32c29 -> BB75ab32c2e [color="red"];
+  BB75ab32c2e -> BB75ab32c67 [color="green"];
+  BB75ab32c2e -> BB75ab32c3a [color="red"];
+  BB75ab32c3a -> BB75ab32c67 [color="green"];
+  BB75ab32c3a -> BB75ab32c40 [color="red"];
+  BB75ab32c40 -> BB75ab32c4c [color="green"];
+  BB75ab32c40 -> BB75ab32c47 [color="red"];
+  BB75ab32c47 -> BB75ab32c4c [color="red"];
+  BB75ab32c4c -> BB75ab32c69 [color="blue"];
+  BB75ab32c67 -> BB75ab32c69 [color="blue"];
+}

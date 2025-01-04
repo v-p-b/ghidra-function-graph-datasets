@@ -1,0 +1,25 @@
+digraph _cpu_extract_model {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a352810 -> BB75a352912 [color="green"];
+  BB75a352810 -> BB75a352845 [color="red"];
+  BB75a352845 -> BB75a352935 [color="green"];
+  BB75a352845 -> BB75a35284f [color="red"];
+  BB75a35284f -> BB75a3528c0 [color="green"];
+  BB75a35284f -> BB75a352858 [color="red"];
+  BB75a352858 -> BB75a3528c0 [color="green"];
+  BB75a352858 -> BB75a35286d [color="red"];
+  BB75a35286d -> BB75a3528de [color="green"];
+  BB75a35286d -> BB75a352881 [color="red"];
+  BB75a352881 -> BB75a352891 [color="red"];
+  BB75a352891 -> BB75a3528b4 [color="green"];
+  BB75a352891 -> BB75a352897 [color="red"];
+  BB75a352897 -> BB75a3528b4 [color="red"];
+  BB75a3528b4 -> BB75a3528c0 [color="red"];
+  BB75a3528de -> BB75a352904 [color="green"];
+  BB75a3528de -> BB75a3528ef [color="red"];
+  BB75a3528ef -> BB75a352891 [color="blue"];
+  BB75a352904 -> BB75a3528c0 [color="blue"];
+  BB75a352912 -> BB75a3528c0 [color="blue"];
+  BB75a352935 -> BB75a3528c0 [color="blue"];
+}

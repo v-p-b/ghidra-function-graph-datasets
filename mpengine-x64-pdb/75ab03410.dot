@@ -1,0 +1,14 @@
+digraph luaB_setfenv {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab03410 -> BB75ab03491 [color="green"];
+  BB75ab03410 -> BB75ab0344f [color="red"];
+  BB75ab0344f -> BB75ab03491 [color="green"];
+  BB75ab0344f -> BB75ab03461 [color="red"];
+  BB75ab03461 -> BB75ab0348b [color="red"];
+  BB75ab03491 -> BB75ab034b5 [color="green"];
+  BB75ab03491 -> BB75ab034a2 [color="red"];
+  BB75ab034a2 -> BB75ab034b5 [color="green"];
+  BB75ab034a2 -> BB75ab034ae [color="red"];
+  BB75ab034ae -> BB75ab0348b [color="blue"];
+}

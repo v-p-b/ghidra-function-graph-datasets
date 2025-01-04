@@ -1,0 +1,10 @@
+digraph ReturnLuaContext {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3198b0 -> BB75a31992c [color="green"];
+  BB75a3198b0 -> BB75a3198e1 [color="red"];
+  BB75a31992c -> BB75a31993b [color="green"];
+  BB75a31992c -> BB75a319935 [color="red"];
+  BB75a319935 -> BB75a3198e1 [color="blue"];
+  BB75a31993b -> BB75a319935 [color="blue"];
+}

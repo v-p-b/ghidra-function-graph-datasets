@@ -1,0 +1,10 @@
+digraph getGlobalPrototype {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1d00a8 -> BB75a1d00ff [color="green"];
+  BB75a1d00a8 -> BB75a1d00bf [color="red"];
+  BB75a1d00bf -> BB75a1d00ff [color="green"];
+  BB75a1d00bf -> BB75a1d00db [color="red"];
+  BB75a1d00db -> BB75a1d00ef [color="red"];
+  BB75a1d00ff -> BB75a1d00ef [color="blue"];
+}

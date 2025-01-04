@@ -1,0 +1,11 @@
+digraph GetProcessMitigationPolicy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a76f2a0 -> BB75a76f2ed [color="green"];
+  BB75a76f2a0 -> BB75a76f2cb [color="red"];
+  BB75a76f2cb -> BB75a76f2e6 [color="green"];
+  BB75a76f2cb -> BB75a76f2d7 [color="red"];
+  BB75a76f2d7 -> BB75a76f2fd [color="blue"];
+  BB75a76f2e6 -> BB75a76f2ed [color="blue"];
+  BB75a76f2ed -> BB75a76f2fd [color="red"];
+}

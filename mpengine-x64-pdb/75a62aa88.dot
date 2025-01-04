@@ -1,0 +1,18 @@
+digraph CloseSession {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a62aa88 -> BB75a62ab07 [color="green"];
+  BB75a62aa88 -> BB75a62aaa3 [color="red"];
+  BB75a62aaa3 -> BB75a62aaea [color="green"];
+  BB75a62aaa3 -> BB75a62aab5 [color="red"];
+  BB75a62aab5 -> BB75a62ab00 [color="green"];
+  BB75a62aab5 -> BB75a62aac0 [color="red"];
+  BB75a62aac0 -> BB75a62aad0 [color="red"];
+  BB75a62aad0 -> BB75a62aada [color="red"];
+  BB75a62aaea -> BB75a62aaf9 [color="green"];
+  BB75a62aaea -> BB75a62aaf4 [color="red"];
+  BB75a62aaf4 -> BB75a62aaf9 [color="red"];
+  BB75a62aaf9 -> BB75a62aada [color="blue"];
+  BB75a62ab00 -> BB75a62aad0 [color="blue"];
+  BB75a62ab07 -> BB75a62aada [color="blue"];
+}

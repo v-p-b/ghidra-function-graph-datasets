@@ -1,0 +1,10 @@
+digraph sqlite3PagerCheckpoint {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a459c0c -> BB75a459c30 [color="green"];
+  BB75a459c0c -> BB75a459c27 [color="red"];
+  BB75a459c30 -> BB75a459c81 [color="green"];
+  BB75a459c30 -> BB75a459c35 [color="red"];
+  BB75a459c35 -> BB75a459c27 [color="blue"];
+  BB75a459c81 -> BB75a459c35 [color="blue"];
+}

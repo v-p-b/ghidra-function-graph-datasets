@@ -1,0 +1,19 @@
+digraph sqlite3VdbeSorterCompare {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a47bcb0 -> BB75a47bd04 [color="green"];
+  BB75a47bcb0 -> BB75a47bce6 [color="red"];
+  BB75a47bce6 -> BB75a47bcff [color="green"];
+  BB75a47bce6 -> BB75a47bcfa [color="red"];
+  BB75a47bcfa -> BB75a47bd5a [color="blue"];
+  BB75a47bcff -> BB75a47bd04 [color="blue"];
+  BB75a47bd04 -> BB75a47bd26 [color="red"];
+  BB75a47bd26 -> BB75a47bd43 [color="green"];
+  BB75a47bd26 -> BB75a47bd2b [color="red"];
+  BB75a47bd2b -> BB75a47bd3e [color="green"];
+  BB75a47bd2b -> BB75a47bd36 [color="red"];
+  BB75a47bd36 -> BB75a47bd26 [color="blue"];
+  BB75a47bd3e -> BB75a47bd58 [color="blue"];
+  BB75a47bd43 -> BB75a47bd58 [color="red"];
+  BB75a47bd58 -> BB75a47bd5a [color="blue"];
+}

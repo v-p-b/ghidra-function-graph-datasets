@@ -1,0 +1,15 @@
+digraph init_global_BBs<class_RPF_BBhash> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a231c24 -> BB75a231d3c [color="green"];
+  BB75a231c24 -> BB75a231c9a [color="red"];
+  BB75a231c9a -> BB75a231d3c [color="green"];
+  BB75a231c9a -> BB75a231ca5 [color="red"];
+  BB75a231ca5 -> BB75a231d45 [color="green"];
+  BB75a231ca5 -> BB75a231cbf [color="red"];
+  BB75a231cbf -> BB75a231d45 [color="green"];
+  BB75a231cbf -> BB75a231d04 [color="red"];
+  BB75a231d04 -> BB75a231d6e [color="blue"];
+  BB75a231d3c -> BB75a231d45 [color="red"];
+  BB75a231d45 -> BB75a231d6e [color="red"];
+}

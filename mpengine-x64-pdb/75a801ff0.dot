@@ -1,0 +1,26 @@
+digraph Rollback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a801ff0 -> BB75a802009 [color="green"];
+  BB75a801ff0 -> BB75a802004 [color="red"];
+  BB75a802004 -> BB75a802009 [color="red"];
+  BB75a802009 -> BB75a802015 [color="green"];
+  BB75a802009 -> BB75a802010 [color="red"];
+  BB75a802010 -> BB75a802015 [color="red"];
+  BB75a802015 -> BB75a80205b [color="green"];
+  BB75a802015 -> BB75a802026 [color="red"];
+  BB75a802026 -> BB75a802054 [color="green"];
+  BB75a802026 -> BB75a802039 [color="red"];
+  BB75a802039 -> BB75a802054 [color="green"];
+  BB75a802039 -> BB75a80203f [color="red"];
+  BB75a80203f -> BB75a802054 [color="red"];
+  BB75a802054 -> BB75a8020bf [color="blue"];
+  BB75a80205b -> BB75a8020a8 [color="green"];
+  BB75a80205b -> BB75a802072 [color="red"];
+  BB75a802072 -> BB75a8020a8 [color="green"];
+  BB75a802072 -> BB75a802085 [color="red"];
+  BB75a802085 -> BB75a8020a8 [color="green"];
+  BB75a802085 -> BB75a80208b [color="red"];
+  BB75a80208b -> BB75a8020a8 [color="red"];
+  BB75a8020a8 -> BB75a8020bf [color="red"];
+}

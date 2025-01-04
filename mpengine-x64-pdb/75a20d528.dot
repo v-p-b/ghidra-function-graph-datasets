@@ -1,0 +1,14 @@
+digraph GroupShouldInheritRecId {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a20d528 -> BB75a20d550 [color="green"];
+  BB75a20d528 -> BB75a20d53b [color="red"];
+  BB75a20d53b -> BB75a20d56a [color="green"];
+  BB75a20d53b -> BB75a20d547 [color="red"];
+  BB75a20d547 -> BB75a20d558 [color="green"];
+  BB75a20d547 -> BB75a20d550 [color="red"];
+  BB75a20d550 -> BB75a20d552 [color="blue"];
+  BB75a20d558 -> BB75a20d550 [color="green"];
+  BB75a20d558 -> BB75a20d56a [color="red"];
+  BB75a20d56a -> BB75a20d552 [color="blue"];
+}

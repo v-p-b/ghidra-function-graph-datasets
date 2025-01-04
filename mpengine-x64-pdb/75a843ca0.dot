@@ -1,0 +1,23 @@
+digraph CollectStates {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a843ca0 -> BB75a843d00 [color="green"];
+  BB75a843ca0 -> BB75a843cf6 [color="red"];
+  BB75a843cf6 -> BB75a843ff6 [color="blue"];
+  BB75a843d00 -> BB75a843d5c [color="green"];
+  BB75a843d00 -> BB75a843d45 [color="red"];
+  BB75a843d45 -> BB75a843d53 [color="green"];
+  BB75a843d45 -> BB75a843d4a [color="red"];
+  BB75a843d4a -> BB75a843d63 [color="blue"];
+  BB75a843d53 -> BB75a843d63 [color="blue"];
+  BB75a843d5c -> BB75a843d63 [color="blue"];
+  BB75a843d63 -> BB75a843f7e [color="green"];
+  BB75a843d63 -> BB75a843f35 [color="red"];
+  BB75a843f35 -> BB75a843f7e [color="green"];
+  BB75a843f35 -> BB75a843f3f [color="red"];
+  BB75a843f3f -> BB75a843f7e [color="red"];
+  BB75a843f7e -> BB75a843feb [color="green"];
+  BB75a843f7e -> BB75a843fe2 [color="red"];
+  BB75a843fe2 -> BB75a843feb [color="red"];
+  BB75a843feb -> BB75a843ff6 [color="red"];
+}

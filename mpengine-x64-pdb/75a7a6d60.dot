@@ -1,0 +1,11 @@
+digraph __acrt_execute_uninitializers {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7a6d60 -> BB75a7a6d8f [color="green"];
+  BB75a7a6d60 -> BB75a7a6d75 [color="red"];
+  BB75a7a6d75 -> BB75a7a6d86 [color="green"];
+  BB75a7a6d75 -> BB75a7a6d7e [color="red"];
+  BB75a7a6d7e -> BB75a7a6d86 [color="red"];
+  BB75a7a6d86 -> BB75a7a6d75 [color="green"];
+  BB75a7a6d86 -> BB75a7a6d8f [color="red"];
+}

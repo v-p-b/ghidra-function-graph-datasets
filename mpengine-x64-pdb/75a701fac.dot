@@ -1,0 +1,10 @@
+digraph CleanupTpmConfig {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a701fac -> BB75a701ff7 [color="green"];
+  BB75a701fac -> BB75a701fb9 [color="red"];
+  BB75a701fb9 -> BB75a701fed [color="green"];
+  BB75a701fb9 -> BB75a701fd9 [color="red"];
+  BB75a701fd9 -> BB75a701fed [color="red"];
+  BB75a701fed -> BB75a701ff7 [color="red"];
+}

@@ -1,0 +1,10 @@
+digraph testCache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aabb190 -> BB75aabb1bd [color="green"];
+  BB75aabb190 -> BB75aabb1a0 [color="red"];
+  BB75aabb1a0 -> BB75aabb1b9 [color="green"];
+  BB75aabb1a0 -> BB75aabb1b2 [color="red"];
+  BB75aabb1b2 -> BB75aabb1b9 [color="blue"];
+  BB75aabb1b9 -> BB75aabb1bd [color="blue"];
+}

@@ -1,0 +1,7 @@
+digraph __scrt_uninitialize_thread_safe_statics {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7b1d50 -> BB75a7b1d73 [color="green"];
+  BB75a7b1d50 -> BB75a7b1d6d [color="red"];
+  BB75a7b1d6d -> BB75a7b1d73 [color="red"];
+}

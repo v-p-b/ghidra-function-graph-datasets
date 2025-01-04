@@ -1,0 +1,17 @@
+digraph GetProcessRelationship {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a201a48 -> BB75a201a72 [color="green"];
+  BB75a201a48 -> BB75a201a65 [color="red"];
+  BB75a201a65 -> BB75a201a72 [color="blue"];
+  BB75a201a72 -> BB75a201a8d [color="green"];
+  BB75a201a72 -> BB75a201a77 [color="red"];
+  BB75a201a77 -> BB75a201a85 [color="red"];
+  BB75a201a8d -> BB75a201ad8 [color="green"];
+  BB75a201a8d -> BB75a201aa7 [color="red"];
+  BB75a201aa7 -> BB75a201ad8 [color="green"];
+  BB75a201aa7 -> BB75a201ac1 [color="red"];
+  BB75a201ac1 -> BB75a201add [color="blue"];
+  BB75a201ad8 -> BB75a201add [color="blue"];
+  BB75a201add -> BB75a201a85 [color="blue"];
+}

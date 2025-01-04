@@ -1,0 +1,12 @@
+digraph ZSTD_nextSrcSizeToDecompressWithInputSize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6ee584 -> BB75a6ee5a3 [color="green"];
+  BB75a6ee584 -> BB75a6ee59b [color="red"];
+  BB75a6ee5a3 -> BB75a6ee5d0 [color="green"];
+  BB75a6ee5a3 -> BB75a6ee5b7 [color="red"];
+  BB75a6ee5b7 -> BB75a6ee5cd [color="green"];
+  BB75a6ee5b7 -> BB75a6ee5c3 [color="red"];
+  BB75a6ee5c3 -> BB75a6ee5cd [color="blue"];
+  BB75a6ee5cd -> BB75a6ee5d0 [color="blue"];
+}

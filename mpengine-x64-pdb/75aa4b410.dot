@@ -1,0 +1,13 @@
+digraph RestoreEntryPoint {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa4b410 -> BB75aa4b495 [color="green"];
+  BB75aa4b410 -> BB75aa4b45d [color="red"];
+  BB75aa4b45d -> BB75aa4b495 [color="green"];
+  BB75aa4b45d -> BB75aa4b47a [color="red"];
+  BB75aa4b47a -> BB75aa4b490 [color="green"];
+  BB75aa4b47a -> BB75aa4b483 [color="red"];
+  BB75aa4b483 -> BB75aa4b493 [color="blue"];
+  BB75aa4b490 -> BB75aa4b493 [color="blue"];
+  BB75aa4b493 -> BB75aa4b495 [color="blue"];
+}

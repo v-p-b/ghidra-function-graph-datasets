@@ -1,0 +1,11 @@
+digraph ZSTD_frameHeaderSize_internal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac03118 -> BB75ac03133 [color="green"];
+  BB75ac03118 -> BB75ac0312b [color="red"];
+  BB75ac03133 -> BB75ac03161 [color="green"];
+  BB75ac03133 -> BB75ac0315d [color="red"];
+  BB75ac0315d -> BB75ac03164 [color="green"];
+  BB75ac0315d -> BB75ac03161 [color="red"];
+  BB75ac03161 -> BB75ac03164 [color="blue"];
+}

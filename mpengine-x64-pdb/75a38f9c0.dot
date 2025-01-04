@@ -1,0 +1,18 @@
+digraph NTDLL_DLL_VFS_SetAttrib {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a38f9c0 -> BB75a38fab6 [color="green"];
+  BB75a38f9c0 -> BB75a38fa2e [color="red"];
+  BB75a38fa2e -> BB75a38fab6 [color="green"];
+  BB75a38fa2e -> BB75a38fa38 [color="red"];
+  BB75a38fa38 -> BB75a38fb01 [color="green"];
+  BB75a38fa38 -> BB75a38fa5c [color="red"];
+  BB75a38fa5c -> BB75a38faac [color="green"];
+  BB75a38fa5c -> BB75a38fa92 [color="red"];
+  BB75a38fa92 -> BB75a38faac [color="red"];
+  BB75a38faac -> BB75a38fab6 [color="red"];
+  BB75a38fab6 -> BB75a38fad4 [color="green"];
+  BB75a38fab6 -> BB75a38fac8 [color="red"];
+  BB75a38fac8 -> BB75a38fad4 [color="blue"];
+  BB75a38fb01 -> BB75a38fab6 [color="blue"];
+}

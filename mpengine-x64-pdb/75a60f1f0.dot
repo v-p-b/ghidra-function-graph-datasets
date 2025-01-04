@@ -1,0 +1,14 @@
+digraph default_read_cpuid {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a60f1f0 -> BB75a60f246 [color="green"];
+  BB75a60f1f0 -> BB75a60f1f5 [color="red"];
+  BB75a60f1f5 -> BB75a60f234 [color="green"];
+  BB75a60f1f5 -> BB75a60f218 [color="red"];
+  BB75a60f218 -> BB75a60f234 [color="green"];
+  BB75a60f218 -> BB75a60f21d [color="red"];
+  BB75a60f21d -> BB75a60f234 [color="green"];
+  BB75a60f21d -> BB75a60f222 [color="red"];
+  BB75a60f222 -> BB75a60f234 [color="blue"];
+  BB75a60f234 -> BB75a60f246 [color="red"];
+}

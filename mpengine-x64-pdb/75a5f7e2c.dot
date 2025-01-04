@@ -1,0 +1,20 @@
+digraph IsVersionInfoNameSimilar {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5f7e2c -> BB75a5f7e8b [color="green"];
+  BB75a5f7e2c -> BB75a5f7e4c [color="red"];
+  BB75a5f7e4c -> BB75a5f7eb2 [color="green"];
+  BB75a5f7e4c -> BB75a5f7e5b [color="red"];
+  BB75a5f7e5b -> BB75a5f7e8b [color="green"];
+  BB75a5f7e5b -> BB75a5f7e6b [color="red"];
+  BB75a5f7e6b -> BB75a5f7e8b [color="green"];
+  BB75a5f7e6b -> BB75a5f7e70 [color="red"];
+  BB75a5f7e70 -> BB75a5f7e7d [color="blue"];
+  BB75a5f7e7d -> BB75a5f7e7d [color="green"];
+  BB75a5f7e7d -> BB75a5f7e86 [color="red"];
+  BB75a5f7e86 -> BB75a5f7e9d [color="green"];
+  BB75a5f7e86 -> BB75a5f7e8b [color="red"];
+  BB75a5f7e8b -> BB75a5f7e8d [color="blue"];
+  BB75a5f7e9d -> BB75a5f7e8d [color="blue"];
+  BB75a5f7eb2 -> BB75a5f7e8d [color="blue"];
+}

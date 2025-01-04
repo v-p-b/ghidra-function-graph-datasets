@@ -1,0 +1,14 @@
+digraph MpCpuThresholdEnd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a70fab0 -> BB75a70fad3 [color="green"];
+  BB75a70fab0 -> BB75a70fabd [color="red"];
+  BB75a70fabd -> BB75a70fad3 [color="green"];
+  BB75a70fabd -> BB75a70fac9 [color="red"];
+  BB75a70fac9 -> BB75a70fb0b [color="blue"];
+  BB75a70fad3 -> BB75a70fb0b [color="green"];
+  BB75a70fad3 -> BB75a70faf0 [color="red"];
+  BB75a70faf0 -> BB75a70fb0b [color="green"];
+  BB75a70faf0 -> BB75a70faf6 [color="red"];
+  BB75a70faf6 -> BB75a70fb0b [color="red"];
+}

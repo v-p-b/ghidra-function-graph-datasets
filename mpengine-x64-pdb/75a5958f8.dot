@@ -1,0 +1,10 @@
+digraph vdbeMemClear {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5958f8 -> BB75a59592e [color="green"];
+  BB75a5958f8 -> BB75a59590c [color="red"];
+  BB75a59590c -> BB75a595923 [color="green"];
+  BB75a59590c -> BB75a595912 [color="red"];
+  BB75a595912 -> BB75a595923 [color="red"];
+  BB75a59592e -> BB75a59590c [color="blue"];
+}

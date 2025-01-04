@@ -1,0 +1,15 @@
+digraph Protect {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a346fe4 -> BB75a3470e2 [color="green"];
+  BB75a346fe4 -> BB75a347034 [color="red"];
+  BB75a347034 -> BB75a3470e2 [color="green"];
+  BB75a347034 -> BB75a347044 [color="red"];
+  BB75a347044 -> BB75a3470e2 [color="green"];
+  BB75a347044 -> BB75a34706a [color="red"];
+  BB75a34706a -> BB75a3470bd [color="green"];
+  BB75a34706a -> BB75a3470b8 [color="red"];
+  BB75a3470b8 -> BB75a3470bd [color="red"];
+  BB75a3470bd -> BB75a3470bf [color="blue"];
+  BB75a3470e2 -> BB75a3470bf [color="blue"];
+}

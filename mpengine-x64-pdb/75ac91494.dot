@@ -1,0 +1,12 @@
+digraph RegisterRawWriteCallback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac91494 -> BB75ac914ed [color="green"];
+  BB75ac91494 -> BB75ac914bd [color="red"];
+  BB75ac914bd -> BB75ac9150c [color="green"];
+  BB75ac914bd -> BB75ac914d0 [color="red"];
+  BB75ac914d0 -> BB75ac9150c [color="green"];
+  BB75ac914d0 -> BB75ac914d6 [color="red"];
+  BB75ac914d6 -> BB75ac9150c [color="blue"];
+  BB75ac914ed -> BB75ac9150c [color="red"];
+}

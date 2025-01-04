@@ -1,0 +1,13 @@
+digraph NTDLL_DLL_VFS_Read {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa73a60 -> BB75aa73b2b [color="green"];
+  BB75aa73a60 -> BB75aa73ae1 [color="red"];
+  BB75aa73ae1 -> BB75aa73b2b [color="green"];
+  BB75aa73ae1 -> BB75aa73ae6 [color="red"];
+  BB75aa73ae6 -> BB75aa73b2b [color="green"];
+  BB75aa73ae6 -> BB75aa73b19 [color="red"];
+  BB75aa73b19 -> BB75aa73b2b [color="green"];
+  BB75aa73b19 -> BB75aa73b20 [color="red"];
+  BB75aa73b20 -> BB75aa73b2b [color="red"];
+}

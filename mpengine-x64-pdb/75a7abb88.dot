@@ -1,0 +1,22 @@
+digraph write_text_utf16le_nolock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7abb88 -> BB75a7abc7b [color="green"];
+  BB75a7abb88 -> BB75a7abbf4 [color="red"];
+  BB75a7abbf4 -> BB75a7abbf9 [color="blue"];
+  BB75a7abbf9 -> BB75a7abc2f [color="green"];
+  BB75a7abbf9 -> BB75a7abbfe [color="red"];
+  BB75a7abbfe -> BB75a7abc1b [color="green"];
+  BB75a7abbfe -> BB75a7abc0b [color="red"];
+  BB75a7abc0b -> BB75a7abc1b [color="blue"];
+  BB75a7abc1b -> BB75a7abbf9 [color="green"];
+  BB75a7abc1b -> BB75a7abc2f [color="red"];
+  BB75a7abc2f -> BB75a7abc73 [color="green"];
+  BB75a7abc2f -> BB75a7abc61 [color="red"];
+  BB75a7abc61 -> BB75a7abc7b [color="green"];
+  BB75a7abc61 -> BB75a7abc6c [color="red"];
+  BB75a7abc6c -> BB75a7abbf4 [color="green"];
+  BB75a7abc6c -> BB75a7abc71 [color="red"];
+  BB75a7abc71 -> BB75a7abc7b [color="blue"];
+  BB75a7abc73 -> BB75a7abc7b [color="red"];
+}

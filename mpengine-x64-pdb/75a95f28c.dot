@@ -1,0 +1,22 @@
+digraph get_normalized_address {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a95f28c -> BB75a95f310 [color="green"];
+  BB75a95f28c -> BB75a95f304 [color="red"];
+  BB75a95f304 -> BB75a95f310 [color="green"];
+  BB75a95f304 -> BB75a95f30a [color="red"];
+  BB75a95f30a -> BB75a95f333 [color="green"];
+  BB75a95f30a -> BB75a95f310 [color="red"];
+  BB75a95f310 -> BB75a95f344 [color="green"];
+  BB75a95f310 -> BB75a95f31b [color="red"];
+  BB75a95f31b -> BB75a95f344 [color="green"];
+  BB75a95f31b -> BB75a95f321 [color="red"];
+  BB75a95f321 -> BB75a95f344 [color="green"];
+  BB75a95f321 -> BB75a95f327 [color="red"];
+  BB75a95f327 -> BB75a95f333 [color="blue"];
+  BB75a95f333 -> BB75a95f344 [color="blue"];
+  BB75a95f344 -> BB75a95f388 [color="green"];
+  BB75a95f344 -> BB75a95f348 [color="red"];
+  BB75a95f348 -> BB75a95f3cc [color="blue"];
+  BB75a95f388 -> BB75a95f3cc [color="red"];
+}

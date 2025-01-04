@@ -1,0 +1,14 @@
+digraph MpRbMPlatformServiceDeadlockToleranceCountEnd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8a08f0 -> BB75a8a0913 [color="green"];
+  BB75a8a08f0 -> BB75a8a08fd [color="red"];
+  BB75a8a08fd -> BB75a8a0913 [color="green"];
+  BB75a8a08fd -> BB75a8a0909 [color="red"];
+  BB75a8a0909 -> BB75a8a094b [color="blue"];
+  BB75a8a0913 -> BB75a8a094b [color="green"];
+  BB75a8a0913 -> BB75a8a0930 [color="red"];
+  BB75a8a0930 -> BB75a8a094b [color="green"];
+  BB75a8a0930 -> BB75a8a0936 [color="red"];
+  BB75a8a0936 -> BB75a8a094b [color="red"];
+}

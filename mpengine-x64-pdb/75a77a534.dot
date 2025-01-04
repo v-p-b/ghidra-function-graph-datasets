@@ -1,0 +1,10 @@
+digraph __acrt_get_begin_thread_init_policy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a77a534 -> BB75a77a56e [color="green"];
+  BB75a77a534 -> BB75a77a543 [color="red"];
+  BB75a77a543 -> BB75a77a55a [color="green"];
+  BB75a77a543 -> BB75a77a550 [color="red"];
+  BB75a77a550 -> BB75a77a55a [color="red"];
+  BB75a77a55a -> BB75a77a56e [color="blue"];
+}

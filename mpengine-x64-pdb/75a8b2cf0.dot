@@ -1,0 +1,15 @@
+digraph tdt_cleanup_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8b2cf0 -> BB75a8b2d38 [color="green"];
+  BB75a8b2cf0 -> BB75a8b2d0a [color="red"];
+  BB75a8b2d0a -> BB75a8b2d5c [color="green"];
+  BB75a8b2d0a -> BB75a8b2d1d [color="red"];
+  BB75a8b2d1d -> BB75a8b2d5c [color="green"];
+  BB75a8b2d1d -> BB75a8b2d23 [color="red"];
+  BB75a8b2d23 -> BB75a8b2d5c [color="blue"];
+  BB75a8b2d38 -> BB75a8b2d44 [color="blue"];
+  BB75a8b2d44 -> BB75a8b2d44 [color="green"];
+  BB75a8b2d44 -> BB75a8b2d56 [color="red"];
+  BB75a8b2d56 -> BB75a8b2d5c [color="blue"];
+}

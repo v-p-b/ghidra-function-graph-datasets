@@ -1,0 +1,28 @@
+digraph WaitForFileCopyComplete {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a80cd58 -> BB75a80ce29 [color="green"];
+  BB75a80cd58 -> BB75a80cd78 [color="red"];
+  BB75a80cd78 -> BB75a80cdab [color="green"];
+  BB75a80cd78 -> BB75a80cd7d [color="red"];
+  BB75a80cd7d -> BB75a80ce29 [color="green"];
+  BB75a80cd7d -> BB75a80cd8d [color="red"];
+  BB75a80cd8d -> BB75a80ce0d [color="green"];
+  BB75a80cd8d -> BB75a80cda0 [color="red"];
+  BB75a80cda0 -> BB75a80ce0d [color="green"];
+  BB75a80cda0 -> BB75a80cda6 [color="red"];
+  BB75a80cda6 -> BB75a80cdfa [color="blue"];
+  BB75a80cdab -> BB75a80ce14 [color="green"];
+  BB75a80cdab -> BB75a80cddc [color="red"];
+  BB75a80cddc -> BB75a80ce0d [color="green"];
+  BB75a80cddc -> BB75a80cdef [color="red"];
+  BB75a80cdef -> BB75a80ce0d [color="green"];
+  BB75a80cdef -> BB75a80cdf5 [color="red"];
+  BB75a80cdf5 -> BB75a80cdfa [color="blue"];
+  BB75a80cdfa -> BB75a80ce0d [color="red"];
+  BB75a80ce0d -> BB75a80ce2b [color="blue"];
+  BB75a80ce14 -> BB75a80ce2b [color="green"];
+  BB75a80ce14 -> BB75a80ce18 [color="red"];
+  BB75a80ce18 -> BB75a80ce2b [color="blue"];
+  BB75a80ce29 -> BB75a80ce2b [color="blue"];
+}

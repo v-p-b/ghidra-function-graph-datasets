@@ -1,0 +1,19 @@
+digraph get_loop_icnt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a55c26c -> BB75a55c2ea [color="green"];
+  BB75a55c26c -> BB75a55c293 [color="red"];
+  BB75a55c293 -> BB75a55c2cd [color="green"];
+  BB75a55c293 -> BB75a55c2a4 [color="red"];
+  BB75a55c2a4 -> BB75a55c2a8 [color="blue"];
+  BB75a55c2a8 -> BB75a55c2fa [color="green"];
+  BB75a55c2a8 -> BB75a55c2b6 [color="red"];
+  BB75a55c2b6 -> BB75a55c2a8 [color="green"];
+  BB75a55c2b6 -> BB75a55c2cd [color="red"];
+  BB75a55c2cd -> BB75a55c2cf [color="blue"];
+  BB75a55c2ea -> BB75a55c301 [color="green"];
+  BB75a55c2ea -> BB75a55c2f2 [color="red"];
+  BB75a55c2f2 -> BB75a55c2cf [color="blue"];
+  BB75a55c2fa -> BB75a55c2b6 [color="blue"];
+  BB75a55c301 -> BB75a55c2f2 [color="blue"];
+}

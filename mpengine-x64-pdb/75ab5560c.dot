@@ -1,0 +1,14 @@
+digraph rowSetNDeepTree {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5560c -> BB75ab5562a [color="green"];
+  BB75ab5560c -> BB75ab55626 [color="red"];
+  BB75ab55626 -> BB75ab55670 [color="blue"];
+  BB75ab5562a -> BB75ab5565c [color="green"];
+  BB75ab5562a -> BB75ab5562f [color="red"];
+  BB75ab5562f -> BB75ab55670 [color="green"];
+  BB75ab5562f -> BB75ab55641 [color="red"];
+  BB75ab55641 -> BB75ab5566d [color="blue"];
+  BB75ab5565c -> BB75ab5566d [color="blue"];
+  BB75ab5566d -> BB75ab55670 [color="blue"];
+}

@@ -1,0 +1,9 @@
+digraph __acrt_stdio_free_buffer_nolock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7a9a54 -> BB75a7a9a90 [color="green"];
+  BB75a7a9a54 -> BB75a7a9a68 [color="red"];
+  BB75a7a9a68 -> BB75a7a9a90 [color="green"];
+  BB75a7a9a68 -> BB75a7a9a73 [color="red"];
+  BB75a7a9a73 -> BB75a7a9a90 [color="red"];
+}

@@ -1,0 +1,18 @@
+digraph OnCommit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7ff7e0 -> BB75a7ff7ff [color="green"];
+  BB75a7ff7e0 -> BB75a7ff7fa [color="red"];
+  BB75a7ff7fa -> BB75a7ff7ff [color="red"];
+  BB75a7ff7ff -> BB75a7ff80b [color="green"];
+  BB75a7ff7ff -> BB75a7ff806 [color="red"];
+  BB75a7ff806 -> BB75a7ff80b [color="red"];
+  BB75a7ff80b -> BB75a7ff88b [color="green"];
+  BB75a7ff80b -> BB75a7ff854 [color="red"];
+  BB75a7ff854 -> BB75a7ff88d [color="green"];
+  BB75a7ff854 -> BB75a7ff867 [color="red"];
+  BB75a7ff867 -> BB75a7ff88d [color="green"];
+  BB75a7ff867 -> BB75a7ff86d [color="red"];
+  BB75a7ff86d -> BB75a7ff88d [color="blue"];
+  BB75a7ff88b -> BB75a7ff88d [color="blue"];
+}

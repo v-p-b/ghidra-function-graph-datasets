@@ -1,0 +1,32 @@
+digraph CanReplaceOnReboot {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a803ce8 -> BB75a803d49 [color="green"];
+  BB75a803ce8 -> BB75a803d0c [color="red"];
+  BB75a803d0c -> BB75a803d45 [color="green"];
+  BB75a803d0c -> BB75a803d1f [color="red"];
+  BB75a803d1f -> BB75a803d45 [color="green"];
+  BB75a803d1f -> BB75a803d25 [color="red"];
+  BB75a803d25 -> BB75a803d45 [color="red"];
+  BB75a803d45 -> BB75a803d4d [color="blue"];
+  BB75a803d49 -> BB75a803d4d [color="blue"];
+  BB75a803d4d -> BB75a803db2 [color="green"];
+  BB75a803d4d -> BB75a803d59 [color="red"];
+  BB75a803d59 -> BB75a803db2 [color="green"];
+  BB75a803d59 -> BB75a803d69 [color="red"];
+  BB75a803d69 -> BB75a803db2 [color="green"];
+  BB75a803d69 -> BB75a803d72 [color="red"];
+  BB75a803d72 -> BB75a803db2 [color="green"];
+  BB75a803d72 -> BB75a803d7c [color="red"];
+  BB75a803d7c -> BB75a803db2 [color="green"];
+  BB75a803d7c -> BB75a803d8e [color="red"];
+  BB75a803d8e -> BB75a803db2 [color="green"];
+  BB75a803d8e -> BB75a803d93 [color="red"];
+  BB75a803d93 -> BB75a803db2 [color="green"];
+  BB75a803d93 -> BB75a803d99 [color="red"];
+  BB75a803d99 -> BB75a803db2 [color="green"];
+  BB75a803d99 -> BB75a803da2 [color="red"];
+  BB75a803da2 -> BB75a803db5 [color="green"];
+  BB75a803da2 -> BB75a803db2 [color="red"];
+  BB75a803db2 -> BB75a803db5 [color="blue"];
+}

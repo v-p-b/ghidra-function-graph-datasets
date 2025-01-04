@@ -1,0 +1,9 @@
+digraph sqlite3PagerSync {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab56a40 -> BB75ab56a7a [color="green"];
+  BB75ab56a40 -> BB75ab56a66 [color="red"];
+  BB75ab56a66 -> BB75ab56a7a [color="green"];
+  BB75ab56a66 -> BB75ab56a6b [color="red"];
+  BB75ab56a6b -> BB75ab56a7a [color="red"];
+}

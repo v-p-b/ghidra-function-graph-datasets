@@ -1,0 +1,28 @@
+digraph GetDiskFootprint {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abd3358 -> BB75abd33d2 [color="green"];
+  BB75abd3358 -> BB75abd33b1 [color="red"];
+  BB75abd33b1 -> BB75abd33b1 [color="green"];
+  BB75abd33b1 -> BB75abd33d2 [color="red"];
+  BB75abd33d2 -> BB75abd3475 [color="green"];
+  BB75abd33d2 -> BB75abd33df [color="red"];
+  BB75abd33df -> BB75abd33df [color="green"];
+  BB75abd33df -> BB75abd3475 [color="red"];
+  BB75abd3475 -> BB75abd349b [color="green"];
+  BB75abd3475 -> BB75abd347a [color="red"];
+  BB75abd347a -> BB75abd347a [color="green"];
+  BB75abd347a -> BB75abd349b [color="red"];
+  BB75abd349b -> BB75abd34ed [color="green"];
+  BB75abd349b -> BB75abd34cc [color="red"];
+  BB75abd34cc -> BB75abd34cc [color="green"];
+  BB75abd34cc -> BB75abd34ed [color="red"];
+  BB75abd34ed -> BB75abd3590 [color="green"];
+  BB75abd34ed -> BB75abd34fa [color="red"];
+  BB75abd34fa -> BB75abd34fa [color="green"];
+  BB75abd34fa -> BB75abd3590 [color="red"];
+  BB75abd3590 -> BB75abd35b6 [color="green"];
+  BB75abd3590 -> BB75abd3595 [color="red"];
+  BB75abd3595 -> BB75abd3595 [color="green"];
+  BB75abd3595 -> BB75abd35b6 [color="red"];
+}

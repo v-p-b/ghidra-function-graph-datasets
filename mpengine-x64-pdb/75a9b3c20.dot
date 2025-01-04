@@ -1,0 +1,15 @@
+digraph push_configs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9b3c20 -> BB75a9b3d22 [color="green"];
+  BB75a9b3c20 -> BB75a9b3c86 [color="red"];
+  BB75a9b3c86 -> BB75a9b3ca0 [color="green"];
+  BB75a9b3c86 -> BB75a9b3c9a [color="red"];
+  BB75a9b3c9a -> BB75a9b3ca0 [color="blue"];
+  BB75a9b3ca0 -> BB75a9b3d22 [color="green"];
+  BB75a9b3ca0 -> BB75a9b3ca5 [color="red"];
+  BB75a9b3ca5 -> BB75a9b3d1c [color="green"];
+  BB75a9b3ca5 -> BB75a9b3cb5 [color="red"];
+  BB75a9b3cb5 -> BB75a9b3d22 [color="blue"];
+  BB75a9b3d1c -> BB75a9b3d22 [color="blue"];
+}

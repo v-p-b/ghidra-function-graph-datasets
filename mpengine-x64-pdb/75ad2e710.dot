@@ -1,0 +1,13 @@
+digraph GetAttributePriority {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad2e710 -> BB75ad2e77e [color="green"];
+  BB75ad2e710 -> BB75ad2e73c [color="red"];
+  BB75ad2e73c -> BB75ad2e77e [color="green"];
+  BB75ad2e73c -> BB75ad2e74f [color="red"];
+  BB75ad2e74f -> BB75ad2e77e [color="green"];
+  BB75ad2e74f -> BB75ad2e762 [color="red"];
+  BB75ad2e762 -> BB75ad2e77e [color="green"];
+  BB75ad2e762 -> BB75ad2e768 [color="red"];
+  BB75ad2e768 -> BB75ad2e77e [color="red"];
+}

@@ -1,0 +1,27 @@
+digraph ~EtwTraceHelper {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac2a67c -> BB75ac2a78d [color="green"];
+  BB75ac2a67c -> BB75ac2a6a1 [color="red"];
+  BB75ac2a6a1 -> BB75ac2a78d [color="green"];
+  BB75ac2a6a1 -> BB75ac2a6ae [color="red"];
+  BB75ac2a6ae -> BB75ac2a6cb [color="green"];
+  BB75ac2a6ae -> BB75ac2a6bf [color="red"];
+  BB75ac2a6bf -> BB75ac2a6d8 [color="green"];
+  BB75ac2a6bf -> BB75ac2a6cb [color="red"];
+  BB75ac2a6cb -> BB75ac2a784 [color="green"];
+  BB75ac2a6cb -> BB75ac2a6d8 [color="red"];
+  BB75ac2a6d8 -> BB75ac2a746 [color="green"];
+  BB75ac2a6d8 -> BB75ac2a6ff [color="red"];
+  BB75ac2a6ff -> BB75ac2a711 [color="green"];
+  BB75ac2a6ff -> BB75ac2a708 [color="red"];
+  BB75ac2a708 -> BB75ac2a784 [color="green"];
+  BB75ac2a708 -> BB75ac2a711 [color="red"];
+  BB75ac2a711 -> BB75ac2a784 [color="blue"];
+  BB75ac2a746 -> BB75ac2a758 [color="green"];
+  BB75ac2a746 -> BB75ac2a74f [color="red"];
+  BB75ac2a74f -> BB75ac2a784 [color="green"];
+  BB75ac2a74f -> BB75ac2a758 [color="red"];
+  BB75ac2a758 -> BB75ac2a784 [color="red"];
+  BB75ac2a784 -> BB75ac2a78d [color="red"];
+}

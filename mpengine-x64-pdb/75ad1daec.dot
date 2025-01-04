@@ -1,0 +1,14 @@
+digraph readFromFileToMemory {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad1daec -> BB75ad1db79 [color="green"];
+  BB75ad1daec -> BB75ad1db20 [color="red"];
+  BB75ad1db20 -> BB75ad1db68 [color="green"];
+  BB75ad1db20 -> BB75ad1db43 [color="red"];
+  BB75ad1db43 -> BB75ad1db68 [color="green"];
+  BB75ad1db43 -> BB75ad1db48 [color="red"];
+  BB75ad1db48 -> BB75ad1db6b [color="green"];
+  BB75ad1db48 -> BB75ad1db68 [color="red"];
+  BB75ad1db68 -> BB75ad1db6b [color="blue"];
+  BB75ad1db6b -> BB75ad1db79 [color="red"];
+}

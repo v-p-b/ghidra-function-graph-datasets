@@ -1,0 +1,10 @@
+digraph kcrc_check_vm_block {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4eaf60 -> BB75a4eaf96 [color="green"];
+  BB75a4eaf60 -> BB75a4eaf8e [color="red"];
+  BB75a4eaf8e -> BB75a4eaf90 [color="blue"];
+  BB75a4eaf96 -> BB75a4eaf8e [color="green"];
+  BB75a4eaf96 -> BB75a4eaf9f [color="red"];
+  BB75a4eaf9f -> BB75a4eaf90 [color="blue"];
+}

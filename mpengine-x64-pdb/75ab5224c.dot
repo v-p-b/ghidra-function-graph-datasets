@@ -1,0 +1,9 @@
+digraph pagerSyncHotJournal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5224c -> BB75ab52271 [color="green"];
+  BB75ab5224c -> BB75ab5225f [color="red"];
+  BB75ab5225f -> BB75ab5227e [color="green"];
+  BB75ab5225f -> BB75ab52271 [color="red"];
+  BB75ab52271 -> BB75ab5227e [color="red"];
+}

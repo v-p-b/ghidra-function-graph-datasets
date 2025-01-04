@@ -1,0 +1,26 @@
+digraph ShouldIssueSDNQuery {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7e9880 -> BB75a7e98d1 [color="green"];
+  BB75a7e9880 -> BB75a7e98a1 [color="red"];
+  BB75a7e98a1 -> BB75a7e98ed [color="green"];
+  BB75a7e98a1 -> BB75a7e98b4 [color="red"];
+  BB75a7e98b4 -> BB75a7e98ed [color="green"];
+  BB75a7e98b4 -> BB75a7e98ba [color="red"];
+  BB75a7e98ba -> BB75a7e98ed [color="blue"];
+  BB75a7e98d1 -> BB75a7e98e4 [color="green"];
+  BB75a7e98d1 -> BB75a7e98da [color="red"];
+  BB75a7e98da -> BB75a7e98e4 [color="red"];
+  BB75a7e98e4 -> BB75a7e98f4 [color="green"];
+  BB75a7e98e4 -> BB75a7e98ed [color="red"];
+  BB75a7e98ed -> BB75a7e99af [color="blue"];
+  BB75a7e98f4 -> BB75a7e99ad [color="green"];
+  BB75a7e98f4 -> BB75a7e995a [color="red"];
+  BB75a7e995a -> BB75a7e9988 [color="green"];
+  BB75a7e995a -> BB75a7e996d [color="red"];
+  BB75a7e996d -> BB75a7e9988 [color="green"];
+  BB75a7e996d -> BB75a7e9973 [color="red"];
+  BB75a7e9973 -> BB75a7e9988 [color="red"];
+  BB75a7e9988 -> BB75a7e98ed [color="blue"];
+  BB75a7e99ad -> BB75a7e99af [color="blue"];
+}

@@ -1,0 +1,32 @@
+digraph build_fake_report {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2ab9b0 -> BB75a2aba1d [color="green"];
+  BB75a2ab9b0 -> BB75a2ab9e5 [color="red"];
+  BB75a2ab9e5 -> BB75a2aba13 [color="green"];
+  BB75a2ab9e5 -> BB75a2ab9f8 [color="red"];
+  BB75a2ab9f8 -> BB75a2aba13 [color="green"];
+  BB75a2ab9f8 -> BB75a2ab9fe [color="red"];
+  BB75a2ab9fe -> BB75a2aba13 [color="red"];
+  BB75a2aba13 -> BB75a2abbb9 [color="blue"];
+  BB75a2aba1d -> BB75a2aba70 [color="green"];
+  BB75a2aba1d -> BB75a2aba64 [color="red"];
+  BB75a2aba64 -> BB75a2abbb9 [color="blue"];
+  BB75a2aba70 -> BB75a2aba64 [color="green"];
+  BB75a2aba70 -> BB75a2aba96 [color="red"];
+  BB75a2aba96 -> BB75a2aba64 [color="green"];
+  BB75a2aba96 -> BB75a2ababc [color="red"];
+  BB75a2ababc -> BB75a2aba64 [color="green"];
+  BB75a2ababc -> BB75a2abade [color="red"];
+  BB75a2abade -> BB75a2aba64 [color="green"];
+  BB75a2abade -> BB75a2abb04 [color="red"];
+  BB75a2abb04 -> BB75a2aba64 [color="green"];
+  BB75a2abb04 -> BB75a2abb2e [color="red"];
+  BB75a2abb2e -> BB75a2aba64 [color="green"];
+  BB75a2abb2e -> BB75a2abb58 [color="red"];
+  BB75a2abb58 -> BB75a2aba64 [color="green"];
+  BB75a2abb58 -> BB75a2abb7e [color="red"];
+  BB75a2abb7e -> BB75a2aba64 [color="green"];
+  BB75a2abb7e -> BB75a2abbb7 [color="red"];
+  BB75a2abbb7 -> BB75a2abbb9 [color="blue"];
+}

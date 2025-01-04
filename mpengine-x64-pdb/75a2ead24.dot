@@ -1,0 +1,16 @@
+digraph compare {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2ead24 -> BB75a2ead3c [color="green"];
+  BB75a2ead24 -> BB75a2ead39 [color="red"];
+  BB75a2ead39 -> BB75a2ead3c [color="blue"];
+  BB75a2ead3c -> BB75a2ead4a [color="green"];
+  BB75a2ead3c -> BB75a2ead47 [color="red"];
+  BB75a2ead47 -> BB75a2ead4a [color="blue"];
+  BB75a2ead4a -> BB75a2ead68 [color="green"];
+  BB75a2ead4a -> BB75a2ead5d [color="red"];
+  BB75a2ead68 -> BB75a2ead72 [color="green"];
+  BB75a2ead68 -> BB75a2ead6d [color="red"];
+  BB75a2ead6d -> BB75a2ead5d [color="blue"];
+  BB75a2ead72 -> BB75a2ead5d [color="blue"];
+}

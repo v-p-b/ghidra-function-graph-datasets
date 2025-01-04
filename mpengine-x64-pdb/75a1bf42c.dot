@@ -1,0 +1,24 @@
+digraph CheckAggregatedAttr {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1bf42c -> BB75a1bf4ef [color="green"];
+  BB75a1bf42c -> BB75a1bf463 [color="red"];
+  BB75a1bf463 -> BB75a1bf4d1 [color="green"];
+  BB75a1bf463 -> BB75a1bf491 [color="red"];
+  BB75a1bf491 -> BB75a1bf521 [color="green"];
+  BB75a1bf491 -> BB75a1bf4d1 [color="red"];
+  BB75a1bf4d1 -> BB75a1bf4d3 [color="blue"];
+  BB75a1bf4ef -> BB75a1bf51d [color="green"];
+  BB75a1bf4ef -> BB75a1bf502 [color="red"];
+  BB75a1bf502 -> BB75a1bf51d [color="green"];
+  BB75a1bf502 -> BB75a1bf508 [color="red"];
+  BB75a1bf508 -> BB75a1bf51d [color="red"];
+  BB75a1bf51d -> BB75a1bf4d3 [color="blue"];
+  BB75a1bf521 -> BB75a1bf52f [color="green"];
+  BB75a1bf521 -> BB75a1bf52a [color="red"];
+  BB75a1bf52a -> BB75a1bf52f [color="red"];
+  BB75a1bf52f -> BB75a1bf559 [color="green"];
+  BB75a1bf52f -> BB75a1bf54f [color="red"];
+  BB75a1bf54f -> BB75a1bf4d1 [color="blue"];
+  BB75a1bf559 -> BB75a1bf4d1 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph vmkcrc_callback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5e9650 -> BB75a5e96a1 [color="green"];
+  BB75a5e9650 -> BB75a5e9662 [color="red"];
+  BB75a5e9662 -> BB75a5e966b [color="blue"];
+  BB75a5e966b -> BB75a5e9696 [color="green"];
+  BB75a5e966b -> BB75a5e9684 [color="red"];
+  BB75a5e9684 -> BB75a5e9696 [color="red"];
+  BB75a5e96a1 -> BB75a5e9696 [color="green"];
+  BB75a5e96a1 -> BB75a5e96a6 [color="red"];
+  BB75a5e96a6 -> BB75a5e966b [color="blue"];
+}

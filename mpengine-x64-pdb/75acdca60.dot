@@ -1,0 +1,10 @@
+digraph GetPathItemWithStatusPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acdca60 -> BB75acdca89 [color="green"];
+  BB75acdca60 -> BB75acdca6d [color="red"];
+  BB75acdca6d -> BB75acdca89 [color="green"];
+  BB75acdca6d -> BB75acdca76 [color="red"];
+  BB75acdca76 -> BB75acdca8b [color="blue"];
+  BB75acdca89 -> BB75acdca8b [color="blue"];
+}

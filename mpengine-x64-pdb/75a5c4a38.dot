@@ -1,0 +1,15 @@
+digraph parserDoubleLinkSelect {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5c4a38 -> BB75a5c4a43 [color="green"];
+  BB75a5c4a38 -> BB75a5c4a42 [color="red"];
+  BB75a5c4a43 -> BB75a5c4a4b [color="blue"];
+  BB75a5c4a4b -> BB75a5c4a4b [color="green"];
+  BB75a5c4a4b -> BB75a5c4a63 [color="red"];
+  BB75a5c4a63 -> BB75a5c4a42 [color="green"];
+  BB75a5c4a63 -> BB75a5c4a6c [color="red"];
+  BB75a5c4a6c -> BB75a5c4a42 [color="green"];
+  BB75a5c4a6c -> BB75a5c4a79 [color="red"];
+  BB75a5c4a79 -> BB75a5c4a42 [color="green"];
+  BB75a5c4a79 -> BB75a5c4a7e [color="red"];
+}

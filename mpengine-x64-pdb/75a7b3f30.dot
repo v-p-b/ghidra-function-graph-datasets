@@ -1,0 +1,14 @@
+digraph FPU_fmul {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7b3f30 -> BB75a7b3f4d [color="green"];
+  BB75a7b3f30 -> BB75a7b3f4a [color="red"];
+  BB75a7b3f4a -> BB75a7b3f4d [color="blue"];
+  BB75a7b3f4d -> BB75a7b3f65 [color="green"];
+  BB75a7b3f4d -> BB75a7b3f63 [color="red"];
+  BB75a7b3f63 -> BB75a7b3f65 [color="blue"];
+  BB75a7b3f65 -> BB75a7b3f81 [color="green"];
+  BB75a7b3f65 -> BB75a7b3f76 [color="red"];
+  BB75a7b3f76 -> BB75a7b3f8a [color="blue"];
+  BB75a7b3f81 -> BB75a7b3f8a [color="blue"];
+}

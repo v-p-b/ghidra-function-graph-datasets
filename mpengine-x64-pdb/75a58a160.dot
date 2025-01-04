@@ -1,0 +1,14 @@
+digraph KERNEL32_DLL_WinExec {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a58a160 -> BB75a58a285 [color="green"];
+  BB75a58a160 -> BB75a58a1f0 [color="red"];
+  BB75a58a1f0 -> BB75a58a293 [color="green"];
+  BB75a58a1f0 -> BB75a58a216 [color="red"];
+  BB75a58a216 -> BB75a58a219 [color="blue"];
+  BB75a58a219 -> BB75a58a25e [color="green"];
+  BB75a58a219 -> BB75a58a253 [color="red"];
+  BB75a58a253 -> BB75a58a25e [color="blue"];
+  BB75a58a285 -> BB75a58a219 [color="blue"];
+  BB75a58a293 -> BB75a58a219 [color="blue"];
+}

@@ -1,0 +1,35 @@
+digraph TestAnyFlagsInConfig {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a426fbc -> BB75a427082 [color="green"];
+  BB75a426fbc -> BB75a426fdc [color="red"];
+  BB75a426fdc -> BB75a427001 [color="green"];
+  BB75a426fdc -> BB75a426fe4 [color="red"];
+  BB75a426fe4 -> BB75a427014 [color="green"];
+  BB75a426fe4 -> BB75a426fef [color="red"];
+  BB75a426fef -> BB75a427014 [color="green"];
+  BB75a426fef -> BB75a427001 [color="red"];
+  BB75a427014 -> BB75a42702b [color="green"];
+  BB75a427014 -> BB75a42701a [color="red"];
+  BB75a42701a -> BB75a427001 [color="green"];
+  BB75a42701a -> BB75a42702b [color="red"];
+  BB75a42702b -> BB75a427036 [color="green"];
+  BB75a42702b -> BB75a427031 [color="red"];
+  BB75a427031 -> BB75a427001 [color="blue"];
+  BB75a427036 -> BB75a42707b [color="green"];
+  BB75a427036 -> BB75a42703b [color="red"];
+  BB75a42703b -> BB75a42708c [color="green"];
+  BB75a42703b -> BB75a427047 [color="red"];
+  BB75a427047 -> BB75a427031 [color="green"];
+  BB75a427047 -> BB75a427053 [color="red"];
+  BB75a427053 -> BB75a427031 [color="green"];
+  BB75a427053 -> BB75a42705c [color="red"];
+  BB75a42705c -> BB75a427001 [color="green"];
+  BB75a42705c -> BB75a427066 [color="red"];
+  BB75a427066 -> BB75a427001 [color="green"];
+  BB75a427066 -> BB75a427079 [color="red"];
+  BB75a427079 -> BB75a427031 [color="blue"];
+  BB75a42707b -> BB75a42703b [color="blue"];
+  BB75a427082 -> BB75a426fdc [color="blue"];
+  BB75a42708c -> BB75a427047 [color="blue"];
+}

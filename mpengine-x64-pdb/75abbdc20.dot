@@ -1,0 +1,26 @@
+digraph SSE4_pminsd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abbdc20 -> BB75abbdd40 [color="green"];
+  BB75abbdc20 -> BB75abbdc60 [color="red"];
+  BB75abbdc60 -> BB75abbdcb3 [color="green"];
+  BB75abbdc60 -> BB75abbdc70 [color="red"];
+  BB75abbdc70 -> BB75abbddfd [color="blue"];
+  BB75abbdcb3 -> BB75abbdd1e [color="green"];
+  BB75abbdcb3 -> BB75abbdd06 [color="red"];
+  BB75abbdd06 -> BB75abbdd30 [color="blue"];
+  BB75abbdd1e -> BB75abbdd30 [color="blue"];
+  BB75abbdd30 -> BB75abbddfd [color="blue"];
+  BB75abbdd40 -> BB75abbdddf [color="green"];
+  BB75abbdd40 -> BB75abbdd49 [color="red"];
+  BB75abbdd49 -> BB75abbdc70 [color="green"];
+  BB75abbdd49 -> BB75abbdd5d [color="red"];
+  BB75abbdd5d -> BB75abbddc8 [color="green"];
+  BB75abbdd5d -> BB75abbddb0 [color="red"];
+  BB75abbddb0 -> BB75abbddda [color="blue"];
+  BB75abbddc8 -> BB75abbddda [color="blue"];
+  BB75abbddda -> BB75abbdd30 [color="blue"];
+  BB75abbdddf -> BB75abbdde8 [color="blue"];
+  BB75abbdde8 -> BB75abbdde8 [color="green"];
+  BB75abbdde8 -> BB75abbddfd [color="red"];
+}

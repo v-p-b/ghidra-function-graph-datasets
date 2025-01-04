@@ -1,0 +1,19 @@
+digraph _Pop_heap_hole_by_index<struct_boost::multi_index::detail::copy_map_entry<struct_boost::multi_index::detail::sequenced_index_node<struct_boost::multi_index::detail::ordered_index_node<struct_boost::multi_index::detail::null_augment_policy,struct_boost::multi_index::detail::index_node_base<struct_std::pair<class_std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_const_,class_boost::property_tree::basic_ptree<class_std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>,class_std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>,struct_std::less<class_std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_>_>_>,class_std::allocator<struct_std::pair<class_std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>_const_,class_boost::property_tree::basic_ptree<class_std::basic_string<char,struct_std::char_traits<char>,class_std::allocator<char>_>,class_std:...,struct_std::char_traits<char>,class_std::allocator<char>_>_>_>_>_>_>_>_>_>,struct_std::less<void>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8b3a90 -> BB75a8b3ae2 [color="blue"];
+  BB75a8b3ab1 -> BB75a8b3ae2 [color="blue"];
+  BB75a8b3ae2 -> BB75a8b3ab1 [color="green"];
+  BB75a8b3ae2 -> BB75a8b3aea [color="red"];
+  BB75a8b3aea -> BB75a8b3b07 [color="green"];
+  BB75a8b3aea -> BB75a8b3aec [color="red"];
+  BB75a8b3aec -> BB75a8b3b07 [color="green"];
+  BB75a8b3aec -> BB75a8b3af2 [color="red"];
+  BB75a8b3af2 -> BB75a8b3b07 [color="blue"];
+  BB75a8b3b07 -> BB75a8b3b38 [color="green"];
+  BB75a8b3b07 -> BB75a8b3b0c [color="red"];
+  BB75a8b3b0c -> BB75a8b3b38 [color="green"];
+  BB75a8b3b0c -> BB75a8b3b22 [color="red"];
+  BB75a8b3b22 -> BB75a8b3b0c [color="green"];
+  BB75a8b3b22 -> BB75a8b3b38 [color="red"];
+}

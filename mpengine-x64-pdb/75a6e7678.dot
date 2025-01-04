@@ -1,0 +1,15 @@
+digraph CombineNameFileName {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6e7678 -> BB75a6e7728 [color="green"];
+  BB75a6e7678 -> BB75a6e769e [color="red"];
+  BB75a6e769e -> BB75a6e76dd [color="green"];
+  BB75a6e769e -> BB75a6e76a7 [color="red"];
+  BB75a6e76a7 -> BB75a6e7774 [color="green"];
+  BB75a6e76a7 -> BB75a6e76bd [color="red"];
+  BB75a6e76bd -> BB75a6e7774 [color="blue"];
+  BB75a6e76dd -> BB75a6e7728 [color="blue"];
+  BB75a6e7728 -> BB75a6e7774 [color="green"];
+  BB75a6e7728 -> BB75a6e7740 [color="red"];
+  BB75a6e7740 -> BB75a6e7774 [color="red"];
+}

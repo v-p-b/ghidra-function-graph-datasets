@@ -1,0 +1,19 @@
+digraph LoggerCleanup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5101d4 -> BB75a5101f8 [color="green"];
+  BB75a5101d4 -> BB75a5101eb [color="red"];
+  BB75a5101eb -> BB75a5101f8 [color="red"];
+  BB75a5101f8 -> BB75a510219 [color="green"];
+  BB75a5101f8 -> BB75a51020c [color="red"];
+  BB75a51020c -> BB75a510219 [color="red"];
+  BB75a510219 -> BB75a51023a [color="green"];
+  BB75a510219 -> BB75a51022d [color="red"];
+  BB75a51022d -> BB75a51023a [color="red"];
+  BB75a51023a -> BB75a51025b [color="green"];
+  BB75a51023a -> BB75a51024e [color="red"];
+  BB75a51024e -> BB75a51025b [color="red"];
+  BB75a51025b -> BB75a51027c [color="green"];
+  BB75a51025b -> BB75a51026f [color="red"];
+  BB75a51026f -> BB75a51027c [color="red"];
+}

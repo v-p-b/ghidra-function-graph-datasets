@@ -1,0 +1,17 @@
+digraph _do_gpu_time_series_and_detect {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a976da0 -> BB75a976e11 [color="green"];
+  BB75a976da0 -> BB75a976dcd [color="red"];
+  BB75a976dcd -> BB75a976dff [color="blue"];
+  BB75a976ddd -> BB75a976dff [color="red"];
+  BB75a976dff -> BB75a976ddd [color="green"];
+  BB75a976dff -> BB75a976e04 [color="red"];
+  BB75a976e04 -> BB75a976ec8 [color="blue"];
+  BB75a976e11 -> BB75a976e91 [color="green"];
+  BB75a976e11 -> BB75a976e3b [color="red"];
+  BB75a976e3b -> BB75a976e3e [color="blue"];
+  BB75a976e3e -> BB75a976e3e [color="green"];
+  BB75a976e3e -> BB75a976e91 [color="red"];
+  BB75a976e91 -> BB75a976ec8 [color="red"];
+}

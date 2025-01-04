@@ -1,0 +1,12 @@
+digraph cleanup_path_prefixes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a441d20 -> BB75a441d73 [color="green"];
+  BB75a441d20 -> BB75a441d34 [color="red"];
+  BB75a441d34 -> BB75a441d54 [color="blue"];
+  BB75a441d38 -> BB75a441d54 [color="red"];
+  BB75a441d54 -> BB75a441d38 [color="green"];
+  BB75a441d54 -> BB75a441d60 [color="red"];
+  BB75a441d60 -> BB75a441d54 [color="green"];
+  BB75a441d60 -> BB75a441d73 [color="red"];
+}

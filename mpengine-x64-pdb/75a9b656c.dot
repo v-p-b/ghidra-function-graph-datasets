@@ -1,0 +1,23 @@
+digraph _should_report_protected_folders {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9b656c -> BB75a9b66df [color="green"];
+  BB75a9b656c -> BB75a9b65a8 [color="red"];
+  BB75a9b65a8 -> BB75a9b66d4 [color="green"];
+  BB75a9b65a8 -> BB75a9b65cc [color="red"];
+  BB75a9b65cc -> BB75a9b66d4 [color="green"];
+  BB75a9b65cc -> BB75a9b65d6 [color="red"];
+  BB75a9b65d6 -> BB75a9b660b [color="green"];
+  BB75a9b65d6 -> BB75a9b6608 [color="red"];
+  BB75a9b6608 -> BB75a9b660b [color="blue"];
+  BB75a9b660b -> BB75a9b6692 [color="green"];
+  BB75a9b660b -> BB75a9b6621 [color="red"];
+  BB75a9b6621 -> BB75a9b663a [color="green"];
+  BB75a9b6621 -> BB75a9b6637 [color="red"];
+  BB75a9b6637 -> BB75a9b663a [color="blue"];
+  BB75a9b663a -> BB75a9b6692 [color="green"];
+  BB75a9b663a -> BB75a9b667c [color="red"];
+  BB75a9b667c -> BB75a9b6692 [color="blue"];
+  BB75a9b6692 -> BB75a9b66d4 [color="red"];
+  BB75a9b66d4 -> BB75a9b66df [color="red"];
+}

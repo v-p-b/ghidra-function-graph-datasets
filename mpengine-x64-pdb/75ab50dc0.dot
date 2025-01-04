@@ -1,0 +1,14 @@
+digraph lowerFunc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab50dc0 -> BB75ab50e4e [color="green"];
+  BB75ab50dc0 -> BB75ab50df9 [color="red"];
+  BB75ab50df9 -> BB75ab50e4e [color="green"];
+  BB75ab50df9 -> BB75ab50e10 [color="red"];
+  BB75ab50e10 -> BB75ab50e34 [color="green"];
+  BB75ab50e10 -> BB75ab50e14 [color="red"];
+  BB75ab50e14 -> BB75ab50e1a [color="blue"];
+  BB75ab50e1a -> BB75ab50e1a [color="green"];
+  BB75ab50e1a -> BB75ab50e34 [color="red"];
+  BB75ab50e34 -> BB75ab50e4e [color="red"];
+}

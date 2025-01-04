@@ -1,0 +1,18 @@
+digraph GetFlags {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4fa114 -> BB75a4fa1db [color="green"];
+  BB75a4fa114 -> BB75a4fa141 [color="red"];
+  BB75a4fa141 -> BB75a4fa1db [color="green"];
+  BB75a4fa141 -> BB75a4fa14e [color="red"];
+  BB75a4fa14e -> BB75a4fa1b3 [color="green"];
+  BB75a4fa14e -> BB75a4fa1ad [color="red"];
+  BB75a4fa1ad -> BB75a4fa1b3 [color="red"];
+  BB75a4fa1b3 -> BB75a4fa225 [color="blue"];
+  BB75a4fa1db -> BB75a4fa223 [color="green"];
+  BB75a4fa1db -> BB75a4fa1ee [color="red"];
+  BB75a4fa1ee -> BB75a4fa223 [color="green"];
+  BB75a4fa1ee -> BB75a4fa1f4 [color="red"];
+  BB75a4fa1f4 -> BB75a4fa223 [color="red"];
+  BB75a4fa223 -> BB75a4fa225 [color="blue"];
+}

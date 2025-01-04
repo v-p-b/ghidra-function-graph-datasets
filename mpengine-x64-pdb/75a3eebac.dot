@@ -1,0 +1,23 @@
+digraph pefile_call_sigmatch_handlers {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3eebac -> BB75a3eec7d [color="green"];
+  BB75a3eebac -> BB75a3eebde [color="red"];
+  BB75a3eebde -> BB75a3eec49 [color="green"];
+  BB75a3eebde -> BB75a3eec3b [color="red"];
+  BB75a3eec3b -> BB75a3eec49 [color="blue"];
+  BB75a3eec49 -> BB75a3eec94 [color="green"];
+  BB75a3eec49 -> BB75a3eec5a [color="red"];
+  BB75a3eec5a -> BB75a3eec87 [color="green"];
+  BB75a3eec5a -> BB75a3eec69 [color="red"];
+  BB75a3eec69 -> BB75a3eec70 [color="blue"];
+  BB75a3eec70 -> BB75a3eec72 [color="blue"];
+  BB75a3eec7d -> BB75a3eec72 [color="blue"];
+  BB75a3eec87 -> BB75a3eec70 [color="blue"];
+  BB75a3eec94 -> BB75a3eecc9 [color="green"];
+  BB75a3eec94 -> BB75a3eeca7 [color="red"];
+  BB75a3eeca7 -> BB75a3eecc9 [color="green"];
+  BB75a3eeca7 -> BB75a3eecad [color="red"];
+  BB75a3eecad -> BB75a3eecc9 [color="red"];
+  BB75a3eecc9 -> BB75a3eec5a [color="blue"];
+}

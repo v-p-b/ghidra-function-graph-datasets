@@ -1,0 +1,15 @@
+digraph DlpQueryCloudSyncExclusionPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a74561c -> BB75a745642 [color="green"];
+  BB75a74561c -> BB75a74562a [color="red"];
+  BB75a74562a -> BB75a745642 [color="green"];
+  BB75a74562a -> BB75a745630 [color="red"];
+  BB75a745630 -> BB75a74567c [color="blue"];
+  BB75a745642 -> BB75a745677 [color="green"];
+  BB75a745642 -> BB75a745655 [color="red"];
+  BB75a745655 -> BB75a745677 [color="green"];
+  BB75a745655 -> BB75a74565b [color="red"];
+  BB75a74565b -> BB75a745677 [color="red"];
+  BB75a745677 -> BB75a74567c [color="blue"];
+}

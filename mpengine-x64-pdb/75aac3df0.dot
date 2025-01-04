@@ -1,0 +1,14 @@
+digraph Reset {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aac3df0 -> BB75aac3e9d [color="green"];
+  BB75aac3df0 -> BB75aac3e1d [color="red"];
+  BB75aac3e1d -> BB75aac3e20 [color="blue"];
+  BB75aac3e20 -> BB75aac3e20 [color="green"];
+  BB75aac3e20 -> BB75aac3e4d [color="red"];
+  BB75aac3e4d -> BB75aac3e9d [color="green"];
+  BB75aac3e4d -> BB75aac3e56 [color="red"];
+  BB75aac3e56 -> BB75aac3e56 [color="green"];
+  BB75aac3e56 -> BB75aac3e99 [color="red"];
+  BB75aac3e99 -> BB75aac3e9d [color="blue"];
+}

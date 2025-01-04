@@ -1,0 +1,21 @@
+digraph AcquireLevel2Oplock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaacc64 -> BB75aaacc92 [color="green"];
+  BB75aaacc64 -> BB75aaacc8d [color="red"];
+  BB75aaacc8d -> BB75aaacc92 [color="red"];
+  BB75aaacc92 -> BB75aaacc9c [color="green"];
+  BB75aaacc92 -> BB75aaacc97 [color="red"];
+  BB75aaacc97 -> BB75aaacc9c [color="red"];
+  BB75aaacc9c -> BB75aaacd0a [color="green"];
+  BB75aaacc9c -> BB75aaacced [color="red"];
+  BB75aaacced -> BB75aaacd0a [color="green"];
+  BB75aaacced -> BB75aaaccf1 [color="red"];
+  BB75aaaccf1 -> BB75aaaccfc [color="green"];
+  BB75aaaccf1 -> BB75aaaccf8 [color="red"];
+  BB75aaaccf8 -> BB75aaacd0f [color="blue"];
+  BB75aaaccfc -> BB75aaacd0f [color="green"];
+  BB75aaaccfc -> BB75aaacd00 [color="red"];
+  BB75aaacd00 -> BB75aaacd0f [color="blue"];
+  BB75aaacd0a -> BB75aaacd0f [color="blue"];
+}

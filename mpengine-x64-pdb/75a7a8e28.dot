@@ -1,0 +1,12 @@
+digraph _set_errno_from_matherr {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7a8e28 -> BB75a7a8e48 [color="green"];
+  BB75a7a8e28 -> BB75a7a8e31 [color="red"];
+  BB75a7a8e31 -> BB75a7a8e3b [color="green"];
+  BB75a7a8e31 -> BB75a7a8e36 [color="red"];
+  BB75a7a8e36 -> BB75a7a8e53 [color="green"];
+  BB75a7a8e36 -> BB75a7a8e3b [color="red"];
+  BB75a7a8e3b -> BB75a7a8e53 [color="blue"];
+  BB75a7a8e48 -> BB75a7a8e53 [color="red"];
+}

@@ -1,0 +1,10 @@
+digraph ~rstream {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2086e4 -> BB75a208711 [color="green"];
+  BB75a2086e4 -> BB75a2086fd [color="red"];
+  BB75a2086fd -> BB75a208717 [color="green"];
+  BB75a2086fd -> BB75a208704 [color="red"];
+  BB75a208704 -> BB75a208711 [color="red"];
+  BB75a208717 -> BB75a208704 [color="blue"];
+}

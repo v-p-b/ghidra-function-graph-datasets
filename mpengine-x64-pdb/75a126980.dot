@@ -1,0 +1,13 @@
+digraph is_separator<wchar_t> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a126980 -> BB75a1269ab [color="green"];
+  BB75a126980 -> BB75a12698a [color="red"];
+  BB75a12698a -> BB75a1269ab [color="green"];
+  BB75a12698a -> BB75a126992 [color="red"];
+  BB75a126992 -> BB75a1269ab [color="green"];
+  BB75a126992 -> BB75a12699c [color="red"];
+  BB75a12699c -> BB75a1269ab [color="green"];
+  BB75a12699c -> BB75a1269a9 [color="red"];
+  BB75a1269a9 -> BB75a1269ab [color="blue"];
+}

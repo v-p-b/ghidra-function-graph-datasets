@@ -1,0 +1,11 @@
+digraph ReadFlashRom {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acfeac0 -> BB75acfeaf0 [color="green"];
+  BB75acfeac0 -> BB75acfeae9 [color="red"];
+  BB75acfeae9 -> BB75acfeb5c [color="blue"];
+  BB75acfeaf0 -> BB75acfeb57 [color="green"];
+  BB75acfeaf0 -> BB75acfeb46 [color="red"];
+  BB75acfeb46 -> BB75acfeb5c [color="blue"];
+  BB75acfeb57 -> BB75acfeb5c [color="blue"];
+}

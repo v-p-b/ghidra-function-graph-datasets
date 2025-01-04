@@ -1,0 +1,13 @@
+digraph ReadSQLite {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a278f20 -> BB75a278f5a [color="green"];
+  BB75a278f20 -> BB75a278f55 [color="red"];
+  BB75a278f55 -> BB75a278f5a [color="red"];
+  BB75a278f5a -> BB75a278f98 [color="green"];
+  BB75a278f5a -> BB75a278f68 [color="red"];
+  BB75a278f68 -> BB75a278f75 [color="red"];
+  BB75a278f98 -> BB75a278f98 [color="green"];
+  BB75a278f98 -> BB75a27901d [color="red"];
+  BB75a27901d -> BB75a278f75 [color="blue"];
+}

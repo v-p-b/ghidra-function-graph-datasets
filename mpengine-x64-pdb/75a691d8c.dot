@@ -1,0 +1,17 @@
+digraph is_name_in_list {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a691d8c -> BB75a691df9 [color="green"];
+  BB75a691d8c -> BB75a691dba [color="red"];
+  BB75a691dba -> BB75a691df9 [color="green"];
+  BB75a691dba -> BB75a691dbf [color="red"];
+  BB75a691dbf -> BB75a691dc1 [color="blue"];
+  BB75a691dc1 -> BB75a691dda [color="green"];
+  BB75a691dc1 -> BB75a691dc5 [color="red"];
+  BB75a691dc5 -> BB75a691df7 [color="green"];
+  BB75a691dc5 -> BB75a691dd6 [color="red"];
+  BB75a691dd6 -> BB75a691dc1 [color="blue"];
+  BB75a691dda -> BB75a691ddc [color="blue"];
+  BB75a691df7 -> BB75a691df9 [color="blue"];
+  BB75a691df9 -> BB75a691ddc [color="blue"];
+}

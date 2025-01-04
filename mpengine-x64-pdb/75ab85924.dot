@@ -1,0 +1,15 @@
+digraph TelemetryAddTargetPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab85924 -> BB75ab85a13 [color="green"];
+  BB75ab85924 -> BB75ab8595b [color="red"];
+  BB75ab8595b -> BB75ab859f8 [color="green"];
+  BB75ab8595b -> BB75ab859cb [color="red"];
+  BB75ab859cb -> BB75ab859eb [color="green"];
+  BB75ab859cb -> BB75ab859e8 [color="red"];
+  BB75ab859e8 -> BB75ab859eb [color="blue"];
+  BB75ab859eb -> BB75ab85a0a [color="green"];
+  BB75ab859eb -> BB75ab859f8 [color="red"];
+  BB75ab859f8 -> BB75ab85a0a [color="red"];
+  BB75ab85a0a -> BB75ab85a13 [color="red"];
+}

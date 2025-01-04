@@ -1,0 +1,11 @@
+digraph TestIsStaticRuleExcluded {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1e3688 -> BB75a1e3706 [color="green"];
+  BB75a1e3688 -> BB75a1e36bc [color="red"];
+  BB75a1e36bc -> BB75a1e36eb [color="green"];
+  BB75a1e36bc -> BB75a1e36d1 [color="red"];
+  BB75a1e36d1 -> BB75a1e36eb [color="red"];
+  BB75a1e36eb -> BB75a1e36f6 [color="red"];
+  BB75a1e3706 -> BB75a1e36f6 [color="blue"];
+}

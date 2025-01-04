@@ -1,0 +1,21 @@
+digraph getSafetyLevel {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab4fc14 -> BB75ab4fc56 [color="green"];
+  BB75ab4fc14 -> BB75ab4fc4f [color="red"];
+  BB75ab4fc4f -> BB75ab4fcbf [color="blue"];
+  BB75ab4fc56 -> BB75ab4fc62 [color="red"];
+  BB75ab4fc62 -> BB75ab4fcbc [color="green"];
+  BB75ab4fc62 -> BB75ab4fc68 [color="red"];
+  BB75ab4fc68 -> BB75ab4fca8 [color="green"];
+  BB75ab4fc68 -> BB75ab4fc76 [color="red"];
+  BB75ab4fc76 -> BB75ab4fca8 [color="green"];
+  BB75ab4fc76 -> BB75ab4fc98 [color="red"];
+  BB75ab4fc98 -> BB75ab4fcaf [color="green"];
+  BB75ab4fc98 -> BB75ab4fc9d [color="red"];
+  BB75ab4fc9d -> BB75ab4fcaf [color="green"];
+  BB75ab4fc9d -> BB75ab4fca8 [color="red"];
+  BB75ab4fca8 -> BB75ab4fc62 [color="blue"];
+  BB75ab4fcaf -> BB75ab4fcbf [color="blue"];
+  BB75ab4fcbc -> BB75ab4fcbf [color="blue"];
+}

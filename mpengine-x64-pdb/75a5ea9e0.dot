@@ -1,0 +1,25 @@
+digraph macho_scanfile {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5ea9e0 -> BB75a5eaa22 [color="green"];
+  BB75a5ea9e0 -> BB75a5eaa02 [color="red"];
+  BB75a5eaa02 -> BB75a5eaa2a [color="green"];
+  BB75a5eaa02 -> BB75a5eaa09 [color="red"];
+  BB75a5eaa09 -> BB75a5eaa27 [color="green"];
+  BB75a5eaa09 -> BB75a5eaa10 [color="red"];
+  BB75a5eaa10 -> BB75a5eaa12 [color="blue"];
+  BB75a5eaa22 -> BB75a5eaa2d [color="blue"];
+  BB75a5eaa27 -> BB75a5eaa2a [color="blue"];
+  BB75a5eaa2a -> BB75a5eaa2d [color="blue"];
+  BB75a5eaa2d -> BB75a5eaa3f [color="green"];
+  BB75a5eaa2d -> BB75a5eaa3a [color="red"];
+  BB75a5eaa3a -> BB75a5eaa3f [color="red"];
+  BB75a5eaa3f -> BB75a5eaa66 [color="green"];
+  BB75a5eaa3f -> BB75a5eaa61 [color="red"];
+  BB75a5eaa61 -> BB75a5eaa66 [color="red"];
+  BB75a5eaa66 -> BB75a5eaa7b [color="blue"];
+  BB75a5eaa7b -> BB75a5eaa90 [color="green"];
+  BB75a5eaa7b -> BB75a5eaa80 [color="red"];
+  BB75a5eaa80 -> BB75a5eaa90 [color="red"];
+  BB75a5eaa90 -> BB75a5eaa12 [color="blue"];
+}

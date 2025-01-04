@@ -1,0 +1,10 @@
+digraph lastChild {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a482660 -> BB75a4826a3 [color="green"];
+  BB75a482660 -> BB75a482678 [color="red"];
+  BB75a482678 -> BB75a4826a3 [color="green"];
+  BB75a482678 -> BB75a48268b [color="red"];
+  BB75a48268b -> BB75a482695 [color="blue"];
+  BB75a4826a3 -> BB75a482695 [color="blue"];
+}

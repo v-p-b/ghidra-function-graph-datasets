@@ -1,0 +1,14 @@
+digraph vfo_read {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a18dd60 -> BB75a18dd7b [color="green"];
+  BB75a18dd60 -> BB75a18dd70 [color="red"];
+  BB75a18dd70 -> BB75a18dd75 [color="red"];
+  BB75a18dd75 -> BB75a18dd9b [color="blue"];
+  BB75a18dd7b -> BB75a18dda0 [color="green"];
+  BB75a18dd7b -> BB75a18dd84 [color="red"];
+  BB75a18dd84 -> BB75a18dd75 [color="green"];
+  BB75a18dd84 -> BB75a18dd97 [color="red"];
+  BB75a18dd97 -> BB75a18dd9b [color="blue"];
+  BB75a18dda0 -> BB75a18dd75 [color="blue"];
+}

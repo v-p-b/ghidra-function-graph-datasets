@@ -1,0 +1,22 @@
+digraph CanonicalizePath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa07ef0 -> BB75aa07f24 [color="green"];
+  BB75aa07ef0 -> BB75aa07f1f [color="red"];
+  BB75aa07f1f -> BB75aa07f2a [color="blue"];
+  BB75aa07f24 -> BB75aa07f2a [color="blue"];
+  BB75aa07f2a -> BB75aa0808b [color="green"];
+  BB75aa07f2a -> BB75aa07f44 [color="red"];
+  BB75aa07f44 -> BB75aa0808b [color="green"];
+  BB75aa07f44 -> BB75aa07f6c [color="red"];
+  BB75aa07f6c -> BB75aa0808b [color="green"];
+  BB75aa07f6c -> BB75aa07f8e [color="red"];
+  BB75aa07f8e -> BB75aa0808b [color="green"];
+  BB75aa07f8e -> BB75aa07fb0 [color="red"];
+  BB75aa07fb0 -> BB75aa07fbd [color="green"];
+  BB75aa07fb0 -> BB75aa07fba [color="red"];
+  BB75aa07fba -> BB75aa07fbd [color="blue"];
+  BB75aa07fbd -> BB75aa0808b [color="green"];
+  BB75aa07fbd -> BB75aa07fd0 [color="red"];
+  BB75aa07fd0 -> BB75aa0808b [color="red"];
+}

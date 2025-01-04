@@ -1,0 +1,12 @@
+digraph ReportRemoteFailure {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac8dfd0 -> BB75ac8e058 [color="green"];
+  BB75ac8dfd0 -> BB75ac8e000 [color="red"];
+  BB75ac8e000 -> BB75ac8e04d [color="green"];
+  BB75ac8e000 -> BB75ac8e013 [color="red"];
+  BB75ac8e013 -> BB75ac8e04d [color="green"];
+  BB75ac8e013 -> BB75ac8e019 [color="red"];
+  BB75ac8e019 -> BB75ac8e04d [color="red"];
+  BB75ac8e04d -> BB75ac8e058 [color="blue"];
+}

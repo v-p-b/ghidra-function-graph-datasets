@@ -1,0 +1,22 @@
+digraph InitRingData {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a64290c -> BB75a642993 [color="green"];
+  BB75a64290c -> BB75a64295d [color="red"];
+  BB75a64295d -> BB75a642993 [color="red"];
+  BB75a642993 -> BB75a642a11 [color="green"];
+  BB75a642993 -> BB75a642998 [color="red"];
+  BB75a642998 -> BB75a642a11 [color="green"];
+  BB75a642998 -> BB75a64299c [color="red"];
+  BB75a64299c -> BB75a642a11 [color="green"];
+  BB75a64299c -> BB75a6429a0 [color="red"];
+  BB75a6429a0 -> BB75a6429b4 [color="green"];
+  BB75a6429a0 -> BB75a6429a5 [color="red"];
+  BB75a6429a5 -> BB75a6429b4 [color="red"];
+  BB75a6429b4 -> BB75a642a11 [color="green"];
+  BB75a6429b4 -> BB75a6429db [color="red"];
+  BB75a6429db -> BB75a642a11 [color="red"];
+  BB75a642a11 -> BB75a642a1f [color="green"];
+  BB75a642a11 -> BB75a642a16 [color="red"];
+  BB75a642a16 -> BB75a642a1f [color="red"];
+}

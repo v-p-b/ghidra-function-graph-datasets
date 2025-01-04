@@ -1,0 +1,22 @@
+digraph ZSTD_window_enforceMaxDist {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac27f9c -> BB75ac27fa9 [color="green"];
+  BB75ac27f9c -> BB75ac27fa4 [color="red"];
+  BB75ac27fa4 -> BB75ac27fab [color="blue"];
+  BB75ac27fa9 -> BB75ac27fab [color="blue"];
+  BB75ac27fab -> BB75ac27fe0 [color="green"];
+  BB75ac27fab -> BB75ac27fb2 [color="red"];
+  BB75ac27fb2 -> BB75ac27fc1 [color="green"];
+  BB75ac27fb2 -> BB75ac27fbc [color="red"];
+  BB75ac27fbc -> BB75ac27fc1 [color="blue"];
+  BB75ac27fc1 -> BB75ac27fc9 [color="green"];
+  BB75ac27fc1 -> BB75ac27fc6 [color="red"];
+  BB75ac27fc6 -> BB75ac27fc9 [color="blue"];
+  BB75ac27fc9 -> BB75ac27fd2 [color="green"];
+  BB75ac27fc9 -> BB75ac27fce [color="red"];
+  BB75ac27fce -> BB75ac27fd2 [color="blue"];
+  BB75ac27fd2 -> BB75ac27fe0 [color="green"];
+  BB75ac27fd2 -> BB75ac27fdc [color="red"];
+  BB75ac27fdc -> BB75ac27fe0 [color="blue"];
+}

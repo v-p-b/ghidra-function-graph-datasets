@@ -1,0 +1,15 @@
+digraph UpdateInternalStatsOnFlush {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4506a0 -> BB75a4506e1 [color="green"];
+  BB75a4506a0 -> BB75a4506a4 [color="red"];
+  BB75a4506a4 -> BB75a4506bb [color="green"];
+  BB75a4506a4 -> BB75a4506b3 [color="red"];
+  BB75a4506b3 -> BB75a4506c4 [color="green"];
+  BB75a4506b3 -> BB75a4506bb [color="red"];
+  BB75a4506bb -> BB75a4506c4 [color="blue"];
+  BB75a4506c4 -> BB75a4506d2 [color="green"];
+  BB75a4506c4 -> BB75a4506cc [color="red"];
+  BB75a4506cc -> BB75a4506d2 [color="blue"];
+  BB75a4506d2 -> BB75a4506e1 [color="blue"];
+}

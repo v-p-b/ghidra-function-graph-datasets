@@ -1,0 +1,22 @@
+digraph copyToReadonlyRegion {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa3143c -> BB75aa31460 [color="green"];
+  BB75aa3143c -> BB75aa31453 [color="red"];
+  BB75aa31453 -> BB75aa31465 [color="green"];
+  BB75aa31453 -> BB75aa31460 [color="red"];
+  BB75aa31460 -> BB75aa31465 [color="red"];
+  BB75aa31465 -> BB75aa31693 [color="green"];
+  BB75aa31465 -> BB75aa3155e [color="red"];
+  BB75aa3155e -> BB75aa31645 [color="green"];
+  BB75aa3155e -> BB75aa31640 [color="red"];
+  BB75aa31640 -> BB75aa3164a [color="green"];
+  BB75aa31640 -> BB75aa31645 [color="red"];
+  BB75aa31645 -> BB75aa3164a [color="red"];
+  BB75aa3164a -> BB75aa31688 [color="green"];
+  BB75aa3164a -> BB75aa3166a [color="red"];
+  BB75aa3166a -> BB75aa3167c [color="green"];
+  BB75aa3166a -> BB75aa31677 [color="red"];
+  BB75aa31677 -> BB75aa3167c [color="red"];
+  BB75aa3167c -> BB75aa31688 [color="red"];
+}

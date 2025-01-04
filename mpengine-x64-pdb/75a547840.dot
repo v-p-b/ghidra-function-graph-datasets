@@ -1,0 +1,20 @@
+digraph selectAddSubqueryTypeInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a547840 -> BB75a547887 [color="green"];
+  BB75a547840 -> BB75a54785b [color="red"];
+  BB75a54785b -> BB75a547887 [color="green"];
+  BB75a54785b -> BB75a54786f [color="red"];
+  BB75a54786f -> BB75a547873 [color="blue"];
+  BB75a547873 -> BB75a54789c [color="green"];
+  BB75a547873 -> BB75a54787d [color="red"];
+  BB75a54787d -> BB75a547873 [color="green"];
+  BB75a54787d -> BB75a547887 [color="red"];
+  BB75a54789c -> BB75a54787d [color="green"];
+  BB75a54789c -> BB75a5478a4 [color="red"];
+  BB75a5478a4 -> BB75a5478b1 [color="blue"];
+  BB75a5478aa -> BB75a5478b1 [color="blue"];
+  BB75a5478b1 -> BB75a5478aa [color="green"];
+  BB75a5478b1 -> BB75a5478b6 [color="red"];
+  BB75a5478b6 -> BB75a54787d [color="blue"];
+}

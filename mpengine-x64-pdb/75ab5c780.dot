@@ -1,0 +1,17 @@
+digraph winGetSystemCall {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5c780 -> BB75ab5c791 [color="blue"];
+  BB75ab5c791 -> BB75ab5c7c8 [color="green"];
+  BB75ab5c791 -> BB75ab5c796 [color="red"];
+  BB75ab5c796 -> BB75ab5c7a4 [color="blue"];
+  BB75ab5c7a4 -> BB75ab5c7b9 [color="green"];
+  BB75ab5c7a4 -> BB75ab5c7b1 [color="red"];
+  BB75ab5c7b1 -> BB75ab5c7a4 [color="green"];
+  BB75ab5c7b1 -> BB75ab5c7b9 [color="red"];
+  BB75ab5c7b9 -> BB75ab5c7c1 [color="green"];
+  BB75ab5c7b9 -> BB75ab5c7bd [color="red"];
+  BB75ab5c7bd -> BB75ab5c791 [color="blue"];
+  BB75ab5c7c1 -> BB75ab5c7ca [color="blue"];
+  BB75ab5c7c8 -> BB75ab5c7ca [color="blue"];
+}

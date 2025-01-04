@@ -1,0 +1,16 @@
+digraph _Emplace_reallocate<struct_LuaScriptHolder> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3f79e4 -> BB75a3f7b53 [color="green"];
+  BB75a3f79e4 -> BB75a3f7a53 [color="red"];
+  BB75a3f7a53 -> BB75a3f7a8e [color="green"];
+  BB75a3f7a53 -> BB75a3f7a83 [color="red"];
+  BB75a3f7a83 -> BB75a3f7a8e [color="blue"];
+  BB75a3f7a8e -> BB75a3f7b60 [color="green"];
+  BB75a3f7a8e -> BB75a3f7ae2 [color="red"];
+  BB75a3f7ae2 -> BB75a3f7b27 [color="green"];
+  BB75a3f7ae2 -> BB75a3f7af0 [color="red"];
+  BB75a3f7af0 -> BB75a3f7b27 [color="red"];
+  BB75a3f7b53 -> BB75a3f7b60 [color="red"];
+  BB75a3f7b60 -> BB75a3f7ae2 [color="blue"];
+}

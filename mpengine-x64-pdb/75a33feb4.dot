@@ -1,0 +1,21 @@
+digraph init_regs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a33feb4 -> BB75a34016b [color="green"];
+  BB75a33feb4 -> BB75a33fed9 [color="red"];
+  BB75a33fed9 -> BB75a33ff4d [color="green"];
+  BB75a33fed9 -> BB75a33feef [color="red"];
+  BB75a33feef -> BB75a34017b [color="green"];
+  BB75a33feef -> BB75a33fef8 [color="red"];
+  BB75a33fef8 -> BB75a33ff1c [color="red"];
+  BB75a33ff1c -> BB75a33ff1c [color="green"];
+  BB75a33ff1c -> BB75a33ff4d [color="red"];
+  BB75a33ff4d -> BB75a34001d [color="green"];
+  BB75a33ff4d -> BB75a340013 [color="red"];
+  BB75a340013 -> BB75a34001d [color="blue"];
+  BB75a34001d -> BB75a34012c [color="red"];
+  BB75a34012c -> BB75a34012c [color="green"];
+  BB75a34012c -> BB75a34015d [color="red"];
+  BB75a34015d -> BB75a34016b [color="blue"];
+  BB75a34017b -> BB75a34015d [color="blue"];
+}

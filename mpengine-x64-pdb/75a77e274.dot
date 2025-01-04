@@ -1,0 +1,20 @@
+digraph __scrt_initialize_onexit_tables {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a77e274 -> BB75a77e2ec [color="green"];
+  BB75a77e274 -> BB75a77e285 [color="red"];
+  BB75a77e285 -> BB75a77e2f4 [color="green"];
+  BB75a77e285 -> BB75a77e28a [color="red"];
+  BB75a77e28a -> BB75a77e2bb [color="green"];
+  BB75a77e28a -> BB75a77e293 [color="red"];
+  BB75a77e293 -> BB75a77e2bb [color="green"];
+  BB75a77e293 -> BB75a77e297 [color="red"];
+  BB75a77e297 -> BB75a77e2b7 [color="green"];
+  BB75a77e297 -> BB75a77e2a7 [color="red"];
+  BB75a77e2a7 -> BB75a77e2e5 [color="green"];
+  BB75a77e2a7 -> BB75a77e2b7 [color="red"];
+  BB75a77e2b7 -> BB75a77e2ee [color="blue"];
+  BB75a77e2bb -> BB75a77e2e5 [color="blue"];
+  BB75a77e2e5 -> BB75a77e2ec [color="blue"];
+  BB75a77e2ec -> BB75a77e2ee [color="blue"];
+}

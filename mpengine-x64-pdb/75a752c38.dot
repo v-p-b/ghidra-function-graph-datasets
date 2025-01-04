@@ -1,0 +1,18 @@
+digraph ReadDWORD {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a752c38 -> BB75a752c72 [color="green"];
+  BB75a752c38 -> BB75a752c58 [color="red"];
+  BB75a752c58 -> BB75a752c67 [color="green"];
+  BB75a752c58 -> BB75a752c61 [color="red"];
+  BB75a752c61 -> BB75a752c6a [color="blue"];
+  BB75a752c67 -> BB75a752c6a [color="blue"];
+  BB75a752c6a -> BB75a752c72 [color="red"];
+  BB75a752c72 -> BB75a752c7f [color="green"];
+  BB75a752c72 -> BB75a752c7b [color="red"];
+  BB75a752c7b -> BB75a752c7f [color="blue"];
+  BB75a752c7f -> BB75a752c9f [color="green"];
+  BB75a752c7f -> BB75a752c9b [color="red"];
+  BB75a752c9b -> BB75a752ca7 [color="blue"];
+  BB75a752c9f -> BB75a752ca7 [color="blue"];
+}

@@ -1,0 +1,24 @@
+digraph InsertRules {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7c7d1c -> BB75a7c7d65 [color="green"];
+  BB75a7c7d1c -> BB75a7c7d60 [color="red"];
+  BB75a7c7d60 -> BB75a7c7d65 [color="red"];
+  BB75a7c7d65 -> BB75a7c7d72 [color="red"];
+  BB75a7c7d72 -> BB75a7c7f0f [color="green"];
+  BB75a7c7d72 -> BB75a7c7d7b [color="red"];
+  BB75a7c7d7b -> BB75a7c7e09 [color="green"];
+  BB75a7c7d7b -> BB75a7c7e04 [color="red"];
+  BB75a7c7e04 -> BB75a7c7e09 [color="blue"];
+  BB75a7c7e09 -> BB75a7c7e6a [color="green"];
+  BB75a7c7e09 -> BB75a7c7e54 [color="red"];
+  BB75a7c7e54 -> BB75a7c7e6a [color="red"];
+  BB75a7c7e6a -> BB75a7c7edf [color="green"];
+  BB75a7c7e6a -> BB75a7c7e71 [color="red"];
+  BB75a7c7e71 -> BB75a7c7edf [color="green"];
+  BB75a7c7e71 -> BB75a7c7ec4 [color="red"];
+  BB75a7c7ec4 -> BB75a7c7edf [color="red"];
+  BB75a7c7edf -> BB75a7c7d72 [color="green"];
+  BB75a7c7edf -> BB75a7c7eec [color="red"];
+  BB75a7c7eec -> BB75a7c7d72 [color="blue"];
+}

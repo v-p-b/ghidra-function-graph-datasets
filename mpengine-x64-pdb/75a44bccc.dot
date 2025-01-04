@@ -1,0 +1,24 @@
+digraph GetScript {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a44bccc -> BB75a44bd45 [color="green"];
+  BB75a44bccc -> BB75a44bcef [color="red"];
+  BB75a44bcef -> BB75a44bd69 [color="green"];
+  BB75a44bcef -> BB75a44bd02 [color="red"];
+  BB75a44bd02 -> BB75a44bd58 [color="green"];
+  BB75a44bd02 -> BB75a44bd32 [color="red"];
+  BB75a44bd45 -> BB75a44bd5c [color="green"];
+  BB75a44bd45 -> BB75a44bd58 [color="red"];
+  BB75a44bd58 -> BB75a44bd32 [color="blue"];
+  BB75a44bd5c -> BB75a44bd58 [color="green"];
+  BB75a44bd5c -> BB75a44bd62 [color="red"];
+  BB75a44bd62 -> BB75a44bd93 [color="blue"];
+  BB75a44bd69 -> BB75a44bd02 [color="green"];
+  BB75a44bd69 -> BB75a44bd75 [color="red"];
+  BB75a44bd75 -> BB75a44bd58 [color="green"];
+  BB75a44bd75 -> BB75a44bd88 [color="red"];
+  BB75a44bd88 -> BB75a44bd58 [color="green"];
+  BB75a44bd88 -> BB75a44bd8e [color="red"];
+  BB75a44bd8e -> BB75a44bd93 [color="blue"];
+  BB75a44bd93 -> BB75a44bd58 [color="blue"];
+}

@@ -1,0 +1,21 @@
+digraph IsFriendlyFileEntry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a36fa68 -> BB75a36fb24 [color="green"];
+  BB75a36fa68 -> BB75a36fb18 [color="red"];
+  BB75a36fb18 -> BB75a36fb4e [color="green"];
+  BB75a36fb18 -> BB75a36fb24 [color="red"];
+  BB75a36fb24 -> BB75a36fb27 [color="blue"];
+  BB75a36fb4e -> BB75a36fb24 [color="green"];
+  BB75a36fb4e -> BB75a36fb73 [color="red"];
+  BB75a36fb73 -> BB75a36fbee [color="green"];
+  BB75a36fb73 -> BB75a36fb8d [color="red"];
+  BB75a36fb8d -> BB75a36fb27 [color="green"];
+  BB75a36fb8d -> BB75a36fbd7 [color="red"];
+  BB75a36fbd7 -> BB75a36fb24 [color="blue"];
+  BB75a36fbee -> BB75a36fb24 [color="green"];
+  BB75a36fbee -> BB75a36fc05 [color="red"];
+  BB75a36fc05 -> BB75a36fb24 [color="green"];
+  BB75a36fc05 -> BB75a36fc0f [color="red"];
+  BB75a36fc0f -> BB75a36fb24 [color="blue"];
+}

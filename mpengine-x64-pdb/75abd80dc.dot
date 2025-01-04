@@ -1,0 +1,21 @@
+digraph get_SMS_level {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abd80dc -> BB75abd8149 [color="green"];
+  BB75abd80dc -> BB75abd80ed [color="red"];
+  BB75abd80ed -> BB75abd8149 [color="green"];
+  BB75abd80ed -> BB75abd80f5 [color="red"];
+  BB75abd80f5 -> BB75abd8149 [color="green"];
+  BB75abd80f5 -> BB75abd8101 [color="red"];
+  BB75abd8101 -> BB75abd8149 [color="green"];
+  BB75abd8101 -> BB75abd8107 [color="red"];
+  BB75abd8107 -> BB75abd8149 [color="green"];
+  BB75abd8107 -> BB75abd8116 [color="red"];
+  BB75abd8116 -> BB75abd814b [color="green"];
+  BB75abd8116 -> BB75abd8127 [color="red"];
+  BB75abd8127 -> BB75abd813d [color="green"];
+  BB75abd8127 -> BB75abd8136 [color="red"];
+  BB75abd8136 -> BB75abd813d [color="blue"];
+  BB75abd813d -> BB75abd814b [color="blue"];
+  BB75abd8149 -> BB75abd814b [color="blue"];
+}

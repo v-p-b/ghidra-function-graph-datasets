@@ -1,0 +1,14 @@
+digraph _Get_temporary_buffer<struct_revokedcert_t> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa1ef8c -> BB75aa1efc6 [color="green"];
+  BB75aa1ef8c -> BB75aa1efab [color="red"];
+  BB75aa1efab -> BB75aa1efc6 [color="green"];
+  BB75aa1efab -> BB75aa1efb0 [color="red"];
+  BB75aa1efb0 -> BB75aa1efdd [color="green"];
+  BB75aa1efb0 -> BB75aa1efc1 [color="red"];
+  BB75aa1efc1 -> BB75aa1efb0 [color="green"];
+  BB75aa1efc1 -> BB75aa1efc6 [color="red"];
+  BB75aa1efc6 -> BB75aa1efcf [color="blue"];
+  BB75aa1efdd -> BB75aa1efcf [color="blue"];
+}

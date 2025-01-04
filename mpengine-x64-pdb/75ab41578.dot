@@ -1,0 +1,23 @@
+digraph IsIgnoredOrDisabledCmdThreatWithCloudCheck {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab41578 -> BB75ab415af [color="green"];
+  BB75ab41578 -> BB75ab415a8 [color="red"];
+  BB75ab415a8 -> BB75ab416a5 [color="blue"];
+  BB75ab415af -> BB75ab41624 [color="green"];
+  BB75ab415af -> BB75ab41618 [color="red"];
+  BB75ab41618 -> BB75ab41624 [color="red"];
+  BB75ab41624 -> BB75ab4163d [color="green"];
+  BB75ab41624 -> BB75ab41631 [color="red"];
+  BB75ab41631 -> BB75ab4163d [color="red"];
+  BB75ab4163d -> BB75ab41697 [color="green"];
+  BB75ab4163d -> BB75ab41657 [color="red"];
+  BB75ab41657 -> BB75ab41689 [color="green"];
+  BB75ab41657 -> BB75ab4166a [color="red"];
+  BB75ab4166a -> BB75ab41689 [color="green"];
+  BB75ab4166a -> BB75ab41670 [color="red"];
+  BB75ab41670 -> BB75ab41689 [color="red"];
+  BB75ab41689 -> BB75ab416a5 [color="blue"];
+  BB75ab41697 -> BB75ab41699 [color="blue"];
+  BB75ab41699 -> BB75ab416a5 [color="red"];
+}

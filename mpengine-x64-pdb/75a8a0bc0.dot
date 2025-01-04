@@ -1,0 +1,14 @@
+digraph MpServiceHealthMonitorMaxTimeoutsForHangDetectionEnd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8a0bc0 -> BB75a8a0be3 [color="green"];
+  BB75a8a0bc0 -> BB75a8a0bcd [color="red"];
+  BB75a8a0bcd -> BB75a8a0be3 [color="green"];
+  BB75a8a0bcd -> BB75a8a0bd9 [color="red"];
+  BB75a8a0bd9 -> BB75a8a0c1b [color="blue"];
+  BB75a8a0be3 -> BB75a8a0c1b [color="green"];
+  BB75a8a0be3 -> BB75a8a0c00 [color="red"];
+  BB75a8a0c00 -> BB75a8a0c1b [color="green"];
+  BB75a8a0c00 -> BB75a8a0c06 [color="red"];
+  BB75a8a0c06 -> BB75a8a0c1b [color="red"];
+}

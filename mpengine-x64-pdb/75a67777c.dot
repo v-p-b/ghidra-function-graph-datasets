@@ -1,0 +1,10 @@
+digraph testBits {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a67777c -> BB75a6777d2 [color="green"];
+  BB75a67777c -> BB75a677799 [color="red"];
+  BB75a677799 -> BB75a6777a3 [color="green"];
+  BB75a677799 -> BB75a67779e [color="red"];
+  BB75a67779e -> BB75a6777a3 [color="red"];
+  BB75a6777a3 -> BB75a6777d2 [color="blue"];
+}

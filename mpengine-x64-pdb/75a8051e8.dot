@@ -1,0 +1,17 @@
+digraph IsImmutableContainer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8051e8 -> BB75a80524c [color="green"];
+  BB75a8051e8 -> BB75a805208 [color="red"];
+  BB75a805208 -> BB75a805212 [color="red"];
+  BB75a805212 -> BB75a80524c [color="green"];
+  BB75a805212 -> BB75a805217 [color="red"];
+  BB75a805217 -> BB75a805230 [color="green"];
+  BB75a805217 -> BB75a80522b [color="red"];
+  BB75a80522b -> BB75a805230 [color="red"];
+  BB75a805230 -> BB75a805248 [color="green"];
+  BB75a805230 -> BB75a805243 [color="red"];
+  BB75a805243 -> BB75a805212 [color="blue"];
+  BB75a805248 -> BB75a80524e [color="blue"];
+  BB75a80524c -> BB75a80524e [color="blue"];
+}

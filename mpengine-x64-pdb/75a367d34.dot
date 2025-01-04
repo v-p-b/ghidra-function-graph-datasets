@@ -1,0 +1,16 @@
+digraph GetThreatCount {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a367d34 -> BB75a367d93 [color="green"];
+  BB75a367d34 -> BB75a367d8a [color="red"];
+  BB75a367d8a -> BB75a367d93 [color="blue"];
+  BB75a367d93 -> BB75a367dc6 [color="green"];
+  BB75a367d93 -> BB75a367d98 [color="red"];
+  BB75a367d98 -> BB75a367dcb [color="green"];
+  BB75a367d98 -> BB75a367d9d [color="red"];
+  BB75a367d9d -> BB75a367dcf [color="green"];
+  BB75a367d9d -> BB75a367da7 [color="red"];
+  BB75a367dc6 -> BB75a367d98 [color="blue"];
+  BB75a367dcb -> BB75a367d9d [color="blue"];
+  BB75a367dcf -> BB75a367da7 [color="blue"];
+}

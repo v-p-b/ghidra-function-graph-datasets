@@ -1,0 +1,15 @@
+digraph ValidateTrustPluginOfficeVba {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab2f4ec -> BB75ab2f5b0 [color="green"];
+  BB75ab2f4ec -> BB75ab2f598 [color="red"];
+  BB75ab2f598 -> BB75ab2f5b0 [color="green"];
+  BB75ab2f598 -> BB75ab2f5a9 [color="red"];
+  BB75ab2f5a9 -> BB75ab2f5b0 [color="red"];
+  BB75ab2f5b0 -> BB75ab2f5ce [color="green"];
+  BB75ab2f5b0 -> BB75ab2f5ca [color="red"];
+  BB75ab2f5ca -> BB75ab2f5ce [color="blue"];
+  BB75ab2f5ce -> BB75ab2f5f6 [color="green"];
+  BB75ab2f5ce -> BB75ab2f5f0 [color="red"];
+  BB75ab2f5f0 -> BB75ab2f5f6 [color="red"];
+}

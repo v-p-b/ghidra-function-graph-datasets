@@ -1,0 +1,11 @@
+digraph LoadHardenedProcessInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a230214 -> BB75a230267 [color="green"];
+  BB75a230214 -> BB75a230236 [color="red"];
+  BB75a230236 -> BB75a230267 [color="green"];
+  BB75a230236 -> BB75a230249 [color="red"];
+  BB75a230249 -> BB75a230267 [color="green"];
+  BB75a230249 -> BB75a23024f [color="red"];
+  BB75a23024f -> BB75a230267 [color="red"];
+}

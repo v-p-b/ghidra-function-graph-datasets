@@ -1,0 +1,18 @@
+digraph NTDLL_DLL_VFS_FileExists {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa73400 -> BB75aa7351e [color="green"];
+  BB75aa73400 -> BB75aa73470 [color="red"];
+  BB75aa73470 -> BB75aa7351e [color="green"];
+  BB75aa73470 -> BB75aa7347e [color="red"];
+  BB75aa7347e -> BB75aa73514 [color="green"];
+  BB75aa7347e -> BB75aa734a1 [color="red"];
+  BB75aa734a1 -> BB75aa73514 [color="green"];
+  BB75aa734a1 -> BB75aa734c9 [color="red"];
+  BB75aa734c9 -> BB75aa73514 [color="green"];
+  BB75aa734c9 -> BB75aa734e1 [color="red"];
+  BB75aa734e1 -> BB75aa73514 [color="green"];
+  BB75aa734e1 -> BB75aa734f8 [color="red"];
+  BB75aa734f8 -> BB75aa73514 [color="red"];
+  BB75aa73514 -> BB75aa7351e [color="red"];
+}

@@ -1,0 +1,23 @@
+digraph BMSearch {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2143d4 -> BB75a214469 [color="green"];
+  BB75a2143d4 -> BB75a214428 [color="red"];
+  BB75a214428 -> BB75a214497 [color="green"];
+  BB75a214428 -> BB75a214469 [color="red"];
+  BB75a214469 -> BB75a21446d [color="blue"];
+  BB75a214497 -> BB75a2144e6 [color="green"];
+  BB75a214497 -> BB75a2144ac [color="red"];
+  BB75a2144ac -> BB75a214523 [color="green"];
+  BB75a2144ac -> BB75a2144dc [color="red"];
+  BB75a2144dc -> BB75a214537 [color="green"];
+  BB75a2144dc -> BB75a2144e1 [color="red"];
+  BB75a2144e1 -> BB75a21446d [color="blue"];
+  BB75a2144e6 -> BB75a214469 [color="green"];
+  BB75a2144e6 -> BB75a21451c [color="red"];
+  BB75a21451c -> BB75a2144ac [color="blue"];
+  BB75a214523 -> BB75a2144dc [color="green"];
+  BB75a214523 -> BB75a214528 [color="red"];
+  BB75a214528 -> BB75a2144dc [color="blue"];
+  BB75a214537 -> BB75a2144e1 [color="blue"];
+}

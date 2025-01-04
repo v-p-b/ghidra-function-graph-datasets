@@ -1,0 +1,21 @@
+digraph ZSTD_isRLE {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a752cb8 -> BB75a752d32 [color="green"];
+  BB75a752cb8 -> BB75a752ceb [color="red"];
+  BB75a752ceb -> BB75a752d0b [color="green"];
+  BB75a752ceb -> BB75a752cf0 [color="red"];
+  BB75a752cf0 -> BB75a752d2e [color="green"];
+  BB75a752cf0 -> BB75a752d0b [color="red"];
+  BB75a752d0b -> BB75a752d32 [color="green"];
+  BB75a752d0b -> BB75a752d10 [color="red"];
+  BB75a752d10 -> BB75a752d12 [color="blue"];
+  BB75a752d12 -> BB75a752d28 [color="green"];
+  BB75a752d12 -> BB75a752d18 [color="red"];
+  BB75a752d18 -> BB75a752d2e [color="green"];
+  BB75a752d18 -> BB75a752d22 [color="red"];
+  BB75a752d22 -> BB75a752d12 [color="blue"];
+  BB75a752d28 -> BB75a752d0b [color="blue"];
+  BB75a752d2e -> BB75a752d37 [color="blue"];
+  BB75a752d32 -> BB75a752d37 [color="blue"];
+}

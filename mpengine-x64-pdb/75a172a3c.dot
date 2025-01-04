@@ -1,0 +1,16 @@
+digraph putMany {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a172a3c -> BB75a172ad1 [color="green"];
+  BB75a172a3c -> BB75a172a60 [color="red"];
+  BB75a172a60 -> BB75a172aaa [color="green"];
+  BB75a172a60 -> BB75a172a7a [color="red"];
+  BB75a172a7a -> BB75a172ac1 [color="green"];
+  BB75a172a7a -> BB75a172a8f [color="red"];
+  BB75a172a8f -> BB75a172a96 [color="blue"];
+  BB75a172a96 -> BB75a172a7a [color="green"];
+  BB75a172a96 -> BB75a172aaa [color="red"];
+  BB75a172aaa -> BB75a172aac [color="blue"];
+  BB75a172ac1 -> BB75a172a96 [color="blue"];
+  BB75a172ad1 -> BB75a172aac [color="blue"];
+}

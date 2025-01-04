@@ -1,0 +1,14 @@
+digraph GetProcessFlag {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3253d4 -> BB75a325432 [color="green"];
+  BB75a3253d4 -> BB75a3253fe [color="red"];
+  BB75a3253fe -> BB75a325420 [color="green"];
+  BB75a3253fe -> BB75a325418 [color="red"];
+  BB75a325418 -> BB75a325420 [color="red"];
+  BB75a325420 -> BB75a325422 [color="blue"];
+  BB75a325432 -> BB75a325441 [color="green"];
+  BB75a325432 -> BB75a32543c [color="red"];
+  BB75a32543c -> BB75a325441 [color="red"];
+  BB75a325441 -> BB75a325422 [color="blue"];
+}

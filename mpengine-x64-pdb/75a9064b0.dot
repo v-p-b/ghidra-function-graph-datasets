@@ -1,0 +1,10 @@
+digraph ~feature_extraction_graph_agent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9064b0 -> BB75a9064fa [color="green"];
+  BB75a9064b0 -> BB75a9064ce [color="red"];
+  BB75a9064ce -> BB75a9064fa [color="red"];
+  BB75a9064fa -> BB75a90651a [color="green"];
+  BB75a9064fa -> BB75a906515 [color="red"];
+  BB75a906515 -> BB75a90651a [color="red"];
+}

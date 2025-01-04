@@ -1,0 +1,15 @@
+digraph SendTelemetry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac9004c -> BB75ac90074 [color="green"];
+  BB75ac9004c -> BB75ac9006c [color="red"];
+  BB75ac9006c -> BB75ac90136 [color="green"];
+  BB75ac9006c -> BB75ac90074 [color="red"];
+  BB75ac90074 -> BB75ac90136 [color="green"];
+  BB75ac90074 -> BB75ac90086 [color="red"];
+  BB75ac90086 -> BB75ac900cb [color="green"];
+  BB75ac90086 -> BB75ac900b1 [color="red"];
+  BB75ac900b1 -> BB75ac900f5 [color="blue"];
+  BB75ac900cb -> BB75ac900f5 [color="red"];
+  BB75ac900f5 -> BB75ac90136 [color="blue"];
+}

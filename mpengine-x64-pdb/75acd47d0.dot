@@ -1,0 +1,23 @@
+digraph GetPointerToMemory {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acd47d0 -> BB75acd4801 [color="green"];
+  BB75acd47d0 -> BB75acd47f8 [color="red"];
+  BB75acd47f8 -> BB75acd4867 [color="green"];
+  BB75acd47f8 -> BB75acd4801 [color="red"];
+  BB75acd4801 -> BB75acd4862 [color="green"];
+  BB75acd4801 -> BB75acd4808 [color="red"];
+  BB75acd4808 -> BB75acd4862 [color="green"];
+  BB75acd4808 -> BB75acd480d [color="red"];
+  BB75acd480d -> BB75acd4811 [color="blue"];
+  BB75acd4811 -> BB75acd4853 [color="green"];
+  BB75acd4811 -> BB75acd4817 [color="red"];
+  BB75acd4817 -> BB75acd482e [color="green"];
+  BB75acd4817 -> BB75acd4824 [color="red"];
+  BB75acd4824 -> BB75acd4837 [color="green"];
+  BB75acd4824 -> BB75acd482e [color="red"];
+  BB75acd482e -> BB75acd4811 [color="blue"];
+  BB75acd4837 -> BB75acd4867 [color="blue"];
+  BB75acd4853 -> BB75acd4867 [color="blue"];
+  BB75acd4862 -> BB75acd4867 [color="blue"];
+}

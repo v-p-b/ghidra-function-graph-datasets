@@ -1,0 +1,12 @@
+digraph SFCStore {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a443bac -> BB75a443c02 [color="blue"];
+  BB75a443c02 -> BB75a443c02 [color="green"];
+  BB75a443c02 -> BB75a443c0b [color="red"];
+  BB75a443c0b -> BB75a443c31 [color="green"];
+  BB75a443c0b -> BB75a443c10 [color="red"];
+  BB75a443c10 -> BB75a443c31 [color="green"];
+  BB75a443c10 -> BB75a443c1a [color="red"];
+  BB75a443c1a -> BB75a443c31 [color="red"];
+}

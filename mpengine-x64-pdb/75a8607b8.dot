@@ -1,0 +1,22 @@
+digraph ProcessSecurityMitigationsEvent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8607b8 -> BB75a860821 [color="green"];
+  BB75a8607b8 -> BB75a8607cb [color="red"];
+  BB75a8607cb -> BB75a86081b [color="green"];
+  BB75a8607cb -> BB75a8607d2 [color="red"];
+  BB75a8607d2 -> BB75a86081b [color="green"];
+  BB75a8607d2 -> BB75a8607dc [color="red"];
+  BB75a8607dc -> BB75a860814 [color="green"];
+  BB75a8607dc -> BB75a8607e6 [color="red"];
+  BB75a8607e6 -> BB75a860814 [color="green"];
+  BB75a8607e6 -> BB75a8607f0 [color="red"];
+  BB75a8607f0 -> BB75a860801 [color="green"];
+  BB75a8607f0 -> BB75a8607fa [color="red"];
+  BB75a8607fa -> BB75a860821 [color="blue"];
+  BB75a860801 -> BB75a860821 [color="green"];
+  BB75a860801 -> BB75a86080d [color="red"];
+  BB75a86080d -> BB75a860821 [color="blue"];
+  BB75a860814 -> BB75a860821 [color="blue"];
+  BB75a86081b -> BB75a860821 [color="red"];
+}

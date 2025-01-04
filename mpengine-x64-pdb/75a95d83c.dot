@@ -1,0 +1,17 @@
+digraph update_pt_flow {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a95d83c -> BB75a95d852 [color="green"];
+  BB75a95d83c -> BB75a95d847 [color="red"];
+  BB75a95d847 -> BB75a95d852 [color="green"];
+  BB75a95d847 -> BB75a95d84e [color="red"];
+  BB75a95d84e -> BB75a95d854 [color="blue"];
+  BB75a95d852 -> BB75a95d854 [color="blue"];
+  BB75a95d854 -> BB75a95d88d [color="green"];
+  BB75a95d854 -> BB75a95d864 [color="red"];
+  BB75a95d864 -> BB75a95d883 [color="green"];
+  BB75a95d864 -> BB75a95d86e [color="red"];
+  BB75a95d86e -> BB75a95d883 [color="green"];
+  BB75a95d86e -> BB75a95d874 [color="red"];
+  BB75a95d874 -> BB75a95d883 [color="blue"];
+}

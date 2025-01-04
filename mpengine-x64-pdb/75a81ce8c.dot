@@ -1,0 +1,14 @@
+digraph DetachHandler {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a81ce8c -> BB75a81cea8 [color="green"];
+  BB75a81ce8c -> BB75a81cea3 [color="red"];
+  BB75a81cea3 -> BB75a81cea8 [color="red"];
+  BB75a81cea8 -> BB75a81cef2 [color="green"];
+  BB75a81cea8 -> BB75a81cec1 [color="red"];
+  BB75a81cec1 -> BB75a81cef2 [color="green"];
+  BB75a81cec1 -> BB75a81ced4 [color="red"];
+  BB75a81ced4 -> BB75a81cef2 [color="green"];
+  BB75a81ced4 -> BB75a81ceda [color="red"];
+  BB75a81ceda -> BB75a81cef2 [color="red"];
+}

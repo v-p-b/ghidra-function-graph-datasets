@@ -1,0 +1,20 @@
+digraph notify_nondet_ev {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3ef57c -> BB75a3ef67c [color="green"];
+  BB75a3ef57c -> BB75a3ef5bc [color="red"];
+  BB75a3ef5bc -> BB75a3ef63f [color="green"];
+  BB75a3ef5bc -> BB75a3ef631 [color="red"];
+  BB75a3ef631 -> BB75a3ef63f [color="blue"];
+  BB75a3ef63f -> BB75a3ef68b [color="green"];
+  BB75a3ef63f -> BB75a3ef650 [color="red"];
+  BB75a3ef650 -> BB75a3ef691 [color="green"];
+  BB75a3ef650 -> BB75a3ef656 [color="red"];
+  BB75a3ef656 -> BB75a3ef67e [color="green"];
+  BB75a3ef656 -> BB75a3ef665 [color="red"];
+  BB75a3ef665 -> BB75a3ef66c [color="blue"];
+  BB75a3ef67c -> BB75a3ef66c [color="blue"];
+  BB75a3ef67e -> BB75a3ef66c [color="blue"];
+  BB75a3ef68b -> BB75a3ef656 [color="blue"];
+  BB75a3ef691 -> BB75a3ef656 [color="blue"];
+}

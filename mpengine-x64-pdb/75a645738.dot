@@ -1,0 +1,15 @@
+digraph triggerSpanDup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a645738 -> BB75a645751 [color="green"];
+  BB75a645738 -> BB75a645749 [color="red"];
+  BB75a645751 -> BB75a645749 [color="green"];
+  BB75a645751 -> BB75a645757 [color="red"];
+  BB75a645757 -> BB75a64575a [color="blue"];
+  BB75a64575a -> BB75a645775 [color="green"];
+  BB75a64575a -> BB75a64576a [color="red"];
+  BB75a64576a -> BB75a64575a [color="green"];
+  BB75a64576a -> BB75a645773 [color="red"];
+  BB75a645773 -> BB75a645749 [color="blue"];
+  BB75a645775 -> BB75a64576a [color="blue"];
+}

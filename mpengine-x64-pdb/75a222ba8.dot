@@ -1,0 +1,9 @@
+digraph isIPv4MappedAddress {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a222ba8 -> BB75a222bba [color="green"];
+  BB75a222ba8 -> BB75a222baf [color="red"];
+  BB75a222baf -> BB75a222bba [color="green"];
+  BB75a222baf -> BB75a222bb8 [color="red"];
+  BB75a222bb8 -> BB75a222bba [color="blue"];
+}

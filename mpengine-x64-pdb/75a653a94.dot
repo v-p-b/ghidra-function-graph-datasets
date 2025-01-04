@@ -1,0 +1,16 @@
+digraph alloc<struct_JsFunctionProxyObject<struct_JsDelegateObject_FFI>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a653a94 -> BB75a653b23 [color="green"];
+  BB75a653a94 -> BB75a653aaf [color="red"];
+  BB75a653aaf -> BB75a653b23 [color="green"];
+  BB75a653aaf -> BB75a653abc [color="red"];
+  BB75a653abc -> BB75a653b23 [color="green"];
+  BB75a653abc -> BB75a653aca [color="red"];
+  BB75a653aca -> BB75a653b17 [color="green"];
+  BB75a653aca -> BB75a653af9 [color="red"];
+  BB75a653af9 -> BB75a653b01 [color="blue"];
+  BB75a653b01 -> BB75a653b0a [color="blue"];
+  BB75a653b17 -> BB75a653b01 [color="blue"];
+  BB75a653b23 -> BB75a653b0a [color="blue"];
+}

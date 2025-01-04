@@ -1,0 +1,20 @@
+digraph lua_resume {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab026b0 -> BB75ab026e0 [color="green"];
+  BB75ab026b0 -> BB75ab026c4 [color="red"];
+  BB75ab026c4 -> BB75ab026d2 [color="green"];
+  BB75ab026c4 -> BB75ab026c8 [color="red"];
+  BB75ab026c8 -> BB75ab026e0 [color="green"];
+  BB75ab026c8 -> BB75ab026d2 [color="red"];
+  BB75ab026d2 -> BB75ab026d9 [color="blue"];
+  BB75ab026d9 -> BB75ab02753 [color="blue"];
+  BB75ab026e0 -> BB75ab026fa [color="green"];
+  BB75ab026e0 -> BB75ab026f1 [color="red"];
+  BB75ab026f1 -> BB75ab026d9 [color="blue"];
+  BB75ab026fa -> BB75ab02744 [color="green"];
+  BB75ab026fa -> BB75ab02725 [color="red"];
+  BB75ab02725 -> BB75ab02748 [color="blue"];
+  BB75ab02744 -> BB75ab02748 [color="blue"];
+  BB75ab02748 -> BB75ab02753 [color="blue"];
+}

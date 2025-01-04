@@ -1,0 +1,12 @@
+digraph _decode_multi_cpu<class_std::vector<class_std::vector<struct_tdt_control_flow_freq_,class_std::allocator<struct_tdt_control_flow_freq_>_>*___ptr64,class_std::allocator<class_std::vector<struct_tdt_control_flow_freq_,class_std::allocator<struct_tdt_control_flow_freq_>_>*___ptr64>_>,class_std::_Binder<struct_std::_Unforced,enum_tdt_status__(__cdecl_tdt::pt_decode_common::*)(unsigned_char_const*___ptr64,unsigned___int64,class_std::vector<struct_tdt_control_flow_freq_,class_std::allocator<struct_tdt_control_flow_freq_>_>&___ptr64,bool_const&___ptr64)___ptr64,class_tdt::pt_decode_cpu_multi*___ptr64,struct_std::_Ph<1>_const&___ptr64,struct_std::_Ph<2>_const&___ptr64,struct_std::_Ph<3>_const&___ptr64,struct_std::_Ph<4>_const&___ptr64>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acead70 -> BB75aceadb2 [color="green"];
+  BB75acead70 -> BB75aceadab [color="red"];
+  BB75aceadab -> BB75aceae28 [color="blue"];
+  BB75aceadb2 -> BB75aceae28 [color="green"];
+  BB75aceadb2 -> BB75aceadc3 [color="red"];
+  BB75aceadc3 -> BB75aceae28 [color="green"];
+  BB75aceadc3 -> BB75aceae1b [color="red"];
+  BB75aceae1b -> BB75aceae28 [color="red"];
+}

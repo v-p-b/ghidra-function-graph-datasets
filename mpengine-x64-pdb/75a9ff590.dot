@@ -1,0 +1,17 @@
+digraph do_put {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9ff590 -> BB75a9ff5e5 [color="green"];
+  BB75a9ff590 -> BB75a9ff5de [color="red"];
+  BB75a9ff5de -> BB75a9ff5e5 [color="blue"];
+  BB75a9ff5e5 -> BB75a9ff60f [color="blue"];
+  BB75a9ff5fa -> BB75a9ff615 [color="green"];
+  BB75a9ff5fa -> BB75a9ff603 [color="red"];
+  BB75a9ff603 -> BB75a9ff60f [color="blue"];
+  BB75a9ff60f -> BB75a9ff5fa [color="green"];
+  BB75a9ff60f -> BB75a9ff615 [color="red"];
+  BB75a9ff615 -> BB75a9ff645 [color="green"];
+  BB75a9ff615 -> BB75a9ff636 [color="red"];
+  BB75a9ff636 -> BB75a9ff719 [color="blue"];
+  BB75a9ff645 -> BB75a9ff719 [color="red"];
+}

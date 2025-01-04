@@ -1,0 +1,10 @@
+digraph two_way_lru_cache<2048,struct_tdt_library_v_next::core_telemetry::heuristic_caches::violation_cache_key_t,enum_tdt_library_v_next::tdt_app_profiling::cfi_violation_type_t> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a95d8f8 -> BB75a95d92b [color="red"];
+  BB75a95d92b -> BB75a95d930 [color="blue"];
+  BB75a95d930 -> BB75a95d930 [color="green"];
+  BB75a95d930 -> BB75a95d948 [color="red"];
+  BB75a95d948 -> BB75a95d92b [color="green"];
+  BB75a95d948 -> BB75a95d94e [color="red"];
+}

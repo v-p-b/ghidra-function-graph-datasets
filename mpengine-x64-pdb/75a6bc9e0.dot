@@ -1,0 +1,17 @@
+digraph LoadTrustedInstallerHardeningExcludeFlagsDbVar {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6bc9e0 -> BB75a6bca50 [color="green"];
+  BB75a6bc9e0 -> BB75a6bc9fd [color="red"];
+  BB75a6bc9fd -> BB75a6bca50 [color="green"];
+  BB75a6bc9fd -> BB75a6bca06 [color="red"];
+  BB75a6bca06 -> BB75a6bca08 [color="blue"];
+  BB75a6bca08 -> BB75a6bca2f [color="green"];
+  BB75a6bca08 -> BB75a6bca28 [color="red"];
+  BB75a6bca28 -> BB75a6bca2f [color="blue"];
+  BB75a6bca50 -> BB75a6bca08 [color="green"];
+  BB75a6bca50 -> BB75a6bca63 [color="red"];
+  BB75a6bca63 -> BB75a6bca08 [color="green"];
+  BB75a6bca63 -> BB75a6bca69 [color="red"];
+  BB75a6bca69 -> BB75a6bca08 [color="blue"];
+}

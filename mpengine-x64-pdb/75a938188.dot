@@ -1,0 +1,34 @@
+digraph _find_counters_per_pid_tid {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a938188 -> BB75a93822a [color="green"];
+  BB75a938188 -> BB75a9381c5 [color="red"];
+  BB75a9381c5 -> BB75a938204 [color="red"];
+  BB75a938204 -> BB75a93820e [color="green"];
+  BB75a938204 -> BB75a93820a [color="red"];
+  BB75a93820a -> BB75a93820e [color="blue"];
+  BB75a93822a -> BB75a938246 [color="blue"];
+  BB75a938246 -> BB75a938204 [color="green"];
+  BB75a938246 -> BB75a93824f [color="red"];
+  BB75a93824f -> BB75a93828d [color="green"];
+  BB75a93824f -> BB75a938255 [color="red"];
+  BB75a938255 -> BB75a93832b [color="green"];
+  BB75a938255 -> BB75a93826f [color="red"];
+  BB75a93826f -> BB75a938204 [color="green"];
+  BB75a93826f -> BB75a93828d [color="red"];
+  BB75a93828d -> BB75a9382ac [color="blue"];
+  BB75a93829d -> BB75a9382ac [color="blue"];
+  BB75a9382ac -> BB75a93829d [color="green"];
+  BB75a9382ac -> BB75a9382b1 [color="red"];
+  BB75a9382b1 -> BB75a9382d1 [color="blue"];
+  BB75a9382c1 -> BB75a9382d1 [color="blue"];
+  BB75a9382d1 -> BB75a9382c1 [color="green"];
+  BB75a9382d1 -> BB75a9382d6 [color="red"];
+  BB75a9382d6 -> BB75a9382e7 [color="green"];
+  BB75a9382d6 -> BB75a9382df [color="red"];
+  BB75a9382df -> BB75a9382e7 [color="blue"];
+  BB75a9382e7 -> BB75a9382f8 [color="green"];
+  BB75a9382e7 -> BB75a9382f0 [color="red"];
+  BB75a9382f0 -> BB75a9382f8 [color="blue"];
+  BB75a9382f8 -> BB75a938246 [color="blue"];
+}

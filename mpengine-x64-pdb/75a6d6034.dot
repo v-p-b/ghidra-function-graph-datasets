@@ -1,0 +1,9 @@
+digraph ZSTD_maxNbSeq {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6d6034 -> BB75a6d6048 [color="green"];
+  BB75a6d6034 -> BB75a6d603f [color="red"];
+  BB75a6d603f -> BB75a6d6048 [color="green"];
+  BB75a6d603f -> BB75a6d6044 [color="red"];
+  BB75a6d6044 -> BB75a6d6048 [color="blue"];
+}

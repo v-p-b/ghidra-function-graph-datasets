@@ -1,0 +1,27 @@
+digraph get_os_processes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a994df4 -> BB75a994ff9 [color="green"];
+  BB75a994df4 -> BB75a994e2f [color="red"];
+  BB75a994e2f -> BB75a994ff9 [color="green"];
+  BB75a994e2f -> BB75a994e66 [color="red"];
+  BB75a994e66 -> BB75a994e71 [color="blue"];
+  BB75a994e71 -> BB75a994fe8 [color="green"];
+  BB75a994e71 -> BB75a994e92 [color="red"];
+  BB75a994e92 -> BB75a994e71 [color="green"];
+  BB75a994e92 -> BB75a994e99 [color="red"];
+  BB75a994e99 -> BB75a994e71 [color="green"];
+  BB75a994e99 -> BB75a994eb0 [color="red"];
+  BB75a994eb0 -> BB75a994fdb [color="green"];
+  BB75a994eb0 -> BB75a994ece [color="red"];
+  BB75a994ece -> BB75a994fdb [color="green"];
+  BB75a994ece -> BB75a994ed8 [color="red"];
+  BB75a994ed8 -> BB75a994f8e [color="green"];
+  BB75a994ed8 -> BB75a994f20 [color="red"];
+  BB75a994f20 -> BB75a994f8e [color="green"];
+  BB75a994f20 -> BB75a994f74 [color="red"];
+  BB75a994f74 -> BB75a994f8e [color="blue"];
+  BB75a994f8e -> BB75a994fdb [color="red"];
+  BB75a994fdb -> BB75a994e71 [color="blue"];
+  BB75a994fe8 -> BB75a994ff9 [color="red"];
+}

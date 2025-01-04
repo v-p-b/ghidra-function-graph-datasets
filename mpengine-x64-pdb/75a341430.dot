@@ -1,0 +1,27 @@
+digraph scan_stack {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a341430 -> BB75a3415bd [color="green"];
+  BB75a341430 -> BB75a341489 [color="red"];
+  BB75a341489 -> BB75a3415bd [color="green"];
+  BB75a341489 -> BB75a34149a [color="red"];
+  BB75a34149a -> BB75a3414b1 [color="blue"];
+  BB75a3414b1 -> BB75a34157a [color="green"];
+  BB75a3414b1 -> BB75a3414c4 [color="red"];
+  BB75a3414c4 -> BB75a3415bd [color="green"];
+  BB75a3414c4 -> BB75a3414cd [color="red"];
+  BB75a3414cd -> BB75a3415bd [color="green"];
+  BB75a3414cd -> BB75a341518 [color="red"];
+  BB75a341518 -> BB75a34154f [color="green"];
+  BB75a341518 -> BB75a341538 [color="red"];
+  BB75a341538 -> BB75a34154f [color="red"];
+  BB75a34154f -> BB75a34155f [color="green"];
+  BB75a34154f -> BB75a341554 [color="red"];
+  BB75a341554 -> BB75a34155f [color="blue"];
+  BB75a34157a -> BB75a3414c4 [color="green"];
+  BB75a34157a -> BB75a341586 [color="red"];
+  BB75a341586 -> BB75a3414c4 [color="green"];
+  BB75a341586 -> BB75a3415b5 [color="red"];
+  BB75a3415b5 -> BB75a3414b1 [color="blue"];
+  BB75a3415bd -> BB75a34155f [color="blue"];
+}

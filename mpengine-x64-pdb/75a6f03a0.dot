@@ -1,0 +1,18 @@
+digraph RegisterScanner {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6f03a0 -> BB75a6f03ef [color="green"];
+  BB75a6f03a0 -> BB75a6f03b7 [color="red"];
+  BB75a6f03b7 -> BB75a6f03e5 [color="green"];
+  BB75a6f03b7 -> BB75a6f03ca [color="red"];
+  BB75a6f03ca -> BB75a6f03e5 [color="green"];
+  BB75a6f03ca -> BB75a6f03d0 [color="red"];
+  BB75a6f03d0 -> BB75a6f03e5 [color="red"];
+  BB75a6f03e5 -> BB75a6f0473 [color="blue"];
+  BB75a6f03ef -> BB75a6f0405 [color="green"];
+  BB75a6f03ef -> BB75a6f03ff [color="red"];
+  BB75a6f03ff -> BB75a6f0471 [color="green"];
+  BB75a6f03ff -> BB75a6f0405 [color="red"];
+  BB75a6f0405 -> BB75a6f0471 [color="blue"];
+  BB75a6f0471 -> BB75a6f0473 [color="blue"];
+}

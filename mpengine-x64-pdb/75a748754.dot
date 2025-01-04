@@ -1,0 +1,12 @@
+digraph scan_rpf_elf {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a748754 -> BB75a748793 [color="green"];
+  BB75a748754 -> BB75a748789 [color="red"];
+  BB75a748789 -> BB75a748803 [color="blue"];
+  BB75a748793 -> BB75a7487f6 [color="green"];
+  BB75a748793 -> BB75a7487ed [color="red"];
+  BB75a7487ed -> BB75a748801 [color="blue"];
+  BB75a7487f6 -> BB75a748801 [color="blue"];
+  BB75a748801 -> BB75a748803 [color="blue"];
+}

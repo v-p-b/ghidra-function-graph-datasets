@@ -1,0 +1,37 @@
+digraph SendParentalPropagatingNotificationsToChildren {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a833c30 -> BB75a833dc4 [color="green"];
+  BB75a833c30 -> BB75a833c56 [color="red"];
+  BB75a833c56 -> BB75a833c7e [color="red"];
+  BB75a833c7e -> BB75a833c90 [color="green"];
+  BB75a833c7e -> BB75a833c83 [color="red"];
+  BB75a833c83 -> BB75a833cc9 [color="blue"];
+  BB75a833c90 -> BB75a833cae [color="green"];
+  BB75a833c90 -> BB75a833c9a [color="red"];
+  BB75a833c9a -> BB75a833cae [color="green"];
+  BB75a833c9a -> BB75a833ca0 [color="red"];
+  BB75a833ca0 -> BB75a833cae [color="red"];
+  BB75a833cae -> BB75a833c7e [color="blue"];
+  BB75a833cc9 -> BB75a833d16 [color="green"];
+  BB75a833cc9 -> BB75a833ce3 [color="red"];
+  BB75a833ce3 -> BB75a833d1d [color="green"];
+  BB75a833ce3 -> BB75a833cf6 [color="red"];
+  BB75a833cf6 -> BB75a833d1d [color="green"];
+  BB75a833cf6 -> BB75a833cfc [color="red"];
+  BB75a833cfc -> BB75a833d1d [color="blue"];
+  BB75a833d16 -> BB75a833d1d [color="blue"];
+  BB75a833d1d -> BB75a833d2a [color="blue"];
+  BB75a833d2a -> BB75a833d74 [color="green"];
+  BB75a833d2a -> BB75a833d31 [color="red"];
+  BB75a833d31 -> BB75a833d6e [color="green"];
+  BB75a833d31 -> BB75a833d44 [color="red"];
+  BB75a833d44 -> BB75a833d6e [color="green"];
+  BB75a833d44 -> BB75a833d50 [color="red"];
+  BB75a833d50 -> BB75a833d6e [color="green"];
+  BB75a833d50 -> BB75a833d56 [color="red"];
+  BB75a833d56 -> BB75a833d6e [color="red"];
+  BB75a833d6e -> BB75a833d2a [color="blue"];
+  BB75a833d74 -> BB75a833dba [color="blue"];
+  BB75a833dba -> BB75a833dc4 [color="red"];
+}

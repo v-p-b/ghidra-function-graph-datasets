@@ -1,0 +1,26 @@
+digraph TestTrigger {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad02564 -> BB75ad025b5 [color="green"];
+  BB75ad02564 -> BB75ad0258b [color="red"];
+  BB75ad0258b -> BB75ad025bc [color="green"];
+  BB75ad0258b -> BB75ad02597 [color="red"];
+  BB75ad02597 -> BB75ad025bc [color="green"];
+  BB75ad02597 -> BB75ad0259d [color="red"];
+  BB75ad0259d -> BB75ad025b5 [color="red"];
+  BB75ad025b5 -> BB75ad025bc [color="blue"];
+  BB75ad025bc -> BB75ad025e7 [color="green"];
+  BB75ad025bc -> BB75ad025c3 [color="red"];
+  BB75ad025c3 -> BB75ad025e3 [color="green"];
+  BB75ad025c3 -> BB75ad025c8 [color="red"];
+  BB75ad025c8 -> BB75ad025e3 [color="green"];
+  BB75ad025c8 -> BB75ad025ce [color="red"];
+  BB75ad025ce -> BB75ad025e3 [color="red"];
+  BB75ad025e3 -> BB75ad02609 [color="blue"];
+  BB75ad025e7 -> BB75ad02607 [color="green"];
+  BB75ad025e7 -> BB75ad025ec [color="red"];
+  BB75ad025ec -> BB75ad02607 [color="green"];
+  BB75ad025ec -> BB75ad025f2 [color="red"];
+  BB75ad025f2 -> BB75ad02607 [color="red"];
+  BB75ad02607 -> BB75ad02609 [color="blue"];
+}

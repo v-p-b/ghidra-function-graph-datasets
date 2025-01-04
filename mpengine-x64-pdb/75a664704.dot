@@ -1,0 +1,10 @@
+digraph ~CResmgrProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a664704 -> BB75a66474d [color="green"];
+  BB75a664704 -> BB75a664720 [color="red"];
+  BB75a664720 -> BB75a664740 [color="green"];
+  BB75a664720 -> BB75a66473b [color="red"];
+  BB75a66473b -> BB75a664740 [color="red"];
+  BB75a66474d -> BB75a664720 [color="blue"];
+}

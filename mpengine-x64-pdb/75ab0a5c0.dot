@@ -1,0 +1,29 @@
+digraph GetRegValueAsQword {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab0a5c0 -> BB75ab0a6c2 [color="green"];
+  BB75ab0a5c0 -> BB75ab0a5e0 [color="red"];
+  BB75ab0a5e0 -> BB75ab0a6c2 [color="green"];
+  BB75ab0a5e0 -> BB75ab0a5fb [color="red"];
+  BB75ab0a5fb -> BB75ab0a641 [color="green"];
+  BB75ab0a5fb -> BB75ab0a615 [color="red"];
+  BB75ab0a615 -> BB75ab0a641 [color="red"];
+  BB75ab0a641 -> BB75ab0a6d1 [color="green"];
+  BB75ab0a641 -> BB75ab0a664 [color="red"];
+  BB75ab0a664 -> BB75ab0a69a [color="green"];
+  BB75ab0a664 -> BB75ab0a677 [color="red"];
+  BB75ab0a677 -> BB75ab0a69a [color="green"];
+  BB75ab0a677 -> BB75ab0a67d [color="red"];
+  BB75ab0a67d -> BB75ab0a69a [color="red"];
+  BB75ab0a69a -> BB75ab0a6a7 [color="green"];
+  BB75ab0a69a -> BB75ab0a69e [color="red"];
+  BB75ab0a69e -> BB75ab0a6a7 [color="blue"];
+  BB75ab0a6a7 -> BB75ab0a6c2 [color="green"];
+  BB75ab0a6a7 -> BB75ab0a6ba [color="red"];
+  BB75ab0a6ba -> BB75ab0a6c2 [color="red"];
+  BB75ab0a6c2 -> BB75ab0a6c4 [color="blue"];
+  BB75ab0a6d1 -> BB75ab0a711 [color="green"];
+  BB75ab0a6d1 -> BB75ab0a709 [color="red"];
+  BB75ab0a709 -> BB75ab0a711 [color="red"];
+  BB75ab0a711 -> BB75ab0a6c4 [color="blue"];
+}

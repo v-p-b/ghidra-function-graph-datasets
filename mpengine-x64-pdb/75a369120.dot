@@ -1,0 +1,21 @@
+digraph find_first_threat_ex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a369120 -> BB75a3691ed [color="green"];
+  BB75a369120 -> BB75a36914d [color="red"];
+  BB75a36914d -> BB75a3691f7 [color="green"];
+  BB75a36914d -> BB75a369156 [color="red"];
+  BB75a369156 -> BB75a369201 [color="green"];
+  BB75a369156 -> BB75a369164 [color="red"];
+  BB75a369164 -> BB75a369198 [color="green"];
+  BB75a369164 -> BB75a369176 [color="red"];
+  BB75a369176 -> BB75a369179 [color="blue"];
+  BB75a369179 -> BB75a36917f [color="blue"];
+  BB75a369198 -> BB75a36920b [color="green"];
+  BB75a369198 -> BB75a3691da [color="red"];
+  BB75a3691da -> BB75a369179 [color="blue"];
+  BB75a3691ed -> BB75a36914d [color="blue"];
+  BB75a3691f7 -> BB75a369156 [color="blue"];
+  BB75a369201 -> BB75a369164 [color="blue"];
+  BB75a36920b -> BB75a36917f [color="blue"];
+}

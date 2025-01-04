@@ -1,0 +1,24 @@
+digraph QueryPartitionInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abcd540 -> BB75abcd5c6 [color="green"];
+  BB75abcd540 -> BB75abcd57c [color="red"];
+  BB75abcd57c -> BB75abcd5b5 [color="green"];
+  BB75abcd57c -> BB75abcd597 [color="red"];
+  BB75abcd597 -> BB75abcd5b5 [color="green"];
+  BB75abcd597 -> BB75abcd59d [color="red"];
+  BB75abcd59d -> BB75abcd5b5 [color="red"];
+  BB75abcd5b5 -> BB75abcd5c2 [color="green"];
+  BB75abcd5b5 -> BB75abcd5b9 [color="red"];
+  BB75abcd5b9 -> BB75abcd5c2 [color="blue"];
+  BB75abcd5c2 -> BB75abcd603 [color="blue"];
+  BB75abcd5c6 -> BB75abcd601 [color="green"];
+  BB75abcd5c6 -> BB75abcd5cc [color="red"];
+  BB75abcd5cc -> BB75abcd5fa [color="green"];
+  BB75abcd5cc -> BB75abcd5df [color="red"];
+  BB75abcd5df -> BB75abcd5fa [color="green"];
+  BB75abcd5df -> BB75abcd5e5 [color="red"];
+  BB75abcd5e5 -> BB75abcd5fa [color="red"];
+  BB75abcd5fa -> BB75abcd603 [color="blue"];
+  BB75abcd601 -> BB75abcd603 [color="blue"];
+}

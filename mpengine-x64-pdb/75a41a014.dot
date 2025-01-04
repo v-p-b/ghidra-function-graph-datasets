@@ -1,0 +1,14 @@
+digraph AddDssQuery {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a41a014 -> BB75a41a024 [color="green"];
+  BB75a41a014 -> BB75a41a020 [color="red"];
+  BB75a41a020 -> BB75a41a024 [color="blue"];
+  BB75a41a024 -> BB75a41a061 [color="green"];
+  BB75a41a024 -> BB75a41a039 [color="red"];
+  BB75a41a039 -> BB75a41a052 [color="red"];
+  BB75a41a052 -> BB75a41a05c [color="green"];
+  BB75a41a052 -> BB75a41a057 [color="red"];
+  BB75a41a057 -> BB75a41a05c [color="red"];
+  BB75a41a061 -> BB75a41a052 [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph ZSTD_compress {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a67ea24 -> BB75a67eaaf [color="green"];
+  BB75a67ea24 -> BB75a67ea9f [color="red"];
+  BB75a67ea9f -> BB75a67eaaf [color="green"];
+  BB75a67ea9f -> BB75a67eaa5 [color="red"];
+  BB75a67eaa5 -> BB75a67eab4 [color="blue"];
+  BB75a67eaaf -> BB75a67eab4 [color="blue"];
+}

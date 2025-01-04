@@ -1,0 +1,17 @@
+digraph DlpIsUnallowedRDPApp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a64dc48 -> BB75a64dc6e [color="green"];
+  BB75a64dc48 -> BB75a64dc51 [color="red"];
+  BB75a64dc51 -> BB75a64dc8c [color="green"];
+  BB75a64dc51 -> BB75a64dc64 [color="red"];
+  BB75a64dc64 -> BB75a64dc69 [color="blue"];
+  BB75a64dc6e -> BB75a64dc51 [color="green"];
+  BB75a64dc6e -> BB75a64dc74 [color="red"];
+  BB75a64dc74 -> BB75a64dc88 [color="green"];
+  BB75a64dc74 -> BB75a64dc7d [color="red"];
+  BB75a64dc88 -> BB75a64dc69 [color="blue"];
+  BB75a64dc8c -> BB75a64dc64 [color="green"];
+  BB75a64dc8c -> BB75a64dc92 [color="red"];
+  BB75a64dc92 -> BB75a64dc64 [color="blue"];
+}

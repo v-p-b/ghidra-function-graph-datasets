@@ -1,0 +1,16 @@
+digraph ProcessBmChangePermissions {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a81dd40 -> BB75a81de5c [color="green"];
+  BB75a81dd40 -> BB75a81dd67 [color="red"];
+  BB75a81dd67 -> BB75a81de5c [color="green"];
+  BB75a81dd67 -> BB75a81dd71 [color="red"];
+  BB75a81dd71 -> BB75a81de58 [color="blue"];
+  BB75a81de58 -> BB75a81de8f [color="blue"];
+  BB75a81de5c -> BB75a81de8a [color="green"];
+  BB75a81de5c -> BB75a81de6f [color="red"];
+  BB75a81de6f -> BB75a81de8a [color="green"];
+  BB75a81de6f -> BB75a81de75 [color="red"];
+  BB75a81de75 -> BB75a81de8a [color="red"];
+  BB75a81de8a -> BB75a81de8f [color="blue"];
+}

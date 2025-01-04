@@ -1,0 +1,12 @@
+digraph ProcessSubmission {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab8e7bc -> BB75ab8e822 [color="green"];
+  BB75ab8e7bc -> BB75ab8e7f2 [color="red"];
+  BB75ab8e7f2 -> BB75ab8e83b [color="green"];
+  BB75ab8e7f2 -> BB75ab8e805 [color="red"];
+  BB75ab8e805 -> BB75ab8e83b [color="green"];
+  BB75ab8e805 -> BB75ab8e80b [color="red"];
+  BB75ab8e80b -> BB75ab8e83b [color="blue"];
+  BB75ab8e822 -> BB75ab8e83b [color="red"];
+}

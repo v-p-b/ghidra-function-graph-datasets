@@ -1,0 +1,25 @@
+digraph mmap_patch_buff_common {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4e55e0 -> BB75a4e56ae [color="green"];
+  BB75a4e55e0 -> BB75a4e561f [color="red"];
+  BB75a4e561f -> BB75a4e56b2 [color="green"];
+  BB75a4e561f -> BB75a4e5630 [color="red"];
+  BB75a4e5630 -> BB75a4e5668 [color="green"];
+  BB75a4e5630 -> BB75a4e564c [color="red"];
+  BB75a4e564c -> BB75a4e56da [color="green"];
+  BB75a4e564c -> BB75a4e565a [color="red"];
+  BB75a4e565a -> BB75a4e5668 [color="red"];
+  BB75a4e5668 -> BB75a4e568f [color="green"];
+  BB75a4e5668 -> BB75a4e566f [color="red"];
+  BB75a4e566f -> BB75a4e5675 [color="blue"];
+  BB75a4e568f -> BB75a4e566f [color="green"];
+  BB75a4e568f -> BB75a4e56ae [color="red"];
+  BB75a4e56ae -> BB75a4e5675 [color="blue"];
+  BB75a4e56b2 -> BB75a4e56ae [color="green"];
+  BB75a4e56b2 -> BB75a4e56d1 [color="red"];
+  BB75a4e56d1 -> BB75a4e5630 [color="blue"];
+  BB75a4e56da -> BB75a4e565a [color="green"];
+  BB75a4e56da -> BB75a4e56e8 [color="red"];
+  BB75a4e56e8 -> BB75a4e565a [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph x86_setup_int_table {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a244304 -> BB75a2443da [color="green"];
+  BB75a244304 -> BB75a24431a [color="red"];
+  BB75a24431a -> BB75a2443d3 [color="green"];
+  BB75a24431a -> BB75a24433e [color="red"];
+  BB75a24433e -> BB75a2443d3 [color="green"];
+  BB75a24433e -> BB75a24436c [color="red"];
+  BB75a24436c -> BB75a2443d3 [color="green"];
+  BB75a24436c -> BB75a24439d [color="red"];
+  BB75a24439d -> BB75a2443d3 [color="green"];
+  BB75a24439d -> BB75a2443c0 [color="red"];
+  BB75a2443c0 -> BB75a2443cd [color="blue"];
+  BB75a2443d3 -> BB75a2443cd [color="blue"];
+  BB75a2443da -> BB75a24431a [color="blue"];
+}

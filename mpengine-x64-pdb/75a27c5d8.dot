@@ -1,0 +1,17 @@
+digraph getRowTrigger {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a27c5d8 -> BB75a27c603 [color="green"];
+  BB75a27c5d8 -> BB75a27c5f9 [color="red"];
+  BB75a27c5f9 -> BB75a27c5fe [color="red"];
+  BB75a27c603 -> BB75a27c615 [color="green"];
+  BB75a27c603 -> BB75a27c608 [color="red"];
+  BB75a27c608 -> BB75a27c615 [color="green"];
+  BB75a27c608 -> BB75a27c60e [color="red"];
+  BB75a27c60e -> BB75a27c5fe [color="green"];
+  BB75a27c60e -> BB75a27c613 [color="red"];
+  BB75a27c613 -> BB75a27c5f9 [color="blue"];
+  BB75a27c615 -> BB75a27c603 [color="green"];
+  BB75a27c615 -> BB75a27c61e [color="red"];
+  BB75a27c61e -> BB75a27c60e [color="blue"];
+}

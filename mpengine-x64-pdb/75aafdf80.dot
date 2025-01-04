@@ -1,0 +1,15 @@
+digraph machoLC___index {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aafdf80 -> BB75aafdfda [color="blue"];
+  BB75aafdfb4 -> BB75aafdfbd [color="blue"];
+  BB75aafdfbd -> BB75aafdfd2 [color="green"];
+  BB75aafdfbd -> BB75aafdfca [color="red"];
+  BB75aafdfca -> BB75aafdfbd [color="green"];
+  BB75aafdfca -> BB75aafdfd2 [color="red"];
+  BB75aafdfd2 -> BB75aafdff2 [color="green"];
+  BB75aafdfd2 -> BB75aafdfd6 [color="red"];
+  BB75aafdfd6 -> BB75aafdfda [color="blue"];
+  BB75aafdfda -> BB75aafdfb4 [color="green"];
+  BB75aafdfda -> BB75aafdfdf [color="red"];
+}

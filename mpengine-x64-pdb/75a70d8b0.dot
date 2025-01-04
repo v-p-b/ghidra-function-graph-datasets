@@ -1,0 +1,16 @@
+digraph Lua_Load_Complete {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a70d8b0 -> BB75a70d8e6 [color="green"];
+  BB75a70d8b0 -> BB75a70d8db [color="red"];
+  BB75a70d8db -> BB75a70d8fe [color="blue"];
+  BB75a70d8e6 -> BB75a70d8fe [color="red"];
+  BB75a70d8fe -> BB75a70d927 [color="green"];
+  BB75a70d8fe -> BB75a70d91c [color="red"];
+  BB75a70d91c -> BB75a70d93f [color="blue"];
+  BB75a70d927 -> BB75a70d93f [color="red"];
+  BB75a70d93f -> BB75a70d968 [color="green"];
+  BB75a70d93f -> BB75a70d95d [color="red"];
+  BB75a70d95d -> BB75a70d980 [color="blue"];
+  BB75a70d968 -> BB75a70d980 [color="red"];
+}

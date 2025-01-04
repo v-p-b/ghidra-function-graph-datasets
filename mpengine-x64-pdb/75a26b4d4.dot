@@ -1,0 +1,15 @@
+digraph isNewBlock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a26b4d4 -> BB75a26b538 [color="green"];
+  BB75a26b4d4 -> BB75a26b4f5 [color="red"];
+  BB75a26b4f5 -> BB75a26b51b [color="green"];
+  BB75a26b4f5 -> BB75a26b4fe [color="red"];
+  BB75a26b4fe -> BB75a26b504 [color="blue"];
+  BB75a26b51b -> BB75a26b523 [color="green"];
+  BB75a26b51b -> BB75a26b51d [color="red"];
+  BB75a26b51d -> BB75a26b4fe [color="green"];
+  BB75a26b51d -> BB75a26b523 [color="red"];
+  BB75a26b523 -> BB75a26b504 [color="blue"];
+  BB75a26b538 -> BB75a26b4f5 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph GetLuaState {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6a8c14 -> BB75a6a8c64 [color="green"];
+  BB75a6a8c14 -> BB75a6a8c3e [color="red"];
+  BB75a6a8c3e -> BB75a6a8c64 [color="red"];
+  BB75a6a8c64 -> BB75a6a8c70 [color="blue"];
+  BB75a6a8c70 -> BB75a6a8c7e [color="green"];
+  BB75a6a8c70 -> BB75a6a8c76 [color="red"];
+  BB75a6a8c76 -> BB75a6a8c7e [color="red"];
+}

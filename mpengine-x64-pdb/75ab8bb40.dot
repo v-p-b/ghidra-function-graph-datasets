@@ -1,0 +1,26 @@
+digraph earlyboot_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab8bb40 -> BB75ab8bb52 [color="green"];
+  BB75ab8bb40 -> BB75ab8bb4d [color="red"];
+  BB75ab8bb4d -> BB75ab8bb52 [color="red"];
+  BB75ab8bb52 -> BB75ab8bbcd [color="green"];
+  BB75ab8bb52 -> BB75ab8bb67 [color="red"];
+  BB75ab8bb67 -> BB75ab8bb6e [color="green"];
+  BB75ab8bb67 -> BB75ab8bb69 [color="red"];
+  BB75ab8bb69 -> BB75ab8bbcd [color="green"];
+  BB75ab8bb69 -> BB75ab8bb6e [color="red"];
+  BB75ab8bb6e -> BB75ab8bbae [color="green"];
+  BB75ab8bb6e -> BB75ab8bb7e [color="red"];
+  BB75ab8bb7e -> BB75ab8bc00 [color="green"];
+  BB75ab8bb7e -> BB75ab8bb91 [color="red"];
+  BB75ab8bb91 -> BB75ab8bc00 [color="green"];
+  BB75ab8bb91 -> BB75ab8bb97 [color="red"];
+  BB75ab8bb97 -> BB75ab8bc00 [color="blue"];
+  BB75ab8bbae -> BB75ab8bc00 [color="blue"];
+  BB75ab8bbcd -> BB75ab8bc00 [color="green"];
+  BB75ab8bbcd -> BB75ab8bbe0 [color="red"];
+  BB75ab8bbe0 -> BB75ab8bc00 [color="green"];
+  BB75ab8bbe0 -> BB75ab8bbe7 [color="red"];
+  BB75ab8bbe7 -> BB75ab8bc00 [color="red"];
+}

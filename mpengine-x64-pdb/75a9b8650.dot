@@ -1,0 +1,15 @@
+digraph get_restricted_folders {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9b8650 -> BB75a9b873d [color="green"];
+  BB75a9b8650 -> BB75a9b869d [color="red"];
+  BB75a9b869d -> BB75a9b8702 [color="green"];
+  BB75a9b869d -> BB75a9b86ca [color="red"];
+  BB75a9b86ca -> BB75a9b869d [color="green"];
+  BB75a9b86ca -> BB75a9b8700 [color="red"];
+  BB75a9b8700 -> BB75a9b870b [color="blue"];
+  BB75a9b8702 -> BB75a9b870b [color="red"];
+  BB75a9b870b -> BB75a9b873d [color="green"];
+  BB75a9b870b -> BB75a9b870f [color="red"];
+  BB75a9b870f -> BB75a9b873d [color="red"];
+}

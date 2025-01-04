@@ -1,0 +1,11 @@
+digraph report_error {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8ccb84 -> BB75a8ccc41 [color="green"];
+  BB75a8ccb84 -> BB75a8ccbbc [color="red"];
+  BB75a8ccbbc -> BB75a8ccc33 [color="green"];
+  BB75a8ccbbc -> BB75a8ccbd9 [color="red"];
+  BB75a8ccbd9 -> BB75a8ccc3f [color="blue"];
+  BB75a8ccc33 -> BB75a8ccc3f [color="red"];
+  BB75a8ccc3f -> BB75a8ccc41 [color="blue"];
+}

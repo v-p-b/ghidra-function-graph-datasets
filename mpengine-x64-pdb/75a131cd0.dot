@@ -1,0 +1,14 @@
+digraph CheckExcludedCert {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a131cd0 -> BB75a131e0c [color="green"];
+  BB75a131cd0 -> BB75a131d08 [color="red"];
+  BB75a131d08 -> BB75a131de4 [color="green"];
+  BB75a131d08 -> BB75a131daa [color="red"];
+  BB75a131daa -> BB75a131e10 [color="green"];
+  BB75a131daa -> BB75a131de4 [color="red"];
+  BB75a131de4 -> BB75a131de6 [color="blue"];
+  BB75a131de6 -> BB75a131df2 [color="red"];
+  BB75a131e0c -> BB75a131df2 [color="blue"];
+  BB75a131e10 -> BB75a131de6 [color="blue"];
+}

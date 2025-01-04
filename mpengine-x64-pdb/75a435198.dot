@@ -1,0 +1,31 @@
+digraph CompareWinPaths {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a435198 -> BB75a4351f2 [color="green"];
+  BB75a435198 -> BB75a4351bf [color="red"];
+  BB75a4351bf -> BB75a4351f2 [color="green"];
+  BB75a4351bf -> BB75a4351c4 [color="red"];
+  BB75a4351c4 -> BB75a4351e7 [color="green"];
+  BB75a4351c4 -> BB75a4351ca [color="red"];
+  BB75a4351ca -> BB75a43520c [color="green"];
+  BB75a4351ca -> BB75a4351d0 [color="red"];
+  BB75a4351d0 -> BB75a4351d2 [color="blue"];
+  BB75a4351e7 -> BB75a4351ca [color="green"];
+  BB75a4351e7 -> BB75a4351f0 [color="red"];
+  BB75a4351f0 -> BB75a4351d2 [color="blue"];
+  BB75a4351f2 -> BB75a43525d [color="green"];
+  BB75a4351f2 -> BB75a435205 [color="red"];
+  BB75a435205 -> BB75a4351d2 [color="blue"];
+  BB75a43520c -> BB75a4351d0 [color="green"];
+  BB75a43520c -> BB75a435220 [color="red"];
+  BB75a435220 -> BB75a4351d0 [color="green"];
+  BB75a435220 -> BB75a435227 [color="red"];
+  BB75a435227 -> BB75a4351d0 [color="green"];
+  BB75a435227 -> BB75a43523a [color="red"];
+  BB75a43523a -> BB75a4351d0 [color="green"];
+  BB75a43523a -> BB75a435240 [color="red"];
+  BB75a435240 -> BB75a4351d0 [color="blue"];
+  BB75a43525d -> BB75a435205 [color="green"];
+  BB75a43525d -> BB75a435263 [color="red"];
+  BB75a435263 -> BB75a435205 [color="blue"];
+}

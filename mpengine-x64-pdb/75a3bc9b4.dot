@@ -1,0 +1,14 @@
+digraph DispatchOfflineRecord {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3bc9b4 -> BB75a3bca58 [color="green"];
+  BB75a3bc9b4 -> BB75a3bc9fd [color="red"];
+  BB75a3bc9fd -> BB75a3bca33 [color="green"];
+  BB75a3bc9fd -> BB75a3bca0a [color="red"];
+  BB75a3bca0a -> BB75a3bca4e [color="green"];
+  BB75a3bca0a -> BB75a3bca2c [color="red"];
+  BB75a3bca2c -> BB75a3bca31 [color="red"];
+  BB75a3bca31 -> BB75a3bca33 [color="blue"];
+  BB75a3bca4e -> BB75a3bca31 [color="blue"];
+  BB75a3bca58 -> BB75a3bc9fd [color="blue"];
+}

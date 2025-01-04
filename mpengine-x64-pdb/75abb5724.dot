@@ -1,0 +1,19 @@
+digraph GetAnchor {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb5724 -> BB75abb5761 [color="green"];
+  BB75abb5724 -> BB75abb572c [color="red"];
+  BB75abb572c -> BB75abb575a [color="green"];
+  BB75abb572c -> BB75abb573f [color="red"];
+  BB75abb573f -> BB75abb575a [color="green"];
+  BB75abb573f -> BB75abb5745 [color="red"];
+  BB75abb5745 -> BB75abb575a [color="red"];
+  BB75abb575a -> BB75abb575c [color="blue"];
+  BB75abb5761 -> BB75abb5769 [color="blue"];
+  BB75abb5769 -> BB75abb575a [color="green"];
+  BB75abb5769 -> BB75abb576e [color="red"];
+  BB75abb576e -> BB75abb577c [color="green"];
+  BB75abb576e -> BB75abb5776 [color="red"];
+  BB75abb5776 -> BB75abb5769 [color="blue"];
+  BB75abb577c -> BB75abb575c [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph register_types {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9a39a0 -> BB75a9a3a07 [color="green"];
+  BB75a9a39a0 -> BB75a9a39d7 [color="red"];
+  BB75a9a39d7 -> BB75a9a3a07 [color="red"];
+  BB75a9a3a07 -> BB75a9a3a4d [color="green"];
+  BB75a9a3a07 -> BB75a9a3a1d [color="red"];
+  BB75a9a3a1d -> BB75a9a3a4d [color="red"];
+  BB75a9a3a4d -> BB75a9a3a6d [color="blue"];
+  BB75a9a3a57 -> BB75a9a3a6d [color="red"];
+  BB75a9a3a6d -> BB75a9a3a57 [color="green"];
+  BB75a9a3a6d -> BB75a9a3a72 [color="red"];
+}

@@ -1,0 +1,26 @@
+digraph IsCleanFileEligible {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab7b9fc -> BB75ab7ba7e [color="green"];
+  BB75ab7b9fc -> BB75ab7ba26 [color="red"];
+  BB75ab7ba26 -> BB75ab7ba8b [color="green"];
+  BB75ab7ba26 -> BB75ab7ba3d [color="red"];
+  BB75ab7ba3d -> BB75ab7ba6f [color="green"];
+  BB75ab7ba3d -> BB75ab7ba50 [color="red"];
+  BB75ab7ba50 -> BB75ab7ba6f [color="green"];
+  BB75ab7ba50 -> BB75ab7ba56 [color="red"];
+  BB75ab7ba56 -> BB75ab7ba6f [color="red"];
+  BB75ab7ba6f -> BB75ab7ba7e [color="green"];
+  BB75ab7ba6f -> BB75ab7ba79 [color="red"];
+  BB75ab7ba79 -> BB75ab7ba7e [color="red"];
+  BB75ab7ba7e -> BB75ab7ba80 [color="blue"];
+  BB75ab7ba8b -> BB75ab7bab4 [color="green"];
+  BB75ab7ba8b -> BB75ab7baaa [color="red"];
+  BB75ab7baaa -> BB75ab7ba7e [color="green"];
+  BB75ab7baaa -> BB75ab7baaf [color="red"];
+  BB75ab7baaf -> BB75ab7ba79 [color="blue"];
+  BB75ab7bab4 -> BB75ab7bacc [color="green"];
+  BB75ab7bab4 -> BB75ab7bac4 [color="red"];
+  BB75ab7bac4 -> BB75ab7bacc [color="red"];
+  BB75ab7bacc -> BB75ab7ba80 [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph MpServiceHealthMonitorStoreHangDetectionInfoToRegEnd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8a0d10 -> BB75a8a0d33 [color="green"];
+  BB75a8a0d10 -> BB75a8a0d1d [color="red"];
+  BB75a8a0d1d -> BB75a8a0d33 [color="green"];
+  BB75a8a0d1d -> BB75a8a0d29 [color="red"];
+  BB75a8a0d29 -> BB75a8a0d6b [color="blue"];
+  BB75a8a0d33 -> BB75a8a0d6b [color="green"];
+  BB75a8a0d33 -> BB75a8a0d50 [color="red"];
+  BB75a8a0d50 -> BB75a8a0d6b [color="green"];
+  BB75a8a0d50 -> BB75a8a0d56 [color="red"];
+  BB75a8a0d56 -> BB75a8a0d6b [color="red"];
+}

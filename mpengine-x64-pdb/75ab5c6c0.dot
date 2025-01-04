@@ -1,0 +1,14 @@
+digraph winFetch {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5c6c0 -> BB75ab5c716 [color="green"];
+  BB75ab5c6c0 -> BB75ab5c6eb [color="red"];
+  BB75ab5c6eb -> BB75ab5c6ff [color="green"];
+  BB75ab5c6eb -> BB75ab5c6f2 [color="red"];
+  BB75ab5c6f2 -> BB75ab5c718 [color="green"];
+  BB75ab5c6f2 -> BB75ab5c6ff [color="red"];
+  BB75ab5c6ff -> BB75ab5c716 [color="green"];
+  BB75ab5c6ff -> BB75ab5c709 [color="red"];
+  BB75ab5c709 -> BB75ab5c716 [color="blue"];
+  BB75ab5c716 -> BB75ab5c718 [color="blue"];
+}

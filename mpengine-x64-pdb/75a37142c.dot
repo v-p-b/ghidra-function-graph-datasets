@@ -1,0 +1,19 @@
+digraph IsLatentDetection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a37142c -> BB75a3714a8 [color="green"];
+  BB75a37142c -> BB75a371444 [color="red"];
+  BB75a371444 -> BB75a37145e [color="green"];
+  BB75a371444 -> BB75a371451 [color="red"];
+  BB75a371451 -> BB75a371453 [color="blue"];
+  BB75a37145e -> BB75a371451 [color="green"];
+  BB75a37145e -> BB75a371469 [color="red"];
+  BB75a371469 -> BB75a371451 [color="green"];
+  BB75a371469 -> BB75a37147f [color="red"];
+  BB75a37147f -> BB75a3714a8 [color="green"];
+  BB75a37147f -> BB75a37148b [color="red"];
+  BB75a37148b -> BB75a371451 [color="green"];
+  BB75a37148b -> BB75a371497 [color="red"];
+  BB75a371497 -> BB75a371453 [color="blue"];
+  BB75a3714a8 -> BB75a371453 [color="blue"];
+}

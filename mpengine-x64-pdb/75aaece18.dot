@@ -1,0 +1,14 @@
+digraph GetSampleCountFromManifest {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaece18 -> BB75aaece7c [color="green"];
+  BB75aaece18 -> BB75aaece3f [color="red"];
+  BB75aaece3f -> BB75aaece78 [color="green"];
+  BB75aaece3f -> BB75aaece5a [color="red"];
+  BB75aaece5a -> BB75aaece78 [color="green"];
+  BB75aaece5a -> BB75aaece60 [color="red"];
+  BB75aaece60 -> BB75aaece78 [color="red"];
+  BB75aaece78 -> BB75aaece91 [color="blue"];
+  BB75aaece7c -> BB75aaece8f [color="blue"];
+  BB75aaece8f -> BB75aaece91 [color="blue"];
+}

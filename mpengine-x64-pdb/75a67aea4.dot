@@ -1,0 +1,15 @@
+digraph VerifyHandle {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a67aea4 -> BB75a67aeb7 [color="green"];
+  BB75a67aea4 -> BB75a67aead [color="red"];
+  BB75a67aead -> BB75a67aeb7 [color="green"];
+  BB75a67aead -> BB75a67aeb3 [color="red"];
+  BB75a67aeb3 -> BB75a67aee7 [color="blue"];
+  BB75a67aeb7 -> BB75a67aee5 [color="green"];
+  BB75a67aeb7 -> BB75a67aeca [color="red"];
+  BB75a67aeca -> BB75a67aee5 [color="green"];
+  BB75a67aeca -> BB75a67aed0 [color="red"];
+  BB75a67aed0 -> BB75a67aee5 [color="red"];
+  BB75a67aee5 -> BB75a67aee7 [color="blue"];
+}

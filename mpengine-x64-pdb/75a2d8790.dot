@@ -1,0 +1,18 @@
+digraph Analyze {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2d8790 -> BB75a2d87ef [color="green"];
+  BB75a2d8790 -> BB75a2d879f [color="red"];
+  BB75a2d879f -> BB75a2d87a5 [color="blue"];
+  BB75a2d87a5 -> BB75a2d87db [color="green"];
+  BB75a2d87a5 -> BB75a2d87aa [color="red"];
+  BB75a2d87aa -> BB75a2d87c7 [color="green"];
+  BB75a2d87aa -> BB75a2d87c1 [color="red"];
+  BB75a2d87c1 -> BB75a2d87a5 [color="blue"];
+  BB75a2d87c7 -> BB75a2d87d5 [color="blue"];
+  BB75a2d87db -> BB75a2d87fa [color="green"];
+  BB75a2d87db -> BB75a2d87ea [color="red"];
+  BB75a2d87ea -> BB75a2d87d5 [color="blue"];
+  BB75a2d87ef -> BB75a2d87d5 [color="blue"];
+  BB75a2d87fa -> BB75a2d87ea [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph CallOnImageConfigScripts {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaf17f4 -> BB75aaf1849 [color="green"];
+  BB75aaf17f4 -> BB75aaf1806 [color="red"];
+  BB75aaf1806 -> BB75aaf1849 [color="green"];
+  BB75aaf1806 -> BB75aaf1821 [color="red"];
+  BB75aaf1821 -> BB75aaf184e [color="blue"];
+  BB75aaf1849 -> BB75aaf184e [color="red"];
+}

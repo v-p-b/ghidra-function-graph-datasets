@@ -1,0 +1,22 @@
+digraph SMS_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abd7a20 -> BB75abd7c57 [color="green"];
+  BB75abd7a20 -> BB75abd7c21 [color="red"];
+  BB75abd7c21 -> BB75abd7c4d [color="green"];
+  BB75abd7c21 -> BB75abd7c34 [color="red"];
+  BB75abd7c34 -> BB75abd7c4d [color="green"];
+  BB75abd7c34 -> BB75abd7c3a [color="red"];
+  BB75abd7c3a -> BB75abd7c4d [color="red"];
+  BB75abd7c4d -> BB75abd7d6e [color="blue"];
+  BB75abd7c57 -> BB75abd7cba [color="green"];
+  BB75abd7c57 -> BB75abd7cb5 [color="red"];
+  BB75abd7cb5 -> BB75abd7cba [color="red"];
+  BB75abd7cba -> BB75abd7d10 [color="green"];
+  BB75abd7cba -> BB75abd7cf1 [color="red"];
+  BB75abd7cf1 -> BB75abd7d10 [color="red"];
+  BB75abd7d10 -> BB75abd7d65 [color="green"];
+  BB75abd7d10 -> BB75abd7d5f [color="red"];
+  BB75abd7d5f -> BB75abd7d65 [color="red"];
+  BB75abd7d65 -> BB75abd7d6e [color="blue"];
+}

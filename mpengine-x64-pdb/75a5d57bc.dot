@@ -1,0 +1,10 @@
+digraph OfflineRead {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5d57bc -> BB75a5d5824 [color="green"];
+  BB75a5d57bc -> BB75a5d57ef [color="red"];
+  BB75a5d57ef -> BB75a5d583a [color="green"];
+  BB75a5d57ef -> BB75a5d5822 [color="red"];
+  BB75a5d5822 -> BB75a5d5824 [color="blue"];
+  BB75a5d583a -> BB75a5d5822 [color="blue"];
+}

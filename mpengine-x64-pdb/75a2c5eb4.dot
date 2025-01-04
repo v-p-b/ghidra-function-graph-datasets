@@ -1,0 +1,9 @@
+digraph _Calculate_growth {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2c5eb4 -> BB75a2c5eea [color="green"];
+  BB75a2c5eb4 -> BB75a2c5ece [color="red"];
+  BB75a2c5ece -> BB75a2c5eea [color="green"];
+  BB75a2c5ece -> BB75a2c5edf [color="red"];
+  BB75a2c5edf -> BB75a2c5eea [color="blue"];
+}

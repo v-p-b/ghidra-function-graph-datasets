@@ -1,0 +1,10 @@
+digraph get_context {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a90ae24 -> BB75a90ae72 [color="green"];
+  BB75a90ae24 -> BB75a90ae3b [color="red"];
+  BB75a90ae3b -> BB75a90ae72 [color="green"];
+  BB75a90ae3b -> BB75a90ae68 [color="red"];
+  BB75a90ae68 -> BB75a90ae74 [color="blue"];
+  BB75a90ae72 -> BB75a90ae74 [color="blue"];
+}

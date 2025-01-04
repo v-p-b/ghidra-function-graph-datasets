@@ -1,0 +1,16 @@
+digraph load_page_from_swap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4fe108 -> BB75a4fe15c [color="green"];
+  BB75a4fe108 -> BB75a4fe154 [color="red"];
+  BB75a4fe154 -> BB75a4fe2ca [color="blue"];
+  BB75a4fe15c -> BB75a4fe2ca [color="green"];
+  BB75a4fe15c -> BB75a4fe197 [color="red"];
+  BB75a4fe197 -> BB75a4fe284 [color="green"];
+  BB75a4fe197 -> BB75a4fe1f3 [color="red"];
+  BB75a4fe1f3 -> BB75a4fe2ca [color="blue"];
+  BB75a4fe284 -> BB75a4fe29a [color="green"];
+  BB75a4fe284 -> BB75a4fe292 [color="red"];
+  BB75a4fe292 -> BB75a4fe29a [color="blue"];
+  BB75a4fe29a -> BB75a4fe2ca [color="red"];
+}

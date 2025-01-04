@@ -1,0 +1,15 @@
+digraph ShouldExcludeProcessDlpChecks {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4fda04 -> BB75a4fda4f [color="green"];
+  BB75a4fda04 -> BB75a4fda20 [color="red"];
+  BB75a4fda20 -> BB75a4fda53 [color="green"];
+  BB75a4fda20 -> BB75a4fda29 [color="red"];
+  BB75a4fda29 -> BB75a4fda3d [color="green"];
+  BB75a4fda29 -> BB75a4fda2e [color="red"];
+  BB75a4fda2e -> BB75a4fda53 [color="green"];
+  BB75a4fda2e -> BB75a4fda3d [color="red"];
+  BB75a4fda3d -> BB75a4fda3f [color="blue"];
+  BB75a4fda4f -> BB75a4fda3f [color="blue"];
+  BB75a4fda53 -> BB75a4fda3d [color="blue"];
+}

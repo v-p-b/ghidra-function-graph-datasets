@@ -1,0 +1,16 @@
+digraph rpf_getarraysize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa9af3c -> BB75aa9afc1 [color="green"];
+  BB75aa9af3c -> BB75aa9af6d [color="red"];
+  BB75aa9af6d -> BB75aa9af6f [color="blue"];
+  BB75aa9af6f -> BB75aa9afc1 [color="green"];
+  BB75aa9af6f -> BB75aa9af77 [color="red"];
+  BB75aa9af77 -> BB75aa9afc1 [color="green"];
+  BB75aa9af77 -> BB75aa9afb1 [color="red"];
+  BB75aa9afb1 -> BB75aa9afbb [color="green"];
+  BB75aa9afb1 -> BB75aa9afb7 [color="red"];
+  BB75aa9afb7 -> BB75aa9af6f [color="blue"];
+  BB75aa9afbb -> BB75aa9afc3 [color="blue"];
+  BB75aa9afc1 -> BB75aa9afc3 [color="blue"];
+}

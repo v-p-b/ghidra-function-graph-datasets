@@ -1,0 +1,36 @@
+digraph ScheduleArScan {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a81f100 -> BB75a81f122 [color="green"];
+  BB75a81f100 -> BB75a81f11c [color="red"];
+  BB75a81f11c -> BB75a81f122 [color="red"];
+  BB75a81f122 -> BB75a81f182 [color="green"];
+  BB75a81f122 -> BB75a81f13f [color="red"];
+  BB75a81f13f -> BB75a81f171 [color="green"];
+  BB75a81f13f -> BB75a81f152 [color="red"];
+  BB75a81f152 -> BB75a81f171 [color="green"];
+  BB75a81f152 -> BB75a81f158 [color="red"];
+  BB75a81f158 -> BB75a81f171 [color="red"];
+  BB75a81f171 -> BB75a81f2d1 [color="blue"];
+  BB75a81f182 -> BB75a81f1ae [color="green"];
+  BB75a81f182 -> BB75a81f1a5 [color="red"];
+  BB75a81f1a5 -> BB75a81f1ae [color="blue"];
+  BB75a81f1ae -> BB75a81f20c [color="green"];
+  BB75a81f1ae -> BB75a81f1be [color="red"];
+  BB75a81f1be -> BB75a81f1f0 [color="green"];
+  BB75a81f1be -> BB75a81f1d1 [color="red"];
+  BB75a81f1d1 -> BB75a81f1f0 [color="green"];
+  BB75a81f1d1 -> BB75a81f1d7 [color="red"];
+  BB75a81f1d7 -> BB75a81f1f0 [color="red"];
+  BB75a81f1f0 -> BB75a81f2d1 [color="blue"];
+  BB75a81f20c -> BB75a81f276 [color="green"];
+  BB75a81f20c -> BB75a81f22b [color="red"];
+  BB75a81f22b -> BB75a81f25d [color="green"];
+  BB75a81f22b -> BB75a81f23e [color="red"];
+  BB75a81f23e -> BB75a81f25d [color="green"];
+  BB75a81f23e -> BB75a81f244 [color="red"];
+  BB75a81f244 -> BB75a81f25d [color="red"];
+  BB75a81f25d -> BB75a81f2d1 [color="blue"];
+  BB75a81f276 -> BB75a81f2cf [color="blue"];
+  BB75a81f2cf -> BB75a81f2d1 [color="blue"];
+}

@@ -1,0 +1,18 @@
+digraph _Emplace_reallocate<struct_ChunkAllocator::ChunkInfo> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1a5728 -> BB75a1a586a [color="green"];
+  BB75a1a5728 -> BB75a1a5765 [color="red"];
+  BB75a1a5765 -> BB75a1a5790 [color="green"];
+  BB75a1a5765 -> BB75a1a5785 [color="red"];
+  BB75a1a5785 -> BB75a1a5790 [color="blue"];
+  BB75a1a5790 -> BB75a1a5877 [color="green"];
+  BB75a1a5790 -> BB75a1a57ff [color="red"];
+  BB75a1a57ff -> BB75a1a5835 [color="blue"];
+  BB75a1a5804 -> BB75a1a5835 [color="blue"];
+  BB75a1a5835 -> BB75a1a5804 [color="green"];
+  BB75a1a5835 -> BB75a1a583a [color="red"];
+  BB75a1a583a -> BB75a1a5846 [color="red"];
+  BB75a1a586a -> BB75a1a5877 [color="red"];
+  BB75a1a5877 -> BB75a1a5846 [color="blue"];
+}

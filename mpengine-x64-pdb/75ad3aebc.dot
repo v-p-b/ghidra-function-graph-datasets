@@ -1,0 +1,13 @@
+digraph get_sha1 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad3aebc -> BB75ad3af16 [color="green"];
+  BB75ad3aebc -> BB75ad3aed8 [color="red"];
+  BB75ad3aed8 -> BB75ad3af16 [color="green"];
+  BB75ad3aed8 -> BB75ad3aee4 [color="red"];
+  BB75ad3aee4 -> BB75ad3af11 [color="green"];
+  BB75ad3aee4 -> BB75ad3aef8 [color="red"];
+  BB75ad3aef8 -> BB75ad3af11 [color="red"];
+  BB75ad3af11 -> BB75ad3af18 [color="blue"];
+  BB75ad3af16 -> BB75ad3af18 [color="blue"];
+}

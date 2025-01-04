@@ -1,0 +1,13 @@
+digraph ubermgr_cleanup_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a733bf0 -> BB75a733c12 [color="green"];
+  BB75a733bf0 -> BB75a733c0b [color="red"];
+  BB75a733c0b -> BB75a733c12 [color="red"];
+  BB75a733c12 -> BB75a733c33 [color="green"];
+  BB75a733c12 -> BB75a733c26 [color="red"];
+  BB75a733c26 -> BB75a733c33 [color="red"];
+  BB75a733c33 -> BB75a733c4e [color="red"];
+  BB75a733c4e -> BB75a733c4e [color="green"];
+  BB75a733c4e -> BB75a733c5f [color="red"];
+}

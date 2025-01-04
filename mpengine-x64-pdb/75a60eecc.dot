@@ -1,0 +1,15 @@
+digraph pe_findbogusep {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a60eecc -> BB75a60eeea [color="blue"];
+  BB75a60eeea -> BB75a60ef33 [color="green"];
+  BB75a60eeea -> BB75a60eeef [color="red"];
+  BB75a60eeef -> BB75a60ef18 [color="green"];
+  BB75a60eeef -> BB75a60eeff [color="red"];
+  BB75a60eeff -> BB75a60ef18 [color="green"];
+  BB75a60eeff -> BB75a60ef13 [color="red"];
+  BB75a60ef13 -> BB75a60ef21 [color="green"];
+  BB75a60ef13 -> BB75a60ef18 [color="red"];
+  BB75a60ef18 -> BB75a60eeea [color="blue"];
+  BB75a60ef21 -> BB75a60ef33 [color="blue"];
+}

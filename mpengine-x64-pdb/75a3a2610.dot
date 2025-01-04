@@ -1,0 +1,25 @@
+digraph LogScanTelemetry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3a2610 -> BB75a3a2632 [color="green"];
+  BB75a3a2610 -> BB75a3a2627 [color="red"];
+  BB75a3a2632 -> BB75a3a2627 [color="green"];
+  BB75a3a2632 -> BB75a3a263e [color="red"];
+  BB75a3a263e -> BB75a3a264e [color="green"];
+  BB75a3a263e -> BB75a3a2649 [color="red"];
+  BB75a3a2649 -> BB75a3a2627 [color="green"];
+  BB75a3a2649 -> BB75a3a264e [color="red"];
+  BB75a3a264e -> BB75a3a26b1 [color="green"];
+  BB75a3a264e -> BB75a3a266a [color="red"];
+  BB75a3a266a -> BB75a3a26a7 [color="green"];
+  BB75a3a266a -> BB75a3a267f [color="red"];
+  BB75a3a267f -> BB75a3a26a7 [color="green"];
+  BB75a3a267f -> BB75a3a2684 [color="red"];
+  BB75a3a2684 -> BB75a3a2627 [color="green"];
+  BB75a3a2684 -> BB75a3a2690 [color="red"];
+  BB75a3a2690 -> BB75a3a2627 [color="green"];
+  BB75a3a2690 -> BB75a3a269d [color="red"];
+  BB75a3a269d -> BB75a3a2627 [color="blue"];
+  BB75a3a26a7 -> BB75a3a2684 [color="blue"];
+  BB75a3a26b1 -> BB75a3a266a [color="blue"];
+}

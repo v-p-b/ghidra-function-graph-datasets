@@ -1,0 +1,13 @@
+digraph walCleanupHash {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5bfc0 -> BB75ab5c05b [color="green"];
+  BB75ab5bfc0 -> BB75ab5bfe5 [color="red"];
+  BB75ab5bfe5 -> BB75ab5c017 [color="red"];
+  BB75ab5c017 -> BB75ab5c023 [color="green"];
+  BB75ab5c017 -> BB75ab5c01f [color="red"];
+  BB75ab5c01f -> BB75ab5c023 [color="blue"];
+  BB75ab5c023 -> BB75ab5c017 [color="green"];
+  BB75ab5c023 -> BB75ab5c031 [color="red"];
+  BB75ab5c031 -> BB75ab5c05b [color="red"];
+}

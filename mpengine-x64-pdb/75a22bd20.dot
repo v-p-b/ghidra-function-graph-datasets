@@ -1,0 +1,16 @@
+digraph TestIsAllowListedRegistryTarget {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a22bd20 -> BB75a22bd8a [color="green"];
+  BB75a22bd20 -> BB75a22bd58 [color="red"];
+  BB75a22bd58 -> BB75a22bd60 [color="blue"];
+  BB75a22bd60 -> BB75a22bd8a [color="green"];
+  BB75a22bd60 -> BB75a22bd65 [color="red"];
+  BB75a22bd65 -> BB75a22bd72 [color="green"];
+  BB75a22bd65 -> BB75a22bd6f [color="red"];
+  BB75a22bd6f -> BB75a22bd72 [color="blue"];
+  BB75a22bd72 -> BB75a22bd84 [color="green"];
+  BB75a22bd72 -> BB75a22bd7e [color="red"];
+  BB75a22bd7e -> BB75a22bd60 [color="blue"];
+  BB75a22bd84 -> BB75a22bd8a [color="blue"];
+}

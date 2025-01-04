@@ -1,0 +1,15 @@
+digraph get_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9e35d8 -> BB75a9e35fa [color="blue"];
+  BB75a9e35fa -> BB75a9e3649 [color="green"];
+  BB75a9e35fa -> BB75a9e3606 [color="red"];
+  BB75a9e3606 -> BB75a9e362b [color="green"];
+  BB75a9e3606 -> BB75a9e3613 [color="red"];
+  BB75a9e3613 -> BB75a9e361f [color="green"];
+  BB75a9e3613 -> BB75a9e3618 [color="red"];
+  BB75a9e3618 -> BB75a9e3627 [color="blue"];
+  BB75a9e361f -> BB75a9e3627 [color="red"];
+  BB75a9e3627 -> BB75a9e35fa [color="blue"];
+  BB75a9e362b -> BB75a9e3649 [color="red"];
+}

@@ -1,0 +1,12 @@
+digraph SearchBrute {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5c2e90 -> BB75a5c2f2c [color="green"];
+  BB75a5c2e90 -> BB75a5c2f13 [color="red"];
+  BB75a5c2f13 -> BB75a5c2f2c [color="green"];
+  BB75a5c2f13 -> BB75a5c2f17 [color="red"];
+  BB75a5c2f17 -> BB75a5c2f4a [color="green"];
+  BB75a5c2f17 -> BB75a5c2f25 [color="red"];
+  BB75a5c2f25 -> BB75a5c2f2c [color="red"];
+  BB75a5c2f4a -> BB75a5c2f25 [color="blue"];
+}

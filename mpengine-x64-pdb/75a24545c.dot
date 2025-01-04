@@ -1,0 +1,15 @@
+digraph init_x86_IL_operands {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a24545c -> BB75a2454b8 [color="green"];
+  BB75a24545c -> BB75a245470 [color="red"];
+  BB75a245470 -> BB75a245483 [color="blue"];
+  BB75a2454b8 -> BB75a245470 [color="green"];
+  BB75a2454b8 -> BB75a2454bd [color="red"];
+  BB75a2454bd -> BB75a2454dc [color="green"];
+  BB75a2454bd -> BB75a2454c8 [color="red"];
+  BB75a2454c8 -> BB75a245483 [color="blue"];
+  BB75a2454dc -> BB75a2454c8 [color="green"];
+  BB75a2454dc -> BB75a2454e1 [color="red"];
+  BB75a2454e1 -> BB75a2454c8 [color="blue"];
+}

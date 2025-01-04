@@ -1,0 +1,13 @@
+digraph PrintIp6Address {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaa648c -> BB75aaa659f [color="green"];
+  BB75aaa648c -> BB75aaa6567 [color="red"];
+  BB75aaa6567 -> BB75aaa6598 [color="green"];
+  BB75aaa6567 -> BB75aaa657a [color="red"];
+  BB75aaa657a -> BB75aaa6598 [color="green"];
+  BB75aaa657a -> BB75aaa6580 [color="red"];
+  BB75aaa6580 -> BB75aaa6598 [color="red"];
+  BB75aaa6598 -> BB75aaa65a1 [color="blue"];
+  BB75aaa659f -> BB75aaa65a1 [color="blue"];
+}

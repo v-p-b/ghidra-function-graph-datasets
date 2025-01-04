@@ -1,0 +1,10 @@
+digraph Splay {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4f1c60 -> BB75a4f1c9a [color="green"];
+  BB75a4f1c60 -> BB75a4f1c75 [color="red"];
+  BB75a4f1c75 -> BB75a4f1ca1 [color="green"];
+  BB75a4f1c75 -> BB75a4f1c7f [color="red"];
+  BB75a4f1c9a -> BB75a4f1c75 [color="blue"];
+  BB75a4f1ca1 -> BB75a4f1c7f [color="blue"];
+}

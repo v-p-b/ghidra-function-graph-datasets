@@ -1,0 +1,14 @@
+digraph ShouldCollect {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6b9f80 -> BB75a6b9fa2 [color="green"];
+  BB75a6b9f80 -> BB75a6b9f9c [color="red"];
+  BB75a6b9f9c -> BB75a6b9faf [color="green"];
+  BB75a6b9f9c -> BB75a6b9fa2 [color="red"];
+  BB75a6b9fa2 -> BB75a6b9fd3 [color="green"];
+  BB75a6b9fa2 -> BB75a6b9fa9 [color="red"];
+  BB75a6b9faf -> BB75a6b9fa2 [color="blue"];
+  BB75a6b9fd3 -> BB75a6b9fa9 [color="green"];
+  BB75a6b9fd3 -> BB75a6b9fd8 [color="red"];
+  BB75a6b9fd8 -> BB75a6b9fa9 [color="blue"];
+}

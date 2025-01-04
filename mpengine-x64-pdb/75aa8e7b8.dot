@@ -1,0 +1,10 @@
+digraph ~CProcessExclusions {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa8e7b8 -> BB75aa8e7d9 [color="green"];
+  BB75aa8e7b8 -> BB75aa8e7d4 [color="red"];
+  BB75aa8e7d4 -> BB75aa8e7d9 [color="red"];
+  BB75aa8e7d9 -> BB75aa8e7e7 [color="green"];
+  BB75aa8e7d9 -> BB75aa8e7e2 [color="red"];
+  BB75aa8e7e2 -> BB75aa8e7e7 [color="red"];
+}

@@ -1,0 +1,14 @@
+digraph PushDetectionFromRecId {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad01e8c -> BB75ad01f06 [color="green"];
+  BB75ad01e8c -> BB75ad01ef4 [color="red"];
+  BB75ad01ef4 -> BB75ad01f02 [color="green"];
+  BB75ad01ef4 -> BB75ad01efd [color="red"];
+  BB75ad01efd -> BB75ad01f02 [color="red"];
+  BB75ad01f02 -> BB75ad01f39 [color="blue"];
+  BB75ad01f06 -> BB75ad01f37 [color="green"];
+  BB75ad01f06 -> BB75ad01f2f [color="red"];
+  BB75ad01f2f -> BB75ad01f37 [color="red"];
+  BB75ad01f37 -> BB75ad01f39 [color="blue"];
+}

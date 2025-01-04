@@ -1,0 +1,24 @@
+digraph x86_common_frontend<class_x64_IL_translator> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a23ebe4 -> BB75a23ed1e [color="green"];
+  BB75a23ebe4 -> BB75a23ec5a [color="red"];
+  BB75a23ec5a -> BB75a23ecc8 [color="green"];
+  BB75a23ec5a -> BB75a23eca8 [color="red"];
+  BB75a23eca8 -> BB75a23ecc8 [color="green"];
+  BB75a23eca8 -> BB75a23ecb8 [color="red"];
+  BB75a23ecb8 -> BB75a23ec5a [color="green"];
+  BB75a23ecb8 -> BB75a23ecc8 [color="red"];
+  BB75a23ecc8 -> BB75a23ecfd [color="green"];
+  BB75a23ecc8 -> BB75a23ece4 [color="red"];
+  BB75a23ece4 -> BB75a23ecfd [color="green"];
+  BB75a23ece4 -> BB75a23eced [color="red"];
+  BB75a23eced -> BB75a23ed14 [color="green"];
+  BB75a23eced -> BB75a23ecfd [color="red"];
+  BB75a23ed14 -> BB75a23ecfd [color="blue"];
+  BB75a23ed1e -> BB75a23ecc8 [color="green"];
+  BB75a23ed1e -> BB75a23ed78 [color="red"];
+  BB75a23ed78 -> BB75a23ed1e [color="green"];
+  BB75a23ed78 -> BB75a23ed8d [color="red"];
+  BB75a23ed8d -> BB75a23ecc8 [color="blue"];
+}

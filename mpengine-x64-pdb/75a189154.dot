@@ -1,0 +1,17 @@
+digraph isMonitoredPPID {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a189154 -> BB75a1891eb [color="green"];
+  BB75a189154 -> BB75a18917f [color="red"];
+  BB75a18917f -> BB75a1891eb [color="green"];
+  BB75a18917f -> BB75a189185 [color="red"];
+  BB75a189185 -> BB75a18919c [color="green"];
+  BB75a189185 -> BB75a18918c [color="red"];
+  BB75a18918c -> BB75a18918c [color="green"];
+  BB75a18918c -> BB75a18919c [color="red"];
+  BB75a18919c -> BB75a1891ef [color="green"];
+  BB75a18919c -> BB75a1891ce [color="red"];
+  BB75a1891ce -> BB75a1891d0 [color="blue"];
+  BB75a1891eb -> BB75a1891d0 [color="blue"];
+  BB75a1891ef -> BB75a1891ce [color="blue"];
+}

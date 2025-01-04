@@ -1,0 +1,13 @@
+digraph ShouldExcludeDlpAnyFileExtension {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a871b98 -> BB75a871bda [color="green"];
+  BB75a871b98 -> BB75a871bd3 [color="red"];
+  BB75a871bd3 -> BB75a871be8 [color="blue"];
+  BB75a871bda -> BB75a871be8 [color="blue"];
+  BB75a871be8 -> BB75a871c09 [color="green"];
+  BB75a871be8 -> BB75a871bf6 [color="red"];
+  BB75a871bf6 -> BB75a871c09 [color="green"];
+  BB75a871bf6 -> BB75a871bfb [color="red"];
+  BB75a871bfb -> BB75a871c09 [color="red"];
+}

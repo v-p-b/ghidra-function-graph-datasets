@@ -1,0 +1,15 @@
+digraph MpRecapIntervalInDays {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a721170 -> BB75a72118d [color="green"];
+  BB75a721170 -> BB75a721180 [color="red"];
+  BB75a721180 -> BB75a72118d [color="green"];
+  BB75a721180 -> BB75a721189 [color="red"];
+  BB75a721189 -> BB75a7211c0 [color="blue"];
+  BB75a72118d -> BB75a7211bb [color="green"];
+  BB75a72118d -> BB75a7211a0 [color="red"];
+  BB75a7211a0 -> BB75a7211bb [color="green"];
+  BB75a7211a0 -> BB75a7211a6 [color="red"];
+  BB75a7211a6 -> BB75a7211bb [color="red"];
+  BB75a7211bb -> BB75a7211c0 [color="blue"];
+}

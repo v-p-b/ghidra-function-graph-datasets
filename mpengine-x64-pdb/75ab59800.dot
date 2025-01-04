@@ -1,0 +1,16 @@
+digraph sumStep {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab59800 -> BB75ab5987e [color="green"];
+  BB75ab59800 -> BB75ab59827 [color="red"];
+  BB75ab59827 -> BB75ab5987e [color="green"];
+  BB75ab59827 -> BB75ab5982c [color="red"];
+  BB75ab5982c -> BB75ab5986d [color="green"];
+  BB75ab5982c -> BB75ab59838 [color="red"];
+  BB75ab59838 -> BB75ab5987e [color="green"];
+  BB75ab59838 -> BB75ab59855 [color="red"];
+  BB75ab59855 -> BB75ab5987e [color="green"];
+  BB75ab59855 -> BB75ab59865 [color="red"];
+  BB75ab59865 -> BB75ab5987e [color="blue"];
+  BB75ab5986d -> BB75ab5987e [color="red"];
+}

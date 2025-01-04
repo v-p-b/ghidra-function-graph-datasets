@@ -1,0 +1,12 @@
+digraph get_fastcrc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa976f0 -> BB75aa9774e [color="green"];
+  BB75aa976f0 -> BB75aa97706 [color="red"];
+  BB75aa97706 -> BB75aa9771a [color="green"];
+  BB75aa97706 -> BB75aa9770e [color="red"];
+  BB75aa9770e -> BB75aa9774e [color="blue"];
+  BB75aa9771a -> BB75aa9774e [color="green"];
+  BB75aa9771a -> BB75aa97747 [color="red"];
+  BB75aa97747 -> BB75aa9774e [color="blue"];
+}

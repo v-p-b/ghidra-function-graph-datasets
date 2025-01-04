@@ -1,0 +1,17 @@
+digraph RpfAPI_AnomalyEventLookup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa9d9f0 -> BB75aa9da56 [color="green"];
+  BB75aa9d9f0 -> BB75aa9da34 [color="red"];
+  BB75aa9da34 -> BB75aa9da56 [color="green"];
+  BB75aa9da34 -> BB75aa9da3c [color="red"];
+  BB75aa9da3c -> BB75aa9da56 [color="green"];
+  BB75aa9da3c -> BB75aa9da44 [color="red"];
+  BB75aa9da44 -> BB75aa9da56 [color="green"];
+  BB75aa9da44 -> BB75aa9da4c [color="red"];
+  BB75aa9da4c -> BB75aa9da56 [color="green"];
+  BB75aa9da4c -> BB75aa9da51 [color="red"];
+  BB75aa9da51 -> BB75aa9da5b [color="green"];
+  BB75aa9da51 -> BB75aa9da56 [color="red"];
+  BB75aa9da56 -> BB75aa9da5b [color="red"];
+}

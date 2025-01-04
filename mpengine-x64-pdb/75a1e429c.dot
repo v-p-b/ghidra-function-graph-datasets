@@ -1,0 +1,16 @@
+digraph TestIsAmsiProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1e429c -> BB75a1e4320 [color="green"];
+  BB75a1e429c -> BB75a1e42d0 [color="red"];
+  BB75a1e42d0 -> BB75a1e4338 [color="green"];
+  BB75a1e42d0 -> BB75a1e42ea [color="red"];
+  BB75a1e42ea -> BB75a1e4313 [color="red"];
+  BB75a1e4313 -> BB75a1e4328 [color="blue"];
+  BB75a1e4320 -> BB75a1e4328 [color="red"];
+  BB75a1e4338 -> BB75a1e4313 [color="green"];
+  BB75a1e4338 -> BB75a1e434b [color="red"];
+  BB75a1e434b -> BB75a1e4313 [color="green"];
+  BB75a1e434b -> BB75a1e4351 [color="red"];
+  BB75a1e4351 -> BB75a1e4313 [color="blue"];
+}

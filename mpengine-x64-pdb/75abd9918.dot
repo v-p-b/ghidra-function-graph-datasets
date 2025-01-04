@@ -1,0 +1,9 @@
+digraph build_bl_tree {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abd9918 -> BB75abd995a [color="red"];
+  BB75abd995a -> BB75abd997b [color="green"];
+  BB75abd995a -> BB75abd9970 [color="red"];
+  BB75abd9970 -> BB75abd995a [color="green"];
+  BB75abd9970 -> BB75abd997b [color="red"];
+}

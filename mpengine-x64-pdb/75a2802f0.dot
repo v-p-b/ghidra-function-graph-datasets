@@ -1,0 +1,13 @@
+digraph columnMallocFailure {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2802f0 -> BB75a280334 [color="green"];
+  BB75a2802f0 -> BB75a2802f5 [color="red"];
+  BB75a2802f5 -> BB75a280335 [color="green"];
+  BB75a2802f5 -> BB75a28030f [color="red"];
+  BB75a28030f -> BB75a280335 [color="green"];
+  BB75a28030f -> BB75a280317 [color="red"];
+  BB75a280317 -> BB75a28031c [color="blue"];
+  BB75a28031c -> BB75a280334 [color="red"];
+  BB75a280335 -> BB75a28031c [color="blue"];
+}

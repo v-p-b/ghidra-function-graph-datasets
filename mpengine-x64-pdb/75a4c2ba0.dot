@@ -1,0 +1,10 @@
+digraph SkipWhiteSpaces {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4c2ba0 -> BB75a4c2bb0 [color="blue"];
+  BB75a4c2bb0 -> BB75a4c2bc1 [color="green"];
+  BB75a4c2bb0 -> BB75a4c2bb5 [color="red"];
+  BB75a4c2bb5 -> BB75a4c2bcf [color="green"];
+  BB75a4c2bb5 -> BB75a4c2bc1 [color="red"];
+  BB75a4c2bcf -> BB75a4c2bb0 [color="blue"];
+}

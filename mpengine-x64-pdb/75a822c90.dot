@@ -1,0 +1,32 @@
+digraph CollectStates {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a822c90 -> BB75a822d04 [color="green"];
+  BB75a822c90 -> BB75a822cbd [color="red"];
+  BB75a822cbd -> BB75a822cee [color="green"];
+  BB75a822cbd -> BB75a822cd0 [color="red"];
+  BB75a822cd0 -> BB75a822cee [color="green"];
+  BB75a822cd0 -> BB75a822cd6 [color="red"];
+  BB75a822cd6 -> BB75a822cee [color="red"];
+  BB75a822cee -> BB75a822cfd [color="green"];
+  BB75a822cee -> BB75a822cf8 [color="red"];
+  BB75a822cf8 -> BB75a822cfd [color="red"];
+  BB75a822cfd -> BB75a822d8f [color="blue"];
+  BB75a822d04 -> BB75a822d5f [color="green"];
+  BB75a822d04 -> BB75a822d1d [color="red"];
+  BB75a822d1d -> BB75a822d4e [color="green"];
+  BB75a822d1d -> BB75a822d30 [color="red"];
+  BB75a822d30 -> BB75a822d4e [color="green"];
+  BB75a822d30 -> BB75a822d36 [color="red"];
+  BB75a822d36 -> BB75a822d4e [color="red"];
+  BB75a822d4e -> BB75a822cee [color="green"];
+  BB75a822d4e -> BB75a822d58 [color="red"];
+  BB75a822d58 -> BB75a822cee [color="blue"];
+  BB75a822d5f -> BB75a822d6d [color="green"];
+  BB75a822d5f -> BB75a822d68 [color="red"];
+  BB75a822d68 -> BB75a822d6d [color="red"];
+  BB75a822d6d -> BB75a822d84 [color="green"];
+  BB75a822d6d -> BB75a822d7f [color="red"];
+  BB75a822d7f -> BB75a822d84 [color="red"];
+  BB75a822d84 -> BB75a822d8f [color="blue"];
+}

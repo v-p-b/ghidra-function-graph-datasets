@@ -1,0 +1,11 @@
+digraph _do_gpu_classify {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a976d3c -> BB75a976d8d [color="green"];
+  BB75a976d3c -> BB75a976d6b [color="red"];
+  BB75a976d6b -> BB75a976d85 [color="blue"];
+  BB75a976d85 -> BB75a976d87 [color="blue"];
+  BB75a976d8d -> BB75a976d85 [color="green"];
+  BB75a976d8d -> BB75a976d91 [color="red"];
+  BB75a976d91 -> BB75a976d87 [color="blue"];
+}

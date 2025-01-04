@@ -1,0 +1,12 @@
+digraph ValidateSignature {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5e4cc8 -> BB75a5e4d01 [color="green"];
+  BB75a5e4cc8 -> BB75a5e4cd3 [color="red"];
+  BB75a5e4cd3 -> BB75a5e4cfd [color="green"];
+  BB75a5e4cd3 -> BB75a5e4cdf [color="red"];
+  BB75a5e4cdf -> BB75a5e4cfd [color="green"];
+  BB75a5e4cdf -> BB75a5e4ceb [color="red"];
+  BB75a5e4ceb -> BB75a5e4cfd [color="blue"];
+  BB75a5e4d01 -> BB75a5e4cfd [color="blue"];
+}

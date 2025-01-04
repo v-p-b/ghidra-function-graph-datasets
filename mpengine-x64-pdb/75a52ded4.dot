@@ -1,0 +1,36 @@
+digraph IsEndOfBuffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a52ded4 -> BB75a52df3d [color="green"];
+  BB75a52ded4 -> BB75a52defd [color="red"];
+  BB75a52defd -> BB75a52df3d [color="green"];
+  BB75a52defd -> BB75a52df0a [color="red"];
+  BB75a52df0a -> BB75a52df3d [color="green"];
+  BB75a52df0a -> BB75a52df17 [color="red"];
+  BB75a52df17 -> BB75a52df44 [color="green"];
+  BB75a52df17 -> BB75a52df1f [color="red"];
+  BB75a52df1f -> BB75a52df44 [color="green"];
+  BB75a52df1f -> BB75a52df24 [color="red"];
+  BB75a52df24 -> BB75a52df26 [color="blue"];
+  BB75a52df3d -> BB75a52df26 [color="blue"];
+  BB75a52df44 -> BB75a52df58 [color="green"];
+  BB75a52df44 -> BB75a52df51 [color="red"];
+  BB75a52df51 -> BB75a52df26 [color="blue"];
+  BB75a52df58 -> BB75a52df73 [color="green"];
+  BB75a52df58 -> BB75a52df6c [color="red"];
+  BB75a52df6c -> BB75a52df26 [color="blue"];
+  BB75a52df73 -> BB75a52dfdb [color="green"];
+  BB75a52df73 -> BB75a52df7f [color="red"];
+  BB75a52df7f -> BB75a52dfdb [color="green"];
+  BB75a52df7f -> BB75a52df95 [color="red"];
+  BB75a52df95 -> BB75a52dfbc [color="green"];
+  BB75a52df95 -> BB75a52dfb5 [color="red"];
+  BB75a52dfb5 -> BB75a52dfbc [color="blue"];
+  BB75a52dfbc -> BB75a52dfd1 [color="green"];
+  BB75a52dfbc -> BB75a52dfc1 [color="red"];
+  BB75a52dfc1 -> BB75a52dfd1 [color="green"];
+  BB75a52dfc1 -> BB75a52dfc7 [color="red"];
+  BB75a52dfc7 -> BB75a52df26 [color="blue"];
+  BB75a52dfd1 -> BB75a52df26 [color="blue"];
+  BB75a52dfdb -> BB75a52df26 [color="blue"];
+}

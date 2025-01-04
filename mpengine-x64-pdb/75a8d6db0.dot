@@ -1,0 +1,16 @@
+digraph _process_detections_and_report {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8d6db0 -> BB75a8d6eb0 [color="green"];
+  BB75a8d6db0 -> BB75a8d6de9 [color="red"];
+  BB75a8d6de9 -> BB75a8d6ea1 [color="green"];
+  BB75a8d6de9 -> BB75a8d6e5f [color="red"];
+  BB75a8d6e5f -> BB75a8d6e82 [color="green"];
+  BB75a8d6e5f -> BB75a8d6e7c [color="red"];
+  BB75a8d6e82 -> BB75a8d6ea1 [color="green"];
+  BB75a8d6e82 -> BB75a8d6e9b [color="red"];
+  BB75a8d6e9b -> BB75a8d6ea1 [color="red"];
+  BB75a8d6ea1 -> BB75a8d6eb0 [color="green"];
+  BB75a8d6ea1 -> BB75a8d6eaa [color="red"];
+  BB75a8d6eaa -> BB75a8d6eb0 [color="red"];
+}

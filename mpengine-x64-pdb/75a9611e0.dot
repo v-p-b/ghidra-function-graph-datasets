@@ -1,0 +1,13 @@
+digraph register_callback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9611e0 -> BB75a96129a [color="green"];
+  BB75a9611e0 -> BB75a961200 [color="red"];
+  BB75a961200 -> BB75a96129a [color="green"];
+  BB75a961200 -> BB75a961209 [color="red"];
+  BB75a961209 -> BB75a96128a [color="green"];
+  BB75a961209 -> BB75a961285 [color="red"];
+  BB75a961285 -> BB75a96128a [color="red"];
+  BB75a96128a -> BB75a96129c [color="blue"];
+  BB75a96129a -> BB75a96129c [color="blue"];
+}

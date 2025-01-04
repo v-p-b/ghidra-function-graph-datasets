@@ -1,0 +1,15 @@
+digraph eIL_daa {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abc4568 -> BB75abc4584 [color="green"];
+  BB75abc4568 -> BB75abc457e [color="red"];
+  BB75abc457e -> BB75abc4595 [color="green"];
+  BB75abc457e -> BB75abc4584 [color="red"];
+  BB75abc4584 -> BB75abc4595 [color="blue"];
+  BB75abc4595 -> BB75abc45a6 [color="green"];
+  BB75abc4595 -> BB75abc459a [color="red"];
+  BB75abc459a -> BB75abc45a6 [color="green"];
+  BB75abc459a -> BB75abc45a0 [color="red"];
+  BB75abc45a0 -> BB75abc45b1 [color="blue"];
+  BB75abc45a6 -> BB75abc45b1 [color="blue"];
+}

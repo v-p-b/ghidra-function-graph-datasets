@@ -1,0 +1,35 @@
+digraph get_vmcache_hints {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a23b240 -> BB75a23b2ad [color="green"];
+  BB75a23b240 -> BB75a23b270 [color="red"];
+  BB75a23b270 -> BB75a23b274 [color="blue"];
+  BB75a23b274 -> BB75a23b2df [color="green"];
+  BB75a23b274 -> BB75a23b28c [color="red"];
+  BB75a23b28c -> BB75a23b2ce [color="green"];
+  BB75a23b28c -> BB75a23b291 [color="red"];
+  BB75a23b291 -> BB75a23b351 [color="green"];
+  BB75a23b291 -> BB75a23b29a [color="red"];
+  BB75a23b29a -> BB75a23b351 [color="green"];
+  BB75a23b29a -> BB75a23b2a3 [color="red"];
+  BB75a23b2a3 -> BB75a23b274 [color="green"];
+  BB75a23b2a3 -> BB75a23b2ad [color="red"];
+  BB75a23b2ce -> BB75a23b351 [color="green"];
+  BB75a23b2ce -> BB75a23b2df [color="red"];
+  BB75a23b2df -> BB75a23b2f1 [color="blue"];
+  BB75a23b2f1 -> BB75a23b336 [color="green"];
+  BB75a23b2f1 -> BB75a23b307 [color="red"];
+  BB75a23b307 -> BB75a23b32f [color="green"];
+  BB75a23b307 -> BB75a23b30c [color="red"];
+  BB75a23b30c -> BB75a23b2f1 [color="green"];
+  BB75a23b30c -> BB75a23b318 [color="red"];
+  BB75a23b318 -> BB75a23b367 [color="green"];
+  BB75a23b318 -> BB75a23b322 [color="red"];
+  BB75a23b322 -> BB75a23b2a3 [color="blue"];
+  BB75a23b32f -> BB75a23b336 [color="blue"];
+  BB75a23b336 -> BB75a23b30c [color="blue"];
+  BB75a23b351 -> BB75a23b322 [color="green"];
+  BB75a23b351 -> BB75a23b360 [color="red"];
+  BB75a23b360 -> BB75a23b322 [color="blue"];
+  BB75a23b367 -> BB75a23b322 [color="blue"];
+}

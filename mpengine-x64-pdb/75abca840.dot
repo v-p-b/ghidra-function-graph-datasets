@@ -1,0 +1,12 @@
+digraph check_lexotran {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abca840 -> BB75abca87f [color="green"];
+  BB75abca840 -> BB75abca857 [color="red"];
+  BB75abca857 -> BB75abca87f [color="green"];
+  BB75abca857 -> BB75abca863 [color="red"];
+  BB75abca863 -> BB75abca87f [color="green"];
+  BB75abca863 -> BB75abca87b [color="red"];
+  BB75abca87b -> BB75abca881 [color="blue"];
+  BB75abca87f -> BB75abca881 [color="blue"];
+}

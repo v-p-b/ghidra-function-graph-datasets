@@ -1,0 +1,13 @@
+digraph GetTlProtectionItems {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a61da80 -> BB75a61daf0 [color="green"];
+  BB75a61da80 -> BB75a61da92 [color="red"];
+  BB75a61da92 -> BB75a61daf0 [color="green"];
+  BB75a61da92 -> BB75a61da98 [color="red"];
+  BB75a61da98 -> BB75a61daf7 [color="green"];
+  BB75a61da98 -> BB75a61dab8 [color="red"];
+  BB75a61dab8 -> BB75a61dae5 [color="red"];
+  BB75a61daf0 -> BB75a61dae5 [color="blue"];
+  BB75a61daf7 -> BB75a61dae5 [color="blue"];
+}

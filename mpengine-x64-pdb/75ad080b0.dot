@@ -1,0 +1,16 @@
+digraph DetectGeometry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad080b0 -> BB75ad081b6 [color="green"];
+  BB75ad080b0 -> BB75ad081b1 [color="red"];
+  BB75ad081b1 -> BB75ad081b6 [color="red"];
+  BB75ad081b6 -> BB75ad08205 [color="green"];
+  BB75ad081b6 -> BB75ad081bb [color="red"];
+  BB75ad081bb -> BB75ad081cf [color="green"];
+  BB75ad081bb -> BB75ad081c9 [color="red"];
+  BB75ad081c9 -> BB75ad081d5 [color="blue"];
+  BB75ad081cf -> BB75ad081d5 [color="blue"];
+  BB75ad081d5 -> BB75ad08205 [color="green"];
+  BB75ad081d5 -> BB75ad081f8 [color="red"];
+  BB75ad081f8 -> BB75ad08205 [color="blue"];
+}

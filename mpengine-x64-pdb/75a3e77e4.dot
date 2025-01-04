@@ -1,0 +1,16 @@
+digraph SMSCreateThread {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3e77e4 -> BB75a3e782d [color="green"];
+  BB75a3e77e4 -> BB75a3e77f1 [color="red"];
+  BB75a3e77f1 -> BB75a3e782d [color="green"];
+  BB75a3e77f1 -> BB75a3e77f7 [color="red"];
+  BB75a3e77f7 -> BB75a3e780a [color="green"];
+  BB75a3e77f7 -> BB75a3e7800 [color="red"];
+  BB75a3e7800 -> BB75a3e780a [color="blue"];
+  BB75a3e780a -> BB75a3e7834 [color="green"];
+  BB75a3e780a -> BB75a3e780f [color="red"];
+  BB75a3e780f -> BB75a3e7828 [color="red"];
+  BB75a3e782d -> BB75a3e7828 [color="blue"];
+  BB75a3e7834 -> BB75a3e7828 [color="blue"];
+}

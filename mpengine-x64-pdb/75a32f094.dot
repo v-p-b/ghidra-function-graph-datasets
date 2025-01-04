@@ -1,0 +1,10 @@
+digraph get_loop_nodes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a32f094 -> BB75a32f0e2 [color="green"];
+  BB75a32f094 -> BB75a32f0ad [color="red"];
+  BB75a32f0ad -> BB75a32f0e2 [color="green"];
+  BB75a32f0ad -> BB75a32f0bc [color="red"];
+  BB75a32f0bc -> BB75a32f0d7 [color="red"];
+  BB75a32f0e2 -> BB75a32f0d7 [color="blue"];
+}

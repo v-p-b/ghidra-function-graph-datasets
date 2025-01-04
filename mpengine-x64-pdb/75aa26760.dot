@@ -1,0 +1,18 @@
+digraph CompareValues<struct_revokedcert_t> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa26760 -> BB75aa267fd [color="green"];
+  BB75aa26760 -> BB75aa2677c [color="red"];
+  BB75aa2677c -> BB75aa26798 [color="green"];
+  BB75aa2677c -> BB75aa26784 [color="red"];
+  BB75aa26784 -> BB75aa26798 [color="green"];
+  BB75aa26784 -> BB75aa2678e [color="red"];
+  BB75aa2678e -> BB75aa26798 [color="blue"];
+  BB75aa26798 -> BB75aa26802 [color="green"];
+  BB75aa26798 -> BB75aa2679d [color="red"];
+  BB75aa2679d -> BB75aa267d1 [color="green"];
+  BB75aa2679d -> BB75aa267cb [color="red"];
+  BB75aa267d1 -> BB75aa26804 [color="blue"];
+  BB75aa267fd -> BB75aa26802 [color="red"];
+  BB75aa26802 -> BB75aa26804 [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph ~PythonIndentStack {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6d0fd0 -> BB75a6d0fe5 [color="green"];
+  BB75a6d0fd0 -> BB75a6d0fe0 [color="red"];
+  BB75a6d0fe0 -> BB75a6d0fe5 [color="blue"];
+  BB75a6d0fe5 -> BB75a6d100d [color="green"];
+  BB75a6d0fe5 -> BB75a6d0fee [color="red"];
+  BB75a6d0fee -> BB75a6d100d [color="red"];
+}

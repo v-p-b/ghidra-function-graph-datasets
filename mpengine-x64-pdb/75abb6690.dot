@@ -1,0 +1,21 @@
+digraph s_patt_cmp_v2 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb6690 -> BB75abb66ac [color="green"];
+  BB75abb6690 -> BB75abb66a7 [color="red"];
+  BB75abb66a7 -> BB75abb66ac [color="red"];
+  BB75abb66ac -> BB75abb66b8 [color="green"];
+  BB75abb66ac -> BB75abb66b3 [color="red"];
+  BB75abb66b3 -> BB75abb66b8 [color="red"];
+  BB75abb66b8 -> BB75abb66ea [color="green"];
+  BB75abb66b8 -> BB75abb66c1 [color="red"];
+  BB75abb66c1 -> BB75abb66ea [color="green"];
+  BB75abb66c1 -> BB75abb66ca [color="red"];
+  BB75abb66ca -> BB75abb66e1 [color="green"];
+  BB75abb66ca -> BB75abb66dc [color="red"];
+  BB75abb66dc -> BB75abb66ec [color="blue"];
+  BB75abb66e1 -> BB75abb66ea [color="green"];
+  BB75abb66e1 -> BB75abb66e3 [color="red"];
+  BB75abb66e3 -> BB75abb66ec [color="blue"];
+  BB75abb66ea -> BB75abb66ec [color="blue"];
+}

@@ -1,0 +1,9 @@
+digraph TriggerTDTReadyEvent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8b2ca0 -> BB75a8b2cdd [color="green"];
+  BB75a8b2ca0 -> BB75a8b2cc2 [color="red"];
+  BB75a8b2cc2 -> BB75a8b2cdd [color="green"];
+  BB75a8b2cc2 -> BB75a8b2cc8 [color="red"];
+  BB75a8b2cc8 -> BB75a8b2cdd [color="red"];
+}

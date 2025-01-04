@@ -1,0 +1,16 @@
+digraph luaL_checkstack {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a44d860 -> BB75a44d8c5 [color="green"];
+  BB75a44d860 -> BB75a44d876 [color="red"];
+  BB75a44d876 -> BB75a44d8c5 [color="green"];
+  BB75a44d876 -> BB75a44d88d [color="red"];
+  BB75a44d88d -> BB75a44d8ba [color="green"];
+  BB75a44d88d -> BB75a44d891 [color="red"];
+  BB75a44d891 -> BB75a44d8db [color="green"];
+  BB75a44d891 -> BB75a44d8a5 [color="red"];
+  BB75a44d8a5 -> BB75a44d8d5 [color="green"];
+  BB75a44d8a5 -> BB75a44d8ba [color="red"];
+  BB75a44d8d5 -> BB75a44d8ba [color="blue"];
+  BB75a44d8db -> BB75a44d8a5 [color="blue"];
+}

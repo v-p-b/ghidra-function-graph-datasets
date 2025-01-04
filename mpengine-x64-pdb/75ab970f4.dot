@@ -1,0 +1,14 @@
+digraph SendCmdScanStatsToAsimov {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab970f4 -> BB75ab972f0 [color="green"];
+  BB75ab970f4 -> BB75ab97136 [color="red"];
+  BB75ab97136 -> BB75ab972f0 [color="green"];
+  BB75ab97136 -> BB75ab97146 [color="red"];
+  BB75ab97146 -> BB75ab972e7 [color="green"];
+  BB75ab97146 -> BB75ab9715c [color="red"];
+  BB75ab9715c -> BB75ab972e7 [color="green"];
+  BB75ab9715c -> BB75ab9717a [color="red"];
+  BB75ab9717a -> BB75ab972e7 [color="red"];
+  BB75ab972e7 -> BB75ab972f0 [color="red"];
+}

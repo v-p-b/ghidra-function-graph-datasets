@@ -1,0 +1,10 @@
+digraph SetThreatDword {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac761e0 -> BB75ac76212 [color="green"];
+  BB75ac761e0 -> BB75ac76206 [color="red"];
+  BB75ac76206 -> BB75ac76212 [color="green"];
+  BB75ac76206 -> BB75ac7620c [color="red"];
+  BB75ac7620c -> BB75ac76212 [color="red"];
+  BB75ac76212 -> BB75ac76244 [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph findStat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3903f8 -> BB75a390421 [color="green"];
+  BB75a3903f8 -> BB75a39041b [color="red"];
+  BB75a39041b -> BB75a390470 [color="green"];
+  BB75a39041b -> BB75a390421 [color="red"];
+  BB75a390421 -> BB75a390468 [color="green"];
+  BB75a390421 -> BB75a39043f [color="red"];
+  BB75a39043f -> BB75a390456 [color="blue"];
+  BB75a390456 -> BB75a390458 [color="blue"];
+  BB75a390468 -> BB75a390458 [color="blue"];
+  BB75a390470 -> BB75a390456 [color="blue"];
+}

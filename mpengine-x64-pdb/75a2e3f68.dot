@@ -1,0 +1,12 @@
+digraph _Ios_base_dtor {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2e3f68 -> BB75a2e3fa6 [color="green"];
+  BB75a2e3f68 -> BB75a2e3f7a [color="red"];
+  BB75a2e3f7a -> BB75a2e3fa0 [color="green"];
+  BB75a2e3f7a -> BB75a2e3f8b [color="red"];
+  BB75a2e3f8b -> BB75a2e3fa0 [color="red"];
+  BB75a2e3fa6 -> BB75a2e3fa0 [color="green"];
+  BB75a2e3fa6 -> BB75a2e3fb6 [color="red"];
+  BB75a2e3fb6 -> BB75a2e3f7a [color="blue"];
+}

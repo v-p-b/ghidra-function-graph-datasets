@@ -1,0 +1,14 @@
+digraph GetRandomPathInSameDir {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad2cf88 -> BB75ad2cfbf [color="green"];
+  BB75ad2cf88 -> BB75ad2cfbc [color="red"];
+  BB75ad2cfbc -> BB75ad2cfbf [color="blue"];
+  BB75ad2cfbf -> BB75ad2cffc [color="green"];
+  BB75ad2cfbf -> BB75ad2cfeb [color="red"];
+  BB75ad2cfeb -> BB75ad2d026 [color="blue"];
+  BB75ad2cffc -> BB75ad2d026 [color="red"];
+  BB75ad2d026 -> BB75ad2d03d [color="red"];
+  BB75ad2d03d -> BB75ad2d03d [color="green"];
+  BB75ad2d03d -> BB75ad2d065 [color="red"];
+}

@@ -1,0 +1,12 @@
+digraph IsExceptionName {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a13a2a4 -> BB75a13a2b9 [color="green"];
+  BB75a13a2a4 -> BB75a13a2ad [color="red"];
+  BB75a13a2ad -> BB75a13a2b9 [color="green"];
+  BB75a13a2ad -> BB75a13a2b2 [color="red"];
+  BB75a13a2b2 -> BB75a13a2b4 [color="blue"];
+  BB75a13a2b9 -> BB75a13a2b2 [color="green"];
+  BB75a13a2b9 -> BB75a13a2c5 [color="red"];
+  BB75a13a2c5 -> BB75a13a2b4 [color="blue"];
+}

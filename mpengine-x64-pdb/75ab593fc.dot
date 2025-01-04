@@ -1,0 +1,20 @@
+digraph substSelect {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab593fc -> BB75ab594d1 [color="green"];
+  BB75ab593fc -> BB75ab59405 [color="red"];
+  BB75ab59405 -> BB75ab59427 [color="blue"];
+  BB75ab59427 -> BB75ab594a5 [color="green"];
+  BB75ab59427 -> BB75ab59474 [color="red"];
+  BB75ab59474 -> BB75ab59478 [color="blue"];
+  BB75ab59478 -> BB75ab5949b [color="green"];
+  BB75ab59478 -> BB75ab5948f [color="red"];
+  BB75ab5948f -> BB75ab5949b [color="red"];
+  BB75ab5949b -> BB75ab59478 [color="green"];
+  BB75ab5949b -> BB75ab594a5 [color="red"];
+  BB75ab594a5 -> BB75ab594b7 [color="green"];
+  BB75ab594a5 -> BB75ab594aa [color="red"];
+  BB75ab594aa -> BB75ab59427 [color="green"];
+  BB75ab594aa -> BB75ab594b7 [color="red"];
+  BB75ab594b7 -> BB75ab594d1 [color="blue"];
+}

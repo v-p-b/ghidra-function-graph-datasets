@@ -1,0 +1,19 @@
+digraph GetAttributeValue {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abafcc8 -> BB75abafd7b [color="green"];
+  BB75abafcc8 -> BB75abafd1e [color="red"];
+  BB75abafd1e -> BB75abafd7b [color="green"];
+  BB75abafd1e -> BB75abafd3a [color="red"];
+  BB75abafd3a -> BB75abafd4e [color="green"];
+  BB75abafd3a -> BB75abafd4b [color="red"];
+  BB75abafd4b -> BB75abafd4e [color="blue"];
+  BB75abafd4e -> BB75abafd6a [color="green"];
+  BB75abafd4e -> BB75abafd5e [color="red"];
+  BB75abafd5e -> BB75abafd6f [color="blue"];
+  BB75abafd6a -> BB75abafd6f [color="blue"];
+  BB75abafd6f -> BB75abafd80 [color="green"];
+  BB75abafd6f -> BB75abafd74 [color="red"];
+  BB75abafd74 -> BB75abafd80 [color="blue"];
+  BB75abafd7b -> BB75abafd80 [color="blue"];
+}

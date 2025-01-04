@@ -1,0 +1,15 @@
+digraph SMSModuleLoad {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abd6fb8 -> BB75abd6fd2 [color="green"];
+  BB75abd6fb8 -> BB75abd6fcd [color="red"];
+  BB75abd6fcd -> BB75abd6fd2 [color="red"];
+  BB75abd6fd2 -> BB75abd6ff4 [color="green"];
+  BB75abd6fd2 -> BB75abd6fdb [color="red"];
+  BB75abd6fdb -> BB75abd6ff4 [color="green"];
+  BB75abd6fdb -> BB75abd6fe1 [color="red"];
+  BB75abd6fe1 -> BB75abd6ff4 [color="green"];
+  BB75abd6fe1 -> BB75abd6fea [color="red"];
+  BB75abd6fea -> BB75abd6ff9 [color="blue"];
+  BB75abd6ff4 -> BB75abd6ff9 [color="blue"];
+}

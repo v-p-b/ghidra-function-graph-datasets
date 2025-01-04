@@ -1,0 +1,9 @@
+digraph TryAcquireSRWLockExclusive {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a770a70 -> BB75a770aab [color="green"];
+  BB75a770a70 -> BB75a770a85 [color="red"];
+  BB75a770a85 -> BB75a770aa4 [color="green"];
+  BB75a770a85 -> BB75a770a91 [color="red"];
+  BB75a770aa4 -> BB75a770aab [color="blue"];
+}

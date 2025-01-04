@@ -1,0 +1,14 @@
+digraph vdbeSortSubtaskCleanup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a47c1ec -> BB75a47c235 [color="green"];
+  BB75a47c1ec -> BB75a47c207 [color="red"];
+  BB75a47c207 -> BB75a47c210 [color="red"];
+  BB75a47c210 -> BB75a47c23c [color="green"];
+  BB75a47c210 -> BB75a47c219 [color="red"];
+  BB75a47c219 -> BB75a47c243 [color="green"];
+  BB75a47c219 -> BB75a47c222 [color="red"];
+  BB75a47c235 -> BB75a47c210 [color="blue"];
+  BB75a47c23c -> BB75a47c219 [color="blue"];
+  BB75a47c243 -> BB75a47c222 [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph VMAlloc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a427b00 -> BB75a427b49 [color="green"];
+  BB75a427b00 -> BB75a427b1a [color="red"];
+  BB75a427b1a -> BB75a427b64 [color="green"];
+  BB75a427b1a -> BB75a427b21 [color="red"];
+  BB75a427b21 -> BB75a427b64 [color="green"];
+  BB75a427b21 -> BB75a427b29 [color="red"];
+  BB75a427b29 -> BB75a427b64 [color="green"];
+  BB75a427b29 -> BB75a427b32 [color="red"];
+  BB75a427b32 -> BB75a427b3e [color="blue"];
+  BB75a427b49 -> BB75a427b3e [color="blue"];
+  BB75a427b64 -> BB75a427b3e [color="green"];
+  BB75a427b64 -> BB75a427b87 [color="red"];
+  BB75a427b87 -> BB75a427b3e [color="blue"];
+}

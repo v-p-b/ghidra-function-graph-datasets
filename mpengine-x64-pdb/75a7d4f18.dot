@@ -1,0 +1,28 @@
+digraph RemoveVirtualFromPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7d4f18 -> BB75a7d4f35 [color="green"];
+  BB75a7d4f18 -> BB75a7d4f30 [color="red"];
+  BB75a7d4f30 -> BB75a7d4f35 [color="red"];
+  BB75a7d4f35 -> BB75a7d4f45 [color="green"];
+  BB75a7d4f35 -> BB75a7d4f40 [color="red"];
+  BB75a7d4f40 -> BB75a7d4f45 [color="red"];
+  BB75a7d4f45 -> BB75a7d4f4f [color="green"];
+  BB75a7d4f45 -> BB75a7d4f4a [color="red"];
+  BB75a7d4f4a -> BB75a7d4f4f [color="red"];
+  BB75a7d4f4f -> BB75a7d4f6d [color="green"];
+  BB75a7d4f4f -> BB75a7d4f66 [color="red"];
+  BB75a7d4f66 -> BB75a7d5000 [color="blue"];
+  BB75a7d4f6d -> BB75a7d4f72 [color="blue"];
+  BB75a7d4f72 -> BB75a7d4ffb [color="green"];
+  BB75a7d4f72 -> BB75a7d4f85 [color="red"];
+  BB75a7d4f85 -> BB75a7d4ffb [color="green"];
+  BB75a7d4f85 -> BB75a7d4f8e [color="red"];
+  BB75a7d4f8e -> BB75a7d4fc5 [color="green"];
+  BB75a7d4f8e -> BB75a7d4fab [color="red"];
+  BB75a7d4fab -> BB75a7d4fd0 [color="green"];
+  BB75a7d4fab -> BB75a7d4fc5 [color="red"];
+  BB75a7d4fc5 -> BB75a7d4f72 [color="blue"];
+  BB75a7d4fd0 -> BB75a7d4f66 [color="blue"];
+  BB75a7d4ffb -> BB75a7d5000 [color="blue"];
+}

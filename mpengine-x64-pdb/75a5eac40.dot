@@ -1,0 +1,19 @@
+digraph DiagnosticConfigExists {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5eac40 -> BB75a5eacad [color="green"];
+  BB75a5eac40 -> BB75a5eac60 [color="red"];
+  BB75a5eac60 -> BB75a5eac9a [color="green"];
+  BB75a5eac60 -> BB75a5eac7d [color="red"];
+  BB75a5eac7d -> BB75a5eac9a [color="green"];
+  BB75a5eac7d -> BB75a5eac84 [color="red"];
+  BB75a5eac84 -> BB75a5eac93 [color="green"];
+  BB75a5eac84 -> BB75a5eac8e [color="red"];
+  BB75a5eac8e -> BB75a5eac93 [color="red"];
+  BB75a5eac93 -> BB75a5eac95 [color="blue"];
+  BB75a5eac9a -> BB75a5eaca9 [color="green"];
+  BB75a5eac9a -> BB75a5eaca4 [color="red"];
+  BB75a5eaca4 -> BB75a5eaca9 [color="red"];
+  BB75a5eaca9 -> BB75a5eac95 [color="blue"];
+  BB75a5eacad -> BB75a5eaca9 [color="blue"];
+}

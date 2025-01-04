@@ -1,0 +1,11 @@
+digraph set_loop_flags_tsw {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a342324 -> BB75a342375 [color="green"];
+  BB75a342324 -> BB75a34234d [color="red"];
+  BB75a34234d -> BB75a342390 [color="green"];
+  BB75a34234d -> BB75a342359 [color="red"];
+  BB75a342359 -> BB75a34234d [color="green"];
+  BB75a342359 -> BB75a342375 [color="red"];
+  BB75a342390 -> BB75a342359 [color="blue"];
+}

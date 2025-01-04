@@ -1,0 +1,24 @@
+digraph CheckAggregatedAttr {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1a9f68 -> BB75a1aa02b [color="green"];
+  BB75a1a9f68 -> BB75a1a9f9f [color="red"];
+  BB75a1a9f9f -> BB75a1aa00d [color="green"];
+  BB75a1a9f9f -> BB75a1a9fcd [color="red"];
+  BB75a1a9fcd -> BB75a1aa05d [color="green"];
+  BB75a1a9fcd -> BB75a1aa00d [color="red"];
+  BB75a1aa00d -> BB75a1aa00f [color="blue"];
+  BB75a1aa02b -> BB75a1aa059 [color="green"];
+  BB75a1aa02b -> BB75a1aa03e [color="red"];
+  BB75a1aa03e -> BB75a1aa059 [color="green"];
+  BB75a1aa03e -> BB75a1aa044 [color="red"];
+  BB75a1aa044 -> BB75a1aa059 [color="red"];
+  BB75a1aa059 -> BB75a1aa00f [color="blue"];
+  BB75a1aa05d -> BB75a1aa06b [color="green"];
+  BB75a1aa05d -> BB75a1aa066 [color="red"];
+  BB75a1aa066 -> BB75a1aa06b [color="red"];
+  BB75a1aa06b -> BB75a1aa095 [color="green"];
+  BB75a1aa06b -> BB75a1aa08b [color="red"];
+  BB75a1aa08b -> BB75a1aa00d [color="blue"];
+  BB75a1aa095 -> BB75a1aa00d [color="blue"];
+}

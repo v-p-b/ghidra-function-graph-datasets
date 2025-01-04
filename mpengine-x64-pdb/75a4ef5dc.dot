@@ -1,0 +1,20 @@
+digraph Allocator<class_UnitStorage::VirtualMemory> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4ef5dc -> BB75a4ef659 [color="green"];
+  BB75a4ef5dc -> BB75a4ef652 [color="red"];
+  BB75a4ef652 -> BB75a4ef65e [color="green"];
+  BB75a4ef652 -> BB75a4ef659 [color="red"];
+  BB75a4ef659 -> BB75a4ef65e [color="red"];
+  BB75a4ef65e -> BB75a4ef69a [color="green"];
+  BB75a4ef65e -> BB75a4ef665 [color="red"];
+  BB75a4ef665 -> BB75a4ef69a [color="green"];
+  BB75a4ef665 -> BB75a4ef66b [color="red"];
+  BB75a4ef66b -> BB75a4ef6a1 [color="green"];
+  BB75a4ef66b -> BB75a4ef67c [color="red"];
+  BB75a4ef67c -> BB75a4ef6a8 [color="green"];
+  BB75a4ef67c -> BB75a4ef682 [color="red"];
+  BB75a4ef69a -> BB75a4ef66b [color="blue"];
+  BB75a4ef6a1 -> BB75a4ef67c [color="blue"];
+  BB75a4ef6a8 -> BB75a4ef682 [color="blue"];
+}

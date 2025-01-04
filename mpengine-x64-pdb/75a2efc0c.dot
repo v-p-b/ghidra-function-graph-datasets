@@ -1,0 +1,15 @@
+digraph flush {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2efc0c -> BB75a2efc7b [color="green"];
+  BB75a2efc0c -> BB75a2efc2f [color="red"];
+  BB75a2efc2f -> BB75a2efc89 [color="green"];
+  BB75a2efc2f -> BB75a2efc44 [color="red"];
+  BB75a2efc44 -> BB75a2efc58 [color="green"];
+  BB75a2efc44 -> BB75a2efc4d [color="red"];
+  BB75a2efc4d -> BB75a2efc58 [color="red"];
+  BB75a2efc58 -> BB75a2efc7b [color="green"];
+  BB75a2efc58 -> BB75a2efc6e [color="red"];
+  BB75a2efc6e -> BB75a2efc7b [color="red"];
+  BB75a2efc89 -> BB75a2efc44 [color="blue"];
+}

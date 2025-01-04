@@ -1,0 +1,27 @@
+digraph sysclean_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7610a0 -> BB75a7610e1 [color="green"];
+  BB75a7610a0 -> BB75a7610dc [color="red"];
+  BB75a7610dc -> BB75a7610e1 [color="red"];
+  BB75a7610e1 -> BB75a761123 [color="green"];
+  BB75a7610e1 -> BB75a7610ee [color="red"];
+  BB75a7610ee -> BB75a76111c [color="green"];
+  BB75a7610ee -> BB75a761101 [color="red"];
+  BB75a761101 -> BB75a76111c [color="green"];
+  BB75a761101 -> BB75a761107 [color="red"];
+  BB75a761107 -> BB75a76111c [color="red"];
+  BB75a76111c -> BB75a7611c5 [color="blue"];
+  BB75a761123 -> BB75a761171 [color="green"];
+  BB75a761123 -> BB75a76113c [color="red"];
+  BB75a76113c -> BB75a76116a [color="green"];
+  BB75a76113c -> BB75a76114f [color="red"];
+  BB75a76114f -> BB75a76116a [color="green"];
+  BB75a76114f -> BB75a761155 [color="red"];
+  BB75a761155 -> BB75a76116a [color="red"];
+  BB75a76116a -> BB75a7611c5 [color="blue"];
+  BB75a761171 -> BB75a7611ba [color="green"];
+  BB75a761171 -> BB75a7611b6 [color="red"];
+  BB75a7611b6 -> BB75a7611ba [color="blue"];
+  BB75a7611ba -> BB75a7611c5 [color="red"];
+}

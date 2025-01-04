@@ -1,0 +1,10 @@
+digraph _Emplace_reallocate<class_std::unique_ptr<struct_NameTree::Node,struct_std::default_delete<struct_NameTree::Node>_>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4ae70c -> BB75a4ae7d4 [color="green"];
+  BB75a4ae70c -> BB75a4ae74d [color="red"];
+  BB75a4ae74d -> BB75a4ae7e1 [color="green"];
+  BB75a4ae74d -> BB75a4ae7aa [color="red"];
+  BB75a4ae7d4 -> BB75a4ae7e1 [color="red"];
+  BB75a4ae7e1 -> BB75a4ae7aa [color="blue"];
+}

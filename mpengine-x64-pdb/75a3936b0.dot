@@ -1,0 +1,33 @@
+digraph NTDLL_DLL_VFS_GetAttrib {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3936b0 -> BB75a393807 [color="green"];
+  BB75a3936b0 -> BB75a393724 [color="red"];
+  BB75a393724 -> BB75a393807 [color="green"];
+  BB75a393724 -> BB75a393732 [color="red"];
+  BB75a393732 -> BB75a393854 [color="green"];
+  BB75a393732 -> BB75a393759 [color="red"];
+  BB75a393759 -> BB75a3937a5 [color="green"];
+  BB75a393759 -> BB75a393789 [color="red"];
+  BB75a393789 -> BB75a3937ce [color="green"];
+  BB75a393789 -> BB75a393793 [color="red"];
+  BB75a393793 -> BB75a3937ce [color="blue"];
+  BB75a3937a5 -> BB75a3937ce [color="green"];
+  BB75a3937a5 -> BB75a3937bc [color="red"];
+  BB75a3937bc -> BB75a393892 [color="green"];
+  BB75a3937bc -> BB75a3937ce [color="red"];
+  BB75a3937ce -> BB75a3937fc [color="green"];
+  BB75a3937ce -> BB75a3937e4 [color="red"];
+  BB75a3937e4 -> BB75a3937fc [color="red"];
+  BB75a3937fc -> BB75a393807 [color="red"];
+  BB75a393807 -> BB75a393825 [color="green"];
+  BB75a393807 -> BB75a393819 [color="red"];
+  BB75a393819 -> BB75a393825 [color="blue"];
+  BB75a393854 -> BB75a393882 [color="green"];
+  BB75a393854 -> BB75a39386a [color="red"];
+  BB75a39386a -> BB75a393882 [color="red"];
+  BB75a393882 -> BB75a393807 [color="blue"];
+  BB75a393892 -> BB75a3937ce [color="green"];
+  BB75a393892 -> BB75a3938c1 [color="red"];
+  BB75a3938c1 -> BB75a393789 [color="blue"];
+}

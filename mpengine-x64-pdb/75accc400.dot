@@ -1,0 +1,11 @@
+digraph format_until_scope_end {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75accc400 -> BB75accc409 [color="blue"];
+  BB75accc409 -> BB75accc43e [color="green"];
+  BB75accc409 -> BB75accc41b [color="red"];
+  BB75accc41b -> BB75accc43e [color="green"];
+  BB75accc41b -> BB75accc421 [color="red"];
+  BB75accc421 -> BB75accc409 [color="green"];
+  BB75accc421 -> BB75accc43e [color="red"];
+}

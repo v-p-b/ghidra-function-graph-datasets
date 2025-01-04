@@ -1,0 +1,16 @@
+digraph msil_emit_managed_call {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3360f8 -> BB75a33614d [color="green"];
+  BB75a3360f8 -> BB75a336135 [color="red"];
+  BB75a336135 -> BB75a33614d [color="red"];
+  BB75a33614d -> BB75a3362ba [color="green"];
+  BB75a33614d -> BB75a336157 [color="red"];
+  BB75a336157 -> BB75a336259 [color="green"];
+  BB75a336157 -> BB75a3361df [color="red"];
+  BB75a3361df -> BB75a336259 [color="green"];
+  BB75a3361df -> BB75a3361e3 [color="red"];
+  BB75a3361e3 -> BB75a3362a5 [color="blue"];
+  BB75a336259 -> BB75a3362a5 [color="red"];
+  BB75a3362ba -> BB75a336157 [color="blue"];
+}

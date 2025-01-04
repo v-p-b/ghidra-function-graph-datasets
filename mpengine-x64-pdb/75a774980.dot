@@ -1,0 +1,13 @@
+digraph try_cor_exit_process {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a774980 -> BB75a7749d3 [color="green"];
+  BB75a774980 -> BB75a7749b4 [color="red"];
+  BB75a7749b4 -> BB75a7749ce [color="green"];
+  BB75a7749b4 -> BB75a7749c6 [color="red"];
+  BB75a7749c6 -> BB75a7749ce [color="red"];
+  BB75a7749ce -> BB75a7749d3 [color="blue"];
+  BB75a7749d3 -> BB75a7749df [color="green"];
+  BB75a7749d3 -> BB75a7749d8 [color="red"];
+  BB75a7749d8 -> BB75a7749df [color="red"];
+}

@@ -1,0 +1,16 @@
+digraph SplitPathToFileADS {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a47bc5c -> BB75a47bc6c [color="blue"];
+  BB75a47bc6c -> BB75a47bc8f [color="green"];
+  BB75a47bc6c -> BB75a47bc76 [color="red"];
+  BB75a47bc76 -> BB75a47bc8a [color="green"];
+  BB75a47bc76 -> BB75a47bc7d [color="red"];
+  BB75a47bc7d -> BB75a47bc8a [color="green"];
+  BB75a47bc7d -> BB75a47bc84 [color="red"];
+  BB75a47bc84 -> BB75a47bc6c [color="blue"];
+  BB75a47bc8a -> BB75a47bc84 [color="blue"];
+  BB75a47bc8f -> BB75a47bca0 [color="green"];
+  BB75a47bc8f -> BB75a47bc97 [color="red"];
+  BB75a47bca0 -> BB75a47bc97 [color="blue"];
+}

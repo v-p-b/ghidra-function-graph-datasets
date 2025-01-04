@@ -1,0 +1,13 @@
+digraph ~cfi_model {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a948338 -> BB75a94835d [color="green"];
+  BB75a948338 -> BB75a94834b [color="red"];
+  BB75a94834b -> BB75a94835d [color="green"];
+  BB75a94834b -> BB75a948355 [color="red"];
+  BB75a948355 -> BB75a94835d [color="red"];
+  BB75a94835d -> BB75a948364 [color="blue"];
+  BB75a948364 -> BB75a9483a1 [color="green"];
+  BB75a948364 -> BB75a94839b [color="red"];
+  BB75a94839b -> BB75a9483a1 [color="red"];
+}

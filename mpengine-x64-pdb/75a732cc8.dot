@@ -1,0 +1,13 @@
+digraph decode_dbx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a732cc8 -> BB75a732d4e [color="green"];
+  BB75a732cc8 -> BB75a732d07 [color="red"];
+  BB75a732d07 -> BB75a732d13 [color="blue"];
+  BB75a732d13 -> BB75a732d4e [color="green"];
+  BB75a732d13 -> BB75a732d1e [color="red"];
+  BB75a732d1e -> BB75a732d4e [color="green"];
+  BB75a732d1e -> BB75a732d31 [color="red"];
+  BB75a732d31 -> BB75a732d13 [color="green"];
+  BB75a732d31 -> BB75a732d4e [color="red"];
+}

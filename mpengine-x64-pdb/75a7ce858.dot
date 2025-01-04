@@ -1,0 +1,10 @@
+digraph get_default_message {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7ce858 -> BB75a7ce8bd [color="green"];
+  BB75a7ce858 -> BB75a7ce8a1 [color="red"];
+  BB75a7ce8a1 -> BB75a7ce8bd [color="green"];
+  BB75a7ce8a1 -> BB75a7ce8a6 [color="red"];
+  BB75a7ce8a6 -> BB75a7ce8a1 [color="green"];
+  BB75a7ce8a6 -> BB75a7ce8bd [color="red"];
+}

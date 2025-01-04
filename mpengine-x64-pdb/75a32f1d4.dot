@@ -1,0 +1,25 @@
+digraph strip_constants {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a32f1d4 -> BB75a32f1ff [color="blue"];
+  BB75a32f1ff -> BB75a32f26b [color="green"];
+  BB75a32f1ff -> BB75a32f204 [color="red"];
+  BB75a32f204 -> BB75a32f221 [color="green"];
+  BB75a32f204 -> BB75a32f218 [color="red"];
+  BB75a32f218 -> BB75a32f221 [color="green"];
+  BB75a32f218 -> BB75a32f21d [color="red"];
+  BB75a32f21d -> BB75a32f1ff [color="blue"];
+  BB75a32f221 -> BB75a32f21d [color="green"];
+  BB75a32f221 -> BB75a32f22d [color="red"];
+  BB75a32f22d -> BB75a32f247 [color="green"];
+  BB75a32f22d -> BB75a32f234 [color="red"];
+  BB75a32f234 -> BB75a32f21d [color="green"];
+  BB75a32f234 -> BB75a32f243 [color="red"];
+  BB75a32f243 -> BB75a32f26d [color="blue"];
+  BB75a32f247 -> BB75a32f21d [color="green"];
+  BB75a32f247 -> BB75a32f24b [color="red"];
+  BB75a32f24b -> BB75a32f243 [color="green"];
+  BB75a32f24b -> BB75a32f261 [color="red"];
+  BB75a32f261 -> BB75a32f234 [color="blue"];
+  BB75a32f26b -> BB75a32f26d [color="blue"];
+}

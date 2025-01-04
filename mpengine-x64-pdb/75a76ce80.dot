@@ -1,0 +1,11 @@
+digraph CertVerifyCertificateChainPolicy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a76ce80 -> BB75a76cece [color="green"];
+  BB75a76ce80 -> BB75a76ceac [color="red"];
+  BB75a76ceac -> BB75a76cec7 [color="green"];
+  BB75a76ceac -> BB75a76ceb8 [color="red"];
+  BB75a76ceb8 -> BB75a76cedf [color="blue"];
+  BB75a76cec7 -> BB75a76cece [color="blue"];
+  BB75a76cece -> BB75a76cedf [color="red"];
+}

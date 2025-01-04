@@ -1,0 +1,16 @@
+digraph ApplyMultiSectorFixup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4b43c8 -> BB75a4b43fd [color="green"];
+  BB75a4b43c8 -> BB75a4b43d7 [color="red"];
+  BB75a4b43d7 -> BB75a4b4404 [color="green"];
+  BB75a4b43d7 -> BB75a4b43dd [color="red"];
+  BB75a4b43dd -> BB75a4b440b [color="green"];
+  BB75a4b43dd -> BB75a4b43e3 [color="red"];
+  BB75a4b43e3 -> BB75a4b4412 [color="green"];
+  BB75a4b43e3 -> BB75a4b43e9 [color="red"];
+  BB75a4b43fd -> BB75a4b43d7 [color="blue"];
+  BB75a4b4404 -> BB75a4b43dd [color="blue"];
+  BB75a4b440b -> BB75a4b43e3 [color="blue"];
+  BB75a4b4412 -> BB75a4b43e9 [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph alloc<struct_JsPrototypeObject_Date> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a67bbc0 -> BB75a67bc4f [color="green"];
+  BB75a67bbc0 -> BB75a67bbdb [color="red"];
+  BB75a67bbdb -> BB75a67bc4f [color="green"];
+  BB75a67bbdb -> BB75a67bbe8 [color="red"];
+  BB75a67bbe8 -> BB75a67bc4f [color="green"];
+  BB75a67bbe8 -> BB75a67bbf6 [color="red"];
+  BB75a67bbf6 -> BB75a67bc43 [color="green"];
+  BB75a67bbf6 -> BB75a67bc25 [color="red"];
+  BB75a67bc25 -> BB75a67bc2d [color="blue"];
+  BB75a67bc2d -> BB75a67bc36 [color="blue"];
+  BB75a67bc43 -> BB75a67bc2d [color="blue"];
+  BB75a67bc4f -> BB75a67bc36 [color="blue"];
+}

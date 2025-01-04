@@ -1,0 +1,18 @@
+digraph StateFromIp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7807b8 -> BB75a780818 [color="green"];
+  BB75a7807b8 -> BB75a7807c6 [color="red"];
+  BB75a7807c6 -> BB75a780818 [color="green"];
+  BB75a7807c6 -> BB75a7807d7 [color="red"];
+  BB75a7807d7 -> BB75a780813 [color="green"];
+  BB75a7807d7 -> BB75a7807e3 [color="red"];
+  BB75a7807e3 -> BB75a7807fb [color="green"];
+  BB75a7807e3 -> BB75a7807f3 [color="red"];
+  BB75a7807f3 -> BB75a7807e3 [color="green"];
+  BB75a7807f3 -> BB75a7807fb [color="red"];
+  BB75a7807fb -> BB75a780813 [color="green"];
+  BB75a7807fb -> BB75a780800 [color="red"];
+  BB75a780800 -> BB75a78080d [color="blue"];
+  BB75a780813 -> BB75a78080d [color="blue"];
+}

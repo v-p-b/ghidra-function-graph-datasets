@@ -1,0 +1,26 @@
+digraph NewSetStream {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4e8cc4 -> BB75a4e8d00 [color="green"];
+  BB75a4e8cc4 -> BB75a4e8cee [color="red"];
+  BB75a4e8cee -> BB75a4e8d00 [color="red"];
+  BB75a4e8d00 -> BB75a4e8d4f [color="green"];
+  BB75a4e8d00 -> BB75a4e8d0c [color="red"];
+  BB75a4e8d0c -> BB75a4e8d4f [color="green"];
+  BB75a4e8d0c -> BB75a4e8d11 [color="red"];
+  BB75a4e8d11 -> BB75a4e8d4f [color="green"];
+  BB75a4e8d11 -> BB75a4e8d17 [color="red"];
+  BB75a4e8d17 -> BB75a4e8daa [color="green"];
+  BB75a4e8d17 -> BB75a4e8d32 [color="red"];
+  BB75a4e8d32 -> BB75a4e8d3c [color="blue"];
+  BB75a4e8d4f -> BB75a4e8d32 [color="green"];
+  BB75a4e8d4f -> BB75a4e8d7c [color="red"];
+  BB75a4e8d7c -> BB75a4e8db1 [color="green"];
+  BB75a4e8d7c -> BB75a4e8d9a [color="red"];
+  BB75a4e8d9a -> BB75a4e8da6 [color="green"];
+  BB75a4e8d9a -> BB75a4e8da3 [color="red"];
+  BB75a4e8da3 -> BB75a4e8da6 [color="blue"];
+  BB75a4e8da6 -> BB75a4e8d3c [color="blue"];
+  BB75a4e8daa -> BB75a4e8d4f [color="blue"];
+  BB75a4e8db1 -> BB75a4e8d9a [color="blue"];
+}

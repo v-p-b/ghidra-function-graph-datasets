@@ -1,0 +1,11 @@
+digraph btreeEndTransaction {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2a0b68 -> BB75a2a0b8b [color="green"];
+  BB75a2a0b68 -> BB75a2a0b75 [color="red"];
+  BB75a2a0b75 -> BB75a2a0b97 [color="green"];
+  BB75a2a0b75 -> BB75a2a0b81 [color="red"];
+  BB75a2a0b81 -> BB75a2a0b8b [color="green"];
+  BB75a2a0b81 -> BB75a2a0b87 [color="red"];
+  BB75a2a0b87 -> BB75a2a0b8b [color="blue"];
+}

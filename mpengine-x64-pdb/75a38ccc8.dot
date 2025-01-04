@@ -1,0 +1,24 @@
+digraph MemScanOpenProcessToken {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a38ccc8 -> BB75a38cd07 [color="green"];
+  BB75a38ccc8 -> BB75a38ccdd [color="red"];
+  BB75a38ccdd -> BB75a38cd3c [color="green"];
+  BB75a38ccdd -> BB75a38ccf2 [color="red"];
+  BB75a38ccf2 -> BB75a38ccfc [color="blue"];
+  BB75a38cd07 -> BB75a38cd35 [color="green"];
+  BB75a38cd07 -> BB75a38cd1a [color="red"];
+  BB75a38cd1a -> BB75a38cd35 [color="green"];
+  BB75a38cd1a -> BB75a38cd20 [color="red"];
+  BB75a38cd20 -> BB75a38cd35 [color="red"];
+  BB75a38cd35 -> BB75a38ccfc [color="blue"];
+  BB75a38cd3c -> BB75a38cd75 [color="green"];
+  BB75a38cd3c -> BB75a38cd57 [color="red"];
+  BB75a38cd57 -> BB75a38cd75 [color="green"];
+  BB75a38cd57 -> BB75a38cd5d [color="red"];
+  BB75a38cd5d -> BB75a38cd75 [color="red"];
+  BB75a38cd75 -> BB75a38cd8f [color="green"];
+  BB75a38cd75 -> BB75a38cd89 [color="red"];
+  BB75a38cd89 -> BB75a38cd8f [color="red"];
+  BB75a38cd8f -> BB75a38ccfc [color="blue"];
+}

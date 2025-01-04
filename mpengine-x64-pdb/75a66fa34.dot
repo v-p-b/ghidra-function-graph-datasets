@@ -1,0 +1,26 @@
+digraph EnumerateDeviceMemoryRanges {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a66fa34 -> BB75a66fa6c [color="green"];
+  BB75a66fa34 -> BB75a66fa68 [color="red"];
+  BB75a66fa68 -> BB75a66fa6c [color="blue"];
+  BB75a66fa6c -> BB75a66fa92 [color="green"];
+  BB75a66fa6c -> BB75a66fa88 [color="red"];
+  BB75a66fa88 -> BB75a66fb1f [color="blue"];
+  BB75a66fa92 -> BB75a66faaa [color="blue"];
+  BB75a66fa96 -> BB75a66faaa [color="red"];
+  BB75a66faaa -> BB75a66fa96 [color="green"];
+  BB75a66faaa -> BB75a66fad1 [color="red"];
+  BB75a66fad1 -> BB75a66fb1d [color="green"];
+  BB75a66fad1 -> BB75a66fade [color="red"];
+  BB75a66fade -> BB75a66fb0a [color="green"];
+  BB75a66fade -> BB75a66faf1 [color="red"];
+  BB75a66faf1 -> BB75a66fb0a [color="green"];
+  BB75a66faf1 -> BB75a66faf7 [color="red"];
+  BB75a66faf7 -> BB75a66fb0a [color="red"];
+  BB75a66fb0a -> BB75a66fb18 [color="green"];
+  BB75a66fb0a -> BB75a66fb14 [color="red"];
+  BB75a66fb14 -> BB75a66fb18 [color="blue"];
+  BB75a66fb18 -> BB75a66fb1d [color="blue"];
+  BB75a66fb1d -> BB75a66fb1f [color="blue"];
+}

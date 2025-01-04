@@ -1,0 +1,15 @@
+digraph BMSFreeResources {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6875d4 -> BB75a687657 [color="green"];
+  BB75a6875d4 -> BB75a6875d9 [color="red"];
+  BB75a6875d9 -> BB75a687635 [color="green"];
+  BB75a6875d9 -> BB75a687610 [color="red"];
+  BB75a687610 -> BB75a68762d [color="green"];
+  BB75a687610 -> BB75a687615 [color="red"];
+  BB75a687615 -> BB75a68761b [color="blue"];
+  BB75a68761b -> BB75a68761b [color="green"];
+  BB75a68761b -> BB75a68762d [color="red"];
+  BB75a68762d -> BB75a687635 [color="red"];
+  BB75a687635 -> BB75a687657 [color="blue"];
+}

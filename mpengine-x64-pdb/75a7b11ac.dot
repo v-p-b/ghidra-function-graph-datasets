@@ -1,0 +1,12 @@
+digraph __dcrt_write_console {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7b11ac -> BB75a7b1253 [color="green"];
+  BB75a7b11ac -> BB75a7b11e9 [color="red"];
+  BB75a7b11e9 -> BB75a7b1253 [color="green"];
+  BB75a7b11e9 -> BB75a7b11f4 [color="red"];
+  BB75a7b11f4 -> BB75a7b1207 [color="green"];
+  BB75a7b11f4 -> BB75a7b1201 [color="red"];
+  BB75a7b1201 -> BB75a7b1207 [color="red"];
+  BB75a7b1207 -> BB75a7b1253 [color="red"];
+}

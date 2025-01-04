@@ -1,0 +1,11 @@
+digraph GetRawSize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5d2e08 -> BB75a5d2e3b [color="green"];
+  BB75a5d2e08 -> BB75a5d2e2b [color="red"];
+  BB75a5d2e2b -> BB75a5d2e2b [color="green"];
+  BB75a5d2e2b -> BB75a5d2e3b [color="red"];
+  BB75a5d2e3b -> BB75a5d2e57 [color="green"];
+  BB75a5d2e3b -> BB75a5d2e43 [color="red"];
+  BB75a5d2e57 -> BB75a5d2e43 [color="blue"];
+}

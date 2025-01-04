@@ -1,0 +1,25 @@
+digraph PeMemory {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a48867c -> BB75a4886a8 [color="green"];
+  BB75a48867c -> BB75a4886a4 [color="red"];
+  BB75a4886a4 -> BB75a4886a8 [color="blue"];
+  BB75a4886a8 -> BB75a488720 [color="green"];
+  BB75a4886a8 -> BB75a48871b [color="red"];
+  BB75a48871b -> BB75a488720 [color="red"];
+  BB75a488720 -> BB75a48872f [color="green"];
+  BB75a488720 -> BB75a48872a [color="red"];
+  BB75a48872a -> BB75a48872f [color="red"];
+  BB75a48872f -> BB75a488793 [color="green"];
+  BB75a48872f -> BB75a48878e [color="red"];
+  BB75a48878e -> BB75a488793 [color="red"];
+  BB75a488793 -> BB75a4887d6 [color="green"];
+  BB75a488793 -> BB75a4887d0 [color="red"];
+  BB75a4887d0 -> BB75a488819 [color="blue"];
+  BB75a4887d6 -> BB75a488819 [color="green"];
+  BB75a4887d6 -> BB75a4887e9 [color="red"];
+  BB75a4887e9 -> BB75a488819 [color="green"];
+  BB75a4887e9 -> BB75a4887ef [color="red"];
+  BB75a4887ef -> BB75a488819 [color="red"];
+  BB75a488819 -> BB75a48882e [color="blue"];
+}

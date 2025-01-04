@@ -1,0 +1,31 @@
+digraph get_cfi_model_info {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a940f30 -> BB75a940fba [color="green"];
+  BB75a940f30 -> BB75a940f67 [color="red"];
+  BB75a940f67 -> BB75a940fc4 [color="green"];
+  BB75a940f67 -> BB75a940f6d [color="red"];
+  BB75a940f6d -> BB75a940fba [color="red"];
+  BB75a940fba -> BB75a9410aa [color="green"];
+  BB75a940fba -> BB75a940fc4 [color="red"];
+  BB75a940fc4 -> BB75a9410aa [color="green"];
+  BB75a940fc4 -> BB75a940fdf [color="red"];
+  BB75a940fdf -> BB75a941074 [color="green"];
+  BB75a940fdf -> BB75a941000 [color="red"];
+  BB75a941000 -> BB75a941074 [color="green"];
+  BB75a941000 -> BB75a941006 [color="red"];
+  BB75a941006 -> BB75a941031 [color="green"];
+  BB75a941006 -> BB75a94102c [color="red"];
+  BB75a94102c -> BB75a941031 [color="red"];
+  BB75a941031 -> BB75a94104a [color="green"];
+  BB75a941031 -> BB75a94103d [color="red"];
+  BB75a94103d -> BB75a94104c [color="blue"];
+  BB75a94104a -> BB75a94104c [color="blue"];
+  BB75a94104c -> BB75a94109c [color="blue"];
+  BB75a941074 -> BB75a94109c [color="green"];
+  BB75a941074 -> BB75a941096 [color="red"];
+  BB75a941096 -> BB75a94109c [color="red"];
+  BB75a94109c -> BB75a9410aa [color="green"];
+  BB75a94109c -> BB75a9410a5 [color="red"];
+  BB75a9410a5 -> BB75a9410aa [color="red"];
+}

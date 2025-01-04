@@ -1,0 +1,26 @@
+digraph TestIsTPTrustedProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a22ba70 -> BB75a22bbfb [color="green"];
+  BB75a22ba70 -> BB75a22bac2 [color="red"];
+  BB75a22bac2 -> BB75a22badd [color="green"];
+  BB75a22bac2 -> BB75a22bada [color="red"];
+  BB75a22bada -> BB75a22badd [color="blue"];
+  BB75a22badd -> BB75a22bc0e [color="green"];
+  BB75a22badd -> BB75a22bb04 [color="red"];
+  BB75a22bb04 -> BB75a22bbf3 [color="green"];
+  BB75a22bb04 -> BB75a22bb2b [color="red"];
+  BB75a22bb2b -> BB75a22bbba [color="green"];
+  BB75a22bb2b -> BB75a22bb3d [color="red"];
+  BB75a22bb3d -> BB75a22bb80 [color="green"];
+  BB75a22bb3d -> BB75a22bb58 [color="red"];
+  BB75a22bb58 -> BB75a22bb80 [color="red"];
+  BB75a22bb80 -> BB75a22bc04 [color="green"];
+  BB75a22bb80 -> BB75a22bbba [color="red"];
+  BB75a22bbba -> BB75a22bbcc [color="red"];
+  BB75a22bbcc -> BB75a22bbce [color="blue"];
+  BB75a22bbf3 -> BB75a22bb2b [color="blue"];
+  BB75a22bbfb -> BB75a22bbcc [color="blue"];
+  BB75a22bc04 -> BB75a22bc0e [color="red"];
+  BB75a22bc0e -> BB75a22bbce [color="blue"];
+}

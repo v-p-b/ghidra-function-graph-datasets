@@ -1,0 +1,18 @@
+digraph ParseBootRecord {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac41cc8 -> BB75ac41cf2 [color="green"];
+  BB75ac41cc8 -> BB75ac41ced [color="red"];
+  BB75ac41ced -> BB75ac41cf2 [color="red"];
+  BB75ac41cf2 -> BB75ac41d27 [color="green"];
+  BB75ac41cf2 -> BB75ac41d20 [color="red"];
+  BB75ac41d20 -> BB75ac41d7f [color="blue"];
+  BB75ac41d27 -> BB75ac41d34 [color="green"];
+  BB75ac41d27 -> BB75ac41d2d [color="red"];
+  BB75ac41d2d -> BB75ac41d7f [color="blue"];
+  BB75ac41d34 -> BB75ac41d64 [color="green"];
+  BB75ac41d34 -> BB75ac41d4e [color="red"];
+  BB75ac41d4e -> BB75ac41d76 [color="blue"];
+  BB75ac41d64 -> BB75ac41d76 [color="red"];
+  BB75ac41d76 -> BB75ac41d7f [color="blue"];
+}

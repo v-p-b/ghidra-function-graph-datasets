@@ -1,0 +1,26 @@
+digraph QueryDiskExtents {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abccf68 -> BB75abcd0cd [color="green"];
+  BB75abccf68 -> BB75abccfb2 [color="red"];
+  BB75abccfb2 -> BB75abccfe3 [color="green"];
+  BB75abccfb2 -> BB75abccfc3 [color="red"];
+  BB75abccfc3 -> BB75abcd032 [color="green"];
+  BB75abccfc3 -> BB75abccfd6 [color="red"];
+  BB75abccfd6 -> BB75abcd032 [color="green"];
+  BB75abccfd6 -> BB75abccfdc [color="red"];
+  BB75abccfdc -> BB75abcd022 [color="blue"];
+  BB75abccfe3 -> BB75abcd03c [color="green"];
+  BB75abccfe3 -> BB75abcd004 [color="red"];
+  BB75abcd004 -> BB75abcd032 [color="green"];
+  BB75abcd004 -> BB75abcd017 [color="red"];
+  BB75abcd017 -> BB75abcd032 [color="green"];
+  BB75abcd017 -> BB75abcd01d [color="red"];
+  BB75abcd01d -> BB75abcd022 [color="blue"];
+  BB75abcd022 -> BB75abcd032 [color="red"];
+  BB75abcd032 -> BB75abcd0cd [color="blue"];
+  BB75abcd03c -> BB75abcd0c2 [color="green"];
+  BB75abcd03c -> BB75abcd096 [color="red"];
+  BB75abcd096 -> BB75abcd0c2 [color="red"];
+  BB75abcd0c2 -> BB75abcd0cd [color="red"];
+}

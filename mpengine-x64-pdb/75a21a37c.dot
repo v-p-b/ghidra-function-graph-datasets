@@ -1,0 +1,11 @@
+digraph lua_pe_mmap_string_worker {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a21a37c -> BB75a21a3b8 [color="green"];
+  BB75a21a37c -> BB75a21a3b1 [color="red"];
+  BB75a21a3b1 -> BB75a21a3b8 [color="blue"];
+  BB75a21a3b8 -> BB75a21a409 [color="green"];
+  BB75a21a3b8 -> BB75a21a3e4 [color="red"];
+  BB75a21a3e4 -> BB75a21a3f4 [color="red"];
+  BB75a21a409 -> BB75a21a3f4 [color="blue"];
+}

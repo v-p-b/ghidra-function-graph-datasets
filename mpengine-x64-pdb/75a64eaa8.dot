@@ -1,0 +1,13 @@
+digraph vtabDisconnectAll {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a64eaa8 -> BB75a64eac2 [color="green"];
+  BB75a64eaa8 -> BB75a64eabe [color="red"];
+  BB75a64eac2 -> BB75a64eadc [color="green"];
+  BB75a64eac2 -> BB75a64eace [color="red"];
+  BB75a64eace -> BB75a64eaee [color="blue"];
+  BB75a64eadc -> BB75a64eaee [color="blue"];
+  BB75a64eaee -> BB75a64eac2 [color="green"];
+  BB75a64eaee -> BB75a64eaf6 [color="red"];
+  BB75a64eaf6 -> BB75a64eabe [color="blue"];
+}

@@ -1,0 +1,9 @@
+digraph IsAnyFastPathEnabled {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a767b40 -> BB75a767b7a [color="green"];
+  BB75a767b40 -> BB75a767b6c [color="red"];
+  BB75a767b6c -> BB75a767b7a [color="green"];
+  BB75a767b6c -> BB75a767b78 [color="red"];
+  BB75a767b78 -> BB75a767b7a [color="blue"];
+}

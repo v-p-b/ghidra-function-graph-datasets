@@ -1,0 +1,8 @@
+digraph TryLock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a714ebc -> BB75a714ecf [color="green"];
+  BB75a714ebc -> BB75a714ecb [color="red"];
+  BB75a714ecb -> BB75a714ee0 [color="blue"];
+  BB75a714ecf -> BB75a714ee0 [color="red"];
+}

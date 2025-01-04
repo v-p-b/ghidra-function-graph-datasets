@@ -1,0 +1,10 @@
+digraph ZSTD_entropyCost {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac01c7c -> BB75ac01c8c [color="blue"];
+  BB75ac01c8c -> BB75ac01ca4 [color="green"];
+  BB75ac01c8c -> BB75ac01c9f [color="red"];
+  BB75ac01c9f -> BB75ac01ca4 [color="blue"];
+  BB75ac01ca4 -> BB75ac01c8c [color="green"];
+  BB75ac01ca4 -> BB75ac01cbe [color="red"];
+}

@@ -1,0 +1,13 @@
+digraph ZSTD_downscaleStats {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac0147c -> BB75ac014bc [color="green"];
+  BB75ac0147c -> BB75ac0148c [color="red"];
+  BB75ac0148c -> BB75ac0148e [color="blue"];
+  BB75ac0148e -> BB75ac0149a [color="green"];
+  BB75ac0148e -> BB75ac01493 [color="red"];
+  BB75ac01493 -> BB75ac014a2 [color="blue"];
+  BB75ac0149a -> BB75ac014a2 [color="blue"];
+  BB75ac014a2 -> BB75ac0148e [color="green"];
+  BB75ac014a2 -> BB75ac014bc [color="red"];
+}

@@ -1,0 +1,13 @@
+digraph vfo_validate_tell {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa69c9c -> BB75aa69ce5 [color="green"];
+  BB75aa69c9c -> BB75aa69cb3 [color="red"];
+  BB75aa69cb3 -> BB75aa69ce1 [color="green"];
+  BB75aa69cb3 -> BB75aa69cc6 [color="red"];
+  BB75aa69cc6 -> BB75aa69ce1 [color="green"];
+  BB75aa69cc6 -> BB75aa69ccc [color="red"];
+  BB75aa69ccc -> BB75aa69ce1 [color="red"];
+  BB75aa69ce1 -> BB75aa69ce7 [color="blue"];
+  BB75aa69ce5 -> BB75aa69ce7 [color="blue"];
+}

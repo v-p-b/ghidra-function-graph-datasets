@@ -1,0 +1,9 @@
+digraph quantum_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac3dc90 -> BB75ac3dcf1 [color="green"];
+  BB75ac3dc90 -> BB75ac3dcbb [color="red"];
+  BB75ac3dcbb -> BB75ac3dcf1 [color="green"];
+  BB75ac3dcbb -> BB75ac3dcd0 [color="red"];
+  BB75ac3dcd0 -> BB75ac3dcf1 [color="red"];
+}

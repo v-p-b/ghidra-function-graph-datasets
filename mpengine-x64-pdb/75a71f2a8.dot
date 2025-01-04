@@ -1,0 +1,19 @@
+digraph SubmitPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a71f2a8 -> BB75a71f35f [color="green"];
+  BB75a71f2a8 -> BB75a71f2c4 [color="red"];
+  BB75a71f2c4 -> BB75a71f2e9 [color="green"];
+  BB75a71f2c4 -> BB75a71f2e4 [color="red"];
+  BB75a71f2e4 -> BB75a71f2e9 [color="red"];
+  BB75a71f2e9 -> BB75a71f31c [color="green"];
+  BB75a71f2e9 -> BB75a71f318 [color="red"];
+  BB75a71f318 -> BB75a71f31c [color="blue"];
+  BB75a71f31c -> BB75a71f32a [color="green"];
+  BB75a71f31c -> BB75a71f326 [color="red"];
+  BB75a71f326 -> BB75a71f32a [color="blue"];
+  BB75a71f32a -> BB75a71f35f [color="green"];
+  BB75a71f32a -> BB75a71f359 [color="red"];
+  BB75a71f359 -> BB75a71f35f [color="red"];
+  BB75a71f35f -> BB75a71f3ad [color="blue"];
+}

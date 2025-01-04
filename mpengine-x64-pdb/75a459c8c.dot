@@ -1,0 +1,12 @@
+digraph walBusyLock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a459c8c -> BB75a459cb1 [color="blue"];
+  BB75a459cb1 -> BB75a459ce4 [color="green"];
+  BB75a459cb1 -> BB75a459cc7 [color="red"];
+  BB75a459ce4 -> BB75a459cc7 [color="green"];
+  BB75a459ce4 -> BB75a459ce9 [color="red"];
+  BB75a459ce9 -> BB75a459cc7 [color="green"];
+  BB75a459ce9 -> BB75a459cf8 [color="red"];
+  BB75a459cf8 -> BB75a459cb1 [color="blue"];
+}

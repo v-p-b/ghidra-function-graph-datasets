@@ -1,0 +1,10 @@
+digraph ValidateTrustPluginBase {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2b7860 -> BB75a2b7920 [color="green"];
+  BB75a2b7860 -> BB75a2b78fb [color="red"];
+  BB75a2b78fb -> BB75a2b793f [color="green"];
+  BB75a2b78fb -> BB75a2b790e [color="red"];
+  BB75a2b790e -> BB75a2b7920 [color="red"];
+  BB75a2b793f -> BB75a2b790e [color="blue"];
+}

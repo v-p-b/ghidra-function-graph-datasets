@@ -1,0 +1,14 @@
+digraph badcom_unpack {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6a92f0 -> BB75a6a9343 [color="green"];
+  BB75a6a92f0 -> BB75a6a9321 [color="red"];
+  BB75a6a9321 -> BB75a6a9330 [color="red"];
+  BB75a6a9343 -> BB75a6a9321 [color="green"];
+  BB75a6a9343 -> BB75a6a9351 [color="red"];
+  BB75a6a9351 -> BB75a6a9321 [color="green"];
+  BB75a6a9351 -> BB75a6a9373 [color="red"];
+  BB75a6a9373 -> BB75a6a9321 [color="green"];
+  BB75a6a9373 -> BB75a6a939a [color="red"];
+  BB75a6a939a -> BB75a6a9330 [color="blue"];
+}

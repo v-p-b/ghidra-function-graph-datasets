@@ -1,0 +1,10 @@
+digraph GetAvgCpuLoadPercent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8994d4 -> BB75a8994fb [color="green"];
+  BB75a8994d4 -> BB75a8994f6 [color="red"];
+  BB75a8994f6 -> BB75a8994fb [color="red"];
+  BB75a8994fb -> BB75a899517 [color="green"];
+  BB75a8994fb -> BB75a899512 [color="red"];
+  BB75a899512 -> BB75a899517 [color="red"];
+}

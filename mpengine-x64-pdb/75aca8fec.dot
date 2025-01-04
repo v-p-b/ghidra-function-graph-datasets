@@ -1,0 +1,23 @@
+digraph FindComponent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aca8fec -> BB75aca9019 [color="green"];
+  BB75aca8fec -> BB75aca9014 [color="red"];
+  BB75aca9014 -> BB75aca9019 [color="red"];
+  BB75aca9019 -> BB75aca9024 [color="green"];
+  BB75aca9019 -> BB75aca901f [color="red"];
+  BB75aca901f -> BB75aca9024 [color="red"];
+  BB75aca9024 -> BB75aca9040 [color="blue"];
+  BB75aca9040 -> BB75aca9081 [color="green"];
+  BB75aca9040 -> BB75aca9045 [color="red"];
+  BB75aca9045 -> BB75aca9051 [color="blue"];
+  BB75aca9051 -> BB75aca9065 [color="green"];
+  BB75aca9051 -> BB75aca905d [color="red"];
+  BB75aca905d -> BB75aca9051 [color="green"];
+  BB75aca905d -> BB75aca9065 [color="red"];
+  BB75aca9065 -> BB75aca907c [color="green"];
+  BB75aca9065 -> BB75aca9069 [color="red"];
+  BB75aca9069 -> BB75aca9040 [color="blue"];
+  BB75aca907c -> BB75aca9085 [color="blue"];
+  BB75aca9081 -> BB75aca9085 [color="blue"];
+}

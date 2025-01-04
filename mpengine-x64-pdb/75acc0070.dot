@@ -1,0 +1,11 @@
+digraph Spynet {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acc0070 -> BB75acc00a3 [color="green"];
+  BB75acc0070 -> BB75acc009c [color="red"];
+  BB75acc009c -> BB75acc0122 [color="blue"];
+  BB75acc00a3 -> BB75acc0120 [color="green"];
+  BB75acc00a3 -> BB75acc0109 [color="red"];
+  BB75acc0109 -> BB75acc0120 [color="red"];
+  BB75acc0120 -> BB75acc0122 [color="blue"];
+}

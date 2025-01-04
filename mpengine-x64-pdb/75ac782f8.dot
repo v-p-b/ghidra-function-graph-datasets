@@ -1,0 +1,23 @@
+digraph TriggerSystemReboot {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac782f8 -> BB75ac78348 [color="green"];
+  BB75ac782f8 -> BB75ac78310 [color="red"];
+  BB75ac78310 -> BB75ac78341 [color="green"];
+  BB75ac78310 -> BB75ac78323 [color="red"];
+  BB75ac78323 -> BB75ac78341 [color="green"];
+  BB75ac78323 -> BB75ac78329 [color="red"];
+  BB75ac78329 -> BB75ac78341 [color="red"];
+  BB75ac78341 -> BB75ac783d8 [color="blue"];
+  BB75ac78348 -> BB75ac783d6 [color="green"];
+  BB75ac78348 -> BB75ac78387 [color="red"];
+  BB75ac78387 -> BB75ac783c0 [color="green"];
+  BB75ac78387 -> BB75ac783a2 [color="red"];
+  BB75ac783a2 -> BB75ac783c0 [color="green"];
+  BB75ac783a2 -> BB75ac783a8 [color="red"];
+  BB75ac783a8 -> BB75ac783c0 [color="red"];
+  BB75ac783c0 -> BB75ac78341 [color="green"];
+  BB75ac783c0 -> BB75ac783c8 [color="red"];
+  BB75ac783c8 -> BB75ac78341 [color="blue"];
+  BB75ac783d6 -> BB75ac783d8 [color="blue"];
+}

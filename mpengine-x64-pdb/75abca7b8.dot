@@ -1,0 +1,21 @@
+digraph prefilter_lsig {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abca7b8 -> BB75abca7e1 [color="green"];
+  BB75abca7b8 -> BB75abca7dc [color="red"];
+  BB75abca7dc -> BB75abca7e1 [color="red"];
+  BB75abca7e1 -> BB75abca7eb [color="blue"];
+  BB75abca7eb -> BB75abca827 [color="green"];
+  BB75abca7eb -> BB75abca7f0 [color="red"];
+  BB75abca7f0 -> BB75abca818 [color="green"];
+  BB75abca7f0 -> BB75abca7fa [color="red"];
+  BB75abca7fa -> BB75abca818 [color="green"];
+  BB75abca7fa -> BB75abca801 [color="red"];
+  BB75abca801 -> BB75abca818 [color="green"];
+  BB75abca801 -> BB75abca808 [color="red"];
+  BB75abca808 -> BB75abca81e [color="green"];
+  BB75abca808 -> BB75abca818 [color="red"];
+  BB75abca818 -> BB75abca7eb [color="blue"];
+  BB75abca81e -> BB75abca829 [color="blue"];
+  BB75abca827 -> BB75abca829 [color="blue"];
+}

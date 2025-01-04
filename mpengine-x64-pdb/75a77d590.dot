@@ -1,0 +1,24 @@
+digraph dllmain_crt_process_attach {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a77d590 -> BB75a77d682 [color="green"];
+  BB75a77d590 -> BB75a77d5ba [color="red"];
+  BB75a77d5ba -> BB75a77d69a [color="green"];
+  BB75a77d5ba -> BB75a77d5d5 [color="red"];
+  BB75a77d5d5 -> BB75a77d637 [color="green"];
+  BB75a77d5d5 -> BB75a77d5e8 [color="red"];
+  BB75a77d5e8 -> BB75a77d637 [color="green"];
+  BB75a77d5e8 -> BB75a77d60e [color="red"];
+  BB75a77d60e -> BB75a77d637 [color="green"];
+  BB75a77d60e -> BB75a77d617 [color="red"];
+  BB75a77d617 -> BB75a77d637 [color="red"];
+  BB75a77d637 -> BB75a77d682 [color="green"];
+  BB75a77d637 -> BB75a77d643 [color="red"];
+  BB75a77d643 -> BB75a77d675 [color="green"];
+  BB75a77d643 -> BB75a77d651 [color="red"];
+  BB75a77d651 -> BB75a77d675 [color="green"];
+  BB75a77d651 -> BB75a77d65d [color="red"];
+  BB75a77d65d -> BB75a77d675 [color="red"];
+  BB75a77d675 -> BB75a77d684 [color="blue"];
+  BB75a77d682 -> BB75a77d684 [color="blue"];
+}

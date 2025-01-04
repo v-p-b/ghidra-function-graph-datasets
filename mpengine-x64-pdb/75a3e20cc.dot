@@ -1,0 +1,9 @@
+digraph get_mutex_inst {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3e20cc -> BB75a3e2131 [color="green"];
+  BB75a3e20cc -> BB75a3e20f3 [color="red"];
+  BB75a3e20f3 -> BB75a3e2131 [color="green"];
+  BB75a3e20f3 -> BB75a3e2108 [color="red"];
+  BB75a3e2108 -> BB75a3e2131 [color="red"];
+}

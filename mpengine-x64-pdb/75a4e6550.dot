@@ -1,0 +1,13 @@
+digraph _Destroy_range<class_std::allocator<class_std::unique_ptr<struct_VirtualFS::Finder,struct_std::default_delete<struct_VirtualFS::Finder>_>_>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4e6550 -> BB75a4e6580 [color="green"];
+  BB75a4e6550 -> BB75a4e6555 [color="red"];
+  BB75a4e6555 -> BB75a4e6565 [color="blue"];
+  BB75a4e6565 -> BB75a4e6581 [color="green"];
+  BB75a4e6565 -> BB75a4e656d [color="red"];
+  BB75a4e656d -> BB75a4e6565 [color="green"];
+  BB75a4e656d -> BB75a4e6576 [color="red"];
+  BB75a4e6576 -> BB75a4e6580 [color="blue"];
+  BB75a4e6581 -> BB75a4e656d [color="blue"];
+}

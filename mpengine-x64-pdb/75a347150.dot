@@ -1,0 +1,13 @@
+digraph CommitSharedSection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a347150 -> BB75a3471bb [color="green"];
+  BB75a347150 -> BB75a347168 [color="red"];
+  BB75a347168 -> BB75a3471bb [color="green"];
+  BB75a347168 -> BB75a34716d [color="red"];
+  BB75a34716d -> BB75a3471b3 [color="green"];
+  BB75a34716d -> BB75a3471ae [color="red"];
+  BB75a3471ae -> BB75a3471b3 [color="red"];
+  BB75a3471b3 -> BB75a3471b5 [color="blue"];
+  BB75a3471bb -> BB75a3471b5 [color="blue"];
+}

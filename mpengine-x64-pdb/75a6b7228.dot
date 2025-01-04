@@ -1,0 +1,10 @@
+digraph check_high_capacity {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6b7228 -> BB75a6b724d [color="blue"];
+  BB75a6b724d -> BB75a6b7294 [color="green"];
+  BB75a6b724d -> BB75a6b7263 [color="red"];
+  BB75a6b7294 -> BB75a6b724d [color="green"];
+  BB75a6b7294 -> BB75a6b729d [color="red"];
+  BB75a6b729d -> BB75a6b7263 [color="blue"];
+}

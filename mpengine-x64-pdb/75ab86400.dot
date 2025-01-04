@@ -1,0 +1,31 @@
+digraph DoSnapshots {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab86400 -> BB75ab8643b [color="green"];
+  BB75ab86400 -> BB75ab86420 [color="red"];
+  BB75ab86420 -> BB75ab8643b [color="green"];
+  BB75ab86420 -> BB75ab86426 [color="red"];
+  BB75ab86426 -> BB75ab8643b [color="red"];
+  BB75ab8643b -> BB75ab86497 [color="green"];
+  BB75ab8643b -> BB75ab8645f [color="red"];
+  BB75ab8645f -> BB75ab86489 [color="green"];
+  BB75ab8645f -> BB75ab8646b [color="red"];
+  BB75ab8646b -> BB75ab86489 [color="green"];
+  BB75ab8646b -> BB75ab86471 [color="red"];
+  BB75ab86471 -> BB75ab86476 [color="blue"];
+  BB75ab86476 -> BB75ab86489 [color="red"];
+  BB75ab86489 -> BB75ab864f3 [color="blue"];
+  BB75ab86497 -> BB75ab864c0 [color="green"];
+  BB75ab86497 -> BB75ab864a7 [color="red"];
+  BB75ab864a7 -> BB75ab86489 [color="green"];
+  BB75ab864a7 -> BB75ab864b3 [color="red"];
+  BB75ab864b3 -> BB75ab86489 [color="green"];
+  BB75ab864b3 -> BB75ab864b9 [color="red"];
+  BB75ab864b9 -> BB75ab86476 [color="blue"];
+  BB75ab864c0 -> BB75ab864f1 [color="green"];
+  BB75ab864c0 -> BB75ab864d6 [color="red"];
+  BB75ab864d6 -> BB75ab864f1 [color="green"];
+  BB75ab864d6 -> BB75ab864dc [color="red"];
+  BB75ab864dc -> BB75ab864f1 [color="red"];
+  BB75ab864f1 -> BB75ab864f3 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph is_separator<unsigned_char> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a483e10 -> BB75a483e1a [color="green"];
+  BB75a483e10 -> BB75a483e17 [color="red"];
+  BB75a483e1a -> BB75a483e17 [color="green"];
+  BB75a483e1a -> BB75a483e21 [color="red"];
+  BB75a483e21 -> BB75a483e17 [color="green"];
+  BB75a483e21 -> BB75a483e26 [color="red"];
+  BB75a483e26 -> BB75a483e17 [color="blue"];
+}

@@ -1,0 +1,28 @@
+digraph DetachHandler {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a83cea0 -> BB75a83cf5c [color="green"];
+  BB75a83cea0 -> BB75a83ceb9 [color="red"];
+  BB75a83ceb9 -> BB75a83cece [color="red"];
+  BB75a83cece -> BB75a83cf1e [color="green"];
+  BB75a83cece -> BB75a83ced3 [color="red"];
+  BB75a83ced3 -> BB75a83cede [color="green"];
+  BB75a83ced3 -> BB75a83ced9 [color="red"];
+  BB75a83ced9 -> BB75a83cece [color="blue"];
+  BB75a83cede -> BB75a83cee1 [color="blue"];
+  BB75a83cee1 -> BB75a83cefe [color="green"];
+  BB75a83cee1 -> BB75a83ceec [color="red"];
+  BB75a83ceec -> BB75a83cee1 [color="green"];
+  BB75a83ceec -> BB75a83cef5 [color="red"];
+  BB75a83cef5 -> BB75a83cee1 [color="blue"];
+  BB75a83cefe -> BB75a83cf1e [color="green"];
+  BB75a83cefe -> BB75a83cf03 [color="red"];
+  BB75a83cf03 -> BB75a83cf61 [color="blue"];
+  BB75a83cf1e -> BB75a83cf52 [color="green"];
+  BB75a83cf1e -> BB75a83cf31 [color="red"];
+  BB75a83cf31 -> BB75a83cf52 [color="green"];
+  BB75a83cf31 -> BB75a83cf37 [color="red"];
+  BB75a83cf37 -> BB75a83cf52 [color="red"];
+  BB75a83cf52 -> BB75a83cf5c [color="red"];
+  BB75a83cf5c -> BB75a83cf61 [color="blue"];
+}

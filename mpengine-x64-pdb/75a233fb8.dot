@@ -1,0 +1,15 @@
+digraph get_chunk_size {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a233fb8 -> BB75a234007 [color="green"];
+  BB75a233fb8 -> BB75a233fcc [color="red"];
+  BB75a233fcc -> BB75a23400e [color="green"];
+  BB75a233fcc -> BB75a233fd0 [color="red"];
+  BB75a233fd0 -> BB75a233fe8 [color="blue"];
+  BB75a233fe8 -> BB75a234014 [color="green"];
+  BB75a233fe8 -> BB75a233fed [color="red"];
+  BB75a233fed -> BB75a233ffc [color="blue"];
+  BB75a234007 -> BB75a233fd0 [color="blue"];
+  BB75a23400e -> BB75a233fe8 [color="blue"];
+  BB75a234014 -> BB75a233ffc [color="blue"];
+}

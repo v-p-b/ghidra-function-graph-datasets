@@ -1,0 +1,15 @@
+digraph GetHostsDomain {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa95c78 -> BB75aa95cb8 [color="green"];
+  BB75aa95c78 -> BB75aa95c85 [color="red"];
+  BB75aa95c85 -> BB75aa95c9b [color="green"];
+  BB75aa95c85 -> BB75aa95c8e [color="red"];
+  BB75aa95c8e -> BB75aa95c9b [color="blue"];
+  BB75aa95c9b -> BB75aa95c85 [color="green"];
+  BB75aa95c9b -> BB75aa95ca3 [color="red"];
+  BB75aa95ca3 -> BB75aa95cb8 [color="green"];
+  BB75aa95ca3 -> BB75aa95ca8 [color="red"];
+  BB75aa95ca8 -> BB75aa95cb8 [color="green"];
+  BB75aa95ca8 -> BB75aa95cad [color="red"];
+}

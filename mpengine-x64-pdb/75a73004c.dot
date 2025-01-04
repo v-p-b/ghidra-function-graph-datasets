@@ -1,0 +1,18 @@
+digraph sqlite3VtabCallDestroy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a73004c -> BB75a7300e0 [color="green"];
+  BB75a73004c -> BB75a730082 [color="red"];
+  BB75a730082 -> BB75a7300e0 [color="green"];
+  BB75a730082 -> BB75a73008b [color="red"];
+  BB75a73008b -> BB75a7300a6 [color="green"];
+  BB75a73008b -> BB75a730090 [color="red"];
+  BB75a730090 -> BB75a73009f [color="green"];
+  BB75a730090 -> BB75a730099 [color="red"];
+  BB75a730099 -> BB75a73008b [color="blue"];
+  BB75a73009f -> BB75a7300e2 [color="blue"];
+  BB75a7300a6 -> BB75a7300e0 [color="green"];
+  BB75a7300a6 -> BB75a7300ce [color="red"];
+  BB75a7300ce -> BB75a7300e0 [color="red"];
+  BB75a7300e0 -> BB75a7300e2 [color="blue"];
+}

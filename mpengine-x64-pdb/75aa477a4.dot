@@ -1,0 +1,10 @@
+digraph _Push_heap_by_index<MachoSection64_*,MachoSection64,`MachoParser::Scan'::__l2::compare_sections> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa477a4 -> BB75aa47809 [color="green"];
+  BB75aa477a4 -> BB75aa477ac [color="red"];
+  BB75aa477ac -> BB75aa47809 [color="green"];
+  BB75aa477ac -> BB75aa477c5 [color="red"];
+  BB75aa477c5 -> BB75aa477ac [color="green"];
+  BB75aa477c5 -> BB75aa47809 [color="red"];
+}

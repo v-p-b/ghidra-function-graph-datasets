@@ -1,0 +1,11 @@
+digraph load_model {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3522b0 -> BB75a352382 [color="green"];
+  BB75a3522b0 -> BB75a3522e0 [color="red"];
+  BB75a3522e0 -> BB75a35235e [color="green"];
+  BB75a3522e0 -> BB75a35234d [color="red"];
+  BB75a35234d -> BB75a35235e [color="red"];
+  BB75a35235e -> BB75a352369 [color="red"];
+  BB75a352382 -> BB75a352369 [color="blue"];
+}

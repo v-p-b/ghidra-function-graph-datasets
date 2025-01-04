@@ -1,0 +1,24 @@
+digraph _remove_stale_entries_from_t0_history {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9a1f38 -> BB75a9a1f89 [color="green"];
+  BB75a9a1f38 -> BB75a9a1f76 [color="red"];
+  BB75a9a1f76 -> BB75a9a1fd4 [color="blue"];
+  BB75a9a1f89 -> BB75a9a1fa4 [color="green"];
+  BB75a9a1f89 -> BB75a9a1f8d [color="red"];
+  BB75a9a1f8d -> BB75a9a1fd4 [color="blue"];
+  BB75a9a1fa4 -> BB75a9a1fd4 [color="red"];
+  BB75a9a1fd4 -> BB75a9a20bc [color="green"];
+  BB75a9a1fd4 -> BB75a9a1fe2 [color="red"];
+  BB75a9a1fe2 -> BB75a9a20bc [color="green"];
+  BB75a9a1fe2 -> BB75a9a2001 [color="red"];
+  BB75a9a2001 -> BB75a9a2085 [color="green"];
+  BB75a9a2001 -> BB75a9a2023 [color="red"];
+  BB75a9a2023 -> BB75a9a2031 [color="blue"];
+  BB75a9a2031 -> BB75a9a2069 [color="green"];
+  BB75a9a2031 -> BB75a9a2050 [color="red"];
+  BB75a9a2050 -> BB75a9a2069 [color="blue"];
+  BB75a9a2069 -> BB75a9a2031 [color="green"];
+  BB75a9a2069 -> BB75a9a2085 [color="red"];
+  BB75a9a2085 -> BB75a9a1fd4 [color="blue"];
+}

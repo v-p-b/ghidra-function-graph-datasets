@@ -1,0 +1,17 @@
+digraph NewEqualityRule {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab803b8 -> BB75ab80434 [color="green"];
+  BB75ab803b8 -> BB75ab80422 [color="red"];
+  BB75ab80422 -> BB75ab80434 [color="green"];
+  BB75ab80422 -> BB75ab8042f [color="red"];
+  BB75ab8042f -> BB75ab80434 [color="red"];
+  BB75ab80434 -> BB75ab80471 [color="green"];
+  BB75ab80434 -> BB75ab80446 [color="red"];
+  BB75ab80446 -> BB75ab8046c [color="green"];
+  BB75ab80446 -> BB75ab80452 [color="red"];
+  BB75ab8046c -> BB75ab80471 [color="blue"];
+  BB75ab80471 -> BB75ab8049c [color="green"];
+  BB75ab80471 -> BB75ab80498 [color="red"];
+  BB75ab80498 -> BB75ab8049c [color="blue"];
+}

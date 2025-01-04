@@ -1,0 +1,10 @@
+digraph AddRegistration {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a63ffd4 -> BB75a640036 [color="green"];
+  BB75a63ffd4 -> BB75a63ffee [color="red"];
+  BB75a63ffee -> BB75a64003d [color="green"];
+  BB75a63ffee -> BB75a64001b [color="red"];
+  BB75a640036 -> BB75a63ffee [color="blue"];
+  BB75a64003d -> BB75a64001b [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph ProcessEvent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab8b53c -> BB75ab8b5c0 [color="green"];
+  BB75ab8b53c -> BB75ab8b55e [color="red"];
+  BB75ab8b55e -> BB75ab8b5c0 [color="green"];
+  BB75ab8b55e -> BB75ab8b564 [color="red"];
+  BB75ab8b564 -> BB75ab8b5c0 [color="green"];
+  BB75ab8b564 -> BB75ab8b56d [color="red"];
+  BB75ab8b56d -> BB75ab8b5c0 [color="green"];
+  BB75ab8b56d -> BB75ab8b574 [color="red"];
+  BB75ab8b574 -> BB75ab8b5c0 [color="green"];
+  BB75ab8b574 -> BB75ab8b5aa [color="red"];
+  BB75ab8b5aa -> BB75ab8b5c0 [color="green"];
+  BB75ab8b5aa -> BB75ab8b5bc [color="red"];
+  BB75ab8b5bc -> BB75ab8b5c0 [color="blue"];
+}

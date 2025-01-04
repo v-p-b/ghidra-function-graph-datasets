@@ -1,0 +1,12 @@
+digraph OnTDTQueryLastErrorMessage {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8b1cf8 -> BB75a8b1d66 [color="green"];
+  BB75a8b1cf8 -> BB75a8b1d3e [color="red"];
+  BB75a8b1d3e -> BB75a8b1d66 [color="green"];
+  BB75a8b1d3e -> BB75a8b1d44 [color="red"];
+  BB75a8b1d44 -> BB75a8b1d4e [color="green"];
+  BB75a8b1d44 -> BB75a8b1d4b [color="red"];
+  BB75a8b1d4b -> BB75a8b1d4e [color="blue"];
+  BB75a8b1d4e -> BB75a8b1d66 [color="red"];
+}

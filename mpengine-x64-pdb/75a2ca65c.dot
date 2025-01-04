@@ -1,0 +1,24 @@
+digraph GetSignerCertificate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2ca65c -> BB75a2ca6f2 [color="green"];
+  BB75a2ca65c -> BB75a2ca67d [color="red"];
+  BB75a2ca67d -> BB75a2ca6f2 [color="green"];
+  BB75a2ca67d -> BB75a2ca686 [color="red"];
+  BB75a2ca686 -> BB75a2ca697 [color="blue"];
+  BB75a2ca697 -> BB75a2ca6f2 [color="green"];
+  BB75a2ca697 -> BB75a2ca69c [color="red"];
+  BB75a2ca69c -> BB75a2ca6ed [color="green"];
+  BB75a2ca69c -> BB75a2ca6a5 [color="red"];
+  BB75a2ca6a5 -> BB75a2ca6ed [color="green"];
+  BB75a2ca6a5 -> BB75a2ca6ae [color="red"];
+  BB75a2ca6ae -> BB75a2ca6ed [color="green"];
+  BB75a2ca6ae -> BB75a2ca6b5 [color="red"];
+  BB75a2ca6b5 -> BB75a2ca6ed [color="green"];
+  BB75a2ca6b5 -> BB75a2ca6c1 [color="red"];
+  BB75a2ca6c1 -> BB75a2ca6ed [color="green"];
+  BB75a2ca6c1 -> BB75a2ca6d1 [color="red"];
+  BB75a2ca6d1 -> BB75a2ca6d4 [color="blue"];
+  BB75a2ca6ed -> BB75a2ca697 [color="blue"];
+  BB75a2ca6f2 -> BB75a2ca6d4 [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph GetAmsiSessionId {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a69191c -> BB75a6919a1 [color="green"];
+  BB75a69191c -> BB75a69193c [color="red"];
+  BB75a69193c -> BB75a691991 [color="green"];
+  BB75a69193c -> BB75a69194d [color="red"];
+  BB75a69194d -> BB75a6919a6 [color="green"];
+  BB75a69194d -> BB75a691954 [color="red"];
+  BB75a691954 -> BB75a6919ad [color="green"];
+  BB75a691954 -> BB75a691982 [color="red"];
+  BB75a691982 -> BB75a691991 [color="blue"];
+  BB75a6919a1 -> BB75a6919a6 [color="red"];
+  BB75a6919a6 -> BB75a691991 [color="blue"];
+  BB75a6919ad -> BB75a691991 [color="blue"];
+}

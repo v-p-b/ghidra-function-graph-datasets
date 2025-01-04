@@ -1,0 +1,21 @@
+digraph TestIsEopMonitoredProcessTarget {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a389ce4 -> BB75a389d47 [color="green"];
+  BB75a389ce4 -> BB75a389d2b [color="red"];
+  BB75a389d2b -> BB75a389d93 [color="green"];
+  BB75a389d2b -> BB75a389d3d [color="red"];
+  BB75a389d3d -> BB75a389d41 [color="blue"];
+  BB75a389d41 -> BB75a389d2b [color="green"];
+  BB75a389d41 -> BB75a389d47 [color="red"];
+  BB75a389d47 -> BB75a389da5 [color="green"];
+  BB75a389d47 -> BB75a389d4d [color="red"];
+  BB75a389d4d -> BB75a389da5 [color="green"];
+  BB75a389d4d -> BB75a389d5f [color="red"];
+  BB75a389d5f -> BB75a389d9b [color="green"];
+  BB75a389d5f -> BB75a389d6e [color="red"];
+  BB75a389d6e -> BB75a389d70 [color="blue"];
+  BB75a389d93 -> BB75a389d41 [color="blue"];
+  BB75a389d9b -> BB75a389d70 [color="blue"];
+  BB75a389da5 -> BB75a389d5f [color="blue"];
+}

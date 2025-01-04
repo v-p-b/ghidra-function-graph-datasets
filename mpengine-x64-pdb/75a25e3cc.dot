@@ -1,0 +1,16 @@
+digraph startTrailer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a25e3cc -> BB75a25e45a [color="green"];
+  BB75a25e3cc -> BB75a25e3e6 [color="red"];
+  BB75a25e3e6 -> BB75a25e44d [color="green"];
+  BB75a25e3e6 -> BB75a25e42a [color="red"];
+  BB75a25e42a -> BB75a25e439 [color="red"];
+  BB75a25e44d -> BB75a25e439 [color="blue"];
+  BB75a25e45a -> BB75a25e488 [color="green"];
+  BB75a25e45a -> BB75a25e46d [color="red"];
+  BB75a25e46d -> BB75a25e488 [color="green"];
+  BB75a25e46d -> BB75a25e473 [color="red"];
+  BB75a25e473 -> BB75a25e488 [color="red"];
+  BB75a25e488 -> BB75a25e3e6 [color="blue"];
+}

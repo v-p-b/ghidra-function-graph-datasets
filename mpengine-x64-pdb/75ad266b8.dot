@@ -1,0 +1,16 @@
+digraph MakeEntryName {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad266b8 -> BB75ad266d7 [color="green"];
+  BB75ad266b8 -> BB75ad266d3 [color="red"];
+  BB75ad266d3 -> BB75ad266dc [color="green"];
+  BB75ad266d3 -> BB75ad266d7 [color="red"];
+  BB75ad266d7 -> BB75ad266dc [color="red"];
+  BB75ad266dc -> BB75ad2671f [color="green"];
+  BB75ad266dc -> BB75ad266fc [color="red"];
+  BB75ad266fc -> BB75ad2670a [color="green"];
+  BB75ad266fc -> BB75ad26703 [color="red"];
+  BB75ad26703 -> BB75ad26721 [color="blue"];
+  BB75ad2670a -> BB75ad26721 [color="blue"];
+  BB75ad2671f -> BB75ad26721 [color="blue"];
+}

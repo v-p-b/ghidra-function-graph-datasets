@@ -1,0 +1,13 @@
+digraph DumpTriggerInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad37cc8 -> BB75ad37d4e [color="green"];
+  BB75ad37cc8 -> BB75ad37d07 [color="red"];
+  BB75ad37d07 -> BB75ad37d4e [color="green"];
+  BB75ad37d07 -> BB75ad37d10 [color="red"];
+  BB75ad37d10 -> BB75ad37d65 [color="green"];
+  BB75ad37d10 -> BB75ad37d49 [color="red"];
+  BB75ad37d49 -> BB75ad37d4e [color="red"];
+  BB75ad37d4e -> BB75ad37d50 [color="blue"];
+  BB75ad37d65 -> BB75ad37d50 [color="blue"];
+}

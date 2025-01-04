@@ -1,0 +1,20 @@
+digraph GetNotificationsForProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8325b8 -> BB75a8325e4 [color="green"];
+  BB75a8325b8 -> BB75a8325d8 [color="red"];
+  BB75a8325d8 -> BB75a8325e4 [color="blue"];
+  BB75a8325e4 -> BB75a8325f6 [color="green"];
+  BB75a8325e4 -> BB75a8325e9 [color="red"];
+  BB75a8325e9 -> BB75a8326a2 [color="blue"];
+  BB75a8325f6 -> BB75a83265c [color="green"];
+  BB75a8325f6 -> BB75a832641 [color="red"];
+  BB75a832641 -> BB75a832671 [color="green"];
+  BB75a832641 -> BB75a83265c [color="red"];
+  BB75a83265c -> BB75a832671 [color="red"];
+  BB75a832671 -> BB75a832691 [color="green"];
+  BB75a832671 -> BB75a832680 [color="red"];
+  BB75a832680 -> BB75a832696 [color="blue"];
+  BB75a832691 -> BB75a832696 [color="blue"];
+  BB75a832696 -> BB75a8326a2 [color="red"];
+}

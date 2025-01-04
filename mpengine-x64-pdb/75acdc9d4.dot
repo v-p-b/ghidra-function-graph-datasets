@@ -1,0 +1,20 @@
+digraph GetMoveItemDest {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acdc9d4 -> BB75acdca20 [color="green"];
+  BB75acdc9d4 -> BB75acdc9de [color="red"];
+  BB75acdc9de -> BB75acdca20 [color="green"];
+  BB75acdc9de -> BB75acdc9eb [color="red"];
+  BB75acdc9eb -> BB75acdc9f1 [color="blue"];
+  BB75acdc9f1 -> BB75acdca20 [color="green"];
+  BB75acdc9f1 -> BB75acdc9f6 [color="red"];
+  BB75acdc9f6 -> BB75acdca06 [color="green"];
+  BB75acdc9f6 -> BB75acdca00 [color="red"];
+  BB75acdca00 -> BB75acdc9f1 [color="blue"];
+  BB75acdca06 -> BB75acdca20 [color="green"];
+  BB75acdca06 -> BB75acdca0b [color="red"];
+  BB75acdca0b -> BB75acdca20 [color="green"];
+  BB75acdca0b -> BB75acdca1b [color="red"];
+  BB75acdca1b -> BB75acdca22 [color="blue"];
+  BB75acdca20 -> BB75acdca22 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph SSE_psubusb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a699d10 -> BB75a699d50 [color="blue"];
+  BB75a699d50 -> BB75a699d71 [color="green"];
+  BB75a699d50 -> BB75a699d65 [color="red"];
+  BB75a699d65 -> BB75a699d74 [color="green"];
+  BB75a699d65 -> BB75a699d6c [color="red"];
+  BB75a699d6c -> BB75a699d74 [color="blue"];
+  BB75a699d71 -> BB75a699d74 [color="blue"];
+  BB75a699d74 -> BB75a699d50 [color="green"];
+  BB75a699d74 -> BB75a699d80 [color="red"];
+}

@@ -1,0 +1,14 @@
+digraph binCollFunc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5e9f20 -> BB75a5e9f90 [color="green"];
+  BB75a5e9f20 -> BB75a5e9f6e [color="red"];
+  BB75a5e9f90 -> BB75a5e9f9d [color="green"];
+  BB75a5e9f90 -> BB75a5e9f95 [color="red"];
+  BB75a5e9f95 -> BB75a5e9f6e [color="blue"];
+  BB75a5e9f9d -> BB75a5e9f95 [color="green"];
+  BB75a5e9f9d -> BB75a5e9fae [color="red"];
+  BB75a5e9fae -> BB75a5e9f6e [color="green"];
+  BB75a5e9fae -> BB75a5e9fbf [color="red"];
+  BB75a5e9fbf -> BB75a5e9f95 [color="blue"];
+}

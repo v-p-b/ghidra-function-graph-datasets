@@ -1,0 +1,32 @@
+digraph getPtrRefType {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a788af8 -> BB75a788bd0 [color="green"];
+  BB75a788af8 -> BB75a788b48 [color="red"];
+  BB75a788b48 -> BB75a788b85 [color="green"];
+  BB75a788b48 -> BB75a788b4f [color="red"];
+  BB75a788b4f -> BB75a788b85 [color="green"];
+  BB75a788b4f -> BB75a788b54 [color="red"];
+  BB75a788b54 -> BB75a788c2a [color="blue"];
+  BB75a788b85 -> BB75a788bb1 [color="green"];
+  BB75a788b85 -> BB75a788b97 [color="red"];
+  BB75a788b97 -> BB75a788ba5 [color="green"];
+  BB75a788b97 -> BB75a788b9c [color="red"];
+  BB75a788b9c -> BB75a788bb1 [color="green"];
+  BB75a788b9c -> BB75a788ba5 [color="red"];
+  BB75a788ba5 -> BB75a788bb1 [color="red"];
+  BB75a788bb1 -> BB75a788bc2 [color="green"];
+  BB75a788bb1 -> BB75a788bb6 [color="red"];
+  BB75a788bb6 -> BB75a788bc2 [color="red"];
+  BB75a788bc2 -> BB75a788c2a [color="blue"];
+  BB75a788bd0 -> BB75a788bfc [color="green"];
+  BB75a788bd0 -> BB75a788bf0 [color="red"];
+  BB75a788bf0 -> BB75a788bfc [color="red"];
+  BB75a788bfc -> BB75a788c1d [color="green"];
+  BB75a788bfc -> BB75a788c01 [color="red"];
+  BB75a788c01 -> BB75a788c11 [color="green"];
+  BB75a788c01 -> BB75a788c06 [color="red"];
+  BB75a788c06 -> BB75a788c11 [color="red"];
+  BB75a788c11 -> BB75a788c1d [color="red"];
+  BB75a788c1d -> BB75a788c2a [color="blue"];
+}

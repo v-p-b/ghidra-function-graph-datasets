@@ -1,0 +1,11 @@
+digraph assign {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a12ad88 -> BB75a12add6 [color="green"];
+  BB75a12ad88 -> BB75a12ada5 [color="red"];
+  BB75a12ada5 -> BB75a12adb2 [color="green"];
+  BB75a12ada5 -> BB75a12adaf [color="red"];
+  BB75a12adaf -> BB75a12adb2 [color="blue"];
+  BB75a12adb2 -> BB75a12adcb [color="red"];
+  BB75a12add6 -> BB75a12adcb [color="blue"];
+}

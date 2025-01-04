@@ -1,0 +1,17 @@
+digraph lua_pushcclosure {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a167c6c -> BB75a167d3c [color="green"];
+  BB75a167c6c -> BB75a167c9b [color="red"];
+  BB75a167c9b -> BB75a167d2c [color="green"];
+  BB75a167c9b -> BB75a167ca9 [color="red"];
+  BB75a167ca9 -> BB75a167cad [color="blue"];
+  BB75a167cad -> BB75a167d46 [color="green"];
+  BB75a167cad -> BB75a167d04 [color="red"];
+  BB75a167d2c -> BB75a167cad [color="blue"];
+  BB75a167d3c -> BB75a167c9b [color="blue"];
+  BB75a167d46 -> BB75a167d57 [color="blue"];
+  BB75a167d57 -> BB75a167d04 [color="green"];
+  BB75a167d57 -> BB75a167d74 [color="red"];
+  BB75a167d74 -> BB75a167d57 [color="blue"];
+}

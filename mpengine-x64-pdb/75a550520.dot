@@ -1,0 +1,20 @@
+digraph applyAffinity {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a550520 -> BB75a55053d [color="green"];
+  BB75a550520 -> BB75a550531 [color="red"];
+  BB75a550531 -> BB75a550553 [color="green"];
+  BB75a550531 -> BB75a550537 [color="red"];
+  BB75a55053d -> BB75a550537 [color="green"];
+  BB75a55053d -> BB75a550542 [color="red"];
+  BB75a550542 -> BB75a550578 [color="green"];
+  BB75a550542 -> BB75a550548 [color="red"];
+  BB75a550548 -> BB75a550537 [color="blue"];
+  BB75a550553 -> BB75a55056e [color="green"];
+  BB75a550553 -> BB75a550559 [color="red"];
+  BB75a550559 -> BB75a550537 [color="green"];
+  BB75a550559 -> BB75a55055f [color="red"];
+  BB75a550578 -> BB75a550548 [color="green"];
+  BB75a550578 -> BB75a55057e [color="red"];
+  BB75a55057e -> BB75a550548 [color="blue"];
+}

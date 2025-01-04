@@ -1,0 +1,18 @@
+digraph Shutdown {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a70c3e8 -> BB75a70c604 [color="green"];
+  BB75a70c3e8 -> BB75a70c41b [color="red"];
+  BB75a70c41b -> BB75a70c546 [color="green"];
+  BB75a70c41b -> BB75a70c4b9 [color="red"];
+  BB75a70c4b9 -> BB75a70c54b [color="blue"];
+  BB75a70c546 -> BB75a70c54b [color="blue"];
+  BB75a70c54b -> BB75a70c570 [color="red"];
+  BB75a70c570 -> BB75a70c58a [color="green"];
+  BB75a70c570 -> BB75a70c575 [color="red"];
+  BB75a70c575 -> BB75a70c570 [color="blue"];
+  BB75a70c58a -> BB75a70c5b7 [color="green"];
+  BB75a70c58a -> BB75a70c597 [color="red"];
+  BB75a70c597 -> BB75a70c5b7 [color="red"];
+  BB75a70c5b7 -> BB75a70c604 [color="blue"];
+}

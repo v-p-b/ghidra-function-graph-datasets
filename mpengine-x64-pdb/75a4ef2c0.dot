@@ -1,0 +1,10 @@
+digraph fitsIntoChunk {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4ef2c0 -> BB75a4ef2ff [color="green"];
+  BB75a4ef2c0 -> BB75a4ef2e3 [color="red"];
+  BB75a4ef2e3 -> BB75a4ef306 [color="green"];
+  BB75a4ef2e3 -> BB75a4ef2e9 [color="red"];
+  BB75a4ef2ff -> BB75a4ef2e3 [color="blue"];
+  BB75a4ef306 -> BB75a4ef2e9 [color="blue"];
+}

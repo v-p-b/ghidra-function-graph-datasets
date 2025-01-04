@@ -1,0 +1,23 @@
+digraph SysIoResetFsSecurityDescriptor {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaadc30 -> BB75aaadcad [color="green"];
+  BB75aaadc30 -> BB75aaadc75 [color="red"];
+  BB75aaadc75 -> BB75aaadca9 [color="green"];
+  BB75aaadc75 -> BB75aaadc88 [color="red"];
+  BB75aaadc88 -> BB75aaadca9 [color="green"];
+  BB75aaadc88 -> BB75aaadc8e [color="red"];
+  BB75aaadc8e -> BB75aaadc92 [color="blue"];
+  BB75aaadc92 -> BB75aaadca9 [color="red"];
+  BB75aaadca9 -> BB75aaadced [color="blue"];
+  BB75aaadcad -> BB75aaadceb [color="green"];
+  BB75aaadcad -> BB75aaadcb2 [color="red"];
+  BB75aaadcb2 -> BB75aaadceb [color="green"];
+  BB75aaadcb2 -> BB75aaadccb [color="red"];
+  BB75aaadccb -> BB75aaadca9 [color="green"];
+  BB75aaadccb -> BB75aaadcde [color="red"];
+  BB75aaadcde -> BB75aaadca9 [color="green"];
+  BB75aaadcde -> BB75aaadce4 [color="red"];
+  BB75aaadce4 -> BB75aaadc92 [color="blue"];
+  BB75aaadceb -> BB75aaadced [color="blue"];
+}

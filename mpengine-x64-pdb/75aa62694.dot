@@ -1,0 +1,16 @@
+digraph _Emplace_reallocate<struct_elf64_program_t_const&___ptr64> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa62694 -> BB75aa62712 [color="green"];
+  BB75aa62694 -> BB75aa62705 [color="red"];
+  BB75aa62712 -> BB75aa6274d [color="green"];
+  BB75aa62712 -> BB75aa62742 [color="red"];
+  BB75aa62742 -> BB75aa6274d [color="blue"];
+  BB75aa6274d -> BB75aa627b1 [color="green"];
+  BB75aa6274d -> BB75aa627ac [color="red"];
+  BB75aa627ac -> BB75aa627ca [color="blue"];
+  BB75aa627b1 -> BB75aa627ca [color="red"];
+  BB75aa627ca -> BB75aa62803 [color="green"];
+  BB75aa627ca -> BB75aa627d8 [color="red"];
+  BB75aa627d8 -> BB75aa62803 [color="red"];
+}

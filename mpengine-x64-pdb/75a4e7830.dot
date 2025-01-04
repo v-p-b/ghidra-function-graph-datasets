@@ -1,0 +1,27 @@
+digraph macro_scan {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4e7830 -> BB75a4e78ff [color="green"];
+  BB75a4e7830 -> BB75a4e7866 [color="red"];
+  BB75a4e7866 -> BB75a4e7884 [color="green"];
+  BB75a4e7866 -> BB75a4e7872 [color="red"];
+  BB75a4e7872 -> BB75a4e7874 [color="blue"];
+  BB75a4e7884 -> BB75a4e7872 [color="green"];
+  BB75a4e7884 -> BB75a4e7890 [color="red"];
+  BB75a4e7890 -> BB75a4e798c [color="green"];
+  BB75a4e7890 -> BB75a4e78c5 [color="red"];
+  BB75a4e78c5 -> BB75a4e78d3 [color="green"];
+  BB75a4e78c5 -> BB75a4e78cb [color="red"];
+  BB75a4e78cb -> BB75a4e78d3 [color="blue"];
+  BB75a4e78d3 -> BB75a4e78f6 [color="green"];
+  BB75a4e78d3 -> BB75a4e78e5 [color="red"];
+  BB75a4e78e5 -> BB75a4e78f6 [color="red"];
+  BB75a4e78f6 -> BB75a4e7874 [color="blue"];
+  BB75a4e78ff -> BB75a4e791c [color="green"];
+  BB75a4e78ff -> BB75a4e7912 [color="red"];
+  BB75a4e7912 -> BB75a4e7874 [color="blue"];
+  BB75a4e791c -> BB75a4e78f6 [color="blue"];
+  BB75a4e798c -> BB75a4e78d3 [color="green"];
+  BB75a4e798c -> BB75a4e7996 [color="red"];
+  BB75a4e7996 -> BB75a4e78d3 [color="blue"];
+}

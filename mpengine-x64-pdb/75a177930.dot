@@ -1,0 +1,21 @@
+digraph simpleBinaryComparisonOperation {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a177930 -> BB75a1779aa [color="green"];
+  BB75a177930 -> BB75a177949 [color="red"];
+  BB75a177949 -> BB75a177979 [color="green"];
+  BB75a177949 -> BB75a17794f [color="red"];
+  BB75a17794f -> BB75a1779b1 [color="green"];
+  BB75a17794f -> BB75a17795b [color="red"];
+  BB75a17795b -> BB75a1779b1 [color="green"];
+  BB75a17795b -> BB75a177967 [color="red"];
+  BB75a177967 -> BB75a17799f [color="blue"];
+  BB75a177979 -> BB75a1779c0 [color="green"];
+  BB75a177979 -> BB75a17797f [color="red"];
+  BB75a17797f -> BB75a177995 [color="red"];
+  BB75a177995 -> BB75a17799d [color="blue"];
+  BB75a17799d -> BB75a17799f [color="blue"];
+  BB75a1779aa -> BB75a177995 [color="blue"];
+  BB75a1779b1 -> BB75a17799d [color="blue"];
+  BB75a1779c0 -> BB75a177995 [color="blue"];
+}

@@ -1,0 +1,30 @@
+digraph FireThreatProcessCallbacks {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a367ac0 -> BB75a367b82 [color="green"];
+  BB75a367ac0 -> BB75a367b44 [color="red"];
+  BB75a367b44 -> BB75a367c24 [color="green"];
+  BB75a367b44 -> BB75a367b5b [color="red"];
+  BB75a367b5b -> BB75a367c24 [color="green"];
+  BB75a367b5b -> BB75a367b65 [color="red"];
+  BB75a367b65 -> BB75a367c24 [color="blue"];
+  BB75a367b82 -> BB75a367bb9 [color="green"];
+  BB75a367b82 -> BB75a367bb4 [color="red"];
+  BB75a367bb4 -> BB75a367bb9 [color="red"];
+  BB75a367bb9 -> BB75a367bc8 [color="green"];
+  BB75a367bb9 -> BB75a367bc3 [color="red"];
+  BB75a367bc3 -> BB75a367c24 [color="blue"];
+  BB75a367bc8 -> BB75a367c06 [color="green"];
+  BB75a367bc8 -> BB75a367bd1 [color="red"];
+  BB75a367bd1 -> BB75a367bff [color="green"];
+  BB75a367bd1 -> BB75a367be4 [color="red"];
+  BB75a367be4 -> BB75a367bff [color="green"];
+  BB75a367be4 -> BB75a367bea [color="red"];
+  BB75a367bea -> BB75a367bff [color="red"];
+  BB75a367bff -> BB75a367c26 [color="blue"];
+  BB75a367c06 -> BB75a367c1e [color="green"];
+  BB75a367c06 -> BB75a367c0d [color="red"];
+  BB75a367c0d -> BB75a367c1e [color="blue"];
+  BB75a367c1e -> BB75a367c24 [color="blue"];
+  BB75a367c24 -> BB75a367c26 [color="blue"];
+}

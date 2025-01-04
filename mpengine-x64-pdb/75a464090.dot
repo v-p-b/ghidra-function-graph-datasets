@@ -1,0 +1,9 @@
+digraph isFatalError {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a464090 -> BB75a4640a0 [color="green"];
+  BB75a464090 -> BB75a464094 [color="red"];
+  BB75a464094 -> BB75a4640a2 [color="green"];
+  BB75a464094 -> BB75a4640a0 [color="red"];
+  BB75a4640a0 -> BB75a4640a2 [color="blue"];
+}

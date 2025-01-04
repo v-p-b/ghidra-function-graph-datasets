@@ -1,0 +1,15 @@
+digraph pushBinaryExprTree {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1d2c20 -> BB75a1d2cef [color="green"];
+  BB75a1d2c20 -> BB75a1d2c5e [color="red"];
+  BB75a1d2c5e -> BB75a1d2c73 [color="green"];
+  BB75a1d2c5e -> BB75a1d2c64 [color="red"];
+  BB75a1d2c64 -> BB75a1d2c73 [color="red"];
+  BB75a1d2c73 -> BB75a1d2cef [color="green"];
+  BB75a1d2c73 -> BB75a1d2c78 [color="red"];
+  BB75a1d2c78 -> BB75a1d2cef [color="green"];
+  BB75a1d2c78 -> BB75a1d2cbc [color="red"];
+  BB75a1d2cbc -> BB75a1d2cd6 [color="red"];
+  BB75a1d2cef -> BB75a1d2cd6 [color="blue"];
+}

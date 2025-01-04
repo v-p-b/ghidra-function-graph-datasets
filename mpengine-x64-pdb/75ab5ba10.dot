@@ -1,0 +1,13 @@
+digraph vdbeSorterMerge {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5ba10 -> BB75ab5ba34 [color="blue"];
+  BB75ab5ba34 -> BB75ab5ba73 [color="green"];
+  BB75ab5ba34 -> BB75ab5ba5f [color="red"];
+  BB75ab5ba5f -> BB75ab5ba34 [color="green"];
+  BB75ab5ba5f -> BB75ab5ba6e [color="red"];
+  BB75ab5ba6e -> BB75ab5ba8a [color="blue"];
+  BB75ab5ba73 -> BB75ab5ba34 [color="green"];
+  BB75ab5ba73 -> BB75ab5ba87 [color="red"];
+  BB75ab5ba87 -> BB75ab5ba8a [color="blue"];
+}

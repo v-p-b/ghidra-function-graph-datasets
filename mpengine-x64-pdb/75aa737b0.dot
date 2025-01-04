@@ -1,0 +1,14 @@
+digraph NTDLL_DLL_VFS_MoveFile {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa737b0 -> BB75aa73890 [color="green"];
+  BB75aa737b0 -> BB75aa73810 [color="red"];
+  BB75aa73810 -> BB75aa73890 [color="green"];
+  BB75aa73810 -> BB75aa73819 [color="red"];
+  BB75aa73819 -> BB75aa7387d [color="green"];
+  BB75aa73819 -> BB75aa73857 [color="red"];
+  BB75aa73857 -> BB75aa7387d [color="green"];
+  BB75aa73857 -> BB75aa73860 [color="red"];
+  BB75aa73860 -> BB75aa7387d [color="red"];
+  BB75aa7387d -> BB75aa73890 [color="red"];
+}

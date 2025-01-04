@@ -1,0 +1,26 @@
+digraph CheckIfAllModulesAreInfected {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a726728 -> BB75a726869 [color="green"];
+  BB75a726728 -> BB75a72675e [color="red"];
+  BB75a72675e -> BB75a726784 [color="blue"];
+  BB75a726784 -> BB75a7267d1 [color="green"];
+  BB75a726784 -> BB75a72678c [color="red"];
+  BB75a72678c -> BB75a7267d1 [color="green"];
+  BB75a72678c -> BB75a726793 [color="red"];
+  BB75a726793 -> BB75a7267d1 [color="red"];
+  BB75a7267d1 -> BB75a726784 [color="green"];
+  BB75a7267d1 -> BB75a7267fd [color="red"];
+  BB75a7267fd -> BB75a726869 [color="green"];
+  BB75a7267fd -> BB75a726802 [color="red"];
+  BB75a726802 -> BB75a72686c [color="green"];
+  BB75a726802 -> BB75a726806 [color="red"];
+  BB75a726806 -> BB75a72686c [color="green"];
+  BB75a726806 -> BB75a72682f [color="red"];
+  BB75a72682f -> BB75a72686c [color="green"];
+  BB75a72682f -> BB75a72683e [color="red"];
+  BB75a72683e -> BB75a72686c [color="green"];
+  BB75a72683e -> BB75a726844 [color="red"];
+  BB75a726844 -> BB75a72686c [color="blue"];
+  BB75a726869 -> BB75a72686c [color="blue"];
+}

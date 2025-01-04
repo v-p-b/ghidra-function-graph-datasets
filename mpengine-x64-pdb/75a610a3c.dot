@@ -1,0 +1,33 @@
+digraph SymCryptDetectCpuFeaturesByCpuid {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a610a3c -> BB75a610a87 [color="blue"];
+  BB75a610a87 -> BB75a610aa7 [color="green"];
+  BB75a610a87 -> BB75a610a91 [color="red"];
+  BB75a610a91 -> BB75a610aa7 [color="blue"];
+  BB75a610aa7 -> BB75a610abe [color="green"];
+  BB75a610aa7 -> BB75a610aac [color="red"];
+  BB75a610aac -> BB75a610ac2 [color="green"];
+  BB75a610aac -> BB75a610abe [color="red"];
+  BB75a610abe -> BB75a610ac2 [color="blue"];
+  BB75a610ac2 -> BB75a610a87 [color="green"];
+  BB75a610ac2 -> BB75a610acf [color="red"];
+  BB75a610acf -> BB75a610af2 [color="green"];
+  BB75a610acf -> BB75a610ade [color="red"];
+  BB75a610ade -> BB75a610af9 [color="green"];
+  BB75a610ade -> BB75a610af2 [color="red"];
+  BB75a610af2 -> BB75a610af9 [color="blue"];
+  BB75a610af9 -> BB75a610b44 [color="green"];
+  BB75a610af9 -> BB75a610aff [color="red"];
+  BB75a610aff -> BB75a610b44 [color="green"];
+  BB75a610aff -> BB75a610b0d [color="red"];
+  BB75a610b0d -> BB75a610b44 [color="green"];
+  BB75a610b0d -> BB75a610b15 [color="red"];
+  BB75a610b15 -> BB75a610b44 [color="green"];
+  BB75a610b15 -> BB75a610b1d [color="red"];
+  BB75a610b1d -> BB75a610b40 [color="green"];
+  BB75a610b1d -> BB75a610b33 [color="red"];
+  BB75a610b33 -> BB75a610b44 [color="green"];
+  BB75a610b33 -> BB75a610b40 [color="red"];
+  BB75a610b40 -> BB75a610b44 [color="blue"];
+}

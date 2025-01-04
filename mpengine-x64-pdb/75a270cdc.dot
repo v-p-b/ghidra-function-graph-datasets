@@ -1,0 +1,25 @@
+digraph lzma_unpack_worker {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a270cdc -> BB75a270f0b [color="green"];
+  BB75a270cdc -> BB75a270d1d [color="red"];
+  BB75a270d1d -> BB75a270f0b [color="green"];
+  BB75a270d1d -> BB75a270d36 [color="red"];
+  BB75a270d36 -> BB75a270d64 [color="green"];
+  BB75a270d36 -> BB75a270d3c [color="red"];
+  BB75a270d3c -> BB75a270d64 [color="blue"];
+  BB75a270d64 -> BB75a270d8e [color="green"];
+  BB75a270d64 -> BB75a270d6a [color="red"];
+  BB75a270d6a -> BB75a270d8e [color="blue"];
+  BB75a270d8e -> BB75a270db6 [color="green"];
+  BB75a270d8e -> BB75a270db1 [color="red"];
+  BB75a270db1 -> BB75a270db6 [color="red"];
+  BB75a270db6 -> BB75a270f0b [color="green"];
+  BB75a270db6 -> BB75a270df1 [color="red"];
+  BB75a270df1 -> BB75a270edf [color="green"];
+  BB75a270df1 -> BB75a270ed4 [color="red"];
+  BB75a270ed4 -> BB75a270ee2 [color="blue"];
+  BB75a270edf -> BB75a270ee2 [color="blue"];
+  BB75a270ee2 -> BB75a270f0d [color="blue"];
+  BB75a270f0b -> BB75a270f0d [color="blue"];
+}

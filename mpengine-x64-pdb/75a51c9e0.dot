@@ -1,0 +1,13 @@
+digraph dyn_sdn_push {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a51c9e0 -> BB75a51c9f6 [color="green"];
+  BB75a51c9e0 -> BB75a51c9ef [color="red"];
+  BB75a51c9ef -> BB75a51ca5b [color="blue"];
+  BB75a51c9f6 -> BB75a51ca37 [color="green"];
+  BB75a51c9f6 -> BB75a51ca02 [color="red"];
+  BB75a51ca02 -> BB75a51ca37 [color="green"];
+  BB75a51ca02 -> BB75a51ca2b [color="red"];
+  BB75a51ca2b -> BB75a51ca37 [color="red"];
+  BB75a51ca37 -> BB75a51ca5b [color="blue"];
+}

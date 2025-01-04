@@ -1,0 +1,15 @@
+digraph LuaSetRemovalPolicy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad2e150 -> BB75ad2e198 [color="green"];
+  BB75ad2e150 -> BB75ad2e16a [color="red"];
+  BB75ad2e16a -> BB75ad2e1cd [color="green"];
+  BB75ad2e16a -> BB75ad2e17d [color="red"];
+  BB75ad2e17d -> BB75ad2e1cd [color="green"];
+  BB75ad2e17d -> BB75ad2e183 [color="red"];
+  BB75ad2e183 -> BB75ad2e1cd [color="blue"];
+  BB75ad2e198 -> BB75ad2e1b6 [color="green"];
+  BB75ad2e198 -> BB75ad2e1a9 [color="red"];
+  BB75ad2e1a9 -> BB75ad2e1b6 [color="red"];
+  BB75ad2e1b6 -> BB75ad2e1cd [color="red"];
+}

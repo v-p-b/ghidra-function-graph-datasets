@@ -1,0 +1,14 @@
+digraph process_next_k<1> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3654e0 -> BB75a3654f4 [color="blue"];
+  BB75a3654f4 -> BB75a36553e [color="green"];
+  BB75a3654f4 -> BB75a36550d [color="red"];
+  BB75a36550d -> BB75a3654f4 [color="green"];
+  BB75a36550d -> BB75a36551f [color="red"];
+  BB75a36551f -> BB75a36554b [color="green"];
+  BB75a36551f -> BB75a365531 [color="red"];
+  BB75a365531 -> BB75a3654f4 [color="blue"];
+  BB75a36553e -> BB75a365540 [color="blue"];
+  BB75a36554b -> BB75a365540 [color="blue"];
+}

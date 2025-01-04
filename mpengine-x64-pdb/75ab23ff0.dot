@@ -1,0 +1,21 @@
+digraph grow_one {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab23ff0 -> BB75ab24044 [color="blue"];
+  BB75ab24041 -> BB75ab24044 [color="blue"];
+  BB75ab24044 -> BB75ab24041 [color="green"];
+  BB75ab24044 -> BB75ab24049 [color="red"];
+  BB75ab24049 -> BB75ab24057 [color="green"];
+  BB75ab24049 -> BB75ab24051 [color="red"];
+  BB75ab24051 -> BB75ab2405e [color="blue"];
+  BB75ab24057 -> BB75ab2405e [color="blue"];
+  BB75ab2405e -> BB75ab240f5 [color="green"];
+  BB75ab2405e -> BB75ab2408e [color="red"];
+  BB75ab2408e -> BB75ab240f5 [color="green"];
+  BB75ab2408e -> BB75ab240c6 [color="red"];
+  BB75ab240c6 -> BB75ab240d4 [color="green"];
+  BB75ab240c6 -> BB75ab240ce [color="red"];
+  BB75ab240ce -> BB75ab240db [color="blue"];
+  BB75ab240d4 -> BB75ab240db [color="blue"];
+  BB75ab240db -> BB75ab240f5 [color="red"];
+}

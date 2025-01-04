@@ -1,0 +1,22 @@
+digraph left_difference {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a34ad78 -> BB75a34ade8 [color="green"];
+  BB75a34ad78 -> BB75a34ad95 [color="red"];
+  BB75a34ad95 -> BB75a34adf1 [color="green"];
+  BB75a34ad95 -> BB75a34ada8 [color="red"];
+  BB75a34ada8 -> BB75a34ae02 [color="green"];
+  BB75a34ada8 -> BB75a34adb1 [color="red"];
+  BB75a34adb1 -> BB75a34adfd [color="green"];
+  BB75a34adb1 -> BB75a34adbe [color="red"];
+  BB75a34adbe -> BB75a34adfd [color="green"];
+  BB75a34adbe -> BB75a34adca [color="red"];
+  BB75a34adca -> BB75a34ada8 [color="green"];
+  BB75a34adca -> BB75a34adcf [color="red"];
+  BB75a34adcf -> BB75a34add2 [color="blue"];
+  BB75a34add2 -> BB75a34adda [color="red"];
+  BB75a34ade8 -> BB75a34adda [color="blue"];
+  BB75a34adf1 -> BB75a34add2 [color="blue"];
+  BB75a34adfd -> BB75a34adcf [color="blue"];
+  BB75a34ae02 -> BB75a34adda [color="blue"];
+}

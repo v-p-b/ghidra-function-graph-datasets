@@ -1,0 +1,11 @@
+digraph remove_managed_metadata {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa15ea8 -> BB75aa15ebb [color="green"];
+  BB75aa15ea8 -> BB75aa15eb7 [color="red"];
+  BB75aa15eb7 -> BB75aa15f15 [color="blue"];
+  BB75aa15ebb -> BB75aa15ee2 [color="green"];
+  BB75aa15ebb -> BB75aa15edd [color="red"];
+  BB75aa15edd -> BB75aa15ee2 [color="red"];
+  BB75aa15ee2 -> BB75aa15eb7 [color="blue"];
+}

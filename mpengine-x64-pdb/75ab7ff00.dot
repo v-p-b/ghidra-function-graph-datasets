@@ -1,0 +1,10 @@
+digraph GetTypeConfidence {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab7ff00 -> BB75ab7ff18 [color="green"];
+  BB75ab7ff00 -> BB75ab7ff13 [color="red"];
+  BB75ab7ff13 -> BB75ab7ff18 [color="red"];
+  BB75ab7ff18 -> BB75ab7ff32 [color="green"];
+  BB75ab7ff18 -> BB75ab7ff2d [color="red"];
+  BB75ab7ff2d -> BB75ab7ff32 [color="red"];
+}

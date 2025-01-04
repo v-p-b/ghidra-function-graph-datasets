@@ -1,0 +1,16 @@
+digraph alloc<struct_JsForeignFunctionObject> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a689cb8 -> BB75a689d47 [color="green"];
+  BB75a689cb8 -> BB75a689cd3 [color="red"];
+  BB75a689cd3 -> BB75a689d47 [color="green"];
+  BB75a689cd3 -> BB75a689ce0 [color="red"];
+  BB75a689ce0 -> BB75a689d47 [color="green"];
+  BB75a689ce0 -> BB75a689cee [color="red"];
+  BB75a689cee -> BB75a689d3b [color="green"];
+  BB75a689cee -> BB75a689d1d [color="red"];
+  BB75a689d1d -> BB75a689d25 [color="blue"];
+  BB75a689d25 -> BB75a689d2e [color="blue"];
+  BB75a689d3b -> BB75a689d25 [color="blue"];
+  BB75a689d47 -> BB75a689d2e [color="blue"];
+}

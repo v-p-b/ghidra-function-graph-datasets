@@ -1,0 +1,23 @@
+digraph sqlite3BtreeSavepoint {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a45bdc0 -> BB75a45be1e [color="green"];
+  BB75a45bdc0 -> BB75a45bddc [color="red"];
+  BB75a45bddc -> BB75a45be1e [color="green"];
+  BB75a45bddc -> BB75a45bde2 [color="red"];
+  BB75a45bde2 -> BB75a45be31 [color="green"];
+  BB75a45bde2 -> BB75a45bdeb [color="red"];
+  BB75a45bdeb -> BB75a45be1e [color="green"];
+  BB75a45bdeb -> BB75a45bdff [color="red"];
+  BB75a45bdff -> BB75a45be4d [color="green"];
+  BB75a45bdff -> BB75a45be03 [color="red"];
+  BB75a45be03 -> BB75a45be1e [color="red"];
+  BB75a45be31 -> BB75a45bdeb [color="green"];
+  BB75a45be31 -> BB75a45be3a [color="red"];
+  BB75a45be3a -> BB75a45bdeb [color="green"];
+  BB75a45be3a -> BB75a45be4b [color="red"];
+  BB75a45be4b -> BB75a45be1e [color="blue"];
+  BB75a45be4d -> BB75a45be03 [color="green"];
+  BB75a45be4d -> BB75a45be53 [color="red"];
+  BB75a45be53 -> BB75a45be03 [color="blue"];
+}

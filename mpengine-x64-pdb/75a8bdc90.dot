@@ -1,0 +1,11 @@
+digraph tdt_create_agent_instance {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8bdc90 -> BB75a8bdd3b [color="green"];
+  BB75a8bdc90 -> BB75a8bdd35 [color="red"];
+  BB75a8bdd35 -> BB75a8bdd3b [color="red"];
+  BB75a8bdd3b -> BB75a8bdd4b [color="green"];
+  BB75a8bdd3b -> BB75a8bdd45 [color="red"];
+  BB75a8bdd45 -> BB75a8bdd4b [color="red"];
+  BB75a8bdd4b -> BB75a8bdd67 [color="blue"];
+}

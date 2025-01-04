@@ -1,0 +1,16 @@
+digraph sqlite3ExpandSubquery {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab56064 -> BB75ab560a1 [color="green"];
+  BB75ab56064 -> BB75ab5609c [color="red"];
+  BB75ab5609c -> BB75ab56104 [color="blue"];
+  BB75ab560a1 -> BB75ab560bb [color="green"];
+  BB75ab560a1 -> BB75ab560b4 [color="red"];
+  BB75ab560b4 -> BB75ab560cb [color="blue"];
+  BB75ab560bb -> BB75ab560cb [color="red"];
+  BB75ab560cb -> BB75ab560db [color="blue"];
+  BB75ab560d4 -> BB75ab560db [color="blue"];
+  BB75ab560db -> BB75ab560d4 [color="green"];
+  BB75ab560db -> BB75ab560e0 [color="red"];
+  BB75ab560e0 -> BB75ab56104 [color="red"];
+}

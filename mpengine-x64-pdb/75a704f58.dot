@@ -1,0 +1,36 @@
+digraph LoadMachoSegment {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a704f58 -> BB75a70507a [color="green"];
+  BB75a704f58 -> BB75a704fa8 [color="red"];
+  BB75a704fa8 -> BB75a704fe6 [color="green"];
+  BB75a704fa8 -> BB75a704fbd [color="red"];
+  BB75a704fbd -> BB75a7050c6 [color="green"];
+  BB75a704fbd -> BB75a704fd4 [color="red"];
+  BB75a704fd4 -> BB75a7050c6 [color="green"];
+  BB75a704fd4 -> BB75a704fde [color="red"];
+  BB75a704fde -> BB75a7050ae [color="blue"];
+  BB75a704fe6 -> BB75a705164 [color="blue"];
+  BB75a70507a -> BB75a7050cd [color="green"];
+  BB75a70507a -> BB75a705091 [color="red"];
+  BB75a705091 -> BB75a7050c6 [color="green"];
+  BB75a705091 -> BB75a7050a4 [color="red"];
+  BB75a7050a4 -> BB75a7050c6 [color="green"];
+  BB75a7050a4 -> BB75a7050aa [color="red"];
+  BB75a7050aa -> BB75a7050ae [color="blue"];
+  BB75a7050ae -> BB75a7050c6 [color="red"];
+  BB75a7050c6 -> BB75a705208 [color="blue"];
+  BB75a7050cd -> BB75a705164 [color="red"];
+  BB75a705164 -> BB75a7051f7 [color="green"];
+  BB75a705164 -> BB75a70518c [color="red"];
+  BB75a70518c -> BB75a7051f7 [color="green"];
+  BB75a70518c -> BB75a705192 [color="red"];
+  BB75a705192 -> BB75a7051ad [color="green"];
+  BB75a705192 -> BB75a7051aa [color="red"];
+  BB75a7051aa -> BB75a7051ad [color="blue"];
+  BB75a7051ad -> BB75a7051f7 [color="red"];
+  BB75a7051f7 -> BB75a705206 [color="green"];
+  BB75a7051f7 -> BB75a7051fd [color="red"];
+  BB75a7051fd -> BB75a705206 [color="red"];
+  BB75a705206 -> BB75a705208 [color="blue"];
+}

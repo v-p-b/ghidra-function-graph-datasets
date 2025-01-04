@@ -1,0 +1,12 @@
+digraph Scan {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2fa0d0 -> BB75a2fa12d [color="green"];
+  BB75a2fa0d0 -> BB75a2fa103 [color="red"];
+  BB75a2fa103 -> BB75a2fa135 [color="green"];
+  BB75a2fa103 -> BB75a2fa118 [color="red"];
+  BB75a2fa12d -> BB75a2fa118 [color="green"];
+  BB75a2fa12d -> BB75a2fa133 [color="red"];
+  BB75a2fa133 -> BB75a2fa103 [color="blue"];
+  BB75a2fa135 -> BB75a2fa118 [color="blue"];
+}

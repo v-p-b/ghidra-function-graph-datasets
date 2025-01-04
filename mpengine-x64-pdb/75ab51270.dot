@@ -1,0 +1,23 @@
+digraph minmaxStep {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab51270 -> BB75ab5131c [color="green"];
+  BB75ab51270 -> BB75ab512a1 [color="red"];
+  BB75ab512a1 -> BB75ab512c0 [color="green"];
+  BB75ab512a1 -> BB75ab512b9 [color="red"];
+  BB75ab512b9 -> BB75ab5131c [color="green"];
+  BB75ab512b9 -> BB75ab512be [color="red"];
+  BB75ab512be -> BB75ab512fc [color="blue"];
+  BB75ab512c0 -> BB75ab51306 [color="green"];
+  BB75ab512c0 -> BB75ab512c5 [color="red"];
+  BB75ab512c5 -> BB75ab512f8 [color="green"];
+  BB75ab512c5 -> BB75ab512f2 [color="red"];
+  BB75ab512f2 -> BB75ab51311 [color="green"];
+  BB75ab512f2 -> BB75ab512f6 [color="red"];
+  BB75ab512f6 -> BB75ab512fc [color="blue"];
+  BB75ab512f8 -> BB75ab51311 [color="green"];
+  BB75ab512f8 -> BB75ab512fc [color="red"];
+  BB75ab512fc -> BB75ab5131c [color="blue"];
+  BB75ab51306 -> BB75ab51311 [color="blue"];
+  BB75ab51311 -> BB75ab5131c [color="red"];
+}

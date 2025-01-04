@@ -1,0 +1,19 @@
+digraph GetCmdLinePath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acc03bc -> BB75acc0448 [color="green"];
+  BB75acc03bc -> BB75acc03d3 [color="red"];
+  BB75acc03d3 -> BB75acc0448 [color="green"];
+  BB75acc03d3 -> BB75acc03d8 [color="red"];
+  BB75acc03d8 -> BB75acc0448 [color="green"];
+  BB75acc03d8 -> BB75acc03f1 [color="red"];
+  BB75acc03f1 -> BB75acc0448 [color="green"];
+  BB75acc03f1 -> BB75acc03ff [color="red"];
+  BB75acc03ff -> BB75acc042a [color="green"];
+  BB75acc03ff -> BB75acc041c [color="red"];
+  BB75acc041c -> BB75acc043f [color="blue"];
+  BB75acc042a -> BB75acc043f [color="red"];
+  BB75acc043f -> BB75acc044b [color="green"];
+  BB75acc043f -> BB75acc0448 [color="red"];
+  BB75acc0448 -> BB75acc044b [color="blue"];
+}

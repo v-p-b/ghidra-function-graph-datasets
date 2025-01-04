@@ -1,0 +1,12 @@
+digraph _process_folder_matching {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a92eecc -> BB75a92ef5c [color="green"];
+  BB75a92eecc -> BB75a92ef2e [color="red"];
+  BB75a92ef2e -> BB75a92ef5c [color="red"];
+  BB75a92ef5c -> BB75a92efa7 [color="green"];
+  BB75a92ef5c -> BB75a92ef93 [color="red"];
+  BB75a92ef93 -> BB75a92efb8 [color="blue"];
+  BB75a92efa7 -> BB75a92efb8 [color="red"];
+  BB75a92efb8 -> BB75a92efd8 [color="blue"];
+}

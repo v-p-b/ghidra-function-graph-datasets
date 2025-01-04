@@ -1,0 +1,15 @@
+digraph sqlite3PagerOpenWal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5628b8 -> BB75a5628d1 [color="green"];
+  BB75a5628b8 -> BB75a5628c8 [color="red"];
+  BB75a5628c8 -> BB75a5628dd [color="green"];
+  BB75a5628c8 -> BB75a5628d1 [color="red"];
+  BB75a5628d1 -> BB75a5628d7 [color="blue"];
+  BB75a5628dd -> BB75a562904 [color="green"];
+  BB75a5628dd -> BB75a5628e6 [color="red"];
+  BB75a5628e6 -> BB75a5628d7 [color="green"];
+  BB75a5628e6 -> BB75a5628fb [color="red"];
+  BB75a5628fb -> BB75a5628d7 [color="blue"];
+  BB75a562904 -> BB75a5628d7 [color="blue"];
+}

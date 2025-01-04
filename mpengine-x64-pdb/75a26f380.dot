@@ -1,0 +1,23 @@
+digraph getRawBits {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a26f380 -> BB75a26f3ec [color="green"];
+  BB75a26f380 -> BB75a26f3ad [color="red"];
+  BB75a26f3ad -> BB75a26f3b6 [color="blue"];
+  BB75a26f3b6 -> BB75a26f40d [color="green"];
+  BB75a26f3b6 -> BB75a26f3dc [color="red"];
+  BB75a26f3dc -> BB75a26f3b6 [color="green"];
+  BB75a26f3dc -> BB75a26f3e2 [color="red"];
+  BB75a26f3e2 -> BB75a26f3ec [color="blue"];
+  BB75a26f40d -> BB75a26f44a [color="green"];
+  BB75a26f40d -> BB75a26f425 [color="red"];
+  BB75a26f425 -> BB75a26f3dc [color="blue"];
+  BB75a26f44a -> BB75a26f472 [color="green"];
+  BB75a26f44a -> BB75a26f450 [color="red"];
+  BB75a26f450 -> BB75a26f425 [color="green"];
+  BB75a26f450 -> BB75a26f468 [color="red"];
+  BB75a26f468 -> BB75a26f3e2 [color="blue"];
+  BB75a26f472 -> BB75a26f450 [color="green"];
+  BB75a26f472 -> BB75a26f480 [color="red"];
+  BB75a26f480 -> BB75a26f3e2 [color="blue"];
+}

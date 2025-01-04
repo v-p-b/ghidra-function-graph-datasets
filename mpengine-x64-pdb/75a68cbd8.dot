@@ -1,0 +1,10 @@
+digraph getGlobalObject {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a68cbd8 -> BB75a68cc05 [color="green"];
+  BB75a68cbd8 -> BB75a68cbf2 [color="red"];
+  BB75a68cbf2 -> BB75a68cbfa [color="blue"];
+  BB75a68cc05 -> BB75a68cbf2 [color="green"];
+  BB75a68cc05 -> BB75a68cc1b [color="red"];
+  BB75a68cc1b -> BB75a68cbfa [color="blue"];
+}

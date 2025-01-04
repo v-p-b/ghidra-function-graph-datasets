@@ -1,0 +1,11 @@
+digraph lua_newstate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1f8c34 -> BB75a1f8db8 [color="green"];
+  BB75a1f8c34 -> BB75a1f8c6f [color="red"];
+  BB75a1f8c6f -> BB75a1f8dba [color="green"];
+  BB75a1f8c6f -> BB75a1f8da0 [color="red"];
+  BB75a1f8da0 -> BB75a1f8da3 [color="blue"];
+  BB75a1f8db8 -> BB75a1f8da3 [color="blue"];
+  BB75a1f8dba -> BB75a1f8da0 [color="blue"];
+}

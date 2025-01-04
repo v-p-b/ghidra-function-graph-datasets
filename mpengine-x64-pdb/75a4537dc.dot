@@ -1,0 +1,11 @@
+digraph DoMDMPolicyCheck {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4537dc -> BB75a453818 [color="green"];
+  BB75a4537dc -> BB75a453807 [color="red"];
+  BB75a453807 -> BB75a453811 [color="green"];
+  BB75a453807 -> BB75a45380c [color="red"];
+  BB75a45380c -> BB75a453811 [color="red"];
+  BB75a453811 -> BB75a45382c [color="blue"];
+  BB75a453818 -> BB75a45382c [color="red"];
+}

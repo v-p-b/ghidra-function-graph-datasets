@@ -1,0 +1,17 @@
+digraph AddChildAttribute {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4d0504 -> BB75a4d0580 [color="green"];
+  BB75a4d0504 -> BB75a4d051a [color="red"];
+  BB75a4d051a -> BB75a4d0580 [color="green"];
+  BB75a4d051a -> BB75a4d053c [color="red"];
+  BB75a4d053c -> BB75a4d0572 [color="green"];
+  BB75a4d053c -> BB75a4d0557 [color="red"];
+  BB75a4d0557 -> BB75a4d0567 [color="red"];
+  BB75a4d0572 -> BB75a4d0567 [color="blue"];
+  BB75a4d0580 -> BB75a4d05ae [color="green"];
+  BB75a4d0580 -> BB75a4d0593 [color="red"];
+  BB75a4d0593 -> BB75a4d05ae [color="green"];
+  BB75a4d0593 -> BB75a4d0599 [color="red"];
+  BB75a4d0599 -> BB75a4d05ae [color="red"];
+}

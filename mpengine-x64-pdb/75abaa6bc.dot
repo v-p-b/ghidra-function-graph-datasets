@@ -1,0 +1,15 @@
+digraph erase_nolock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abaa6bc -> BB75abaa754 [color="green"];
+  BB75abaa6bc -> BB75abaa6f8 [color="red"];
+  BB75abaa6f8 -> BB75abaa739 [color="green"];
+  BB75abaa6f8 -> BB75abaa720 [color="red"];
+  BB75abaa720 -> BB75abaa739 [color="red"];
+  BB75abaa739 -> BB75abaa754 [color="green"];
+  BB75abaa739 -> BB75abaa740 [color="red"];
+  BB75abaa740 -> BB75abaa754 [color="red"];
+  BB75abaa754 -> BB75abaa7a5 [color="green"];
+  BB75abaa754 -> BB75abaa75d [color="red"];
+  BB75abaa75d -> BB75abaa7a5 [color="red"];
+}

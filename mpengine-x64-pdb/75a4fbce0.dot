@@ -1,0 +1,32 @@
+digraph GetProcessElevationAndIntegrityLevel {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4fbce0 -> BB75a4fbe66 [color="green"];
+  BB75a4fbce0 -> BB75a4fbd08 [color="red"];
+  BB75a4fbd08 -> BB75a4fbd3b [color="green"];
+  BB75a4fbd08 -> BB75a4fbd21 [color="red"];
+  BB75a4fbd21 -> BB75a4fbd34 [color="green"];
+  BB75a4fbd21 -> BB75a4fbd2a [color="red"];
+  BB75a4fbd2a -> BB75a4fbd2c [color="blue"];
+  BB75a4fbd34 -> BB75a4fbd2a [color="blue"];
+  BB75a4fbd3b -> BB75a4fbe76 [color="green"];
+  BB75a4fbd3b -> BB75a4fbd69 [color="red"];
+  BB75a4fbd69 -> BB75a4fbe48 [color="green"];
+  BB75a4fbd69 -> BB75a4fbd85 [color="red"];
+  BB75a4fbd85 -> BB75a4fbe48 [color="green"];
+  BB75a4fbd85 -> BB75a4fbd99 [color="red"];
+  BB75a4fbd99 -> BB75a4fbda7 [color="green"];
+  BB75a4fbd99 -> BB75a4fbd9e [color="red"];
+  BB75a4fbd9e -> BB75a4fbda7 [color="red"];
+  BB75a4fbda7 -> BB75a4fbe5f [color="green"];
+  BB75a4fbda7 -> BB75a4fbe3e [color="red"];
+  BB75a4fbe3e -> BB75a4fbd2c [color="blue"];
+  BB75a4fbe48 -> BB75a4fbd21 [color="green"];
+  BB75a4fbe48 -> BB75a4fbe51 [color="red"];
+  BB75a4fbe51 -> BB75a4fbe54 [color="blue"];
+  BB75a4fbe54 -> BB75a4fbd21 [color="blue"];
+  BB75a4fbe5f -> BB75a4fbe3e [color="blue"];
+  BB75a4fbe76 -> BB75a4fbd21 [color="green"];
+  BB75a4fbe76 -> BB75a4fbe83 [color="red"];
+  BB75a4fbe83 -> BB75a4fbe54 [color="blue"];
+}

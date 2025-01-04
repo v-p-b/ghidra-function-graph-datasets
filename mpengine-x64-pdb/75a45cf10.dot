@@ -1,0 +1,26 @@
+digraph sqlite3PagerRollback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a45cf10 -> BB75a45cf72 [color="green"];
+  BB75a45cf10 -> BB75a45cf2c [color="red"];
+  BB75a45cf2c -> BB75a45cf9d [color="green"];
+  BB75a45cf2c -> BB75a45cf32 [color="red"];
+  BB75a45cf32 -> BB75a45cf77 [color="green"];
+  BB75a45cf32 -> BB75a45cf3c [color="red"];
+  BB75a45cf3c -> BB75a45cfa1 [color="green"];
+  BB75a45cf3c -> BB75a45cf46 [color="red"];
+  BB75a45cf46 -> BB75a45cfb0 [color="green"];
+  BB75a45cf46 -> BB75a45cf58 [color="red"];
+  BB75a45cf58 -> BB75a45cf62 [color="red"];
+  BB75a45cf72 -> BB75a45cf62 [color="blue"];
+  BB75a45cf77 -> BB75a45cf58 [color="green"];
+  BB75a45cf77 -> BB75a45cf99 [color="red"];
+  BB75a45cf99 -> BB75a45cf58 [color="blue"];
+  BB75a45cf9d -> BB75a45cf62 [color="blue"];
+  BB75a45cfa1 -> BB75a45cf46 [color="green"];
+  BB75a45cfa1 -> BB75a45cfa7 [color="red"];
+  BB75a45cfa7 -> BB75a45cf99 [color="blue"];
+  BB75a45cfb0 -> BB75a45cf58 [color="green"];
+  BB75a45cfb0 -> BB75a45cfb6 [color="red"];
+  BB75a45cfb6 -> BB75a45cf62 [color="blue"];
+}

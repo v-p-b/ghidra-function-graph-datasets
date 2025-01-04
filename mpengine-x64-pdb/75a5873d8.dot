@@ -1,0 +1,31 @@
+digraph TestContainerLimits {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5873d8 -> BB75a58740b [color="green"];
+  BB75a5873d8 -> BB75a5873fb [color="red"];
+  BB75a5873fb -> BB75a587442 [color="green"];
+  BB75a5873fb -> BB75a58740b [color="red"];
+  BB75a58740b -> BB75a587434 [color="green"];
+  BB75a58740b -> BB75a587414 [color="red"];
+  BB75a587414 -> BB75a587434 [color="green"];
+  BB75a587414 -> BB75a58741a [color="red"];
+  BB75a58741a -> BB75a587438 [color="green"];
+  BB75a58741a -> BB75a587422 [color="red"];
+  BB75a587422 -> BB75a587424 [color="blue"];
+  BB75a587434 -> BB75a587424 [color="blue"];
+  BB75a587438 -> BB75a587422 [color="green"];
+  BB75a587438 -> BB75a58743e [color="red"];
+  BB75a58743e -> BB75a587422 [color="blue"];
+  BB75a587442 -> BB75a58740b [color="green"];
+  BB75a587442 -> BB75a587453 [color="red"];
+  BB75a587453 -> BB75a58740b [color="green"];
+  BB75a587453 -> BB75a587464 [color="red"];
+  BB75a587464 -> BB75a58740b [color="green"];
+  BB75a587464 -> BB75a587475 [color="red"];
+  BB75a587475 -> BB75a5874b6 [color="green"];
+  BB75a587475 -> BB75a587488 [color="red"];
+  BB75a587488 -> BB75a5874b6 [color="green"];
+  BB75a587488 -> BB75a58748e [color="red"];
+  BB75a58748e -> BB75a5874b6 [color="red"];
+  BB75a5874b6 -> BB75a587424 [color="blue"];
+}

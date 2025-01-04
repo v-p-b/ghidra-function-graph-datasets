@@ -1,0 +1,14 @@
+digraph GetSignatureCustomTTL {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4bce20 -> BB75a4bce5e [color="green"];
+  BB75a4bce20 -> BB75a4bce45 [color="red"];
+  BB75a4bce45 -> BB75a4bce58 [color="red"];
+  BB75a4bce5e -> BB75a4bce45 [color="green"];
+  BB75a4bce5e -> BB75a4bce6c [color="red"];
+  BB75a4bce6c -> BB75a4bce45 [color="green"];
+  BB75a4bce6c -> BB75a4bce71 [color="red"];
+  BB75a4bce71 -> BB75a4bce45 [color="green"];
+  BB75a4bce71 -> BB75a4bce89 [color="red"];
+  BB75a4bce89 -> BB75a4bce58 [color="blue"];
+}

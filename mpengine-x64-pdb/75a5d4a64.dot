@@ -1,0 +1,19 @@
+digraph SendPropagatingNotificationsToChild {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5d4a64 -> BB75a5d4ab7 [color="green"];
+  BB75a5d4a64 -> BB75a5d4a92 [color="red"];
+  BB75a5d4a92 -> BB75a5d4ad8 [color="green"];
+  BB75a5d4a92 -> BB75a5d4ab7 [color="red"];
+  BB75a5d4ad8 -> BB75a5d4b1b [color="red"];
+  BB75a5d4b1b -> BB75a5d4b42 [color="green"];
+  BB75a5d4b1b -> BB75a5d4b20 [color="red"];
+  BB75a5d4b20 -> BB75a5d4ab7 [color="blue"];
+  BB75a5d4b42 -> BB75a5d4b54 [color="green"];
+  BB75a5d4b42 -> BB75a5d4b51 [color="red"];
+  BB75a5d4b51 -> BB75a5d4b54 [color="blue"];
+  BB75a5d4b54 -> BB75a5d4b5e [color="green"];
+  BB75a5d4b54 -> BB75a5d4b5b [color="red"];
+  BB75a5d4b5b -> BB75a5d4b5e [color="blue"];
+  BB75a5d4b5e -> BB75a5d4b1b [color="blue"];
+}

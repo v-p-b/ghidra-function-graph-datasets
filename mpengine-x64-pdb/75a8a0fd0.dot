@@ -1,0 +1,14 @@
+digraph MpTrustLabelProtectionStatusEnd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8a0fd0 -> BB75a8a0ff3 [color="green"];
+  BB75a8a0fd0 -> BB75a8a0fdd [color="red"];
+  BB75a8a0fdd -> BB75a8a0ff3 [color="green"];
+  BB75a8a0fdd -> BB75a8a0fe9 [color="red"];
+  BB75a8a0fe9 -> BB75a8a1028 [color="blue"];
+  BB75a8a0ff3 -> BB75a8a1028 [color="green"];
+  BB75a8a0ff3 -> BB75a8a100d [color="red"];
+  BB75a8a100d -> BB75a8a1028 [color="green"];
+  BB75a8a100d -> BB75a8a1013 [color="red"];
+  BB75a8a1013 -> BB75a8a1028 [color="red"];
+}

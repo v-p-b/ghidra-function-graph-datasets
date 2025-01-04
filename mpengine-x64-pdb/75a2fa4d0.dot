@@ -1,0 +1,13 @@
+digraph hstr_internal_search {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2fa4d0 -> BB75a2fa57a [color="green"];
+  BB75a2fa4d0 -> BB75a2fa559 [color="red"];
+  BB75a2fa559 -> BB75a2fa598 [color="green"];
+  BB75a2fa559 -> BB75a2fa571 [color="red"];
+  BB75a2fa571 -> BB75a2fa573 [color="blue"];
+  BB75a2fa573 -> BB75a2fa57a [color="red"];
+  BB75a2fa598 -> BB75a2fa573 [color="green"];
+  BB75a2fa598 -> BB75a2fa5d9 [color="red"];
+  BB75a2fa5d9 -> BB75a2fa571 [color="blue"];
+}

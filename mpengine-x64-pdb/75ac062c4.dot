@@ -1,0 +1,18 @@
+digraph ZSTD_rawLiteralsCost {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac062c4 -> BB75ac0633b [color="green"];
+  BB75ac062c4 -> BB75ac062da [color="red"];
+  BB75ac062da -> BB75ac062e8 [color="green"];
+  BB75ac062da -> BB75ac062e1 [color="red"];
+  BB75ac062e1 -> BB75ac06340 [color="blue"];
+  BB75ac062e8 -> BB75ac062f6 [color="blue"];
+  BB75ac062f6 -> BB75ac0631a [color="green"];
+  BB75ac062f6 -> BB75ac0630b [color="red"];
+  BB75ac0630b -> BB75ac06320 [color="blue"];
+  BB75ac0631a -> BB75ac06320 [color="blue"];
+  BB75ac06320 -> BB75ac062f6 [color="green"];
+  BB75ac06320 -> BB75ac06337 [color="red"];
+  BB75ac06337 -> BB75ac06340 [color="blue"];
+  BB75ac0633b -> BB75ac06340 [color="blue"];
+}

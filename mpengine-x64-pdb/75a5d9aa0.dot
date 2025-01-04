@@ -1,0 +1,12 @@
+digraph TestMultiplePaths {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5d9aa0 -> BB75a5d9af3 [color="green"];
+  BB75a5d9aa0 -> BB75a5d9ac6 [color="red"];
+  BB75a5d9ac6 -> BB75a5d9b1e [color="green"];
+  BB75a5d9ac6 -> BB75a5d9ad5 [color="red"];
+  BB75a5d9ad5 -> BB75a5d9ac6 [color="green"];
+  BB75a5d9ad5 -> BB75a5d9ade [color="red"];
+  BB75a5d9af3 -> BB75a5d9ade [color="blue"];
+  BB75a5d9b1e -> BB75a5d9ade [color="blue"];
+}

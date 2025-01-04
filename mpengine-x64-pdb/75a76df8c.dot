@@ -1,0 +1,11 @@
+digraph EnumProcessModules {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a76df8c -> BB75a76dfdc [color="green"];
+  BB75a76df8c -> BB75a76dfb8 [color="red"];
+  BB75a76dfb8 -> BB75a76dfd5 [color="green"];
+  BB75a76dfb8 -> BB75a76dfc6 [color="red"];
+  BB75a76dfc6 -> BB75a76dfed [color="blue"];
+  BB75a76dfd5 -> BB75a76dfdc [color="blue"];
+  BB75a76dfdc -> BB75a76dfed [color="red"];
+}

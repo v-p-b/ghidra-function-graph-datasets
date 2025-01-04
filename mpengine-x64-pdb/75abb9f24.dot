@@ -1,0 +1,32 @@
+digraph Bind {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb9f24 -> BB75abb9f4d [color="green"];
+  BB75abb9f24 -> BB75abb9f48 [color="red"];
+  BB75abb9f48 -> BB75abb9f4d [color="red"];
+  BB75abb9f4d -> BB75abb9f59 [color="green"];
+  BB75abb9f4d -> BB75abb9f54 [color="red"];
+  BB75abb9f54 -> BB75abb9f59 [color="red"];
+  BB75abb9f59 -> BB75abb9f89 [color="green"];
+  BB75abb9f59 -> BB75abb9f66 [color="red"];
+  BB75abb9f66 -> BB75abba00b [color="blue"];
+  BB75abb9f89 -> BB75abb9fb3 [color="green"];
+  BB75abb9f89 -> BB75abb9f9a [color="red"];
+  BB75abb9f9a -> BB75abb9fd2 [color="green"];
+  BB75abb9f9a -> BB75abb9fa2 [color="red"];
+  BB75abb9fa2 -> BB75abb9fe9 [color="green"];
+  BB75abb9fa2 -> BB75abb9fae [color="red"];
+  BB75abb9fae -> BB75abb9fe9 [color="blue"];
+  BB75abb9fb3 -> BB75abb9fc9 [color="green"];
+  BB75abb9fb3 -> BB75abb9fc4 [color="red"];
+  BB75abb9fc4 -> BB75abb9fc9 [color="red"];
+  BB75abb9fc9 -> BB75abb9fd7 [color="green"];
+  BB75abb9fc9 -> BB75abb9fd2 [color="red"];
+  BB75abb9fd2 -> BB75abb9f89 [color="blue"];
+  BB75abb9fd7 -> BB75abb9fe9 [color="green"];
+  BB75abb9fd7 -> BB75abb9fe5 [color="red"];
+  BB75abb9fe5 -> BB75abb9fe9 [color="blue"];
+  BB75abb9fe9 -> BB75abba00b [color="green"];
+  BB75abb9fe9 -> BB75abba000 [color="red"];
+  BB75abba000 -> BB75abba00b [color="red"];
+}

@@ -1,0 +1,11 @@
+digraph CheckDllsSize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a249b28 -> BB75a249b97 [color="green"];
+  BB75a249b28 -> BB75a249b5e [color="red"];
+  BB75a249b5e -> BB75a249b8c [color="green"];
+  BB75a249b5e -> BB75a249b71 [color="red"];
+  BB75a249b71 -> BB75a249b8c [color="green"];
+  BB75a249b71 -> BB75a249b77 [color="red"];
+  BB75a249b77 -> BB75a249b8c [color="red"];
+}

@@ -1,0 +1,11 @@
+digraph str_upper {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab03fd0 -> BB75ab04085 [color="green"];
+  BB75ab03fd0 -> BB75ab04048 [color="red"];
+  BB75ab04048 -> BB75ab0405e [color="green"];
+  BB75ab04048 -> BB75ab04054 [color="red"];
+  BB75ab04054 -> BB75ab0405e [color="red"];
+  BB75ab0405e -> BB75ab04048 [color="green"];
+  BB75ab0405e -> BB75ab04085 [color="red"];
+}

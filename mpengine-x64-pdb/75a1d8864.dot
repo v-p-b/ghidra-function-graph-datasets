@@ -1,0 +1,28 @@
+digraph IsProfileVirtualizable {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1d8864 -> BB75a1d8929 [color="green"];
+  BB75a1d8864 -> BB75a1d8890 [color="red"];
+  BB75a1d8890 -> BB75a1d88b1 [color="red"];
+  BB75a1d88b1 -> BB75a1d88dc [color="green"];
+  BB75a1d88b1 -> BB75a1d88b6 [color="red"];
+  BB75a1d88b6 -> BB75a1d88c1 [color="green"];
+  BB75a1d88b6 -> BB75a1d88bc [color="red"];
+  BB75a1d88bc -> BB75a1d88b1 [color="blue"];
+  BB75a1d88c1 -> BB75a1d88dc [color="green"];
+  BB75a1d88c1 -> BB75a1d88ca [color="red"];
+  BB75a1d88ca -> BB75a1d88dc [color="red"];
+  BB75a1d88dc -> BB75a1d8929 [color="green"];
+  BB75a1d88dc -> BB75a1d88f5 [color="red"];
+  BB75a1d88f5 -> BB75a1d8904 [color="green"];
+  BB75a1d88f5 -> BB75a1d8901 [color="red"];
+  BB75a1d8901 -> BB75a1d8904 [color="blue"];
+  BB75a1d8904 -> BB75a1d8911 [color="green"];
+  BB75a1d8904 -> BB75a1d8909 [color="red"];
+  BB75a1d8909 -> BB75a1d8911 [color="red"];
+  BB75a1d8929 -> BB75a1d8901 [color="green"];
+  BB75a1d8929 -> BB75a1d893c [color="red"];
+  BB75a1d893c -> BB75a1d8901 [color="green"];
+  BB75a1d893c -> BB75a1d8942 [color="red"];
+  BB75a1d8942 -> BB75a1d8901 [color="blue"];
+}

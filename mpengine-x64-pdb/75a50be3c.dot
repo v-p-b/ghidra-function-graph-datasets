@@ -1,0 +1,14 @@
+digraph GetDebugInterface {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a50be3c -> BB75a50be71 [color="green"];
+  BB75a50be3c -> BB75a50be5f [color="red"];
+  BB75a50be5f -> BB75a50be63 [color="blue"];
+  BB75a50be71 -> BB75a50be5f [color="green"];
+  BB75a50be71 -> BB75a50be7d [color="red"];
+  BB75a50be7d -> BB75a50be93 [color="green"];
+  BB75a50be7d -> BB75a50be8d [color="red"];
+  BB75a50be8d -> BB75a50beb6 [color="blue"];
+  BB75a50be93 -> BB75a50beb6 [color="red"];
+  BB75a50beb6 -> BB75a50be63 [color="blue"];
+}

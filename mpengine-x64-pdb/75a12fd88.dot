@@ -1,0 +1,18 @@
+digraph revokedcert_scan {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a12fd88 -> BB75a12fdbd [color="green"];
+  BB75a12fd88 -> BB75a12fdad [color="red"];
+  BB75a12fdbd -> BB75a12fe06 [color="green"];
+  BB75a12fdbd -> BB75a12fdd3 [color="red"];
+  BB75a12fdd3 -> BB75a12fe06 [color="green"];
+  BB75a12fdd3 -> BB75a12fde9 [color="red"];
+  BB75a12fde9 -> BB75a12fdd3 [color="green"];
+  BB75a12fde9 -> BB75a12fe06 [color="red"];
+  BB75a12fe06 -> BB75a12fe1f [color="green"];
+  BB75a12fe06 -> BB75a12fe19 [color="red"];
+  BB75a12fe19 -> BB75a12fe23 [color="green"];
+  BB75a12fe19 -> BB75a12fe1f [color="red"];
+  BB75a12fe1f -> BB75a12fdad [color="blue"];
+  BB75a12fe23 -> BB75a12fe1f [color="blue"];
+}

@@ -1,0 +1,18 @@
+digraph InitializeOnProcessAttach {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7c10b4 -> BB75a7c1120 [color="green"];
+  BB75a7c10b4 -> BB75a7c10dc [color="red"];
+  BB75a7c10dc -> BB75a7c1252 [color="green"];
+  BB75a7c10dc -> BB75a7c10f9 [color="red"];
+  BB75a7c10f9 -> BB75a7c1252 [color="green"];
+  BB75a7c10f9 -> BB75a7c1103 [color="red"];
+  BB75a7c1103 -> BB75a7c1252 [color="blue"];
+  BB75a7c1120 -> BB75a7c115e [color="blue"];
+  BB75a7c115e -> BB75a7c115e [color="green"];
+  BB75a7c115e -> BB75a7c11ae [color="red"];
+  BB75a7c11ae -> BB75a7c1256 [color="green"];
+  BB75a7c11ae -> BB75a7c1252 [color="red"];
+  BB75a7c1252 -> BB75a7c1269 [color="blue"];
+  BB75a7c1256 -> BB75a7c1269 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph FPU_fst_ext {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7b3810 -> BB75a7b382c [color="green"];
+  BB75a7b3810 -> BB75a7b382a [color="red"];
+  BB75a7b382a -> BB75a7b382c [color="blue"];
+  BB75a7b382c -> BB75a7b3849 [color="green"];
+  BB75a7b382c -> BB75a7b383e [color="red"];
+  BB75a7b383e -> BB75a7b3852 [color="blue"];
+  BB75a7b3849 -> BB75a7b3852 [color="blue"];
+}

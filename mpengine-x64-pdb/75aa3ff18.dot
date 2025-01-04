@@ -1,0 +1,16 @@
+digraph stringsAreEquiv {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa3ff18 -> BB75aa3ff31 [color="blue"];
+  BB75aa3ff31 -> BB75aa3ff31 [color="green"];
+  BB75aa3ff31 -> BB75aa3ff3a [color="red"];
+  BB75aa3ff3a -> BB75aa3ff97 [color="green"];
+  BB75aa3ff3a -> BB75aa3ff4f [color="red"];
+  BB75aa3ff4f -> BB75aa3ff56 [color="blue"];
+  BB75aa3ff56 -> BB75aa3ff94 [color="green"];
+  BB75aa3ff56 -> BB75aa3ff5b [color="red"];
+  BB75aa3ff5b -> BB75aa3ff97 [color="green"];
+  BB75aa3ff5b -> BB75aa3ff90 [color="red"];
+  BB75aa3ff90 -> BB75aa3ff56 [color="blue"];
+  BB75aa3ff94 -> BB75aa3ff97 [color="blue"];
+}

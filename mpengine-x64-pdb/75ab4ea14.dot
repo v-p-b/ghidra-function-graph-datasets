@@ -1,0 +1,18 @@
+digraph exprListAppendList {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab4ea14 -> BB75ab4ea95 [color="green"];
+  BB75ab4ea14 -> BB75ab4ea3a [color="red"];
+  BB75ab4ea3a -> BB75ab4ea43 [color="green"];
+  BB75ab4ea3a -> BB75ab4ea3f [color="red"];
+  BB75ab4ea3f -> BB75ab4ea45 [color="blue"];
+  BB75ab4ea43 -> BB75ab4ea45 [color="blue"];
+  BB75ab4ea45 -> BB75ab4ea95 [color="green"];
+  BB75ab4ea45 -> BB75ab4ea4c [color="red"];
+  BB75ab4ea4c -> BB75ab4ea5d [color="blue"];
+  BB75ab4ea5d -> BB75ab4ea8b [color="green"];
+  BB75ab4ea5d -> BB75ab4ea82 [color="red"];
+  BB75ab4ea82 -> BB75ab4ea8b [color="blue"];
+  BB75ab4ea8b -> BB75ab4ea5d [color="green"];
+  BB75ab4ea8b -> BB75ab4ea95 [color="red"];
+}

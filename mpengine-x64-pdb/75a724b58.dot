@@ -1,0 +1,11 @@
+digraph GetInvolvedDocumentForRule {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a724b58 -> BB75a724b9d [color="green"];
+  BB75a724b58 -> BB75a724b8e [color="red"];
+  BB75a724b8e -> BB75a724b99 [color="green"];
+  BB75a724b8e -> BB75a724b94 [color="red"];
+  BB75a724b94 -> BB75a724b99 [color="red"];
+  BB75a724b99 -> BB75a724bbd [color="blue"];
+  BB75a724b9d -> BB75a724bbd [color="red"];
+}

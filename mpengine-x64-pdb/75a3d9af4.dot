@@ -1,0 +1,12 @@
+digraph xray_block {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3d9af4 -> BB75a3d9b59 [color="green"];
+  BB75a3d9af4 -> BB75a3d9b26 [color="red"];
+  BB75a3d9b26 -> BB75a3d9b40 [color="red"];
+  BB75a3d9b59 -> BB75a3d9b26 [color="green"];
+  BB75a3d9b59 -> BB75a3d9b5d [color="red"];
+  BB75a3d9b5d -> BB75a3d9b40 [color="green"];
+  BB75a3d9b5d -> BB75a3d9b76 [color="red"];
+  BB75a3d9b76 -> BB75a3d9b26 [color="blue"];
+}

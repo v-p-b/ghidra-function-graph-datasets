@@ -1,0 +1,13 @@
+digraph Init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a270040 -> BB75a2700ef [color="green"];
+  BB75a270040 -> BB75a270067 [color="red"];
+  BB75a270067 -> BB75a27006c [color="blue"];
+  BB75a27006c -> BB75a2700da [color="green"];
+  BB75a27006c -> BB75a2700a0 [color="red"];
+  BB75a2700a0 -> BB75a2700da [color="red"];
+  BB75a2700ef -> BB75a27006c [color="green"];
+  BB75a2700ef -> BB75a270101 [color="red"];
+  BB75a270101 -> BB75a270067 [color="blue"];
+}

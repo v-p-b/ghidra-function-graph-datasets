@@ -1,0 +1,33 @@
+digraph get_tdt_capabilities {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3b32ac -> BB75a3b32d7 [color="green"];
+  BB75a3b32ac -> BB75a3b32cd [color="red"];
+  BB75a3b32cd -> BB75a3b32d7 [color="red"];
+  BB75a3b32d7 -> BB75a3b32e9 [color="green"];
+  BB75a3b32d7 -> BB75a3b32dd [color="red"];
+  BB75a3b32dd -> BB75a3b32e9 [color="green"];
+  BB75a3b32dd -> BB75a3b32e6 [color="red"];
+  BB75a3b32e6 -> BB75a3b32e9 [color="blue"];
+  BB75a3b32e9 -> BB75a3b32fb [color="green"];
+  BB75a3b32e9 -> BB75a3b32ef [color="red"];
+  BB75a3b32ef -> BB75a3b32fb [color="green"];
+  BB75a3b32ef -> BB75a3b32f8 [color="red"];
+  BB75a3b32f8 -> BB75a3b32fb [color="blue"];
+  BB75a3b32fb -> BB75a3b330d [color="green"];
+  BB75a3b32fb -> BB75a3b3301 [color="red"];
+  BB75a3b3301 -> BB75a3b330d [color="green"];
+  BB75a3b3301 -> BB75a3b330a [color="red"];
+  BB75a3b330a -> BB75a3b330d [color="blue"];
+  BB75a3b330d -> BB75a3b3338 [color="green"];
+  BB75a3b330d -> BB75a3b3313 [color="red"];
+  BB75a3b3313 -> BB75a3b3325 [color="green"];
+  BB75a3b3313 -> BB75a3b3318 [color="red"];
+  BB75a3b3318 -> BB75a3b3338 [color="green"];
+  BB75a3b3318 -> BB75a3b331c [color="red"];
+  BB75a3b331c -> BB75a3b3338 [color="green"];
+  BB75a3b331c -> BB75a3b3325 [color="red"];
+  BB75a3b3325 -> BB75a3b3338 [color="green"];
+  BB75a3b3325 -> BB75a3b3335 [color="red"];
+  BB75a3b3335 -> BB75a3b3338 [color="blue"];
+}

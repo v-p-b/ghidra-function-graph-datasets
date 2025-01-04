@@ -1,0 +1,10 @@
+digraph contextMalloc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6262dc -> BB75a626317 [color="green"];
+  BB75a6262dc -> BB75a6262f9 [color="red"];
+  BB75a6262f9 -> BB75a62633b [color="green"];
+  BB75a6262f9 -> BB75a626309 [color="red"];
+  BB75a626317 -> BB75a626309 [color="blue"];
+  BB75a62633b -> BB75a626309 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph MpCatchupQuickScanDaysDue {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8a0390 -> BB75a8a03ad [color="green"];
+  BB75a8a0390 -> BB75a8a03a0 [color="red"];
+  BB75a8a03a0 -> BB75a8a03ad [color="green"];
+  BB75a8a03a0 -> BB75a8a03a9 [color="red"];
+  BB75a8a03a9 -> BB75a8a03e0 [color="blue"];
+  BB75a8a03ad -> BB75a8a03db [color="green"];
+  BB75a8a03ad -> BB75a8a03c0 [color="red"];
+  BB75a8a03c0 -> BB75a8a03db [color="green"];
+  BB75a8a03c0 -> BB75a8a03c6 [color="red"];
+  BB75a8a03c6 -> BB75a8a03db [color="red"];
+  BB75a8a03db -> BB75a8a03e0 [color="blue"];
+}

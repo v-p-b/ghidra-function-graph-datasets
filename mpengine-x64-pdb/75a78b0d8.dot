@@ -1,0 +1,11 @@
+digraph __vcrt_initialize_locks {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a78b0d8 -> BB75a78b0e0 [color="blue"];
+  BB75a78b0e0 -> BB75a78b112 [color="green"];
+  BB75a78b0e0 -> BB75a78b101 [color="red"];
+  BB75a78b101 -> BB75a78b0e0 [color="green"];
+  BB75a78b101 -> BB75a78b10e [color="red"];
+  BB75a78b10e -> BB75a78b119 [color="blue"];
+  BB75a78b112 -> BB75a78b119 [color="red"];
+}

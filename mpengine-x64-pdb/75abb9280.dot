@@ -1,0 +1,12 @@
+digraph pop64 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb9280 -> BB75abb92de [color="green"];
+  BB75abb9280 -> BB75abb92b0 [color="red"];
+  BB75abb92b0 -> BB75abb92e3 [color="green"];
+  BB75abb92b0 -> BB75abb92c3 [color="red"];
+  BB75abb92c3 -> BB75abb92e3 [color="green"];
+  BB75abb92c3 -> BB75abb92c9 [color="red"];
+  BB75abb92c9 -> BB75abb92e3 [color="blue"];
+  BB75abb92de -> BB75abb92e3 [color="blue"];
+}

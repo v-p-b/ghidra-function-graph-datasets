@@ -1,0 +1,9 @@
+digraph triggerEvent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1780f4 -> BB75a178134 [color="green"];
+  BB75a1780f4 -> BB75a178108 [color="red"];
+  BB75a178108 -> BB75a178134 [color="green"];
+  BB75a178108 -> BB75a17812c [color="red"];
+  BB75a178134 -> BB75a17812c [color="blue"];
+}

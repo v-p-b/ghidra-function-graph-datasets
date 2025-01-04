@@ -1,0 +1,10 @@
+digraph RemoveAll {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a761e18 -> BB75a761e46 [color="green"];
+  BB75a761e18 -> BB75a761e32 [color="red"];
+  BB75a761e32 -> BB75a761e46 [color="green"];
+  BB75a761e32 -> BB75a761e3d [color="red"];
+  BB75a761e3d -> BB75a761e4b [color="blue"];
+  BB75a761e46 -> BB75a761e4b [color="blue"];
+}

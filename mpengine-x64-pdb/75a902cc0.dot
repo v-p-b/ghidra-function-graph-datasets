@@ -1,0 +1,14 @@
+digraph scan_for_child_processes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a902cc0 -> BB75a902cec [color="red"];
+  BB75a902cec -> BB75a902cef [color="blue"];
+  BB75a902cef -> BB75a902d1e [color="green"];
+  BB75a902cef -> BB75a902cf4 [color="red"];
+  BB75a902cf4 -> BB75a902cec [color="green"];
+  BB75a902cf4 -> BB75a902d0a [color="red"];
+  BB75a902d0a -> BB75a902cef [color="blue"];
+  BB75a902d1e -> BB75a902d66 [color="green"];
+  BB75a902d1e -> BB75a902d60 [color="red"];
+  BB75a902d60 -> BB75a902d66 [color="red"];
+}

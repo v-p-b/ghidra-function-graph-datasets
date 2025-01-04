@@ -1,0 +1,10 @@
+digraph pagerRollbackWal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a45c1d8 -> BB75a45c22f [color="green"];
+  BB75a45c1d8 -> BB75a45c212 [color="red"];
+  BB75a45c212 -> BB75a45c22f [color="green"];
+  BB75a45c212 -> BB75a45c216 [color="red"];
+  BB75a45c216 -> BB75a45c212 [color="green"];
+  BB75a45c216 -> BB75a45c22f [color="red"];
+}

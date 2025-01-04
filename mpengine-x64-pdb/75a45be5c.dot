@@ -1,0 +1,33 @@
+digraph sqlite3PagerSavepoint {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a45be5c -> BB75a45befa [color="green"];
+  BB75a45be5c -> BB75a45be88 [color="red"];
+  BB75a45be88 -> BB75a45befa [color="green"];
+  BB75a45be88 -> BB75a45be93 [color="red"];
+  BB75a45be93 -> BB75a45bf1b [color="green"];
+  BB75a45be93 -> BB75a45bea6 [color="red"];
+  BB75a45bea6 -> BB75a45bee0 [color="green"];
+  BB75a45bea6 -> BB75a45beb2 [color="red"];
+  BB75a45beb2 -> BB75a45befa [color="green"];
+  BB75a45beb2 -> BB75a45beb6 [color="red"];
+  BB75a45beb6 -> BB75a45befa [color="green"];
+  BB75a45beb6 -> BB75a45bec2 [color="red"];
+  BB75a45bec2 -> BB75a45bedb [color="green"];
+  BB75a45bec2 -> BB75a45bece [color="red"];
+  BB75a45bece -> BB75a45bedb [color="red"];
+  BB75a45bedb -> BB75a45befa [color="blue"];
+  BB75a45bee0 -> BB75a45bf4a [color="green"];
+  BB75a45bee0 -> BB75a45bee9 [color="red"];
+  BB75a45bee9 -> BB75a45bf55 [color="green"];
+  BB75a45bee9 -> BB75a45beed [color="red"];
+  BB75a45beed -> BB75a45befa [color="red"];
+  BB75a45bf1b -> BB75a45bf26 [color="blue"];
+  BB75a45bf26 -> BB75a45bea6 [color="green"];
+  BB75a45bf26 -> BB75a45bf48 [color="red"];
+  BB75a45bf48 -> BB75a45bf26 [color="blue"];
+  BB75a45bf4a -> BB75a45befa [color="green"];
+  BB75a45bf4a -> BB75a45bf53 [color="red"];
+  BB75a45bf53 -> BB75a45bee9 [color="blue"];
+  BB75a45bf55 -> BB75a45beed [color="blue"];
+}

@@ -1,0 +1,9 @@
+digraph DmgPartition {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac51500 -> BB75ac51570 [color="green"];
+  BB75ac51500 -> BB75ac51559 [color="red"];
+  BB75ac51559 -> BB75ac51570 [color="green"];
+  BB75ac51559 -> BB75ac5156b [color="red"];
+  BB75ac5156b -> BB75ac51570 [color="red"];
+}

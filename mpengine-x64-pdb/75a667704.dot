@@ -1,0 +1,24 @@
+digraph GetMaxSector {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a667704 -> BB75a66772c [color="green"];
+  BB75a667704 -> BB75a667727 [color="red"];
+  BB75a667727 -> BB75a66772c [color="red"];
+  BB75a66772c -> BB75a667738 [color="green"];
+  BB75a66772c -> BB75a667733 [color="red"];
+  BB75a667733 -> BB75a667738 [color="red"];
+  BB75a667738 -> BB75a667770 [color="red"];
+  BB75a667770 -> BB75a667806 [color="green"];
+  BB75a667770 -> BB75a667779 [color="red"];
+  BB75a667779 -> BB75a667806 [color="green"];
+  BB75a667779 -> BB75a667783 [color="red"];
+  BB75a667783 -> BB75a667806 [color="green"];
+  BB75a667783 -> BB75a66779d [color="red"];
+  BB75a66779d -> BB75a667806 [color="green"];
+  BB75a66779d -> BB75a6677cd [color="red"];
+  BB75a6677cd -> BB75a667770 [color="blue"];
+  BB75a667806 -> BB75a667837 [color="green"];
+  BB75a667806 -> BB75a667832 [color="red"];
+  BB75a667832 -> BB75a667843 [color="blue"];
+  BB75a667837 -> BB75a667843 [color="blue"];
+}

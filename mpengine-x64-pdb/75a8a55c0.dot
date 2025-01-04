@@ -1,0 +1,14 @@
+digraph UseSha1OnlyForWatsonBucketingEnd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8a55c0 -> BB75a8a55e1 [color="green"];
+  BB75a8a55c0 -> BB75a8a55d4 [color="red"];
+  BB75a8a55d4 -> BB75a8a55e1 [color="green"];
+  BB75a8a55d4 -> BB75a8a55dd [color="red"];
+  BB75a8a55dd -> BB75a8a560f [color="blue"];
+  BB75a8a55e1 -> BB75a8a560f [color="green"];
+  BB75a8a55e1 -> BB75a8a55f4 [color="red"];
+  BB75a8a55f4 -> BB75a8a560f [color="green"];
+  BB75a8a55f4 -> BB75a8a55fa [color="red"];
+  BB75a8a55fa -> BB75a8a560f [color="red"];
+}

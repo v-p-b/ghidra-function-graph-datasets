@@ -1,0 +1,13 @@
+digraph _Emplace_reallocate<class_BmTrustedPerfRule> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4048c0 -> BB75a4049ec [color="green"];
+  BB75a4048c0 -> BB75a40492f [color="red"];
+  BB75a40492f -> BB75a40496a [color="green"];
+  BB75a40492f -> BB75a40495f [color="red"];
+  BB75a40495f -> BB75a40496a [color="blue"];
+  BB75a40496a -> BB75a4049f9 [color="green"];
+  BB75a40496a -> BB75a4049c2 [color="red"];
+  BB75a4049ec -> BB75a4049f9 [color="red"];
+  BB75a4049f9 -> BB75a4049c2 [color="blue"];
+}

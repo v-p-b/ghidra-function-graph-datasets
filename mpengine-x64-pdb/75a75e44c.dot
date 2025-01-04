@@ -1,0 +1,10 @@
+digraph GetFirstRelatedResource {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a75e44c -> BB75a75e475 [color="green"];
+  BB75a75e44c -> BB75a75e470 [color="red"];
+  BB75a75e470 -> BB75a75e475 [color="red"];
+  BB75a75e475 -> BB75a75e47f [color="green"];
+  BB75a75e475 -> BB75a75e47a [color="red"];
+  BB75a75e47a -> BB75a75e47f [color="red"];
+}

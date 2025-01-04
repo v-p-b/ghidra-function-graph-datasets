@@ -1,0 +1,22 @@
+digraph _unhalted_ratio_check_dependencies {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7478c8 -> BB75a747904 [color="green"];
+  BB75a7478c8 -> BB75a7478fa [color="red"];
+  BB75a7478fa -> BB75a747a09 [color="green"];
+  BB75a7478fa -> BB75a747904 [color="red"];
+  BB75a747904 -> BB75a747a09 [color="green"];
+  BB75a747904 -> BB75a74799c [color="red"];
+  BB75a74799c -> BB75a7479fa [color="green"];
+  BB75a74799c -> BB75a7479ee [color="red"];
+  BB75a7479ee -> BB75a747a09 [color="blue"];
+  BB75a7479fa -> BB75a747a09 [color="red"];
+  BB75a747a09 -> BB75a747b43 [color="green"];
+  BB75a747a09 -> BB75a747a13 [color="red"];
+  BB75a747a13 -> BB75a747b43 [color="green"];
+  BB75a747a13 -> BB75a747aaf [color="red"];
+  BB75a747aaf -> BB75a747b34 [color="green"];
+  BB75a747aaf -> BB75a747b28 [color="red"];
+  BB75a747b28 -> BB75a747b43 [color="blue"];
+  BB75a747b34 -> BB75a747b43 [color="red"];
+}

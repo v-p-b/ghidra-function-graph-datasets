@@ -1,0 +1,19 @@
+digraph sqlite3ExprIsInteger {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a294ae8 -> BB75a294b22 [color="green"];
+  BB75a294ae8 -> BB75a294afc [color="red"];
+  BB75a294afc -> BB75a294b26 [color="green"];
+  BB75a294afc -> BB75a294b05 [color="red"];
+  BB75a294b05 -> BB75a294b42 [color="green"];
+  BB75a294b05 -> BB75a294b10 [color="red"];
+  BB75a294b10 -> BB75a294b32 [color="green"];
+  BB75a294b10 -> BB75a294b15 [color="red"];
+  BB75a294b15 -> BB75a294b17 [color="blue"];
+  BB75a294b22 -> BB75a294b17 [color="blue"];
+  BB75a294b26 -> BB75a294b17 [color="blue"];
+  BB75a294b32 -> BB75a294b15 [color="blue"];
+  BB75a294b42 -> BB75a294b15 [color="green"];
+  BB75a294b42 -> BB75a294b58 [color="red"];
+  BB75a294b58 -> BB75a294b15 [color="blue"];
+}

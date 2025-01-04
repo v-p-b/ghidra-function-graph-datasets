@@ -1,0 +1,15 @@
+digraph _malloc_base {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a774688 -> BB75a7746d3 [color="green"];
+  BB75a774688 -> BB75a774697 [color="red"];
+  BB75a774697 -> BB75a7746ba [color="blue"];
+  BB75a7746a5 -> BB75a7746d3 [color="green"];
+  BB75a7746a5 -> BB75a7746ae [color="red"];
+  BB75a7746ae -> BB75a7746d3 [color="green"];
+  BB75a7746ae -> BB75a7746ba [color="red"];
+  BB75a7746ba -> BB75a7746a5 [color="green"];
+  BB75a7746ba -> BB75a7746d1 [color="red"];
+  BB75a7746d1 -> BB75a7746e0 [color="blue"];
+  BB75a7746d3 -> BB75a7746e0 [color="red"];
+}

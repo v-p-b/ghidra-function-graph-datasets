@@ -1,0 +1,13 @@
+digraph ThreatToBMReport {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab4bfbc -> BB75ab4c00b [color="green"];
+  BB75ab4bfbc -> BB75ab4bfd6 [color="red"];
+  BB75ab4bfd6 -> BB75ab4c004 [color="green"];
+  BB75ab4bfd6 -> BB75ab4bfe9 [color="red"];
+  BB75ab4bfe9 -> BB75ab4c004 [color="green"];
+  BB75ab4bfe9 -> BB75ab4bfef [color="red"];
+  BB75ab4bfef -> BB75ab4c004 [color="red"];
+  BB75ab4c004 -> BB75ab4c017 [color="blue"];
+  BB75ab4c00b -> BB75ab4c017 [color="blue"];
+}

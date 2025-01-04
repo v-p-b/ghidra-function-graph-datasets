@@ -1,0 +1,16 @@
+digraph search_cnext_ex<unsigned_long> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1a303c -> BB75a1a3104 [color="green"];
+  BB75a1a303c -> BB75a1a3072 [color="red"];
+  BB75a1a3072 -> BB75a1a30a0 [color="green"];
+  BB75a1a3072 -> BB75a1a308b [color="red"];
+  BB75a1a30a0 -> BB75a1a30a6 [color="blue"];
+  BB75a1a30a6 -> BB75a1a3104 [color="green"];
+  BB75a1a30a6 -> BB75a1a30ab [color="red"];
+  BB75a1a30ab -> BB75a1a30c9 [color="green"];
+  BB75a1a30ab -> BB75a1a30bf [color="red"];
+  BB75a1a30bf -> BB75a1a30a6 [color="blue"];
+  BB75a1a30c9 -> BB75a1a308b [color="blue"];
+  BB75a1a3104 -> BB75a1a308b [color="blue"];
+}

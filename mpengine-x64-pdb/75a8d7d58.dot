@@ -1,0 +1,10 @@
+digraph trim_values_older_than_for_second_range {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8d7d58 -> BB75a8d7d9d [color="green"];
+  BB75a8d7d58 -> BB75a8d7d78 [color="red"];
+  BB75a8d7d78 -> BB75a8d7d9d [color="green"];
+  BB75a8d7d78 -> BB75a8d7d85 [color="red"];
+  BB75a8d7d85 -> BB75a8d7d78 [color="green"];
+  BB75a8d7d85 -> BB75a8d7d9d [color="red"];
+}

@@ -1,0 +1,14 @@
+digraph ResetLocalInheritList {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1d880c -> BB75a1d8835 [color="green"];
+  BB75a1d880c -> BB75a1d8823 [color="red"];
+  BB75a1d8835 -> BB75a1d884f [color="green"];
+  BB75a1d8835 -> BB75a1d8843 [color="red"];
+  BB75a1d8843 -> BB75a1d8823 [color="green"];
+  BB75a1d8843 -> BB75a1d884d [color="red"];
+  BB75a1d884d -> BB75a1d8835 [color="blue"];
+  BB75a1d884f -> BB75a1d8843 [color="green"];
+  BB75a1d884f -> BB75a1d885d [color="red"];
+  BB75a1d885d -> BB75a1d8843 [color="blue"];
+}

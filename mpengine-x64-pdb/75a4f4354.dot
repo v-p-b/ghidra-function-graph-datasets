@@ -1,0 +1,14 @@
+digraph ZSTD_seqToCodes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4f4354 -> BB75a4f43be [color="green"];
+  BB75a4f4354 -> BB75a4f438a [color="red"];
+  BB75a4f438a -> BB75a4f438a [color="green"];
+  BB75a4f438a -> BB75a4f43be [color="red"];
+  BB75a4f43be -> BB75a4f43e1 [color="green"];
+  BB75a4f43be -> BB75a4f43c5 [color="red"];
+  BB75a4f43c5 -> BB75a4f43eb [color="green"];
+  BB75a4f43c5 -> BB75a4f43cc [color="red"];
+  BB75a4f43e1 -> BB75a4f43c5 [color="blue"];
+  BB75a4f43eb -> BB75a4f43cc [color="blue"];
+}

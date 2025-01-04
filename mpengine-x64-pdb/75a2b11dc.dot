@@ -1,0 +1,21 @@
+digraph CRC_1 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2b11dc -> BB75a2b1344 [color="green"];
+  BB75a2b11dc -> BB75a2b1221 [color="red"];
+  BB75a2b1221 -> BB75a2b122b [color="blue"];
+  BB75a2b122b -> BB75a2b131d [color="green"];
+  BB75a2b122b -> BB75a2b1241 [color="red"];
+  BB75a2b1241 -> BB75a2b12e4 [color="green"];
+  BB75a2b1241 -> BB75a2b124e [color="red"];
+  BB75a2b124e -> BB75a2b124e [color="green"];
+  BB75a2b124e -> BB75a2b12e4 [color="red"];
+  BB75a2b12e4 -> BB75a2b130a [color="green"];
+  BB75a2b12e4 -> BB75a2b12e9 [color="red"];
+  BB75a2b12e9 -> BB75a2b12e9 [color="green"];
+  BB75a2b12e9 -> BB75a2b130a [color="red"];
+  BB75a2b131d -> BB75a2b1241 [color="green"];
+  BB75a2b131d -> BB75a2b1342 [color="red"];
+  BB75a2b1342 -> BB75a2b131d [color="blue"];
+  BB75a2b1344 -> BB75a2b122b [color="blue"];
+}

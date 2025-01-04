@@ -1,0 +1,8 @@
+digraph EntropyBuff {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a50dd1c -> BB75a50dd75 [color="green"];
+  BB75a50dd1c -> BB75a50dd63 [color="red"];
+  BB75a50dd63 -> BB75a50dd63 [color="green"];
+  BB75a50dd63 -> BB75a50dd75 [color="red"];
+}

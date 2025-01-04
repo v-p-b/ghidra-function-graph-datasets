@@ -1,0 +1,11 @@
+digraph startsWithUncb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a14df28 -> BB75a14df54 [color="green"];
+  BB75a14df28 -> BB75a14df3d [color="red"];
+  BB75a14df3d -> BB75a14df61 [color="green"];
+  BB75a14df3d -> BB75a14df54 [color="red"];
+  BB75a14df61 -> BB75a14df54 [color="green"];
+  BB75a14df61 -> BB75a14df68 [color="red"];
+  BB75a14df68 -> BB75a14df54 [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph GetDWORD {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a60bf00 -> BB75a60bf1a [color="green"];
+  BB75a60bf00 -> BB75a60bf16 [color="red"];
+  BB75a60bf16 -> BB75a60bf1a [color="blue"];
+  BB75a60bf1a -> BB75a60bf38 [color="green"];
+  BB75a60bf1a -> BB75a60bf23 [color="red"];
+  BB75a60bf23 -> BB75a60bf40 [color="green"];
+  BB75a60bf23 -> BB75a60bf28 [color="red"];
+  BB75a60bf28 -> BB75a60bf33 [color="red"];
+  BB75a60bf33 -> BB75a60bf38 [color="red"];
+  BB75a60bf40 -> BB75a60bf56 [color="green"];
+  BB75a60bf40 -> BB75a60bf46 [color="red"];
+  BB75a60bf46 -> BB75a60bf38 [color="blue"];
+  BB75a60bf56 -> BB75a60bf33 [color="blue"];
+}

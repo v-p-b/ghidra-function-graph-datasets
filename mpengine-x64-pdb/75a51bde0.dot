@@ -1,0 +1,14 @@
+digraph GetUserHandleFromSid {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a51bde0 -> BB75a51be30 [color="green"];
+  BB75a51bde0 -> BB75a51be00 [color="red"];
+  BB75a51be00 -> BB75a51be27 [color="green"];
+  BB75a51be00 -> BB75a51be22 [color="red"];
+  BB75a51be22 -> BB75a51be27 [color="red"];
+  BB75a51be27 -> BB75a51be2a [color="blue"];
+  BB75a51be30 -> BB75a51be3f [color="green"];
+  BB75a51be30 -> BB75a51be3a [color="red"];
+  BB75a51be3a -> BB75a51be3f [color="red"];
+  BB75a51be3f -> BB75a51be2a [color="blue"];
+}

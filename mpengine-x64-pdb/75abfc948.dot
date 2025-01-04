@@ -1,0 +1,20 @@
+digraph ZSTD_compress_insertDictionary {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abfc948 -> BB75abfca39 [color="green"];
+  BB75abfc948 -> BB75abfc986 [color="red"];
+  BB75abfc986 -> BB75abfca39 [color="green"];
+  BB75abfc986 -> BB75abfc998 [color="red"];
+  BB75abfc998 -> BB75abfc9db [color="green"];
+  BB75abfc998 -> BB75abfc9a3 [color="red"];
+  BB75abfc9a3 -> BB75abfca4b [color="blue"];
+  BB75abfc9db -> BB75abfc9f7 [color="green"];
+  BB75abfc9db -> BB75abfc9e3 [color="red"];
+  BB75abfc9e3 -> BB75abfc9a3 [color="green"];
+  BB75abfc9e3 -> BB75abfc9e8 [color="red"];
+  BB75abfc9e8 -> BB75abfc9f7 [color="green"];
+  BB75abfc9e8 -> BB75abfc9ee [color="red"];
+  BB75abfc9ee -> BB75abfca4b [color="blue"];
+  BB75abfc9f7 -> BB75abfca4b [color="blue"];
+  BB75abfca39 -> BB75abfca4b [color="blue"];
+}

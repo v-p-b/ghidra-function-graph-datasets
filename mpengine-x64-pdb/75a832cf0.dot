@@ -1,0 +1,9 @@
+digraph LogDetection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a832cf0 -> BB75a832d94 [color="green"];
+  BB75a832cf0 -> BB75a832d20 [color="red"];
+  BB75a832d20 -> BB75a832d94 [color="green"];
+  BB75a832d20 -> BB75a832d8c [color="red"];
+  BB75a832d8c -> BB75a832d94 [color="red"];
+}

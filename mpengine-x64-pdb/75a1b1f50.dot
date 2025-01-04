@@ -1,0 +1,9 @@
+digraph is_fusion_enabled {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1b1f50 -> BB75a1b1f69 [color="green"];
+  BB75a1b1f50 -> BB75a1b1f5e [color="red"];
+  BB75a1b1f5e -> BB75a1b1f69 [color="green"];
+  BB75a1b1f5e -> BB75a1b1f67 [color="red"];
+  BB75a1b1f67 -> BB75a1b1f69 [color="blue"];
+}

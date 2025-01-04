@@ -1,0 +1,18 @@
+digraph ensure_buffer_is_big_enough<char> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a78c4b4 -> BB75a78c4eb [color="green"];
+  BB75a78c4b4 -> BB75a78c4da [color="red"];
+  BB75a78c4da -> BB75a78c547 [color="blue"];
+  BB75a78c4eb -> BB75a78c503 [color="green"];
+  BB75a78c4eb -> BB75a78c4fa [color="red"];
+  BB75a78c4fa -> BB75a78c50c [color="green"];
+  BB75a78c4fa -> BB75a78c503 [color="red"];
+  BB75a78c503 -> BB75a78c510 [color="green"];
+  BB75a78c503 -> BB75a78c50c [color="red"];
+  BB75a78c50c -> BB75a78c547 [color="blue"];
+  BB75a78c510 -> BB75a78c53d [color="green"];
+  BB75a78c510 -> BB75a78c520 [color="red"];
+  BB75a78c520 -> BB75a78c53d [color="red"];
+  BB75a78c53d -> BB75a78c547 [color="red"];
+}

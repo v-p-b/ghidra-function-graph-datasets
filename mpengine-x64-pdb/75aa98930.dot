@@ -1,0 +1,26 @@
+digraph ThreadPriorityBoostHelper {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa98930 -> BB75aa98a63 [color="green"];
+  BB75aa98930 -> BB75aa98966 [color="red"];
+  BB75aa98966 -> BB75aa98a63 [color="green"];
+  BB75aa98966 -> BB75aa98990 [color="red"];
+  BB75aa98990 -> BB75aa989f7 [color="green"];
+  BB75aa98990 -> BB75aa989a8 [color="red"];
+  BB75aa989a8 -> BB75aa989e9 [color="green"];
+  BB75aa989a8 -> BB75aa989b4 [color="red"];
+  BB75aa989b4 -> BB75aa989e9 [color="green"];
+  BB75aa989b4 -> BB75aa989ba [color="red"];
+  BB75aa989ba -> BB75aa989e9 [color="red"];
+  BB75aa989e9 -> BB75aa989f7 [color="blue"];
+  BB75aa989f7 -> BB75aa98a63 [color="green"];
+  BB75aa989f7 -> BB75aa989fd [color="red"];
+  BB75aa989fd -> BB75aa98a38 [color="green"];
+  BB75aa989fd -> BB75aa98a09 [color="red"];
+  BB75aa98a09 -> BB75aa98a38 [color="green"];
+  BB75aa98a09 -> BB75aa98a0f [color="red"];
+  BB75aa98a0f -> BB75aa98a38 [color="red"];
+  BB75aa98a38 -> BB75aa98a63 [color="green"];
+  BB75aa98a38 -> BB75aa98a58 [color="red"];
+  BB75aa98a58 -> BB75aa98a63 [color="blue"];
+}

@@ -1,0 +1,23 @@
+digraph trojan_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa261f0 -> BB75aa2637a [color="green"];
+  BB75aa261f0 -> BB75aa2635b [color="red"];
+  BB75aa2635b -> BB75aa2637a [color="red"];
+  BB75aa2637a -> BB75aa263ec [color="green"];
+  BB75aa2637a -> BB75aa263cc [color="red"];
+  BB75aa263cc -> BB75aa263ec [color="red"];
+  BB75aa263ec -> BB75aa263fb [color="blue"];
+  BB75aa263fb -> BB75aa26509 [color="green"];
+  BB75aa263fb -> BB75aa264ac [color="red"];
+  BB75aa264ac -> BB75aa26502 [color="green"];
+  BB75aa264ac -> BB75aa264f2 [color="red"];
+  BB75aa264f2 -> BB75aa264f2 [color="green"];
+  BB75aa264f2 -> BB75aa26502 [color="red"];
+  BB75aa26502 -> BB75aa2660e [color="blue"];
+  BB75aa26509 -> BB75aa2660c [color="green"];
+  BB75aa26509 -> BB75aa265fc [color="red"];
+  BB75aa265fc -> BB75aa265fc [color="green"];
+  BB75aa265fc -> BB75aa2660c [color="red"];
+  BB75aa2660c -> BB75aa2660e [color="blue"];
+}

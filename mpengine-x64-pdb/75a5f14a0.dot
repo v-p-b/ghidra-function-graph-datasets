@@ -1,0 +1,28 @@
+digraph MmCopyMemory {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5f14a0 -> BB75a5f1555 [color="green"];
+  BB75a5f14a0 -> BB75a5f14c8 [color="red"];
+  BB75a5f14c8 -> BB75a5f14fb [color="blue"];
+  BB75a5f14fb -> BB75a5f155c [color="green"];
+  BB75a5f14fb -> BB75a5f1538 [color="red"];
+  BB75a5f1538 -> BB75a5f1540 [color="blue"];
+  BB75a5f1555 -> BB75a5f1540 [color="blue"];
+  BB75a5f155c -> BB75a5f1574 [color="green"];
+  BB75a5f155c -> BB75a5f1564 [color="red"];
+  BB75a5f1564 -> BB75a5f1583 [color="blue"];
+  BB75a5f1574 -> BB75a5f1583 [color="blue"];
+  BB75a5f1583 -> BB75a5f14fb [color="green"];
+  BB75a5f1583 -> BB75a5f1590 [color="red"];
+  BB75a5f1590 -> BB75a5f15da [color="green"];
+  BB75a5f1590 -> BB75a5f15a3 [color="red"];
+  BB75a5f15a3 -> BB75a5f15da [color="green"];
+  BB75a5f15a3 -> BB75a5f15a9 [color="red"];
+  BB75a5f15a9 -> BB75a5f15bb [color="green"];
+  BB75a5f15a9 -> BB75a5f15b3 [color="red"];
+  BB75a5f15b3 -> BB75a5f15bb [color="blue"];
+  BB75a5f15bb -> BB75a5f15da [color="red"];
+  BB75a5f15da -> BB75a5f1540 [color="green"];
+  BB75a5f15da -> BB75a5f15e8 [color="red"];
+  BB75a5f15e8 -> BB75a5f1540 [color="blue"];
+}

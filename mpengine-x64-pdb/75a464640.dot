@@ -1,0 +1,13 @@
+digraph sqlite3PagerLockingMode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a464640 -> BB75a46465f [color="green"];
+  BB75a464640 -> BB75a464644 [color="red"];
+  BB75a464644 -> BB75a46465f [color="green"];
+  BB75a464644 -> BB75a46464a [color="red"];
+  BB75a46464a -> BB75a46465c [color="green"];
+  BB75a46464a -> BB75a464656 [color="red"];
+  BB75a464656 -> BB75a46465f [color="green"];
+  BB75a464656 -> BB75a46465c [color="red"];
+  BB75a46465c -> BB75a46465f [color="blue"];
+}

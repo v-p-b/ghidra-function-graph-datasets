@@ -1,0 +1,13 @@
+digraph sqlite3VdbeTransferError {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a45d010 -> BB75a45d05a [color="green"];
+  BB75a45d010 -> BB75a45d032 [color="red"];
+  BB75a45d032 -> BB75a45d053 [color="green"];
+  BB75a45d032 -> BB75a45d03e [color="red"];
+  BB75a45d053 -> BB75a45d03e [color="blue"];
+  BB75a45d05a -> BB75a45d08d [color="green"];
+  BB75a45d05a -> BB75a45d06e [color="red"];
+  BB75a45d06e -> BB75a45d03e [color="blue"];
+  BB75a45d08d -> BB75a45d06e [color="blue"];
+}

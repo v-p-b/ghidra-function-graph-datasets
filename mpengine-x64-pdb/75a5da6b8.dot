@@ -1,0 +1,11 @@
+digraph memcpy_s {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5da6b8 -> BB75a5da6d3 [color="green"];
+  BB75a5da6b8 -> BB75a5da6c1 [color="red"];
+  BB75a5da6c1 -> BB75a5da6ed [color="green"];
+  BB75a5da6c1 -> BB75a5da6c6 [color="red"];
+  BB75a5da6c6 -> BB75a5da6d3 [color="red"];
+  BB75a5da6d3 -> BB75a5da6e8 [color="red"];
+  BB75a5da6ed -> BB75a5da6e8 [color="blue"];
+}

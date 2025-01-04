@@ -1,0 +1,15 @@
+digraph Stream_SetAttribute {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6be1d0 -> BB75a6be22a [color="green"];
+  BB75a6be1d0 -> BB75a6be21a [color="red"];
+  BB75a6be21a -> BB75a6be232 [color="green"];
+  BB75a6be21a -> BB75a6be21e [color="red"];
+  BB75a6be21e -> BB75a6be222 [color="blue"];
+  BB75a6be22a -> BB75a6be232 [color="red"];
+  BB75a6be232 -> BB75a6be222 [color="green"];
+  BB75a6be232 -> BB75a6be245 [color="red"];
+  BB75a6be245 -> BB75a6be222 [color="green"];
+  BB75a6be245 -> BB75a6be24b [color="red"];
+  BB75a6be24b -> BB75a6be222 [color="blue"];
+}

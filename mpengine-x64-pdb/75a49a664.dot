@@ -1,0 +1,14 @@
+digraph AnomalyEventLookup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a49a664 -> BB75a49a6fe [color="green"];
+  BB75a49a664 -> BB75a49a69d [color="red"];
+  BB75a49a69d -> BB75a49a6e1 [color="green"];
+  BB75a49a69d -> BB75a49a6d9 [color="red"];
+  BB75a49a6d9 -> BB75a49a6e1 [color="red"];
+  BB75a49a6e1 -> BB75a49a6e3 [color="blue"];
+  BB75a49a6fe -> BB75a49a70d [color="green"];
+  BB75a49a6fe -> BB75a49a708 [color="red"];
+  BB75a49a708 -> BB75a49a70d [color="red"];
+  BB75a49a70d -> BB75a49a6e3 [color="blue"];
+}

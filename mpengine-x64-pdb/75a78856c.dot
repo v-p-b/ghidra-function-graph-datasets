@@ -1,0 +1,15 @@
+digraph getPointerToMember {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a78856c -> BB75a78859b [color="green"];
+  BB75a78856c -> BB75a788588 [color="red"];
+  BB75a788588 -> BB75a788654 [color="blue"];
+  BB75a78859b -> BB75a788648 [color="green"];
+  BB75a78859b -> BB75a7885ca [color="red"];
+  BB75a7885ca -> BB75a788648 [color="green"];
+  BB75a7885ca -> BB75a7885d6 [color="red"];
+  BB75a7885d6 -> BB75a788648 [color="green"];
+  BB75a7885d6 -> BB75a78862f [color="red"];
+  BB75a78862f -> BB75a788654 [color="blue"];
+  BB75a788648 -> BB75a788654 [color="blue"];
+}

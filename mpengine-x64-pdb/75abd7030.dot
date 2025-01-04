@@ -1,0 +1,15 @@
+digraph SMSRemoteInjection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abd7030 -> BB75abd704a [color="green"];
+  BB75abd7030 -> BB75abd7045 [color="red"];
+  BB75abd7045 -> BB75abd704a [color="red"];
+  BB75abd704a -> BB75abd706c [color="green"];
+  BB75abd704a -> BB75abd7054 [color="red"];
+  BB75abd7054 -> BB75abd706c [color="green"];
+  BB75abd7054 -> BB75abd7059 [color="red"];
+  BB75abd7059 -> BB75abd706c [color="green"];
+  BB75abd7059 -> BB75abd705e [color="red"];
+  BB75abd705e -> BB75abd7071 [color="blue"];
+  BB75abd706c -> BB75abd7071 [color="blue"];
+}

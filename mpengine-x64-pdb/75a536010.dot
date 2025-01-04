@@ -1,0 +1,10 @@
+digraph CallLuaSkipRules {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a536010 -> BB75a53602f [color="green"];
+  BB75a536010 -> BB75a536025 [color="red"];
+  BB75a536025 -> BB75a53602a [color="red"];
+  BB75a53602f -> BB75a536025 [color="green"];
+  BB75a53602f -> BB75a53605b [color="red"];
+  BB75a53605b -> BB75a53602a [color="blue"];
+}

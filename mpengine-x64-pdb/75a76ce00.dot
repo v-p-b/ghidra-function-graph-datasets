@@ -1,0 +1,11 @@
+digraph CertOpenStore {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a76ce00 -> BB75a76ce4d [color="green"];
+  BB75a76ce00 -> BB75a76ce2b [color="red"];
+  BB75a76ce2b -> BB75a76ce46 [color="green"];
+  BB75a76ce2b -> BB75a76ce37 [color="red"];
+  BB75a76ce37 -> BB75a76ce67 [color="blue"];
+  BB75a76ce46 -> BB75a76ce4d [color="blue"];
+  BB75a76ce4d -> BB75a76ce67 [color="red"];
+}

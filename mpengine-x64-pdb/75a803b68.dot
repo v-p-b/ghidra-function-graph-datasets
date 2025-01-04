@@ -1,0 +1,24 @@
+digraph CanCreateTempFileInPlace {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a803b68 -> BB75a803bc5 [color="green"];
+  BB75a803b68 -> BB75a803b88 [color="red"];
+  BB75a803b88 -> BB75a803bc1 [color="green"];
+  BB75a803b88 -> BB75a803b9b [color="red"];
+  BB75a803b9b -> BB75a803bc1 [color="green"];
+  BB75a803b9b -> BB75a803ba1 [color="red"];
+  BB75a803ba1 -> BB75a803bc1 [color="red"];
+  BB75a803bc1 -> BB75a803bc9 [color="blue"];
+  BB75a803bc5 -> BB75a803bc9 [color="blue"];
+  BB75a803bc9 -> BB75a803bff [color="green"];
+  BB75a803bc9 -> BB75a803bd9 [color="red"];
+  BB75a803bd9 -> BB75a803bff [color="green"];
+  BB75a803bd9 -> BB75a803beb [color="red"];
+  BB75a803beb -> BB75a803bff [color="green"];
+  BB75a803beb -> BB75a803bf0 [color="red"];
+  BB75a803bf0 -> BB75a803bff [color="green"];
+  BB75a803bf0 -> BB75a803bf6 [color="red"];
+  BB75a803bf6 -> BB75a803c01 [color="green"];
+  BB75a803bf6 -> BB75a803bff [color="red"];
+  BB75a803bff -> BB75a803c01 [color="blue"];
+}

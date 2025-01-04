@@ -1,0 +1,19 @@
+digraph Cleanup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3c27a4 -> BB75a3c2813 [color="green"];
+  BB75a3c27a4 -> BB75a3c27b5 [color="red"];
+  BB75a3c27b5 -> BB75a3c2805 [color="green"];
+  BB75a3c27b5 -> BB75a3c27be [color="red"];
+  BB75a3c27be -> BB75a3c280c [color="green"];
+  BB75a3c27be -> BB75a3c27c7 [color="red"];
+  BB75a3c27c7 -> BB75a3c27fe [color="green"];
+  BB75a3c27c7 -> BB75a3c27d0 [color="red"];
+  BB75a3c27d0 -> BB75a3c27f7 [color="green"];
+  BB75a3c27d0 -> BB75a3c27d9 [color="red"];
+  BB75a3c27f7 -> BB75a3c27d9 [color="blue"];
+  BB75a3c27fe -> BB75a3c27d0 [color="blue"];
+  BB75a3c2805 -> BB75a3c27be [color="blue"];
+  BB75a3c280c -> BB75a3c27c7 [color="blue"];
+  BB75a3c2813 -> BB75a3c27b5 [color="blue"];
+}

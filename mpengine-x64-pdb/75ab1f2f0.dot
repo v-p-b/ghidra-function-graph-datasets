@@ -1,0 +1,21 @@
+digraph RollingQueueAppendMultiNamespaced {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab1f2f0 -> BB75ab1f339 [color="green"];
+  BB75ab1f2f0 -> BB75ab1f332 [color="red"];
+  BB75ab1f332 -> BB75ab1f548 [color="blue"];
+  BB75ab1f339 -> BB75ab1f38e [color="green"];
+  BB75ab1f339 -> BB75ab1f36c [color="red"];
+  BB75ab1f38e -> BB75ab1f3b6 [color="blue"];
+  BB75ab1f3b6 -> BB75ab1f4a0 [color="green"];
+  BB75ab1f3b6 -> BB75ab1f3cb [color="red"];
+  BB75ab1f3cb -> BB75ab1f470 [color="green"];
+  BB75ab1f3cb -> BB75ab1f460 [color="red"];
+  BB75ab1f460 -> BB75ab1f484 [color="blue"];
+  BB75ab1f470 -> BB75ab1f484 [color="red"];
+  BB75ab1f484 -> BB75ab1f3b6 [color="blue"];
+  BB75ab1f4a0 -> BB75ab1f546 [color="green"];
+  BB75ab1f4a0 -> BB75ab1f506 [color="red"];
+  BB75ab1f506 -> BB75ab1f546 [color="red"];
+  BB75ab1f546 -> BB75ab1f548 [color="blue"];
+}

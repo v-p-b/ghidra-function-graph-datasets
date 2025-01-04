@@ -1,0 +1,25 @@
+digraph alu_ExGx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a23cf90 -> BB75a23d0d9 [color="green"];
+  BB75a23cf90 -> BB75a23cfdf [color="red"];
+  BB75a23cfdf -> BB75a23d090 [color="green"];
+  BB75a23cfdf -> BB75a23cfef [color="red"];
+  BB75a23cfef -> BB75a23d00c [color="blue"];
+  BB75a23d00c -> BB75a23d075 [color="green"];
+  BB75a23d00c -> BB75a23d049 [color="red"];
+  BB75a23d049 -> BB75a23d058 [color="blue"];
+  BB75a23d075 -> BB75a23d08c [color="green"];
+  BB75a23d075 -> BB75a23d087 [color="red"];
+  BB75a23d087 -> BB75a23d08c [color="blue"];
+  BB75a23d08c -> BB75a23d058 [color="blue"];
+  BB75a23d090 -> BB75a23d097 [color="blue"];
+  BB75a23d097 -> BB75a23d0ba [color="green"];
+  BB75a23d097 -> BB75a23d0ab [color="red"];
+  BB75a23d0ab -> BB75a23d0b2 [color="blue"];
+  BB75a23d0b2 -> BB75a23d00c [color="blue"];
+  BB75a23d0ba -> BB75a23cfef [color="green"];
+  BB75a23d0ba -> BB75a23d0d0 [color="red"];
+  BB75a23d0d0 -> BB75a23d0b2 [color="blue"];
+  BB75a23d0d9 -> BB75a23d097 [color="blue"];
+}

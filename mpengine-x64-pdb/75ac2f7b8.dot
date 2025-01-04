@@ -1,0 +1,16 @@
+digraph WriteRelativeSector {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac2f7b8 -> BB75ac2f7e4 [color="green"];
+  BB75ac2f7b8 -> BB75ac2f7df [color="red"];
+  BB75ac2f7df -> BB75ac2f7e4 [color="red"];
+  BB75ac2f7e4 -> BB75ac2f7f2 [color="green"];
+  BB75ac2f7e4 -> BB75ac2f7ed [color="red"];
+  BB75ac2f7ed -> BB75ac2f7f2 [color="red"];
+  BB75ac2f7f2 -> BB75ac2f83b [color="green"];
+  BB75ac2f7f2 -> BB75ac2f800 [color="red"];
+  BB75ac2f800 -> BB75ac2f83b [color="green"];
+  BB75ac2f800 -> BB75ac2f810 [color="red"];
+  BB75ac2f810 -> BB75ac2f840 [color="blue"];
+  BB75ac2f83b -> BB75ac2f840 [color="blue"];
+}

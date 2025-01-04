@@ -1,0 +1,22 @@
+digraph hips_cleanup_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7c48a0 -> BB75a7c48c3 [color="green"];
+  BB75a7c48a0 -> BB75a7c48b6 [color="red"];
+  BB75a7c48b6 -> BB75a7c48c3 [color="red"];
+  BB75a7c48c3 -> BB75a7c48c5 [color="blue"];
+  BB75a7c48c5 -> BB75a7c48f6 [color="green"];
+  BB75a7c48c5 -> BB75a7c48d8 [color="red"];
+  BB75a7c48d8 -> BB75a7c48ee [color="green"];
+  BB75a7c48d8 -> BB75a7c48e9 [color="red"];
+  BB75a7c48e9 -> BB75a7c48ee [color="red"];
+  BB75a7c48ee -> BB75a7c48f6 [color="blue"];
+  BB75a7c48f6 -> BB75a7c48c5 [color="green"];
+  BB75a7c48f6 -> BB75a7c4903 [color="red"];
+  BB75a7c4903 -> BB75a7c492c [color="green"];
+  BB75a7c4903 -> BB75a7c490f [color="red"];
+  BB75a7c490f -> BB75a7c492c [color="red"];
+  BB75a7c492c -> BB75a7c4955 [color="green"];
+  BB75a7c492c -> BB75a7c4938 [color="red"];
+  BB75a7c4938 -> BB75a7c4955 [color="red"];
+}

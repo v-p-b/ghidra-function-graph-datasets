@@ -1,0 +1,11 @@
+digraph type_case_s {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7910d8 -> BB75a791140 [color="green"];
+  BB75a7910d8 -> BB75a79111f [color="red"];
+  BB75a79111f -> BB75a79112f [color="green"];
+  BB75a79111f -> BB75a791124 [color="red"];
+  BB75a791124 -> BB75a79112f [color="blue"];
+  BB75a79112f -> BB75a79115f [color="blue"];
+  BB75a791140 -> BB75a79115f [color="red"];
+}

@@ -1,0 +1,9 @@
+digraph cpio_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac3b070 -> BB75ac3b0d1 [color="green"];
+  BB75ac3b070 -> BB75ac3b09b [color="red"];
+  BB75ac3b09b -> BB75ac3b0d1 [color="green"];
+  BB75ac3b09b -> BB75ac3b0b0 [color="red"];
+  BB75ac3b0b0 -> BB75ac3b0d1 [color="red"];
+}

@@ -1,0 +1,17 @@
+digraph ZSTD_noCompressLiterals {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac05fcc -> BB75ac0600d [color="green"];
+  BB75ac05fcc -> BB75ac06004 [color="red"];
+  BB75ac06004 -> BB75ac06058 [color="blue"];
+  BB75ac0600d -> BB75ac0603d [color="green"];
+  BB75ac0600d -> BB75ac06013 [color="red"];
+  BB75ac06013 -> BB75ac0602d [color="green"];
+  BB75ac06013 -> BB75ac06019 [color="red"];
+  BB75ac06019 -> BB75ac06046 [color="green"];
+  BB75ac06019 -> BB75ac0601f [color="red"];
+  BB75ac0601f -> BB75ac06046 [color="blue"];
+  BB75ac0602d -> BB75ac06046 [color="blue"];
+  BB75ac0603d -> BB75ac06046 [color="blue"];
+  BB75ac06046 -> BB75ac06058 [color="red"];
+}

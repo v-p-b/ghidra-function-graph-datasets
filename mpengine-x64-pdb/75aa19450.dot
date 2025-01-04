@@ -1,0 +1,24 @@
+digraph xray_probe_bmimatch {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa19450 -> BB75aa19484 [color="green"];
+  BB75aa19450 -> BB75aa1947f [color="red"];
+  BB75aa1947f -> BB75aa19484 [color="red"];
+  BB75aa19484 -> BB75aa19493 [color="green"];
+  BB75aa19484 -> BB75aa1948e [color="red"];
+  BB75aa1948e -> BB75aa19493 [color="red"];
+  BB75aa19493 -> BB75aa1949c [color="blue"];
+  BB75aa1949c -> BB75aa194e8 [color="green"];
+  BB75aa1949c -> BB75aa194a8 [color="red"];
+  BB75aa194a8 -> BB75aa194e3 [color="green"];
+  BB75aa194a8 -> BB75aa194b2 [color="red"];
+  BB75aa194b2 -> BB75aa1952c [color="green"];
+  BB75aa194b2 -> BB75aa194e1 [color="red"];
+  BB75aa194e1 -> BB75aa1952c [color="green"];
+  BB75aa194e1 -> BB75aa194e3 [color="red"];
+  BB75aa194e3 -> BB75aa1949c [color="blue"];
+  BB75aa194e8 -> BB75aa1952c [color="green"];
+  BB75aa194e8 -> BB75aa19517 [color="red"];
+  BB75aa19517 -> BB75aa1952e [color="blue"];
+  BB75aa1952c -> BB75aa1952e [color="blue"];
+}

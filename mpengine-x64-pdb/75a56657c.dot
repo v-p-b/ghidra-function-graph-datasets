@@ -1,0 +1,17 @@
+digraph write_alu_GxEx<3> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a56657c -> BB75a5665b8 [color="green"];
+  BB75a56657c -> BB75a566584 [color="red"];
+  BB75a566584 -> BB75a5665df [color="green"];
+  BB75a566584 -> BB75a56658a [color="red"];
+  BB75a56658a -> BB75a56659c [color="blue"];
+  BB75a5665b8 -> BB75a5665c4 [color="blue"];
+  BB75a5665c4 -> BB75a5665de [color="blue"];
+  BB75a5665df -> BB75a5665f5 [color="green"];
+  BB75a5665df -> BB75a5665e5 [color="red"];
+  BB75a5665e5 -> BB75a5665c4 [color="blue"];
+  BB75a5665f5 -> BB75a5665de [color="green"];
+  BB75a5665f5 -> BB75a5665fb [color="red"];
+  BB75a5665fb -> BB75a56659c [color="blue"];
+}

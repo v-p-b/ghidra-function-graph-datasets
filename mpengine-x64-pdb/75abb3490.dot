@@ -1,0 +1,16 @@
+digraph FindMotwElement {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb3490 -> BB75abb3509 [color="green"];
+  BB75abb3490 -> BB75abb34ba [color="red"];
+  BB75abb34ba -> BB75abb34be [color="blue"];
+  BB75abb34be -> BB75abb34be [color="green"];
+  BB75abb34be -> BB75abb34c7 [color="red"];
+  BB75abb34c7 -> BB75abb34ec [color="green"];
+  BB75abb34c7 -> BB75abb34df [color="red"];
+  BB75abb34df -> BB75abb3502 [color="blue"];
+  BB75abb34ec -> BB75abb3502 [color="green"];
+  BB75abb34ec -> BB75abb34f1 [color="red"];
+  BB75abb34f1 -> BB75abb3502 [color="red"];
+  BB75abb3502 -> BB75abb3509 [color="blue"];
+}

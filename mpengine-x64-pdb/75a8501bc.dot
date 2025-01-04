@@ -1,0 +1,15 @@
+digraph BootChangeResourceItem {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8501bc -> BB75a850201 [color="green"];
+  BB75a8501bc -> BB75a8501fc [color="red"];
+  BB75a8501fc -> BB75a850201 [color="red"];
+  BB75a850201 -> BB75a85020c [color="green"];
+  BB75a850201 -> BB75a850207 [color="red"];
+  BB75a850207 -> BB75a85020c [color="red"];
+  BB75a85020c -> BB75a850221 [color="green"];
+  BB75a85020c -> BB75a850217 [color="red"];
+  BB75a850217 -> BB75a850221 [color="green"];
+  BB75a850217 -> BB75a85021c [color="red"];
+  BB75a85021c -> BB75a850221 [color="red"];
+}

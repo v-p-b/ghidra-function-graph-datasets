@@ -1,0 +1,10 @@
+digraph RoFailFastWithErrorContext {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a76ffec -> BB75a770013 [color="green"];
+  BB75a76ffec -> BB75a770000 [color="red"];
+  BB75a770000 -> BB75a77001a [color="green"];
+  BB75a770000 -> BB75a77000c [color="red"];
+  BB75a77000c -> BB75a770013 [color="blue"];
+  BB75a770013 -> BB75a77001a [color="red"];
+}

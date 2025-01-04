@@ -1,0 +1,35 @@
+digraph fixup_pointers {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a12cc90 -> BB75a12cd33 [color="green"];
+  BB75a12cc90 -> BB75a12cc99 [color="red"];
+  BB75a12cc99 -> BB75a12cca9 [color="blue"];
+  BB75a12cca9 -> BB75a12cd1f [color="green"];
+  BB75a12cca9 -> BB75a12ccb2 [color="red"];
+  BB75a12ccb2 -> BB75a12cd07 [color="green"];
+  BB75a12ccb2 -> BB75a12ccb8 [color="red"];
+  BB75a12ccb8 -> BB75a12ccf8 [color="green"];
+  BB75a12ccb8 -> BB75a12ccbe [color="red"];
+  BB75a12ccbe -> BB75a12ccf8 [color="green"];
+  BB75a12ccbe -> BB75a12ccc4 [color="red"];
+  BB75a12ccc4 -> BB75a12ccf8 [color="green"];
+  BB75a12ccc4 -> BB75a12ccca [color="red"];
+  BB75a12ccca -> BB75a12ccf8 [color="green"];
+  BB75a12ccca -> BB75a12ccd0 [color="red"];
+  BB75a12ccd0 -> BB75a12ccf8 [color="green"];
+  BB75a12ccd0 -> BB75a12ccd6 [color="red"];
+  BB75a12ccd6 -> BB75a12cd34 [color="green"];
+  BB75a12ccd6 -> BB75a12ccdc [color="red"];
+  BB75a12ccdc -> BB75a12cd25 [color="green"];
+  BB75a12ccdc -> BB75a12cce8 [color="red"];
+  BB75a12cce8 -> BB75a12ccee [color="blue"];
+  BB75a12ccee -> BB75a12cca9 [color="green"];
+  BB75a12ccee -> BB75a12ccf6 [color="red"];
+  BB75a12ccf6 -> BB75a12cd29 [color="blue"];
+  BB75a12ccf8 -> BB75a12cd07 [color="blue"];
+  BB75a12cd07 -> BB75a12cd1f [color="red"];
+  BB75a12cd1f -> BB75a12ccdc [color="blue"];
+  BB75a12cd25 -> BB75a12cd29 [color="blue"];
+  BB75a12cd29 -> BB75a12cd33 [color="blue"];
+  BB75a12cd34 -> BB75a12ccee [color="blue"];
+}

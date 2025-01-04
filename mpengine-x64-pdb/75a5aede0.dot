@@ -1,0 +1,10 @@
+digraph ~processor_trace_decoder_impl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5aede0 -> BB75a5aedfd [color="green"];
+  BB75a5aede0 -> BB75a5aedf1 [color="red"];
+  BB75a5aedf1 -> BB75a5aedfd [color="red"];
+  BB75a5aedfd -> BB75a5aee15 [color="green"];
+  BB75a5aedfd -> BB75a5aee0f [color="red"];
+  BB75a5aee0f -> BB75a5aee15 [color="red"];
+}

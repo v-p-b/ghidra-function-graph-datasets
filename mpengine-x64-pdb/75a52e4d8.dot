@@ -1,0 +1,16 @@
+digraph ProcessChar {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a52e4d8 -> BB75a52e550 [color="green"];
+  BB75a52e4d8 -> BB75a52e509 [color="red"];
+  BB75a52e509 -> BB75a52e568 [color="green"];
+  BB75a52e509 -> BB75a52e518 [color="red"];
+  BB75a52e518 -> BB75a52e509 [color="green"];
+  BB75a52e518 -> BB75a52e52d [color="red"];
+  BB75a52e52d -> BB75a52e537 [color="blue"];
+  BB75a52e550 -> BB75a52e564 [color="green"];
+  BB75a52e550 -> BB75a52e55d [color="red"];
+  BB75a52e55d -> BB75a52e509 [color="blue"];
+  BB75a52e564 -> BB75a52e537 [color="blue"];
+  BB75a52e568 -> BB75a52e518 [color="blue"];
+}

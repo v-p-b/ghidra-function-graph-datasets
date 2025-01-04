@@ -1,0 +1,12 @@
+digraph DoIntegrityChecks {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a38ac6c -> BB75a38aca0 [color="green"];
+  BB75a38ac6c -> BB75a38ac95 [color="red"];
+  BB75a38aca0 -> BB75a38ac95 [color="green"];
+  BB75a38aca0 -> BB75a38aca9 [color="red"];
+  BB75a38aca9 -> BB75a38acee [color="green"];
+  BB75a38aca9 -> BB75a38ace0 [color="red"];
+  BB75a38ace0 -> BB75a38acee [color="red"];
+  BB75a38acee -> BB75a38ac95 [color="blue"];
+}

@@ -1,0 +1,20 @@
+digraph ShrinkUnits {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a71eef8 -> BB75a71ef27 [color="green"];
+  BB75a71eef8 -> BB75a71ef22 [color="red"];
+  BB75a71ef22 -> BB75a71ef27 [color="red"];
+  BB75a71ef27 -> BB75a71ef36 [color="green"];
+  BB75a71ef27 -> BB75a71ef31 [color="red"];
+  BB75a71ef31 -> BB75a71ef36 [color="red"];
+  BB75a71ef36 -> BB75a71ef45 [color="green"];
+  BB75a71ef36 -> BB75a71ef40 [color="red"];
+  BB75a71ef40 -> BB75a71ef45 [color="red"];
+  BB75a71ef45 -> BB75a71ef9c [color="green"];
+  BB75a71ef45 -> BB75a71ef5b [color="red"];
+  BB75a71ef5b -> BB75a71ef91 [color="green"];
+  BB75a71ef5b -> BB75a71ef68 [color="red"];
+  BB75a71ef68 -> BB75a71ef9f [color="blue"];
+  BB75a71ef91 -> BB75a71ef9c [color="red"];
+  BB75a71ef9c -> BB75a71ef9f [color="blue"];
+}

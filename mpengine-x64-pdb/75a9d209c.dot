@@ -1,0 +1,13 @@
+digraph create_table {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9d209c -> BB75a9d218e [color="green"];
+  BB75a9d209c -> BB75a9d20cb [color="red"];
+  BB75a9d20cb -> BB75a9d218e [color="green"];
+  BB75a9d20cb -> BB75a9d2174 [color="red"];
+  BB75a9d2174 -> BB75a9d2181 [color="green"];
+  BB75a9d2174 -> BB75a9d217b [color="red"];
+  BB75a9d217b -> BB75a9d2190 [color="blue"];
+  BB75a9d2181 -> BB75a9d2190 [color="blue"];
+  BB75a9d218e -> BB75a9d2190 [color="blue"];
+}

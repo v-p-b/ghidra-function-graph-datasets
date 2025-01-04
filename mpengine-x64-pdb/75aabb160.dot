@@ -1,0 +1,10 @@
+digraph normalize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aabb160 -> BB75aabb187 [color="green"];
+  BB75aabb160 -> BB75aabb174 [color="red"];
+  BB75aabb174 -> BB75aabb17f [color="green"];
+  BB75aabb174 -> BB75aabb17a [color="red"];
+  BB75aabb17a -> BB75aabb17f [color="red"];
+  BB75aabb17f -> BB75aabb187 [color="blue"];
+}

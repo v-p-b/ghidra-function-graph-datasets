@@ -1,0 +1,14 @@
+digraph clear_UT_flags {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a34537c -> BB75a3453c5 [color="green"];
+  BB75a34537c -> BB75a34539b [color="red"];
+  BB75a34539b -> BB75a3453dc [color="green"];
+  BB75a34539b -> BB75a3453ab [color="red"];
+  BB75a3453ab -> BB75a3453b8 [color="blue"];
+  BB75a3453b8 -> BB75a34539b [color="green"];
+  BB75a3453b8 -> BB75a3453c5 [color="red"];
+  BB75a3453dc -> BB75a3453b8 [color="green"];
+  BB75a3453dc -> BB75a3453de [color="red"];
+  BB75a3453de -> BB75a3453b8 [color="blue"];
+}

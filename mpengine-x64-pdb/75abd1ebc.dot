@@ -1,0 +1,12 @@
+digraph _Make_heap_unchecked<std::shared_ptr<BootRecordCleanStore::Volume>_*,<lambda_cc456d1110d17502d385916942ae5075>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abd1ebc -> BB75abd1f4b [color="green"];
+  BB75abd1ebc -> BB75abd1ef0 [color="red"];
+  BB75abd1ef0 -> BB75abd1efe [color="blue"];
+  BB75abd1efe -> BB75abd1f42 [color="green"];
+  BB75abd1efe -> BB75abd1f3d [color="red"];
+  BB75abd1f3d -> BB75abd1f42 [color="red"];
+  BB75abd1f42 -> BB75abd1efe [color="green"];
+  BB75abd1f42 -> BB75abd1f4b [color="red"];
+}

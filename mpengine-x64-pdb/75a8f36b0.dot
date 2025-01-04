@@ -1,0 +1,16 @@
+digraph read_all_telemetry_data {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8f36b0 -> BB75a8f374f [color="green"];
+  BB75a8f36b0 -> BB75a8f36d8 [color="red"];
+  BB75a8f36d8 -> BB75a8f374f [color="green"];
+  BB75a8f36d8 -> BB75a8f36ea [color="red"];
+  BB75a8f36ea -> BB75a8f3735 [color="green"];
+  BB75a8f36ea -> BB75a8f3709 [color="red"];
+  BB75a8f3709 -> BB75a8f372c [color="green"];
+  BB75a8f3709 -> BB75a8f370e [color="red"];
+  BB75a8f370e -> BB75a8f3735 [color="blue"];
+  BB75a8f372c -> BB75a8f3735 [color="blue"];
+  BB75a8f3735 -> BB75a8f3751 [color="blue"];
+  BB75a8f374f -> BB75a8f3751 [color="blue"];
+}

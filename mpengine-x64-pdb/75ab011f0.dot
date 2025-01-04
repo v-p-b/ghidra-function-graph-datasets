@@ -1,0 +1,14 @@
+digraph bm_lua_api_ReadProcMem {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab011f0 -> BB75ab01245 [color="green"];
+  BB75ab011f0 -> BB75ab01235 [color="red"];
+  BB75ab01245 -> BB75ab01276 [color="green"];
+  BB75ab01245 -> BB75ab01267 [color="red"];
+  BB75ab01267 -> BB75ab012a7 [color="blue"];
+  BB75ab01276 -> BB75ab012a7 [color="red"];
+  BB75ab012a7 -> BB75ab0132d [color="green"];
+  BB75ab012a7 -> BB75ab012c7 [color="red"];
+  BB75ab012c7 -> BB75ab0132d [color="green"];
+  BB75ab012c7 -> BB75ab012e8 [color="red"];
+}

@@ -1,0 +1,15 @@
+digraph alloc<char> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1cefc4 -> BB75a1cf028 [color="green"];
+  BB75a1cefc4 -> BB75a1cefe1 [color="red"];
+  BB75a1cefe1 -> BB75a1cf021 [color="green"];
+  BB75a1cefe1 -> BB75a1cefea [color="red"];
+  BB75a1cefea -> BB75a1cf021 [color="green"];
+  BB75a1cefea -> BB75a1ceff7 [color="red"];
+  BB75a1ceff7 -> BB75a1cf021 [color="green"];
+  BB75a1ceff7 -> BB75a1cf000 [color="red"];
+  BB75a1cf000 -> BB75a1cf011 [color="red"];
+  BB75a1cf021 -> BB75a1cf028 [color="blue"];
+  BB75a1cf028 -> BB75a1cf011 [color="blue"];
+}

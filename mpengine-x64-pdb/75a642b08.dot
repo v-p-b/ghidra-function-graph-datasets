@@ -1,0 +1,11 @@
+digraph UpdateSignatureRingPolicy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a642b08 -> BB75a642b4e [color="green"];
+  BB75a642b08 -> BB75a642b1c [color="red"];
+  BB75a642b1c -> BB75a642b5a [color="green"];
+  BB75a642b1c -> BB75a642b2f [color="red"];
+  BB75a642b2f -> BB75a642b5a [color="green"];
+  BB75a642b2f -> BB75a642b35 [color="red"];
+  BB75a642b4e -> BB75a642b5a [color="red"];
+}

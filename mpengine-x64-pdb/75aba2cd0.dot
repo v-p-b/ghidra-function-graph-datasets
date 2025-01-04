@@ -1,0 +1,16 @@
+digraph ShutdownEvent_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aba2cd0 -> BB75aba2cee [color="green"];
+  BB75aba2cd0 -> BB75aba2ce0 [color="red"];
+  BB75aba2ce0 -> BB75aba2cee [color="red"];
+  BB75aba2cee -> BB75aba2d3a [color="green"];
+  BB75aba2cee -> BB75aba2d05 [color="red"];
+  BB75aba2d05 -> BB75aba2d33 [color="green"];
+  BB75aba2d05 -> BB75aba2d18 [color="red"];
+  BB75aba2d18 -> BB75aba2d33 [color="green"];
+  BB75aba2d18 -> BB75aba2d1e [color="red"];
+  BB75aba2d1e -> BB75aba2d33 [color="red"];
+  BB75aba2d33 -> BB75aba2d3c [color="blue"];
+  BB75aba2d3a -> BB75aba2d3c [color="blue"];
+}

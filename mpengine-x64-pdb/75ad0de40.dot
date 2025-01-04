@@ -1,0 +1,10 @@
+digraph DumpDirtySection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad0de40 -> BB75ad0dea5 [color="green"];
+  BB75ad0de40 -> BB75ad0de60 [color="red"];
+  BB75ad0de60 -> BB75ad0dea5 [color="green"];
+  BB75ad0de60 -> BB75ad0de6b [color="red"];
+  BB75ad0de6b -> BB75ad0dea7 [color="blue"];
+  BB75ad0dea5 -> BB75ad0dea7 [color="blue"];
+}

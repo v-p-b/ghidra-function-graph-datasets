@@ -1,0 +1,16 @@
+digraph ComparePartialProcessName {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4be2a0 -> BB75a4be2d3 [color="green"];
+  BB75a4be2a0 -> BB75a4be2ca [color="red"];
+  BB75a4be2ca -> BB75a4be31d [color="green"];
+  BB75a4be2ca -> BB75a4be2d3 [color="red"];
+  BB75a4be2d3 -> BB75a4be2de [color="red"];
+  BB75a4be2de -> BB75a4be2f7 [color="green"];
+  BB75a4be2de -> BB75a4be2e2 [color="red"];
+  BB75a4be2f7 -> BB75a4be32d [color="green"];
+  BB75a4be2f7 -> BB75a4be30d [color="red"];
+  BB75a4be30d -> BB75a4be2e2 [color="blue"];
+  BB75a4be31d -> BB75a4be2de [color="blue"];
+  BB75a4be32d -> BB75a4be2e2 [color="blue"];
+}

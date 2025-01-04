@@ -1,0 +1,30 @@
+digraph PropagateMultiprocessNotification {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a744704 -> BB75a74487f [color="green"];
+  BB75a744704 -> BB75a74472c [color="red"];
+  BB75a74472c -> BB75a744798 [color="green"];
+  BB75a74472c -> BB75a74475a [color="red"];
+  BB75a74475a -> BB75a744871 [color="green"];
+  BB75a74475a -> BB75a744771 [color="red"];
+  BB75a744771 -> BB75a744871 [color="green"];
+  BB75a744771 -> BB75a74477b [color="red"];
+  BB75a74477b -> BB75a744871 [color="blue"];
+  BB75a744798 -> BB75a7447b9 [color="red"];
+  BB75a7447b9 -> BB75a744866 [color="green"];
+  BB75a7447b9 -> BB75a7447ca [color="red"];
+  BB75a7447ca -> BB75a74480c [color="green"];
+  BB75a7447ca -> BB75a7447ec [color="red"];
+  BB75a7447ec -> BB75a74480c [color="red"];
+  BB75a74480c -> BB75a744827 [color="blue"];
+  BB75a744827 -> BB75a744834 [color="green"];
+  BB75a744827 -> BB75a74482b [color="red"];
+  BB75a74482b -> BB75a7447b9 [color="blue"];
+  BB75a744834 -> BB75a744866 [color="green"];
+  BB75a744834 -> BB75a744847 [color="red"];
+  BB75a744847 -> BB75a744866 [color="green"];
+  BB75a744847 -> BB75a74484d [color="red"];
+  BB75a74484d -> BB75a744866 [color="red"];
+  BB75a744866 -> BB75a744871 [color="red"];
+  BB75a744871 -> BB75a74487f [color="red"];
+}

@@ -1,0 +1,12 @@
+digraph InitializeProcessAttributes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abafda0 -> BB75abafe0e [color="green"];
+  BB75abafda0 -> BB75abafdd3 [color="red"];
+  BB75abafdd3 -> BB75abafe95 [color="green"];
+  BB75abafdd3 -> BB75abafdea [color="red"];
+  BB75abafdea -> BB75abafe95 [color="green"];
+  BB75abafdea -> BB75abafdf4 [color="red"];
+  BB75abafdf4 -> BB75abafe95 [color="blue"];
+  BB75abafe0e -> BB75abafe95 [color="red"];
+}

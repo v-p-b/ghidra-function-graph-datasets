@@ -1,0 +1,28 @@
+digraph ReadPhysicalMemory {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acfec70 -> BB75acfecdc [color="green"];
+  BB75acfec70 -> BB75acfecaa [color="red"];
+  BB75acfecaa -> BB75acfecc1 [color="blue"];
+  BB75acfecc1 -> BB75acfecdc [color="green"];
+  BB75acfecc1 -> BB75acfecc7 [color="red"];
+  BB75acfecc7 -> BB75acfecd6 [color="green"];
+  BB75acfecc7 -> BB75acfeccc [color="red"];
+  BB75acfeccc -> BB75acfed7e [color="green"];
+  BB75acfeccc -> BB75acfecd6 [color="red"];
+  BB75acfecd6 -> BB75acfecc1 [color="blue"];
+  BB75acfecdc -> BB75acfed33 [color="green"];
+  BB75acfecdc -> BB75acfed29 [color="red"];
+  BB75acfed29 -> BB75acfed33 [color="green"];
+  BB75acfed29 -> BB75acfed2e [color="red"];
+  BB75acfed2e -> BB75acfed80 [color="blue"];
+  BB75acfed33 -> BB75acfed7e [color="green"];
+  BB75acfed33 -> BB75acfed46 [color="red"];
+  BB75acfed46 -> BB75acfed7e [color="green"];
+  BB75acfed46 -> BB75acfed4c [color="red"];
+  BB75acfed4c -> BB75acfed5e [color="green"];
+  BB75acfed4c -> BB75acfed56 [color="red"];
+  BB75acfed56 -> BB75acfed5e [color="blue"];
+  BB75acfed5e -> BB75acfed7e [color="red"];
+  BB75acfed7e -> BB75acfed80 [color="blue"];
+}

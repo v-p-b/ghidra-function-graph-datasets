@@ -1,0 +1,10 @@
+digraph transfer_swap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa7faf8 -> BB75aa7fb47 [color="green"];
+  BB75aa7faf8 -> BB75aa7fb19 [color="red"];
+  BB75aa7fb19 -> BB75aa7fb47 [color="green"];
+  BB75aa7fb19 -> BB75aa7fb2c [color="red"];
+  BB75aa7fb2c -> BB75aa7fb49 [color="blue"];
+  BB75aa7fb47 -> BB75aa7fb49 [color="blue"];
+}

@@ -1,0 +1,29 @@
+digraph SecondPhaseRemediation {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acbfbe8 -> BB75acbfd63 [color="green"];
+  BB75acbfbe8 -> BB75acbfc3b [color="red"];
+  BB75acbfc3b -> BB75acbfd63 [color="green"];
+  BB75acbfc3b -> BB75acbfc49 [color="red"];
+  BB75acbfc49 -> BB75acbfd5e [color="green"];
+  BB75acbfc49 -> BB75acbfc77 [color="red"];
+  BB75acbfc77 -> BB75acbfcbb [color="green"];
+  BB75acbfc77 -> BB75acbfcac [color="red"];
+  BB75acbfcac -> BB75acbfcbb [color="green"];
+  BB75acbfcac -> BB75acbfcb5 [color="red"];
+  BB75acbfcb5 -> BB75acbfccc [color="blue"];
+  BB75acbfcbb -> BB75acbfcd2 [color="green"];
+  BB75acbfcbb -> BB75acbfcc3 [color="red"];
+  BB75acbfcc3 -> BB75acbfcd2 [color="green"];
+  BB75acbfcc3 -> BB75acbfccc [color="red"];
+  BB75acbfccc -> BB75acbfcd5 [color="blue"];
+  BB75acbfcd2 -> BB75acbfcd5 [color="blue"];
+  BB75acbfcd5 -> BB75acbfd63 [color="green"];
+  BB75acbfcd5 -> BB75acbfd2b [color="red"];
+  BB75acbfd2b -> BB75acbfd63 [color="green"];
+  BB75acbfd2b -> BB75acbfd3e [color="red"];
+  BB75acbfd3e -> BB75acbfd63 [color="green"];
+  BB75acbfd3e -> BB75acbfd44 [color="red"];
+  BB75acbfd44 -> BB75acbfd63 [color="blue"];
+  BB75acbfd5e -> BB75acbfd63 [color="red"];
+}

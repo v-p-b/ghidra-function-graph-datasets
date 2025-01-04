@@ -1,0 +1,14 @@
+digraph whereLoopResize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a296acc -> BB75a296b06 [color="green"];
+  BB75a296acc -> BB75a296aef [color="red"];
+  BB75a296aef -> BB75a296af1 [color="blue"];
+  BB75a296b06 -> BB75a296b26 [color="green"];
+  BB75a296b06 -> BB75a296b21 [color="red"];
+  BB75a296b21 -> BB75a296af1 [color="blue"];
+  BB75a296b26 -> BB75a296b50 [color="green"];
+  BB75a296b26 -> BB75a296b48 [color="red"];
+  BB75a296b48 -> BB75a296b50 [color="red"];
+  BB75a296b50 -> BB75a296aef [color="blue"];
+}

@@ -1,0 +1,18 @@
+digraph sqlite3GetCollSeq {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab56374 -> BB75ab563b4 [color="green"];
+  BB75ab56374 -> BB75ab5639b [color="red"];
+  BB75ab5639b -> BB75ab563bb [color="green"];
+  BB75ab5639b -> BB75ab563b4 [color="red"];
+  BB75ab563b4 -> BB75ab56413 [color="green"];
+  BB75ab563b4 -> BB75ab563bb [color="red"];
+  BB75ab563bb -> BB75ab563fa [color="green"];
+  BB75ab563bb -> BB75ab563e2 [color="red"];
+  BB75ab563e2 -> BB75ab56413 [color="green"];
+  BB75ab563e2 -> BB75ab563e9 [color="red"];
+  BB75ab563e9 -> BB75ab56413 [color="green"];
+  BB75ab563e9 -> BB75ab563f8 [color="red"];
+  BB75ab563f8 -> BB75ab563fa [color="blue"];
+  BB75ab563fa -> BB75ab56413 [color="red"];
+}

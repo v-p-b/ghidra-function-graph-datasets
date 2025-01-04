@@ -1,0 +1,13 @@
+digraph sqlite3WalEndWriteTransaction {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2a6248 -> BB75a2a625f [color="green"];
+  BB75a2a6248 -> BB75a2a6257 [color="red"];
+  BB75a2a625f -> BB75a2a628d [color="green"];
+  BB75a2a625f -> BB75a2a6265 [color="red"];
+  BB75a2a6265 -> BB75a2a629b [color="green"];
+  BB75a2a6265 -> BB75a2a6286 [color="red"];
+  BB75a2a6286 -> BB75a2a628d [color="red"];
+  BB75a2a628d -> BB75a2a6257 [color="blue"];
+  BB75a2a629b -> BB75a2a628d [color="blue"];
+}

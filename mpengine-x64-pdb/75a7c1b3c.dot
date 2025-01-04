@@ -1,0 +1,12 @@
+digraph InternalCleanupMpAsimov {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7c1b3c -> BB75a7c1b5d [color="green"];
+  BB75a7c1b3c -> BB75a7c1b50 [color="red"];
+  BB75a7c1b50 -> BB75a7c1b5d [color="red"];
+  BB75a7c1b5d -> BB75a7c1b81 [color="green"];
+  BB75a7c1b5d -> BB75a7c1b66 [color="red"];
+  BB75a7c1b66 -> BB75a7c1b81 [color="green"];
+  BB75a7c1b66 -> BB75a7c1b72 [color="red"];
+  BB75a7c1b72 -> BB75a7c1b81 [color="red"];
+}

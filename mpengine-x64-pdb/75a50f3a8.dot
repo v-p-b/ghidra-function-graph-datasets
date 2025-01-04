@@ -1,0 +1,14 @@
+digraph GetLnkShortcutComponents {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a50f3a8 -> BB75a50f4de [color="green"];
+  BB75a50f3a8 -> BB75a50f470 [color="red"];
+  BB75a50f470 -> BB75a50f47e [color="green"];
+  BB75a50f470 -> BB75a50f475 [color="red"];
+  BB75a50f475 -> BB75a50f483 [color="blue"];
+  BB75a50f47e -> BB75a50f483 [color="blue"];
+  BB75a50f483 -> BB75a50f4de [color="green"];
+  BB75a50f483 -> BB75a50f485 [color="red"];
+  BB75a50f485 -> BB75a50f4e3 [color="blue"];
+  BB75a50f4de -> BB75a50f4e3 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph buffer_scan {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1bfc30 -> BB75a1bfc81 [color="green"];
+  BB75a1bfc30 -> BB75a1bfc3f [color="red"];
+  BB75a1bfc3f -> BB75a1bfc81 [color="green"];
+  BB75a1bfc3f -> BB75a1bfc45 [color="red"];
+  BB75a1bfc45 -> BB75a1bfc87 [color="green"];
+  BB75a1bfc45 -> BB75a1bfc7b [color="red"];
+  BB75a1bfc7b -> BB75a1bfc8c [color="green"];
+  BB75a1bfc7b -> BB75a1bfc81 [color="red"];
+  BB75a1bfc87 -> BB75a1bfc7b [color="blue"];
+}

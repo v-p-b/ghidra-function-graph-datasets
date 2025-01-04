@@ -1,0 +1,18 @@
+digraph search_pmgl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6966a0 -> BB75a6966d8 [color="green"];
+  BB75a6966a0 -> BB75a6966ce [color="red"];
+  BB75a6966ce -> BB75a6966d8 [color="green"];
+  BB75a6966ce -> BB75a6966d3 [color="red"];
+  BB75a6966d3 -> BB75a6966d8 [color="red"];
+  BB75a6966d8 -> BB75a6966e2 [color="green"];
+  BB75a6966d8 -> BB75a6966dd [color="red"];
+  BB75a6966dd -> BB75a6966e2 [color="red"];
+  BB75a6966e2 -> BB75a696710 [color="green"];
+  BB75a6966e2 -> BB75a69670b [color="red"];
+  BB75a69670b -> BB75a696710 [color="red"];
+  BB75a696710 -> BB75a696747 [color="green"];
+  BB75a696710 -> BB75a696716 [color="red"];
+  BB75a696716 -> BB75a696747 [color="red"];
+}

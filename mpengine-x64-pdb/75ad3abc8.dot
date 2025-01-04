@@ -1,0 +1,27 @@
+digraph StopMonitoring {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad3abc8 -> BB75ad3ac30 [color="green"];
+  BB75ad3abc8 -> BB75ad3ac11 [color="red"];
+  BB75ad3ac11 -> BB75ad3acd3 [color="blue"];
+  BB75ad3ac30 -> BB75ad3ac3a [color="green"];
+  BB75ad3ac30 -> BB75ad3ac35 [color="red"];
+  BB75ad3ac35 -> BB75ad3ac3a [color="red"];
+  BB75ad3ac3a -> BB75ad3acd3 [color="green"];
+  BB75ad3ac3a -> BB75ad3ac4e [color="red"];
+  BB75ad3ac4e -> BB75ad3ac5b [color="blue"];
+  BB75ad3ac5b -> BB75ad3ac5b [color="green"];
+  BB75ad3ac5b -> BB75ad3ac67 [color="red"];
+  BB75ad3ac67 -> BB75ad3ac7a [color="green"];
+  BB75ad3ac67 -> BB75ad3ac6b [color="red"];
+  BB75ad3ac6b -> BB75ad3acd3 [color="blue"];
+  BB75ad3ac7a -> BB75ad3acc0 [color="green"];
+  BB75ad3ac7a -> BB75ad3ac89 [color="red"];
+  BB75ad3ac89 -> BB75ad3acbb [color="green"];
+  BB75ad3ac89 -> BB75ad3ac9c [color="red"];
+  BB75ad3ac9c -> BB75ad3acbb [color="green"];
+  BB75ad3ac9c -> BB75ad3aca2 [color="red"];
+  BB75ad3aca2 -> BB75ad3acbb [color="red"];
+  BB75ad3acbb -> BB75ad3acc0 [color="red"];
+  BB75ad3acc0 -> BB75ad3acd3 [color="red"];
+}

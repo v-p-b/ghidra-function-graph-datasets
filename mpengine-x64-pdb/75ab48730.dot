@@ -1,0 +1,16 @@
+digraph TestWindowsDevicePath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab48730 -> BB75ab4877a [color="green"];
+  BB75ab48730 -> BB75ab4873c [color="red"];
+  BB75ab4873c -> BB75ab4877a [color="green"];
+  BB75ab4873c -> BB75ab48745 [color="red"];
+  BB75ab48745 -> BB75ab48775 [color="green"];
+  BB75ab48745 -> BB75ab4874e [color="red"];
+  BB75ab4874e -> BB75ab4875c [color="green"];
+  BB75ab4874e -> BB75ab48759 [color="red"];
+  BB75ab48759 -> BB75ab4875c [color="blue"];
+  BB75ab4875c -> BB75ab4877c [color="blue"];
+  BB75ab48775 -> BB75ab4877a [color="red"];
+  BB75ab4877a -> BB75ab4877c [color="blue"];
+}

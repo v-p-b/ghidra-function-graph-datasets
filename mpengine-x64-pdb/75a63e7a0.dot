@@ -1,0 +1,11 @@
+digraph cmpxchg8b {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a63e7a0 -> BB75a63e886 [color="green"];
+  BB75a63e7a0 -> BB75a63e7d3 [color="red"];
+  BB75a63e7d3 -> BB75a63e851 [color="green"];
+  BB75a63e7d3 -> BB75a63e817 [color="red"];
+  BB75a63e817 -> BB75a63e84b [color="blue"];
+  BB75a63e851 -> BB75a63e84b [color="blue"];
+  BB75a63e886 -> BB75a63e7d3 [color="blue"];
+}

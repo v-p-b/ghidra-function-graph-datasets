@@ -1,0 +1,24 @@
+digraph exprMightBeIndexed2 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7253b0 -> BB75a7253db [color="blue"];
+  BB75a7253d6 -> BB75a7253db [color="blue"];
+  BB75a7253db -> BB75a7253d6 [color="green"];
+  BB75a7253db -> BB75a7253e1 [color="red"];
+  BB75a7253e1 -> BB75a7253fb [color="blue"];
+  BB75a7253fb -> BB75a725458 [color="green"];
+  BB75a7253fb -> BB75a725400 [color="red"];
+  BB75a725400 -> BB75a725444 [color="green"];
+  BB75a725400 -> BB75a725407 [color="red"];
+  BB75a725407 -> BB75a72540d [color="blue"];
+  BB75a72540d -> BB75a725444 [color="green"];
+  BB75a72540d -> BB75a725415 [color="red"];
+  BB75a725415 -> BB75a725438 [color="green"];
+  BB75a725415 -> BB75a725420 [color="red"];
+  BB75a725420 -> BB75a72544a [color="green"];
+  BB75a725420 -> BB75a725438 [color="red"];
+  BB75a725438 -> BB75a72540d [color="blue"];
+  BB75a725444 -> BB75a7253fb [color="blue"];
+  BB75a72544a -> BB75a72545a [color="blue"];
+  BB75a725458 -> BB75a72545a [color="blue"];
+}

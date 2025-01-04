@@ -1,0 +1,18 @@
+digraph CreateUSNCache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa90bec -> BB75aa90c0f [color="green"];
+  BB75aa90bec -> BB75aa90c09 [color="red"];
+  BB75aa90c09 -> BB75aa90c0f [color="red"];
+  BB75aa90c0f -> BB75aa90c6c [color="green"];
+  BB75aa90c0f -> BB75aa90c57 [color="red"];
+  BB75aa90c57 -> BB75aa90c6c [color="green"];
+  BB75aa90c57 -> BB75aa90c67 [color="red"];
+  BB75aa90c67 -> BB75aa90c6c [color="red"];
+  BB75aa90c6c -> BB75aa90c95 [color="green"];
+  BB75aa90c6c -> BB75aa90c84 [color="red"];
+  BB75aa90c84 -> BB75aa90c95 [color="green"];
+  BB75aa90c84 -> BB75aa90c8f [color="red"];
+  BB75aa90c8f -> BB75aa90c95 [color="red"];
+  BB75aa90c95 -> BB75aa90c9b [color="blue"];
+}

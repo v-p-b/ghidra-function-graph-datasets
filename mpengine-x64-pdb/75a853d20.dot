@@ -1,0 +1,9 @@
+digraph CollectStates {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a853d20 -> BB75a853d4e [color="green"];
+  BB75a853d20 -> BB75a853d48 [color="red"];
+  BB75a853d48 -> BB75a853d5a [color="green"];
+  BB75a853d48 -> BB75a853d4e [color="red"];
+  BB75a853d4e -> BB75a853d5a [color="red"];
+}

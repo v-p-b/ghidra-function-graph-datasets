@@ -1,0 +1,30 @@
+digraph SSE4_pshufb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a606eb0 -> BB75a606fad [color="green"];
+  BB75a606eb0 -> BB75a606efe [color="red"];
+  BB75a606efe -> BB75a606f59 [color="green"];
+  BB75a606efe -> BB75a606f03 [color="red"];
+  BB75a606f03 -> BB75a606f18 [color="blue"];
+  BB75a606f18 -> BB75a6070c9 [color="green"];
+  BB75a606f18 -> BB75a606f21 [color="red"];
+  BB75a606f21 -> BB75a606f2c [color="blue"];
+  BB75a606f2c -> BB75a606f18 [color="green"];
+  BB75a606f2c -> BB75a606f37 [color="red"];
+  BB75a606f59 -> BB75a60705e [color="green"];
+  BB75a606f59 -> BB75a606f6d [color="red"];
+  BB75a606f6d -> BB75a606f37 [color="blue"];
+  BB75a606fad -> BB75a606f6d [color="green"];
+  BB75a606fad -> BB75a606fbd [color="red"];
+  BB75a606fbd -> BB75a607028 [color="green"];
+  BB75a606fbd -> BB75a607010 [color="red"];
+  BB75a607010 -> BB75a60703a [color="blue"];
+  BB75a607028 -> BB75a60703a [color="blue"];
+  BB75a60703a -> BB75a60704e [color="blue"];
+  BB75a60703c -> BB75a60704e [color="blue"];
+  BB75a60704e -> BB75a606f37 [color="blue"];
+  BB75a60705e -> BB75a60703c [color="green"];
+  BB75a60705e -> BB75a6070b1 [color="red"];
+  BB75a6070b1 -> BB75a60704e [color="blue"];
+  BB75a6070c9 -> BB75a606f2c [color="blue"];
+}

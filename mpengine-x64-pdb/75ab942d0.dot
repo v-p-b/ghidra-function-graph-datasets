@@ -1,0 +1,11 @@
+digraph ~DnsCacheTable {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab942d0 -> BB75ab94307 [color="green"];
+  BB75ab942d0 -> BB75ab942e2 [color="red"];
+  BB75ab942e2 -> BB75ab942f2 [color="green"];
+  BB75ab942e2 -> BB75ab942eb [color="red"];
+  BB75ab942eb -> BB75ab942f2 [color="red"];
+  BB75ab942f2 -> BB75ab942e2 [color="green"];
+  BB75ab942f2 -> BB75ab94307 [color="red"];
+}

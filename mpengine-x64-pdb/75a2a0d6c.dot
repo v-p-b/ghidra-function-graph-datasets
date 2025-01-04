@@ -1,0 +1,15 @@
+digraph sqlite3VMPrintf {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2a0d6c -> BB75a2a0df5 [color="green"];
+  BB75a2a0d6c -> BB75a2a0dd3 [color="red"];
+  BB75a2a0dd3 -> BB75a2a0e19 [color="green"];
+  BB75a2a0dd3 -> BB75a2a0de1 [color="red"];
+  BB75a2a0de1 -> BB75a2a0e19 [color="green"];
+  BB75a2a0de1 -> BB75a2a0de8 [color="red"];
+  BB75a2a0de8 -> BB75a2a0df5 [color="red"];
+  BB75a2a0df5 -> BB75a2a0e20 [color="green"];
+  BB75a2a0df5 -> BB75a2a0dfc [color="red"];
+  BB75a2a0e19 -> BB75a2a0df5 [color="blue"];
+  BB75a2a0e20 -> BB75a2a0dfc [color="blue"];
+}

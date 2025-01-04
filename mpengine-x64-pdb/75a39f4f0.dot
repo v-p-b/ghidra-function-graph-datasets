@@ -1,0 +1,17 @@
+digraph CleanupFindStack {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a39f4f0 -> BB75a39f502 [color="blue"];
+  BB75a39f502 -> BB75a39f51c [color="green"];
+  BB75a39f502 -> BB75a39f50c [color="red"];
+  BB75a39f51c -> BB75a39f592 [color="green"];
+  BB75a39f51c -> BB75a39f555 [color="red"];
+  BB75a39f555 -> BB75a39f571 [color="green"];
+  BB75a39f555 -> BB75a39f55a [color="red"];
+  BB75a39f55a -> BB75a39f571 [color="red"];
+  BB75a39f571 -> BB75a39f585 [color="green"];
+  BB75a39f571 -> BB75a39f576 [color="red"];
+  BB75a39f576 -> BB75a39f585 [color="red"];
+  BB75a39f585 -> BB75a39f502 [color="blue"];
+  BB75a39f592 -> BB75a39f585 [color="blue"];
+}

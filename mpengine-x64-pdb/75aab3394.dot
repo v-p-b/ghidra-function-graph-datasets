@@ -1,0 +1,23 @@
+digraph AllocateSpaceForValue {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aab3394 -> BB75aab33da [color="green"];
+  BB75aab3394 -> BB75aab33cb [color="red"];
+  BB75aab33cb -> BB75aab33d0 [color="red"];
+  BB75aab33d0 -> BB75aab3488 [color="blue"];
+  BB75aab33da -> BB75aab342a [color="green"];
+  BB75aab33da -> BB75aab33f4 [color="red"];
+  BB75aab33f4 -> BB75aab340f [color="green"];
+  BB75aab33f4 -> BB75aab3403 [color="red"];
+  BB75aab3403 -> BB75aab342a [color="blue"];
+  BB75aab340f -> BB75aab342a [color="red"];
+  BB75aab342a -> BB75aab33d0 [color="green"];
+  BB75aab342a -> BB75aab343f [color="red"];
+  BB75aab343f -> BB75aab3486 [color="green"];
+  BB75aab343f -> BB75aab3456 [color="red"];
+  BB75aab3456 -> BB75aab346e [color="green"];
+  BB75aab3456 -> BB75aab3462 [color="red"];
+  BB75aab3462 -> BB75aab3486 [color="blue"];
+  BB75aab346e -> BB75aab3486 [color="red"];
+  BB75aab3486 -> BB75aab3488 [color="blue"];
+}

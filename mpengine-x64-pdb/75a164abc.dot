@@ -1,0 +1,16 @@
+digraph get_table_byte {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a164abc -> BB75a164b4a [color="green"];
+  BB75a164abc -> BB75a164b21 [color="red"];
+  BB75a164b21 -> BB75a164b5e [color="green"];
+  BB75a164b21 -> BB75a164b29 [color="red"];
+  BB75a164b4a -> BB75a164b92 [color="green"];
+  BB75a164b4a -> BB75a164b5c [color="red"];
+  BB75a164b5c -> BB75a164b5e [color="blue"];
+  BB75a164b5e -> BB75a164b29 [color="green"];
+  BB75a164b5e -> BB75a164b73 [color="red"];
+  BB75a164b73 -> BB75a164b29 [color="green"];
+  BB75a164b73 -> BB75a164b82 [color="red"];
+  BB75a164b92 -> BB75a164b21 [color="blue"];
+}

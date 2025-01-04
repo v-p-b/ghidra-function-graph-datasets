@@ -1,0 +1,19 @@
+digraph readStrm {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a50ea30 -> BB75a50ea51 [color="blue"];
+  BB75a50ea51 -> BB75a50ea65 [color="green"];
+  BB75a50ea51 -> BB75a50ea57 [color="red"];
+  BB75a50ea57 -> BB75a50eaa7 [color="green"];
+  BB75a50ea57 -> BB75a50ea5d [color="red"];
+  BB75a50ea5d -> BB75a50ea51 [color="blue"];
+  BB75a50ea65 -> BB75a50ea76 [color="green"];
+  BB75a50ea65 -> BB75a50ea6b [color="red"];
+  BB75a50ea6b -> BB75a50ea76 [color="green"];
+  BB75a50ea6b -> BB75a50ea71 [color="red"];
+  BB75a50ea71 -> BB75a50eaad [color="green"];
+  BB75a50ea71 -> BB75a50ea76 [color="red"];
+  BB75a50ea76 -> BB75a50ea9c [color="red"];
+  BB75a50eaa7 -> BB75a50ea51 [color="blue"];
+  BB75a50eaad -> BB75a50ea9c [color="blue"];
+}

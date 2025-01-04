@@ -1,0 +1,15 @@
+digraph IsResourceStillAvailable {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a48f8ac -> BB75a48f90b [color="green"];
+  BB75a48f8ac -> BB75a48f8c5 [color="red"];
+  BB75a48f8c5 -> BB75a48f8cd [color="blue"];
+  BB75a48f8cd -> BB75a48f8cd [color="green"];
+  BB75a48f8cd -> BB75a48f8d7 [color="red"];
+  BB75a48f8d7 -> BB75a48f90b [color="green"];
+  BB75a48f8d7 -> BB75a48f8fe [color="red"];
+  BB75a48f8fe -> BB75a48f920 [color="green"];
+  BB75a48f8fe -> BB75a48f90b [color="red"];
+  BB75a48f90b -> BB75a48f910 [color="blue"];
+  BB75a48f920 -> BB75a48f910 [color="blue"];
+}

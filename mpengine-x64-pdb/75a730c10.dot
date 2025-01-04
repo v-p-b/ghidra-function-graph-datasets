@@ -1,0 +1,14 @@
+digraph SynchronousDisable {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a730c10 -> BB75a730c57 [color="green"];
+  BB75a730c10 -> BB75a730c4c [color="red"];
+  BB75a730c4c -> BB75a730c9b [color="blue"];
+  BB75a730c57 -> BB75a730c85 [color="green"];
+  BB75a730c57 -> BB75a730c7a [color="red"];
+  BB75a730c7a -> BB75a730c85 [color="red"];
+  BB75a730c85 -> BB75a730c9f [color="green"];
+  BB75a730c85 -> BB75a730c9b [color="red"];
+  BB75a730c9b -> BB75a730ca1 [color="blue"];
+  BB75a730c9f -> BB75a730ca1 [color="blue"];
+}

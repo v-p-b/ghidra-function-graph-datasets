@@ -1,0 +1,21 @@
+digraph IsSafeUrl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac843b8 -> BB75ac84422 [color="green"];
+  BB75ac843b8 -> BB75ac843da [color="red"];
+  BB75ac843da -> BB75ac84414 [color="green"];
+  BB75ac843da -> BB75ac843eb [color="red"];
+  BB75ac843eb -> BB75ac84414 [color="red"];
+  BB75ac84414 -> BB75ac84422 [color="red"];
+  BB75ac84422 -> BB75ac84429 [color="blue"];
+  BB75ac84429 -> BB75ac84458 [color="green"];
+  BB75ac84429 -> BB75ac8442e [color="red"];
+  BB75ac8442e -> BB75ac84432 [color="blue"];
+  BB75ac84432 -> BB75ac84432 [color="green"];
+  BB75ac84432 -> BB75ac8443b [color="red"];
+  BB75ac8443b -> BB75ac84454 [color="green"];
+  BB75ac8443b -> BB75ac8444e [color="red"];
+  BB75ac8444e -> BB75ac84429 [color="blue"];
+  BB75ac84454 -> BB75ac8445a [color="blue"];
+  BB75ac84458 -> BB75ac8445a [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph flushBlock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aabd5d0 -> BB75aabd64d [color="green"];
+  BB75aabd5d0 -> BB75aabd619 [color="red"];
+  BB75aabd619 -> BB75aabd64d [color="green"];
+  BB75aabd619 -> BB75aabd62c [color="red"];
+  BB75aabd62c -> BB75aabd652 [color="blue"];
+  BB75aabd64d -> BB75aabd652 [color="blue"];
+}

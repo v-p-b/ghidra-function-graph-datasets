@@ -1,0 +1,12 @@
+digraph discard_breakloop_BB {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad3671c -> BB75ad3676e [color="green"];
+  BB75ad3671c -> BB75ad3672f [color="red"];
+  BB75ad3672f -> BB75ad36763 [color="green"];
+  BB75ad3672f -> BB75ad36738 [color="red"];
+  BB75ad36738 -> BB75ad36763 [color="green"];
+  BB75ad36738 -> BB75ad3675e [color="red"];
+  BB75ad3675e -> BB75ad36763 [color="red"];
+  BB75ad36763 -> BB75ad3676e [color="blue"];
+}

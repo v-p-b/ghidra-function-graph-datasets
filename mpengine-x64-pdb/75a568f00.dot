@@ -1,0 +1,13 @@
+digraph `vector_deleting_destructor' {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a568f00 -> BB75a568f36 [color="green"];
+  BB75a568f00 -> BB75a568f22 [color="red"];
+  BB75a568f22 -> BB75a568f36 [color="blue"];
+  BB75a568f29 -> BB75a568f36 [color="red"];
+  BB75a568f36 -> BB75a568f29 [color="green"];
+  BB75a568f36 -> BB75a568f3f [color="red"];
+  BB75a568f3f -> BB75a568f5b [color="green"];
+  BB75a568f3f -> BB75a568f4d [color="red"];
+  BB75a568f5b -> BB75a568f4d [color="blue"];
+}

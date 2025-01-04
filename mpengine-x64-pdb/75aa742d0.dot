@@ -1,0 +1,10 @@
+digraph KERNEL32_DLL_GetTickCount {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa742d0 -> BB75aa7432f [color="green"];
+  BB75aa742d0 -> BB75aa742fe [color="red"];
+  BB75aa742fe -> BB75aa7432f [color="green"];
+  BB75aa742fe -> BB75aa7430a [color="red"];
+  BB75aa7430a -> BB75aa7433a [color="blue"];
+  BB75aa7432f -> BB75aa7433a [color="red"];
+}

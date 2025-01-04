@@ -1,0 +1,21 @@
+digraph OnTDTQueryCPUCapabilities {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8b1b74 -> BB75a8b1be8 [color="green"];
+  BB75a8b1b74 -> BB75a8b1bdf [color="red"];
+  BB75a8b1bdf -> BB75a8b1be8 [color="red"];
+  BB75a8b1be8 -> BB75a8b1c76 [color="green"];
+  BB75a8b1be8 -> BB75a8b1bfb [color="red"];
+  BB75a8b1bfb -> BB75a8b1c68 [color="green"];
+  BB75a8b1bfb -> BB75a8b1c0e [color="red"];
+  BB75a8b1c0e -> BB75a8b1c33 [color="green"];
+  BB75a8b1c0e -> BB75a8b1c14 [color="red"];
+  BB75a8b1c14 -> BB75a8b1c33 [color="red"];
+  BB75a8b1c33 -> BB75a8b1c68 [color="green"];
+  BB75a8b1c33 -> BB75a8b1c38 [color="red"];
+  BB75a8b1c38 -> BB75a8b1c68 [color="green"];
+  BB75a8b1c38 -> BB75a8b1c3e [color="red"];
+  BB75a8b1c3e -> BB75a8b1c68 [color="red"];
+  BB75a8b1c68 -> BB75a8b1c9b [color="blue"];
+  BB75a8b1c76 -> BB75a8b1c9b [color="blue"];
+}

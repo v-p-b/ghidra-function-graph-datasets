@@ -1,0 +1,17 @@
+digraph lua_checkstack {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a161654 -> BB75a1616ca [color="green"];
+  BB75a161654 -> BB75a161674 [color="red"];
+  BB75a161674 -> BB75a1616ca [color="green"];
+  BB75a161674 -> BB75a16168b [color="red"];
+  BB75a16168b -> BB75a1616b8 [color="green"];
+  BB75a16168b -> BB75a16168f [color="red"];
+  BB75a16168f -> BB75a1616d4 [color="green"];
+  BB75a16168f -> BB75a1616a3 [color="red"];
+  BB75a1616a3 -> BB75a1616ce [color="green"];
+  BB75a1616a3 -> BB75a1616b8 [color="red"];
+  BB75a1616ca -> BB75a1616b8 [color="blue"];
+  BB75a1616ce -> BB75a1616b8 [color="blue"];
+  BB75a1616d4 -> BB75a1616a3 [color="blue"];
+}

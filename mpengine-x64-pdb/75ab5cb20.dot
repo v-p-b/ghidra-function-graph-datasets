@@ -1,0 +1,28 @@
+digraph winSetSystemCall {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5cb20 -> BB75ab5cb67 [color="green"];
+  BB75ab5cb20 -> BB75ab5cb45 [color="red"];
+  BB75ab5cb45 -> BB75ab5cb4f [color="blue"];
+  BB75ab5cb4f -> BB75ab5cb5b [color="green"];
+  BB75ab5cb4f -> BB75ab5cb58 [color="red"];
+  BB75ab5cb58 -> BB75ab5cb5b [color="blue"];
+  BB75ab5cb5b -> BB75ab5cb4f [color="green"];
+  BB75ab5cb5b -> BB75ab5cb65 [color="red"];
+  BB75ab5cb65 -> BB75ab5cbc4 [color="blue"];
+  BB75ab5cb67 -> BB75ab5cb70 [color="blue"];
+  BB75ab5cb70 -> BB75ab5cbc4 [color="green"];
+  BB75ab5cb70 -> BB75ab5cb74 [color="red"];
+  BB75ab5cb74 -> BB75ab5cb82 [color="blue"];
+  BB75ab5cb82 -> BB75ab5cb96 [color="green"];
+  BB75ab5cb82 -> BB75ab5cb8f [color="red"];
+  BB75ab5cb8f -> BB75ab5cb82 [color="green"];
+  BB75ab5cb8f -> BB75ab5cb96 [color="red"];
+  BB75ab5cb96 -> BB75ab5cb9f [color="green"];
+  BB75ab5cb96 -> BB75ab5cb9b [color="red"];
+  BB75ab5cb9b -> BB75ab5cb70 [color="blue"];
+  BB75ab5cb9f -> BB75ab5cbb6 [color="green"];
+  BB75ab5cb9f -> BB75ab5cbad [color="red"];
+  BB75ab5cbad -> BB75ab5cbb6 [color="blue"];
+  BB75ab5cbb6 -> BB75ab5cbc4 [color="blue"];
+}

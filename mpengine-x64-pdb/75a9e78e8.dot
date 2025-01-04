@@ -1,0 +1,13 @@
+digraph UtilRegisterWaitForSingleObject {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9e78e8 -> BB75a9e7952 [color="green"];
+  BB75a9e78e8 -> BB75a9e7916 [color="red"];
+  BB75a9e7916 -> BB75a9e794e [color="green"];
+  BB75a9e7916 -> BB75a9e7930 [color="red"];
+  BB75a9e7930 -> BB75a9e794e [color="green"];
+  BB75a9e7930 -> BB75a9e7936 [color="red"];
+  BB75a9e7936 -> BB75a9e794e [color="red"];
+  BB75a9e794e -> BB75a9e795c [color="blue"];
+  BB75a9e7952 -> BB75a9e795c [color="blue"];
+}

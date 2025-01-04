@@ -1,0 +1,13 @@
+digraph min_expand {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1609c4 -> BB75a1609e9 [color="blue"];
+  BB75a1609e9 -> BB75a160a1c [color="green"];
+  BB75a1609e9 -> BB75a1609fd [color="red"];
+  BB75a1609fd -> BB75a160a1a [color="green"];
+  BB75a1609fd -> BB75a160a03 [color="red"];
+  BB75a160a03 -> BB75a160a1a [color="green"];
+  BB75a160a03 -> BB75a160a15 [color="red"];
+  BB75a160a15 -> BB75a1609e9 [color="blue"];
+  BB75a160a1a -> BB75a160a1c [color="blue"];
+}

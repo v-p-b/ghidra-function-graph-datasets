@@ -1,0 +1,13 @@
+digraph PrecheckRemove {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aca7ce0 -> BB75aca7cf3 [color="green"];
+  BB75aca7ce0 -> BB75aca7cee [color="red"];
+  BB75aca7cee -> BB75aca7cf3 [color="red"];
+  BB75aca7cf3 -> BB75aca7d18 [color="green"];
+  BB75aca7cf3 -> BB75aca7d0d [color="red"];
+  BB75aca7d0d -> BB75aca7d18 [color="green"];
+  BB75aca7d0d -> BB75aca7d14 [color="red"];
+  BB75aca7d14 -> BB75aca7d1d [color="blue"];
+  BB75aca7d18 -> BB75aca7d1d [color="blue"];
+}

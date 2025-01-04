@@ -1,0 +1,16 @@
+digraph FindInStream {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a51d520 -> BB75a51d581 [color="green"];
+  BB75a51d520 -> BB75a51d550 [color="red"];
+  BB75a51d550 -> BB75a51d586 [color="green"];
+  BB75a51d550 -> BB75a51d562 [color="red"];
+  BB75a51d562 -> BB75a51d564 [color="blue"];
+  BB75a51d581 -> BB75a51d564 [color="blue"];
+  BB75a51d586 -> BB75a51d5b4 [color="green"];
+  BB75a51d586 -> BB75a51d599 [color="red"];
+  BB75a51d599 -> BB75a51d5b4 [color="green"];
+  BB75a51d599 -> BB75a51d59f [color="red"];
+  BB75a51d59f -> BB75a51d5b4 [color="red"];
+  BB75a51d5b4 -> BB75a51d564 [color="blue"];
+}

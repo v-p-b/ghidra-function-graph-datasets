@@ -1,0 +1,27 @@
+digraph SendShutdownStats {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6f2d18 -> BB75a6f2d34 [color="blue"];
+  BB75a6f2d34 -> BB75a6f2f00 [color="green"];
+  BB75a6f2d34 -> BB75a6f2d4a [color="red"];
+  BB75a6f2d4a -> BB75a6f2f00 [color="green"];
+  BB75a6f2d4a -> BB75a6f2d5a [color="red"];
+  BB75a6f2d5a -> BB75a6f2ef7 [color="green"];
+  BB75a6f2d5a -> BB75a6f2d70 [color="red"];
+  BB75a6f2d70 -> BB75a6f2ef7 [color="green"];
+  BB75a6f2d70 -> BB75a6f2d8e [color="red"];
+  BB75a6f2d8e -> BB75a6f2ef7 [color="red"];
+  BB75a6f2ef7 -> BB75a6f2f00 [color="red"];
+  BB75a6f2f00 -> BB75a6f2d34 [color="green"];
+  BB75a6f2f00 -> BB75a6f2f0d [color="red"];
+  BB75a6f2f0d -> BB75a6f30c7 [color="green"];
+  BB75a6f2f0d -> BB75a6f2f23 [color="red"];
+  BB75a6f2f23 -> BB75a6f30c7 [color="green"];
+  BB75a6f2f23 -> BB75a6f2f33 [color="red"];
+  BB75a6f2f33 -> BB75a6f30be [color="green"];
+  BB75a6f2f33 -> BB75a6f2f49 [color="red"];
+  BB75a6f2f49 -> BB75a6f30be [color="green"];
+  BB75a6f2f49 -> BB75a6f2f67 [color="red"];
+  BB75a6f2f67 -> BB75a6f30be [color="red"];
+  BB75a6f30be -> BB75a6f30c7 [color="red"];
+}

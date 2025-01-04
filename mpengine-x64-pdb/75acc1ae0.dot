@@ -1,0 +1,14 @@
+digraph NetworkIP_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acc1ae0 -> BB75acc1b9a [color="green"];
+  BB75acc1ae0 -> BB75acc1b11 [color="red"];
+  BB75acc1b11 -> BB75acc1b9a [color="green"];
+  BB75acc1b11 -> BB75acc1b23 [color="red"];
+  BB75acc1b23 -> BB75acc1b9a [color="green"];
+  BB75acc1b23 -> BB75acc1b51 [color="red"];
+  BB75acc1b51 -> BB75acc1b9a [color="green"];
+  BB75acc1b51 -> BB75acc1b8a [color="red"];
+  BB75acc1b8a -> BB75acc1b9f [color="blue"];
+  BB75acc1b9a -> BB75acc1b9f [color="blue"];
+}

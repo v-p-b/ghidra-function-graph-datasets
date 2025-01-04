@@ -1,0 +1,32 @@
+digraph ALU_r1_r2_rdest {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a55e774 -> BB75a55e7dd [color="green"];
+  BB75a55e774 -> BB75a55e7a7 [color="red"];
+  BB75a55e7a7 -> BB75a55e7e4 [color="green"];
+  BB75a55e7a7 -> BB75a55e7bc [color="red"];
+  BB75a55e7bc -> BB75a55e7be [color="blue"];
+  BB75a55e7dd -> BB75a55e7a7 [color="blue"];
+  BB75a55e7e4 -> BB75a55e7bc [color="green"];
+  BB75a55e7e4 -> BB75a55e7ec [color="red"];
+  BB75a55e7ec -> BB75a55e7bc [color="green"];
+  BB75a55e7ec -> BB75a55e7f1 [color="red"];
+  BB75a55e7f1 -> BB75a55e7fe [color="green"];
+  BB75a55e7f1 -> BB75a55e7f6 [color="red"];
+  BB75a55e7f6 -> BB75a55e803 [color="green"];
+  BB75a55e7f6 -> BB75a55e7fe [color="red"];
+  BB75a55e7fe -> BB75a55e803 [color="red"];
+  BB75a55e803 -> BB75a55e81b [color="green"];
+  BB75a55e803 -> BB75a55e80f [color="red"];
+  BB75a55e80f -> BB75a55e820 [color="green"];
+  BB75a55e80f -> BB75a55e81b [color="red"];
+  BB75a55e81b -> BB75a55e820 [color="red"];
+  BB75a55e820 -> BB75a55e865 [color="green"];
+  BB75a55e820 -> BB75a55e82b [color="red"];
+  BB75a55e82b -> BB75a55e8a5 [color="blue"];
+  BB75a55e865 -> BB75a55e8a5 [color="red"];
+  BB75a55e8a5 -> BB75a55e8c1 [color="green"];
+  BB75a55e8a5 -> BB75a55e8aa [color="red"];
+  BB75a55e8aa -> BB75a55e8c1 [color="blue"];
+  BB75a55e8c1 -> BB75a55e7be [color="blue"];
+}

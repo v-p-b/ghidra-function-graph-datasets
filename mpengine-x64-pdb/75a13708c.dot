@@ -1,0 +1,11 @@
+digraph findsentinels {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a13708c -> BB75a1370e3 [color="red"];
+  BB75a1370e3 -> BB75a137138 [color="green"];
+  BB75a1370e3 -> BB75a1370ec [color="red"];
+  BB75a1370ec -> BB75a1370f9 [color="green"];
+  BB75a1370ec -> BB75a1370f4 [color="red"];
+  BB75a1370f4 -> BB75a1370e3 [color="blue"];
+  BB75a1370f9 -> BB75a137138 [color="blue"];
+}

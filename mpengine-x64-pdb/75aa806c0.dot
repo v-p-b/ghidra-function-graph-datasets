@@ -1,0 +1,9 @@
+digraph get_last_history {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa806c0 -> BB75aa806d4 [color="green"];
+  BB75aa806c0 -> BB75aa806cb [color="red"];
+  BB75aa806cb -> BB75aa806d4 [color="green"];
+  BB75aa806cb -> BB75aa806d0 [color="red"];
+  BB75aa806d0 -> BB75aa806d4 [color="blue"];
+}

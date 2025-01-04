@@ -1,0 +1,35 @@
+digraph DetermineCompressionFlags {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad07068 -> BB75ad070e8 [color="green"];
+  BB75ad07068 -> BB75ad070e3 [color="red"];
+  BB75ad070e3 -> BB75ad070e8 [color="red"];
+  BB75ad070e8 -> BB75ad07128 [color="green"];
+  BB75ad070e8 -> BB75ad070ed [color="red"];
+  BB75ad070ed -> BB75ad07200 [color="green"];
+  BB75ad070ed -> BB75ad07104 [color="red"];
+  BB75ad07104 -> BB75ad07200 [color="green"];
+  BB75ad07104 -> BB75ad0710e [color="red"];
+  BB75ad0710e -> BB75ad07200 [color="blue"];
+  BB75ad07128 -> BB75ad07145 [color="green"];
+  BB75ad07128 -> BB75ad07142 [color="red"];
+  BB75ad07142 -> BB75ad07145 [color="blue"];
+  BB75ad07145 -> BB75ad07200 [color="green"];
+  BB75ad07145 -> BB75ad07168 [color="red"];
+  BB75ad07168 -> BB75ad07194 [color="green"];
+  BB75ad07168 -> BB75ad0718f [color="red"];
+  BB75ad0718f -> BB75ad07194 [color="red"];
+  BB75ad07194 -> BB75ad071ad [color="red"];
+  BB75ad071ad -> BB75ad071bb [color="green"];
+  BB75ad071ad -> BB75ad071b2 [color="red"];
+  BB75ad071b2 -> BB75ad071ad [color="green"];
+  BB75ad071b2 -> BB75ad071bb [color="red"];
+  BB75ad071bb -> BB75ad071f8 [color="green"];
+  BB75ad071bb -> BB75ad071c0 [color="red"];
+  BB75ad071c0 -> BB75ad07200 [color="green"];
+  BB75ad071c0 -> BB75ad071d3 [color="red"];
+  BB75ad071d3 -> BB75ad07200 [color="green"];
+  BB75ad071d3 -> BB75ad071d9 [color="red"];
+  BB75ad071d9 -> BB75ad07200 [color="blue"];
+  BB75ad071f8 -> BB75ad07200 [color="blue"];
+}

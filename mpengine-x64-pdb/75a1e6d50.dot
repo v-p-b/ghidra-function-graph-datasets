@@ -1,0 +1,16 @@
+digraph x86_inv_opc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1e6d50 -> BB75a1e6e0b [color="green"];
+  BB75a1e6d50 -> BB75a1e6db1 [color="red"];
+  BB75a1e6db1 -> BB75a1e6df3 [color="green"];
+  BB75a1e6db1 -> BB75a1e6dc4 [color="red"];
+  BB75a1e6dc4 -> BB75a1e6dd6 [color="blue"];
+  BB75a1e6df3 -> BB75a1e6dd6 [color="blue"];
+  BB75a1e6e0b -> BB75a1e6e3d [color="green"];
+  BB75a1e6e0b -> BB75a1e6e1d [color="red"];
+  BB75a1e6e1d -> BB75a1e6e3d [color="green"];
+  BB75a1e6e1d -> BB75a1e6e2e [color="red"];
+  BB75a1e6e2e -> BB75a1e6db1 [color="blue"];
+  BB75a1e6e3d -> BB75a1e6db1 [color="blue"];
+}

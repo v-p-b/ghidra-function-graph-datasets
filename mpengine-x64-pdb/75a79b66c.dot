@@ -1,0 +1,16 @@
+digraph fputc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a79b66c -> BB75a79b6ac [color="green"];
+  BB75a79b66c -> BB75a79b69c [color="red"];
+  BB75a79b69c -> BB75a79b6ac [color="blue"];
+  BB75a79b6ac -> BB75a79b6c8 [color="green"];
+  BB75a79b6ac -> BB75a79b6bd [color="red"];
+  BB75a79b6bd -> BB75a79b6c8 [color="blue"];
+  BB75a79b6c8 -> BB75a79b6dd [color="green"];
+  BB75a79b6c8 -> BB75a79b6ce [color="red"];
+  BB75a79b6ce -> BB75a79b6dd [color="red"];
+  BB75a79b6dd -> BB75a79b6f2 [color="green"];
+  BB75a79b6dd -> BB75a79b6e3 [color="red"];
+  BB75a79b6e3 -> BB75a79b6f2 [color="red"];
+}

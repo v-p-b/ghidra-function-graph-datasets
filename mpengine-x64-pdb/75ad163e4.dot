@@ -1,0 +1,17 @@
+digraph AllocMem {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad163e4 -> BB75ad16463 [color="green"];
+  BB75ad163e4 -> BB75ad16435 [color="red"];
+  BB75ad16435 -> BB75ad164a0 [color="green"];
+  BB75ad16435 -> BB75ad16448 [color="red"];
+  BB75ad16448 -> BB75ad164a0 [color="green"];
+  BB75ad16448 -> BB75ad1644e [color="red"];
+  BB75ad1644e -> BB75ad164a0 [color="blue"];
+  BB75ad16463 -> BB75ad1649d [color="green"];
+  BB75ad16463 -> BB75ad1647e [color="red"];
+  BB75ad1647e -> BB75ad1649d [color="green"];
+  BB75ad1647e -> BB75ad16484 [color="red"];
+  BB75ad16484 -> BB75ad1649d [color="red"];
+  BB75ad1649d -> BB75ad164a0 [color="blue"];
+}

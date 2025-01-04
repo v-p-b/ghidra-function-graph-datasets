@@ -1,0 +1,13 @@
+digraph ShutdownScavengerTask {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7463d8 -> BB75a7463fc [color="green"];
+  BB75a7463d8 -> BB75a7463ee [color="red"];
+  BB75a7463ee -> BB75a7463fc [color="red"];
+  BB75a7463fc -> BB75a746418 [color="green"];
+  BB75a7463fc -> BB75a74640b [color="red"];
+  BB75a74640b -> BB75a746418 [color="red"];
+  BB75a746418 -> BB75a746435 [color="green"];
+  BB75a746418 -> BB75a746424 [color="red"];
+  BB75a746424 -> BB75a746435 [color="red"];
+}

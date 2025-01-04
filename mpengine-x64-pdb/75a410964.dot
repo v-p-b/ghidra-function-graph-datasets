@@ -1,0 +1,14 @@
+digraph create_threat_context {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a410964 -> BB75a4109d7 [color="green"];
+  BB75a410964 -> BB75a41097e [color="red"];
+  BB75a41097e -> BB75a4109d3 [color="green"];
+  BB75a41097e -> BB75a410990 [color="red"];
+  BB75a410990 -> BB75a4109de [color="green"];
+  BB75a410990 -> BB75a4109c0 [color="red"];
+  BB75a4109c0 -> BB75a4109c3 [color="blue"];
+  BB75a4109d3 -> BB75a4109c3 [color="blue"];
+  BB75a4109d7 -> BB75a41097e [color="blue"];
+  BB75a4109de -> BB75a4109d3 [color="blue"];
+}

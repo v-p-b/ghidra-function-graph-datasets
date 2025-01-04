@@ -1,0 +1,17 @@
+digraph Log {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a14e69c -> BB75a14e752 [color="green"];
+  BB75a14e69c -> BB75a14e6fc [color="red"];
+  BB75a14e6fc -> BB75a14e752 [color="green"];
+  BB75a14e6fc -> BB75a14e708 [color="red"];
+  BB75a14e708 -> BB75a14e758 [color="green"];
+  BB75a14e708 -> BB75a14e711 [color="red"];
+  BB75a14e711 -> BB75a14e731 [color="red"];
+  BB75a14e752 -> BB75a14e708 [color="green"];
+  BB75a14e752 -> BB75a14e756 [color="red"];
+  BB75a14e756 -> BB75a14e731 [color="blue"];
+  BB75a14e758 -> BB75a14e731 [color="green"];
+  BB75a14e758 -> BB75a14e75c [color="red"];
+  BB75a14e75c -> BB75a14e711 [color="blue"];
+}

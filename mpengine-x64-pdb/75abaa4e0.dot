@@ -1,0 +1,15 @@
+digraph decay_entry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abaa4e0 -> BB75abaa5b1 [color="green"];
+  BB75abaa4e0 -> BB75abaa505 [color="red"];
+  BB75abaa505 -> BB75abaa5b1 [color="green"];
+  BB75abaa505 -> BB75abaa52b [color="red"];
+  BB75abaa52b -> BB75abaa54a [color="green"];
+  BB75abaa52b -> BB75abaa53a [color="red"];
+  BB75abaa53a -> BB75abaa54a [color="green"];
+  BB75abaa53a -> BB75abaa53c [color="red"];
+  BB75abaa53c -> BB75abaa586 [color="blue"];
+  BB75abaa54a -> BB75abaa586 [color="red"];
+  BB75abaa586 -> BB75abaa5b1 [color="red"];
+}

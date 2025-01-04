@@ -1,0 +1,10 @@
+digraph UpdatePrediction {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4ff61c -> BB75a4ff681 [color="green"];
+  BB75a4ff61c -> BB75a4ff63c [color="red"];
+  BB75a4ff63c -> BB75a4ff681 [color="green"];
+  BB75a4ff63c -> BB75a4ff648 [color="red"];
+  BB75a4ff648 -> BB75a4ff675 [color="blue"];
+  BB75a4ff681 -> BB75a4ff675 [color="blue"];
+}

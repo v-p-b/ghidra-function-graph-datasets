@@ -1,0 +1,17 @@
+digraph sqlite3MallocInit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a71155c -> BB75a71157b [color="green"];
+  BB75a71155c -> BB75a71156a [color="red"];
+  BB75a71156a -> BB75a71157b [color="red"];
+  BB75a71157b -> BB75a7115bc [color="green"];
+  BB75a71157b -> BB75a7115a7 [color="red"];
+  BB75a7115a7 -> BB75a7115bc [color="green"];
+  BB75a7115a7 -> BB75a7115b3 [color="red"];
+  BB75a7115b3 -> BB75a7115cb [color="green"];
+  BB75a7115b3 -> BB75a7115bc [color="red"];
+  BB75a7115bc -> BB75a7115cb [color="blue"];
+  BB75a7115cb -> BB75a7115f5 [color="green"];
+  BB75a7115cb -> BB75a7115e2 [color="red"];
+  BB75a7115e2 -> BB75a7115f5 [color="blue"];
+}

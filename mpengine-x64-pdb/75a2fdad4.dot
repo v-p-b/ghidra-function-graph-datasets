@@ -1,0 +1,16 @@
+digraph InitVarArg {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2fdad4 -> BB75a2fdb3f [color="green"];
+  BB75a2fdad4 -> BB75a2fdafe [color="red"];
+  BB75a2fdafe -> BB75a2fdb46 [color="green"];
+  BB75a2fdafe -> BB75a2fdb09 [color="red"];
+  BB75a2fdb09 -> BB75a2fdb4a [color="green"];
+  BB75a2fdb09 -> BB75a2fdb0e [color="red"];
+  BB75a2fdb0e -> BB75a2fdb23 [color="blue"];
+  BB75a2fdb23 -> BB75a2fdb23 [color="green"];
+  BB75a2fdb23 -> BB75a2fdb34 [color="red"];
+  BB75a2fdb3f -> BB75a2fdafe [color="blue"];
+  BB75a2fdb46 -> BB75a2fdb4a [color="blue"];
+  BB75a2fdb4a -> BB75a2fdb0e [color="blue"];
+}

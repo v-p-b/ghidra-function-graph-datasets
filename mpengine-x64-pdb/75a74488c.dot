@@ -1,0 +1,17 @@
+digraph StartEventWithTraceEventInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a74488c -> BB75a7448d6 [color="green"];
+  BB75a74488c -> BB75a7448b6 [color="red"];
+  BB75a7448b6 -> BB75a74494e [color="blue"];
+  BB75a7448d6 -> BB75a7448f2 [color="green"];
+  BB75a7448d6 -> BB75a7448df [color="red"];
+  BB75a7448df -> BB75a7448f2 [color="green"];
+  BB75a7448df -> BB75a7448ee [color="red"];
+  BB75a7448ee -> BB75a7448f7 [color="blue"];
+  BB75a7448f2 -> BB75a7448f7 [color="blue"];
+  BB75a7448f7 -> BB75a74491b [color="green"];
+  BB75a7448f7 -> BB75a7448fb [color="red"];
+  BB75a7448fb -> BB75a74494e [color="blue"];
+  BB75a74491b -> BB75a74494e [color="red"];
+}

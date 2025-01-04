@@ -1,0 +1,25 @@
+digraph check_static_fine_grain_violation {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9c2674 -> BB75a9c2716 [color="green"];
+  BB75a9c2674 -> BB75a9c2697 [color="red"];
+  BB75a9c2697 -> BB75a9c2716 [color="green"];
+  BB75a9c2697 -> BB75a9c269f [color="red"];
+  BB75a9c269f -> BB75a9c2716 [color="green"];
+  BB75a9c269f -> BB75a9c26a4 [color="red"];
+  BB75a9c26a4 -> BB75a9c2701 [color="green"];
+  BB75a9c26a4 -> BB75a9c26b7 [color="red"];
+  BB75a9c26b7 -> BB75a9c2701 [color="green"];
+  BB75a9c26b7 -> BB75a9c26bf [color="red"];
+  BB75a9c26bf -> BB75a9c2701 [color="green"];
+  BB75a9c26bf -> BB75a9c26d0 [color="red"];
+  BB75a9c26d0 -> BB75a9c2701 [color="green"];
+  BB75a9c26d0 -> BB75a9c26fd [color="red"];
+  BB75a9c26fd -> BB75a9c2703 [color="blue"];
+  BB75a9c2701 -> BB75a9c2703 [color="blue"];
+  BB75a9c2703 -> BB75a9c2712 [color="green"];
+  BB75a9c2703 -> BB75a9c270d [color="red"];
+  BB75a9c270d -> BB75a9c2712 [color="red"];
+  BB75a9c2712 -> BB75a9c2718 [color="blue"];
+  BB75a9c2716 -> BB75a9c2718 [color="blue"];
+}

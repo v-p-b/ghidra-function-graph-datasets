@@ -1,0 +1,11 @@
+digraph notify_nondeterministic_event {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a236e00 -> BB75a236e2f [color="green"];
+  BB75a236e00 -> BB75a236e18 [color="red"];
+  BB75a236e18 -> BB75a236e3a [color="green"];
+  BB75a236e18 -> BB75a236e2f [color="red"];
+  BB75a236e3a -> BB75a236e2f [color="green"];
+  BB75a236e3a -> BB75a236e4a [color="red"];
+  BB75a236e4a -> BB75a236e2f [color="blue"];
+}

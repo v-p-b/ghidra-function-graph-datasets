@@ -1,0 +1,18 @@
+digraph LogExceptionToAsimov {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aba07e0 -> BB75aba0807 [color="green"];
+  BB75aba07e0 -> BB75aba07f6 [color="red"];
+  BB75aba07f6 -> BB75aba080e [color="blue"];
+  BB75aba0807 -> BB75aba080e [color="blue"];
+  BB75aba080e -> BB75aba09ad [color="green"];
+  BB75aba080e -> BB75aba0824 [color="red"];
+  BB75aba0824 -> BB75aba09ad [color="green"];
+  BB75aba0824 -> BB75aba0834 [color="red"];
+  BB75aba0834 -> BB75aba09a4 [color="green"];
+  BB75aba0834 -> BB75aba084a [color="red"];
+  BB75aba084a -> BB75aba09a4 [color="green"];
+  BB75aba084a -> BB75aba0868 [color="red"];
+  BB75aba0868 -> BB75aba09a4 [color="red"];
+  BB75aba09a4 -> BB75aba09ad [color="red"];
+}

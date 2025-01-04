@@ -1,0 +1,17 @@
+digraph GetLatestNetworkPerGateway {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3f98f0 -> BB75a3f997d [color="red"];
+  BB75a3f997d -> BB75a3f9a09 [color="green"];
+  BB75a3f997d -> BB75a3f9986 [color="red"];
+  BB75a3f9986 -> BB75a3f99e1 [color="green"];
+  BB75a3f9986 -> BB75a3f99a7 [color="red"];
+  BB75a3f99a7 -> BB75a3f9a00 [color="green"];
+  BB75a3f99a7 -> BB75a3f99e1 [color="red"];
+  BB75a3f99e1 -> BB75a3f9a00 [color="red"];
+  BB75a3f9a00 -> BB75a3f997d [color="blue"];
+  BB75a3f9a09 -> BB75a3f9a58 [color="blue"];
+  BB75a3f9a58 -> BB75a3f9a9d [color="green"];
+  BB75a3f9a58 -> BB75a3f9a62 [color="red"];
+  BB75a3f9a62 -> BB75a3f9a9d [color="red"];
+}

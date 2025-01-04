@@ -1,0 +1,9 @@
+digraph pager_wait_on_lock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2a38c4 -> BB75a2a38d8 [color="blue"];
+  BB75a2a38d8 -> BB75a2a3900 [color="green"];
+  BB75a2a38d8 -> BB75a2a38e9 [color="red"];
+  BB75a2a38e9 -> BB75a2a38d8 [color="green"];
+  BB75a2a38e9 -> BB75a2a3900 [color="red"];
+}

@@ -1,0 +1,13 @@
+digraph get_BB_extra_flags {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1adff0 -> BB75a1adffb [color="green"];
+  BB75a1adff0 -> BB75a1adff8 [color="red"];
+  BB75a1adff8 -> BB75a1adffa [color="blue"];
+  BB75a1adffb -> BB75a1adff8 [color="green"];
+  BB75a1adffb -> BB75a1ae003 [color="red"];
+  BB75a1ae003 -> BB75a1ae01e [color="green"];
+  BB75a1ae003 -> BB75a1ae00e [color="red"];
+  BB75a1ae00e -> BB75a1adffa [color="green"];
+  BB75a1ae00e -> BB75a1ae01e [color="red"];
+}

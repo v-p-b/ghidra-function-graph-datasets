@@ -1,0 +1,10 @@
+digraph HasFuzzyHashes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a68ab24 -> BB75a68ab2f [color="green"];
+  BB75a68ab24 -> BB75a68ab2e [color="red"];
+  BB75a68ab2f -> BB75a68ab2e [color="green"];
+  BB75a68ab2f -> BB75a68ab37 [color="red"];
+  BB75a68ab37 -> BB75a68ab2e [color="green"];
+  BB75a68ab37 -> BB75a68ab3f [color="red"];
+}

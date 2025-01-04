@@ -1,0 +1,17 @@
+digraph sortftable {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6dbf90 -> BB75a6dbfa6 [color="blue"];
+  BB75a6dbfa6 -> BB75a6dc01a [color="green"];
+  BB75a6dbfa6 -> BB75a6dbfb5 [color="red"];
+  BB75a6dbfb5 -> BB75a6dc01a [color="green"];
+  BB75a6dbfb5 -> BB75a6dbfbe [color="red"];
+  BB75a6dbfbe -> BB75a6dbfc5 [color="blue"];
+  BB75a6dbfc5 -> BB75a6dc000 [color="green"];
+  BB75a6dbfc5 -> BB75a6dbfec [color="red"];
+  BB75a6dbfec -> BB75a6dc000 [color="blue"];
+  BB75a6dc000 -> BB75a6dbfc5 [color="green"];
+  BB75a6dc000 -> BB75a6dc015 [color="red"];
+  BB75a6dc015 -> BB75a6dbfa6 [color="green"];
+  BB75a6dc015 -> BB75a6dc01a [color="red"];
+}

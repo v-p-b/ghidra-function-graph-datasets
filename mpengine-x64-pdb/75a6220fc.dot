@@ -1,0 +1,13 @@
+digraph BuildStatic {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6220fc -> BB75a6221e5 [color="green"];
+  BB75a6220fc -> BB75a62211b [color="red"];
+  BB75a62211b -> BB75a6221bf [color="green"];
+  BB75a62211b -> BB75a62219f [color="red"];
+  BB75a6221af -> BB75a6221bf [color="blue"];
+  BB75a6221bf -> BB75a6221af [color="green"];
+  BB75a6221bf -> BB75a6221cd [color="red"];
+  BB75a6221cd -> BB75a62219f [color="blue"];
+  BB75a6221e5 -> BB75a62211b [color="blue"];
+}

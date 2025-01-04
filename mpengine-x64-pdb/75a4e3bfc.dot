@@ -1,0 +1,28 @@
+digraph DoChangeCheck {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4e3bfc -> BB75a4e3d10 [color="green"];
+  BB75a4e3bfc -> BB75a4e3c3f [color="red"];
+  BB75a4e3c3f -> BB75a4e3d10 [color="green"];
+  BB75a4e3c3f -> BB75a4e3c48 [color="red"];
+  BB75a4e3c48 -> BB75a4e3d10 [color="green"];
+  BB75a4e3c48 -> BB75a4e3c59 [color="red"];
+  BB75a4e3c59 -> BB75a4e3d10 [color="green"];
+  BB75a4e3c59 -> BB75a4e3c63 [color="red"];
+  BB75a4e3c63 -> BB75a4e3cdf [color="green"];
+  BB75a4e3c63 -> BB75a4e3c75 [color="red"];
+  BB75a4e3c75 -> BB75a4e3cff [color="green"];
+  BB75a4e3c75 -> BB75a4e3c9f [color="red"];
+  BB75a4e3c9f -> BB75a4e3cc2 [color="red"];
+  BB75a4e3cc2 -> BB75a4e3cdf [color="green"];
+  BB75a4e3cc2 -> BB75a4e3cc6 [color="red"];
+  BB75a4e3cc6 -> BB75a4e3d09 [color="green"];
+  BB75a4e3cc6 -> BB75a4e3cd1 [color="red"];
+  BB75a4e3cd1 -> BB75a4e3d09 [color="green"];
+  BB75a4e3cd1 -> BB75a4e3cd7 [color="red"];
+  BB75a4e3cd7 -> BB75a4e3cdf [color="blue"];
+  BB75a4e3cdf -> BB75a4e3ce1 [color="blue"];
+  BB75a4e3cff -> BB75a4e3cc2 [color="blue"];
+  BB75a4e3d09 -> BB75a4e3cd7 [color="blue"];
+  BB75a4e3d10 -> BB75a4e3ce1 [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph walIndexClose {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a562aac -> BB75a562ad1 [color="green"];
+  BB75a562aac -> BB75a562acb [color="red"];
+  BB75a562acb -> BB75a562afb [color="green"];
+  BB75a562acb -> BB75a562ad1 [color="red"];
+  BB75a562ad1 -> BB75a562afb [color="green"];
+  BB75a562ad1 -> BB75a562ad8 [color="red"];
+  BB75a562ad8 -> BB75a562ada [color="blue"];
+  BB75a562ada -> BB75a562ada [color="green"];
+  BB75a562ada -> BB75a562afb [color="red"];
+  BB75a562afb -> BB75a562b16 [color="green"];
+  BB75a562afb -> BB75a562b01 [color="red"];
+  BB75a562b01 -> BB75a562b16 [color="red"];
+}

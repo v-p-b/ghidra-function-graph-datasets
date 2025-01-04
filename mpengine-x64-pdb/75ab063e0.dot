@@ -1,0 +1,10 @@
+digraph GetMachineGuid {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab063e0 -> BB75ab0640a [color="green"];
+  BB75ab063e0 -> BB75ab063fc [color="red"];
+  BB75ab063fc -> BB75ab06446 [color="blue"];
+  BB75ab0640a -> BB75ab06446 [color="green"];
+  BB75ab0640a -> BB75ab0643c [color="red"];
+  BB75ab0643c -> BB75ab06446 [color="red"];
+}

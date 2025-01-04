@@ -1,0 +1,11 @@
+digraph FPU_fistt_s32 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7b38b0 -> BB75a7b38cc [color="green"];
+  BB75a7b38b0 -> BB75a7b38ca [color="red"];
+  BB75a7b38ca -> BB75a7b38cc [color="blue"];
+  BB75a7b38cc -> BB75a7b38e9 [color="green"];
+  BB75a7b38cc -> BB75a7b38de [color="red"];
+  BB75a7b38de -> BB75a7b38f2 [color="blue"];
+  BB75a7b38e9 -> BB75a7b38f2 [color="blue"];
+}

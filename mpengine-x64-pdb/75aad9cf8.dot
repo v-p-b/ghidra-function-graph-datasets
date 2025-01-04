@@ -1,0 +1,9 @@
+digraph IsValid {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aad9cf8 -> BB75aad9d07 [color="green"];
+  BB75aad9cf8 -> BB75aad9cff [color="red"];
+  BB75aad9cff -> BB75aad9d07 [color="green"];
+  BB75aad9cff -> BB75aad9d05 [color="red"];
+  BB75aad9d05 -> BB75aad9d07 [color="blue"];
+}

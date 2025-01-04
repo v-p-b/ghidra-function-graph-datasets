@@ -1,0 +1,13 @@
+digraph ~CBaseThreatHandler {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac8bda4 -> BB75ac8bdc3 [color="green"];
+  BB75ac8bda4 -> BB75ac8bdbe [color="red"];
+  BB75ac8bdbe -> BB75ac8bdc3 [color="red"];
+  BB75ac8bdc3 -> BB75ac8bde1 [color="green"];
+  BB75ac8bdc3 -> BB75ac8bdcc [color="red"];
+  BB75ac8bdcc -> BB75ac8bde1 [color="red"];
+  BB75ac8bde1 -> BB75ac8be12 [color="green"];
+  BB75ac8bde1 -> BB75ac8bdea [color="red"];
+  BB75ac8bdea -> BB75ac8be12 [color="red"];
+}

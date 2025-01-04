@@ -1,0 +1,30 @@
+digraph AddTelemetry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2f58cc -> BB75a2f5ae0 [color="green"];
+  BB75a2f58cc -> BB75a2f595c [color="red"];
+  BB75a2f595c -> BB75a2f5acd [color="green"];
+  BB75a2f595c -> BB75a2f5965 [color="red"];
+  BB75a2f5965 -> BB75a2f5acd [color="green"];
+  BB75a2f5965 -> BB75a2f596e [color="red"];
+  BB75a2f596e -> BB75a2f59c1 [color="green"];
+  BB75a2f596e -> BB75a2f5985 [color="red"];
+  BB75a2f5985 -> BB75a2f599e [color="green"];
+  BB75a2f5985 -> BB75a2f5992 [color="red"];
+  BB75a2f5992 -> BB75a2f599e [color="red"];
+  BB75a2f599e -> BB75a2f59fb [color="blue"];
+  BB75a2f59c1 -> BB75a2f59da [color="green"];
+  BB75a2f59c1 -> BB75a2f59ce [color="red"];
+  BB75a2f59ce -> BB75a2f59da [color="red"];
+  BB75a2f59da -> BB75a2f59fb [color="red"];
+  BB75a2f59fb -> BB75a2f5a41 [color="green"];
+  BB75a2f59fb -> BB75a2f5a35 [color="red"];
+  BB75a2f5a35 -> BB75a2f5a41 [color="red"];
+  BB75a2f5a41 -> BB75a2f5aa0 [color="blue"];
+  BB75a2f5aa0 -> BB75a2f5afd [color="blue"];
+  BB75a2f5acd -> BB75a2f5ae0 [color="red"];
+  BB75a2f5ae0 -> BB75a2f5af8 [color="green"];
+  BB75a2f5ae0 -> BB75a2f5ae5 [color="red"];
+  BB75a2f5ae5 -> BB75a2f5af8 [color="red"];
+  BB75a2f5af8 -> BB75a2f5afd [color="blue"];
+}

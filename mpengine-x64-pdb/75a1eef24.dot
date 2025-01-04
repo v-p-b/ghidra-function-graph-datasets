@@ -1,0 +1,14 @@
+digraph make_or_reuse_data {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1eef24 -> BB75a1eefe3 [color="green"];
+  BB75a1eef24 -> BB75a1eefa3 [color="red"];
+  BB75a1eefa3 -> BB75a1ef03c [color="blue"];
+  BB75a1eefe3 -> BB75a1ef00f [color="green"];
+  BB75a1eefe3 -> BB75a1eefe8 [color="red"];
+  BB75a1eefe8 -> BB75a1ef00f [color="red"];
+  BB75a1ef00f -> BB75a1ef03c [color="green"];
+  BB75a1ef00f -> BB75a1ef021 [color="red"];
+  BB75a1ef021 -> BB75a1ef021 [color="green"];
+  BB75a1ef021 -> BB75a1ef03c [color="red"];
+}

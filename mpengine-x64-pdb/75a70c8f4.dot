@@ -1,0 +1,23 @@
+digraph AmsiSessionCache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a70c8f4 -> BB75a70c9b5 [color="green"];
+  BB75a70c8f4 -> BB75a70c9ac [color="red"];
+  BB75a70c9ac -> BB75a70c9b8 [color="green"];
+  BB75a70c9ac -> BB75a70c9b5 [color="red"];
+  BB75a70c9b5 -> BB75a70c9b8 [color="blue"];
+  BB75a70c9b8 -> BB75a70c9fb [color="green"];
+  BB75a70c9b8 -> BB75a70c9cb [color="red"];
+  BB75a70c9cb -> BB75a70c9fb [color="green"];
+  BB75a70c9cb -> BB75a70c9d1 [color="red"];
+  BB75a70c9d1 -> BB75a70c9fb [color="red"];
+  BB75a70c9fb -> BB75a70ca9f [color="green"];
+  BB75a70c9fb -> BB75a70ca04 [color="red"];
+  BB75a70ca04 -> BB75a70ca9b [color="green"];
+  BB75a70ca04 -> BB75a70ca58 [color="red"];
+  BB75a70ca58 -> BB75a70ca74 [color="green"];
+  BB75a70ca58 -> BB75a70ca65 [color="red"];
+  BB75a70ca65 -> BB75a70ca74 [color="red"];
+  BB75a70ca74 -> BB75a70ca9b [color="red"];
+  BB75a70ca9b -> BB75a70ca9f [color="blue"];
+}

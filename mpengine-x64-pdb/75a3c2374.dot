@@ -1,0 +1,15 @@
+digraph CleanupPluginInstances {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3c2374 -> BB75a3c239e [color="blue"];
+  BB75a3c239e -> BB75a3c23c3 [color="green"];
+  BB75a3c239e -> BB75a3c23a4 [color="red"];
+  BB75a3c23a4 -> BB75a3c239e [color="green"];
+  BB75a3c23a4 -> BB75a3c23ae [color="red"];
+  BB75a3c23c3 -> BB75a3c23eb [color="green"];
+  BB75a3c23c3 -> BB75a3c23d4 [color="red"];
+  BB75a3c23d4 -> BB75a3c23eb [color="green"];
+  BB75a3c23d4 -> BB75a3c23da [color="red"];
+  BB75a3c23da -> BB75a3c23a4 [color="blue"];
+  BB75a3c23eb -> BB75a3c23da [color="blue"];
+}

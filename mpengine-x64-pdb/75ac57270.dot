@@ -1,0 +1,14 @@
+digraph Process {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac57270 -> BB75ac5730b [color="green"];
+  BB75ac57270 -> BB75ac57289 [color="red"];
+  BB75ac57289 -> BB75ac57294 [color="blue"];
+  BB75ac57294 -> BB75ac572fa [color="green"];
+  BB75ac57294 -> BB75ac5729e [color="red"];
+  BB75ac5729e -> BB75ac572fa [color="green"];
+  BB75ac5729e -> BB75ac572a8 [color="red"];
+  BB75ac572a8 -> BB75ac572fa [color="blue"];
+  BB75ac572fa -> BB75ac57294 [color="green"];
+  BB75ac572fa -> BB75ac5730b [color="red"];
+}

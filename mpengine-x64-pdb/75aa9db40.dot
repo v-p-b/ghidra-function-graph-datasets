@@ -1,0 +1,11 @@
+digraph RpfAPI_AnomalyTableLookup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa9db40 -> BB75aa9db7d [color="green"];
+  BB75aa9db40 -> BB75aa9db6d [color="red"];
+  BB75aa9db6d -> BB75aa9db7d [color="green"];
+  BB75aa9db6d -> BB75aa9db75 [color="red"];
+  BB75aa9db75 -> BB75aa9db82 [color="green"];
+  BB75aa9db75 -> BB75aa9db7d [color="red"];
+  BB75aa9db7d -> BB75aa9db82 [color="red"];
+}

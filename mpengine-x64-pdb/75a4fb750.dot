@@ -1,0 +1,16 @@
+digraph TurnNriOnByProcessId {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4fb750 -> BB75a4fb78f [color="green"];
+  BB75a4fb750 -> BB75a4fb770 [color="red"];
+  BB75a4fb770 -> BB75a4fb78f [color="green"];
+  BB75a4fb770 -> BB75a4fb776 [color="red"];
+  BB75a4fb776 -> BB75a4fb78f [color="red"];
+  BB75a4fb78f -> BB75a4fb7b3 [color="green"];
+  BB75a4fb78f -> BB75a4fb7a5 [color="red"];
+  BB75a4fb7a5 -> BB75a4fb7d4 [color="blue"];
+  BB75a4fb7b3 -> BB75a4fb7d2 [color="green"];
+  BB75a4fb7b3 -> BB75a4fb7ca [color="red"];
+  BB75a4fb7ca -> BB75a4fb7d2 [color="red"];
+  BB75a4fb7d2 -> BB75a4fb7d4 [color="blue"];
+}

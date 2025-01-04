@@ -1,0 +1,22 @@
+digraph TestDefaultLanguage {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a779bbc -> BB75a779c5f [color="green"];
+  BB75a779bbc -> BB75a779c05 [color="red"];
+  BB75a779c05 -> BB75a779c58 [color="green"];
+  BB75a779c05 -> BB75a779c0b [color="red"];
+  BB75a779c0b -> BB75a779c58 [color="green"];
+  BB75a779c0b -> BB75a779c0f [color="red"];
+  BB75a779c0f -> BB75a779c21 [color="blue"];
+  BB75a779c21 -> BB75a779c34 [color="green"];
+  BB75a779c21 -> BB75a779c2a [color="red"];
+  BB75a779c2a -> BB75a779c40 [color="green"];
+  BB75a779c2a -> BB75a779c34 [color="red"];
+  BB75a779c34 -> BB75a779c21 [color="blue"];
+  BB75a779c40 -> BB75a779c44 [color="blue"];
+  BB75a779c44 -> BB75a779c44 [color="green"];
+  BB75a779c44 -> BB75a779c4e [color="red"];
+  BB75a779c4e -> BB75a779c61 [color="blue"];
+  BB75a779c58 -> BB75a779c61 [color="blue"];
+  BB75a779c5f -> BB75a779c61 [color="blue"];
+}

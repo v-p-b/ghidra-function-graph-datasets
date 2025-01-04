@@ -1,0 +1,19 @@
+digraph ClearThreatRelatedFirewallRules {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a327858 -> BB75a327874 [color="blue"];
+  BB75a327874 -> BB75a327874 [color="green"];
+  BB75a327874 -> BB75a327894 [color="red"];
+  BB75a327894 -> BB75a3278ce [color="green"];
+  BB75a327894 -> BB75a3278b9 [color="red"];
+  BB75a3278b9 -> BB75a3278bd [color="blue"];
+  BB75a3278bd -> BB75a3278d1 [color="green"];
+  BB75a3278bd -> BB75a3278c3 [color="red"];
+  BB75a3278c3 -> BB75a3278ce [color="green"];
+  BB75a3278c3 -> BB75a3278c8 [color="red"];
+  BB75a3278c8 -> BB75a3278bd [color="blue"];
+  BB75a3278ce -> BB75a3278d1 [color="blue"];
+  BB75a3278d1 -> BB75a3278ea [color="green"];
+  BB75a3278d1 -> BB75a3278dd [color="red"];
+  BB75a3278dd -> BB75a3278ea [color="red"];
+}

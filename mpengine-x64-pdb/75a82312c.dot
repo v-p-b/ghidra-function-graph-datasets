@@ -1,0 +1,15 @@
+digraph CopyDetectionDescriptorData {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a82312c -> BB75a8231b7 [color="green"];
+  BB75a82312c -> BB75a823195 [color="red"];
+  BB75a823195 -> BB75a8231a5 [color="blue"];
+  BB75a8231a5 -> BB75a8231a5 [color="green"];
+  BB75a8231a5 -> BB75a8231b7 [color="red"];
+  BB75a8231b7 -> BB75a8231d6 [color="green"];
+  BB75a8231b7 -> BB75a8231ca [color="red"];
+  BB75a8231ca -> BB75a8231d6 [color="red"];
+  BB75a8231d6 -> BB75a82329a [color="green"];
+  BB75a8231d6 -> BB75a823287 [color="red"];
+  BB75a823287 -> BB75a82329a [color="red"];
+}

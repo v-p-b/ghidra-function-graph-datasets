@@ -1,0 +1,11 @@
+digraph KERNEL32_DLL_CloseHandle {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a600ea0 -> BB75a600f92 [color="green"];
+  BB75a600ea0 -> BB75a600f16 [color="red"];
+  BB75a600f16 -> BB75a600f55 [color="red"];
+  BB75a600f55 -> BB75a600f66 [color="green"];
+  BB75a600f55 -> BB75a600f5a [color="red"];
+  BB75a600f5a -> BB75a600f66 [color="blue"];
+  BB75a600f92 -> BB75a600f55 [color="blue"];
+}

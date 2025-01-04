@@ -1,0 +1,22 @@
+digraph WriteAddressOfEntryPoint {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa1b390 -> BB75aa1b490 [color="green"];
+  BB75aa1b390 -> BB75aa1b3f0 [color="red"];
+  BB75aa1b3f0 -> BB75aa1b44b [color="green"];
+  BB75aa1b3f0 -> BB75aa1b403 [color="red"];
+  BB75aa1b403 -> BB75aa1b43e [color="green"];
+  BB75aa1b403 -> BB75aa1b40f [color="red"];
+  BB75aa1b40f -> BB75aa1b43e [color="green"];
+  BB75aa1b40f -> BB75aa1b415 [color="red"];
+  BB75aa1b415 -> BB75aa1b43e [color="red"];
+  BB75aa1b43e -> BB75aa1b44b [color="red"];
+  BB75aa1b44b -> BB75aa1b490 [color="green"];
+  BB75aa1b44b -> BB75aa1b464 [color="red"];
+  BB75aa1b464 -> BB75aa1b48b [color="green"];
+  BB75aa1b464 -> BB75aa1b470 [color="red"];
+  BB75aa1b470 -> BB75aa1b48b [color="green"];
+  BB75aa1b470 -> BB75aa1b476 [color="red"];
+  BB75aa1b476 -> BB75aa1b48b [color="red"];
+  BB75aa1b48b -> BB75aa1b490 [color="blue"];
+}

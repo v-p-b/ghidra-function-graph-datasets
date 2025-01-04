@@ -1,0 +1,26 @@
+digraph IsRevokedCert {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a130a2c -> BB75a130c1c [color="green"];
+  BB75a130a2c -> BB75a130a6f [color="red"];
+  BB75a130a6f -> BB75a130b5d [color="green"];
+  BB75a130a6f -> BB75a130b17 [color="red"];
+  BB75a130b17 -> BB75a130bf2 [color="green"];
+  BB75a130b17 -> BB75a130b5d [color="red"];
+  BB75a130b5d -> BB75a130ba4 [color="green"];
+  BB75a130b5d -> BB75a130b62 [color="red"];
+  BB75a130b62 -> BB75a130bf2 [color="green"];
+  BB75a130b62 -> BB75a130ba4 [color="red"];
+  BB75a130ba4 -> BB75a130beb [color="green"];
+  BB75a130ba4 -> BB75a130ba9 [color="red"];
+  BB75a130ba9 -> BB75a130bf2 [color="green"];
+  BB75a130ba9 -> BB75a130beb [color="red"];
+  BB75a130beb -> BB75a130c20 [color="green"];
+  BB75a130beb -> BB75a130bf0 [color="red"];
+  BB75a130bf0 -> BB75a130bf2 [color="blue"];
+  BB75a130bf2 -> BB75a130bfe [color="red"];
+  BB75a130c1c -> BB75a130bfe [color="blue"];
+  BB75a130c20 -> BB75a130bf2 [color="green"];
+  BB75a130c20 -> BB75a130c62 [color="red"];
+  BB75a130c62 -> BB75a130bf0 [color="blue"];
+}

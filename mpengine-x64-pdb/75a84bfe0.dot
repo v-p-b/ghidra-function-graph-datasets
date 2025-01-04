@@ -1,0 +1,9 @@
+digraph AddRelatedFirewallRule {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a84bfe0 -> BB75a84c0d1 [color="green"];
+  BB75a84bfe0 -> BB75a84c0c2 [color="red"];
+  BB75a84c0c2 -> BB75a84c0db [color="blue"];
+  BB75a84c0d1 -> BB75a84c0db [color="red"];
+  BB75a84c0db -> BB75a84c122 [color="blue"];
+}

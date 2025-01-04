@@ -1,0 +1,14 @@
+digraph nUFSP_machofat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6dc484 -> BB75a6dc4ef [color="green"];
+  BB75a6dc484 -> BB75a6dc4e8 [color="red"];
+  BB75a6dc4e8 -> BB75a6dc4f1 [color="green"];
+  BB75a6dc4e8 -> BB75a6dc4ef [color="red"];
+  BB75a6dc4ef -> BB75a6dc4f1 [color="blue"];
+  BB75a6dc4f1 -> BB75a6dc502 [color="green"];
+  BB75a6dc4f1 -> BB75a6dc4fb [color="red"];
+  BB75a6dc4fb -> BB75a6dc505 [color="green"];
+  BB75a6dc4fb -> BB75a6dc502 [color="red"];
+  BB75a6dc502 -> BB75a6dc505 [color="blue"];
+}

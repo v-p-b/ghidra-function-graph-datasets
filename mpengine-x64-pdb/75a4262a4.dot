@@ -1,0 +1,24 @@
+digraph CheckAndMakeContiguous {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4262a4 -> BB75a4263bb [color="green"];
+  BB75a4262a4 -> BB75a4262f1 [color="red"];
+  BB75a4262f1 -> BB75a426326 [color="green"];
+  BB75a4262f1 -> BB75a426320 [color="red"];
+  BB75a426320 -> BB75a426326 [color="red"];
+  BB75a426326 -> BB75a426385 [color="green"];
+  BB75a426326 -> BB75a426380 [color="red"];
+  BB75a426380 -> BB75a426385 [color="red"];
+  BB75a426385 -> BB75a42639a [color="green"];
+  BB75a426385 -> BB75a426395 [color="red"];
+  BB75a426395 -> BB75a42639a [color="red"];
+  BB75a42639a -> BB75a4262f1 [color="green"];
+  BB75a42639a -> BB75a4263af [color="red"];
+  BB75a4263af -> BB75a4263bb [color="red"];
+  BB75a4263bb -> BB75a4263d1 [color="green"];
+  BB75a4263bb -> BB75a4263cb [color="red"];
+  BB75a4263cb -> BB75a4263d1 [color="red"];
+  BB75a4263d1 -> BB75a4263df [color="green"];
+  BB75a4263d1 -> BB75a4263da [color="red"];
+  BB75a4263da -> BB75a4263df [color="red"];
+}

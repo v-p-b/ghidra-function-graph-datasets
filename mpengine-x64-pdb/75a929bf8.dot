@@ -1,0 +1,20 @@
+digraph log_config_values<unsigned_int> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a929bf8 -> BB75a929d57 [color="green"];
+  BB75a929bf8 -> BB75a929c48 [color="red"];
+  BB75a929c48 -> BB75a929d57 [color="green"];
+  BB75a929c48 -> BB75a929c52 [color="red"];
+  BB75a929c52 -> BB75a929c89 [color="green"];
+  BB75a929c52 -> BB75a929c86 [color="red"];
+  BB75a929c86 -> BB75a929c89 [color="blue"];
+  BB75a929c89 -> BB75a929d15 [color="green"];
+  BB75a929c89 -> BB75a929ca3 [color="red"];
+  BB75a929ca3 -> BB75a929cbe [color="green"];
+  BB75a929ca3 -> BB75a929cbb [color="red"];
+  BB75a929cbb -> BB75a929cbe [color="blue"];
+  BB75a929cbe -> BB75a929d15 [color="green"];
+  BB75a929cbe -> BB75a929cfe [color="red"];
+  BB75a929cfe -> BB75a929d15 [color="blue"];
+  BB75a929d15 -> BB75a929d57 [color="red"];
+}

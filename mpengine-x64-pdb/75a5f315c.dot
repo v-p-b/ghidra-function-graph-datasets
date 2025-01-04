@@ -1,0 +1,18 @@
+digraph resetAccumulator {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5f315c -> BB75a5f31bd [color="green"];
+  BB75a5f315c -> BB75a5f3183 [color="red"];
+  BB75a5f3183 -> BB75a5f31bd [color="green"];
+  BB75a5f3183 -> BB75a5f31ac [color="red"];
+  BB75a5f31ac -> BB75a5f31d8 [color="green"];
+  BB75a5f31ac -> BB75a5f31b2 [color="red"];
+  BB75a5f31b2 -> BB75a5f31ac [color="green"];
+  BB75a5f31b2 -> BB75a5f31bd [color="red"];
+  BB75a5f31d8 -> BB75a5f321e [color="green"];
+  BB75a5f31d8 -> BB75a5f31e4 [color="red"];
+  BB75a5f31e4 -> BB75a5f321e [color="green"];
+  BB75a5f31e4 -> BB75a5f31e9 [color="red"];
+  BB75a5f31e9 -> BB75a5f31b2 [color="blue"];
+  BB75a5f321e -> BB75a5f31b2 [color="blue"];
+}

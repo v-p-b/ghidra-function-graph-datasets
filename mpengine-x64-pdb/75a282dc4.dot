@@ -1,0 +1,24 @@
+digraph sqlite3LockAndPrepare {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a282dc4 -> BB75a282eba [color="green"];
+  BB75a282dc4 -> BB75a282e07 [color="red"];
+  BB75a282e07 -> BB75a282eba [color="green"];
+  BB75a282e07 -> BB75a282e10 [color="red"];
+  BB75a282e10 -> BB75a282e29 [color="red"];
+  BB75a282e29 -> BB75a282e29 [color="green"];
+  BB75a282e29 -> BB75a282e57 [color="red"];
+  BB75a282e57 -> BB75a282e96 [color="green"];
+  BB75a282e57 -> BB75a282e5c [color="red"];
+  BB75a282e5c -> BB75a282eae [color="green"];
+  BB75a282e5c -> BB75a282e64 [color="red"];
+  BB75a282e64 -> BB75a282eae [color="green"];
+  BB75a282e64 -> BB75a282e6a [color="red"];
+  BB75a282e6a -> BB75a282e6d [color="blue"];
+  BB75a282e6d -> BB75a282e76 [color="red"];
+  BB75a282e96 -> BB75a282e5c [color="green"];
+  BB75a282e96 -> BB75a282ea9 [color="red"];
+  BB75a282ea9 -> BB75a282e29 [color="blue"];
+  BB75a282eae -> BB75a282e6d [color="blue"];
+  BB75a282eba -> BB75a282e76 [color="blue"];
+}

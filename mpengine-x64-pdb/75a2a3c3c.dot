@@ -1,0 +1,15 @@
+digraph try_bind {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2a3c3c -> BB75a2a3c96 [color="green"];
+  BB75a2a3c3c -> BB75a2a3c58 [color="red"];
+  BB75a2a3c58 -> BB75a2a3c96 [color="green"];
+  BB75a2a3c58 -> BB75a2a3c5f [color="red"];
+  BB75a2a3c5f -> BB75a2a3c85 [color="green"];
+  BB75a2a3c5f -> BB75a2a3c67 [color="red"];
+  BB75a2a3c67 -> BB75a2a3c8c [color="green"];
+  BB75a2a3c67 -> BB75a2a3c75 [color="red"];
+  BB75a2a3c85 -> BB75a2a3c75 [color="blue"];
+  BB75a2a3c8c -> BB75a2a3c75 [color="blue"];
+  BB75a2a3c96 -> BB75a2a3c5f [color="blue"];
+}

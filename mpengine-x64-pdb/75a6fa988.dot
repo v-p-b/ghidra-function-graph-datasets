@@ -1,0 +1,32 @@
+digraph ShouldTraceUberScanOpenError {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6fa988 -> BB75a6faa4d [color="green"];
+  BB75a6fa988 -> BB75a6fa99a [color="red"];
+  BB75a6fa99a -> BB75a6fa9b8 [color="green"];
+  BB75a6fa99a -> BB75a6fa9a3 [color="red"];
+  BB75a6fa9a3 -> BB75a6faa4d [color="green"];
+  BB75a6fa9a3 -> BB75a6fa9ad [color="red"];
+  BB75a6fa9ad -> BB75a6faa4d [color="green"];
+  BB75a6fa9ad -> BB75a6fa9b8 [color="red"];
+  BB75a6fa9b8 -> BB75a6fa9d0 [color="green"];
+  BB75a6fa9b8 -> BB75a6fa9c5 [color="red"];
+  BB75a6fa9c5 -> BB75a6fa9d0 [color="blue"];
+  BB75a6fa9d0 -> BB75a6faa4d [color="green"];
+  BB75a6fa9d0 -> BB75a6fa9d5 [color="red"];
+  BB75a6fa9d5 -> BB75a6faa35 [color="green"];
+  BB75a6fa9d5 -> BB75a6fa9ef [color="red"];
+  BB75a6fa9ef -> BB75a6faa35 [color="green"];
+  BB75a6fa9ef -> BB75a6fa9fd [color="red"];
+  BB75a6fa9fd -> BB75a6faa45 [color="green"];
+  BB75a6fa9fd -> BB75a6faa09 [color="red"];
+  BB75a6faa09 -> BB75a6faa35 [color="green"];
+  BB75a6faa09 -> BB75a6faa1c [color="red"];
+  BB75a6faa1c -> BB75a6faa35 [color="green"];
+  BB75a6faa1c -> BB75a6faa22 [color="red"];
+  BB75a6faa22 -> BB75a6faa35 [color="red"];
+  BB75a6faa35 -> BB75a6faa37 [color="blue"];
+  BB75a6faa37 -> BB75a6faa4f [color="blue"];
+  BB75a6faa45 -> BB75a6faa37 [color="blue"];
+  BB75a6faa4d -> BB75a6faa4f [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph walk_path {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2ea918 -> BB75a2ea941 [color="green"];
+  BB75a2ea918 -> BB75a2ea93e [color="red"];
+  BB75a2ea93e -> BB75a2ea941 [color="blue"];
+  BB75a2ea941 -> BB75a2ea9ae [color="green"];
+  BB75a2ea941 -> BB75a2ea94b [color="red"];
+  BB75a2ea94b -> BB75a2ea9c9 [color="green"];
+  BB75a2ea94b -> BB75a2ea995 [color="red"];
+  BB75a2ea995 -> BB75a2ea9a4 [color="red"];
+  BB75a2ea9a4 -> BB75a2ea9ae [color="red"];
+  BB75a2ea9c9 -> BB75a2ea9a4 [color="blue"];
+}

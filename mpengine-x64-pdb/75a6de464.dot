@@ -1,0 +1,10 @@
+digraph ~IpAddressCache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6de464 -> BB75a6de4b4 [color="green"];
+  BB75a6de464 -> BB75a6de476 [color="red"];
+  BB75a6de476 -> BB75a6de4b4 [color="red"];
+  BB75a6de4b4 -> BB75a6de4da [color="green"];
+  BB75a6de4b4 -> BB75a6de4bc [color="red"];
+  BB75a6de4bc -> BB75a6de4da [color="red"];
+}

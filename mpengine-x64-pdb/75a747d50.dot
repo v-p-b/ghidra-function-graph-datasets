@@ -1,0 +1,14 @@
+digraph is_P4_host_CPU {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a747d50 -> BB75a747d91 [color="green"];
+  BB75a747d50 -> BB75a747d64 [color="red"];
+  BB75a747d64 -> BB75a747d91 [color="green"];
+  BB75a747d64 -> BB75a747d6c [color="red"];
+  BB75a747d6c -> BB75a747d91 [color="green"];
+  BB75a747d6c -> BB75a747d74 [color="red"];
+  BB75a747d74 -> BB75a747d91 [color="green"];
+  BB75a747d74 -> BB75a747d79 [color="red"];
+  BB75a747d79 -> BB75a747d93 [color="blue"];
+  BB75a747d91 -> BB75a747d93 [color="blue"];
+}

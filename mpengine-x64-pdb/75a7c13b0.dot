@@ -1,0 +1,9 @@
+digraph __acrt_uninitialize_heap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7c13b0 -> BB75a7c13ca [color="green"];
+  BB75a7c13b0 -> BB75a7c13c0 [color="red"];
+  BB75a7c13c0 -> BB75a7c13d4 [color="green"];
+  BB75a7c13c0 -> BB75a7c13ca [color="red"];
+  BB75a7c13ca -> BB75a7c13d4 [color="blue"];
+}

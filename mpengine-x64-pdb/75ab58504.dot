@@ -1,0 +1,12 @@
+digraph sqlite3_db_release_memory {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab58504 -> BB75ab5855f [color="green"];
+  BB75ab58504 -> BB75ab58526 [color="red"];
+  BB75ab58526 -> BB75ab58528 [color="blue"];
+  BB75ab58528 -> BB75ab58554 [color="green"];
+  BB75ab58528 -> BB75ab58536 [color="red"];
+  BB75ab58536 -> BB75ab58554 [color="red"];
+  BB75ab58554 -> BB75ab58528 [color="green"];
+  BB75ab58554 -> BB75ab5855f [color="red"];
+}

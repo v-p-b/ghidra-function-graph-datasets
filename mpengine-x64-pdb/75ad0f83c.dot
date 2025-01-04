@@ -1,0 +1,19 @@
+digraph DumpRelocations {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad0f83c -> BB75ad0f86a [color="blue"];
+  BB75ad0f86a -> BB75ad0f957 [color="green"];
+  BB75ad0f86a -> BB75ad0f874 [color="red"];
+  BB75ad0f874 -> BB75ad0f87f [color="blue"];
+  BB75ad0f87f -> BB75ad0f895 [color="green"];
+  BB75ad0f87f -> BB75ad0f88b [color="red"];
+  BB75ad0f88b -> BB75ad0f87f [color="green"];
+  BB75ad0f88b -> BB75ad0f895 [color="red"];
+  BB75ad0f895 -> BB75ad0f8ee [color="red"];
+  BB75ad0f8ee -> BB75ad0f929 [color="green"];
+  BB75ad0f8ee -> BB75ad0f8f3 [color="red"];
+  BB75ad0f8f3 -> BB75ad0f8ee [color="blue"];
+  BB75ad0f929 -> BB75ad0f86a [color="green"];
+  BB75ad0f929 -> BB75ad0f932 [color="red"];
+  BB75ad0f932 -> BB75ad0f86a [color="blue"];
+}

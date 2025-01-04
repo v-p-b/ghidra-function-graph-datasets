@@ -1,0 +1,10 @@
+digraph ValidateLuaTrigger {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a534b54 -> BB75a534bc4 [color="green"];
+  BB75a534b54 -> BB75a534b68 [color="red"];
+  BB75a534b68 -> BB75a534bc4 [color="green"];
+  BB75a534b68 -> BB75a534b9c [color="red"];
+  BB75a534b9c -> BB75a534bc9 [color="blue"];
+  BB75a534bc4 -> BB75a534bc9 [color="red"];
+}

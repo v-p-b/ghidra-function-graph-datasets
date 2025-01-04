@@ -1,0 +1,11 @@
+digraph mail_emit_add_stack_k32 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5b751c -> BB75a5b761a [color="green"];
+  BB75a5b751c -> BB75a5b7524 [color="red"];
+  BB75a5b7524 -> BB75a5b761b [color="green"];
+  BB75a5b7524 -> BB75a5b7551 [color="red"];
+  BB75a5b7551 -> BB75a5b7606 [color="red"];
+  BB75a5b7606 -> BB75a5b761a [color="blue"];
+  BB75a5b761b -> BB75a5b7606 [color="blue"];
+}

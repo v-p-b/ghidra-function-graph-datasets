@@ -1,0 +1,16 @@
+digraph RegisterForPriorityRestore {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a20d674 -> BB75a20d6d7 [color="green"];
+  BB75a20d674 -> BB75a20d6a8 [color="red"];
+  BB75a20d6a8 -> BB75a20d6c8 [color="red"];
+  BB75a20d6d7 -> BB75a20d72b [color="green"];
+  BB75a20d6d7 -> BB75a20d6ed [color="red"];
+  BB75a20d6ed -> BB75a20d740 [color="green"];
+  BB75a20d6ed -> BB75a20d700 [color="red"];
+  BB75a20d700 -> BB75a20d740 [color="green"];
+  BB75a20d700 -> BB75a20d706 [color="red"];
+  BB75a20d706 -> BB75a20d740 [color="blue"];
+  BB75a20d72b -> BB75a20d740 [color="red"];
+  BB75a20d740 -> BB75a20d6c8 [color="blue"];
+}

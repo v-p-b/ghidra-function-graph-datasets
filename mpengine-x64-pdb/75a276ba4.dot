@@ -1,0 +1,18 @@
+digraph sqlite3ExprAttachSubtrees {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a276ba4 -> BB75a276bef [color="green"];
+  BB75a276ba4 -> BB75a276bb9 [color="red"];
+  BB75a276bb9 -> BB75a276bd1 [color="green"];
+  BB75a276bb9 -> BB75a276bc4 [color="red"];
+  BB75a276bc4 -> BB75a276bd1 [color="blue"];
+  BB75a276bd1 -> BB75a276be4 [color="green"];
+  BB75a276bd1 -> BB75a276bd6 [color="red"];
+  BB75a276bd6 -> BB75a276be4 [color="blue"];
+  BB75a276bef -> BB75a276c06 [color="green"];
+  BB75a276bef -> BB75a276bf4 [color="red"];
+  BB75a276bf4 -> BB75a276be4 [color="green"];
+  BB75a276bf4 -> BB75a276bf9 [color="red"];
+  BB75a276bf9 -> BB75a276be4 [color="blue"];
+  BB75a276c06 -> BB75a276bf4 [color="blue"];
+}

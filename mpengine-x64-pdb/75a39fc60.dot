@@ -1,0 +1,14 @@
+digraph InitializePages {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a39fc60 -> BB75a39fcb9 [color="green"];
+  BB75a39fc60 -> BB75a39fc76 [color="red"];
+  BB75a39fc76 -> BB75a39fcab [color="green"];
+  BB75a39fc76 -> BB75a39fc80 [color="red"];
+  BB75a39fc80 -> BB75a39fcc4 [color="green"];
+  BB75a39fc80 -> BB75a39fcab [color="red"];
+  BB75a39fcab -> BB75a39fccc [color="green"];
+  BB75a39fcab -> BB75a39fcb9 [color="red"];
+  BB75a39fcc4 -> BB75a39fcab [color="blue"];
+  BB75a39fccc -> BB75a39fcb9 [color="blue"];
+}

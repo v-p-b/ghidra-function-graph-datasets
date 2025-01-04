@@ -1,0 +1,16 @@
+digraph x64_emulate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5c1650 -> BB75a5c1734 [color="green"];
+  BB75a5c1650 -> BB75a5c16db [color="red"];
+  BB75a5c16db -> BB75a5c173c [color="green"];
+  BB75a5c16db -> BB75a5c1708 [color="red"];
+  BB75a5c1708 -> BB75a5c1743 [color="green"];
+  BB75a5c1708 -> BB75a5c1718 [color="red"];
+  BB75a5c1734 -> BB75a5c16db [color="blue"];
+  BB75a5c173c -> BB75a5c1708 [color="blue"];
+  BB75a5c1743 -> BB75a5c176e [color="green"];
+  BB75a5c1743 -> BB75a5c1756 [color="red"];
+  BB75a5c1756 -> BB75a5c1718 [color="blue"];
+  BB75a5c176e -> BB75a5c1718 [color="blue"];
+}

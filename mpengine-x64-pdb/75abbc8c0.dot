@@ -1,0 +1,13 @@
+digraph MMX_maskmovq {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abbc8c0 -> BB75abbc90a [color="green"];
+  BB75abbc8c0 -> BB75abbc905 [color="red"];
+  BB75abbc905 -> BB75abbc90a [color="red"];
+  BB75abbc90a -> BB75abbc94d [color="blue"];
+  BB75abbc94d -> BB75abbc95b [color="green"];
+  BB75abbc94d -> BB75abbc954 [color="red"];
+  BB75abbc954 -> BB75abbc95b [color="blue"];
+  BB75abbc95b -> BB75abbc94d [color="green"];
+  BB75abbc95b -> BB75abbc964 [color="red"];
+}

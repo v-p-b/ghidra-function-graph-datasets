@@ -1,0 +1,15 @@
+digraph Setup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a33d7e4 -> BB75a33d8d7 [color="green"];
+  BB75a33d7e4 -> BB75a33d846 [color="red"];
+  BB75a33d846 -> BB75a33d8d7 [color="green"];
+  BB75a33d846 -> BB75a33d85e [color="red"];
+  BB75a33d85e -> BB75a33d89e [color="green"];
+  BB75a33d85e -> BB75a33d891 [color="red"];
+  BB75a33d891 -> BB75a33d893 [color="blue"];
+  BB75a33d89e -> BB75a33d8d7 [color="green"];
+  BB75a33d89e -> BB75a33d8c9 [color="red"];
+  BB75a33d8c9 -> BB75a33d891 [color="blue"];
+  BB75a33d8d7 -> BB75a33d893 [color="blue"];
+}

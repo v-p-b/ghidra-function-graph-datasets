@@ -1,0 +1,15 @@
+digraph FindCertificateByThumbprint {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5a962c -> BB75a5a9653 [color="green"];
+  BB75a5a962c -> BB75a5a9649 [color="red"];
+  BB75a5a9649 -> BB75a5a9653 [color="green"];
+  BB75a5a9649 -> BB75a5a964e [color="red"];
+  BB75a5a964e -> BB75a5a9658 [color="green"];
+  BB75a5a964e -> BB75a5a9653 [color="red"];
+  BB75a5a9653 -> BB75a5a9658 [color="red"];
+  BB75a5a9658 -> BB75a5a96ad [color="green"];
+  BB75a5a9658 -> BB75a5a9698 [color="red"];
+  BB75a5a9698 -> BB75a5a96af [color="blue"];
+  BB75a5a96ad -> BB75a5a96af [color="blue"];
+}

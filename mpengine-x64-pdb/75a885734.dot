@@ -1,0 +1,29 @@
+digraph RunningInsideAppContainer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a885734 -> BB75a885819 [color="green"];
+  BB75a885734 -> BB75a88574c [color="red"];
+  BB75a88574c -> BB75a885799 [color="green"];
+  BB75a88574c -> BB75a88576f [color="red"];
+  BB75a88576f -> BB75a885809 [color="green"];
+  BB75a88576f -> BB75a885786 [color="red"];
+  BB75a885786 -> BB75a885809 [color="green"];
+  BB75a885786 -> BB75a88578c [color="red"];
+  BB75a88578c -> BB75a8857ef [color="blue"];
+  BB75a885799 -> BB75a885821 [color="green"];
+  BB75a885799 -> BB75a8857cb [color="red"];
+  BB75a8857cb -> BB75a885809 [color="green"];
+  BB75a8857cb -> BB75a8857de [color="red"];
+  BB75a8857de -> BB75a885809 [color="green"];
+  BB75a8857de -> BB75a8857e4 [color="red"];
+  BB75a8857e4 -> BB75a8857ef [color="red"];
+  BB75a8857ef -> BB75a885809 [color="red"];
+  BB75a885809 -> BB75a885819 [color="green"];
+  BB75a885809 -> BB75a885813 [color="red"];
+  BB75a885813 -> BB75a885819 [color="red"];
+  BB75a885819 -> BB75a88581b [color="blue"];
+  BB75a885821 -> BB75a885839 [color="green"];
+  BB75a885821 -> BB75a885833 [color="red"];
+  BB75a885833 -> BB75a885839 [color="red"];
+  BB75a885839 -> BB75a88581b [color="blue"];
+}

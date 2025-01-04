@@ -1,0 +1,15 @@
+digraph increment {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8c783c -> BB75a8c787b [color="green"];
+  BB75a8c783c -> BB75a8c7855 [color="red"];
+  BB75a8c7855 -> BB75a8c787e [color="blue"];
+  BB75a8c787b -> BB75a8c787e [color="blue"];
+  BB75a8c787e -> BB75a8c7896 [color="green"];
+  BB75a8c787e -> BB75a8c7887 [color="red"];
+  BB75a8c7887 -> BB75a8c7896 [color="green"];
+  BB75a8c7887 -> BB75a8c788c [color="red"];
+  BB75a8c788c -> BB75a8c7896 [color="green"];
+  BB75a8c788c -> BB75a8c7892 [color="red"];
+  BB75a8c7892 -> BB75a8c7896 [color="blue"];
+}

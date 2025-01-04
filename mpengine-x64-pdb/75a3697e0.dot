@@ -1,0 +1,16 @@
+digraph is_PUA_threat_ix {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3697e0 -> BB75a36982e [color="green"];
+  BB75a3697e0 -> BB75a36980a [color="red"];
+  BB75a36980a -> BB75a369835 [color="green"];
+  BB75a36980a -> BB75a36981c [color="red"];
+  BB75a36981c -> BB75a36981e [color="blue"];
+  BB75a36982e -> BB75a36980a [color="blue"];
+  BB75a369835 -> BB75a36984a [color="green"];
+  BB75a369835 -> BB75a36983d [color="red"];
+  BB75a36983d -> BB75a36984a [color="green"];
+  BB75a36983d -> BB75a369848 [color="red"];
+  BB75a369848 -> BB75a36984a [color="blue"];
+  BB75a36984a -> BB75a36981e [color="blue"];
+}

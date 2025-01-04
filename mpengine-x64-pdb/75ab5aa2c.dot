@@ -1,0 +1,27 @@
+digraph vdbeMergeEngineStep {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5aa2c -> BB75ab5abc4 [color="green"];
+  BB75ab5aa2c -> BB75ab5aa78 [color="red"];
+  BB75ab5aa78 -> BB75ab5aba1 [color="green"];
+  BB75ab5aa78 -> BB75ab5aab8 [color="red"];
+  BB75ab5aab8 -> BB75ab5aac2 [color="blue"];
+  BB75ab5aac2 -> BB75ab5ab57 [color="green"];
+  BB75ab5aac2 -> BB75ab5aacc [color="red"];
+  BB75ab5aacc -> BB75ab5ab06 [color="green"];
+  BB75ab5aacc -> BB75ab5aad2 [color="red"];
+  BB75ab5aad2 -> BB75ab5ab06 [color="green"];
+  BB75ab5aad2 -> BB75ab5aaff [color="red"];
+  BB75ab5aaff -> BB75ab5ab4d [color="green"];
+  BB75ab5aaff -> BB75ab5ab01 [color="red"];
+  BB75ab5ab01 -> BB75ab5ab4d [color="green"];
+  BB75ab5ab01 -> BB75ab5ab06 [color="red"];
+  BB75ab5ab06 -> BB75ab5ab98 [color="blue"];
+  BB75ab5ab4d -> BB75ab5ab57 [color="green"];
+  BB75ab5ab4d -> BB75ab5ab53 [color="red"];
+  BB75ab5ab53 -> BB75ab5ab57 [color="blue"];
+  BB75ab5ab57 -> BB75ab5ab98 [color="blue"];
+  BB75ab5ab98 -> BB75ab5aac2 [color="green"];
+  BB75ab5ab98 -> BB75ab5aba1 [color="red"];
+  BB75ab5aba1 -> BB75ab5abc4 [color="blue"];
+}

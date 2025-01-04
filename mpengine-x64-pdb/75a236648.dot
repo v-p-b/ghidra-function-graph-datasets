@@ -1,0 +1,24 @@
+digraph finalize_BB {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a236648 -> BB75a23667d [color="green"];
+  BB75a236648 -> BB75a23666d [color="red"];
+  BB75a23666d -> BB75a23673c [color="green"];
+  BB75a23666d -> BB75a23667d [color="red"];
+  BB75a23667d -> BB75a236753 [color="green"];
+  BB75a23667d -> BB75a23668c [color="red"];
+  BB75a23668c -> BB75a236732 [color="green"];
+  BB75a23668c -> BB75a2366a3 [color="red"];
+  BB75a2366a3 -> BB75a23672e [color="green"];
+  BB75a2366a3 -> BB75a2366c1 [color="red"];
+  BB75a2366c1 -> BB75a2366c6 [color="blue"];
+  BB75a2366c6 -> BB75a23675d [color="green"];
+  BB75a2366c6 -> BB75a2366da [color="red"];
+  BB75a23672e -> BB75a2366c6 [color="blue"];
+  BB75a236732 -> BB75a2366a3 [color="blue"];
+  BB75a23673c -> BB75a23667d [color="green"];
+  BB75a23673c -> BB75a236746 [color="red"];
+  BB75a236746 -> BB75a23667d [color="blue"];
+  BB75a236753 -> BB75a23668c [color="blue"];
+  BB75a23675d -> BB75a2366da [color="blue"];
+}

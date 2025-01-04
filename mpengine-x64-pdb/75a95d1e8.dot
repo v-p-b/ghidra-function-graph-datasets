@@ -1,0 +1,17 @@
+digraph update_pmu_flow {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a95d1e8 -> BB75a95d201 [color="green"];
+  BB75a95d1e8 -> BB75a95d1f6 [color="red"];
+  BB75a95d1f6 -> BB75a95d201 [color="green"];
+  BB75a95d1f6 -> BB75a95d1fd [color="red"];
+  BB75a95d1fd -> BB75a95d203 [color="blue"];
+  BB75a95d201 -> BB75a95d203 [color="blue"];
+  BB75a95d203 -> BB75a95d23a [color="green"];
+  BB75a95d203 -> BB75a95d20e [color="red"];
+  BB75a95d20e -> BB75a95d22d [color="green"];
+  BB75a95d20e -> BB75a95d218 [color="red"];
+  BB75a95d218 -> BB75a95d22d [color="green"];
+  BB75a95d218 -> BB75a95d21e [color="red"];
+  BB75a95d21e -> BB75a95d22d [color="blue"];
+}

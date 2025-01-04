@@ -1,0 +1,23 @@
+digraph DeleteSnapshot {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab86130 -> BB75ab8618b [color="green"];
+  BB75ab86130 -> BB75ab8616d [color="red"];
+  BB75ab8616d -> BB75ab8618b [color="green"];
+  BB75ab8616d -> BB75ab86173 [color="red"];
+  BB75ab86173 -> BB75ab8618b [color="red"];
+  BB75ab8618b -> BB75ab86227 [color="green"];
+  BB75ab8618b -> BB75ab861eb [color="red"];
+  BB75ab861eb -> BB75ab86219 [color="green"];
+  BB75ab861eb -> BB75ab861f7 [color="red"];
+  BB75ab861f7 -> BB75ab86219 [color="green"];
+  BB75ab861f7 -> BB75ab861fd [color="red"];
+  BB75ab861fd -> BB75ab86219 [color="red"];
+  BB75ab86219 -> BB75ab8625d [color="blue"];
+  BB75ab86227 -> BB75ab8625b [color="green"];
+  BB75ab86227 -> BB75ab8623d [color="red"];
+  BB75ab8623d -> BB75ab8625b [color="green"];
+  BB75ab8623d -> BB75ab86243 [color="red"];
+  BB75ab86243 -> BB75ab8625b [color="red"];
+  BB75ab8625b -> BB75ab8625d [color="blue"];
+}

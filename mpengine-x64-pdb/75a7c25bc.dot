@@ -1,0 +1,11 @@
+digraph GetInvolvedDocumentForHipsRule {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7c25bc -> BB75a7c25ee [color="green"];
+  BB75a7c25bc -> BB75a7c25ea [color="red"];
+  BB75a7c25ea -> BB75a7c2628 [color="blue"];
+  BB75a7c25ee -> BB75a7c261b [color="green"];
+  BB75a7c25ee -> BB75a7c2604 [color="red"];
+  BB75a7c2604 -> BB75a7c261b [color="red"];
+  BB75a7c261b -> BB75a7c2628 [color="red"];
+}

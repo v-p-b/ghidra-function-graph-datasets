@@ -1,0 +1,13 @@
+digraph CRCLowerStringW {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a25012c -> BB75a2501a6 [color="green"];
+  BB75a25012c -> BB75a250148 [color="red"];
+  BB75a250148 -> BB75a250152 [color="blue"];
+  BB75a250152 -> BB75a2501b4 [color="green"];
+  BB75a250152 -> BB75a250168 [color="red"];
+  BB75a250168 -> BB75a250174 [color="blue"];
+  BB75a250174 -> BB75a250152 [color="green"];
+  BB75a250174 -> BB75a2501a6 [color="red"];
+  BB75a2501b4 -> BB75a250174 [color="blue"];
+}

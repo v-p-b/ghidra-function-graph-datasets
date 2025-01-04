@@ -1,0 +1,13 @@
+digraph VFS_GetAttribByHandle {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a392004 -> BB75a39202a [color="green"];
+  BB75a392004 -> BB75a39201c [color="red"];
+  BB75a39201c -> BB75a392032 [color="green"];
+  BB75a39201c -> BB75a39202a [color="red"];
+  BB75a39202a -> BB75a39202c [color="blue"];
+  BB75a392032 -> BB75a392040 [color="green"];
+  BB75a392032 -> BB75a392037 [color="red"];
+  BB75a392037 -> BB75a392040 [color="blue"];
+  BB75a392040 -> BB75a39202c [color="blue"];
+}

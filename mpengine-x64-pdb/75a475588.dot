@@ -1,0 +1,14 @@
+digraph vdll_get_import_va {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a475588 -> BB75a47560f [color="green"];
+  BB75a475588 -> BB75a4755bc [color="red"];
+  BB75a4755bc -> BB75a475613 [color="green"];
+  BB75a4755bc -> BB75a4755d0 [color="red"];
+  BB75a4755d0 -> BB75a475606 [color="green"];
+  BB75a4755d0 -> BB75a4755e4 [color="red"];
+  BB75a4755e4 -> BB75a4755ed [color="red"];
+  BB75a475606 -> BB75a4755ed [color="blue"];
+  BB75a47560f -> BB75a4755ed [color="blue"];
+  BB75a475613 -> BB75a4755d0 [color="blue"];
+}

@@ -1,0 +1,30 @@
+digraph AddRegistryAction {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acddcec -> BB75acddea2 [color="green"];
+  BB75acddcec -> BB75acddd71 [color="red"];
+  BB75acddd71 -> BB75acddea2 [color="green"];
+  BB75acddd71 -> BB75acddd7b [color="red"];
+  BB75acddd7b -> BB75acdddcf [color="green"];
+  BB75acddd7b -> BB75acddd99 [color="red"];
+  BB75acddd99 -> BB75acdddc5 [color="green"];
+  BB75acddd99 -> BB75acdddac [color="red"];
+  BB75acdddac -> BB75acdddc5 [color="green"];
+  BB75acdddac -> BB75acdddb2 [color="red"];
+  BB75acdddb2 -> BB75acdddc5 [color="red"];
+  BB75acdddc5 -> BB75acddea5 [color="blue"];
+  BB75acdddcf -> BB75acdddfb [color="green"];
+  BB75acdddcf -> BB75acddded [color="red"];
+  BB75acddded -> BB75acddea5 [color="blue"];
+  BB75acdddfb -> BB75acddded [color="green"];
+  BB75acdddfb -> BB75acdde28 [color="red"];
+  BB75acdde28 -> BB75acdde56 [color="green"];
+  BB75acdde28 -> BB75acdde2e [color="red"];
+  BB75acdde2e -> BB75acddded [color="green"];
+  BB75acdde2e -> BB75acdde56 [color="red"];
+  BB75acdde56 -> BB75acddded [color="green"];
+  BB75acdde56 -> BB75acdde7c [color="red"];
+  BB75acdde7c -> BB75acddded [color="green"];
+  BB75acdde7c -> BB75acddea2 [color="red"];
+  BB75acddea2 -> BB75acddea5 [color="blue"];
+}

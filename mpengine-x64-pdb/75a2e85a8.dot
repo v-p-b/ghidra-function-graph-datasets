@@ -1,0 +1,18 @@
+digraph TestFileStashExclusionByFileName {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2e85a8 -> BB75a2e85f2 [color="green"];
+  BB75a2e85a8 -> BB75a2e85d1 [color="red"];
+  BB75a2e85d1 -> BB75a2e85d3 [color="blue"];
+  BB75a2e85f2 -> BB75a2e85d1 [color="green"];
+  BB75a2e85f2 -> BB75a2e85f7 [color="red"];
+  BB75a2e85f7 -> BB75a2e8688 [color="green"];
+  BB75a2e85f7 -> BB75a2e860b [color="red"];
+  BB75a2e860b -> BB75a2e8680 [color="green"];
+  BB75a2e860b -> BB75a2e8678 [color="red"];
+  BB75a2e8678 -> BB75a2e8680 [color="red"];
+  BB75a2e8680 -> BB75a2e85d3 [color="blue"];
+  BB75a2e8688 -> BB75a2e85d1 [color="green"];
+  BB75a2e8688 -> BB75a2e8696 [color="red"];
+  BB75a2e8696 -> BB75a2e85d1 [color="blue"];
+}

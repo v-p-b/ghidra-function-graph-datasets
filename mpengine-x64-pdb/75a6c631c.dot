@@ -1,0 +1,18 @@
+digraph ShouldSendMemoryScanReport {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6c631c -> BB75a6c6388 [color="green"];
+  BB75a6c631c -> BB75a6c634e [color="red"];
+  BB75a6c634e -> BB75a6c63ab [color="green"];
+  BB75a6c634e -> BB75a6c6362 [color="red"];
+  BB75a6c6362 -> BB75a6c637b [color="green"];
+  BB75a6c6362 -> BB75a6c6375 [color="red"];
+  BB75a6c6375 -> BB75a6c6394 [color="green"];
+  BB75a6c6375 -> BB75a6c637b [color="red"];
+  BB75a6c637b -> BB75a6c637d [color="blue"];
+  BB75a6c6388 -> BB75a6c637b [color="green"];
+  BB75a6c6388 -> BB75a6c638d [color="red"];
+  BB75a6c638d -> BB75a6c637b [color="blue"];
+  BB75a6c6394 -> BB75a6c637b [color="blue"];
+  BB75a6c63ab -> BB75a6c637d [color="blue"];
+}

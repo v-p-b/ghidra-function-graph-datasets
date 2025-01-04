@@ -1,0 +1,16 @@
+digraph checkstacksizes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1f90d8 -> BB75a1f9141 [color="green"];
+  BB75a1f90d8 -> BB75a1f9102 [color="red"];
+  BB75a1f9102 -> BB75a1f9165 [color="green"];
+  BB75a1f9102 -> BB75a1f9133 [color="red"];
+  BB75a1f9133 -> BB75a1f9151 [color="green"];
+  BB75a1f9133 -> BB75a1f9141 [color="red"];
+  BB75a1f9151 -> BB75a1f9141 [color="green"];
+  BB75a1f9151 -> BB75a1f9156 [color="red"];
+  BB75a1f9156 -> BB75a1f9141 [color="blue"];
+  BB75a1f9165 -> BB75a1f9133 [color="green"];
+  BB75a1f9165 -> BB75a1f916a [color="red"];
+  BB75a1f916a -> BB75a1f9133 [color="blue"];
+}

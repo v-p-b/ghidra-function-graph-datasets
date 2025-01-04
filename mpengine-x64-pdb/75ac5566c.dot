@@ -1,0 +1,16 @@
+digraph ValidateEfiFile {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac5566c -> BB75ac556a0 [color="green"];
+  BB75ac5566c -> BB75ac55686 [color="red"];
+  BB75ac55686 -> BB75ac556a0 [color="green"];
+  BB75ac55686 -> BB75ac55699 [color="red"];
+  BB75ac55699 -> BB75ac556a0 [color="blue"];
+  BB75ac556a0 -> BB75ac556ba [color="green"];
+  BB75ac556a0 -> BB75ac556a7 [color="red"];
+  BB75ac556a7 -> BB75ac556b8 [color="green"];
+  BB75ac556a7 -> BB75ac556ac [color="red"];
+  BB75ac556ac -> BB75ac556b8 [color="green"];
+  BB75ac556ac -> BB75ac556b1 [color="red"];
+  BB75ac556b8 -> BB75ac556ba [color="blue"];
+}

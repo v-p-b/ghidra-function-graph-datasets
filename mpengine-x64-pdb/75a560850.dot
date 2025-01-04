@@ -1,0 +1,13 @@
+digraph NTDLL_DLL_ThrdMgr_GetCurrentThreadHandle {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a560850 -> BB75a5608c5 [color="green"];
+  BB75a560850 -> BB75a560864 [color="red"];
+  BB75a560864 -> BB75a5608c5 [color="green"];
+  BB75a560864 -> BB75a560870 [color="red"];
+  BB75a560870 -> BB75a5608b7 [color="green"];
+  BB75a560870 -> BB75a5608ab [color="red"];
+  BB75a5608ab -> BB75a5608b7 [color="blue"];
+  BB75a5608b7 -> BB75a5608ba [color="blue"];
+  BB75a5608c5 -> BB75a5608ba [color="blue"];
+}

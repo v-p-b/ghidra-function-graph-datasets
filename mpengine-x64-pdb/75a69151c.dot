@@ -1,0 +1,9 @@
+digraph macho_set_attribute {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a69151c -> BB75a691560 [color="green"];
+  BB75a69151c -> BB75a69153b [color="red"];
+  BB75a69153b -> BB75a691560 [color="green"];
+  BB75a69153b -> BB75a691540 [color="red"];
+  BB75a691540 -> BB75a691560 [color="red"];
+}

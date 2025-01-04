@@ -1,0 +1,21 @@
+digraph __acrt_getptd_noexit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a77294c -> BB75a77298d [color="green"];
+  BB75a77294c -> BB75a772970 [color="red"];
+  BB75a772970 -> BB75a772987 [color="green"];
+  BB75a772970 -> BB75a77297d [color="red"];
+  BB75a77297d -> BB75a7729f9 [color="blue"];
+  BB75a772987 -> BB75a77298d [color="blue"];
+  BB75a77298d -> BB75a77299f [color="green"];
+  BB75a77298d -> BB75a77299a [color="red"];
+  BB75a77299a -> BB75a7729f9 [color="blue"];
+  BB75a77299f -> BB75a7729cc [color="green"];
+  BB75a77299f -> BB75a7729bc [color="red"];
+  BB75a7729bc -> BB75a7729c5 [color="red"];
+  BB75a7729c5 -> BB75a77299a [color="blue"];
+  BB75a7729cc -> BB75a7729ea [color="green"];
+  BB75a7729cc -> BB75a7729d8 [color="red"];
+  BB75a7729d8 -> BB75a7729c5 [color="blue"];
+  BB75a7729ea -> BB75a7729f9 [color="red"];
+}

@@ -1,0 +1,13 @@
+digraph dyld_segment_entry___index {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aafdba0 -> BB75aafdcb0 [color="green"];
+  BB75aafdba0 -> BB75aafdc09 [color="red"];
+  BB75aafdc09 -> BB75aafdc12 [color="blue"];
+  BB75aafdc12 -> BB75aafdc27 [color="green"];
+  BB75aafdc12 -> BB75aafdc1f [color="red"];
+  BB75aafdc1f -> BB75aafdc12 [color="green"];
+  BB75aafdc1f -> BB75aafdc27 [color="red"];
+  BB75aafdc27 -> BB75aafdcb0 [color="green"];
+  BB75aafdc27 -> BB75aafdc2f [color="red"];
+}

@@ -1,0 +1,12 @@
+digraph PendingInternalDetectionsLookup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a884754 -> BB75a88481e [color="green"];
+  BB75a884754 -> BB75a8847cc [color="red"];
+  BB75a8847cc -> BB75a88481e [color="green"];
+  BB75a8847cc -> BB75a8847fb [color="red"];
+  BB75a8847fb -> BB75a88481e [color="green"];
+  BB75a8847fb -> BB75a884801 [color="red"];
+  BB75a884801 -> BB75a88481e [color="red"];
+  BB75a88481e -> BB75a88483a [color="blue"];
+}

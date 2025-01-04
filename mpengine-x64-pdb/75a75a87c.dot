@@ -1,0 +1,10 @@
+digraph sqlite3VtabUnlock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a75a87c -> BB75a75a8b2 [color="green"];
+  BB75a75a87c -> BB75a75a892 [color="red"];
+  BB75a75a892 -> BB75a75a8a7 [color="green"];
+  BB75a75a892 -> BB75a75a89b [color="red"];
+  BB75a75a89b -> BB75a75a8a7 [color="red"];
+  BB75a75a8a7 -> BB75a75a8b2 [color="red"];
+}

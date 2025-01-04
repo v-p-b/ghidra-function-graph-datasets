@@ -1,0 +1,23 @@
+digraph isAMPorMonitoredPPID {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6b5460 -> BB75a6b54f2 [color="green"];
+  BB75a6b5460 -> BB75a6b548e [color="red"];
+  BB75a6b548e -> BB75a6b54fd [color="green"];
+  BB75a6b548e -> BB75a6b54b2 [color="red"];
+  BB75a6b54b2 -> BB75a6b54c9 [color="blue"];
+  BB75a6b54c9 -> BB75a6b54c9 [color="green"];
+  BB75a6b54c9 -> BB75a6b54d5 [color="red"];
+  BB75a6b54d5 -> BB75a6b54f0 [color="green"];
+  BB75a6b54d5 -> BB75a6b54de [color="red"];
+  BB75a6b54de -> BB75a6b552f [color="green"];
+  BB75a6b54de -> BB75a6b54f0 [color="red"];
+  BB75a6b54f0 -> BB75a6b54f2 [color="blue"];
+  BB75a6b54fd -> BB75a6b5516 [color="green"];
+  BB75a6b54fd -> BB75a6b5504 [color="red"];
+  BB75a6b5504 -> BB75a6b551a [color="green"];
+  BB75a6b5504 -> BB75a6b5516 [color="red"];
+  BB75a6b5516 -> BB75a6b54f2 [color="blue"];
+  BB75a6b551a -> BB75a6b5516 [color="blue"];
+  BB75a6b552f -> BB75a6b54f0 [color="blue"];
+}

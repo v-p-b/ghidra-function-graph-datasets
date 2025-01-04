@@ -1,0 +1,16 @@
+digraph process_pmi_event_v2 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a95e908 -> BB75a95e97c [color="blue"];
+  BB75a95e943 -> BB75a95e983 [color="green"];
+  BB75a95e943 -> BB75a95e956 [color="red"];
+  BB75a95e956 -> BB75a95e975 [color="green"];
+  BB75a95e956 -> BB75a95e966 [color="red"];
+  BB75a95e966 -> BB75a95e983 [color="green"];
+  BB75a95e966 -> BB75a95e975 [color="red"];
+  BB75a95e975 -> BB75a95e97c [color="blue"];
+  BB75a95e97c -> BB75a95e943 [color="green"];
+  BB75a95e97c -> BB75a95e981 [color="red"];
+  BB75a95e981 -> BB75a95e986 [color="blue"];
+  BB75a95e983 -> BB75a95e986 [color="blue"];
+}

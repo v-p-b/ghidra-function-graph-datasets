@@ -1,0 +1,9 @@
+digraph IsValidClsid {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4392f4 -> BB75a439310 [color="green"];
+  BB75a4392f4 -> BB75a439302 [color="red"];
+  BB75a439302 -> BB75a439310 [color="green"];
+  BB75a439302 -> BB75a43930b [color="red"];
+  BB75a43930b -> BB75a439310 [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph StartComposite {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acda5c0 -> BB75acda606 [color="green"];
+  BB75acda5c0 -> BB75acda5cd [color="red"];
+  BB75acda5cd -> BB75acda610 [color="green"];
+  BB75acda5cd -> BB75acda5d5 [color="red"];
+  BB75acda5d5 -> BB75acda606 [color="green"];
+  BB75acda5d5 -> BB75acda5eb [color="red"];
+  BB75acda5eb -> BB75acda606 [color="green"];
+  BB75acda5eb -> BB75acda5f1 [color="red"];
+  BB75acda5f1 -> BB75acda606 [color="red"];
+  BB75acda606 -> BB75acda60b [color="blue"];
+  BB75acda610 -> BB75acda606 [color="green"];
+  BB75acda610 -> BB75acda615 [color="red"];
+  BB75acda615 -> BB75acda60b [color="blue"];
+}

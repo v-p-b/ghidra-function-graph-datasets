@@ -1,0 +1,10 @@
+digraph push {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a482dbc -> BB75a482e36 [color="green"];
+  BB75a482dbc -> BB75a482dde [color="red"];
+  BB75a482dde -> BB75a482e22 [color="green"];
+  BB75a482dde -> BB75a482dff [color="red"];
+  BB75a482e22 -> BB75a482dff [color="blue"];
+  BB75a482e36 -> BB75a482dde [color="blue"];
+}

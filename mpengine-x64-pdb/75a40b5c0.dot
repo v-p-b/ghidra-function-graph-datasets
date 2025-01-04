@@ -1,0 +1,13 @@
+digraph submit_job {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a40b5c0 -> BB75a40b6c3 [color="green"];
+  BB75a40b5c0 -> BB75a40b612 [color="red"];
+  BB75a40b612 -> BB75a40b64b [color="green"];
+  BB75a40b612 -> BB75a40b633 [color="red"];
+  BB75a40b633 -> BB75a40b64b [color="red"];
+  BB75a40b64b -> BB75a40b6f2 [color="green"];
+  BB75a40b64b -> BB75a40b6af [color="red"];
+  BB75a40b6af -> BB75a40b6c3 [color="red"];
+  BB75a40b6f2 -> BB75a40b6c3 [color="blue"];
+}

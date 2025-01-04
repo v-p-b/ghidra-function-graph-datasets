@@ -1,0 +1,16 @@
+digraph pushObjectLiteralTree {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a61baf8 -> BB75a61bb0f [color="green"];
+  BB75a61baf8 -> BB75a61bb07 [color="red"];
+  BB75a61bb07 -> BB75a61bb09 [color="blue"];
+  BB75a61bb0f -> BB75a61bb2e [color="green"];
+  BB75a61bb0f -> BB75a61bb14 [color="red"];
+  BB75a61bb14 -> BB75a61bb50 [color="green"];
+  BB75a61bb14 -> BB75a61bb1e [color="red"];
+  BB75a61bb1e -> BB75a61bb07 [color="blue"];
+  BB75a61bb2e -> BB75a61bb50 [color="green"];
+  BB75a61bb2e -> BB75a61bb42 [color="red"];
+  BB75a61bb42 -> BB75a61bb07 [color="blue"];
+  BB75a61bb50 -> BB75a61bb09 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph sqlite3VdbeMemFromBtree {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4eb784 -> BB75a4eb7d2 [color="green"];
+  BB75a4eb784 -> BB75a4eb7a2 [color="red"];
+  BB75a4eb7a2 -> BB75a4eb7c8 [color="green"];
+  BB75a4eb7a2 -> BB75a4eb7ab [color="red"];
+  BB75a4eb7ab -> BB75a4eb7c0 [color="blue"];
+  BB75a4eb7c8 -> BB75a4eb7c0 [color="blue"];
+  BB75a4eb7d2 -> BB75a4eb7a2 [color="blue"];
+}

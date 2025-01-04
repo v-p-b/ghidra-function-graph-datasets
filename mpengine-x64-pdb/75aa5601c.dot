@@ -1,0 +1,9 @@
+digraph SetDelta {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa5601c -> BB75aa5605c [color="green"];
+  BB75aa5601c -> BB75aa5603e [color="red"];
+  BB75aa5603e -> BB75aa5605c [color="green"];
+  BB75aa5603e -> BB75aa56044 [color="red"];
+  BB75aa56044 -> BB75aa5605c [color="red"];
+}

@@ -1,0 +1,18 @@
+digraph make_indirect_jtype {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a72400c -> BB75a724052 [color="blue"];
+  BB75a724052 -> BB75a724052 [color="green"];
+  BB75a724052 -> BB75a724067 [color="red"];
+  BB75a724067 -> BB75a724087 [color="green"];
+  BB75a724067 -> BB75a72406d [color="red"];
+  BB75a72406d -> BB75a724087 [color="green"];
+  BB75a72406d -> BB75a724080 [color="red"];
+  BB75a724080 -> BB75a7240b0 [color="blue"];
+  BB75a724087 -> BB75a7240ae [color="green"];
+  BB75a724087 -> BB75a72408c [color="red"];
+  BB75a72408c -> BB75a7240ae [color="green"];
+  BB75a72408c -> BB75a724092 [color="red"];
+  BB75a724092 -> BB75a7240b0 [color="blue"];
+  BB75a7240ae -> BB75a7240b0 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph TestVmProcessProtectionMultiPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5bc0f0 -> BB75a5bc15f [color="green"];
+  BB75a5bc0f0 -> BB75a5bc121 [color="red"];
+  BB75a5bc121 -> BB75a5bc12e [color="green"];
+  BB75a5bc121 -> BB75a5bc12b [color="red"];
+  BB75a5bc12b -> BB75a5bc12e [color="blue"];
+  BB75a5bc12e -> BB75a5bc15b [color="green"];
+  BB75a5bc12e -> BB75a5bc13d [color="red"];
+  BB75a5bc13d -> BB75a5bc121 [color="green"];
+  BB75a5bc13d -> BB75a5bc146 [color="red"];
+  BB75a5bc15b -> BB75a5bc146 [color="blue"];
+  BB75a5bc15f -> BB75a5bc146 [color="blue"];
+}

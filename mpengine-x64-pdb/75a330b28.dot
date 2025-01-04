@@ -1,0 +1,14 @@
+digraph get_crt_ilen {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a330b28 -> BB75a330b5c [color="green"];
+  BB75a330b28 -> BB75a330b56 [color="red"];
+  BB75a330b56 -> BB75a330b68 [color="green"];
+  BB75a330b56 -> BB75a330b5c [color="red"];
+  BB75a330b5c -> BB75a330b8d [color="green"];
+  BB75a330b5c -> BB75a330b68 [color="red"];
+  BB75a330b68 -> BB75a330b8d [color="green"];
+  BB75a330b68 -> BB75a330b75 [color="red"];
+  BB75a330b75 -> BB75a330b90 [color="blue"];
+  BB75a330b8d -> BB75a330b90 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph NTDLL_DLL_VFS_Write {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa73c10 -> BB75aa73cdd [color="green"];
+  BB75aa73c10 -> BB75aa73c91 [color="red"];
+  BB75aa73c91 -> BB75aa73cdd [color="green"];
+  BB75aa73c91 -> BB75aa73c96 [color="red"];
+  BB75aa73c96 -> BB75aa73cdd [color="green"];
+  BB75aa73c96 -> BB75aa73cc9 [color="red"];
+  BB75aa73cc9 -> BB75aa73cdd [color="green"];
+  BB75aa73cc9 -> BB75aa73cd2 [color="red"];
+  BB75aa73cd2 -> BB75aa73cdd [color="red"];
+}

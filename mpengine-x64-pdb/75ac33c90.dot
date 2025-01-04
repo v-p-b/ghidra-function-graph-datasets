@@ -1,0 +1,11 @@
+digraph AttachAfterRemove {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac33c90 -> BB75ac33cbc [color="green"];
+  BB75ac33c90 -> BB75ac33cb5 [color="red"];
+  BB75ac33cb5 -> BB75ac33d11 [color="blue"];
+  BB75ac33cbc -> BB75ac33d08 [color="green"];
+  BB75ac33cbc -> BB75ac33cfb [color="red"];
+  BB75ac33cfb -> BB75ac33d08 [color="red"];
+  BB75ac33d08 -> BB75ac33d11 [color="blue"];
+}

@@ -1,0 +1,37 @@
+digraph microcode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a33084c -> BB75a3308c5 [color="green"];
+  BB75a33084c -> BB75a3308a4 [color="red"];
+  BB75a3308a4 -> BB75a3308c5 [color="green"];
+  BB75a3308a4 -> BB75a3308b3 [color="red"];
+  BB75a3308b3 -> BB75a3308ee [color="green"];
+  BB75a3308b3 -> BB75a3308c5 [color="red"];
+  BB75a3308c5 -> BB75a3308c7 [color="blue"];
+  BB75a3308ee -> BB75a3308c5 [color="green"];
+  BB75a3308ee -> BB75a330901 [color="red"];
+  BB75a330901 -> BB75a330b0f [color="green"];
+  BB75a330901 -> BB75a330936 [color="red"];
+  BB75a330936 -> BB75a330b0f [color="green"];
+  BB75a330936 -> BB75a330986 [color="red"];
+  BB75a330986 -> BB75a330b0f [color="green"];
+  BB75a330986 -> BB75a33099e [color="red"];
+  BB75a33099e -> BB75a330b0f [color="green"];
+  BB75a33099e -> BB75a3309b0 [color="red"];
+  BB75a3309b0 -> BB75a330b0f [color="green"];
+  BB75a3309b0 -> BB75a3309d6 [color="red"];
+  BB75a3309d6 -> BB75a330a0f [color="green"];
+  BB75a3309d6 -> BB75a3309fe [color="red"];
+  BB75a3309fe -> BB75a330a12 [color="blue"];
+  BB75a330a0f -> BB75a330a12 [color="blue"];
+  BB75a330a12 -> BB75a330b0f [color="green"];
+  BB75a330a12 -> BB75a330a33 [color="red"];
+  BB75a330a33 -> BB75a330b0f [color="green"];
+  BB75a330a33 -> BB75a330a47 [color="red"];
+  BB75a330a47 -> BB75a330a5f [color="green"];
+  BB75a330a47 -> BB75a330a50 [color="red"];
+  BB75a330a50 -> BB75a330a65 [color="blue"];
+  BB75a330a5f -> BB75a330a65 [color="blue"];
+  BB75a330a65 -> BB75a330b0f [color="red"];
+  BB75a330b0f -> BB75a3308c7 [color="blue"];
+}

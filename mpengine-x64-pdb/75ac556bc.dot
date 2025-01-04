@@ -1,0 +1,18 @@
+digraph ValidateEfiVolume {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac556bc -> BB75ac5572f [color="green"];
+  BB75ac556bc -> BB75ac556da [color="red"];
+  BB75ac556da -> BB75ac5572f [color="green"];
+  BB75ac556da -> BB75ac556e9 [color="red"];
+  BB75ac556e9 -> BB75ac55710 [color="green"];
+  BB75ac556e9 -> BB75ac556f2 [color="red"];
+  BB75ac556f2 -> BB75ac55710 [color="green"];
+  BB75ac556f2 -> BB75ac5570a [color="red"];
+  BB75ac5570a -> BB75ac55728 [color="blue"];
+  BB75ac55710 -> BB75ac5572b [color="green"];
+  BB75ac55710 -> BB75ac55728 [color="red"];
+  BB75ac55728 -> BB75ac5572b [color="blue"];
+  BB75ac5572b -> BB75ac55731 [color="blue"];
+  BB75ac5572f -> BB75ac55731 [color="blue"];
+}

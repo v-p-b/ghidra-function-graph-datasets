@@ -1,0 +1,17 @@
+digraph _validate_feature_and_save {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a58578c -> BB75a58587b [color="green"];
+  BB75a58578c -> BB75a5857e4 [color="red"];
+  BB75a5857e4 -> BB75a58587b [color="green"];
+  BB75a5857e4 -> BB75a585800 [color="red"];
+  BB75a585800 -> BB75a58587b [color="green"];
+  BB75a585800 -> BB75a585833 [color="red"];
+  BB75a585833 -> BB75a585880 [color="green"];
+  BB75a585833 -> BB75a58585a [color="red"];
+  BB75a58585a -> BB75a58586d [color="green"];
+  BB75a58585a -> BB75a585864 [color="red"];
+  BB75a585864 -> BB75a585880 [color="blue"];
+  BB75a58586d -> BB75a585880 [color="blue"];
+  BB75a58587b -> BB75a585880 [color="blue"];
+}

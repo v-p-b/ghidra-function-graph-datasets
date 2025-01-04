@@ -1,0 +1,15 @@
+digraph ApiTaskWorker {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a855be0 -> BB75a855c3d [color="green"];
+  BB75a855be0 -> BB75a855bf1 [color="red"];
+  BB75a855bf1 -> BB75a855c3d [color="green"];
+  BB75a855bf1 -> BB75a855c08 [color="red"];
+  BB75a855c08 -> BB75a855c39 [color="green"];
+  BB75a855c08 -> BB75a855c1b [color="red"];
+  BB75a855c1b -> BB75a855c39 [color="green"];
+  BB75a855c1b -> BB75a855c21 [color="red"];
+  BB75a855c21 -> BB75a855c39 [color="red"];
+  BB75a855c39 -> BB75a855c42 [color="blue"];
+  BB75a855c3d -> BB75a855c42 [color="blue"];
+}

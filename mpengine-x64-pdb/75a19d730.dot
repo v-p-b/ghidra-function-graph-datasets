@@ -1,0 +1,15 @@
+digraph clear_multipage_cursors {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a19d730 -> BB75a19d77e [color="green"];
+  BB75a19d730 -> BB75a19d747 [color="red"];
+  BB75a19d747 -> BB75a19d774 [color="green"];
+  BB75a19d747 -> BB75a19d758 [color="red"];
+  BB75a19d758 -> BB75a19d789 [color="green"];
+  BB75a19d758 -> BB75a19d76e [color="red"];
+  BB75a19d76e -> BB75a19d789 [color="green"];
+  BB75a19d76e -> BB75a19d774 [color="red"];
+  BB75a19d774 -> BB75a19d747 [color="green"];
+  BB75a19d774 -> BB75a19d77e [color="red"];
+  BB75a19d789 -> BB75a19d774 [color="blue"];
+}

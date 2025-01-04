@@ -1,0 +1,16 @@
+digraph clear_page_cursors {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a19daf8 -> BB75a19db19 [color="blue"];
+  BB75a19db19 -> BB75a19db3c [color="green"];
+  BB75a19db19 -> BB75a19db22 [color="red"];
+  BB75a19db22 -> BB75a19db7d [color="green"];
+  BB75a19db22 -> BB75a19db2c [color="red"];
+  BB75a19db3c -> BB75a19db62 [color="green"];
+  BB75a19db3c -> BB75a19db54 [color="red"];
+  BB75a19db54 -> BB75a19db19 [color="blue"];
+  BB75a19db62 -> BB75a19db54 [color="green"];
+  BB75a19db62 -> BB75a19db6b [color="red"];
+  BB75a19db6b -> BB75a19db54 [color="blue"];
+  BB75a19db7d -> BB75a19db2c [color="blue"];
+}

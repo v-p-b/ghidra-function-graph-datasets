@@ -1,0 +1,27 @@
+digraph BinaryRegExpSearch {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab1a0c0 -> BB75ab1a2c6 [color="green"];
+  BB75ab1a0c0 -> BB75ab1a11a [color="red"];
+  BB75ab1a11a -> BB75ab1a2c6 [color="green"];
+  BB75ab1a11a -> BB75ab1a12b [color="red"];
+  BB75ab1a12b -> BB75ab1a177 [color="blue"];
+  BB75ab1a177 -> BB75ab1a177 [color="green"];
+  BB75ab1a177 -> BB75ab1a180 [color="red"];
+  BB75ab1a180 -> BB75ab1a1f6 [color="green"];
+  BB75ab1a180 -> BB75ab1a1c2 [color="red"];
+  BB75ab1a1c2 -> BB75ab1a1e4 [color="green"];
+  BB75ab1a1c2 -> BB75ab1a1df [color="red"];
+  BB75ab1a1df -> BB75ab1a1e4 [color="red"];
+  BB75ab1a1e4 -> BB75ab1a1e7 [color="blue"];
+  BB75ab1a1f6 -> BB75ab1a204 [color="blue"];
+  BB75ab1a204 -> BB75ab1a2a5 [color="green"];
+  BB75ab1a204 -> BB75ab1a23c [color="red"];
+  BB75ab1a23c -> BB75ab1a295 [color="green"];
+  BB75ab1a23c -> BB75ab1a24b [color="red"];
+  BB75ab1a24b -> BB75ab1a204 [color="blue"];
+  BB75ab1a2a5 -> BB75ab1a2bf [color="green"];
+  BB75ab1a2a5 -> BB75ab1a2ba [color="red"];
+  BB75ab1a2ba -> BB75ab1a2bf [color="red"];
+  BB75ab1a2bf -> BB75ab1a1e7 [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph get_last_pgflags {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a612c60 -> BB75a612c7a [color="green"];
+  BB75a612c60 -> BB75a612c75 [color="red"];
+  BB75a612c75 -> BB75a612c7a [color="red"];
+  BB75a612c7a -> BB75a612c89 [color="green"];
+  BB75a612c7a -> BB75a612c7f [color="red"];
+  BB75a612c7f -> BB75a612c89 [color="blue"];
+}

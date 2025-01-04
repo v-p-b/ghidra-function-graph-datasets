@@ -1,0 +1,11 @@
+digraph LoadVmProcessProtectionInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a71e6d4 -> BB75a71e728 [color="green"];
+  BB75a71e6d4 -> BB75a71e6f7 [color="red"];
+  BB75a71e6f7 -> BB75a71e728 [color="green"];
+  BB75a71e6f7 -> BB75a71e70a [color="red"];
+  BB75a71e70a -> BB75a71e728 [color="green"];
+  BB75a71e70a -> BB75a71e710 [color="red"];
+  BB75a71e710 -> BB75a71e728 [color="red"];
+}

@@ -1,0 +1,29 @@
+digraph pagerStress {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab52190 -> BB75ab52237 [color="green"];
+  BB75ab52190 -> BB75ab521af [color="red"];
+  BB75ab521af -> BB75ab521c0 [color="green"];
+  BB75ab521af -> BB75ab521b6 [color="red"];
+  BB75ab521b6 -> BB75ab52237 [color="green"];
+  BB75ab521b6 -> BB75ab521ba [color="red"];
+  BB75ab521ba -> BB75ab52237 [color="green"];
+  BB75ab521ba -> BB75ab521c0 [color="red"];
+  BB75ab521c0 -> BB75ab521fb [color="green"];
+  BB75ab521c0 -> BB75ab521da [color="red"];
+  BB75ab521da -> BB75ab5222b [color="green"];
+  BB75ab521da -> BB75ab521e8 [color="red"];
+  BB75ab521e8 -> BB75ab5221d [color="blue"];
+  BB75ab521fb -> BB75ab52207 [color="green"];
+  BB75ab521fb -> BB75ab52201 [color="red"];
+  BB75ab52201 -> BB75ab52212 [color="green"];
+  BB75ab52201 -> BB75ab52207 [color="red"];
+  BB75ab52207 -> BB75ab5222b [color="green"];
+  BB75ab52207 -> BB75ab52212 [color="red"];
+  BB75ab52212 -> BB75ab5221d [color="red"];
+  BB75ab5221d -> BB75ab5222b [color="green"];
+  BB75ab5221d -> BB75ab52223 [color="red"];
+  BB75ab52223 -> BB75ab5222b [color="red"];
+  BB75ab5222b -> BB75ab52239 [color="blue"];
+  BB75ab52237 -> BB75ab52239 [color="blue"];
+}

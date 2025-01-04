@@ -1,0 +1,26 @@
+digraph GetAttributePriority {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6c7490 -> BB75a6c74aa [color="blue"];
+  BB75a6c74aa -> BB75a6c74dd [color="green"];
+  BB75a6c74aa -> BB75a6c74c9 [color="red"];
+  BB75a6c74c9 -> BB75a6c74e0 [color="blue"];
+  BB75a6c74dd -> BB75a6c74e0 [color="blue"];
+  BB75a6c74e0 -> BB75a6c74aa [color="green"];
+  BB75a6c74e0 -> BB75a6c74e5 [color="red"];
+  BB75a6c74e5 -> BB75a6c750d [color="green"];
+  BB75a6c74e5 -> BB75a6c74f1 [color="red"];
+  BB75a6c74f1 -> BB75a6c750d [color="green"];
+  BB75a6c74f1 -> BB75a6c7500 [color="red"];
+  BB75a6c7500 -> BB75a6c7512 [color="green"];
+  BB75a6c7500 -> BB75a6c750b [color="red"];
+  BB75a6c750b -> BB75a6c7556 [color="blue"];
+  BB75a6c750d -> BB75a6c7512 [color="blue"];
+  BB75a6c7512 -> BB75a6c7556 [color="green"];
+  BB75a6c7512 -> BB75a6c7525 [color="red"];
+  BB75a6c7525 -> BB75a6c7556 [color="green"];
+  BB75a6c7525 -> BB75a6c7538 [color="red"];
+  BB75a6c7538 -> BB75a6c7556 [color="green"];
+  BB75a6c7538 -> BB75a6c753e [color="red"];
+  BB75a6c753e -> BB75a6c7556 [color="red"];
+}

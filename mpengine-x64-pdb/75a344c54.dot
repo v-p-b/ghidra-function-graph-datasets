@@ -1,0 +1,27 @@
+digraph setThreadToWait {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a344c54 -> BB75a344c9b [color="green"];
+  BB75a344c54 -> BB75a344c86 [color="red"];
+  BB75a344c86 -> BB75a344cab [color="green"];
+  BB75a344c86 -> BB75a344c8c [color="red"];
+  BB75a344c8c -> BB75a344c90 [color="blue"];
+  BB75a344c90 -> BB75a344c86 [color="green"];
+  BB75a344c90 -> BB75a344c96 [color="red"];
+  BB75a344c96 -> BB75a344c9b [color="blue"];
+  BB75a344c9b -> BB75a344ca7 [color="green"];
+  BB75a344c9b -> BB75a344ca1 [color="red"];
+  BB75a344ca1 -> BB75a344cb3 [color="green"];
+  BB75a344ca1 -> BB75a344ca7 [color="red"];
+  BB75a344ca7 -> BB75a344cf3 [color="blue"];
+  BB75a344cab -> BB75a344c90 [color="blue"];
+  BB75a344cb3 -> BB75a344ca7 [color="green"];
+  BB75a344cb3 -> BB75a344cb8 [color="red"];
+  BB75a344cb8 -> BB75a344cc9 [color="green"];
+  BB75a344cb8 -> BB75a344cc5 [color="red"];
+  BB75a344cc5 -> BB75a344cc9 [color="blue"];
+  BB75a344cc9 -> BB75a344ce6 [color="green"];
+  BB75a344cc9 -> BB75a344ce1 [color="red"];
+  BB75a344ce1 -> BB75a344ce6 [color="red"];
+  BB75a344ce6 -> BB75a344cf3 [color="blue"];
+}

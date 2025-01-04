@@ -1,0 +1,26 @@
+digraph ReadDeviceBootSector {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abcea54 -> BB75abcead6 [color="green"];
+  BB75abcea54 -> BB75abcea8e [color="red"];
+  BB75abcea8e -> BB75abceac2 [color="green"];
+  BB75abcea8e -> BB75abceaa1 [color="red"];
+  BB75abceaa1 -> BB75abceac2 [color="green"];
+  BB75abceaa1 -> BB75abceaa7 [color="red"];
+  BB75abceaa7 -> BB75abceac2 [color="red"];
+  BB75abceac2 -> BB75abcead2 [color="green"];
+  BB75abceac2 -> BB75abceacc [color="red"];
+  BB75abceacc -> BB75abcead2 [color="red"];
+  BB75abcead2 -> BB75abceb33 [color="blue"];
+  BB75abcead6 -> BB75abceb23 [color="green"];
+  BB75abcead6 -> BB75abceaef [color="red"];
+  BB75abceaef -> BB75abceb23 [color="green"];
+  BB75abceaef -> BB75abceb02 [color="red"];
+  BB75abceb02 -> BB75abceb23 [color="green"];
+  BB75abceb02 -> BB75abceb08 [color="red"];
+  BB75abceb08 -> BB75abceb23 [color="red"];
+  BB75abceb23 -> BB75abceb31 [color="green"];
+  BB75abceb23 -> BB75abceb28 [color="red"];
+  BB75abceb28 -> BB75abceb31 [color="red"];
+  BB75abceb31 -> BB75abceb33 [color="blue"];
+}

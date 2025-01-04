@@ -1,0 +1,27 @@
+digraph xray_probe_xor8 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5ce9b0 -> BB75a5cea2e [color="green"];
+  BB75a5ce9b0 -> BB75a5ce9db [color="red"];
+  BB75a5ce9db -> BB75a5cea35 [color="green"];
+  BB75a5ce9db -> BB75a5ce9e6 [color="red"];
+  BB75a5ce9e6 -> BB75a5cea16 [color="green"];
+  BB75a5ce9e6 -> BB75a5ce9f4 [color="red"];
+  BB75a5ce9f4 -> BB75a5cea16 [color="green"];
+  BB75a5ce9f4 -> BB75a5ce9fe [color="red"];
+  BB75a5ce9fe -> BB75a5cea04 [color="blue"];
+  BB75a5cea04 -> BB75a5cea41 [color="green"];
+  BB75a5cea04 -> BB75a5cea09 [color="red"];
+  BB75a5cea09 -> BB75a5cea3c [color="green"];
+  BB75a5cea09 -> BB75a5cea16 [color="red"];
+  BB75a5cea16 -> BB75a5cea18 [color="blue"];
+  BB75a5cea2e -> BB75a5ce9db [color="blue"];
+  BB75a5cea35 -> BB75a5ce9e6 [color="blue"];
+  BB75a5cea3c -> BB75a5cea04 [color="blue"];
+  BB75a5cea41 -> BB75a5cea60 [color="green"];
+  BB75a5cea41 -> BB75a5cea48 [color="red"];
+  BB75a5cea48 -> BB75a5cea50 [color="blue"];
+  BB75a5cea50 -> BB75a5cea50 [color="green"];
+  BB75a5cea50 -> BB75a5cea60 [color="red"];
+  BB75a5cea60 -> BB75a5cea18 [color="blue"];
+}

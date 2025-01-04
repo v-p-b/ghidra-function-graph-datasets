@@ -1,0 +1,18 @@
+digraph discover_dependencies {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8b9720 -> BB75a8b9837 [color="green"];
+  BB75a8b9720 -> BB75a8b9769 [color="red"];
+  BB75a8b9769 -> BB75a8b9837 [color="green"];
+  BB75a8b9769 -> BB75a8b9774 [color="red"];
+  BB75a8b9774 -> BB75a8b9837 [color="green"];
+  BB75a8b9774 -> BB75a8b977f [color="red"];
+  BB75a8b977f -> BB75a8b981e [color="green"];
+  BB75a8b977f -> BB75a8b97fb [color="red"];
+  BB75a8b97fb -> BB75a8b981e [color="green"];
+  BB75a8b97fb -> BB75a8b9802 [color="red"];
+  BB75a8b9802 -> BB75a8b981e [color="red"];
+  BB75a8b981e -> BB75a8b9837 [color="green"];
+  BB75a8b981e -> BB75a8b9831 [color="red"];
+  BB75a8b9831 -> BB75a8b9837 [color="red"];
+}

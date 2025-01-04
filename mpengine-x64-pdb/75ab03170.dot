@@ -1,0 +1,15 @@
+digraph luaB_newproxy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab03170 -> BB75ab031ab [color="green"];
+  BB75ab03170 -> BB75ab0319e [color="red"];
+  BB75ab031ab -> BB75ab031ee [color="green"];
+  BB75ab031ab -> BB75ab031bc [color="red"];
+  BB75ab031bc -> BB75ab0322d [color="blue"];
+  BB75ab031ee -> BB75ab0323f [color="green"];
+  BB75ab031ee -> BB75ab031f9 [color="red"];
+  BB75ab031f9 -> BB75ab0323f [color="green"];
+  BB75ab031f9 -> BB75ab03226 [color="red"];
+  BB75ab03226 -> BB75ab0322d [color="red"];
+  BB75ab0322d -> BB75ab0319e [color="blue"];
+}

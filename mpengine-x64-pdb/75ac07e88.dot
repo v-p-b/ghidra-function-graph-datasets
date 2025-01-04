@@ -1,0 +1,29 @@
+digraph ZSTD_sizeof_matchState {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac07e88 -> BB75ac07ea8 [color="green"];
+  BB75ac07e88 -> BB75ac07e9f [color="red"];
+  BB75ac07e9f -> BB75ac07ea8 [color="green"];
+  BB75ac07e9f -> BB75ac07ea3 [color="red"];
+  BB75ac07ea3 -> BB75ac07eab [color="blue"];
+  BB75ac07ea8 -> BB75ac07eab [color="blue"];
+  BB75ac07eab -> BB75ac07ec3 [color="green"];
+  BB75ac07eab -> BB75ac07eb7 [color="red"];
+  BB75ac07eb7 -> BB75ac07ec5 [color="blue"];
+  BB75ac07ec3 -> BB75ac07ec5 [color="blue"];
+  BB75ac07ec5 -> BB75ac07eec [color="green"];
+  BB75ac07ec5 -> BB75ac07ed3 [color="red"];
+  BB75ac07ed3 -> BB75ac07eec [color="green"];
+  BB75ac07ed3 -> BB75ac07eda [color="red"];
+  BB75ac07eda -> BB75ac07eee [color="blue"];
+  BB75ac07eec -> BB75ac07eee [color="blue"];
+  BB75ac07eee -> BB75ac07f1a [color="green"];
+  BB75ac07eee -> BB75ac07f10 [color="red"];
+  BB75ac07f10 -> BB75ac07f1c [color="blue"];
+  BB75ac07f1a -> BB75ac07f1c [color="blue"];
+  BB75ac07f1c -> BB75ac07f2c [color="green"];
+  BB75ac07f1c -> BB75ac07f20 [color="red"];
+  BB75ac07f20 -> BB75ac07f31 [color="green"];
+  BB75ac07f20 -> BB75ac07f2c [color="red"];
+  BB75ac07f2c -> BB75ac07f31 [color="blue"];
+}

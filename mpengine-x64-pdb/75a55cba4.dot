@@ -1,0 +1,12 @@
+digraph correctstack {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a55cba4 -> BB75a55cbc1 [color="blue"];
+  BB75a55cbc1 -> BB75a55cc21 [color="green"];
+  BB75a55cbc1 -> BB75a55cbc6 [color="red"];
+  BB75a55cbc6 -> BB75a55cc07 [color="blue"];
+  BB75a55cbcc -> BB75a55cc07 [color="blue"];
+  BB75a55cc07 -> BB75a55cbcc [color="green"];
+  BB75a55cc07 -> BB75a55cc0d [color="red"];
+  BB75a55cc21 -> BB75a55cbc1 [color="blue"];
+}

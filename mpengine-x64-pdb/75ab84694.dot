@@ -1,0 +1,12 @@
+digraph ~Snapshot {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab84694 -> BB75ab846ed [color="green"];
+  BB75ab84694 -> BB75ab846b4 [color="red"];
+  BB75ab846b4 -> BB75ab846d9 [color="green"];
+  BB75ab846b4 -> BB75ab846c8 [color="red"];
+  BB75ab846c8 -> BB75ab846d9 [color="blue"];
+  BB75ab846d9 -> BB75ab846ed [color="green"];
+  BB75ab846d9 -> BB75ab846de [color="red"];
+  BB75ab846de -> BB75ab846ed [color="red"];
+}

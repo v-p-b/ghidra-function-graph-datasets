@@ -1,0 +1,14 @@
+digraph get_sigmap_size {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a373020 -> BB75a37307d [color="green"];
+  BB75a373020 -> BB75a373048 [color="red"];
+  BB75a373048 -> BB75a37307d [color="green"];
+  BB75a373048 -> BB75a373053 [color="red"];
+  BB75a373053 -> BB75a37307d [color="red"];
+  BB75a37307d -> BB75a37309a [color="green"];
+  BB75a37307d -> BB75a373084 [color="red"];
+  BB75a373084 -> BB75a373086 [color="blue"];
+  BB75a373086 -> BB75a373086 [color="green"];
+  BB75a373086 -> BB75a37309a [color="red"];
+}

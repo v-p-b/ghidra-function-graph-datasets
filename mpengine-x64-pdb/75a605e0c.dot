@@ -1,0 +1,24 @@
+digraph isSimpleCount {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a605e0c -> BB75a605e18 [color="green"];
+  BB75a605e0c -> BB75a605e15 [color="red"];
+  BB75a605e15 -> BB75a605e17 [color="blue"];
+  BB75a605e18 -> BB75a605e15 [color="green"];
+  BB75a605e18 -> BB75a605e21 [color="red"];
+  BB75a605e21 -> BB75a605e15 [color="green"];
+  BB75a605e21 -> BB75a605e2a [color="red"];
+  BB75a605e2a -> BB75a605e15 [color="green"];
+  BB75a605e2a -> BB75a605e30 [color="red"];
+  BB75a605e30 -> BB75a605e15 [color="green"];
+  BB75a605e30 -> BB75a605e3e [color="red"];
+  BB75a605e3e -> BB75a605e15 [color="green"];
+  BB75a605e3e -> BB75a605e44 [color="red"];
+  BB75a605e44 -> BB75a605e15 [color="green"];
+  BB75a605e44 -> BB75a605e4a [color="red"];
+  BB75a605e4a -> BB75a605e15 [color="green"];
+  BB75a605e4a -> BB75a605e5b [color="red"];
+  BB75a605e5b -> BB75a605e17 [color="green"];
+  BB75a605e5b -> BB75a605e62 [color="red"];
+  BB75a605e62 -> BB75a605e15 [color="blue"];
+}

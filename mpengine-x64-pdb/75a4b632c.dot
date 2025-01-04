@@ -1,0 +1,10 @@
+digraph GetSegmentReference {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4b632c -> BB75a4b63a7 [color="green"];
+  BB75a4b632c -> BB75a4b6349 [color="red"];
+  BB75a4b6349 -> BB75a4b63ae [color="green"];
+  BB75a4b6349 -> BB75a4b634e [color="red"];
+  BB75a4b63a7 -> BB75a4b6349 [color="blue"];
+  BB75a4b63ae -> BB75a4b634e [color="blue"];
+}

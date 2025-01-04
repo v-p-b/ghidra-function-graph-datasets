@@ -1,0 +1,20 @@
+digraph RenameRegkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad28068 -> BB75ad280bd [color="green"];
+  BB75ad28068 -> BB75ad28088 [color="red"];
+  BB75ad28088 -> BB75ad280b9 [color="green"];
+  BB75ad28088 -> BB75ad2809b [color="red"];
+  BB75ad2809b -> BB75ad280b9 [color="green"];
+  BB75ad2809b -> BB75ad280a1 [color="red"];
+  BB75ad280a1 -> BB75ad280b9 [color="red"];
+  BB75ad280b9 -> BB75ad28109 [color="blue"];
+  BB75ad280bd -> BB75ad28109 [color="green"];
+  BB75ad280bd -> BB75ad280d6 [color="red"];
+  BB75ad280d6 -> BB75ad28107 [color="green"];
+  BB75ad280d6 -> BB75ad280e9 [color="red"];
+  BB75ad280e9 -> BB75ad28107 [color="green"];
+  BB75ad280e9 -> BB75ad280ef [color="red"];
+  BB75ad280ef -> BB75ad28107 [color="red"];
+  BB75ad28107 -> BB75ad28109 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph _Lower_bound_duplicate<struct_std::pair<enum_NameTree::Type,struct_Name>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1c9dbc -> BB75a1c9de6 [color="green"];
+  BB75a1c9dbc -> BB75a1c9dc9 [color="red"];
+  BB75a1c9dc9 -> BB75a1c9de6 [color="green"];
+  BB75a1c9dc9 -> BB75a1c9dd1 [color="red"];
+  BB75a1c9dd1 -> BB75a1c9de4 [color="green"];
+  BB75a1c9dd1 -> BB75a1c9dd3 [color="red"];
+  BB75a1c9dd3 -> BB75a1c9de6 [color="green"];
+  BB75a1c9dd3 -> BB75a1c9de4 [color="red"];
+  BB75a1c9de4 -> BB75a1c9de6 [color="blue"];
+}

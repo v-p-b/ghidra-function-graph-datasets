@@ -1,0 +1,15 @@
+digraph AuditTaskWorker {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a855c50 -> BB75a855cad [color="green"];
+  BB75a855c50 -> BB75a855c61 [color="red"];
+  BB75a855c61 -> BB75a855cad [color="green"];
+  BB75a855c61 -> BB75a855c78 [color="red"];
+  BB75a855c78 -> BB75a855ca9 [color="green"];
+  BB75a855c78 -> BB75a855c8b [color="red"];
+  BB75a855c8b -> BB75a855ca9 [color="green"];
+  BB75a855c8b -> BB75a855c91 [color="red"];
+  BB75a855c91 -> BB75a855ca9 [color="red"];
+  BB75a855ca9 -> BB75a855cb2 [color="blue"];
+  BB75a855cad -> BB75a855cb2 [color="blue"];
+}

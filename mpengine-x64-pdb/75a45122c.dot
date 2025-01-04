@@ -1,0 +1,10 @@
+digraph CBufferAllocate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a45122c -> BB75a451274 [color="green"];
+  BB75a45122c -> BB75a451241 [color="red"];
+  BB75a451241 -> BB75a451274 [color="green"];
+  BB75a451241 -> BB75a451260 [color="red"];
+  BB75a451260 -> BB75a451269 [color="blue"];
+  BB75a451274 -> BB75a451269 [color="blue"];
+}

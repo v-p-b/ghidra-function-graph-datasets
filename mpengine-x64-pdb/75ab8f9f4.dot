@@ -1,0 +1,9 @@
+digraph TrashCleanFileTelemetryScanning {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab8f9f4 -> BB75ab8fa2d [color="green"];
+  BB75ab8f9f4 -> BB75ab8fa0c [color="red"];
+  BB75ab8fa0c -> BB75ab8fa2d [color="green"];
+  BB75ab8fa0c -> BB75ab8fa18 [color="red"];
+  BB75ab8fa18 -> BB75ab8fa2d [color="red"];
+}

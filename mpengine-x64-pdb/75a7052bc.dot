@@ -1,0 +1,11 @@
+digraph sqlite3RegisterPerConnectionBuiltinFunctions {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7052bc -> BB75a70532b [color="green"];
+  BB75a7052bc -> BB75a705300 [color="red"];
+  BB75a705300 -> BB75a705323 [color="green"];
+  BB75a705300 -> BB75a705311 [color="red"];
+  BB75a705311 -> BB75a70532b [color="green"];
+  BB75a705311 -> BB75a705323 [color="red"];
+  BB75a705323 -> BB75a70532b [color="red"];
+}

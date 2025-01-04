@@ -1,0 +1,16 @@
+digraph NtQueryInformationProcess_shim {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9e4b40 -> BB75a9e4c01 [color="green"];
+  BB75a9e4b40 -> BB75a9e4b93 [color="red"];
+  BB75a9e4b93 -> BB75a9e4bb6 [color="green"];
+  BB75a9e4b93 -> BB75a9e4b9f [color="red"];
+  BB75a9e4b9f -> BB75a9e4bbb [color="blue"];
+  BB75a9e4bb6 -> BB75a9e4bbb [color="blue"];
+  BB75a9e4bd6 -> BB75a9e4b93 [color="blue"];
+  BB75a9e4c01 -> BB75a9e4b93 [color="green"];
+  BB75a9e4c01 -> BB75a9e4c1a [color="red"];
+  BB75a9e4c1a -> BB75a9e4bd6 [color="green"];
+  BB75a9e4c1a -> BB75a9e4c5d [color="red"];
+  BB75a9e4c5d -> BB75a9e4bd6 [color="blue"];
+}

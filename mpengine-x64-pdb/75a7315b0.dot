@@ -1,0 +1,13 @@
+digraph patt_pushend {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7315b0 -> BB75a7315fe [color="green"];
+  BB75a7315b0 -> BB75a7315c4 [color="red"];
+  BB75a7315c4 -> BB75a7315e0 [color="green"];
+  BB75a7315c4 -> BB75a7315d7 [color="red"];
+  BB75a7315d7 -> BB75a7315f3 [color="blue"];
+  BB75a7315e0 -> BB75a7315f3 [color="green"];
+  BB75a7315e0 -> BB75a7315ec [color="red"];
+  BB75a7315ec -> BB75a7315f3 [color="blue"];
+  BB75a7315f3 -> BB75a7315fe [color="red"];
+}

@@ -1,0 +1,11 @@
+digraph KERNEL32_DLL_ExitThread {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa741d0 -> BB75aa74229 [color="green"];
+  BB75aa741d0 -> BB75aa74205 [color="red"];
+  BB75aa74205 -> BB75aa74229 [color="green"];
+  BB75aa74205 -> BB75aa7420f [color="red"];
+  BB75aa7420f -> BB75aa74242 [color="blue"];
+  BB75aa74229 -> BB75aa74242 [color="red"];
+  BB75aa74242 -> BB75aa74249 [color="blue"];
+}

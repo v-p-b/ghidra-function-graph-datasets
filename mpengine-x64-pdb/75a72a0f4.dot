@@ -1,0 +1,12 @@
+digraph ~SignatureLoaderCleanupThread {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a72a0f4 -> BB75a72a162 [color="green"];
+  BB75a72a0f4 -> BB75a72a13c [color="red"];
+  BB75a72a13c -> BB75a72a162 [color="green"];
+  BB75a72a13c -> BB75a72a149 [color="red"];
+  BB75a72a149 -> BB75a72a162 [color="green"];
+  BB75a72a149 -> BB75a72a15d [color="red"];
+  BB75a72a15d -> BB75a72a162 [color="red"];
+  BB75a72a162 -> BB75ae20de0 [color="blue"];
+}

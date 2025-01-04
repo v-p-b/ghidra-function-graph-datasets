@@ -1,0 +1,20 @@
+digraph _build_json_telemetry_helper {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a92e268 -> BB75a92e334 [color="green"];
+  BB75a92e268 -> BB75a92e328 [color="red"];
+  BB75a92e328 -> BB75a92e33b [color="blue"];
+  BB75a92e334 -> BB75a92e33b [color="blue"];
+  BB75a92e33b -> BB75a92e3fe [color="green"];
+  BB75a92e33b -> BB75a92e3bd [color="red"];
+  BB75a92e3bd -> BB75a92e3fe [color="red"];
+  BB75a92e3fe -> BB75a92e467 [color="green"];
+  BB75a92e3fe -> BB75a92e404 [color="red"];
+  BB75a92e404 -> BB75a92e467 [color="red"];
+  BB75a92e467 -> BB75a92e4a1 [color="green"];
+  BB75a92e467 -> BB75a92e46e [color="red"];
+  BB75a92e46e -> BB75a92e4a1 [color="red"];
+  BB75a92e4a1 -> BB75a92e4db [color="green"];
+  BB75a92e4a1 -> BB75a92e4a8 [color="red"];
+  BB75a92e4a8 -> BB75a92e4db [color="red"];
+}

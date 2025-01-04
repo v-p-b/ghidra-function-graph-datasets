@@ -1,0 +1,10 @@
+digraph BmScanCallback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a81c300 -> BB75a81c312 [color="green"];
+  BB75a81c300 -> BB75a81c30d [color="red"];
+  BB75a81c30d -> BB75a81c312 [color="red"];
+  BB75a81c312 -> BB75a81c32a [color="green"];
+  BB75a81c312 -> BB75a81c325 [color="red"];
+  BB75a81c325 -> BB75a81c32a [color="blue"];
+}

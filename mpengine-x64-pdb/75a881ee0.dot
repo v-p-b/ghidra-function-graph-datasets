@@ -1,0 +1,18 @@
+digraph ~SimpleLogger {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a881ee0 -> BB75a881f2e [color="green"];
+  BB75a881ee0 -> BB75a881efc [color="red"];
+  BB75a881efc -> BB75a881f17 [color="green"];
+  BB75a881efc -> BB75a881f08 [color="red"];
+  BB75a881f08 -> BB75a881f17 [color="green"];
+  BB75a881f08 -> BB75a881f0e [color="red"];
+  BB75a881f0e -> BB75a881f17 [color="red"];
+  BB75a881f17 -> BB75a881f2e [color="green"];
+  BB75a881f17 -> BB75a881f20 [color="red"];
+  BB75a881f20 -> BB75a881f2e [color="red"];
+  BB75a881f2e -> BB75a881f41 [color="green"];
+  BB75a881f2e -> BB75a881f37 [color="red"];
+  BB75a881f37 -> BB75a881f41 [color="red"];
+  BB75a881f41 -> BB75ae20dd8 [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph RemoveProcessInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a43f788 -> BB75a43f7e8 [color="green"];
+  BB75a43f788 -> BB75a43f7b7 [color="red"];
+  BB75a43f7b7 -> BB75a43f7d0 [color="green"];
+  BB75a43f7b7 -> BB75a43f7ca [color="red"];
+  BB75a43f7ca -> BB75a43f81c [color="green"];
+  BB75a43f7ca -> BB75a43f7d0 [color="red"];
+  BB75a43f7e8 -> BB75a43f7d0 [color="green"];
+  BB75a43f7e8 -> BB75a43f7fb [color="red"];
+  BB75a43f7fb -> BB75a43f7d0 [color="green"];
+  BB75a43f7fb -> BB75a43f801 [color="red"];
+  BB75a43f801 -> BB75a43f7d0 [color="blue"];
+  BB75a43f81c -> BB75a43f7d0 [color="blue"];
+}

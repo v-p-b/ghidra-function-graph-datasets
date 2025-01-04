@@ -1,0 +1,19 @@
+digraph check_static_coarse_grain_violation {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a93fd04 -> BB75a93fd57 [color="green"];
+  BB75a93fd04 -> BB75a93fd16 [color="red"];
+  BB75a93fd16 -> BB75a93fd57 [color="green"];
+  BB75a93fd16 -> BB75a93fd1e [color="red"];
+  BB75a93fd1e -> BB75a93fd42 [color="green"];
+  BB75a93fd1e -> BB75a93fd32 [color="red"];
+  BB75a93fd32 -> BB75a93fd42 [color="green"];
+  BB75a93fd32 -> BB75a93fd3e [color="red"];
+  BB75a93fd3e -> BB75a93fd44 [color="blue"];
+  BB75a93fd42 -> BB75a93fd44 [color="blue"];
+  BB75a93fd44 -> BB75a93fd53 [color="green"];
+  BB75a93fd44 -> BB75a93fd4e [color="red"];
+  BB75a93fd4e -> BB75a93fd53 [color="red"];
+  BB75a93fd53 -> BB75a93fd59 [color="blue"];
+  BB75a93fd57 -> BB75a93fd59 [color="blue"];
+}

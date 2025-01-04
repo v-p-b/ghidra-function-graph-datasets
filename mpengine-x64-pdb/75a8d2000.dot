@@ -1,0 +1,16 @@
+digraph compute_states {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8d2000 -> BB75a8d2037 [color="green"];
+  BB75a8d2000 -> BB75a8d2010 [color="red"];
+  BB75a8d2010 -> BB75a8d201d [color="green"];
+  BB75a8d2010 -> BB75a8d2018 [color="red"];
+  BB75a8d2018 -> BB75a8d2031 [color="blue"];
+  BB75a8d201d -> BB75a8d2031 [color="blue"];
+  BB75a8d2031 -> BB75a8d2037 [color="blue"];
+  BB75a8d2037 -> BB75a8d204a [color="green"];
+  BB75a8d2037 -> BB75a8d203b [color="red"];
+  BB75a8d203b -> BB75a8d204a [color="green"];
+  BB75a8d203b -> BB75a8d2041 [color="red"];
+  BB75a8d2041 -> BB75a8d204a [color="blue"];
+}

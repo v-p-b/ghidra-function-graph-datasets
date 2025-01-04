@@ -1,0 +1,15 @@
+digraph vdll_get_export_va {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a475af8 -> BB75a475b1a [color="blue"];
+  BB75a475b0c -> BB75a475b1a [color="blue"];
+  BB75a475b1a -> BB75a475b32 [color="green"];
+  BB75a475b1a -> BB75a475b1f [color="red"];
+  BB75a475b1f -> BB75a475b0c [color="green"];
+  BB75a475b1f -> BB75a475b2d [color="red"];
+  BB75a475b2d -> BB75a475b1a [color="blue"];
+  BB75a475b32 -> BB75a475b3b [color="green"];
+  BB75a475b32 -> BB75a475b38 [color="red"];
+  BB75a475b3b -> BB75a475b38 [color="green"];
+  BB75a475b3b -> BB75a475b40 [color="red"];
+}

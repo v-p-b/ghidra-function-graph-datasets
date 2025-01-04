@@ -1,0 +1,10 @@
+digraph IsSpecialMalwareName {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4eafa4 -> BB75a4eafb5 [color="green"];
+  BB75a4eafa4 -> BB75a4eafaa [color="red"];
+  BB75a4eafaa -> BB75a4eafb5 [color="green"];
+  BB75a4eafaa -> BB75a4eafae [color="red"];
+  BB75a4eafae -> BB75a4eafb5 [color="green"];
+  BB75a4eafae -> BB75a4eafb2 [color="red"];
+}

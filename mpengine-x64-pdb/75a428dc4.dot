@@ -1,0 +1,8 @@
+digraph clear_RPF_query {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a428dc4 -> BB75a428de9 [color="green"];
+  BB75a428dc4 -> BB75a428dce [color="red"];
+  BB75a428dce -> BB75a428dce [color="green"];
+  BB75a428dce -> BB75a428de9 [color="red"];
+}

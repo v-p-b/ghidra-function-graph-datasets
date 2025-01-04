@@ -1,0 +1,37 @@
+digraph GetNextCommand {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acc6d2c -> BB75acc6d4a [color="green"];
+  BB75acc6d2c -> BB75acc6d45 [color="red"];
+  BB75acc6d45 -> BB75acc6d4a [color="red"];
+  BB75acc6d4a -> BB75acc6d56 [color="blue"];
+  BB75acc6d56 -> BB75acc6d59 [color="blue"];
+  BB75acc6d59 -> BB75acc6e06 [color="green"];
+  BB75acc6d59 -> BB75acc6d78 [color="red"];
+  BB75acc6d78 -> BB75acc6e06 [color="green"];
+  BB75acc6d78 -> BB75acc6d80 [color="red"];
+  BB75acc6d80 -> BB75acc6df5 [color="green"];
+  BB75acc6d80 -> BB75acc6d89 [color="red"];
+  BB75acc6d89 -> BB75acc6df5 [color="green"];
+  BB75acc6d89 -> BB75acc6d8d [color="red"];
+  BB75acc6d8d -> BB75acc6dba [color="green"];
+  BB75acc6d8d -> BB75acc6d91 [color="red"];
+  BB75acc6d91 -> BB75acc6e04 [color="green"];
+  BB75acc6d91 -> BB75acc6daa [color="red"];
+  BB75acc6daa -> BB75acc6dac [color="blue"];
+  BB75acc6dac -> BB75acc6e06 [color="green"];
+  BB75acc6dac -> BB75acc6db8 [color="red"];
+  BB75acc6db8 -> BB75acc6d59 [color="blue"];
+  BB75acc6dba -> BB75acc6dc2 [color="green"];
+  BB75acc6dba -> BB75acc6dbe [color="red"];
+  BB75acc6dbe -> BB75acc6dc7 [color="green"];
+  BB75acc6dbe -> BB75acc6dc2 [color="red"];
+  BB75acc6dc2 -> BB75acc6d59 [color="green"];
+  BB75acc6dc2 -> BB75acc6dc7 [color="red"];
+  BB75acc6dc7 -> BB75acc6dda [color="green"];
+  BB75acc6dc7 -> BB75acc6dd5 [color="red"];
+  BB75acc6dd5 -> BB75acc6dac [color="blue"];
+  BB75acc6dda -> BB75acc6d59 [color="blue"];
+  BB75acc6df5 -> BB75acc6d56 [color="blue"];
+  BB75acc6e04 -> BB75acc6e06 [color="blue"];
+}

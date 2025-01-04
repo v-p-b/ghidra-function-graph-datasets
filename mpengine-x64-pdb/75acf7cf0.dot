@@ -1,0 +1,19 @@
+digraph ScanUefiStreamData {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acf7cf0 -> BB75acf7e2f [color="green"];
+  BB75acf7cf0 -> BB75acf7de8 [color="red"];
+  BB75acf7de8 -> BB75acf7e1a [color="green"];
+  BB75acf7de8 -> BB75acf7dfb [color="red"];
+  BB75acf7dfb -> BB75acf7e1a [color="green"];
+  BB75acf7dfb -> BB75acf7e01 [color="red"];
+  BB75acf7e01 -> BB75acf7e1a [color="red"];
+  BB75acf7e1a -> BB75acf7e28 [color="green"];
+  BB75acf7e1a -> BB75acf7e23 [color="red"];
+  BB75acf7e23 -> BB75acf7e28 [color="red"];
+  BB75acf7e28 -> BB75acf7e3f [color="blue"];
+  BB75acf7e2f -> BB75acf7e3d [color="green"];
+  BB75acf7e2f -> BB75acf7e38 [color="red"];
+  BB75acf7e38 -> BB75acf7e3d [color="red"];
+  BB75acf7e3d -> BB75acf7e3f [color="blue"];
+}

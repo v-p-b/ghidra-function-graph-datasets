@@ -1,0 +1,14 @@
+digraph initByReceipt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6c00fc -> BB75a6c014e [color="green"];
+  BB75a6c00fc -> BB75a6c0120 [color="red"];
+  BB75a6c0120 -> BB75a6c015f [color="green"];
+  BB75a6c0120 -> BB75a6c0136 [color="red"];
+  BB75a6c0136 -> BB75a6c0138 [color="blue"];
+  BB75a6c014e -> BB75a6c015b [color="red"];
+  BB75a6c015b -> BB75a6c0138 [color="blue"];
+  BB75a6c015f -> BB75a6c0136 [color="green"];
+  BB75a6c015f -> BB75a6c017d [color="red"];
+  BB75a6c017d -> BB75a6c015b [color="blue"];
+}

@@ -1,0 +1,26 @@
+digraph whereCombineDisjuncts {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5147d4 -> BB75a514830 [color="green"];
+  BB75a5147d4 -> BB75a514818 [color="red"];
+  BB75a514818 -> BB75a514849 [color="green"];
+  BB75a514818 -> BB75a514824 [color="red"];
+  BB75a514824 -> BB75a514849 [color="green"];
+  BB75a514824 -> BB75a514830 [color="red"];
+  BB75a514849 -> BB75a514830 [color="green"];
+  BB75a514849 -> BB75a514868 [color="red"];
+  BB75a514868 -> BB75a514830 [color="green"];
+  BB75a514868 -> BB75a514885 [color="red"];
+  BB75a514885 -> BB75a51489a [color="green"];
+  BB75a514885 -> BB75a51488f [color="red"];
+  BB75a51488f -> BB75a51489a [color="green"];
+  BB75a51488f -> BB75a514897 [color="red"];
+  BB75a514897 -> BB75a51489a [color="blue"];
+  BB75a51489a -> BB75a514830 [color="green"];
+  BB75a51489a -> BB75a5148ba [color="red"];
+  BB75a5148ba -> BB75a5148db [color="green"];
+  BB75a5148ba -> BB75a5148c9 [color="red"];
+  BB75a5148c9 -> BB75a5148c9 [color="green"];
+  BB75a5148c9 -> BB75a5148db [color="red"];
+  BB75a5148db -> BB75a514830 [color="blue"];
+}

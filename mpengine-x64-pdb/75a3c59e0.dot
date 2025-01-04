@@ -1,0 +1,18 @@
+digraph netvm_cleanup_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3c59e0 -> BB75a3c5a10 [color="green"];
+  BB75a3c59e0 -> BB75a3c5a0b [color="red"];
+  BB75a3c5a0b -> BB75a3c5a10 [color="red"];
+  BB75a3c5a10 -> BB75a3c5a3b [color="green"];
+  BB75a3c5a10 -> BB75a3c5a28 [color="red"];
+  BB75a3c5a28 -> BB75a3c5a3b [color="red"];
+  BB75a3c5a3b -> BB75a3c5a94 [color="green"];
+  BB75a3c5a3b -> BB75a3c5a4c [color="red"];
+  BB75a3c5a4c -> BB75a3c5a8f [color="green"];
+  BB75a3c5a4c -> BB75a3c5a54 [color="red"];
+  BB75a3c5a54 -> BB75a3c5a57 [color="blue"];
+  BB75a3c5a57 -> BB75a3c5a57 [color="green"];
+  BB75a3c5a57 -> BB75a3c5a8f [color="red"];
+  BB75a3c5a8f -> BB75a3c5a94 [color="red"];
+}

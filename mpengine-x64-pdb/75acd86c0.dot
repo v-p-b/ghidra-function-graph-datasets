@@ -1,0 +1,36 @@
+digraph ReportThreat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acd86c0 -> BB75acd8757 [color="green"];
+  BB75acd86c0 -> BB75acd873f [color="red"];
+  BB75acd873f -> BB75acd874d [color="green"];
+  BB75acd873f -> BB75acd8748 [color="red"];
+  BB75acd8748 -> BB75acd874d [color="red"];
+  BB75acd874d -> BB75acd887f [color="blue"];
+  BB75acd8757 -> BB75acd8831 [color="green"];
+  BB75acd8757 -> BB75acd87d0 [color="red"];
+  BB75acd87d0 -> BB75acd87ea [color="green"];
+  BB75acd87d0 -> BB75acd87d5 [color="red"];
+  BB75acd87d5 -> BB75acd87e3 [color="green"];
+  BB75acd87d5 -> BB75acd87de [color="red"];
+  BB75acd87de -> BB75acd87e3 [color="red"];
+  BB75acd87e3 -> BB75acd887f [color="blue"];
+  BB75acd87ea -> BB75acd881c [color="green"];
+  BB75acd87ea -> BB75acd87fd [color="red"];
+  BB75acd87fd -> BB75acd881c [color="green"];
+  BB75acd87fd -> BB75acd8803 [color="red"];
+  BB75acd8803 -> BB75acd881c [color="red"];
+  BB75acd881c -> BB75acd882a [color="green"];
+  BB75acd881c -> BB75acd8825 [color="red"];
+  BB75acd8825 -> BB75acd882a [color="red"];
+  BB75acd882a -> BB75acd887f [color="blue"];
+  BB75acd8831 -> BB75acd886c [color="green"];
+  BB75acd8831 -> BB75acd8844 [color="red"];
+  BB75acd8844 -> BB75acd886c [color="green"];
+  BB75acd8844 -> BB75acd884a [color="red"];
+  BB75acd884a -> BB75acd886c [color="red"];
+  BB75acd886c -> BB75acd887a [color="green"];
+  BB75acd886c -> BB75acd8875 [color="red"];
+  BB75acd8875 -> BB75acd887a [color="red"];
+  BB75acd887a -> BB75acd887f [color="blue"];
+}

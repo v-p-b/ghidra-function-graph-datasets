@@ -1,0 +1,10 @@
+digraph equivalent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7e45b0 -> BB75a7e45e9 [color="green"];
+  BB75a7e45b0 -> BB75a7e45df [color="red"];
+  BB75a7e45df -> BB75a7e45e9 [color="green"];
+  BB75a7e45df -> BB75a7e45e5 [color="red"];
+  BB75a7e45e5 -> BB75a7e45eb [color="blue"];
+  BB75a7e45e9 -> BB75a7e45eb [color="blue"];
+}

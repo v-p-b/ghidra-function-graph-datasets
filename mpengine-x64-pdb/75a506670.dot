@@ -1,0 +1,11 @@
+digraph GetKslPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a506670 -> BB75a506724 [color="green"];
+  BB75a506670 -> BB75a5066a2 [color="red"];
+  BB75a5066a2 -> BB75a50671a [color="green"];
+  BB75a5066a2 -> BB75a5066bd [color="red"];
+  BB75a5066bd -> BB75a5066ff [color="red"];
+  BB75a50671a -> BB75a506724 [color="red"];
+  BB75a506724 -> BB75a5066ff [color="blue"];
+}

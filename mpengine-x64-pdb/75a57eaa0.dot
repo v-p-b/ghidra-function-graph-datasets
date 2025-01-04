@@ -1,0 +1,34 @@
+digraph selfex16_ismine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a57eaa0 -> BB75a57ec70 [color="green"];
+  BB75a57eaa0 -> BB75a57eac1 [color="red"];
+  BB75a57eac1 -> BB75a57ec70 [color="green"];
+  BB75a57eac1 -> BB75a57ead2 [color="red"];
+  BB75a57ead2 -> BB75a57ec70 [color="green"];
+  BB75a57ead2 -> BB75a57eadf [color="red"];
+  BB75a57eadf -> BB75a57ec70 [color="green"];
+  BB75a57eadf -> BB75a57eaf1 [color="red"];
+  BB75a57eaf1 -> BB75a57ec70 [color="green"];
+  BB75a57eaf1 -> BB75a57eafd [color="red"];
+  BB75a57eafd -> BB75a57ec70 [color="green"];
+  BB75a57eafd -> BB75a57eb0a [color="red"];
+  BB75a57eb0a -> BB75a57ec70 [color="green"];
+  BB75a57eb0a -> BB75a57eb16 [color="red"];
+  BB75a57eb16 -> BB75a57ec43 [color="green"];
+  BB75a57eb16 -> BB75a57eb57 [color="red"];
+  BB75a57eb57 -> BB75a57ebfa [color="green"];
+  BB75a57eb57 -> BB75a57eb64 [color="red"];
+  BB75a57eb64 -> BB75a57eb64 [color="green"];
+  BB75a57eb64 -> BB75a57ebfa [color="red"];
+  BB75a57ebfa -> BB75a57ec21 [color="green"];
+  BB75a57ebfa -> BB75a57ebff [color="red"];
+  BB75a57ebff -> BB75a57ebff [color="green"];
+  BB75a57ebff -> BB75a57ec21 [color="red"];
+  BB75a57ec21 -> BB75a57ec2e [color="blue"];
+  BB75a57ec43 -> BB75a57ec46 [color="blue"];
+  BB75a57ec46 -> BB75a57eb57 [color="green"];
+  BB75a57ec46 -> BB75a57ec6e [color="red"];
+  BB75a57ec6e -> BB75a57ec46 [color="blue"];
+  BB75a57ec70 -> BB75a57ec2e [color="blue"];
+}

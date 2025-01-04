@@ -1,0 +1,15 @@
+digraph GetFillRate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5e5cc0 -> BB75a5e5d3b [color="green"];
+  BB75a5e5cc0 -> BB75a5e5cf2 [color="red"];
+  BB75a5e5cf2 -> BB75a5e5cf5 [color="blue"];
+  BB75a5e5cf5 -> BB75a5e5d5c [color="green"];
+  BB75a5e5cf5 -> BB75a5e5d0b [color="red"];
+  BB75a5e5d0b -> BB75a5e5cf5 [color="green"];
+  BB75a5e5d0b -> BB75a5e5d3b [color="red"];
+  BB75a5e5d3b -> BB75a5e5d67 [color="green"];
+  BB75a5e5d3b -> BB75a5e5d40 [color="red"];
+  BB75a5e5d5c -> BB75a5e5d0b [color="blue"];
+  BB75a5e5d67 -> BB75a5e5d40 [color="blue"];
+}

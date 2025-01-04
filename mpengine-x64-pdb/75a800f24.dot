@@ -1,0 +1,22 @@
+digraph DetachViewForWrite {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a800f24 -> BB75a800f45 [color="green"];
+  BB75a800f24 -> BB75a800f40 [color="red"];
+  BB75a800f40 -> BB75a800f45 [color="red"];
+  BB75a800f45 -> BB75a800f51 [color="green"];
+  BB75a800f45 -> BB75a800f4c [color="red"];
+  BB75a800f4c -> BB75a800f51 [color="red"];
+  BB75a800f51 -> BB75a800f63 [color="green"];
+  BB75a800f51 -> BB75a800f5e [color="red"];
+  BB75a800f5e -> BB75a800f63 [color="red"];
+  BB75a800f63 -> BB75a800fa0 [color="green"];
+  BB75a800f63 -> BB75a800f9b [color="red"];
+  BB75a800f9b -> BB75a800fa0 [color="red"];
+  BB75a800fa0 -> BB75a800fab [color="green"];
+  BB75a800fa0 -> BB75a800fa6 [color="red"];
+  BB75a800fa6 -> BB75a800fab [color="red"];
+  BB75a800fab -> BB75a800fb6 [color="green"];
+  BB75a800fab -> BB75a800fb1 [color="red"];
+  BB75a800fb1 -> BB75a800fb6 [color="red"];
+}

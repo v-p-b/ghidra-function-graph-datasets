@@ -1,0 +1,14 @@
+digraph IsCleanFileTelemetryCollectingPaths {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2e7d40 -> BB75a2e7d7d [color="green"];
+  BB75a2e7d40 -> BB75a2e7d5a [color="red"];
+  BB75a2e7d5a -> BB75a2e7d75 [color="green"];
+  BB75a2e7d5a -> BB75a2e7d70 [color="red"];
+  BB75a2e7d70 -> BB75a2e7d75 [color="red"];
+  BB75a2e7d75 -> BB75a2e7d77 [color="blue"];
+  BB75a2e7d7d -> BB75a2e7d8c [color="green"];
+  BB75a2e7d7d -> BB75a2e7d87 [color="red"];
+  BB75a2e7d87 -> BB75a2e7d8c [color="red"];
+  BB75a2e7d8c -> BB75a2e7d77 [color="blue"];
+}

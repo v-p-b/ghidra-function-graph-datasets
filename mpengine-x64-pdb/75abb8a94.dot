@@ -1,0 +1,17 @@
+digraph build_vmcache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb8a94 -> BB75abb8abe [color="green"];
+  BB75abb8a94 -> BB75abb8ab9 [color="red"];
+  BB75abb8ab9 -> BB75abb8abe [color="red"];
+  BB75abb8abe -> BB75abb8ac8 [color="blue"];
+  BB75abb8ac8 -> BB75abb8ac8 [color="green"];
+  BB75abb8ac8 -> BB75abb8b7b [color="red"];
+  BB75abb8b7b -> BB75abb8ba1 [color="green"];
+  BB75abb8b7b -> BB75abb8b93 [color="red"];
+  BB75abb8b93 -> BB75abb8ba1 [color="green"];
+  BB75abb8b93 -> BB75abb8b9d [color="red"];
+  BB75abb8b9d -> BB75abb8ba3 [color="green"];
+  BB75abb8b9d -> BB75abb8ba1 [color="red"];
+  BB75abb8ba1 -> BB75abb8ba3 [color="blue"];
+}

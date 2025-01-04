@@ -1,0 +1,14 @@
+digraph GetThreatClassifications {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aab4d88 -> BB75aab4da6 [color="green"];
+  BB75aab4d88 -> BB75aab4da1 [color="red"];
+  BB75aab4da1 -> BB75aab4da6 [color="red"];
+  BB75aab4da6 -> BB75aab4db3 [color="green"];
+  BB75aab4da6 -> BB75aab4dab [color="red"];
+  BB75aab4dab -> BB75aab4db3 [color="red"];
+  BB75aab4db3 -> BB75aab4ddb [color="green"];
+  BB75aab4db3 -> BB75aab4db5 [color="red"];
+  BB75aab4db5 -> BB75aab4db5 [color="green"];
+  BB75aab4db5 -> BB75aab4ddb [color="red"];
+}

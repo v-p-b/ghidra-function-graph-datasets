@@ -1,0 +1,20 @@
+digraph _get_gpu_results {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ace87a0 -> BB75ace88a2 [color="green"];
+  BB75ace87a0 -> BB75ace87c9 [color="red"];
+  BB75ace87c9 -> BB75ace88a2 [color="green"];
+  BB75ace87c9 -> BB75ace87d5 [color="red"];
+  BB75ace87d5 -> BB75ace884c [color="green"];
+  BB75ace87d5 -> BB75ace8823 [color="red"];
+  BB75ace8823 -> BB75ace8885 [color="blue"];
+  BB75ace884c -> BB75ace886e [color="green"];
+  BB75ace884c -> BB75ace885c [color="red"];
+  BB75ace885c -> BB75ace8883 [color="blue"];
+  BB75ace886e -> BB75ace8883 [color="green"];
+  BB75ace886e -> BB75ace8873 [color="red"];
+  BB75ace8873 -> BB75ace8883 [color="red"];
+  BB75ace8883 -> BB75ace8885 [color="blue"];
+  BB75ace8885 -> BB75ace88a7 [color="blue"];
+  BB75ace88a2 -> BB75ace88a7 [color="blue"];
+}

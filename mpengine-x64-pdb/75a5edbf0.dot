@@ -1,0 +1,34 @@
+digraph whereLoopCheaperProperSubset {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5edbf0 -> BB75a5edc62 [color="green"];
+  BB75a5edbf0 -> BB75a5edc20 [color="red"];
+  BB75a5edc20 -> BB75a5edc62 [color="green"];
+  BB75a5edc20 -> BB75a5edc26 [color="red"];
+  BB75a5edc26 -> BB75a5edc55 [color="green"];
+  BB75a5edc26 -> BB75a5edc31 [color="red"];
+  BB75a5edc31 -> BB75a5edc35 [color="blue"];
+  BB75a5edc35 -> BB75a5edc66 [color="green"];
+  BB75a5edc35 -> BB75a5edc3a [color="red"];
+  BB75a5edc3a -> BB75a5edca4 [color="green"];
+  BB75a5edc3a -> BB75a5edc41 [color="red"];
+  BB75a5edc41 -> BB75a5edc4a [color="blue"];
+  BB75a5edc55 -> BB75a5edc62 [color="green"];
+  BB75a5edc55 -> BB75a5edc57 [color="red"];
+  BB75a5edc57 -> BB75a5edc31 [color="green"];
+  BB75a5edc57 -> BB75a5edc62 [color="red"];
+  BB75a5edc62 -> BB75a5edc4a [color="blue"];
+  BB75a5edc66 -> BB75a5edc9f [color="green"];
+  BB75a5edc66 -> BB75a5edc73 [color="red"];
+  BB75a5edc73 -> BB75a5edc9a [color="green"];
+  BB75a5edc73 -> BB75a5edc80 [color="red"];
+  BB75a5edc80 -> BB75a5edc88 [color="blue"];
+  BB75a5edc88 -> BB75a5edc9a [color="green"];
+  BB75a5edc88 -> BB75a5edc8d [color="red"];
+  BB75a5edc8d -> BB75a5edc88 [color="green"];
+  BB75a5edc8d -> BB75a5edc9a [color="red"];
+  BB75a5edc9a -> BB75a5edc62 [color="green"];
+  BB75a5edc9a -> BB75a5edc9f [color="red"];
+  BB75a5edc9f -> BB75a5edc35 [color="blue"];
+  BB75a5edca4 -> BB75a5edc4a [color="blue"];
+}

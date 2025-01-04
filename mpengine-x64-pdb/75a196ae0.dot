@@ -1,0 +1,12 @@
+digraph IsEnumValueType {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a196ae0 -> BB75a196b6a [color="green"];
+  BB75a196ae0 -> BB75a196b07 [color="red"];
+  BB75a196b07 -> BB75a196b6a [color="green"];
+  BB75a196b07 -> BB75a196b17 [color="red"];
+  BB75a196b17 -> BB75a196b6a [color="green"];
+  BB75a196b17 -> BB75a196b46 [color="red"];
+  BB75a196b46 -> BB75a196b57 [color="blue"];
+  BB75a196b6a -> BB75a196b57 [color="blue"];
+}

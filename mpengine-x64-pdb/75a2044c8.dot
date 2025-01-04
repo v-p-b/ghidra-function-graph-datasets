@@ -1,0 +1,15 @@
+digraph VerifyIsFriendlyFile {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2044c8 -> BB75a2044f7 [color="green"];
+  BB75a2044c8 -> BB75a2044f2 [color="red"];
+  BB75a2044f2 -> BB75a2044f7 [color="red"];
+  BB75a2044f7 -> BB75a204544 [color="green"];
+  BB75a2044f7 -> BB75a204525 [color="red"];
+  BB75a204525 -> BB75a204544 [color="green"];
+  BB75a204525 -> BB75a20452b [color="red"];
+  BB75a20452b -> BB75a204544 [color="red"];
+  BB75a204544 -> BB75a20459f [color="green"];
+  BB75a204544 -> BB75a204596 [color="red"];
+  BB75a204596 -> BB75a20459f [color="red"];
+}

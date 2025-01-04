@@ -1,0 +1,14 @@
+digraph GetHipsRule {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a602ad4 -> BB75a602ae1 [color="blue"];
+  BB75a602ae1 -> BB75a602aea [color="green"];
+  BB75a602ae1 -> BB75a602ae6 [color="red"];
+  BB75a602aea -> BB75a602af6 [color="green"];
+  BB75a602aea -> BB75a602af0 [color="red"];
+  BB75a602af0 -> BB75a602ae1 [color="blue"];
+  BB75a602af6 -> BB75a602af0 [color="green"];
+  BB75a602af6 -> BB75a602b1a [color="red"];
+  BB75a602b1a -> BB75a602af0 [color="green"];
+  BB75a602b1a -> BB75a602b24 [color="red"];
+}

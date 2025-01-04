@@ -1,0 +1,18 @@
+digraph GetMachoEntryPoint {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa481c4 -> BB75aa4823b [color="green"];
+  BB75aa481c4 -> BB75aa481f1 [color="red"];
+  BB75aa481f1 -> BB75aa48275 [color="green"];
+  BB75aa481f1 -> BB75aa48229 [color="red"];
+  BB75aa48229 -> BB75aa4828b [color="blue"];
+  BB75aa4823b -> BB75aa48290 [color="green"];
+  BB75aa4823b -> BB75aa48240 [color="red"];
+  BB75aa48240 -> BB75aa48279 [color="green"];
+  BB75aa48240 -> BB75aa48275 [color="red"];
+  BB75aa48275 -> BB75aa48296 [color="blue"];
+  BB75aa48279 -> BB75aa4828b [color="red"];
+  BB75aa4828b -> BB75aa48294 [color="blue"];
+  BB75aa48290 -> BB75aa48294 [color="blue"];
+  BB75aa48294 -> BB75aa48296 [color="blue"];
+}

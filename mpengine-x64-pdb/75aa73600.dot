@@ -1,0 +1,15 @@
+digraph NTDLL_DLL_VFS_GetHandle {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa73600 -> BB75aa736c2 [color="green"];
+  BB75aa73600 -> BB75aa7365c [color="red"];
+  BB75aa7365c -> BB75aa736c2 [color="green"];
+  BB75aa7365c -> BB75aa73666 [color="red"];
+  BB75aa73666 -> BB75aa736b9 [color="green"];
+  BB75aa73666 -> BB75aa73686 [color="red"];
+  BB75aa73686 -> BB75aa736b2 [color="green"];
+  BB75aa73686 -> BB75aa736a6 [color="red"];
+  BB75aa736a6 -> BB75aa736b9 [color="blue"];
+  BB75aa736b2 -> BB75aa736b9 [color="blue"];
+  BB75aa736b9 -> BB75aa736c2 [color="red"];
+}

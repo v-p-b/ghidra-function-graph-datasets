@@ -1,0 +1,33 @@
+digraph convertCompoundSelectToSubquery {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab4dd30 -> BB75ab4deb9 [color="green"];
+  BB75ab4dd30 -> BB75ab4dd55 [color="red"];
+  BB75ab4dd55 -> BB75ab4deb9 [color="green"];
+  BB75ab4dd55 -> BB75ab4dd62 [color="red"];
+  BB75ab4dd62 -> BB75ab4dd65 [color="blue"];
+  BB75ab4dd65 -> BB75ab4dd71 [color="green"];
+  BB75ab4dd65 -> BB75ab4dd6b [color="red"];
+  BB75ab4dd6b -> BB75ab4dd7a [color="green"];
+  BB75ab4dd6b -> BB75ab4dd71 [color="red"];
+  BB75ab4dd71 -> BB75ab4dd65 [color="green"];
+  BB75ab4dd71 -> BB75ab4dd7a [color="red"];
+  BB75ab4dd7a -> BB75ab4deb9 [color="green"];
+  BB75ab4dd7a -> BB75ab4dd83 [color="red"];
+  BB75ab4dd83 -> BB75ab4ddb2 [color="green"];
+  BB75ab4dd83 -> BB75ab4dd8e [color="red"];
+  BB75ab4dd8e -> BB75ab4dd9a [color="blue"];
+  BB75ab4dd9a -> BB75ab4ddb2 [color="green"];
+  BB75ab4dd9a -> BB75ab4dda6 [color="red"];
+  BB75ab4dda6 -> BB75ab4dd9a [color="green"];
+  BB75ab4dda6 -> BB75ab4ddb2 [color="red"];
+  BB75ab4ddb2 -> BB75ab4deb9 [color="green"];
+  BB75ab4ddb2 -> BB75ab4ddba [color="red"];
+  BB75ab4ddba -> BB75ab4ded0 [color="green"];
+  BB75ab4ddba -> BB75ab4ddd9 [color="red"];
+  BB75ab4ddd9 -> BB75ab4ded0 [color="green"];
+  BB75ab4ddd9 -> BB75ab4de15 [color="red"];
+  BB75ab4de15 -> BB75ab4deb9 [color="red"];
+  BB75ab4deb9 -> BB75ab4debb [color="blue"];
+  BB75ab4ded0 -> BB75ab4debb [color="blue"];
+}

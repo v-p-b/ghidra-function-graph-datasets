@@ -1,0 +1,17 @@
+digraph ArScanScheduler {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7066c4 -> BB75a706765 [color="green"];
+  BB75a7066c4 -> BB75a706713 [color="red"];
+  BB75a706713 -> BB75a706728 [color="green"];
+  BB75a706713 -> BB75a70671f [color="red"];
+  BB75a70671f -> BB75a706728 [color="blue"];
+  BB75a706728 -> BB75a706765 [color="green"];
+  BB75a706728 -> BB75a70672c [color="red"];
+  BB75a70672c -> BB75a70675d [color="green"];
+  BB75a70672c -> BB75a70673f [color="red"];
+  BB75a70673f -> BB75a70675d [color="green"];
+  BB75a70673f -> BB75a706745 [color="red"];
+  BB75a706745 -> BB75a70675d [color="red"];
+  BB75a70675d -> BB75a706765 [color="red"];
+}

@@ -1,0 +1,15 @@
+digraph vfo_crc32 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6514dc -> BB75a6514f9 [color="green"];
+  BB75a6514dc -> BB75a6514ed [color="red"];
+  BB75a6514ed -> BB75a6514f2 [color="red"];
+  BB75a6514f2 -> BB75a6514f4 [color="blue"];
+  BB75a6514f9 -> BB75a651502 [color="blue"];
+  BB75a651502 -> BB75a6514f2 [color="green"];
+  BB75a651502 -> BB75a65150b [color="red"];
+  BB75a65150b -> BB75a651525 [color="green"];
+  BB75a65150b -> BB75a651510 [color="red"];
+  BB75a651510 -> BB75a6514f4 [color="blue"];
+  BB75a651525 -> BB75a651502 [color="blue"];
+}

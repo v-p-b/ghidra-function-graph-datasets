@@ -1,0 +1,11 @@
+digraph GetLocalsCount {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a601010 -> BB75a60102a [color="green"];
+  BB75a601010 -> BB75a601020 [color="red"];
+  BB75a601020 -> BB75a601022 [color="blue"];
+  BB75a601022 -> BB75a601024 [color="blue"];
+  BB75a60102a -> BB75a601022 [color="green"];
+  BB75a60102a -> BB75a60103a [color="red"];
+  BB75a60103a -> BB75a601024 [color="blue"];
+}

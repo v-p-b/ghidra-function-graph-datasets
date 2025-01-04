@@ -1,0 +1,37 @@
+digraph ProcessNetworkDetection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a842884 -> BB75a8428c1 [color="blue"];
+  BB75a8428c1 -> BB75a8428d2 [color="green"];
+  BB75a8428c1 -> BB75a8428c6 [color="red"];
+  BB75a8428c6 -> BB75a8429a2 [color="blue"];
+  BB75a8428d2 -> BB75a8428e2 [color="blue"];
+  BB75a8428e2 -> BB75a8428f8 [color="green"];
+  BB75a8428e2 -> BB75a8428ef [color="red"];
+  BB75a8428ef -> BB75a8428e2 [color="green"];
+  BB75a8428ef -> BB75a8428f8 [color="red"];
+  BB75a8428f8 -> BB75a84295e [color="green"];
+  BB75a8428f8 -> BB75a8428fc [color="red"];
+  BB75a8428fc -> BB75a842951 [color="green"];
+  BB75a8428fc -> BB75a84291b [color="red"];
+  BB75a84291b -> BB75a842930 [color="green"];
+  BB75a84291b -> BB75a842925 [color="red"];
+  BB75a842925 -> BB75a842930 [color="red"];
+  BB75a842930 -> BB75a842951 [color="red"];
+  BB75a842951 -> BB75a84295e [color="green"];
+  BB75a842951 -> BB75a842956 [color="red"];
+  BB75a842956 -> BB75a84295e [color="red"];
+  BB75a84295e -> BB75a8428c1 [color="blue"];
+  BB75a8429a2 -> BB75a842ab2 [color="blue"];
+  BB75a842ab2 -> BB75a842aee [color="green"];
+  BB75a842ab2 -> BB75a842ab6 [color="red"];
+  BB75a842ab6 -> BB75a842ac3 [color="blue"];
+  BB75a842ac3 -> BB75a842aee [color="green"];
+  BB75a842ac3 -> BB75a842acf [color="red"];
+  BB75a842acf -> BB75a842aee [color="green"];
+  BB75a842acf -> BB75a842ad5 [color="red"];
+  BB75a842ad5 -> BB75a842aee [color="red"];
+  BB75a842aee -> BB75a842afd [color="green"];
+  BB75a842aee -> BB75a842af8 [color="red"];
+  BB75a842af8 -> BB75a842afd [color="red"];
+}

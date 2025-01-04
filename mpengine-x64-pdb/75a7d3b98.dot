@@ -1,0 +1,13 @@
+digraph FgStateChange {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7d3b98 -> BB75a7d3bec [color="green"];
+  BB75a7d3b98 -> BB75a7d3bb4 [color="red"];
+  BB75a7d3bb4 -> BB75a7d3be5 [color="green"];
+  BB75a7d3bb4 -> BB75a7d3bc7 [color="red"];
+  BB75a7d3bc7 -> BB75a7d3be5 [color="green"];
+  BB75a7d3bc7 -> BB75a7d3bcd [color="red"];
+  BB75a7d3bcd -> BB75a7d3be5 [color="red"];
+  BB75a7d3be5 -> BB75a7d3bf8 [color="blue"];
+  BB75a7d3bec -> BB75a7d3bf8 [color="red"];
+}

@@ -1,0 +1,16 @@
+digraph EnvVarFromPath<char> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7c4ee8 -> BB75a7c4f23 [color="green"];
+  BB75a7c4ee8 -> BB75a7c4f20 [color="red"];
+  BB75a7c4f20 -> BB75a7c4f23 [color="blue"];
+  BB75a7c4f23 -> BB75a7c4f75 [color="green"];
+  BB75a7c4f23 -> BB75a7c4f3b [color="red"];
+  BB75a7c4f3b -> BB75a7c4f48 [color="green"];
+  BB75a7c4f3b -> BB75a7c4f45 [color="red"];
+  BB75a7c4f45 -> BB75a7c4f48 [color="blue"];
+  BB75a7c4f48 -> BB75a7c4f75 [color="green"];
+  BB75a7c4f48 -> BB75a7c4f5e [color="red"];
+  BB75a7c4f5e -> BB75a7c4f85 [color="blue"];
+  BB75a7c4f75 -> BB75a7c4f85 [color="red"];
+}

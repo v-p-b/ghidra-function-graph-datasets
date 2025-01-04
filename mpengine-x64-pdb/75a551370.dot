@@ -1,0 +1,11 @@
+digraph bi_flush {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a551370 -> BB75a5513b3 [color="green"];
+  BB75a551370 -> BB75a55137e [color="red"];
+  BB75a55137e -> BB75a5513dd [color="blue"];
+  BB75a5513b3 -> BB75a5513e5 [color="green"];
+  BB75a5513b3 -> BB75a5513b8 [color="red"];
+  BB75a5513b8 -> BB75a5513dd [color="blue"];
+  BB75a5513dd -> BB75a5513e5 [color="blue"];
+}

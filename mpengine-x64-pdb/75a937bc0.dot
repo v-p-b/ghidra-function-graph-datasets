@@ -1,0 +1,33 @@
+digraph process<struct_tts_pmi_record_t> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a937bc0 -> BB75a937d47 [color="green"];
+  BB75a937bc0 -> BB75a937be8 [color="red"];
+  BB75a937be8 -> BB75a937c30 [color="green"];
+  BB75a937be8 -> BB75a937c29 [color="red"];
+  BB75a937c29 -> BB75a937c30 [color="blue"];
+  BB75a937c30 -> BB75a937c55 [color="green"];
+  BB75a937c30 -> BB75a937c4f [color="red"];
+  BB75a937c4f -> BB75a937c81 [color="blue"];
+  BB75a937c55 -> BB75a937c85 [color="green"];
+  BB75a937c55 -> BB75a937c57 [color="red"];
+  BB75a937c57 -> BB75a937c76 [color="green"];
+  BB75a937c57 -> BB75a937c6c [color="red"];
+  BB75a937c6c -> BB75a937c85 [color="blue"];
+  BB75a937c76 -> BB75a937c81 [color="red"];
+  BB75a937c81 -> BB75a937c85 [color="blue"];
+  BB75a937c85 -> BB75a937cb1 [color="green"];
+  BB75a937c85 -> BB75a937cab [color="red"];
+  BB75a937cab -> BB75a937cde [color="blue"];
+  BB75a937cb1 -> BB75a937ce2 [color="green"];
+  BB75a937cb1 -> BB75a937cb3 [color="red"];
+  BB75a937cb3 -> BB75a937cd2 [color="green"];
+  BB75a937cb3 -> BB75a937cc8 [color="red"];
+  BB75a937cc8 -> BB75a937ce2 [color="blue"];
+  BB75a937cd2 -> BB75a937cde [color="red"];
+  BB75a937cde -> BB75a937ce2 [color="blue"];
+  BB75a937ce2 -> BB75a937d47 [color="green"];
+  BB75a937ce2 -> BB75a937d03 [color="red"];
+  BB75a937d03 -> BB75a937d49 [color="blue"];
+  BB75a937d47 -> BB75a937d49 [color="blue"];
+}

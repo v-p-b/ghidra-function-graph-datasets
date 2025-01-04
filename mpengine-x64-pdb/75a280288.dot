@@ -1,0 +1,15 @@
+digraph columnMem {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a280288 -> BB75a2802e6 [color="green"];
+  BB75a280288 -> BB75a28029d [color="red"];
+  BB75a28029d -> BB75a2802d6 [color="green"];
+  BB75a28029d -> BB75a2802b5 [color="red"];
+  BB75a2802b5 -> BB75a2802d6 [color="green"];
+  BB75a2802b5 -> BB75a2802c0 [color="red"];
+  BB75a2802c0 -> BB75a2802d6 [color="green"];
+  BB75a2802c0 -> BB75a2802c4 [color="red"];
+  BB75a2802c4 -> BB75a2802cb [color="blue"];
+  BB75a2802d6 -> BB75a2802e6 [color="red"];
+  BB75a2802e6 -> BB75a2802cb [color="blue"];
+}

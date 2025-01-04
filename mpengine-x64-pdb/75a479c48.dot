@@ -1,0 +1,19 @@
+digraph ReorgThreat2Appmap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a479c48 -> BB75a479cfc [color="red"];
+  BB75a479cfc -> BB75a479d06 [color="green"];
+  BB75a479cfc -> BB75a479d01 [color="red"];
+  BB75a479d01 -> BB75a479d9e [color="blue"];
+  BB75a479d06 -> BB75a479d15 [color="blue"];
+  BB75a479d15 -> BB75a479d53 [color="green"];
+  BB75a479d15 -> BB75a479d1b [color="red"];
+  BB75a479d1b -> BB75a479d42 [color="green"];
+  BB75a479d1b -> BB75a479d3d [color="red"];
+  BB75a479d3d -> BB75a479d42 [color="red"];
+  BB75a479d42 -> BB75a479d15 [color="blue"];
+  BB75a479d53 -> BB75a479cfc [color="blue"];
+  BB75a479d9e -> BB75a479da8 [color="green"];
+  BB75a479d9e -> BB75a479da3 [color="red"];
+  BB75a479da3 -> BB75a479da8 [color="red"];
+}

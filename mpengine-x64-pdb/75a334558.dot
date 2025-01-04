@@ -1,0 +1,15 @@
+digraph bswap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a334558 -> BB75a3346e8 [color="green"];
+  BB75a334558 -> BB75a3345dd [color="red"];
+  BB75a3345dd -> BB75a334736 [color="green"];
+  BB75a3345dd -> BB75a3345e6 [color="red"];
+  BB75a3345e6 -> BB75a334675 [color="red"];
+  BB75a334675 -> BB75a3346b0 [color="red"];
+  BB75a3346b0 -> BB75a3346c7 [color="blue"];
+  BB75a3346e8 -> BB75a3346b0 [color="blue"];
+  BB75a334736 -> BB75a3346c7 [color="green"];
+  BB75a334736 -> BB75a33473b [color="red"];
+  BB75a33473b -> BB75a334675 [color="blue"];
+}

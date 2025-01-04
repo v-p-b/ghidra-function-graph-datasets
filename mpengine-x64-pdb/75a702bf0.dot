@@ -1,0 +1,10 @@
+digraph ChangeState {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a702bf0 -> BB75a702c3d [color="green"];
+  BB75a702bf0 -> BB75a702c30 [color="red"];
+  BB75a702c30 -> BB75a702c39 [color="green"];
+  BB75a702c30 -> BB75a702c34 [color="red"];
+  BB75a702c34 -> BB75a702c39 [color="red"];
+  BB75a702c39 -> BB75a702c3d [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph GetProcessHipsRules {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8141a0 -> BB75a814295 [color="green"];
+  BB75a8141a0 -> BB75a8141f7 [color="red"];
+  BB75a8141f7 -> BB75a814212 [color="green"];
+  BB75a8141f7 -> BB75a81420d [color="red"];
+  BB75a81420d -> BB75a814212 [color="red"];
+  BB75a814212 -> BB75a814239 [color="green"];
+  BB75a814212 -> BB75a81421b [color="red"];
+  BB75a81421b -> BB75a814295 [color="blue"];
+  BB75a814239 -> BB75a814295 [color="blue"];
+}

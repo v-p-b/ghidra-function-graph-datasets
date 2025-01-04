@@ -1,0 +1,18 @@
+digraph isShadowTableName {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a28eb14 -> BB75a28eb90 [color="green"];
+  BB75a28eb14 -> BB75a28eb3e [color="red"];
+  BB75a28eb3e -> BB75a28eb90 [color="green"];
+  BB75a28eb3e -> BB75a28eb57 [color="red"];
+  BB75a28eb57 -> BB75a28eb90 [color="green"];
+  BB75a28eb57 -> BB75a28eb5d [color="red"];
+  BB75a28eb5d -> BB75a28eb90 [color="green"];
+  BB75a28eb5d -> BB75a28eb7c [color="red"];
+  BB75a28eb7c -> BB75a28eb90 [color="green"];
+  BB75a28eb7c -> BB75a28eb84 [color="red"];
+  BB75a28eb84 -> BB75a28eba2 [color="green"];
+  BB75a28eb84 -> BB75a28eb90 [color="red"];
+  BB75a28eb90 -> BB75a28eb92 [color="blue"];
+  BB75a28eba2 -> BB75a28eb92 [color="blue"];
+}

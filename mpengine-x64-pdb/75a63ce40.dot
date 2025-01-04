@@ -1,0 +1,12 @@
+digraph FreeAllocatedMemory {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a63ce40 -> BB75a63ce5b [color="green"];
+  BB75a63ce40 -> BB75a63ce50 [color="red"];
+  BB75a63ce5b -> BB75a63ce81 [color="green"];
+  BB75a63ce5b -> BB75a63ce79 [color="red"];
+  BB75a63ce79 -> BB75a63ce81 [color="red"];
+  BB75a63ce81 -> BB75a63ce50 [color="green"];
+  BB75a63ce81 -> BB75a63ce86 [color="red"];
+  BB75a63ce86 -> BB75a63ce50 [color="blue"];
+}

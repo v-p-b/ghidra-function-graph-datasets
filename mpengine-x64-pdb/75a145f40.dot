@@ -1,0 +1,12 @@
+digraph DetachUfsPlugin {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a145f40 -> BB75a145f98 [color="green"];
+  BB75a145f40 -> BB75a145f5e [color="red"];
+  BB75a145f5e -> BB75a145f98 [color="green"];
+  BB75a145f5e -> BB75a145f63 [color="red"];
+  BB75a145f63 -> BB75a145f9f [color="green"];
+  BB75a145f63 -> BB75a145f88 [color="red"];
+  BB75a145f98 -> BB75a145f63 [color="blue"];
+  BB75a145f9f -> BB75a145f88 [color="blue"];
+}

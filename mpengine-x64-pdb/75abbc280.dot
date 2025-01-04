@@ -1,0 +1,13 @@
+digraph x86_microcode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abbc280 -> BB75abbc2ca [color="green"];
+  BB75abbc280 -> BB75abbc2c5 [color="red"];
+  BB75abbc2c5 -> BB75abbc2ca [color="red"];
+  BB75abbc2ca -> BB75abbc39d [color="green"];
+  BB75abbc2ca -> BB75abbc2f3 [color="red"];
+  BB75abbc2f3 -> BB75abbc329 [color="green"];
+  BB75abbc2f3 -> BB75abbc324 [color="red"];
+  BB75abbc324 -> BB75abbc329 [color="red"];
+  BB75abbc329 -> BB75abbc39d [color="blue"];
+}

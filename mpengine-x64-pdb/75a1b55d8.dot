@@ -1,0 +1,16 @@
+digraph is_BB_full {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1b55d8 -> BB75a1b55ef [color="green"];
+  BB75a1b55d8 -> BB75a1b55e5 [color="red"];
+  BB75a1b55e5 -> BB75a1b55e7 [color="blue"];
+  BB75a1b55ef -> BB75a1b55e5 [color="green"];
+  BB75a1b55ef -> BB75a1b55f9 [color="red"];
+  BB75a1b55f9 -> BB75a1b561b [color="green"];
+  BB75a1b55f9 -> BB75a1b5610 [color="red"];
+  BB75a1b5610 -> BB75a1b5615 [color="red"];
+  BB75a1b5615 -> BB75a1b55e7 [color="green"];
+  BB75a1b5615 -> BB75a1b5619 [color="red"];
+  BB75a1b5619 -> BB75a1b55e5 [color="blue"];
+  BB75a1b561b -> BB75a1b5615 [color="blue"];
+}

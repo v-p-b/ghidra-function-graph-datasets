@@ -1,0 +1,36 @@
+digraph SetDlpJitProcessAllowListData {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8715dc -> BB75a87165d [color="green"];
+  BB75a8715dc -> BB75a87161c [color="red"];
+  BB75a87161c -> BB75a87164c [color="green"];
+  BB75a87161c -> BB75a87162f [color="red"];
+  BB75a87162f -> BB75a87164c [color="green"];
+  BB75a87162f -> BB75a871635 [color="red"];
+  BB75a871635 -> BB75a87164c [color="red"];
+  BB75a87164c -> BB75a871738 [color="blue"];
+  BB75a87165d -> BB75a871669 [color="blue"];
+  BB75a871669 -> BB75a87172b [color="green"];
+  BB75a871669 -> BB75a871680 [color="red"];
+  BB75a871680 -> BB75a871695 [color="green"];
+  BB75a871680 -> BB75a871692 [color="red"];
+  BB75a871692 -> BB75a871695 [color="blue"];
+  BB75a871695 -> BB75a8716b5 [color="green"];
+  BB75a871695 -> BB75a8716b2 [color="red"];
+  BB75a8716b2 -> BB75a8716b5 [color="blue"];
+  BB75a8716b5 -> BB75a8716d4 [color="green"];
+  BB75a8716b5 -> BB75a8716ba [color="red"];
+  BB75a8716ba -> BB75a8716bd [color="blue"];
+  BB75a8716bd -> BB75a8716bd [color="green"];
+  BB75a8716bd -> BB75a8716d4 [color="red"];
+  BB75a8716d4 -> BB75a871708 [color="green"];
+  BB75a8716d4 -> BB75a8716e0 [color="red"];
+  BB75a8716e0 -> BB75a871708 [color="green"];
+  BB75a8716e0 -> BB75a8716e6 [color="red"];
+  BB75a8716e6 -> BB75a8716f3 [color="green"];
+  BB75a8716e6 -> BB75a8716f0 [color="red"];
+  BB75a8716f0 -> BB75a8716f3 [color="blue"];
+  BB75a8716f3 -> BB75a871708 [color="red"];
+  BB75a871708 -> BB75a871669 [color="blue"];
+  BB75a87172b -> BB75a871738 [color="red"];
+}

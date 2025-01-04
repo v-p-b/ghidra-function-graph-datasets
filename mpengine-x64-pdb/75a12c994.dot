@@ -1,0 +1,10 @@
+digraph append_state {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a12c994 -> BB75a12ca18 [color="green"];
+  BB75a12c994 -> BB75a12c9a8 [color="red"];
+  BB75a12c9a8 -> BB75a12c9e8 [color="green"];
+  BB75a12c9a8 -> BB75a12c9d7 [color="red"];
+  BB75a12c9d7 -> BB75a12c9e8 [color="blue"];
+  BB75a12ca18 -> BB75a12c9a8 [color="blue"];
+}

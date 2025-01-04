@@ -1,0 +1,16 @@
+digraph IsValidAtTime {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8789a0 -> BB75a8789d3 [color="green"];
+  BB75a8789a0 -> BB75a8789cb [color="red"];
+  BB75a8789cb -> BB75a8789d3 [color="red"];
+  BB75a8789d3 -> BB75a878a59 [color="green"];
+  BB75a8789d3 -> BB75a8789fa [color="red"];
+  BB75a8789fa -> BB75a878a59 [color="green"];
+  BB75a8789fa -> BB75a878a1e [color="red"];
+  BB75a878a1e -> BB75a878a52 [color="green"];
+  BB75a878a1e -> BB75a878a46 [color="red"];
+  BB75a878a46 -> BB75a878a5e [color="blue"];
+  BB75a878a52 -> BB75a878a5e [color="blue"];
+  BB75a878a59 -> BB75a878a5e [color="blue"];
+}

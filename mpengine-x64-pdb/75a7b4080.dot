@@ -1,0 +1,14 @@
+digraph FPU_fscale {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7b4080 -> BB75a7b409d [color="green"];
+  BB75a7b4080 -> BB75a7b409a [color="red"];
+  BB75a7b409a -> BB75a7b409d [color="blue"];
+  BB75a7b409d -> BB75a7b40b5 [color="green"];
+  BB75a7b409d -> BB75a7b40b3 [color="red"];
+  BB75a7b40b3 -> BB75a7b40b5 [color="blue"];
+  BB75a7b40b5 -> BB75a7b40d1 [color="green"];
+  BB75a7b40b5 -> BB75a7b40c6 [color="red"];
+  BB75a7b40c6 -> BB75a7b40da [color="blue"];
+  BB75a7b40d1 -> BB75a7b40da [color="blue"];
+}

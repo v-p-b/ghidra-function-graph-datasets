@@ -1,0 +1,33 @@
+digraph sqlite3IsReadOnly {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a290f7c -> BB75a291000 [color="green"];
+  BB75a290f7c -> BB75a290f8c [color="red"];
+  BB75a290f8c -> BB75a290fd3 [color="green"];
+  BB75a290f8c -> BB75a290f95 [color="red"];
+  BB75a290f95 -> BB75a290fe5 [color="green"];
+  BB75a290f95 -> BB75a290fa2 [color="red"];
+  BB75a290fa2 -> BB75a290fcc [color="green"];
+  BB75a290fa2 -> BB75a290fad [color="red"];
+  BB75a290fad -> BB75a290fcc [color="green"];
+  BB75a290fad -> BB75a290fb3 [color="red"];
+  BB75a290fb3 -> BB75a290fbd [color="blue"];
+  BB75a290fbd -> BB75a290fe0 [color="blue"];
+  BB75a290fcc -> BB75a290fcf [color="blue"];
+  BB75a290fcf -> BB75a290fb3 [color="green"];
+  BB75a290fcf -> BB75a290fd3 [color="red"];
+  BB75a290fd3 -> BB75a290fde [color="green"];
+  BB75a290fd3 -> BB75a290fd8 [color="red"];
+  BB75a290fd8 -> BB75a29101b [color="green"];
+  BB75a290fd8 -> BB75a290fde [color="red"];
+  BB75a290fde -> BB75a290fe0 [color="blue"];
+  BB75a290fe5 -> BB75a290fd3 [color="green"];
+  BB75a290fe5 -> BB75a290fec [color="red"];
+  BB75a290fec -> BB75a290fd3 [color="green"];
+  BB75a290fec -> BB75a290ff5 [color="red"];
+  BB75a290ff5 -> BB75a290fd3 [color="green"];
+  BB75a290ff5 -> BB75a290ffe [color="red"];
+  BB75a290ffe -> BB75a290fb3 [color="blue"];
+  BB75a291000 -> BB75a290fcf [color="blue"];
+  BB75a29101b -> BB75a290fbd [color="blue"];
+}

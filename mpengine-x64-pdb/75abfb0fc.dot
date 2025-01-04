@@ -1,0 +1,11 @@
+digraph ZSTD_compressBlock_targetCBlockSize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abfb0fc -> BB75abfb17d [color="green"];
+  BB75abfb0fc -> BB75abfb13a [color="red"];
+  BB75abfb13a -> BB75abfb17d [color="green"];
+  BB75abfb13a -> BB75abfb163 [color="red"];
+  BB75abfb163 -> BB75abfb17d [color="green"];
+  BB75abfb163 -> BB75abfb173 [color="red"];
+  BB75abfb173 -> BB75abfb17d [color="blue"];
+}

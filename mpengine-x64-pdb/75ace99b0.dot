@@ -1,0 +1,16 @@
+digraph decode_ip {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ace99b0 -> BB75ace99e7 [color="green"];
+  BB75ace99b0 -> BB75ace99dd [color="red"];
+  BB75ace99dd -> BB75ace9aa1 [color="blue"];
+  BB75ace99e7 -> BB75ace9a0c [color="green"];
+  BB75ace99e7 -> BB75ace9a08 [color="red"];
+  BB75ace9a08 -> BB75ace9a0c [color="blue"];
+  BB75ace9a0c -> BB75ace9a97 [color="green"];
+  BB75ace9a0c -> BB75ace9a1f [color="red"];
+  BB75ace9a1f -> BB75ace9a97 [color="green"];
+  BB75ace9a1f -> BB75ace9a33 [color="red"];
+  BB75ace9a33 -> BB75ace9a97 [color="red"];
+  BB75ace9a97 -> BB75ace9aa1 [color="red"];
+}

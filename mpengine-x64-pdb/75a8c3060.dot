@@ -1,0 +1,14 @@
+digraph _ScheduleFuncWithAutoInline {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8c3060 -> BB75a8c30a1 [color="green"];
+  BB75a8c3060 -> BB75a8c3097 [color="red"];
+  BB75a8c3097 -> BB75a8c30ff [color="blue"];
+  BB75a8c30a1 -> BB75a8c30d9 [color="green"];
+  BB75a8c30a1 -> BB75a8c30cc [color="red"];
+  BB75a8c30cc -> BB75a8c30f0 [color="blue"];
+  BB75a8c30d9 -> BB75a8c30f0 [color="red"];
+  BB75a8c30f0 -> BB75a8c30ff [color="green"];
+  BB75a8c30f0 -> BB75a8c30fa [color="red"];
+  BB75a8c30fa -> BB75a8c30ff [color="red"];
+}

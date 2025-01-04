@@ -1,0 +1,18 @@
+digraph SymCryptSha512Append {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a42e370 -> BB75a42e448 [color="green"];
+  BB75a42e370 -> BB75a42e39f [color="red"];
+  BB75a42e39f -> BB75a42e403 [color="green"];
+  BB75a42e39f -> BB75a42e3a5 [color="red"];
+  BB75a42e3a5 -> BB75a42e3d3 [color="green"];
+  BB75a42e3a5 -> BB75a42e3ae [color="red"];
+  BB75a42e3ae -> BB75a42e3d3 [color="red"];
+  BB75a42e3d3 -> BB75a42e3ee [color="green"];
+  BB75a42e3d3 -> BB75a42e3d8 [color="red"];
+  BB75a42e3d8 -> BB75a42e3ee [color="red"];
+  BB75a42e403 -> BB75a42e3a5 [color="green"];
+  BB75a42e403 -> BB75a42e411 [color="red"];
+  BB75a42e411 -> BB75a42e3a5 [color="blue"];
+  BB75a42e448 -> BB75a42e39f [color="blue"];
+}

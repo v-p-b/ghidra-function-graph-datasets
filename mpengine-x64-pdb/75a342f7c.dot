@@ -1,0 +1,16 @@
+digraph switch_in {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a342f7c -> BB75a342fbc [color="green"];
+  BB75a342f7c -> BB75a342fa9 [color="red"];
+  BB75a342fa9 -> BB75a342fce [color="green"];
+  BB75a342fa9 -> BB75a342fb2 [color="red"];
+  BB75a342fb2 -> BB75a342fb5 [color="blue"];
+  BB75a342fb5 -> BB75a342fbc [color="red"];
+  BB75a342fce -> BB75a343136 [color="green"];
+  BB75a342fce -> BB75a342fdc [color="red"];
+  BB75a342fdc -> BB75a342fbc [color="green"];
+  BB75a342fdc -> BB75a343126 [color="red"];
+  BB75a343126 -> BB75a342fb5 [color="blue"];
+  BB75a343136 -> BB75a342fdc [color="blue"];
+}

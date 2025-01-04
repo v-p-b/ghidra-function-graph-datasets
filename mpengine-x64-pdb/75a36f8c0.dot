@@ -1,0 +1,17 @@
+digraph set_threat_actions {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a36f8c0 -> BB75a36f92f [color="green"];
+  BB75a36f8c0 -> BB75a36f8ef [color="red"];
+  BB75a36f8ef -> BB75a36f92f [color="green"];
+  BB75a36f8ef -> BB75a36f8f3 [color="red"];
+  BB75a36f8f3 -> BB75a36f925 [color="green"];
+  BB75a36f8f3 -> BB75a36f91a [color="red"];
+  BB75a36f91a -> BB75a36f950 [color="green"];
+  BB75a36f91a -> BB75a36f925 [color="red"];
+  BB75a36f925 -> BB75a36f92f [color="blue"];
+  BB75a36f950 -> BB75a36f960 [color="green"];
+  BB75a36f950 -> BB75a36f954 [color="red"];
+  BB75a36f954 -> BB75a36f92f [color="blue"];
+  BB75a36f960 -> BB75a36f92f [color="blue"];
+}

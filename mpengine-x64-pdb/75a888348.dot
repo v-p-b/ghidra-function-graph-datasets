@@ -1,0 +1,17 @@
+digraph kernel_set_callback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a888348 -> BB75a88839e [color="green"];
+  BB75a888348 -> BB75a888359 [color="red"];
+  BB75a888359 -> BB75a88839e [color="green"];
+  BB75a888359 -> BB75a88835f [color="red"];
+  BB75a88835f -> BB75a8883d4 [color="green"];
+  BB75a88835f -> BB75a888365 [color="red"];
+  BB75a888365 -> BB75a8883d9 [color="blue"];
+  BB75a88839e -> BB75a8883d4 [color="green"];
+  BB75a88839e -> BB75a8883b1 [color="red"];
+  BB75a8883b1 -> BB75a8883d4 [color="green"];
+  BB75a8883b1 -> BB75a8883b7 [color="red"];
+  BB75a8883b7 -> BB75a8883d4 [color="red"];
+  BB75a8883d4 -> BB75a8883d9 [color="blue"];
+}

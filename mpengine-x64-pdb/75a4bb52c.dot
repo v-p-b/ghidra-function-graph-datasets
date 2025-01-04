@@ -1,0 +1,17 @@
+digraph IsBmTrustedInstaller {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4bb52c -> BB75a4bb5c7 [color="green"];
+  BB75a4bb52c -> BB75a4bb555 [color="red"];
+  BB75a4bb555 -> BB75a4bb58f [color="green"];
+  BB75a4bb555 -> BB75a4bb56d [color="red"];
+  BB75a4bb56d -> BB75a4bb58f [color="green"];
+  BB75a4bb56d -> BB75a4bb575 [color="red"];
+  BB75a4bb575 -> BB75a4bb5bd [color="blue"];
+  BB75a4bb58f -> BB75a4bb5bd [color="green"];
+  BB75a4bb58f -> BB75a4bb5a2 [color="red"];
+  BB75a4bb5a2 -> BB75a4bb5bd [color="green"];
+  BB75a4bb5a2 -> BB75a4bb5a8 [color="red"];
+  BB75a4bb5a8 -> BB75a4bb5bd [color="red"];
+  BB75a4bb5bd -> BB75a4bb5c7 [color="red"];
+}

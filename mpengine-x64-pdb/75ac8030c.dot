@@ -1,0 +1,13 @@
+digraph AreIeSettingsHardened {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac8030c -> BB75ac8044f [color="green"];
+  BB75ac8030c -> BB75ac8038e [color="red"];
+  BB75ac8038e -> BB75ac803ed [color="green"];
+  BB75ac8038e -> BB75ac803e9 [color="red"];
+  BB75ac803e9 -> BB75ac803ed [color="blue"];
+  BB75ac803ed -> BB75ac80446 [color="green"];
+  BB75ac803ed -> BB75ac80443 [color="red"];
+  BB75ac80443 -> BB75ac80446 [color="blue"];
+  BB75ac80446 -> BB75ac8044f [color="red"];
+}

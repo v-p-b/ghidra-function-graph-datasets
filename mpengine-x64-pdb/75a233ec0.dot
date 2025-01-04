@@ -1,0 +1,25 @@
+digraph alloc_new_chunk {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a233ec0 -> BB75a233f20 [color="green"];
+  BB75a233ec0 -> BB75a233ed7 [color="red"];
+  BB75a233ed7 -> BB75a233f24 [color="green"];
+  BB75a233ed7 -> BB75a233edd [color="red"];
+  BB75a233edd -> BB75a233f24 [color="green"];
+  BB75a233edd -> BB75a233ee3 [color="red"];
+  BB75a233ee3 -> BB75a233f20 [color="green"];
+  BB75a233ee3 -> BB75a233ef9 [color="red"];
+  BB75a233ef9 -> BB75a233f2b [color="green"];
+  BB75a233ef9 -> BB75a233f00 [color="red"];
+  BB75a233f00 -> BB75a233f95 [color="green"];
+  BB75a233f00 -> BB75a233f0c [color="red"];
+  BB75a233f0c -> BB75a233f0f [color="blue"];
+  BB75a233f0f -> BB75a233f11 [color="blue"];
+  BB75a233f20 -> BB75a233f11 [color="blue"];
+  BB75a233f24 -> BB75a233ee3 [color="blue"];
+  BB75a233f2b -> BB75a233f6d [color="green"];
+  BB75a233f2b -> BB75a233f67 [color="red"];
+  BB75a233f67 -> BB75a233f6d [color="red"];
+  BB75a233f6d -> BB75a233f0f [color="blue"];
+  BB75a233f95 -> BB75a233f0c [color="blue"];
+}

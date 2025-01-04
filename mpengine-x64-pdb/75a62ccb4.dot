@@ -1,0 +1,12 @@
+digraph ShouldPropogateIntegrityChecks {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a62ccb4 -> BB75a62ccc0 [color="green"];
+  BB75a62ccb4 -> BB75a62ccbd [color="red"];
+  BB75a62ccc0 -> BB75a62ccd4 [color="green"];
+  BB75a62ccc0 -> BB75a62cccc [color="red"];
+  BB75a62cccc -> BB75a62ccd4 [color="green"];
+  BB75a62cccc -> BB75a62ccd1 [color="red"];
+  BB75a62ccd4 -> BB75a62ccbd [color="green"];
+  BB75a62ccd4 -> BB75a62ccda [color="red"];
+}

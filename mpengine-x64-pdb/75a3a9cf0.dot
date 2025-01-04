@@ -1,0 +1,14 @@
+digraph _Lrotate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3a9cf0 -> BB75a3a9d21 [color="green"];
+  BB75a3a9cf0 -> BB75a3a9d04 [color="red"];
+  BB75a3a9d04 -> BB75a3a9d27 [color="green"];
+  BB75a3a9d04 -> BB75a3a9d15 [color="red"];
+  BB75a3a9d15 -> BB75a3a9d19 [color="blue"];
+  BB75a3a9d21 -> BB75a3a9d04 [color="blue"];
+  BB75a3a9d27 -> BB75a3a9d35 [color="green"];
+  BB75a3a9d27 -> BB75a3a9d30 [color="red"];
+  BB75a3a9d30 -> BB75a3a9d19 [color="blue"];
+  BB75a3a9d35 -> BB75a3a9d19 [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph ~data_network_impl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a35dbac -> BB75a35dbcb [color="green"];
+  BB75a35dbac -> BB75a35dbc6 [color="red"];
+  BB75a35dbc6 -> BB75a35dbcb [color="red"];
+  BB75a35dbcb -> BB75a35dbfa [color="green"];
+  BB75a35dbcb -> BB75a35dbf5 [color="red"];
+  BB75a35dbf5 -> BB75a35dbfa [color="red"];
+}

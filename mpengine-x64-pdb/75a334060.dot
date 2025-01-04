@@ -1,0 +1,14 @@
+digraph call_load_selector {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a334060 -> BB75a334113 [color="green"];
+  BB75a334060 -> BB75a334078 [color="red"];
+  BB75a334078 -> BB75a334108 [color="green"];
+  BB75a334078 -> BB75a334080 [color="red"];
+  BB75a334080 -> BB75a334118 [color="green"];
+  BB75a334080 -> BB75a334089 [color="red"];
+  BB75a334089 -> BB75a33408d [color="blue"];
+  BB75a334108 -> BB75a33408d [color="blue"];
+  BB75a334113 -> BB75a334118 [color="red"];
+  BB75a334118 -> BB75a33408d [color="blue"];
+}

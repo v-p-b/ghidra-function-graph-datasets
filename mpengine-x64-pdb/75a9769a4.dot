@@ -1,0 +1,29 @@
+digraph _detect_and_report_using_gpu {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9769a4 -> BB75a976b15 [color="green"];
+  BB75a9769a4 -> BB75a9769d3 [color="red"];
+  BB75a9769d3 -> BB75a976a22 [color="green"];
+  BB75a9769d3 -> BB75a976a1c [color="red"];
+  BB75a976a1c -> BB75a976a5a [color="blue"];
+  BB75a976a22 -> BB75a976a5e [color="green"];
+  BB75a976a22 -> BB75a976a24 [color="red"];
+  BB75a976a24 -> BB75a976a3e [color="green"];
+  BB75a976a24 -> BB75a976a34 [color="red"];
+  BB75a976a34 -> BB75a976a5e [color="blue"];
+  BB75a976a3e -> BB75a976a5a [color="red"];
+  BB75a976a5a -> BB75a976a5e [color="blue"];
+  BB75a976a5e -> BB75a976aeb [color="green"];
+  BB75a976a5e -> BB75a976a92 [color="red"];
+  BB75a976a92 -> BB75a976aee [color="blue"];
+  BB75a976aeb -> BB75a976aee [color="blue"];
+  BB75a976aee -> BB75a976afb [color="green"];
+  BB75a976aee -> BB75a976af7 [color="red"];
+  BB75a976af7 -> BB75a976afb [color="blue"];
+  BB75a976afb -> BB75a976b08 [color="green"];
+  BB75a976afb -> BB75a976b04 [color="red"];
+  BB75a976b04 -> BB75a976b08 [color="blue"];
+  BB75a976b08 -> BB75a976b15 [color="green"];
+  BB75a976b08 -> BB75a976b11 [color="red"];
+  BB75a976b11 -> BB75a976b15 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph PUA_appmap_ready {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a73edf0 -> BB75a73ee28 [color="green"];
+  BB75a73edf0 -> BB75a73ee16 [color="red"];
+  BB75a73ee16 -> BB75a73ee45 [color="blue"];
+  BB75a73ee28 -> BB75a73ee45 [color="red"];
+  BB75a73ee45 -> BB75a73ee4e [color="green"];
+  BB75a73ee45 -> BB75a73ee49 [color="red"];
+  BB75a73ee49 -> BB75a73ee4e [color="red"];
+}

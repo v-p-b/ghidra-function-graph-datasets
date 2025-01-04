@@ -1,0 +1,31 @@
+digraph pe_register_named_breakpoint {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a502960 -> BB75a5029e7 [color="green"];
+  BB75a502960 -> BB75a5029e2 [color="red"];
+  BB75a5029e2 -> BB75a5029e7 [color="red"];
+  BB75a5029e7 -> BB75a502a43 [color="green"];
+  BB75a5029e7 -> BB75a502a16 [color="red"];
+  BB75a502a16 -> BB75a502a43 [color="green"];
+  BB75a502a16 -> BB75a502a2b [color="red"];
+  BB75a502a2b -> BB75a502a43 [color="red"];
+  BB75a502a43 -> BB75a502a8c [color="green"];
+  BB75a502a43 -> BB75a502a5d [color="red"];
+  BB75a502a5d -> BB75a502a76 [color="green"];
+  BB75a502a5d -> BB75a502a67 [color="red"];
+  BB75a502a67 -> BB75a502a76 [color="red"];
+  BB75a502a76 -> BB75a502a87 [color="green"];
+  BB75a502a76 -> BB75a502a82 [color="red"];
+  BB75a502a82 -> BB75a502a87 [color="red"];
+  BB75a502a87 -> BB75a502ace [color="blue"];
+  BB75a502a8c -> BB75a502ab6 [color="green"];
+  BB75a502a8c -> BB75a502a94 [color="red"];
+  BB75a502a94 -> BB75a502ab1 [color="green"];
+  BB75a502a94 -> BB75a502aac [color="red"];
+  BB75a502aac -> BB75a502ab1 [color="red"];
+  BB75a502ab1 -> BB75a502ace [color="blue"];
+  BB75a502ab6 -> BB75a502ac7 [color="green"];
+  BB75a502ab6 -> BB75a502ac2 [color="red"];
+  BB75a502ac2 -> BB75a502ac7 [color="red"];
+  BB75a502ac7 -> BB75a502ace [color="blue"];
+}

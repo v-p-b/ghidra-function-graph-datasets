@@ -1,0 +1,19 @@
+digraph QueryPathFromEnv {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a435c80 -> BB75a435d07 [color="green"];
+  BB75a435c80 -> BB75a435cac [color="red"];
+  BB75a435cac -> BB75a435d0e [color="green"];
+  BB75a435cac -> BB75a435cb1 [color="red"];
+  BB75a435cb1 -> BB75a435d15 [color="green"];
+  BB75a435cb1 -> BB75a435ccb [color="red"];
+  BB75a435ccb -> BB75a435cec [color="red"];
+  BB75a435d07 -> BB75a435cac [color="blue"];
+  BB75a435d0e -> BB75a435cb1 [color="blue"];
+  BB75a435d15 -> BB75a435d47 [color="green"];
+  BB75a435d15 -> BB75a435d28 [color="red"];
+  BB75a435d28 -> BB75a435d47 [color="green"];
+  BB75a435d28 -> BB75a435d2e [color="red"];
+  BB75a435d2e -> BB75a435d47 [color="red"];
+  BB75a435d47 -> BB75a435cec [color="blue"];
+}

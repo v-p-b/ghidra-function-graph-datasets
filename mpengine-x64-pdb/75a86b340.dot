@@ -1,0 +1,18 @@
+digraph GetEventRegIndex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a86b340 -> BB75a86b38c [color="green"];
+  BB75a86b340 -> BB75a86b375 [color="red"];
+  BB75a86b375 -> BB75a86b378 [color="blue"];
+  BB75a86b378 -> BB75a86b3c6 [color="green"];
+  BB75a86b378 -> BB75a86b37d [color="red"];
+  BB75a86b37d -> BB75a86b378 [color="green"];
+  BB75a86b37d -> BB75a86b38c [color="red"];
+  BB75a86b38c -> BB75a86b3bd [color="green"];
+  BB75a86b38c -> BB75a86b39f [color="red"];
+  BB75a86b39f -> BB75a86b3bd [color="green"];
+  BB75a86b39f -> BB75a86b3a5 [color="red"];
+  BB75a86b3a5 -> BB75a86b3bd [color="red"];
+  BB75a86b3bd -> BB75a86b3c1 [color="blue"];
+  BB75a86b3c6 -> BB75a86b3c1 [color="blue"];
+}

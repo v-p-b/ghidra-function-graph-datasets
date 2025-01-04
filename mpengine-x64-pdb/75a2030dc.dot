@@ -1,0 +1,16 @@
+digraph _Emplace_reallocate<struct_HtmlDocument::Impl::Node> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2030dc -> BB75a203289 [color="green"];
+  BB75a2030dc -> BB75a203151 [color="red"];
+  BB75a203151 -> BB75a20318c [color="green"];
+  BB75a203151 -> BB75a203181 [color="red"];
+  BB75a203181 -> BB75a20318c [color="blue"];
+  BB75a20318c -> BB75a20326b [color="green"];
+  BB75a20318c -> BB75a2031fb [color="red"];
+  BB75a2031fb -> BB75a2031fe [color="blue"];
+  BB75a2031fe -> BB75a203237 [color="green"];
+  BB75a2031fe -> BB75a20320c [color="red"];
+  BB75a20320c -> BB75a203237 [color="red"];
+  BB75a20326b -> BB75a2031fe [color="blue"];
+}

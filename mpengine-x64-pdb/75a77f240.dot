@@ -1,0 +1,12 @@
+digraph _IsExceptionObjectToBeDestroyed {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a77f240 -> BB75a77f25d [color="blue"];
+  BB75a77f254 -> BB75a77f26b [color="green"];
+  BB75a77f254 -> BB75a77f259 [color="red"];
+  BB75a77f259 -> BB75a77f25d [color="blue"];
+  BB75a77f25d -> BB75a77f254 [color="green"];
+  BB75a77f25d -> BB75a77f262 [color="red"];
+  BB75a77f262 -> BB75a77f265 [color="blue"];
+  BB75a77f26b -> BB75a77f265 [color="blue"];
+}

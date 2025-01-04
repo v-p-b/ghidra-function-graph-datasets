@@ -1,0 +1,11 @@
+digraph growVTrans {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab4ffbc -> BB75ab5002d [color="green"];
+  BB75ab4ffbc -> BB75ab4ffe5 [color="red"];
+  BB75ab4ffe5 -> BB75ab5000c [color="green"];
+  BB75ab4ffe5 -> BB75ab50007 [color="red"];
+  BB75ab50007 -> BB75ab5002f [color="blue"];
+  BB75ab5000c -> BB75ab5002d [color="blue"];
+  BB75ab5002d -> BB75ab5002f [color="blue"];
+}

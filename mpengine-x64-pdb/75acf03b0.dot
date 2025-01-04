@@ -1,0 +1,13 @@
+digraph do_narrow {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acf03b0 -> BB75acf03e6 [color="green"];
+  BB75acf03b0 -> BB75acf03b8 [color="red"];
+  BB75acf03b8 -> BB75acf03bd [color="blue"];
+  BB75acf03bd -> BB75acf03c8 [color="green"];
+  BB75acf03bd -> BB75acf03c3 [color="red"];
+  BB75acf03c3 -> BB75acf03d7 [color="blue"];
+  BB75acf03c8 -> BB75acf03d7 [color="blue"];
+  BB75acf03d7 -> BB75acf03bd [color="green"];
+  BB75acf03d7 -> BB75acf03e6 [color="red"];
+}

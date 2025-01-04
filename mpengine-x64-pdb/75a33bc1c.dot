@@ -1,0 +1,13 @@
+digraph GetTypeRefSize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a33bc1c -> BB75a33bcaa [color="green"];
+  BB75a33bc1c -> BB75a33bc67 [color="red"];
+  BB75a33bc67 -> BB75a33bcaa [color="green"];
+  BB75a33bc67 -> BB75a33bc82 [color="red"];
+  BB75a33bc82 -> BB75a33bc98 [color="green"];
+  BB75a33bc82 -> BB75a33bc87 [color="red"];
+  BB75a33bc87 -> BB75a33bc98 [color="blue"];
+  BB75a33bc98 -> BB75a33bc9a [color="blue"];
+  BB75a33bcaa -> BB75a33bc9a [color="blue"];
+}

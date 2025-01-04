@@ -1,0 +1,10 @@
+digraph luaC_barrierback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a57c8f0 -> BB75a57c90b [color="green"];
+  BB75a57c8f0 -> BB75a57c8fa [color="red"];
+  BB75a57c8fa -> BB75a57c8fe [color="blue"];
+  BB75a57c90b -> BB75a57c8fa [color="green"];
+  BB75a57c90b -> BB75a57c911 [color="red"];
+  BB75a57c911 -> BB75a57c8fe [color="blue"];
+}

@@ -1,0 +1,19 @@
+digraph GetProcessCommandLine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a813f40 -> BB75a813f78 [color="green"];
+  BB75a813f40 -> BB75a813f69 [color="red"];
+  BB75a813f69 -> BB75a81406b [color="blue"];
+  BB75a813f78 -> BB75a81406b [color="green"];
+  BB75a813f78 -> BB75a813fac [color="red"];
+  BB75a813fac -> BB75a813fc6 [color="green"];
+  BB75a813fac -> BB75a813fc1 [color="red"];
+  BB75a813fc1 -> BB75a813fc6 [color="red"];
+  BB75a813fc6 -> BB75a813fe3 [color="green"];
+  BB75a813fc6 -> BB75a813fcf [color="red"];
+  BB75a813fcf -> BB75a81406b [color="blue"];
+  BB75a813fe3 -> BB75a814004 [color="green"];
+  BB75a813fe3 -> BB75a813fef [color="red"];
+  BB75a813fef -> BB75a81406b [color="blue"];
+  BB75a814004 -> BB75a81406b [color="blue"];
+}

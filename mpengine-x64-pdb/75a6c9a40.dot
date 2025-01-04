@@ -1,0 +1,15 @@
+digraph FindFirstFileW {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6c9a40 -> BB75a6c9a67 [color="green"];
+  BB75a6c9a40 -> BB75a6c9a62 [color="red"];
+  BB75a6c9a62 -> BB75a6c9a67 [color="red"];
+  BB75a6c9a67 -> BB75a6c9b12 [color="green"];
+  BB75a6c9a67 -> BB75a6c9a91 [color="red"];
+  BB75a6c9a91 -> BB75a6c9b08 [color="green"];
+  BB75a6c9a91 -> BB75a6c9aaf [color="red"];
+  BB75a6c9aaf -> BB75a6c9b08 [color="green"];
+  BB75a6c9aaf -> BB75a6c9ade [color="red"];
+  BB75a6c9ade -> BB75a6c9b08 [color="red"];
+  BB75a6c9b08 -> BB75a6c9b12 [color="red"];
+}

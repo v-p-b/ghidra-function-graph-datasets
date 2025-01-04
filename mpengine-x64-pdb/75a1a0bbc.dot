@@ -1,0 +1,30 @@
+digraph copy_RPF_BB_info<unsigned_long,0> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1a0bbc -> BB75a1a0c11 [color="green"];
+  BB75a1a0bbc -> BB75a1a0bf3 [color="red"];
+  BB75a1a0bf3 -> BB75a1a0c11 [color="green"];
+  BB75a1a0bf3 -> BB75a1a0bf8 [color="red"];
+  BB75a1a0bf8 -> BB75a1a0c2e [color="green"];
+  BB75a1a0bf8 -> BB75a1a0c05 [color="red"];
+  BB75a1a0c05 -> BB75a1a0bf3 [color="green"];
+  BB75a1a0c05 -> BB75a1a0c11 [color="red"];
+  BB75a1a0c2e -> BB75a1a0d57 [color="green"];
+  BB75a1a0c2e -> BB75a1a0c7f [color="red"];
+  BB75a1a0c7f -> BB75a1a0c92 [color="blue"];
+  BB75a1a0c92 -> BB75a1a0d02 [color="green"];
+  BB75a1a0c92 -> BB75a1a0cc8 [color="red"];
+  BB75a1a0cc8 -> BB75a1a0cd9 [color="blue"];
+  BB75a1a0cd9 -> BB75a1a0cd9 [color="green"];
+  BB75a1a0cd9 -> BB75a1a0cf3 [color="red"];
+  BB75a1a0cf3 -> BB75a1a0c05 [color="blue"];
+  BB75a1a0d02 -> BB75a1a0d4c [color="green"];
+  BB75a1a0d02 -> BB75a1a0d16 [color="red"];
+  BB75a1a0d16 -> BB75a1a0d41 [color="green"];
+  BB75a1a0d16 -> BB75a1a0d38 [color="red"];
+  BB75a1a0d38 -> BB75a1a0d3b [color="blue"];
+  BB75a1a0d3b -> BB75a1a0cf3 [color="blue"];
+  BB75a1a0d41 -> BB75a1a0d3b [color="blue"];
+  BB75a1a0d4c -> BB75a1a0d3b [color="blue"];
+  BB75a1a0d57 -> BB75a1a0c92 [color="blue"];
+}

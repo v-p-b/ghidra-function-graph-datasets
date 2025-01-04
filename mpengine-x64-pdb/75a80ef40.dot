@@ -1,0 +1,19 @@
+digraph IsReservedResource {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a80ef40 -> BB75a80ef69 [color="green"];
+  BB75a80ef40 -> BB75a80ef64 [color="red"];
+  BB75a80ef64 -> BB75a80ef69 [color="red"];
+  BB75a80ef69 -> BB75a80ef76 [color="green"];
+  BB75a80ef69 -> BB75a80ef72 [color="red"];
+  BB75a80ef72 -> BB75a80efaf [color="blue"];
+  BB75a80ef76 -> BB75a80efa4 [color="blue"];
+  BB75a80ef8a -> BB75a80efa0 [color="green"];
+  BB75a80ef8a -> BB75a80ef90 [color="red"];
+  BB75a80ef90 -> BB75a80efa9 [color="green"];
+  BB75a80ef90 -> BB75a80efa0 [color="red"];
+  BB75a80efa0 -> BB75a80efa4 [color="blue"];
+  BB75a80efa4 -> BB75a80ef8a [color="green"];
+  BB75a80efa4 -> BB75a80efa9 [color="red"];
+  BB75a80efa9 -> BB75a80efaf [color="blue"];
+}

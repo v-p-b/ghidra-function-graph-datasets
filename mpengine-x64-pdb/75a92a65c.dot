@@ -1,0 +1,22 @@
+digraph ~detection_filter {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a92a65c -> BB75a92a67a [color="green"];
+  BB75a92a65c -> BB75a92a675 [color="red"];
+  BB75a92a675 -> BB75a92a67a [color="red"];
+  BB75a92a67a -> BB75a92a6e6 [color="green"];
+  BB75a92a67a -> BB75a92a690 [color="red"];
+  BB75a92a690 -> BB75a92a6e6 [color="red"];
+  BB75a92a6e6 -> BB75a92a748 [color="green"];
+  BB75a92a6e6 -> BB75a92a6f2 [color="red"];
+  BB75a92a6f2 -> BB75a92a748 [color="red"];
+  BB75a92a748 -> BB75a92a759 [color="green"];
+  BB75a92a748 -> BB75a92a754 [color="red"];
+  BB75a92a754 -> BB75a92a759 [color="red"];
+  BB75a92a759 -> BB75a92a767 [color="green"];
+  BB75a92a759 -> BB75a92a762 [color="red"];
+  BB75a92a762 -> BB75a92a767 [color="red"];
+  BB75a92a767 -> BB75a92a775 [color="green"];
+  BB75a92a767 -> BB75a92a770 [color="red"];
+  BB75a92a770 -> BB75a92a775 [color="red"];
+}

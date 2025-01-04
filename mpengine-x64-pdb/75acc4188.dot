@@ -1,0 +1,15 @@
+digraph AssertOnUnsupportedQuarantine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acc4188 -> BB75acc418f [color="blue"];
+  BB75acc418f -> BB75acc41a9 [color="green"];
+  BB75acc418f -> BB75acc4195 [color="red"];
+  BB75acc4195 -> BB75acc41d7 [color="green"];
+  BB75acc4195 -> BB75acc41a4 [color="red"];
+  BB75acc41a4 -> BB75acc418f [color="blue"];
+  BB75acc41a9 -> BB75acc41d7 [color="green"];
+  BB75acc41a9 -> BB75acc41bc [color="red"];
+  BB75acc41bc -> BB75acc41d7 [color="green"];
+  BB75acc41bc -> BB75acc41c2 [color="red"];
+  BB75acc41c2 -> BB75acc41d7 [color="red"];
+}

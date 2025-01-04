@@ -1,0 +1,16 @@
+digraph ActivateFdr {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8313c4 -> BB75a831472 [color="green"];
+  BB75a8313c4 -> BB75a8313ea [color="red"];
+  BB75a8313ea -> BB75a83143d [color="red"];
+  BB75a83143d -> BB75a831440 [color="blue"];
+  BB75a831440 -> BB75a83145d [color="green"];
+  BB75a831440 -> BB75a831445 [color="red"];
+  BB75a831445 -> BB75a83145d [color="green"];
+  BB75a831445 -> BB75a831458 [color="red"];
+  BB75a831458 -> BB75a831440 [color="blue"];
+  BB75a83145d -> BB75a83143d [color="green"];
+  BB75a83145d -> BB75a831467 [color="red"];
+  BB75a831467 -> BB75a831472 [color="red"];
+}

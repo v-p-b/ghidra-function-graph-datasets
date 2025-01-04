@@ -1,0 +1,19 @@
+digraph scan_dirty_pages {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1bdcc8 -> BB75a1bdd25 [color="green"];
+  BB75a1bdcc8 -> BB75a1bdd04 [color="red"];
+  BB75a1bdd25 -> BB75a1bdd8c [color="blue"];
+  BB75a1bdd8c -> BB75a1bddfb [color="green"];
+  BB75a1bdd8c -> BB75a1bdda0 [color="red"];
+  BB75a1bdda0 -> BB75a1bde09 [color="green"];
+  BB75a1bdda0 -> BB75a1bdda7 [color="red"];
+  BB75a1bdda7 -> BB75a1bdd8c [color="green"];
+  BB75a1bdda7 -> BB75a1bddc7 [color="red"];
+  BB75a1bddc7 -> BB75a1bdd8c [color="green"];
+  BB75a1bddc7 -> BB75a1bddec [color="red"];
+  BB75a1bddec -> BB75a1bdd8c [color="green"];
+  BB75a1bddec -> BB75a1bddfb [color="red"];
+  BB75a1bddfb -> BB75a1bdd04 [color="blue"];
+  BB75a1bde09 -> BB75a1bdda7 [color="blue"];
+}

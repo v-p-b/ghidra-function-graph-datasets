@@ -1,0 +1,16 @@
+digraph get_revepcrc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1c1d98 -> BB75a1c1e19 [color="green"];
+  BB75a1c1d98 -> BB75a1c1dc6 [color="red"];
+  BB75a1c1dc6 -> BB75a1c1dcb [color="blue"];
+  BB75a1c1dcb -> BB75a1c1e10 [color="green"];
+  BB75a1c1dcb -> BB75a1c1dee [color="red"];
+  BB75a1c1dee -> BB75a1c1e00 [color="red"];
+  BB75a1c1e10 -> BB75a1c1e00 [color="blue"];
+  BB75a1c1e19 -> BB75a1c1e00 [color="green"];
+  BB75a1c1e19 -> BB75a1c1e1e [color="red"];
+  BB75a1c1e1e -> BB75a1c1e00 [color="green"];
+  BB75a1c1e1e -> BB75a1c1e2b [color="red"];
+  BB75a1c1e2b -> BB75a1c1dcb [color="blue"];
+}

@@ -1,0 +1,22 @@
+digraph setThreadToSleep {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3464dc -> BB75a3464f1 [color="blue"];
+  BB75a3464f1 -> BB75a34650b [color="green"];
+  BB75a3464f1 -> BB75a3464f7 [color="red"];
+  BB75a3464f7 -> BB75a346503 [color="green"];
+  BB75a3464f7 -> BB75a3464fd [color="red"];
+  BB75a3464fd -> BB75a3464f1 [color="blue"];
+  BB75a346503 -> BB75a3464f1 [color="blue"];
+  BB75a34650b -> BB75a34653a [color="green"];
+  BB75a34650b -> BB75a346511 [color="red"];
+  BB75a346511 -> BB75a34653a [color="green"];
+  BB75a346511 -> BB75a346517 [color="red"];
+  BB75a346517 -> BB75a34653a [color="green"];
+  BB75a346517 -> BB75a34651c [color="red"];
+  BB75a34651c -> BB75a346532 [color="green"];
+  BB75a34651c -> BB75a346529 [color="red"];
+  BB75a346529 -> BB75a346532 [color="blue"];
+  BB75a346532 -> BB75a34653c [color="blue"];
+  BB75a34653a -> BB75a34653c [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph lua_rawseti {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1fded8 -> BB75a1fdf33 [color="green"];
+  BB75a1fded8 -> BB75a1fdf1e [color="red"];
+  BB75a1fdf33 -> BB75a1fdf1e [color="green"];
+  BB75a1fdf33 -> BB75a1fdf3d [color="red"];
+  BB75a1fdf3d -> BB75a1fdf1e [color="green"];
+  BB75a1fdf3d -> BB75a1fdf46 [color="red"];
+  BB75a1fdf46 -> BB75a1fdf1e [color="blue"];
+}

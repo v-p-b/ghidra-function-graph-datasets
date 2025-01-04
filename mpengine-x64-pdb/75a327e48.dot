@@ -1,0 +1,36 @@
+digraph PurgeContexts {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a327e48 -> BB75a327fc0 [color="green"];
+  BB75a327e48 -> BB75a327e91 [color="red"];
+  BB75a327e91 -> BB75a327ebb [color="blue"];
+  BB75a327ebb -> BB75a327f48 [color="green"];
+  BB75a327ebb -> BB75a327ec4 [color="red"];
+  BB75a327ec4 -> BB75a328005 [color="green"];
+  BB75a327ec4 -> BB75a327edb [color="red"];
+  BB75a327edb -> BB75a327f10 [color="green"];
+  BB75a327edb -> BB75a327ee8 [color="red"];
+  BB75a327ee8 -> BB75a327f10 [color="red"];
+  BB75a327f10 -> BB75a327faa [color="green"];
+  BB75a327f10 -> BB75a327f19 [color="red"];
+  BB75a327f19 -> BB75a327fe2 [color="green"];
+  BB75a327f19 -> BB75a327f24 [color="red"];
+  BB75a327f48 -> BB75a327ebb [color="blue"];
+  BB75a327faa -> BB75a327f19 [color="blue"];
+  BB75a327fc0 -> BB75a328057 [color="green"];
+  BB75a327fc0 -> BB75a327fd3 [color="red"];
+  BB75a327fd3 -> BB75a327e91 [color="blue"];
+  BB75a327fe2 -> BB75a3280b4 [color="green"];
+  BB75a327fe2 -> BB75a327fef [color="red"];
+  BB75a327fef -> BB75a327f24 [color="blue"];
+  BB75a328005 -> BB75a327edb [color="blue"];
+  BB75a328057 -> BB75a328079 [color="blue"];
+  BB75a328079 -> BB75a327f19 [color="green"];
+  BB75a328079 -> BB75a328090 [color="red"];
+  BB75a328090 -> BB75a327f19 [color="green"];
+  BB75a328090 -> BB75a32809a [color="red"];
+  BB75a32809a -> BB75a327f19 [color="blue"];
+  BB75a3280b4 -> BB75a327f24 [color="green"];
+  BB75a3280b4 -> BB75a3280c1 [color="red"];
+  BB75a3280c1 -> BB75a327fef [color="blue"];
+}

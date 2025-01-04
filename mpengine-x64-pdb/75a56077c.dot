@@ -1,0 +1,10 @@
+digraph getThreadObject {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a56077c -> BB75a5607c6 [color="green"];
+  BB75a56077c -> BB75a56078f [color="red"];
+  BB75a56078f -> BB75a5607c6 [color="green"];
+  BB75a56078f -> BB75a5607a3 [color="red"];
+  BB75a5607a3 -> BB75a5607c0 [color="red"];
+  BB75a5607c6 -> BB75a5607c0 [color="blue"];
+}

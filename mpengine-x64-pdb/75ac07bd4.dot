@@ -1,0 +1,8 @@
+digraph ZSTD_seqDecompressedSize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac07bd4 -> BB75ac07c08 [color="green"];
+  BB75ac07bd4 -> BB75ac07bef [color="red"];
+  BB75ac07bef -> BB75ac07bef [color="green"];
+  BB75ac07bef -> BB75ac07c08 [color="red"];
+}

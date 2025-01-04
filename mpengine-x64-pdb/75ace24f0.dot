@@ -1,0 +1,12 @@
+digraph CreateCPUStagingBuffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ace24f0 -> BB75ace257a [color="green"];
+  BB75ace24f0 -> BB75ace2517 [color="red"];
+  BB75ace2517 -> BB75ace257a [color="green"];
+  BB75ace2517 -> BB75ace251c [color="red"];
+  BB75ace251c -> BB75ace257a [color="green"];
+  BB75ace251c -> BB75ace2521 [color="red"];
+  BB75ace2521 -> BB75ace257f [color="blue"];
+  BB75ace257a -> BB75ace257f [color="blue"];
+}

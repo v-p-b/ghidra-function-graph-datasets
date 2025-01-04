@@ -1,0 +1,15 @@
+digraph get_tdt_capabilities {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a65cf78 -> BB75a65cfb4 [color="red"];
+  BB75a65cfb4 -> BB75a65cfc5 [color="green"];
+  BB75a65cfb4 -> BB75a65cfb9 [color="red"];
+  BB75a65cfb9 -> BB75a65cfb4 [color="green"];
+  BB75a65cfb9 -> BB75a65cfc5 [color="red"];
+  BB75a65cfc5 -> BB75a65d013 [color="green"];
+  BB75a65cfc5 -> BB75a65cfcf [color="red"];
+  BB75a65cfcf -> BB75a65cfef [color="green"];
+  BB75a65cfcf -> BB75a65cfe9 [color="red"];
+  BB75a65cfef -> BB75a65d01a [color="blue"];
+  BB75a65d013 -> BB75a65d01a [color="red"];
+}

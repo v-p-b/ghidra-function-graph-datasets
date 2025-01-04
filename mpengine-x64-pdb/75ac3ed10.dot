@@ -1,0 +1,20 @@
+digraph RemoveFile {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac3ed10 -> BB75ac3ed46 [color="green"];
+  BB75ac3ed10 -> BB75ac3ed3c [color="red"];
+  BB75ac3ed3c -> BB75ac3edce [color="blue"];
+  BB75ac3ed46 -> BB75ac3ed55 [color="green"];
+  BB75ac3ed46 -> BB75ac3ed4f [color="red"];
+  BB75ac3ed4f -> BB75ac3ed57 [color="blue"];
+  BB75ac3ed55 -> BB75ac3ed57 [color="blue"];
+  BB75ac3ed57 -> BB75ac3edae [color="green"];
+  BB75ac3ed57 -> BB75ac3ed6c [color="red"];
+  BB75ac3ed6c -> BB75ac3edaa [color="green"];
+  BB75ac3ed6c -> BB75ac3ed7f [color="red"];
+  BB75ac3ed7f -> BB75ac3edaa [color="green"];
+  BB75ac3ed7f -> BB75ac3ed85 [color="red"];
+  BB75ac3ed85 -> BB75ac3edaa [color="red"];
+  BB75ac3edaa -> BB75ac3edce [color="blue"];
+  BB75ac3edae -> BB75ac3edce [color="red"];
+}

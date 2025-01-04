@@ -1,0 +1,10 @@
+digraph get_os_info {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3b4a0c -> BB75a3b4adb [color="green"];
+  BB75a3b4a0c -> BB75a3b4ac1 [color="red"];
+  BB75a3b4ac1 -> BB75a3b4adb [color="red"];
+  BB75a3b4adb -> BB75a3b4b80 [color="green"];
+  BB75a3b4adb -> BB75a3b4b3b [color="red"];
+  BB75a3b4b3b -> BB75a3b4b80 [color="red"];
+}

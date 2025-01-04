@@ -1,0 +1,11 @@
+digraph SupportsScanStatus {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a412484 -> BB75a4124a5 [color="green"];
+  BB75a412484 -> BB75a412499 [color="red"];
+  BB75a412499 -> BB75a4124a7 [color="green"];
+  BB75a412499 -> BB75a4124a0 [color="red"];
+  BB75a4124a0 -> BB75a4124a7 [color="green"];
+  BB75a4124a0 -> BB75a4124a5 [color="red"];
+  BB75a4124a5 -> BB75a4124a7 [color="blue"];
+}

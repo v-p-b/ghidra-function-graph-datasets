@@ -1,0 +1,13 @@
+digraph _Pop_heap_hole_by_index<MachoSection64_*,MachoSection64,`MachoParser::Scan'::__l2::compare_sections> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa473b0 -> BB75aa4743c [color="blue"];
+  BB75aa473d2 -> BB75aa4743c [color="blue"];
+  BB75aa4743c -> BB75aa473d2 [color="green"];
+  BB75aa4743c -> BB75aa47444 [color="red"];
+  BB75aa47444 -> BB75aa47499 [color="green"];
+  BB75aa47444 -> BB75aa47446 [color="red"];
+  BB75aa47446 -> BB75aa47499 [color="green"];
+  BB75aa47446 -> BB75aa4744c [color="red"];
+  BB75aa4744c -> BB75aa47499 [color="blue"];
+}

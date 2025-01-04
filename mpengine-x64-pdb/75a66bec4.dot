@@ -1,0 +1,15 @@
+digraph PromoteError {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a66bec4 -> BB75a66befc [color="green"];
+  BB75a66bec4 -> BB75a66bedd [color="red"];
+  BB75a66bedd -> BB75a66befc [color="green"];
+  BB75a66bedd -> BB75a66bee2 [color="red"];
+  BB75a66bee2 -> BB75a66befc [color="green"];
+  BB75a66bee2 -> BB75a66bee8 [color="red"];
+  BB75a66bee8 -> BB75a66befc [color="green"];
+  BB75a66bee8 -> BB75a66beee [color="red"];
+  BB75a66beee -> BB75a66befc [color="green"];
+  BB75a66beee -> BB75a66bef7 [color="red"];
+  BB75a66befc -> BB75a66bef7 [color="blue"];
+}

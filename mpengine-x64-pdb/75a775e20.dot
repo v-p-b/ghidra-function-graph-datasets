@@ -1,0 +1,15 @@
+digraph __acrt_uninitialize_winapi_thunks {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a775e20 -> BB75a775e59 [color="green"];
+  BB75a775e20 -> BB75a775e2a [color="red"];
+  BB75a775e2a -> BB75a775e31 [color="blue"];
+  BB75a775e31 -> BB75a775e49 [color="green"];
+  BB75a775e31 -> BB75a775e39 [color="red"];
+  BB75a775e39 -> BB75a775e45 [color="green"];
+  BB75a775e39 -> BB75a775e3f [color="red"];
+  BB75a775e3f -> BB75a775e45 [color="red"];
+  BB75a775e45 -> BB75a775e49 [color="blue"];
+  BB75a775e49 -> BB75a775e31 [color="green"];
+  BB75a775e49 -> BB75a775e59 [color="red"];
+}

@@ -1,0 +1,15 @@
+digraph IsDnsServerCached {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a419348 -> BB75a4193b9 [color="green"];
+  BB75a419348 -> BB75a41938a [color="red"];
+  BB75a41938a -> BB75a4193b9 [color="green"];
+  BB75a41938a -> BB75a419390 [color="red"];
+  BB75a419390 -> BB75a419392 [color="blue"];
+  BB75a419392 -> BB75a4193ac [color="green"];
+  BB75a419392 -> BB75a419399 [color="red"];
+  BB75a419399 -> BB75a4193bd [color="green"];
+  BB75a419399 -> BB75a4193ac [color="red"];
+  BB75a4193b9 -> BB75a419392 [color="blue"];
+  BB75a4193bd -> BB75a4193ac [color="blue"];
+}

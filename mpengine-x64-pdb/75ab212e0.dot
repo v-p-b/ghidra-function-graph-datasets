@@ -1,0 +1,12 @@
+digraph RollingQueueQueryKeyNamespaced {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab212e0 -> BB75ab21325 [color="green"];
+  BB75ab212e0 -> BB75ab2131e [color="red"];
+  BB75ab2131e -> BB75ab214c8 [color="blue"];
+  BB75ab21325 -> BB75ab214ac [color="green"];
+  BB75ab21325 -> BB75ab213ea [color="red"];
+  BB75ab213ea -> BB75ab214b9 [color="blue"];
+  BB75ab214ac -> BB75ab214b9 [color="blue"];
+  BB75ab214b9 -> BB75ab214c8 [color="red"];
+}

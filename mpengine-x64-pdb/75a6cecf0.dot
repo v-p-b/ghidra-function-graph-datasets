@@ -1,0 +1,17 @@
+digraph btreeInvokeBusyHandler {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6cecf0 -> BB75a6ced48 [color="green"];
+  BB75a6cecf0 -> BB75a6ced07 [color="red"];
+  BB75a6ced07 -> BB75a6ced48 [color="green"];
+  BB75a6ced07 -> BB75a6ced0e [color="red"];
+  BB75a6ced0e -> BB75a6ced34 [color="green"];
+  BB75a6ced0e -> BB75a6ced14 [color="red"];
+  BB75a6ced14 -> BB75a6ced27 [color="red"];
+  BB75a6ced27 -> BB75a6ced42 [color="green"];
+  BB75a6ced27 -> BB75a6ced2b [color="red"];
+  BB75a6ced2b -> BB75a6ced2e [color="blue"];
+  BB75a6ced34 -> BB75a6ced27 [color="blue"];
+  BB75a6ced42 -> BB75a6ced2e [color="blue"];
+  BB75a6ced48 -> BB75a6ced2e [color="blue"];
+}

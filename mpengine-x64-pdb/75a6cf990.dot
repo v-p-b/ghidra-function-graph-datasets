@@ -1,0 +1,9 @@
+digraph abandonIfOwnerIs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6cf990 -> BB75a6cf9a1 [color="green"];
+  BB75a6cf990 -> BB75a6cf997 [color="red"];
+  BB75a6cf997 -> BB75a6cf9a1 [color="green"];
+  BB75a6cf997 -> BB75a6cf99d [color="red"];
+  BB75a6cf9a1 -> BB75a6cf99d [color="blue"];
+}

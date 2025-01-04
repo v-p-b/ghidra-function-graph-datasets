@@ -1,0 +1,20 @@
+digraph PolyBoxDecompress {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa5cadc -> BB75aa5cc74 [color="green"];
+  BB75aa5cadc -> BB75aa5cb29 [color="red"];
+  BB75aa5cb29 -> BB75aa5cc74 [color="green"];
+  BB75aa5cb29 -> BB75aa5cb32 [color="red"];
+  BB75aa5cb32 -> BB75aa5cc74 [color="green"];
+  BB75aa5cb32 -> BB75aa5cb4e [color="red"];
+  BB75aa5cb4e -> BB75aa5cc9f [color="green"];
+  BB75aa5cb4e -> BB75aa5cc21 [color="red"];
+  BB75aa5cc21 -> BB75aa5cc4f [color="green"];
+  BB75aa5cc21 -> BB75aa5cc34 [color="red"];
+  BB75aa5cc34 -> BB75aa5cc4f [color="green"];
+  BB75aa5cc34 -> BB75aa5cc3a [color="red"];
+  BB75aa5cc3a -> BB75aa5cc4f [color="red"];
+  BB75aa5cc4f -> BB75aa5cc74 [color="blue"];
+  BB75aa5cc74 -> BB75aa5cc7f [color="red"];
+  BB75aa5cc9f -> BB75aa5cc7f [color="blue"];
+}

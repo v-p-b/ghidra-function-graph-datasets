@@ -1,0 +1,16 @@
+digraph MakePathItemWithStatus {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acdccb4 -> BB75acdcd35 [color="green"];
+  BB75acdccb4 -> BB75acdcceb [color="red"];
+  BB75acdcceb -> BB75acdccff [color="green"];
+  BB75acdcceb -> BB75acdccfa [color="red"];
+  BB75acdccfa -> BB75acdcd35 [color="blue"];
+  BB75acdccff -> BB75acdcd0b [color="green"];
+  BB75acdccff -> BB75acdcd04 [color="red"];
+  BB75acdcd04 -> BB75acdcd35 [color="blue"];
+  BB75acdcd0b -> BB75acdcd33 [color="green"];
+  BB75acdcd0b -> BB75acdcd25 [color="red"];
+  BB75acdcd25 -> BB75acdcd33 [color="red"];
+  BB75acdcd33 -> BB75acdcd35 [color="blue"];
+}

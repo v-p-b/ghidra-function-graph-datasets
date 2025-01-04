@@ -1,0 +1,18 @@
+digraph DecompressLzNt1Buffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7e226c -> BB75a7e2317 [color="green"];
+  BB75a7e226c -> BB75a7e22f7 [color="red"];
+  BB75a7e22f7 -> BB75a7e2317 [color="green"];
+  BB75a7e22f7 -> BB75a7e22fd [color="red"];
+  BB75a7e22fd -> BB75a7e2317 [color="red"];
+  BB75a7e2317 -> BB75a7e236a [color="green"];
+  BB75a7e2317 -> BB75a7e233c [color="red"];
+  BB75a7e233c -> BB75a7e2363 [color="green"];
+  BB75a7e233c -> BB75a7e2348 [color="red"];
+  BB75a7e2348 -> BB75a7e2363 [color="green"];
+  BB75a7e2348 -> BB75a7e234e [color="red"];
+  BB75a7e234e -> BB75a7e2363 [color="red"];
+  BB75a7e2363 -> BB75a7e2381 [color="blue"];
+  BB75a7e236a -> BB75a7e2381 [color="blue"];
+}

@@ -1,0 +1,19 @@
+digraph sqlite3WalUndo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a45c338 -> BB75a45c394 [color="green"];
+  BB75a45c338 -> BB75a45c35e [color="red"];
+  BB75a45c35e -> BB75a45c38b [color="blue"];
+  BB75a45c38b -> BB75a45c3af [color="green"];
+  BB75a45c38b -> BB75a45c38f [color="red"];
+  BB75a45c38f -> BB75a45c3fb [color="green"];
+  BB75a45c38f -> BB75a45c394 [color="red"];
+  BB75a45c3af -> BB75a45c3d0 [color="green"];
+  BB75a45c3af -> BB75a45c3c4 [color="red"];
+  BB75a45c3c4 -> BB75a45c3e6 [color="blue"];
+  BB75a45c3d0 -> BB75a45c3e6 [color="blue"];
+  BB75a45c3e6 -> BB75a45c38b [color="green"];
+  BB75a45c3e6 -> BB75a45c3f9 [color="red"];
+  BB75a45c3f9 -> BB75a45c38f [color="blue"];
+  BB75a45c3fb -> BB75a45c394 [color="blue"];
+}

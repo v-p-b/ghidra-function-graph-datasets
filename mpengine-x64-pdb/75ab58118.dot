@@ -1,0 +1,11 @@
+digraph sqlite3WindowListDup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab58118 -> BB75ab58168 [color="green"];
+  BB75ab58118 -> BB75ab58141 [color="red"];
+  BB75ab58141 -> BB75ab58163 [color="green"];
+  BB75ab58141 -> BB75ab58156 [color="red"];
+  BB75ab58156 -> BB75ab58141 [color="green"];
+  BB75ab58156 -> BB75ab58163 [color="red"];
+  BB75ab58163 -> BB75ab58168 [color="blue"];
+}

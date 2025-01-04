@@ -1,0 +1,13 @@
+digraph ~MutableByteStream {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a566738 -> BB75a566761 [color="green"];
+  BB75a566738 -> BB75a56674e [color="red"];
+  BB75a56674e -> BB75a566774 [color="green"];
+  BB75a56674e -> BB75a566759 [color="red"];
+  BB75a566759 -> BB75a56674e [color="green"];
+  BB75a566759 -> BB75a566761 [color="red"];
+  BB75a566774 -> BB75a566759 [color="green"];
+  BB75a566774 -> BB75a56677c [color="red"];
+  BB75a56677c -> BB75a566759 [color="blue"];
+}

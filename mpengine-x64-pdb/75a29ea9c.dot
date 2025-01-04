@@ -1,0 +1,8 @@
+digraph sqlite3PagerExclusiveLock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a29ea9c -> BB75a29eaa4 [color="green"];
+  BB75a29ea9c -> BB75a29eaa3 [color="red"];
+  BB75a29eaa4 -> BB75a29eaa3 [color="green"];
+  BB75a29eaa4 -> BB75a29eaae [color="red"];
+}

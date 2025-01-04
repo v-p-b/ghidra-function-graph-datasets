@@ -1,0 +1,19 @@
+digraph remap_shadow_cursors {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1ee91c -> BB75a1ee975 [color="green"];
+  BB75a1ee91c -> BB75a1ee94d [color="red"];
+  BB75a1ee94d -> BB75a1ee96e [color="green"];
+  BB75a1ee94d -> BB75a1ee959 [color="red"];
+  BB75a1ee96e -> BB75a1ee959 [color="blue"];
+  BB75a1ee975 -> BB75a1ee984 [color="green"];
+  BB75a1ee975 -> BB75a1ee97f [color="red"];
+  BB75a1ee97f -> BB75a1ee984 [color="red"];
+  BB75a1ee984 -> BB75a1eea0b [color="green"];
+  BB75a1ee984 -> BB75a1ee9af [color="red"];
+  BB75a1ee9af -> BB75a1eea16 [color="blue"];
+  BB75a1eea0b -> BB75a1eea16 [color="red"];
+  BB75a1eea16 -> BB75a1ee975 [color="green"];
+  BB75a1eea16 -> BB75a1eea22 [color="red"];
+  BB75a1eea22 -> BB75a1ee94d [color="blue"];
+}

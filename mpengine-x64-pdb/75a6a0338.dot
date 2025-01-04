@@ -1,0 +1,14 @@
+digraph ZSTD_createDCtx_internal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6a0338 -> BB75a6a03b1 [color="green"];
+  BB75a6a0338 -> BB75a6a0356 [color="red"];
+  BB75a6a0356 -> BB75a6a03a0 [color="green"];
+  BB75a6a0356 -> BB75a6a0369 [color="red"];
+  BB75a6a0369 -> BB75a6a0373 [color="red"];
+  BB75a6a0373 -> BB75a6a03b1 [color="green"];
+  BB75a6a0373 -> BB75a6a037b [color="red"];
+  BB75a6a037b -> BB75a6a039a [color="red"];
+  BB75a6a03a0 -> BB75a6a0373 [color="blue"];
+  BB75a6a03b1 -> BB75a6a039a [color="blue"];
+}

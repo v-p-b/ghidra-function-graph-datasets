@@ -1,0 +1,13 @@
+digraph sqlite3BtreeRowCountEst {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a76b52c -> BB75a76b573 [color="green"];
+  BB75a76b52c -> BB75a76b537 [color="red"];
+  BB75a76b537 -> BB75a76b573 [color="green"];
+  BB75a76b537 -> BB75a76b544 [color="red"];
+  BB75a76b544 -> BB75a76b577 [color="green"];
+  BB75a76b544 -> BB75a76b552 [color="red"];
+  BB75a76b552 -> BB75a76b552 [color="green"];
+  BB75a76b552 -> BB75a76b572 [color="red"];
+  BB75a76b573 -> BB75a76b577 [color="blue"];
+}

@@ -1,0 +1,25 @@
+digraph traversestack {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1fd524 -> BB75a1fd541 [color="green"];
+  BB75a1fd524 -> BB75a1fd537 [color="red"];
+  BB75a1fd537 -> BB75a1fd5a3 [color="green"];
+  BB75a1fd537 -> BB75a1fd541 [color="red"];
+  BB75a1fd541 -> BB75a1fd558 [color="blue"];
+  BB75a1fd54b -> BB75a1fd558 [color="blue"];
+  BB75a1fd558 -> BB75a1fd54b [color="green"];
+  BB75a1fd558 -> BB75a1fd55e [color="red"];
+  BB75a1fd55e -> BB75a1fd562 [color="blue"];
+  BB75a1fd562 -> BB75a1fd58f [color="green"];
+  BB75a1fd562 -> BB75a1fd568 [color="red"];
+  BB75a1fd568 -> BB75a1fd580 [color="green"];
+  BB75a1fd568 -> BB75a1fd56f [color="red"];
+  BB75a1fd56f -> BB75a1fd580 [color="green"];
+  BB75a1fd56f -> BB75a1fd578 [color="red"];
+  BB75a1fd578 -> BB75a1fd580 [color="red"];
+  BB75a1fd580 -> BB75a1fd562 [color="blue"];
+  BB75a1fd586 -> BB75a1fd58f [color="blue"];
+  BB75a1fd58f -> BB75a1fd586 [color="green"];
+  BB75a1fd58f -> BB75a1fd594 [color="red"];
+  BB75a1fd5a3 -> BB75a1fd541 [color="blue"];
+}

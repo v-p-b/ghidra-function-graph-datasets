@@ -1,0 +1,10 @@
+digraph WrapperWTSFreeMemory {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a770f58 -> BB75a770f82 [color="green"];
+  BB75a770f58 -> BB75a770f6d [color="red"];
+  BB75a770f6d -> BB75a770f8a [color="green"];
+  BB75a770f6d -> BB75a770f7b [color="red"];
+  BB75a770f7b -> BB75a770f82 [color="blue"];
+  BB75a770f82 -> BB75a770f8a [color="red"];
+}

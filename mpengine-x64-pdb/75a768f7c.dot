@@ -1,0 +1,15 @@
+digraph sqlite3WithDelete {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a768f7c -> BB75a768ff6 [color="green"];
+  BB75a768f7c -> BB75a768f81 [color="red"];
+  BB75a768f81 -> BB75a768fd7 [color="green"];
+  BB75a768f81 -> BB75a768fa1 [color="red"];
+  BB75a768fa1 -> BB75a768fa5 [color="blue"];
+  BB75a768fa5 -> BB75a768fb6 [color="green"];
+  BB75a768fa5 -> BB75a768fae [color="red"];
+  BB75a768fae -> BB75a768fb6 [color="red"];
+  BB75a768fb6 -> BB75a768fa5 [color="green"];
+  BB75a768fb6 -> BB75a768fd7 [color="red"];
+  BB75a768fd7 -> BB75a768ff6 [color="red"];
+}

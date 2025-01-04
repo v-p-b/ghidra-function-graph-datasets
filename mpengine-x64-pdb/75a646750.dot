@@ -1,0 +1,11 @@
+digraph allocate_aligned {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a646750 -> BB75a6467dd [color="green"];
+  BB75a646750 -> BB75a64677e [color="red"];
+  BB75a64677e -> BB75a6467a7 [color="green"];
+  BB75a64677e -> BB75a6467a0 [color="red"];
+  BB75a6467a0 -> BB75a6467ac [color="blue"];
+  BB75a6467a7 -> BB75a6467ac [color="red"];
+  BB75a6467ac -> BB75a6467dd [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph HasTriggeredActions {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6d850c -> BB75a6d852d [color="green"];
+  BB75a6d850c -> BB75a6d8514 [color="red"];
+  BB75a6d8514 -> BB75a6d852d [color="green"];
+  BB75a6d8514 -> BB75a6d851f [color="red"];
+  BB75a6d851f -> BB75a6d852d [color="green"];
+  BB75a6d851f -> BB75a6d8527 [color="red"];
+}

@@ -1,0 +1,13 @@
+digraph lua_getmetatable {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a16195c -> BB75a1619a6 [color="green"];
+  BB75a16195c -> BB75a161971 [color="red"];
+  BB75a161971 -> BB75a1619a6 [color="green"];
+  BB75a161971 -> BB75a161976 [color="red"];
+  BB75a161976 -> BB75a161982 [color="blue"];
+  BB75a161982 -> BB75a1619a1 [color="green"];
+  BB75a161982 -> BB75a161989 [color="red"];
+  BB75a161989 -> BB75a1619a1 [color="blue"];
+  BB75a1619a6 -> BB75a161982 [color="blue"];
+}

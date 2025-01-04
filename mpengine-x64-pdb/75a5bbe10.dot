@@ -1,0 +1,13 @@
+digraph default_VMM_ev_handler {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5bbe10 -> BB75a5bbe3c [color="green"];
+  BB75a5bbe10 -> BB75a5bbe15 [color="red"];
+  BB75a5bbe15 -> BB75a5bbe6d [color="green"];
+  BB75a5bbe15 -> BB75a5bbe1b [color="red"];
+  BB75a5bbe1b -> BB75a5bbe22 [color="green"];
+  BB75a5bbe1b -> BB75a5bbe21 [color="red"];
+  BB75a5bbe3c -> BB75a5bbe61 [color="green"];
+  BB75a5bbe3c -> BB75a5bbe56 [color="red"];
+  BB75a5bbe61 -> BB75a5bbe56 [color="blue"];
+}

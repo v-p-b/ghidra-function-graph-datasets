@@ -1,0 +1,35 @@
+digraph Prune {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a50e3c0 -> BB75a50e3ed [color="blue"];
+  BB75a50e3ed -> BB75a50e3f2 [color="blue"];
+  BB75a50e3f2 -> BB75a50e416 [color="green"];
+  BB75a50e3f2 -> BB75a50e3f7 [color="red"];
+  BB75a50e3f7 -> BB75a50e455 [color="green"];
+  BB75a50e3f7 -> BB75a50e405 [color="red"];
+  BB75a50e405 -> BB75a50e3f2 [color="blue"];
+  BB75a50e416 -> BB75a50e450 [color="green"];
+  BB75a50e416 -> BB75a50e41b [color="red"];
+  BB75a50e41b -> BB75a50e43b [color="green"];
+  BB75a50e41b -> BB75a50e420 [color="red"];
+  BB75a50e420 -> BB75a50e422 [color="blue"];
+  BB75a50e43b -> BB75a50e420 [color="blue"];
+  BB75a50e450 -> BB75a50e422 [color="blue"];
+  BB75a50e455 -> BB75a50e4bc [color="green"];
+  BB75a50e455 -> BB75a50e45b [color="red"];
+  BB75a50e45b -> BB75a50e405 [color="green"];
+  BB75a50e45b -> BB75a50e469 [color="red"];
+  BB75a50e469 -> BB75a50e4c7 [color="green"];
+  BB75a50e469 -> BB75a50e46e [color="red"];
+  BB75a50e46e -> BB75a50e4e9 [color="green"];
+  BB75a50e46e -> BB75a50e473 [color="red"];
+  BB75a50e473 -> BB75a50e501 [color="green"];
+  BB75a50e473 -> BB75a50e482 [color="red"];
+  BB75a50e482 -> BB75a50e3ed [color="blue"];
+  BB75a50e4bc -> BB75a50e405 [color="green"];
+  BB75a50e4bc -> BB75a50e4c5 [color="red"];
+  BB75a50e4c5 -> BB75a50e469 [color="blue"];
+  BB75a50e4c7 -> BB75a50e46e [color="blue"];
+  BB75a50e4e9 -> BB75a50e473 [color="blue"];
+  BB75a50e501 -> BB75a50e482 [color="blue"];
+}

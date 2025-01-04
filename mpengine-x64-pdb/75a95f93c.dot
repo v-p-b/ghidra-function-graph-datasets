@@ -1,0 +1,16 @@
+digraph get_caches {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a95f93c -> BB75a95f9a3 [color="green"];
+  BB75a95f93c -> BB75a95f981 [color="red"];
+  BB75a95f981 -> BB75a95f9a3 [color="red"];
+  BB75a95f9a3 -> BB75a95f9cf [color="green"];
+  BB75a95f9a3 -> BB75a95f9ac [color="red"];
+  BB75a95f9ac -> BB75a95f9cf [color="red"];
+  BB75a95f9cf -> BB75a95f9de [color="green"];
+  BB75a95f9cf -> BB75a95f9d8 [color="red"];
+  BB75a95f9d8 -> BB75a95f9de [color="red"];
+  BB75a95f9de -> BB75a95f9ec [color="green"];
+  BB75a95f9de -> BB75a95f9e7 [color="red"];
+  BB75a95f9e7 -> BB75a95f9ec [color="red"];
+}

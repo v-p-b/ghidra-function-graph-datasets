@@ -1,0 +1,20 @@
+digraph DumpIgnoredMatch {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa19ef0 -> BB75aa1a004 [color="green"];
+  BB75aa19ef0 -> BB75aa19f35 [color="red"];
+  BB75aa19f35 -> BB75aa19f66 [color="green"];
+  BB75aa19f35 -> BB75aa19f43 [color="red"];
+  BB75aa19f43 -> BB75aa19f66 [color="red"];
+  BB75aa19f66 -> BB75aa1a002 [color="green"];
+  BB75aa19f66 -> BB75aa19f87 [color="red"];
+  BB75aa19f87 -> BB75aa19fb7 [color="green"];
+  BB75aa19f87 -> BB75aa19f93 [color="red"];
+  BB75aa19f93 -> BB75aa19fb9 [color="blue"];
+  BB75aa19fb7 -> BB75aa19fb9 [color="blue"];
+  BB75aa19fb9 -> BB75aa19ff1 [color="green"];
+  BB75aa19fb9 -> BB75aa19fd7 [color="red"];
+  BB75aa19fd7 -> BB75aa1a002 [color="blue"];
+  BB75aa19ff1 -> BB75aa1a002 [color="red"];
+  BB75aa1a002 -> BB75aa1a004 [color="blue"];
+}

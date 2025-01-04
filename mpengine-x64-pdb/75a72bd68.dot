@@ -1,0 +1,10 @@
+digraph GetBaseReport {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a72bd68 -> BB75a72bd92 [color="green"];
+  BB75a72bd68 -> BB75a72bd80 [color="red"];
+  BB75a72bd80 -> BB75a72bd92 [color="green"];
+  BB75a72bd80 -> BB75a72bd88 [color="red"];
+  BB75a72bd88 -> BB75a72bd94 [color="blue"];
+  BB75a72bd92 -> BB75a72bd94 [color="blue"];
+}

@@ -1,0 +1,27 @@
+digraph x86_common_frontend<class_x86_IL_translator> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a23b370 -> BB75a23b4a8 [color="green"];
+  BB75a23b370 -> BB75a23b3c8 [color="red"];
+  BB75a23b3c8 -> BB75a23b4b2 [color="green"];
+  BB75a23b3c8 -> BB75a23b3d9 [color="red"];
+  BB75a23b3d9 -> BB75a23b44a [color="green"];
+  BB75a23b3d9 -> BB75a23b42a [color="red"];
+  BB75a23b42a -> BB75a23b44a [color="green"];
+  BB75a23b42a -> BB75a23b43a [color="red"];
+  BB75a23b43a -> BB75a23b3d9 [color="green"];
+  BB75a23b43a -> BB75a23b44a [color="red"];
+  BB75a23b44a -> BB75a23b485 [color="green"];
+  BB75a23b44a -> BB75a23b468 [color="red"];
+  BB75a23b485 -> BB75a23b468 [color="green"];
+  BB75a23b485 -> BB75a23b48e [color="red"];
+  BB75a23b48e -> BB75a23b468 [color="green"];
+  BB75a23b48e -> BB75a23b49e [color="red"];
+  BB75a23b49e -> BB75a23b468 [color="blue"];
+  BB75a23b4a8 -> BB75a23b3c8 [color="blue"];
+  BB75a23b4b2 -> BB75a23b44a [color="green"];
+  BB75a23b4b2 -> BB75a23b50f [color="red"];
+  BB75a23b50f -> BB75a23b4b2 [color="green"];
+  BB75a23b50f -> BB75a23b525 [color="red"];
+  BB75a23b525 -> BB75a23b44a [color="blue"];
+}

@@ -1,0 +1,8 @@
+digraph propagateall {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1fca68 -> BB75a1fca8f [color="green"];
+  BB75a1fca68 -> BB75a1fca7d [color="red"];
+  BB75a1fca7d -> BB75a1fca7d [color="green"];
+  BB75a1fca7d -> BB75a1fca8f [color="red"];
+}

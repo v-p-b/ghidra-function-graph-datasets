@@ -1,0 +1,15 @@
+digraph AddEvent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aba1720 -> BB75aba179a [color="green"];
+  BB75aba1720 -> BB75aba1779 [color="red"];
+  BB75aba1779 -> BB75aba1793 [color="green"];
+  BB75aba1779 -> BB75aba178e [color="red"];
+  BB75aba178e -> BB75aba1793 [color="red"];
+  BB75aba1793 -> BB75aba1811 [color="blue"];
+  BB75aba179a -> BB75aba17cc [color="green"];
+  BB75aba179a -> BB75aba17c6 [color="red"];
+  BB75aba17c6 -> BB75aba17cc [color="red"];
+  BB75aba17cc -> BB75aba17d6 [color="blue"];
+  BB75aba17d6 -> BB75aba1811 [color="blue"];
+}

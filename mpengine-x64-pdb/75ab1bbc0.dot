@@ -1,0 +1,17 @@
+digraph GetProcessAttributes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab1bbc0 -> BB75ab1bc06 [color="green"];
+  BB75ab1bbc0 -> BB75ab1bbf6 [color="red"];
+  BB75ab1bc06 -> BB75ab1bc2e [color="green"];
+  BB75ab1bc06 -> BB75ab1bc1e [color="red"];
+  BB75ab1bc1e -> BB75ab1bcb5 [color="blue"];
+  BB75ab1bc2e -> BB75ab1bca7 [color="green"];
+  BB75ab1bc2e -> BB75ab1bc52 [color="red"];
+  BB75ab1bc52 -> BB75ab1bc7f [color="green"];
+  BB75ab1bc52 -> BB75ab1bc7c [color="red"];
+  BB75ab1bc7c -> BB75ab1bc7f [color="blue"];
+  BB75ab1bc7f -> BB75ab1bc52 [color="green"];
+  BB75ab1bc7f -> BB75ab1bca7 [color="red"];
+  BB75ab1bca7 -> BB75ab1bcb5 [color="red"];
+}

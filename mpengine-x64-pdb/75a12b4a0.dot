@@ -1,0 +1,10 @@
+digraph parse_literal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a12b4a0 -> BB75a12b4e7 [color="green"];
+  BB75a12b4a0 -> BB75a12b4c8 [color="red"];
+  BB75a12b4c8 -> BB75a12b4d6 [color="red"];
+  BB75a12b4e7 -> BB75a12b4d6 [color="green"];
+  BB75a12b4e7 -> BB75a12b4fe [color="red"];
+  BB75a12b4fe -> BB75a12b4c8 [color="blue"];
+}

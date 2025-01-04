@@ -1,0 +1,34 @@
+digraph sqlite3DbSpanDup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2971bc -> BB75a2971de [color="blue"];
+  BB75a2971de -> BB75a2972bd [color="green"];
+  BB75a2971de -> BB75a2971e8 [color="red"];
+  BB75a2971e8 -> BB75a297202 [color="green"];
+  BB75a2971e8 -> BB75a2971f3 [color="red"];
+  BB75a2971f3 -> BB75a29728a [color="green"];
+  BB75a2971f3 -> BB75a297202 [color="red"];
+  BB75a297202 -> BB75a29729e [color="green"];
+  BB75a297202 -> BB75a297216 [color="red"];
+  BB75a297216 -> BB75a2972b4 [color="green"];
+  BB75a297216 -> BB75a297226 [color="red"];
+  BB75a297226 -> BB75a297245 [color="green"];
+  BB75a297226 -> BB75a297232 [color="red"];
+  BB75a297232 -> BB75a29723c [color="blue"];
+  BB75a29723c -> BB75a297265 [color="blue"];
+  BB75a297245 -> BB75a2972a8 [color="green"];
+  BB75a297245 -> BB75a297251 [color="red"];
+  BB75a297251 -> BB75a297258 [color="blue"];
+  BB75a297258 -> BB75a297277 [color="green"];
+  BB75a297258 -> BB75a297265 [color="red"];
+  BB75a297265 -> BB75a297277 [color="red"];
+  BB75a29728a -> BB75a2971f3 [color="green"];
+  BB75a29728a -> BB75a297299 [color="red"];
+  BB75a297299 -> BB75a297202 [color="blue"];
+  BB75a29729e -> BB75a297258 [color="green"];
+  BB75a29729e -> BB75a2972a4 [color="red"];
+  BB75a2972a4 -> BB75a297277 [color="blue"];
+  BB75a2972a8 -> BB75a29723c [color="blue"];
+  BB75a2972b4 -> BB75a297258 [color="blue"];
+  BB75a2972bd -> BB75a2971de [color="blue"];
+}

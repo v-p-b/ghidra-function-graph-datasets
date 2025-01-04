@@ -1,0 +1,15 @@
+digraph IsQuarantineSampleSubmissionEnabled {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab43b60 -> BB75ab43bbf [color="green"];
+  BB75ab43b60 -> BB75ab43b74 [color="red"];
+  BB75ab43b74 -> BB75ab43bc6 [color="green"];
+  BB75ab43b74 -> BB75ab43b8e [color="red"];
+  BB75ab43b8e -> BB75ab43bbf [color="green"];
+  BB75ab43b8e -> BB75ab43ba1 [color="red"];
+  BB75ab43ba1 -> BB75ab43bbf [color="green"];
+  BB75ab43ba1 -> BB75ab43ba7 [color="red"];
+  BB75ab43ba7 -> BB75ab43bbf [color="red"];
+  BB75ab43bbf -> BB75ab43bc1 [color="blue"];
+  BB75ab43bc6 -> BB75ab43bc1 [color="blue"];
+}

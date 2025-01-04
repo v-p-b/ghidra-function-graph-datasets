@@ -1,0 +1,10 @@
+digraph LookupActive {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a188564 -> BB75a1885d7 [color="green"];
+  BB75a188564 -> BB75a188590 [color="red"];
+  BB75a188590 -> BB75a1885d7 [color="green"];
+  BB75a188590 -> BB75a188596 [color="red"];
+  BB75a188596 -> BB75a1885cc [color="blue"];
+  BB75a1885d7 -> BB75a1885cc [color="blue"];
+}

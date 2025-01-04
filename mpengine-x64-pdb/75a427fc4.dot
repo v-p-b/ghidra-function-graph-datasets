@@ -1,0 +1,36 @@
+digraph bitmask_search {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a427fc4 -> BB75a428068 [color="green"];
+  BB75a427fc4 -> BB75a427fec [color="red"];
+  BB75a427fec -> BB75a428068 [color="green"];
+  BB75a427fec -> BB75a427ff1 [color="red"];
+  BB75a427ff1 -> BB75a428088 [color="green"];
+  BB75a427ff1 -> BB75a427fff [color="red"];
+  BB75a427fff -> BB75a428002 [color="blue"];
+  BB75a428002 -> BB75a428009 [color="blue"];
+  BB75a428009 -> BB75a428068 [color="green"];
+  BB75a428009 -> BB75a42800d [color="red"];
+  BB75a42800d -> BB75a42801e [color="green"];
+  BB75a42800d -> BB75a42801a [color="red"];
+  BB75a42801a -> BB75a428009 [color="blue"];
+  BB75a42801e -> BB75a428062 [color="green"];
+  BB75a42801e -> BB75a428029 [color="red"];
+  BB75a428029 -> BB75a428037 [color="blue"];
+  BB75a428037 -> BB75a42805f [color="green"];
+  BB75a428037 -> BB75a42803c [color="red"];
+  BB75a42803c -> BB75a428090 [color="green"];
+  BB75a42803c -> BB75a428041 [color="red"];
+  BB75a428041 -> BB75a428046 [color="blue"];
+  BB75a428046 -> BB75a42805f [color="green"];
+  BB75a428046 -> BB75a428051 [color="red"];
+  BB75a428051 -> BB75a428037 [color="green"];
+  BB75a428051 -> BB75a42805f [color="red"];
+  BB75a42805f -> BB75a428062 [color="blue"];
+  BB75a428062 -> BB75a42801a [color="green"];
+  BB75a428062 -> BB75a428064 [color="red"];
+  BB75a428064 -> BB75a42806b [color="blue"];
+  BB75a428068 -> BB75a42806b [color="blue"];
+  BB75a428088 -> BB75a428002 [color="blue"];
+  BB75a428090 -> BB75a428046 [color="blue"];
+}

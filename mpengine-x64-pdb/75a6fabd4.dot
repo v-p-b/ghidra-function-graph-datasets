@@ -1,0 +1,9 @@
+digraph ~CAutoPrivilegeEnable {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6fabd4 -> BB75a6fabf8 [color="green"];
+  BB75a6fabd4 -> BB75a6fabe3 [color="red"];
+  BB75a6fabe3 -> BB75a6fabf8 [color="green"];
+  BB75a6fabe3 -> BB75a6fabf4 [color="red"];
+  BB75a6fabf4 -> BB75a6fabf8 [color="blue"];
+}

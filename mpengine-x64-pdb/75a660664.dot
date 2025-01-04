@@ -1,0 +1,11 @@
+digraph ProcSuspicious {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a660664 -> BB75a660694 [color="green"];
+  BB75a660664 -> BB75a660688 [color="red"];
+  BB75a660688 -> BB75a6606a4 [color="green"];
+  BB75a660688 -> BB75a660694 [color="red"];
+  BB75a6606a4 -> BB75a660694 [color="green"];
+  BB75a6606a4 -> BB75a6606c7 [color="red"];
+  BB75a6606c7 -> BB75a660694 [color="blue"];
+}

@@ -1,0 +1,32 @@
+digraph FixPeHeaderAndSections {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad0b33c -> BB75ad0b3ed [color="green"];
+  BB75ad0b33c -> BB75ad0b39e [color="red"];
+  BB75ad0b39e -> BB75ad0b3df [color="green"];
+  BB75ad0b39e -> BB75ad0b3aa [color="red"];
+  BB75ad0b3aa -> BB75ad0b3df [color="green"];
+  BB75ad0b3aa -> BB75ad0b3b0 [color="red"];
+  BB75ad0b3b0 -> BB75ad0b3df [color="red"];
+  BB75ad0b3df -> BB75ad0b3ed [color="red"];
+  BB75ad0b3ed -> BB75ad0b4ea [color="green"];
+  BB75ad0b3ed -> BB75ad0b3ff [color="red"];
+  BB75ad0b3ff -> BB75ad0b403 [color="blue"];
+  BB75ad0b403 -> BB75ad0b41f [color="green"];
+  BB75ad0b403 -> BB75ad0b409 [color="red"];
+  BB75ad0b409 -> BB75ad0b450 [color="blue"];
+  BB75ad0b41f -> BB75ad0b450 [color="blue"];
+  BB75ad0b450 -> BB75ad0b477 [color="green"];
+  BB75ad0b450 -> BB75ad0b462 [color="red"];
+  BB75ad0b462 -> BB75ad0b477 [color="blue"];
+  BB75ad0b477 -> BB75ad0b4dc [color="green"];
+  BB75ad0b477 -> BB75ad0b4a4 [color="red"];
+  BB75ad0b4a4 -> BB75ad0b4cf [color="green"];
+  BB75ad0b4a4 -> BB75ad0b4b0 [color="red"];
+  BB75ad0b4b0 -> BB75ad0b4cf [color="green"];
+  BB75ad0b4b0 -> BB75ad0b4b6 [color="red"];
+  BB75ad0b4b6 -> BB75ad0b4cf [color="red"];
+  BB75ad0b4cf -> BB75ad0b4dc [color="red"];
+  BB75ad0b4dc -> BB75ad0b403 [color="green"];
+  BB75ad0b4dc -> BB75ad0b4ea [color="red"];
+}

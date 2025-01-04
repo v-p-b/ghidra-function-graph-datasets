@@ -1,0 +1,20 @@
+digraph reduce {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2ea9d0 -> BB75a2eaa08 [color="green"];
+  BB75a2ea9d0 -> BB75a2eaa05 [color="red"];
+  BB75a2eaa05 -> BB75a2eaa08 [color="blue"];
+  BB75a2eaa08 -> BB75a2eaad5 [color="green"];
+  BB75a2eaa08 -> BB75a2eaa3f [color="red"];
+  BB75a2eaa3f -> BB75a2eaa52 [color="red"];
+  BB75a2eaa52 -> BB75a2eaa5f [color="green"];
+  BB75a2eaa52 -> BB75a2eaa5c [color="red"];
+  BB75a2eaa5c -> BB75a2eaa5f [color="blue"];
+  BB75a2eaa5f -> BB75a2eaa71 [color="green"];
+  BB75a2eaa5f -> BB75a2eaa6a [color="red"];
+  BB75a2eaa6a -> BB75a2eaa71 [color="blue"];
+  BB75a2eaa71 -> BB75a2eaaa6 [color="green"];
+  BB75a2eaa71 -> BB75a2eaa99 [color="red"];
+  BB75a2eaa99 -> BB75a2eaaa6 [color="red"];
+  BB75a2eaad5 -> BB75a2eaa52 [color="blue"];
+}

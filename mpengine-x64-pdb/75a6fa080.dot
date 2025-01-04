@@ -1,0 +1,15 @@
+digraph DlpQueryJitProcessAllowed {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6fa080 -> BB75a6fa0a6 [color="green"];
+  BB75a6fa080 -> BB75a6fa08e [color="red"];
+  BB75a6fa08e -> BB75a6fa0a6 [color="green"];
+  BB75a6fa08e -> BB75a6fa094 [color="red"];
+  BB75a6fa094 -> BB75a6fa0e0 [color="blue"];
+  BB75a6fa0a6 -> BB75a6fa0db [color="green"];
+  BB75a6fa0a6 -> BB75a6fa0b9 [color="red"];
+  BB75a6fa0b9 -> BB75a6fa0db [color="green"];
+  BB75a6fa0b9 -> BB75a6fa0bf [color="red"];
+  BB75a6fa0bf -> BB75a6fa0db [color="red"];
+  BB75a6fa0db -> BB75a6fa0e0 [color="blue"];
+}

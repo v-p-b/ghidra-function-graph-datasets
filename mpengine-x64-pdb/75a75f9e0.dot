@@ -1,0 +1,11 @@
+digraph MetaVaultRecordAnomaly {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a75f9e0 -> BB75a75fa9f [color="green"];
+  BB75a75f9e0 -> BB75a75fa3f [color="red"];
+  BB75a75fa3f -> BB75a75fa9f [color="green"];
+  BB75a75fa3f -> BB75a75fa53 [color="red"];
+  BB75a75fa53 -> BB75a75fa7e [color="green"];
+  BB75a75fa53 -> BB75a75fa68 [color="red"];
+  BB75a75fa68 -> BB75a75fa7e [color="red"];
+}

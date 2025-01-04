@@ -1,0 +1,13 @@
+digraph ReleaseChain {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4a48d4 -> BB75a4a48e9 [color="green"];
+  BB75a4a48d4 -> BB75a4a48e4 [color="red"];
+  BB75a4a48e4 -> BB75a4a48e9 [color="red"];
+  BB75a4a48e9 -> BB75a4a490b [color="green"];
+  BB75a4a48e9 -> BB75a4a4905 [color="red"];
+  BB75a4a490b -> BB75a4a4905 [color="green"];
+  BB75a4a490b -> BB75a4a492d [color="red"];
+  BB75a4a492d -> BB75a4a4905 [color="green"];
+  BB75a4a492d -> BB75a4a4933 [color="red"];
+}

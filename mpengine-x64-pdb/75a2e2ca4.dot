@@ -1,0 +1,15 @@
+digraph sentry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2e2ca4 -> BB75a2e2ce1 [color="green"];
+  BB75a2e2ca4 -> BB75a2e2cd4 [color="red"];
+  BB75a2e2cd4 -> BB75a2e2ce1 [color="red"];
+  BB75a2e2ce1 -> BB75a2e2cfb [color="green"];
+  BB75a2e2ce1 -> BB75a2e2cee [color="red"];
+  BB75a2e2cee -> BB75a2e2d12 [color="green"];
+  BB75a2e2cee -> BB75a2e2cf8 [color="red"];
+  BB75a2e2cf8 -> BB75a2e2cfb [color="blue"];
+  BB75a2e2d12 -> BB75a2e2cf8 [color="green"];
+  BB75a2e2d12 -> BB75a2e2d17 [color="red"];
+  BB75a2e2d17 -> BB75a2e2cfb [color="blue"];
+}

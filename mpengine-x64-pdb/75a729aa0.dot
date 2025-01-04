@@ -1,0 +1,11 @@
+digraph OnToggleScanner {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a729aa0 -> BB75a729b0c [color="green"];
+  BB75a729aa0 -> BB75a729aba [color="red"];
+  BB75a729aba -> BB75a729b0c [color="green"];
+  BB75a729aba -> BB75a729ae1 [color="red"];
+  BB75a729ae1 -> BB75a729b0c [color="green"];
+  BB75a729ae1 -> BB75a729ae7 [color="red"];
+  BB75a729ae7 -> BB75a729b0c [color="red"];
+}

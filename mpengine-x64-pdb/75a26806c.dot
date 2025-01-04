@@ -1,0 +1,9 @@
+digraph is_ready {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a26806c -> BB75a268079 [color="green"];
+  BB75a26806c -> BB75a268075 [color="red"];
+  BB75a268079 -> BB75a268075 [color="green"];
+  BB75a268079 -> BB75a26808d [color="red"];
+  BB75a26808d -> BB75a268075 [color="blue"];
+}

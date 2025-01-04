@@ -1,0 +1,10 @@
+digraph winCheckReservedLock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5c610 -> BB75ab5c666 [color="green"];
+  BB75ab5c610 -> BB75ab5c632 [color="red"];
+  BB75ab5c632 -> BB75ab5c65f [color="green"];
+  BB75ab5c632 -> BB75ab5c64f [color="red"];
+  BB75ab5c64f -> BB75ab5c65f [color="red"];
+  BB75ab5c65f -> BB75ab5c666 [color="blue"];
+}

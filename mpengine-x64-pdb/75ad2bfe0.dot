@@ -1,0 +1,18 @@
+digraph CleanResource {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad2bfe0 -> BB75ad2c122 [color="green"];
+  BB75ad2bfe0 -> BB75ad2c003 [color="red"];
+  BB75ad2c003 -> BB75ad2c122 [color="green"];
+  BB75ad2c003 -> BB75ad2c01e [color="red"];
+  BB75ad2c01e -> BB75ad2c06b [color="green"];
+  BB75ad2c01e -> BB75ad2c058 [color="red"];
+  BB75ad2c06b -> BB75ad2c0f0 [color="green"];
+  BB75ad2c06b -> BB75ad2c0e6 [color="red"];
+  BB75ad2c0e6 -> BB75ad2c0f0 [color="red"];
+  BB75ad2c0f0 -> BB75ad2c11b [color="green"];
+  BB75ad2c0f0 -> BB75ad2c113 [color="red"];
+  BB75ad2c113 -> BB75ad2c11b [color="red"];
+  BB75ad2c11b -> BB75ad2c124 [color="blue"];
+  BB75ad2c122 -> BB75ad2c124 [color="blue"];
+}

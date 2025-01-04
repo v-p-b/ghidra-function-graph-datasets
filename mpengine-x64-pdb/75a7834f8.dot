@@ -1,0 +1,17 @@
+digraph Is_bad_exception_allowed {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7834f8 -> BB75a783565 [color="green"];
+  BB75a7834f8 -> BB75a783515 [color="red"];
+  BB75a783515 -> BB75a783517 [color="blue"];
+  BB75a783517 -> BB75a783545 [color="green"];
+  BB75a783517 -> BB75a78352a [color="red"];
+  BB75a78352a -> BB75a783547 [color="blue"];
+  BB75a783545 -> BB75a783547 [color="blue"];
+  BB75a783547 -> BB75a78357c [color="green"];
+  BB75a783547 -> BB75a78355b [color="red"];
+  BB75a78355b -> BB75a783517 [color="green"];
+  BB75a78355b -> BB75a783565 [color="red"];
+  BB75a783565 -> BB75a783567 [color="blue"];
+  BB75a78357c -> BB75a783567 [color="blue"];
+}

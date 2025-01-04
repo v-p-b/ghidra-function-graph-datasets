@@ -1,0 +1,32 @@
+digraph update_status {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1c1b18 -> BB75a1c1b42 [color="green"];
+  BB75a1c1b18 -> BB75a1c1b29 [color="red"];
+  BB75a1c1b29 -> BB75a1c1c46 [color="green"];
+  BB75a1c1b29 -> BB75a1c1b42 [color="red"];
+  BB75a1c1b42 -> BB75a1c1c4a [color="green"];
+  BB75a1c1b42 -> BB75a1c1b4a [color="red"];
+  BB75a1c1b4a -> BB75a1c1c46 [color="green"];
+  BB75a1c1b4a -> BB75a1c1b73 [color="red"];
+  BB75a1c1b73 -> BB75a1c1b93 [color="green"];
+  BB75a1c1b73 -> BB75a1c1b88 [color="red"];
+  BB75a1c1b88 -> BB75a1c1b93 [color="green"];
+  BB75a1c1b88 -> BB75a1c1b8c [color="red"];
+  BB75a1c1b8c -> BB75a1c1c4c [color="blue"];
+  BB75a1c1b93 -> BB75a1c1bd1 [color="green"];
+  BB75a1c1b93 -> BB75a1c1b9a [color="red"];
+  BB75a1c1b9a -> BB75a1c1ba5 [color="green"];
+  BB75a1c1b9a -> BB75a1c1b9f [color="red"];
+  BB75a1c1b9f -> BB75a1c1bd1 [color="green"];
+  BB75a1c1b9f -> BB75a1c1ba5 [color="red"];
+  BB75a1c1ba5 -> BB75a1c1c46 [color="green"];
+  BB75a1c1ba5 -> BB75a1c1bae [color="red"];
+  BB75a1c1bae -> BB75a1c1c46 [color="green"];
+  BB75a1c1bae -> BB75a1c1bb7 [color="red"];
+  BB75a1c1bb7 -> BB75a1c1c46 [color="green"];
+  BB75a1c1bb7 -> BB75a1c1bd1 [color="red"];
+  BB75a1c1bd1 -> BB75a1c1c46 [color="blue"];
+  BB75a1c1c46 -> BB75a1c1c4a [color="blue"];
+  BB75a1c1c4a -> BB75a1c1c4c [color="blue"];
+}

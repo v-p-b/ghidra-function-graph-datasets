@@ -1,0 +1,14 @@
+digraph FPU_fsub {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7b3d70 -> BB75a7b3d8d [color="green"];
+  BB75a7b3d70 -> BB75a7b3d8a [color="red"];
+  BB75a7b3d8a -> BB75a7b3d8d [color="blue"];
+  BB75a7b3d8d -> BB75a7b3da5 [color="green"];
+  BB75a7b3d8d -> BB75a7b3da3 [color="red"];
+  BB75a7b3da3 -> BB75a7b3da5 [color="blue"];
+  BB75a7b3da5 -> BB75a7b3dc1 [color="green"];
+  BB75a7b3da5 -> BB75a7b3db6 [color="red"];
+  BB75a7b3db6 -> BB75a7b3dca [color="blue"];
+  BB75a7b3dc1 -> BB75a7b3dca [color="blue"];
+}

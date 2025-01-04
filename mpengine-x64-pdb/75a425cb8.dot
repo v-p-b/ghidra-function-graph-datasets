@@ -1,0 +1,13 @@
+digraph merge {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a425cb8 -> BB75a425d69 [color="green"];
+  BB75a425cb8 -> BB75a425cef [color="red"];
+  BB75a425cef -> BB75a425d70 [color="green"];
+  BB75a425cef -> BB75a425d0e [color="red"];
+  BB75a425d0e -> BB75a425d69 [color="green"];
+  BB75a425d0e -> BB75a425d26 [color="red"];
+  BB75a425d26 -> BB75a425d45 [color="red"];
+  BB75a425d69 -> BB75a425d45 [color="blue"];
+  BB75a425d70 -> BB75a425d0e [color="blue"];
+}

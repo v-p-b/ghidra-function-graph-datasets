@@ -1,0 +1,11 @@
+digraph movzx_r32_ii<0> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a30bcdc -> BB75a30bd6f [color="green"];
+  BB75a30bcdc -> BB75a30bcfa [color="red"];
+  BB75a30bcfa -> BB75a30bd76 [color="green"];
+  BB75a30bcfa -> BB75a30bd27 [color="red"];
+  BB75a30bd27 -> BB75a30bd56 [color="blue"];
+  BB75a30bd6f -> BB75a30bcfa [color="blue"];
+  BB75a30bd76 -> BB75a30bd56 [color="blue"];
+}

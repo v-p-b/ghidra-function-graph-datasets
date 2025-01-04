@@ -1,0 +1,12 @@
+digraph _Tidy_deallocate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a483e74 -> BB75a483ea0 [color="green"];
+  BB75a483e74 -> BB75a483e87 [color="red"];
+  BB75a483e87 -> BB75a483eb7 [color="green"];
+  BB75a483e87 -> BB75a483e9b [color="red"];
+  BB75a483e9b -> BB75a483ea0 [color="red"];
+  BB75a483eb7 -> BB75a483ed1 [color="green"];
+  BB75a483eb7 -> BB75a483ecc [color="red"];
+  BB75a483ecc -> BB75a483e9b [color="blue"];
+}

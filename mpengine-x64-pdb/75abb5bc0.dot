@@ -1,0 +1,13 @@
+digraph Serialize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb5bc0 -> BB75abb5c48 [color="green"];
+  BB75abb5bc0 -> BB75abb5bf7 [color="red"];
+  BB75abb5bf7 -> BB75abb5c25 [color="green"];
+  BB75abb5bf7 -> BB75abb5c0a [color="red"];
+  BB75abb5c0a -> BB75abb5c25 [color="green"];
+  BB75abb5c0a -> BB75abb5c10 [color="red"];
+  BB75abb5c10 -> BB75abb5c25 [color="red"];
+  BB75abb5c25 -> BB75abb5c58 [color="blue"];
+  BB75abb5c48 -> BB75abb5c58 [color="red"];
+}

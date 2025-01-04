@@ -1,0 +1,9 @@
+digraph ForkInterval {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad0b6d4 -> BB75ad0b744 [color="green"];
+  BB75ad0b6d4 -> BB75ad0b703 [color="red"];
+  BB75ad0b703 -> BB75ad0b744 [color="green"];
+  BB75ad0b703 -> BB75ad0b73a [color="red"];
+  BB75ad0b73a -> BB75ad0b744 [color="red"];
+}

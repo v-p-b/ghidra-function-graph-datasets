@@ -1,0 +1,11 @@
+digraph allocateChunk {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a625314 -> BB75a625372 [color="green"];
+  BB75a625314 -> BB75a625331 [color="red"];
+  BB75a625331 -> BB75a625379 [color="green"];
+  BB75a625331 -> BB75a62534c [color="red"];
+  BB75a62534c -> BB75a625362 [color="red"];
+  BB75a625372 -> BB75a625331 [color="blue"];
+  BB75a625379 -> BB75a625362 [color="blue"];
+}

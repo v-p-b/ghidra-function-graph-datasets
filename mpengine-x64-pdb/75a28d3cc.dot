@@ -1,0 +1,9 @@
+digraph sqlite3ResolveSelfReference {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a28d3cc -> BB75a28d467 [color="green"];
+  BB75a28d3cc -> BB75a28d462 [color="red"];
+  BB75a28d462 -> BB75a28d48a [color="green"];
+  BB75a28d462 -> BB75a28d467 [color="red"];
+  BB75a28d48a -> BB75a28d467 [color="blue"];
+}

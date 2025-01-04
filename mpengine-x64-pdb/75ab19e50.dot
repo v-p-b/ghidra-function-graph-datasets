@@ -1,0 +1,18 @@
+digraph AtomicCounterValuesForPrefixNamespaced {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab19e50 -> BB75ab19e95 [color="green"];
+  BB75ab19e50 -> BB75ab19e8e [color="red"];
+  BB75ab19e8e -> BB75ab1a08b [color="blue"];
+  BB75ab19e95 -> BB75ab19f26 [color="green"];
+  BB75ab19e95 -> BB75ab19f06 [color="red"];
+  BB75ab19f06 -> BB75ab1a08b [color="blue"];
+  BB75ab19f26 -> BB75ab19f47 [color="red"];
+  BB75ab19f47 -> BB75ab19f60 [color="green"];
+  BB75ab19f47 -> BB75ab19f4c [color="red"];
+  BB75ab19f4c -> BB75ab1a08b [color="blue"];
+  BB75ab19f60 -> BB75ab19f71 [color="green"];
+  BB75ab19f60 -> BB75ab19f6e [color="red"];
+  BB75ab19f6e -> BB75ab19f71 [color="blue"];
+  BB75ab19f71 -> BB75ab19f47 [color="blue"];
+}

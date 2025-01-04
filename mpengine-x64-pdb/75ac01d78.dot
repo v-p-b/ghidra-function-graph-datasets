@@ -1,0 +1,19 @@
+digraph ZSTD_estimateBlockSize_literal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac01d78 -> BB75ac01e33 [color="green"];
+  BB75ac01d78 -> BB75ac01dc0 [color="red"];
+  BB75ac01dc0 -> BB75ac01dcc [color="green"];
+  BB75ac01dc0 -> BB75ac01dc5 [color="red"];
+  BB75ac01dc5 -> BB75ac01e36 [color="blue"];
+  BB75ac01dcc -> BB75ac01dd8 [color="green"];
+  BB75ac01dcc -> BB75ac01dd4 [color="red"];
+  BB75ac01dd4 -> BB75ac01e36 [color="blue"];
+  BB75ac01dd8 -> BB75ac01e33 [color="green"];
+  BB75ac01dd8 -> BB75ac01dfb [color="red"];
+  BB75ac01dfb -> BB75ac01e1f [color="green"];
+  BB75ac01dfb -> BB75ac01e18 [color="red"];
+  BB75ac01e18 -> BB75ac01e1f [color="blue"];
+  BB75ac01e1f -> BB75ac01e36 [color="blue"];
+  BB75ac01e33 -> BB75ac01e36 [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph intervalset<class_interval<class_PtrType>,struct_IntervalValue,class_VMSplitMerge> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2dcadc -> BB75a2dcb25 [color="green"];
+  BB75a2dcadc -> BB75a2dcb20 [color="red"];
+  BB75a2dcb20 -> BB75a2dcb25 [color="red"];
+  BB75a2dcb25 -> BB75a2dcb70 [color="green"];
+  BB75a2dcb25 -> BB75a2dcb5c [color="red"];
+  BB75a2dcb70 -> BB75a2dcb5c [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph ShutdownBmController {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a82cec0 -> BB75a82ceea [color="green"];
+  BB75a82cec0 -> BB75a82ceda [color="red"];
+  BB75a82ceea -> BB75a82cf47 [color="green"];
+  BB75a82ceea -> BB75a82cf1b [color="red"];
+  BB75a82cf1b -> BB75a82cf47 [color="green"];
+  BB75a82cf1b -> BB75a82cf2c [color="red"];
+  BB75a82cf2c -> BB75a82cf47 [color="green"];
+  BB75a82cf2c -> BB75a82cf40 [color="red"];
+  BB75a82cf40 -> BB75a82cf49 [color="blue"];
+  BB75a82cf47 -> BB75a82cf49 [color="blue"];
+  BB75a82cf49 -> BB75a82cf5c [color="green"];
+  BB75a82cf49 -> BB75a82cf57 [color="red"];
+  BB75a82cf57 -> BB75a82cf5c [color="red"];
+}

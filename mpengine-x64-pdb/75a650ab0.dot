@@ -1,0 +1,15 @@
+digraph Write {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a650ab0 -> BB75a650b0c [color="green"];
+  BB75a650ab0 -> BB75a650acd [color="red"];
+  BB75a650acd -> BB75a650b15 [color="green"];
+  BB75a650acd -> BB75a650ad7 [color="red"];
+  BB75a650ad7 -> BB75a650b1c [color="green"];
+  BB75a650ad7 -> BB75a650ae7 [color="red"];
+  BB75a650ae7 -> BB75a650afc [color="red"];
+  BB75a650b0c -> BB75a650b11 [color="red"];
+  BB75a650b11 -> BB75a650afc [color="blue"];
+  BB75a650b15 -> BB75a650ad7 [color="blue"];
+  BB75a650b1c -> BB75a650b11 [color="blue"];
+}

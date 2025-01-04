@@ -1,0 +1,9 @@
+digraph IsRuntimeReportedResource {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a55db10 -> BB75a55db5f [color="green"];
+  BB75a55db10 -> BB75a55db5b [color="red"];
+  BB75a55db5b -> BB75a55db6a [color="green"];
+  BB75a55db5b -> BB75a55db5f [color="red"];
+  BB75a55db6a -> BB75a55db5f [color="blue"];
+}

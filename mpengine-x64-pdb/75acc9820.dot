@@ -1,0 +1,18 @@
+digraph Quarantine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acc9820 -> BB75acc9a03 [color="green"];
+  BB75acc9820 -> BB75acc984d [color="red"];
+  BB75acc984d -> BB75acc9a03 [color="green"];
+  BB75acc984d -> BB75acc985d [color="red"];
+  BB75acc985d -> BB75acc99fa [color="green"];
+  BB75acc985d -> BB75acc9873 [color="red"];
+  BB75acc9873 -> BB75acc99fa [color="green"];
+  BB75acc9873 -> BB75acc9891 [color="red"];
+  BB75acc9891 -> BB75acc9899 [color="green"];
+  BB75acc9891 -> BB75acc9895 [color="red"];
+  BB75acc9895 -> BB75acc98a1 [color="blue"];
+  BB75acc9899 -> BB75acc98a1 [color="blue"];
+  BB75acc98a1 -> BB75acc99fa [color="red"];
+  BB75acc99fa -> BB75acc9a03 [color="red"];
+}

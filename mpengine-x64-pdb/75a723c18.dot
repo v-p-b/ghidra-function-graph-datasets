@@ -1,0 +1,25 @@
+digraph disconnectAllVtab {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a723c18 -> BB75a723c71 [color="green"];
+  BB75a723c18 -> BB75a723c36 [color="red"];
+  BB75a723c36 -> BB75a723c38 [color="blue"];
+  BB75a723c38 -> BB75a723c66 [color="green"];
+  BB75a723c38 -> BB75a723c46 [color="red"];
+  BB75a723c46 -> BB75a723c61 [color="blue"];
+  BB75a723c4c -> BB75a723c5e [color="green"];
+  BB75a723c4c -> BB75a723c56 [color="red"];
+  BB75a723c56 -> BB75a723c5e [color="red"];
+  BB75a723c5e -> BB75a723c61 [color="blue"];
+  BB75a723c61 -> BB75a723c4c [color="green"];
+  BB75a723c61 -> BB75a723c66 [color="red"];
+  BB75a723c66 -> BB75a723c38 [color="green"];
+  BB75a723c66 -> BB75a723c71 [color="red"];
+  BB75a723c71 -> BB75a723c92 [color="blue"];
+  BB75a723c7a -> BB75a723c8f [color="green"];
+  BB75a723c7a -> BB75a723c87 [color="red"];
+  BB75a723c87 -> BB75a723c8f [color="red"];
+  BB75a723c8f -> BB75a723c92 [color="blue"];
+  BB75a723c92 -> BB75a723c7a [color="green"];
+  BB75a723c92 -> BB75a723c97 [color="red"];
+}

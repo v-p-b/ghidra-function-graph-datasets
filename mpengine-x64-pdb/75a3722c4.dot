@@ -1,0 +1,29 @@
+digraph GetThreatTrackingSha1 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3722c4 -> BB75a37241c [color="green"];
+  BB75a3722c4 -> BB75a3722e3 [color="red"];
+  BB75a3722e3 -> BB75a37241c [color="green"];
+  BB75a3722e3 -> BB75a3722ec [color="red"];
+  BB75a3722ec -> BB75a372313 [color="green"];
+  BB75a3722ec -> BB75a37230f [color="red"];
+  BB75a37230f -> BB75a372313 [color="blue"];
+  BB75a372313 -> BB75a372379 [color="green"];
+  BB75a372313 -> BB75a372339 [color="red"];
+  BB75a372339 -> BB75a372368 [color="green"];
+  BB75a372339 -> BB75a37234c [color="red"];
+  BB75a37234c -> BB75a372368 [color="green"];
+  BB75a37234c -> BB75a372352 [color="red"];
+  BB75a372352 -> BB75a372368 [color="red"];
+  BB75a372368 -> BB75a37241e [color="blue"];
+  BB75a372379 -> BB75a3723cf [color="green"];
+  BB75a372379 -> BB75a372392 [color="red"];
+  BB75a372392 -> BB75a3723c1 [color="green"];
+  BB75a372392 -> BB75a3723a5 [color="red"];
+  BB75a3723a5 -> BB75a3723c1 [color="green"];
+  BB75a3723a5 -> BB75a3723ab [color="red"];
+  BB75a3723ab -> BB75a3723c1 [color="red"];
+  BB75a3723c1 -> BB75a37241e [color="blue"];
+  BB75a3723cf -> BB75a37241e [color="blue"];
+  BB75a37241c -> BB75a37241e [color="blue"];
+}

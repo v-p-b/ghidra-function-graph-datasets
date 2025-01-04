@@ -1,0 +1,29 @@
+digraph IsMine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5af1a0 -> BB75a5af1d4 [color="green"];
+  BB75a5af1a0 -> BB75a5af1bc [color="red"];
+  BB75a5af1bc -> BB75a5af1e9 [color="green"];
+  BB75a5af1bc -> BB75a5af1c2 [color="red"];
+  BB75a5af1c2 -> BB75a5af1c4 [color="blue"];
+  BB75a5af1d4 -> BB75a5af1e9 [color="green"];
+  BB75a5af1d4 -> BB75a5af1de [color="red"];
+  BB75a5af1de -> BB75a5af203 [color="green"];
+  BB75a5af1de -> BB75a5af1e9 [color="red"];
+  BB75a5af1e9 -> BB75a5af257 [color="green"];
+  BB75a5af1e9 -> BB75a5af1f3 [color="red"];
+  BB75a5af1f3 -> BB75a5af1c2 [color="green"];
+  BB75a5af1f3 -> BB75a5af1ff [color="red"];
+  BB75a5af1ff -> BB75a5af21a [color="blue"];
+  BB75a5af203 -> BB75a5af1e9 [color="green"];
+  BB75a5af203 -> BB75a5af20c [color="red"];
+  BB75a5af20c -> BB75a5af1e9 [color="green"];
+  BB75a5af20c -> BB75a5af215 [color="red"];
+  BB75a5af215 -> BB75a5af21a [color="blue"];
+  BB75a5af21a -> BB75a5af1c4 [color="blue"];
+  BB75a5af257 -> BB75a5af1f3 [color="green"];
+  BB75a5af257 -> BB75a5af263 [color="red"];
+  BB75a5af263 -> BB75a5af1f3 [color="green"];
+  BB75a5af263 -> BB75a5af26f [color="red"];
+  BB75a5af26f -> BB75a5af21a [color="blue"];
+}

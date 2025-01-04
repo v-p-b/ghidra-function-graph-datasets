@@ -1,0 +1,15 @@
+digraph CopyProcessTupleData {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a82331c -> BB75a823379 [color="green"];
+  BB75a82331c -> BB75a823333 [color="red"];
+  BB75a823333 -> BB75a82338c [color="green"];
+  BB75a823333 -> BB75a823346 [color="red"];
+  BB75a823346 -> BB75a82338c [color="green"];
+  BB75a823346 -> BB75a82334c [color="red"];
+  BB75a82334c -> BB75a82338c [color="blue"];
+  BB75a823379 -> BB75a823387 [color="green"];
+  BB75a823379 -> BB75a823384 [color="red"];
+  BB75a823384 -> BB75a823387 [color="blue"];
+  BB75a823387 -> BB75a82338c [color="red"];
+}

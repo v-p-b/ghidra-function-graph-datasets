@@ -1,0 +1,15 @@
+digraph WriteToManifest {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaed980 -> BB75aaed9b5 [color="green"];
+  BB75aaed980 -> BB75aaed9ab [color="red"];
+  BB75aaed9ab -> BB75aaed9b5 [color="green"];
+  BB75aaed9ab -> BB75aaed9b1 [color="red"];
+  BB75aaed9b1 -> BB75aaed9e8 [color="blue"];
+  BB75aaed9b5 -> BB75aaed9e3 [color="green"];
+  BB75aaed9b5 -> BB75aaed9c8 [color="red"];
+  BB75aaed9c8 -> BB75aaed9e3 [color="green"];
+  BB75aaed9c8 -> BB75aaed9ce [color="red"];
+  BB75aaed9ce -> BB75aaed9e3 [color="red"];
+  BB75aaed9e3 -> BB75aaed9e8 [color="blue"];
+}

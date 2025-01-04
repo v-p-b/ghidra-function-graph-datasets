@@ -1,0 +1,16 @@
+digraph ReadRelativeSector {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac2f598 -> BB75ac2f5c4 [color="green"];
+  BB75ac2f598 -> BB75ac2f5bf [color="red"];
+  BB75ac2f5bf -> BB75ac2f5c4 [color="red"];
+  BB75ac2f5c4 -> BB75ac2f5d2 [color="green"];
+  BB75ac2f5c4 -> BB75ac2f5cd [color="red"];
+  BB75ac2f5cd -> BB75ac2f5d2 [color="red"];
+  BB75ac2f5d2 -> BB75ac2f61f [color="green"];
+  BB75ac2f5d2 -> BB75ac2f5e3 [color="red"];
+  BB75ac2f5e3 -> BB75ac2f61f [color="green"];
+  BB75ac2f5e3 -> BB75ac2f5f3 [color="red"];
+  BB75ac2f5f3 -> BB75ac2f624 [color="blue"];
+  BB75ac2f61f -> BB75ac2f624 [color="blue"];
+}

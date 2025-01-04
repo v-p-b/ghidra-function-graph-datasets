@@ -1,0 +1,13 @@
+digraph safe_double_to_int64 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a172d9c -> BB75a172e05 [color="green"];
+  BB75a172d9c -> BB75a172db5 [color="red"];
+  BB75a172db5 -> BB75a172de9 [color="green"];
+  BB75a172db5 -> BB75a172dd2 [color="red"];
+  BB75a172dd2 -> BB75a172de9 [color="green"];
+  BB75a172dd2 -> BB75a172dd9 [color="red"];
+  BB75a172dd9 -> BB75a172dde [color="blue"];
+  BB75a172de9 -> BB75a172dde [color="blue"];
+  BB75a172e05 -> BB75a172dde [color="blue"];
+}

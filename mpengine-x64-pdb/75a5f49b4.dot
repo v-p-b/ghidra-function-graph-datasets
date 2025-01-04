@@ -1,0 +1,18 @@
+digraph pushPostfixExprTree {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5f49b4 -> BB75a5f4b2d [color="green"];
+  BB75a5f49b4 -> BB75a5f49f0 [color="red"];
+  BB75a5f49f0 -> BB75a5f4b2d [color="green"];
+  BB75a5f49f0 -> BB75a5f4a57 [color="red"];
+  BB75a5f4a57 -> BB75a5f4b2d [color="green"];
+  BB75a5f4a57 -> BB75a5f4a7b [color="red"];
+  BB75a5f4a7b -> BB75a5f4b2d [color="green"];
+  BB75a5f4a7b -> BB75a5f4ab4 [color="red"];
+  BB75a5f4ab4 -> BB75a5f4b2d [color="green"];
+  BB75a5f4ab4 -> BB75a5f4add [color="red"];
+  BB75a5f4add -> BB75a5f4b2d [color="green"];
+  BB75a5f4add -> BB75a5f4af6 [color="red"];
+  BB75a5f4af6 -> BB75a5f4b10 [color="red"];
+  BB75a5f4b2d -> BB75a5f4b10 [color="blue"];
+}

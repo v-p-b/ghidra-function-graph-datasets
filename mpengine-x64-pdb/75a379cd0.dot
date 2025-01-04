@@ -1,0 +1,18 @@
+digraph kpush_cleanupex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a379cd0 -> BB75a379d62 [color="green"];
+  BB75a379cd0 -> BB75a379cea [color="red"];
+  BB75a379cea -> BB75a379d38 [color="green"];
+  BB75a379cea -> BB75a379cfd [color="red"];
+  BB75a379cfd -> BB75a379d01 [color="blue"];
+  BB75a379d01 -> BB75a379d29 [color="green"];
+  BB75a379d01 -> BB75a379d0e [color="red"];
+  BB75a379d0e -> BB75a379d70 [color="green"];
+  BB75a379d0e -> BB75a379d20 [color="red"];
+  BB75a379d20 -> BB75a379d29 [color="blue"];
+  BB75a379d29 -> BB75a379d01 [color="green"];
+  BB75a379d29 -> BB75a379d38 [color="red"];
+  BB75a379d62 -> BB75a379cea [color="blue"];
+  BB75a379d70 -> BB75a379d20 [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph memscan_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa99840 -> BB75aa998d3 [color="green"];
+  BB75aa99840 -> BB75aa998c1 [color="red"];
+  BB75aa998c1 -> BB75aa998c6 [color="blue"];
+  BB75aa998c6 -> BB75aa99908 [color="blue"];
+  BB75aa998d3 -> BB75aa99906 [color="green"];
+  BB75aa998d3 -> BB75aa998fe [color="red"];
+  BB75aa998fe -> BB75aa998c6 [color="blue"];
+  BB75aa99906 -> BB75aa99908 [color="blue"];
+}

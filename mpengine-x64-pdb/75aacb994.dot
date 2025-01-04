@@ -1,0 +1,26 @@
+digraph LRUput {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aacb994 -> BB75aacb9d3 [color="green"];
+  BB75aacb994 -> BB75aacb9bb [color="red"];
+  BB75aacb9bb -> BB75aacb9d3 [color="red"];
+  BB75aacb9d3 -> BB75aacb9eb [color="green"];
+  BB75aacb9d3 -> BB75aacb9e6 [color="red"];
+  BB75aacb9e6 -> BB75aacb9eb [color="red"];
+  BB75aacb9eb -> BB75aacba0a [color="blue"];
+  BB75aacba0a -> BB75aacba73 [color="green"];
+  BB75aacba0a -> BB75aacba10 [color="red"];
+  BB75aacba10 -> BB75aacbabe [color="green"];
+  BB75aacba10 -> BB75aacba19 [color="red"];
+  BB75aacba19 -> BB75aacbabe [color="green"];
+  BB75aacba19 -> BB75aacba40 [color="red"];
+  BB75aacba40 -> BB75aacbabe [color="green"];
+  BB75aacba40 -> BB75aacba56 [color="red"];
+  BB75aacba56 -> BB75aacba73 [color="blue"];
+  BB75aacba73 -> BB75aacba0a [color="green"];
+  BB75aacba73 -> BB75aacba8a [color="red"];
+  BB75aacba8a -> BB75aacba0a [color="green"];
+  BB75aacba8a -> BB75aacba98 [color="red"];
+  BB75aacba98 -> BB75aacbaa3 [color="red"];
+  BB75aacbabe -> BB75aacbaa3 [color="blue"];
+}

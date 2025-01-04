@@ -1,0 +1,12 @@
+digraph destroy_clusters {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a208d44 -> BB75a208dae [color="green"];
+  BB75a208d44 -> BB75a208d69 [color="red"];
+  BB75a208d69 -> BB75a208da1 [color="green"];
+  BB75a208d69 -> BB75a208d72 [color="red"];
+  BB75a208d72 -> BB75a208d78 [color="blue"];
+  BB75a208d78 -> BB75a208d78 [color="green"];
+  BB75a208d78 -> BB75a208da1 [color="red"];
+  BB75a208da1 -> BB75a208dae [color="red"];
+}

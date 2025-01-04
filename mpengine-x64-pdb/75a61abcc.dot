@@ -1,0 +1,14 @@
+digraph LoadDCGroups {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a61abcc -> BB75a61ac3d [color="green"];
+  BB75a61abcc -> BB75a61abfe [color="red"];
+  BB75a61abfe -> BB75a61ac2f [color="green"];
+  BB75a61abfe -> BB75a61ac11 [color="red"];
+  BB75a61ac11 -> BB75a61ac2f [color="green"];
+  BB75a61ac11 -> BB75a61ac17 [color="red"];
+  BB75a61ac17 -> BB75a61ac2f [color="red"];
+  BB75a61ac2f -> BB75a61ac9c [color="blue"];
+  BB75a61ac3d -> BB75a61ac9a [color="blue"];
+  BB75a61ac9a -> BB75a61ac9c [color="blue"];
+}

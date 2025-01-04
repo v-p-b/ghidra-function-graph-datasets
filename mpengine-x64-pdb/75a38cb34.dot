@@ -1,0 +1,10 @@
+digraph MemScanOpenProcessToken {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a38cb34 -> BB75a38cb79 [color="green"];
+  BB75a38cb34 -> BB75a38cb68 [color="red"];
+  BB75a38cb68 -> BB75a38cb79 [color="red"];
+  BB75a38cb79 -> BB75a38cb90 [color="green"];
+  BB75a38cb79 -> BB75a38cb7e [color="red"];
+  BB75a38cb90 -> BB75a38cb7e [color="blue"];
+}

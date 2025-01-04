@@ -1,0 +1,17 @@
+digraph SigtreeHelper {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a83101c -> BB75a8310a3 [color="green"];
+  BB75a83101c -> BB75a831050 [color="red"];
+  BB75a831050 -> BB75a8310a3 [color="green"];
+  BB75a831050 -> BB75a83105c [color="red"];
+  BB75a83105c -> BB75a83108d [color="green"];
+  BB75a83105c -> BB75a83106f [color="red"];
+  BB75a83106f -> BB75a83108d [color="green"];
+  BB75a83106f -> BB75a831075 [color="red"];
+  BB75a831075 -> BB75a83108d [color="red"];
+  BB75a83108d -> BB75a8310a3 [color="red"];
+  BB75a8310a3 -> BB75a8310ba [color="green"];
+  BB75a8310a3 -> BB75a8310b4 [color="red"];
+  BB75a8310b4 -> BB75a8310ba [color="red"];
+}

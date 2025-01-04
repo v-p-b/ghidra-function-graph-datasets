@@ -1,0 +1,11 @@
+digraph WinVerifyTrust {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a771070 -> BB75a7710b0 [color="green"];
+  BB75a771070 -> BB75a771094 [color="red"];
+  BB75a771094 -> BB75a7710a9 [color="green"];
+  BB75a771094 -> BB75a7710a2 [color="red"];
+  BB75a7710a2 -> BB75a7710be [color="blue"];
+  BB75a7710a9 -> BB75a7710b0 [color="blue"];
+  BB75a7710b0 -> BB75a7710be [color="red"];
+}

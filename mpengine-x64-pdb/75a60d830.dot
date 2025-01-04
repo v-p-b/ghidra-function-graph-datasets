@@ -1,0 +1,27 @@
+digraph InitSmallObjectCache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a60d830 -> BB75a60d85c [color="green"];
+  BB75a60d830 -> BB75a60d857 [color="red"];
+  BB75a60d857 -> BB75a60d85c [color="red"];
+  BB75a60d85c -> BB75a60d90e [color="green"];
+  BB75a60d85c -> BB75a60d872 [color="red"];
+  BB75a60d872 -> BB75a60d87a [color="blue"];
+  BB75a60d87a -> BB75a60d87a [color="green"];
+  BB75a60d87a -> BB75a60d88c [color="red"];
+  BB75a60d88c -> BB75a60d8c2 [color="green"];
+  BB75a60d88c -> BB75a60d8a0 [color="red"];
+  BB75a60d8a0 -> BB75a60d949 [color="blue"];
+  BB75a60d8c2 -> BB75a60d8f8 [color="green"];
+  BB75a60d8c2 -> BB75a60d8dd [color="red"];
+  BB75a60d8dd -> BB75a60d8f8 [color="green"];
+  BB75a60d8dd -> BB75a60d8e3 [color="red"];
+  BB75a60d8e3 -> BB75a60d8f8 [color="red"];
+  BB75a60d8f8 -> BB75a60d944 [color="blue"];
+  BB75a60d90e -> BB75a60d944 [color="green"];
+  BB75a60d90e -> BB75a60d929 [color="red"];
+  BB75a60d929 -> BB75a60d944 [color="green"];
+  BB75a60d929 -> BB75a60d92f [color="red"];
+  BB75a60d92f -> BB75a60d944 [color="red"];
+  BB75a60d944 -> BB75a60d949 [color="blue"];
+}

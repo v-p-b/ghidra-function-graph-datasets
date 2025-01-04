@@ -1,0 +1,12 @@
+digraph FindWin64ModuleByAddress {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2f5b18 -> BB75a2f5b1f [color="blue"];
+  BB75a2f5b1f -> BB75a2f5b4c [color="green"];
+  BB75a2f5b1f -> BB75a2f5b24 [color="red"];
+  BB75a2f5b24 -> BB75a2f5b43 [color="green"];
+  BB75a2f5b24 -> BB75a2f5b34 [color="red"];
+  BB75a2f5b34 -> BB75a2f5b48 [color="green"];
+  BB75a2f5b34 -> BB75a2f5b43 [color="red"];
+  BB75a2f5b43 -> BB75a2f5b1f [color="blue"];
+}

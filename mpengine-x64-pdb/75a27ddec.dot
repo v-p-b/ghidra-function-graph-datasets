@@ -1,0 +1,13 @@
+digraph sqlite3SelectNew {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a27ddec -> BB75a27df30 [color="green"];
+  BB75a27ddec -> BB75a27de5b [color="red"];
+  BB75a27de5b -> BB75a27df1b [color="green"];
+  BB75a27de5b -> BB75a27de96 [color="red"];
+  BB75a27de96 -> BB75a27df55 [color="green"];
+  BB75a27de96 -> BB75a27deeb [color="red"];
+  BB75a27df1b -> BB75a27de96 [color="blue"];
+  BB75a27df30 -> BB75a27de5b [color="blue"];
+  BB75a27df55 -> BB75a27deeb [color="blue"];
+}

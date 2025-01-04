@@ -1,0 +1,10 @@
+digraph lua_pe_scanpage {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6a09b0 -> BB75a6a0a5f [color="green"];
+  BB75a6a09b0 -> BB75a6a0a25 [color="red"];
+  BB75a6a0a5f -> BB75a6a0a7c [color="green"];
+  BB75a6a0a5f -> BB75a6a0a64 [color="red"];
+  BB75a6a0a64 -> BB75a6a0a25 [color="blue"];
+  BB75a6a0a7c -> BB75a6a0a64 [color="blue"];
+}

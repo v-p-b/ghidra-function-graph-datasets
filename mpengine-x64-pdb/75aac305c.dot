@@ -1,0 +1,14 @@
+digraph getdistance {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aac305c -> BB75aac3083 [color="blue"];
+  BB75aac3083 -> BB75aac30db [color="green"];
+  BB75aac3083 -> BB75aac30aa [color="red"];
+  BB75aac30aa -> BB75aac3083 [color="green"];
+  BB75aac30aa -> BB75aac30b0 [color="red"];
+  BB75aac30b0 -> BB75aac30db [color="green"];
+  BB75aac30b0 -> BB75aac30d3 [color="red"];
+  BB75aac30d3 -> BB75aac3083 [color="green"];
+  BB75aac30d3 -> BB75aac30d9 [color="red"];
+  BB75aac30d9 -> BB75aac30db [color="blue"];
+}

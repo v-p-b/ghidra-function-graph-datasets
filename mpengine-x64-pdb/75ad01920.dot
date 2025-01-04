@@ -1,0 +1,10 @@
+digraph GcFreeDetection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad01920 -> BB75ad01957 [color="green"];
+  BB75ad01920 -> BB75ad0193c [color="red"];
+  BB75ad0193c -> BB75ad0194a [color="green"];
+  BB75ad0193c -> BB75ad01945 [color="red"];
+  BB75ad01945 -> BB75ad0194a [color="red"];
+  BB75ad0194a -> BB75ad01957 [color="red"];
+}

@@ -1,0 +1,17 @@
+digraph print_SIB {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab2ad9c -> BB75ab2adf9 [color="green"];
+  BB75ab2ad9c -> BB75ab2add0 [color="red"];
+  BB75ab2add0 -> BB75ab2ae35 [color="blue"];
+  BB75ab2adf9 -> BB75ab2ae35 [color="red"];
+  BB75ab2ae35 -> BB75ab2aea0 [color="green"];
+  BB75ab2ae35 -> BB75ab2ae3b [color="red"];
+  BB75ab2ae3b -> BB75ab2ae6d [color="green"];
+  BB75ab2ae3b -> BB75ab2ae41 [color="red"];
+  BB75ab2ae41 -> BB75ab2ae6d [color="red"];
+  BB75ab2ae6d -> BB75ab2ae8b [color="green"];
+  BB75ab2ae6d -> BB75ab2ae86 [color="red"];
+  BB75ab2ae86 -> BB75ab2ae8b [color="red"];
+  BB75ab2ae8b -> BB75ab2aea0 [color="red"];
+}

@@ -1,0 +1,12 @@
+digraph switch_out {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a343148 -> BB75a34322b [color="green"];
+  BB75a343148 -> BB75a343186 [color="red"];
+  BB75a343186 -> BB75a343196 [color="green"];
+  BB75a343186 -> BB75a34318c [color="red"];
+  BB75a34318c -> BB75a343196 [color="red"];
+  BB75a343196 -> BB75a34322b [color="green"];
+  BB75a343196 -> BB75a34321d [color="red"];
+  BB75a34321d -> BB75a34322b [color="red"];
+}

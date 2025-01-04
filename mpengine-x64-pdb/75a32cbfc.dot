@@ -1,0 +1,11 @@
+digraph init_amap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a32cbfc -> BB75a32cc59 [color="green"];
+  BB75a32cbfc -> BB75a32cc1c [color="red"];
+  BB75a32cc1c -> BB75a32cc55 [color="green"];
+  BB75a32cc1c -> BB75a32cc3c [color="red"];
+  BB75a32cc3c -> BB75a32cc4f [color="blue"];
+  BB75a32cc55 -> BB75a32cc4f [color="blue"];
+  BB75a32cc59 -> BB75a32cc55 [color="blue"];
+}

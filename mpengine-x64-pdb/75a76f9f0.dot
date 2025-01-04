@@ -1,0 +1,11 @@
+digraph K32GetProcessMemoryInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a76f9f0 -> BB75a76fa36 [color="green"];
+  BB75a76f9f0 -> BB75a76fa14 [color="red"];
+  BB75a76fa14 -> BB75a76fa2f [color="green"];
+  BB75a76fa14 -> BB75a76fa20 [color="red"];
+  BB75a76fa20 -> BB75a76fa44 [color="blue"];
+  BB75a76fa2f -> BB75a76fa36 [color="blue"];
+  BB75a76fa36 -> BB75a76fa44 [color="red"];
+}

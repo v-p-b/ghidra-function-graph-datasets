@@ -1,0 +1,10 @@
+digraph ~DFTracer<0> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a640d2c -> BB75a640d65 [color="green"];
+  BB75a640d2c -> BB75a640d48 [color="red"];
+  BB75a640d48 -> BB75a640d6c [color="green"];
+  BB75a640d48 -> BB75a640d56 [color="red"];
+  BB75a640d65 -> BB75a640d48 [color="blue"];
+  BB75a640d6c -> BB75a640d56 [color="blue"];
+}

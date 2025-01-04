@@ -1,0 +1,17 @@
+digraph ShouldThrottle {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3e64a0 -> BB75a3e653e [color="green"];
+  BB75a3e64a0 -> BB75a3e64ed [color="red"];
+  BB75a3e64ed -> BB75a3e6553 [color="green"];
+  BB75a3e64ed -> BB75a3e64fe [color="red"];
+  BB75a3e64fe -> BB75a3e6503 [color="blue"];
+  BB75a3e6503 -> BB75a3e6521 [color="red"];
+  BB75a3e653e -> BB75a3e6521 [color="blue"];
+  BB75a3e6553 -> BB75a3e6503 [color="green"];
+  BB75a3e6553 -> BB75a3e656e [color="red"];
+  BB75a3e656e -> BB75a3e658e [color="green"];
+  BB75a3e656e -> BB75a3e6579 [color="red"];
+  BB75a3e6579 -> BB75a3e6521 [color="blue"];
+  BB75a3e658e -> BB75a3e6521 [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph sqlite3BtreeCopyFile {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a464664 -> BB75a4646c7 [color="green"];
+  BB75a464664 -> BB75a464692 [color="red"];
+  BB75a464692 -> BB75a46475b [color="green"];
+  BB75a464692 -> BB75a4646c7 [color="red"];
+  BB75a4646c7 -> BB75a46471b [color="green"];
+  BB75a4646c7 -> BB75a46470f [color="red"];
+  BB75a46470f -> BB75a46471b [color="red"];
+  BB75a46471b -> BB75a464744 [color="green"];
+  BB75a46471b -> BB75a464735 [color="red"];
+  BB75a464735 -> BB75a46475b [color="blue"];
+  BB75a464744 -> BB75a46475b [color="green"];
+  BB75a464744 -> BB75a464756 [color="red"];
+  BB75a464756 -> BB75a46475b [color="red"];
+}

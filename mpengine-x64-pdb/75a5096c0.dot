@@ -1,0 +1,13 @@
+digraph IsFGExcludedTarget {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5096c0 -> BB75a509740 [color="green"];
+  BB75a5096c0 -> BB75a50970a [color="red"];
+  BB75a50970a -> BB75a509742 [color="green"];
+  BB75a50970a -> BB75a50971e [color="red"];
+  BB75a50971e -> BB75a509742 [color="green"];
+  BB75a50971e -> BB75a509727 [color="red"];
+  BB75a509727 -> BB75a509742 [color="green"];
+  BB75a509727 -> BB75a509740 [color="red"];
+  BB75a509740 -> BB75a509742 [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph recidtosx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a36e55c -> BB75a36e5cc [color="green"];
+  BB75a36e55c -> BB75a36e5a6 [color="red"];
+  BB75a36e5a6 -> BB75a36e5cc [color="green"];
+  BB75a36e5a6 -> BB75a36e5b2 [color="red"];
+  BB75a36e5b2 -> BB75a36e5cc [color="green"];
+  BB75a36e5b2 -> BB75a36e5bb [color="red"];
+  BB75a36e5bb -> BB75a36e5cc [color="red"];
+  BB75a36e5cc -> BB75a36e63b [color="green"];
+  BB75a36e5cc -> BB75a36e61b [color="red"];
+  BB75a36e61b -> BB75a36e63b [color="green"];
+  BB75a36e61b -> BB75a36e620 [color="red"];
+  BB75a36e620 -> BB75a36e62b [color="red"];
+  BB75a36e63b -> BB75a36e62b [color="blue"];
+}

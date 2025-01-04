@@ -1,0 +1,29 @@
+digraph load_IL_patterns {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abca584 -> BB75abca6de [color="green"];
+  BB75abca584 -> BB75abca5db [color="red"];
+  BB75abca5db -> BB75abca604 [color="green"];
+  BB75abca5db -> BB75abca5ff [color="red"];
+  BB75abca5ff -> BB75abca604 [color="red"];
+  BB75abca604 -> BB75abca63f [color="green"];
+  BB75abca604 -> BB75abca611 [color="red"];
+  BB75abca611 -> BB75abca6ad [color="green"];
+  BB75abca611 -> BB75abca635 [color="red"];
+  BB75abca635 -> BB75abca6dc [color="blue"];
+  BB75abca63f -> BB75abca653 [color="green"];
+  BB75abca63f -> BB75abca648 [color="red"];
+  BB75abca648 -> BB75abca653 [color="red"];
+  BB75abca653 -> BB75abca669 [color="green"];
+  BB75abca653 -> BB75abca658 [color="red"];
+  BB75abca658 -> BB75abca690 [color="blue"];
+  BB75abca669 -> BB75abca681 [color="green"];
+  BB75abca669 -> BB75abca670 [color="red"];
+  BB75abca670 -> BB75abca690 [color="blue"];
+  BB75abca681 -> BB75abca690 [color="blue"];
+  BB75abca690 -> BB75abca6b4 [color="green"];
+  BB75abca690 -> BB75abca6ad [color="red"];
+  BB75abca6ad -> BB75abca6de [color="blue"];
+  BB75abca6b4 -> BB75abca6dc [color="red"];
+  BB75abca6dc -> BB75abca6de [color="blue"];
+}

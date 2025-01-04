@@ -1,0 +1,14 @@
+digraph BtcCountValidWalletChars {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa981b8 -> BB75aa981e6 [color="green"];
+  BB75aa981b8 -> BB75aa981c0 [color="red"];
+  BB75aa981c0 -> BB75aa981de [color="green"];
+  BB75aa981c0 -> BB75aa981cc [color="red"];
+  BB75aa981cc -> BB75aa981de [color="green"];
+  BB75aa981cc -> BB75aa981d4 [color="red"];
+  BB75aa981d4 -> BB75aa981ea [color="green"];
+  BB75aa981d4 -> BB75aa981de [color="red"];
+  BB75aa981de -> BB75aa981c0 [color="green"];
+  BB75aa981de -> BB75aa981e6 [color="red"];
+}

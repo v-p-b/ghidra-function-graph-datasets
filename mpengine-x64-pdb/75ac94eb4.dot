@@ -1,0 +1,33 @@
+digraph FirePrecheckCallback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac94eb4 -> BB75ac94f47 [color="green"];
+  BB75ac94eb4 -> BB75ac94f33 [color="red"];
+  BB75ac94f33 -> BB75ac94f47 [color="green"];
+  BB75ac94f33 -> BB75ac94f38 [color="red"];
+  BB75ac94f38 -> BB75ac94f47 [color="green"];
+  BB75ac94f38 -> BB75ac94f3d [color="red"];
+  BB75ac94f3d -> BB75ac94f47 [color="green"];
+  BB75ac94f3d -> BB75ac94f42 [color="red"];
+  BB75ac94f42 -> BB75ac94f4c [color="green"];
+  BB75ac94f42 -> BB75ac94f47 [color="red"];
+  BB75ac94f47 -> BB75ac94f4c [color="red"];
+  BB75ac94f4c -> BB75ac9500e [color="green"];
+  BB75ac94f4c -> BB75ac94f56 [color="red"];
+  BB75ac94f56 -> BB75ac94f86 [color="green"];
+  BB75ac94f56 -> BB75ac94f76 [color="red"];
+  BB75ac94f76 -> BB75ac94fb7 [color="green"];
+  BB75ac94f76 -> BB75ac94f86 [color="red"];
+  BB75ac94f86 -> BB75ac94f9f [color="green"];
+  BB75ac94f86 -> BB75ac94f8f [color="red"];
+  BB75ac94f8f -> BB75ac94fb7 [color="green"];
+  BB75ac94f8f -> BB75ac94f9f [color="red"];
+  BB75ac94f9f -> BB75ac94fc6 [color="green"];
+  BB75ac94f9f -> BB75ac94fad [color="red"];
+  BB75ac94fad -> BB75ac94fc6 [color="green"];
+  BB75ac94fad -> BB75ac94fb7 [color="red"];
+  BB75ac94fb7 -> BB75ac94fcb [color="blue"];
+  BB75ac94fc6 -> BB75ac94fcb [color="blue"];
+  BB75ac94fcb -> BB75ac95010 [color="blue"];
+  BB75ac9500e -> BB75ac95010 [color="blue"];
+}

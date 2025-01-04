@@ -1,0 +1,11 @@
+digraph WrapperWofShouldCompressBinaries {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a77122c -> BB75a77126c [color="green"];
+  BB75a77122c -> BB75a771248 [color="red"];
+  BB75a771248 -> BB75a771265 [color="green"];
+  BB75a771248 -> BB75a771256 [color="red"];
+  BB75a771256 -> BB75a771277 [color="blue"];
+  BB75a771265 -> BB75a77126c [color="blue"];
+  BB75a77126c -> BB75a771277 [color="red"];
+}

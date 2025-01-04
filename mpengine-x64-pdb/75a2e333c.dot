@@ -1,0 +1,12 @@
+digraph TestForModuleLoad {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2e333c -> BB75a2e340d [color="green"];
+  BB75a2e333c -> BB75a2e33e1 [color="red"];
+  BB75a2e33e1 -> BB75a2e33ee [color="green"];
+  BB75a2e33e1 -> BB75a2e33e6 [color="red"];
+  BB75a2e33e6 -> BB75a2e33ee [color="red"];
+  BB75a2e340d -> BB75a2e33e1 [color="green"];
+  BB75a2e340d -> BB75a2e3412 [color="red"];
+  BB75a2e3412 -> BB75a2e33e1 [color="blue"];
+}

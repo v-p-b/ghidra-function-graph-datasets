@@ -1,0 +1,13 @@
+digraph startsWithIpcs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a723d5c -> BB75a723d98 [color="green"];
+  BB75a723d5c -> BB75a723d71 [color="red"];
+  BB75a723d71 -> BB75a723d98 [color="green"];
+  BB75a723d71 -> BB75a723d88 [color="red"];
+  BB75a723d88 -> BB75a723d96 [color="green"];
+  BB75a723d88 -> BB75a723d8f [color="red"];
+  BB75a723d8f -> BB75a723d98 [color="green"];
+  BB75a723d8f -> BB75a723d96 [color="red"];
+  BB75a723d96 -> BB75a723d98 [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph undo_resource_delete {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aab6f8c -> BB75aab6ff8 [color="green"];
+  BB75aab6f8c -> BB75aab6fa7 [color="red"];
+  BB75aab6fa7 -> BB75aab6faf [color="blue"];
+  BB75aab6faf -> BB75aab6faf [color="green"];
+  BB75aab6faf -> BB75aab6fb9 [color="red"];
+  BB75aab6fb9 -> BB75aab6ff8 [color="green"];
+  BB75aab6fb9 -> BB75aab6fdf [color="red"];
+  BB75aab6fdf -> BB75aab6fee [color="green"];
+  BB75aab6fdf -> BB75aab6fe9 [color="red"];
+  BB75aab6fe9 -> BB75aab6fee [color="red"];
+  BB75aab6fee -> BB75aab6ffa [color="blue"];
+  BB75aab6ff8 -> BB75aab6ffa [color="blue"];
+}

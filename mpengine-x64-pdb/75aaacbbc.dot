@@ -1,0 +1,10 @@
+digraph skipIpcs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaacbbc -> BB75aaacbe8 [color="green"];
+  BB75aaacbbc -> BB75aaacbe3 [color="red"];
+  BB75aaacbe3 -> BB75aaacbe8 [color="red"];
+  BB75aaacbe8 -> BB75aaacbf3 [color="green"];
+  BB75aaacbe8 -> BB75aaacbee [color="red"];
+  BB75aaacbee -> BB75aaacbf3 [color="red"];
+}

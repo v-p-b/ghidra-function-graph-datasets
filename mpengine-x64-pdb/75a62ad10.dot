@@ -1,0 +1,12 @@
+digraph PruneExpired {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a62ad10 -> BB75a62ad38 [color="red"];
+  BB75a62ad38 -> BB75a62ad58 [color="green"];
+  BB75a62ad38 -> BB75a62ad3d [color="red"];
+  BB75a62ad3d -> BB75a62ad4e [color="green"];
+  BB75a62ad3d -> BB75a62ad49 [color="red"];
+  BB75a62ad49 -> BB75a62ad38 [color="blue"];
+  BB75a62ad4e -> BB75a62ad58 [color="red"];
+  BB75a62ad58 -> BB75ae20de0 [color="blue"];
+}

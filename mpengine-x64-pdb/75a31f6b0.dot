@@ -1,0 +1,34 @@
+digraph find_restart_line {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a31f6b0 -> BB75a31f71e [color="green"];
+  BB75a31f6b0 -> BB75a31f6cd [color="red"];
+  BB75a31f6cd -> BB75a31f6ef [color="green"];
+  BB75a31f6cd -> BB75a31f6da [color="red"];
+  BB75a31f6da -> BB75a31f6dd [color="blue"];
+  BB75a31f6dd -> BB75a31f72e [color="green"];
+  BB75a31f6dd -> BB75a31f6e5 [color="red"];
+  BB75a31f6e5 -> BB75a31f72e [color="green"];
+  BB75a31f6e5 -> BB75a31f6ea [color="red"];
+  BB75a31f6ea -> BB75a31f6fc [color="green"];
+  BB75a31f6ea -> BB75a31f6ef [color="red"];
+  BB75a31f6ef -> BB75a31f6f1 [color="blue"];
+  BB75a31f6fc -> BB75a31f73f [color="green"];
+  BB75a31f6fc -> BB75a31f708 [color="red"];
+  BB75a31f708 -> BB75a31f722 [color="green"];
+  BB75a31f708 -> BB75a31f712 [color="red"];
+  BB75a31f712 -> BB75a31f722 [color="green"];
+  BB75a31f712 -> BB75a31f71e [color="red"];
+  BB75a31f71e -> BB75a31f6f1 [color="blue"];
+  BB75a31f722 -> BB75a31f6cd [color="green"];
+  BB75a31f722 -> BB75a31f72c [color="red"];
+  BB75a31f72c -> BB75a31f6ef [color="blue"];
+  BB75a31f72e -> BB75a31f6dd [color="green"];
+  BB75a31f72e -> BB75a31f73d [color="red"];
+  BB75a31f73d -> BB75a31f6ea [color="blue"];
+  BB75a31f73f -> BB75a31f6ef [color="green"];
+  BB75a31f73f -> BB75a31f74f [color="red"];
+  BB75a31f74f -> BB75a31f71e [color="green"];
+  BB75a31f74f -> BB75a31f75b [color="red"];
+  BB75a31f75b -> BB75a31f6ef [color="blue"];
+}

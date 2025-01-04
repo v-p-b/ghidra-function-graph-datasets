@@ -1,0 +1,10 @@
+digraph LoadBmNoTaintDbVar {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a22f940 -> BB75a22f96f [color="green"];
+  BB75a22f940 -> BB75a22f968 [color="red"];
+  BB75a22f968 -> BB75a22f96f [color="blue"];
+  BB75a22f96f -> BB75a22f98a [color="green"];
+  BB75a22f96f -> BB75a22f982 [color="red"];
+  BB75a22f982 -> BB75a22f98a [color="red"];
+}

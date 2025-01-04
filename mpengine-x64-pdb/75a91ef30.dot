@@ -1,0 +1,12 @@
+digraph is_process_monitored {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a91ef30 -> BB75a91ef49 [color="blue"];
+  BB75a91ef49 -> BB75a91ef85 [color="green"];
+  BB75a91ef49 -> BB75a91ef4e [color="red"];
+  BB75a91ef4e -> BB75a91ef81 [color="green"];
+  BB75a91ef4e -> BB75a91ef7c [color="red"];
+  BB75a91ef7c -> BB75a91ef49 [color="blue"];
+  BB75a91ef81 -> BB75a91ef87 [color="blue"];
+  BB75a91ef85 -> BB75a91ef87 [color="blue"];
+}

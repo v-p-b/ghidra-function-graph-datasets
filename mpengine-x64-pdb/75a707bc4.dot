@@ -1,0 +1,13 @@
+digraph Acquire {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a707bc4 -> BB75a707c1d [color="green"];
+  BB75a707bc4 -> BB75a707bf7 [color="red"];
+  BB75a707bf7 -> BB75a707c0a [color="green"];
+  BB75a707bf7 -> BB75a707c01 [color="red"];
+  BB75a707c01 -> BB75a707c0a [color="blue"];
+  BB75a707c0a -> BB75a707c1d [color="red"];
+  BB75a707c1d -> BB75a707c2c [color="green"];
+  BB75a707c1d -> BB75a707c27 [color="red"];
+  BB75a707c27 -> BB75a707c2c [color="red"];
+}

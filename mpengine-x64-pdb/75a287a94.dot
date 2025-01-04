@@ -1,0 +1,12 @@
+digraph btreeReleaseAllCursorPages {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a287a94 -> BB75a287ae5 [color="green"];
+  BB75a287a94 -> BB75a287aae [color="red"];
+  BB75a287aae -> BB75a287ad1 [color="green"];
+  BB75a287aae -> BB75a287ab0 [color="red"];
+  BB75a287ab0 -> BB75a287ab7 [color="blue"];
+  BB75a287ab7 -> BB75a287ab7 [color="green"];
+  BB75a287ab7 -> BB75a287ad1 [color="red"];
+  BB75a287ad1 -> BB75a287ae5 [color="red"];
+}

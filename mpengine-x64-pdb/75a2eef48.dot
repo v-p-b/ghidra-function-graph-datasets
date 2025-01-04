@@ -1,0 +1,21 @@
+digraph is_dropped {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2eef48 -> BB75a2eef92 [color="green"];
+  BB75a2eef48 -> BB75a2eef55 [color="red"];
+  BB75a2eef55 -> BB75a2eef67 [color="green"];
+  BB75a2eef55 -> BB75a2eef64 [color="red"];
+  BB75a2eef64 -> BB75a2eef67 [color="blue"];
+  BB75a2eef67 -> BB75a2eef7c [color="green"];
+  BB75a2eef67 -> BB75a2eef6c [color="red"];
+  BB75a2eef6c -> BB75a2eef8d [color="green"];
+  BB75a2eef6c -> BB75a2eef7c [color="red"];
+  BB75a2eef7c -> BB75a2eef80 [color="blue"];
+  BB75a2eef80 -> BB75a2eef84 [color="blue"];
+  BB75a2eef84 -> BB75a2eef87 [color="blue"];
+  BB75a2eef8d -> BB75a2eef80 [color="blue"];
+  BB75a2eef92 -> BB75a2eefa4 [color="green"];
+  BB75a2eef92 -> BB75a2eef98 [color="red"];
+  BB75a2eef98 -> BB75a2eef84 [color="blue"];
+  BB75a2eefa4 -> BB75a2eef87 [color="blue"];
+}

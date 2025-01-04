@@ -1,0 +1,13 @@
+digraph process_tlv {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a98089c -> BB75a980914 [color="green"];
+  BB75a98089c -> BB75a980909 [color="red"];
+  BB75a980909 -> BB75a980be0 [color="blue"];
+  BB75a980914 -> BB75a980be0 [color="green"];
+  BB75a980914 -> BB75a98091e [color="red"];
+  BB75a98091e -> BB75a980bc8 [color="blue"];
+  BB75a980bc8 -> BB75a980be0 [color="green"];
+  BB75a980bc8 -> BB75a980bda [color="red"];
+  BB75a980bda -> BB75a980be0 [color="red"];
+}

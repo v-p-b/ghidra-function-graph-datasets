@@ -1,0 +1,10 @@
+digraph GetCurrentVolatileObject {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6c92c8 -> BB75a6c9309 [color="green"];
+  BB75a6c92c8 -> BB75a6c92f9 [color="red"];
+  BB75a6c92f9 -> BB75a6c9309 [color="green"];
+  BB75a6c92f9 -> BB75a6c9300 [color="red"];
+  BB75a6c9300 -> BB75a6c930b [color="blue"];
+  BB75a6c9309 -> BB75a6c930b [color="blue"];
+}

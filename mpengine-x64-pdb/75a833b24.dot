@@ -1,0 +1,25 @@
+digraph SendParentNotificationForWMI {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a833b24 -> BB75a833c25 [color="green"];
+  BB75a833b24 -> BB75a833b41 [color="red"];
+  BB75a833b41 -> BB75a833c25 [color="green"];
+  BB75a833b41 -> BB75a833b51 [color="red"];
+  BB75a833b51 -> BB75a833bc7 [color="green"];
+  BB75a833b51 -> BB75a833b8b [color="red"];
+  BB75a833b8b -> BB75a833bc3 [color="green"];
+  BB75a833b8b -> BB75a833b9e [color="red"];
+  BB75a833b9e -> BB75a833bc3 [color="green"];
+  BB75a833b9e -> BB75a833ba4 [color="red"];
+  BB75a833ba4 -> BB75a833bc3 [color="red"];
+  BB75a833bc3 -> BB75a833bd5 [color="blue"];
+  BB75a833bc7 -> BB75a833bd5 [color="blue"];
+  BB75a833bd5 -> BB75a833bfd [color="blue"];
+  BB75a833bfd -> BB75a833c25 [color="green"];
+  BB75a833bfd -> BB75a833c01 [color="red"];
+  BB75a833c01 -> BB75a833c25 [color="green"];
+  BB75a833c01 -> BB75a833c06 [color="red"];
+  BB75a833c06 -> BB75a833c25 [color="green"];
+  BB75a833c06 -> BB75a833c0c [color="red"];
+  BB75a833c0c -> BB75a833c25 [color="red"];
+}

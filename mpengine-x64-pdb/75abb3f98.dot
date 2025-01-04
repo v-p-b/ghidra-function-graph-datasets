@@ -1,0 +1,10 @@
+digraph ~TrustAnchor {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb3f98 -> BB75abb3fd6 [color="green"];
+  BB75abb3f98 -> BB75abb3faa [color="red"];
+  BB75abb3faa -> BB75abb3fd6 [color="red"];
+  BB75abb3fd6 -> BB75abb400b [color="green"];
+  BB75abb3fd6 -> BB75abb3fdf [color="red"];
+  BB75abb3fdf -> BB75abb400b [color="red"];
+}

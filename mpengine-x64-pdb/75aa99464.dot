@@ -1,0 +1,21 @@
+digraph MemScanSuspendProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa99464 -> BB75aa994ae [color="green"];
+  BB75aa99464 -> BB75aa9947e [color="red"];
+  BB75aa9947e -> BB75aa994be [color="green"];
+  BB75aa9947e -> BB75aa99482 [color="red"];
+  BB75aa99482 -> BB75aa994ae [color="green"];
+  BB75aa99482 -> BB75aa99495 [color="red"];
+  BB75aa99495 -> BB75aa994ae [color="green"];
+  BB75aa99495 -> BB75aa9949b [color="red"];
+  BB75aa9949b -> BB75aa994ae [color="red"];
+  BB75aa994ae -> BB75aa994b3 [color="blue"];
+  BB75aa994be -> BB75aa994e6 [color="green"];
+  BB75aa994be -> BB75aa994da [color="red"];
+  BB75aa994da -> BB75aa994e6 [color="red"];
+  BB75aa994e6 -> BB75aa994f5 [color="green"];
+  BB75aa994e6 -> BB75aa994f0 [color="red"];
+  BB75aa994f0 -> BB75aa994f5 [color="red"];
+  BB75aa994f5 -> BB75aa994b3 [color="blue"];
+}

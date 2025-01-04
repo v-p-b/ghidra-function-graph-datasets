@@ -1,0 +1,13 @@
+digraph SetScanMode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1c79f0 -> BB75a1c7a35 [color="green"];
+  BB75a1c79f0 -> BB75a1c7a1b [color="red"];
+  BB75a1c7a1b -> BB75a1c7a1f [color="blue"];
+  BB75a1c7a1f -> BB75a1c7a1f [color="green"];
+  BB75a1c7a1f -> BB75a1c7a28 [color="red"];
+  BB75a1c7a28 -> BB75a1c7a45 [color="green"];
+  BB75a1c7a28 -> BB75a1c7a2e [color="red"];
+  BB75a1c7a2e -> BB75a1c7a35 [color="blue"];
+  BB75a1c7a45 -> BB75a1c7a35 [color="blue"];
+}

@@ -1,0 +1,24 @@
+digraph AddHeartbeatExclusion {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5c8090 -> BB75a5c810c [color="green"];
+  BB75a5c8090 -> BB75a5c80b1 [color="red"];
+  BB75a5c80b1 -> BB75a5c810c [color="green"];
+  BB75a5c80b1 -> BB75a5c80d4 [color="red"];
+  BB75a5c80d4 -> BB75a5c8183 [color="green"];
+  BB75a5c80d4 -> BB75a5c80eb [color="red"];
+  BB75a5c80eb -> BB75a5c8183 [color="green"];
+  BB75a5c80eb -> BB75a5c80f5 [color="red"];
+  BB75a5c80f5 -> BB75a5c80fa [color="blue"];
+  BB75a5c80fa -> BB75a5c8183 [color="blue"];
+  BB75a5c810c -> BB75a5c8144 [color="green"];
+  BB75a5c810c -> BB75a5c8126 [color="red"];
+  BB75a5c8126 -> BB75a5c8183 [color="green"];
+  BB75a5c8126 -> BB75a5c8139 [color="red"];
+  BB75a5c8139 -> BB75a5c8183 [color="green"];
+  BB75a5c8139 -> BB75a5c813f [color="red"];
+  BB75a5c813f -> BB75a5c80fa [color="blue"];
+  BB75a5c8144 -> BB75a5c8183 [color="green"];
+  BB75a5c8144 -> BB75a5c8162 [color="red"];
+  BB75a5c8162 -> BB75a5c8183 [color="red"];
+}

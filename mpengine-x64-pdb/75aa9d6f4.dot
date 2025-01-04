@@ -1,0 +1,10 @@
+digraph IsPartitionPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa9d6f4 -> BB75aa9d740 [color="green"];
+  BB75aa9d6f4 -> BB75aa9d713 [color="red"];
+  BB75aa9d713 -> BB75aa9d740 [color="green"];
+  BB75aa9d713 -> BB75aa9d724 [color="red"];
+  BB75aa9d724 -> BB75aa9d742 [color="blue"];
+  BB75aa9d740 -> BB75aa9d742 [color="blue"];
+}

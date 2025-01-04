@@ -1,0 +1,30 @@
+digraph mmap64_lock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1c2900 -> BB75a1c29eb [color="green"];
+  BB75a1c2900 -> BB75a1c293a [color="red"];
+  BB75a1c293a -> BB75a1c293f [color="red"];
+  BB75a1c293f -> BB75a1c29d5 [color="green"];
+  BB75a1c293f -> BB75a1c294b [color="red"];
+  BB75a1c294b -> BB75a1c29f5 [color="green"];
+  BB75a1c294b -> BB75a1c2955 [color="red"];
+  BB75a1c2955 -> BB75a1c29f5 [color="green"];
+  BB75a1c2955 -> BB75a1c296f [color="red"];
+  BB75a1c296f -> BB75a1c29d0 [color="green"];
+  BB75a1c296f -> BB75a1c298f [color="red"];
+  BB75a1c298f -> BB75a1c29e1 [color="green"];
+  BB75a1c298f -> BB75a1c2996 [color="red"];
+  BB75a1c2996 -> BB75a1c29e4 [color="green"];
+  BB75a1c2996 -> BB75a1c299d [color="red"];
+  BB75a1c299d -> BB75a1c29da [color="green"];
+  BB75a1c299d -> BB75a1c29b5 [color="red"];
+  BB75a1c29b5 -> BB75a1c29b8 [color="blue"];
+  BB75a1c29b8 -> BB75a1c29bb [color="blue"];
+  BB75a1c29d0 -> BB75a1c29d5 [color="red"];
+  BB75a1c29d5 -> BB75a1c29da [color="blue"];
+  BB75a1c29da -> BB75a1c29bb [color="blue"];
+  BB75a1c29e1 -> BB75a1c29e4 [color="blue"];
+  BB75a1c29e4 -> BB75a1c299d [color="blue"];
+  BB75a1c29eb -> BB75a1c293f [color="blue"];
+  BB75a1c29f5 -> BB75a1c29b8 [color="blue"];
+}

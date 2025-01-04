@@ -1,0 +1,17 @@
+digraph sqlite3CompareAffinity {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a295f4c -> BB75a295f69 [color="green"];
+  BB75a295f4c -> BB75a295f5d [color="red"];
+  BB75a295f5d -> BB75a295f7a [color="green"];
+  BB75a295f5d -> BB75a295f61 [color="red"];
+  BB75a295f61 -> BB75a295f63 [color="blue"];
+  BB75a295f69 -> BB75a295f61 [color="green"];
+  BB75a295f69 -> BB75a295f6d [color="red"];
+  BB75a295f6d -> BB75a295f75 [color="green"];
+  BB75a295f6d -> BB75a295f71 [color="red"];
+  BB75a295f71 -> BB75a295f63 [color="blue"];
+  BB75a295f75 -> BB75a295f71 [color="green"];
+  BB75a295f75 -> BB75a295f7a [color="red"];
+  BB75a295f7a -> BB75a295f63 [color="blue"];
+}

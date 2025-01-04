@@ -1,0 +1,11 @@
+digraph LeakHandle {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a57e580 -> BB75a57e5a3 [color="green"];
+  BB75a57e580 -> BB75a57e599 [color="red"];
+  BB75a57e5a3 -> BB75a57e599 [color="green"];
+  BB75a57e5a3 -> BB75a57e5b6 [color="red"];
+  BB75a57e5b6 -> BB75a57e599 [color="green"];
+  BB75a57e5b6 -> BB75a57e5bc [color="red"];
+  BB75a57e5bc -> BB75a57e599 [color="blue"];
+}

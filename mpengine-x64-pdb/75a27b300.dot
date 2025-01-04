@@ -1,0 +1,13 @@
+digraph GetLru {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a27b300 -> BB75a27b3c2 [color="green"];
+  BB75a27b300 -> BB75a27b324 [color="red"];
+  BB75a27b324 -> BB75a27b3e6 [color="green"];
+  BB75a27b324 -> BB75a27b36c [color="red"];
+  BB75a27b36c -> BB75a27b3ab [color="red"];
+  BB75a27b3c2 -> BB75a27b324 [color="green"];
+  BB75a27b3c2 -> BB75a27b3cc [color="red"];
+  BB75a27b3cc -> BB75a27b324 [color="blue"];
+  BB75a27b3e6 -> BB75a27b3ab [color="blue"];
+}

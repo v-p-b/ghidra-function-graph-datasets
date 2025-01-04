@@ -1,0 +1,21 @@
+digraph alloc_VMM_swap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa80324 -> BB75aa8043a [color="green"];
+  BB75aa80324 -> BB75aa80349 [color="red"];
+  BB75aa80349 -> BB75aa8043a [color="green"];
+  BB75aa80349 -> BB75aa80357 [color="red"];
+  BB75aa80357 -> BB75aa8042c [color="green"];
+  BB75aa80357 -> BB75aa803d5 [color="red"];
+  BB75aa803d5 -> BB75aa8042c [color="green"];
+  BB75aa803d5 -> BB75aa803da [color="red"];
+  BB75aa803da -> BB75aa803ff [color="green"];
+  BB75aa803da -> BB75aa803fa [color="red"];
+  BB75aa803fa -> BB75aa803ff [color="red"];
+  BB75aa803ff -> BB75aa80428 [color="green"];
+  BB75aa803ff -> BB75aa80422 [color="red"];
+  BB75aa80422 -> BB75aa80428 [color="red"];
+  BB75aa80428 -> BB75aa80441 [color="blue"];
+  BB75aa8042c -> BB75aa80441 [color="blue"];
+  BB75aa8043a -> BB75aa80441 [color="red"];
+}

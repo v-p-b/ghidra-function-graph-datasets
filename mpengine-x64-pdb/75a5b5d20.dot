@@ -1,0 +1,16 @@
+digraph _Emplace_reallocate<unsigned_long&___ptr64,struct_in6_addr&___ptr64> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5b5d20 -> BB75a5b5d9b [color="green"];
+  BB75a5b5d20 -> BB75a5b5d8e [color="red"];
+  BB75a5b5d9b -> BB75a5b5dd6 [color="green"];
+  BB75a5b5d9b -> BB75a5b5dcb [color="red"];
+  BB75a5b5dcb -> BB75a5b5dd6 [color="blue"];
+  BB75a5b5dd6 -> BB75a5b5e24 [color="green"];
+  BB75a5b5dd6 -> BB75a5b5e1f [color="red"];
+  BB75a5b5e1f -> BB75a5b5e3d [color="blue"];
+  BB75a5b5e24 -> BB75a5b5e3d [color="red"];
+  BB75a5b5e3d -> BB75a5b5e7a [color="green"];
+  BB75a5b5e3d -> BB75a5b5e4b [color="red"];
+  BB75a5b5e4b -> BB75a5b5e7a [color="red"];
+}

@@ -1,0 +1,12 @@
+digraph processTDTStatusCodes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6b0154 -> BB75a6b0162 [color="green"];
+  BB75a6b0154 -> BB75a6b015e [color="red"];
+  BB75a6b015e -> BB75a6b016b [color="green"];
+  BB75a6b015e -> BB75a6b0162 [color="red"];
+  BB75a6b0162 -> BB75a6b0168 [color="blue"];
+  BB75a6b016b -> BB75a6b0168 [color="green"];
+  BB75a6b016b -> BB75a6b0170 [color="red"];
+  BB75a6b0170 -> BB75a6b0162 [color="blue"];
+}

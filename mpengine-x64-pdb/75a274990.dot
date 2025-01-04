@@ -1,0 +1,24 @@
+digraph winLockSharedMemory {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a274990 -> BB75a274a7c [color="green"];
+  BB75a274990 -> BB75a2749dd [color="red"];
+  BB75a2749dd -> BB75a274a10 [color="green"];
+  BB75a2749dd -> BB75a2749e2 [color="red"];
+  BB75a2749e2 -> BB75a274a06 [color="green"];
+  BB75a2749e2 -> BB75a2749f8 [color="red"];
+  BB75a2749f8 -> BB75a274a06 [color="red"];
+  BB75a274a06 -> BB75a274ab6 [color="blue"];
+  BB75a274a10 -> BB75a274a6c [color="green"];
+  BB75a274a10 -> BB75a274a22 [color="red"];
+  BB75a274a22 -> BB75a274a3f [color="green"];
+  BB75a274a22 -> BB75a274a31 [color="red"];
+  BB75a274a31 -> BB75a274a3f [color="red"];
+  BB75a274a3f -> BB75a274ab6 [color="blue"];
+  BB75a274a6c -> BB75a274a8a [color="blue"];
+  BB75a274a7c -> BB75a274a8a [color="red"];
+  BB75a274a8a -> BB75a274ab4 [color="green"];
+  BB75a274a8a -> BB75a274aa1 [color="red"];
+  BB75a274aa1 -> BB75a274ab4 [color="red"];
+  BB75a274ab4 -> BB75a274ab6 [color="blue"];
+}

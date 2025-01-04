@@ -1,0 +1,23 @@
+digraph SaveAnomalyData {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aba1b74 -> BB75aba1bc6 [color="green"];
+  BB75aba1b74 -> BB75aba1bc3 [color="red"];
+  BB75aba1bc3 -> BB75aba1bc6 [color="blue"];
+  BB75aba1bc6 -> BB75aba1bf0 [color="red"];
+  BB75aba1bf0 -> BB75aba1c84 [color="green"];
+  BB75aba1bf0 -> BB75aba1bf9 [color="red"];
+  BB75aba1bf9 -> BB75aba1c03 [color="green"];
+  BB75aba1bf9 -> BB75aba1c00 [color="red"];
+  BB75aba1c00 -> BB75aba1c03 [color="blue"];
+  BB75aba1c03 -> BB75aba1c7f [color="green"];
+  BB75aba1c03 -> BB75aba1c78 [color="red"];
+  BB75aba1c78 -> BB75aba1d64 [color="blue"];
+  BB75aba1c7f -> BB75aba1d15 [color="blue"];
+  BB75aba1c84 -> BB75aba1cf1 [color="green"];
+  BB75aba1c84 -> BB75aba1ce5 [color="red"];
+  BB75aba1ce5 -> BB75aba1cfb [color="blue"];
+  BB75aba1cf1 -> BB75aba1cfb [color="red"];
+  BB75aba1cfb -> BB75aba1bf0 [color="blue"];
+  BB75aba1d15 -> BB75aba1d64 [color="blue"];
+}

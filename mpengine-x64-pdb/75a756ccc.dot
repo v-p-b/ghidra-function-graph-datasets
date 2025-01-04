@@ -1,0 +1,20 @@
+digraph ~classifier_detect_impl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a756ccc -> BB75a756d00 [color="green"];
+  BB75a756ccc -> BB75a756ce8 [color="red"];
+  BB75a756ce8 -> BB75a756d00 [color="red"];
+  BB75a756d00 -> BB75a756d07 [color="blue"];
+  BB75a756d07 -> BB75a756d5e [color="green"];
+  BB75a756d07 -> BB75a756d20 [color="red"];
+  BB75a756d20 -> BB75a756d5e [color="red"];
+  BB75a756d5e -> BB75a756d7d [color="green"];
+  BB75a756d5e -> BB75a756d77 [color="red"];
+  BB75a756d77 -> BB75a756d7d [color="red"];
+  BB75a756d7d -> BB75a756de0 [color="green"];
+  BB75a756d7d -> BB75a756d96 [color="red"];
+  BB75a756d96 -> BB75a756de0 [color="red"];
+  BB75a756de0 -> BB75a756dff [color="green"];
+  BB75a756de0 -> BB75a756df9 [color="red"];
+  BB75a756df9 -> BB75a756dff [color="red"];
+}

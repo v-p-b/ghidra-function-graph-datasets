@@ -1,0 +1,12 @@
+digraph GetUfsPluginStackSize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2c74dc -> BB75a2c7510 [color="green"];
+  BB75a2c74dc -> BB75a2c74ee [color="red"];
+  BB75a2c74ee -> BB75a2c7510 [color="green"];
+  BB75a2c74ee -> BB75a2c74f4 [color="red"];
+  BB75a2c74f4 -> BB75a2c7509 [color="green"];
+  BB75a2c74f4 -> BB75a2c7501 [color="red"];
+  BB75a2c7509 -> BB75a2c7501 [color="blue"];
+  BB75a2c7510 -> BB75a2c74f4 [color="blue"];
+}

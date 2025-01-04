@@ -1,0 +1,10 @@
+digraph memchr {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad45a30 -> BB75ad45a42 [color="green"];
+  BB75ad45a30 -> BB75ad45a35 [color="red"];
+  BB75ad45a35 -> BB75ad45a42 [color="green"];
+  BB75ad45a35 -> BB75ad45a39 [color="red"];
+  BB75ad45a39 -> BB75ad45a35 [color="green"];
+  BB75ad45a39 -> BB75ad45a42 [color="red"];
+}

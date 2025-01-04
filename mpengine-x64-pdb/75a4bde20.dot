@@ -1,0 +1,14 @@
+digraph notify_DT_event {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4bde20 -> BB75a4bde7a [color="green"];
+  BB75a4bde20 -> BB75a4bde3e [color="red"];
+  BB75a4bde3e -> BB75a4bde5a [color="green"];
+  BB75a4bde3e -> BB75a4bde4a [color="red"];
+  BB75a4bde5a -> BB75a4bde4a [color="green"];
+  BB75a4bde5a -> BB75a4bde6a [color="red"];
+  BB75a4bde6a -> BB75a4bde4a [color="blue"];
+  BB75a4bde7a -> BB75a4bde3e [color="green"];
+  BB75a4bde7a -> BB75a4bdea8 [color="red"];
+  BB75a4bdea8 -> BB75a4bde3e [color="blue"];
+}

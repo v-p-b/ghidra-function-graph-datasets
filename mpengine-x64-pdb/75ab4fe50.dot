@@ -1,0 +1,20 @@
+digraph groupConcatStep {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab4fe50 -> BB75ab4ff1b [color="green"];
+  BB75ab4fe50 -> BB75ab4fe8a [color="red"];
+  BB75ab4fe8a -> BB75ab4ff1b [color="green"];
+  BB75ab4fe8a -> BB75ab4fe9c [color="red"];
+  BB75ab4fe9c -> BB75ab4fef1 [color="green"];
+  BB75ab4fe9c -> BB75ab4feb2 [color="red"];
+  BB75ab4feb2 -> BB75ab4fed7 [color="green"];
+  BB75ab4feb2 -> BB75ab4feb7 [color="red"];
+  BB75ab4feb7 -> BB75ab4fef1 [color="green"];
+  BB75ab4feb7 -> BB75ab4fed5 [color="red"];
+  BB75ab4fed5 -> BB75ab4fee3 [color="blue"];
+  BB75ab4fed7 -> BB75ab4fee3 [color="blue"];
+  BB75ab4fee3 -> BB75ab4fef1 [color="red"];
+  BB75ab4fef1 -> BB75ab4ff1b [color="green"];
+  BB75ab4fef1 -> BB75ab4ff0d [color="red"];
+  BB75ab4ff0d -> BB75ab4ff1b [color="red"];
+}

@@ -1,0 +1,11 @@
+digraph EngineHealthTimer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5bddf0 -> BB75a5bde4f [color="green"];
+  BB75a5bddf0 -> BB75a5bde46 [color="red"];
+  BB75a5bde4f -> BB75a5bde46 [color="green"];
+  BB75a5bde4f -> BB75a5bde62 [color="red"];
+  BB75a5bde62 -> BB75a5bde46 [color="green"];
+  BB75a5bde62 -> BB75a5bde68 [color="red"];
+  BB75a5bde68 -> BB75a5bde46 [color="blue"];
+}

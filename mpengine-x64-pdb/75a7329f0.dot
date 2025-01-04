@@ -1,0 +1,20 @@
+digraph IsMitigationOptionFeatureActive {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7329f0 -> BB75a732a63 [color="green"];
+  BB75a7329f0 -> BB75a732a18 [color="red"];
+  BB75a732a18 -> BB75a732a5b [color="green"];
+  BB75a732a18 -> BB75a732a35 [color="red"];
+  BB75a732a35 -> BB75a732a5b [color="green"];
+  BB75a732a35 -> BB75a732a3b [color="red"];
+  BB75a732a3b -> BB75a732a5b [color="red"];
+  BB75a732a5b -> BB75a732a5d [color="blue"];
+  BB75a732a63 -> BB75a732a5b [color="green"];
+  BB75a732a63 -> BB75a732a7c [color="red"];
+  BB75a732a7c -> BB75a732aaa [color="green"];
+  BB75a732a7c -> BB75a732a8f [color="red"];
+  BB75a732a8f -> BB75a732aaa [color="green"];
+  BB75a732a8f -> BB75a732a95 [color="red"];
+  BB75a732a95 -> BB75a732aaa [color="red"];
+  BB75a732aaa -> BB75a732a5d [color="blue"];
+}

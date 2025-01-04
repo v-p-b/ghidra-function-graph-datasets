@@ -1,0 +1,21 @@
+digraph write_integer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7a2de4 -> BB75a7a2e1f [color="green"];
+  BB75a7a2de4 -> BB75a7a2e0b [color="red"];
+  BB75a7a2e0b -> BB75a7a2e1b [color="red"];
+  BB75a7a2e1b -> BB75a7a2e53 [color="blue"];
+  BB75a7a2e1f -> BB75a7a2e4e [color="green"];
+  BB75a7a2e1f -> BB75a7a2e2e [color="red"];
+  BB75a7a2e2e -> BB75a7a2e49 [color="green"];
+  BB75a7a2e2e -> BB75a7a2e34 [color="red"];
+  BB75a7a2e34 -> BB75a7a2e45 [color="green"];
+  BB75a7a2e34 -> BB75a7a2e3a [color="red"];
+  BB75a7a2e3a -> BB75a7a2e1b [color="green"];
+  BB75a7a2e3a -> BB75a7a2e40 [color="red"];
+  BB75a7a2e40 -> BB75a7a2e51 [color="blue"];
+  BB75a7a2e45 -> BB75a7a2e51 [color="blue"];
+  BB75a7a2e49 -> BB75a7a2e51 [color="blue"];
+  BB75a7a2e4e -> BB75a7a2e51 [color="blue"];
+  BB75a7a2e51 -> BB75a7a2e53 [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph GetDynamic {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a405bb8 -> BB75a405bdd [color="green"];
+  BB75a405bb8 -> BB75a405bc9 [color="red"];
+  BB75a405bc9 -> BB75a405be7 [color="green"];
+  BB75a405bc9 -> BB75a405bcd [color="red"];
+  BB75a405bcd -> BB75a405bd7 [color="red"];
+  BB75a405bdd -> BB75a405bee [color="green"];
+  BB75a405bdd -> BB75a405be1 [color="red"];
+  BB75a405be1 -> BB75a405bd7 [color="blue"];
+  BB75a405be7 -> BB75a405bcd [color="blue"];
+  BB75a405bee -> BB75a405be1 [color="blue"];
+}

@@ -1,0 +1,34 @@
+digraph default_is_intel_gpu {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5f3240 -> BB75a5f3386 [color="green"];
+  BB75a5f3240 -> BB75a5f32a0 [color="red"];
+  BB75a5f32a0 -> BB75a5f32a2 [color="blue"];
+  BB75a5f32a2 -> BB75a5f32a7 [color="blue"];
+  BB75a5f32a7 -> BB75a5f32cb [color="green"];
+  BB75a5f32a7 -> BB75a5f32b8 [color="red"];
+  BB75a5f32b8 -> BB75a5f32cb [color="red"];
+  BB75a5f32cb -> BB75a5f3320 [color="green"];
+  BB75a5f32cb -> BB75a5f32e3 [color="red"];
+  BB75a5f32e3 -> BB75a5f32a7 [color="green"];
+  BB75a5f32e3 -> BB75a5f32ff [color="red"];
+  BB75a5f32ff -> BB75a5f32a2 [color="green"];
+  BB75a5f32ff -> BB75a5f3314 [color="red"];
+  BB75a5f3314 -> BB75a5f32a2 [color="green"];
+  BB75a5f3314 -> BB75a5f331d [color="red"];
+  BB75a5f331d -> BB75a5f3320 [color="blue"];
+  BB75a5f3320 -> BB75a5f333d [color="green"];
+  BB75a5f3320 -> BB75a5f332a [color="red"];
+  BB75a5f332a -> BB75a5f333d [color="red"];
+  BB75a5f333d -> BB75a5f335a [color="green"];
+  BB75a5f333d -> BB75a5f3347 [color="red"];
+  BB75a5f3347 -> BB75a5f335a [color="red"];
+  BB75a5f335a -> BB75a5f335d [color="blue"];
+  BB75a5f3386 -> BB75a5f33a3 [color="green"];
+  BB75a5f3386 -> BB75a5f3390 [color="red"];
+  BB75a5f3390 -> BB75a5f33a3 [color="red"];
+  BB75a5f33a3 -> BB75a5f33c0 [color="green"];
+  BB75a5f33a3 -> BB75a5f33ad [color="red"];
+  BB75a5f33ad -> BB75a5f33c0 [color="red"];
+  BB75a5f33c0 -> BB75a5f335d [color="blue"];
+}

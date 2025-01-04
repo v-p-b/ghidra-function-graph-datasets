@@ -1,0 +1,17 @@
+digraph ConsolidationKeepsFriendlyThreat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aab485c -> BB75aab4880 [color="green"];
+  BB75aab485c -> BB75aab4872 [color="red"];
+  BB75aab4872 -> BB75aab4880 [color="green"];
+  BB75aab4872 -> BB75aab4877 [color="red"];
+  BB75aab4877 -> BB75aab4880 [color="green"];
+  BB75aab4877 -> BB75aab487c [color="red"];
+  BB75aab487c -> BB75aab4898 [color="blue"];
+  BB75aab4880 -> BB75aab4896 [color="green"];
+  BB75aab4880 -> BB75aab4887 [color="red"];
+  BB75aab4887 -> BB75aab4896 [color="green"];
+  BB75aab4887 -> BB75aab4894 [color="red"];
+  BB75aab4894 -> BB75aab4896 [color="blue"];
+  BB75aab4896 -> BB75aab4898 [color="blue"];
+}

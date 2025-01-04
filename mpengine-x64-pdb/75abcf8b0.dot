@@ -1,0 +1,31 @@
+digraph WriteBootSector {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abcf8b0 -> BB75abcf904 [color="green"];
+  BB75abcf8b0 -> BB75abcf8e6 [color="red"];
+  BB75abcf8e6 -> BB75abcf8fd [color="green"];
+  BB75abcf8e6 -> BB75abcf8f7 [color="red"];
+  BB75abcf8f7 -> BB75abcf8fd [color="red"];
+  BB75abcf8fd -> BB75abcf9b5 [color="blue"];
+  BB75abcf904 -> BB75abcf938 [color="green"];
+  BB75abcf904 -> BB75abcf915 [color="red"];
+  BB75abcf915 -> BB75abcf931 [color="green"];
+  BB75abcf915 -> BB75abcf92b [color="red"];
+  BB75abcf92b -> BB75abcf931 [color="red"];
+  BB75abcf931 -> BB75abcf9b5 [color="blue"];
+  BB75abcf938 -> BB75abcf9a5 [color="green"];
+  BB75abcf938 -> BB75abcf953 [color="red"];
+  BB75abcf953 -> BB75abcf98c [color="green"];
+  BB75abcf953 -> BB75abcf966 [color="red"];
+  BB75abcf966 -> BB75abcf98c [color="green"];
+  BB75abcf966 -> BB75abcf96c [color="red"];
+  BB75abcf96c -> BB75abcf98c [color="red"];
+  BB75abcf98c -> BB75abcf9a1 [color="green"];
+  BB75abcf98c -> BB75abcf998 [color="red"];
+  BB75abcf998 -> BB75abcf9a1 [color="red"];
+  BB75abcf9a1 -> BB75abcf9b5 [color="blue"];
+  BB75abcf9a5 -> BB75abcf9b3 [color="green"];
+  BB75abcf9a5 -> BB75abcf9aa [color="red"];
+  BB75abcf9aa -> BB75abcf9b3 [color="red"];
+  BB75abcf9b3 -> BB75abcf9b5 [color="blue"];
+}

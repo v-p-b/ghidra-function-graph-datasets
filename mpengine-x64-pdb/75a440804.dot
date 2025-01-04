@@ -1,0 +1,25 @@
+digraph GetPathListByCSIDL {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a440804 -> BB75a4408c1 [color="green"];
+  BB75a440804 -> BB75a440831 [color="red"];
+  BB75a440831 -> BB75a4408a0 [color="green"];
+  BB75a440831 -> BB75a44084b [color="red"];
+  BB75a44084b -> BB75a440854 [color="blue"];
+  BB75a440854 -> BB75a4408a0 [color="green"];
+  BB75a440854 -> BB75a440859 [color="red"];
+  BB75a440859 -> BB75a440869 [color="green"];
+  BB75a440859 -> BB75a440865 [color="red"];
+  BB75a440865 -> BB75a440854 [color="blue"];
+  BB75a440869 -> BB75a4408ba [color="green"];
+  BB75a440869 -> BB75a440871 [color="red"];
+  BB75a440871 -> BB75a440887 [color="red"];
+  BB75a4408a0 -> BB75a4408cb [color="green"];
+  BB75a4408a0 -> BB75a4408b3 [color="red"];
+  BB75a4408b3 -> BB75a440887 [color="blue"];
+  BB75a4408ba -> BB75a440871 [color="blue"];
+  BB75a4408c1 -> BB75a440831 [color="blue"];
+  BB75a4408cb -> BB75a4408b3 [color="green"];
+  BB75a4408cb -> BB75a4408d1 [color="red"];
+  BB75a4408d1 -> BB75a4408b3 [color="blue"];
+}

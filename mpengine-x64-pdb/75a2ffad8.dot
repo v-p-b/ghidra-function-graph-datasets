@@ -1,0 +1,21 @@
+digraph SetStackTrace {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2ffad8 -> BB75a2ffb73 [color="green"];
+  BB75a2ffad8 -> BB75a2ffb0d [color="red"];
+  BB75a2ffb0d -> BB75a2ffb73 [color="green"];
+  BB75a2ffb0d -> BB75a2ffb13 [color="red"];
+  BB75a2ffb13 -> BB75a2ffb20 [color="green"];
+  BB75a2ffb13 -> BB75a2ffb18 [color="red"];
+  BB75a2ffb18 -> BB75a2ffb1a [color="blue"];
+  BB75a2ffb20 -> BB75a2ffb40 [color="blue"];
+  BB75a2ffb40 -> BB75a2ffb7f [color="green"];
+  BB75a2ffb40 -> BB75a2ffb66 [color="red"];
+  BB75a2ffb66 -> BB75a2ffb40 [color="green"];
+  BB75a2ffb66 -> BB75a2ffb6e [color="red"];
+  BB75a2ffb6e -> BB75a2ffb77 [color="green"];
+  BB75a2ffb6e -> BB75a2ffb73 [color="red"];
+  BB75a2ffb73 -> BB75a2ffb1a [color="blue"];
+  BB75a2ffb77 -> BB75a2ffb1a [color="blue"];
+  BB75a2ffb7f -> BB75a2ffb66 [color="blue"];
+}

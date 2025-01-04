@@ -1,0 +1,28 @@
+digraph ZSTD_decodeFrameHeader {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abfd13c -> BB75abfd224 [color="green"];
+  BB75abfd13c -> BB75abfd16e [color="red"];
+  BB75abfd16e -> BB75abfd17f [color="green"];
+  BB75abfd16e -> BB75abfd173 [color="red"];
+  BB75abfd173 -> BB75abfd224 [color="blue"];
+  BB75abfd17f -> BB75abfd19e [color="green"];
+  BB75abfd17f -> BB75abfd18c [color="red"];
+  BB75abfd18c -> BB75abfd19e [color="green"];
+  BB75abfd18c -> BB75abfd196 [color="red"];
+  BB75abfd196 -> BB75abfd19e [color="red"];
+  BB75abfd19e -> BB75abfd1b9 [color="green"];
+  BB75abfd19e -> BB75abfd1a8 [color="red"];
+  BB75abfd1a8 -> BB75abfd1b9 [color="green"];
+  BB75abfd1a8 -> BB75abfd1b0 [color="red"];
+  BB75abfd1b0 -> BB75abfd224 [color="blue"];
+  BB75abfd1b9 -> BB75abfd1cb [color="green"];
+  BB75abfd1b9 -> BB75abfd1c2 [color="red"];
+  BB75abfd1c2 -> BB75abfd1cd [color="green"];
+  BB75abfd1c2 -> BB75abfd1cb [color="red"];
+  BB75abfd1cb -> BB75abfd1cd [color="blue"];
+  BB75abfd1cd -> BB75abfd21b [color="green"];
+  BB75abfd1cd -> BB75abfd1d7 [color="red"];
+  BB75abfd1d7 -> BB75abfd21b [color="red"];
+  BB75abfd21b -> BB75abfd224 [color="blue"];
+}

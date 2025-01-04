@@ -1,0 +1,11 @@
+digraph GetRescanStatus {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3d02fc -> BB75a3d0372 [color="green"];
+  BB75a3d02fc -> BB75a3d031e [color="red"];
+  BB75a3d031e -> BB75a3d0355 [color="green"];
+  BB75a3d031e -> BB75a3d0327 [color="red"];
+  BB75a3d0327 -> BB75a3d0342 [color="red"];
+  BB75a3d0355 -> BB75a3d0327 [color="blue"];
+  BB75a3d0372 -> BB75a3d0342 [color="blue"];
+}

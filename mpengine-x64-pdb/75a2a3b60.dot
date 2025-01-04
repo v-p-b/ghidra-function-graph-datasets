@@ -1,0 +1,16 @@
+digraph releaseAllSavepoints {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2a3b60 -> BB75a2a3bc6 [color="green"];
+  BB75a2a3b60 -> BB75a2a3b7c [color="red"];
+  BB75a2a3b7c -> BB75a2a3bb4 [color="green"];
+  BB75a2a3b7c -> BB75a2a3b82 [color="red"];
+  BB75a2a3b82 -> BB75a2a3b8b [color="red"];
+  BB75a2a3bb4 -> BB75a2a3b8b [color="green"];
+  BB75a2a3bb4 -> BB75a2a3bc4 [color="red"];
+  BB75a2a3bc4 -> BB75a2a3b82 [color="blue"];
+  BB75a2a3bc6 -> BB75a2a3bc8 [color="blue"];
+  BB75a2a3bc8 -> BB75a2a3bc8 [color="green"];
+  BB75a2a3bc8 -> BB75a2a3be4 [color="red"];
+  BB75a2a3be4 -> BB75a2a3b7c [color="blue"];
+}

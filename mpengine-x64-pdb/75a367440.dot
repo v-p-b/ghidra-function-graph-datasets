@@ -1,0 +1,24 @@
+digraph clear_friendly_threat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a367440 -> BB75a36746c [color="green"];
+  BB75a367440 -> BB75a367467 [color="red"];
+  BB75a367467 -> BB75a36746c [color="red"];
+  BB75a36746c -> BB75a3674e0 [color="green"];
+  BB75a36746c -> BB75a367480 [color="red"];
+  BB75a367480 -> BB75a3674b2 [color="green"];
+  BB75a367480 -> BB75a36749d [color="red"];
+  BB75a36749d -> BB75a3674b0 [color="green"];
+  BB75a36749d -> BB75a3674ac [color="red"];
+  BB75a3674ac -> BB75a3674b2 [color="blue"];
+  BB75a3674b0 -> BB75a3674b2 [color="blue"];
+  BB75a3674b2 -> BB75a367480 [color="green"];
+  BB75a3674b2 -> BB75a3674ba [color="red"];
+  BB75a3674ba -> BB75a3674e0 [color="green"];
+  BB75a3674ba -> BB75a3674be [color="red"];
+  BB75a3674be -> BB75a3674e0 [color="green"];
+  BB75a3674be -> BB75a3674c3 [color="red"];
+  BB75a3674c3 -> BB75a3674e0 [color="green"];
+  BB75a3674c3 -> BB75a3674cf [color="red"];
+  BB75a3674cf -> BB75a3674e0 [color="blue"];
+}

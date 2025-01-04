@@ -1,0 +1,17 @@
+digraph GetBuffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a54f59c -> BB75a54f5b0 [color="green"];
+  BB75a54f59c -> BB75a54f5ab [color="red"];
+  BB75a54f5ab -> BB75a54f5b7 [color="blue"];
+  BB75a54f5b0 -> BB75a54f5b7 [color="blue"];
+  BB75a54f5b7 -> BB75a54f5d6 [color="green"];
+  BB75a54f5b7 -> BB75a54f5c0 [color="red"];
+  BB75a54f5c0 -> BB75a54f5d6 [color="green"];
+  BB75a54f5c0 -> BB75a54f5cb [color="red"];
+  BB75a54f5d6 -> BB75a54f611 [color="green"];
+  BB75a54f5d6 -> BB75a54f5e9 [color="red"];
+  BB75a54f5e9 -> BB75a54f611 [color="green"];
+  BB75a54f5e9 -> BB75a54f5ef [color="red"];
+  BB75a54f5ef -> BB75a54f611 [color="red"];
+}

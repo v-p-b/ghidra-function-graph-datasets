@@ -1,0 +1,11 @@
+digraph getLockingMode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab4fa4c -> BB75ab4fa8c [color="green"];
+  BB75ab4fa4c -> BB75ab4fa60 [color="red"];
+  BB75ab4fa60 -> BB75ab4fa75 [color="green"];
+  BB75ab4fa60 -> BB75ab4fa70 [color="red"];
+  BB75ab4fa70 -> BB75ab4fa8f [color="blue"];
+  BB75ab4fa75 -> BB75ab4fa8f [color="blue"];
+  BB75ab4fa8c -> BB75ab4fa8f [color="blue"];
+}

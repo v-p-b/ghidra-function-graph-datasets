@@ -1,0 +1,25 @@
+digraph x86_signal_tick {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1b5490 -> BB75a1b551d [color="green"];
+  BB75a1b5490 -> BB75a1b54bb [color="red"];
+  BB75a1b54bb -> BB75a1b552f [color="green"];
+  BB75a1b54bb -> BB75a1b54d2 [color="red"];
+  BB75a1b54d2 -> BB75a1b5536 [color="green"];
+  BB75a1b54d2 -> BB75a1b54e2 [color="red"];
+  BB75a1b54e2 -> BB75a1b553d [color="green"];
+  BB75a1b54e2 -> BB75a1b5508 [color="red"];
+  BB75a1b551d -> BB75a1b54bb [color="green"];
+  BB75a1b551d -> BB75a1b5528 [color="red"];
+  BB75a1b5528 -> BB75a1b54bb [color="blue"];
+  BB75a1b552f -> BB75a1b54d2 [color="blue"];
+  BB75a1b5536 -> BB75a1b54e2 [color="blue"];
+  BB75a1b553d -> BB75a1b5560 [color="green"];
+  BB75a1b553d -> BB75a1b5553 [color="red"];
+  BB75a1b5553 -> BB75a1b5508 [color="blue"];
+  BB75a1b5560 -> BB75a1b55be [color="green"];
+  BB75a1b5560 -> BB75a1b55a6 [color="red"];
+  BB75a1b55a6 -> BB75a1b55c6 [color="blue"];
+  BB75a1b55be -> BB75a1b55c6 [color="blue"];
+  BB75a1b55c6 -> BB75a1b5508 [color="blue"];
+}

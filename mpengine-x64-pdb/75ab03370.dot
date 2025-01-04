@@ -1,0 +1,16 @@
+digraph luaB_select {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab03370 -> BB75ab033ce [color="green"];
+  BB75ab03370 -> BB75ab0339f [color="red"];
+  BB75ab0339f -> BB75ab033ce [color="green"];
+  BB75ab0339f -> BB75ab033b1 [color="red"];
+  BB75ab033b1 -> BB75ab033ff [color="blue"];
+  BB75ab033ce -> BB75ab033e0 [color="green"];
+  BB75ab033ce -> BB75ab033dc [color="red"];
+  BB75ab033dc -> BB75ab033e5 [color="blue"];
+  BB75ab033e0 -> BB75ab033e5 [color="blue"];
+  BB75ab033e5 -> BB75ab033fb [color="green"];
+  BB75ab033e5 -> BB75ab033e9 [color="red"];
+  BB75ab033fb -> BB75ab033ff [color="blue"];
+}

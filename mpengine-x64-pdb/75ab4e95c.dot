@@ -1,0 +1,13 @@
+digraph exprCompareVariable {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab4e95c -> BB75ab4ea01 [color="green"];
+  BB75ab4e95c -> BB75ab4e99b [color="red"];
+  BB75ab4e99b -> BB75ab4e9ef [color="green"];
+  BB75ab4e99b -> BB75ab4e9bc [color="red"];
+  BB75ab4e9bc -> BB75ab4e9da [color="green"];
+  BB75ab4e9bc -> BB75ab4e9d0 [color="red"];
+  BB75ab4e9d0 -> BB75ab4e9da [color="red"];
+  BB75ab4e9da -> BB75ab4e9ef [color="red"];
+  BB75ab4e9ef -> BB75ab4ea01 [color="red"];
+}

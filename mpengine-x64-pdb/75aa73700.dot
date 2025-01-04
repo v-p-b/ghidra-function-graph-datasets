@@ -1,0 +1,11 @@
+digraph NTDLL_DLL_VFS_GetLength {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa73700 -> BB75aa7377f [color="green"];
+  BB75aa73700 -> BB75aa73758 [color="red"];
+  BB75aa73758 -> BB75aa7377f [color="green"];
+  BB75aa73758 -> BB75aa7376a [color="red"];
+  BB75aa7376a -> BB75aa7377f [color="green"];
+  BB75aa7376a -> BB75aa73772 [color="red"];
+  BB75aa73772 -> BB75aa7377f [color="red"];
+}

@@ -1,0 +1,11 @@
+digraph sync_process_push {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a589ca0 -> BB75a589cce [color="green"];
+  BB75a589ca0 -> BB75a589cbc [color="red"];
+  BB75a589cbc -> BB75a589ceb [color="blue"];
+  BB75a589cce -> BB75a589ce6 [color="green"];
+  BB75a589cce -> BB75a589cdb [color="red"];
+  BB75a589cdb -> BB75a589ceb [color="blue"];
+  BB75a589ce6 -> BB75a589ceb [color="blue"];
+}

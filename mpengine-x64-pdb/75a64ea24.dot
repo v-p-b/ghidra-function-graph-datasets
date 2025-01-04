@@ -1,0 +1,20 @@
+digraph sqlite3VtabClear {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a64ea24 -> BB75a64ea69 [color="green"];
+  BB75a64ea24 -> BB75a64ea45 [color="red"];
+  BB75a64ea45 -> BB75a64ea69 [color="green"];
+  BB75a64ea45 -> BB75a64ea4e [color="red"];
+  BB75a64ea4e -> BB75a64ea72 [color="green"];
+  BB75a64ea4e -> BB75a64ea54 [color="red"];
+  BB75a64ea69 -> BB75a64ea4e [color="blue"];
+  BB75a64ea72 -> BB75a64ea9a [color="green"];
+  BB75a64ea72 -> BB75a64ea77 [color="red"];
+  BB75a64ea77 -> BB75a64ea7a [color="blue"];
+  BB75a64ea7a -> BB75a64ea90 [color="green"];
+  BB75a64ea7a -> BB75a64ea80 [color="red"];
+  BB75a64ea80 -> BB75a64ea90 [color="red"];
+  BB75a64ea90 -> BB75a64ea7a [color="green"];
+  BB75a64ea90 -> BB75a64ea9a [color="red"];
+  BB75a64ea9a -> BB75a64ea54 [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph sqlite3PcacheSetPageSize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a45ef20 -> BB75a45ef89 [color="green"];
+  BB75a45ef20 -> BB75a45ef3a [color="red"];
+  BB75a45ef3a -> BB75a45ef60 [color="green"];
+  BB75a45ef3a -> BB75a45ef5b [color="red"];
+  BB75a45ef5b -> BB75a45ef8b [color="blue"];
+  BB75a45ef60 -> BB75a45ef9b [color="green"];
+  BB75a45ef60 -> BB75a45ef82 [color="red"];
+  BB75a45ef82 -> BB75a45ef89 [color="blue"];
+  BB75a45ef89 -> BB75a45ef8b [color="blue"];
+  BB75a45ef9b -> BB75a45ef82 [color="blue"];
+}

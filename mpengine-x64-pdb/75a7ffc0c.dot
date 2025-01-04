@@ -1,0 +1,32 @@
+digraph Rollback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7ffc0c -> BB75a7ffc2d [color="green"];
+  BB75a7ffc0c -> BB75a7ffc28 [color="red"];
+  BB75a7ffc28 -> BB75a7ffc2d [color="red"];
+  BB75a7ffc2d -> BB75a7ffc42 [color="green"];
+  BB75a7ffc2d -> BB75a7ffc3d [color="red"];
+  BB75a7ffc3d -> BB75a7ffc42 [color="red"];
+  BB75a7ffc42 -> BB75a7ffc60 [color="green"];
+  BB75a7ffc42 -> BB75a7ffc5b [color="red"];
+  BB75a7ffc5b -> BB75a7ffc60 [color="red"];
+  BB75a7ffc60 -> BB75a7ffca5 [color="green"];
+  BB75a7ffc60 -> BB75a7ffc67 [color="red"];
+  BB75a7ffc67 -> BB75a7ffc9b [color="green"];
+  BB75a7ffc67 -> BB75a7ffc7a [color="red"];
+  BB75a7ffc7a -> BB75a7ffc9b [color="green"];
+  BB75a7ffc7a -> BB75a7ffc80 [color="red"];
+  BB75a7ffc80 -> BB75a7ffc9b [color="red"];
+  BB75a7ffc9b -> BB75a7ffd72 [color="blue"];
+  BB75a7ffca5 -> BB75a7ffd25 [color="green"];
+  BB75a7ffca5 -> BB75a7ffcf4 [color="red"];
+  BB75a7ffcf4 -> BB75a7ffd25 [color="green"];
+  BB75a7ffcf4 -> BB75a7ffd07 [color="red"];
+  BB75a7ffd07 -> BB75a7ffd25 [color="green"];
+  BB75a7ffd07 -> BB75a7ffd0d [color="red"];
+  BB75a7ffd0d -> BB75a7ffd25 [color="red"];
+  BB75a7ffd25 -> BB75a7ffd3a [color="green"];
+  BB75a7ffd25 -> BB75a7ffd35 [color="red"];
+  BB75a7ffd35 -> BB75a7ffd3a [color="red"];
+  BB75a7ffd3a -> BB75a7ffd72 [color="red"];
+}

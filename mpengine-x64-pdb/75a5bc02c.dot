@@ -1,0 +1,12 @@
+digraph CheckRegkeyUserAttr {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5bc02c -> BB75a5bc09c [color="green"];
+  BB75a5bc02c -> BB75a5bc051 [color="red"];
+  BB75a5bc051 -> BB75a5bc09c [color="green"];
+  BB75a5bc051 -> BB75a5bc068 [color="red"];
+  BB75a5bc068 -> BB75a5bc09c [color="green"];
+  BB75a5bc068 -> BB75a5bc07f [color="red"];
+  BB75a5bc07f -> BB75a5bc0a1 [color="blue"];
+  BB75a5bc09c -> BB75a5bc0a1 [color="blue"];
+}

@@ -1,0 +1,24 @@
+digraph get_cfi_statistics {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9410c0 -> BB75a9410e2 [color="green"];
+  BB75a9410c0 -> BB75a9410cf [color="red"];
+  BB75a9410cf -> BB75a9410e2 [color="green"];
+  BB75a9410cf -> BB75a9410d4 [color="red"];
+  BB75a9410d4 -> BB75a9410e2 [color="blue"];
+  BB75a9410e2 -> BB75a941101 [color="green"];
+  BB75a9410e2 -> BB75a9410ee [color="red"];
+  BB75a9410ee -> BB75a941101 [color="green"];
+  BB75a9410ee -> BB75a9410f3 [color="red"];
+  BB75a9410f3 -> BB75a941101 [color="blue"];
+  BB75a941101 -> BB75a941125 [color="green"];
+  BB75a941101 -> BB75a941112 [color="red"];
+  BB75a941112 -> BB75a941125 [color="green"];
+  BB75a941112 -> BB75a941117 [color="red"];
+  BB75a941117 -> BB75a941125 [color="blue"];
+  BB75a941125 -> BB75a941144 [color="green"];
+  BB75a941125 -> BB75a941131 [color="red"];
+  BB75a941131 -> BB75a941144 [color="green"];
+  BB75a941131 -> BB75a941136 [color="red"];
+  BB75a941136 -> BB75a941144 [color="blue"];
+}

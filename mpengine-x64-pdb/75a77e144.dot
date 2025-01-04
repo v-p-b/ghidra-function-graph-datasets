@@ -1,0 +1,11 @@
+digraph __scrt_dllmain_crt_thread_attach {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a77e144 -> BB75a77e155 [color="green"];
+  BB75a77e144 -> BB75a77e151 [color="red"];
+  BB75a77e151 -> BB75a77e167 [color="blue"];
+  BB75a77e155 -> BB75a77e165 [color="green"];
+  BB75a77e155 -> BB75a77e15e [color="red"];
+  BB75a77e15e -> BB75a77e151 [color="blue"];
+  BB75a77e165 -> BB75a77e167 [color="blue"];
+}

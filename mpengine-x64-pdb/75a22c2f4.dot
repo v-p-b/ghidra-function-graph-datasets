@@ -1,0 +1,11 @@
+digraph TestIsMonitoredFileOpen {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a22c2f4 -> BB75a22c368 [color="green"];
+  BB75a22c2f4 -> BB75a22c328 [color="red"];
+  BB75a22c328 -> BB75a22c34d [color="green"];
+  BB75a22c328 -> BB75a22c33b [color="red"];
+  BB75a22c33b -> BB75a22c34d [color="red"];
+  BB75a22c34d -> BB75a22c358 [color="red"];
+  BB75a22c368 -> BB75a22c358 [color="blue"];
+}

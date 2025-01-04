@@ -1,0 +1,14 @@
+digraph query_process_info {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9bf6e0 -> BB75a9bf752 [color="green"];
+  BB75a9bf6e0 -> BB75a9bf732 [color="red"];
+  BB75a9bf732 -> BB75a9bf743 [color="green"];
+  BB75a9bf732 -> BB75a9bf737 [color="red"];
+  BB75a9bf737 -> BB75a9bf743 [color="red"];
+  BB75a9bf743 -> BB75a9bf74d [color="green"];
+  BB75a9bf743 -> BB75a9bf748 [color="red"];
+  BB75a9bf748 -> BB75a9bf74d [color="blue"];
+  BB75a9bf74d -> BB75a9bf754 [color="blue"];
+  BB75a9bf752 -> BB75a9bf754 [color="blue"];
+}

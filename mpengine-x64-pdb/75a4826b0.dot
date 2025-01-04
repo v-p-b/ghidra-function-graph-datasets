@@ -1,0 +1,18 @@
+digraph isAncestor {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4826b0 -> BB75a482702 [color="green"];
+  BB75a4826b0 -> BB75a4826d4 [color="red"];
+  BB75a4826d4 -> BB75a482702 [color="green"];
+  BB75a4826d4 -> BB75a4826da [color="red"];
+  BB75a4826da -> BB75a482702 [color="green"];
+  BB75a4826da -> BB75a4826e2 [color="red"];
+  BB75a4826e2 -> BB75a482720 [color="green"];
+  BB75a4826e2 -> BB75a4826e7 [color="red"];
+  BB75a4826e7 -> BB75a482719 [color="green"];
+  BB75a4826e7 -> BB75a4826fe [color="red"];
+  BB75a4826fe -> BB75a4826d4 [color="blue"];
+  BB75a482702 -> BB75a482704 [color="blue"];
+  BB75a482719 -> BB75a4826fe [color="blue"];
+  BB75a482720 -> BB75a482704 [color="blue"];
+}

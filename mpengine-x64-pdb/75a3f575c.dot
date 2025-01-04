@@ -1,0 +1,10 @@
+digraph ~CCleanFileTelemetry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3f575c -> BB75a3f57b7 [color="green"];
+  BB75a3f575c -> BB75a3f57b1 [color="red"];
+  BB75a3f57b1 -> BB75a3f57b7 [color="red"];
+  BB75a3f57b7 -> BB75a3f57c6 [color="green"];
+  BB75a3f57b7 -> BB75a3f57c0 [color="red"];
+  BB75a3f57c0 -> BB75a3f57c6 [color="red"];
+}

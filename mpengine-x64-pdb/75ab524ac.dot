@@ -1,0 +1,14 @@
+digraph pager_incr_changecounter {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab524ac -> BB75ab5252c [color="green"];
+  BB75ab524ac -> BB75ab524c0 [color="red"];
+  BB75ab524c0 -> BB75ab5252c [color="green"];
+  BB75ab524c0 -> BB75ab524c5 [color="red"];
+  BB75ab524c5 -> BB75ab52522 [color="green"];
+  BB75ab524c5 -> BB75ab524e0 [color="red"];
+  BB75ab524e0 -> BB75ab52522 [color="green"];
+  BB75ab524e0 -> BB75ab524f0 [color="red"];
+  BB75ab524f0 -> BB75ab52522 [color="blue"];
+  BB75ab52522 -> BB75ab5252c [color="red"];
+}

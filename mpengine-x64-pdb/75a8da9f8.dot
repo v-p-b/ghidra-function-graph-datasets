@@ -1,0 +1,17 @@
+digraph create_status_json_notification {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8da9f8 -> BB75a8daa84 [color="green"];
+  BB75a8da9f8 -> BB75a8daa69 [color="red"];
+  BB75a8daa69 -> BB75a8daa9c [color="blue"];
+  BB75a8daa84 -> BB75a8daa9c [color="red"];
+  BB75a8daa9c -> BB75a8daad0 [color="green"];
+  BB75a8daa9c -> BB75a8daac0 [color="red"];
+  BB75a8daac0 -> BB75a8daad0 [color="red"];
+  BB75a8daad0 -> BB75a8daade [color="green"];
+  BB75a8daad0 -> BB75a8daad5 [color="red"];
+  BB75a8daad5 -> BB75a8daade [color="red"];
+  BB75a8daade -> BB75a8dab3b [color="green"];
+  BB75a8daade -> BB75a8daaf0 [color="red"];
+  BB75a8daaf0 -> BB75a8dab3b [color="red"];
+}

@@ -1,0 +1,21 @@
+digraph CreateStaticClassInstance {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a42660c -> BB75a4266a3 [color="green"];
+  BB75a42660c -> BB75a42662e [color="red"];
+  BB75a42662e -> BB75a4266a3 [color="green"];
+  BB75a42662e -> BB75a426649 [color="red"];
+  BB75a426649 -> BB75a426653 [color="blue"];
+  BB75a426653 -> BB75a42667a [color="green"];
+  BB75a426653 -> BB75a426658 [color="red"];
+  BB75a426658 -> BB75a426690 [color="green"];
+  BB75a426658 -> BB75a426672 [color="red"];
+  BB75a426672 -> BB75a426653 [color="blue"];
+  BB75a42667a -> BB75a4266a7 [color="green"];
+  BB75a42667a -> BB75a42667e [color="red"];
+  BB75a42667e -> BB75a4266a7 [color="green"];
+  BB75a42667e -> BB75a426690 [color="red"];
+  BB75a426690 -> BB75a426692 [color="blue"];
+  BB75a4266a3 -> BB75a426692 [color="blue"];
+  BB75a4266a7 -> BB75a426692 [color="blue"];
+}

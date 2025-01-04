@@ -1,0 +1,10 @@
+digraph register_timer_callback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9258dc -> BB75a925960 [color="green"];
+  BB75a9258dc -> BB75a9258e1 [color="red"];
+  BB75a9258e1 -> BB75a92594e [color="green"];
+  BB75a9258e1 -> BB75a925905 [color="red"];
+  BB75a925905 -> BB75a92594e [color="red"];
+  BB75a92594e -> BB75a925960 [color="red"];
+}

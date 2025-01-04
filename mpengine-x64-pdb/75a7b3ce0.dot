@@ -1,0 +1,14 @@
+digraph FPU_fucomi {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7b3ce0 -> BB75a7b3cfd [color="green"];
+  BB75a7b3ce0 -> BB75a7b3cfa [color="red"];
+  BB75a7b3cfa -> BB75a7b3cfd [color="blue"];
+  BB75a7b3cfd -> BB75a7b3d15 [color="green"];
+  BB75a7b3cfd -> BB75a7b3d13 [color="red"];
+  BB75a7b3d13 -> BB75a7b3d15 [color="blue"];
+  BB75a7b3d15 -> BB75a7b3d33 [color="green"];
+  BB75a7b3d15 -> BB75a7b3d28 [color="red"];
+  BB75a7b3d28 -> BB75a7b3d3c [color="blue"];
+  BB75a7b3d33 -> BB75a7b3d3c [color="blue"];
+}

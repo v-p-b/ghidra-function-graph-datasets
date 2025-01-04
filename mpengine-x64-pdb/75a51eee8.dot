@@ -1,0 +1,12 @@
+digraph FreeCompressionData {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a51eee8 -> BB75a51ef01 [color="green"];
+  BB75a51eee8 -> BB75a51eefc [color="red"];
+  BB75a51eefc -> BB75a51ef0f [color="green"];
+  BB75a51eefc -> BB75a51ef01 [color="red"];
+  BB75a51ef01 -> BB75a51ef0f [color="red"];
+  BB75a51ef0f -> BB75a51ef28 [color="green"];
+  BB75a51ef0f -> BB75a51ef1d [color="red"];
+  BB75a51ef28 -> BB75a51ef1d [color="blue"];
+}

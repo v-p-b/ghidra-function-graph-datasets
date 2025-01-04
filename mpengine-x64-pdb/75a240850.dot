@@ -1,0 +1,12 @@
+digraph push_selector {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a240850 -> BB75a2409ca [color="green"];
+  BB75a240850 -> BB75a240887 [color="red"];
+  BB75a240887 -> BB75a24088c [color="blue"];
+  BB75a24088c -> BB75a2409b7 [color="green"];
+  BB75a24088c -> BB75a2408fd [color="red"];
+  BB75a2408fd -> BB75a240906 [color="blue"];
+  BB75a2409b7 -> BB75a240906 [color="blue"];
+  BB75a2409ca -> BB75a24088c [color="blue"];
+}

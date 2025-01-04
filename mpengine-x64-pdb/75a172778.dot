@@ -1,0 +1,11 @@
+digraph newArrayObjectThrows {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a172778 -> BB75a1727bd [color="green"];
+  BB75a172778 -> BB75a17279d [color="red"];
+  BB75a17279d -> BB75a1727ae [color="green"];
+  BB75a17279d -> BB75a1727a6 [color="red"];
+  BB75a1727a6 -> BB75a1727a8 [color="blue"];
+  BB75a1727ae -> BB75a1727a6 [color="blue"];
+  BB75a1727bd -> BB75a1727a8 [color="blue"];
+}

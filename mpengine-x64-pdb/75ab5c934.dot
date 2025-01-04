@@ -1,0 +1,13 @@
+digraph winMbcsToUnicode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5c934 -> BB75ab5c9bf [color="green"];
+  BB75ab5c934 -> BB75ab5c979 [color="red"];
+  BB75ab5c979 -> BB75ab5c9bf [color="green"];
+  BB75ab5c979 -> BB75ab5c98c [color="red"];
+  BB75ab5c98c -> BB75ab5c9ba [color="green"];
+  BB75ab5c98c -> BB75ab5c9b0 [color="red"];
+  BB75ab5c9b0 -> BB75ab5c9ba [color="red"];
+  BB75ab5c9ba -> BB75ab5c9c1 [color="blue"];
+  BB75ab5c9bf -> BB75ab5c9c1 [color="blue"];
+}

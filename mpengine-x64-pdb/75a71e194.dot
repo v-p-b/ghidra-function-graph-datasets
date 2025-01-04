@@ -1,0 +1,13 @@
+digraph ~local_telemetry_server_impl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a71e194 -> BB75a71e268 [color="green"];
+  BB75a71e194 -> BB75a71e263 [color="red"];
+  BB75a71e263 -> BB75a71e268 [color="red"];
+  BB75a71e268 -> BB75a71e2dd [color="green"];
+  BB75a71e268 -> BB75a71e280 [color="red"];
+  BB75a71e280 -> BB75a71e2dd [color="red"];
+  BB75a71e2dd -> BB75a71e31b [color="green"];
+  BB75a71e2dd -> BB75a71e316 [color="red"];
+  BB75a71e316 -> BB75a71e31b [color="red"];
+}

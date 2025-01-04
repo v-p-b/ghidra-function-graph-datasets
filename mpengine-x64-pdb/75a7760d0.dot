@@ -1,0 +1,17 @@
+digraph getSystemCP {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7760d0 -> BB75a776102 [color="green"];
+  BB75a7760d0 -> BB75a7760f0 [color="red"];
+  BB75a7760f0 -> BB75a776117 [color="blue"];
+  BB75a776102 -> BB75a77611b [color="green"];
+  BB75a776102 -> BB75a776107 [color="red"];
+  BB75a776107 -> BB75a776117 [color="red"];
+  BB75a776117 -> BB75a776132 [color="blue"];
+  BB75a77611b -> BB75a776132 [color="green"];
+  BB75a77611b -> BB75a776120 [color="red"];
+  BB75a776120 -> BB75a776132 [color="blue"];
+  BB75a776132 -> BB75a776145 [color="green"];
+  BB75a776132 -> BB75a776139 [color="red"];
+  BB75a776139 -> BB75a776145 [color="blue"];
+}

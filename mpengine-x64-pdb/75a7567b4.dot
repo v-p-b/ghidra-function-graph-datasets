@@ -1,0 +1,10 @@
+digraph ~FilesStashCleanupThread {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7567b4 -> BB75a75680a [color="green"];
+  BB75a7567b4 -> BB75a7567cc [color="red"];
+  BB75a7567cc -> BB75a756800 [color="green"];
+  BB75a7567cc -> BB75a7567ec [color="red"];
+  BB75a7567ec -> BB75a756800 [color="red"];
+  BB75a756800 -> BB75a75680a [color="red"];
+}

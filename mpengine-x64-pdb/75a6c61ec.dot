@@ -1,0 +1,30 @@
+digraph GetThreatTrackingScanFlag {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6c61ec -> BB75a6c6308 [color="green"];
+  BB75a6c61ec -> BB75a6c620a [color="red"];
+  BB75a6c620a -> BB75a6c6308 [color="green"];
+  BB75a6c620a -> BB75a6c6213 [color="red"];
+  BB75a6c6213 -> BB75a6c623c [color="green"];
+  BB75a6c6213 -> BB75a6c6238 [color="red"];
+  BB75a6c6238 -> BB75a6c623c [color="blue"];
+  BB75a6c623c -> BB75a6c629e [color="green"];
+  BB75a6c623c -> BB75a6c6261 [color="red"];
+  BB75a6c6261 -> BB75a6c6290 [color="green"];
+  BB75a6c6261 -> BB75a6c6274 [color="red"];
+  BB75a6c6274 -> BB75a6c6290 [color="green"];
+  BB75a6c6274 -> BB75a6c627a [color="red"];
+  BB75a6c627a -> BB75a6c6290 [color="red"];
+  BB75a6c6290 -> BB75a6c630a [color="blue"];
+  BB75a6c629e -> BB75a6c62b9 [color="green"];
+  BB75a6c629e -> BB75a6c62a8 [color="red"];
+  BB75a6c62a8 -> BB75a6c62b5 [color="green"];
+  BB75a6c62a8 -> BB75a6c62ad [color="red"];
+  BB75a6c62ad -> BB75a6c62b5 [color="red"];
+  BB75a6c62b5 -> BB75a6c630a [color="blue"];
+  BB75a6c62b9 -> BB75a6c62c7 [color="green"];
+  BB75a6c62b9 -> BB75a6c62be [color="red"];
+  BB75a6c62be -> BB75a6c62c7 [color="red"];
+  BB75a6c62c7 -> BB75a6c6308 [color="blue"];
+  BB75a6c6308 -> BB75a6c630a [color="blue"];
+}

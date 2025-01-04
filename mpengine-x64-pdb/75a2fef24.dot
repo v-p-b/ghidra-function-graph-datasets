@@ -1,0 +1,11 @@
+digraph rpf_module_mmap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2fef24 -> BB75a2fef8c [color="green"];
+  BB75a2fef24 -> BB75a2fef41 [color="red"];
+  BB75a2fef41 -> BB75a2fef7c [color="green"];
+  BB75a2fef41 -> BB75a2fef4d [color="red"];
+  BB75a2fef4d -> BB75a2fef6c [color="blue"];
+  BB75a2fef7c -> BB75a2fef6c [color="blue"];
+  BB75a2fef8c -> BB75a2fef41 [color="blue"];
+}

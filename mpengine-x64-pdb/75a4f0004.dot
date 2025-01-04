@@ -1,0 +1,12 @@
+digraph setChildIndex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4f0004 -> BB75a4f004c [color="green"];
+  BB75a4f0004 -> BB75a4f0021 [color="red"];
+  BB75a4f0021 -> BB75a4f004c [color="green"];
+  BB75a4f0021 -> BB75a4f0027 [color="red"];
+  BB75a4f0027 -> BB75a4f0045 [color="green"];
+  BB75a4f0027 -> BB75a4f0032 [color="red"];
+  BB75a4f0045 -> BB75a4f0032 [color="blue"];
+  BB75a4f004c -> BB75a4f0027 [color="blue"];
+}

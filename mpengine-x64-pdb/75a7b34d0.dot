@@ -1,0 +1,16 @@
+digraph FPU_get_reg {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7b34d0 -> BB75a7b3504 [color="green"];
+  BB75a7b34d0 -> BB75a7b34f4 [color="red"];
+  BB75a7b34f4 -> BB75a7b3520 [color="green"];
+  BB75a7b34f4 -> BB75a7b34f9 [color="red"];
+  BB75a7b34f9 -> BB75a7b3504 [color="blue"];
+  BB75a7b3504 -> BB75a7b352c [color="green"];
+  BB75a7b3504 -> BB75a7b350d [color="red"];
+  BB75a7b350d -> BB75a7b352c [color="green"];
+  BB75a7b350d -> BB75a7b3515 [color="red"];
+  BB75a7b3520 -> BB75a7b352c [color="green"];
+  BB75a7b3520 -> BB75a7b3529 [color="red"];
+  BB75a7b3529 -> BB75a7b352c [color="blue"];
+}

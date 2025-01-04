@@ -1,0 +1,11 @@
+digraph isCurrLexOffsetValid {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5911e4 -> BB75a59121b [color="green"];
+  BB75a5911e4 -> BB75a5911f0 [color="red"];
+  BB75a5911f0 -> BB75a59121b [color="green"];
+  BB75a5911f0 -> BB75a5911fc [color="red"];
+  BB75a5911fc -> BB75a59121e [color="green"];
+  BB75a5911fc -> BB75a59121b [color="red"];
+  BB75a59121b -> BB75a59121e [color="blue"];
+}

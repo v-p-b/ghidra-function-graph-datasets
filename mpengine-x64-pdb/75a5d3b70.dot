@@ -1,0 +1,16 @@
+digraph FinalizeInitialize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5d3b70 -> BB75a5d3bd8 [color="green"];
+  BB75a5d3b70 -> BB75a5d3b8e [color="red"];
+  BB75a5d3b8e -> BB75a5d3bb1 [color="green"];
+  BB75a5d3b8e -> BB75a5d3bad [color="red"];
+  BB75a5d3bad -> BB75a5d3bb1 [color="blue"];
+  BB75a5d3bb1 -> BB75a5d3bc5 [color="green"];
+  BB75a5d3bb1 -> BB75a5d3bc0 [color="red"];
+  BB75a5d3bc0 -> BB75a5d3bc5 [color="red"];
+  BB75a5d3bc5 -> BB75a5d3bd8 [color="blue"];
+  BB75a5d3bd8 -> BB75a5d3be7 [color="green"];
+  BB75a5d3bd8 -> BB75a5d3be2 [color="red"];
+  BB75a5d3be2 -> BB75a5d3be7 [color="red"];
+}

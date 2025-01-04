@@ -1,0 +1,10 @@
+digraph GetPerfHint {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a592d58 -> BB75a592dcc [color="green"];
+  BB75a592d58 -> BB75a592d84 [color="red"];
+  BB75a592d84 -> BB75a592dcc [color="green"];
+  BB75a592d84 -> BB75a592d9f [color="red"];
+  BB75a592d9f -> BB75a592dbf [color="red"];
+  BB75a592dcc -> BB75a592dbf [color="blue"];
+}

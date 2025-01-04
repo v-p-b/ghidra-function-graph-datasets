@@ -1,0 +1,26 @@
+digraph getLocalLazy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a552b80 -> BB75a552bb9 [color="blue"];
+  BB75a552bb5 -> BB75a552bb9 [color="blue"];
+  BB75a552bb9 -> BB75a552bcc [color="green"];
+  BB75a552bb9 -> BB75a552bbf [color="red"];
+  BB75a552bbf -> BB75a552bb5 [color="green"];
+  BB75a552bbf -> BB75a552bc4 [color="red"];
+  BB75a552bc4 -> BB75a552bb9 [color="blue"];
+  BB75a552bcc -> BB75a552bfd [color="green"];
+  BB75a552bcc -> BB75a552bd1 [color="red"];
+  BB75a552bd1 -> BB75a552bfd [color="green"];
+  BB75a552bd1 -> BB75a552bd7 [color="red"];
+  BB75a552bd7 -> BB75a552bfd [color="green"];
+  BB75a552bd7 -> BB75a552bdd [color="red"];
+  BB75a552bdd -> BB75a552be4 [color="blue"];
+  BB75a552be4 -> BB75a552be6 [color="blue"];
+  BB75a552bfd -> BB75a552be6 [color="green"];
+  BB75a552bfd -> BB75a552c23 [color="red"];
+  BB75a552c23 -> BB75a552be4 [color="green"];
+  BB75a552c23 -> BB75a552c28 [color="red"];
+  BB75a552c28 -> BB75a552be4 [color="green"];
+  BB75a552c28 -> BB75a552c4d [color="red"];
+  BB75a552c4d -> BB75a552be4 [color="blue"];
+}

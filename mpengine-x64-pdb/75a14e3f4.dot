@@ -1,0 +1,13 @@
+digraph ShouldSampleAsimovReport {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a14e3f4 -> BB75a14e43a [color="green"];
+  BB75a14e3f4 -> BB75a14e401 [color="red"];
+  BB75a14e401 -> BB75a14e423 [color="green"];
+  BB75a14e401 -> BB75a14e40a [color="red"];
+  BB75a14e40a -> BB75a14e42a [color="green"];
+  BB75a14e40a -> BB75a14e423 [color="red"];
+  BB75a14e423 -> BB75a14e425 [color="blue"];
+  BB75a14e42a -> BB75a14e425 [color="blue"];
+  BB75a14e43a -> BB75a14e425 [color="blue"];
+}

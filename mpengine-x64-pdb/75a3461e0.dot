@@ -1,0 +1,14 @@
+digraph KERNEL32_DLL_GetModuleHandleA {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3461e0 -> BB75a3462b7 [color="green"];
+  BB75a3461e0 -> BB75a346241 [color="red"];
+  BB75a346241 -> BB75a3462c5 [color="green"];
+  BB75a346241 -> BB75a346260 [color="red"];
+  BB75a346260 -> BB75a34627e [color="red"];
+  BB75a34627e -> BB75a34628f [color="green"];
+  BB75a34627e -> BB75a346283 [color="red"];
+  BB75a346283 -> BB75a34628f [color="blue"];
+  BB75a3462b7 -> BB75a34627e [color="blue"];
+  BB75a3462c5 -> BB75a34627e [color="blue"];
+}

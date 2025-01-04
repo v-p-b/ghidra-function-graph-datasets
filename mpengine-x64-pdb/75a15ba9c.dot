@@ -1,0 +1,14 @@
+digraph destroy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a15ba9c -> BB75a15bad2 [color="green"];
+  BB75a15ba9c -> BB75a15bab1 [color="red"];
+  BB75a15bab1 -> BB75a15bb14 [color="green"];
+  BB75a15bab1 -> BB75a15bacc [color="red"];
+  BB75a15bacc -> BB75a15bab1 [color="green"];
+  BB75a15bacc -> BB75a15bad2 [color="red"];
+  BB75a15bad2 -> BB75a15bb09 [color="green"];
+  BB75a15bad2 -> BB75a15bada [color="red"];
+  BB75a15bada -> BB75a15bb09 [color="red"];
+  BB75a15bb14 -> BB75a15bacc [color="blue"];
+}

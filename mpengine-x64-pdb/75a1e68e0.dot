@@ -1,0 +1,16 @@
+digraph x86_emu_bound {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1e68e0 -> BB75a1e6930 [color="green"];
+  BB75a1e68e0 -> BB75a1e691a [color="red"];
+  BB75a1e691a -> BB75a1e6930 [color="green"];
+  BB75a1e691a -> BB75a1e6920 [color="red"];
+  BB75a1e6930 -> BB75a1e69da [color="green"];
+  BB75a1e6930 -> BB75a1e6944 [color="red"];
+  BB75a1e6944 -> BB75a1e69c2 [color="green"];
+  BB75a1e6944 -> BB75a1e699f [color="red"];
+  BB75a1e699f -> BB75a1e69b1 [color="blue"];
+  BB75a1e69b1 -> BB75a1e6920 [color="blue"];
+  BB75a1e69c2 -> BB75a1e69b1 [color="blue"];
+  BB75a1e69da -> BB75a1e6920 [color="blue"];
+}

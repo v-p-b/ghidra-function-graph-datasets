@@ -1,0 +1,17 @@
+digraph whereLoopClearUnion {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a296b5c -> BB75a296b80 [color="green"];
+  BB75a296b5c -> BB75a296b75 [color="red"];
+  BB75a296b80 -> BB75a296bb7 [color="green"];
+  BB75a296b80 -> BB75a296b89 [color="red"];
+  BB75a296b89 -> BB75a296b75 [color="green"];
+  BB75a296b89 -> BB75a296b92 [color="red"];
+  BB75a296b92 -> BB75a296b75 [color="green"];
+  BB75a296b92 -> BB75a296b9b [color="red"];
+  BB75a296b9b -> BB75a296bb0 [color="red"];
+  BB75a296bb0 -> BB75a296b75 [color="blue"];
+  BB75a296bb7 -> BB75a296b89 [color="green"];
+  BB75a296bb7 -> BB75a296bbd [color="red"];
+  BB75a296bbd -> BB75a296bb0 [color="blue"];
+}

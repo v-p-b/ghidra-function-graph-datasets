@@ -1,0 +1,20 @@
+digraph synthesize_process_termination_event {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9032e4 -> BB75a90338a [color="green"];
+  BB75a9032e4 -> BB75a903385 [color="red"];
+  BB75a903385 -> BB75a90338a [color="red"];
+  BB75a90338a -> BB75a9034b2 [color="green"];
+  BB75a90338a -> BB75a903394 [color="red"];
+  BB75a903394 -> BB75a9034a9 [color="green"];
+  BB75a903394 -> BB75a9033b8 [color="red"];
+  BB75a9033b8 -> BB75a9034a9 [color="green"];
+  BB75a9033b8 -> BB75a9033c2 [color="red"];
+  BB75a9033c2 -> BB75a903467 [color="green"];
+  BB75a9033c2 -> BB75a903404 [color="red"];
+  BB75a903404 -> BB75a903467 [color="green"];
+  BB75a903404 -> BB75a903450 [color="red"];
+  BB75a903450 -> BB75a903467 [color="blue"];
+  BB75a903467 -> BB75a9034a9 [color="red"];
+  BB75a9034a9 -> BB75a9034b2 [color="red"];
+}

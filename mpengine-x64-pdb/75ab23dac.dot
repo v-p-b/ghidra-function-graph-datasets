@@ -1,0 +1,18 @@
+digraph fail {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab23dac -> BB75ab23dce [color="green"];
+  BB75ab23dac -> BB75ab23dbb [color="red"];
+  BB75ab23dbb -> BB75ab23dca [color="green"];
+  BB75ab23dbb -> BB75ab23dc2 [color="red"];
+  BB75ab23dc2 -> BB75ab23dd0 [color="blue"];
+  BB75ab23dca -> BB75ab23dd0 [color="blue"];
+  BB75ab23dce -> BB75ab23dd0 [color="blue"];
+  BB75ab23dd0 -> BB75ab23e1c [color="green"];
+  BB75ab23dd0 -> BB75ab23dd4 [color="red"];
+  BB75ab23dd4 -> BB75ab23e11 [color="green"];
+  BB75ab23dd4 -> BB75ab23df9 [color="red"];
+  BB75ab23df9 -> BB75ab23e11 [color="blue"];
+  BB75ab23e11 -> BB75ab23e2d [color="blue"];
+  BB75ab23e1c -> BB75ab23e2d [color="blue"];
+}

@@ -1,0 +1,19 @@
+digraph AddProcessInformation {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab48784 -> BB75ab4888c [color="green"];
+  BB75ab48784 -> BB75ab487b1 [color="red"];
+  BB75ab487b1 -> BB75ab48872 [color="green"];
+  BB75ab487b1 -> BB75ab487da [color="red"];
+  BB75ab487da -> BB75ab48872 [color="green"];
+  BB75ab487da -> BB75ab4883c [color="red"];
+  BB75ab4883c -> BB75ab48896 [color="green"];
+  BB75ab4883c -> BB75ab4884f [color="red"];
+  BB75ab4884f -> BB75ab48896 [color="green"];
+  BB75ab4884f -> BB75ab48855 [color="red"];
+  BB75ab48855 -> BB75ab48896 [color="blue"];
+  BB75ab48872 -> BB75ab48896 [color="green"];
+  BB75ab48872 -> BB75ab48888 [color="red"];
+  BB75ab48888 -> BB75ab4888c [color="blue"];
+  BB75ab4888c -> BB75ab48896 [color="blue"];
+}

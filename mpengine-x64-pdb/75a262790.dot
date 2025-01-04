@@ -1,0 +1,11 @@
+digraph IsNestedArchive {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a262790 -> BB75a2627c8 [color="green"];
+  BB75a262790 -> BB75a2627af [color="red"];
+  BB75a2627af -> BB75a2627c8 [color="green"];
+  BB75a2627af -> BB75a2627b8 [color="red"];
+  BB75a2627b8 -> BB75a2627d5 [color="green"];
+  BB75a2627b8 -> BB75a2627c8 [color="red"];
+  BB75a2627d5 -> BB75a2627c8 [color="blue"];
+}

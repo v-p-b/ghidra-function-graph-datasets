@@ -1,0 +1,21 @@
+digraph _Tidy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a73b06c -> BB75a73b084 [color="blue"];
+  BB75a73b084 -> BB75a73b09e [color="green"];
+  BB75a73b084 -> BB75a73b08d [color="red"];
+  BB75a73b08d -> BB75a73b084 [color="green"];
+  BB75a73b08d -> BB75a73b097 [color="red"];
+  BB75a73b097 -> BB75a73b084 [color="blue"];
+  BB75a73b09e -> BB75a73b0e6 [color="green"];
+  BB75a73b09e -> BB75a73b0ab [color="red"];
+  BB75a73b0ab -> BB75a73b0d6 [color="green"];
+  BB75a73b0ab -> BB75a73b0b4 [color="red"];
+  BB75a73b0b4 -> BB75a73b0cd [color="green"];
+  BB75a73b0b4 -> BB75a73b0c3 [color="red"];
+  BB75a73b0c3 -> BB75a73b0cd [color="red"];
+  BB75a73b0cd -> BB75a73b0b4 [color="green"];
+  BB75a73b0cd -> BB75a73b0d2 [color="red"];
+  BB75a73b0d2 -> BB75a73b0d6 [color="blue"];
+  BB75a73b0d6 -> BB75a73b0e6 [color="red"];
+}

@@ -1,0 +1,25 @@
+digraph CheckIntegrityAndSendTelemetry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a38acf8 -> BB75a38ad25 [color="green"];
+  BB75a38acf8 -> BB75a38ad15 [color="red"];
+  BB75a38ad25 -> BB75a38ad15 [color="green"];
+  BB75a38ad25 -> BB75a38ad2e [color="red"];
+  BB75a38ad2e -> BB75a38ad62 [color="green"];
+  BB75a38ad2e -> BB75a38ad37 [color="red"];
+  BB75a38ad37 -> BB75a38ad15 [color="green"];
+  BB75a38ad37 -> BB75a38ad49 [color="red"];
+  BB75a38ad49 -> BB75a38ad15 [color="green"];
+  BB75a38ad49 -> BB75a38ad59 [color="red"];
+  BB75a38ad59 -> BB75a38ad15 [color="blue"];
+  BB75a38ad62 -> BB75a38ad97 [color="green"];
+  BB75a38ad62 -> BB75a38ad7f [color="red"];
+  BB75a38ad7f -> BB75a38ad97 [color="green"];
+  BB75a38ad7f -> BB75a38ad83 [color="red"];
+  BB75a38ad83 -> BB75a38ad97 [color="red"];
+  BB75a38ad97 -> BB75a38ad15 [color="green"];
+  BB75a38ad97 -> BB75a38adae [color="red"];
+  BB75a38adae -> BB75a38ad15 [color="green"];
+  BB75a38adae -> BB75a38adb8 [color="red"];
+  BB75a38adb8 -> BB75a38ad15 [color="blue"];
+}

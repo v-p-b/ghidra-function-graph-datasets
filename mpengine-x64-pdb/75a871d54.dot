@@ -1,0 +1,11 @@
+digraph SynchronousUpdateOnProcessStart {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a871d54 -> BB75a871d96 [color="green"];
+  BB75a871d54 -> BB75a871d8f [color="red"];
+  BB75a871d8f -> BB75a871da1 [color="blue"];
+  BB75a871d96 -> BB75a871da1 [color="blue"];
+  BB75a871da1 -> BB75a871dbb [color="green"];
+  BB75a871da1 -> BB75a871daf [color="red"];
+  BB75a871daf -> BB75a871dbb [color="red"];
+}

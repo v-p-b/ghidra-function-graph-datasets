@@ -1,0 +1,31 @@
+digraph _fputc_internal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a79b4f0 -> BB75a79b54b [color="green"];
+  BB75a79b4f0 -> BB75a79b516 [color="red"];
+  BB75a79b516 -> BB75a79b53b [color="red"];
+  BB75a79b54b -> BB75a79b5d9 [color="green"];
+  BB75a79b54b -> BB75a79b55f [color="red"];
+  BB75a79b55f -> BB75a79b59f [color="green"];
+  BB75a79b55f -> BB75a79b57d [color="red"];
+  BB75a79b57d -> BB75a79b5a9 [color="blue"];
+  BB75a79b59f -> BB75a79b5a9 [color="blue"];
+  BB75a79b5a9 -> BB75a79b5d5 [color="green"];
+  BB75a79b5a9 -> BB75a79b5b0 [color="red"];
+  BB75a79b5b0 -> BB75a79b5cf [color="green"];
+  BB75a79b5b0 -> BB75a79b5b9 [color="red"];
+  BB75a79b5b9 -> BB75a79b5cf [color="blue"];
+  BB75a79b5cf -> BB75a79b5d9 [color="green"];
+  BB75a79b5cf -> BB75a79b5d5 [color="red"];
+  BB75a79b5d5 -> BB75a79b5de [color="blue"];
+  BB75a79b5d9 -> BB75a79b5de [color="blue"];
+  BB75a79b5de -> BB75a79b621 [color="green"];
+  BB75a79b5de -> BB75a79b5e2 [color="red"];
+  BB75a79b5e2 -> BB75a79b619 [color="red"];
+  BB75a79b619 -> BB75a79b53b [color="blue"];
+  BB75a79b621 -> BB75a79b638 [color="green"];
+  BB75a79b621 -> BB75a79b627 [color="red"];
+  BB75a79b627 -> BB75a79b645 [color="blue"];
+  BB75a79b638 -> BB75a79b645 [color="blue"];
+  BB75a79b645 -> BB75a79b53b [color="blue"];
+}

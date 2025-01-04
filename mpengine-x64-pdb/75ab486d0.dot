@@ -1,0 +1,16 @@
+digraph TestProgramFilesX86DevicePath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab486d0 -> BB75ab4871a [color="green"];
+  BB75ab486d0 -> BB75ab486dc [color="red"];
+  BB75ab486dc -> BB75ab4871a [color="green"];
+  BB75ab486dc -> BB75ab486e5 [color="red"];
+  BB75ab486e5 -> BB75ab48715 [color="green"];
+  BB75ab486e5 -> BB75ab486ee [color="red"];
+  BB75ab486ee -> BB75ab486fc [color="green"];
+  BB75ab486ee -> BB75ab486f9 [color="red"];
+  BB75ab486f9 -> BB75ab486fc [color="blue"];
+  BB75ab486fc -> BB75ab4871c [color="blue"];
+  BB75ab48715 -> BB75ab4871a [color="red"];
+  BB75ab4871a -> BB75ab4871c [color="blue"];
+}

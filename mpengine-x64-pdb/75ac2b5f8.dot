@@ -1,0 +1,15 @@
+digraph list_pmgl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac2b5f8 -> BB75ac2b61f [color="green"];
+  BB75ac2b5f8 -> BB75ac2b615 [color="red"];
+  BB75ac2b615 -> BB75ac2b61f [color="green"];
+  BB75ac2b615 -> BB75ac2b61a [color="red"];
+  BB75ac2b61a -> BB75ac2b61f [color="red"];
+  BB75ac2b61f -> BB75ac2b659 [color="green"];
+  BB75ac2b61f -> BB75ac2b62a [color="red"];
+  BB75ac2b62a -> BB75ac2b63b [color="green"];
+  BB75ac2b62a -> BB75ac2b636 [color="red"];
+  BB75ac2b636 -> BB75ac2b63b [color="red"];
+  BB75ac2b63b -> BB75ac2b659 [color="red"];
+}

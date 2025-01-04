@@ -1,0 +1,19 @@
+digraph KERNEL32_DLL_MpCreateMemoryAliasing {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa73fd0 -> BB75aa740e6 [color="green"];
+  BB75aa73fd0 -> BB75aa74031 [color="red"];
+  BB75aa74031 -> BB75aa740e6 [color="green"];
+  BB75aa74031 -> BB75aa74044 [color="red"];
+  BB75aa74044 -> BB75aa740e6 [color="green"];
+  BB75aa74044 -> BB75aa7404d [color="red"];
+  BB75aa7404d -> BB75aa740e6 [color="green"];
+  BB75aa7404d -> BB75aa7405c [color="red"];
+  BB75aa7405c -> BB75aa740e6 [color="green"];
+  BB75aa7405c -> BB75aa7408b [color="red"];
+  BB75aa7408b -> BB75aa7411e [color="green"];
+  BB75aa7408b -> BB75aa740d4 [color="red"];
+  BB75aa740d4 -> BB75aa740e6 [color="red"];
+  BB75aa740e6 -> BB75aa740e8 [color="blue"];
+  BB75aa7411e -> BB75aa740e8 [color="blue"];
+}

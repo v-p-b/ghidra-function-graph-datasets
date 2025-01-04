@@ -1,0 +1,32 @@
+digraph IsHibernateOrDumpRelated {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3b8d88 -> BB75a3b8e71 [color="green"];
+  BB75a3b8d88 -> BB75a3b8dcc [color="red"];
+  BB75a3b8dcc -> BB75a3b8e03 [color="green"];
+  BB75a3b8dcc -> BB75a3b8dda [color="red"];
+  BB75a3b8dda -> BB75a3b8e03 [color="green"];
+  BB75a3b8dda -> BB75a3b8df9 [color="red"];
+  BB75a3b8df9 -> BB75a3b8f91 [color="blue"];
+  BB75a3b8e03 -> BB75a3b8e3a [color="green"];
+  BB75a3b8e03 -> BB75a3b8e11 [color="red"];
+  BB75a3b8e11 -> BB75a3b8e3a [color="green"];
+  BB75a3b8e11 -> BB75a3b8e30 [color="red"];
+  BB75a3b8e30 -> BB75a3b8f91 [color="blue"];
+  BB75a3b8e3a -> BB75a3b8e71 [color="green"];
+  BB75a3b8e3a -> BB75a3b8e48 [color="red"];
+  BB75a3b8e48 -> BB75a3b8e71 [color="green"];
+  BB75a3b8e48 -> BB75a3b8e67 [color="red"];
+  BB75a3b8e67 -> BB75a3b8f91 [color="blue"];
+  BB75a3b8e71 -> BB75a3b8eaf [color="red"];
+  BB75a3b8eaf -> BB75a3b8ec9 [color="green"];
+  BB75a3b8eaf -> BB75a3b8eb4 [color="red"];
+  BB75a3b8eb4 -> BB75a3b8eaf [color="blue"];
+  BB75a3b8ec9 -> BB75a3b8f66 [color="green"];
+  BB75a3b8ec9 -> BB75a3b8f2b [color="red"];
+  BB75a3b8f2b -> BB75a3b8f66 [color="green"];
+  BB75a3b8f2b -> BB75a3b8f43 [color="red"];
+  BB75a3b8f43 -> BB75a3b8f8f [color="blue"];
+  BB75a3b8f66 -> BB75a3b8f91 [color="blue"];
+  BB75a3b8f8f -> BB75a3b8f91 [color="blue"];
+}

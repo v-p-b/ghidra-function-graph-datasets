@@ -1,0 +1,16 @@
+digraph boot_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa08470 -> BB75aa084cb [color="green"];
+  BB75aa08470 -> BB75aa084a2 [color="red"];
+  BB75aa084a2 -> BB75aa084c1 [color="green"];
+  BB75aa084a2 -> BB75aa084b1 [color="red"];
+  BB75aa084b1 -> BB75aa084b1 [color="green"];
+  BB75aa084b1 -> BB75aa084c1 [color="red"];
+  BB75aa084c1 -> BB75aa0854d [color="blue"];
+  BB75aa084cb -> BB75aa0854b [color="green"];
+  BB75aa084cb -> BB75aa0853b [color="red"];
+  BB75aa0853b -> BB75aa0853b [color="green"];
+  BB75aa0853b -> BB75aa0854b [color="red"];
+  BB75aa0854b -> BB75aa0854d [color="blue"];
+}

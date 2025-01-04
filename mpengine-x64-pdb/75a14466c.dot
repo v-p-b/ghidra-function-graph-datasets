@@ -1,0 +1,10 @@
+digraph InitPtr {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a14466c -> BB75a1446a0 [color="green"];
+  BB75a14466c -> BB75a14467a [color="red"];
+  BB75a14467a -> BB75a1446a9 [color="green"];
+  BB75a14467a -> BB75a14469b [color="red"];
+  BB75a14469b -> BB75a1446a0 [color="red"];
+  BB75a1446a9 -> BB75a1446a0 [color="blue"];
+}

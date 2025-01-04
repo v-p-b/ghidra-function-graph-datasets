@@ -1,0 +1,17 @@
+digraph merge<class_std::_Vector_iterator<class_std::_Vector_val<struct_std::_Simple_types<class_std::basic_string<wchar_t,struct_std::char_traits<wchar_t>,class_std::allocator<wchar_t>_>_>_>_>,class_std::_Vector_iterator<class_std::_Vector_val<struct_std::_Simple_types<class_std::basic_string<wchar_t,struct_std::char_traits<wchar_t>,class_std::allocator<wchar_t>_>_>_>_>,class_std::back_insert_iterator<class_std::vector<class_std::basic_string<wchar_t,struct_std::char_traits<wchar_t>,class_std::allocator<wchar_t>_>,class_std::allocator<class_std::basic_string<wchar_t,struct_std::char_traits<wchar_t>,class_std::allocator<wchar_t>_>_>_>_>,struct_std::less<void>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a387058 -> BB75a3870aa [color="green"];
+  BB75a387058 -> BB75a38707e [color="red"];
+  BB75a38707e -> BB75a3870aa [color="green"];
+  BB75a38707e -> BB75a387085 [color="red"];
+  BB75a387085 -> BB75a3870e5 [color="green"];
+  BB75a387085 -> BB75a387099 [color="red"];
+  BB75a387099 -> BB75a3870a8 [color="red"];
+  BB75a3870a8 -> BB75a387085 [color="green"];
+  BB75a3870a8 -> BB75a3870aa [color="red"];
+  BB75a3870aa -> BB75a3870f8 [color="green"];
+  BB75a3870aa -> BB75a3870af [color="red"];
+  BB75a3870e5 -> BB75a3870a8 [color="blue"];
+  BB75a3870f8 -> BB75a3870aa [color="blue"];
+}

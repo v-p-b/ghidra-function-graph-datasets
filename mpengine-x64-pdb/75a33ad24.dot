@@ -1,0 +1,16 @@
+digraph switch_to_net32_proc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a33ad24 -> BB75a33adb5 [color="green"];
+  BB75a33ad24 -> BB75a33ad53 [color="red"];
+  BB75a33ad53 -> BB75a33adee [color="green"];
+  BB75a33ad53 -> BB75a33ad62 [color="red"];
+  BB75a33ad62 -> BB75a33ad7d [color="red"];
+  BB75a33ad7d -> BB75a33adca [color="green"];
+  BB75a33ad7d -> BB75a33ada6 [color="red"];
+  BB75a33ada6 -> BB75a33adb5 [color="blue"];
+  BB75a33adca -> BB75a33adb5 [color="blue"];
+  BB75a33adee -> BB75a33adb5 [color="green"];
+  BB75a33adee -> BB75a33adf3 [color="red"];
+  BB75a33adf3 -> BB75a33ad7d [color="blue"];
+}

@@ -1,0 +1,19 @@
+digraph ~user_buffer_pool {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6476c0 -> BB75a647742 [color="green"];
+  BB75a6476c0 -> BB75a6476ce [color="red"];
+  BB75a6476ce -> BB75a64773a [color="green"];
+  BB75a6476ce -> BB75a6476d7 [color="red"];
+  BB75a6476d7 -> BB75a647749 [color="green"];
+  BB75a6476d7 -> BB75a6476e0 [color="red"];
+  BB75a6476e0 -> BB75a647732 [color="green"];
+  BB75a6476e0 -> BB75a6476e9 [color="red"];
+  BB75a6476e9 -> BB75a647700 [color="green"];
+  BB75a6476e9 -> BB75a6476f2 [color="red"];
+  BB75a6476f2 -> BB75a647700 [color="red"];
+  BB75a647732 -> BB75a6476e9 [color="blue"];
+  BB75a64773a -> BB75a6476d7 [color="blue"];
+  BB75a647742 -> BB75a6476ce [color="blue"];
+  BB75a647749 -> BB75a6476e0 [color="blue"];
+}

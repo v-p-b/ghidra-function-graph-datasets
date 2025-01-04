@@ -1,0 +1,10 @@
+digraph AddPropagatingNotification {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a831518 -> BB75a83155d [color="green"];
+  BB75a831518 -> BB75a831530 [color="red"];
+  BB75a831530 -> BB75a83155d [color="green"];
+  BB75a831530 -> BB75a83153f [color="red"];
+  BB75a83153f -> BB75a831565 [color="blue"];
+  BB75a83155d -> BB75a831565 [color="blue"];
+}

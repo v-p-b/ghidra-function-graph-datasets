@@ -1,0 +1,13 @@
+digraph IsIgnoredCmdThreatDetection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab96178 -> BB75ab961cb [color="green"];
+  BB75ab96178 -> BB75ab9619b [color="red"];
+  BB75ab9619b -> BB75ab961c5 [color="green"];
+  BB75ab9619b -> BB75ab961ac [color="red"];
+  BB75ab961ac -> BB75ab961c7 [color="green"];
+  BB75ab961ac -> BB75ab961c5 [color="red"];
+  BB75ab961c5 -> BB75ab961c7 [color="blue"];
+  BB75ab961c7 -> BB75ab96239 [color="blue"];
+  BB75ab961cb -> BB75ab96239 [color="red"];
+}

@@ -1,0 +1,18 @@
+digraph sqlite3_soft_heap_limit64 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab58880 -> BB75ab5889c [color="green"];
+  BB75ab58880 -> BB75ab58896 [color="red"];
+  BB75ab58896 -> BB75ab58914 [color="blue"];
+  BB75ab5889c -> BB75ab588c2 [color="green"];
+  BB75ab5889c -> BB75ab588b4 [color="red"];
+  BB75ab588b4 -> BB75ab58911 [color="blue"];
+  BB75ab588c2 -> BB75ab588e3 [color="green"];
+  BB75ab588c2 -> BB75ab588ce [color="red"];
+  BB75ab588ce -> BB75ab588e3 [color="green"];
+  BB75ab588ce -> BB75ab588d7 [color="red"];
+  BB75ab588d7 -> BB75ab588ea [color="blue"];
+  BB75ab588e3 -> BB75ab588ea [color="blue"];
+  BB75ab588ea -> BB75ab58911 [color="red"];
+  BB75ab58911 -> BB75ab58914 [color="blue"];
+}

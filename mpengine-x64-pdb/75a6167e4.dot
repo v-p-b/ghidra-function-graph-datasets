@@ -1,0 +1,16 @@
+digraph _Emplace_reallocate<struct_std::pair<class_std::unique_ptr<char_[0],struct_std::default_delete<char_[0]>_>,unsigned_int>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6167e4 -> BB75a6168dd [color="green"];
+  BB75a6167e4 -> BB75a616821 [color="red"];
+  BB75a616821 -> BB75a61684b [color="green"];
+  BB75a616821 -> BB75a616840 [color="red"];
+  BB75a616840 -> BB75a61684b [color="blue"];
+  BB75a61684b -> BB75a6168ea [color="green"];
+  BB75a61684b -> BB75a6168a3 [color="red"];
+  BB75a6168a3 -> BB75a616904 [color="green"];
+  BB75a6168a3 -> BB75a6168b1 [color="red"];
+  BB75a6168dd -> BB75a6168ea [color="red"];
+  BB75a6168ea -> BB75a6168a3 [color="blue"];
+  BB75a616904 -> BB75a6168b1 [color="blue"];
+}

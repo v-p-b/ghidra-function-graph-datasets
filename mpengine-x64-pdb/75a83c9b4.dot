@@ -1,0 +1,13 @@
+digraph CleanupScanTask {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a83c9b4 -> BB75a83ca11 [color="green"];
+  BB75a83c9b4 -> BB75a83c9ce [color="red"];
+  BB75a83c9ce -> BB75a83c9f0 [color="green"];
+  BB75a83c9ce -> BB75a83c9eb [color="red"];
+  BB75a83c9eb -> BB75a83c9f0 [color="red"];
+  BB75a83c9f0 -> BB75a83ca07 [color="green"];
+  BB75a83c9f0 -> BB75a83c9f9 [color="red"];
+  BB75a83c9f9 -> BB75a83ca07 [color="red"];
+  BB75a83ca07 -> BB75a83ca11 [color="red"];
+}

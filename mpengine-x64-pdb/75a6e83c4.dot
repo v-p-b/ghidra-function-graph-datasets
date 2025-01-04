@@ -1,0 +1,11 @@
+digraph ~process_scanner {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6e83c4 -> BB75a6e83df [color="green"];
+  BB75a6e83c4 -> BB75a6e83da [color="red"];
+  BB75a6e83da -> BB75a6e83df [color="red"];
+  BB75a6e83df -> BB75a6e8403 [color="green"];
+  BB75a6e83df -> BB75a6e83f3 [color="red"];
+  BB75a6e83f3 -> BB75a6e83f3 [color="green"];
+  BB75a6e83f3 -> BB75a6e8403 [color="red"];
+}

@@ -1,0 +1,16 @@
+digraph PUA_appmap_cleanup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab884e0 -> BB75ab88506 [color="green"];
+  BB75ab884e0 -> BB75ab884f2 [color="red"];
+  BB75ab884f2 -> BB75ab88506 [color="red"];
+  BB75ab88506 -> BB75ab8854d [color="green"];
+  BB75ab88506 -> BB75ab88548 [color="red"];
+  BB75ab88548 -> BB75ab8854d [color="red"];
+  BB75ab8854d -> BB75ab88576 [color="green"];
+  BB75ab8854d -> BB75ab88561 [color="red"];
+  BB75ab88561 -> BB75ab88576 [color="red"];
+  BB75ab88576 -> BB75ab88594 [color="green"];
+  BB75ab88576 -> BB75ab8858a [color="red"];
+  BB75ab8858a -> BB75ab88594 [color="red"];
+}

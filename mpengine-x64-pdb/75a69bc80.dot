@@ -1,0 +1,11 @@
+digraph raiseSignal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a69bc80 -> BB75a69bca4 [color="green"];
+  BB75a69bc80 -> BB75a69bc86 [color="red"];
+  BB75a69bc86 -> BB75a69bc9b [color="green"];
+  BB75a69bc86 -> BB75a69bc8f [color="red"];
+  BB75a69bc8f -> BB75a69bca4 [color="green"];
+  BB75a69bc8f -> BB75a69bc9b [color="red"];
+  BB75a69bc9b -> BB75a69bca4 [color="blue"];
+}

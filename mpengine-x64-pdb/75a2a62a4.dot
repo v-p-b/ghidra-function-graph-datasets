@@ -1,0 +1,9 @@
+digraph sqlite3VdbeFinalize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2a62a4 -> BB75a2a62da [color="green"];
+  BB75a2a62a4 -> BB75a2a62bc [color="red"];
+  BB75a2a62bc -> BB75a2a62da [color="green"];
+  BB75a2a62bc -> BB75a2a62c5 [color="red"];
+  BB75a2a62da -> BB75a2a62c5 [color="blue"];
+}

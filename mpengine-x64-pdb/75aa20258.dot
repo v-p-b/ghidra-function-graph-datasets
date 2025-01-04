@@ -1,0 +1,13 @@
+digraph _Pop_heap_hole_by_index<struct_revokedcert_t*___ptr64,struct_revokedcert_t,struct_std::less<void>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa20258 -> BB75aa202f3 [color="green"];
+  BB75aa20258 -> BB75aa20295 [color="red"];
+  BB75aa20295 -> BB75aa20295 [color="green"];
+  BB75aa20295 -> BB75aa202f3 [color="red"];
+  BB75aa202f3 -> BB75aa20330 [color="green"];
+  BB75aa202f3 -> BB75aa202f8 [color="red"];
+  BB75aa202f8 -> BB75aa20330 [color="green"];
+  BB75aa202f8 -> BB75aa202fe [color="red"];
+  BB75aa202fe -> BB75aa20330 [color="blue"];
+}

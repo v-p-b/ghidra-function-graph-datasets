@@ -1,0 +1,15 @@
+digraph set_logger {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8da05c -> BB75a8da12d [color="green"];
+  BB75a8da05c -> BB75a8da0ad [color="red"];
+  BB75a8da0ad -> BB75a8da12d [color="green"];
+  BB75a8da0ad -> BB75a8da0b2 [color="red"];
+  BB75a8da0b2 -> BB75a8da0da [color="green"];
+  BB75a8da0b2 -> BB75a8da0d5 [color="red"];
+  BB75a8da0d5 -> BB75a8da0da [color="red"];
+  BB75a8da0da -> BB75a8da157 [color="blue"];
+  BB75a8da12d -> BB75a8da157 [color="green"];
+  BB75a8da12d -> BB75a8da151 [color="red"];
+  BB75a8da151 -> BB75a8da157 [color="red"];
+}

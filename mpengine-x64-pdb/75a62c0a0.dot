@@ -1,0 +1,10 @@
+digraph split_iterator<class_std::_String_iterator<class_std::_String_val<struct_std::_Simple_types<char>_>_>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a62c0a0 -> BB75a62c0eb [color="green"];
+  BB75a62c0a0 -> BB75a62c0bc [color="red"];
+  BB75a62c0bc -> BB75a62c0dc [color="green"];
+  BB75a62c0bc -> BB75a62c0cc [color="red"];
+  BB75a62c0cc -> BB75a62c0eb [color="blue"];
+  BB75a62c0dc -> BB75a62c0eb [color="red"];
+}

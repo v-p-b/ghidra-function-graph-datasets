@@ -1,0 +1,11 @@
+digraph ~pmi_records_reordering_queue_t<struct_tts_pmi_record_t> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6dbcbc -> BB75a6dbcf3 [color="green"];
+  BB75a6dbcbc -> BB75a6dbcdd [color="red"];
+  BB75a6dbcdd -> BB75a6dbcdd [color="green"];
+  BB75a6dbcdd -> BB75a6dbcf3 [color="red"];
+  BB75a6dbcf3 -> BB75a6dbd07 [color="green"];
+  BB75a6dbcf3 -> BB75a6dbcfc [color="red"];
+  BB75a6dbcfc -> BB75a6dbd07 [color="red"];
+}

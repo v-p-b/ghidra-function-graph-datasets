@@ -1,0 +1,11 @@
+digraph ZSTD_resolveBlockSplitterMode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a725478 -> BB75a72547f [color="green"];
+  BB75a725478 -> BB75a72547c [color="red"];
+  BB75a72547f -> BB75a72548f [color="green"];
+  BB75a72547f -> BB75a725485 [color="red"];
+  BB75a725485 -> BB75a725494 [color="green"];
+  BB75a725485 -> BB75a72548f [color="red"];
+  BB75a72548f -> BB75a725494 [color="blue"];
+}

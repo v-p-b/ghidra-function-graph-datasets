@@ -1,0 +1,20 @@
+digraph IsFfrAvailable {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac774dc -> BB75ac77503 [color="green"];
+  BB75ac774dc -> BB75ac774fe [color="red"];
+  BB75ac774fe -> BB75ac77503 [color="red"];
+  BB75ac77503 -> BB75ac7751c [color="green"];
+  BB75ac77503 -> BB75ac77509 [color="red"];
+  BB75ac77509 -> BB75ac77518 [color="green"];
+  BB75ac77509 -> BB75ac77513 [color="red"];
+  BB75ac77513 -> BB75ac77518 [color="red"];
+  BB75ac77518 -> BB75ac77554 [color="blue"];
+  BB75ac7751c -> BB75ac7753b [color="green"];
+  BB75ac7751c -> BB75ac77536 [color="red"];
+  BB75ac77536 -> BB75ac7753b [color="red"];
+  BB75ac7753b -> BB75ac77552 [color="green"];
+  BB75ac7753b -> BB75ac7754d [color="red"];
+  BB75ac7754d -> BB75ac77552 [color="red"];
+  BB75ac77552 -> BB75ac77554 [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph _Make_heap_unchecked<std::shared_ptr<BootRecordCleanStore::Disk>_*,<lambda_93c7053dda2b8d6273c2b68f28ee3730>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abd1e10 -> BB75abd1e9f [color="green"];
+  BB75abd1e10 -> BB75abd1e44 [color="red"];
+  BB75abd1e44 -> BB75abd1e52 [color="blue"];
+  BB75abd1e52 -> BB75abd1e96 [color="green"];
+  BB75abd1e52 -> BB75abd1e91 [color="red"];
+  BB75abd1e91 -> BB75abd1e96 [color="red"];
+  BB75abd1e96 -> BB75abd1e52 [color="green"];
+  BB75abd1e96 -> BB75abd1e9f [color="red"];
+}

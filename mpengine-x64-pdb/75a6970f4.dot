@@ -1,0 +1,22 @@
+digraph IsSetWindowsHooksUsedByProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6970f4 -> BB75a697153 [color="green"];
+  BB75a6970f4 -> BB75a697118 [color="red"];
+  BB75a697118 -> BB75a697243 [color="green"];
+  BB75a697118 -> BB75a69712f [color="red"];
+  BB75a69712f -> BB75a697243 [color="green"];
+  BB75a69712f -> BB75a697139 [color="red"];
+  BB75a697139 -> BB75a697243 [color="blue"];
+  BB75a697153 -> BB75a6971bb [color="green"];
+  BB75a697153 -> BB75a697194 [color="red"];
+  BB75a697194 -> BB75a697197 [color="blue"];
+  BB75a697197 -> BB75a697197 [color="green"];
+  BB75a697197 -> BB75a6971ac [color="red"];
+  BB75a6971ac -> BB75a6971bb [color="blue"];
+  BB75a6971bb -> BB75a6971fc [color="green"];
+  BB75a6971bb -> BB75a6971f3 [color="red"];
+  BB75a6971f3 -> BB75a697245 [color="blue"];
+  BB75a6971fc -> BB75a697243 [color="blue"];
+  BB75a697243 -> BB75a697245 [color="blue"];
+}

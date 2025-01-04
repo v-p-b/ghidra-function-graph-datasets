@@ -1,0 +1,9 @@
+digraph ForceNoMail {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3d12b4 -> BB75a3d12d5 [color="green"];
+  BB75a3d12b4 -> BB75a3d12bf [color="red"];
+  BB75a3d12bf -> BB75a3d12d8 [color="green"];
+  BB75a3d12bf -> BB75a3d12d5 [color="red"];
+  BB75a3d12d8 -> BB75a3d12d5 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph upper_bound {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa3c3ec -> BB75aa3c418 [color="green"];
+  BB75aa3c3ec -> BB75aa3c3fe [color="red"];
+  BB75aa3c3fe -> BB75aa3c401 [color="blue"];
+  BB75aa3c401 -> BB75aa3c40e [color="green"];
+  BB75aa3c401 -> BB75aa3c406 [color="red"];
+  BB75aa3c406 -> BB75aa3c412 [color="blue"];
+  BB75aa3c40e -> BB75aa3c412 [color="blue"];
+  BB75aa3c412 -> BB75aa3c401 [color="green"];
+  BB75aa3c412 -> BB75aa3c418 [color="red"];
+}

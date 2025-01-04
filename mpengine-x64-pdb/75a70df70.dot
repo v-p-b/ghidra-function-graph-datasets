@@ -1,0 +1,14 @@
+digraph RbMAutomaticEngineRollbackModeEnd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a70df70 -> BB75a70df93 [color="green"];
+  BB75a70df70 -> BB75a70df7d [color="red"];
+  BB75a70df7d -> BB75a70df93 [color="green"];
+  BB75a70df7d -> BB75a70df89 [color="red"];
+  BB75a70df89 -> BB75a70dfc8 [color="blue"];
+  BB75a70df93 -> BB75a70dfc8 [color="green"];
+  BB75a70df93 -> BB75a70dfad [color="red"];
+  BB75a70dfad -> BB75a70dfc8 [color="green"];
+  BB75a70dfad -> BB75a70dfb3 [color="red"];
+  BB75a70dfb3 -> BB75a70dfc8 [color="red"];
+}

@@ -1,0 +1,15 @@
+digraph IsXORPlugin {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad193cc -> BB75ad194a7 [color="green"];
+  BB75ad193cc -> BB75ad19419 [color="red"];
+  BB75ad19419 -> BB75ad194a7 [color="green"];
+  BB75ad19419 -> BB75ad19457 [color="red"];
+  BB75ad19457 -> BB75ad194af [color="green"];
+  BB75ad19457 -> BB75ad1949e [color="red"];
+  BB75ad1949e -> BB75ad194a7 [color="blue"];
+  BB75ad194a7 -> BB75ad194a9 [color="blue"];
+  BB75ad194af -> BB75ad1949e [color="green"];
+  BB75ad194af -> BB75ad194ed [color="red"];
+  BB75ad194ed -> BB75ad194a9 [color="blue"];
+}

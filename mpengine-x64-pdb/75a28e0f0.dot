@@ -1,0 +1,33 @@
+digraph sqlite3WindowAlloc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a28e0f0 -> BB75a28e178 [color="green"];
+  BB75a28e0f0 -> BB75a28e11a [color="red"];
+  BB75a28e11a -> BB75a28e170 [color="green"];
+  BB75a28e11a -> BB75a28e11f [color="red"];
+  BB75a28e11f -> BB75a28e126 [color="blue"];
+  BB75a28e126 -> BB75a28e12b [color="red"];
+  BB75a28e12b -> BB75a28e154 [color="green"];
+  BB75a28e12b -> BB75a28e133 [color="red"];
+  BB75a28e133 -> BB75a28e163 [color="green"];
+  BB75a28e133 -> BB75a28e138 [color="red"];
+  BB75a28e138 -> BB75a28e13a [color="blue"];
+  BB75a28e154 -> BB75a28e133 [color="blue"];
+  BB75a28e163 -> BB75a28e138 [color="blue"];
+  BB75a28e170 -> BB75a28e11f [color="green"];
+  BB75a28e170 -> BB75a28e178 [color="red"];
+  BB75a28e178 -> BB75a28e187 [color="green"];
+  BB75a28e178 -> BB75a28e182 [color="red"];
+  BB75a28e182 -> BB75a28e197 [color="green"];
+  BB75a28e182 -> BB75a28e187 [color="red"];
+  BB75a28e187 -> BB75a28e1a0 [color="green"];
+  BB75a28e187 -> BB75a28e18d [color="red"];
+  BB75a28e18d -> BB75a28e197 [color="green"];
+  BB75a28e18d -> BB75a28e192 [color="red"];
+  BB75a28e192 -> BB75a28e1a0 [color="green"];
+  BB75a28e192 -> BB75a28e197 [color="red"];
+  BB75a28e197 -> BB75a28e126 [color="blue"];
+  BB75a28e1a0 -> BB75a28e12b [color="green"];
+  BB75a28e1a0 -> BB75a28e1b9 [color="red"];
+  BB75a28e1b9 -> BB75a28e13a [color="blue"];
+}

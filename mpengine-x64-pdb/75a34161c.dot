@@ -1,0 +1,28 @@
+digraph switch_method_state {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a34161c -> BB75a3418cd [color="green"];
+  BB75a34161c -> BB75a341659 [color="red"];
+  BB75a341659 -> BB75a341792 [color="green"];
+  BB75a341659 -> BB75a341662 [color="red"];
+  BB75a341662 -> BB75a3418c3 [color="green"];
+  BB75a341662 -> BB75a341695 [color="red"];
+  BB75a341695 -> BB75a3416e1 [color="green"];
+  BB75a341695 -> BB75a3416b5 [color="red"];
+  BB75a3416b5 -> BB75a3418c3 [color="green"];
+  BB75a3416b5 -> BB75a3416d8 [color="red"];
+  BB75a3416d8 -> BB75a3416e1 [color="blue"];
+  BB75a3416e1 -> BB75a341777 [color="red"];
+  BB75a341777 -> BB75a341779 [color="blue"];
+  BB75a341792 -> BB75a34183d [color="green"];
+  BB75a341792 -> BB75a34179c [color="red"];
+  BB75a34179c -> BB75a341779 [color="green"];
+  BB75a34179c -> BB75a341812 [color="red"];
+  BB75a341812 -> BB75a341822 [color="green"];
+  BB75a341812 -> BB75a341818 [color="red"];
+  BB75a341818 -> BB75a341822 [color="blue"];
+  BB75a341822 -> BB75a34183d [color="blue"];
+  BB75a34183d -> BB75a341777 [color="blue"];
+  BB75a3418c3 -> BB75a341779 [color="blue"];
+  BB75a3418cd -> BB75a341779 [color="blue"];
+}

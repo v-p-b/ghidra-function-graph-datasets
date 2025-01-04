@@ -1,0 +1,11 @@
+digraph ~AmsiSessionCache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3f56d4 -> BB75a3f5709 [color="green"];
+  BB75a3f56d4 -> BB75a3f56fd [color="red"];
+  BB75a3f56fd -> BB75a3f5709 [color="red"];
+  BB75a3f5709 -> BB75a3f5737 [color="green"];
+  BB75a3f5709 -> BB75a3f5727 [color="red"];
+  BB75a3f5727 -> BB75a3f5727 [color="green"];
+  BB75a3f5727 -> BB75a3f5737 [color="red"];
+}

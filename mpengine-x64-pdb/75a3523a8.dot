@@ -1,0 +1,11 @@
+digraph _cpu_load_model {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3523a8 -> BB75a352477 [color="green"];
+  BB75a3523a8 -> BB75a3523d8 [color="red"];
+  BB75a3523d8 -> BB75a352453 [color="green"];
+  BB75a3523d8 -> BB75a352442 [color="red"];
+  BB75a352442 -> BB75a352453 [color="red"];
+  BB75a352453 -> BB75a35245e [color="red"];
+  BB75a352477 -> BB75a35245e [color="blue"];
+}

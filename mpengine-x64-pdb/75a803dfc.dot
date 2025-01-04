@@ -1,0 +1,11 @@
+digraph ConfigSaysReplaceAfterReboot {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a803dfc -> BB75a803e0f [color="green"];
+  BB75a803dfc -> BB75a803e0b [color="red"];
+  BB75a803e0b -> BB75a803e23 [color="blue"];
+  BB75a803e0f -> BB75a803e21 [color="green"];
+  BB75a803e0f -> BB75a803e19 [color="red"];
+  BB75a803e19 -> BB75a803e21 [color="blue"];
+  BB75a803e21 -> BB75a803e23 [color="blue"];
+}

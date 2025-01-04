@@ -1,0 +1,35 @@
+digraph ResolvePEImports {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad0552c -> BB75ad055bc [color="green"];
+  BB75ad0552c -> BB75ad0556c [color="red"];
+  BB75ad0556c -> BB75ad056dd [color="green"];
+  BB75ad0556c -> BB75ad05583 [color="red"];
+  BB75ad05583 -> BB75ad056dd [color="green"];
+  BB75ad05583 -> BB75ad0558d [color="red"];
+  BB75ad0558d -> BB75ad056dd [color="blue"];
+  BB75ad055bc -> BB75ad056dd [color="green"];
+  BB75ad055bc -> BB75ad055f6 [color="red"];
+  BB75ad055f6 -> BB75ad05667 [color="green"];
+  BB75ad055f6 -> BB75ad055fe [color="red"];
+  BB75ad055fe -> BB75ad05667 [color="green"];
+  BB75ad055fe -> BB75ad05607 [color="red"];
+  BB75ad05607 -> BB75ad05634 [color="green"];
+  BB75ad05607 -> BB75ad0562d [color="red"];
+  BB75ad0562d -> BB75ad05639 [color="blue"];
+  BB75ad05634 -> BB75ad05639 [color="red"];
+  BB75ad05639 -> BB75ad056dd [color="green"];
+  BB75ad05639 -> BB75ad05641 [color="red"];
+  BB75ad05641 -> BB75ad055bc [color="green"];
+  BB75ad05641 -> BB75ad0564c [color="red"];
+  BB75ad0564c -> BB75ad055bc [color="blue"];
+  BB75ad05667 -> BB75ad056a8 [color="green"];
+  BB75ad05667 -> BB75ad0566c [color="red"];
+  BB75ad0566c -> BB75ad056a6 [color="green"];
+  BB75ad0566c -> BB75ad0567f [color="red"];
+  BB75ad0567f -> BB75ad056a6 [color="green"];
+  BB75ad0567f -> BB75ad05685 [color="red"];
+  BB75ad05685 -> BB75ad056a6 [color="red"];
+  BB75ad056a6 -> BB75ad056a8 [color="blue"];
+  BB75ad056a8 -> BB75ad056dd [color="red"];
+}

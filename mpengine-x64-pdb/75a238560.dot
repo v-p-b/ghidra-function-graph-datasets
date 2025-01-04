@@ -1,0 +1,12 @@
+digraph vmm_write<unsigned_short> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a238560 -> BB75a2385b0 [color="green"];
+  BB75a238560 -> BB75a238598 [color="red"];
+  BB75a238598 -> BB75a23859d [color="red"];
+  BB75a23859d -> BB75a2385b7 [color="green"];
+  BB75a23859d -> BB75a2385a2 [color="red"];
+  BB75a2385a2 -> BB75a2385a5 [color="blue"];
+  BB75a2385b0 -> BB75a23859d [color="blue"];
+  BB75a2385b7 -> BB75a2385a5 [color="blue"];
+}

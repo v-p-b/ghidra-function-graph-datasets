@@ -1,0 +1,21 @@
+digraph load_microcode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a33abdc -> BB75a33ac67 [color="green"];
+  BB75a33abdc -> BB75a33abfe [color="red"];
+  BB75a33abfe -> BB75a33ac55 [color="green"];
+  BB75a33abfe -> BB75a33ac23 [color="red"];
+  BB75a33ac23 -> BB75a33ac6e [color="green"];
+  BB75a33ac23 -> BB75a33ac55 [color="red"];
+  BB75a33ac55 -> BB75a33ac57 [color="blue"];
+  BB75a33ac67 -> BB75a33abfe [color="blue"];
+  BB75a33ac6e -> BB75a33ac55 [color="green"];
+  BB75a33ac6e -> BB75a33ac75 [color="red"];
+  BB75a33ac75 -> BB75a33ac55 [color="green"];
+  BB75a33ac75 -> BB75a33aca0 [color="red"];
+  BB75a33aca0 -> BB75a33ace9 [color="green"];
+  BB75a33aca0 -> BB75a33aca7 [color="red"];
+  BB75a33aca7 -> BB75a33aca7 [color="green"];
+  BB75a33aca7 -> BB75a33ace9 [color="red"];
+  BB75a33ace9 -> BB75a33ac57 [color="blue"];
+}

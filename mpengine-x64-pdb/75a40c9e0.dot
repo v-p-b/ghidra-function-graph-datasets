@@ -1,0 +1,11 @@
+digraph RegisterInitCallback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a40c9e0 -> BB75a40c9ff [color="green"];
+  BB75a40c9e0 -> BB75a40c9fa [color="red"];
+  BB75a40c9fa -> BB75a40c9ff [color="red"];
+  BB75a40c9ff -> BB75a40ca28 [color="green"];
+  BB75a40c9ff -> BB75a40ca13 [color="red"];
+  BB75a40ca13 -> BB75a40ca33 [color="blue"];
+  BB75a40ca28 -> BB75a40ca33 [color="red"];
+}

@@ -1,0 +1,37 @@
+digraph FindAnchor {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac41584 -> BB75ac415b8 [color="green"];
+  BB75ac41584 -> BB75ac415b3 [color="red"];
+  BB75ac415b3 -> BB75ac415b8 [color="red"];
+  BB75ac415b8 -> BB75ac41602 [color="green"];
+  BB75ac415b8 -> BB75ac415f8 [color="red"];
+  BB75ac415f8 -> BB75ac4169e [color="blue"];
+  BB75ac41602 -> BB75ac4161c [color="green"];
+  BB75ac41602 -> BB75ac41613 [color="red"];
+  BB75ac41613 -> BB75ac4169e [color="green"];
+  BB75ac41613 -> BB75ac4161c [color="red"];
+  BB75ac4161c -> BB75ac4163d [color="green"];
+  BB75ac4161c -> BB75ac41624 [color="red"];
+  BB75ac41624 -> BB75ac4163d [color="green"];
+  BB75ac41624 -> BB75ac41638 [color="red"];
+  BB75ac41638 -> BB75ac4169e [color="green"];
+  BB75ac41638 -> BB75ac4163d [color="red"];
+  BB75ac4163d -> BB75ac41662 [color="green"];
+  BB75ac4163d -> BB75ac41648 [color="red"];
+  BB75ac41648 -> BB75ac41662 [color="green"];
+  BB75ac41648 -> BB75ac4165d [color="red"];
+  BB75ac4165d -> BB75ac4169e [color="green"];
+  BB75ac4165d -> BB75ac41662 [color="red"];
+  BB75ac41662 -> BB75ac41699 [color="green"];
+  BB75ac41662 -> BB75ac41667 [color="red"];
+  BB75ac41667 -> BB75ac41677 [color="blue"];
+  BB75ac41677 -> BB75ac41699 [color="green"];
+  BB75ac41677 -> BB75ac4167c [color="red"];
+  BB75ac4167c -> BB75ac41692 [color="green"];
+  BB75ac4167c -> BB75ac4168d [color="red"];
+  BB75ac4168d -> BB75ac4169e [color="green"];
+  BB75ac4168d -> BB75ac41692 [color="red"];
+  BB75ac41692 -> BB75ac41677 [color="blue"];
+  BB75ac41699 -> BB75ac4169e [color="blue"];
+}

@@ -1,0 +1,18 @@
+digraph NotifyInternalAttribute {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a39df44 -> BB75a39e02e [color="green"];
+  BB75a39df44 -> BB75a39df7e [color="red"];
+  BB75a39df7e -> BB75a39e02e [color="green"];
+  BB75a39df7e -> BB75a39df87 [color="red"];
+  BB75a39df87 -> BB75a39e049 [color="green"];
+  BB75a39df87 -> BB75a39dfaf [color="red"];
+  BB75a39dfaf -> BB75a39e05a [color="green"];
+  BB75a39dfaf -> BB75a39e00f [color="red"];
+  BB75a39e00f -> BB75a39e011 [color="blue"];
+  BB75a39e02e -> BB75a39df87 [color="green"];
+  BB75a39e02e -> BB75a39e045 [color="red"];
+  BB75a39e045 -> BB75a39e011 [color="blue"];
+  BB75a39e049 -> BB75a39dfaf [color="blue"];
+  BB75a39e05a -> BB75a39e00f [color="blue"];
+}

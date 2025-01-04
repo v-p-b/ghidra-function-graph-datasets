@@ -1,0 +1,9 @@
+digraph sqlite3NestedParse {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a28e3dc -> BB75a28e526 [color="green"];
+  BB75a28e3dc -> BB75a28e413 [color="red"];
+  BB75a28e413 -> BB75a28e526 [color="green"];
+  BB75a28e413 -> BB75a28e42b [color="red"];
+  BB75a28e42b -> BB75a28e526 [color="red"];
+}

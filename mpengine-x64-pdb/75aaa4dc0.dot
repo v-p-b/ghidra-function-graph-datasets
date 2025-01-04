@@ -1,0 +1,16 @@
+digraph RpfAPI_PEReadMemoryRVA {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaa4dc0 -> BB75aaa4e26 [color="green"];
+  BB75aaa4dc0 -> BB75aaa4df3 [color="red"];
+  BB75aaa4df3 -> BB75aaa4e21 [color="green"];
+  BB75aaa4df3 -> BB75aaa4df9 [color="red"];
+  BB75aaa4df9 -> BB75aaa4e3b [color="blue"];
+  BB75aaa4e21 -> BB75aaa4e2b [color="green"];
+  BB75aaa4e21 -> BB75aaa4e26 [color="red"];
+  BB75aaa4e26 -> BB75aaa4e2b [color="red"];
+  BB75aaa4e2b -> BB75aaa4e36 [color="green"];
+  BB75aaa4e2b -> BB75aaa4e31 [color="red"];
+  BB75aaa4e31 -> BB75aaa4e36 [color="red"];
+  BB75aaa4e36 -> BB75aaa4e3b [color="blue"];
+}

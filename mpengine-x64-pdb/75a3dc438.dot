@@ -1,0 +1,22 @@
+digraph estimate_max_state_count {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3dc438 -> BB75a3dc46b [color="green"];
+  BB75a3dc438 -> BB75a3dc462 [color="red"];
+  BB75a3dc462 -> BB75a3dc4c8 [color="green"];
+  BB75a3dc462 -> BB75a3dc46b [color="red"];
+  BB75a3dc46b -> BB75a3dc46e [color="blue"];
+  BB75a3dc46e -> BB75a3dc4d5 [color="green"];
+  BB75a3dc46e -> BB75a3dc47f [color="red"];
+  BB75a3dc47f -> BB75a3dc4d5 [color="green"];
+  BB75a3dc47f -> BB75a3dc492 [color="red"];
+  BB75a3dc492 -> BB75a3dc4d5 [color="green"];
+  BB75a3dc492 -> BB75a3dc4a2 [color="red"];
+  BB75a3dc4a2 -> BB75a3dc4d5 [color="green"];
+  BB75a3dc4a2 -> BB75a3dc4ab [color="red"];
+  BB75a3dc4ab -> BB75a3dc4c7 [color="green"];
+  BB75a3dc4ab -> BB75a3dc4c3 [color="red"];
+  BB75a3dc4c3 -> BB75a3dc4c7 [color="blue"];
+  BB75a3dc4c8 -> BB75a3dc46e [color="green"];
+  BB75a3dc4c8 -> BB75a3dc4d5 [color="red"];
+}

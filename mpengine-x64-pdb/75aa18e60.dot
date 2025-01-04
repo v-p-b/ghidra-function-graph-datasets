@@ -1,0 +1,10 @@
+digraph Cleanup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa18e60 -> BB75aa18e80 [color="green"];
+  BB75aa18e60 -> BB75aa18e70 [color="red"];
+  BB75aa18e70 -> BB75aa18e80 [color="red"];
+  BB75aa18e80 -> BB75aa18e99 [color="green"];
+  BB75aa18e80 -> BB75aa18e94 [color="red"];
+  BB75aa18e94 -> BB75aa18e99 [color="red"];
+}

@@ -1,0 +1,17 @@
+digraph GetThreadSp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1dc4cc -> BB75a1dc54a [color="green"];
+  BB75a1dc4cc -> BB75a1dc4e4 [color="red"];
+  BB75a1dc4e4 -> BB75a1dc500 [color="green"];
+  BB75a1dc4e4 -> BB75a1dc4f2 [color="red"];
+  BB75a1dc500 -> BB75a1dc4f2 [color="green"];
+  BB75a1dc500 -> BB75a1dc505 [color="red"];
+  BB75a1dc505 -> BB75a1dc543 [color="green"];
+  BB75a1dc505 -> BB75a1dc518 [color="red"];
+  BB75a1dc518 -> BB75a1dc543 [color="green"];
+  BB75a1dc518 -> BB75a1dc51e [color="red"];
+  BB75a1dc51e -> BB75a1dc543 [color="red"];
+  BB75a1dc543 -> BB75a1dc4f2 [color="blue"];
+  BB75a1dc54a -> BB75a1dc4e4 [color="blue"];
+}

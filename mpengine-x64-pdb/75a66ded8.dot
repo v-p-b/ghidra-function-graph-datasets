@@ -1,0 +1,17 @@
+digraph WaitForState {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a66ded8 -> BB75a66df30 [color="green"];
+  BB75a66ded8 -> BB75a66df01 [color="red"];
+  BB75a66df01 -> BB75a66df30 [color="green"];
+  BB75a66df01 -> BB75a66df07 [color="red"];
+  BB75a66df07 -> BB75a66df30 [color="red"];
+  BB75a66df30 -> BB75a66dfa3 [color="green"];
+  BB75a66df30 -> BB75a66df70 [color="red"];
+  BB75a66df70 -> BB75a66dfa3 [color="green"];
+  BB75a66df70 -> BB75a66df76 [color="red"];
+  BB75a66df76 -> BB75a66dfa3 [color="red"];
+  BB75a66dfa3 -> BB75a66dfb5 [color="green"];
+  BB75a66dfa3 -> BB75a66dfaa [color="red"];
+  BB75a66dfaa -> BB75a66dfb5 [color="red"];
+}

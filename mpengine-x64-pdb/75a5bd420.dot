@@ -1,0 +1,15 @@
+digraph TestForRegistryChangeFromValue {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5bd420 -> BB75a5bd47a [color="green"];
+  BB75a5bd420 -> BB75a5bd477 [color="red"];
+  BB75a5bd477 -> BB75a5bd47a [color="blue"];
+  BB75a5bd47a -> BB75a5bd4dd [color="green"];
+  BB75a5bd47a -> BB75a5bd493 [color="red"];
+  BB75a5bd493 -> BB75a5bd4c2 [color="red"];
+  BB75a5bd4dd -> BB75a5bd4c2 [color="green"];
+  BB75a5bd4dd -> BB75a5bd4f0 [color="red"];
+  BB75a5bd4f0 -> BB75a5bd4c2 [color="green"];
+  BB75a5bd4f0 -> BB75a5bd4f6 [color="red"];
+  BB75a5bd4f6 -> BB75a5bd4c2 [color="blue"];
+}

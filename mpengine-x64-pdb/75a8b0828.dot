@@ -1,0 +1,13 @@
+digraph ConvertDataToBool {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8b0828 -> BB75a8b0841 [color="green"];
+  BB75a8b0828 -> BB75a8b082f [color="red"];
+  BB75a8b082f -> BB75a8b0841 [color="green"];
+  BB75a8b082f -> BB75a8b0835 [color="red"];
+  BB75a8b0835 -> BB75a8b0841 [color="green"];
+  BB75a8b0835 -> BB75a8b083b [color="red"];
+  BB75a8b083b -> BB75a8b0846 [color="green"];
+  BB75a8b083b -> BB75a8b0841 [color="red"];
+  BB75a8b0841 -> BB75a8b0846 [color="blue"];
+}

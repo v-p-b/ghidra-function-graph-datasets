@@ -1,0 +1,18 @@
+digraph setup_x86_target {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5bb910 -> BB75a5bb92c [color="green"];
+  BB75a5bb910 -> BB75a5bb920 [color="red"];
+  BB75a5bb92c -> BB75a5bb920 [color="green"];
+  BB75a5bb92c -> BB75a5bb936 [color="red"];
+  BB75a5bb936 -> BB75a5bb971 [color="green"];
+  BB75a5bb936 -> BB75a5bb93b [color="red"];
+  BB75a5bb93b -> BB75a5bb94c [color="blue"];
+  BB75a5bb94c -> BB75a5bb920 [color="blue"];
+  BB75a5bb971 -> BB75a5bb992 [color="green"];
+  BB75a5bb971 -> BB75a5bb976 [color="red"];
+  BB75a5bb976 -> BB75a5bb9a9 [color="green"];
+  BB75a5bb976 -> BB75a5bb97b [color="red"];
+  BB75a5bb97b -> BB75a5bb94c [color="blue"];
+  BB75a5bb992 -> BB75a5bb94c [color="blue"];
+}

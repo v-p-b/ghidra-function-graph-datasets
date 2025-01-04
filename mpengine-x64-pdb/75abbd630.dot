@@ -1,0 +1,26 @@
+digraph SSE4_pmaxsw {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abbd630 -> BB75abbd750 [color="green"];
+  BB75abbd630 -> BB75abbd670 [color="red"];
+  BB75abbd670 -> BB75abbd6c3 [color="green"];
+  BB75abbd670 -> BB75abbd680 [color="red"];
+  BB75abbd680 -> BB75abbd811 [color="blue"];
+  BB75abbd6c3 -> BB75abbd72e [color="green"];
+  BB75abbd6c3 -> BB75abbd716 [color="red"];
+  BB75abbd716 -> BB75abbd740 [color="blue"];
+  BB75abbd72e -> BB75abbd740 [color="blue"];
+  BB75abbd740 -> BB75abbd811 [color="blue"];
+  BB75abbd750 -> BB75abbd7ef [color="green"];
+  BB75abbd750 -> BB75abbd759 [color="red"];
+  BB75abbd759 -> BB75abbd680 [color="green"];
+  BB75abbd759 -> BB75abbd76d [color="red"];
+  BB75abbd76d -> BB75abbd7d8 [color="green"];
+  BB75abbd76d -> BB75abbd7c0 [color="red"];
+  BB75abbd7c0 -> BB75abbd7ea [color="blue"];
+  BB75abbd7d8 -> BB75abbd7ea [color="blue"];
+  BB75abbd7ea -> BB75abbd740 [color="blue"];
+  BB75abbd7ef -> BB75abbd7f8 [color="blue"];
+  BB75abbd7f8 -> BB75abbd7f8 [color="green"];
+  BB75abbd7f8 -> BB75abbd811 [color="red"];
+}

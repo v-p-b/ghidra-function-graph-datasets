@@ -1,0 +1,11 @@
+digraph DlpIsSetWindowsHooksUsed {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a697060 -> BB75a6970a7 [color="green"];
+  BB75a697060 -> BB75a69709c [color="red"];
+  BB75a69709c -> BB75a6970d4 [color="blue"];
+  BB75a6970a7 -> BB75a6970c9 [color="green"];
+  BB75a6970a7 -> BB75a6970bb [color="red"];
+  BB75a6970bb -> BB75a6970c9 [color="red"];
+  BB75a6970c9 -> BB75a6970d4 [color="red"];
+}

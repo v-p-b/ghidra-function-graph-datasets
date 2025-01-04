@@ -1,0 +1,11 @@
+digraph WrapHKEYIntoRegistryKey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1db074 -> BB75a1db0c6 [color="green"];
+  BB75a1db074 -> BB75a1db09e [color="red"];
+  BB75a1db09e -> BB75a1db0a8 [color="blue"];
+  BB75a1db0a8 -> BB75a1db0b9 [color="green"];
+  BB75a1db0a8 -> BB75a1db0ad [color="red"];
+  BB75a1db0ad -> BB75a1db0b9 [color="red"];
+  BB75a1db0c6 -> BB75a1db0a8 [color="blue"];
+}

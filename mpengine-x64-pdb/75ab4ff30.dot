@@ -1,0 +1,15 @@
+digraph groupConcatValue {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab4ff30 -> BB75ab4ffb4 [color="green"];
+  BB75ab4ff30 -> BB75ab4ff4b [color="red"];
+  BB75ab4ff4b -> BB75ab4ff76 [color="green"];
+  BB75ab4ff4b -> BB75ab4ff52 [color="red"];
+  BB75ab4ff52 -> BB75ab4ffb4 [color="blue"];
+  BB75ab4ff76 -> BB75ab4ff87 [color="green"];
+  BB75ab4ff76 -> BB75ab4ff7a [color="red"];
+  BB75ab4ff87 -> BB75ab4ff9c [color="green"];
+  BB75ab4ff87 -> BB75ab4ff8d [color="red"];
+  BB75ab4ff8d -> BB75ab4ff9c [color="blue"];
+  BB75ab4ff9c -> BB75ab4ffb4 [color="red"];
+}

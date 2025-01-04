@@ -1,0 +1,32 @@
+digraph DetectParityFlavor {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7435d8 -> BB75a743648 [color="green"];
+  BB75a7435d8 -> BB75a74363c [color="red"];
+  BB75a74363c -> BB75a743648 [color="blue"];
+  BB75a743648 -> BB75a743655 [color="green"];
+  BB75a743648 -> BB75a743651 [color="red"];
+  BB75a743651 -> BB75a743664 [color="blue"];
+  BB75a743655 -> BB75a743664 [color="blue"];
+  BB75a743664 -> BB75a74369d [color="green"];
+  BB75a743664 -> BB75a743698 [color="red"];
+  BB75a743698 -> BB75a74369d [color="red"];
+  BB75a74369d -> BB75a7436d0 [color="green"];
+  BB75a74369d -> BB75a7436b7 [color="red"];
+  BB75a7436b7 -> BB75a7436c9 [color="green"];
+  BB75a7436b7 -> BB75a7436c0 [color="red"];
+  BB75a7436c0 -> BB75a7436c9 [color="red"];
+  BB75a7436c9 -> BB75a7436d0 [color="blue"];
+  BB75a7436d0 -> BB75a7436dd [color="green"];
+  BB75a7436d0 -> BB75a7436d5 [color="red"];
+  BB75a7436d5 -> BB75a7436dd [color="red"];
+  BB75a7436dd -> BB75a7436e6 [color="green"];
+  BB75a7436dd -> BB75a7436e2 [color="red"];
+  BB75a7436e2 -> BB75a743719 [color="blue"];
+  BB75a7436e6 -> BB75a743717 [color="green"];
+  BB75a7436e6 -> BB75a7436f9 [color="red"];
+  BB75a7436f9 -> BB75a743717 [color="green"];
+  BB75a7436f9 -> BB75a7436ff [color="red"];
+  BB75a7436ff -> BB75a743717 [color="red"];
+  BB75a743717 -> BB75a743719 [color="blue"];
+}

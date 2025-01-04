@@ -1,0 +1,19 @@
+digraph ZSTD_deriveBlockSplitsHelper {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac0120c -> BB75ac01342 [color="green"];
+  BB75ac0120c -> BB75ac0125b [color="red"];
+  BB75ac0125b -> BB75ac01263 [color="blue"];
+  BB75ac01263 -> BB75ac01342 [color="green"];
+  BB75ac01263 -> BB75ac01271 [color="red"];
+  BB75ac01271 -> BB75ac01342 [color="green"];
+  BB75ac01271 -> BB75ac012dd [color="red"];
+  BB75ac012dd -> BB75ac01342 [color="green"];
+  BB75ac012dd -> BB75ac012e3 [color="red"];
+  BB75ac012e3 -> BB75ac01342 [color="green"];
+  BB75ac012e3 -> BB75ac012e9 [color="red"];
+  BB75ac012e9 -> BB75ac01342 [color="green"];
+  BB75ac012e9 -> BB75ac012f1 [color="red"];
+  BB75ac012f1 -> BB75ac01263 [color="green"];
+  BB75ac012f1 -> BB75ac01342 [color="red"];
+}

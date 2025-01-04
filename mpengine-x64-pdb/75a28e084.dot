@@ -1,0 +1,14 @@
+digraph sqlite3TwoPartName {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a28e084 -> BB75a28e0b3 [color="green"];
+  BB75a28e084 -> BB75a28e09e [color="red"];
+  BB75a28e09e -> BB75a28e0a8 [color="blue"];
+  BB75a28e0b3 -> BB75a28e0e2 [color="green"];
+  BB75a28e0b3 -> BB75a28e0bc [color="red"];
+  BB75a28e0bc -> BB75a28e0a8 [color="green"];
+  BB75a28e0bc -> BB75a28e0cb [color="red"];
+  BB75a28e0cb -> BB75a28e0dd [color="red"];
+  BB75a28e0dd -> BB75a28e0a8 [color="blue"];
+  BB75a28e0e2 -> BB75a28e0dd [color="blue"];
+}

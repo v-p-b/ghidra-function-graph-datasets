@@ -1,0 +1,35 @@
+digraph filter {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aad0500 -> BB75aad061f [color="green"];
+  BB75aad0500 -> BB75aad0545 [color="red"];
+  BB75aad0545 -> BB75aad061f [color="green"];
+  BB75aad0545 -> BB75aad054e [color="red"];
+  BB75aad054e -> BB75aad0566 [color="green"];
+  BB75aad054e -> BB75aad0556 [color="red"];
+  BB75aad0556 -> BB75aad0566 [color="blue"];
+  BB75aad0566 -> BB75aad0569 [color="blue"];
+  BB75aad0569 -> BB75aad0603 [color="green"];
+  BB75aad0569 -> BB75aad0572 [color="red"];
+  BB75aad0572 -> BB75aad0603 [color="green"];
+  BB75aad0572 -> BB75aad057b [color="red"];
+  BB75aad057b -> BB75aad05c3 [color="green"];
+  BB75aad057b -> BB75aad057f [color="red"];
+  BB75aad057f -> BB75aad0600 [color="green"];
+  BB75aad057f -> BB75aad058d [color="red"];
+  BB75aad058d -> BB75aad05f9 [color="green"];
+  BB75aad058d -> BB75aad05af [color="red"];
+  BB75aad05af -> BB75aad05f9 [color="green"];
+  BB75aad05af -> BB75aad05b4 [color="red"];
+  BB75aad05b4 -> BB75aad05ee [color="blue"];
+  BB75aad05c3 -> BB75aad05cd [color="green"];
+  BB75aad05c3 -> BB75aad05c9 [color="red"];
+  BB75aad05c9 -> BB75aad05d2 [color="blue"];
+  BB75aad05cd -> BB75aad05d2 [color="blue"];
+  BB75aad05d2 -> BB75aad05ee [color="blue"];
+  BB75aad05ee -> BB75aad0569 [color="blue"];
+  BB75aad05f9 -> BB75aad0603 [color="blue"];
+  BB75aad0600 -> BB75aad0603 [color="blue"];
+  BB75aad0603 -> BB75aad0624 [color="blue"];
+  BB75aad061f -> BB75aad0624 [color="blue"];
+}

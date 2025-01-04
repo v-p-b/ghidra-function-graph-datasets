@@ -1,0 +1,22 @@
+digraph pefile_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa0b390 -> BB75aa0b3a9 [color="green"];
+  BB75aa0b390 -> BB75aa0b3a4 [color="red"];
+  BB75aa0b3a4 -> BB75aa0b3a9 [color="red"];
+  BB75aa0b3a9 -> BB75aa0b4b5 [color="green"];
+  BB75aa0b3a9 -> BB75aa0b3f7 [color="red"];
+  BB75aa0b3f7 -> BB75aa0b4b5 [color="green"];
+  BB75aa0b3f7 -> BB75aa0b412 [color="red"];
+  BB75aa0b412 -> BB75aa0b4b5 [color="green"];
+  BB75aa0b412 -> BB75aa0b42d [color="red"];
+  BB75aa0b42d -> BB75aa0b4b5 [color="green"];
+  BB75aa0b42d -> BB75aa0b444 [color="red"];
+  BB75aa0b444 -> BB75aa0b4ba [color="green"];
+  BB75aa0b444 -> BB75aa0b45f [color="red"];
+  BB75aa0b45f -> BB75aa0b4a7 [color="green"];
+  BB75aa0b45f -> BB75aa0b498 [color="red"];
+  BB75aa0b498 -> BB75aa0b4a7 [color="red"];
+  BB75aa0b4a7 -> BB75aa0b4ba [color="blue"];
+  BB75aa0b4b5 -> BB75aa0b4ba [color="blue"];
+}

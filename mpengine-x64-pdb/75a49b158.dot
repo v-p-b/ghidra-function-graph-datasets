@@ -1,0 +1,12 @@
+digraph GetDynamicDword {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a49b158 -> BB75a49b1c1 [color="green"];
+  BB75a49b158 -> BB75a49b18e [color="red"];
+  BB75a49b18e -> BB75a49b1c3 [color="green"];
+  BB75a49b18e -> BB75a49b1a1 [color="red"];
+  BB75a49b1a1 -> BB75a49b1c3 [color="green"];
+  BB75a49b1a1 -> BB75a49b1a7 [color="red"];
+  BB75a49b1a7 -> BB75a49b1c3 [color="blue"];
+  BB75a49b1c1 -> BB75a49b1c3 [color="blue"];
+}

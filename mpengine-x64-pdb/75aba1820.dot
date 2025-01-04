@@ -1,0 +1,15 @@
+digraph AnomalyDetection_cleanup_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aba1820 -> BB75aba186f [color="green"];
+  BB75aba1820 -> BB75aba1843 [color="red"];
+  BB75aba1843 -> BB75aba186f [color="green"];
+  BB75aba1843 -> BB75aba1854 [color="red"];
+  BB75aba1854 -> BB75aba186f [color="green"];
+  BB75aba1854 -> BB75aba1868 [color="red"];
+  BB75aba1868 -> BB75aba1871 [color="blue"];
+  BB75aba186f -> BB75aba1871 [color="blue"];
+  BB75aba1871 -> BB75aba1884 [color="green"];
+  BB75aba1871 -> BB75aba187f [color="red"];
+  BB75aba187f -> BB75aba1884 [color="red"];
+}

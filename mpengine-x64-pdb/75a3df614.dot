@@ -1,0 +1,20 @@
+digraph MergeScanPages {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3df614 -> BB75a3df685 [color="green"];
+  BB75a3df614 -> BB75a3df645 [color="red"];
+  BB75a3df645 -> BB75a3df6c6 [color="green"];
+  BB75a3df645 -> BB75a3df64a [color="red"];
+  BB75a3df64a -> BB75a3df6c6 [color="green"];
+  BB75a3df64a -> BB75a3df65e [color="red"];
+  BB75a3df65e -> BB75a3df66a [color="blue"];
+  BB75a3df685 -> BB75a3df6c6 [color="green"];
+  BB75a3df685 -> BB75a3df68a [color="red"];
+  BB75a3df68a -> BB75a3df6c6 [color="green"];
+  BB75a3df68a -> BB75a3df699 [color="red"];
+  BB75a3df699 -> BB75a3df702 [color="green"];
+  BB75a3df699 -> BB75a3df6a1 [color="red"];
+  BB75a3df6a1 -> BB75a3df66a [color="blue"];
+  BB75a3df6c6 -> BB75a3df66a [color="blue"];
+  BB75a3df702 -> BB75a3df6a1 [color="blue"];
+}

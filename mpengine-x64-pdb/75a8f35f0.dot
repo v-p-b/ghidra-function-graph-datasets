@@ -1,0 +1,9 @@
+digraph is_buffer_pool_setup_ok {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8f35f0 -> BB75a8f360b [color="green"];
+  BB75a8f35f0 -> BB75a8f35f8 [color="red"];
+  BB75a8f35f8 -> BB75a8f360b [color="green"];
+  BB75a8f35f8 -> BB75a8f3608 [color="red"];
+  BB75a8f3608 -> BB75a8f360b [color="blue"];
+}

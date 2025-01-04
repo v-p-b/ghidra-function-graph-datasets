@@ -1,0 +1,28 @@
+digraph log_instr {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a32ce3c -> BB75a32cfb8 [color="green"];
+  BB75a32ce3c -> BB75a32ce70 [color="red"];
+  BB75a32ce70 -> BB75a32cf8f [color="green"];
+  BB75a32ce70 -> BB75a32ce84 [color="red"];
+  BB75a32ce84 -> BB75a32ce87 [color="blue"];
+  BB75a32ce87 -> BB75a32cecc [color="green"];
+  BB75a32ce87 -> BB75a32ce98 [color="red"];
+  BB75a32ce98 -> BB75a32cecc [color="red"];
+  BB75a32cecc -> BB75a32cf98 [color="green"];
+  BB75a32cecc -> BB75a32cef3 [color="red"];
+  BB75a32cef3 -> BB75a32cf6c [color="green"];
+  BB75a32cef3 -> BB75a32cf1a [color="red"];
+  BB75a32cf1a -> BB75a32cf1e [color="blue"];
+  BB75a32cf1e -> BB75a32cf72 [color="green"];
+  BB75a32cf1e -> BB75a32cf3a [color="red"];
+  BB75a32cf3a -> BB75a32cf4b [color="blue"];
+  BB75a32cf4b -> BB75a32cf4d [color="blue"];
+  BB75a32cf6c -> BB75a32cf1e [color="blue"];
+  BB75a32cf72 -> BB75a32cf3a [color="green"];
+  BB75a32cf72 -> BB75a32cf8a [color="red"];
+  BB75a32cf8a -> BB75a32cf3a [color="blue"];
+  BB75a32cf8f -> BB75a32ce87 [color="blue"];
+  BB75a32cf98 -> BB75a32cf4b [color="blue"];
+  BB75a32cfb8 -> BB75a32cf4d [color="blue"];
+}

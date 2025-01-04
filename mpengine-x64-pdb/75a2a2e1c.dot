@@ -1,0 +1,22 @@
+digraph sqlite3VdbeIdxKeyCompare {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2a2e1c -> BB75a2a2f13 [color="green"];
+  BB75a2a2e1c -> BB75a2a2e74 [color="red"];
+  BB75a2a2e74 -> BB75a2a2f47 [color="green"];
+  BB75a2a2e74 -> BB75a2a2e99 [color="red"];
+  BB75a2a2e99 -> BB75a2a2ef5 [color="green"];
+  BB75a2a2e99 -> BB75a2a2e9d [color="red"];
+  BB75a2a2e9d -> BB75a2a2eb1 [color="blue"];
+  BB75a2a2eb1 -> BB75a2a2eea [color="green"];
+  BB75a2a2eb1 -> BB75a2a2ec9 [color="red"];
+  BB75a2a2ec9 -> BB75a2a2eea [color="green"];
+  BB75a2a2ec9 -> BB75a2a2ece [color="red"];
+  BB75a2a2ece -> BB75a2a2ed0 [color="blue"];
+  BB75a2a2eea -> BB75a2a2ece [color="blue"];
+  BB75a2a2ef5 -> BB75a2a2ed0 [color="green"];
+  BB75a2a2ef5 -> BB75a2a2f0a [color="red"];
+  BB75a2a2f0a -> BB75a2a2eb1 [color="blue"];
+  BB75a2a2f13 -> BB75a2a2ed0 [color="blue"];
+  BB75a2a2f47 -> BB75a2a2e99 [color="blue"];
+}

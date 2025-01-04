@@ -1,0 +1,13 @@
+digraph sqlite3SrcListShiftJoinType {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a575fe8 -> BB75a575ffc [color="green"];
+  BB75a575fe8 -> BB75a575fed [color="red"];
+  BB75a575fed -> BB75a575ffd [color="green"];
+  BB75a575fed -> BB75a575ff8 [color="red"];
+  BB75a575ff8 -> BB75a575ffc [color="blue"];
+  BB75a575ffd -> BB75a576008 [color="blue"];
+  BB75a576008 -> BB75a576008 [color="green"];
+  BB75a576008 -> BB75a57601b [color="red"];
+  BB75a57601b -> BB75a575ff8 [color="blue"];
+}

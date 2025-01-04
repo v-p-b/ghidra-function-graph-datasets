@@ -1,0 +1,20 @@
+digraph bitsearch {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a60500c -> BB75a605129 [color="green"];
+  BB75a60500c -> BB75a605038 [color="red"];
+  BB75a605038 -> BB75a605129 [color="green"];
+  BB75a605038 -> BB75a605048 [color="red"];
+  BB75a605048 -> BB75a605065 [color="blue"];
+  BB75a605065 -> BB75a605168 [color="green"];
+  BB75a605065 -> BB75a605093 [color="red"];
+  BB75a605093 -> BB75a6050a6 [color="red"];
+  BB75a605129 -> BB75a60514c [color="green"];
+  BB75a605129 -> BB75a60513d [color="red"];
+  BB75a60513d -> BB75a605144 [color="blue"];
+  BB75a605144 -> BB75a605065 [color="blue"];
+  BB75a60514c -> BB75a605048 [color="green"];
+  BB75a60514c -> BB75a60515f [color="red"];
+  BB75a60515f -> BB75a605144 [color="blue"];
+  BB75a605168 -> BB75a6050a6 [color="blue"];
+}

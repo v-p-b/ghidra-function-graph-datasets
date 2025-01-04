@@ -1,0 +1,31 @@
+digraph MpGlobalVarAcquire<class_CommonUtil::CTlsManager,class_CommonUtil::CGlobalRefVarPolicy<class_CommonUtil::CTlsManagerFactory>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a707c3c -> BB75a707c82 [color="green"];
+  BB75a707c3c -> BB75a707c78 [color="red"];
+  BB75a707c78 -> BB75a707d24 [color="blue"];
+  BB75a707c82 -> BB75a707d2d [color="green"];
+  BB75a707c82 -> BB75a707c97 [color="red"];
+  BB75a707c97 -> BB75a707cd7 [color="green"];
+  BB75a707c97 -> BB75a707cae [color="red"];
+  BB75a707cae -> BB75a707ccc [color="green"];
+  BB75a707cae -> BB75a707cc1 [color="red"];
+  BB75a707cc1 -> BB75a707cd7 [color="green"];
+  BB75a707cc1 -> BB75a707ccc [color="red"];
+  BB75a707ccc -> BB75a707cd7 [color="blue"];
+  BB75a707cd7 -> BB75a707ce9 [color="green"];
+  BB75a707cd7 -> BB75a707ce5 [color="red"];
+  BB75a707ce5 -> BB75a707d2d [color="blue"];
+  BB75a707ce9 -> BB75a707d0d [color="green"];
+  BB75a707ce9 -> BB75a707d04 [color="red"];
+  BB75a707d04 -> BB75a707d22 [color="green"];
+  BB75a707d04 -> BB75a707d0d [color="red"];
+  BB75a707d0d -> BB75a707d1a [color="green"];
+  BB75a707d0d -> BB75a707d12 [color="red"];
+  BB75a707d12 -> BB75a707d1a [color="red"];
+  BB75a707d1a -> BB75a707d22 [color="green"];
+  BB75a707d1a -> BB75a707d1e [color="red"];
+  BB75a707d1e -> BB75a707d2d [color="blue"];
+  BB75a707d22 -> BB75a707d24 [color="blue"];
+  BB75a707d24 -> BB75a707d2d [color="blue"];
+}

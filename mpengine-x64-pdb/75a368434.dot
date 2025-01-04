@@ -1,0 +1,15 @@
+digraph ShouldPrepareTelemetryFields {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a368434 -> BB75a368497 [color="green"];
+  BB75a368434 -> BB75a368456 [color="red"];
+  BB75a368456 -> BB75a368497 [color="green"];
+  BB75a368456 -> BB75a36846c [color="red"];
+  BB75a36846c -> BB75a368497 [color="green"];
+  BB75a36846c -> BB75a368475 [color="red"];
+  BB75a368475 -> BB75a36848e [color="green"];
+  BB75a368475 -> BB75a368481 [color="red"];
+  BB75a36848e -> BB75a368481 [color="green"];
+  BB75a36848e -> BB75a368497 [color="red"];
+  BB75a368497 -> BB75a368481 [color="blue"];
+}

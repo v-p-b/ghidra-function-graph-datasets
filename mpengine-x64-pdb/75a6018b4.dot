@@ -1,0 +1,10 @@
+digraph get_cpu_model_features {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6018b4 -> BB75a60192d [color="green"];
+  BB75a6018b4 -> BB75a60191e [color="red"];
+  BB75a60191e -> BB75a601936 [color="blue"];
+  BB75a60192d -> BB75a601943 [color="green"];
+  BB75a60192d -> BB75a601936 [color="red"];
+  BB75a601936 -> BB75a601943 [color="blue"];
+}

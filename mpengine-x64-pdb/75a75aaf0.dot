@@ -1,0 +1,15 @@
+digraph KERNEL32_DLL_RemoveDirectoryW {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a75aaf0 -> BB75a75abb4 [color="green"];
+  BB75a75aaf0 -> BB75a75ab4f [color="red"];
+  BB75a75ab4f -> BB75a75abb4 [color="green"];
+  BB75a75ab4f -> BB75a75ab58 [color="red"];
+  BB75a75ab58 -> BB75a75ab89 [color="green"];
+  BB75a75ab58 -> BB75a75ab7b [color="red"];
+  BB75a75ab7b -> BB75a75abb4 [color="blue"];
+  BB75a75ab89 -> BB75a75abb4 [color="red"];
+  BB75a75abb4 -> BB75a75abce [color="green"];
+  BB75a75abb4 -> BB75a75abc2 [color="red"];
+  BB75a75abc2 -> BB75a75abce [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph IsSampleSha1OrPathAlreadySubmitted {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a65ec0c -> BB75a65ecfc [color="green"];
+  BB75a65ec0c -> BB75a65ecb9 [color="red"];
+  BB75a65ecb9 -> BB75a65ecfc [color="green"];
+  BB75a65ecb9 -> BB75a65ecbe [color="red"];
+  BB75a65ecbe -> BB75a65ecd4 [color="red"];
+  BB75a65ecfc -> BB75a65ed45 [color="green"];
+  BB75a65ecfc -> BB75a65ed2a [color="red"];
+  BB75a65ed2a -> BB75a65ed45 [color="green"];
+  BB75a65ed2a -> BB75a65ed3c [color="red"];
+  BB75a65ed3c -> BB75a65ed47 [color="green"];
+  BB75a65ed3c -> BB75a65ed45 [color="red"];
+  BB75a65ed45 -> BB75a65ed47 [color="blue"];
+  BB75a65ed47 -> BB75a65ecd4 [color="blue"];
+}

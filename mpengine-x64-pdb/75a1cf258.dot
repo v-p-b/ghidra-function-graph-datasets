@@ -1,0 +1,14 @@
+digraph initByCopy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1cf258 -> BB75a1cf2da [color="green"];
+  BB75a1cf258 -> BB75a1cf283 [color="red"];
+  BB75a1cf283 -> BB75a1cf2e9 [color="green"];
+  BB75a1cf283 -> BB75a1cf299 [color="red"];
+  BB75a1cf299 -> BB75a1cf2e9 [color="green"];
+  BB75a1cf299 -> BB75a1cf2ba [color="red"];
+  BB75a1cf2ba -> BB75a1cf2bd [color="blue"];
+  BB75a1cf2bd -> BB75a1cf2bf [color="blue"];
+  BB75a1cf2da -> BB75a1cf2bd [color="blue"];
+  BB75a1cf2e9 -> BB75a1cf2bf [color="blue"];
+}

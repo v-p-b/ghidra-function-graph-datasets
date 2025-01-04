@@ -1,0 +1,13 @@
+digraph mallocWithAlarm {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab50e64 -> BB75ab50ec3 [color="green"];
+  BB75ab50e64 -> BB75ab50e9f [color="red"];
+  BB75ab50e9f -> BB75ab50ebc [color="green"];
+  BB75ab50e9f -> BB75ab50eab [color="red"];
+  BB75ab50eab -> BB75ab50ec3 [color="blue"];
+  BB75ab50ebc -> BB75ab50ec3 [color="blue"];
+  BB75ab50ec3 -> BB75ab50ef7 [color="green"];
+  BB75ab50ec3 -> BB75ab50ed9 [color="red"];
+  BB75ab50ed9 -> BB75ab50ef7 [color="red"];
+}

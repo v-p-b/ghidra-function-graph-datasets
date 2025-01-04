@@ -1,0 +1,8 @@
+digraph _verify_certificate_chain {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a932a54 -> BB75a932b04 [color="green"];
+  BB75a932a54 -> BB75a932ab5 [color="red"];
+  BB75a932ab5 -> BB75a932b07 [color="blue"];
+  BB75a932b04 -> BB75a932b07 [color="blue"];
+}

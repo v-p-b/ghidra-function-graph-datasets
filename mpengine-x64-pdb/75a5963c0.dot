@@ -1,0 +1,14 @@
+digraph check_status_code {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5963c0 -> BB75a5963c6 [color="green"];
+  BB75a5963c0 -> BB75a5963c5 [color="red"];
+  BB75a5963c6 -> BB75a596457 [color="green"];
+  BB75a5963c6 -> BB75a5963fb [color="red"];
+  BB75a5963fb -> BB75a596457 [color="green"];
+  BB75a5963fb -> BB75a596401 [color="red"];
+  BB75a596401 -> BB75a596457 [color="red"];
+  BB75a596457 -> BB75a596466 [color="green"];
+  BB75a596457 -> BB75a59645c [color="red"];
+  BB75a59645c -> BB75a596466 [color="red"];
+}

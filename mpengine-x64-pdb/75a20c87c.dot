@@ -1,0 +1,26 @@
+digraph GetSectorFromMap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a20c87c -> BB75a20c8dc [color="green"];
+  BB75a20c87c -> BB75a20c89a [color="red"];
+  BB75a20c89a -> BB75a20c8dc [color="green"];
+  BB75a20c89a -> BB75a20c8a1 [color="red"];
+  BB75a20c8a1 -> BB75a20c8dc [color="green"];
+  BB75a20c8a1 -> BB75a20c8a7 [color="red"];
+  BB75a20c8a7 -> BB75a20c916 [color="green"];
+  BB75a20c8a7 -> BB75a20c8b4 [color="red"];
+  BB75a20c8b4 -> BB75a20c916 [color="green"];
+  BB75a20c8b4 -> BB75a20c8bb [color="red"];
+  BB75a20c8bb -> BB75a20c916 [color="green"];
+  BB75a20c8bb -> BB75a20c8c2 [color="red"];
+  BB75a20c8c2 -> BB75a20c8cc [color="blue"];
+  BB75a20c8dc -> BB75a20c8ff [color="green"];
+  BB75a20c8dc -> BB75a20c8ef [color="red"];
+  BB75a20c8ef -> BB75a20c8cc [color="green"];
+  BB75a20c8ef -> BB75a20c8fd [color="red"];
+  BB75a20c8fd -> BB75a20c8a7 [color="blue"];
+  BB75a20c8ff -> BB75a20c8ef [color="green"];
+  BB75a20c8ff -> BB75a20c908 [color="red"];
+  BB75a20c908 -> BB75a20c8ef [color="blue"];
+  BB75a20c916 -> BB75a20c8cc [color="blue"];
+}

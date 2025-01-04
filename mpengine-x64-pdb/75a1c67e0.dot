@@ -1,0 +1,10 @@
+digraph get_last_error {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1c67e0 -> BB75a1c6802 [color="green"];
+  BB75a1c67e0 -> BB75a1c67ef [color="red"];
+  BB75a1c67ef -> BB75a1c6809 [color="green"];
+  BB75a1c67ef -> BB75a1c67f9 [color="red"];
+  BB75a1c6802 -> BB75a1c67ef [color="blue"];
+  BB75a1c6809 -> BB75a1c67f9 [color="blue"];
+}

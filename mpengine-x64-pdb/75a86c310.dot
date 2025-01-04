@@ -1,0 +1,29 @@
+digraph Grow {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a86c310 -> BB75a86c335 [color="green"];
+  BB75a86c310 -> BB75a86c333 [color="red"];
+  BB75a86c333 -> BB75a86c335 [color="blue"];
+  BB75a86c335 -> BB75a86c33c [color="green"];
+  BB75a86c335 -> BB75a86c33a [color="red"];
+  BB75a86c33a -> BB75a86c33c [color="blue"];
+  BB75a86c33c -> BB75a86c348 [color="blue"];
+  BB75a86c348 -> BB75a86c358 [color="green"];
+  BB75a86c348 -> BB75a86c350 [color="red"];
+  BB75a86c350 -> BB75a86c348 [color="green"];
+  BB75a86c350 -> BB75a86c356 [color="red"];
+  BB75a86c356 -> BB75a86c361 [color="blue"];
+  BB75a86c358 -> BB75a86c3d1 [color="green"];
+  BB75a86c358 -> BB75a86c361 [color="red"];
+  BB75a86c361 -> BB75a86c3d1 [color="green"];
+  BB75a86c361 -> BB75a86c386 [color="red"];
+  BB75a86c386 -> BB75a86c3a2 [color="green"];
+  BB75a86c386 -> BB75a86c38c [color="red"];
+  BB75a86c38c -> BB75a86c3a2 [color="red"];
+  BB75a86c3a2 -> BB75a86c3c7 [color="green"];
+  BB75a86c3a2 -> BB75a86c3aa [color="red"];
+  BB75a86c3aa -> BB75a86c3c7 [color="green"];
+  BB75a86c3aa -> BB75a86c3b3 [color="red"];
+  BB75a86c3b3 -> BB75a86c3c7 [color="red"];
+  BB75a86c3c7 -> BB75a86c3d1 [color="blue"];
+}

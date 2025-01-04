@@ -1,0 +1,13 @@
+digraph SendPassiveRemediationNotification {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aae19bc -> BB75aae1a50 [color="green"];
+  BB75aae19bc -> BB75aae19d7 [color="red"];
+  BB75aae19d7 -> BB75aae1a50 [color="green"];
+  BB75aae19d7 -> BB75aae1a1f [color="red"];
+  BB75aae1a1f -> BB75aae1a50 [color="green"];
+  BB75aae1a1f -> BB75aae1a32 [color="red"];
+  BB75aae1a32 -> BB75aae1a50 [color="green"];
+  BB75aae1a32 -> BB75aae1a38 [color="red"];
+  BB75aae1a38 -> BB75aae1a50 [color="red"];
+}

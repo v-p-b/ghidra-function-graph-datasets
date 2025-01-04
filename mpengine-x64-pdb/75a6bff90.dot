@@ -1,0 +1,13 @@
+digraph GetParamsFromStandaloneSig {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6bff90 -> BB75a6c001a [color="green"];
+  BB75a6bff90 -> BB75a6bffbe [color="red"];
+  BB75a6bffbe -> BB75a6c0021 [color="green"];
+  BB75a6bffbe -> BB75a6bffde [color="red"];
+  BB75a6bffde -> BB75a6c0028 [color="green"];
+  BB75a6bffde -> BB75a6c0002 [color="red"];
+  BB75a6c001a -> BB75a6bffbe [color="blue"];
+  BB75a6c0021 -> BB75a6bffde [color="blue"];
+  BB75a6c0028 -> BB75a6c0002 [color="blue"];
+}

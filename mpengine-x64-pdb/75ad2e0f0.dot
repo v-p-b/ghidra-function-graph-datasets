@@ -1,0 +1,12 @@
+digraph LuaSetRebootRequired {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad2e0f0 -> BB75ad2e12e [color="green"];
+  BB75ad2e0f0 -> BB75ad2e0fe [color="red"];
+  BB75ad2e0fe -> BB75ad2e13b [color="green"];
+  BB75ad2e0fe -> BB75ad2e111 [color="red"];
+  BB75ad2e111 -> BB75ad2e13b [color="green"];
+  BB75ad2e111 -> BB75ad2e117 [color="red"];
+  BB75ad2e117 -> BB75ad2e13b [color="blue"];
+  BB75ad2e12e -> BB75ad2e13b [color="red"];
+}

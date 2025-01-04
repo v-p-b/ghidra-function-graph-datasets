@@ -1,0 +1,33 @@
+digraph TraceStats {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abd6414 -> BB75abd64b4 [color="green"];
+  BB75abd6414 -> BB75abd6471 [color="red"];
+  BB75abd6471 -> BB75abd6477 [color="blue"];
+  BB75abd6477 -> BB75abd6477 [color="green"];
+  BB75abd6477 -> BB75abd64ad [color="red"];
+  BB75abd64ad -> BB75abd64b8 [color="blue"];
+  BB75abd64b4 -> BB75abd64b8 [color="blue"];
+  BB75abd64b8 -> BB75abd64e1 [color="blue"];
+  BB75abd64e1 -> BB75abd64e1 [color="green"];
+  BB75abd64e1 -> BB75abd64ed [color="red"];
+  BB75abd64ed -> BB75abd6503 [color="green"];
+  BB75abd64ed -> BB75abd64f9 [color="red"];
+  BB75abd64f9 -> BB75abd650a [color="blue"];
+  BB75abd6503 -> BB75abd650a [color="blue"];
+  BB75abd650a -> BB75abd6791 [color="green"];
+  BB75abd650a -> BB75abd6520 [color="red"];
+  BB75abd6520 -> BB75abd6791 [color="green"];
+  BB75abd6520 -> BB75abd6530 [color="red"];
+  BB75abd6530 -> BB75abd6788 [color="green"];
+  BB75abd6530 -> BB75abd6546 [color="red"];
+  BB75abd6546 -> BB75abd6788 [color="green"];
+  BB75abd6546 -> BB75abd6564 [color="red"];
+  BB75abd6564 -> BB75abd6788 [color="red"];
+  BB75abd6788 -> BB75abd6791 [color="red"];
+  BB75abd6791 -> BB75abd67a3 [color="green"];
+  BB75abd6791 -> BB75abd679a [color="red"];
+  BB75abd679a -> BB75abd67d9 [color="green"];
+  BB75abd679a -> BB75abd67a3 [color="red"];
+  BB75abd67a3 -> BB75abd67d9 [color="red"];
+}

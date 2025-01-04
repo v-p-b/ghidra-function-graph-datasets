@@ -1,0 +1,11 @@
+digraph IsExpired {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a40b838 -> BB75a40b882 [color="green"];
+  BB75a40b838 -> BB75a40b852 [color="red"];
+  BB75a40b852 -> BB75a40b886 [color="green"];
+  BB75a40b852 -> BB75a40b858 [color="red"];
+  BB75a40b858 -> BB75a40b877 [color="red"];
+  BB75a40b882 -> BB75a40b877 [color="blue"];
+  BB75a40b886 -> BB75a40b877 [color="blue"];
+}

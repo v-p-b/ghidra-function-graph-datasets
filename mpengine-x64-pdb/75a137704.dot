@@ -1,0 +1,14 @@
+digraph static_scan_worker {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a137704 -> BB75a137734 [color="green"];
+  BB75a137704 -> BB75a137728 [color="red"];
+  BB75a137728 -> BB75a137734 [color="red"];
+  BB75a137734 -> BB75a137749 [color="green"];
+  BB75a137734 -> BB75a13773a [color="red"];
+  BB75a13773a -> BB75a137775 [color="green"];
+  BB75a13773a -> BB75a137746 [color="red"];
+  BB75a137746 -> BB75a137749 [color="blue"];
+  BB75a137749 -> BB75a137765 [color="red"];
+  BB75a137775 -> BB75a137765 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph ConfigScanDelayIntervalMS {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a60b434 -> BB75a60b495 [color="green"];
+  BB75a60b434 -> BB75a60b44a [color="red"];
+  BB75a60b44a -> BB75a60b473 [color="green"];
+  BB75a60b44a -> BB75a60b459 [color="red"];
+  BB75a60b459 -> BB75a60b468 [color="red"];
+  BB75a60b473 -> BB75a60b459 [color="green"];
+  BB75a60b473 -> BB75a60b48b [color="red"];
+  BB75a60b48b -> BB75a60b459 [color="blue"];
+  BB75a60b495 -> BB75a60b468 [color="blue"];
+}

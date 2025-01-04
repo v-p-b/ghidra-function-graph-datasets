@@ -1,0 +1,14 @@
+digraph leave {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a17b860 -> BB75a17b8ad [color="green"];
+  BB75a17b860 -> BB75a17b890 [color="red"];
+  BB75a17b890 -> BB75a17b894 [color="blue"];
+  BB75a17b894 -> BB75a17b898 [color="blue"];
+  BB75a17b8ad -> BB75a17b898 [color="green"];
+  BB75a17b8ad -> BB75a17b8af [color="red"];
+  BB75a17b8af -> BB75a17b8cc [color="green"];
+  BB75a17b8af -> BB75a17b8bf [color="red"];
+  BB75a17b8bf -> BB75a17b898 [color="blue"];
+  BB75a17b8cc -> BB75a17b894 [color="blue"];
+}

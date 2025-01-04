@@ -1,0 +1,37 @@
+digraph SSE4_phaddsw {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abbcba0 -> BB75abbccbf [color="green"];
+  BB75abbcba0 -> BB75abbcbe5 [color="red"];
+  BB75abbcbe5 -> BB75abbcc35 [color="green"];
+  BB75abbcbe5 -> BB75abbcbf5 [color="red"];
+  BB75abbcbf5 -> BB75abbcddf [color="blue"];
+  BB75abbcc35 -> BB75abbcc9d [color="green"];
+  BB75abbcc35 -> BB75abbcc85 [color="red"];
+  BB75abbcc85 -> BB75abbccaf [color="blue"];
+  BB75abbcc9d -> BB75abbccaf [color="blue"];
+  BB75abbccaf -> BB75abbcddf [color="blue"];
+  BB75abbccbf -> BB75abbcd5c [color="green"];
+  BB75abbccbf -> BB75abbccc9 [color="red"];
+  BB75abbccc9 -> BB75abbcbf5 [color="green"];
+  BB75abbccc9 -> BB75abbccdd [color="red"];
+  BB75abbccdd -> BB75abbcd45 [color="green"];
+  BB75abbccdd -> BB75abbcd2d [color="red"];
+  BB75abbcd2d -> BB75abbcd57 [color="blue"];
+  BB75abbcd45 -> BB75abbcd57 [color="blue"];
+  BB75abbcd57 -> BB75abbccaf [color="blue"];
+  BB75abbcd5c -> BB75abbcd76 [color="blue"];
+  BB75abbcd76 -> BB75abbcd92 [color="green"];
+  BB75abbcd76 -> BB75abbcd8b [color="red"];
+  BB75abbcd8b -> BB75abbcd99 [color="blue"];
+  BB75abbcd92 -> BB75abbcd99 [color="blue"];
+  BB75abbcd99 -> BB75abbcd76 [color="green"];
+  BB75abbcd99 -> BB75abbcdaa [color="red"];
+  BB75abbcdaa -> BB75abbcdae [color="blue"];
+  BB75abbcdae -> BB75abbcdc9 [color="green"];
+  BB75abbcdae -> BB75abbcdc2 [color="red"];
+  BB75abbcdc2 -> BB75abbcdd0 [color="blue"];
+  BB75abbcdc9 -> BB75abbcdd0 [color="blue"];
+  BB75abbcdd0 -> BB75abbcdae [color="green"];
+  BB75abbcdd0 -> BB75abbcddf [color="red"];
+}

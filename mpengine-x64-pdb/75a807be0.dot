@@ -1,0 +1,9 @@
+digraph strm_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a807be0 -> BB75a807c41 [color="green"];
+  BB75a807be0 -> BB75a807c0b [color="red"];
+  BB75a807c0b -> BB75a807c41 [color="green"];
+  BB75a807c0b -> BB75a807c20 [color="red"];
+  BB75a807c20 -> BB75a807c41 [color="red"];
+}

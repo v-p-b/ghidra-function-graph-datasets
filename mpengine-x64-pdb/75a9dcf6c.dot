@@ -1,0 +1,19 @@
+digraph check_normalization_error {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9dcf6c -> BB75a9dd0d1 [color="green"];
+  BB75a9dcf6c -> BB75a9dcf9a [color="red"];
+  BB75a9dcf9a -> BB75a9dd0d1 [color="green"];
+  BB75a9dcf9a -> BB75a9dcfa4 [color="red"];
+  BB75a9dcfa4 -> BB75a9dd0c9 [color="green"];
+  BB75a9dcfa4 -> BB75a9dcfcc [color="red"];
+  BB75a9dcfcc -> BB75a9dd0c9 [color="green"];
+  BB75a9dcfcc -> BB75a9dcfd6 [color="red"];
+  BB75a9dcfd6 -> BB75a9dd087 [color="green"];
+  BB75a9dcfd6 -> BB75a9dd020 [color="red"];
+  BB75a9dd020 -> BB75a9dd087 [color="green"];
+  BB75a9dd020 -> BB75a9dd070 [color="red"];
+  BB75a9dd070 -> BB75a9dd087 [color="blue"];
+  BB75a9dd087 -> BB75a9dd0c9 [color="red"];
+  BB75a9dd0c9 -> BB75a9dd0d1 [color="red"];
+}

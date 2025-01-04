@@ -1,0 +1,15 @@
+digraph x86_emu_intnn {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1ab330 -> BB75a1ab41f [color="green"];
+  BB75a1ab330 -> BB75a1ab36c [color="red"];
+  BB75a1ab36c -> BB75a1ab3e8 [color="green"];
+  BB75a1ab36c -> BB75a1ab3c8 [color="red"];
+  BB75a1ab3e8 -> BB75a1ab409 [color="green"];
+  BB75a1ab3e8 -> BB75a1ab400 [color="red"];
+  BB75a1ab400 -> BB75a1ab3c8 [color="blue"];
+  BB75a1ab409 -> BB75a1ab400 [color="green"];
+  BB75a1ab409 -> BB75a1ab416 [color="red"];
+  BB75a1ab416 -> BB75a1ab400 [color="blue"];
+  BB75a1ab41f -> BB75a1ab36c [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph numIsInfinite {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a175c28 -> BB75a175c3c [color="green"];
+  BB75a175c28 -> BB75a175c34 [color="red"];
+  BB75a175c34 -> BB75a175c36 [color="blue"];
+  BB75a175c3c -> BB75a175c6b [color="green"];
+  BB75a175c3c -> BB75a175c65 [color="red"];
+  BB75a175c65 -> BB75a175c67 [color="blue"];
+  BB75a175c67 -> BB75a175c36 [color="blue"];
+  BB75a175c6b -> BB75a175c67 [color="green"];
+  BB75a175c6b -> BB75a175c7c [color="red"];
+  BB75a175c7c -> BB75a175c65 [color="blue"];
+}

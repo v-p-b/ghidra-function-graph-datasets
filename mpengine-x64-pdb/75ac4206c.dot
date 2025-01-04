@@ -1,0 +1,18 @@
+digraph ParsePartition {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac4206c -> BB75ac420a0 [color="green"];
+  BB75ac4206c -> BB75ac4209b [color="red"];
+  BB75ac4209b -> BB75ac420a0 [color="red"];
+  BB75ac420a0 -> BB75ac420d9 [color="green"];
+  BB75ac420a0 -> BB75ac420cf [color="red"];
+  BB75ac420cf -> BB75ac42199 [color="blue"];
+  BB75ac420d9 -> BB75ac4211d [color="green"];
+  BB75ac420d9 -> BB75ac42116 [color="red"];
+  BB75ac42116 -> BB75ac42199 [color="blue"];
+  BB75ac4211d -> BB75ac42186 [color="green"];
+  BB75ac4211d -> BB75ac42123 [color="red"];
+  BB75ac42123 -> BB75ac42197 [color="blue"];
+  BB75ac42186 -> BB75ac42197 [color="red"];
+  BB75ac42197 -> BB75ac42199 [color="blue"];
+}

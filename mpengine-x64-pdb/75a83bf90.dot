@@ -1,0 +1,34 @@
+digraph HandleSmsNotification {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a83bf90 -> BB75a83c04b [color="green"];
+  BB75a83bf90 -> BB75a83bfe9 [color="red"];
+  BB75a83bfe9 -> BB75a83c042 [color="green"];
+  BB75a83bfe9 -> BB75a83bfef [color="red"];
+  BB75a83bfef -> BB75a83c039 [color="green"];
+  BB75a83bfef -> BB75a83bff5 [color="red"];
+  BB75a83bff5 -> BB75a83c021 [color="green"];
+  BB75a83bff5 -> BB75a83c008 [color="red"];
+  BB75a83c008 -> BB75a83c021 [color="green"];
+  BB75a83c008 -> BB75a83c00e [color="red"];
+  BB75a83c00e -> BB75a83c021 [color="red"];
+  BB75a83c021 -> BB75a83c026 [color="blue"];
+  BB75a83c039 -> BB75a83c052 [color="blue"];
+  BB75a83c042 -> BB75a83c052 [color="blue"];
+  BB75a83c04b -> BB75a83c052 [color="blue"];
+  BB75a83c052 -> BB75a83c071 [color="blue"];
+  BB75a83c071 -> BB75a83c115 [color="green"];
+  BB75a83c071 -> BB75a83c081 [color="red"];
+  BB75a83c081 -> BB75a83c026 [color="blue"];
+  BB75a83c115 -> BB75a83c152 [color="blue"];
+  BB75a83c152 -> BB75a83c1ba [color="green"];
+  BB75a83c152 -> BB75a83c157 [color="red"];
+  BB75a83c157 -> BB75a83c17c [color="blue"];
+  BB75a83c17c -> BB75a83c1b7 [color="green"];
+  BB75a83c17c -> BB75a83c188 [color="red"];
+  BB75a83c188 -> BB75a83c1b7 [color="green"];
+  BB75a83c188 -> BB75a83c18e [color="red"];
+  BB75a83c18e -> BB75a83c1b7 [color="red"];
+  BB75a83c1b7 -> BB75a83c1ba [color="blue"];
+  BB75a83c1ba -> BB75a83c071 [color="blue"];
+}

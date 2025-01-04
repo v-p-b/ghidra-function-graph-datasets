@@ -1,0 +1,28 @@
+digraph equal_range {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa9c6ac -> BB75aa9c6f0 [color="green"];
+  BB75aa9c6ac -> BB75aa9c6c6 [color="red"];
+  BB75aa9c6c6 -> BB75aa9c6c9 [color="blue"];
+  BB75aa9c6c9 -> BB75aa9c6d5 [color="green"];
+  BB75aa9c6c9 -> BB75aa9c6cf [color="red"];
+  BB75aa9c6cf -> BB75aa9c6ea [color="blue"];
+  BB75aa9c6d5 -> BB75aa9c6e4 [color="green"];
+  BB75aa9c6d5 -> BB75aa9c6dc [color="red"];
+  BB75aa9c6dc -> BB75aa9c6e4 [color="blue"];
+  BB75aa9c6e4 -> BB75aa9c6ea [color="blue"];
+  BB75aa9c6ea -> BB75aa9c6c9 [color="green"];
+  BB75aa9c6ea -> BB75aa9c6f0 [color="red"];
+  BB75aa9c6f0 -> BB75aa9c6fa [color="green"];
+  BB75aa9c6f0 -> BB75aa9c6f7 [color="red"];
+  BB75aa9c6f7 -> BB75aa9c6fa [color="blue"];
+  BB75aa9c6fa -> BB75aa9c71a [color="green"];
+  BB75aa9c6fa -> BB75aa9c700 [color="red"];
+  BB75aa9c700 -> BB75aa9c703 [color="blue"];
+  BB75aa9c703 -> BB75aa9c710 [color="green"];
+  BB75aa9c703 -> BB75aa9c708 [color="red"];
+  BB75aa9c708 -> BB75aa9c714 [color="blue"];
+  BB75aa9c710 -> BB75aa9c714 [color="blue"];
+  BB75aa9c714 -> BB75aa9c703 [color="green"];
+  BB75aa9c714 -> BB75aa9c71a [color="red"];
+}

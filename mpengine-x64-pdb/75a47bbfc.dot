@@ -1,0 +1,17 @@
+digraph isXclRestriction {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a47bbfc -> BB75a47bc31 [color="green"];
+  BB75a47bbfc -> BB75a47bc14 [color="red"];
+  BB75a47bc14 -> BB75a47bc31 [color="green"];
+  BB75a47bc14 -> BB75a47bc23 [color="red"];
+  BB75a47bc23 -> BB75a47bc39 [color="green"];
+  BB75a47bc23 -> BB75a47bc31 [color="red"];
+  BB75a47bc31 -> BB75a47bc33 [color="blue"];
+  BB75a47bc39 -> BB75a47bc50 [color="green"];
+  BB75a47bc39 -> BB75a47bc45 [color="red"];
+  BB75a47bc45 -> BB75a47bc53 [color="green"];
+  BB75a47bc45 -> BB75a47bc50 [color="red"];
+  BB75a47bc50 -> BB75a47bc53 [color="blue"];
+  BB75a47bc53 -> BB75a47bc33 [color="blue"];
+}

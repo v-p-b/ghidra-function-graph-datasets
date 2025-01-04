@@ -1,0 +1,10 @@
+digraph xray_probe_xoradd8 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5ce850 -> BB75a5ce8d8 [color="green"];
+  BB75a5ce850 -> BB75a5ce888 [color="red"];
+  BB75a5ce888 -> BB75a5ce8d8 [color="green"];
+  BB75a5ce888 -> BB75a5ce8a2 [color="red"];
+  BB75a5ce8a2 -> BB75a5ce8bf [color="red"];
+  BB75a5ce8d8 -> BB75a5ce8bf [color="blue"];
+}

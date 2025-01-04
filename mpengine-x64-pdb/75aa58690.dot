@@ -1,0 +1,16 @@
+digraph BuildSections {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa58690 -> BB75aa58765 [color="green"];
+  BB75aa58690 -> BB75aa586bd [color="red"];
+  BB75aa586bd -> BB75aa58759 [color="green"];
+  BB75aa586bd -> BB75aa586cf [color="red"];
+  BB75aa586cf -> BB75aa586ea [color="green"];
+  BB75aa586cf -> BB75aa586db [color="red"];
+  BB75aa586db -> BB75aa586fc [color="blue"];
+  BB75aa586ea -> BB75aa586fc [color="blue"];
+  BB75aa586fc -> BB75aa586cf [color="green"];
+  BB75aa586fc -> BB75aa58759 [color="red"];
+  BB75aa58759 -> BB75aa58768 [color="blue"];
+  BB75aa58765 -> BB75aa58768 [color="blue"];
+}

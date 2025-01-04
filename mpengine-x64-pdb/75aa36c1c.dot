@@ -1,0 +1,10 @@
+digraph set_first {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa36c1c -> BB75aa36c2d [color="green"];
+  BB75aa36c1c -> BB75aa36c24 [color="red"];
+  BB75aa36c24 -> BB75aa36c2d [color="red"];
+  BB75aa36c2d -> BB75aa36c56 [color="green"];
+  BB75aa36c2d -> BB75aa36c3e [color="red"];
+  BB75aa36c3e -> BB75aa36c56 [color="blue"];
+}

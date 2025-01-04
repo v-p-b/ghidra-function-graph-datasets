@@ -1,0 +1,18 @@
+digraph UpgradeOneTable<MetaStore::TableBmProcessInfo> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab6e5a8 -> BB75ab6e608 [color="green"];
+  BB75ab6e5a8 -> BB75ab6e5b2 [color="red"];
+  BB75ab6e5b2 -> BB75ab6e5f6 [color="green"];
+  BB75ab6e5b2 -> BB75ab6e5b8 [color="red"];
+  BB75ab6e5b8 -> BB75ab6e5e4 [color="green"];
+  BB75ab6e5b8 -> BB75ab6e5be [color="red"];
+  BB75ab6e5be -> BB75ab6e5d2 [color="green"];
+  BB75ab6e5be -> BB75ab6e5c4 [color="red"];
+  BB75ab6e5c4 -> BB75ab6e61d [color="blue"];
+  BB75ab6e5d2 -> BB75ab6e618 [color="blue"];
+  BB75ab6e5e4 -> BB75ab6e618 [color="blue"];
+  BB75ab6e5f6 -> BB75ab6e618 [color="blue"];
+  BB75ab6e608 -> BB75ab6e618 [color="blue"];
+  BB75ab6e618 -> BB75ab6e61d [color="blue"];
+}

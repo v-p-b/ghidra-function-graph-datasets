@@ -1,0 +1,13 @@
+digraph GetCategory {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a36b038 -> BB75a36b07a [color="green"];
+  BB75a36b038 -> BB75a36b04d [color="red"];
+  BB75a36b04d -> BB75a36b084 [color="green"];
+  BB75a36b04d -> BB75a36b06c [color="red"];
+  BB75a36b06c -> BB75a36b06f [color="blue"];
+  BB75a36b07a -> BB75a36b06f [color="blue"];
+  BB75a36b084 -> BB75a36b06c [color="green"];
+  BB75a36b084 -> BB75a36b0ad [color="red"];
+  BB75a36b0ad -> BB75a36b06c [color="blue"];
+}

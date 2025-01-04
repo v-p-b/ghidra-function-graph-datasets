@@ -1,0 +1,27 @@
+digraph IsLastBlockValid {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac44e08 -> BB75ac44e31 [color="green"];
+  BB75ac44e08 -> BB75ac44e2a [color="red"];
+  BB75ac44e2a -> BB75ac44e77 [color="blue"];
+  BB75ac44e31 -> BB75ac44e38 [color="green"];
+  BB75ac44e31 -> BB75ac44e33 [color="red"];
+  BB75ac44e33 -> BB75ac44e38 [color="red"];
+  BB75ac44e38 -> BB75ac44e8a [color="green"];
+  BB75ac44e38 -> BB75ac44e4f [color="red"];
+  BB75ac44e4f -> BB75ac44eb4 [color="green"];
+  BB75ac44e4f -> BB75ac44e75 [color="red"];
+  BB75ac44e75 -> BB75ac44e77 [color="blue"];
+  BB75ac44e8a -> BB75ac44eaf [color="green"];
+  BB75ac44e8a -> BB75ac44e90 [color="red"];
+  BB75ac44e90 -> BB75ac44eb4 [color="green"];
+  BB75ac44e90 -> BB75ac44ead [color="red"];
+  BB75ac44ead -> BB75ac44e75 [color="blue"];
+  BB75ac44eaf -> BB75ac44eb4 [color="red"];
+  BB75ac44eb4 -> BB75ac44ee0 [color="red"];
+  BB75ac44ee0 -> BB75ac44e77 [color="green"];
+  BB75ac44ee0 -> BB75ac44ee6 [color="red"];
+  BB75ac44ee6 -> BB75ac44e75 [color="green"];
+  BB75ac44ee6 -> BB75ac44eed [color="red"];
+  BB75ac44eed -> BB75ac44ee0 [color="blue"];
+}

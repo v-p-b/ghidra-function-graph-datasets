@@ -1,0 +1,23 @@
+digraph CleanupFirewallExpiredRules {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1e3b20 -> BB75a1e3b89 [color="green"];
+  BB75a1e3b20 -> BB75a1e3b3a [color="red"];
+  BB75a1e3b3a -> BB75a1e3bc0 [color="green"];
+  BB75a1e3b3a -> BB75a1e3b4a [color="red"];
+  BB75a1e3b4a -> BB75a1e3b7c [color="green"];
+  BB75a1e3b4a -> BB75a1e3b5e [color="red"];
+  BB75a1e3b5e -> BB75a1e3b7c [color="red"];
+  BB75a1e3b7c -> BB75a1e3b7e [color="blue"];
+  BB75a1e3b89 -> BB75a1e3ba0 [color="green"];
+  BB75a1e3b89 -> BB75a1e3b9c [color="red"];
+  BB75a1e3b9c -> BB75a1e3b7e [color="blue"];
+  BB75a1e3ba0 -> BB75a1e3b9c [color="green"];
+  BB75a1e3ba0 -> BB75a1e3ba6 [color="red"];
+  BB75a1e3ba6 -> BB75a1e3b9c [color="blue"];
+  BB75a1e3bc0 -> BB75a1e3b7c [color="green"];
+  BB75a1e3bc0 -> BB75a1e3bd3 [color="red"];
+  BB75a1e3bd3 -> BB75a1e3b7c [color="green"];
+  BB75a1e3bd3 -> BB75a1e3bd9 [color="red"];
+  BB75a1e3bd9 -> BB75a1e3b7c [color="blue"];
+}

@@ -1,0 +1,21 @@
+digraph ShouldUseFastpath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a495278 -> BB75a4952e2 [color="green"];
+  BB75a495278 -> BB75a495298 [color="red"];
+  BB75a495298 -> BB75a4952e2 [color="green"];
+  BB75a495298 -> BB75a4952a2 [color="red"];
+  BB75a4952a2 -> BB75a4952c2 [color="green"];
+  BB75a4952a2 -> BB75a4952a9 [color="red"];
+  BB75a4952a9 -> BB75a4952c2 [color="green"];
+  BB75a4952a9 -> BB75a4952b3 [color="red"];
+  BB75a4952b3 -> BB75a4952c2 [color="green"];
+  BB75a4952b3 -> BB75a4952b9 [color="red"];
+  BB75a4952b9 -> BB75a4952e2 [color="green"];
+  BB75a4952b9 -> BB75a4952c2 [color="red"];
+  BB75a4952c2 -> BB75a4952e6 [color="green"];
+  BB75a4952c2 -> BB75a4952d5 [color="red"];
+  BB75a4952d5 -> BB75a4952d7 [color="blue"];
+  BB75a4952e2 -> BB75a4952d7 [color="blue"];
+  BB75a4952e6 -> BB75a4952d5 [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph tellg {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a30da38 -> BB75a30dace [color="green"];
+  BB75a30da38 -> BB75a30da70 [color="red"];
+  BB75a30da70 -> BB75a30dab3 [color="green"];
+  BB75a30da70 -> BB75a30da9a [color="red"];
+  BB75a30da9a -> BB75a30dac1 [color="green"];
+  BB75a30da9a -> BB75a30daad [color="red"];
+  BB75a30daad -> BB75a30dab3 [color="red"];
+  BB75a30dab3 -> BB75a30dab6 [color="blue"];
+  BB75a30dac1 -> BB75a30dab3 [color="blue"];
+  BB75a30dace -> BB75a30dab6 [color="blue"];
+}

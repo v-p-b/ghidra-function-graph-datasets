@@ -1,0 +1,16 @@
+digraph try_bind {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2773c0 -> BB75a277425 [color="green"];
+  BB75a2773c0 -> BB75a2773dc [color="red"];
+  BB75a2773dc -> BB75a2773e1 [color="red"];
+  BB75a2773e1 -> BB75a277410 [color="green"];
+  BB75a2773e1 -> BB75a2773e9 [color="red"];
+  BB75a2773e9 -> BB75a277415 [color="green"];
+  BB75a2773e9 -> BB75a277406 [color="red"];
+  BB75a277406 -> BB75a277415 [color="blue"];
+  BB75a277410 -> BB75a277415 [color="blue"];
+  BB75a277425 -> BB75a2773e1 [color="green"];
+  BB75a277425 -> BB75a27742c [color="red"];
+  BB75a27742c -> BB75a2773dc [color="blue"];
+}

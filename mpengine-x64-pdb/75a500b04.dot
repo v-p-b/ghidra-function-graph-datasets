@@ -1,0 +1,11 @@
+digraph IsSelf {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a500b04 -> BB75a500b3c [color="green"];
+  BB75a500b04 -> BB75a500b27 [color="red"];
+  BB75a500b27 -> BB75a500b29 [color="blue"];
+  BB75a500b3c -> BB75a500b6f [color="green"];
+  BB75a500b3c -> BB75a500b66 [color="red"];
+  BB75a500b66 -> BB75a500b6f [color="blue"];
+  BB75a500b6f -> BB75a500b29 [color="blue"];
+}

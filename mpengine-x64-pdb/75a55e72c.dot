@@ -1,0 +1,13 @@
+digraph sqlite3SystemError {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a55e72c -> BB75a55e74e [color="green"];
+  BB75a55e72c -> BB75a55e734 [color="red"];
+  BB75a55e734 -> BB75a55e74f [color="green"];
+  BB75a55e734 -> BB75a55e749 [color="red"];
+  BB75a55e749 -> BB75a55e74e [color="blue"];
+  BB75a55e74f -> BB75a55e76d [color="green"];
+  BB75a55e74f -> BB75a55e760 [color="red"];
+  BB75a55e760 -> BB75a55e76d [color="red"];
+  BB75a55e76d -> BB75a55e749 [color="blue"];
+}

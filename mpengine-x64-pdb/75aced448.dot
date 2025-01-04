@@ -1,0 +1,14 @@
+digraph exec_function_on_single_core<enum_tdt_status_,struct_std::pair<class_std::shared_ptr<unsigned_char_[0]>,unsigned___int64>,class_std::vector<struct_tdt_control_flow_freq_,class_std::allocator<struct_tdt_control_flow_freq_>_>,class_std::_Binder<struct_std::_Unforced,enum_tdt_status__(__cdecl_tdt::pt_decode_common::*)(unsigned_char_const*___ptr64,unsigned___int64,class_std::vector<struct_tdt_control_flow_freq_,class_std::allocator<struct_tdt_control_flow_freq_>_>&___ptr64,bool_const&___ptr64)___ptr64,class_tdt::pt_decode_cpu*___ptr64,struct_std::_Ph<1>_const&___ptr64,struct_std::_Ph<2>_const&___ptr64,struct_std::_Ph<3>_const&___ptr64,struct_std::_Ph<4>_const&___ptr64>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aced448 -> BB75aced527 [color="green"];
+  BB75aced448 -> BB75aced486 [color="red"];
+  BB75aced486 -> BB75aced488 [color="blue"];
+  BB75aced488 -> BB75aced527 [color="green"];
+  BB75aced488 -> BB75aced4b4 [color="red"];
+  BB75aced4b4 -> BB75aced50f [color="green"];
+  BB75aced4b4 -> BB75aced505 [color="red"];
+  BB75aced505 -> BB75aced50f [color="red"];
+  BB75aced50f -> BB75aced488 [color="green"];
+  BB75aced50f -> BB75aced527 [color="red"];
+}

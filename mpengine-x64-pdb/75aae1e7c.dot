@@ -1,0 +1,21 @@
+digraph SendTamperStateNotificationIfNewer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aae1e7c -> BB75aae1ede [color="green"];
+  BB75aae1e7c -> BB75aae1ea3 [color="red"];
+  BB75aae1ea3 -> BB75aae1f84 [color="green"];
+  BB75aae1ea3 -> BB75aae1eba [color="red"];
+  BB75aae1eba -> BB75aae1f84 [color="green"];
+  BB75aae1eba -> BB75aae1ec4 [color="red"];
+  BB75aae1ec4 -> BB75aae1f84 [color="blue"];
+  BB75aae1ede -> BB75aae1f77 [color="green"];
+  BB75aae1ede -> BB75aae1ef1 [color="red"];
+  BB75aae1ef1 -> BB75aae1f77 [color="green"];
+  BB75aae1ef1 -> BB75aae1f47 [color="red"];
+  BB75aae1f47 -> BB75aae1f84 [color="green"];
+  BB75aae1f47 -> BB75aae1f5a [color="red"];
+  BB75aae1f5a -> BB75aae1f84 [color="green"];
+  BB75aae1f5a -> BB75aae1f60 [color="red"];
+  BB75aae1f60 -> BB75aae1f84 [color="blue"];
+  BB75aae1f77 -> BB75aae1f84 [color="blue"];
+}

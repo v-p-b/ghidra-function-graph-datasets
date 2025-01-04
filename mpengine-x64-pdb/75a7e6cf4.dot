@@ -1,0 +1,16 @@
+digraph UfsWrite {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7e6cf4 -> BB75a7e6d16 [color="green"];
+  BB75a7e6cf4 -> BB75a7e6d11 [color="red"];
+  BB75a7e6d11 -> BB75a7e6d16 [color="red"];
+  BB75a7e6d16 -> BB75a7e6d25 [color="green"];
+  BB75a7e6d16 -> BB75a7e6d20 [color="red"];
+  BB75a7e6d20 -> BB75a7e6d25 [color="red"];
+  BB75a7e6d25 -> BB75a7e6d4c [color="green"];
+  BB75a7e6d25 -> BB75a7e6d2a [color="red"];
+  BB75a7e6d2a -> BB75a7e6d4c [color="green"];
+  BB75a7e6d2a -> BB75a7e6d46 [color="red"];
+  BB75a7e6d46 -> BB75a7e6d50 [color="blue"];
+  BB75a7e6d4c -> BB75a7e6d50 [color="blue"];
+}

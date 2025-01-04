@@ -1,0 +1,14 @@
+digraph ~auto_db_statement {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a27b4a0 -> BB75a27b4cd [color="green"];
+  BB75a27b4a0 -> BB75a27b4b1 [color="red"];
+  BB75a27b4b1 -> BB75a27b4db [color="green"];
+  BB75a27b4b1 -> BB75a27b4cd [color="red"];
+  BB75a27b4db -> BB75a27b50c [color="green"];
+  BB75a27b4db -> BB75a27b4ee [color="red"];
+  BB75a27b4ee -> BB75a27b50c [color="green"];
+  BB75a27b4ee -> BB75a27b4f4 [color="red"];
+  BB75a27b4f4 -> BB75a27b50c [color="red"];
+  BB75a27b50c -> BB75a27b4cd [color="blue"];
+}

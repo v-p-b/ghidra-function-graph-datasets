@@ -1,0 +1,15 @@
+digraph store_successors {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a32eb14 -> BB75a32eb90 [color="green"];
+  BB75a32eb14 -> BB75a32eb39 [color="red"];
+  BB75a32eb39 -> BB75a32eb90 [color="green"];
+  BB75a32eb39 -> BB75a32eb3e [color="red"];
+  BB75a32eb3e -> BB75a32eb7b [color="green"];
+  BB75a32eb3e -> BB75a32eb4b [color="red"];
+  BB75a32eb4b -> BB75a32eb4b [color="green"];
+  BB75a32eb4b -> BB75a32eb77 [color="red"];
+  BB75a32eb77 -> BB75a32eb7b [color="blue"];
+  BB75a32eb7b -> BB75a32eb83 [color="blue"];
+  BB75a32eb90 -> BB75a32eb83 [color="blue"];
+}

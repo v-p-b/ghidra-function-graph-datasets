@@ -1,0 +1,11 @@
+digraph ReadEncryptedBytes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac44ffc -> BB75ac4508f [color="green"];
+  BB75ac44ffc -> BB75ac45050 [color="red"];
+  BB75ac45050 -> BB75ac4508f [color="green"];
+  BB75ac45050 -> BB75ac45063 [color="red"];
+  BB75ac45063 -> BB75ac4508f [color="green"];
+  BB75ac45063 -> BB75ac45069 [color="red"];
+  BB75ac45069 -> BB75ac4508f [color="red"];
+}

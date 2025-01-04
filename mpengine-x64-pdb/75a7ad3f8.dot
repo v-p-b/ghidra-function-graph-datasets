@@ -1,0 +1,19 @@
+digraph __acrt_lowio_ensure_fh_exists {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7ad3f8 -> BB75a7ad440 [color="green"];
+  BB75a7ad3f8 -> BB75a7ad417 [color="red"];
+  BB75a7ad417 -> BB75a7ad42a [color="red"];
+  BB75a7ad440 -> BB75a7ad453 [color="red"];
+  BB75a7ad453 -> BB75a7ad492 [color="green"];
+  BB75a7ad453 -> BB75a7ad45c [color="red"];
+  BB75a7ad45c -> BB75a7ad46b [color="green"];
+  BB75a7ad45c -> BB75a7ad469 [color="red"];
+  BB75a7ad469 -> BB75a7ad48d [color="blue"];
+  BB75a7ad46b -> BB75a7ad47e [color="green"];
+  BB75a7ad46b -> BB75a7ad479 [color="red"];
+  BB75a7ad479 -> BB75a7ad492 [color="blue"];
+  BB75a7ad47e -> BB75a7ad48d [color="blue"];
+  BB75a7ad48d -> BB75a7ad453 [color="blue"];
+  BB75a7ad492 -> BB75a7ad42a [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph __scrt_dllmain_after_initialize_c {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a77e0f8 -> BB75a77e10c [color="green"];
+  BB75a77e0f8 -> BB75a77e105 [color="red"];
+  BB75a77e105 -> BB75a77e125 [color="blue"];
+  BB75a77e10c -> BB75a77e120 [color="green"];
+  BB75a77e10c -> BB75a77e11c [color="red"];
+  BB75a77e11c -> BB75a77e127 [color="blue"];
+  BB75a77e120 -> BB75a77e125 [color="red"];
+  BB75a77e125 -> BB75a77e127 [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph IsRawScanPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6968e4 -> BB75a69695f [color="green"];
+  BB75a6968e4 -> BB75a69690e [color="red"];
+  BB75a69690e -> BB75a696912 [color="blue"];
+  BB75a696912 -> BB75a69695f [color="green"];
+  BB75a696912 -> BB75a69691b [color="red"];
+  BB75a69691b -> BB75a696923 [color="blue"];
+  BB75a696923 -> BB75a696923 [color="green"];
+  BB75a696923 -> BB75a69692e [color="red"];
+  BB75a69692e -> BB75a69697a [color="green"];
+  BB75a69692e -> BB75a696953 [color="red"];
+  BB75a696953 -> BB75a696912 [color="blue"];
+  BB75a69695f -> BB75a696961 [color="blue"];
+  BB75a69697a -> BB75a696961 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph __scrt_initialize_crt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a77e228 -> BB75a77e257 [color="green"];
+  BB75a77e228 -> BB75a77e253 [color="red"];
+  BB75a77e253 -> BB75a77e26b [color="blue"];
+  BB75a77e257 -> BB75a77e269 [color="green"];
+  BB75a77e257 -> BB75a77e260 [color="red"];
+  BB75a77e260 -> BB75a77e253 [color="blue"];
+  BB75a77e269 -> BB75a77e26b [color="blue"];
+}

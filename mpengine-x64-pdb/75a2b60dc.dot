@@ -1,0 +1,17 @@
+digraph WriteChar {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2b60dc -> BB75a2b612e [color="green"];
+  BB75a2b60dc -> BB75a2b60f2 [color="red"];
+  BB75a2b60f2 -> BB75a2b613a [color="green"];
+  BB75a2b60f2 -> BB75a2b60fb [color="red"];
+  BB75a2b60fb -> BB75a2b6155 [color="green"];
+  BB75a2b60fb -> BB75a2b6104 [color="red"];
+  BB75a2b6104 -> BB75a2b610e [color="blue"];
+  BB75a2b610e -> BB75a2b6146 [color="green"];
+  BB75a2b610e -> BB75a2b6127 [color="red"];
+  BB75a2b6127 -> BB75a2b6129 [color="blue"];
+  BB75a2b612e -> BB75a2b6127 [color="blue"];
+  BB75a2b613a -> BB75a2b610e [color="blue"];
+  BB75a2b6155 -> BB75a2b6129 [color="blue"];
+}

@@ -1,0 +1,35 @@
+digraph ZSTD_compressBlock_internal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abfac10 -> BB75abfad67 [color="green"];
+  BB75abfac10 -> BB75abfac51 [color="red"];
+  BB75abfac51 -> BB75abfac7d [color="green"];
+  BB75abfac51 -> BB75abfac5e [color="red"];
+  BB75abfac5e -> BB75abfac6f [color="green"];
+  BB75abfac5e -> BB75abfac63 [color="red"];
+  BB75abfac63 -> BB75abfad67 [color="blue"];
+  BB75abfac6f -> BB75abfad4e [color="blue"];
+  BB75abfac7d -> BB75abfacc1 [color="green"];
+  BB75abfac7d -> BB75abfac90 [color="red"];
+  BB75abfac90 -> BB75abfad67 [color="green"];
+  BB75abfac90 -> BB75abfacac [color="red"];
+  BB75abfacac -> BB75abfad67 [color="blue"];
+  BB75abfacc1 -> BB75abfad34 [color="green"];
+  BB75abfacc1 -> BB75abfad09 [color="red"];
+  BB75abfad09 -> BB75abfad34 [color="green"];
+  BB75abfad09 -> BB75abfad12 [color="red"];
+  BB75abfad12 -> BB75abfad34 [color="green"];
+  BB75abfad12 -> BB75abfad18 [color="red"];
+  BB75abfad18 -> BB75abfad34 [color="green"];
+  BB75abfad18 -> BB75abfad27 [color="red"];
+  BB75abfad27 -> BB75abfad4e [color="blue"];
+  BB75abfad34 -> BB75abfad4e [color="green"];
+  BB75abfad34 -> BB75abfad3a [color="red"];
+  BB75abfad3a -> BB75abfad4e [color="green"];
+  BB75abfad3a -> BB75abfad40 [color="red"];
+  BB75abfad40 -> BB75abfad4e [color="blue"];
+  BB75abfad4e -> BB75abfad64 [color="green"];
+  BB75abfad4e -> BB75abfad5a [color="red"];
+  BB75abfad5a -> BB75abfad64 [color="blue"];
+  BB75abfad64 -> BB75abfad67 [color="blue"];
+}

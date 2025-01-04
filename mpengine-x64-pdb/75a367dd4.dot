@@ -1,0 +1,14 @@
+digraph get_block_only_count {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a367dd4 -> BB75a367e8e [color="green"];
+  BB75a367dd4 -> BB75a367e03 [color="red"];
+  BB75a367e03 -> BB75a367e12 [color="blue"];
+  BB75a367e12 -> BB75a367e3b [color="green"];
+  BB75a367e12 -> BB75a367e17 [color="red"];
+  BB75a367e3b -> BB75a367e84 [color="green"];
+  BB75a367e3b -> BB75a367e7f [color="red"];
+  BB75a367e7f -> BB75a367e12 [color="blue"];
+  BB75a367e84 -> BB75a367e17 [color="blue"];
+  BB75a367e8e -> BB75a367e03 [color="blue"];
+}

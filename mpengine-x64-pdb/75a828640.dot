@@ -1,0 +1,10 @@
+digraph GetCurrent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a828640 -> BB75a82867f [color="green"];
+  BB75a828640 -> BB75a828653 [color="red"];
+  BB75a828653 -> BB75a82867f [color="green"];
+  BB75a828653 -> BB75a828660 [color="red"];
+  BB75a828660 -> BB75a828684 [color="blue"];
+  BB75a82867f -> BB75a828684 [color="blue"];
+}

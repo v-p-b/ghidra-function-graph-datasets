@@ -1,0 +1,17 @@
+digraph InsertPathToList {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7e1ea8 -> BB75a7e1ede [color="green"];
+  BB75a7e1ea8 -> BB75a7e1ecb [color="red"];
+  BB75a7e1ecb -> BB75a7e1eda [color="green"];
+  BB75a7e1ecb -> BB75a7e1ed5 [color="red"];
+  BB75a7e1ed5 -> BB75a7e1eda [color="red"];
+  BB75a7e1eda -> BB75a7e1f2e [color="blue"];
+  BB75a7e1ede -> BB75a7e1f1f [color="green"];
+  BB75a7e1ede -> BB75a7e1ee8 [color="red"];
+  BB75a7e1ee8 -> BB75a7e1f1f [color="red"];
+  BB75a7e1f1f -> BB75a7e1f2c [color="green"];
+  BB75a7e1f1f -> BB75a7e1f24 [color="red"];
+  BB75a7e1f24 -> BB75a7e1f2c [color="red"];
+  BB75a7e1f2c -> BB75a7e1f2e [color="blue"];
+}

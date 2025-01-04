@@ -1,0 +1,15 @@
+digraph countStep {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a47b290 -> BB75a47b2e1 [color="green"];
+  BB75a47b290 -> BB75a47b2af [color="red"];
+  BB75a47b2af -> BB75a47b2b3 [color="blue"];
+  BB75a47b2b3 -> BB75a47b2ce [color="green"];
+  BB75a47b2b3 -> BB75a47b2b7 [color="red"];
+  BB75a47b2b7 -> BB75a47b2d6 [color="green"];
+  BB75a47b2b7 -> BB75a47b2ce [color="red"];
+  BB75a47b2ce -> BB75a47b2d6 [color="green"];
+  BB75a47b2ce -> BB75a47b2d3 [color="red"];
+  BB75a47b2d3 -> BB75a47b2d6 [color="blue"];
+  BB75a47b2e1 -> BB75a47b2b3 [color="blue"];
+}

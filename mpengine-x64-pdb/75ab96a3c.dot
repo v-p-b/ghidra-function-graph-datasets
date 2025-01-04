@@ -1,0 +1,14 @@
+digraph ReportCmdLineThreat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab96a3c -> BB75ab96aac [color="green"];
+  BB75ab96a3c -> BB75ab96a73 [color="red"];
+  BB75ab96a73 -> BB75ab96aac [color="green"];
+  BB75ab96a73 -> BB75ab96a79 [color="red"];
+  BB75ab96a79 -> BB75ab96abc [color="blue"];
+  BB75ab96aac -> BB75ab96abc [color="blue"];
+  BB75ab96abc -> BB75ab96b64 [color="green"];
+  BB75ab96abc -> BB75ab96b4a [color="red"];
+  BB75ab96b4a -> BB75ab96b64 [color="red"];
+  BB75ab96b64 -> BB75ab96b74 [color="blue"];
+}

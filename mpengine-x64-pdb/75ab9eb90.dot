@@ -1,0 +1,35 @@
+digraph find_restart_word {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab9eb90 -> BB75ab9ebd9 [color="green"];
+  BB75ab9eb90 -> BB75ab9ebc0 [color="red"];
+  BB75ab9ebc0 -> BB75ab9ebd9 [color="green"];
+  BB75ab9ebc0 -> BB75ab9ebc9 [color="red"];
+  BB75ab9ebc9 -> BB75ab9ebdc [color="green"];
+  BB75ab9ebc9 -> BB75ab9ebd2 [color="red"];
+  BB75ab9ebd2 -> BB75ab9ec89 [color="blue"];
+  BB75ab9ebd9 -> BB75ab9ebdc [color="blue"];
+  BB75ab9ebdc -> BB75ab9ec20 [color="green"];
+  BB75ab9ebdc -> BB75ab9ebeb [color="red"];
+  BB75ab9ebeb -> BB75ab9ebf1 [color="blue"];
+  BB75ab9ebf1 -> BB75ab9ec20 [color="green"];
+  BB75ab9ebf1 -> BB75ab9ec0b [color="red"];
+  BB75ab9ec0b -> BB75ab9ebf1 [color="green"];
+  BB75ab9ec0b -> BB75ab9ec20 [color="red"];
+  BB75ab9ec20 -> BB75ab9ec87 [color="green"];
+  BB75ab9ec20 -> BB75ab9ec25 [color="red"];
+  BB75ab9ec25 -> BB75ab9ec2b [color="blue"];
+  BB75ab9ec2b -> BB75ab9ec5a [color="green"];
+  BB75ab9ec2b -> BB75ab9ec44 [color="red"];
+  BB75ab9ec44 -> BB75ab9ec2b [color="green"];
+  BB75ab9ec44 -> BB75ab9ec5a [color="red"];
+  BB75ab9ec5a -> BB75ab9ec87 [color="green"];
+  BB75ab9ec5a -> BB75ab9ec5f [color="red"];
+  BB75ab9ec5f -> BB75ab9ec7a [color="green"];
+  BB75ab9ec5f -> BB75ab9ec6a [color="red"];
+  BB75ab9ec6a -> BB75ab9ebd2 [color="green"];
+  BB75ab9ec6a -> BB75ab9ec7a [color="red"];
+  BB75ab9ec7a -> BB75ab9ebdc [color="green"];
+  BB75ab9ec7a -> BB75ab9ec87 [color="red"];
+  BB75ab9ec87 -> BB75ab9ec89 [color="blue"];
+}

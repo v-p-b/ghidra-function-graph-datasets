@@ -1,0 +1,14 @@
+digraph clear_page_cursors {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad23538 -> BB75ad235c2 [color="blue"];
+  BB75ad23560 -> BB75ad235b5 [color="green"];
+  BB75ad23560 -> BB75ad23589 [color="red"];
+  BB75ad23589 -> BB75ad235b5 [color="red"];
+  BB75ad235b5 -> BB75ad235c2 [color="red"];
+  BB75ad235c2 -> BB75ad23560 [color="green"];
+  BB75ad235c2 -> BB75ad235cc [color="red"];
+  BB75ad235cc -> BB75ad235db [color="green"];
+  BB75ad235cc -> BB75ad235d6 [color="red"];
+  BB75ad235d6 -> BB75ad235db [color="red"];
+}

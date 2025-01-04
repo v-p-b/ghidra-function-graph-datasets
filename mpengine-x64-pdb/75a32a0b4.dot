@@ -1,0 +1,9 @@
+digraph ~_Clear_guard {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a32a0b4 -> BB75a32a0c8 [color="green"];
+  BB75a32a0b4 -> BB75a32a0c2 [color="red"];
+  BB75a32a0c8 -> BB75a32a0c2 [color="green"];
+  BB75a32a0c8 -> BB75a32a0cf [color="red"];
+  BB75a32a0cf -> BB75a32a0c2 [color="blue"];
+}

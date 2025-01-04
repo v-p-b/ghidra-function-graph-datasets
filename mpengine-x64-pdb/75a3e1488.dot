@@ -1,0 +1,13 @@
+digraph w32_is {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3e1488 -> BB75a3e14cd [color="green"];
+  BB75a3e1488 -> BB75a3e14be [color="red"];
+  BB75a3e14be -> BB75a3e14e0 [color="green"];
+  BB75a3e14be -> BB75a3e14cd [color="red"];
+  BB75a3e14cd -> BB75a3e14e4 [color="green"];
+  BB75a3e14cd -> BB75a3e14d3 [color="red"];
+  BB75a3e14d3 -> BB75a3e14d5 [color="blue"];
+  BB75a3e14e0 -> BB75a3e14d5 [color="blue"];
+  BB75a3e14e4 -> BB75a3e14d5 [color="blue"];
+}

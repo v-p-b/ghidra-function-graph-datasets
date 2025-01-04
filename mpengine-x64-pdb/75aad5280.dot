@@ -1,0 +1,28 @@
+digraph find_restart_line {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aad5280 -> BB75aad5319 [color="green"];
+  BB75aad5280 -> BB75aad529d [color="red"];
+  BB75aad529d -> BB75aad5315 [color="green"];
+  BB75aad529d -> BB75aad52aa [color="red"];
+  BB75aad52aa -> BB75aad5315 [color="green"];
+  BB75aad52aa -> BB75aad52af [color="red"];
+  BB75aad52af -> BB75aad52c8 [color="green"];
+  BB75aad52af -> BB75aad52c3 [color="red"];
+  BB75aad52c3 -> BB75aad52aa [color="blue"];
+  BB75aad52c8 -> BB75aad52f9 [color="green"];
+  BB75aad52c8 -> BB75aad52cd [color="red"];
+  BB75aad52cd -> BB75aad52ed [color="green"];
+  BB75aad52cd -> BB75aad52e1 [color="red"];
+  BB75aad52e1 -> BB75aad5319 [color="green"];
+  BB75aad52e1 -> BB75aad52ed [color="red"];
+  BB75aad52ed -> BB75aad529d [color="green"];
+  BB75aad52ed -> BB75aad52f7 [color="red"];
+  BB75aad52f7 -> BB75aad5315 [color="blue"];
+  BB75aad52f9 -> BB75aad5315 [color="green"];
+  BB75aad52f9 -> BB75aad5309 [color="red"];
+  BB75aad5309 -> BB75aad5319 [color="green"];
+  BB75aad5309 -> BB75aad5315 [color="red"];
+  BB75aad5315 -> BB75aad531b [color="blue"];
+  BB75aad5319 -> BB75aad531b [color="blue"];
+}

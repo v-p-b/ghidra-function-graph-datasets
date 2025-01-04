@@ -1,0 +1,9 @@
+digraph lua_iscfunction {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab0219c -> BB75ab021ba [color="green"];
+  BB75ab0219c -> BB75ab021ad [color="red"];
+  BB75ab021ad -> BB75ab021ba [color="green"];
+  BB75ab021ad -> BB75ab021b5 [color="red"];
+  BB75ab021b5 -> BB75ab021ba [color="blue"];
+}

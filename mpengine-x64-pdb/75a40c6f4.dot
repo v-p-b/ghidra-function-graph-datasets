@@ -1,0 +1,19 @@
+digraph TriggerMaintenanceEvent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a40c6f4 -> BB75a40c778 [color="green"];
+  BB75a40c6f4 -> BB75a40c719 [color="red"];
+  BB75a40c719 -> BB75a40c78a [color="green"];
+  BB75a40c719 -> BB75a40c722 [color="red"];
+  BB75a40c722 -> BB75a40c778 [color="green"];
+  BB75a40c722 -> BB75a40c72b [color="red"];
+  BB75a40c72b -> BB75a40c732 [color="blue"];
+  BB75a40c732 -> BB75a40c778 [color="green"];
+  BB75a40c732 -> BB75a40c737 [color="red"];
+  BB75a40c737 -> BB75a40c778 [color="red"];
+  BB75a40c78a -> BB75a40c778 [color="green"];
+  BB75a40c78a -> BB75a40c793 [color="red"];
+  BB75a40c793 -> BB75a40c778 [color="green"];
+  BB75a40c793 -> BB75a40c79c [color="red"];
+  BB75a40c79c -> BB75a40c732 [color="blue"];
+}

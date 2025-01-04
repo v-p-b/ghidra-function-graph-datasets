@@ -1,0 +1,12 @@
+digraph pipeline_manager_impl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a655e38 -> BB75a655fb4 [color="green"];
+  BB75a655e38 -> BB75a655f99 [color="red"];
+  BB75a655f99 -> BB75a656035 [color="green"];
+  BB75a655f99 -> BB75a655fac [color="red"];
+  BB75a655fac -> BB75a655fb4 [color="red"];
+  BB75a655fb4 -> BB75a65603b [color="green"];
+  BB75a655fb4 -> BB75a655ff2 [color="red"];
+  BB75a656035 -> BB75a65603b [color="red"];
+}

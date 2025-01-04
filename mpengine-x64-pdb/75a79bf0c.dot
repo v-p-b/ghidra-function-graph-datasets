@@ -1,0 +1,13 @@
+digraph _fwrite_internal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a79bf0c -> BB75a79bf59 [color="green"];
+  BB75a79bf0c -> BB75a79bf2c [color="red"];
+  BB75a79bf2c -> BB75a79bf59 [color="green"];
+  BB75a79bf2c -> BB75a79bf31 [color="red"];
+  BB75a79bf31 -> BB75a79bf61 [color="green"];
+  BB75a79bf31 -> BB75a79bf36 [color="red"];
+  BB75a79bf36 -> BB75a79bf59 [color="red"];
+  BB75a79bf59 -> BB75a79bf5b [color="blue"];
+  BB75a79bf61 -> BB75a79bf5b [color="blue"];
+}

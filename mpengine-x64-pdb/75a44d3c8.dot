@@ -1,0 +1,12 @@
+digraph lua_settop {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a44d3c8 -> BB75a44d3df [color="green"];
+  BB75a44d3c8 -> BB75a44d3cc [color="red"];
+  BB75a44d3cc -> BB75a44d3da [color="blue"];
+  BB75a44d3df -> BB75a44d3fc [color="blue"];
+  BB75a44d3eb -> BB75a44d3fc [color="blue"];
+  BB75a44d3fc -> BB75a44d3eb [color="green"];
+  BB75a44d3fc -> BB75a44d409 [color="red"];
+  BB75a44d409 -> BB75a44d3da [color="blue"];
+}

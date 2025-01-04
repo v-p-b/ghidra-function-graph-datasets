@@ -1,0 +1,17 @@
+digraph GetVarNumberFirstBitIsStop {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aac0be0 -> BB75aac0bfd [color="blue"];
+  BB75aac0bfd -> BB75aac0c61 [color="green"];
+  BB75aac0bfd -> BB75aac0c1c [color="red"];
+  BB75aac0c1c -> BB75aac0c61 [color="green"];
+  BB75aac0c1c -> BB75aac0c3e [color="red"];
+  BB75aac0c3e -> BB75aac0c5c [color="green"];
+  BB75aac0c3e -> BB75aac0c42 [color="red"];
+  BB75aac0c42 -> BB75aac0bfd [color="green"];
+  BB75aac0c42 -> BB75aac0c4d [color="red"];
+  BB75aac0c4d -> BB75aac0c61 [color="green"];
+  BB75aac0c4d -> BB75aac0c55 [color="red"];
+  BB75aac0c55 -> BB75aac0c61 [color="blue"];
+  BB75aac0c5c -> BB75aac0c61 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph ScanLuaStandalone {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1f9f00 -> BB75a1f9f40 [color="green"];
+  BB75a1f9f00 -> BB75a1f9f25 [color="red"];
+  BB75a1f9f25 -> BB75a1f9f4b [color="green"];
+  BB75a1f9f25 -> BB75a1f9f37 [color="red"];
+  BB75a1f9f37 -> BB75a1f9f39 [color="blue"];
+  BB75a1f9f39 -> BB75a1f9f40 [color="red"];
+  BB75a1f9f4b -> BB75a1f9f39 [color="green"];
+  BB75a1f9f4b -> BB75a1f9f5c [color="red"];
+  BB75a1f9f5c -> BB75a1f9f37 [color="blue"];
+}

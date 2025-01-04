@@ -1,0 +1,10 @@
+digraph getSemaphoreObject {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5fccbc -> BB75a5fcd06 [color="green"];
+  BB75a5fccbc -> BB75a5fcccf [color="red"];
+  BB75a5fcccf -> BB75a5fcd06 [color="green"];
+  BB75a5fcccf -> BB75a5fcce3 [color="red"];
+  BB75a5fcce3 -> BB75a5fcd00 [color="red"];
+  BB75a5fcd06 -> BB75a5fcd00 [color="blue"];
+}

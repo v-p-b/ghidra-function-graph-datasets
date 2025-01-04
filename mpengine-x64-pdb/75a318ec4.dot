@@ -1,0 +1,22 @@
+digraph ~SigDetectionContext {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a318ec4 -> BB75a318ef2 [color="green"];
+  BB75a318ec4 -> BB75a318eed [color="red"];
+  BB75a318eed -> BB75a318ef2 [color="red"];
+  BB75a318ef2 -> BB75a318f9a [color="green"];
+  BB75a318ef2 -> BB75a318f05 [color="red"];
+  BB75a318f05 -> BB75a318f6e [color="green"];
+  BB75a318f05 -> BB75a318f69 [color="red"];
+  BB75a318f69 -> BB75a318f6e [color="red"];
+  BB75a318f9a -> BB75a318fc0 [color="green"];
+  BB75a318f9a -> BB75a318fa6 [color="red"];
+  BB75a318fa6 -> BB75a318f05 [color="green"];
+  BB75a318fa6 -> BB75a318fb6 [color="red"];
+  BB75a318fb6 -> BB75a318f05 [color="blue"];
+  BB75a318fc0 -> BB75a318fa6 [color="green"];
+  BB75a318fc0 -> BB75a318fd3 [color="red"];
+  BB75a318fd3 -> BB75a318fa6 [color="green"];
+  BB75a318fd3 -> BB75a318fd9 [color="red"];
+  BB75a318fd9 -> BB75a318fa6 [color="blue"];
+}

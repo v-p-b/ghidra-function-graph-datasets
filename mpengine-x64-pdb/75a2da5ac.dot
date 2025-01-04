@@ -1,0 +1,15 @@
+digraph BaseAlignment {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2da5ac -> BB75a2da5cf [color="green"];
+  BB75a2da5ac -> BB75a2da5bb [color="red"];
+  BB75a2da5bb -> BB75a2da5cf [color="green"];
+  BB75a2da5bb -> BB75a2da5c2 [color="red"];
+  BB75a2da5c2 -> BB75a2da5ca [color="blue"];
+  BB75a2da5cf -> BB75a2da5fd [color="green"];
+  BB75a2da5cf -> BB75a2da5e2 [color="red"];
+  BB75a2da5e2 -> BB75a2da5fd [color="green"];
+  BB75a2da5e2 -> BB75a2da5e8 [color="red"];
+  BB75a2da5e8 -> BB75a2da5fd [color="red"];
+  BB75a2da5fd -> BB75a2da5ca [color="blue"];
+}

@@ -1,0 +1,9 @@
+digraph IsSharedSection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a34a0f0 -> BB75a34a108 [color="green"];
+  BB75a34a0f0 -> BB75a34a0ff [color="red"];
+  BB75a34a108 -> BB75a34a0ff [color="green"];
+  BB75a34a108 -> BB75a34a10e [color="red"];
+  BB75a34a10e -> BB75a34a0ff [color="blue"];
+}

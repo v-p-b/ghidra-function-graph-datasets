@@ -1,0 +1,14 @@
+digraph KERNEL32_DLL_WriteProcessMemory {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa74630 -> BB75aa746e7 [color="green"];
+  BB75aa74630 -> BB75aa74686 [color="red"];
+  BB75aa74686 -> BB75aa746db [color="green"];
+  BB75aa74686 -> BB75aa746b4 [color="red"];
+  BB75aa746b4 -> BB75aa746d1 [color="green"];
+  BB75aa746b4 -> BB75aa746cd [color="red"];
+  BB75aa746cd -> BB75aa746db [color="blue"];
+  BB75aa746d1 -> BB75aa746db [color="red"];
+  BB75aa746db -> BB75aa746ef [color="blue"];
+  BB75aa746e7 -> BB75aa746ef [color="red"];
+}

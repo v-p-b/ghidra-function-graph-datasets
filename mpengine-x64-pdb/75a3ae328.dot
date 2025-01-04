@@ -1,0 +1,16 @@
+digraph alloc<struct_JsDelegateObject_Global> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3ae328 -> BB75a3ae3e1 [color="green"];
+  BB75a3ae328 -> BB75a3ae34a [color="red"];
+  BB75a3ae34a -> BB75a3ae3e1 [color="green"];
+  BB75a3ae34a -> BB75a3ae35b [color="red"];
+  BB75a3ae35b -> BB75a3ae3e1 [color="green"];
+  BB75a3ae35b -> BB75a3ae365 [color="red"];
+  BB75a3ae365 -> BB75a3ae3d5 [color="green"];
+  BB75a3ae365 -> BB75a3ae3b3 [color="red"];
+  BB75a3ae3b3 -> BB75a3ae3bb [color="blue"];
+  BB75a3ae3bb -> BB75a3ae3c5 [color="blue"];
+  BB75a3ae3d5 -> BB75a3ae3bb [color="blue"];
+  BB75a3ae3e1 -> BB75a3ae3c5 [color="blue"];
+}

@@ -1,0 +1,22 @@
+digraph sqlite3PcacheTruncate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2a2348 -> BB75a2a2384 [color="green"];
+  BB75a2a2348 -> BB75a2a2365 [color="red"];
+  BB75a2a2365 -> BB75a2a23c9 [color="green"];
+  BB75a2a2365 -> BB75a2a236d [color="red"];
+  BB75a2a236d -> BB75a2a2394 [color="green"];
+  BB75a2a236d -> BB75a2a2371 [color="red"];
+  BB75a2a2371 -> BB75a2a2384 [color="red"];
+  BB75a2a2394 -> BB75a2a2371 [color="green"];
+  BB75a2a2394 -> BB75a2a239a [color="red"];
+  BB75a2a239a -> BB75a2a2371 [color="green"];
+  BB75a2a239a -> BB75a2a23b7 [color="red"];
+  BB75a2a23b7 -> BB75a2a2371 [color="blue"];
+  BB75a2a23c9 -> BB75a2a23e0 [color="green"];
+  BB75a2a23c9 -> BB75a2a23d2 [color="red"];
+  BB75a2a23d2 -> BB75a2a23c9 [color="green"];
+  BB75a2a23d2 -> BB75a2a23da [color="red"];
+  BB75a2a23da -> BB75a2a236d [color="blue"];
+  BB75a2a23e0 -> BB75a2a23d2 [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph _Disjunction {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a53cdf8 -> BB75a53ce58 [color="green"];
+  BB75a53cdf8 -> BB75a53ce1c [color="red"];
+  BB75a53ce1c -> BB75a53ce20 [color="blue"];
+  BB75a53ce20 -> BB75a53ce2e [color="red"];
+  BB75a53ce2e -> BB75a53ce5e [color="green"];
+  BB75a53ce2e -> BB75a53ce34 [color="red"];
+  BB75a53ce34 -> BB75a53ce91 [color="green"];
+  BB75a53ce34 -> BB75a53ce48 [color="red"];
+  BB75a53ce48 -> BB75a53ce2e [color="blue"];
+  BB75a53ce58 -> BB75a53ce73 [color="green"];
+  BB75a53ce58 -> BB75a53ce5e [color="red"];
+  BB75a53ce73 -> BB75a53ce20 [color="blue"];
+  BB75a53ce91 -> BB75a53ce48 [color="blue"];
+}

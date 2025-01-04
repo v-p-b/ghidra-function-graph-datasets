@@ -1,0 +1,26 @@
+digraph checkForEndOfStream {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a683e5c -> BB75a683f7a [color="green"];
+  BB75a683e5c -> BB75a683e7d [color="red"];
+  BB75a683e7d -> BB75a683eda [color="green"];
+  BB75a683e7d -> BB75a683e9f [color="red"];
+  BB75a683e9f -> BB75a683f5d [color="green"];
+  BB75a683e9f -> BB75a683ec5 [color="red"];
+  BB75a683ec5 -> BB75a683ec7 [color="blue"];
+  BB75a683eda -> BB75a683f5b [color="green"];
+  BB75a683eda -> BB75a683efe [color="red"];
+  BB75a683efe -> BB75a683f02 [color="blue"];
+  BB75a683f02 -> BB75a683f84 [color="green"];
+  BB75a683f02 -> BB75a683f18 [color="red"];
+  BB75a683f18 -> BB75a683f7a [color="green"];
+  BB75a683f18 -> BB75a683f1e [color="red"];
+  BB75a683f1e -> BB75a683ec5 [color="green"];
+  BB75a683f1e -> BB75a683f36 [color="red"];
+  BB75a683f36 -> BB75a683ec7 [color="blue"];
+  BB75a683f5b -> BB75a683f02 [color="blue"];
+  BB75a683f5d -> BB75a683ec5 [color="green"];
+  BB75a683f5d -> BB75a683f7a [color="red"];
+  BB75a683f7a -> BB75a683ec7 [color="blue"];
+  BB75a683f84 -> BB75a683ec7 [color="blue"];
+}

@@ -1,0 +1,8 @@
+digraph exprNodeIsDeterministic {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab4eb70 -> BB75ab4eb88 [color="green"];
+  BB75ab4eb70 -> BB75ab4eb75 [color="red"];
+  BB75ab4eb75 -> BB75ab4eb88 [color="green"];
+  BB75ab4eb75 -> BB75ab4eb7e [color="red"];
+}

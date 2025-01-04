@@ -1,0 +1,17 @@
+digraph prepare_opcode_buffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3ef69c -> BB75a3ef6bb [color="green"];
+  BB75a3ef69c -> BB75a3ef6af [color="red"];
+  BB75a3ef6af -> BB75a3ef6bc [color="green"];
+  BB75a3ef6af -> BB75a3ef6bb [color="red"];
+  BB75a3ef6bc -> BB75a3ef6c3 [color="blue"];
+  BB75a3ef6c3 -> BB75a3ef77a [color="green"];
+  BB75a3ef6c3 -> BB75a3ef6d8 [color="red"];
+  BB75a3ef6d8 -> BB75a3ef784 [color="green"];
+  BB75a3ef6d8 -> BB75a3ef6e4 [color="red"];
+  BB75a3ef6e4 -> BB75a3ef6c3 [color="blue"];
+  BB75a3ef77a -> BB75a3ef6d8 [color="blue"];
+  BB75a3ef784 -> BB75a3ef6bb [color="green"];
+  BB75a3ef784 -> BB75a3ef798 [color="red"];
+}

@@ -1,0 +1,12 @@
+digraph _fclose_internal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a79abb0 -> BB75a79abf9 [color="green"];
+  BB75a79abb0 -> BB75a79abcb [color="red"];
+  BB75a79abcb -> BB75a79abeb [color="red"];
+  BB75a79abeb -> BB75a79abee [color="blue"];
+  BB75a79abf9 -> BB75a79ac0b [color="green"];
+  BB75a79abf9 -> BB75a79ac04 [color="red"];
+  BB75a79ac04 -> BB75a79abeb [color="blue"];
+  BB75a79ac0b -> BB75a79abee [color="blue"];
+}

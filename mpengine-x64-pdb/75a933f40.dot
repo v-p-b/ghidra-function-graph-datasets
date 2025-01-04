@@ -1,0 +1,13 @@
+digraph get_diff_install_time_with_current_time {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a933f40 -> BB75a933f6e [color="green"];
+  BB75a933f40 -> BB75a933f6b [color="red"];
+  BB75a933f6b -> BB75a933f6e [color="blue"];
+  BB75a933f6e -> BB75a933fff [color="green"];
+  BB75a933f6e -> BB75a933fa0 [color="red"];
+  BB75a933fa0 -> BB75a933fef [color="green"];
+  BB75a933fa0 -> BB75a933fc4 [color="red"];
+  BB75a933fc4 -> BB75a933fef [color="red"];
+  BB75a933fef -> BB75a933fff [color="red"];
+}

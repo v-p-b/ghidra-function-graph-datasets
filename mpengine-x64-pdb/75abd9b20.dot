@@ -1,0 +1,25 @@
+digraph send_all_trees {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abd9b20 -> BB75abd9bc8 [color="green"];
+  BB75abd9b20 -> BB75abd9b77 [color="red"];
+  BB75abd9b77 -> BB75abd9bd9 [color="blue"];
+  BB75abd9bc8 -> BB75abd9bd9 [color="blue"];
+  BB75abd9bd9 -> BB75abd9c36 [color="green"];
+  BB75abd9bd9 -> BB75abd9be4 [color="red"];
+  BB75abd9be4 -> BB75abd9c49 [color="blue"];
+  BB75abd9c36 -> BB75abd9c49 [color="blue"];
+  BB75abd9c49 -> BB75abd9ca7 [color="green"];
+  BB75abd9c49 -> BB75abd9c56 [color="red"];
+  BB75abd9c56 -> BB75abd9cb9 [color="blue"];
+  BB75abd9ca7 -> BB75abd9cb9 [color="blue"];
+  BB75abd9cb9 -> BB75abd9d6a [color="green"];
+  BB75abd9cb9 -> BB75abd9cc9 [color="red"];
+  BB75abd9cc9 -> BB75abd9cd3 [color="blue"];
+  BB75abd9cd3 -> BB75abd9d3c [color="green"];
+  BB75abd9cd3 -> BB75abd9cde [color="red"];
+  BB75abd9cde -> BB75abd9d54 [color="blue"];
+  BB75abd9d3c -> BB75abd9d54 [color="blue"];
+  BB75abd9d54 -> BB75abd9cd3 [color="green"];
+  BB75abd9d54 -> BB75abd9d6a [color="red"];
+}

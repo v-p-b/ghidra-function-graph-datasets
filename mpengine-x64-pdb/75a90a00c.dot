@@ -1,0 +1,18 @@
+digraph add_record {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a90a00c -> BB75a90a05e [color="green"];
+  BB75a90a00c -> BB75a90a01f [color="red"];
+  BB75a90a01f -> BB75a90a05e [color="green"];
+  BB75a90a01f -> BB75a90a030 [color="red"];
+  BB75a90a030 -> BB75a90a044 [color="green"];
+  BB75a90a030 -> BB75a90a035 [color="red"];
+  BB75a90a035 -> BB75a90a044 [color="green"];
+  BB75a90a035 -> BB75a90a03f [color="red"];
+  BB75a90a03f -> BB75a90a030 [color="blue"];
+  BB75a90a044 -> BB75a90a058 [color="green"];
+  BB75a90a044 -> BB75a90a04a [color="red"];
+  BB75a90a04a -> BB75a90a06d [color="blue"];
+  BB75a90a058 -> BB75a90a06d [color="blue"];
+  BB75a90a05e -> BB75a90a06d [color="red"];
+}

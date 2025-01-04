@@ -1,0 +1,19 @@
+digraph getCurrentThreadHandle {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5608d4 -> BB75a5608ef [color="blue"];
+  BB75a5608eb -> BB75a5608ef [color="blue"];
+  BB75a5608ef -> BB75a560902 [color="green"];
+  BB75a5608ef -> BB75a5608f5 [color="red"];
+  BB75a5608f5 -> BB75a5608eb [color="green"];
+  BB75a5608f5 -> BB75a5608fa [color="red"];
+  BB75a5608fa -> BB75a5608ef [color="blue"];
+  BB75a560902 -> BB75a56091b [color="green"];
+  BB75a560902 -> BB75a560908 [color="red"];
+  BB75a560908 -> BB75a56091b [color="green"];
+  BB75a560908 -> BB75a56090d [color="red"];
+  BB75a56090d -> BB75a56091b [color="green"];
+  BB75a56090d -> BB75a560912 [color="red"];
+  BB75a560912 -> BB75a560916 [color="blue"];
+  BB75a56091b -> BB75a560916 [color="blue"];
+}

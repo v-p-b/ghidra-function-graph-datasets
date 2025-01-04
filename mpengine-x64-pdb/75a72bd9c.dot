@@ -1,0 +1,12 @@
+digraph MpCatchAllLogWarningImpl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a72bd9c -> BB75a72bdf9 [color="green"];
+  BB75a72bd9c -> BB75a72bdb8 [color="red"];
+  BB75a72bdb8 -> BB75a72bdf9 [color="green"];
+  BB75a72bdb8 -> BB75a72bdbe [color="red"];
+  BB75a72bdbe -> BB75a72bdd2 [color="green"];
+  BB75a72bdbe -> BB75a72bdcf [color="red"];
+  BB75a72bdcf -> BB75a72bdd2 [color="blue"];
+  BB75a72bdd2 -> BB75a72bdf9 [color="red"];
+}

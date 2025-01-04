@@ -1,0 +1,16 @@
+digraph GetGlobalLuaState {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a20d770 -> BB75a20d78c [color="green"];
+  BB75a20d770 -> BB75a20d787 [color="red"];
+  BB75a20d787 -> BB75a20d78c [color="red"];
+  BB75a20d78c -> BB75a20d7b7 [color="green"];
+  BB75a20d78c -> BB75a20d799 [color="red"];
+  BB75a20d799 -> BB75a20d7c9 [color="green"];
+  BB75a20d799 -> BB75a20d7ac [color="red"];
+  BB75a20d7ac -> BB75a20d7b7 [color="green"];
+  BB75a20d7ac -> BB75a20d7b2 [color="red"];
+  BB75a20d7b2 -> BB75a20d7b7 [color="red"];
+  BB75a20d7b7 -> BB75a20d7be [color="blue"];
+  BB75a20d7c9 -> BB75a20d7be [color="blue"];
+}

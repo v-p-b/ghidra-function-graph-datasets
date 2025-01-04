@@ -1,0 +1,10 @@
+digraph getMutantObject {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6345d4 -> BB75a63461e [color="green"];
+  BB75a6345d4 -> BB75a6345e7 [color="red"];
+  BB75a6345e7 -> BB75a63461e [color="green"];
+  BB75a6345e7 -> BB75a6345fb [color="red"];
+  BB75a6345fb -> BB75a634618 [color="red"];
+  BB75a63461e -> BB75a634618 [color="blue"];
+}

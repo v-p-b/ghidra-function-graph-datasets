@@ -1,0 +1,21 @@
+digraph KERNEL32_DLL_LoadLibraryW {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa74350 -> BB75aa743e9 [color="green"];
+  BB75aa74350 -> BB75aa743d2 [color="red"];
+  BB75aa743d2 -> BB75aa7449f [color="blue"];
+  BB75aa743e9 -> BB75aa743ec [color="blue"];
+  BB75aa743ec -> BB75aa74412 [color="green"];
+  BB75aa743ec -> BB75aa743f7 [color="red"];
+  BB75aa743f7 -> BB75aa743ec [color="green"];
+  BB75aa743f7 -> BB75aa74406 [color="red"];
+  BB75aa74406 -> BB75aa744d1 [color="green"];
+  BB75aa74406 -> BB75aa74412 [color="red"];
+  BB75aa74412 -> BB75aa7444d [color="green"];
+  BB75aa74412 -> BB75aa7442f [color="red"];
+  BB75aa7442f -> BB75aa7444d [color="green"];
+  BB75aa7442f -> BB75aa74438 [color="red"];
+  BB75aa74438 -> BB75aa7444d [color="red"];
+  BB75aa7444d -> BB75aa7449f [color="red"];
+  BB75aa744d1 -> BB75aa744d7 [color="red"];
+}

@@ -1,0 +1,8 @@
+digraph send_memory_scan_report {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a636cb8 -> BB75a636cf5 [color="green"];
+  BB75a636cb8 -> BB75a636cd4 [color="red"];
+  BB75a636cd4 -> BB75a636cef [color="red"];
+  BB75a636cf5 -> BB75a636cef [color="blue"];
+}

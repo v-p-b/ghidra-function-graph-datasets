@@ -1,0 +1,14 @@
+digraph ZSTD_compressSubBlock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abfbab8 -> BB75abfbbe6 [color="green"];
+  BB75abfbab8 -> BB75abfbb3c [color="red"];
+  BB75abfbb3c -> BB75abfbbe4 [color="green"];
+  BB75abfbb3c -> BB75abfbb45 [color="red"];
+  BB75abfbb45 -> BB75abfbbe6 [color="green"];
+  BB75abfbb45 -> BB75abfbbc0 [color="red"];
+  BB75abfbbc0 -> BB75abfbbe4 [color="green"];
+  BB75abfbbc0 -> BB75abfbbc5 [color="red"];
+  BB75abfbbc5 -> BB75abfbbe6 [color="blue"];
+  BB75abfbbe4 -> BB75abfbbe6 [color="blue"];
+}

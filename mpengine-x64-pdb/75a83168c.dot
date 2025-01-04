@@ -1,0 +1,22 @@
+digraph CollectGarbage {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a83168c -> BB75a831768 [color="green"];
+  BB75a83168c -> BB75a8316cc [color="red"];
+  BB75a8316cc -> BB75a8316d9 [color="blue"];
+  BB75a8316d9 -> BB75a83171e [color="green"];
+  BB75a8316d9 -> BB75a8316df [color="red"];
+  BB75a8316df -> BB75a831716 [color="green"];
+  BB75a8316df -> BB75a8316f7 [color="red"];
+  BB75a8316f7 -> BB75a831716 [color="green"];
+  BB75a8316f7 -> BB75a8316fd [color="red"];
+  BB75a8316fd -> BB75a831719 [color="blue"];
+  BB75a831716 -> BB75a831719 [color="blue"];
+  BB75a831719 -> BB75a8316d9 [color="blue"];
+  BB75a83171e -> BB75a831768 [color="green"];
+  BB75a83171e -> BB75a831745 [color="red"];
+  BB75a831745 -> BB75a831768 [color="green"];
+  BB75a831745 -> BB75a83174b [color="red"];
+  BB75a83174b -> BB75a831768 [color="red"];
+  BB75a831768 -> BB75a831773 [color="blue"];
+}

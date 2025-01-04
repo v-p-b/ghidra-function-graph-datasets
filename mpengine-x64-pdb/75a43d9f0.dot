@@ -1,0 +1,14 @@
+digraph IsProfileMgrCaseSensitiveEnabled {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a43d9f0 -> BB75a43da4b [color="green"];
+  BB75a43d9f0 -> BB75a43da1b [color="red"];
+  BB75a43da1b -> BB75a43da55 [color="green"];
+  BB75a43da1b -> BB75a43da34 [color="red"];
+  BB75a43da34 -> BB75a43da55 [color="green"];
+  BB75a43da34 -> BB75a43da42 [color="red"];
+  BB75a43da4b -> BB75a43da55 [color="green"];
+  BB75a43da4b -> BB75a43da50 [color="red"];
+  BB75a43da50 -> BB75a43da55 [color="red"];
+  BB75a43da55 -> BB75a43da42 [color="blue"];
+}

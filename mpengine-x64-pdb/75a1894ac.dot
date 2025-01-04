@@ -1,0 +1,8 @@
+digraph CGenericAutoLock<struct_CommonUtil::CMpReadLockFunctor<class_CommonUtil::CMpReadWriteLock>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1894ac -> BB75a1894df [color="green"];
+  BB75a1894ac -> BB75a1894cf [color="red"];
+  BB75a1894cf -> BB75a1894cf [color="green"];
+  BB75a1894cf -> BB75a1894df [color="red"];
+}

@@ -1,0 +1,12 @@
+digraph ZSTD_copyCDictTableIntoCCtx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abfcbfc -> BB75abfcc2a [color="green"];
+  BB75abfcbfc -> BB75abfcc0b [color="red"];
+  BB75abfcc0b -> BB75abfcc33 [color="green"];
+  BB75abfcc0b -> BB75abfcc10 [color="red"];
+  BB75abfcc10 -> BB75abfcc13 [color="blue"];
+  BB75abfcc13 -> BB75abfcc13 [color="green"];
+  BB75abfcc13 -> BB75abfcc25 [color="red"];
+  BB75abfcc2a -> BB75abfcc33 [color="red"];
+}

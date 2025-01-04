@@ -1,0 +1,13 @@
+digraph GetThreatDetails {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa88b20 -> BB75aa88c1d [color="green"];
+  BB75aa88b20 -> BB75aa88b5c [color="red"];
+  BB75aa88b5c -> BB75aa88c1d [color="green"];
+  BB75aa88b5c -> BB75aa88b6c [color="red"];
+  BB75aa88b6c -> BB75aa88bbd [color="green"];
+  BB75aa88b6c -> BB75aa88bba [color="red"];
+  BB75aa88bba -> BB75aa88bbd [color="blue"];
+  BB75aa88bbd -> BB75aa88c3c [color="blue"];
+  BB75aa88c1d -> BB75aa88c3c [color="blue"];
+}

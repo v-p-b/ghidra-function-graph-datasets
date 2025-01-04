@@ -1,0 +1,20 @@
+digraph FireNotification {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a69d250 -> BB75a69d2af [color="green"];
+  BB75a69d250 -> BB75a69d270 [color="red"];
+  BB75a69d270 -> BB75a69d2b3 [color="green"];
+  BB75a69d270 -> BB75a69d283 [color="red"];
+  BB75a69d283 -> BB75a69d2d0 [color="green"];
+  BB75a69d283 -> BB75a69d294 [color="red"];
+  BB75a69d294 -> BB75a69d29f [color="red"];
+  BB75a69d2af -> BB75a69d29f [color="blue"];
+  BB75a69d2b3 -> BB75a69d283 [color="green"];
+  BB75a69d2b3 -> BB75a69d2b9 [color="red"];
+  BB75a69d2b9 -> BB75a69d283 [color="blue"];
+  BB75a69d2d0 -> BB75a69d2af [color="green"];
+  BB75a69d2d0 -> BB75a69d2dc [color="red"];
+  BB75a69d2dc -> BB75a69d2af [color="green"];
+  BB75a69d2dc -> BB75a69d2e2 [color="red"];
+  BB75a69d2e2 -> BB75a69d2af [color="blue"];
+}

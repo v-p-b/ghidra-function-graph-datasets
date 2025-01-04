@@ -1,0 +1,10 @@
+digraph StopSubAllocator {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a676b34 -> BB75a676b63 [color="green"];
+  BB75a676b34 -> BB75a676b44 [color="red"];
+  BB75a676b44 -> BB75a676b50 [color="green"];
+  BB75a676b44 -> BB75a676b4b [color="red"];
+  BB75a676b4b -> BB75a676b50 [color="red"];
+  BB75a676b50 -> BB75a676b63 [color="red"];
+}

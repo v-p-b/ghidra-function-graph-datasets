@@ -1,0 +1,12 @@
+digraph morphines_unpack {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa53160 -> BB75aa531bc [color="green"];
+  BB75aa53160 -> BB75aa5318e [color="red"];
+  BB75aa5318e -> BB75aa531d1 [color="green"];
+  BB75aa5318e -> BB75aa531a1 [color="red"];
+  BB75aa531a1 -> BB75aa531d1 [color="green"];
+  BB75aa531a1 -> BB75aa531a7 [color="red"];
+  BB75aa531a7 -> BB75aa531d1 [color="blue"];
+  BB75aa531bc -> BB75aa531d1 [color="red"];
+}

@@ -1,0 +1,10 @@
+digraph not_VAM_in_sync {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a349d78 -> BB75a349df0 [color="green"];
+  BB75a349d78 -> BB75a349dc0 [color="red"];
+  BB75a349dc0 -> BB75a349df0 [color="green"];
+  BB75a349dc0 -> BB75a349dca [color="red"];
+  BB75a349dca -> BB75a349ddd [color="red"];
+  BB75a349df0 -> BB75a349ddd [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph ShouldIssueSDNQuery {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4179a0 -> BB75a417a26 [color="green"];
+  BB75a4179a0 -> BB75a4179f4 [color="red"];
+  BB75a4179f4 -> BB75a417a22 [color="green"];
+  BB75a4179f4 -> BB75a417a07 [color="red"];
+  BB75a417a07 -> BB75a417a22 [color="green"];
+  BB75a417a07 -> BB75a417a0d [color="red"];
+  BB75a417a0d -> BB75a417a22 [color="red"];
+  BB75a417a22 -> BB75a417a28 [color="blue"];
+  BB75a417a26 -> BB75a417a28 [color="blue"];
+}

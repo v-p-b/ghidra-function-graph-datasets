@@ -1,0 +1,18 @@
+digraph isCSFolderD {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa8fd44 -> BB75aa8fdf0 [color="green"];
+  BB75aa8fd44 -> BB75aa8fd91 [color="red"];
+  BB75aa8fd91 -> BB75aa8fdcf [color="green"];
+  BB75aa8fd91 -> BB75aa8fdc0 [color="red"];
+  BB75aa8fdc0 -> BB75aa8fea2 [color="blue"];
+  BB75aa8fdcf -> BB75aa8fdf0 [color="blue"];
+  BB75aa8fdf0 -> BB75aa8fe05 [color="green"];
+  BB75aa8fdf0 -> BB75aa8fdfc [color="red"];
+  BB75aa8fdfc -> BB75aa8fe1d [color="blue"];
+  BB75aa8fe05 -> BB75aa8fe1d [color="red"];
+  BB75aa8fe1d -> BB75aa8fe9f [color="green"];
+  BB75aa8fe1d -> BB75aa8fe29 [color="red"];
+  BB75aa8fe29 -> BB75aa8fe9f [color="blue"];
+  BB75aa8fe9f -> BB75aa8fea2 [color="blue"];
+}

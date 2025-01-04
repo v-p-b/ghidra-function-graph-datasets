@@ -1,0 +1,19 @@
+digraph Detach {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a802700 -> BB75a802771 [color="green"];
+  BB75a802700 -> BB75a802710 [color="red"];
+  BB75a802710 -> BB75a80271c [color="green"];
+  BB75a802710 -> BB75a802717 [color="red"];
+  BB75a802717 -> BB75a80271c [color="red"];
+  BB75a80271c -> BB75a802728 [color="green"];
+  BB75a80271c -> BB75a802723 [color="red"];
+  BB75a802723 -> BB75a802728 [color="red"];
+  BB75a802728 -> BB75a802734 [color="green"];
+  BB75a802728 -> BB75a80272f [color="red"];
+  BB75a80272f -> BB75a802734 [color="red"];
+  BB75a802734 -> BB75a802747 [color="green"];
+  BB75a802734 -> BB75a802742 [color="red"];
+  BB75a802742 -> BB75a802747 [color="red"];
+  BB75a802747 -> BB75a802771 [color="red"];
+}

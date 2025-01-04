@@ -1,0 +1,10 @@
+digraph cleanup_vdll_metadata {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a736040 -> BB75a736082 [color="blue"];
+  BB75a736082 -> BB75a73609c [color="green"];
+  BB75a736082 -> BB75a736092 [color="red"];
+  BB75a736092 -> BB75a73609c [color="red"];
+  BB75a73609c -> BB75a736082 [color="green"];
+  BB75a73609c -> BB75a7360c8 [color="red"];
+}

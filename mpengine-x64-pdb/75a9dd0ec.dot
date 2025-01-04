@@ -1,0 +1,17 @@
+digraph get_normalized_address {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9dd0ec -> BB75a9dd1da [color="green"];
+  BB75a9dd0ec -> BB75a9dd14c [color="red"];
+  BB75a9dd14c -> BB75a9dd1da [color="green"];
+  BB75a9dd14c -> BB75a9dd156 [color="red"];
+  BB75a9dd156 -> BB75a9dd1a8 [color="green"];
+  BB75a9dd156 -> BB75a9dd181 [color="red"];
+  BB75a9dd181 -> BB75a9dd1af [color="green"];
+  BB75a9dd181 -> BB75a9dd1a6 [color="red"];
+  BB75a9dd1a6 -> BB75a9dd1ac [color="blue"];
+  BB75a9dd1a8 -> BB75a9dd1ac [color="blue"];
+  BB75a9dd1ac -> BB75a9dd1af [color="blue"];
+  BB75a9dd1af -> BB75a9dd224 [color="blue"];
+  BB75a9dd1da -> BB75a9dd224 [color="red"];
+}

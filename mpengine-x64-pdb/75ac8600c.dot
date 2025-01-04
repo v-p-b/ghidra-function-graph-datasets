@@ -1,0 +1,20 @@
+digraph CResourceAction {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac8600c -> BB75ac86047 [color="green"];
+  BB75ac8600c -> BB75ac8603c [color="red"];
+  BB75ac8603c -> BB75ac86047 [color="green"];
+  BB75ac8603c -> BB75ac86042 [color="red"];
+  BB75ac86042 -> BB75ac86047 [color="red"];
+  BB75ac86047 -> BB75ac8605f [color="green"];
+  BB75ac86047 -> BB75ac8605a [color="red"];
+  BB75ac8605a -> BB75ac8605f [color="red"];
+  BB75ac8605f -> BB75ac8606f [color="green"];
+  BB75ac8605f -> BB75ac8606a [color="red"];
+  BB75ac8606a -> BB75ac8606f [color="red"];
+  BB75ac8606f -> BB75ac860b5 [color="green"];
+  BB75ac8606f -> BB75ac86097 [color="red"];
+  BB75ac86097 -> BB75ac860b5 [color="green"];
+  BB75ac86097 -> BB75ac860b1 [color="red"];
+  BB75ac860b1 -> BB75ac860b5 [color="blue"];
+}

@@ -1,0 +1,21 @@
+digraph NTDLL_DLL_NtPulseEventWorker {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa71e80 -> BB75aa72040 [color="green"];
+  BB75aa71e80 -> BB75aa71e89 [color="red"];
+  BB75aa71e89 -> BB75aa7201d [color="green"];
+  BB75aa71e89 -> BB75aa71ec4 [color="red"];
+  BB75aa71ec4 -> BB75aa7201d [color="green"];
+  BB75aa71ec4 -> BB75aa71ed1 [color="red"];
+  BB75aa71ed1 -> BB75aa71f6e [color="green"];
+  BB75aa71ed1 -> BB75aa71f2d [color="red"];
+  BB75aa71f2d -> BB75aa7201d [color="blue"];
+  BB75aa71f6e -> BB75aa71fba [color="green"];
+  BB75aa71f6e -> BB75aa71f75 [color="red"];
+  BB75aa71f75 -> BB75aa71fba [color="green"];
+  BB75aa71f75 -> BB75aa71fa0 [color="red"];
+  BB75aa71fa0 -> BB75aa7201d [color="blue"];
+  BB75aa71fba -> BB75aa72013 [color="blue"];
+  BB75aa72013 -> BB75aa7201d [color="red"];
+  BB75aa7201d -> BB75aa72040 [color="red"];
+}

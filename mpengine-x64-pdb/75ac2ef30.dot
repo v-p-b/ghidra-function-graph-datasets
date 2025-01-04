@@ -1,0 +1,18 @@
+digraph GetPartitionInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac2ef30 -> BB75ac2ef57 [color="green"];
+  BB75ac2ef30 -> BB75ac2ef52 [color="red"];
+  BB75ac2ef52 -> BB75ac2ef57 [color="red"];
+  BB75ac2ef57 -> BB75ac2ef5e [color="blue"];
+  BB75ac2ef5e -> BB75ac2ef91 [color="green"];
+  BB75ac2ef5e -> BB75ac2ef63 [color="red"];
+  BB75ac2ef63 -> BB75ac2ef71 [color="green"];
+  BB75ac2ef63 -> BB75ac2ef6c [color="red"];
+  BB75ac2ef6c -> BB75ac2ef5e [color="blue"];
+  BB75ac2ef71 -> BB75ac2ef7a [color="green"];
+  BB75ac2ef71 -> BB75ac2ef76 [color="red"];
+  BB75ac2ef76 -> BB75ac2ef7a [color="blue"];
+  BB75ac2ef7a -> BB75ac2ef96 [color="blue"];
+  BB75ac2ef91 -> BB75ac2ef96 [color="blue"];
+}

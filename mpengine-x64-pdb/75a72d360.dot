@@ -1,0 +1,14 @@
+digraph MpServiceHealthMonitorEnableEnd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a72d360 -> BB75a72d383 [color="green"];
+  BB75a72d360 -> BB75a72d36d [color="red"];
+  BB75a72d36d -> BB75a72d383 [color="green"];
+  BB75a72d36d -> BB75a72d379 [color="red"];
+  BB75a72d379 -> BB75a72d3bb [color="blue"];
+  BB75a72d383 -> BB75a72d3bb [color="green"];
+  BB75a72d383 -> BB75a72d3a0 [color="red"];
+  BB75a72d3a0 -> BB75a72d3bb [color="green"];
+  BB75a72d3a0 -> BB75a72d3a6 [color="red"];
+  BB75a72d3a6 -> BB75a72d3bb [color="red"];
+}

@@ -1,0 +1,18 @@
+digraph ResetFilters {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6777e4 -> BB75a67783f [color="blue"];
+  BB75a67780d -> BB75a677830 [color="green"];
+  BB75a67780d -> BB75a677820 [color="red"];
+  BB75a677820 -> BB75a677830 [color="red"];
+  BB75a677830 -> BB75a67783f [color="red"];
+  BB75a67783f -> BB75a67780d [color="green"];
+  BB75a67783f -> BB75a677847 [color="red"];
+  BB75a677847 -> BB75a67788e [color="blue"];
+  BB75a67785c -> BB75a67787f [color="green"];
+  BB75a67785c -> BB75a67786f [color="red"];
+  BB75a67786f -> BB75a67787f [color="red"];
+  BB75a67787f -> BB75a67788e [color="red"];
+  BB75a67788e -> BB75a67785c [color="green"];
+  BB75a67788e -> BB75a677896 [color="red"];
+}

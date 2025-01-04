@@ -1,0 +1,18 @@
+digraph GetFullRtMeasurementHistory {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a698aec -> BB75a698bef [color="green"];
+  BB75a698aec -> BB75a698b28 [color="red"];
+  BB75a698b28 -> BB75a698b43 [color="green"];
+  BB75a698b28 -> BB75a698b40 [color="red"];
+  BB75a698b40 -> BB75a698b43 [color="blue"];
+  BB75a698b43 -> BB75a698b4d [color="blue"];
+  BB75a698b4d -> BB75a698bba [color="green"];
+  BB75a698b4d -> BB75a698b58 [color="red"];
+  BB75a698b58 -> BB75a698bb5 [color="green"];
+  BB75a698b58 -> BB75a698b7a [color="red"];
+  BB75a698b7a -> BB75a698bb5 [color="red"];
+  BB75a698bb5 -> BB75a698b4d [color="blue"];
+  BB75a698bba -> BB75a698bcb [color="red"];
+  BB75a698bef -> BB75a698bcb [color="blue"];
+}

@@ -1,0 +1,22 @@
+digraph astToProgTree {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a482974 -> BB75a482a2b [color="green"];
+  BB75a482974 -> BB75a482a1a [color="red"];
+  BB75a482a1a -> BB75a482a2b [color="green"];
+  BB75a482a1a -> BB75a482a29 [color="red"];
+  BB75a482a29 -> BB75a482a2b [color="blue"];
+  BB75a482a2b -> BB75a482a55 [color="green"];
+  BB75a482a2b -> BB75a482a34 [color="red"];
+  BB75a482a34 -> BB75a482a55 [color="red"];
+  BB75a482a55 -> BB75a482a92 [color="green"];
+  BB75a482a55 -> BB75a482a59 [color="red"];
+  BB75a482a59 -> BB75a482a72 [color="green"];
+  BB75a482a59 -> BB75a482a62 [color="red"];
+  BB75a482a62 -> BB75a482a72 [color="red"];
+  BB75a482a72 -> BB75a482a75 [color="blue"];
+  BB75a482a92 -> BB75a482aa7 [color="green"];
+  BB75a482a92 -> BB75a482a97 [color="red"];
+  BB75a482a97 -> BB75a482aa7 [color="red"];
+  BB75a482aa7 -> BB75a482a75 [color="blue"];
+}

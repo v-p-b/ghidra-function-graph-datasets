@@ -1,0 +1,19 @@
+digraph ExpandPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acdb424 -> BB75acdb46b [color="green"];
+  BB75acdb424 -> BB75acdb458 [color="red"];
+  BB75acdb458 -> BB75acdb4a6 [color="green"];
+  BB75acdb458 -> BB75acdb464 [color="red"];
+  BB75acdb464 -> BB75acdb4a6 [color="blue"];
+  BB75acdb46b -> BB75acdb485 [color="green"];
+  BB75acdb46b -> BB75acdb480 [color="red"];
+  BB75acdb480 -> BB75acdb4a6 [color="blue"];
+  BB75acdb485 -> BB75acdb4b0 [color="green"];
+  BB75acdb485 -> BB75acdb498 [color="red"];
+  BB75acdb498 -> BB75acdb458 [color="green"];
+  BB75acdb498 -> BB75acdb49c [color="red"];
+  BB75acdb49c -> BB75acdb4a6 [color="red"];
+  BB75acdb4a6 -> BB75acdb4b3 [color="blue"];
+  BB75acdb4b0 -> BB75acdb4b3 [color="blue"];
+}

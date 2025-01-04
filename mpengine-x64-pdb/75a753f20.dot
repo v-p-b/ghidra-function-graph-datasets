@@ -1,0 +1,12 @@
+digraph winMutexEnd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a753f20 -> BB75a753f6a [color="green"];
+  BB75a753f20 -> BB75a753f3e [color="red"];
+  BB75a753f3e -> BB75a753f6a [color="green"];
+  BB75a753f3e -> BB75a753f47 [color="red"];
+  BB75a753f47 -> BB75a753f51 [color="blue"];
+  BB75a753f51 -> BB75a753f51 [color="green"];
+  BB75a753f51 -> BB75a753f64 [color="red"];
+  BB75a753f64 -> BB75a753f6a [color="blue"];
+}

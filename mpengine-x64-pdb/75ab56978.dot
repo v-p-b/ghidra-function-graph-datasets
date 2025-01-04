@@ -1,0 +1,16 @@
+digraph sqlite3PCacheBufferSetup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab56978 -> BB75ab56a2a [color="green"];
+  BB75ab56978 -> BB75ab56988 [color="red"];
+  BB75ab56988 -> BB75ab569d5 [color="green"];
+  BB75ab56988 -> BB75ab569c9 [color="red"];
+  BB75ab569c9 -> BB75ab569ef [color="blue"];
+  BB75ab569d5 -> BB75ab569ef [color="blue"];
+  BB75ab569ef -> BB75ab56a23 [color="green"];
+  BB75ab569ef -> BB75ab56a0a [color="red"];
+  BB75ab56a0a -> BB75ab56a0d [color="blue"];
+  BB75ab56a0d -> BB75ab56a0d [color="green"];
+  BB75ab56a0d -> BB75ab56a23 [color="red"];
+  BB75ab56a23 -> BB75ab56a2a [color="blue"];
+}

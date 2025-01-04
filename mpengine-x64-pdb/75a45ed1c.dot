@@ -1,0 +1,21 @@
+digraph pcache1TruncateUnsafe {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a45ed1c -> BB75a45edec [color="green"];
+  BB75a45ed1c -> BB75a45ed4e [color="red"];
+  BB75a45ed4e -> BB75a45ed62 [color="blue"];
+  BB75a45ed62 -> BB75a45ed6c [color="blue"];
+  BB75a45ed6c -> BB75a45ed85 [color="green"];
+  BB75a45ed6c -> BB75a45ed74 [color="red"];
+  BB75a45ed74 -> BB75a45eda4 [color="green"];
+  BB75a45ed74 -> BB75a45ed79 [color="red"];
+  BB75a45ed79 -> BB75a45ed62 [color="blue"];
+  BB75a45ed85 -> BB75a45ede6 [color="green"];
+  BB75a45ed85 -> BB75a45ed8a [color="red"];
+  BB75a45ed8a -> BB75a45edbf [color="green"];
+  BB75a45ed8a -> BB75a45ed9d [color="red"];
+  BB75a45ed9d -> BB75a45ed6c [color="blue"];
+  BB75a45edbf -> BB75a45ed9d [color="blue"];
+  BB75a45ede6 -> BB75a45ed6c [color="blue"];
+  BB75a45edec -> BB75a45ed62 [color="blue"];
+}

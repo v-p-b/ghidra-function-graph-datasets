@@ -1,0 +1,33 @@
+digraph IsCoveredByExcludedPathRules {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a874fac -> BB75a87500d [color="blue"];
+  BB75a874fdb -> BB75a87500a [color="green"];
+  BB75a874fdb -> BB75a874ffa [color="red"];
+  BB75a874ffa -> BB75a87500d [color="blue"];
+  BB75a87500a -> BB75a87500d [color="blue"];
+  BB75a87500d -> BB75a874fdb [color="green"];
+  BB75a87500d -> BB75a875012 [color="red"];
+  BB75a875012 -> BB75a875043 [color="green"];
+  BB75a875012 -> BB75a875018 [color="red"];
+  BB75a875018 -> BB75a875025 [color="green"];
+  BB75a875018 -> BB75a875022 [color="red"];
+  BB75a875022 -> BB75a875025 [color="blue"];
+  BB75a875025 -> BB75a875032 [color="green"];
+  BB75a875025 -> BB75a87502f [color="red"];
+  BB75a87502f -> BB75a875032 [color="blue"];
+  BB75a875032 -> BB75a87507f [color="green"];
+  BB75a875032 -> BB75a875043 [color="red"];
+  BB75a875043 -> BB75a87507b [color="green"];
+  BB75a875043 -> BB75a875049 [color="red"];
+  BB75a875049 -> BB75a87507b [color="green"];
+  BB75a875049 -> BB75a875057 [color="red"];
+  BB75a875057 -> BB75a875064 [color="green"];
+  BB75a875057 -> BB75a875061 [color="red"];
+  BB75a875061 -> BB75a875064 [color="blue"];
+  BB75a875064 -> BB75a87507b [color="green"];
+  BB75a875064 -> BB75a87506c [color="red"];
+  BB75a87506c -> BB75a875081 [color="blue"];
+  BB75a87507b -> BB75a875081 [color="blue"];
+  BB75a87507f -> BB75a875081 [color="blue"];
+}

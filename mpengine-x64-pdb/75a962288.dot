@@ -1,0 +1,9 @@
+digraph _fallback_to_cpu {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a962288 -> BB75a962425 [color="green"];
+  BB75a962288 -> BB75a96232c [color="red"];
+  BB75a96232c -> BB75a962425 [color="green"];
+  BB75a96232c -> BB75a962335 [color="red"];
+  BB75a962335 -> BB75a962425 [color="red"];
+}

@@ -1,0 +1,12 @@
+digraph getCommonDepth {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4e1514 -> BB75a4e15d2 [color="green"];
+  BB75a4e1514 -> BB75a4e1552 [color="red"];
+  BB75a4e1552 -> BB75a4e15ba [color="green"];
+  BB75a4e1552 -> BB75a4e155b [color="red"];
+  BB75a4e155b -> BB75a4e1552 [color="green"];
+  BB75a4e155b -> BB75a4e15aa [color="red"];
+  BB75a4e15aa -> BB75a4e15ba [color="red"];
+  BB75a4e15d2 -> BB75a4e1552 [color="blue"];
+}

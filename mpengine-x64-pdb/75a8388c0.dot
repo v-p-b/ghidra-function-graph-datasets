@@ -1,0 +1,17 @@
+digraph HandleNotification {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8388c0 -> BB75a8388ec [color="green"];
+  BB75a8388c0 -> BB75a8388e7 [color="red"];
+  BB75a8388e7 -> BB75a8388ec [color="red"];
+  BB75a8388ec -> BB75a838927 [color="green"];
+  BB75a8388ec -> BB75a838910 [color="red"];
+  BB75a838910 -> BB75a83891e [color="green"];
+  BB75a838910 -> BB75a838915 [color="red"];
+  BB75a838915 -> BB75a83892e [color="blue"];
+  BB75a83891e -> BB75a83892e [color="blue"];
+  BB75a838927 -> BB75a83892e [color="blue"];
+  BB75a83892e -> BB75a83895d [color="green"];
+  BB75a83892e -> BB75a838956 [color="red"];
+  BB75a838956 -> BB75a83895d [color="blue"];
+}

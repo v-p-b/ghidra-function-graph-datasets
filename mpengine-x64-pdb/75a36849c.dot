@@ -1,0 +1,22 @@
+digraph GetFriendlyRequiredFlags {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a36849c -> BB75a3684d6 [color="green"];
+  BB75a36849c -> BB75a3684aa [color="red"];
+  BB75a3684aa -> BB75a3684d6 [color="green"];
+  BB75a3684aa -> BB75a3684bd [color="red"];
+  BB75a3684bd -> BB75a3684ef [color="green"];
+  BB75a3684bd -> BB75a3684c6 [color="red"];
+  BB75a3684c6 -> BB75a3684ef [color="green"];
+  BB75a3684c6 -> BB75a3684d6 [color="red"];
+  BB75a3684d6 -> BB75a3684f7 [color="green"];
+  BB75a3684d6 -> BB75a3684e9 [color="red"];
+  BB75a3684e9 -> BB75a3684ef [color="blue"];
+  BB75a3684f7 -> BB75a3684e9 [color="green"];
+  BB75a3684f7 -> BB75a368500 [color="red"];
+  BB75a368500 -> BB75a3684e9 [color="green"];
+  BB75a368500 -> BB75a368504 [color="red"];
+  BB75a368504 -> BB75a3684ef [color="green"];
+  BB75a368504 -> BB75a368517 [color="red"];
+  BB75a368517 -> BB75a3684e9 [color="blue"];
+}

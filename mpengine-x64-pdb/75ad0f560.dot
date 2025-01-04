@@ -1,0 +1,21 @@
+digraph FindNopPattern {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad0f560 -> BB75ad0f5bc [color="green"];
+  BB75ad0f560 -> BB75ad0f585 [color="red"];
+  BB75ad0f585 -> BB75ad0f58d [color="blue"];
+  BB75ad0f58d -> BB75ad0f5f2 [color="green"];
+  BB75ad0f58d -> BB75ad0f592 [color="red"];
+  BB75ad0f592 -> BB75ad0f5ab [color="green"];
+  BB75ad0f592 -> BB75ad0f59c [color="red"];
+  BB75ad0f59c -> BB75ad0f5b0 [color="green"];
+  BB75ad0f59c -> BB75ad0f5ab [color="red"];
+  BB75ad0f5ab -> BB75ad0f58d [color="blue"];
+  BB75ad0f5b0 -> BB75ad0f5fd [color="blue"];
+  BB75ad0f5bc -> BB75ad0f5f2 [color="green"];
+  BB75ad0f5bc -> BB75ad0f5cf [color="red"];
+  BB75ad0f5cf -> BB75ad0f5f2 [color="green"];
+  BB75ad0f5cf -> BB75ad0f5d5 [color="red"];
+  BB75ad0f5d5 -> BB75ad0f5f2 [color="red"];
+  BB75ad0f5f2 -> BB75ad0f5fd [color="blue"];
+}

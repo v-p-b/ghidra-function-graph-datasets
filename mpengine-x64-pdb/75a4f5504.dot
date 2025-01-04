@@ -1,0 +1,11 @@
+digraph wait_for_completion {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4f5504 -> BB75a4f5519 [color="blue"];
+  BB75a4f5519 -> BB75a4f5540 [color="green"];
+  BB75a4f5519 -> BB75a4f551f [color="red"];
+  BB75a4f551f -> BB75a4f5519 [color="blue"];
+  BB75a4f5540 -> BB75a4f555e [color="green"];
+  BB75a4f5540 -> BB75a4f5552 [color="red"];
+  BB75a4f5552 -> BB75a4f555e [color="red"];
+}

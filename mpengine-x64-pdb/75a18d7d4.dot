@@ -1,0 +1,14 @@
+digraph ChangeModeToBuffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a18d7d4 -> BB75a18d858 [color="green"];
+  BB75a18d7d4 -> BB75a18d7fd [color="red"];
+  BB75a18d7fd -> BB75a18d858 [color="green"];
+  BB75a18d7fd -> BB75a18d808 [color="red"];
+  BB75a18d808 -> BB75a18d85c [color="green"];
+  BB75a18d808 -> BB75a18d80d [color="red"];
+  BB75a18d80d -> BB75a18d83b [color="red"];
+  BB75a18d83b -> BB75a18d83d [color="blue"];
+  BB75a18d858 -> BB75a18d83d [color="blue"];
+  BB75a18d85c -> BB75a18d83b [color="blue"];
+}

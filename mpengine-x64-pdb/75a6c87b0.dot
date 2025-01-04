@@ -1,0 +1,13 @@
+digraph localCopyToBuffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6c87b0 -> BB75a6c87e3 [color="green"];
+  BB75a6c87b0 -> BB75a6c87c1 [color="red"];
+  BB75a6c87c1 -> BB75a6c87ea [color="green"];
+  BB75a6c87c1 -> BB75a6c87c6 [color="red"];
+  BB75a6c87c6 -> BB75a6c87ea [color="green"];
+  BB75a6c87c6 -> BB75a6c87ce [color="red"];
+  BB75a6c87ce -> BB75a6c87e3 [color="red"];
+  BB75a6c87e3 -> BB75a6c87e5 [color="blue"];
+  BB75a6c87ea -> BB75a6c87e5 [color="blue"];
+}

@@ -1,0 +1,35 @@
+digraph RequestThreatSampleBySha1 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaebc54 -> BB75aaebca6 [color="green"];
+  BB75aaebc54 -> BB75aaebc7b [color="red"];
+  BB75aaebc7b -> BB75aaebd96 [color="green"];
+  BB75aaebc7b -> BB75aaebc92 [color="red"];
+  BB75aaebc92 -> BB75aaebd96 [color="green"];
+  BB75aaebc92 -> BB75aaebc9c [color="red"];
+  BB75aaebc9c -> BB75aaebd85 [color="blue"];
+  BB75aaebca6 -> BB75aaebd58 [color="green"];
+  BB75aaebca6 -> BB75aaebceb [color="red"];
+  BB75aaebceb -> BB75aaebced [color="blue"];
+  BB75aaebced -> BB75aaebd0c [color="green"];
+  BB75aaebced -> BB75aaebcf6 [color="red"];
+  BB75aaebcf6 -> BB75aaebd0c [color="green"];
+  BB75aaebcf6 -> BB75aaebd01 [color="red"];
+  BB75aaebd01 -> BB75aaebd0c [color="blue"];
+  BB75aaebd0c -> BB75aaebd2d [color="green"];
+  BB75aaebd0c -> BB75aaebd11 [color="red"];
+  BB75aaebd11 -> BB75aaebd22 [color="green"];
+  BB75aaebd11 -> BB75aaebd1f [color="red"];
+  BB75aaebd1f -> BB75aaebd22 [color="blue"];
+  BB75aaebd22 -> BB75aaebd2d [color="red"];
+  BB75aaebd2d -> BB75aaebced [color="green"];
+  BB75aaebd2d -> BB75aaebd58 [color="red"];
+  BB75aaebd58 -> BB75aaebd96 [color="green"];
+  BB75aaebd58 -> BB75aaebd67 [color="red"];
+  BB75aaebd67 -> BB75aaebd96 [color="green"];
+  BB75aaebd67 -> BB75aaebd7a [color="red"];
+  BB75aaebd7a -> BB75aaebd96 [color="green"];
+  BB75aaebd7a -> BB75aaebd80 [color="red"];
+  BB75aaebd80 -> BB75aaebd85 [color="blue"];
+  BB75aaebd85 -> BB75aaebd96 [color="red"];
+}

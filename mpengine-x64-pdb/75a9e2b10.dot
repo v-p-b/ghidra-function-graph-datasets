@@ -1,0 +1,12 @@
+digraph compress_buffer_callback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9e2b10 -> BB75a9e2b97 [color="green"];
+  BB75a9e2b10 -> BB75a9e2b38 [color="red"];
+  BB75a9e2b38 -> BB75a9e2b97 [color="green"];
+  BB75a9e2b38 -> BB75a9e2b4f [color="red"];
+  BB75a9e2b4f -> BB75a9e2b97 [color="green"];
+  BB75a9e2b4f -> BB75a9e2b5d [color="red"];
+  BB75a9e2b5d -> BB75a9e2b99 [color="blue"];
+  BB75a9e2b97 -> BB75a9e2b99 [color="blue"];
+}

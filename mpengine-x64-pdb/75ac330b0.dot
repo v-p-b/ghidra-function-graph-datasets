@@ -1,0 +1,19 @@
+digraph CheckAuthenticity {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac330b0 -> BB75ac3314a [color="green"];
+  BB75ac330b0 -> BB75ac330d1 [color="red"];
+  BB75ac330d1 -> BB75ac3314a [color="green"];
+  BB75ac330d1 -> BB75ac330d8 [color="red"];
+  BB75ac330d8 -> BB75ac330e6 [color="green"];
+  BB75ac330d8 -> BB75ac330e1 [color="red"];
+  BB75ac330e1 -> BB75ac330e6 [color="red"];
+  BB75ac330e6 -> BB75ac3311e [color="green"];
+  BB75ac330e6 -> BB75ac33117 [color="red"];
+  BB75ac33117 -> BB75ac3315b [color="blue"];
+  BB75ac3311e -> BB75ac3313e [color="green"];
+  BB75ac3311e -> BB75ac33131 [color="red"];
+  BB75ac33131 -> BB75ac3313e [color="blue"];
+  BB75ac3313e -> BB75ac3314a [color="blue"];
+  BB75ac3314a -> BB75ac3315b [color="blue"];
+}

@@ -1,0 +1,34 @@
+digraph SendUefiFirmwareThreatToCamp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acfd28c -> BB75acfd2eb [color="green"];
+  BB75acfd28c -> BB75acfd2e1 [color="red"];
+  BB75acfd2e1 -> BB75acfd49d [color="blue"];
+  BB75acfd2eb -> BB75acfd31b [color="green"];
+  BB75acfd2eb -> BB75acfd305 [color="red"];
+  BB75acfd305 -> BB75acfd314 [color="green"];
+  BB75acfd305 -> BB75acfd30f [color="red"];
+  BB75acfd30f -> BB75acfd314 [color="red"];
+  BB75acfd314 -> BB75acfd49d [color="blue"];
+  BB75acfd31b -> BB75acfd368 [color="green"];
+  BB75acfd31b -> BB75acfd359 [color="red"];
+  BB75acfd359 -> BB75acfd384 [color="blue"];
+  BB75acfd368 -> BB75acfd384 [color="red"];
+  BB75acfd384 -> BB75acfd403 [color="green"];
+  BB75acfd384 -> BB75acfd3c9 [color="red"];
+  BB75acfd3c9 -> BB75acfd3f6 [color="green"];
+  BB75acfd3c9 -> BB75acfd3dc [color="red"];
+  BB75acfd3dc -> BB75acfd3f6 [color="green"];
+  BB75acfd3dc -> BB75acfd3e2 [color="red"];
+  BB75acfd3e2 -> BB75acfd3f6 [color="red"];
+  BB75acfd3f6 -> BB75acfd2e1 [color="blue"];
+  BB75acfd403 -> BB75acfd493 [color="green"];
+  BB75acfd403 -> BB75acfd460 [color="red"];
+  BB75acfd460 -> BB75acfd48e [color="green"];
+  BB75acfd460 -> BB75acfd473 [color="red"];
+  BB75acfd473 -> BB75acfd48e [color="green"];
+  BB75acfd473 -> BB75acfd479 [color="red"];
+  BB75acfd479 -> BB75acfd48e [color="red"];
+  BB75acfd48e -> BB75acfd493 [color="blue"];
+  BB75acfd493 -> BB75acfd49d [color="red"];
+}

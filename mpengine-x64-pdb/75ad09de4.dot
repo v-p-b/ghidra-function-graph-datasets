@@ -1,0 +1,19 @@
+digraph _Pop_heap_hole_by_index<pe_section_t_*,pe_section_t,`PackDumper::Init'::__l4::CompareSections> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad09de4 -> BB75ad09e51 [color="blue"];
+  BB75ad09e09 -> BB75ad09e51 [color="blue"];
+  BB75ad09e51 -> BB75ad09e09 [color="green"];
+  BB75ad09e51 -> BB75ad09e59 [color="red"];
+  BB75ad09e59 -> BB75ad09e92 [color="green"];
+  BB75ad09e59 -> BB75ad09e5b [color="red"];
+  BB75ad09e5b -> BB75ad09e92 [color="green"];
+  BB75ad09e5b -> BB75ad09e61 [color="red"];
+  BB75ad09e61 -> BB75ad09e92 [color="blue"];
+  BB75ad09e92 -> BB75ad09edd [color="green"];
+  BB75ad09e92 -> BB75ad09e97 [color="red"];
+  BB75ad09e97 -> BB75ad09edd [color="green"];
+  BB75ad09e97 -> BB75ad09ead [color="red"];
+  BB75ad09ead -> BB75ad09e97 [color="green"];
+  BB75ad09ead -> BB75ad09edd [color="red"];
+}

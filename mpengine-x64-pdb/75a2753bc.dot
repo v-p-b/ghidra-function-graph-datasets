@@ -1,0 +1,13 @@
+digraph winGetReadLock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2753bc -> BB75a275426 [color="green"];
+  BB75a2753bc -> BB75a2753d4 [color="red"];
+  BB75a2753d4 -> BB75a275426 [color="green"];
+  BB75a2753d4 -> BB75a2753dd [color="red"];
+  BB75a2753dd -> BB75a275439 [color="blue"];
+  BB75a275426 -> BB75a275439 [color="blue"];
+  BB75a275439 -> BB75a275457 [color="green"];
+  BB75a275439 -> BB75a275448 [color="red"];
+  BB75a275448 -> BB75a275457 [color="red"];
+}

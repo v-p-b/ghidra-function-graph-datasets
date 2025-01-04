@@ -1,0 +1,15 @@
+digraph erase {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8cb0e0 -> BB75a8cb154 [color="green"];
+  BB75a8cb0e0 -> BB75a8cb14e [color="red"];
+  BB75a8cb14e -> BB75a8cb1a9 [color="green"];
+  BB75a8cb14e -> BB75a8cb154 [color="red"];
+  BB75a8cb154 -> BB75a8cb1a9 [color="red"];
+  BB75a8cb1a9 -> BB75a8cb1f2 [color="green"];
+  BB75a8cb1a9 -> BB75a8cb1c6 [color="red"];
+  BB75a8cb1c6 -> BB75a8cb1f2 [color="green"];
+  BB75a8cb1c6 -> BB75a8cb1d4 [color="red"];
+  BB75a8cb1d4 -> BB75a8cb203 [color="blue"];
+  BB75a8cb1f2 -> BB75a8cb203 [color="blue"];
+}

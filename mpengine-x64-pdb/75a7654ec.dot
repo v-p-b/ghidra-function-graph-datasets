@@ -1,0 +1,16 @@
+digraph hasInstanceThrows {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7654ec -> BB75a765576 [color="green"];
+  BB75a7654ec -> BB75a765532 [color="red"];
+  BB75a765532 -> BB75a76555a [color="green"];
+  BB75a765532 -> BB75a765544 [color="red"];
+  BB75a765544 -> BB75a765578 [color="blue"];
+  BB75a76555a -> BB75a765564 [color="red"];
+  BB75a765564 -> BB75a765576 [color="green"];
+  BB75a765564 -> BB75a76556d [color="red"];
+  BB75a76556d -> BB75a765564 [color="green"];
+  BB75a76556d -> BB75a765572 [color="red"];
+  BB75a765572 -> BB75a765578 [color="blue"];
+  BB75a765576 -> BB75a765578 [color="blue"];
+}

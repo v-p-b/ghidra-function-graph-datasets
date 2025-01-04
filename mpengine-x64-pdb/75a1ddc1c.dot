@@ -1,0 +1,11 @@
+digraph HrDuplicateStringA {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1ddc1c -> BB75a1ddc3d [color="blue"];
+  BB75a1ddc3d -> BB75a1ddc3d [color="green"];
+  BB75a1ddc3d -> BB75a1ddc46 [color="red"];
+  BB75a1ddc46 -> BB75a1ddc7e [color="green"];
+  BB75a1ddc46 -> BB75a1ddc57 [color="red"];
+  BB75a1ddc57 -> BB75a1ddc66 [color="red"];
+  BB75a1ddc7e -> BB75a1ddc66 [color="blue"];
+}

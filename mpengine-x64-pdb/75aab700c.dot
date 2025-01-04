@@ -1,0 +1,15 @@
+digraph were_threats_detected {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aab700c -> BB75aab702f [color="green"];
+  BB75aab700c -> BB75aab702a [color="red"];
+  BB75aab702a -> BB75aab702f [color="red"];
+  BB75aab702f -> BB75aab7036 [color="blue"];
+  BB75aab7036 -> BB75aab705c [color="green"];
+  BB75aab7036 -> BB75aab703b [color="red"];
+  BB75aab703b -> BB75aab7058 [color="green"];
+  BB75aab703b -> BB75aab7054 [color="red"];
+  BB75aab7054 -> BB75aab7036 [color="blue"];
+  BB75aab7058 -> BB75aab705e [color="blue"];
+  BB75aab705c -> BB75aab705e [color="blue"];
+}

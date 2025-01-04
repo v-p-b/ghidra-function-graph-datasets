@@ -1,0 +1,30 @@
+digraph AcquireOplock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2b794c -> BB75a2b7a32 [color="green"];
+  BB75a2b794c -> BB75a2b797a [color="red"];
+  BB75a2b797a -> BB75a2b7a3e [color="green"];
+  BB75a2b797a -> BB75a2b798f [color="red"];
+  BB75a2b798f -> BB75a2b79c9 [color="green"];
+  BB75a2b798f -> BB75a2b7996 [color="red"];
+  BB75a2b7996 -> BB75a2b7a1c [color="green"];
+  BB75a2b7996 -> BB75a2b79b6 [color="red"];
+  BB75a2b79b6 -> BB75a2b79d7 [color="green"];
+  BB75a2b79b6 -> BB75a2b79c9 [color="red"];
+  BB75a2b79c9 -> BB75a2b79e7 [color="green"];
+  BB75a2b79c9 -> BB75a2b79d7 [color="red"];
+  BB75a2b79d7 -> BB75a2b7a01 [color="blue"];
+  BB75a2b79e7 -> BB75a2b79d7 [color="green"];
+  BB75a2b79e7 -> BB75a2b79ec [color="red"];
+  BB75a2b79ec -> BB75a2b79d7 [color="green"];
+  BB75a2b79ec -> BB75a2b7a01 [color="red"];
+  BB75a2b7a01 -> BB75a2b7a2d [color="green"];
+  BB75a2b7a01 -> BB75a2b7a05 [color="red"];
+  BB75a2b7a1c -> BB75a2b7a26 [color="green"];
+  BB75a2b7a1c -> BB75a2b7a21 [color="red"];
+  BB75a2b7a21 -> BB75a2b7a26 [color="red"];
+  BB75a2b7a26 -> BB75a2b79c9 [color="blue"];
+  BB75a2b7a2d -> BB75a2b7a05 [color="blue"];
+  BB75a2b7a32 -> BB75a2b7a05 [color="blue"];
+  BB75a2b7a3e -> BB75a2b7a05 [color="blue"];
+}

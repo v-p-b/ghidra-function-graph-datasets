@@ -1,0 +1,26 @@
+digraph process {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a92433c -> BB75a9243b2 [color="green"];
+  BB75a92433c -> BB75a9243ad [color="red"];
+  BB75a9243ad -> BB75a9243b9 [color="green"];
+  BB75a9243ad -> BB75a9243b2 [color="red"];
+  BB75a9243b2 -> BB75a9243b9 [color="blue"];
+  BB75a9243b9 -> BB75a9243c8 [color="green"];
+  BB75a9243b9 -> BB75a9243c2 [color="red"];
+  BB75a9243c2 -> BB75a9243d0 [color="green"];
+  BB75a9243c2 -> BB75a9243c8 [color="red"];
+  BB75a9243c8 -> BB75a9243d0 [color="blue"];
+  BB75a9243d0 -> BB75a9244bb [color="green"];
+  BB75a9243d0 -> BB75a92440a [color="red"];
+  BB75a92440a -> BB75a9244bb [color="green"];
+  BB75a92440a -> BB75a92441d [color="red"];
+  BB75a92441d -> BB75a92443b [color="green"];
+  BB75a92441d -> BB75a924423 [color="red"];
+  BB75a924423 -> BB75a9244bb [color="green"];
+  BB75a924423 -> BB75a92443b [color="red"];
+  BB75a92443b -> BB75a9244bb [color="green"];
+  BB75a92443b -> BB75a924459 [color="red"];
+  BB75a924459 -> BB75a9244be [color="blue"];
+  BB75a9244bb -> BB75a9244be [color="blue"];
+}

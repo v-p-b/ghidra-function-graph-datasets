@@ -1,0 +1,10 @@
+digraph _should_report {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a924ea4 -> BB75a924eee [color="green"];
+  BB75a924ea4 -> BB75a924ed4 [color="red"];
+  BB75a924ed4 -> BB75a924eeb [color="green"];
+  BB75a924ed4 -> BB75a924eda [color="red"];
+  BB75a924eda -> BB75a924eee [color="blue"];
+  BB75a924eeb -> BB75a924eee [color="blue"];
+}

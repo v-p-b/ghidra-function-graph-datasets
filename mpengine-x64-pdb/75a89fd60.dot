@@ -1,0 +1,14 @@
+digraph DeviceIdThrottlingDelayInHours {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a89fd60 -> BB75a89fd83 [color="green"];
+  BB75a89fd60 -> BB75a89fd77 [color="red"];
+  BB75a89fd77 -> BB75a89fd83 [color="green"];
+  BB75a89fd77 -> BB75a89fd7f [color="red"];
+  BB75a89fd7f -> BB75a89fdb1 [color="blue"];
+  BB75a89fd83 -> BB75a89fdb1 [color="green"];
+  BB75a89fd83 -> BB75a89fd96 [color="red"];
+  BB75a89fd96 -> BB75a89fdb1 [color="green"];
+  BB75a89fd96 -> BB75a89fd9c [color="red"];
+  BB75a89fd9c -> BB75a89fdb1 [color="red"];
+}

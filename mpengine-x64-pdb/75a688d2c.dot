@@ -1,0 +1,23 @@
+digraph ReadCpuRegisters {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a688d2c -> BB75a688ee8 [color="green"];
+  BB75a688d2c -> BB75a688dcd [color="red"];
+  BB75a688dcd -> BB75a688ee8 [color="green"];
+  BB75a688dcd -> BB75a688dd8 [color="red"];
+  BB75a688dd8 -> BB75a688de0 [color="blue"];
+  BB75a688de0 -> BB75a688ee3 [color="green"];
+  BB75a688de0 -> BB75a688de9 [color="red"];
+  BB75a688de9 -> BB75a688de0 [color="blue"];
+  BB75a688ee3 -> BB75a688f93 [color="blue"];
+  BB75a688ee8 -> BB75a688f43 [color="green"];
+  BB75a688ee8 -> BB75a688f03 [color="red"];
+  BB75a688f03 -> BB75a688f43 [color="green"];
+  BB75a688f03 -> BB75a688f09 [color="red"];
+  BB75a688f09 -> BB75a688f25 [color="green"];
+  BB75a688f09 -> BB75a688f1a [color="red"];
+  BB75a688f1a -> BB75a688f25 [color="blue"];
+  BB75a688f25 -> BB75a688f43 [color="red"];
+  BB75a688f43 -> BB75a688f95 [color="blue"];
+  BB75a688f93 -> BB75a688f95 [color="blue"];
+}

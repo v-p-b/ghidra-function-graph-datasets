@@ -1,0 +1,9 @@
+digraph Quarantine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acbc4e0 -> BB75acbc512 [color="green"];
+  BB75acbc4e0 -> BB75acbc4f7 [color="red"];
+  BB75acbc4f7 -> BB75acbc512 [color="green"];
+  BB75acbc4f7 -> BB75acbc4fd [color="red"];
+  BB75acbc4fd -> BB75acbc512 [color="red"];
+}

@@ -1,0 +1,11 @@
+digraph dmg_scanfile {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5f5010 -> BB75a5f5040 [color="green"];
+  BB75a5f5010 -> BB75a5f5034 [color="red"];
+  BB75a5f5034 -> BB75a5f505b [color="green"];
+  BB75a5f5034 -> BB75a5f5040 [color="red"];
+  BB75a5f5040 -> BB75a5f5042 [color="blue"];
+  BB75a5f505b -> BB75a5f5086 [color="blue"];
+  BB75a5f5086 -> BB75a5f5042 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph ZSTD_crossEntropyCost {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abfd0e4 -> BB75abfd0f9 [color="blue"];
+  BB75abfd0f9 -> BB75abfd106 [color="green"];
+  BB75abfd0f9 -> BB75abfd100 [color="red"];
+  BB75abfd100 -> BB75abfd10b [color="blue"];
+  BB75abfd106 -> BB75abfd10b [color="blue"];
+  BB75abfd10b -> BB75abfd0f9 [color="green"];
+  BB75abfd10b -> BB75abfd12e [color="red"];
+}

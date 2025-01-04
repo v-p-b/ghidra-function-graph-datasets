@@ -1,0 +1,17 @@
+digraph ProtectDirty {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a34a778 -> BB75a34a869 [color="green"];
+  BB75a34a778 -> BB75a34a7c5 [color="red"];
+  BB75a34a7c5 -> BB75a34a85f [color="green"];
+  BB75a34a7c5 -> BB75a34a7d0 [color="red"];
+  BB75a34a7d0 -> BB75a34a858 [color="green"];
+  BB75a34a7d0 -> BB75a34a816 [color="red"];
+  BB75a34a816 -> BB75a34a83b [color="green"];
+  BB75a34a816 -> BB75a34a836 [color="red"];
+  BB75a34a836 -> BB75a34a83b [color="red"];
+  BB75a34a83b -> BB75a34a83d [color="blue"];
+  BB75a34a858 -> BB75a34a816 [color="blue"];
+  BB75a34a85f -> BB75a34a7d0 [color="blue"];
+  BB75a34a869 -> BB75a34a83d [color="blue"];
+}

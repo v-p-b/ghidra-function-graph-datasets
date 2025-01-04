@@ -1,0 +1,11 @@
+digraph reserve {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab24f60 -> BB75ab24f74 [color="green"];
+  BB75ab24f60 -> BB75ab24f6a [color="red"];
+  BB75ab24f6a -> BB75ab24f7a [color="blue"];
+  BB75ab24f74 -> BB75ab24f7a [color="blue"];
+  BB75ab24f7a -> BB75ab24f84 [color="green"];
+  BB75ab24f7a -> BB75ab24f7f [color="red"];
+  BB75ab24f7f -> BB75ab24f84 [color="red"];
+}

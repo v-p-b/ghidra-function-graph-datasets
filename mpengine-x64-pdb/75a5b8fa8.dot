@@ -1,0 +1,29 @@
+digraph ~MemTracker {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5b8fa8 -> BB75a5b9076 [color="green"];
+  BB75a5b8fa8 -> BB75a5b8fd8 [color="red"];
+  BB75a5b8fd8 -> BB75a5b908f [color="green"];
+  BB75a5b8fd8 -> BB75a5b8fe4 [color="red"];
+  BB75a5b8fe4 -> BB75a5b908f [color="green"];
+  BB75a5b8fe4 -> BB75a5b8ff4 [color="red"];
+  BB75a5b8ff4 -> BB75a5b90a6 [color="green"];
+  BB75a5b8ff4 -> BB75a5b901f [color="red"];
+  BB75a5b901f -> BB75a5b909c [color="green"];
+  BB75a5b901f -> BB75a5b9028 [color="red"];
+  BB75a5b9028 -> BB75a5b9031 [color="blue"];
+  BB75a5b9031 -> BB75a5b9031 [color="green"];
+  BB75a5b9031 -> BB75a5b903a [color="red"];
+  BB75a5b903a -> BB75a5b9076 [color="red"];
+  BB75a5b908f -> BB75a5b9076 [color="green"];
+  BB75a5b908f -> BB75a5b9097 [color="red"];
+  BB75a5b9097 -> BB75a5b8ff4 [color="blue"];
+  BB75a5b909c -> BB75a5b9076 [color="green"];
+  BB75a5b909c -> BB75a5b90a4 [color="red"];
+  BB75a5b90a4 -> BB75a5b9028 [color="blue"];
+  BB75a5b90a6 -> BB75a5b90b7 [color="green"];
+  BB75a5b90a6 -> BB75a5b90af [color="red"];
+  BB75a5b90af -> BB75a5b9076 [color="green"];
+  BB75a5b90af -> BB75a5b90b7 [color="red"];
+  BB75a5b90b7 -> BB75a5b9076 [color="blue"];
+}

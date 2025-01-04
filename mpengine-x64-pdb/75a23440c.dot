@@ -1,0 +1,13 @@
+digraph move_gbb_2_local {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a23440c -> BB75a23449e [color="green"];
+  BB75a23440c -> BB75a234444 [color="red"];
+  BB75a234444 -> BB75a23449e [color="green"];
+  BB75a234444 -> BB75a234448 [color="red"];
+  BB75a234448 -> BB75a2344a5 [color="green"];
+  BB75a234448 -> BB75a234465 [color="red"];
+  BB75a234465 -> BB75a234485 [color="red"];
+  BB75a23449e -> BB75a234448 [color="blue"];
+  BB75a2344a5 -> BB75a234485 [color="blue"];
+}

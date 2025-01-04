@@ -1,0 +1,21 @@
+digraph strcpy_s {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7721c0 -> BB75a7721d9 [color="green"];
+  BB75a7721c0 -> BB75a7721cd [color="red"];
+  BB75a7721cd -> BB75a7721d9 [color="green"];
+  BB75a7721cd -> BB75a7721d2 [color="red"];
+  BB75a7721d2 -> BB75a7721f2 [color="green"];
+  BB75a7721d2 -> BB75a7721d7 [color="red"];
+  BB75a7721d7 -> BB75a7721d9 [color="blue"];
+  BB75a7721d9 -> BB75a7721e3 [color="red"];
+  BB75a7721e3 -> BB75a7721ea [color="red"];
+  BB75a7721f2 -> BB75a7721f8 [color="blue"];
+  BB75a7721f8 -> BB75a7721ea [color="green"];
+  BB75a7721f8 -> BB75a772206 [color="red"];
+  BB75a772206 -> BB75a7721f8 [color="green"];
+  BB75a772206 -> BB75a77220c [color="red"];
+  BB75a77220c -> BB75a7721ea [color="green"];
+  BB75a77220c -> BB75a772211 [color="red"];
+  BB75a772211 -> BB75a7721e3 [color="blue"];
+}

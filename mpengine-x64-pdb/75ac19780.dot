@@ -1,0 +1,16 @@
+digraph ZSTD_compressBlock_fast_extDict {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac19780 -> BB75ac197c1 [color="green"];
+  BB75ac19780 -> BB75ac19791 [color="red"];
+  BB75ac19791 -> BB75ac197b7 [color="green"];
+  BB75ac19791 -> BB75ac19797 [color="red"];
+  BB75ac19797 -> BB75ac197ad [color="green"];
+  BB75ac19797 -> BB75ac1979d [color="red"];
+  BB75ac1979d -> BB75ac197c1 [color="green"];
+  BB75ac1979d -> BB75ac197a3 [color="red"];
+  BB75ac197a3 -> BB75ac197c9 [color="blue"];
+  BB75ac197ad -> BB75ac197c9 [color="blue"];
+  BB75ac197b7 -> BB75ac197c9 [color="blue"];
+  BB75ac197c1 -> BB75ac197c9 [color="blue"];
+}

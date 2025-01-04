@@ -1,0 +1,14 @@
+digraph write_alu_Ix64 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4f1e3c -> BB75a4f1ecf [color="green"];
+  BB75a4f1e3c -> BB75a4f1e56 [color="red"];
+  BB75a4f1e56 -> BB75a4f1e8c [color="green"];
+  BB75a4f1e56 -> BB75a4f1e64 [color="red"];
+  BB75a4f1e64 -> BB75a4f1e86 [color="blue"];
+  BB75a4f1e8c -> BB75a4f1eb6 [color="green"];
+  BB75a4f1e8c -> BB75a4f1e98 [color="red"];
+  BB75a4f1e98 -> BB75a4f1e86 [color="blue"];
+  BB75a4f1eb6 -> BB75a4f1e86 [color="blue"];
+  BB75a4f1ecf -> BB75a4f1e86 [color="blue"];
+}

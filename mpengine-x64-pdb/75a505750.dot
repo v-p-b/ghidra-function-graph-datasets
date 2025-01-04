@@ -1,0 +1,15 @@
+digraph FreeInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a505750 -> BB75a50579d [color="green"];
+  BB75a505750 -> BB75a505755 [color="red"];
+  BB75a505755 -> BB75a50579e [color="green"];
+  BB75a505755 -> BB75a50576f [color="red"];
+  BB75a50576f -> BB75a50579d [color="red"];
+  BB75a50579e -> BB75a50576f [color="green"];
+  BB75a50579e -> BB75a5057a4 [color="red"];
+  BB75a5057a4 -> BB75a5057a7 [color="blue"];
+  BB75a5057a7 -> BB75a5057a7 [color="green"];
+  BB75a5057a7 -> BB75a5057c2 [color="red"];
+  BB75a5057c2 -> BB75a50576f [color="blue"];
+}

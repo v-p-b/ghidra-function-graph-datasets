@@ -1,0 +1,16 @@
+digraph LogAsrDeviceModeAuditForRule {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7c9c40 -> BB75a7c9d0c [color="green"];
+  BB75a7c9c40 -> BB75a7c9c83 [color="red"];
+  BB75a7c9c83 -> BB75a7c9cd9 [color="blue"];
+  BB75a7c9cd9 -> BB75a7c9d14 [color="green"];
+  BB75a7c9cd9 -> BB75a7c9cec [color="red"];
+  BB75a7c9cec -> BB75a7c9d14 [color="green"];
+  BB75a7c9cec -> BB75a7c9cf2 [color="red"];
+  BB75a7c9cf2 -> BB75a7c9d14 [color="blue"];
+  BB75a7c9d0c -> BB75a7c9d14 [color="blue"];
+  BB75a7c9d14 -> BB75a7c9d22 [color="green"];
+  BB75a7c9d14 -> BB75a7c9d19 [color="red"];
+  BB75a7c9d19 -> BB75a7c9d22 [color="red"];
+}

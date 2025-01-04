@@ -1,0 +1,12 @@
+digraph ccode_receiver {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a376d90 -> BB75a376dd6 [color="green"];
+  BB75a376d90 -> BB75a376d9d [color="red"];
+  BB75a376d9d -> BB75a376dd6 [color="green"];
+  BB75a376d9d -> BB75a376dae [color="red"];
+  BB75a376dae -> BB75a376dd6 [color="green"];
+  BB75a376dae -> BB75a376dbb [color="red"];
+  BB75a376dbb -> BB75a376dd1 [color="red"];
+  BB75a376dd6 -> BB75a376dd1 [color="blue"];
+}

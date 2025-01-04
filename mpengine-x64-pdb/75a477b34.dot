@@ -1,0 +1,16 @@
+digraph CleanupOfflineStorage {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a477b34 -> BB75a477b5e [color="green"];
+  BB75a477b34 -> BB75a477b54 [color="red"];
+  BB75a477b54 -> BB75a477b5e [color="red"];
+  BB75a477b5e -> BB75a477b70 [color="green"];
+  BB75a477b5e -> BB75a477b66 [color="red"];
+  BB75a477b66 -> BB75a477b70 [color="red"];
+  BB75a477b70 -> BB75a477b9d [color="green"];
+  BB75a477b70 -> BB75a477b76 [color="red"];
+  BB75a477b76 -> BB75a477b90 [color="green"];
+  BB75a477b76 -> BB75a477b86 [color="red"];
+  BB75a477b86 -> BB75a477b90 [color="red"];
+  BB75a477b90 -> BB75a477b9d [color="red"];
+}

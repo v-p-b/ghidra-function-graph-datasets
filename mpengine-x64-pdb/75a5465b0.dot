@@ -1,0 +1,19 @@
+digraph GetAttributePathAndName {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5465b0 -> BB75a5465e8 [color="green"];
+  BB75a5465b0 -> BB75a5465e3 [color="red"];
+  BB75a5465e3 -> BB75a5465e8 [color="red"];
+  BB75a5465e8 -> BB75a546635 [color="green"];
+  BB75a5465e8 -> BB75a546608 [color="red"];
+  BB75a546608 -> BB75a546612 [color="red"];
+  BB75a546635 -> BB75a546608 [color="green"];
+  BB75a546635 -> BB75a54663c [color="red"];
+  BB75a54663c -> BB75a5466be [color="green"];
+  BB75a54663c -> BB75a546646 [color="red"];
+  BB75a546646 -> BB75a546658 [color="blue"];
+  BB75a546658 -> BB75a546658 [color="green"];
+  BB75a546658 -> BB75a546699 [color="red"];
+  BB75a546699 -> BB75a546612 [color="blue"];
+  BB75a5466be -> BB75a546646 [color="blue"];
+}

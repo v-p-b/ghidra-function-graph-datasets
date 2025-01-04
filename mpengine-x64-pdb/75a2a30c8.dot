@@ -1,0 +1,10 @@
+digraph vdbeMemFromBtreeResize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2a30c8 -> BB75a2a3121 [color="green"];
+  BB75a2a30c8 -> BB75a2a3104 [color="red"];
+  BB75a2a3121 -> BB75a2a314b [color="green"];
+  BB75a2a3121 -> BB75a2a3138 [color="red"];
+  BB75a2a3138 -> BB75a2a3104 [color="blue"];
+  BB75a2a314b -> BB75a2a3104 [color="blue"];
+}

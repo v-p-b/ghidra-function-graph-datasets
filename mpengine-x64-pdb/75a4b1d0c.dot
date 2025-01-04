@@ -1,0 +1,12 @@
+digraph regop_is_eSP {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4b1d0c -> BB75a4b1d7b [color="green"];
+  BB75a4b1d0c -> BB75a4b1d1d [color="red"];
+  BB75a4b1d1d -> BB75a4b1d42 [color="blue"];
+  BB75a4b1d42 -> BB75a4b1d8e [color="green"];
+  BB75a4b1d42 -> BB75a4b1d58 [color="red"];
+  BB75a4b1d58 -> BB75a4b1d70 [color="blue"];
+  BB75a4b1d7b -> BB75a4b1d42 [color="blue"];
+  BB75a4b1d8e -> BB75a4b1d70 [color="blue"];
+}

@@ -1,0 +1,18 @@
+digraph check_invd_BBs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abba2c8 -> BB75abba3b8 [color="green"];
+  BB75abba2c8 -> BB75abba312 [color="red"];
+  BB75abba312 -> BB75abba397 [color="green"];
+  BB75abba312 -> BB75abba369 [color="red"];
+  BB75abba369 -> BB75abba388 [color="green"];
+  BB75abba369 -> BB75abba37a [color="red"];
+  BB75abba37a -> BB75abba388 [color="green"];
+  BB75abba37a -> BB75abba381 [color="red"];
+  BB75abba381 -> BB75abba38f [color="blue"];
+  BB75abba388 -> BB75abba38f [color="blue"];
+  BB75abba38f -> BB75abba397 [color="blue"];
+  BB75abba397 -> BB75abba3b8 [color="green"];
+  BB75abba397 -> BB75abba3a7 [color="red"];
+  BB75abba3a7 -> BB75abba3b8 [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph NTDLL_DLL_VFS_DeleteFile {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa73280 -> BB75aa7332d [color="green"];
+  BB75aa73280 -> BB75aa732d7 [color="red"];
+  BB75aa732d7 -> BB75aa7332d [color="green"];
+  BB75aa732d7 -> BB75aa732e0 [color="red"];
+  BB75aa732e0 -> BB75aa73324 [color="green"];
+  BB75aa732e0 -> BB75aa73307 [color="red"];
+  BB75aa73307 -> BB75aa73324 [color="red"];
+  BB75aa73324 -> BB75aa7332d [color="red"];
+}

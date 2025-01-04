@@ -1,0 +1,16 @@
+digraph luaD_call {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a16ae1c -> BB75a16ae85 [color="green"];
+  BB75a16ae1c -> BB75a16ae43 [color="red"];
+  BB75a16ae43 -> BB75a16ae59 [color="green"];
+  BB75a16ae43 -> BB75a16ae4f [color="red"];
+  BB75a16ae4f -> BB75a16ae59 [color="red"];
+  BB75a16ae59 -> BB75a16ae7b [color="green"];
+  BB75a16ae59 -> BB75a16ae70 [color="red"];
+  BB75a16ae7b -> BB75a16ae70 [color="blue"];
+  BB75a16ae85 -> BB75a16ae97 [color="green"];
+  BB75a16ae85 -> BB75a16ae87 [color="red"];
+  BB75a16ae97 -> BB75a16ae43 [color="green"];
+  BB75a16ae97 -> BB75a16aea1 [color="red"];
+}

@@ -1,0 +1,25 @@
+digraph UpgradeOneTable<MetaStore::TableDynSigRevisions> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab6e640 -> BB75ab6e6c7 [color="green"];
+  BB75ab6e640 -> BB75ab6e64a [color="red"];
+  BB75ab6e64a -> BB75ab6e6b5 [color="green"];
+  BB75ab6e64a -> BB75ab6e650 [color="red"];
+  BB75ab6e650 -> BB75ab6e6a3 [color="green"];
+  BB75ab6e650 -> BB75ab6e656 [color="red"];
+  BB75ab6e656 -> BB75ab6e69a [color="green"];
+  BB75ab6e656 -> BB75ab6e65c [color="red"];
+  BB75ab6e65c -> BB75ab6e688 [color="green"];
+  BB75ab6e65c -> BB75ab6e662 [color="red"];
+  BB75ab6e662 -> BB75ab6e676 [color="green"];
+  BB75ab6e662 -> BB75ab6e668 [color="red"];
+  BB75ab6e668 -> BB75ab6e6dc [color="blue"];
+  BB75ab6e676 -> BB75ab6e6d7 [color="blue"];
+  BB75ab6e688 -> BB75ab6e68f [color="blue"];
+  BB75ab6e68f -> BB75ab6e6d7 [color="blue"];
+  BB75ab6e69a -> BB75ab6e68f [color="blue"];
+  BB75ab6e6a3 -> BB75ab6e6d7 [color="blue"];
+  BB75ab6e6b5 -> BB75ab6e6d7 [color="blue"];
+  BB75ab6e6c7 -> BB75ab6e6d7 [color="blue"];
+  BB75ab6e6d7 -> BB75ab6e6dc [color="blue"];
+}

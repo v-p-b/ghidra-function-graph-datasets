@@ -1,0 +1,11 @@
+digraph lua_mp_bitsplit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaf4570 -> BB75aaf45c5 [color="green"];
+  BB75aaf4570 -> BB75aaf45b5 [color="red"];
+  BB75aaf45c5 -> BB75aaf45d6 [color="blue"];
+  BB75aaf45d6 -> BB75aaf461d [color="green"];
+  BB75aaf45d6 -> BB75aaf45fa [color="red"];
+  BB75aaf45fa -> BB75aaf45d6 [color="green"];
+  BB75aaf45fa -> BB75aaf461d [color="red"];
+}

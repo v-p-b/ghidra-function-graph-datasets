@@ -1,0 +1,11 @@
+digraph store_data {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4836d8 -> BB75a48376c [color="green"];
+  BB75a4836d8 -> BB75a483708 [color="red"];
+  BB75a483708 -> BB75a483773 [color="green"];
+  BB75a483708 -> BB75a483714 [color="red"];
+  BB75a483714 -> BB75a483753 [color="red"];
+  BB75a48376c -> BB75a483708 [color="blue"];
+  BB75a483773 -> BB75a483753 [color="blue"];
+}

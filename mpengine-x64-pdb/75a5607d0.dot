@@ -1,0 +1,10 @@
+digraph KERNEL32_DLL_GetCurrentThread {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5607d0 -> BB75a560826 [color="green"];
+  BB75a5607d0 -> BB75a560809 [color="red"];
+  BB75a560809 -> BB75a560826 [color="red"];
+  BB75a560826 -> BB75a560836 [color="green"];
+  BB75a560826 -> BB75a56082b [color="red"];
+  BB75a56082b -> BB75a560836 [color="blue"];
+}

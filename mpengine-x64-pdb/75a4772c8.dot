@@ -1,0 +1,12 @@
+digraph LoadAssembly {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4772c8 -> BB75a477367 [color="green"];
+  BB75a4772c8 -> BB75a4772e7 [color="red"];
+  BB75a4772e7 -> BB75a477367 [color="green"];
+  BB75a4772e7 -> BB75a477316 [color="red"];
+  BB75a477316 -> BB75a477369 [color="green"];
+  BB75a477316 -> BB75a477338 [color="red"];
+  BB75a477338 -> BB75a477367 [color="red"];
+  BB75a477367 -> BB75a477369 [color="blue"];
+}

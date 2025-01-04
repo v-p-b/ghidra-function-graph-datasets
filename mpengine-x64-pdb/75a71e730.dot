@@ -1,0 +1,16 @@
+digraph RemoveDetection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a71e730 -> BB75a71e784 [color="green"];
+  BB75a71e730 -> BB75a71e749 [color="red"];
+  BB75a71e749 -> BB75a71e77d [color="green"];
+  BB75a71e749 -> BB75a71e75c [color="red"];
+  BB75a71e75c -> BB75a71e77d [color="green"];
+  BB75a71e75c -> BB75a71e762 [color="red"];
+  BB75a71e762 -> BB75a71e77d [color="red"];
+  BB75a71e77d -> BB75a71e79c [color="blue"];
+  BB75a71e784 -> BB75a71e790 [color="green"];
+  BB75a71e784 -> BB75a71e78b [color="red"];
+  BB75a71e78b -> BB75a71e790 [color="red"];
+  BB75a71e790 -> BB75a71e79c [color="red"];
+}

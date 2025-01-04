@@ -1,0 +1,10 @@
+digraph numLessThan {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1760bc -> BB75a17614f [color="green"];
+  BB75a1760bc -> BB75a17610c [color="red"];
+  BB75a17610c -> BB75a17613a [color="green"];
+  BB75a17610c -> BB75a176111 [color="red"];
+  BB75a17613a -> BB75a176111 [color="blue"];
+  BB75a17614f -> BB75a17610c [color="blue"];
+}

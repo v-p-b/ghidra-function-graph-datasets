@@ -1,0 +1,9 @@
+digraph ZSTD_checkContinuity {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6c5f04 -> BB75a6c5f3e [color="green"];
+  BB75a6c5f04 -> BB75a6c5f10 [color="red"];
+  BB75a6c5f10 -> BB75a6c5f3e [color="green"];
+  BB75a6c5f10 -> BB75a6c5f15 [color="red"];
+  BB75a6c5f15 -> BB75a6c5f3e [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph getLocal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5d63a0 -> BB75a5d6430 [color="green"];
+  BB75a5d63a0 -> BB75a5d63d9 [color="red"];
+  BB75a5d63d9 -> BB75a5d6409 [color="green"];
+  BB75a5d63d9 -> BB75a5d63dd [color="red"];
+  BB75a5d63dd -> BB75a5d63ee [color="red"];
+  BB75a5d6409 -> BB75a5d63dd [color="green"];
+  BB75a5d6409 -> BB75a5d6415 [color="red"];
+  BB75a5d6415 -> BB75a5d63ee [color="blue"];
+  BB75a5d6430 -> BB75a5d63ee [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph MergeLeft {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a425c08 -> BB75a425c35 [color="green"];
+  BB75a425c08 -> BB75a425c30 [color="red"];
+  BB75a425c30 -> BB75a425c35 [color="red"];
+  BB75a425c35 -> BB75a425c63 [color="green"];
+  BB75a425c35 -> BB75a425c3c [color="red"];
+  BB75a425c3c -> BB75a425c63 [color="red"];
+}

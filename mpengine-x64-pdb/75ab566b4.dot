@@ -1,0 +1,11 @@
+digraph sqlite3IsBinary {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab566b4 -> BB75ab566ce [color="green"];
+  BB75ab566b4 -> BB75ab566bb [color="red"];
+  BB75ab566bb -> BB75ab566d3 [color="green"];
+  BB75ab566bb -> BB75ab566c8 [color="red"];
+  BB75ab566c8 -> BB75ab566d3 [color="green"];
+  BB75ab566c8 -> BB75ab566ce [color="red"];
+  BB75ab566ce -> BB75ab566d3 [color="blue"];
+}

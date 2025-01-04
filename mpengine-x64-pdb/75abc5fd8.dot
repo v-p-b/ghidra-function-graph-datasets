@@ -1,0 +1,36 @@
+digraph getop_ptr_isum4 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abc5fd8 -> BB75abc604f [color="green"];
+  BB75abc5fd8 -> BB75abc604a [color="red"];
+  BB75abc604a -> BB75abc604f [color="red"];
+  BB75abc604f -> BB75abc6063 [color="green"];
+  BB75abc604f -> BB75abc605e [color="red"];
+  BB75abc605e -> BB75abc6063 [color="red"];
+  BB75abc6063 -> BB75abc6069 [color="blue"];
+  BB75abc6069 -> BB75abc60cb [color="green"];
+  BB75abc6069 -> BB75abc6075 [color="red"];
+  BB75abc6075 -> BB75abc60b5 [color="green"];
+  BB75abc6075 -> BB75abc6093 [color="red"];
+  BB75abc6093 -> BB75abc60b8 [color="blue"];
+  BB75abc60b5 -> BB75abc60b8 [color="blue"];
+  BB75abc60b8 -> BB75abc60cb [color="blue"];
+  BB75abc60cb -> BB75abc6069 [color="green"];
+  BB75abc60cb -> BB75abc60d4 [color="red"];
+  BB75abc60d4 -> BB75abc6193 [color="green"];
+  BB75abc60d4 -> BB75abc611d [color="red"];
+  BB75abc611d -> BB75abc6123 [color="blue"];
+  BB75abc6123 -> BB75abc6167 [color="green"];
+  BB75abc6123 -> BB75abc612f [color="red"];
+  BB75abc612f -> BB75abc615a [color="green"];
+  BB75abc612f -> BB75abc6134 [color="red"];
+  BB75abc6134 -> BB75abc6142 [color="green"];
+  BB75abc6134 -> BB75abc6139 [color="red"];
+  BB75abc6139 -> BB75abc6189 [color="blue"];
+  BB75abc6142 -> BB75abc6182 [color="blue"];
+  BB75abc615a -> BB75abc6189 [color="blue"];
+  BB75abc6167 -> BB75abc6182 [color="blue"];
+  BB75abc6182 -> BB75abc6189 [color="blue"];
+  BB75abc6189 -> BB75abc6123 [color="green"];
+  BB75abc6189 -> BB75abc6193 [color="red"];
+}

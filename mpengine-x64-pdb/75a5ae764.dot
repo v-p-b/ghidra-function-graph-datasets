@@ -1,0 +1,8 @@
+digraph trigger_interrupt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5ae764 -> BB75a5ae855 [color="green"];
+  BB75a5ae764 -> BB75a5ae7d0 [color="red"];
+  BB75a5ae7d0 -> BB75a5ae840 [color="red"];
+  BB75a5ae855 -> BB75a5ae840 [color="blue"];
+}

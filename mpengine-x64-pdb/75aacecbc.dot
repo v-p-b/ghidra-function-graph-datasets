@@ -1,0 +1,25 @@
+digraph mth7_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aacecbc -> BB75aacedc8 [color="green"];
+  BB75aacecbc -> BB75aacecfa [color="red"];
+  BB75aacecfa -> BB75aacedc8 [color="green"];
+  BB75aacecfa -> BB75aaced1a [color="red"];
+  BB75aaced1a -> BB75aacedc1 [color="green"];
+  BB75aaced1a -> BB75aaced28 [color="red"];
+  BB75aaced28 -> BB75aacedc1 [color="green"];
+  BB75aaced28 -> BB75aaced35 [color="red"];
+  BB75aaced35 -> BB75aaced4f [color="green"];
+  BB75aaced35 -> BB75aaced48 [color="red"];
+  BB75aaced48 -> BB75aacedcd [color="blue"];
+  BB75aaced4f -> BB75aaced48 [color="green"];
+  BB75aaced4f -> BB75aaced76 [color="red"];
+  BB75aaced76 -> BB75aaceda5 [color="red"];
+  BB75aaceda5 -> BB75aaceda5 [color="green"];
+  BB75aaceda5 -> BB75aacedb8 [color="red"];
+  BB75aacedb8 -> BB75aacedd5 [color="blue"];
+  BB75aacedc1 -> BB75aacedd5 [color="blue"];
+  BB75aacedc8 -> BB75aacedd5 [color="green"];
+  BB75aacedc8 -> BB75aacedcd [color="red"];
+  BB75aacedcd -> BB75aacedd5 [color="red"];
+}

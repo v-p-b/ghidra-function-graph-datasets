@@ -1,0 +1,22 @@
+digraph store_ucode_info {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abca9cc -> BB75abcab72 [color="green"];
+  BB75abca9cc -> BB75abcaa86 [color="red"];
+  BB75abcaa86 -> BB75abcaacd [color="green"];
+  BB75abcaa86 -> BB75abcaa97 [color="red"];
+  BB75abcaa97 -> BB75abcab05 [color="green"];
+  BB75abcaa97 -> BB75abcaaa3 [color="red"];
+  BB75abcaaa3 -> BB75abcaacd [color="blue"];
+  BB75abcaacd -> BB75abcaaed [color="green"];
+  BB75abcaacd -> BB75abcaae1 [color="red"];
+  BB75abcaae1 -> BB75abcaae8 [color="blue"];
+  BB75abcaae8 -> BB75abcab22 [color="blue"];
+  BB75abcaaed -> BB75abcab05 [color="green"];
+  BB75abcaaed -> BB75abcaafc [color="red"];
+  BB75abcaafc -> BB75abcaae8 [color="blue"];
+  BB75abcab05 -> BB75abcab22 [color="blue"];
+  BB75abcab22 -> BB75abcab72 [color="green"];
+  BB75abcab22 -> BB75abcab34 [color="red"];
+  BB75abcab34 -> BB75abcab72 [color="red"];
+}

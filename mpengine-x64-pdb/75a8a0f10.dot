@@ -1,0 +1,14 @@
+digraph MpSvcSecHardenDefenderTokenDaclEnd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8a0f10 -> BB75a8a0f33 [color="green"];
+  BB75a8a0f10 -> BB75a8a0f1d [color="red"];
+  BB75a8a0f1d -> BB75a8a0f33 [color="green"];
+  BB75a8a0f1d -> BB75a8a0f29 [color="red"];
+  BB75a8a0f29 -> BB75a8a0f68 [color="blue"];
+  BB75a8a0f33 -> BB75a8a0f68 [color="green"];
+  BB75a8a0f33 -> BB75a8a0f4d [color="red"];
+  BB75a8a0f4d -> BB75a8a0f68 [color="green"];
+  BB75a8a0f4d -> BB75a8a0f53 [color="red"];
+  BB75a8a0f53 -> BB75a8a0f68 [color="red"];
+}

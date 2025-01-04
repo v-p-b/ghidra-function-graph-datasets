@@ -1,0 +1,10 @@
+digraph TrimTree {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaba9f0 -> BB75aabaa1a [color="green"];
+  BB75aaba9f0 -> BB75aabaa15 [color="red"];
+  BB75aabaa15 -> BB75aabaa1a [color="red"];
+  BB75aabaa1a -> BB75aabaa26 [color="blue"];
+  BB75aabaa26 -> BB75aabaa26 [color="green"];
+  BB75aabaa26 -> BB75aabaa3b [color="red"];
+}

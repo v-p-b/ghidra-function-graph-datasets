@@ -1,0 +1,26 @@
+digraph common_getenv_nolock<wchar_t> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7affc8 -> BB75a7b0049 [color="green"];
+  BB75a7affc8 -> BB75a7affee [color="red"];
+  BB75a7affee -> BB75a7b0049 [color="green"];
+  BB75a7affee -> BB75a7afff3 [color="red"];
+  BB75a7afff3 -> BB75a7afff7 [color="blue"];
+  BB75a7afff7 -> BB75a7afff7 [color="green"];
+  BB75a7afff7 -> BB75a7b0000 [color="red"];
+  BB75a7b0000 -> BB75a7b0003 [color="blue"];
+  BB75a7b0003 -> BB75a7b0049 [color="green"];
+  BB75a7b0003 -> BB75a7b0008 [color="red"];
+  BB75a7b0008 -> BB75a7b000c [color="blue"];
+  BB75a7b000c -> BB75a7b000c [color="green"];
+  BB75a7b000c -> BB75a7b0015 [color="red"];
+  BB75a7b0015 -> BB75a7b0033 [color="green"];
+  BB75a7b0015 -> BB75a7b001a [color="red"];
+  BB75a7b001a -> BB75a7b0033 [color="green"];
+  BB75a7b001a -> BB75a7b0021 [color="red"];
+  BB75a7b0021 -> BB75a7b003c [color="green"];
+  BB75a7b0021 -> BB75a7b0033 [color="red"];
+  BB75a7b0033 -> BB75a7b0003 [color="blue"];
+  BB75a7b003c -> BB75a7b004b [color="blue"];
+  BB75a7b0049 -> BB75a7b004b [color="blue"];
+}

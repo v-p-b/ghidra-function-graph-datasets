@@ -1,0 +1,20 @@
+digraph popKids {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1d2790 -> BB75a1d281a [color="green"];
+  BB75a1d2790 -> BB75a1d27af [color="red"];
+  BB75a1d27af -> BB75a1d27de [color="green"];
+  BB75a1d27af -> BB75a1d27c8 [color="red"];
+  BB75a1d27c8 -> BB75a1d27d3 [color="blue"];
+  BB75a1d27de -> BB75a1d27d3 [color="green"];
+  BB75a1d27de -> BB75a1d27e0 [color="red"];
+  BB75a1d27e0 -> BB75a1d27fd [color="green"];
+  BB75a1d27e0 -> BB75a1d27f0 [color="red"];
+  BB75a1d27f0 -> BB75a1d27d3 [color="blue"];
+  BB75a1d27fd -> BB75a1d2814 [color="green"];
+  BB75a1d27fd -> BB75a1d2802 [color="red"];
+  BB75a1d2802 -> BB75a1d2802 [color="green"];
+  BB75a1d2802 -> BB75a1d2814 [color="red"];
+  BB75a1d2814 -> BB75a1d27d3 [color="blue"];
+  BB75a1d281a -> BB75a1d27af [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph pcache1UnderMemoryPressure {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a45f2f8 -> BB75a45f308 [color="green"];
+  BB75a45f2f8 -> BB75a45f301 [color="red"];
+  BB75a45f301 -> BB75a45f307 [color="blue"];
+  BB75a45f308 -> BB75a45f307 [color="green"];
+  BB75a45f308 -> BB75a45f31c [color="red"];
+  BB75a45f31c -> BB75a45f301 [color="blue"];
+}

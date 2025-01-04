@@ -1,0 +1,11 @@
+digraph RemoveMany {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a40bcd0 -> BB75a40bd72 [color="green"];
+  BB75a40bcd0 -> BB75a40bced [color="red"];
+  BB75a40bced -> BB75a40bcfe [color="red"];
+  BB75a40bcfe -> BB75a40bcfe [color="green"];
+  BB75a40bcfe -> BB75a40bd07 [color="red"];
+  BB75a40bd07 -> BB75a40bd64 [color="red"];
+  BB75a40bd72 -> BB75a40bd64 [color="blue"];
+}

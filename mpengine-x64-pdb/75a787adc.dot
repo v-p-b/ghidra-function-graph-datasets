@@ -1,0 +1,17 @@
+digraph getMemoryWithBuffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a787adc -> BB75a787b44 [color="green"];
+  BB75a787adc -> BB75a787b08 [color="red"];
+  BB75a787b08 -> BB75a787b66 [color="green"];
+  BB75a787b08 -> BB75a787b12 [color="red"];
+  BB75a787b12 -> BB75a787b66 [color="green"];
+  BB75a787b12 -> BB75a787b2a [color="red"];
+  BB75a787b2a -> BB75a787b3c [color="green"];
+  BB75a787b2a -> BB75a787b37 [color="red"];
+  BB75a787b37 -> BB75a787b40 [color="blue"];
+  BB75a787b3c -> BB75a787b40 [color="blue"];
+  BB75a787b40 -> BB75a787b44 [color="blue"];
+  BB75a787b44 -> BB75a787b56 [color="blue"];
+  BB75a787b66 -> BB75a787b56 [color="blue"];
+}

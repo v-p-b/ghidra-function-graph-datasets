@@ -1,0 +1,10 @@
+digraph IsRunningWOW64 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a72961c -> BB75a729640 [color="green"];
+  BB75a72961c -> BB75a72962d [color="red"];
+  BB75a72962d -> BB75a729642 [color="green"];
+  BB75a72962d -> BB75a72963c [color="red"];
+  BB75a72963c -> BB75a729640 [color="blue"];
+  BB75a729640 -> BB75a729642 [color="blue"];
+}

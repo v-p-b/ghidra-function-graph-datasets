@@ -1,0 +1,27 @@
+digraph ShouldSuppressMemoryDetection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad3693c -> BB75ad3696c [color="red"];
+  BB75ad3696c -> BB75ad36989 [color="green"];
+  BB75ad3696c -> BB75ad3697c [color="red"];
+  BB75ad3697c -> BB75ad3696c [color="green"];
+  BB75ad3697c -> BB75ad36989 [color="red"];
+  BB75ad36989 -> BB75ad36a9e [color="green"];
+  BB75ad36989 -> BB75ad36993 [color="red"];
+  BB75ad36993 -> BB75ad369bf [color="green"];
+  BB75ad36993 -> BB75ad369b5 [color="red"];
+  BB75ad369b5 -> BB75ad369c1 [color="green"];
+  BB75ad369b5 -> BB75ad369bf [color="red"];
+  BB75ad369bf -> BB75ad369c1 [color="blue"];
+  BB75ad369c1 -> BB75ad36a9e [color="green"];
+  BB75ad369c1 -> BB75ad369dc [color="red"];
+  BB75ad369dc -> BB75ad36a80 [color="green"];
+  BB75ad369dc -> BB75ad36a54 [color="red"];
+  BB75ad36a54 -> BB75ad36a7e [color="green"];
+  BB75ad36a54 -> BB75ad36a70 [color="red"];
+  BB75ad36a70 -> BB75ad36aa0 [color="blue"];
+  BB75ad36a7e -> BB75ad36a90 [color="blue"];
+  BB75ad36a80 -> BB75ad36aa0 [color="blue"];
+  BB75ad36a90 -> BB75ad36aa0 [color="blue"];
+  BB75ad36a9e -> BB75ad36aa0 [color="blue"];
+}

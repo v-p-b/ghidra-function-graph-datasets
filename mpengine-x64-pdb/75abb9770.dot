@@ -1,0 +1,21 @@
+digraph x32_syscall {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb9770 -> BB75abb9806 [color="green"];
+  BB75abb9770 -> BB75abb979d [color="red"];
+  BB75abb979d -> BB75abb993b [color="blue"];
+  BB75abb9806 -> BB75abb993b [color="green"];
+  BB75abb9806 -> BB75abb980f [color="red"];
+  BB75abb980f -> BB75abb9914 [color="green"];
+  BB75abb980f -> BB75abb9829 [color="red"];
+  BB75abb9829 -> BB75abb987f [color="green"];
+  BB75abb9829 -> BB75abb983d [color="red"];
+  BB75abb983d -> BB75abb994f [color="blue"];
+  BB75abb987f -> BB75abb98f3 [color="green"];
+  BB75abb987f -> BB75abb98db [color="red"];
+  BB75abb98db -> BB75abb9905 [color="blue"];
+  BB75abb98f3 -> BB75abb9905 [color="blue"];
+  BB75abb9905 -> BB75abb994f [color="blue"];
+  BB75abb9914 -> BB75abb993b [color="blue"];
+  BB75abb993b -> BB75abb994f [color="blue"];
+}

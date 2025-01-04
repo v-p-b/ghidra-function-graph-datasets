@@ -1,0 +1,11 @@
+digraph __acrt_errno_from_os_error {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a77207c -> BB75a77208c [color="blue"];
+  BB75a77208c -> BB75a7720bb [color="green"];
+  BB75a77208c -> BB75a772090 [color="red"];
+  BB75a772090 -> BB75a77208c [color="green"];
+  BB75a772090 -> BB75a77209a [color="red"];
+  BB75a77209a -> BB75a7720a8 [color="green"];
+  BB75a77209a -> BB75a7720a2 [color="red"];
+}

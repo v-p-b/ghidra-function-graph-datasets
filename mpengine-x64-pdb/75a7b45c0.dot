@@ -1,0 +1,14 @@
+digraph FPU_fpatan {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7b45c0 -> BB75a7b45dd [color="green"];
+  BB75a7b45c0 -> BB75a7b45da [color="red"];
+  BB75a7b45da -> BB75a7b45dd [color="blue"];
+  BB75a7b45dd -> BB75a7b45f5 [color="green"];
+  BB75a7b45dd -> BB75a7b45f3 [color="red"];
+  BB75a7b45f3 -> BB75a7b45f5 [color="blue"];
+  BB75a7b45f5 -> BB75a7b4614 [color="green"];
+  BB75a7b45f5 -> BB75a7b4609 [color="red"];
+  BB75a7b4609 -> BB75a7b461d [color="blue"];
+  BB75a7b4614 -> BB75a7b461d [color="blue"];
+}

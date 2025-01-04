@@ -1,0 +1,12 @@
+digraph NetEmuAPI_DecodeMetadataToken {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abc78b0 -> BB75abc7950 [color="green"];
+  BB75abc78b0 -> BB75abc7915 [color="red"];
+  BB75abc7915 -> BB75abc7950 [color="green"];
+  BB75abc7915 -> BB75abc792d [color="red"];
+  BB75abc792d -> BB75abc7950 [color="green"];
+  BB75abc792d -> BB75abc794a [color="red"];
+  BB75abc794a -> BB75abc795f [color="blue"];
+  BB75abc7950 -> BB75abc795f [color="red"];
+}

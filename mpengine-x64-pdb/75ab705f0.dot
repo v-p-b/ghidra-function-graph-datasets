@@ -1,0 +1,11 @@
+digraph pInterpretOnEachDetection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab705f0 -> BB75ab70633 [color="green"];
+  BB75ab705f0 -> BB75ab70616 [color="red"];
+  BB75ab70616 -> BB75ab7061a [color="blue"];
+  BB75ab7061a -> BB75ab7061a [color="green"];
+  BB75ab7061a -> BB75ab70624 [color="red"];
+  BB75ab70624 -> BB75ab70638 [color="blue"];
+  BB75ab70633 -> BB75ab70638 [color="blue"];
+}

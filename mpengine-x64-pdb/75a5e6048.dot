@@ -1,0 +1,13 @@
+digraph apply_relo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5e6048 -> BB75a5e607d [color="green"];
+  BB75a5e6048 -> BB75a5e6076 [color="red"];
+  BB75a5e6076 -> BB75a5e60a9 [color="blue"];
+  BB75a5e607d -> BB75a5e607f [color="blue"];
+  BB75a5e607f -> BB75a5e6094 [color="green"];
+  BB75a5e607f -> BB75a5e608f [color="red"];
+  BB75a5e608f -> BB75a5e6094 [color="red"];
+  BB75a5e6094 -> BB75a5e607f [color="green"];
+  BB75a5e6094 -> BB75a5e60a9 [color="red"];
+}

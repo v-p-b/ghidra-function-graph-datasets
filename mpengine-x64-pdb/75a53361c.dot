@@ -1,0 +1,23 @@
+digraph TestForDirectory {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a53361c -> BB75a533647 [color="green"];
+  BB75a53361c -> BB75a533642 [color="red"];
+  BB75a533642 -> BB75a533647 [color="red"];
+  BB75a533647 -> BB75a533651 [color="green"];
+  BB75a533647 -> BB75a53364c [color="red"];
+  BB75a53364c -> BB75a533651 [color="red"];
+  BB75a533651 -> BB75a5336e8 [color="green"];
+  BB75a533651 -> BB75a533694 [color="red"];
+  BB75a533694 -> BB75a5336e1 [color="green"];
+  BB75a533694 -> BB75a533699 [color="red"];
+  BB75a533699 -> BB75a5336e1 [color="green"];
+  BB75a533699 -> BB75a53369d [color="red"];
+  BB75a53369d -> BB75a5336e1 [color="green"];
+  BB75a53369d -> BB75a5336c5 [color="red"];
+  BB75a5336c5 -> BB75a5336d1 [color="blue"];
+  BB75a5336e1 -> BB75a5336d1 [color="blue"];
+  BB75a5336e8 -> BB75a533694 [color="green"];
+  BB75a5336e8 -> BB75a5336fd [color="red"];
+  BB75a5336fd -> BB75a533694 [color="blue"];
+}

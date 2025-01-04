@@ -1,0 +1,20 @@
+digraph nidsearch {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5477b4 -> BB75a547807 [color="green"];
+  BB75a5477b4 -> BB75a5477c2 [color="red"];
+  BB75a5477c2 -> BB75a5477ff [color="green"];
+  BB75a5477c2 -> BB75a5477d1 [color="red"];
+  BB75a5477d1 -> BB75a5477ff [color="green"];
+  BB75a5477d1 -> BB75a5477fa [color="red"];
+  BB75a5477fa -> BB75a54780c [color="green"];
+  BB75a5477fa -> BB75a5477ff [color="red"];
+  BB75a5477ff -> BB75a547801 [color="blue"];
+  BB75a547807 -> BB75a5477c2 [color="blue"];
+  BB75a54780c -> BB75a547818 [color="green"];
+  BB75a54780c -> BB75a547811 [color="red"];
+  BB75a547811 -> BB75a547801 [color="blue"];
+  BB75a547818 -> BB75a5477ff [color="green"];
+  BB75a547818 -> BB75a547826 [color="red"];
+  BB75a547826 -> BB75a547811 [color="blue"];
+}

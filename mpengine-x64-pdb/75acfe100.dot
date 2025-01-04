@@ -1,0 +1,18 @@
+digraph GetAmdBiosFlashInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acfe100 -> BB75acfe160 [color="green"];
+  BB75acfe100 -> BB75acfe12b [color="red"];
+  BB75acfe12b -> BB75acfe159 [color="green"];
+  BB75acfe12b -> BB75acfe13e [color="red"];
+  BB75acfe13e -> BB75acfe159 [color="green"];
+  BB75acfe13e -> BB75acfe144 [color="red"];
+  BB75acfe144 -> BB75acfe159 [color="red"];
+  BB75acfe159 -> BB75acfe1cf [color="blue"];
+  BB75acfe160 -> BB75acfe1ca [color="green"];
+  BB75acfe160 -> BB75acfe1b3 [color="red"];
+  BB75acfe1b3 -> BB75acfe1ca [color="green"];
+  BB75acfe1b3 -> BB75acfe1ba [color="red"];
+  BB75acfe1ba -> BB75acfe1cf [color="blue"];
+  BB75acfe1ca -> BB75acfe1cf [color="blue"];
+}

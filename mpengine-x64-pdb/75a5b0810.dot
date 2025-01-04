@@ -1,0 +1,17 @@
+digraph newObject<struct_ObjectManager::SemaphoreObject> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5b0810 -> BB75a5b088f [color="green"];
+  BB75a5b0810 -> BB75a5b0856 [color="red"];
+  BB75a5b0856 -> BB75a5b0894 [color="green"];
+  BB75a5b0856 -> BB75a5b085c [color="red"];
+  BB75a5b085c -> BB75a5b085f [color="blue"];
+  BB75a5b085f -> BB75a5b08f2 [color="green"];
+  BB75a5b085f -> BB75a5b0869 [color="red"];
+  BB75a5b0869 -> BB75a5b0873 [color="blue"];
+  BB75a5b088f -> BB75a5b0873 [color="blue"];
+  BB75a5b0894 -> BB75a5b085f [color="green"];
+  BB75a5b0894 -> BB75a5b08ed [color="red"];
+  BB75a5b08ed -> BB75a5b085c [color="blue"];
+  BB75a5b08f2 -> BB75a5b0869 [color="blue"];
+}

@@ -1,0 +1,18 @@
+digraph GetFastPathThreatIndex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1a389c -> BB75a1a38c8 [color="red"];
+  BB75a1a38c8 -> BB75a1a3918 [color="green"];
+  BB75a1a38c8 -> BB75a1a38db [color="red"];
+  BB75a1a38db -> BB75a1a38e6 [color="blue"];
+  BB75a1a38e6 -> BB75a1a3906 [color="green"];
+  BB75a1a38e6 -> BB75a1a38ef [color="red"];
+  BB75a1a38ef -> BB75a1a38fc [color="green"];
+  BB75a1a38ef -> BB75a1a38f3 [color="red"];
+  BB75a1a38f3 -> BB75a1a38e6 [color="blue"];
+  BB75a1a38fc -> BB75a1a3906 [color="blue"];
+  BB75a1a3918 -> BB75a1a3925 [color="green"];
+  BB75a1a3918 -> BB75a1a391c [color="red"];
+  BB75a1a391c -> BB75a1a38c8 [color="blue"];
+  BB75a1a3925 -> BB75a1a38db [color="blue"];
+}

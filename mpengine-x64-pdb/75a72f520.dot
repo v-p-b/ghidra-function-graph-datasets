@@ -1,0 +1,37 @@
+digraph uefi_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a72f520 -> BB75a72f583 [color="green"];
+  BB75a72f520 -> BB75a72f54d [color="red"];
+  BB75a72f54d -> BB75a72f583 [color="green"];
+  BB75a72f54d -> BB75a72f561 [color="red"];
+  BB75a72f561 -> BB75a72f583 [color="red"];
+  BB75a72f583 -> BB75a72f5aa [color="green"];
+  BB75a72f583 -> BB75a72f59a [color="red"];
+  BB75a72f59a -> BB75a72f5aa [color="green"];
+  BB75a72f59a -> BB75a72f5a0 [color="red"];
+  BB75a72f5a0 -> BB75a72f655 [color="green"];
+  BB75a72f5a0 -> BB75a72f5aa [color="red"];
+  BB75a72f5aa -> BB75a72f5f0 [color="green"];
+  BB75a72f5aa -> BB75a72f5bc [color="red"];
+  BB75a72f5bc -> BB75a72f5e9 [color="green"];
+  BB75a72f5bc -> BB75a72f5cf [color="red"];
+  BB75a72f5cf -> BB75a72f5e9 [color="green"];
+  BB75a72f5cf -> BB75a72f5d5 [color="red"];
+  BB75a72f5d5 -> BB75a72f5e9 [color="red"];
+  BB75a72f5e9 -> BB75a72f657 [color="blue"];
+  BB75a72f5f0 -> BB75a72f5f3 [color="blue"];
+  BB75a72f5f3 -> BB75a72f5f3 [color="green"];
+  BB75a72f5f3 -> BB75a72f5fc [color="red"];
+  BB75a72f5fc -> BB75a72f615 [color="green"];
+  BB75a72f5fc -> BB75a72f602 [color="red"];
+  BB75a72f602 -> BB75a72f615 [color="red"];
+  BB75a72f615 -> BB75a72f629 [color="green"];
+  BB75a72f615 -> BB75a72f622 [color="red"];
+  BB75a72f622 -> BB75a72f629 [color="blue"];
+  BB75a72f629 -> BB75a72f639 [color="green"];
+  BB75a72f629 -> BB75a72f62d [color="red"];
+  BB75a72f62d -> BB75a72f639 [color="red"];
+  BB75a72f639 -> BB75a72f655 [color="blue"];
+  BB75a72f655 -> BB75a72f657 [color="blue"];
+}

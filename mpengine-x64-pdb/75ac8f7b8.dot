@@ -1,0 +1,21 @@
+digraph IsThisServiceRunning {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac8f7b8 -> BB75ac8f82a [color="green"];
+  BB75ac8f7b8 -> BB75ac8f7f7 [color="red"];
+  BB75ac8f7f7 -> BB75ac8f85b [color="green"];
+  BB75ac8f7f7 -> BB75ac8f80a [color="red"];
+  BB75ac8f80a -> BB75ac8f85b [color="green"];
+  BB75ac8f80a -> BB75ac8f810 [color="red"];
+  BB75ac8f810 -> BB75ac8f85b [color="blue"];
+  BB75ac8f82a -> BB75ac8f856 [color="green"];
+  BB75ac8f82a -> BB75ac8f845 [color="red"];
+  BB75ac8f845 -> BB75ac8f850 [color="green"];
+  BB75ac8f845 -> BB75ac8f84a [color="red"];
+  BB75ac8f84a -> BB75ac8f850 [color="red"];
+  BB75ac8f850 -> BB75ac8f856 [color="blue"];
+  BB75ac8f856 -> BB75ac8f85f [color="green"];
+  BB75ac8f856 -> BB75ac8f85b [color="red"];
+  BB75ac8f85b -> BB75ac8f875 [color="blue"];
+  BB75ac8f85f -> BB75ac8f875 [color="red"];
+}

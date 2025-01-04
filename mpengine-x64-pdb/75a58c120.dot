@@ -1,0 +1,14 @@
+digraph __siga_check_w1 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a58c120 -> BB75a58c17b [color="green"];
+  BB75a58c120 -> BB75a58c161 [color="red"];
+  BB75a58c161 -> BB75a58c1b2 [color="green"];
+  BB75a58c161 -> BB75a58c173 [color="red"];
+  BB75a58c173 -> BB75a58c17b [color="blue"];
+  BB75a58c17b -> BB75a58c19a [color="green"];
+  BB75a58c17b -> BB75a58c192 [color="red"];
+  BB75a58c192 -> BB75a58c19a [color="red"];
+  BB75a58c19a -> BB75a58c19c [color="blue"];
+  BB75a58c1b2 -> BB75a58c19c [color="blue"];
+}

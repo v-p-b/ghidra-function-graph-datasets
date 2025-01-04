@@ -1,0 +1,10 @@
+digraph ~process_info_t {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a918608 -> BB75a91861f [color="green"];
+  BB75a918608 -> BB75a91861a [color="red"];
+  BB75a91861a -> BB75a91861f [color="red"];
+  BB75a91861f -> BB75a91862d [color="green"];
+  BB75a91861f -> BB75a918628 [color="red"];
+  BB75a918628 -> BB75a91862d [color="red"];
+}

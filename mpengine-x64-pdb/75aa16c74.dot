@@ -1,0 +1,22 @@
+digraph RemoveIATDirectory {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa16c74 -> BB75aa16d2b [color="green"];
+  BB75aa16c74 -> BB75aa16cb5 [color="red"];
+  BB75aa16cb5 -> BB75aa16d2b [color="green"];
+  BB75aa16cb5 -> BB75aa16cca [color="red"];
+  BB75aa16cca -> BB75aa16d2b [color="green"];
+  BB75aa16cca -> BB75aa16cdb [color="red"];
+  BB75aa16cdb -> BB75aa16d2b [color="green"];
+  BB75aa16cdb -> BB75aa16cf8 [color="red"];
+  BB75aa16cf8 -> BB75aa16d2b [color="green"];
+  BB75aa16cf8 -> BB75aa16d14 [color="red"];
+  BB75aa16d14 -> BB75aa16d18 [color="blue"];
+  BB75aa16d18 -> BB75aa16d27 [color="green"];
+  BB75aa16d18 -> BB75aa16d1c [color="red"];
+  BB75aa16d1c -> BB75aa16cdb [color="green"];
+  BB75aa16d1c -> BB75aa16d23 [color="red"];
+  BB75aa16d23 -> BB75aa16d18 [color="blue"];
+  BB75aa16d27 -> BB75aa16d2d [color="blue"];
+  BB75aa16d2b -> BB75aa16d2d [color="blue"];
+}

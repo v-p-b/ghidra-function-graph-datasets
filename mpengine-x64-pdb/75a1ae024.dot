@@ -1,0 +1,16 @@
+digraph cleanup_successors {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1ae024 -> BB75a1ae06c [color="green"];
+  BB75a1ae024 -> BB75a1ae03b [color="red"];
+  BB75a1ae03b -> BB75a1ae041 [color="blue"];
+  BB75a1ae041 -> BB75a1ae041 [color="green"];
+  BB75a1ae041 -> BB75a1ae05e [color="red"];
+  BB75a1ae06c -> BB75a1ae03b [color="green"];
+  BB75a1ae06c -> BB75a1ae07d [color="red"];
+  BB75a1ae07d -> BB75a1ae08a [color="blue"];
+  BB75a1ae086 -> BB75a1ae08a [color="blue"];
+  BB75a1ae08a -> BB75a1ae086 [color="green"];
+  BB75a1ae08a -> BB75a1ae096 [color="red"];
+  BB75a1ae096 -> BB75a1ae03b [color="blue"];
+}

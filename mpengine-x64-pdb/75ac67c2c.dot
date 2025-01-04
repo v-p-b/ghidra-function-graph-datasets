@@ -1,0 +1,10 @@
+digraph skip {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac67c2c -> BB75ac67c62 [color="green"];
+  BB75ac67c2c -> BB75ac67c4b [color="red"];
+  BB75ac67c4b -> BB75ac67c62 [color="green"];
+  BB75ac67c4b -> BB75ac67c5e [color="red"];
+  BB75ac67c5e -> BB75ac67c64 [color="blue"];
+  BB75ac67c62 -> BB75ac67c64 [color="blue"];
+}

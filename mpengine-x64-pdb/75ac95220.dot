@@ -1,0 +1,10 @@
+digraph GetLockingProcessName {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac95220 -> BB75ac95246 [color="green"];
+  BB75ac95220 -> BB75ac95241 [color="red"];
+  BB75ac95241 -> BB75ac95246 [color="red"];
+  BB75ac95246 -> BB75ac95258 [color="green"];
+  BB75ac95246 -> BB75ac95255 [color="red"];
+  BB75ac95255 -> BB75ac95258 [color="blue"];
+}

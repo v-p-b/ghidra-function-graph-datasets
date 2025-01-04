@@ -1,0 +1,23 @@
+digraph lseg {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a33413c -> BB75a3342fc [color="green"];
+  BB75a33413c -> BB75a334179 [color="red"];
+  BB75a334179 -> BB75a3342fc [color="green"];
+  BB75a334179 -> BB75a334189 [color="red"];
+  BB75a334189 -> BB75a3341a6 [color="blue"];
+  BB75a3341a6 -> BB75a3342ec [color="green"];
+  BB75a3341a6 -> BB75a3341bd [color="red"];
+  BB75a3341bd -> BB75a33433b [color="green"];
+  BB75a3341bd -> BB75a3341da [color="red"];
+  BB75a3341da -> BB75a3342cd [color="red"];
+  BB75a3342ec -> BB75a3342cd [color="blue"];
+  BB75a3342fc -> BB75a33431f [color="green"];
+  BB75a3342fc -> BB75a334310 [color="red"];
+  BB75a334310 -> BB75a334317 [color="blue"];
+  BB75a334317 -> BB75a3341a6 [color="blue"];
+  BB75a33431f -> BB75a334189 [color="green"];
+  BB75a33431f -> BB75a334332 [color="red"];
+  BB75a334332 -> BB75a334317 [color="blue"];
+  BB75a33433b -> BB75a3341da [color="blue"];
+}

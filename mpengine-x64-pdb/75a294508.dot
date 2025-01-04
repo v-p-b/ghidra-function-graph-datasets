@@ -1,0 +1,16 @@
+digraph whereRangeScanEst {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a294508 -> BB75a294553 [color="green"];
+  BB75a294508 -> BB75a29453b [color="red"];
+  BB75a29453b -> BB75a294553 [color="green"];
+  BB75a29453b -> BB75a294542 [color="red"];
+  BB75a294542 -> BB75a294553 [color="green"];
+  BB75a294542 -> BB75a294547 [color="red"];
+  BB75a294547 -> BB75a294553 [color="green"];
+  BB75a294547 -> BB75a29454e [color="red"];
+  BB75a29454e -> BB75a294553 [color="blue"];
+  BB75a294553 -> BB75a294575 [color="green"];
+  BB75a294553 -> BB75a294572 [color="red"];
+  BB75a294572 -> BB75a294575 [color="blue"];
+}

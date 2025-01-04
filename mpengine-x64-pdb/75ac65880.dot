@@ -1,0 +1,9 @@
+digraph machofat_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac65880 -> BB75ac658e1 [color="green"];
+  BB75ac65880 -> BB75ac658ab [color="red"];
+  BB75ac658ab -> BB75ac658e1 [color="green"];
+  BB75ac658ab -> BB75ac658c0 [color="red"];
+  BB75ac658c0 -> BB75ac658e1 [color="red"];
+}

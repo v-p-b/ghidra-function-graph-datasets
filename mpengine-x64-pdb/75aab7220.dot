@@ -1,0 +1,14 @@
+digraph ThrottlingAgent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aab7220 -> BB75aab7287 [color="green"];
+  BB75aab7220 -> BB75aab724a [color="red"];
+  BB75aab724a -> BB75aab7287 [color="red"];
+  BB75aab7287 -> BB75aab72a6 [color="green"];
+  BB75aab7287 -> BB75aab729b [color="red"];
+  BB75aab729b -> BB75aab72ab [color="green"];
+  BB75aab729b -> BB75aab72a4 [color="red"];
+  BB75aab72a4 -> BB75aab72ad [color="blue"];
+  BB75aab72a6 -> BB75aab72ab [color="blue"];
+  BB75aab72ab -> BB75aab72ad [color="blue"];
+}

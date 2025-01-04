@@ -1,0 +1,10 @@
+digraph HasPartialCRCHashes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a68ab04 -> BB75a68ab0f [color="green"];
+  BB75a68ab04 -> BB75a68ab0e [color="red"];
+  BB75a68ab0f -> BB75a68ab0e [color="green"];
+  BB75a68ab0f -> BB75a68ab17 [color="red"];
+  BB75a68ab17 -> BB75a68ab0e [color="green"];
+  BB75a68ab17 -> BB75a68ab1f [color="red"];
+}

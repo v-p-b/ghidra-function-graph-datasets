@@ -1,0 +1,20 @@
+digraph sqlite3WalBeginWriteTransaction {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2a2284 -> BB75a2a22fa [color="green"];
+  BB75a2a2284 -> BB75a2a2297 [color="red"];
+  BB75a2a2297 -> BB75a2a22f6 [color="green"];
+  BB75a2a2297 -> BB75a2a229d [color="red"];
+  BB75a2a229d -> BB75a2a2301 [color="green"];
+  BB75a2a229d -> BB75a2a22be [color="red"];
+  BB75a2a22be -> BB75a2a22c5 [color="red"];
+  BB75a2a22c5 -> BB75a2a22e9 [color="green"];
+  BB75a2a22c5 -> BB75a2a22cb [color="red"];
+  BB75a2a22cb -> BB75a2a230a [color="green"];
+  BB75a2a22cb -> BB75a2a22e9 [color="red"];
+  BB75a2a22e9 -> BB75a2a22eb [color="blue"];
+  BB75a2a22f6 -> BB75a2a22cb [color="blue"];
+  BB75a2a22fa -> BB75a2a22eb [color="blue"];
+  BB75a2a2301 -> BB75a2a22c5 [color="blue"];
+  BB75a2a230a -> BB75a2a22e9 [color="blue"];
+}

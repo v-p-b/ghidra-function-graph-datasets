@@ -1,0 +1,16 @@
+digraph ~OffsetPreserver {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa99b14 -> BB75aa99b33 [color="green"];
+  BB75aa99b14 -> BB75aa99b2e [color="red"];
+  BB75aa99b2e -> BB75aa99b33 [color="red"];
+  BB75aa99b33 -> BB75aa99b80 [color="green"];
+  BB75aa99b33 -> BB75aa99b3d [color="red"];
+  BB75aa99b3d -> BB75aa99b80 [color="green"];
+  BB75aa99b3d -> BB75aa99b51 [color="red"];
+  BB75aa99b51 -> BB75aa99b80 [color="green"];
+  BB75aa99b51 -> BB75aa99b64 [color="red"];
+  BB75aa99b64 -> BB75aa99b80 [color="green"];
+  BB75aa99b64 -> BB75aa99b6a [color="red"];
+  BB75aa99b6a -> BB75aa99b80 [color="red"];
+}

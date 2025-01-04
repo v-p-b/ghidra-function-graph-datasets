@@ -1,0 +1,11 @@
+digraph ShouldExcludeProcessObHardening {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4fda58 -> BB75a4fdac4 [color="green"];
+  BB75a4fda58 -> BB75a4fda8c [color="red"];
+  BB75a4fda8c -> BB75a4fdaa9 [color="green"];
+  BB75a4fda8c -> BB75a4fda9b [color="red"];
+  BB75a4fda9b -> BB75a4fdaa9 [color="red"];
+  BB75a4fdaa9 -> BB75a4fdab4 [color="red"];
+  BB75a4fdac4 -> BB75a4fdab4 [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph morphines_ismine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6b9900 -> BB75a6b9940 [color="green"];
+  BB75a6b9900 -> BB75a6b991f [color="red"];
+  BB75a6b991f -> BB75a6b992b [color="blue"];
+  BB75a6b992b -> BB75a6b9940 [color="green"];
+  BB75a6b992b -> BB75a6b9931 [color="red"];
+  BB75a6b9931 -> BB75a6b994d [color="green"];
+  BB75a6b9931 -> BB75a6b9937 [color="red"];
+  BB75a6b9937 -> BB75a6b992b [color="blue"];
+  BB75a6b9940 -> BB75a6b9942 [color="blue"];
+  BB75a6b994d -> BB75a6b9937 [color="green"];
+  BB75a6b994d -> BB75a6b995d [color="red"];
+  BB75a6b995d -> BB75a6b9942 [color="blue"];
+}

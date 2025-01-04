@@ -1,0 +1,17 @@
+digraph DoEtwRundown {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a82db80 -> BB75a82dbb3 [color="green"];
+  BB75a82db80 -> BB75a82db98 [color="red"];
+  BB75a82db98 -> BB75a82dbaa [color="green"];
+  BB75a82db98 -> BB75a82dba1 [color="red"];
+  BB75a82dba1 -> BB75a82dbdc [color="green"];
+  BB75a82dba1 -> BB75a82dbaa [color="red"];
+  BB75a82dbaa -> BB75a82dbcc [color="blue"];
+  BB75a82dbb3 -> BB75a82dbc5 [color="green"];
+  BB75a82dbb3 -> BB75a82dbbc [color="red"];
+  BB75a82dbbc -> BB75a82dbdc [color="green"];
+  BB75a82dbbc -> BB75a82dbc5 [color="red"];
+  BB75a82dbc5 -> BB75a82dbcc [color="blue"];
+  BB75a82dbcc -> BB75a82dbdc [color="red"];
+}

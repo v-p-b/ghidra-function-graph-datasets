@@ -1,0 +1,14 @@
+digraph string_is_alpha {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7745e0 -> BB75a77462d [color="green"];
+  BB75a7745e0 -> BB75a774602 [color="red"];
+  BB75a774602 -> BB75a774645 [color="green"];
+  BB75a774602 -> BB75a774619 [color="red"];
+  BB75a774619 -> BB75a774645 [color="green"];
+  BB75a774619 -> BB75a774625 [color="red"];
+  BB75a774625 -> BB75a774602 [color="green"];
+  BB75a774625 -> BB75a77462d [color="red"];
+  BB75a77462d -> BB75a77462f [color="blue"];
+  BB75a774645 -> BB75a77462f [color="blue"];
+}

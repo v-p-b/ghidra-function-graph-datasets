@@ -1,0 +1,16 @@
+digraph UtilCreateSemaphore {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5f5730 -> BB75a5f575f [color="green"];
+  BB75a5f5730 -> BB75a5f5744 [color="red"];
+  BB75a5f5744 -> BB75a5f5766 [color="green"];
+  BB75a5f5744 -> BB75a5f5757 [color="red"];
+  BB75a5f5757 -> BB75a5f5759 [color="blue"];
+  BB75a5f575f -> BB75a5f5759 [color="blue"];
+  BB75a5f5766 -> BB75a5f579e [color="green"];
+  BB75a5f5766 -> BB75a5f5780 [color="red"];
+  BB75a5f5780 -> BB75a5f579e [color="green"];
+  BB75a5f5780 -> BB75a5f5786 [color="red"];
+  BB75a5f5786 -> BB75a5f579e [color="red"];
+  BB75a5f579e -> BB75a5f5759 [color="blue"];
+}

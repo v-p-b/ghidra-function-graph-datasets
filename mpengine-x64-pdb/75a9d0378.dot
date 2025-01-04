@@ -1,0 +1,11 @@
+digraph _is_table_exists {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9d0378 -> BB75a9d0445 [color="green"];
+  BB75a9d0378 -> BB75a9d03c0 [color="red"];
+  BB75a9d03c0 -> BB75a9d0445 [color="green"];
+  BB75a9d03c0 -> BB75a9d043c [color="red"];
+  BB75a9d043c -> BB75a9d0445 [color="green"];
+  BB75a9d043c -> BB75a9d0442 [color="red"];
+  BB75a9d0442 -> BB75a9d0445 [color="blue"];
+}

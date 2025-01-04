@@ -1,0 +1,18 @@
+digraph _shall_process {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a938b24 -> BB75a938b3f [color="green"];
+  BB75a938b24 -> BB75a938b36 [color="red"];
+  BB75a938b36 -> BB75a938b4b [color="green"];
+  BB75a938b36 -> BB75a938b3f [color="red"];
+  BB75a938b3f -> BB75a938b4e [color="green"];
+  BB75a938b3f -> BB75a938b4b [color="red"];
+  BB75a938b4e -> BB75a938b5d [color="green"];
+  BB75a938b4e -> BB75a938b5a [color="red"];
+  BB75a938b5d -> BB75a938b7d [color="green"];
+  BB75a938b5d -> BB75a938b69 [color="red"];
+  BB75a938b69 -> BB75a938b4b [color="blue"];
+  BB75a938b7d -> BB75a938ba5 [color="green"];
+  BB75a938b7d -> BB75a938b82 [color="red"];
+  BB75a938b82 -> BB75a938ba5 [color="blue"];
+}

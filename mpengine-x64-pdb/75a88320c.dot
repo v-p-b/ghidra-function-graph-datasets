@@ -1,0 +1,34 @@
+digraph ControlSyncPLI {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a88320c -> BB75a88324b [color="green"];
+  BB75a88320c -> BB75a883223 [color="red"];
+  BB75a883223 -> BB75a8832c8 [color="green"];
+  BB75a883223 -> BB75a88323a [color="red"];
+  BB75a88323a -> BB75a8832c8 [color="green"];
+  BB75a88323a -> BB75a883244 [color="red"];
+  BB75a883244 -> BB75a8832b8 [color="blue"];
+  BB75a88324b -> BB75a883293 [color="green"];
+  BB75a88324b -> BB75a883251 [color="red"];
+  BB75a883251 -> BB75a88329a [color="green"];
+  BB75a883251 -> BB75a883256 [color="red"];
+  BB75a883256 -> BB75a8832cf [color="green"];
+  BB75a883256 -> BB75a883278 [color="red"];
+  BB75a883278 -> BB75a8832e1 [color="blue"];
+  BB75a883293 -> BB75a883256 [color="green"];
+  BB75a883293 -> BB75a88329a [color="red"];
+  BB75a88329a -> BB75a8832c8 [color="green"];
+  BB75a88329a -> BB75a8832ad [color="red"];
+  BB75a8832ad -> BB75a8832c8 [color="green"];
+  BB75a8832ad -> BB75a8832b3 [color="red"];
+  BB75a8832b3 -> BB75a8832b8 [color="blue"];
+  BB75a8832b8 -> BB75a8832c8 [color="red"];
+  BB75a8832c8 -> BB75a88333d [color="blue"];
+  BB75a8832cf -> BB75a8832e1 [color="blue"];
+  BB75a8832e1 -> BB75a883307 [color="green"];
+  BB75a8832e1 -> BB75a8832fe [color="red"];
+  BB75a8832fe -> BB75a88333b [color="green"];
+  BB75a8832fe -> BB75a883307 [color="red"];
+  BB75a883307 -> BB75a88333b [color="red"];
+  BB75a88333b -> BB75a88333d [color="blue"];
+}

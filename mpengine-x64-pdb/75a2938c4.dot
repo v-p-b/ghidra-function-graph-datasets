@@ -1,0 +1,10 @@
+digraph sqlite3FunctionUsesThisSrc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2938c4 -> BB75a293922 [color="green"];
+  BB75a2938c4 -> BB75a293910 [color="red"];
+  BB75a293910 -> BB75a293915 [color="blue"];
+  BB75a293922 -> BB75a293910 [color="green"];
+  BB75a293922 -> BB75a293927 [color="red"];
+  BB75a293927 -> BB75a293915 [color="blue"];
+}

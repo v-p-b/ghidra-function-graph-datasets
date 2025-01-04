@@ -1,0 +1,13 @@
+digraph sqlite_prepare {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9e3c70 -> BB75a9e3cb7 [color="green"];
+  BB75a9e3c70 -> BB75a9e3c83 [color="red"];
+  BB75a9e3c83 -> BB75a9e3cb7 [color="green"];
+  BB75a9e3c83 -> BB75a9e3c88 [color="red"];
+  BB75a9e3c88 -> BB75a9e3cb7 [color="green"];
+  BB75a9e3c88 -> BB75a9e3c8d [color="red"];
+  BB75a9e3c8d -> BB75a9e3cb7 [color="green"];
+  BB75a9e3c8d -> BB75a9e3cb2 [color="red"];
+  BB75a9e3cb2 -> BB75a9e3cb7 [color="blue"];
+}

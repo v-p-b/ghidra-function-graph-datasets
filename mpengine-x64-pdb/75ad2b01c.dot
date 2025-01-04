@@ -1,0 +1,31 @@
+digraph SysIoStartService {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad2b01c -> BB75ad2b08b [color="green"];
+  BB75ad2b01c -> BB75ad2b04d [color="red"];
+  BB75ad2b04d -> BB75ad2b084 [color="green"];
+  BB75ad2b04d -> BB75ad2b068 [color="red"];
+  BB75ad2b068 -> BB75ad2b084 [color="green"];
+  BB75ad2b068 -> BB75ad2b06e [color="red"];
+  BB75ad2b06e -> BB75ad2b084 [color="red"];
+  BB75ad2b084 -> BB75ad2b15a [color="blue"];
+  BB75ad2b08b -> BB75ad2b0ec [color="green"];
+  BB75ad2b08b -> BB75ad2b0a2 [color="red"];
+  BB75ad2b0a2 -> BB75ad2b0df [color="green"];
+  BB75ad2b0a2 -> BB75ad2b0bd [color="red"];
+  BB75ad2b0bd -> BB75ad2b0df [color="green"];
+  BB75ad2b0bd -> BB75ad2b0c3 [color="red"];
+  BB75ad2b0c3 -> BB75ad2b0df [color="red"];
+  BB75ad2b0df -> BB75ad2b15a [color="blue"];
+  BB75ad2b0ec -> BB75ad2b144 [color="green"];
+  BB75ad2b0ec -> BB75ad2b0fe [color="red"];
+  BB75ad2b0fe -> BB75ad2b144 [color="green"];
+  BB75ad2b0fe -> BB75ad2b10d [color="red"];
+  BB75ad2b10d -> BB75ad2b146 [color="green"];
+  BB75ad2b10d -> BB75ad2b120 [color="red"];
+  BB75ad2b120 -> BB75ad2b146 [color="green"];
+  BB75ad2b120 -> BB75ad2b126 [color="red"];
+  BB75ad2b126 -> BB75ad2b146 [color="blue"];
+  BB75ad2b144 -> BB75ad2b146 [color="blue"];
+  BB75ad2b146 -> BB75ad2b15a [color="red"];
+}

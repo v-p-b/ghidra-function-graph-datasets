@@ -1,0 +1,16 @@
+digraph ~db_rollback_guard {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a281afc -> BB75a281b0d [color="green"];
+  BB75a281afc -> BB75a281b08 [color="red"];
+  BB75a281b0d -> BB75a281b48 [color="green"];
+  BB75a281b0d -> BB75a281b16 [color="red"];
+  BB75a281b16 -> BB75a281b08 [color="green"];
+  BB75a281b16 -> BB75a281b29 [color="red"];
+  BB75a281b29 -> BB75a281b08 [color="green"];
+  BB75a281b29 -> BB75a281b2f [color="red"];
+  BB75a281b48 -> BB75a281b08 [color="green"];
+  BB75a281b48 -> BB75a281b5b [color="red"];
+  BB75a281b5b -> BB75a281b08 [color="green"];
+  BB75a281b5b -> BB75a281b61 [color="red"];
+}

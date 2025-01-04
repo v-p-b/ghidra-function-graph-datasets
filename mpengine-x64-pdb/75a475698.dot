@@ -1,0 +1,17 @@
+digraph vdll_add_depend {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a475698 -> BB75a47570c [color="green"];
+  BB75a475698 -> BB75a4756ba [color="red"];
+  BB75a4756ba -> BB75a4756d4 [color="blue"];
+  BB75a4756d4 -> BB75a4756f1 [color="green"];
+  BB75a4756d4 -> BB75a4756dc [color="red"];
+  BB75a4756dc -> BB75a4756ed [color="green"];
+  BB75a4756dc -> BB75a4756e2 [color="red"];
+  BB75a4756ed -> BB75a4756d4 [color="blue"];
+  BB75a4756f1 -> BB75a475700 [color="green"];
+  BB75a4756f1 -> BB75a4756f7 [color="red"];
+  BB75a4756f7 -> BB75a4756e2 [color="blue"];
+  BB75a475700 -> BB75a4756e2 [color="blue"];
+  BB75a47570c -> BB75a4756ba [color="blue"];
+}

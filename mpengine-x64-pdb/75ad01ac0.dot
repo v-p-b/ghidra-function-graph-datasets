@@ -1,0 +1,18 @@
+digraph GenerateTestDetection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad01ac0 -> BB75ad01b01 [color="green"];
+  BB75ad01ac0 -> BB75ad01ae7 [color="red"];
+  BB75ad01ae7 -> BB75ad01b01 [color="green"];
+  BB75ad01ae7 -> BB75ad01af3 [color="red"];
+  BB75ad01af3 -> BB75ad01b2f [color="green"];
+  BB75ad01af3 -> BB75ad01b01 [color="red"];
+  BB75ad01b01 -> BB75ad01b2f [color="green"];
+  BB75ad01b01 -> BB75ad01b14 [color="red"];
+  BB75ad01b14 -> BB75ad01b2f [color="green"];
+  BB75ad01b14 -> BB75ad01b1a [color="red"];
+  BB75ad01b1a -> BB75ad01b2f [color="red"];
+  BB75ad01b2f -> BB75ad01b55 [color="green"];
+  BB75ad01b2f -> BB75ad01b44 [color="red"];
+  BB75ad01b44 -> BB75ad01b55 [color="red"];
+}

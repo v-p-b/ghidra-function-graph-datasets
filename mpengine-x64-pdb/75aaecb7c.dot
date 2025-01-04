@@ -1,0 +1,26 @@
+digraph GetACL {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaecb7c -> BB75aaecb9e [color="green"];
+  BB75aaecb7c -> BB75aaecb99 [color="red"];
+  BB75aaecb99 -> BB75aaecb9e [color="red"];
+  BB75aaecb9e -> BB75aaecba8 [color="green"];
+  BB75aaecb9e -> BB75aaecba3 [color="red"];
+  BB75aaecba3 -> BB75aaecba8 [color="red"];
+  BB75aaecba8 -> BB75aaecbf7 [color="green"];
+  BB75aaecba8 -> BB75aaecbc5 [color="red"];
+  BB75aaecbc5 -> BB75aaecbf3 [color="green"];
+  BB75aaecbc5 -> BB75aaecbd8 [color="red"];
+  BB75aaecbd8 -> BB75aaecbf3 [color="green"];
+  BB75aaecbd8 -> BB75aaecbde [color="red"];
+  BB75aaecbde -> BB75aaecbf3 [color="red"];
+  BB75aaecbf3 -> BB75aaecc66 [color="blue"];
+  BB75aaecbf7 -> BB75aaecc64 [color="green"];
+  BB75aaecbf7 -> BB75aaecc36 [color="red"];
+  BB75aaecc36 -> BB75aaecc64 [color="green"];
+  BB75aaecc36 -> BB75aaecc49 [color="red"];
+  BB75aaecc49 -> BB75aaecc64 [color="green"];
+  BB75aaecc49 -> BB75aaecc4f [color="red"];
+  BB75aaecc4f -> BB75aaecc64 [color="red"];
+  BB75aaecc64 -> BB75aaecc66 [color="blue"];
+}

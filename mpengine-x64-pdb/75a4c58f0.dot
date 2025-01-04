@@ -1,0 +1,25 @@
+digraph RevokeOEMImage {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4c58f0 -> BB75a4c5923 [color="green"];
+  BB75a4c58f0 -> BB75a4c590c [color="red"];
+  BB75a4c590c -> BB75a4c5911 [color="red"];
+  BB75a4c5911 -> BB75a4c5913 [color="blue"];
+  BB75a4c5923 -> BB75a4c5911 [color="green"];
+  BB75a4c5923 -> BB75a4c5929 [color="red"];
+  BB75a4c5929 -> BB75a4c5911 [color="green"];
+  BB75a4c5929 -> BB75a4c592e [color="red"];
+  BB75a4c592e -> BB75a4c593f [color="green"];
+  BB75a4c592e -> BB75a4c5936 [color="red"];
+  BB75a4c5936 -> BB75a4c593f [color="blue"];
+  BB75a4c593f -> BB75a4c5970 [color="green"];
+  BB75a4c593f -> BB75a4c5943 [color="red"];
+  BB75a4c5943 -> BB75a4c5956 [color="green"];
+  BB75a4c5943 -> BB75a4c594c [color="red"];
+  BB75a4c594c -> BB75a4c5911 [color="green"];
+  BB75a4c594c -> BB75a4c5956 [color="red"];
+  BB75a4c5956 -> BB75a4c5970 [color="green"];
+  BB75a4c5956 -> BB75a4c595b [color="red"];
+  BB75a4c595b -> BB75a4c5913 [color="blue"];
+  BB75a4c5970 -> BB75a4c5913 [color="blue"];
+}

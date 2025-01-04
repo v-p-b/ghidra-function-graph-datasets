@@ -1,0 +1,13 @@
+digraph _Emplace_reallocate<struct_rolling_queue_entry_const&___ptr64> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a40305c -> BB75a40318d [color="green"];
+  BB75a40305c -> BB75a4030cb [color="red"];
+  BB75a4030cb -> BB75a403106 [color="green"];
+  BB75a4030cb -> BB75a4030fb [color="red"];
+  BB75a4030fb -> BB75a403106 [color="blue"];
+  BB75a403106 -> BB75a40319a [color="green"];
+  BB75a403106 -> BB75a403163 [color="red"];
+  BB75a40318d -> BB75a40319a [color="red"];
+  BB75a40319a -> BB75a403163 [color="blue"];
+}

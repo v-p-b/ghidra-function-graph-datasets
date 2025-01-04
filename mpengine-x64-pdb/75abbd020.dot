@@ -1,0 +1,29 @@
+digraph SSE4_phsubw {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abbd020 -> BB75abbd13b [color="green"];
+  BB75abbd020 -> BB75abbd061 [color="red"];
+  BB75abbd061 -> BB75abbd0b1 [color="green"];
+  BB75abbd061 -> BB75abbd071 [color="red"];
+  BB75abbd071 -> BB75abbd221 [color="blue"];
+  BB75abbd0b1 -> BB75abbd119 [color="green"];
+  BB75abbd0b1 -> BB75abbd101 [color="red"];
+  BB75abbd101 -> BB75abbd12b [color="blue"];
+  BB75abbd119 -> BB75abbd12b [color="blue"];
+  BB75abbd12b -> BB75abbd221 [color="blue"];
+  BB75abbd13b -> BB75abbd1d8 [color="green"];
+  BB75abbd13b -> BB75abbd145 [color="red"];
+  BB75abbd145 -> BB75abbd071 [color="green"];
+  BB75abbd145 -> BB75abbd159 [color="red"];
+  BB75abbd159 -> BB75abbd1c1 [color="green"];
+  BB75abbd159 -> BB75abbd1a9 [color="red"];
+  BB75abbd1a9 -> BB75abbd1d3 [color="blue"];
+  BB75abbd1c1 -> BB75abbd1d3 [color="blue"];
+  BB75abbd1d3 -> BB75abbd12b [color="blue"];
+  BB75abbd1d8 -> BB75abbd1df [color="blue"];
+  BB75abbd1df -> BB75abbd1df [color="green"];
+  BB75abbd1df -> BB75abbd1fe [color="red"];
+  BB75abbd1fe -> BB75abbd202 [color="blue"];
+  BB75abbd202 -> BB75abbd202 [color="green"];
+  BB75abbd202 -> BB75abbd221 [color="red"];
+}

@@ -1,0 +1,15 @@
+digraph getBits {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a682e00 -> BB75a682e61 [color="green"];
+  BB75a682e00 -> BB75a682e34 [color="red"];
+  BB75a682e34 -> BB75a682e82 [color="green"];
+  BB75a682e34 -> BB75a682e41 [color="red"];
+  BB75a682e41 -> BB75a682e73 [color="green"];
+  BB75a682e41 -> BB75a682e4c [color="red"];
+  BB75a682e4c -> BB75a682e61 [color="red"];
+  BB75a682e73 -> BB75a682e4c [color="green"];
+  BB75a682e73 -> BB75a682e7b [color="red"];
+  BB75a682e7b -> BB75a682e61 [color="blue"];
+  BB75a682e82 -> BB75a682e41 [color="blue"];
+}

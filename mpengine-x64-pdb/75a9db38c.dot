@@ -1,0 +1,29 @@
+digraph update_lbr_flow {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9db38c -> BB75a9db48a [color="green"];
+  BB75a9db38c -> BB75a9db3a3 [color="red"];
+  BB75a9db3a3 -> BB75a9db47b [color="green"];
+  BB75a9db3a3 -> BB75a9db3bf [color="red"];
+  BB75a9db3bf -> BB75a9db3d5 [color="green"];
+  BB75a9db3bf -> BB75a9db3ca [color="red"];
+  BB75a9db3ca -> BB75a9db3d5 [color="green"];
+  BB75a9db3ca -> BB75a9db3d1 [color="red"];
+  BB75a9db3d1 -> BB75a9db3d7 [color="blue"];
+  BB75a9db3d5 -> BB75a9db3d7 [color="blue"];
+  BB75a9db3d7 -> BB75a9db427 [color="green"];
+  BB75a9db3d7 -> BB75a9db3e2 [color="red"];
+  BB75a9db3e2 -> BB75a9db40c [color="green"];
+  BB75a9db3e2 -> BB75a9db3ec [color="red"];
+  BB75a9db3ec -> BB75a9db40c [color="green"];
+  BB75a9db3ec -> BB75a9db3f6 [color="red"];
+  BB75a9db3f6 -> BB75a9db40c [color="blue"];
+  BB75a9db40c -> BB75a9db42e [color="blue"];
+  BB75a9db427 -> BB75a9db42e [color="blue"];
+  BB75a9db42e -> BB75a9db47b [color="green"];
+  BB75a9db42e -> BB75a9db43a [color="red"];
+  BB75a9db43a -> BB75a9db47b [color="red"];
+  BB75a9db47b -> BB75a9db48a [color="green"];
+  BB75a9db47b -> BB75a9db485 [color="red"];
+  BB75a9db485 -> BB75a9db48a [color="red"];
+}

@@ -1,0 +1,11 @@
+digraph selectPopWith {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a596310 -> BB75a596326 [color="green"];
+  BB75a596310 -> BB75a596321 [color="red"];
+  BB75a596326 -> BB75a596321 [color="green"];
+  BB75a596326 -> BB75a59632d [color="red"];
+  BB75a59632d -> BB75a596321 [color="green"];
+  BB75a59632d -> BB75a59633e [color="red"];
+  BB75a59633e -> BB75a596321 [color="blue"];
+}

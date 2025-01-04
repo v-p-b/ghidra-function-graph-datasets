@@ -1,0 +1,18 @@
+digraph operator() {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab63bc8 -> BB75ab63c8a [color="green"];
+  BB75ab63bc8 -> BB75ab63bee [color="red"];
+  BB75ab63bee -> BB75ab63c8a [color="green"];
+  BB75ab63bee -> BB75ab63c02 [color="red"];
+  BB75ab63c02 -> BB75ab63c7d [color="green"];
+  BB75ab63c02 -> BB75ab63c6f [color="red"];
+  BB75ab63c6f -> BB75ab63c7d [color="red"];
+  BB75ab63c7d -> BB75ab63cc4 [color="blue"];
+  BB75ab63c8a -> BB75ab63cbf [color="green"];
+  BB75ab63c8a -> BB75ab63c9d [color="red"];
+  BB75ab63c9d -> BB75ab63cbf [color="green"];
+  BB75ab63c9d -> BB75ab63ca3 [color="red"];
+  BB75ab63ca3 -> BB75ab63cbf [color="red"];
+  BB75ab63cbf -> BB75ab63cc4 [color="blue"];
+}

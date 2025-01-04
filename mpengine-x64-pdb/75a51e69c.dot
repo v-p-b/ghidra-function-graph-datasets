@@ -1,0 +1,17 @@
+digraph GetFolder {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a51e69c -> BB75a51e6d7 [color="green"];
+  BB75a51e69c -> BB75a51e6b0 [color="red"];
+  BB75a51e6b0 -> BB75a51e6d7 [color="green"];
+  BB75a51e6b0 -> BB75a51e6b6 [color="red"];
+  BB75a51e6b6 -> BB75a51e6d7 [color="green"];
+  BB75a51e6b6 -> BB75a51e6c4 [color="red"];
+  BB75a51e6c4 -> BB75a51e6d1 [color="blue"];
+  BB75a51e6d7 -> BB75a51e6ee [color="green"];
+  BB75a51e6d7 -> BB75a51e6ea [color="red"];
+  BB75a51e6ea -> BB75a51e6d1 [color="blue"];
+  BB75a51e6ee -> BB75a51e6ea [color="green"];
+  BB75a51e6ee -> BB75a51e6f4 [color="red"];
+  BB75a51e6f4 -> BB75a51e6ea [color="blue"];
+}

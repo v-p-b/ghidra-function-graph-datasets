@@ -1,0 +1,25 @@
+digraph LuaStandalone_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab05db0 -> BB75ab05fce [color="green"];
+  BB75ab05db0 -> BB75ab05ddf [color="red"];
+  BB75ab05ddf -> BB75ab05fce [color="green"];
+  BB75ab05ddf -> BB75ab05dfa [color="red"];
+  BB75ab05dfa -> BB75ab05e41 [color="green"];
+  BB75ab05dfa -> BB75ab05e2b [color="red"];
+  BB75ab05e2b -> BB75ab05fd3 [color="blue"];
+  BB75ab05e41 -> BB75ab05e2b [color="green"];
+  BB75ab05e41 -> BB75ab05e79 [color="red"];
+  BB75ab05e79 -> BB75ab05e2b [color="green"];
+  BB75ab05e79 -> BB75ab05ea7 [color="red"];
+  BB75ab05ea7 -> BB75ab05e2b [color="green"];
+  BB75ab05ea7 -> BB75ab05ed9 [color="red"];
+  BB75ab05ed9 -> BB75ab05e2b [color="green"];
+  BB75ab05ed9 -> BB75ab05f0b [color="red"];
+  BB75ab05f0b -> BB75ab05fd3 [color="green"];
+  BB75ab05f0b -> BB75ab05f4d [color="red"];
+  BB75ab05f4d -> BB75ab05fd3 [color="green"];
+  BB75ab05f4d -> BB75ab05f89 [color="red"];
+  BB75ab05f89 -> BB75ab05fd3 [color="blue"];
+  BB75ab05fce -> BB75ab05fd3 [color="blue"];
+}

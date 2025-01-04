@@ -1,0 +1,30 @@
+digraph buildFilter {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa2fe78 -> BB75aa2febc [color="green"];
+  BB75aa2fe78 -> BB75aa2feb4 [color="red"];
+  BB75aa2feb4 -> BB75aa2febf [color="green"];
+  BB75aa2feb4 -> BB75aa2febc [color="red"];
+  BB75aa2febc -> BB75aa2febf [color="blue"];
+  BB75aa2febf -> BB75aa2ffae [color="green"];
+  BB75aa2febf -> BB75aa2fec8 [color="red"];
+  BB75aa2fec8 -> BB75aa2fed6 [color="green"];
+  BB75aa2fec8 -> BB75aa2fed1 [color="red"];
+  BB75aa2fed1 -> BB75aa2fede [color="blue"];
+  BB75aa2fed6 -> BB75aa2fede [color="blue"];
+  BB75aa2fede -> BB75aa2fef8 [color="green"];
+  BB75aa2fede -> BB75aa2fef1 [color="red"];
+  BB75aa2fef1 -> BB75aa2fef8 [color="blue"];
+  BB75aa2fef8 -> BB75aa2ff28 [color="green"];
+  BB75aa2fef8 -> BB75aa2ff22 [color="red"];
+  BB75aa2ff22 -> BB75aa2ff55 [color="blue"];
+  BB75aa2ff28 -> BB75aa2ff59 [color="green"];
+  BB75aa2ff28 -> BB75aa2ff2a [color="red"];
+  BB75aa2ff2a -> BB75aa2ff49 [color="green"];
+  BB75aa2ff2a -> BB75aa2ff3f [color="red"];
+  BB75aa2ff3f -> BB75aa2ff59 [color="blue"];
+  BB75aa2ff49 -> BB75aa2ff55 [color="red"];
+  BB75aa2ff55 -> BB75aa2ff59 [color="blue"];
+  BB75aa2ff59 -> BB75aa2ff8b [color="green"];
+  BB75aa2ff59 -> BB75aa2ff76 [color="red"];
+}

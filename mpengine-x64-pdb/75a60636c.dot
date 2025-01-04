@@ -1,0 +1,20 @@
+digraph imul2 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a60636c -> BB75a6064b4 [color="green"];
+  BB75a60636c -> BB75a60639f [color="red"];
+  BB75a60639f -> BB75a6064b4 [color="green"];
+  BB75a60639f -> BB75a6063af [color="red"];
+  BB75a6063af -> BB75a6063cc [color="blue"];
+  BB75a6063cc -> BB75a6064aa [color="green"];
+  BB75a6063cc -> BB75a6063e7 [color="red"];
+  BB75a6063e7 -> BB75a6063fa [color="red"];
+  BB75a6064aa -> BB75a6063fa [color="blue"];
+  BB75a6064b4 -> BB75a6064d7 [color="green"];
+  BB75a6064b4 -> BB75a6064c8 [color="red"];
+  BB75a6064c8 -> BB75a6064cf [color="blue"];
+  BB75a6064cf -> BB75a6063cc [color="blue"];
+  BB75a6064d7 -> BB75a6063af [color="green"];
+  BB75a6064d7 -> BB75a6064ea [color="red"];
+  BB75a6064ea -> BB75a6064cf [color="blue"];
+}

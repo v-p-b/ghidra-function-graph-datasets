@@ -1,0 +1,24 @@
+digraph ResetLZWindow {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a205d2c -> BB75a205d67 [color="green"];
+  BB75a205d2c -> BB75a205d4c [color="red"];
+  BB75a205d4c -> BB75a205d67 [color="green"];
+  BB75a205d4c -> BB75a205d52 [color="red"];
+  BB75a205d52 -> BB75a205d67 [color="red"];
+  BB75a205d67 -> BB75a205dce [color="green"];
+  BB75a205d67 -> BB75a205d81 [color="red"];
+  BB75a205d81 -> BB75a205dc7 [color="green"];
+  BB75a205d81 -> BB75a205d8d [color="red"];
+  BB75a205d8d -> BB75a205dc7 [color="green"];
+  BB75a205d8d -> BB75a205d93 [color="red"];
+  BB75a205d93 -> BB75a205dc7 [color="red"];
+  BB75a205dc7 -> BB75a205e3f [color="blue"];
+  BB75a205dce -> BB75a205e10 [color="green"];
+  BB75a205dce -> BB75a205e0b [color="red"];
+  BB75a205e0b -> BB75a205e10 [color="red"];
+  BB75a205e10 -> BB75a205e3d [color="green"];
+  BB75a205e10 -> BB75a205e38 [color="red"];
+  BB75a205e38 -> BB75a205e3d [color="red"];
+  BB75a205e3d -> BB75a205e3f [color="blue"];
+}

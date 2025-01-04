@@ -1,0 +1,19 @@
+digraph validate_stream_is_ansi_if_required {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7911e8 -> BB75a79127c [color="green"];
+  BB75a7911e8 -> BB75a7911fb [color="red"];
+  BB75a7911fb -> BB75a791238 [color="green"];
+  BB75a7911fb -> BB75a79121d [color="red"];
+  BB75a79121d -> BB75a79123b [color="blue"];
+  BB75a791238 -> BB75a79123b [color="blue"];
+  BB75a79123b -> BB75a791268 [color="green"];
+  BB75a79123b -> BB75a791241 [color="red"];
+  BB75a791241 -> BB75a791261 [color="green"];
+  BB75a791241 -> BB75a79124a [color="red"];
+  BB75a79124a -> BB75a791261 [color="blue"];
+  BB75a791261 -> BB75a79127c [color="green"];
+  BB75a791261 -> BB75a791268 [color="red"];
+  BB75a791268 -> BB75a79127e [color="blue"];
+  BB75a79127c -> BB75a79127e [color="blue"];
+}

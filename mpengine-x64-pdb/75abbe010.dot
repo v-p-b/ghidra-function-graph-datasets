@@ -1,0 +1,26 @@
+digraph SSE4_pminud {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abbe010 -> BB75abbe130 [color="green"];
+  BB75abbe010 -> BB75abbe050 [color="red"];
+  BB75abbe050 -> BB75abbe0a3 [color="green"];
+  BB75abbe050 -> BB75abbe060 [color="red"];
+  BB75abbe060 -> BB75abbe1ed [color="blue"];
+  BB75abbe0a3 -> BB75abbe10e [color="green"];
+  BB75abbe0a3 -> BB75abbe0f6 [color="red"];
+  BB75abbe0f6 -> BB75abbe120 [color="blue"];
+  BB75abbe10e -> BB75abbe120 [color="blue"];
+  BB75abbe120 -> BB75abbe1ed [color="blue"];
+  BB75abbe130 -> BB75abbe1cf [color="green"];
+  BB75abbe130 -> BB75abbe139 [color="red"];
+  BB75abbe139 -> BB75abbe060 [color="green"];
+  BB75abbe139 -> BB75abbe14d [color="red"];
+  BB75abbe14d -> BB75abbe1b8 [color="green"];
+  BB75abbe14d -> BB75abbe1a0 [color="red"];
+  BB75abbe1a0 -> BB75abbe1ca [color="blue"];
+  BB75abbe1b8 -> BB75abbe1ca [color="blue"];
+  BB75abbe1ca -> BB75abbe120 [color="blue"];
+  BB75abbe1cf -> BB75abbe1d8 [color="blue"];
+  BB75abbe1d8 -> BB75abbe1d8 [color="green"];
+  BB75abbe1d8 -> BB75abbe1ed [color="red"];
+}

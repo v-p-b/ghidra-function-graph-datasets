@@ -1,0 +1,16 @@
+digraph sigattr_push_bm {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a63c2a0 -> BB75a63c2d7 [color="green"];
+  BB75a63c2a0 -> BB75a63c2aa [color="red"];
+  BB75a63c2aa -> BB75a63c2de [color="green"];
+  BB75a63c2aa -> BB75a63c2b2 [color="red"];
+  BB75a63c2b2 -> BB75a63c2d2 [color="red"];
+  BB75a63c2d7 -> BB75a63c2d2 [color="blue"];
+  BB75a63c2de -> BB75a63c30f [color="green"];
+  BB75a63c2de -> BB75a63c2f1 [color="red"];
+  BB75a63c2f1 -> BB75a63c30f [color="green"];
+  BB75a63c2f1 -> BB75a63c2f7 [color="red"];
+  BB75a63c2f7 -> BB75a63c30f [color="red"];
+  BB75a63c30f -> BB75a63c2d2 [color="blue"];
+}

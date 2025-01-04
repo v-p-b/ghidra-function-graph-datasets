@@ -1,0 +1,12 @@
+digraph _Emplace_reallocate<class_std::unique_ptr<class_DnsRecord,struct_std::default_delete<class_DnsRecord>_>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab93e50 -> BB75ab93e97 [color="green"];
+  BB75ab93e50 -> BB75ab93e8a [color="red"];
+  BB75ab93e97 -> BB75ab93f15 [color="green"];
+  BB75ab93e97 -> BB75ab93efe [color="red"];
+  BB75ab93efe -> BB75ab93f15 [color="red"];
+  BB75ab93f15 -> BB75ab93f3f [color="green"];
+  BB75ab93f15 -> BB75ab93f23 [color="red"];
+  BB75ab93f23 -> BB75ab93f3f [color="red"];
+}

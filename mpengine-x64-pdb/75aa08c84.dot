@@ -1,0 +1,15 @@
+digraph _Emplace_reallocate<struct_hstrstring_t> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa08c84 -> BB75aa08cfc [color="green"];
+  BB75aa08c84 -> BB75aa08cef [color="red"];
+  BB75aa08cfc -> BB75aa08d37 [color="green"];
+  BB75aa08cfc -> BB75aa08d2c [color="red"];
+  BB75aa08d2c -> BB75aa08d37 [color="blue"];
+  BB75aa08d37 -> BB75aa08da3 [color="green"];
+  BB75aa08d37 -> BB75aa08d8c [color="red"];
+  BB75aa08d8c -> BB75aa08da3 [color="red"];
+  BB75aa08da3 -> BB75aa08dec [color="green"];
+  BB75aa08da3 -> BB75aa08db1 [color="red"];
+  BB75aa08db1 -> BB75aa08dec [color="red"];
+}

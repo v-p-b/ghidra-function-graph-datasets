@@ -1,0 +1,16 @@
+digraph Collect {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a70ebd4 -> BB75a70ec0e [color="blue"];
+  BB75a70ec0e -> BB75a70ec24 [color="green"];
+  BB75a70ec0e -> BB75a70ec13 [color="red"];
+  BB75a70ec13 -> BB75a70ec0e [color="blue"];
+  BB75a70ec24 -> BB75a70ec3e [color="blue"];
+  BB75a70ec3e -> BB75a70ec93 [color="green"];
+  BB75a70ec3e -> BB75a70ec47 [color="red"];
+  BB75a70ec47 -> BB75a70ec8f [color="green"];
+  BB75a70ec47 -> BB75a70ec78 [color="red"];
+  BB75a70ec78 -> BB75a70ec8f [color="red"];
+  BB75a70ec8f -> BB75a70ec95 [color="blue"];
+  BB75a70ec93 -> BB75a70ec95 [color="blue"];
+}

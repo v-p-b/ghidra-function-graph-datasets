@@ -1,0 +1,20 @@
+digraph lua_pe_mmap_worker {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5bf168 -> BB75a5bf1b7 [color="green"];
+  BB75a5bf168 -> BB75a5bf1b0 [color="red"];
+  BB75a5bf1b0 -> BB75a5bf1b7 [color="blue"];
+  BB75a5bf1b7 -> BB75a5bf21b [color="green"];
+  BB75a5bf1b7 -> BB75a5bf1d1 [color="red"];
+  BB75a5bf1d1 -> BB75a5bf232 [color="green"];
+  BB75a5bf1d1 -> BB75a5bf1d6 [color="red"];
+  BB75a5bf1d6 -> BB75a5bf26e [color="green"];
+  BB75a5bf1d6 -> BB75a5bf1ef [color="red"];
+  BB75a5bf21b -> BB75a5bf1d1 [color="green"];
+  BB75a5bf21b -> BB75a5bf222 [color="red"];
+  BB75a5bf232 -> BB75a5bf1d6 [color="green"];
+  BB75a5bf232 -> BB75a5bf25e [color="red"];
+  BB75a5bf26e -> BB75a5bf283 [color="green"];
+  BB75a5bf26e -> BB75a5bf273 [color="red"];
+  BB75a5bf283 -> BB75a5bf1ef [color="blue"];
+}

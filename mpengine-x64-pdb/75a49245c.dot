@@ -1,0 +1,18 @@
+digraph GenerateBMSpynetReport {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a49245c -> BB75a49248d [color="green"];
+  BB75a49245c -> BB75a492482 [color="red"];
+  BB75a492482 -> BB75a4924a5 [color="blue"];
+  BB75a49248d -> BB75a4924a5 [color="red"];
+  BB75a4924a5 -> BB75a4924dd [color="green"];
+  BB75a4924a5 -> BB75a4924c3 [color="red"];
+  BB75a4924c3 -> BB75a4924d9 [color="green"];
+  BB75a4924c3 -> BB75a4924cd [color="red"];
+  BB75a4924cd -> BB75a4924d9 [color="red"];
+  BB75a4924d9 -> BB75a49250f [color="blue"];
+  BB75a4924dd -> BB75a49250d [color="green"];
+  BB75a4924dd -> BB75a4924fe [color="red"];
+  BB75a4924fe -> BB75a49250d [color="red"];
+  BB75a49250d -> BB75a49250f [color="blue"];
+}

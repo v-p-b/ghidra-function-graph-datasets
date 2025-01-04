@@ -1,0 +1,11 @@
+digraph LogDecodingFailureToAsimov {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a85726c -> BB75a8572b4 [color="green"];
+  BB75a85726c -> BB75a857289 [color="red"];
+  BB75a857289 -> BB75a8572b4 [color="green"];
+  BB75a857289 -> BB75a8572a2 [color="red"];
+  BB75a8572a2 -> BB75a8572b4 [color="green"];
+  BB75a8572a2 -> BB75a8572a9 [color="red"];
+  BB75a8572a9 -> BB75a8572b4 [color="blue"];
+}

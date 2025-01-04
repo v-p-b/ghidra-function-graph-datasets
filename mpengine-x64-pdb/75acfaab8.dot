@@ -1,0 +1,26 @@
+digraph AddTelemetry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acfaab8 -> BB75acfaaee [color="green"];
+  BB75acfaab8 -> BB75acfaae2 [color="red"];
+  BB75acfaae2 -> BB75acfaaee [color="green"];
+  BB75acfaae2 -> BB75acfaae7 [color="red"];
+  BB75acfaae7 -> BB75acfac64 [color="blue"];
+  BB75acfaaee -> BB75acfac47 [color="green"];
+  BB75acfaaee -> BB75acfab1a [color="red"];
+  BB75acfab1a -> BB75acfac3f [color="green"];
+  BB75acfab1a -> BB75acfab23 [color="red"];
+  BB75acfab23 -> BB75acfab4d [color="green"];
+  BB75acfab23 -> BB75acfab41 [color="red"];
+  BB75acfab41 -> BB75acfab4d [color="red"];
+  BB75acfab4d -> BB75acfabb3 [color="green"];
+  BB75acfab4d -> BB75acfaba7 [color="red"];
+  BB75acfaba7 -> BB75acfabb3 [color="red"];
+  BB75acfabb3 -> BB75acfaae7 [color="blue"];
+  BB75acfac3f -> BB75acfac52 [color="blue"];
+  BB75acfac47 -> BB75acfac5f [color="green"];
+  BB75acfac47 -> BB75acfac4c [color="red"];
+  BB75acfac4c -> BB75acfac52 [color="blue"];
+  BB75acfac52 -> BB75acfac5f [color="red"];
+  BB75acfac5f -> BB75acfac64 [color="blue"];
+}

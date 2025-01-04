@@ -1,0 +1,11 @@
+digraph retarget_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa45020 -> BB75aa45040 [color="green"];
+  BB75aa45020 -> BB75aa45036 [color="red"];
+  BB75aa45040 -> BB75aa45089 [color="green"];
+  BB75aa45040 -> BB75aa4505b [color="red"];
+  BB75aa4505b -> BB75aa45089 [color="green"];
+  BB75aa4505b -> BB75aa45074 [color="red"];
+  BB75aa45074 -> BB75aa45089 [color="red"];
+}

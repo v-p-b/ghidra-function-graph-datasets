@@ -1,0 +1,13 @@
+digraph AddUrlReputationReport {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab37da0 -> BB75ab37dd5 [color="green"];
+  BB75ab37da0 -> BB75ab37dbe [color="red"];
+  BB75ab37dbe -> BB75ab37dd5 [color="green"];
+  BB75ab37dbe -> BB75ab37dd0 [color="red"];
+  BB75ab37dd0 -> BB75ab37dd5 [color="red"];
+  BB75ab37dd5 -> BB75ab37dff [color="green"];
+  BB75ab37dd5 -> BB75ab37dde [color="red"];
+  BB75ab37dde -> BB75ab37e01 [color="blue"];
+  BB75ab37dff -> BB75ab37e01 [color="blue"];
+}

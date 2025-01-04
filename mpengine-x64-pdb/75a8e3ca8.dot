@@ -1,0 +1,20 @@
+digraph allocate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8e3ca8 -> BB75a8e3dd0 [color="green"];
+  BB75a8e3ca8 -> BB75a8e3d03 [color="red"];
+  BB75a8e3d03 -> BB75a8e3d31 [color="green"];
+  BB75a8e3d03 -> BB75a8e3d16 [color="red"];
+  BB75a8e3d16 -> BB75a8e3d31 [color="green"];
+  BB75a8e3d16 -> BB75a8e3d25 [color="red"];
+  BB75a8e3d25 -> BB75a8e3dea [color="blue"];
+  BB75a8e3d31 -> BB75a8e3d63 [color="green"];
+  BB75a8e3d31 -> BB75a8e3d59 [color="red"];
+  BB75a8e3d59 -> BB75a8e3d63 [color="blue"];
+  BB75a8e3d63 -> BB75a8e3dd0 [color="green"];
+  BB75a8e3d63 -> BB75a8e3dc9 [color="red"];
+  BB75a8e3dc9 -> BB75a8e3dd0 [color="blue"];
+  BB75a8e3dd0 -> BB75a8e3dea [color="green"];
+  BB75a8e3dd0 -> BB75a8e3dda [color="red"];
+  BB75a8e3dda -> BB75a8e3dea [color="red"];
+}

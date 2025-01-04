@@ -1,0 +1,31 @@
+digraph AddThreatSeverityInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab3d480 -> BB75ab3d4d8 [color="green"];
+  BB75ab3d480 -> BB75ab3d4a1 [color="red"];
+  BB75ab3d4a1 -> BB75ab3d4d1 [color="green"];
+  BB75ab3d4a1 -> BB75ab3d4b4 [color="red"];
+  BB75ab3d4b4 -> BB75ab3d4d1 [color="green"];
+  BB75ab3d4b4 -> BB75ab3d4ba [color="red"];
+  BB75ab3d4ba -> BB75ab3d4d1 [color="red"];
+  BB75ab3d4d1 -> BB75ab3d5c2 [color="blue"];
+  BB75ab3d4d8 -> BB75ab3d57d [color="green"];
+  BB75ab3d4d8 -> BB75ab3d4eb [color="red"];
+  BB75ab3d4eb -> BB75ab3d576 [color="green"];
+  BB75ab3d4eb -> BB75ab3d505 [color="red"];
+  BB75ab3d505 -> BB75ab3d5b6 [color="green"];
+  BB75ab3d505 -> BB75ab3d536 [color="red"];
+  BB75ab3d536 -> BB75ab3d55c [color="green"];
+  BB75ab3d536 -> BB75ab3d558 [color="red"];
+  BB75ab3d558 -> BB75ab3d5b6 [color="blue"];
+  BB75ab3d55c -> BB75ab3d5b6 [color="blue"];
+  BB75ab3d576 -> BB75ab3d583 [color="blue"];
+  BB75ab3d57d -> BB75ab3d583 [color="blue"];
+  BB75ab3d583 -> BB75ab3d5b1 [color="green"];
+  BB75ab3d583 -> BB75ab3d596 [color="red"];
+  BB75ab3d596 -> BB75ab3d5b1 [color="green"];
+  BB75ab3d596 -> BB75ab3d59c [color="red"];
+  BB75ab3d59c -> BB75ab3d5b1 [color="red"];
+  BB75ab3d5b1 -> BB75ab3d5b6 [color="blue"];
+  BB75ab3d5b6 -> BB75ab3d5c2 [color="red"];
+}

@@ -1,0 +1,11 @@
+digraph is_code_clone_ptr {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1e723c -> BB75a1e7256 [color="green"];
+  BB75a1e723c -> BB75a1e724a [color="red"];
+  BB75a1e724a -> BB75a1e7259 [color="green"];
+  BB75a1e724a -> BB75a1e7256 [color="red"];
+  BB75a1e7259 -> BB75a1e7256 [color="green"];
+  BB75a1e7259 -> BB75a1e725e [color="red"];
+  BB75a1e725e -> BB75a1e7256 [color="blue"];
+}

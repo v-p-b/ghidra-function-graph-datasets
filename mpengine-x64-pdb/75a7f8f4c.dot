@@ -1,0 +1,11 @@
+digraph SetRebootRequired {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7f8f4c -> BB75a7f8f61 [color="red"];
+  BB75a7f8f61 -> BB75a7f8f84 [color="green"];
+  BB75a7f8f61 -> BB75a7f8f66 [color="red"];
+  BB75a7f8f66 -> BB75a7f8f7f [color="green"];
+  BB75a7f8f66 -> BB75a7f8f79 [color="red"];
+  BB75a7f8f79 -> BB75a7f8f61 [color="blue"];
+  BB75a7f8f7f -> BB75a7f8f84 [color="blue"];
+}

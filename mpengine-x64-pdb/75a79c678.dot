@@ -1,0 +1,16 @@
+digraph common_end_thread {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a79c678 -> BB75a79c6d0 [color="green"];
+  BB75a79c678 -> BB75a79c68e [color="red"];
+  BB75a79c68e -> BB75a79c6d0 [color="green"];
+  BB75a79c68e -> BB75a79c69a [color="red"];
+  BB75a79c69a -> BB75a79c6a5 [color="green"];
+  BB75a79c69a -> BB75a79c6a0 [color="red"];
+  BB75a79c6a0 -> BB75a79c6a5 [color="red"];
+  BB75a79c6a5 -> BB75a79c6b9 [color="green"];
+  BB75a79c6a5 -> BB75a79c6b3 [color="red"];
+  BB75a79c6b3 -> BB75a79c6b9 [color="red"];
+  BB75a79c6b9 -> BB75a79c6d0 [color="green"];
+  BB75a79c6b9 -> BB75a79c6c7 [color="red"];
+}

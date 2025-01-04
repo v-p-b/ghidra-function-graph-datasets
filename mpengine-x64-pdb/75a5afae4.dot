@@ -1,0 +1,13 @@
+digraph IsAvailable {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5afae4 -> BB75a5afb1f [color="green"];
+  BB75a5afae4 -> BB75a5afaff [color="red"];
+  BB75a5afaff -> BB75a5afb16 [color="green"];
+  BB75a5afaff -> BB75a5afb09 [color="red"];
+  BB75a5afb09 -> BB75a5afb10 [color="red"];
+  BB75a5afb16 -> BB75a5afb09 [color="green"];
+  BB75a5afb16 -> BB75a5afb1b [color="red"];
+  BB75a5afb1b -> BB75a5afb09 [color="blue"];
+  BB75a5afb1f -> BB75a5afb10 [color="blue"];
+}

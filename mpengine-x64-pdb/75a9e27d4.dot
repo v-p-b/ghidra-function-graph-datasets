@@ -1,0 +1,14 @@
+digraph set_current_classifier_device {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9e27d4 -> BB75a9e281c [color="green"];
+  BB75a9e27d4 -> BB75a9e280b [color="red"];
+  BB75a9e280b -> BB75a9e2818 [color="green"];
+  BB75a9e280b -> BB75a9e2813 [color="red"];
+  BB75a9e2813 -> BB75a9e2818 [color="red"];
+  BB75a9e2818 -> BB75a9e2828 [color="blue"];
+  BB75a9e281c -> BB75a9e2826 [color="green"];
+  BB75a9e281c -> BB75a9e2821 [color="red"];
+  BB75a9e2821 -> BB75a9e2826 [color="red"];
+  BB75a9e2826 -> BB75a9e2828 [color="blue"];
+}

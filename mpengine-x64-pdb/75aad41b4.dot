@@ -1,0 +1,17 @@
+digraph max_expand {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aad41b4 -> BB75aad4201 [color="green"];
+  BB75aad41b4 -> BB75aad41e0 [color="red"];
+  BB75aad41e0 -> BB75aad41e3 [color="blue"];
+  BB75aad41e3 -> BB75aad4201 [color="green"];
+  BB75aad41e3 -> BB75aad41f5 [color="red"];
+  BB75aad41f5 -> BB75aad41e3 [color="green"];
+  BB75aad41f5 -> BB75aad4201 [color="red"];
+  BB75aad4201 -> BB75aad4220 [color="green"];
+  BB75aad4201 -> BB75aad4206 [color="red"];
+  BB75aad4206 -> BB75aad4222 [color="green"];
+  BB75aad4206 -> BB75aad421b [color="red"];
+  BB75aad421b -> BB75aad4201 [color="blue"];
+  BB75aad4220 -> BB75aad4222 [color="blue"];
+}

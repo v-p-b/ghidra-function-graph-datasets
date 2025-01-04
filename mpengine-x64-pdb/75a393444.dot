@@ -1,0 +1,12 @@
+digraph ~AutoSelfVfsInject {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a393444 -> BB75a393491 [color="green"];
+  BB75a393444 -> BB75a393460 [color="red"];
+  BB75a393460 -> BB75a393491 [color="green"];
+  BB75a393460 -> BB75a39346a [color="red"];
+  BB75a39346a -> BB75a39348b [color="green"];
+  BB75a39346a -> BB75a39347a [color="red"];
+  BB75a39347a -> BB75a39348b [color="red"];
+  BB75a393491 -> BB75a39346a [color="blue"];
+}

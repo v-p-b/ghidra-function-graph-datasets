@@ -1,0 +1,27 @@
+digraph QueryPathFromHive {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a435d50 -> BB75a435e49 [color="green"];
+  BB75a435d50 -> BB75a435d80 [color="red"];
+  BB75a435d80 -> BB75a435e53 [color="green"];
+  BB75a435d80 -> BB75a435d89 [color="red"];
+  BB75a435d89 -> BB75a435e2f [color="green"];
+  BB75a435d89 -> BB75a435da1 [color="red"];
+  BB75a435da1 -> BB75a435e23 [color="green"];
+  BB75a435da1 -> BB75a435dbc [color="red"];
+  BB75a435dbc -> BB75a435def [color="green"];
+  BB75a435dbc -> BB75a435dcb [color="red"];
+  BB75a435dcb -> BB75a435e42 [color="green"];
+  BB75a435dcb -> BB75a435dec [color="red"];
+  BB75a435dec -> BB75a435def [color="blue"];
+  BB75a435def -> BB75a435e08 [color="red"];
+  BB75a435e23 -> BB75a435e08 [color="blue"];
+  BB75a435e2f -> BB75a435e5d [color="green"];
+  BB75a435e2f -> BB75a435e42 [color="red"];
+  BB75a435e42 -> BB75a435e08 [color="blue"];
+  BB75a435e49 -> BB75a435d80 [color="blue"];
+  BB75a435e53 -> BB75a435d89 [color="blue"];
+  BB75a435e5d -> BB75a435e42 [color="green"];
+  BB75a435e5d -> BB75a435e63 [color="red"];
+  BB75a435e63 -> BB75a435e42 [color="blue"];
+}

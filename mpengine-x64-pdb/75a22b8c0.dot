@@ -1,0 +1,26 @@
+digraph TestIsNriExcludedProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a22b8c0 -> BB75a22ba4b [color="green"];
+  BB75a22b8c0 -> BB75a22b912 [color="red"];
+  BB75a22b912 -> BB75a22b92d [color="green"];
+  BB75a22b912 -> BB75a22b92a [color="red"];
+  BB75a22b92a -> BB75a22b92d [color="blue"];
+  BB75a22b92d -> BB75a22ba5e [color="green"];
+  BB75a22b92d -> BB75a22b954 [color="red"];
+  BB75a22b954 -> BB75a22ba43 [color="green"];
+  BB75a22b954 -> BB75a22b97b [color="red"];
+  BB75a22b97b -> BB75a22ba0a [color="green"];
+  BB75a22b97b -> BB75a22b98d [color="red"];
+  BB75a22b98d -> BB75a22b9d0 [color="green"];
+  BB75a22b98d -> BB75a22b9a8 [color="red"];
+  BB75a22b9a8 -> BB75a22b9d0 [color="red"];
+  BB75a22b9d0 -> BB75a22ba54 [color="green"];
+  BB75a22b9d0 -> BB75a22ba0a [color="red"];
+  BB75a22ba0a -> BB75a22ba1c [color="red"];
+  BB75a22ba1c -> BB75a22ba1e [color="blue"];
+  BB75a22ba43 -> BB75a22b97b [color="blue"];
+  BB75a22ba4b -> BB75a22ba1c [color="blue"];
+  BB75a22ba54 -> BB75a22ba5e [color="red"];
+  BB75a22ba5e -> BB75a22ba1e [color="blue"];
+}

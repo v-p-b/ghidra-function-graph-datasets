@@ -1,0 +1,30 @@
+digraph TestIsProcessExemptedByScenario {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a22caf8 -> BB75a22cb91 [color="green"];
+  BB75a22caf8 -> BB75a22cb1d [color="red"];
+  BB75a22cb1d -> BB75a22cb79 [color="green"];
+  BB75a22cb1d -> BB75a22cb25 [color="red"];
+  BB75a22cb25 -> BB75a22cb79 [color="green"];
+  BB75a22cb25 -> BB75a22cb2c [color="red"];
+  BB75a22cb2c -> BB75a22cb55 [color="green"];
+  BB75a22cb2c -> BB75a22cb52 [color="red"];
+  BB75a22cb52 -> BB75a22cb55 [color="blue"];
+  BB75a22cb55 -> BB75a22cb61 [color="green"];
+  BB75a22cb55 -> BB75a22cb5d [color="red"];
+  BB75a22cb5d -> BB75a22cb7b [color="blue"];
+  BB75a22cb61 -> BB75a22cb69 [color="blue"];
+  BB75a22cb69 -> BB75a22cb79 [color="green"];
+  BB75a22cb69 -> BB75a22cb6e [color="red"];
+  BB75a22cb6e -> BB75a22cba8 [color="green"];
+  BB75a22cb6e -> BB75a22cb73 [color="red"];
+  BB75a22cb73 -> BB75a22cb69 [color="blue"];
+  BB75a22cb79 -> BB75a22cb7b [color="blue"];
+  BB75a22cb91 -> BB75a22cbac [color="green"];
+  BB75a22cb91 -> BB75a22cba4 [color="red"];
+  BB75a22cba4 -> BB75a22cb7b [color="blue"];
+  BB75a22cba8 -> BB75a22cb7b [color="blue"];
+  BB75a22cbac -> BB75a22cba4 [color="green"];
+  BB75a22cbac -> BB75a22cbb2 [color="red"];
+  BB75a22cbb2 -> BB75a22cba4 [color="blue"];
+}

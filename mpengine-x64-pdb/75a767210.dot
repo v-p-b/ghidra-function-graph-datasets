@@ -1,0 +1,13 @@
+digraph startsWithPipes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a767210 -> BB75a76724c [color="green"];
+  BB75a767210 -> BB75a767225 [color="red"];
+  BB75a767225 -> BB75a76724c [color="green"];
+  BB75a767225 -> BB75a76723c [color="red"];
+  BB75a76723c -> BB75a76724a [color="green"];
+  BB75a76723c -> BB75a767243 [color="red"];
+  BB75a767243 -> BB75a76724c [color="green"];
+  BB75a767243 -> BB75a76724a [color="red"];
+  BB75a76724a -> BB75a76724c [color="blue"];
+}

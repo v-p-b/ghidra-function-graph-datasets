@@ -1,0 +1,11 @@
+digraph WrapperCertFindCertificateInStore {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a76cb20 -> BB75a76cb6d [color="green"];
+  BB75a76cb20 -> BB75a76cb4b [color="red"];
+  BB75a76cb4b -> BB75a76cb66 [color="green"];
+  BB75a76cb4b -> BB75a76cb57 [color="red"];
+  BB75a76cb57 -> BB75a76cb91 [color="blue"];
+  BB75a76cb66 -> BB75a76cb6d [color="blue"];
+  BB75a76cb6d -> BB75a76cb91 [color="red"];
+}

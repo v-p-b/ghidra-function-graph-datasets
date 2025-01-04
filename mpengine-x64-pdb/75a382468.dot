@@ -1,0 +1,18 @@
+digraph SendCopyEvent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a382468 -> BB75a38248d [color="green"];
+  BB75a382468 -> BB75a382483 [color="red"];
+  BB75a38248d -> BB75a382483 [color="green"];
+  BB75a38248d -> BB75a382496 [color="red"];
+  BB75a382496 -> BB75a382483 [color="green"];
+  BB75a382496 -> BB75a3824a8 [color="red"];
+  BB75a3824a8 -> BB75a382483 [color="green"];
+  BB75a3824a8 -> BB75a3824b4 [color="red"];
+  BB75a3824b4 -> BB75a38264d [color="green"];
+  BB75a3824b4 -> BB75a3824ca [color="red"];
+  BB75a3824ca -> BB75a38264d [color="green"];
+  BB75a3824ca -> BB75a3824e8 [color="red"];
+  BB75a3824e8 -> BB75a38264d [color="red"];
+  BB75a38264d -> BB75a382483 [color="blue"];
+}

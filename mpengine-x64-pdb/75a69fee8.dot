@@ -1,0 +1,15 @@
+digraph ZSTD_safecopyLiterals {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a69fee8 -> BB75a69ff49 [color="green"];
+  BB75a69fee8 -> BB75a69fef0 [color="red"];
+  BB75a69fef0 -> BB75a69ff31 [color="green"];
+  BB75a69fef0 -> BB75a69ff08 [color="red"];
+  BB75a69ff08 -> BB75a69ff10 [color="blue"];
+  BB75a69ff10 -> BB75a69ff10 [color="green"];
+  BB75a69ff10 -> BB75a69ff31 [color="red"];
+  BB75a69ff31 -> BB75a69ff49 [color="blue"];
+  BB75a69ff3f -> BB75a69ff49 [color="blue"];
+  BB75a69ff49 -> BB75a69ff3f [color="green"];
+  BB75a69ff49 -> BB75a69ff4e [color="red"];
+}

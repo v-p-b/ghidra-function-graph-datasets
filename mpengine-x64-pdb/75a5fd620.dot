@@ -1,0 +1,25 @@
+digraph ADVAPI32_DLL_RegSetValueExW {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5fd620 -> BB75a5fd7c4 [color="green"];
+  BB75a5fd620 -> BB75a5fd6a3 [color="red"];
+  BB75a5fd6a3 -> BB75a5fd6d9 [color="green"];
+  BB75a5fd6a3 -> BB75a5fd6ac [color="red"];
+  BB75a5fd6ac -> BB75a5fd6d9 [color="red"];
+  BB75a5fd6d9 -> BB75a5fd7ba [color="green"];
+  BB75a5fd6d9 -> BB75a5fd703 [color="red"];
+  BB75a5fd703 -> BB75a5fd7d3 [color="green"];
+  BB75a5fd703 -> BB75a5fd733 [color="red"];
+  BB75a5fd733 -> BB75a5fd73e [color="blue"];
+  BB75a5fd73e -> BB75a5fd758 [color="green"];
+  BB75a5fd73e -> BB75a5fd74c [color="red"];
+  BB75a5fd74c -> BB75a5fd758 [color="blue"];
+  BB75a5fd758 -> BB75a5fd787 [color="green"];
+  BB75a5fd758 -> BB75a5fd770 [color="red"];
+  BB75a5fd770 -> BB75a5fd787 [color="red"];
+  BB75a5fd7ba -> BB75a5fd73e [color="blue"];
+  BB75a5fd7c4 -> BB75a5fd6a3 [color="green"];
+  BB75a5fd7c4 -> BB75a5fd7ce [color="red"];
+  BB75a5fd7ce -> BB75a5fd6d9 [color="blue"];
+  BB75a5fd7d3 -> BB75a5fd73e [color="blue"];
+}

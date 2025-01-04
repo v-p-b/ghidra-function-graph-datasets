@@ -1,0 +1,16 @@
+digraph GetPvpRing {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a764980 -> BB75a7649bd [color="green"];
+  BB75a764980 -> BB75a7649b6 [color="red"];
+  BB75a7649b6 -> BB75a7649e7 [color="green"];
+  BB75a7649b6 -> BB75a7649bb [color="red"];
+  BB75a7649bb -> BB75a7649ed [color="blue"];
+  BB75a7649bd -> BB75a7649da [color="green"];
+  BB75a7649bd -> BB75a7649d6 [color="red"];
+  BB75a7649d6 -> BB75a7649da [color="blue"];
+  BB75a7649da -> BB75a7649ed [color="green"];
+  BB75a7649da -> BB75a7649e2 [color="red"];
+  BB75a7649e2 -> BB75a7649e7 [color="blue"];
+  BB75a7649e7 -> BB75a7649ed [color="red"];
+}

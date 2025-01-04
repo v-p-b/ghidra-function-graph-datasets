@@ -1,0 +1,10 @@
+digraph teledisk_ismine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5d6b20 -> BB75a5d6b3c [color="green"];
+  BB75a5d6b20 -> BB75a5d6b32 [color="red"];
+  BB75a5d6b32 -> BB75a5d6b57 [color="green"];
+  BB75a5d6b32 -> BB75a5d6b3c [color="red"];
+  BB75a5d6b3c -> BB75a5d6b52 [color="red"];
+  BB75a5d6b57 -> BB75a5d6b52 [color="blue"];
+}

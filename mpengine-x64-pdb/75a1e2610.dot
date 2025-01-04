@@ -1,0 +1,23 @@
+digraph ~AutoEtwExpensiveOperation {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1e2610 -> BB75a1e2725 [color="green"];
+  BB75a1e2610 -> BB75a1e2626 [color="red"];
+  BB75a1e2626 -> BB75a1e2725 [color="green"];
+  BB75a1e2626 -> BB75a1e2636 [color="red"];
+  BB75a1e2636 -> BB75a1e2733 [color="green"];
+  BB75a1e2636 -> BB75a1e26d0 [color="red"];
+  BB75a1e26d0 -> BB75a1e26e2 [color="green"];
+  BB75a1e26d0 -> BB75a1e26df [color="red"];
+  BB75a1e26df -> BB75a1e26e2 [color="blue"];
+  BB75a1e26e2 -> BB75a1e26ef [color="green"];
+  BB75a1e26e2 -> BB75a1e26ec [color="red"];
+  BB75a1e26ec -> BB75a1e26ef [color="blue"];
+  BB75a1e26ef -> BB75a1e270f [color="red"];
+  BB75a1e2725 -> BB75a1e270f [color="green"];
+  BB75a1e2725 -> BB75a1e272e [color="red"];
+  BB75a1e272e -> BB75a1e2636 [color="blue"];
+  BB75a1e2733 -> BB75a1e270f [color="green"];
+  BB75a1e2733 -> BB75a1e273c [color="red"];
+  BB75a1e273c -> BB75a1e26d0 [color="blue"];
+}

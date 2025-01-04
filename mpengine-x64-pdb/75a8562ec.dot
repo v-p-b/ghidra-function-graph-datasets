@@ -1,0 +1,20 @@
+digraph GetEtwPidFromRunningProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8562ec -> BB75a856355 [color="green"];
+  BB75a8562ec -> BB75a856320 [color="red"];
+  BB75a856320 -> BB75a856351 [color="green"];
+  BB75a856320 -> BB75a856333 [color="red"];
+  BB75a856333 -> BB75a856351 [color="green"];
+  BB75a856333 -> BB75a856339 [color="red"];
+  BB75a856339 -> BB75a856351 [color="red"];
+  BB75a856351 -> BB75a8563a2 [color="blue"];
+  BB75a856355 -> BB75a8563a0 [color="green"];
+  BB75a856355 -> BB75a856367 [color="red"];
+  BB75a856367 -> BB75a856351 [color="green"];
+  BB75a856367 -> BB75a85637a [color="red"];
+  BB75a85637a -> BB75a856351 [color="green"];
+  BB75a85637a -> BB75a856380 [color="red"];
+  BB75a856380 -> BB75a856351 [color="blue"];
+  BB75a8563a0 -> BB75a8563a2 [color="blue"];
+}

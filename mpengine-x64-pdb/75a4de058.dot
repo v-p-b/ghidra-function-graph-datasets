@@ -1,0 +1,10 @@
+digraph clearLeaf {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4de058 -> BB75a4de06f [color="green"];
+  BB75a4de058 -> BB75a4de06a [color="red"];
+  BB75a4de06a -> BB75a4de06f [color="red"];
+  BB75a4de06f -> BB75a4de083 [color="green"];
+  BB75a4de06f -> BB75a4de07e [color="red"];
+  BB75a4de07e -> BB75a4de083 [color="red"];
+}

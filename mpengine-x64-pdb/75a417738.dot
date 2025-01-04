@@ -1,0 +1,11 @@
+digraph TryInterlockedWait {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a417738 -> BB75a41773f [color="blue"];
+  BB75a41773f -> BB75a417753 [color="green"];
+  BB75a41773f -> BB75a41774c [color="red"];
+  BB75a41774c -> BB75a41774e [color="blue"];
+  BB75a417753 -> BB75a41773f [color="green"];
+  BB75a417753 -> BB75a417764 [color="red"];
+  BB75a417764 -> BB75a41774e [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph msil_esc_call_emu64 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1e6440 -> BB75a1e645c [color="green"];
+  BB75a1e6440 -> BB75a1e6452 [color="red"];
+  BB75a1e6452 -> BB75a1e64ec [color="blue"];
+  BB75a1e645c -> BB75a1e64df [color="green"];
+  BB75a1e645c -> BB75a1e64ad [color="red"];
+  BB75a1e64ad -> BB75a1e64d8 [color="green"];
+  BB75a1e64ad -> BB75a1e64c0 [color="red"];
+  BB75a1e64c0 -> BB75a1e64df [color="blue"];
+  BB75a1e64d8 -> BB75a1e64df [color="blue"];
+  BB75a1e64df -> BB75a1e64ec [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph timer_tick_ex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a32ade0 -> BB75a32ae46 [color="green"];
+  BB75a32ade0 -> BB75a32adfb [color="red"];
+  BB75a32adfb -> BB75a32ae4d [color="green"];
+  BB75a32adfb -> BB75a32ae18 [color="red"];
+  BB75a32ae18 -> BB75a32ae54 [color="green"];
+  BB75a32ae18 -> BB75a32ae2b [color="red"];
+  BB75a32ae46 -> BB75a32adfb [color="blue"];
+  BB75a32ae4d -> BB75a32ae18 [color="blue"];
+  BB75a32ae54 -> BB75a32ae2b [color="blue"];
+}

@@ -1,0 +1,18 @@
+digraph CleanupBlocks {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5855d8 -> BB75a585652 [color="green"];
+  BB75a5855d8 -> BB75a5855fb [color="red"];
+  BB75a5855fb -> BB75a58561a [color="green"];
+  BB75a5855fb -> BB75a585601 [color="red"];
+  BB75a585601 -> BB75a585630 [color="green"];
+  BB75a585601 -> BB75a585614 [color="red"];
+  BB75a585614 -> BB75a585601 [color="green"];
+  BB75a585614 -> BB75a58561a [color="red"];
+  BB75a585630 -> BB75a585614 [color="green"];
+  BB75a585630 -> BB75a585638 [color="red"];
+  BB75a585638 -> BB75a585614 [color="blue"];
+  BB75a585652 -> BB75a5855fb [color="green"];
+  BB75a585652 -> BB75a585657 [color="red"];
+  BB75a585657 -> BB75a5855fb [color="blue"];
+}

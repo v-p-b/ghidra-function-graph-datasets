@@ -1,0 +1,10 @@
+digraph GetThis {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2c3d04 -> BB75a2c3d67 [color="green"];
+  BB75a2c3d04 -> BB75a2c3d4b [color="red"];
+  BB75a2c3d4b -> BB75a2c3d67 [color="green"];
+  BB75a2c3d4b -> BB75a2c3d51 [color="red"];
+  BB75a2c3d51 -> BB75a2c3d61 [color="red"];
+  BB75a2c3d67 -> BB75a2c3d61 [color="blue"];
+}

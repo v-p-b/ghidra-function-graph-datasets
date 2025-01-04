@@ -1,0 +1,27 @@
+digraph create_cfi_model {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a93ff00 -> BB75a93ff27 [color="green"];
+  BB75a93ff00 -> BB75a93ff20 [color="red"];
+  BB75a93ff20 -> BB75a93ffe6 [color="blue"];
+  BB75a93ff27 -> BB75a93ff5e [color="green"];
+  BB75a93ff27 -> BB75a93ff54 [color="red"];
+  BB75a93ff54 -> BB75a93ff5e [color="green"];
+  BB75a93ff54 -> BB75a93ff5a [color="red"];
+  BB75a93ff5a -> BB75a93ff60 [color="blue"];
+  BB75a93ff5e -> BB75a93ff60 [color="blue"];
+  BB75a93ff60 -> BB75a93ffa0 [color="green"];
+  BB75a93ff60 -> BB75a93ff6c [color="red"];
+  BB75a93ff6c -> BB75a93ff85 [color="green"];
+  BB75a93ff6c -> BB75a93ff78 [color="red"];
+  BB75a93ff78 -> BB75a93ff87 [color="blue"];
+  BB75a93ff85 -> BB75a93ff87 [color="blue"];
+  BB75a93ff87 -> BB75a93ffc3 [color="blue"];
+  BB75a93ffa0 -> BB75a93ffc3 [color="green"];
+  BB75a93ffa0 -> BB75a93ffbe [color="red"];
+  BB75a93ffbe -> BB75a93ffc3 [color="red"];
+  BB75a93ffc3 -> BB75a93ffe4 [color="green"];
+  BB75a93ffc3 -> BB75a93ffdf [color="red"];
+  BB75a93ffdf -> BB75a93ffe4 [color="red"];
+  BB75a93ffe4 -> BB75a93ffe6 [color="blue"];
+}

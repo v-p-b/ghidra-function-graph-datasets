@@ -1,0 +1,14 @@
+digraph MpSampleBlockUploadParallelism {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6f2cb0 -> BB75a6f2cd3 [color="green"];
+  BB75a6f2cb0 -> BB75a6f2cc7 [color="red"];
+  BB75a6f2cc7 -> BB75a6f2cd3 [color="green"];
+  BB75a6f2cc7 -> BB75a6f2ccf [color="red"];
+  BB75a6f2ccf -> BB75a6f2d01 [color="blue"];
+  BB75a6f2cd3 -> BB75a6f2d01 [color="green"];
+  BB75a6f2cd3 -> BB75a6f2ce6 [color="red"];
+  BB75a6f2ce6 -> BB75a6f2d01 [color="green"];
+  BB75a6f2ce6 -> BB75a6f2cec [color="red"];
+  BB75a6f2cec -> BB75a6f2d01 [color="red"];
+}

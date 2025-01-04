@@ -1,0 +1,24 @@
+digraph LogMonitoringFlagToSupportLogs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a60fe80 -> BB75a60feb1 [color="green"];
+  BB75a60fe80 -> BB75a60fea1 [color="red"];
+  BB75a60feb1 -> BB75a60fea1 [color="green"];
+  BB75a60feb1 -> BB75a60febd [color="red"];
+  BB75a60febd -> BB75a60fea1 [color="green"];
+  BB75a60febd -> BB75a60fec6 [color="red"];
+  BB75a60fec6 -> BB75a60fea1 [color="green"];
+  BB75a60fec6 -> BB75a60fecf [color="red"];
+  BB75a60fecf -> BB75a60ff05 [color="green"];
+  BB75a60fecf -> BB75a60fedf [color="red"];
+  BB75a60fedf -> BB75a60ff05 [color="green"];
+  BB75a60fedf -> BB75a60fef2 [color="red"];
+  BB75a60fef2 -> BB75a60ff2b [color="green"];
+  BB75a60fef2 -> BB75a60ff05 [color="red"];
+  BB75a60ff05 -> BB75a60ff2b [color="red"];
+  BB75a60ff2b -> BB75a60fea1 [color="green"];
+  BB75a60ff2b -> BB75a60ff42 [color="red"];
+  BB75a60ff42 -> BB75a60fea1 [color="green"];
+  BB75a60ff42 -> BB75a60ff4c [color="red"];
+  BB75a60ff4c -> BB75a60fea1 [color="blue"];
+}

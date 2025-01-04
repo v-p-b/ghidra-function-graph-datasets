@@ -1,0 +1,15 @@
+digraph BmEvaluator {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a666fdc -> BB75a66703b [color="green"];
+  BB75a666fdc -> BB75a667014 [color="red"];
+  BB75a667014 -> BB75a667021 [color="red"];
+  BB75a667021 -> BB75a667033 [color="green"];
+  BB75a667021 -> BB75a667029 [color="red"];
+  BB75a667029 -> BB75a667033 [color="red"];
+  BB75a66703b -> BB75a667021 [color="green"];
+  BB75a66703b -> BB75a66704e [color="red"];
+  BB75a66704e -> BB75a667021 [color="green"];
+  BB75a66704e -> BB75a667054 [color="red"];
+  BB75a667054 -> BB75a667021 [color="blue"];
+}

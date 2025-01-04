@@ -1,0 +1,21 @@
+digraph RemoveInheritedResourcesFromThreat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aab5fa4 -> BB75aab60a0 [color="green"];
+  BB75aab5fa4 -> BB75aab5ffe [color="red"];
+  BB75aab5ffe -> BB75aab6027 [color="green"];
+  BB75aab5ffe -> BB75aab6020 [color="red"];
+  BB75aab6020 -> BB75aab6089 [color="blue"];
+  BB75aab6027 -> BB75aab606b [color="green"];
+  BB75aab6027 -> BB75aab6041 [color="red"];
+  BB75aab6041 -> BB75aab606b [color="green"];
+  BB75aab6041 -> BB75aab605b [color="red"];
+  BB75aab605b -> BB75aab6089 [color="blue"];
+  BB75aab606b -> BB75aab6089 [color="green"];
+  BB75aab606b -> BB75aab6077 [color="red"];
+  BB75aab6077 -> BB75aab6089 [color="green"];
+  BB75aab6077 -> BB75aab6086 [color="red"];
+  BB75aab6086 -> BB75aab6089 [color="blue"];
+  BB75aab6089 -> BB75aab5ffe [color="green"];
+  BB75aab6089 -> BB75aab60a0 [color="red"];
+}

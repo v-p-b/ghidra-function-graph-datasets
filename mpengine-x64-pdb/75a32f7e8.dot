@@ -1,0 +1,8 @@
+digraph in_loop {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a32f7e8 -> BB75a32f807 [color="green"];
+  BB75a32f7e8 -> BB75a32f804 [color="red"];
+  BB75a32f807 -> BB75a32f804 [color="green"];
+  BB75a32f807 -> BB75a32f817 [color="red"];
+}

@@ -1,0 +1,15 @@
+digraph MakeDeviceTableEntry<AntiRootkit::Win64DeviceObject> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acff5b8 -> BB75acff5f6 [color="green"];
+  BB75acff5b8 -> BB75acff5f3 [color="red"];
+  BB75acff5f3 -> BB75acff5f6 [color="blue"];
+  BB75acff5f6 -> BB75acff67f [color="green"];
+  BB75acff5f6 -> BB75acff633 [color="red"];
+  BB75acff633 -> BB75acff67f [color="green"];
+  BB75acff633 -> BB75acff677 [color="red"];
+  BB75acff677 -> BB75acff67f [color="red"];
+  BB75acff67f -> BB75acff77b [color="green"];
+  BB75acff67f -> BB75acff770 [color="red"];
+  BB75acff770 -> BB75acff77b [color="red"];
+}

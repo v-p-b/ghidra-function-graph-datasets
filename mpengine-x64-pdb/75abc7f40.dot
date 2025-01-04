@@ -1,0 +1,22 @@
+digraph NetEmuAPI_SizeOfType {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abc7f40 -> BB75abc806e [color="green"];
+  BB75abc7f40 -> BB75abc7fac [color="red"];
+  BB75abc7fac -> BB75abc806e [color="green"];
+  BB75abc7fac -> BB75abc7fcc [color="red"];
+  BB75abc7fcc -> BB75abc806e [color="green"];
+  BB75abc7fcc -> BB75abc7fee [color="red"];
+  BB75abc7fee -> BB75abc806e [color="green"];
+  BB75abc7fee -> BB75abc800c [color="red"];
+  BB75abc800c -> BB75abc8021 [color="green"];
+  BB75abc800c -> BB75abc801c [color="red"];
+  BB75abc801c -> BB75abc8073 [color="blue"];
+  BB75abc8021 -> BB75abc805d [color="green"];
+  BB75abc8021 -> BB75abc804e [color="red"];
+  BB75abc804e -> BB75abc8060 [color="blue"];
+  BB75abc805d -> BB75abc8060 [color="blue"];
+  BB75abc8060 -> BB75abc807d [color="blue"];
+  BB75abc806e -> BB75abc8073 [color="blue"];
+  BB75abc8073 -> BB75abc807d [color="red"];
+}

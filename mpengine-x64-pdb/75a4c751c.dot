@@ -1,0 +1,13 @@
+digraph pfnGetWinVer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4c751c -> BB75a4c756c [color="green"];
+  BB75a4c751c -> BB75a4c753e [color="red"];
+  BB75a4c753e -> BB75a4c756c [color="green"];
+  BB75a4c753e -> BB75a4c7550 [color="red"];
+  BB75a4c7550 -> BB75a4c7568 [color="green"];
+  BB75a4c7550 -> BB75a4c7561 [color="red"];
+  BB75a4c7561 -> BB75a4c7568 [color="blue"];
+  BB75a4c7568 -> BB75a4c7578 [color="blue"];
+  BB75a4c756c -> BB75a4c7578 [color="blue"];
+}

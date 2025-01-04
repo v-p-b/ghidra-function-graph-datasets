@@ -1,0 +1,12 @@
+digraph IsExcludedAttribute {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5e9d18 -> BB75a5e9d78 [color="green"];
+  BB75a5e9d18 -> BB75a5e9d26 [color="red"];
+  BB75a5e9d26 -> BB75a5e9d78 [color="green"];
+  BB75a5e9d26 -> BB75a5e9d3f [color="red"];
+  BB75a5e9d3f -> BB75a5e9d78 [color="green"];
+  BB75a5e9d3f -> BB75a5e9d58 [color="red"];
+  BB75a5e9d58 -> BB75a5e9d72 [color="red"];
+  BB75a5e9d78 -> BB75a5e9d72 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph AllocMemScanTele {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acd623c -> BB75acd62ac [color="green"];
+  BB75acd623c -> BB75acd627c [color="red"];
+  BB75acd627c -> BB75acd62af [color="blue"];
+  BB75acd62ac -> BB75acd62af [color="blue"];
+  BB75acd62af -> BB75acd62be [color="green"];
+  BB75acd62af -> BB75acd62b9 [color="red"];
+  BB75acd62b9 -> BB75acd62be [color="red"];
+}

@@ -1,0 +1,27 @@
+digraph RemoveSIDFromRegkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a51ba44 -> BB75a51bb3b [color="green"];
+  BB75a51ba44 -> BB75a51ba62 [color="red"];
+  BB75a51ba62 -> BB75a51bb45 [color="green"];
+  BB75a51ba62 -> BB75a51ba70 [color="red"];
+  BB75a51ba70 -> BB75a51ba74 [color="blue"];
+  BB75a51ba74 -> BB75a51ba74 [color="green"];
+  BB75a51ba74 -> BB75a51ba7d [color="red"];
+  BB75a51ba7d -> BB75a51ba95 [color="green"];
+  BB75a51ba7d -> BB75a51ba83 [color="red"];
+  BB75a51ba83 -> BB75a51ba88 [color="blue"];
+  BB75a51ba95 -> BB75a51baa3 [color="green"];
+  BB75a51ba95 -> BB75a51ba9f [color="red"];
+  BB75a51ba9f -> BB75a51ba88 [color="blue"];
+  BB75a51baa3 -> BB75a51bacc [color="green"];
+  BB75a51baa3 -> BB75a51babb [color="red"];
+  BB75a51babb -> BB75a51ba88 [color="blue"];
+  BB75a51bacc -> BB75a51babb [color="green"];
+  BB75a51bacc -> BB75a51bb12 [color="red"];
+  BB75a51bb12 -> BB75a51ba9f [color="green"];
+  BB75a51bb12 -> BB75a51bb31 [color="red"];
+  BB75a51bb31 -> BB75a51ba9f [color="blue"];
+  BB75a51bb3b -> BB75a51ba62 [color="blue"];
+  BB75a51bb45 -> BB75a51ba70 [color="blue"];
+}

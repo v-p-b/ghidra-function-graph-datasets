@@ -1,0 +1,10 @@
+digraph call_binTM {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1fecf0 -> BB75a1fed3a [color="green"];
+  BB75a1fecf0 -> BB75a1fed20 [color="red"];
+  BB75a1fed20 -> BB75a1fed3a [color="green"];
+  BB75a1fed20 -> BB75a1fed36 [color="red"];
+  BB75a1fed36 -> BB75a1fed55 [color="blue"];
+  BB75a1fed3a -> BB75a1fed55 [color="red"];
+}

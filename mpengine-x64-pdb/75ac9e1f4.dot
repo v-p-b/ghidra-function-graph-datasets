@@ -1,0 +1,35 @@
+digraph IsBaseResourceTaskScheduler {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac9e1f4 -> BB75ac9e362 [color="green"];
+  BB75ac9e1f4 -> BB75ac9e21f [color="red"];
+  BB75ac9e21f -> BB75ac9e362 [color="green"];
+  BB75ac9e21f -> BB75ac9e22c [color="red"];
+  BB75ac9e22c -> BB75ac9e362 [color="green"];
+  BB75ac9e22c -> BB75ac9e237 [color="red"];
+  BB75ac9e237 -> BB75ac9e362 [color="green"];
+  BB75ac9e237 -> BB75ac9e242 [color="red"];
+  BB75ac9e242 -> BB75ac9e248 [color="blue"];
+  BB75ac9e248 -> BB75ac9e362 [color="green"];
+  BB75ac9e248 -> BB75ac9e25c [color="red"];
+  BB75ac9e25c -> BB75ac9e352 [color="green"];
+  BB75ac9e25c -> BB75ac9e27a [color="red"];
+  BB75ac9e27a -> BB75ac9e352 [color="green"];
+  BB75ac9e27a -> BB75ac9e285 [color="red"];
+  BB75ac9e285 -> BB75ac9e348 [color="green"];
+  BB75ac9e285 -> BB75ac9e298 [color="red"];
+  BB75ac9e298 -> BB75ac9e29d [color="blue"];
+  BB75ac9e29d -> BB75ac9e2e8 [color="green"];
+  BB75ac9e29d -> BB75ac9e2c5 [color="red"];
+  BB75ac9e2c5 -> BB75ac9e2e8 [color="blue"];
+  BB75ac9e2e8 -> BB75ac9e29d [color="green"];
+  BB75ac9e2e8 -> BB75ac9e33e [color="red"];
+  BB75ac9e33e -> BB75ac9e348 [color="blue"];
+  BB75ac9e348 -> BB75ac9e352 [color="green"];
+  BB75ac9e348 -> BB75ac9e34d [color="red"];
+  BB75ac9e34d -> BB75ac9e35d [color="green"];
+  BB75ac9e34d -> BB75ac9e352 [color="red"];
+  BB75ac9e352 -> BB75ac9e248 [color="blue"];
+  BB75ac9e35d -> BB75ac9e364 [color="blue"];
+  BB75ac9e362 -> BB75ac9e364 [color="blue"];
+}

@@ -1,0 +1,35 @@
+digraph _check_and_update_gpu_async_init_status {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9de3fc -> BB75a9de6a8 [color="green"];
+  BB75a9de3fc -> BB75a9de43f [color="red"];
+  BB75a9de43f -> BB75a9de57c [color="green"];
+  BB75a9de43f -> BB75a9de46a [color="red"];
+  BB75a9de46a -> BB75a9de574 [color="green"];
+  BB75a9de46a -> BB75a9de484 [color="red"];
+  BB75a9de484 -> BB75a9de574 [color="green"];
+  BB75a9de484 -> BB75a9de48e [color="red"];
+  BB75a9de48e -> BB75a9de532 [color="green"];
+  BB75a9de48e -> BB75a9de4d1 [color="red"];
+  BB75a9de4d1 -> BB75a9de532 [color="green"];
+  BB75a9de4d1 -> BB75a9de51c [color="red"];
+  BB75a9de51c -> BB75a9de532 [color="blue"];
+  BB75a9de532 -> BB75a9de574 [color="red"];
+  BB75a9de574 -> BB75a9de697 [color="blue"];
+  BB75a9de57c -> BB75a9de68d [color="green"];
+  BB75a9de57c -> BB75a9de592 [color="red"];
+  BB75a9de592 -> BB75a9de68d [color="green"];
+  BB75a9de592 -> BB75a9de59c [color="red"];
+  BB75a9de59c -> BB75a9de64d [color="green"];
+  BB75a9de59c -> BB75a9de5e5 [color="red"];
+  BB75a9de5e5 -> BB75a9de64d [color="green"];
+  BB75a9de5e5 -> BB75a9de637 [color="red"];
+  BB75a9de637 -> BB75a9de64d [color="blue"];
+  BB75a9de64d -> BB75a9de68d [color="red"];
+  BB75a9de68d -> BB75a9de697 [color="blue"];
+  BB75a9de697 -> BB75a9de78f [color="blue"];
+  BB75a9de6a8 -> BB75a9de72f [color="green"];
+  BB75a9de6a8 -> BB75a9de6de [color="red"];
+  BB75a9de6de -> BB75a9de78f [color="blue"];
+  BB75a9de72f -> BB75a9de78f [color="red"];
+}

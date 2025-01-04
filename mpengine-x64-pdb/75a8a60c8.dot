@@ -1,0 +1,15 @@
+digraph CheckQuickScanTime {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8a60c8 -> BB75a8a612e [color="green"];
+  BB75a8a60c8 -> BB75a8a60ec [color="red"];
+  BB75a8a60ec -> BB75a8a612e [color="green"];
+  BB75a8a60ec -> BB75a8a6107 [color="red"];
+  BB75a8a6107 -> BB75a8a611d [color="green"];
+  BB75a8a6107 -> BB75a8a6116 [color="red"];
+  BB75a8a6116 -> BB75a8a612e [color="blue"];
+  BB75a8a611d -> BB75a8a612c [color="green"];
+  BB75a8a611d -> BB75a8a6129 [color="red"];
+  BB75a8a6129 -> BB75a8a612c [color="blue"];
+  BB75a8a612c -> BB75a8a612e [color="blue"];
+}

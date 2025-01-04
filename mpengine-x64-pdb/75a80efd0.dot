@@ -1,0 +1,22 @@
+digraph ReserveResource {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a80efd0 -> BB75a80eff8 [color="green"];
+  BB75a80efd0 -> BB75a80eff3 [color="red"];
+  BB75a80eff3 -> BB75a80eff8 [color="red"];
+  BB75a80eff8 -> BB75a80f05f [color="green"];
+  BB75a80eff8 -> BB75a80f001 [color="red"];
+  BB75a80f001 -> BB75a80f021 [color="green"];
+  BB75a80f001 -> BB75a80f011 [color="red"];
+  BB75a80f011 -> BB75a80f023 [color="blue"];
+  BB75a80f021 -> BB75a80f023 [color="blue"];
+  BB75a80f023 -> BB75a80f05f [color="green"];
+  BB75a80f023 -> BB75a80f02c [color="red"];
+  BB75a80f02c -> BB75a80f058 [color="green"];
+  BB75a80f02c -> BB75a80f03f [color="red"];
+  BB75a80f03f -> BB75a80f058 [color="green"];
+  BB75a80f03f -> BB75a80f045 [color="red"];
+  BB75a80f045 -> BB75a80f058 [color="red"];
+  BB75a80f058 -> BB75a80f06d [color="blue"];
+  BB75a80f05f -> BB75a80f06d [color="red"];
+}

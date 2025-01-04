@@ -1,0 +1,15 @@
+digraph InitCount {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acd6510 -> BB75acd652a [color="green"];
+  BB75acd6510 -> BB75acd6525 [color="red"];
+  BB75acd6525 -> BB75acd652a [color="red"];
+  BB75acd652a -> BB75acd6553 [color="green"];
+  BB75acd652a -> BB75acd6530 [color="red"];
+  BB75acd6530 -> BB75acd6553 [color="green"];
+  BB75acd6530 -> BB75acd653f [color="red"];
+  BB75acd653f -> BB75acd6553 [color="green"];
+  BB75acd653f -> BB75acd654c [color="red"];
+  BB75acd654c -> BB75acd6559 [color="blue"];
+  BB75acd6553 -> BB75acd6559 [color="blue"];
+}

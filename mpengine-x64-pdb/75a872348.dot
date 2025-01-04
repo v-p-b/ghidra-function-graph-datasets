@@ -1,0 +1,23 @@
+digraph ThrottleBmSequentialReadNotification {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a872348 -> BB75a8723e5 [color="green"];
+  BB75a872348 -> BB75a87239d [color="red"];
+  BB75a87239d -> BB75a8723d1 [color="green"];
+  BB75a87239d -> BB75a8723b3 [color="red"];
+  BB75a8723b3 -> BB75a8723d1 [color="green"];
+  BB75a8723b3 -> BB75a8723b9 [color="red"];
+  BB75a8723b9 -> BB75a8723d1 [color="red"];
+  BB75a8723d1 -> BB75a8723fa [color="blue"];
+  BB75a8723e5 -> BB75a8723fa [color="red"];
+  BB75a8723fa -> BB75a872485 [color="green"];
+  BB75a8723fa -> BB75a87245c [color="red"];
+  BB75a87245c -> BB75a872472 [color="green"];
+  BB75a87245c -> BB75a87246d [color="red"];
+  BB75a87246d -> BB75a872485 [color="blue"];
+  BB75a872472 -> BB75a872485 [color="red"];
+  BB75a872485 -> BB75a87249d [color="green"];
+  BB75a872485 -> BB75a872495 [color="red"];
+  BB75a872495 -> BB75a87249d [color="red"];
+  BB75a87249d -> BB75a872501 [color="blue"];
+}

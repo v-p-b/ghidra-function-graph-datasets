@@ -1,0 +1,17 @@
+digraph blake2sp_update {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad22a58 -> BB75ad22b00 [color="green"];
+  BB75ad22a58 -> BB75ad22a9b [color="red"];
+  BB75ad22a9b -> BB75ad22ace [color="green"];
+  BB75ad22a9b -> BB75ad22aa0 [color="red"];
+  BB75ad22aa0 -> BB75ad22ace [color="red"];
+  BB75ad22ace -> BB75ad22ae9 [color="blue"];
+  BB75ad22ad8 -> BB75ad22ae9 [color="red"];
+  BB75ad22ae9 -> BB75ad22ad8 [color="green"];
+  BB75ad22ae9 -> BB75ad22af4 [color="red"];
+  BB75ad22af4 -> BB75ad22b00 [color="blue"];
+  BB75ad22b00 -> BB75ad22b25 [color="green"];
+  BB75ad22b00 -> BB75ad22b05 [color="red"];
+  BB75ad22b05 -> BB75ad22b25 [color="red"];
+}

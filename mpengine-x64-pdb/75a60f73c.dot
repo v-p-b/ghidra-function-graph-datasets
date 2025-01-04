@@ -1,0 +1,17 @@
+digraph GetValidatedExtensionExclusion {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a60f73c -> BB75a60f745 [color="blue"];
+  BB75a60f745 -> BB75a60f760 [color="green"];
+  BB75a60f745 -> BB75a60f74e [color="red"];
+  BB75a60f74e -> BB75a60f76d [color="green"];
+  BB75a60f74e -> BB75a60f754 [color="red"];
+  BB75a60f754 -> BB75a60f76d [color="green"];
+  BB75a60f754 -> BB75a60f75a [color="red"];
+  BB75a60f75a -> BB75a60f765 [color="green"];
+  BB75a60f75a -> BB75a60f760 [color="red"];
+  BB75a60f765 -> BB75a60f745 [color="blue"];
+  BB75a60f76d -> BB75a60f77a [color="green"];
+  BB75a60f76d -> BB75a60f775 [color="red"];
+  BB75a60f775 -> BB75a60f745 [color="blue"];
+}

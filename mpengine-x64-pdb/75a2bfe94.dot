@@ -1,0 +1,13 @@
+digraph siga_get_inherited_records {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2bfe94 -> BB75a2bfeb1 [color="green"];
+  BB75a2bfe94 -> BB75a2bfea9 [color="red"];
+  BB75a2bfea9 -> BB75a2bfeab [color="blue"];
+  BB75a2bfeb1 -> BB75a2bfea9 [color="green"];
+  BB75a2bfeb1 -> BB75a2bfec3 [color="red"];
+  BB75a2bfec3 -> BB75a2bfee3 [color="green"];
+  BB75a2bfec3 -> BB75a2bfecc [color="red"];
+  BB75a2bfecc -> BB75a2bfee3 [color="red"];
+  BB75a2bfee3 -> BB75a2bfeab [color="blue"];
+}

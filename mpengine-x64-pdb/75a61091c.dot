@@ -1,0 +1,31 @@
+digraph ShutdownOnProcessDetach {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a61091c -> BB75a610973 [color="green"];
+  BB75a61091c -> BB75a61093d [color="red"];
+  BB75a61093d -> BB75a610964 [color="green"];
+  BB75a61093d -> BB75a610949 [color="red"];
+  BB75a610949 -> BB75a610964 [color="green"];
+  BB75a610949 -> BB75a61094f [color="red"];
+  BB75a61094f -> BB75a610964 [color="red"];
+  BB75a610964 -> BB75a610973 [color="red"];
+  BB75a610973 -> BB75a610991 [color="green"];
+  BB75a610973 -> BB75a61097c [color="red"];
+  BB75a61097c -> BB75a61098a [color="green"];
+  BB75a61097c -> BB75a610985 [color="red"];
+  BB75a610985 -> BB75a61098a [color="red"];
+  BB75a61098a -> BB75a610991 [color="blue"];
+  BB75a610991 -> BB75a610a0a [color="green"];
+  BB75a610991 -> BB75a6109e5 [color="red"];
+  BB75a6109e5 -> BB75a6109fe [color="blue"];
+  BB75a6109e7 -> BB75a6109fb [color="green"];
+  BB75a6109e7 -> BB75a6109f0 [color="red"];
+  BB75a6109f0 -> BB75a6109fb [color="red"];
+  BB75a6109fb -> BB75a6109fe [color="blue"];
+  BB75a6109fe -> BB75a6109e7 [color="green"];
+  BB75a6109fe -> BB75a610a03 [color="red"];
+  BB75a610a03 -> BB75a610a0a [color="blue"];
+  BB75a610a0a -> BB75a610a23 [color="green"];
+  BB75a610a0a -> BB75a610a17 [color="red"];
+  BB75a610a17 -> BB75a610a23 [color="red"];
+}

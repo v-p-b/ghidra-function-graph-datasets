@@ -1,0 +1,21 @@
+digraph dt_rfc_gpu_directx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a47ef30 -> BB75a47f036 [color="green"];
+  BB75a47ef30 -> BB75a47f02a [color="red"];
+  BB75a47f02a -> BB75a47f036 [color="green"];
+  BB75a47f02a -> BB75a47f033 [color="red"];
+  BB75a47f033 -> BB75a47f036 [color="blue"];
+  BB75a47f036 -> BB75a47f0ef [color="green"];
+  BB75a47f036 -> BB75a47f04e [color="red"];
+  BB75a47f04e -> BB75a47f053 [color="blue"];
+  BB75a47f053 -> BB75a47f06f [color="green"];
+  BB75a47f053 -> BB75a47f063 [color="red"];
+  BB75a47f063 -> BB75a47f06f [color="green"];
+  BB75a47f063 -> BB75a47f06c [color="red"];
+  BB75a47f06c -> BB75a47f06f [color="blue"];
+  BB75a47f06f -> BB75a47f090 [color="green"];
+  BB75a47f06f -> BB75a47f084 [color="red"];
+  BB75a47f084 -> BB75a47f090 [color="red"];
+  BB75a47f0ef -> BB75a47f053 [color="blue"];
+}

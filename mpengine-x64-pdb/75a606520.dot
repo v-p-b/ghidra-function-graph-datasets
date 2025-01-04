@@ -1,0 +1,21 @@
+digraph KERNEL32_DLL_CreateDirectoryW {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a606520 -> BB75a606614 [color="green"];
+  BB75a606520 -> BB75a606587 [color="red"];
+  BB75a606587 -> BB75a606614 [color="green"];
+  BB75a606587 -> BB75a606594 [color="red"];
+  BB75a606594 -> BB75a606657 [color="green"];
+  BB75a606594 -> BB75a6065b8 [color="red"];
+  BB75a6065b8 -> BB75a606607 [color="green"];
+  BB75a6065b8 -> BB75a6065ed [color="red"];
+  BB75a6065ed -> BB75a606607 [color="red"];
+  BB75a606607 -> BB75a606614 [color="red"];
+  BB75a606614 -> BB75a60662e [color="green"];
+  BB75a606614 -> BB75a606622 [color="red"];
+  BB75a606622 -> BB75a60662e [color="blue"];
+  BB75a606657 -> BB75a606682 [color="green"];
+  BB75a606657 -> BB75a60666b [color="red"];
+  BB75a60666b -> BB75a606682 [color="red"];
+  BB75a606682 -> BB75a606614 [color="blue"];
+}

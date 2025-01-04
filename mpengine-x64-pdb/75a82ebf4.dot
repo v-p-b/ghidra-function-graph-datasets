@@ -1,0 +1,10 @@
+digraph operator()<NotificationContainer> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a82ebf4 -> BB75a82ec3f [color="green"];
+  BB75a82ebf4 -> BB75a82ec1f [color="red"];
+  BB75a82ec1f -> BB75a82ec3f [color="green"];
+  BB75a82ec1f -> BB75a82ec3b [color="red"];
+  BB75a82ec3b -> BB75a82ec41 [color="blue"];
+  BB75a82ec3f -> BB75a82ec41 [color="blue"];
+}

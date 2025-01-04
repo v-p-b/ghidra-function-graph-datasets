@@ -1,0 +1,21 @@
+digraph termIsEquivalence {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab59b50 -> BB75ab59bd5 [color="green"];
+  BB75ab59b50 -> BB75ab59b6e [color="red"];
+  BB75ab59b6e -> BB75ab59bd5 [color="green"];
+  BB75ab59b6e -> BB75ab59b76 [color="red"];
+  BB75ab59b76 -> BB75ab59bd5 [color="green"];
+  BB75ab59b76 -> BB75ab59b7c [color="red"];
+  BB75ab59b7c -> BB75ab59ba0 [color="green"];
+  BB75ab59b7c -> BB75ab59b96 [color="red"];
+  BB75ab59b96 -> BB75ab59bd5 [color="green"];
+  BB75ab59b96 -> BB75ab59b9c [color="red"];
+  BB75ab59b9c -> BB75ab59bd5 [color="green"];
+  BB75ab59b9c -> BB75ab59ba0 [color="red"];
+  BB75ab59ba0 -> BB75ab59bc3 [color="green"];
+  BB75ab59ba0 -> BB75ab59bbc [color="red"];
+  BB75ab59bbc -> BB75ab59bd7 [color="blue"];
+  BB75ab59bc3 -> BB75ab59bd7 [color="blue"];
+  BB75ab59bd5 -> BB75ab59bd7 [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph snextc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a17fc8c -> BB75a17fccb [color="green"];
+  BB75a17fc8c -> BB75a17fca3 [color="red"];
+  BB75a17fca3 -> BB75a17fccb [color="green"];
+  BB75a17fca3 -> BB75a17fcac [color="red"];
+  BB75a17fcac -> BB75a17fcbe [color="blue"];
+  BB75a17fccb -> BB75a17fcff [color="green"];
+  BB75a17fccb -> BB75a17fcd8 [color="red"];
+  BB75a17fcd8 -> BB75a17fcef [color="blue"];
+  BB75a17fcef -> BB75a17fcbe [color="green"];
+  BB75a17fcef -> BB75a17fcf3 [color="red"];
+  BB75a17fcf3 -> BB75a17fcbe [color="blue"];
+  BB75a17fcff -> BB75a17fcef [color="blue"];
+}

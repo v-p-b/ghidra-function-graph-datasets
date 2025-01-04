@@ -1,0 +1,29 @@
+digraph Quarantine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aca59f0 -> BB75aca5a5f [color="green"];
+  BB75aca59f0 -> BB75aca5a29 [color="red"];
+  BB75aca5a29 -> BB75aca5a55 [color="green"];
+  BB75aca5a29 -> BB75aca5a3c [color="red"];
+  BB75aca5a3c -> BB75aca5a55 [color="green"];
+  BB75aca5a3c -> BB75aca5a42 [color="red"];
+  BB75aca5a42 -> BB75aca5a55 [color="red"];
+  BB75aca5a55 -> BB75aca5b16 [color="blue"];
+  BB75aca5a5f -> BB75aca5a82 [color="green"];
+  BB75aca5a5f -> BB75aca5a7c [color="red"];
+  BB75aca5a7c -> BB75aca5a85 [color="blue"];
+  BB75aca5a82 -> BB75aca5a85 [color="blue"];
+  BB75aca5a85 -> BB75aca5ab2 [color="green"];
+  BB75aca5a85 -> BB75aca5aa3 [color="red"];
+  BB75aca5aa3 -> BB75aca5b03 [color="green"];
+  BB75aca5aa3 -> BB75aca5aab [color="red"];
+  BB75aca5aab -> BB75aca5b03 [color="blue"];
+  BB75aca5ab2 -> BB75aca5b16 [color="green"];
+  BB75aca5ab2 -> BB75aca5ad2 [color="red"];
+  BB75aca5ad2 -> BB75aca5b03 [color="green"];
+  BB75aca5ad2 -> BB75aca5ae5 [color="red"];
+  BB75aca5ae5 -> BB75aca5b03 [color="green"];
+  BB75aca5ae5 -> BB75aca5aeb [color="red"];
+  BB75aca5aeb -> BB75aca5b03 [color="red"];
+  BB75aca5b03 -> BB75aca5b16 [color="red"];
+}

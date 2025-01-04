@@ -1,0 +1,13 @@
+digraph CleanStore_cleanup_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a739820 -> BB75a73986b [color="green"];
+  BB75a739820 -> BB75a73983b [color="red"];
+  BB75a73983b -> BB75a739864 [color="green"];
+  BB75a73983b -> BB75a739847 [color="red"];
+  BB75a739847 -> BB75a739864 [color="red"];
+  BB75a739864 -> BB75a73986b [color="blue"];
+  BB75a73986b -> BB75a73989b [color="green"];
+  BB75a73986b -> BB75a73987e [color="red"];
+  BB75a73987e -> BB75a73989b [color="red"];
+}

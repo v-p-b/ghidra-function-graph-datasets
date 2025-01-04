@@ -1,0 +1,16 @@
+digraph StringCopyWorkerW {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a815d4c -> BB75a815d89 [color="green"];
+  BB75a815d4c -> BB75a815d5e [color="red"];
+  BB75a815d5e -> BB75a815d66 [color="blue"];
+  BB75a815d66 -> BB75a815d89 [color="green"];
+  BB75a815d66 -> BB75a815d6b [color="red"];
+  BB75a815d6b -> BB75a815d89 [color="green"];
+  BB75a815d6b -> BB75a815d75 [color="red"];
+  BB75a815d75 -> BB75a815d66 [color="green"];
+  BB75a815d75 -> BB75a815d89 [color="red"];
+  BB75a815d89 -> BB75a815db9 [color="green"];
+  BB75a815d89 -> BB75a815dab [color="red"];
+  BB75a815dab -> BB75a815db9 [color="blue"];
+}

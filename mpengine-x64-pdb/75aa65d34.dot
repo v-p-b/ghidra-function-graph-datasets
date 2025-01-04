@@ -1,0 +1,17 @@
+digraph findLoadGap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa65d34 -> BB75aa65dd8 [color="green"];
+  BB75aa65d34 -> BB75aa65d58 [color="red"];
+  BB75aa65d58 -> BB75aa65dd8 [color="green"];
+  BB75aa65d58 -> BB75aa65d6b [color="red"];
+  BB75aa65d6b -> BB75aa65d90 [color="blue"];
+  BB75aa65d90 -> BB75aa65dd0 [color="green"];
+  BB75aa65d90 -> BB75aa65da6 [color="red"];
+  BB75aa65da6 -> BB75aa65d90 [color="green"];
+  BB75aa65da6 -> BB75aa65db1 [color="red"];
+  BB75aa65db1 -> BB75aa65d90 [color="green"];
+  BB75aa65db1 -> BB75aa65dd0 [color="red"];
+  BB75aa65dd0 -> BB75aa65dda [color="blue"];
+  BB75aa65dd8 -> BB75aa65dda [color="blue"];
+}

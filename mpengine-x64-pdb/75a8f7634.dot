@@ -1,0 +1,13 @@
+digraph _is_privileged {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8f7634 -> BB75a8f76ad [color="green"];
+  BB75a8f7634 -> BB75a8f7677 [color="red"];
+  BB75a8f7677 -> BB75a8f76f5 [color="green"];
+  BB75a8f7677 -> BB75a8f76a4 [color="red"];
+  BB75a8f76a4 -> BB75a8f76f5 [color="blue"];
+  BB75a8f76ad -> BB75a8f76f5 [color="red"];
+  BB75a8f76f5 -> BB75a8f7704 [color="green"];
+  BB75a8f76f5 -> BB75a8f76fe [color="red"];
+  BB75a8f76fe -> BB75a8f7704 [color="red"];
+}

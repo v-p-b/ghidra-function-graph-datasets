@@ -1,0 +1,22 @@
+digraph ProcessRegisterInputDevices {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a85fd70 -> BB75a85fde4 [color="green"];
+  BB75a85fd70 -> BB75a85fdab [color="red"];
+  BB75a85fdab -> BB75a85fea8 [color="green"];
+  BB75a85fdab -> BB75a85fdc2 [color="red"];
+  BB75a85fdc2 -> BB75a85fea8 [color="green"];
+  BB75a85fdc2 -> BB75a85fdcc [color="red"];
+  BB75a85fdcc -> BB75a85fea8 [color="blue"];
+  BB75a85fde4 -> BB75a85fe4b [color="green"];
+  BB75a85fde4 -> BB75a85fe1b [color="red"];
+  BB75a85fe1b -> BB75a85fe71 [color="green"];
+  BB75a85fe1b -> BB75a85fe2e [color="red"];
+  BB75a85fe2e -> BB75a85fe71 [color="green"];
+  BB75a85fe2e -> BB75a85fe34 [color="red"];
+  BB75a85fe34 -> BB75a85fe71 [color="blue"];
+  BB75a85fe4b -> BB75a85fe71 [color="blue"];
+  BB75a85fe71 -> BB75a85fea8 [color="green"];
+  BB75a85fe71 -> BB75a85fea2 [color="red"];
+  BB75a85fea2 -> BB75a85fea8 [color="red"];
+}

@@ -1,0 +1,20 @@
+digraph vemulib_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4057c0 -> BB75a405806 [color="green"];
+  BB75a4057c0 -> BB75a4057f3 [color="red"];
+  BB75a4057f3 -> BB75a405806 [color="red"];
+  BB75a405806 -> BB75a4058c9 [color="green"];
+  BB75a405806 -> BB75a40581c [color="red"];
+  BB75a40581c -> BB75a40587f [color="green"];
+  BB75a40581c -> BB75a405821 [color="red"];
+  BB75a405821 -> BB75a40587d [color="green"];
+  BB75a405821 -> BB75a405860 [color="red"];
+  BB75a405860 -> BB75a40581c [color="blue"];
+  BB75a40587d -> BB75a40587f [color="blue"];
+  BB75a40587f -> BB75a4058c9 [color="green"];
+  BB75a40587f -> BB75a405883 [color="red"];
+  BB75a405883 -> BB75a4058d5 [color="green"];
+  BB75a405883 -> BB75a4058c9 [color="red"];
+  BB75a4058c9 -> BB75a4058d5 [color="red"];
+}

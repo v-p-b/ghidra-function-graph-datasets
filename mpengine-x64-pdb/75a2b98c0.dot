@@ -1,0 +1,14 @@
+digraph SetAttribute<bool> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2b98c0 -> BB75a2b98e2 [color="blue"];
+  BB75a2b98e2 -> BB75a2b98e2 [color="green"];
+  BB75a2b98e2 -> BB75a2b98eb [color="red"];
+  BB75a2b98eb -> BB75a2b9912 [color="green"];
+  BB75a2b98eb -> BB75a2b98f9 [color="red"];
+  BB75a2b98f9 -> BB75a2b98fe [color="blue"];
+  BB75a2b9912 -> BB75a2b9987 [color="green"];
+  BB75a2b9912 -> BB75a2b9977 [color="red"];
+  BB75a2b9977 -> BB75a2b9987 [color="red"];
+  BB75a2b9987 -> BB75a2b98fe [color="blue"];
+}

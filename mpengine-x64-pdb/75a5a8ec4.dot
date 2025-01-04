@@ -1,0 +1,28 @@
+digraph FindCertificateByThumbprint {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5a8ec4 -> BB75a5a8efc [color="green"];
+  BB75a5a8ec4 -> BB75a5a8ef2 [color="red"];
+  BB75a5a8ef2 -> BB75a5a8efc [color="green"];
+  BB75a5a8ef2 -> BB75a5a8ef7 [color="red"];
+  BB75a5a8ef7 -> BB75a5a8f01 [color="green"];
+  BB75a5a8ef7 -> BB75a5a8efc [color="red"];
+  BB75a5a8efc -> BB75a5a8f01 [color="red"];
+  BB75a5a8f01 -> BB75a5a8f34 [color="green"];
+  BB75a5a8f01 -> BB75a5a8f10 [color="red"];
+  BB75a5a8f10 -> BB75a5a8f34 [color="green"];
+  BB75a5a8f10 -> BB75a5a8f16 [color="red"];
+  BB75a5a8f16 -> BB75a5a8f30 [color="green"];
+  BB75a5a8f16 -> BB75a5a8f29 [color="red"];
+  BB75a5a8f29 -> BB75a5a8f75 [color="blue"];
+  BB75a5a8f30 -> BB75a5a8f34 [color="blue"];
+  BB75a5a8f34 -> BB75a5a8f38 [color="blue"];
+  BB75a5a8f38 -> BB75a5a8f38 [color="green"];
+  BB75a5a8f38 -> BB75a5a8f42 [color="red"];
+  BB75a5a8f42 -> BB75a5a8f70 [color="green"];
+  BB75a5a8f42 -> BB75a5a8f48 [color="red"];
+  BB75a5a8f48 -> BB75a5a8f70 [color="green"];
+  BB75a5a8f48 -> BB75a5a8f5e [color="red"];
+  BB75a5a8f5e -> BB75a5a8f75 [color="blue"];
+  BB75a5a8f70 -> BB75a5a8f75 [color="blue"];
+}

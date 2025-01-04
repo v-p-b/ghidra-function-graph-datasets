@@ -1,0 +1,12 @@
+digraph __acrt_allocate_buffer_for_argv {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a78b888 -> BB75a78b8dd [color="green"];
+  BB75a78b888 -> BB75a78b8a0 [color="red"];
+  BB75a78b8a0 -> BB75a78b8dd [color="green"];
+  BB75a78b8a0 -> BB75a78b8ae [color="red"];
+  BB75a78b8ae -> BB75a78b8dd [color="green"];
+  BB75a78b8ae -> BB75a78b8c1 [color="red"];
+  BB75a78b8c1 -> BB75a78b8df [color="blue"];
+  BB75a78b8dd -> BB75a78b8df [color="blue"];
+}

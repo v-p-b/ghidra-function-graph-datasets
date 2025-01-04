@@ -1,0 +1,12 @@
+digraph ZSTD_updateStats {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac08058 -> BB75ac0808a [color="green"];
+  BB75ac08058 -> BB75ac08068 [color="red"];
+  BB75ac08068 -> BB75ac08083 [color="green"];
+  BB75ac08068 -> BB75ac0806c [color="red"];
+  BB75ac0806c -> BB75ac0806f [color="blue"];
+  BB75ac0806f -> BB75ac0806f [color="green"];
+  BB75ac0806f -> BB75ac08083 [color="red"];
+  BB75ac08083 -> BB75ac0808a [color="blue"];
+}

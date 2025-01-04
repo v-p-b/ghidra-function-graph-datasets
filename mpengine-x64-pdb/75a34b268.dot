@@ -1,0 +1,22 @@
+digraph Split {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a34b268 -> BB75a34b2ec [color="green"];
+  BB75a34b268 -> BB75a34b28b [color="red"];
+  BB75a34b28b -> BB75a34b2f3 [color="green"];
+  BB75a34b28b -> BB75a34b291 [color="red"];
+  BB75a34b291 -> BB75a34b2de [color="green"];
+  BB75a34b291 -> BB75a34b29a [color="red"];
+  BB75a34b29a -> BB75a34b2d0 [color="green"];
+  BB75a34b29a -> BB75a34b2a6 [color="red"];
+  BB75a34b2a6 -> BB75a34b2e5 [color="green"];
+  BB75a34b2a6 -> BB75a34b2ae [color="red"];
+  BB75a34b2ae -> BB75a34b2d7 [color="green"];
+  BB75a34b2ae -> BB75a34b2ba [color="red"];
+  BB75a34b2d0 -> BB75a34b2a6 [color="blue"];
+  BB75a34b2d7 -> BB75a34b2ba [color="blue"];
+  BB75a34b2de -> BB75a34b29a [color="blue"];
+  BB75a34b2e5 -> BB75a34b2ae [color="blue"];
+  BB75a34b2ec -> BB75a34b28b [color="blue"];
+  BB75a34b2f3 -> BB75a34b291 [color="blue"];
+}

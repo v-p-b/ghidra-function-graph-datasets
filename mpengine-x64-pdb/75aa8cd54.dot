@@ -1,0 +1,18 @@
+digraph ShouldCollectDnsInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa8cd54 -> BB75aa8ce64 [color="green"];
+  BB75aa8cd54 -> BB75aa8cd7c [color="red"];
+  BB75aa8cd7c -> BB75aa8cd8b [color="blue"];
+  BB75aa8cd8b -> BB75aa8ce64 [color="green"];
+  BB75aa8cd8b -> BB75aa8cd9c [color="red"];
+  BB75aa8cd9c -> BB75aa8cdd9 [color="blue"];
+  BB75aa8cdd9 -> BB75aa8cdd9 [color="green"];
+  BB75aa8cdd9 -> BB75aa8cde2 [color="red"];
+  BB75aa8cde2 -> BB75aa8ce3f [color="green"];
+  BB75aa8cde2 -> BB75aa8ce3b [color="red"];
+  BB75aa8ce3b -> BB75aa8ce66 [color="blue"];
+  BB75aa8ce3f -> BB75aa8ce5b [color="blue"];
+  BB75aa8ce5b -> BB75aa8cd8b [color="blue"];
+  BB75aa8ce64 -> BB75aa8ce66 [color="blue"];
+}

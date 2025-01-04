@@ -1,0 +1,12 @@
+digraph call_clean_method {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abbad10 -> BB75abbad4a [color="green"];
+  BB75abbad10 -> BB75abbad43 [color="red"];
+  BB75abbad43 -> BB75abbad8b [color="blue"];
+  BB75abbad4a -> BB75abbad74 [color="green"];
+  BB75abbad4a -> BB75abbad6d [color="red"];
+  BB75abbad6d -> BB75abbad84 [color="blue"];
+  BB75abbad74 -> BB75abbad84 [color="red"];
+  BB75abbad84 -> BB75abbad8b [color="blue"];
+}

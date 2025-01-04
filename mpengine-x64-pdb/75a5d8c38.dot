@@ -1,0 +1,16 @@
+digraph shouldRunJSEmulation {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5d8c38 -> BB75a5d8c9b [color="green"];
+  BB75a5d8c38 -> BB75a5d8c54 [color="red"];
+  BB75a5d8c54 -> BB75a5d8c9f [color="green"];
+  BB75a5d8c54 -> BB75a5d8c5c [color="red"];
+  BB75a5d8c5c -> BB75a5d8c7e [color="green"];
+  BB75a5d8c5c -> BB75a5d8c78 [color="red"];
+  BB75a5d8c78 -> BB75a5d8ca6 [color="green"];
+  BB75a5d8c78 -> BB75a5d8c7e [color="red"];
+  BB75a5d8c7e -> BB75a5d8c8b [color="blue"];
+  BB75a5d8c9b -> BB75a5d8c8b [color="blue"];
+  BB75a5d8c9f -> BB75a5d8c8b [color="blue"];
+  BB75a5d8ca6 -> BB75a5d8c7e [color="blue"];
+}

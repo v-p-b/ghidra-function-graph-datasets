@@ -1,0 +1,14 @@
+digraph msil_esc_switch_emu64 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6bb1e0 -> BB75a6bb252 [color="green"];
+  BB75a6bb1e0 -> BB75a6bb1f4 [color="red"];
+  BB75a6bb1f4 -> BB75a6bb259 [color="green"];
+  BB75a6bb1f4 -> BB75a6bb23f [color="red"];
+  BB75a6bb23f -> BB75a6bb24c [color="blue"];
+  BB75a6bb252 -> BB75a6bb24c [color="blue"];
+  BB75a6bb259 -> BB75a6bb284 [color="green"];
+  BB75a6bb259 -> BB75a6bb26c [color="red"];
+  BB75a6bb26c -> BB75a6bb23f [color="blue"];
+  BB75a6bb284 -> BB75a6bb23f [color="blue"];
+}

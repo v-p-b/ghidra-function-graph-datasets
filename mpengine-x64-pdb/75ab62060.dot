@@ -1,0 +1,10 @@
+digraph ~MetaStore {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab62060 -> BB75ab6207d [color="green"];
+  BB75ab62060 -> BB75ab62079 [color="red"];
+  BB75ab62079 -> BB75ab6207d [color="blue"];
+  BB75ab6207d -> BB75ab620d3 [color="green"];
+  BB75ab6207d -> BB75ab62095 [color="red"];
+  BB75ab62095 -> BB75ab620d3 [color="red"];
+}

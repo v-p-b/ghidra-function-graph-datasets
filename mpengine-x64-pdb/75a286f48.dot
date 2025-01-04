@@ -1,0 +1,23 @@
+digraph computeLimitRegisters {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a286f48 -> BB75a286f7b [color="green"];
+  BB75a286f48 -> BB75a286f76 [color="red"];
+  BB75a286f76 -> BB75a286f92 [color="green"];
+  BB75a286f76 -> BB75a286f7b [color="red"];
+  BB75a286f92 -> BB75a28705c [color="green"];
+  BB75a286f92 -> BB75a286fbf [color="red"];
+  BB75a286fbf -> BB75a287053 [color="green"];
+  BB75a286fbf -> BB75a286fe0 [color="red"];
+  BB75a286fe0 -> BB75a286ff9 [color="green"];
+  BB75a286fe0 -> BB75a286fe2 [color="red"];
+  BB75a286fe2 -> BB75a286ff9 [color="green"];
+  BB75a286fe2 -> BB75a286ff0 [color="red"];
+  BB75a286ff0 -> BB75a286ff9 [color="blue"];
+  BB75a286ff9 -> BB75a286f7b [color="green"];
+  BB75a286ff9 -> BB75a287004 [color="red"];
+  BB75a287004 -> BB75a286f7b [color="blue"];
+  BB75a287053 -> BB75a28708a [color="blue"];
+  BB75a28705c -> BB75a28708a [color="red"];
+  BB75a28708a -> BB75a286ff9 [color="blue"];
+}

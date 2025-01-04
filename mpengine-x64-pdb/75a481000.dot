@@ -1,0 +1,10 @@
+digraph createNodeObject<JsNodeObject> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a481000 -> BB75a4810a3 [color="green"];
+  BB75a481000 -> BB75a481036 [color="red"];
+  BB75a481036 -> BB75a4810a3 [color="green"];
+  BB75a481036 -> BB75a48104b [color="red"];
+  BB75a48104b -> BB75a4810a5 [color="blue"];
+  BB75a4810a3 -> BB75a4810a5 [color="blue"];
+}

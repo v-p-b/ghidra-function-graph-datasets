@@ -1,0 +1,15 @@
+digraph init_global_BBs<class_x86_BBhash> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb8584 -> BB75abb86be [color="green"];
+  BB75abb8584 -> BB75abb8617 [color="red"];
+  BB75abb8617 -> BB75abb86be [color="green"];
+  BB75abb8617 -> BB75abb8626 [color="red"];
+  BB75abb8626 -> BB75abb86c7 [color="green"];
+  BB75abb8626 -> BB75abb863e [color="red"];
+  BB75abb863e -> BB75abb86c7 [color="green"];
+  BB75abb863e -> BB75abb8686 [color="red"];
+  BB75abb8686 -> BB75abb86f0 [color="blue"];
+  BB75abb86be -> BB75abb86c7 [color="red"];
+  BB75abb86c7 -> BB75abb86f0 [color="red"];
+}

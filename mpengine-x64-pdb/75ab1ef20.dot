@@ -1,0 +1,30 @@
+digraph RequestSmsOnProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab1ef20 -> BB75ab1ef6d [color="green"];
+  BB75ab1ef20 -> BB75ab1ef60 [color="red"];
+  BB75ab1ef6d -> BB75ab1efdc [color="green"];
+  BB75ab1ef6d -> BB75ab1efad [color="red"];
+  BB75ab1efad -> BB75ab1efdc [color="green"];
+  BB75ab1efad -> BB75ab1efb9 [color="red"];
+  BB75ab1efb9 -> BB75ab1efdc [color="green"];
+  BB75ab1efb9 -> BB75ab1efbf [color="red"];
+  BB75ab1efbf -> BB75ab1efd3 [color="green"];
+  BB75ab1efbf -> BB75ab1efc9 [color="red"];
+  BB75ab1efc9 -> BB75ab1efd3 [color="blue"];
+  BB75ab1efd3 -> BB75ab1efdc [color="green"];
+  BB75ab1efd3 -> BB75ab1efd8 [color="red"];
+  BB75ab1efd8 -> BB75ab1efdc [color="blue"];
+  BB75ab1efdc -> BB75ab1f015 [color="green"];
+  BB75ab1efdc -> BB75ab1eff6 [color="red"];
+  BB75ab1eff6 -> BB75ab1f015 [color="green"];
+  BB75ab1eff6 -> BB75ab1effc [color="red"];
+  BB75ab1effc -> BB75ab1f015 [color="red"];
+  BB75ab1f015 -> BB75ab1f053 [color="green"];
+  BB75ab1f015 -> BB75ab1f02c [color="red"];
+  BB75ab1f02c -> BB75ab1f053 [color="green"];
+  BB75ab1f02c -> BB75ab1f038 [color="red"];
+  BB75ab1f038 -> BB75ab1f053 [color="green"];
+  BB75ab1f038 -> BB75ab1f03e [color="red"];
+  BB75ab1f03e -> BB75ab1f053 [color="red"];
+}

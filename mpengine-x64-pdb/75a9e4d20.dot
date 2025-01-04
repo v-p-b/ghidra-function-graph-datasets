@@ -1,0 +1,26 @@
+digraph WinVerifyTrust_shim {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9e4d20 -> BB75a9e4d79 [color="green"];
+  BB75a9e4d20 -> BB75a9e4d40 [color="red"];
+  BB75a9e4d40 -> BB75a9e4d72 [color="green"];
+  BB75a9e4d40 -> BB75a9e4d53 [color="red"];
+  BB75a9e4d53 -> BB75a9e4d72 [color="green"];
+  BB75a9e4d53 -> BB75a9e4d59 [color="red"];
+  BB75a9e4d59 -> BB75a9e4d72 [color="red"];
+  BB75a9e4d72 -> BB75a9e4def [color="blue"];
+  BB75a9e4d79 -> BB75a9e4db7 [color="green"];
+  BB75a9e4d79 -> BB75a9e4d7d [color="red"];
+  BB75a9e4d7d -> BB75a9e4db3 [color="green"];
+  BB75a9e4d7d -> BB75a9e4d90 [color="red"];
+  BB75a9e4d90 -> BB75a9e4db3 [color="green"];
+  BB75a9e4d90 -> BB75a9e4d96 [color="red"];
+  BB75a9e4d96 -> BB75a9e4db3 [color="red"];
+  BB75a9e4db3 -> BB75a9e4def [color="blue"];
+  BB75a9e4db7 -> BB75a9e4ded [color="green"];
+  BB75a9e4db7 -> BB75a9e4dca [color="red"];
+  BB75a9e4dca -> BB75a9e4ded [color="green"];
+  BB75a9e4dca -> BB75a9e4dd0 [color="red"];
+  BB75a9e4dd0 -> BB75a9e4ded [color="red"];
+  BB75a9e4ded -> BB75a9e4def [color="blue"];
+}

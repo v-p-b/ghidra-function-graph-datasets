@@ -1,0 +1,19 @@
+digraph get_relo_indexes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5e5f3c -> BB75a5e5fb6 [color="blue"];
+  BB75a5e5f8b -> BB75a5e5fba [color="green"];
+  BB75a5e5f8b -> BB75a5e5f90 [color="red"];
+  BB75a5e5f90 -> BB75a5e5fb6 [color="blue"];
+  BB75a5e5fb6 -> BB75a5e5f8b [color="green"];
+  BB75a5e5fb6 -> BB75a5e5fba [color="red"];
+  BB75a5e5fba -> BB75a5e5fee [color="blue"];
+  BB75a5e5fd3 -> BB75a5e6001 [color="green"];
+  BB75a5e5fd3 -> BB75a5e5fd8 [color="red"];
+  BB75a5e5fd8 -> BB75a5e5fee [color="blue"];
+  BB75a5e5fee -> BB75a5e5fd3 [color="green"];
+  BB75a5e5fee -> BB75a5e6001 [color="red"];
+  BB75a5e6001 -> BB75a5e602c [color="green"];
+  BB75a5e6001 -> BB75a5e6018 [color="red"];
+  BB75a5e6018 -> BB75a5e602c [color="blue"];
+}

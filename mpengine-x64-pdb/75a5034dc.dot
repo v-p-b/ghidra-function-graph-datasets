@@ -1,0 +1,15 @@
+digraph lock_range {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5034dc -> BB75a5034ff [color="green"];
+  BB75a5034dc -> BB75a5034fa [color="red"];
+  BB75a5034fa -> BB75a5034ff [color="red"];
+  BB75a5034ff -> BB75a503540 [color="green"];
+  BB75a5034ff -> BB75a50350d [color="red"];
+  BB75a50350d -> BB75a503540 [color="green"];
+  BB75a50350d -> BB75a503518 [color="red"];
+  BB75a503518 -> BB75a503540 [color="green"];
+  BB75a503518 -> BB75a503520 [color="red"];
+  BB75a503520 -> BB75a503530 [color="blue"];
+  BB75a503540 -> BB75a503530 [color="blue"];
+}

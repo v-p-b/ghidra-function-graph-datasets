@@ -1,0 +1,21 @@
+digraph GcCloseRegKey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a203020 -> BB75a203050 [color="green"];
+  BB75a203020 -> BB75a203043 [color="red"];
+  BB75a203043 -> BB75a203050 [color="red"];
+  BB75a203050 -> BB75a203060 [color="green"];
+  BB75a203050 -> BB75a203056 [color="red"];
+  BB75a203056 -> BB75a203060 [color="red"];
+  BB75a203060 -> BB75a2030b2 [color="green"];
+  BB75a203060 -> BB75a20306f [color="red"];
+  BB75a20306f -> BB75a203083 [color="green"];
+  BB75a20306f -> BB75a20307d [color="red"];
+  BB75a20307d -> BB75a203083 [color="red"];
+  BB75a203083 -> BB75a203095 [color="green"];
+  BB75a203083 -> BB75a203088 [color="red"];
+  BB75a203095 -> BB75a203088 [color="green"];
+  BB75a203095 -> BB75a2030a6 [color="red"];
+  BB75a2030a6 -> BB75a203088 [color="blue"];
+  BB75a2030b2 -> BB75a20306f [color="blue"];
+}

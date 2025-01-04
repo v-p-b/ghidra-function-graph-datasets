@@ -1,0 +1,16 @@
+digraph SMSConfigScanPPID {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3e2be0 -> BB75a3e2c0c [color="green"];
+  BB75a3e2be0 -> BB75a3e2c08 [color="red"];
+  BB75a3e2c08 -> BB75a3e2c4e [color="blue"];
+  BB75a3e2c0c -> BB75a3e2c47 [color="green"];
+  BB75a3e2c0c -> BB75a3e2c18 [color="red"];
+  BB75a3e2c18 -> BB75a3e2c47 [color="green"];
+  BB75a3e2c18 -> BB75a3e2c1c [color="red"];
+  BB75a3e2c1c -> BB75a3e2c2d [color="green"];
+  BB75a3e2c1c -> BB75a3e2c21 [color="red"];
+  BB75a3e2c21 -> BB75a3e2c2d [color="red"];
+  BB75a3e2c2d -> BB75a3e2c08 [color="blue"];
+  BB75a3e2c47 -> BB75a3e2c4e [color="red"];
+}

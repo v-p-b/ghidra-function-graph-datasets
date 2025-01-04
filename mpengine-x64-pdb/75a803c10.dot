@@ -1,0 +1,30 @@
+digraph CanDeleteOnReboot {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a803c10 -> BB75a803c71 [color="green"];
+  BB75a803c10 -> BB75a803c34 [color="red"];
+  BB75a803c34 -> BB75a803c6d [color="green"];
+  BB75a803c34 -> BB75a803c47 [color="red"];
+  BB75a803c47 -> BB75a803c6d [color="green"];
+  BB75a803c47 -> BB75a803c4d [color="red"];
+  BB75a803c4d -> BB75a803c6d [color="red"];
+  BB75a803c6d -> BB75a803c75 [color="blue"];
+  BB75a803c71 -> BB75a803c75 [color="blue"];
+  BB75a803c75 -> BB75a803cd1 [color="green"];
+  BB75a803c75 -> BB75a803c81 [color="red"];
+  BB75a803c81 -> BB75a803cd1 [color="green"];
+  BB75a803c81 -> BB75a803c91 [color="red"];
+  BB75a803c91 -> BB75a803cd1 [color="green"];
+  BB75a803c91 -> BB75a803c9b [color="red"];
+  BB75a803c9b -> BB75a803cd1 [color="green"];
+  BB75a803c9b -> BB75a803cad [color="red"];
+  BB75a803cad -> BB75a803cd1 [color="green"];
+  BB75a803cad -> BB75a803cb2 [color="red"];
+  BB75a803cb2 -> BB75a803cd1 [color="green"];
+  BB75a803cb2 -> BB75a803cb8 [color="red"];
+  BB75a803cb8 -> BB75a803cd1 [color="green"];
+  BB75a803cb8 -> BB75a803cc1 [color="red"];
+  BB75a803cc1 -> BB75a803cd4 [color="green"];
+  BB75a803cc1 -> BB75a803cd1 [color="red"];
+  BB75a803cd1 -> BB75a803cd4 [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph sqlite3OpenTempDatabase {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab568a4 -> BB75ab5693b [color="green"];
+  BB75ab568a4 -> BB75ab568c5 [color="red"];
+  BB75ab568c5 -> BB75ab5693b [color="green"];
+  BB75ab568c5 -> BB75ab568ce [color="red"];
+  BB75ab568ce -> BB75ab56910 [color="green"];
+  BB75ab568ce -> BB75ab568f7 [color="red"];
+  BB75ab568f7 -> BB75ab56909 [color="red"];
+  BB75ab56909 -> BB75ab5693d [color="blue"];
+  BB75ab56910 -> BB75ab5693b [color="green"];
+  BB75ab56910 -> BB75ab56931 [color="red"];
+  BB75ab56931 -> BB75ab56909 [color="blue"];
+  BB75ab5693b -> BB75ab5693d [color="blue"];
+}

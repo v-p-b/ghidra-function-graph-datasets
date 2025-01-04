@@ -1,0 +1,10 @@
+digraph ExpandEnvironmentVariables {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a507980 -> BB75a5079f2 [color="green"];
+  BB75a507980 -> BB75a5079e7 [color="red"];
+  BB75a5079e7 -> BB75a5079f2 [color="red"];
+  BB75a5079f2 -> BB75a507a04 [color="green"];
+  BB75a5079f2 -> BB75a5079fa [color="red"];
+  BB75a5079fa -> BB75a507a04 [color="red"];
+}

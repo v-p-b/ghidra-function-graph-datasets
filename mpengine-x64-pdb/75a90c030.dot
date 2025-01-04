@@ -1,0 +1,26 @@
+digraph remove_thread_contexts {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a90c030 -> BB75a90c07c [color="green"];
+  BB75a90c030 -> BB75a90c075 [color="red"];
+  BB75a90c075 -> BB75a90c114 [color="blue"];
+  BB75a90c07c -> BB75a90c0b1 [color="green"];
+  BB75a90c07c -> BB75a90c083 [color="red"];
+  BB75a90c083 -> BB75a90c086 [color="blue"];
+  BB75a90c086 -> BB75a90c0a5 [color="green"];
+  BB75a90c086 -> BB75a90c093 [color="red"];
+  BB75a90c093 -> BB75a90c0a5 [color="red"];
+  BB75a90c0a5 -> BB75a90c086 [color="green"];
+  BB75a90c0a5 -> BB75a90c0b1 [color="red"];
+  BB75a90c0b1 -> BB75a90c0e7 [color="green"];
+  BB75a90c0b1 -> BB75a90c0cc [color="red"];
+  BB75a90c0cc -> BB75a90c0dc [color="green"];
+  BB75a90c0cc -> BB75a90c0d2 [color="red"];
+  BB75a90c0d2 -> BB75a90c0e0 [color="blue"];
+  BB75a90c0dc -> BB75a90c0e0 [color="blue"];
+  BB75a90c0e0 -> BB75a90c0f4 [color="blue"];
+  BB75a90c0e7 -> BB75a90c0f4 [color="green"];
+  BB75a90c0e7 -> BB75a90c0ed [color="red"];
+  BB75a90c0ed -> BB75a90c0f4 [color="blue"];
+  BB75a90c0f4 -> BB75a90c114 [color="red"];
+}

@@ -1,0 +1,17 @@
+digraph binaryToUnaryIfNull {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a76abe0 -> BB75a76ac21 [color="green"];
+  BB75a76abe0 -> BB75a76abe5 [color="red"];
+  BB75a76abe5 -> BB75a76ac1c [color="green"];
+  BB75a76abe5 -> BB75a76abf5 [color="red"];
+  BB75a76abf5 -> BB75a76ac1c [color="green"];
+  BB75a76abf5 -> BB75a76abfa [color="red"];
+  BB75a76abfa -> BB75a76ac1c [color="green"];
+  BB75a76abfa -> BB75a76ac03 [color="red"];
+  BB75a76ac03 -> BB75a76ac17 [color="green"];
+  BB75a76ac03 -> BB75a76ac0f [color="red"];
+  BB75a76ac0f -> BB75a76ac17 [color="red"];
+  BB75a76ac17 -> BB75a76ac1c [color="blue"];
+  BB75a76ac1c -> BB75a76ac21 [color="blue"];
+}

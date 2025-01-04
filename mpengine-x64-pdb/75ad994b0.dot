@@ -1,0 +1,10 @@
+digraph `dynamic_atexit_destructor_for_'init_atexit'' {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad994b0 -> BB75ad994db [color="blue"];
+  BB75ad994b6 -> BB75ad994db [color="green"];
+  BB75ad994b6 -> BB75ad994d6 [color="red"];
+  BB75ad994d6 -> BB75ad994db [color="red"];
+  BB75ad994db -> BB75ad994b6 [color="green"];
+  BB75ad994db -> BB75ad994e8 [color="red"];
+}

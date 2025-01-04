@@ -1,0 +1,23 @@
+digraph whereLoopAdjustCost {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a296998 -> BB75a2969c6 [color="green"];
+  BB75a296998 -> BB75a2969b6 [color="red"];
+  BB75a2969c6 -> BB75a2969b6 [color="green"];
+  BB75a2969c6 -> BB75a2969cb [color="red"];
+  BB75a2969cb -> BB75a2969cf [color="blue"];
+  BB75a2969cf -> BB75a2969de [color="green"];
+  BB75a2969cf -> BB75a2969d5 [color="red"];
+  BB75a2969d5 -> BB75a2969e9 [color="green"];
+  BB75a2969d5 -> BB75a2969de [color="red"];
+  BB75a2969de -> BB75a2969cf [color="green"];
+  BB75a2969de -> BB75a2969e7 [color="red"];
+  BB75a2969e7 -> BB75a2969b6 [color="blue"];
+  BB75a2969e9 -> BB75a296a1c [color="green"];
+  BB75a2969e9 -> BB75a2969f8 [color="red"];
+  BB75a2969f8 -> BB75a2969de [color="green"];
+  BB75a2969f8 -> BB75a296a07 [color="red"];
+  BB75a296a07 -> BB75a296a16 [color="blue"];
+  BB75a296a16 -> BB75a2969de [color="blue"];
+  BB75a296a1c -> BB75a296a16 [color="blue"];
+}

@@ -1,0 +1,25 @@
+digraph ZSTD_opt_getNextMatchAndUpdateSeqStore {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac061a0 -> BB75ac0624c [color="green"];
+  BB75ac061a0 -> BB75ac061ba [color="red"];
+  BB75ac061ba -> BB75ac0624c [color="green"];
+  BB75ac061ba -> BB75ac061c8 [color="red"];
+  BB75ac061c8 -> BB75ac06200 [color="green"];
+  BB75ac061c8 -> BB75ac061f6 [color="red"];
+  BB75ac061f6 -> BB75ac06202 [color="green"];
+  BB75ac061f6 -> BB75ac061fe [color="red"];
+  BB75ac061fe -> BB75ac06209 [color="blue"];
+  BB75ac06200 -> BB75ac06202 [color="blue"];
+  BB75ac06202 -> BB75ac06209 [color="blue"];
+  BB75ac06209 -> BB75ac0621e [color="green"];
+  BB75ac06209 -> BB75ac0620e [color="red"];
+  BB75ac0620e -> BB75ac0623d [color="blue"];
+  BB75ac0621e -> BB75ac06247 [color="green"];
+  BB75ac0621e -> BB75ac06239 [color="red"];
+  BB75ac06239 -> BB75ac0623d [color="blue"];
+  BB75ac0623d -> BB75ac06240 [color="blue"];
+  BB75ac06240 -> BB75ac06255 [color="blue"];
+  BB75ac06247 -> BB75ac06240 [color="blue"];
+  BB75ac0624c -> BB75ac06255 [color="blue"];
+}

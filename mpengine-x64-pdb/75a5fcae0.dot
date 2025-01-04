@@ -1,0 +1,30 @@
+digraph NTDLL_DLL_NtReleaseSemaphoreWorker {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5fcae0 -> BB75a5fcc41 [color="green"];
+  BB75a5fcae0 -> BB75a5fcb19 [color="red"];
+  BB75a5fcb19 -> BB75a5fcc41 [color="green"];
+  BB75a5fcb19 -> BB75a5fcb27 [color="red"];
+  BB75a5fcb27 -> BB75a5fcc1d [color="green"];
+  BB75a5fcb27 -> BB75a5fcb7f [color="red"];
+  BB75a5fcb7f -> BB75a5fcc4f [color="green"];
+  BB75a5fcb7f -> BB75a5fcbb7 [color="red"];
+  BB75a5fcbb7 -> BB75a5fcc75 [color="green"];
+  BB75a5fcbb7 -> BB75a5fcbc5 [color="red"];
+  BB75a5fcbc5 -> BB75a5fcbf2 [color="green"];
+  BB75a5fcbc5 -> BB75a5fcbe6 [color="red"];
+  BB75a5fcbe6 -> BB75a5fcbf2 [color="blue"];
+  BB75a5fcbf2 -> BB75a5fcbf5 [color="blue"];
+  BB75a5fcc1d -> BB75a5fcc3c [color="green"];
+  BB75a5fcc1d -> BB75a5fcc30 [color="red"];
+  BB75a5fcc30 -> BB75a5fcc3c [color="blue"];
+  BB75a5fcc3c -> BB75a5fcbf5 [color="blue"];
+  BB75a5fcc41 -> BB75a5fcbf5 [color="blue"];
+  BB75a5fcc4f -> BB75a5fcc70 [color="green"];
+  BB75a5fcc4f -> BB75a5fcc64 [color="red"];
+  BB75a5fcc64 -> BB75a5fcc70 [color="blue"];
+  BB75a5fcc70 -> BB75a5fcbf5 [color="blue"];
+  BB75a5fcc75 -> BB75a5fcbc5 [color="green"];
+  BB75a5fcc75 -> BB75a5fcc88 [color="red"];
+  BB75a5fcc88 -> BB75a5fcbf5 [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph _Get_temporary_buffer<struct_snid_entry_t> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa1ef30 -> BB75aa1ef6a [color="green"];
+  BB75aa1ef30 -> BB75aa1ef4f [color="red"];
+  BB75aa1ef4f -> BB75aa1ef6a [color="green"];
+  BB75aa1ef4f -> BB75aa1ef54 [color="red"];
+  BB75aa1ef54 -> BB75aa1ef81 [color="green"];
+  BB75aa1ef54 -> BB75aa1ef65 [color="red"];
+  BB75aa1ef65 -> BB75aa1ef54 [color="green"];
+  BB75aa1ef65 -> BB75aa1ef6a [color="red"];
+  BB75aa1ef6a -> BB75aa1ef73 [color="blue"];
+  BB75aa1ef81 -> BB75aa1ef73 [color="blue"];
+}

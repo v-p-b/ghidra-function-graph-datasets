@@ -1,0 +1,11 @@
+digraph Shutdown {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab8f5bc -> BB75ab8f604 [color="green"];
+  BB75ab8f5bc -> BB75ab8f5f3 [color="red"];
+  BB75ab8f5f3 -> BB75ab8f604 [color="red"];
+  BB75ab8f604 -> BB75ab8f644 [color="green"];
+  BB75ab8f604 -> BB75ab8f631 [color="red"];
+  BB75ab8f631 -> BB75ab8f644 [color="red"];
+  BB75ab8f644 -> BB75ab8f691 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph MMX4_pshufb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abbc810 -> BB75abbc84f [color="blue"];
+  BB75abbc84f -> BB75abbc85c [color="green"];
+  BB75abbc84f -> BB75abbc858 [color="red"];
+  BB75abbc858 -> BB75abbc862 [color="blue"];
+  BB75abbc85c -> BB75abbc862 [color="blue"];
+  BB75abbc862 -> BB75abbc84f [color="green"];
+  BB75abbc862 -> BB75abbc86e [color="red"];
+}

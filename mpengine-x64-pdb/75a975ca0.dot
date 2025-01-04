@@ -1,0 +1,16 @@
+digraph wait {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a975ca0 -> BB75a975cb2 [color="blue"];
+  BB75a975cb2 -> BB75a975cba [color="blue"];
+  BB75a975cba -> BB75a975cfc [color="green"];
+  BB75a975cba -> BB75a975cbf [color="red"];
+  BB75a975cbf -> BB75a975cd8 [color="green"];
+  BB75a975cbf -> BB75a975cd2 [color="red"];
+  BB75a975cd2 -> BB75a975cba [color="blue"];
+  BB75a975cd8 -> BB75a975cf5 [color="blue"];
+  BB75a975ce2 -> BB75a975cf5 [color="red"];
+  BB75a975cf5 -> BB75a975ce2 [color="green"];
+  BB75a975cf5 -> BB75a975cfa [color="red"];
+  BB75a975cfa -> BB75a975cb2 [color="blue"];
+}

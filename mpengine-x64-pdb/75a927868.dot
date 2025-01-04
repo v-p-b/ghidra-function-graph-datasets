@@ -1,0 +1,20 @@
+digraph get_telemetry_blob {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a927868 -> BB75a9279d3 [color="green"];
+  BB75a927868 -> BB75a9278b2 [color="red"];
+  BB75a9278b2 -> BB75a927916 [color="green"];
+  BB75a9278b2 -> BB75a927911 [color="red"];
+  BB75a927911 -> BB75a927916 [color="red"];
+  BB75a927916 -> BB75a9279a9 [color="green"];
+  BB75a927916 -> BB75a927986 [color="red"];
+  BB75a927986 -> BB75a9279a9 [color="green"];
+  BB75a927986 -> BB75a9279a4 [color="red"];
+  BB75a9279a4 -> BB75a9279a9 [color="red"];
+  BB75a9279a9 -> BB75a9279c5 [color="green"];
+  BB75a9279a9 -> BB75a9279bf [color="red"];
+  BB75a9279bf -> BB75a9279c5 [color="red"];
+  BB75a9279c5 -> BB75a9279d3 [color="green"];
+  BB75a9279c5 -> BB75a9279ce [color="red"];
+  BB75a9279ce -> BB75a9279d3 [color="red"];
+}

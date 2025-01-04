@@ -1,0 +1,22 @@
+digraph IsConsentRequired {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6abfc0 -> BB75a6ac030 [color="green"];
+  BB75a6abfc0 -> BB75a6abfdb [color="red"];
+  BB75a6abfdb -> BB75a6ac038 [color="green"];
+  BB75a6abfdb -> BB75a6abfe0 [color="red"];
+  BB75a6abfe0 -> BB75a6ac030 [color="green"];
+  BB75a6abfe0 -> BB75a6abfe9 [color="red"];
+  BB75a6abfe9 -> BB75a6ac038 [color="green"];
+  BB75a6abfe9 -> BB75a6abff6 [color="red"];
+  BB75a6abff6 -> BB75a6ac05d [color="green"];
+  BB75a6abff6 -> BB75a6ac01d [color="red"];
+  BB75a6ac01d -> BB75a6ac03c [color="green"];
+  BB75a6ac01d -> BB75a6ac030 [color="red"];
+  BB75a6ac030 -> BB75a6ac032 [color="blue"];
+  BB75a6ac038 -> BB75a6ac032 [color="blue"];
+  BB75a6ac03c -> BB75a6ac030 [color="green"];
+  BB75a6ac03c -> BB75a6ac042 [color="red"];
+  BB75a6ac042 -> BB75a6ac030 [color="blue"];
+  BB75a6ac05d -> BB75a6ac032 [color="blue"];
+}

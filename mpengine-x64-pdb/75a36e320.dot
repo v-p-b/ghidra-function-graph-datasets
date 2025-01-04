@@ -1,0 +1,23 @@
+digraph get_related_threat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a36e320 -> BB75a36e375 [color="green"];
+  BB75a36e320 -> BB75a36e342 [color="red"];
+  BB75a36e342 -> BB75a36e375 [color="green"];
+  BB75a36e342 -> BB75a36e36a [color="red"];
+  BB75a36e36a -> BB75a36e38e [color="green"];
+  BB75a36e36a -> BB75a36e375 [color="red"];
+  BB75a36e375 -> BB75a36e377 [color="blue"];
+  BB75a36e38e -> BB75a36e3cd [color="green"];
+  BB75a36e38e -> BB75a36e396 [color="red"];
+  BB75a36e396 -> BB75a36e39e [color="blue"];
+  BB75a36e39e -> BB75a36e3be [color="green"];
+  BB75a36e39e -> BB75a36e3b1 [color="red"];
+  BB75a36e3b1 -> BB75a36e3be [color="red"];
+  BB75a36e3be -> BB75a36e39e [color="green"];
+  BB75a36e3be -> BB75a36e3c8 [color="red"];
+  BB75a36e3c8 -> BB75a36e3d2 [color="green"];
+  BB75a36e3c8 -> BB75a36e3cd [color="red"];
+  BB75a36e3cd -> BB75a36e3d2 [color="red"];
+  BB75a36e3d2 -> BB75a36e377 [color="blue"];
+}

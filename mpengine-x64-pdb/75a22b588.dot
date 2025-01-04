@@ -1,0 +1,16 @@
+digraph TestIsScriptProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a22b588 -> BB75a22b61a [color="green"];
+  BB75a22b588 -> BB75a22b5bc [color="red"];
+  BB75a22b5bc -> BB75a22b624 [color="green"];
+  BB75a22b5bc -> BB75a22b5d6 [color="red"];
+  BB75a22b5d6 -> BB75a22b5ff [color="red"];
+  BB75a22b5ff -> BB75a22b60a [color="red"];
+  BB75a22b61a -> BB75a22b60a [color="blue"];
+  BB75a22b624 -> BB75a22b5ff [color="green"];
+  BB75a22b624 -> BB75a22b637 [color="red"];
+  BB75a22b637 -> BB75a22b5ff [color="green"];
+  BB75a22b637 -> BB75a22b63d [color="red"];
+  BB75a22b63d -> BB75a22b5ff [color="blue"];
+}

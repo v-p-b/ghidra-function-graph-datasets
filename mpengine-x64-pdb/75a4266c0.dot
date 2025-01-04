@@ -1,0 +1,11 @@
+digraph AllocStaticClass {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4266c0 -> BB75a426721 [color="green"];
+  BB75a4266c0 -> BB75a4266f1 [color="red"];
+  BB75a4266f1 -> BB75a426725 [color="green"];
+  BB75a4266f1 -> BB75a426714 [color="red"];
+  BB75a426714 -> BB75a426716 [color="blue"];
+  BB75a426721 -> BB75a426716 [color="blue"];
+  BB75a426725 -> BB75a426716 [color="blue"];
+}

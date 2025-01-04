@@ -1,0 +1,30 @@
+digraph BMInitBackrefs<BMSFileReader> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a42b2dc -> BB75a42b367 [color="green"];
+  BB75a42b2dc -> BB75a42b312 [color="red"];
+  BB75a42b312 -> BB75a42b351 [color="red"];
+  BB75a42b351 -> BB75a42b35b [color="blue"];
+  BB75a42b35b -> BB75a42b400 [color="blue"];
+  BB75a42b367 -> BB75a42b3fe [color="green"];
+  BB75a42b367 -> BB75a42b370 [color="red"];
+  BB75a42b370 -> BB75a42b3fe [color="green"];
+  BB75a42b370 -> BB75a42b37a [color="red"];
+  BB75a42b37a -> BB75a42b3fe [color="green"];
+  BB75a42b37a -> BB75a42b382 [color="red"];
+  BB75a42b382 -> BB75a42b3fe [color="green"];
+  BB75a42b382 -> BB75a42b38a [color="red"];
+  BB75a42b38a -> BB75a42b38c [color="blue"];
+  BB75a42b38c -> BB75a42b3fa [color="green"];
+  BB75a42b38c -> BB75a42b395 [color="red"];
+  BB75a42b395 -> BB75a42b3f5 [color="green"];
+  BB75a42b395 -> BB75a42b39c [color="red"];
+  BB75a42b39c -> BB75a42b3f5 [color="green"];
+  BB75a42b39c -> BB75a42b3a4 [color="red"];
+  BB75a42b3a4 -> BB75a42b3f5 [color="green"];
+  BB75a42b3a4 -> BB75a42b3ad [color="red"];
+  BB75a42b3ad -> BB75a42b351 [color="blue"];
+  BB75a42b3f5 -> BB75a42b38c [color="blue"];
+  BB75a42b3fa -> BB75a42b400 [color="blue"];
+  BB75a42b3fe -> BB75a42b400 [color="blue"];
+}

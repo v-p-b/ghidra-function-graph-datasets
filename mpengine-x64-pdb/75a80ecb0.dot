@@ -1,0 +1,14 @@
+digraph GetResource {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a80ecb0 -> BB75a80eccb [color="green"];
+  BB75a80ecb0 -> BB75a80ecc6 [color="red"];
+  BB75a80ecc6 -> BB75a80eccb [color="red"];
+  BB75a80eccb -> BB75a80ecd7 [color="green"];
+  BB75a80eccb -> BB75a80ecd2 [color="red"];
+  BB75a80ecd2 -> BB75a80ecd7 [color="red"];
+  BB75a80ecd7 -> BB75a80ece3 [color="green"];
+  BB75a80ecd7 -> BB75a80ecdf [color="red"];
+  BB75a80ecdf -> BB75a80ecf2 [color="blue"];
+  BB75a80ece3 -> BB75a80ecf2 [color="blue"];
+}

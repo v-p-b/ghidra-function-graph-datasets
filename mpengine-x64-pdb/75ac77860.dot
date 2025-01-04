@@ -1,0 +1,26 @@
+digraph ProcessLuaScriptActions {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac77860 -> BB75ac778c4 [color="green"];
+  BB75ac77860 -> BB75ac7788f [color="red"];
+  BB75ac7788f -> BB75ac778bd [color="green"];
+  BB75ac7788f -> BB75ac778a2 [color="red"];
+  BB75ac778a2 -> BB75ac778bd [color="green"];
+  BB75ac778a2 -> BB75ac778a8 [color="red"];
+  BB75ac778a8 -> BB75ac778bd [color="red"];
+  BB75ac778bd -> BB75ac77926 [color="blue"];
+  BB75ac778c4 -> BB75ac77924 [color="green"];
+  BB75ac778c4 -> BB75ac778d0 [color="red"];
+  BB75ac778d0 -> BB75ac778d7 [color="blue"];
+  BB75ac778d7 -> BB75ac7790f [color="green"];
+  BB75ac778d7 -> BB75ac778dd [color="red"];
+  BB75ac778dd -> BB75ac7791b [color="green"];
+  BB75ac778dd -> BB75ac778ee [color="red"];
+  BB75ac778ee -> BB75ac7791b [color="green"];
+  BB75ac778ee -> BB75ac778f4 [color="red"];
+  BB75ac778f4 -> BB75ac7791b [color="blue"];
+  BB75ac7790f -> BB75ac7791b [color="red"];
+  BB75ac7791b -> BB75ac778d7 [color="green"];
+  BB75ac7791b -> BB75ac77924 [color="red"];
+  BB75ac77924 -> BB75ac77926 [color="blue"];
+}

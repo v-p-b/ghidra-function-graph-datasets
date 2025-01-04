@@ -1,0 +1,11 @@
+digraph TrustAnchorHasPinnedRoot {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb6050 -> BB75abb608b [color="green"];
+  BB75abb6050 -> BB75abb606d [color="red"];
+  BB75abb606d -> BB75abb607f [color="green"];
+  BB75abb606d -> BB75abb6078 [color="red"];
+  BB75abb6078 -> BB75abb6090 [color="blue"];
+  BB75abb607f -> BB75abb6090 [color="blue"];
+  BB75abb608b -> BB75abb6090 [color="blue"];
+}

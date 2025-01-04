@@ -1,0 +1,14 @@
+digraph DlpDetoursDllInjectionWaitIntervalEnd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6ef1a0 -> BB75a6ef1c3 [color="green"];
+  BB75a6ef1a0 -> BB75a6ef1ad [color="red"];
+  BB75a6ef1ad -> BB75a6ef1c3 [color="green"];
+  BB75a6ef1ad -> BB75a6ef1b9 [color="red"];
+  BB75a6ef1b9 -> BB75a6ef1fb [color="blue"];
+  BB75a6ef1c3 -> BB75a6ef1fb [color="green"];
+  BB75a6ef1c3 -> BB75a6ef1e0 [color="red"];
+  BB75a6ef1e0 -> BB75a6ef1fb [color="green"];
+  BB75a6ef1e0 -> BB75a6ef1e6 [color="red"];
+  BB75a6ef1e6 -> BB75a6ef1fb [color="red"];
+}

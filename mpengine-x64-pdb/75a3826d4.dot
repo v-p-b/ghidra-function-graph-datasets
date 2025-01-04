@@ -1,0 +1,29 @@
+digraph TestForRegistryDetection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3826d4 -> BB75a38274f [color="green"];
+  BB75a3826d4 -> BB75a382731 [color="red"];
+  BB75a38274f -> BB75a382731 [color="green"];
+  BB75a38274f -> BB75a382758 [color="red"];
+  BB75a382758 -> BB75a382731 [color="green"];
+  BB75a382758 -> BB75a382760 [color="red"];
+  BB75a382760 -> BB75a382731 [color="green"];
+  BB75a382760 -> BB75a3827a9 [color="red"];
+  BB75a3827a9 -> BB75a382830 [color="green"];
+  BB75a3827a9 -> BB75a3827ed [color="red"];
+  BB75a3827ed -> BB75a3827f0 [color="blue"];
+  BB75a3827f0 -> BB75a38281a [color="green"];
+  BB75a3827f0 -> BB75a382801 [color="red"];
+  BB75a382801 -> BB75a38281a [color="green"];
+  BB75a382801 -> BB75a382811 [color="red"];
+  BB75a382811 -> BB75a38281a [color="red"];
+  BB75a38281a -> BB75a3827f0 [color="green"];
+  BB75a38281a -> BB75a382828 [color="red"];
+  BB75a382828 -> BB75a382830 [color="blue"];
+  BB75a382830 -> BB75a382847 [color="green"];
+  BB75a382830 -> BB75a382842 [color="red"];
+  BB75a382842 -> BB75a382847 [color="red"];
+  BB75a382847 -> BB75a382731 [color="green"];
+  BB75a382847 -> BB75a3828d0 [color="red"];
+  BB75a3828d0 -> BB75a382731 [color="blue"];
+}

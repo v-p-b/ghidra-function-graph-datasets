@@ -1,0 +1,25 @@
+digraph StartMonitoringTaintedExcludedProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8159a0 -> BB75a815c47 [color="green"];
+  BB75a8159a0 -> BB75a8159f7 [color="red"];
+  BB75a8159f7 -> BB75a815a42 [color="green"];
+  BB75a8159f7 -> BB75a815a2e [color="red"];
+  BB75a815a2e -> BB75a815c47 [color="blue"];
+  BB75a815a42 -> BB75a815b1b [color="green"];
+  BB75a815a42 -> BB75a815aef [color="red"];
+  BB75a815aef -> BB75a815b1b [color="green"];
+  BB75a815aef -> BB75a815b01 [color="red"];
+  BB75a815b01 -> BB75a815b1b [color="green"];
+  BB75a815b01 -> BB75a815b07 [color="red"];
+  BB75a815b07 -> BB75a815c47 [color="blue"];
+  BB75a815b1b -> BB75a815b79 [color="green"];
+  BB75a815b1b -> BB75a815b3e [color="red"];
+  BB75a815b3e -> BB75a815bf5 [color="green"];
+  BB75a815b3e -> BB75a815b55 [color="red"];
+  BB75a815b55 -> BB75a815bf5 [color="green"];
+  BB75a815b55 -> BB75a815b5f [color="red"];
+  BB75a815b5f -> BB75a815bf5 [color="blue"];
+  BB75a815b79 -> BB75a815bf5 [color="red"];
+  BB75a815bf5 -> BB75a815c47 [color="blue"];
+}

@@ -1,0 +1,23 @@
+digraph GetRegkeyComponents {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acde0a0 -> BB75acde0d2 [color="green"];
+  BB75acde0a0 -> BB75acde0cd [color="red"];
+  BB75acde0cd -> BB75acde0d2 [color="red"];
+  BB75acde0d2 -> BB75acde0dc [color="green"];
+  BB75acde0d2 -> BB75acde0d7 [color="red"];
+  BB75acde0d7 -> BB75acde0dc [color="red"];
+  BB75acde0dc -> BB75acde0e9 [color="green"];
+  BB75acde0dc -> BB75acde0e6 [color="red"];
+  BB75acde0e6 -> BB75acde0e9 [color="blue"];
+  BB75acde0e9 -> BB75acde0fe [color="green"];
+  BB75acde0e9 -> BB75acde0fb [color="red"];
+  BB75acde0fb -> BB75acde0fe [color="blue"];
+  BB75acde0fe -> BB75acde17b [color="green"];
+  BB75acde0fe -> BB75acde122 [color="red"];
+  BB75acde122 -> BB75acde16d [color="green"];
+  BB75acde122 -> BB75acde147 [color="red"];
+  BB75acde147 -> BB75acde179 [color="blue"];
+  BB75acde16d -> BB75acde179 [color="red"];
+  BB75acde179 -> BB75acde17b [color="blue"];
+}

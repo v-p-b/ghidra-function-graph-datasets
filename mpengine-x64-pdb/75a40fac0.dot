@@ -1,0 +1,21 @@
+digraph LogExtendedStreamScanResultToAsimov {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a40fac0 -> BB75a40fc61 [color="green"];
+  BB75a40fac0 -> BB75a40fc29 [color="red"];
+  BB75a40fc61 -> BB75a40fc29 [color="green"];
+  BB75a40fc61 -> BB75a40fc6d [color="red"];
+  BB75a40fc6d -> BB75a40fec0 [color="green"];
+  BB75a40fc6d -> BB75a40fc87 [color="red"];
+  BB75a40fc87 -> BB75a40fec0 [color="green"];
+  BB75a40fc87 -> BB75a40fca5 [color="red"];
+  BB75a40fca5 -> BB75a40fcb2 [color="green"];
+  BB75a40fca5 -> BB75a40fcab [color="red"];
+  BB75a40fcab -> BB75a40fcc0 [color="blue"];
+  BB75a40fcb2 -> BB75a40fcbe [color="green"];
+  BB75a40fcb2 -> BB75a40fcb6 [color="red"];
+  BB75a40fcb6 -> BB75a40fcc0 [color="blue"];
+  BB75a40fcbe -> BB75a40fcc0 [color="blue"];
+  BB75a40fcc0 -> BB75a40fec0 [color="red"];
+  BB75a40fec0 -> BB75a40fc29 [color="blue"];
+}

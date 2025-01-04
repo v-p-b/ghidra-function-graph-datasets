@@ -1,0 +1,18 @@
+digraph FindClose {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac35f40 -> BB75ac35f6c [color="green"];
+  BB75ac35f40 -> BB75ac35f60 [color="red"];
+  BB75ac35f60 -> BB75ac35f6c [color="red"];
+  BB75ac35f6c -> BB75ac35f84 [color="green"];
+  BB75ac35f6c -> BB75ac35f78 [color="red"];
+  BB75ac35f78 -> BB75ac35f84 [color="red"];
+  BB75ac35f84 -> BB75ac35fd2 [color="green"];
+  BB75ac35f84 -> BB75ac35fa6 [color="red"];
+  BB75ac35fa6 -> BB75ac35faa [color="blue"];
+  BB75ac35faa -> BB75ac35faa [color="green"];
+  BB75ac35faa -> BB75ac35fb3 [color="red"];
+  BB75ac35fb3 -> BB75ac35fd2 [color="green"];
+  BB75ac35fb3 -> BB75ac35fc6 [color="red"];
+  BB75ac35fc6 -> BB75ac35fd2 [color="red"];
+}

@@ -1,0 +1,13 @@
+digraph PostCompletionStatus {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a73f1c4 -> BB75a73f214 [color="green"];
+  BB75a73f1c4 -> BB75a73f1d8 [color="red"];
+  BB75a73f1d8 -> BB75a73f210 [color="green"];
+  BB75a73f1d8 -> BB75a73f1f2 [color="red"];
+  BB75a73f1f2 -> BB75a73f210 [color="green"];
+  BB75a73f1f2 -> BB75a73f1f8 [color="red"];
+  BB75a73f1f8 -> BB75a73f210 [color="red"];
+  BB75a73f210 -> BB75a73f216 [color="blue"];
+  BB75a73f214 -> BB75a73f216 [color="blue"];
+}

@@ -1,0 +1,20 @@
+digraph IsKnownFriendly {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a63b9b4 -> BB75a63bada [color="green"];
+  BB75a63b9b4 -> BB75a63b9ee [color="red"];
+  BB75a63b9ee -> BB75a63bae3 [color="green"];
+  BB75a63b9ee -> BB75a63b9ff [color="red"];
+  BB75a63b9ff -> BB75a63bab3 [color="green"];
+  BB75a63b9ff -> BB75a63ba08 [color="red"];
+  BB75a63ba08 -> BB75a63bab7 [color="green"];
+  BB75a63ba08 -> BB75a63ba35 [color="red"];
+  BB75a63ba35 -> BB75a63ba91 [color="green"];
+  BB75a63ba35 -> BB75a63ba88 [color="red"];
+  BB75a63ba88 -> BB75a63ba91 [color="red"];
+  BB75a63ba91 -> BB75a63ba94 [color="blue"];
+  BB75a63bab3 -> BB75a63ba94 [color="blue"];
+  BB75a63bab7 -> BB75a63ba35 [color="blue"];
+  BB75a63bada -> BB75a63b9ee [color="blue"];
+  BB75a63bae3 -> BB75a63b9ff [color="blue"];
+}

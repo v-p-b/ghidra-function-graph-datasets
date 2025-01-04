@@ -1,0 +1,32 @@
+digraph ProcessBlockExploitEvent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a85808c -> BB75a858104 [color="green"];
+  BB75a85808c -> BB75a8580c7 [color="red"];
+  BB75a8580c7 -> BB75a85824a [color="green"];
+  BB75a8580c7 -> BB75a8580de [color="red"];
+  BB75a8580de -> BB75a85824a [color="green"];
+  BB75a8580de -> BB75a8580ec [color="red"];
+  BB75a8580ec -> BB75a85824a [color="blue"];
+  BB75a858104 -> BB75a85816e [color="green"];
+  BB75a858104 -> BB75a858132 [color="red"];
+  BB75a858132 -> BB75a85823a [color="green"];
+  BB75a858132 -> BB75a858149 [color="red"];
+  BB75a858149 -> BB75a85823a [color="green"];
+  BB75a858149 -> BB75a858156 [color="red"];
+  BB75a858156 -> BB75a85823a [color="blue"];
+  BB75a85816e -> BB75a8581dd [color="green"];
+  BB75a85816e -> BB75a8581b0 [color="red"];
+  BB75a8581b0 -> BB75a858202 [color="green"];
+  BB75a8581b0 -> BB75a8581c3 [color="red"];
+  BB75a8581c3 -> BB75a858202 [color="green"];
+  BB75a8581c3 -> BB75a8581c8 [color="red"];
+  BB75a8581c8 -> BB75a858202 [color="blue"];
+  BB75a8581dd -> BB75a858202 [color="blue"];
+  BB75a858202 -> BB75a85823a [color="green"];
+  BB75a858202 -> BB75a858235 [color="red"];
+  BB75a858235 -> BB75a85823a [color="red"];
+  BB75a85823a -> BB75a85824a [color="green"];
+  BB75a85823a -> BB75a858244 [color="red"];
+  BB75a858244 -> BB75a85824a [color="red"];
+}

@@ -1,0 +1,9 @@
+digraph __scrt_release_startup_lock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a77e398 -> BB75a77e3b6 [color="green"];
+  BB75a77e398 -> BB75a77e3ab [color="red"];
+  BB75a77e3ab -> BB75a77e3b6 [color="green"];
+  BB75a77e3ab -> BB75a77e3af [color="red"];
+  BB75a77e3af -> BB75a77e3b6 [color="blue"];
+}

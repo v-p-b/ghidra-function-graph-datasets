@@ -1,0 +1,15 @@
+digraph WideVirtualString {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a38e774 -> BB75a38e7d5 [color="green"];
+  BB75a38e774 -> BB75a38e7cf [color="red"];
+  BB75a38e7cf -> BB75a38e7d5 [color="blue"];
+  BB75a38e7d5 -> BB75a38e7fe [color="green"];
+  BB75a38e7d5 -> BB75a38e7da [color="red"];
+  BB75a38e7da -> BB75a38e811 [color="green"];
+  BB75a38e7da -> BB75a38e7fe [color="red"];
+  BB75a38e811 -> BB75a38e81b [color="green"];
+  BB75a38e811 -> BB75a38e817 [color="red"];
+  BB75a38e817 -> BB75a38e81b [color="blue"];
+  BB75a38e81b -> BB75a38e7fe [color="blue"];
+}

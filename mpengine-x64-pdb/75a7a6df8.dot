@@ -1,0 +1,11 @@
+digraph __acrt_should_use_temporary_buffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7a6df8 -> BB75a7a6e39 [color="green"];
+  BB75a7a6df8 -> BB75a7a6e10 [color="red"];
+  BB75a7a6e10 -> BB75a7a6e35 [color="green"];
+  BB75a7a6e10 -> BB75a7a6e1f [color="red"];
+  BB75a7a6e1f -> BB75a7a6e3b [color="blue"];
+  BB75a7a6e35 -> BB75a7a6e3b [color="blue"];
+  BB75a7a6e39 -> BB75a7a6e3b [color="blue"];
+}

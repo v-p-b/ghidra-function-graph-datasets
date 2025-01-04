@@ -1,0 +1,13 @@
+digraph GetServiceFsHardeningItems {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a61d9fc -> BB75a61da70 [color="green"];
+  BB75a61d9fc -> BB75a61da0e [color="red"];
+  BB75a61da0e -> BB75a61da70 [color="green"];
+  BB75a61da0e -> BB75a61da14 [color="red"];
+  BB75a61da14 -> BB75a61da41 [color="green"];
+  BB75a61da14 -> BB75a61da34 [color="red"];
+  BB75a61da34 -> BB75a61da75 [color="blue"];
+  BB75a61da41 -> BB75a61da75 [color="blue"];
+  BB75a61da70 -> BB75a61da75 [color="blue"];
+}

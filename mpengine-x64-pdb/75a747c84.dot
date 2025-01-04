@@ -1,0 +1,16 @@
+digraph set_CPU_feature_flags {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a747c84 -> BB75a747cfe [color="green"];
+  BB75a747c84 -> BB75a747c94 [color="red"];
+  BB75a747c94 -> BB75a747ca6 [color="green"];
+  BB75a747c94 -> BB75a747c9d [color="red"];
+  BB75a747c9d -> BB75a747ca8 [color="blue"];
+  BB75a747ca6 -> BB75a747ca8 [color="blue"];
+  BB75a747ca8 -> BB75a747cf1 [color="green"];
+  BB75a747ca8 -> BB75a747ce8 [color="red"];
+  BB75a747ce8 -> BB75a747cf1 [color="green"];
+  BB75a747ce8 -> BB75a747cef [color="red"];
+  BB75a747cef -> BB75a747cf1 [color="blue"];
+  BB75a747cf1 -> BB75a747cfe [color="blue"];
+}

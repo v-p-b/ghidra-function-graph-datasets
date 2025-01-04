@@ -1,0 +1,14 @@
+digraph lzcopy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aacab64 -> BB75aacab8d [color="green"];
+  BB75aacab64 -> BB75aacab88 [color="red"];
+  BB75aacab88 -> BB75aacab8d [color="red"];
+  BB75aacab8d -> BB75aacaba3 [color="green"];
+  BB75aacab8d -> BB75aacab9e [color="red"];
+  BB75aacab9e -> BB75aacaba3 [color="red"];
+  BB75aacaba3 -> BB75aacabb4 [color="green"];
+  BB75aacaba3 -> BB75aacabad [color="red"];
+  BB75aacabad -> BB75aacabe4 [color="blue"];
+  BB75aacabb4 -> BB75aacabe4 [color="red"];
+}

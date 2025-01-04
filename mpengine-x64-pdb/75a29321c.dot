@@ -1,0 +1,17 @@
+digraph sqlite3IndexedByLookup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a29321c -> BB75a293245 [color="green"];
+  BB75a29321c -> BB75a29323f [color="red"];
+  BB75a29323f -> BB75a29325c [color="green"];
+  BB75a29323f -> BB75a293245 [color="red"];
+  BB75a293245 -> BB75a293247 [color="blue"];
+  BB75a29325c -> BB75a293279 [color="blue"];
+  BB75a293266 -> BB75a29329c [color="green"];
+  BB75a293266 -> BB75a293275 [color="red"];
+  BB75a293275 -> BB75a293279 [color="blue"];
+  BB75a293279 -> BB75a293266 [color="green"];
+  BB75a293279 -> BB75a29327e [color="red"];
+  BB75a29327e -> BB75a293247 [color="blue"];
+  BB75a29329c -> BB75a293245 [color="blue"];
+}

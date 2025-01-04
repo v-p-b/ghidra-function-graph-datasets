@@ -1,0 +1,22 @@
+digraph DT_vmcache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a241814 -> BB75a24185a [color="green"];
+  BB75a241814 -> BB75a24182a [color="red"];
+  BB75a24182a -> BB75a241886 [color="green"];
+  BB75a24182a -> BB75a24182f [color="red"];
+  BB75a24182f -> BB75a241870 [color="green"];
+  BB75a24182f -> BB75a241834 [color="red"];
+  BB75a241834 -> BB75a241886 [color="green"];
+  BB75a241834 -> BB75a241839 [color="red"];
+  BB75a241839 -> BB75a241870 [color="green"];
+  BB75a241839 -> BB75a24183e [color="red"];
+  BB75a24183e -> BB75a241892 [color="green"];
+  BB75a24183e -> BB75a241843 [color="red"];
+  BB75a241843 -> BB75a241851 [color="blue"];
+  BB75a24185a -> BB75a241864 [color="blue"];
+  BB75a241864 -> BB75a241851 [color="blue"];
+  BB75a241870 -> BB75a241851 [color="blue"];
+  BB75a241886 -> BB75a241864 [color="blue"];
+  BB75a241892 -> BB75a241843 [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph CheckValidStringWithinBuffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abd2fbc -> BB75abd2ff7 [color="green"];
+  BB75abd2fbc -> BB75abd2fd1 [color="red"];
+  BB75abd2fd1 -> BB75abd2ff7 [color="green"];
+  BB75abd2fd1 -> BB75abd2fd6 [color="red"];
+  BB75abd2fd6 -> BB75abd2ff7 [color="green"];
+  BB75abd2fd6 -> BB75abd2fdb [color="red"];
+  BB75abd2fdb -> BB75abd2ff7 [color="green"];
+  BB75abd2fdb -> BB75abd2fe0 [color="red"];
+  BB75abd2fe0 -> BB75abd2ff7 [color="green"];
+  BB75abd2fe0 -> BB75abd2ff3 [color="red"];
+  BB75abd2ff3 -> BB75abd2ff9 [color="blue"];
+  BB75abd2ff7 -> BB75abd2ff9 [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph winMutexAlloc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6e1750 -> BB75a6e177f [color="green"];
+  BB75a6e1750 -> BB75a6e1760 [color="red"];
+  BB75a6e1760 -> BB75a6e177f [color="green"];
+  BB75a6e1760 -> BB75a6e1765 [color="red"];
+  BB75a6e1765 -> BB75a6e179d [color="blue"];
+  BB75a6e177f -> BB75a6e179d [color="green"];
+  BB75a6e177f -> BB75a6e1791 [color="red"];
+  BB75a6e1791 -> BB75a6e179d [color="red"];
+}

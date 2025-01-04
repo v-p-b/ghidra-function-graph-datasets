@@ -1,0 +1,10 @@
+digraph AvailableBytes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5273b8 -> BB75a5273f2 [color="green"];
+  BB75a5273b8 -> BB75a5273d1 [color="red"];
+  BB75a5273d1 -> BB75a5273f9 [color="green"];
+  BB75a5273d1 -> BB75a5273e3 [color="red"];
+  BB75a5273f2 -> BB75a5273d1 [color="blue"];
+  BB75a5273f9 -> BB75a5273e3 [color="blue"];
+}

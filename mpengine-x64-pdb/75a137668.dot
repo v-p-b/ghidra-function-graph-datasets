@@ -1,0 +1,12 @@
+digraph CheckStaticSignatures {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a137668 -> BB75a1376d1 [color="green"];
+  BB75a137668 -> BB75a13769c [color="red"];
+  BB75a13769c -> BB75a1376b4 [color="red"];
+  BB75a1376d1 -> BB75a1376b4 [color="green"];
+  BB75a1376d1 -> BB75a1376e4 [color="red"];
+  BB75a1376e4 -> BB75a1376b4 [color="green"];
+  BB75a1376e4 -> BB75a1376ea [color="red"];
+  BB75a1376ea -> BB75a1376b4 [color="blue"];
+}

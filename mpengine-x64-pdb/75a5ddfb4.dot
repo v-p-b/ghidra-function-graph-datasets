@@ -1,0 +1,14 @@
+digraph ~classifier_plugin {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5ddfb4 -> BB75a5ddfd4 [color="green"];
+  BB75a5ddfb4 -> BB75a5ddfcf [color="red"];
+  BB75a5ddfcf -> BB75a5ddfd4 [color="red"];
+  BB75a5ddfd4 -> BB75a5de017 [color="green"];
+  BB75a5ddfd4 -> BB75a5ddff1 [color="red"];
+  BB75a5ddff1 -> BB75a5de002 [color="green"];
+  BB75a5ddff1 -> BB75a5ddffd [color="red"];
+  BB75a5ddffd -> BB75a5de002 [color="red"];
+  BB75a5de002 -> BB75a5ddff1 [color="green"];
+  BB75a5de002 -> BB75a5de017 [color="red"];
+}

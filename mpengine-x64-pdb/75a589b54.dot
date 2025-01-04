@@ -1,0 +1,11 @@
+digraph sync_alloc_object {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a589b54 -> BB75a589b62 [color="blue"];
+  BB75a589b62 -> BB75a589b80 [color="green"];
+  BB75a589b62 -> BB75a589b6e [color="red"];
+  BB75a589b6e -> BB75a589b62 [color="green"];
+  BB75a589b6e -> BB75a589b7d [color="red"];
+  BB75a589b80 -> BB75a589b7d [color="green"];
+  BB75a589b80 -> BB75a589b85 [color="red"];
+}

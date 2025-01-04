@@ -1,0 +1,21 @@
+digraph decompress {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a41f650 -> BB75a41f69d [color="green"];
+  BB75a41f650 -> BB75a41f66b [color="red"];
+  BB75a41f66b -> BB75a41f68a [color="green"];
+  BB75a41f66b -> BB75a41f66f [color="red"];
+  BB75a41f66f -> BB75a41f67a [color="red"];
+  BB75a41f68a -> BB75a41f67a [color="green"];
+  BB75a41f68a -> BB75a41f697 [color="red"];
+  BB75a41f697 -> BB75a41f66f [color="blue"];
+  BB75a41f69d -> BB75a41f6c7 [color="green"];
+  BB75a41f69d -> BB75a41f6a8 [color="red"];
+  BB75a41f6a8 -> BB75a41f6e5 [color="green"];
+  BB75a41f6a8 -> BB75a41f6b6 [color="red"];
+  BB75a41f6b6 -> BB75a41f6e5 [color="green"];
+  BB75a41f6b6 -> BB75a41f6c3 [color="red"];
+  BB75a41f6c3 -> BB75a41f6c7 [color="blue"];
+  BB75a41f6c7 -> BB75a41f67a [color="blue"];
+  BB75a41f6e5 -> BB75a41f67a [color="blue"];
+}

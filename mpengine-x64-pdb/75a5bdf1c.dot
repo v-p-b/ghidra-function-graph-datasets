@@ -1,0 +1,34 @@
+digraph SendToCamp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5bdf1c -> BB75a5be01b [color="green"];
+  BB75a5bdf1c -> BB75a5bdf3d [color="red"];
+  BB75a5bdf3d -> BB75a5be072 [color="green"];
+  BB75a5bdf3d -> BB75a5bdf4d [color="red"];
+  BB75a5bdf4d -> BB75a5be02b [color="green"];
+  BB75a5bdf4d -> BB75a5bdf5a [color="red"];
+  BB75a5bdf5a -> BB75a5bdf61 [color="blue"];
+  BB75a5bdf61 -> BB75a5be072 [color="green"];
+  BB75a5bdf61 -> BB75a5bdf6a [color="red"];
+  BB75a5bdf6a -> BB75a5bdf8b [color="green"];
+  BB75a5bdf6a -> BB75a5bdf88 [color="red"];
+  BB75a5bdf88 -> BB75a5bdf8b [color="blue"];
+  BB75a5bdf8b -> BB75a5bdfa3 [color="green"];
+  BB75a5bdf8b -> BB75a5bdfa0 [color="red"];
+  BB75a5bdfa0 -> BB75a5bdfa3 [color="blue"];
+  BB75a5bdfa3 -> BB75a5be026 [color="green"];
+  BB75a5bdfa3 -> BB75a5bdfd9 [color="red"];
+  BB75a5bdfd9 -> BB75a5be041 [color="green"];
+  BB75a5bdfd9 -> BB75a5be01b [color="red"];
+  BB75a5be01b -> BB75a5be01d [color="blue"];
+  BB75a5be026 -> BB75a5bdfd9 [color="blue"];
+  BB75a5be02b -> BB75a5be072 [color="green"];
+  BB75a5be02b -> BB75a5be035 [color="red"];
+  BB75a5be035 -> BB75a5bdf61 [color="blue"];
+  BB75a5be041 -> BB75a5be072 [color="green"];
+  BB75a5be041 -> BB75a5be054 [color="red"];
+  BB75a5be054 -> BB75a5be072 [color="green"];
+  BB75a5be054 -> BB75a5be05a [color="red"];
+  BB75a5be05a -> BB75a5be072 [color="red"];
+  BB75a5be072 -> BB75a5be01d [color="blue"];
+}

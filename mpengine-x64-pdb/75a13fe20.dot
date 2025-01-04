@@ -1,0 +1,16 @@
+digraph CouldBeAmsiScan {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a13fe20 -> BB75a13fe4a [color="green"];
+  BB75a13fe20 -> BB75a13fe3c [color="red"];
+  BB75a13fe3c -> BB75a13fe53 [color="green"];
+  BB75a13fe3c -> BB75a13fe4a [color="red"];
+  BB75a13fe4a -> BB75a13fe61 [color="green"];
+  BB75a13fe4a -> BB75a13fe50 [color="red"];
+  BB75a13fe50 -> BB75a13fe53 [color="blue"];
+  BB75a13fe61 -> BB75a13fe50 [color="green"];
+  BB75a13fe61 -> BB75a13fe6f [color="red"];
+  BB75a13fe6f -> BB75a13fe50 [color="green"];
+  BB75a13fe6f -> BB75a13fe7d [color="red"];
+  BB75a13fe7d -> BB75a13fe53 [color="blue"];
+}

@@ -1,0 +1,9 @@
+digraph get_thumbprint {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a622ebc -> BB75a622ed8 [color="green"];
+  BB75a622ebc -> BB75a622ec7 [color="red"];
+  BB75a622ec7 -> BB75a622ed8 [color="green"];
+  BB75a622ec7 -> BB75a622ed5 [color="red"];
+  BB75a622ed5 -> BB75a622ed8 [color="blue"];
+}

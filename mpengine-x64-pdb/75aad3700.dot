@@ -1,0 +1,28 @@
+digraph IsPhysicalPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aad3700 -> BB75aad37bf [color="green"];
+  BB75aad3700 -> BB75aad3747 [color="red"];
+  BB75aad3747 -> BB75aad37bf [color="green"];
+  BB75aad3747 -> BB75aad374c [color="red"];
+  BB75aad374c -> BB75aad3770 [color="red"];
+  BB75aad3770 -> BB75aad3770 [color="green"];
+  BB75aad3770 -> BB75aad377a [color="red"];
+  BB75aad377a -> BB75aad3786 [color="green"];
+  BB75aad377a -> BB75aad377f [color="red"];
+  BB75aad377f -> BB75aad37fe [color="blue"];
+  BB75aad3786 -> BB75aad3799 [color="blue"];
+  BB75aad3799 -> BB75aad3799 [color="green"];
+  BB75aad3799 -> BB75aad37a2 [color="red"];
+  BB75aad37a2 -> BB75aad37fe [color="green"];
+  BB75aad37a2 -> BB75aad37a7 [color="red"];
+  BB75aad37a7 -> BB75aad37fe [color="green"];
+  BB75aad37a7 -> BB75aad37b6 [color="red"];
+  BB75aad37b6 -> BB75aad37fe [color="blue"];
+  BB75aad37bf -> BB75aad37f4 [color="green"];
+  BB75aad37bf -> BB75aad37d2 [color="red"];
+  BB75aad37d2 -> BB75aad37f4 [color="green"];
+  BB75aad37d2 -> BB75aad37d8 [color="red"];
+  BB75aad37d8 -> BB75aad37f4 [color="red"];
+  BB75aad37f4 -> BB75aad37fe [color="blue"];
+}

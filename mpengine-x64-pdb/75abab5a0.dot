@@ -1,0 +1,12 @@
+digraph modmon_module_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abab5a0 -> BB75abab66a [color="green"];
+  BB75abab5a0 -> BB75abab631 [color="red"];
+  BB75abab631 -> BB75abab660 [color="green"];
+  BB75abab631 -> BB75abab644 [color="red"];
+  BB75abab644 -> BB75abab660 [color="green"];
+  BB75abab644 -> BB75abab64a [color="red"];
+  BB75abab64a -> BB75abab660 [color="red"];
+  BB75abab660 -> BB75abab66a [color="red"];
+}

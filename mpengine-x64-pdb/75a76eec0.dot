@@ -1,0 +1,11 @@
+digraph GetFirmwareEnvironmentVariableA {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a76eec0 -> BB75a76ef0e [color="green"];
+  BB75a76eec0 -> BB75a76eeec [color="red"];
+  BB75a76eeec -> BB75a76ef07 [color="green"];
+  BB75a76eeec -> BB75a76eef8 [color="red"];
+  BB75a76eef8 -> BB75a76ef1f [color="blue"];
+  BB75a76ef07 -> BB75a76ef0e [color="blue"];
+  BB75a76ef0e -> BB75a76ef1f [color="red"];
+}

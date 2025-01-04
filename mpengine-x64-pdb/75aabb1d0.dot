@@ -1,0 +1,19 @@
+digraph testbits {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aabb1d0 -> BB75aabb1ff [color="green"];
+  BB75aabb1d0 -> BB75aabb1fa [color="red"];
+  BB75aabb1fa -> BB75aabb1ff [color="red"];
+  BB75aabb1ff -> BB75aabb242 [color="green"];
+  BB75aabb1ff -> BB75aabb204 [color="red"];
+  BB75aabb204 -> BB75aabb223 [color="green"];
+  BB75aabb204 -> BB75aabb20a [color="red"];
+  BB75aabb20a -> BB75aabb251 [color="green"];
+  BB75aabb20a -> BB75aabb218 [color="red"];
+  BB75aabb218 -> BB75aabb223 [color="green"];
+  BB75aabb218 -> BB75aabb21e [color="red"];
+  BB75aabb21e -> BB75aabb223 [color="red"];
+  BB75aabb223 -> BB75aabb24e [color="blue"];
+  BB75aabb242 -> BB75aabb24e [color="blue"];
+  BB75aabb24e -> BB75aabb251 [color="blue"];
+}

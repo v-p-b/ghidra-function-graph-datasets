@@ -1,0 +1,16 @@
+digraph _validate_unhalted_ratio_feature_and_save {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a354e70 -> BB75a354f12 [color="green"];
+  BB75a354e70 -> BB75a354eb0 [color="red"];
+  BB75a354eb0 -> BB75a354f20 [color="green"];
+  BB75a354eb0 -> BB75a354eb5 [color="red"];
+  BB75a354eb5 -> BB75a354f20 [color="green"];
+  BB75a354eb5 -> BB75a354ebd [color="red"];
+  BB75a354ebd -> BB75a354ec0 [color="blue"];
+  BB75a354ec0 -> BB75a354ee9 [color="red"];
+  BB75a354f12 -> BB75a354f20 [color="green"];
+  BB75a354f12 -> BB75a354f1a [color="red"];
+  BB75a354f1a -> BB75a354ec0 [color="blue"];
+  BB75a354f20 -> BB75a354ee9 [color="blue"];
+}

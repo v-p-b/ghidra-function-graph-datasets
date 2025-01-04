@@ -1,0 +1,12 @@
+digraph delete_threat_context {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a59fb0c -> BB75a59fb12 [color="green"];
+  BB75a59fb0c -> BB75a59fb11 [color="red"];
+  BB75a59fb12 -> BB75a59fb58 [color="green"];
+  BB75a59fb12 -> BB75a59fb2b [color="red"];
+  BB75a59fb2b -> BB75a59fb51 [color="green"];
+  BB75a59fb2b -> BB75a59fb34 [color="red"];
+  BB75a59fb51 -> BB75a59fb34 [color="blue"];
+  BB75a59fb58 -> BB75a59fb2b [color="blue"];
+}

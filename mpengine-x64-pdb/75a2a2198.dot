@@ -1,0 +1,13 @@
+digraph sqlite3PagerCommitPhaseTwo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2a2198 -> BB75a2a21d1 [color="green"];
+  BB75a2a2198 -> BB75a2a21a8 [color="red"];
+  BB75a2a21a8 -> BB75a2a21b7 [color="green"];
+  BB75a2a21a8 -> BB75a2a21b2 [color="red"];
+  BB75a2a21b2 -> BB75a2a21d7 [color="green"];
+  BB75a2a21b2 -> BB75a2a21b7 [color="red"];
+  BB75a2a21b7 -> BB75a2a21d1 [color="red"];
+  BB75a2a21d7 -> BB75a2a21b7 [color="green"];
+  BB75a2a21d7 -> BB75a2a21dd [color="red"];
+}

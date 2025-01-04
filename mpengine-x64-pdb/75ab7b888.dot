@@ -1,0 +1,26 @@
+digraph GetFileFromCleanStore {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab7b888 -> BB75ab7b8e1 [color="green"];
+  BB75ab7b888 -> BB75ab7b8bf [color="red"];
+  BB75ab7b8bf -> BB75ab7b8e1 [color="green"];
+  BB75ab7b8bf -> BB75ab7b8c5 [color="red"];
+  BB75ab7b8c5 -> BB75ab7b8e1 [color="red"];
+  BB75ab7b8e1 -> BB75ab7b9c4 [color="green"];
+  BB75ab7b8e1 -> BB75ab7b909 [color="red"];
+  BB75ab7b909 -> BB75ab7b92f [color="green"];
+  BB75ab7b909 -> BB75ab7b928 [color="red"];
+  BB75ab7b928 -> BB75ab7b9c4 [color="blue"];
+  BB75ab7b92f -> BB75ab7b956 [color="green"];
+  BB75ab7b92f -> BB75ab7b94d [color="red"];
+  BB75ab7b94d -> BB75ab7b956 [color="red"];
+  BB75ab7b956 -> BB75ab7b928 [color="green"];
+  BB75ab7b956 -> BB75ab7b965 [color="red"];
+  BB75ab7b965 -> BB75ab7b9c4 [color="green"];
+  BB75ab7b965 -> BB75ab7b98a [color="red"];
+  BB75ab7b98a -> BB75ab7b9c4 [color="green"];
+  BB75ab7b98a -> BB75ab7b9a6 [color="red"];
+  BB75ab7b9a6 -> BB75ab7b9c4 [color="green"];
+  BB75ab7b9a6 -> BB75ab7b9ac [color="red"];
+  BB75ab7b9ac -> BB75ab7b9c4 [color="red"];
+}

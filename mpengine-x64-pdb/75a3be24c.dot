@@ -1,0 +1,18 @@
+digraph IsPathExcluded {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3be24c -> BB75a3be316 [color="green"];
+  BB75a3be24c -> BB75a3be266 [color="red"];
+  BB75a3be266 -> BB75a3be274 [color="red"];
+  BB75a3be274 -> BB75a3be2fd [color="green"];
+  BB75a3be274 -> BB75a3be2dd [color="red"];
+  BB75a3be2dd -> BB75a3be2f2 [color="green"];
+  BB75a3be2dd -> BB75a3be2ed [color="red"];
+  BB75a3be2ed -> BB75a3be2f2 [color="red"];
+  BB75a3be2f2 -> BB75a3be2f4 [color="blue"];
+  BB75a3be2fd -> BB75a3be312 [color="green"];
+  BB75a3be2fd -> BB75a3be30d [color="red"];
+  BB75a3be30d -> BB75a3be312 [color="red"];
+  BB75a3be312 -> BB75a3be2f4 [color="blue"];
+  BB75a3be316 -> BB75a3be274 [color="blue"];
+}

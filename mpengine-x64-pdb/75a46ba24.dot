@@ -1,0 +1,29 @@
+digraph BufferLZCopy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a46ba24 -> BB75a46ba74 [color="green"];
+  BB75a46ba24 -> BB75a46ba39 [color="red"];
+  BB75a46ba39 -> BB75a46ba39 [color="green"];
+  BB75a46ba39 -> BB75a46ba74 [color="red"];
+  BB75a46ba74 -> BB75a46bad7 [color="green"];
+  BB75a46ba74 -> BB75a46ba7a [color="red"];
+  BB75a46ba7a -> BB75a46bacf [color="green"];
+  BB75a46ba7a -> BB75a46ba7f [color="red"];
+  BB75a46ba7f -> BB75a46bac4 [color="green"];
+  BB75a46ba7f -> BB75a46ba84 [color="red"];
+  BB75a46ba84 -> BB75a46bab9 [color="green"];
+  BB75a46ba84 -> BB75a46ba89 [color="red"];
+  BB75a46ba89 -> BB75a46baae [color="green"];
+  BB75a46ba89 -> BB75a46ba8e [color="red"];
+  BB75a46ba8e -> BB75a46baa3 [color="green"];
+  BB75a46ba8e -> BB75a46ba93 [color="red"];
+  BB75a46ba93 -> BB75a46bad8 [color="green"];
+  BB75a46ba93 -> BB75a46ba98 [color="red"];
+  BB75a46ba98 -> BB75a46baa3 [color="blue"];
+  BB75a46baa3 -> BB75a46baae [color="blue"];
+  BB75a46baae -> BB75a46bab9 [color="blue"];
+  BB75a46bab9 -> BB75a46bac4 [color="blue"];
+  BB75a46bac4 -> BB75a46bacf [color="blue"];
+  BB75a46bacf -> BB75a46bad7 [color="blue"];
+  BB75a46bad8 -> BB75a46ba98 [color="blue"];
+}

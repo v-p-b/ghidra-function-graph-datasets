@@ -1,0 +1,18 @@
+digraph UtilRevertThreadMemoryPriority {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a146310 -> BB75a146345 [color="green"];
+  BB75a146310 -> BB75a14631f [color="red"];
+  BB75a14631f -> BB75a14634d [color="green"];
+  BB75a14631f -> BB75a146345 [color="red"];
+  BB75a146345 -> BB75a146347 [color="blue"];
+  BB75a14634d -> BB75a146385 [color="green"];
+  BB75a14634d -> BB75a146367 [color="red"];
+  BB75a146367 -> BB75a146385 [color="green"];
+  BB75a146367 -> BB75a14636d [color="red"];
+  BB75a14636d -> BB75a146385 [color="red"];
+  BB75a146385 -> BB75a146393 [color="green"];
+  BB75a146385 -> BB75a146389 [color="red"];
+  BB75a146389 -> BB75a146393 [color="red"];
+  BB75a146393 -> BB75a146347 [color="blue"];
+}

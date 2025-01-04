@@ -1,0 +1,22 @@
+digraph msil_emit_update_StackTrace {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a336394 -> BB75a3364de [color="green"];
+  BB75a336394 -> BB75a3363c4 [color="red"];
+  BB75a3363c4 -> BB75a3363fe [color="green"];
+  BB75a3363c4 -> BB75a3363d0 [color="red"];
+  BB75a3363d0 -> BB75a3363d7 [color="blue"];
+  BB75a3363d7 -> BB75a3363d7 [color="green"];
+  BB75a3363d7 -> BB75a3363fe [color="red"];
+  BB75a3363fe -> BB75a3364c7 [color="green"];
+  BB75a3363fe -> BB75a33640b [color="red"];
+  BB75a33640b -> BB75a336460 [color="red"];
+  BB75a336460 -> BB75a336489 [color="green"];
+  BB75a336460 -> BB75a336468 [color="red"];
+  BB75a336468 -> BB75a3364e7 [color="green"];
+  BB75a336468 -> BB75a336470 [color="red"];
+  BB75a336489 -> BB75a336468 [color="blue"];
+  BB75a3364c7 -> BB75a336460 [color="blue"];
+  BB75a3364de -> BB75a336470 [color="blue"];
+  BB75a3364e7 -> BB75a336470 [color="blue"];
+}

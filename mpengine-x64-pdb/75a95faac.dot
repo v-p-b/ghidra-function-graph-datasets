@@ -1,0 +1,14 @@
+digraph get_violation_cache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a95faac -> BB75a95fae3 [color="green"];
+  BB75a95faac -> BB75a95fad3 [color="red"];
+  BB75a95fad3 -> BB75a95fae5 [color="blue"];
+  BB75a95fae3 -> BB75a95fae5 [color="blue"];
+  BB75a95fae5 -> BB75a95fb4d [color="green"];
+  BB75a95fae5 -> BB75a95fb11 [color="red"];
+  BB75a95fb11 -> BB75a95fb35 [color="green"];
+  BB75a95fb11 -> BB75a95fb30 [color="red"];
+  BB75a95fb30 -> BB75a95fb35 [color="red"];
+  BB75a95fb35 -> BB75a95fb4d [color="red"];
+}

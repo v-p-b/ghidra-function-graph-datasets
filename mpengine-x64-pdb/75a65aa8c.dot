@@ -1,0 +1,17 @@
+digraph ZSTD_allocateLiteralsBuffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a65aa8c -> BB75a65aad2 [color="green"];
+  BB75a65aa8c -> BB75a65aa9f [color="red"];
+  BB75a65aa9f -> BB75a65aad2 [color="green"];
+  BB75a65aa9f -> BB75a65aaab [color="red"];
+  BB75a65aaab -> BB75a65aacd [color="blue"];
+  BB75a65aad2 -> BB75a65aafc [color="green"];
+  BB75a65aad2 -> BB75a65aadb [color="red"];
+  BB75a65aadb -> BB75a65aacd [color="blue"];
+  BB75a65aafc -> BB75a65ab39 [color="green"];
+  BB75a65aafc -> BB75a65ab0e [color="red"];
+  BB75a65ab0e -> BB75a65ab1f [color="blue"];
+  BB75a65ab1f -> BB75a65aacd [color="blue"];
+  BB75a65ab39 -> BB75a65ab1f [color="blue"];
+}

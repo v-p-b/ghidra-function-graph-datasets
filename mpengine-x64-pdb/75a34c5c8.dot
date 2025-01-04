@@ -1,0 +1,18 @@
+digraph LBound {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a34c5c8 -> BB75a34c5f5 [color="green"];
+  BB75a34c5c8 -> BB75a34c5e7 [color="red"];
+  BB75a34c5f5 -> BB75a34c5f8 [color="blue"];
+  BB75a34c5f8 -> BB75a34c623 [color="green"];
+  BB75a34c5f8 -> BB75a34c5fe [color="red"];
+  BB75a34c5fe -> BB75a34c602 [color="blue"];
+  BB75a34c602 -> BB75a34c5f8 [color="green"];
+  BB75a34c602 -> BB75a34c607 [color="red"];
+  BB75a34c607 -> BB75a34c5e7 [color="green"];
+  BB75a34c607 -> BB75a34c60c [color="red"];
+  BB75a34c60c -> BB75a34c5e7 [color="green"];
+  BB75a34c60c -> BB75a34c611 [color="red"];
+  BB75a34c611 -> BB75a34c5e7 [color="blue"];
+  BB75a34c623 -> BB75a34c602 [color="blue"];
+}

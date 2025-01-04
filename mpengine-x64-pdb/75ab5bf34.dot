@@ -1,0 +1,15 @@
+digraph vtabBestIndex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5bf34 -> BB75ab5bfa0 [color="green"];
+  BB75ab5bf34 -> BB75ab5bf6a [color="red"];
+  BB75ab5bf6a -> BB75ab5bfa0 [color="green"];
+  BB75ab5bf6a -> BB75ab5bf6f [color="red"];
+  BB75ab5bf6f -> BB75ab5bf7e [color="green"];
+  BB75ab5bf6f -> BB75ab5bf74 [color="red"];
+  BB75ab5bf74 -> BB75ab5bfa0 [color="blue"];
+  BB75ab5bf7e -> BB75ab5bf91 [color="green"];
+  BB75ab5bf7e -> BB75ab5bf87 [color="red"];
+  BB75ab5bf87 -> BB75ab5bf91 [color="red"];
+  BB75ab5bf91 -> BB75ab5bfa0 [color="red"];
+}

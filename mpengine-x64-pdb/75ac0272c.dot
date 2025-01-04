@@ -1,0 +1,24 @@
+digraph ZSTD_execSequenceEndSplitLitBuffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac0272c -> BB75ac02840 [color="green"];
+  BB75ac0272c -> BB75ac0277c [color="red"];
+  BB75ac0277c -> BB75ac02837 [color="green"];
+  BB75ac0277c -> BB75ac0278d [color="red"];
+  BB75ac0278d -> BB75ac0279b [color="green"];
+  BB75ac0278d -> BB75ac02792 [color="red"];
+  BB75ac02792 -> BB75ac02840 [color="green"];
+  BB75ac02792 -> BB75ac0279b [color="red"];
+  BB75ac0279b -> BB75ac0281b [color="green"];
+  BB75ac0279b -> BB75ac027b7 [color="red"];
+  BB75ac027b7 -> BB75ac02837 [color="green"];
+  BB75ac027b7 -> BB75ac027c8 [color="red"];
+  BB75ac027c8 -> BB75ac027fe [color="green"];
+  BB75ac027c8 -> BB75ac027f1 [color="red"];
+  BB75ac027f1 -> BB75ac027f9 [color="red"];
+  BB75ac027f9 -> BB75ac02847 [color="blue"];
+  BB75ac027fe -> BB75ac0281b [color="red"];
+  BB75ac0281b -> BB75ac027f9 [color="blue"];
+  BB75ac02837 -> BB75ac02847 [color="blue"];
+  BB75ac02840 -> BB75ac02847 [color="blue"];
+}

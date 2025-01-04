@@ -1,0 +1,17 @@
+digraph LookupScriptCategory {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a659b10 -> BB75a659b20 [color="blue"];
+  BB75a659b20 -> BB75a659b65 [color="green"];
+  BB75a659b20 -> BB75a659b28 [color="red"];
+  BB75a659b28 -> BB75a659b39 [color="blue"];
+  BB75a659b39 -> BB75a659b4d [color="green"];
+  BB75a659b39 -> BB75a659b46 [color="red"];
+  BB75a659b46 -> BB75a659b39 [color="green"];
+  BB75a659b46 -> BB75a659b4d [color="red"];
+  BB75a659b4d -> BB75a659b5a [color="green"];
+  BB75a659b4d -> BB75a659b51 [color="red"];
+  BB75a659b51 -> BB75a659b20 [color="blue"];
+  BB75a659b5a -> BB75a659b5f [color="blue"];
+  BB75a659b65 -> BB75a659b5f [color="blue"];
+}

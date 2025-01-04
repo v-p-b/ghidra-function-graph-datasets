@@ -1,0 +1,17 @@
+digraph TriggerKernelScan {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad02640 -> BB75ad0268a [color="green"];
+  BB75ad02640 -> BB75ad0267a [color="red"];
+  BB75ad0267a -> BB75ad0268c [color="blue"];
+  BB75ad0268a -> BB75ad0268c [color="blue"];
+  BB75ad0268c -> BB75ad026f4 [color="green"];
+  BB75ad0268c -> BB75ad0269e [color="red"];
+  BB75ad0269e -> BB75ad026f4 [color="green"];
+  BB75ad0269e -> BB75ad026b2 [color="red"];
+  BB75ad026b2 -> BB75ad026f4 [color="green"];
+  BB75ad026b2 -> BB75ad026be [color="red"];
+  BB75ad026be -> BB75ad026f4 [color="green"];
+  BB75ad026be -> BB75ad026ef [color="red"];
+  BB75ad026ef -> BB75ad026f4 [color="red"];
+}

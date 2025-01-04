@@ -1,0 +1,20 @@
+digraph _print_stats {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a95b0f0 -> BB75a95b57e [color="green"];
+  BB75a95b0f0 -> BB75a95b14d [color="red"];
+  BB75a95b14d -> BB75a95b57e [color="green"];
+  BB75a95b14d -> BB75a95b157 [color="red"];
+  BB75a95b157 -> BB75a95b1ee [color="green"];
+  BB75a95b157 -> BB75a95b1eb [color="red"];
+  BB75a95b1eb -> BB75a95b1ee [color="blue"];
+  BB75a95b1ee -> BB75a95b53c [color="green"];
+  BB75a95b1ee -> BB75a95b33b [color="red"];
+  BB75a95b33b -> BB75a95b3ab [color="green"];
+  BB75a95b33b -> BB75a95b3a8 [color="red"];
+  BB75a95b3a8 -> BB75a95b3ab [color="blue"];
+  BB75a95b3ab -> BB75a95b53c [color="green"];
+  BB75a95b3ab -> BB75a95b525 [color="red"];
+  BB75a95b525 -> BB75a95b53c [color="blue"];
+  BB75a95b53c -> BB75a95b57e [color="red"];
+}

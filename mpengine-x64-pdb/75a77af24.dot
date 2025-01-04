@@ -1,0 +1,19 @@
+digraph common_xtox<unsigned_long,wchar_t> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a77af24 -> BB75a77af65 [color="green"];
+  BB75a77af24 -> BB75a77af55 [color="red"];
+  BB75a77af55 -> BB75a77af65 [color="blue"];
+  BB75a77af65 -> BB75a77af68 [color="blue"];
+  BB75a77af68 -> BB75a77af9e [color="green"];
+  BB75a77af68 -> BB75a77af96 [color="red"];
+  BB75a77af96 -> BB75a77af68 [color="green"];
+  BB75a77af96 -> BB75a77af9e [color="red"];
+  BB75a77af9e -> BB75a77afbc [color="green"];
+  BB75a77af9e -> BB75a77afa3 [color="red"];
+  BB75a77afa3 -> BB75a77afdf [color="blue"];
+  BB75a77afbc -> BB75a77afc0 [color="blue"];
+  BB75a77afc0 -> BB75a77afc0 [color="green"];
+  BB75a77afc0 -> BB75a77afdd [color="red"];
+  BB75a77afdd -> BB75a77afdf [color="blue"];
+}

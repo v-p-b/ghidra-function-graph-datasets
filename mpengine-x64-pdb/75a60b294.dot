@@ -1,0 +1,18 @@
+digraph GetResult {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a60b294 -> BB75a60b2f3 [color="green"];
+  BB75a60b294 -> BB75a60b2bc [color="red"];
+  BB75a60b2bc -> BB75a60b330 [color="green"];
+  BB75a60b2bc -> BB75a60b2c2 [color="red"];
+  BB75a60b2c2 -> BB75a60b374 [color="green"];
+  BB75a60b2c2 -> BB75a60b2db [color="red"];
+  BB75a60b2db -> BB75a60b2dd [color="blue"];
+  BB75a60b2f3 -> BB75a60b2bc [color="green"];
+  BB75a60b2f3 -> BB75a60b310 [color="red"];
+  BB75a60b310 -> BB75a60b2dd [color="blue"];
+  BB75a60b330 -> BB75a60b2c2 [color="green"];
+  BB75a60b330 -> BB75a60b351 [color="red"];
+  BB75a60b351 -> BB75a60b2dd [color="blue"];
+  BB75a60b374 -> BB75a60b2db [color="blue"];
+}

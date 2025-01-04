@@ -1,0 +1,16 @@
+digraph explode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a623a88 -> BB75a623ab5 [color="blue"];
+  BB75a623ab5 -> BB75a623b1d [color="green"];
+  BB75a623ab5 -> BB75a623ad4 [color="red"];
+  BB75a623ad4 -> BB75a623aff [color="green"];
+  BB75a623ad4 -> BB75a623afa [color="red"];
+  BB75a623afa -> BB75a623b34 [color="green"];
+  BB75a623afa -> BB75a623aff [color="red"];
+  BB75a623aff -> BB75a623b17 [color="green"];
+  BB75a623aff -> BB75a623b12 [color="red"];
+  BB75a623b12 -> BB75a623b17 [color="red"];
+  BB75a623b17 -> BB75a623ab5 [color="blue"];
+  BB75a623b1d -> BB75a623b34 [color="red"];
+}

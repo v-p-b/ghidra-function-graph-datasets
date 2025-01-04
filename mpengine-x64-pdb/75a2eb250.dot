@@ -1,0 +1,16 @@
+digraph _Emplace_reallocate<struct_attribute_log_entry_t> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2eb250 -> BB75a2eb3d3 [color="green"];
+  BB75a2eb250 -> BB75a2eb2bf [color="red"];
+  BB75a2eb2bf -> BB75a2eb2fa [color="green"];
+  BB75a2eb2bf -> BB75a2eb2ef [color="red"];
+  BB75a2eb2ef -> BB75a2eb2fa [color="blue"];
+  BB75a2eb2fa -> BB75a2eb3e0 [color="green"];
+  BB75a2eb2fa -> BB75a2eb356 [color="red"];
+  BB75a2eb356 -> BB75a2eb39f [color="green"];
+  BB75a2eb356 -> BB75a2eb364 [color="red"];
+  BB75a2eb364 -> BB75a2eb39f [color="red"];
+  BB75a2eb3d3 -> BB75a2eb3e0 [color="red"];
+  BB75a2eb3e0 -> BB75a2eb356 [color="blue"];
+}

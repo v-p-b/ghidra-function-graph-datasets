@@ -1,0 +1,21 @@
+digraph IsEqual {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a553454 -> BB75a5534a0 [color="green"];
+  BB75a553454 -> BB75a553468 [color="red"];
+  BB75a553468 -> BB75a5534a0 [color="green"];
+  BB75a553468 -> BB75a553474 [color="red"];
+  BB75a553474 -> BB75a5534a0 [color="green"];
+  BB75a553474 -> BB75a553480 [color="red"];
+  BB75a553480 -> BB75a5534a4 [color="green"];
+  BB75a553480 -> BB75a553485 [color="red"];
+  BB75a553485 -> BB75a55348f [color="blue"];
+  BB75a55348f -> BB75a553493 [color="green"];
+  BB75a55348f -> BB75a553491 [color="red"];
+  BB75a553491 -> BB75a55349b [color="green"];
+  BB75a553491 -> BB75a553493 [color="red"];
+  BB75a553493 -> BB75a553496 [color="blue"];
+  BB75a55349b -> BB75a553493 [color="blue"];
+  BB75a5534a0 -> BB75a553496 [color="blue"];
+  BB75a5534a4 -> BB75a55348f [color="blue"];
+}

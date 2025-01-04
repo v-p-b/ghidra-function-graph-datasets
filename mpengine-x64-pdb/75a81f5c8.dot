@@ -1,0 +1,18 @@
+digraph StartScavengerTask {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a81f5c8 -> BB75a81f5ea [color="green"];
+  BB75a81f5c8 -> BB75a81f5e5 [color="red"];
+  BB75a81f5e5 -> BB75a81f5ea [color="red"];
+  BB75a81f5ea -> BB75a81f5f6 [color="green"];
+  BB75a81f5ea -> BB75a81f5f1 [color="red"];
+  BB75a81f5f1 -> BB75a81f5f6 [color="red"];
+  BB75a81f5f6 -> BB75a81f657 [color="green"];
+  BB75a81f5f6 -> BB75a81f624 [color="red"];
+  BB75a81f624 -> BB75a81f667 [color="green"];
+  BB75a81f624 -> BB75a81f637 [color="red"];
+  BB75a81f637 -> BB75a81f667 [color="green"];
+  BB75a81f637 -> BB75a81f63d [color="red"];
+  BB75a81f63d -> BB75a81f667 [color="blue"];
+  BB75a81f657 -> BB75a81f667 [color="blue"];
+}

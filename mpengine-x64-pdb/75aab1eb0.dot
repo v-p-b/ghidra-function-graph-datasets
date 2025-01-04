@@ -1,0 +1,18 @@
+digraph SetValue {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aab1eb0 -> BB75aab1f4a [color="green"];
+  BB75aab1eb0 -> BB75aab1ece [color="red"];
+  BB75aab1ece -> BB75aab1f4a [color="green"];
+  BB75aab1ece -> BB75aab1ed3 [color="red"];
+  BB75aab1ed3 -> BB75aab1eed [color="green"];
+  BB75aab1ed3 -> BB75aab1ee3 [color="red"];
+  BB75aab1ee3 -> BB75aab1f7d [color="blue"];
+  BB75aab1eed -> BB75aab1f7d [color="blue"];
+  BB75aab1f4a -> BB75aab1f78 [color="green"];
+  BB75aab1f4a -> BB75aab1f5d [color="red"];
+  BB75aab1f5d -> BB75aab1f78 [color="green"];
+  BB75aab1f5d -> BB75aab1f63 [color="red"];
+  BB75aab1f63 -> BB75aab1f78 [color="red"];
+  BB75aab1f78 -> BB75aab1f7d [color="blue"];
+}

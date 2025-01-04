@@ -1,0 +1,9 @@
+digraph nsis_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac63710 -> BB75ac63771 [color="green"];
+  BB75ac63710 -> BB75ac6373b [color="red"];
+  BB75ac6373b -> BB75ac63771 [color="green"];
+  BB75ac6373b -> BB75ac63750 [color="red"];
+  BB75ac63750 -> BB75ac63771 [color="red"];
+}

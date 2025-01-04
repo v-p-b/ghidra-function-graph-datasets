@@ -1,0 +1,23 @@
+digraph fsemu_loadgoat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a24485c -> BB75a244991 [color="green"];
+  BB75a24485c -> BB75a244890 [color="red"];
+  BB75a244890 -> BB75a244991 [color="green"];
+  BB75a244890 -> BB75a24489f [color="red"];
+  BB75a24489f -> BB75a2448b9 [color="blue"];
+  BB75a2448b9 -> BB75a2448b9 [color="green"];
+  BB75a2448b9 -> BB75a2448c2 [color="red"];
+  BB75a2448c2 -> BB75a244989 [color="green"];
+  BB75a2448c2 -> BB75a2448d0 [color="red"];
+  BB75a2448d0 -> BB75a2448ef [color="red"];
+  BB75a2448ef -> BB75a24490c [color="green"];
+  BB75a2448ef -> BB75a2448fb [color="red"];
+  BB75a2448fb -> BB75a24490c [color="green"];
+  BB75a2448fb -> BB75a244902 [color="red"];
+  BB75a244902 -> BB75a2448ef [color="green"];
+  BB75a244902 -> BB75a24490c [color="red"];
+  BB75a24490c -> BB75a24496e [color="blue"];
+  BB75a244989 -> BB75a2448d0 [color="blue"];
+  BB75a244991 -> BB75a24496e [color="blue"];
+}

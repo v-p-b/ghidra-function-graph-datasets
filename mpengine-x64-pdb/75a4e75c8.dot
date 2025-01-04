@@ -1,0 +1,17 @@
+digraph NewSetStream {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4e75c8 -> BB75a4e7600 [color="green"];
+  BB75a4e75c8 -> BB75a4e75ec [color="red"];
+  BB75a4e75ec -> BB75a4e7600 [color="red"];
+  BB75a4e7600 -> BB75a4e764a [color="green"];
+  BB75a4e7600 -> BB75a4e762a [color="red"];
+  BB75a4e762a -> BB75a4e7635 [color="blue"];
+  BB75a4e764a -> BB75a4e7678 [color="green"];
+  BB75a4e764a -> BB75a4e7668 [color="red"];
+  BB75a4e7668 -> BB75a4e7674 [color="green"];
+  BB75a4e7668 -> BB75a4e7671 [color="red"];
+  BB75a4e7671 -> BB75a4e7674 [color="blue"];
+  BB75a4e7674 -> BB75a4e7635 [color="blue"];
+  BB75a4e7678 -> BB75a4e7668 [color="blue"];
+}

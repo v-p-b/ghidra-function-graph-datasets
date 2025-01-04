@@ -1,0 +1,29 @@
+digraph LoadMachoSegmentSymTab {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a74f624 -> BB75a74f6a8 [color="green"];
+  BB75a74f624 -> BB75a74f66a [color="red"];
+  BB75a74f66a -> BB75a74f6a1 [color="green"];
+  BB75a74f66a -> BB75a74f67d [color="red"];
+  BB75a74f67d -> BB75a74f6a1 [color="green"];
+  BB75a74f67d -> BB75a74f683 [color="red"];
+  BB75a74f683 -> BB75a74f6a1 [color="red"];
+  BB75a74f6a1 -> BB75a74f767 [color="blue"];
+  BB75a74f6a8 -> BB75a74f6d3 [color="green"];
+  BB75a74f6a8 -> BB75a74f6b2 [color="red"];
+  BB75a74f6b2 -> BB75a74f6d6 [color="blue"];
+  BB75a74f6d3 -> BB75a74f6d6 [color="blue"];
+  BB75a74f6d6 -> BB75a74f701 [color="green"];
+  BB75a74f6d6 -> BB75a74f6e0 [color="red"];
+  BB75a74f6e0 -> BB75a74f704 [color="blue"];
+  BB75a74f701 -> BB75a74f704 [color="blue"];
+  BB75a74f704 -> BB75a74f730 [color="green"];
+  BB75a74f704 -> BB75a74f70f [color="red"];
+  BB75a74f70f -> BB75a74f733 [color="blue"];
+  BB75a74f730 -> BB75a74f733 [color="blue"];
+  BB75a74f733 -> BB75a74f75f [color="green"];
+  BB75a74f733 -> BB75a74f73e [color="red"];
+  BB75a74f73e -> BB75a74f762 [color="blue"];
+  BB75a74f75f -> BB75a74f762 [color="blue"];
+  BB75a74f762 -> BB75a74f767 [color="blue"];
+}

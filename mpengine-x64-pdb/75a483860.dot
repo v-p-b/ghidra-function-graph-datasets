@@ -1,0 +1,21 @@
+digraph decode_modrm {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a483860 -> BB75a4838b5 [color="green"];
+  BB75a483860 -> BB75a48386f [color="red"];
+  BB75a48386f -> BB75a483900 [color="green"];
+  BB75a48386f -> BB75a48387b [color="red"];
+  BB75a48387b -> BB75a4838b5 [color="blue"];
+  BB75a4838b5 -> BB75a48390f [color="green"];
+  BB75a4838b5 -> BB75a4838c4 [color="red"];
+  BB75a4838c4 -> BB75a4838ef [color="green"];
+  BB75a4838c4 -> BB75a4838cd [color="red"];
+  BB75a4838cd -> BB75a4838d5 [color="blue"];
+  BB75a4838d5 -> BB75a4838ea [color="red"];
+  BB75a4838ef -> BB75a483905 [color="green"];
+  BB75a4838ef -> BB75a4838f6 [color="red"];
+  BB75a4838f6 -> BB75a4838d5 [color="blue"];
+  BB75a483900 -> BB75a4838ea [color="blue"];
+  BB75a483905 -> BB75a4838d5 [color="blue"];
+  BB75a48390f -> BB75a4838d5 [color="blue"];
+}

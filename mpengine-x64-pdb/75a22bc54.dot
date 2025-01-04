@@ -1,0 +1,14 @@
+digraph TestIsTPTrustedProcessByParent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a22bc54 -> BB75a22bcea [color="green"];
+  BB75a22bc54 -> BB75a22bc91 [color="red"];
+  BB75a22bc91 -> BB75a22bcff [color="green"];
+  BB75a22bc91 -> BB75a22bcc9 [color="red"];
+  BB75a22bcc9 -> BB75a22bccc [color="blue"];
+  BB75a22bccc -> BB75a22bcd7 [color="red"];
+  BB75a22bcea -> BB75a22bcd7 [color="blue"];
+  BB75a22bcff -> BB75a22bccc [color="green"];
+  BB75a22bcff -> BB75a22bd1c [color="red"];
+  BB75a22bd1c -> BB75a22bcc9 [color="blue"];
+}

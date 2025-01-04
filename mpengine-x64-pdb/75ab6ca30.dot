@@ -1,0 +1,15 @@
+digraph SubRecordMaintenance {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab6ca30 -> BB75ab6ca64 [color="green"];
+  BB75ab6ca30 -> BB75ab6ca5f [color="red"];
+  BB75ab6ca5f -> BB75ab6ca64 [color="red"];
+  BB75ab6ca64 -> BB75ab6ca67 [color="blue"];
+  BB75ab6ca67 -> BB75ab6caaa [color="green"];
+  BB75ab6ca67 -> BB75ab6ca71 [color="red"];
+  BB75ab6ca71 -> BB75ab6ca92 [color="green"];
+  BB75ab6ca71 -> BB75ab6ca8b [color="red"];
+  BB75ab6ca8b -> BB75ab6ca67 [color="green"];
+  BB75ab6ca8b -> BB75ab6ca92 [color="red"];
+  BB75ab6ca92 -> BB75ab6caaa [color="red"];
+}

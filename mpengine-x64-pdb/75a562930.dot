@@ -1,0 +1,10 @@
+digraph pagerOpenWal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a562930 -> BB75a56298a [color="green"];
+  BB75a562930 -> BB75a562943 [color="red"];
+  BB75a562943 -> BB75a562975 [color="red"];
+  BB75a56298a -> BB75a562975 [color="green"];
+  BB75a56298a -> BB75a562995 [color="red"];
+  BB75a562995 -> BB75a562943 [color="blue"];
+}

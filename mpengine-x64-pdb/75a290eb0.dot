@@ -1,0 +1,17 @@
+digraph sqlite3VtabCallConnect {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a290eb0 -> BB75a290edd [color="green"];
+  BB75a290eb0 -> BB75a290ecb [color="red"];
+  BB75a290ecb -> BB75a290ecd [color="blue"];
+  BB75a290edd -> BB75a290ecb [color="green"];
+  BB75a290edd -> BB75a290eed [color="red"];
+  BB75a290eed -> BB75a290f29 [color="green"];
+  BB75a290eed -> BB75a290f0c [color="red"];
+  BB75a290f0c -> BB75a290f75 [color="blue"];
+  BB75a290f29 -> BB75a290f68 [color="green"];
+  BB75a290f29 -> BB75a290f51 [color="red"];
+  BB75a290f51 -> BB75a290f68 [color="red"];
+  BB75a290f68 -> BB75a290f75 [color="red"];
+  BB75a290f75 -> BB75a290ecd [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph Depth {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a26a150 -> BB75a26a192 [color="green"];
+  BB75a26a150 -> BB75a26a165 [color="red"];
+  BB75a26a165 -> BB75a26a199 [color="green"];
+  BB75a26a165 -> BB75a26a184 [color="red"];
+  BB75a26a192 -> BB75a26a165 [color="blue"];
+  BB75a26a199 -> BB75a26a184 [color="blue"];
+}

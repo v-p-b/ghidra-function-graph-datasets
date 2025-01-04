@@ -1,0 +1,13 @@
+digraph newNumberObjectThrowsT<struct_JsPrototypeObject_Number> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3aef68 -> BB75a3aefd4 [color="green"];
+  BB75a3aef68 -> BB75a3aef98 [color="red"];
+  BB75a3aef98 -> BB75a3aefd8 [color="green"];
+  BB75a3aef98 -> BB75a3aef9d [color="red"];
+  BB75a3aef9d -> BB75a3aefc9 [color="blue"];
+  BB75a3aefd4 -> BB75a3aefc9 [color="blue"];
+  BB75a3aefd8 -> BB75a3aefd4 [color="green"];
+  BB75a3aefd8 -> BB75a3aefee [color="red"];
+  BB75a3aefee -> BB75a3aef9d [color="blue"];
+}

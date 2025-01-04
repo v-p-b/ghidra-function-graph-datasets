@@ -1,0 +1,16 @@
+digraph attribute_log_entry_t {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a15b9bc -> BB75a15b9f6 [color="green"];
+  BB75a15b9bc -> BB75a15b9f2 [color="red"];
+  BB75a15b9f2 -> BB75a15b9f6 [color="blue"];
+  BB75a15b9f6 -> BB75a15ba1f [color="green"];
+  BB75a15b9f6 -> BB75a15ba1b [color="red"];
+  BB75a15ba1b -> BB75a15ba1f [color="blue"];
+  BB75a15ba1f -> BB75a15ba42 [color="green"];
+  BB75a15ba1f -> BB75a15ba3d [color="red"];
+  BB75a15ba3d -> BB75a15ba42 [color="red"];
+  BB75a15ba42 -> BB75a15ba50 [color="green"];
+  BB75a15ba42 -> BB75a15ba4b [color="red"];
+  BB75a15ba4b -> BB75a15ba50 [color="red"];
+}

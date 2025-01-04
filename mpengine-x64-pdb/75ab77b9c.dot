@@ -1,0 +1,10 @@
+digraph scmmQueryWin32Handle {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab77b9c -> BB75ab77c02 [color="green"];
+  BB75ab77b9c -> BB75ab77bc2 [color="red"];
+  BB75ab77bc2 -> BB75ab77c02 [color="green"];
+  BB75ab77bc2 -> BB75ab77bfc [color="red"];
+  BB75ab77bfc -> BB75ab77c04 [color="blue"];
+  BB75ab77c02 -> BB75ab77c04 [color="blue"];
+}

@@ -1,0 +1,25 @@
+digraph RemoveResourceFromThreat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aab611c -> BB75aab618a [color="green"];
+  BB75aab611c -> BB75aab6140 [color="red"];
+  BB75aab6140 -> BB75aab618a [color="green"];
+  BB75aab6140 -> BB75aab6152 [color="red"];
+  BB75aab6152 -> BB75aab61e9 [color="green"];
+  BB75aab6152 -> BB75aab6169 [color="red"];
+  BB75aab6169 -> BB75aab61e9 [color="green"];
+  BB75aab6169 -> BB75aab616f [color="red"];
+  BB75aab616f -> BB75aab61e9 [color="blue"];
+  BB75aab618a -> BB75aab61bc [color="green"];
+  BB75aab618a -> BB75aab619d [color="red"];
+  BB75aab619d -> BB75aab61bc [color="green"];
+  BB75aab619d -> BB75aab61a3 [color="red"];
+  BB75aab61a3 -> BB75aab61bc [color="red"];
+  BB75aab61bc -> BB75aab61d1 [color="green"];
+  BB75aab61bc -> BB75aab61ce [color="red"];
+  BB75aab61ce -> BB75aab61d1 [color="blue"];
+  BB75aab61d1 -> BB75aab61e6 [color="green"];
+  BB75aab61d1 -> BB75aab61e3 [color="red"];
+  BB75aab61e3 -> BB75aab61e6 [color="blue"];
+  BB75aab61e6 -> BB75aab61e9 [color="blue"];
+}

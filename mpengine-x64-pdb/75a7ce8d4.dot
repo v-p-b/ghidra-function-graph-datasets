@@ -1,0 +1,12 @@
+digraph is_combining_implementation {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7ce8d4 -> BB75a7cea0b [color="green"];
+  BB75a7ce8d4 -> BB75a7cea02 [color="red"];
+  BB75a7cea02 -> BB75a7cea02 [color="green"];
+  BB75a7cea02 -> BB75a7cea0b [color="red"];
+  BB75a7cea0b -> BB75a7cea19 [color="green"];
+  BB75a7cea0b -> BB75a7cea11 [color="red"];
+  BB75a7cea11 -> BB75a7cea1b [color="blue"];
+  BB75a7cea19 -> BB75a7cea1b [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph LoadAnomalyManager {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aba1ae4 -> BB75aba1b2a [color="green"];
+  BB75aba1ae4 -> BB75aba1af5 [color="red"];
+  BB75aba1af5 -> BB75aba1b26 [color="green"];
+  BB75aba1af5 -> BB75aba1b08 [color="red"];
+  BB75aba1b08 -> BB75aba1b26 [color="green"];
+  BB75aba1b08 -> BB75aba1b0e [color="red"];
+  BB75aba1b0e -> BB75aba1b26 [color="red"];
+  BB75aba1b26 -> BB75aba1b6d [color="blue"];
+  BB75aba1b2a -> BB75aba1b6b [color="blue"];
+  BB75aba1b6b -> BB75aba1b6d [color="blue"];
+}

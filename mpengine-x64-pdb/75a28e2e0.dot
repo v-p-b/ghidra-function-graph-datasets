@@ -1,0 +1,15 @@
+digraph sqlite3FindIndex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a28e2e0 -> BB75a28e341 [color="green"];
+  BB75a28e2e0 -> BB75a28e30a [color="red"];
+  BB75a28e30a -> BB75a28e35d [color="green"];
+  BB75a28e30a -> BB75a28e32a [color="red"];
+  BB75a28e32a -> BB75a28e35d [color="green"];
+  BB75a28e32a -> BB75a28e33a [color="red"];
+  BB75a28e33a -> BB75a28e30a [color="green"];
+  BB75a28e33a -> BB75a28e341 [color="red"];
+  BB75a28e35d -> BB75a28e33a [color="green"];
+  BB75a28e35d -> BB75a28e375 [color="red"];
+  BB75a28e375 -> BB75a28e341 [color="blue"];
+}

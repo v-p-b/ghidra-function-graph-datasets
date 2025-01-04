@@ -1,0 +1,12 @@
+digraph FlattenEventEntryTree {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4505a4 -> BB75a4505d5 [color="blue"];
+  BB75a4505b2 -> BB75a4505c8 [color="blue"];
+  BB75a4505c8 -> BB75a4505db [color="green"];
+  BB75a4505c8 -> BB75a4505cd [color="red"];
+  BB75a4505cd -> BB75a4505d5 [color="blue"];
+  BB75a4505d5 -> BB75a4505b2 [color="green"];
+  BB75a4505d5 -> BB75a4505da [color="red"];
+  BB75a4505db -> BB75a4505c8 [color="blue"];
+}

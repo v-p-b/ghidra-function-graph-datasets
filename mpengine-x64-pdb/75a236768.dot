@@ -1,0 +1,21 @@
+digraph jmp_fusion {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a236768 -> BB75a23680b [color="green"];
+  BB75a236768 -> BB75a236784 [color="red"];
+  BB75a236784 -> BB75a23680b [color="green"];
+  BB75a236784 -> BB75a236794 [color="red"];
+  BB75a236794 -> BB75a23680b [color="green"];
+  BB75a236794 -> BB75a2367a4 [color="red"];
+  BB75a2367a4 -> BB75a23680b [color="green"];
+  BB75a2367a4 -> BB75a2367b7 [color="red"];
+  BB75a2367b7 -> BB75a23680b [color="green"];
+  BB75a2367b7 -> BB75a2367c0 [color="red"];
+  BB75a2367c0 -> BB75a236814 [color="green"];
+  BB75a2367c0 -> BB75a2367ce [color="red"];
+  BB75a2367ce -> BB75a23680b [color="green"];
+  BB75a2367ce -> BB75a2367e3 [color="red"];
+  BB75a2367e3 -> BB75a236805 [color="blue"];
+  BB75a23680b -> BB75a236805 [color="blue"];
+  BB75a236814 -> BB75a2367ce [color="blue"];
+}

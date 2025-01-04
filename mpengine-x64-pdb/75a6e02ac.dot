@@ -1,0 +1,14 @@
+digraph push<struct_tdt_library_v_current::bit_shovel::pipeline_message_t> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6e02ac -> BB75a6e0388 [color="green"];
+  BB75a6e02ac -> BB75a6e0346 [color="red"];
+  BB75a6e0346 -> BB75a6e0388 [color="green"];
+  BB75a6e0346 -> BB75a6e0350 [color="red"];
+  BB75a6e0350 -> BB75a6e0388 [color="red"];
+  BB75a6e0388 -> BB75a6e03a1 [color="green"];
+  BB75a6e0388 -> BB75a6e0394 [color="red"];
+  BB75a6e0394 -> BB75a6e03a1 [color="green"];
+  BB75a6e0394 -> BB75a6e039b [color="red"];
+  BB75a6e039b -> BB75a6e03a1 [color="blue"];
+}

@@ -1,0 +1,19 @@
+digraph stop_monitoring_process {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a98b5e0 -> BB75a98b771 [color="green"];
+  BB75a98b5e0 -> BB75a98b618 [color="red"];
+  BB75a98b618 -> BB75a98b771 [color="green"];
+  BB75a98b618 -> BB75a98b64e [color="red"];
+  BB75a98b64e -> BB75a98b769 [color="green"];
+  BB75a98b64e -> BB75a98b67a [color="red"];
+  BB75a98b67a -> BB75a98b769 [color="green"];
+  BB75a98b67a -> BB75a98b684 [color="red"];
+  BB75a98b684 -> BB75a98b727 [color="green"];
+  BB75a98b684 -> BB75a98b6c5 [color="red"];
+  BB75a98b6c5 -> BB75a98b727 [color="green"];
+  BB75a98b6c5 -> BB75a98b710 [color="red"];
+  BB75a98b710 -> BB75a98b727 [color="blue"];
+  BB75a98b727 -> BB75a98b769 [color="red"];
+  BB75a98b769 -> BB75a98b771 [color="red"];
+}

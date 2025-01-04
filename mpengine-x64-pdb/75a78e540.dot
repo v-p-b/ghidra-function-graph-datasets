@@ -1,0 +1,11 @@
+digraph parse_int_from_format_string {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a78e540 -> BB75a78e5a1 [color="green"];
+  BB75a78e540 -> BB75a78e59b [color="red"];
+  BB75a78e59b -> BB75a78e5b2 [color="green"];
+  BB75a78e59b -> BB75a78e5a1 [color="red"];
+  BB75a78e5a1 -> BB75a78e5b2 [color="green"];
+  BB75a78e5a1 -> BB75a78e5ac [color="red"];
+  BB75a78e5ac -> BB75a78e5b2 [color="blue"];
+}

@@ -1,0 +1,18 @@
+digraph disasm_output {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab291e0 -> BB75ab2920a [color="green"];
+  BB75ab291e0 -> BB75ab29205 [color="red"];
+  BB75ab29205 -> BB75ab2920a [color="red"];
+  BB75ab2920a -> BB75ab2922f [color="green"];
+  BB75ab2920a -> BB75ab2922b [color="red"];
+  BB75ab2922b -> BB75ab2923b [color="blue"];
+  BB75ab2922f -> BB75ab29232 [color="blue"];
+  BB75ab29232 -> BB75ab29232 [color="green"];
+  BB75ab29232 -> BB75ab2923b [color="red"];
+  BB75ab2923b -> BB75ab29247 [color="green"];
+  BB75ab2923b -> BB75ab29243 [color="red"];
+  BB75ab29243 -> BB75ab29250 [color="blue"];
+  BB75ab29247 -> BB75ab29247 [color="green"];
+  BB75ab29247 -> BB75ab29250 [color="red"];
+}

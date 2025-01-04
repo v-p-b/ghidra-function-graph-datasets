@@ -1,0 +1,14 @@
+digraph isCompletionTarget {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a176644 -> BB75a176669 [color="green"];
+  BB75a176644 -> BB75a17664c [color="red"];
+  BB75a17664c -> BB75a176676 [color="green"];
+  BB75a17664c -> BB75a176656 [color="red"];
+  BB75a176656 -> BB75a176664 [color="blue"];
+  BB75a176664 -> BB75a17666c [color="green"];
+  BB75a176664 -> BB75a176669 [color="red"];
+  BB75a17666c -> BB75a176676 [color="green"];
+  BB75a17666c -> BB75a176670 [color="red"];
+  BB75a176670 -> BB75a176664 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph ReadPhysical {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7df810 -> BB75a7df84b [color="green"];
+  BB75a7df810 -> BB75a7df81d [color="red"];
+  BB75a7df81d -> BB75a7df84b [color="green"];
+  BB75a7df81d -> BB75a7df829 [color="red"];
+  BB75a7df829 -> BB75a7df87e [color="blue"];
+  BB75a7df84b -> BB75a7df879 [color="green"];
+  BB75a7df84b -> BB75a7df85e [color="red"];
+  BB75a7df85e -> BB75a7df879 [color="green"];
+  BB75a7df85e -> BB75a7df864 [color="red"];
+  BB75a7df864 -> BB75a7df879 [color="red"];
+  BB75a7df879 -> BB75a7df87e [color="blue"];
+}

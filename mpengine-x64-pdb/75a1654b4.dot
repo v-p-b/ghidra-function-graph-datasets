@@ -1,0 +1,20 @@
+digraph InitHooks {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1654b4 -> BB75a16573a [color="green"];
+  BB75a1654b4 -> BB75a1654d9 [color="red"];
+  BB75a1654d9 -> BB75a1654e5 [color="blue"];
+  BB75a1654e5 -> BB75a165503 [color="green"];
+  BB75a1654e5 -> BB75a1654f1 [color="red"];
+  BB75a1654f1 -> BB75a165503 [color="green"];
+  BB75a1654f1 -> BB75a1654f8 [color="red"];
+  BB75a1654f8 -> BB75a1654e5 [color="green"];
+  BB75a1654f8 -> BB75a165503 [color="red"];
+  BB75a165503 -> BB75a165744 [color="green"];
+  BB75a165503 -> BB75a165517 [color="red"];
+  BB75a165517 -> BB75a16572e [color="green"];
+  BB75a165517 -> BB75a165589 [color="red"];
+  BB75a16572e -> BB75a165589 [color="blue"];
+  BB75a16573a -> BB75a1654d9 [color="blue"];
+  BB75a165744 -> BB75a165517 [color="blue"];
+}

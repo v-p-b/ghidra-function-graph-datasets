@@ -1,0 +1,15 @@
+digraph GetFdrConfiguration {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a86fb18 -> BB75a86fb5c [color="green"];
+  BB75a86fb18 -> BB75a86fb53 [color="red"];
+  BB75a86fb53 -> BB75a86fb67 [color="blue"];
+  BB75a86fb5c -> BB75a86fb67 [color="blue"];
+  BB75a86fb67 -> BB75a86fbc4 [color="green"];
+  BB75a86fb67 -> BB75a86fb75 [color="red"];
+  BB75a86fb75 -> BB75a86fba8 [color="green"];
+  BB75a86fb75 -> BB75a86fba1 [color="red"];
+  BB75a86fba1 -> BB75a86fbb8 [color="blue"];
+  BB75a86fba8 -> BB75a86fbb8 [color="blue"];
+  BB75a86fbb8 -> BB75a86fbc4 [color="red"];
+}

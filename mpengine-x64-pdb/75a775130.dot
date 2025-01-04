@@ -1,0 +1,11 @@
+digraph __acrt_initialize_locks {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a775130 -> BB75a775138 [color="blue"];
+  BB75a775138 -> BB75a775169 [color="green"];
+  BB75a775138 -> BB75a775158 [color="red"];
+  BB75a775158 -> BB75a775138 [color="green"];
+  BB75a775158 -> BB75a775165 [color="red"];
+  BB75a775165 -> BB75a775172 [color="blue"];
+  BB75a775169 -> BB75a775172 [color="red"];
+}

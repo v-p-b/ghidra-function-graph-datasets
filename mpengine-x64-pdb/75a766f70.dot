@@ -1,0 +1,10 @@
+digraph ~mem_block_cache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a766f70 -> BB75a766f7f [color="blue"];
+  BB75a766f7f -> BB75a766f93 [color="green"];
+  BB75a766f7f -> BB75a766f89 [color="red"];
+  BB75a766f89 -> BB75a766f93 [color="red"];
+  BB75a766f93 -> BB75a766f7f [color="green"];
+  BB75a766f93 -> BB75a766f9c [color="red"];
+}

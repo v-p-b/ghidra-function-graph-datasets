@@ -1,0 +1,16 @@
+digraph MakeDriverTableEntry<AntiRootkit::Win64DriverObject> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acff794 -> BB75acff85f [color="green"];
+  BB75acff794 -> BB75acff85c [color="red"];
+  BB75acff85c -> BB75acff85f [color="blue"];
+  BB75acff85f -> BB75acff8a8 [color="green"];
+  BB75acff85f -> BB75acff8a5 [color="red"];
+  BB75acff8a5 -> BB75acff8a8 [color="blue"];
+  BB75acff8a8 -> BB75acff975 [color="green"];
+  BB75acff8a8 -> BB75acff96a [color="red"];
+  BB75acff96a -> BB75acff975 [color="red"];
+  BB75acff975 -> BB75acff988 [color="green"];
+  BB75acff975 -> BB75acff97d [color="red"];
+  BB75acff97d -> BB75acff988 [color="red"];
+}

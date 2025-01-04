@@ -1,0 +1,16 @@
+digraph alloc<struct_JsConstructor_Number> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3af774 -> BB75a3af803 [color="green"];
+  BB75a3af774 -> BB75a3af78f [color="red"];
+  BB75a3af78f -> BB75a3af803 [color="green"];
+  BB75a3af78f -> BB75a3af79c [color="red"];
+  BB75a3af79c -> BB75a3af803 [color="green"];
+  BB75a3af79c -> BB75a3af7aa [color="red"];
+  BB75a3af7aa -> BB75a3af7f7 [color="green"];
+  BB75a3af7aa -> BB75a3af7d9 [color="red"];
+  BB75a3af7d9 -> BB75a3af7e1 [color="blue"];
+  BB75a3af7e1 -> BB75a3af7ea [color="blue"];
+  BB75a3af7f7 -> BB75a3af7e1 [color="blue"];
+  BB75a3af803 -> BB75a3af7ea [color="blue"];
+}

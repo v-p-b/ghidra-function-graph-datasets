@@ -1,0 +1,14 @@
+digraph RebootActionClose {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acdbe8c -> BB75acdbed1 [color="green"];
+  BB75acdbe8c -> BB75acdbe91 [color="red"];
+  BB75acdbe91 -> BB75acdbec2 [color="blue"];
+  BB75acdbea3 -> BB75acdbeb7 [color="green"];
+  BB75acdbea3 -> BB75acdbeb2 [color="red"];
+  BB75acdbeb2 -> BB75acdbeb7 [color="red"];
+  BB75acdbeb7 -> BB75acdbec2 [color="red"];
+  BB75acdbec2 -> BB75acdbea3 [color="green"];
+  BB75acdbec2 -> BB75acdbec7 [color="red"];
+  BB75acdbec7 -> BB75acdbed1 [color="blue"];
+}

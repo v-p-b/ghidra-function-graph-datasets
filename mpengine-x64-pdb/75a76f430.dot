@@ -1,0 +1,11 @@
+digraph GetThreadInformation {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a76f430 -> BB75a76f47d [color="green"];
+  BB75a76f430 -> BB75a76f45b [color="red"];
+  BB75a76f45b -> BB75a76f476 [color="green"];
+  BB75a76f45b -> BB75a76f467 [color="red"];
+  BB75a76f467 -> BB75a76f48d [color="blue"];
+  BB75a76f476 -> BB75a76f47d [color="blue"];
+  BB75a76f47d -> BB75a76f48d [color="red"];
+}

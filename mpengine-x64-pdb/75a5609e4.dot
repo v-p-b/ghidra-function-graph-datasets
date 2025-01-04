@@ -1,0 +1,22 @@
+digraph adjustSuspendCount {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5609e4 -> BB75a5609ff [color="blue"];
+  BB75a5609fb -> BB75a5609ff [color="blue"];
+  BB75a5609ff -> BB75a560a13 [color="green"];
+  BB75a5609ff -> BB75a560a05 [color="red"];
+  BB75a560a05 -> BB75a5609fb [color="green"];
+  BB75a560a05 -> BB75a560a0b [color="red"];
+  BB75a560a0b -> BB75a5609ff [color="blue"];
+  BB75a560a13 -> BB75a560a3b [color="green"];
+  BB75a560a13 -> BB75a560a19 [color="red"];
+  BB75a560a19 -> BB75a560a3b [color="green"];
+  BB75a560a19 -> BB75a560a1f [color="red"];
+  BB75a560a1f -> BB75a560a3b [color="green"];
+  BB75a560a1f -> BB75a560a24 [color="red"];
+  BB75a560a24 -> BB75a560a34 [color="green"];
+  BB75a560a24 -> BB75a560a30 [color="red"];
+  BB75a560a30 -> BB75a560a34 [color="blue"];
+  BB75a560a34 -> BB75a560a36 [color="blue"];
+  BB75a560a3b -> BB75a560a36 [color="blue"];
+}

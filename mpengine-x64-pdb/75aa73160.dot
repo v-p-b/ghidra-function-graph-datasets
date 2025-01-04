@@ -1,0 +1,14 @@
+digraph NTDLL_DLL_VFS_CopyFile {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa73160 -> BB75aa73248 [color="green"];
+  BB75aa73160 -> BB75aa731c0 [color="red"];
+  BB75aa731c0 -> BB75aa73248 [color="green"];
+  BB75aa731c0 -> BB75aa731c9 [color="red"];
+  BB75aa731c9 -> BB75aa73235 [color="green"];
+  BB75aa731c9 -> BB75aa73207 [color="red"];
+  BB75aa73207 -> BB75aa73235 [color="green"];
+  BB75aa73207 -> BB75aa73210 [color="red"];
+  BB75aa73210 -> BB75aa73235 [color="red"];
+  BB75aa73235 -> BB75aa73248 [color="red"];
+}

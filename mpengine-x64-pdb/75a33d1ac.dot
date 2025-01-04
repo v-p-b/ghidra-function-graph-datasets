@@ -1,0 +1,13 @@
+digraph FreeState {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a33d1ac -> BB75a33d21b [color="green"];
+  BB75a33d1ac -> BB75a33d1c2 [color="red"];
+  BB75a33d1c2 -> BB75a33d1ee [color="green"];
+  BB75a33d1c2 -> BB75a33d1d2 [color="red"];
+  BB75a33d1d2 -> BB75a33d1ee [color="red"];
+  BB75a33d1ee -> BB75a33d209 [color="green"];
+  BB75a33d1ee -> BB75a33d1fb [color="red"];
+  BB75a33d1fb -> BB75a33d209 [color="red"];
+  BB75a33d209 -> BB75a33d21b [color="red"];
+}

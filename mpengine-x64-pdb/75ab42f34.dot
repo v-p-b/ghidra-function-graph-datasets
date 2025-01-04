@@ -1,0 +1,28 @@
+digraph AskForConsent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab42f34 -> BB75ab42f61 [color="green"];
+  BB75ab42f34 -> BB75ab42f5c [color="red"];
+  BB75ab42f5c -> BB75ab42f61 [color="red"];
+  BB75ab42f61 -> BB75ab42f88 [color="green"];
+  BB75ab42f61 -> BB75ab42f70 [color="red"];
+  BB75ab42f70 -> BB75ab42f7e [color="green"];
+  BB75ab42f70 -> BB75ab42f79 [color="red"];
+  BB75ab42f79 -> BB75ab42f7e [color="red"];
+  BB75ab42f7e -> BB75ab43023 [color="blue"];
+  BB75ab42f88 -> BB75ab43013 [color="green"];
+  BB75ab42f88 -> BB75ab42fcd [color="red"];
+  BB75ab42fcd -> BB75ab42ffe [color="green"];
+  BB75ab42fcd -> BB75ab42fe0 [color="red"];
+  BB75ab42fe0 -> BB75ab42ffe [color="green"];
+  BB75ab42fe0 -> BB75ab42fe6 [color="red"];
+  BB75ab42fe6 -> BB75ab42ffe [color="red"];
+  BB75ab42ffe -> BB75ab4300c [color="green"];
+  BB75ab42ffe -> BB75ab43007 [color="red"];
+  BB75ab43007 -> BB75ab4300c [color="red"];
+  BB75ab4300c -> BB75ab43023 [color="blue"];
+  BB75ab43013 -> BB75ab43021 [color="green"];
+  BB75ab43013 -> BB75ab4301c [color="red"];
+  BB75ab4301c -> BB75ab43021 [color="red"];
+  BB75ab43021 -> BB75ab43023 [color="blue"];
+}

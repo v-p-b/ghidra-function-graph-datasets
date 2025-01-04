@@ -1,0 +1,14 @@
+digraph SplitTokens {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4c20a0 -> BB75a4c20cf [color="blue"];
+  BB75a4c20cf -> BB75a4c210a [color="green"];
+  BB75a4c20cf -> BB75a4c20d4 [color="red"];
+  BB75a4c20d4 -> BB75a4c20ed [color="green"];
+  BB75a4c20d4 -> BB75a4c20e9 [color="red"];
+  BB75a4c20e9 -> BB75a4c20ed [color="blue"];
+  BB75a4c20ed -> BB75a4c2107 [color="green"];
+  BB75a4c20ed -> BB75a4c2101 [color="red"];
+  BB75a4c2101 -> BB75a4c20cf [color="blue"];
+  BB75a4c2107 -> BB75a4c210a [color="blue"];
+}

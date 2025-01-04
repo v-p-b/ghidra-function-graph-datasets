@@ -1,0 +1,20 @@
+digraph sqlite3ThreadCreate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab56fa8 -> BB75ab56fe7 [color="green"];
+  BB75ab56fa8 -> BB75ab56fdf [color="red"];
+  BB75ab56fdf -> BB75ab5706d [color="blue"];
+  BB75ab56fe7 -> BB75ab57033 [color="green"];
+  BB75ab56fe7 -> BB75ab56ff0 [color="red"];
+  BB75ab56ff0 -> BB75ab57033 [color="green"];
+  BB75ab56ff0 -> BB75ab56ffe [color="red"];
+  BB75ab56ffe -> BB75ab5704b [color="green"];
+  BB75ab56ffe -> BB75ab57031 [color="red"];
+  BB75ab57031 -> BB75ab5703b [color="blue"];
+  BB75ab57033 -> BB75ab5703b [color="blue"];
+  BB75ab5703b -> BB75ab5704b [color="blue"];
+  BB75ab5704b -> BB75ab57068 [color="green"];
+  BB75ab5704b -> BB75ab57051 [color="red"];
+  BB75ab57051 -> BB75ab57068 [color="red"];
+  BB75ab57068 -> BB75ab5706d [color="blue"];
+}

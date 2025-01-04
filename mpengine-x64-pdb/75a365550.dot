@@ -1,0 +1,15 @@
+digraph get_successor_k {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a365550 -> BB75a3655b5 [color="green"];
+  BB75a365550 -> BB75a365564 [color="red"];
+  BB75a365564 -> BB75a3655b4 [color="green"];
+  BB75a365564 -> BB75a365580 [color="red"];
+  BB75a365580 -> BB75a3655b1 [color="green"];
+  BB75a365580 -> BB75a3655a6 [color="red"];
+  BB75a3655a6 -> BB75a3655b1 [color="blue"];
+  BB75a3655b1 -> BB75a3655b4 [color="blue"];
+  BB75a3655b5 -> BB75a365580 [color="green"];
+  BB75a3655b5 -> BB75a3655ba [color="red"];
+  BB75a3655ba -> BB75a3655b1 [color="blue"];
+}

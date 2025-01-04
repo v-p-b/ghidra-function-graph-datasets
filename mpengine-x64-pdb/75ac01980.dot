@@ -1,0 +1,34 @@
+digraph ZSTD_entropyCompressSeqStore_internal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac01980 -> BB75ac01a54 [color="green"];
+  BB75ac01980 -> BB75ac01a3e [color="red"];
+  BB75ac01a3e -> BB75ac01a5a [color="green"];
+  BB75ac01a3e -> BB75ac01a54 [color="red"];
+  BB75ac01a54 -> BB75ac01a5a [color="blue"];
+  BB75ac01a5a -> BB75ac01b37 [color="green"];
+  BB75ac01a5a -> BB75ac01aaa [color="red"];
+  BB75ac01aaa -> BB75ac01ac6 [color="green"];
+  BB75ac01aaa -> BB75ac01abd [color="red"];
+  BB75ac01abd -> BB75ac01b37 [color="blue"];
+  BB75ac01ac6 -> BB75ac01adb [color="green"];
+  BB75ac01ac6 -> BB75ac01ad3 [color="red"];
+  BB75ac01ad3 -> BB75ac01b08 [color="blue"];
+  BB75ac01adb -> BB75ac01af8 [color="green"];
+  BB75ac01adb -> BB75ac01ae6 [color="red"];
+  BB75ac01ae6 -> BB75ac01b08 [color="blue"];
+  BB75ac01af8 -> BB75ac01b08 [color="blue"];
+  BB75ac01b08 -> BB75ac01b4b [color="green"];
+  BB75ac01b08 -> BB75ac01b20 [color="red"];
+  BB75ac01b20 -> BB75ac01b31 [color="red"];
+  BB75ac01b31 -> BB75ac01b34 [color="blue"];
+  BB75ac01b34 -> BB75ac01b37 [color="blue"];
+  BB75ac01b4b -> BB75ac01bb5 [color="green"];
+  BB75ac01b4b -> BB75ac01bb0 [color="red"];
+  BB75ac01bb0 -> BB75ac01b37 [color="blue"];
+  BB75ac01bb5 -> BB75ac01b37 [color="green"];
+  BB75ac01bb5 -> BB75ac01c51 [color="red"];
+  BB75ac01c51 -> BB75ac01b31 [color="green"];
+  BB75ac01c51 -> BB75ac01c67 [color="red"];
+  BB75ac01c67 -> BB75ac01b34 [color="blue"];
+}

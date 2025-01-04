@@ -1,0 +1,9 @@
+digraph CRC32_read {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aac31e4 -> BB75aac3204 [color="blue"];
+  BB75aac3204 -> BB75aac3238 [color="green"];
+  BB75aac3204 -> BB75aac321b [color="red"];
+  BB75aac321b -> BB75aac3204 [color="green"];
+  BB75aac321b -> BB75aac3238 [color="red"];
+}

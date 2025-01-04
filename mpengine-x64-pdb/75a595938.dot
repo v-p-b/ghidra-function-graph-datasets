@@ -1,0 +1,10 @@
+digraph vdbeMemClearExternAndSetNull {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a595938 -> BB75a595970 [color="green"];
+  BB75a595938 -> BB75a59594c [color="red"];
+  BB75a59594c -> BB75a595964 [color="green"];
+  BB75a59594c -> BB75a595957 [color="red"];
+  BB75a595957 -> BB75a595964 [color="red"];
+  BB75a595970 -> BB75a59594c [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph __acrt_initialize_ptd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a772ae0 -> BB75a772aff [color="green"];
+  BB75a772ae0 -> BB75a772afb [color="red"];
+  BB75a772afb -> BB75a772b14 [color="blue"];
+  BB75a772aff -> BB75a772b12 [color="green"];
+  BB75a772aff -> BB75a772b09 [color="red"];
+  BB75a772b09 -> BB75a772afb [color="blue"];
+  BB75a772b12 -> BB75a772b14 [color="blue"];
+}

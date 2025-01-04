@@ -1,0 +1,10 @@
+digraph CheckLuaGlobalScopeIntegrity {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a528a7c -> BB75a528a99 [color="green"];
+  BB75a528a7c -> BB75a528a8b [color="red"];
+  BB75a528a8b -> BB75a528a9f [color="green"];
+  BB75a528a8b -> BB75a528a93 [color="red"];
+  BB75a528a99 -> BB75a528a8b [color="blue"];
+  BB75a528a9f -> BB75a528a93 [color="blue"];
+}

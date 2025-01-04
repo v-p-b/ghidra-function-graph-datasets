@@ -1,0 +1,32 @@
+digraph NTDLL_DLL_NtReleaseMutantWorker {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6343d0 -> BB75a634541 [color="green"];
+  BB75a6343d0 -> BB75a634409 [color="red"];
+  BB75a634409 -> BB75a634541 [color="green"];
+  BB75a634409 -> BB75a634417 [color="red"];
+  BB75a634417 -> BB75a634541 [color="green"];
+  BB75a634417 -> BB75a634425 [color="red"];
+  BB75a634425 -> BB75a63451b [color="green"];
+  BB75a634425 -> BB75a634481 [color="red"];
+  BB75a634481 -> BB75a63454f [color="green"];
+  BB75a634481 -> BB75a6344a9 [color="red"];
+  BB75a6344a9 -> BB75a63457a [color="green"];
+  BB75a6344a9 -> BB75a6344b5 [color="red"];
+  BB75a6344b5 -> BB75a6344ef [color="green"];
+  BB75a6344b5 -> BB75a6344e2 [color="red"];
+  BB75a6344e2 -> BB75a6344ef [color="blue"];
+  BB75a6344ef -> BB75a6344f3 [color="blue"];
+  BB75a63451b -> BB75a63453b [color="green"];
+  BB75a63451b -> BB75a63452e [color="red"];
+  BB75a63452e -> BB75a63453b [color="blue"];
+  BB75a63453b -> BB75a6344f3 [color="blue"];
+  BB75a634541 -> BB75a6344f3 [color="blue"];
+  BB75a63454f -> BB75a634571 [color="green"];
+  BB75a63454f -> BB75a634564 [color="red"];
+  BB75a634564 -> BB75a634571 [color="blue"];
+  BB75a634571 -> BB75a6344f3 [color="blue"];
+  BB75a63457a -> BB75a6344b5 [color="green"];
+  BB75a63457a -> BB75a6345a1 [color="red"];
+  BB75a6345a1 -> BB75a6344f3 [color="blue"];
+}

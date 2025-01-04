@@ -1,0 +1,10 @@
+digraph RemoveFromCaches {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa90fe8 -> BB75aa9103a [color="green"];
+  BB75aa90fe8 -> BB75aa91012 [color="red"];
+  BB75aa91012 -> BB75aa91035 [color="green"];
+  BB75aa91012 -> BB75aa9101c [color="red"];
+  BB75aa9101c -> BB75aa9103a [color="blue"];
+  BB75aa91035 -> BB75aa9103a [color="blue"];
+}

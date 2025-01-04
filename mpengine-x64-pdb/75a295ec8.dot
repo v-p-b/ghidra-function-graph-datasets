@@ -1,0 +1,24 @@
+digraph comparisonAffinity {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a295ec8 -> BB75a295f1e [color="green"];
+  BB75a295ec8 -> BB75a295eea [color="red"];
+  BB75a295eea -> BB75a295f06 [color="green"];
+  BB75a295eea -> BB75a295ef3 [color="red"];
+  BB75a295ef3 -> BB75a295f17 [color="green"];
+  BB75a295ef3 -> BB75a295ef7 [color="red"];
+  BB75a295ef7 -> BB75a295ef9 [color="blue"];
+  BB75a295f06 -> BB75a295ef7 [color="green"];
+  BB75a295f06 -> BB75a295f0a [color="red"];
+  BB75a295f0a -> BB75a295f12 [color="green"];
+  BB75a295f0a -> BB75a295f0e [color="red"];
+  BB75a295f0e -> BB75a295ef9 [color="blue"];
+  BB75a295f12 -> BB75a295f0e [color="green"];
+  BB75a295f12 -> BB75a295f17 [color="red"];
+  BB75a295f17 -> BB75a295ef9 [color="blue"];
+  BB75a295f1e -> BB75a295f3b [color="green"];
+  BB75a295f1e -> BB75a295f27 [color="red"];
+  BB75a295f27 -> BB75a295f47 [color="blue"];
+  BB75a295f3b -> BB75a295f47 [color="blue"];
+  BB75a295f47 -> BB75a295ef9 [color="blue"];
+}

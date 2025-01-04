@@ -1,0 +1,15 @@
+digraph CloseFindComponent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5ff014 -> BB75a5ff062 [color="green"];
+  BB75a5ff014 -> BB75a5ff02e [color="red"];
+  BB75a5ff02e -> BB75a5ff047 [color="green"];
+  BB75a5ff02e -> BB75a5ff03a [color="red"];
+  BB75a5ff047 -> BB75a5ff03a [color="green"];
+  BB75a5ff047 -> BB75a5ff053 [color="red"];
+  BB75a5ff053 -> BB75a5ff03a [color="blue"];
+  BB75a5ff062 -> BB75a5ff071 [color="green"];
+  BB75a5ff062 -> BB75a5ff06c [color="red"];
+  BB75a5ff06c -> BB75a5ff071 [color="red"];
+  BB75a5ff071 -> BB75a5ff02e [color="blue"];
+}

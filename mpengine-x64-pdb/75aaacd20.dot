@@ -1,0 +1,9 @@
+digraph IsFileOplocked {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaacd20 -> BB75aaacd78 [color="green"];
+  BB75aaacd20 -> BB75aaacd71 [color="red"];
+  BB75aaacd71 -> BB75aaacd7a [color="green"];
+  BB75aaacd71 -> BB75aaacd78 [color="red"];
+  BB75aaacd78 -> BB75aaacd7a [color="blue"];
+}

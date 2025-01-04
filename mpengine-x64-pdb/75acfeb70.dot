@@ -1,0 +1,19 @@
+digraph ReadFlashRomForAmd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acfeb70 -> BB75acfeba2 [color="green"];
+  BB75acfeb70 -> BB75acfeb98 [color="red"];
+  BB75acfeb98 -> BB75acfec4c [color="blue"];
+  BB75acfeba2 -> BB75acfebea [color="green"];
+  BB75acfeba2 -> BB75acfebb5 [color="red"];
+  BB75acfebb5 -> BB75acfebe3 [color="green"];
+  BB75acfebb5 -> BB75acfebc8 [color="red"];
+  BB75acfebc8 -> BB75acfebe3 [color="green"];
+  BB75acfebc8 -> BB75acfebce [color="red"];
+  BB75acfebce -> BB75acfebe3 [color="red"];
+  BB75acfebe3 -> BB75acfec4c [color="blue"];
+  BB75acfebea -> BB75acfec47 [color="green"];
+  BB75acfebea -> BB75acfec36 [color="red"];
+  BB75acfec36 -> BB75acfec4c [color="blue"];
+  BB75acfec47 -> BB75acfec4c [color="blue"];
+}

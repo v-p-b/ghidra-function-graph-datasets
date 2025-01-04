@@ -1,0 +1,18 @@
+digraph UpgradeOneTable<MetaStore::TableAtomicCounters> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab6e510 -> BB75ab6e570 [color="green"];
+  BB75ab6e510 -> BB75ab6e51a [color="red"];
+  BB75ab6e51a -> BB75ab6e55e [color="green"];
+  BB75ab6e51a -> BB75ab6e520 [color="red"];
+  BB75ab6e520 -> BB75ab6e54c [color="green"];
+  BB75ab6e520 -> BB75ab6e526 [color="red"];
+  BB75ab6e526 -> BB75ab6e53a [color="green"];
+  BB75ab6e526 -> BB75ab6e52c [color="red"];
+  BB75ab6e52c -> BB75ab6e585 [color="blue"];
+  BB75ab6e53a -> BB75ab6e580 [color="blue"];
+  BB75ab6e54c -> BB75ab6e580 [color="blue"];
+  BB75ab6e55e -> BB75ab6e580 [color="blue"];
+  BB75ab6e570 -> BB75ab6e580 [color="blue"];
+  BB75ab6e580 -> BB75ab6e585 [color="blue"];
+}

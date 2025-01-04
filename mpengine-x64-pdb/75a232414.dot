@@ -1,0 +1,12 @@
+digraph check_timer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a232414 -> BB75a23242d [color="green"];
+  BB75a232414 -> BB75a232426 [color="red"];
+  BB75a232426 -> BB75a232428 [color="blue"];
+  BB75a23242d -> BB75a23244c [color="green"];
+  BB75a23242d -> BB75a232440 [color="red"];
+  BB75a232440 -> BB75a232445 [color="red"];
+  BB75a232445 -> BB75a232428 [color="blue"];
+  BB75a23244c -> BB75a232445 [color="blue"];
+}

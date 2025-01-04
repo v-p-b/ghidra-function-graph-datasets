@@ -1,0 +1,31 @@
+digraph NTDLL_DLL_NtWaitForMultipleObjectsWorker_PostBlock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a56d380 -> BB75a56d446 [color="green"];
+  BB75a56d380 -> BB75a56d393 [color="red"];
+  BB75a56d393 -> BB75a56d446 [color="green"];
+  BB75a56d393 -> BB75a56d3a1 [color="red"];
+  BB75a56d3a1 -> BB75a56d446 [color="green"];
+  BB75a56d3a1 -> BB75a56d3b1 [color="red"];
+  BB75a56d3b1 -> BB75a56d417 [color="green"];
+  BB75a56d3b1 -> BB75a56d3e2 [color="red"];
+  BB75a56d3e2 -> BB75a56d3ed [color="blue"];
+  BB75a56d3ed -> BB75a56d401 [color="green"];
+  BB75a56d3ed -> BB75a56d3f3 [color="red"];
+  BB75a56d3f3 -> BB75a56d440 [color="green"];
+  BB75a56d3f3 -> BB75a56d3f9 [color="red"];
+  BB75a56d3f9 -> BB75a56d3ed [color="blue"];
+  BB75a56d401 -> BB75a56d417 [color="green"];
+  BB75a56d401 -> BB75a56d408 [color="red"];
+  BB75a56d408 -> BB75a56d417 [color="green"];
+  BB75a56d408 -> BB75a56d40e [color="red"];
+  BB75a56d40e -> BB75a56d417 [color="green"];
+  BB75a56d40e -> BB75a56d413 [color="red"];
+  BB75a56d413 -> BB75a56d417 [color="blue"];
+  BB75a56d417 -> BB75a56d432 [color="green"];
+  BB75a56d417 -> BB75a56d424 [color="red"];
+  BB75a56d424 -> BB75a56d432 [color="blue"];
+  BB75a56d432 -> BB75a56d435 [color="blue"];
+  BB75a56d440 -> BB75a56d3ed [color="blue"];
+  BB75a56d446 -> BB75a56d435 [color="blue"];
+}

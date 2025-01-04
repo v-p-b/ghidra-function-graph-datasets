@@ -1,0 +1,9 @@
+digraph MemScanIsWindowsVistaOrGreater {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a59bbcc -> BB75a59bbfe [color="green"];
+  BB75a59bbcc -> BB75a59bbf3 [color="red"];
+  BB75a59bbfe -> BB75a59bbf3 [color="green"];
+  BB75a59bbfe -> BB75a59bc13 [color="red"];
+  BB75a59bc13 -> BB75a59bbf3 [color="blue"];
+}

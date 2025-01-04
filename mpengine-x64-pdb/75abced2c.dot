@@ -1,0 +1,20 @@
+digraph RestoreAll {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abced2c -> BB75abced7a [color="green"];
+  BB75abced2c -> BB75abced75 [color="red"];
+  BB75abced75 -> BB75abced7a [color="red"];
+  BB75abced7a -> BB75abcedf7 [color="green"];
+  BB75abced7a -> BB75abcedd9 [color="red"];
+  BB75abcedd9 -> BB75abceea9 [color="blue"];
+  BB75abcedf7 -> BB75abcee1e [color="green"];
+  BB75abcedf7 -> BB75abcee0a [color="red"];
+  BB75abcee0a -> BB75abceea9 [color="blue"];
+  BB75abcee1e -> BB75abcee33 [color="blue"];
+  BB75abcee33 -> BB75abceea7 [color="green"];
+  BB75abcee33 -> BB75abcee46 [color="red"];
+  BB75abcee46 -> BB75abceea7 [color="green"];
+  BB75abcee46 -> BB75abcee4c [color="red"];
+  BB75abcee4c -> BB75abceea7 [color="blue"];
+  BB75abceea7 -> BB75abceea9 [color="blue"];
+}

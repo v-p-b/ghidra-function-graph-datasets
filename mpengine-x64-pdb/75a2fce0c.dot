@@ -1,0 +1,10 @@
+digraph CSE_Read {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2fce0c -> BB75a2fce3b [color="green"];
+  BB75a2fce0c -> BB75a2fce1d [color="red"];
+  BB75a2fce1d -> BB75a2fce3b [color="green"];
+  BB75a2fce1d -> BB75a2fce32 [color="red"];
+  BB75a2fce32 -> BB75a2fce36 [color="blue"];
+  BB75a2fce3b -> BB75a2fce36 [color="blue"];
+}

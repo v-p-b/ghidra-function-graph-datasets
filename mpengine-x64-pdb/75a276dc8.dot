@@ -1,0 +1,13 @@
+digraph MetaVaultRecordRollingQueues {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a276dc8 -> BB75a276e85 [color="green"];
+  BB75a276dc8 -> BB75a276e80 [color="red"];
+  BB75a276e80 -> BB75a276e85 [color="red"];
+  BB75a276e85 -> BB75a276e9e [color="green"];
+  BB75a276e85 -> BB75a276e99 [color="red"];
+  BB75a276e99 -> BB75a276e9e [color="red"];
+  BB75a276e9e -> BB75a276ee2 [color="green"];
+  BB75a276e9e -> BB75a276eb6 [color="red"];
+  BB75a276eb6 -> BB75a276ee2 [color="red"];
+}

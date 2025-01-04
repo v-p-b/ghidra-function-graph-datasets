@@ -1,0 +1,28 @@
+digraph AllocUnitsRare {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aad2174 -> BB75aad2194 [color="green"];
+  BB75aad2174 -> BB75aad218f [color="red"];
+  BB75aad218f -> BB75aad2194 [color="red"];
+  BB75aad2194 -> BB75aad21bd [color="green"];
+  BB75aad2194 -> BB75aad219a [color="red"];
+  BB75aad219a -> BB75aad21bd [color="green"];
+  BB75aad219a -> BB75aad21b0 [color="red"];
+  BB75aad21b0 -> BB75aad2264 [color="blue"];
+  BB75aad21bd -> BB75aad21cb [color="blue"];
+  BB75aad21cb -> BB75aad21fb [color="green"];
+  BB75aad21cb -> BB75aad21d8 [color="red"];
+  BB75aad21d8 -> BB75aad21cb [color="green"];
+  BB75aad21d8 -> BB75aad21e0 [color="red"];
+  BB75aad21e0 -> BB75aad2264 [color="blue"];
+  BB75aad21fb -> BB75aad2223 [color="green"];
+  BB75aad21fb -> BB75aad221e [color="red"];
+  BB75aad221e -> BB75aad2223 [color="red"];
+  BB75aad2223 -> BB75aad2262 [color="green"];
+  BB75aad2223 -> BB75aad2239 [color="red"];
+  BB75aad2239 -> BB75aad224e [color="green"];
+  BB75aad2239 -> BB75aad2249 [color="red"];
+  BB75aad2249 -> BB75aad224e [color="red"];
+  BB75aad224e -> BB75aad2264 [color="blue"];
+  BB75aad2262 -> BB75aad2264 [color="blue"];
+}

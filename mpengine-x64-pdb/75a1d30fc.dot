@@ -1,0 +1,20 @@
+digraph pushAssignExprTree {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1d30fc -> BB75a1d31ca [color="green"];
+  BB75a1d30fc -> BB75a1d312c [color="red"];
+  BB75a1d312c -> BB75a1d3212 [color="green"];
+  BB75a1d312c -> BB75a1d3145 [color="red"];
+  BB75a1d3145 -> BB75a1d3212 [color="green"];
+  BB75a1d3145 -> BB75a1d315e [color="red"];
+  BB75a1d315e -> BB75a1d31eb [color="green"];
+  BB75a1d315e -> BB75a1d3199 [color="red"];
+  BB75a1d3199 -> BB75a1d3212 [color="green"];
+  BB75a1d3199 -> BB75a1d31b2 [color="red"];
+  BB75a1d31b2 -> BB75a1d31ca [color="red"];
+  BB75a1d31ca -> BB75a1d31cc [color="blue"];
+  BB75a1d31eb -> BB75a1d3216 [color="green"];
+  BB75a1d31eb -> BB75a1d3212 [color="red"];
+  BB75a1d3212 -> BB75a1d31cc [color="blue"];
+  BB75a1d3216 -> BB75a1d3199 [color="blue"];
+}

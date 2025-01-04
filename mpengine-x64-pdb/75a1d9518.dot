@@ -1,0 +1,10 @@
+digraph CreateInstance {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1d9518 -> BB75a1d956a [color="green"];
+  BB75a1d9518 -> BB75a1d955c [color="red"];
+  BB75a1d955c -> BB75a1d956a [color="red"];
+  BB75a1d956a -> BB75a1d9599 [color="green"];
+  BB75a1d956a -> BB75a1d9570 [color="red"];
+  BB75a1d9599 -> BB75a1d9570 [color="blue"];
+}

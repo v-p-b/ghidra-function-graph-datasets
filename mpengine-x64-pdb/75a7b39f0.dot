@@ -1,0 +1,11 @@
+digraph FPU_fist_s64 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7b39f0 -> BB75a7b3a0c [color="green"];
+  BB75a7b39f0 -> BB75a7b3a0a [color="red"];
+  BB75a7b3a0a -> BB75a7b3a0c [color="blue"];
+  BB75a7b3a0c -> BB75a7b3a29 [color="green"];
+  BB75a7b3a0c -> BB75a7b3a1e [color="red"];
+  BB75a7b3a1e -> BB75a7b3a32 [color="blue"];
+  BB75a7b3a29 -> BB75a7b3a32 [color="blue"];
+}

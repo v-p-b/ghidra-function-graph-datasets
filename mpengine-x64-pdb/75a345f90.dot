@@ -1,0 +1,24 @@
+digraph KERNEL32_DLL_ExitProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a345f90 -> BB75a34602d [color="green"];
+  BB75a345f90 -> BB75a345ffb [color="red"];
+  BB75a345ffb -> BB75a34602d [color="red"];
+  BB75a34602d -> BB75a346050 [color="green"];
+  BB75a34602d -> BB75a346036 [color="red"];
+  BB75a346036 -> BB75a34608e [color="blue"];
+  BB75a346050 -> BB75a3460c9 [color="green"];
+  BB75a346050 -> BB75a346059 [color="red"];
+  BB75a346059 -> BB75a3460c9 [color="green"];
+  BB75a346059 -> BB75a346065 [color="red"];
+  BB75a346065 -> BB75a3460e3 [color="green"];
+  BB75a346065 -> BB75a34606f [color="red"];
+  BB75a34606f -> BB75a346074 [color="blue"];
+  BB75a346074 -> BB75a346088 [color="red"];
+  BB75a346088 -> BB75a34608e [color="blue"];
+  BB75a34608e -> BB75a3460a0 [color="green"];
+  BB75a34608e -> BB75a346093 [color="red"];
+  BB75a346093 -> BB75a3460a0 [color="blue"];
+  BB75a3460c9 -> BB75a346088 [color="blue"];
+  BB75a3460e3 -> BB75a346074 [color="blue"];
+}

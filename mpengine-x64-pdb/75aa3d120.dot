@@ -1,0 +1,12 @@
+digraph getPropByHash {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa3d120 -> BB75aa3d14a [color="green"];
+  BB75aa3d120 -> BB75aa3d12d [color="red"];
+  BB75aa3d12d -> BB75aa3d13a [color="green"];
+  BB75aa3d12d -> BB75aa3d136 [color="red"];
+  BB75aa3d136 -> BB75aa3d168 [color="blue"];
+  BB75aa3d13a -> BB75aa3d159 [color="blue"];
+  BB75aa3d14a -> BB75aa3d159 [color="blue"];
+  BB75aa3d159 -> BB75aa3d168 [color="red"];
+}

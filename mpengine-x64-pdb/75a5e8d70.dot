@@ -1,0 +1,11 @@
+digraph copy_dirty_pages {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5e8d70 -> BB75a5e8de8 [color="blue"];
+  BB75a5e8de8 -> BB75a5e8e1f [color="green"];
+  BB75a5e8de8 -> BB75a5e8dff [color="red"];
+  BB75a5e8dff -> BB75a5e8de8 [color="green"];
+  BB75a5e8dff -> BB75a5e8e1d [color="red"];
+  BB75a5e8e1d -> BB75a5e8e21 [color="blue"];
+  BB75a5e8e1f -> BB75a5e8e21 [color="blue"];
+}

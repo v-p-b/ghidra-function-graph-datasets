@@ -1,0 +1,16 @@
+digraph WPP_SF_SSP {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7445e8 -> BB75a74462a [color="green"];
+  BB75a7445e8 -> BB75a744613 [color="red"];
+  BB75a744613 -> BB75a744616 [color="blue"];
+  BB75a744616 -> BB75a744616 [color="green"];
+  BB75a744616 -> BB75a744620 [color="red"];
+  BB75a744620 -> BB75a74462d [color="blue"];
+  BB75a74462a -> BB75a74462d [color="blue"];
+  BB75a74462d -> BB75a744655 [color="green"];
+  BB75a74462d -> BB75a744640 [color="red"];
+  BB75a744640 -> BB75a744640 [color="green"];
+  BB75a744640 -> BB75a74464a [color="red"];
+  BB75a74464a -> BB75a744655 [color="blue"];
+}

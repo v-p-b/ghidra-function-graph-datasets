@@ -1,0 +1,32 @@
+digraph ProcInfected {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a31d0e8 -> BB75a31d1a8 [color="green"];
+  BB75a31d0e8 -> BB75a31d143 [color="red"];
+  BB75a31d143 -> BB75a31d1ea [color="green"];
+  BB75a31d143 -> BB75a31d15c [color="red"];
+  BB75a31d15c -> BB75a31d15f [color="blue"];
+  BB75a31d15f -> BB75a31d1f3 [color="green"];
+  BB75a31d15f -> BB75a31d18f [color="red"];
+  BB75a31d18f -> BB75a31d1e4 [color="green"];
+  BB75a31d18f -> BB75a31d19f [color="red"];
+  BB75a31d19f -> BB75a31d24f [color="green"];
+  BB75a31d19f -> BB75a31d1a8 [color="red"];
+  BB75a31d1a8 -> BB75a31d265 [color="green"];
+  BB75a31d1a8 -> BB75a31d1c8 [color="red"];
+  BB75a31d1e4 -> BB75a31d19f [color="blue"];
+  BB75a31d1ea -> BB75a31d15f [color="blue"];
+  BB75a31d1f3 -> BB75a31d18f [color="green"];
+  BB75a31d1f3 -> BB75a31d215 [color="red"];
+  BB75a31d215 -> BB75a31d224 [color="green"];
+  BB75a31d215 -> BB75a31d21a [color="red"];
+  BB75a31d21a -> BB75a31d235 [color="blue"];
+  BB75a31d224 -> BB75a31d18f [color="green"];
+  BB75a31d224 -> BB75a31d22d [color="red"];
+  BB75a31d22d -> BB75a31d235 [color="blue"];
+  BB75a31d235 -> BB75a31d18f [color="blue"];
+  BB75a31d24f -> BB75a31d1a8 [color="green"];
+  BB75a31d24f -> BB75a31d259 [color="red"];
+  BB75a31d259 -> BB75a31d1a8 [color="blue"];
+  BB75a31d265 -> BB75a31d1c8 [color="blue"];
+}

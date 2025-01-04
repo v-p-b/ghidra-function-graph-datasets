@@ -1,0 +1,11 @@
+digraph GetCurrentFilePartialCRC {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2b27e0 -> BB75a2b2839 [color="green"];
+  BB75a2b27e0 -> BB75a2b27f2 [color="red"];
+  BB75a2b27f2 -> BB75a2b283d [color="green"];
+  BB75a2b27f2 -> BB75a2b27fc [color="red"];
+  BB75a2b27fc -> BB75a2b2833 [color="red"];
+  BB75a2b2839 -> BB75a2b2833 [color="blue"];
+  BB75a2b283d -> BB75a2b27fc [color="blue"];
+}

@@ -1,0 +1,25 @@
+digraph GetFileSHA1FromResource {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab8a4ec -> BB75ab8a541 [color="green"];
+  BB75ab8a4ec -> BB75ab8a501 [color="red"];
+  BB75ab8a501 -> BB75ab8a541 [color="green"];
+  BB75ab8a501 -> BB75ab8a50a [color="red"];
+  BB75ab8a50a -> BB75ab8a541 [color="green"];
+  BB75ab8a50a -> BB75ab8a511 [color="red"];
+  BB75ab8a511 -> BB75ab8a53d [color="green"];
+  BB75ab8a511 -> BB75ab8a51d [color="red"];
+  BB75ab8a51d -> BB75ab8a573 [color="green"];
+  BB75ab8a51d -> BB75ab8a530 [color="red"];
+  BB75ab8a530 -> BB75ab8a573 [color="green"];
+  BB75ab8a530 -> BB75ab8a536 [color="red"];
+  BB75ab8a536 -> BB75ab8a55f [color="blue"];
+  BB75ab8a53d -> BB75ab8a575 [color="blue"];
+  BB75ab8a541 -> BB75ab8a573 [color="green"];
+  BB75ab8a541 -> BB75ab8a554 [color="red"];
+  BB75ab8a554 -> BB75ab8a573 [color="green"];
+  BB75ab8a554 -> BB75ab8a55a [color="red"];
+  BB75ab8a55a -> BB75ab8a55f [color="blue"];
+  BB75ab8a55f -> BB75ab8a573 [color="red"];
+  BB75ab8a573 -> BB75ab8a575 [color="blue"];
+}

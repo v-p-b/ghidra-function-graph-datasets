@@ -1,0 +1,19 @@
+digraph MemScanQueryIntegrityLevel {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a69c3c8 -> BB75a69c425 [color="green"];
+  BB75a69c3c8 -> BB75a69c3f6 [color="red"];
+  BB75a69c3f6 -> BB75a69c41a [color="green"];
+  BB75a69c3f6 -> BB75a69c40d [color="red"];
+  BB75a69c40d -> BB75a69c40f [color="blue"];
+  BB75a69c41a -> BB75a69c40d [color="blue"];
+  BB75a69c425 -> BB75a69c456 [color="green"];
+  BB75a69c425 -> BB75a69c438 [color="red"];
+  BB75a69c438 -> BB75a69c456 [color="green"];
+  BB75a69c438 -> BB75a69c43e [color="red"];
+  BB75a69c43e -> BB75a69c456 [color="red"];
+  BB75a69c456 -> BB75a69c466 [color="green"];
+  BB75a69c456 -> BB75a69c460 [color="red"];
+  BB75a69c460 -> BB75a69c466 [color="red"];
+  BB75a69c466 -> BB75a69c40f [color="blue"];
+}

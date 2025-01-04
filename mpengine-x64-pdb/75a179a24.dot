@@ -1,0 +1,24 @@
+digraph ~JsHeap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a179a24 -> BB75a179a3f [color="blue"];
+  BB75a179a3f -> BB75a179a6d [color="green"];
+  BB75a179a3f -> BB75a179a45 [color="red"];
+  BB75a179a45 -> BB75a179a49 [color="blue"];
+  BB75a179a49 -> BB75a179a8b [color="green"];
+  BB75a179a49 -> BB75a179a4f [color="red"];
+  BB75a179a4f -> BB75a179a67 [color="green"];
+  BB75a179a4f -> BB75a179a57 [color="red"];
+  BB75a179a57 -> BB75a179a67 [color="red"];
+  BB75a179a67 -> BB75a179a49 [color="blue"];
+  BB75a179a6d -> BB75a179a85 [color="green"];
+  BB75a179a6d -> BB75a179a75 [color="red"];
+  BB75a179a75 -> BB75a179a85 [color="red"];
+  BB75a179a85 -> BB75a179a3f [color="blue"];
+  BB75a179a8b -> BB75a179ad8 [color="green"];
+  BB75a179a8b -> BB75a179ab9 [color="red"];
+  BB75a179ab9 -> BB75a179ad8 [color="red"];
+  BB75a179ad8 -> BB75a179b09 [color="green"];
+  BB75a179ad8 -> BB75a179aea [color="red"];
+  BB75a179aea -> BB75a179b09 [color="red"];
+}

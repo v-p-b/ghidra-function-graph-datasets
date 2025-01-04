@@ -1,0 +1,11 @@
+digraph Read {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac46ed0 -> BB75ac46f24 [color="green"];
+  BB75ac46ed0 -> BB75ac46efd [color="red"];
+  BB75ac46efd -> BB75ac46f24 [color="green"];
+  BB75ac46efd -> BB75ac46f12 [color="red"];
+  BB75ac46f12 -> BB75ac46f26 [color="green"];
+  BB75ac46f12 -> BB75ac46f24 [color="red"];
+  BB75ac46f24 -> BB75ac46f26 [color="blue"];
+}

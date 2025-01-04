@@ -1,0 +1,19 @@
+digraph encdec_hashSHA512 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abc8750 -> BB75abc8891 [color="green"];
+  BB75abc8750 -> BB75abc87b2 [color="red"];
+  BB75abc87b2 -> BB75abc8891 [color="green"];
+  BB75abc87b2 -> BB75abc87d5 [color="red"];
+  BB75abc87d5 -> BB75abc8825 [color="green"];
+  BB75abc87d5 -> BB75abc8820 [color="red"];
+  BB75abc8820 -> BB75abc8896 [color="blue"];
+  BB75abc8825 -> BB75abc8891 [color="green"];
+  BB75abc8825 -> BB75abc883e [color="red"];
+  BB75abc883e -> BB75abc888a [color="green"];
+  BB75abc883e -> BB75abc8886 [color="red"];
+  BB75abc8886 -> BB75abc8896 [color="blue"];
+  BB75abc888a -> BB75abc88a0 [color="blue"];
+  BB75abc8891 -> BB75abc8896 [color="blue"];
+  BB75abc8896 -> BB75abc88a0 [color="red"];
+}

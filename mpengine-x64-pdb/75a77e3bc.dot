@@ -1,0 +1,9 @@
+digraph __scrt_uninitialize_crt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a77e3bc -> BB75a77e3d1 [color="green"];
+  BB75a77e3bc -> BB75a77e3cd [color="red"];
+  BB75a77e3cd -> BB75a77e3dd [color="green"];
+  BB75a77e3cd -> BB75a77e3d1 [color="red"];
+  BB75a77e3d1 -> BB75a77e3dd [color="red"];
+}

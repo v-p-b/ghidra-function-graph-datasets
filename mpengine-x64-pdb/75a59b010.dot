@@ -1,0 +1,11 @@
+digraph GetQuarantineFolder {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a59b010 -> BB75a59b01e [color="green"];
+  BB75a59b010 -> BB75a59b015 [color="red"];
+  BB75a59b015 -> BB75a59b02a [color="green"];
+  BB75a59b015 -> BB75a59b01e [color="red"];
+  BB75a59b01e -> BB75a59b028 [color="green"];
+  BB75a59b01e -> BB75a59b023 [color="red"];
+  BB75a59b028 -> BB75a59b02a [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph SetSize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac6f9f0 -> BB75ac6fa94 [color="green"];
+  BB75ac6f9f0 -> BB75ac6fa1c [color="red"];
+  BB75ac6fa1c -> BB75ac6fa94 [color="green"];
+  BB75ac6fa1c -> BB75ac6fa21 [color="red"];
+  BB75ac6fa21 -> BB75ac6fa27 [color="blue"];
+  BB75ac6fa27 -> BB75ac6fa94 [color="green"];
+  BB75ac6fa27 -> BB75ac6fa61 [color="red"];
+  BB75ac6fa61 -> BB75ac6fa27 [color="green"];
+  BB75ac6fa61 -> BB75ac6fa70 [color="red"];
+  BB75ac6fa70 -> BB75ac6fa94 [color="red"];
+}

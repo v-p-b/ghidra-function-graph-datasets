@@ -1,0 +1,10 @@
+digraph doRandom {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aac0700 -> BB75aac074e [color="green"];
+  BB75aac0700 -> BB75aac070c [color="red"];
+  BB75aac070c -> BB75aac074e [color="green"];
+  BB75aac070c -> BB75aac071b [color="red"];
+  BB75aac071b -> BB75aac071b [color="green"];
+  BB75aac071b -> BB75aac074e [color="red"];
+}

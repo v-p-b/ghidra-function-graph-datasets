@@ -1,0 +1,16 @@
+digraph CreateTokenizedPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab47f74 -> BB75ab4800a [color="green"];
+  BB75ab47f74 -> BB75ab47fbc [color="red"];
+  BB75ab47fbc -> BB75ab47ff7 [color="green"];
+  BB75ab47fbc -> BB75ab47fcf [color="red"];
+  BB75ab47fcf -> BB75ab47ff7 [color="green"];
+  BB75ab47fcf -> BB75ab47fd5 [color="red"];
+  BB75ab47fd5 -> BB75ab47ff7 [color="red"];
+  BB75ab47ff7 -> BB75ab48006 [color="green"];
+  BB75ab47ff7 -> BB75ab48001 [color="red"];
+  BB75ab48001 -> BB75ab48006 [color="red"];
+  BB75ab48006 -> BB75ab48014 [color="blue"];
+  BB75ab4800a -> BB75ab48014 [color="blue"];
+}

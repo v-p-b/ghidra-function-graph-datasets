@@ -1,0 +1,21 @@
+digraph SyncPostClose {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a145b10 -> BB75a145be2 [color="green"];
+  BB75a145b10 -> BB75a145b31 [color="red"];
+  BB75a145b31 -> BB75a145b3f [color="green"];
+  BB75a145b31 -> BB75a145b3a [color="red"];
+  BB75a145b3a -> BB75a145b3f [color="red"];
+  BB75a145b3f -> BB75a145b71 [color="green"];
+  BB75a145b3f -> BB75a145b5f [color="red"];
+  BB75a145b5f -> BB75a145bec [color="green"];
+  BB75a145b5f -> BB75a145b6d [color="red"];
+  BB75a145b6d -> BB75a145b71 [color="blue"];
+  BB75a145b71 -> BB75a145baa [color="green"];
+  BB75a145b71 -> BB75a145b99 [color="red"];
+  BB75a145b99 -> BB75a145baa [color="green"];
+  BB75a145b99 -> BB75a145ba6 [color="red"];
+  BB75a145ba6 -> BB75a145baa [color="blue"];
+  BB75a145be2 -> BB75a145b31 [color="blue"];
+  BB75a145bec -> BB75a145b6d [color="blue"];
+}

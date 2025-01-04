@@ -1,0 +1,10 @@
+digraph IsScanLatestVersion {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a640828 -> BB75a64083e [color="green"];
+  BB75a640828 -> BB75a64082d [color="red"];
+  BB75a64082d -> BB75a64083e [color="green"];
+  BB75a64082d -> BB75a640833 [color="red"];
+  BB75a640833 -> BB75a64083e [color="green"];
+  BB75a640833 -> BB75a64083b [color="red"];
+}

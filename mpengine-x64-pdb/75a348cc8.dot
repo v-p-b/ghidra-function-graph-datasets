@@ -1,0 +1,13 @@
+digraph Commit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a348cc8 -> BB75a348d3a [color="green"];
+  BB75a348cc8 -> BB75a348ce0 [color="red"];
+  BB75a348ce0 -> BB75a348d3a [color="green"];
+  BB75a348ce0 -> BB75a348ce5 [color="red"];
+  BB75a348ce5 -> BB75a348d32 [color="green"];
+  BB75a348ce5 -> BB75a348d2d [color="red"];
+  BB75a348d2d -> BB75a348d32 [color="red"];
+  BB75a348d32 -> BB75a348d34 [color="blue"];
+  BB75a348d3a -> BB75a348d34 [color="blue"];
+}

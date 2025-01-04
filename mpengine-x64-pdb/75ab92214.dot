@@ -1,0 +1,17 @@
+digraph BumpPriority {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab92214 -> BB75ab9223a [color="green"];
+  BB75ab92214 -> BB75ab92235 [color="red"];
+  BB75ab92235 -> BB75ab9223a [color="red"];
+  BB75ab9223a -> BB75ab922c1 [color="green"];
+  BB75ab9223a -> BB75ab9224a [color="red"];
+  BB75ab9224a -> BB75ab922a0 [color="green"];
+  BB75ab9224a -> BB75ab92267 [color="red"];
+  BB75ab92267 -> BB75ab92298 [color="green"];
+  BB75ab92267 -> BB75ab92270 [color="red"];
+  BB75ab92270 -> BB75ab92298 [color="blue"];
+  BB75ab92298 -> BB75ab92267 [color="green"];
+  BB75ab92298 -> BB75ab922a0 [color="red"];
+  BB75ab922a0 -> BB75ab922c1 [color="blue"];
+}

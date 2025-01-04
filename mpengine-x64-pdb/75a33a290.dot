@@ -1,0 +1,13 @@
+digraph GetStructSize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a33a290 -> BB75a33a2da [color="green"];
+  BB75a33a290 -> BB75a33a2ab [color="red"];
+  BB75a33a2ab -> BB75a33a2ce [color="green"];
+  BB75a33a2ab -> BB75a33a2b0 [color="red"];
+  BB75a33a2b0 -> BB75a33a2c5 [color="green"];
+  BB75a33a2b0 -> BB75a33a2b6 [color="red"];
+  BB75a33a2b6 -> BB75a33a2c0 [color="red"];
+  BB75a33a2ce -> BB75a33a2c0 [color="blue"];
+  BB75a33a2da -> BB75a33a2c0 [color="blue"];
+}

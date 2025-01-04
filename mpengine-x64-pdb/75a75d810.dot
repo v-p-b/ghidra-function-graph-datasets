@@ -1,0 +1,10 @@
+digraph emulate_verrw {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a75d810 -> BB75a75d89e [color="green"];
+  BB75a75d810 -> BB75a75d878 [color="red"];
+  BB75a75d878 -> BB75a75d89e [color="green"];
+  BB75a75d878 -> BB75a75d87d [color="red"];
+  BB75a75d87d -> BB75a75d8bd [color="blue"];
+  BB75a75d89e -> BB75a75d8bd [color="blue"];
+}

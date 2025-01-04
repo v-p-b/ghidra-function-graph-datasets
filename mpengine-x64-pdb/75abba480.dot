@@ -1,0 +1,30 @@
+digraph VMM64_wrap_template<0,1> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abba480 -> BB75abba570 [color="green"];
+  BB75abba480 -> BB75abba4fe [color="red"];
+  BB75abba4fe -> BB75abba570 [color="green"];
+  BB75abba4fe -> BB75abba51c [color="red"];
+  BB75abba51c -> BB75abba52a [color="green"];
+  BB75abba51c -> BB75abba525 [color="red"];
+  BB75abba525 -> BB75abba52a [color="red"];
+  BB75abba52a -> BB75abba56c [color="green"];
+  BB75abba52a -> BB75abba53a [color="red"];
+  BB75abba53a -> BB75abba565 [color="green"];
+  BB75abba53a -> BB75abba54d [color="red"];
+  BB75abba54d -> BB75abba56c [color="blue"];
+  BB75abba565 -> BB75abba56c [color="blue"];
+  BB75abba56c -> BB75abba5df [color="blue"];
+  BB75abba570 -> BB75abba58e [color="green"];
+  BB75abba570 -> BB75abba576 [color="red"];
+  BB75abba576 -> BB75abba58e [color="red"];
+  BB75abba58e -> BB75abba59d [color="green"];
+  BB75abba58e -> BB75abba598 [color="red"];
+  BB75abba598 -> BB75abba59d [color="red"];
+  BB75abba59d -> BB75abba5df [color="green"];
+  BB75abba59d -> BB75abba5ad [color="red"];
+  BB75abba5ad -> BB75abba5d8 [color="green"];
+  BB75abba5ad -> BB75abba5c0 [color="red"];
+  BB75abba5c0 -> BB75abba5df [color="blue"];
+  BB75abba5d8 -> BB75abba5df [color="blue"];
+}

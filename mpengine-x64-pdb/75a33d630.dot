@@ -1,0 +1,12 @@
+digraph AllocNextState {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a33d630 -> BB75a33d69c [color="green"];
+  BB75a33d630 -> BB75a33d648 [color="red"];
+  BB75a33d648 -> BB75a33d69c [color="green"];
+  BB75a33d648 -> BB75a33d65a [color="red"];
+  BB75a33d65a -> BB75a33d69c [color="green"];
+  BB75a33d65a -> BB75a33d677 [color="red"];
+  BB75a33d677 -> BB75a33d696 [color="blue"];
+  BB75a33d69c -> BB75a33d696 [color="blue"];
+}

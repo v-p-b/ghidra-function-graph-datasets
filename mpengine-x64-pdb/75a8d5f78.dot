@@ -1,0 +1,12 @@
+digraph _do_cpu_time_series_and_detect {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8d5f78 -> BB75a8d5fe6 [color="green"];
+  BB75a8d5f78 -> BB75a8d5fa5 [color="red"];
+  BB75a8d5fa5 -> BB75a8d5fd7 [color="blue"];
+  BB75a8d5fb5 -> BB75a8d5fd7 [color="red"];
+  BB75a8d5fd7 -> BB75a8d5fb5 [color="green"];
+  BB75a8d5fd7 -> BB75a8d5fdc [color="red"];
+  BB75a8d5fdc -> BB75a8d6033 [color="blue"];
+  BB75a8d5fe6 -> BB75a8d6033 [color="red"];
+}

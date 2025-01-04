@@ -1,0 +1,11 @@
+digraph balance_deeper {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a463468 -> BB75a463519 [color="green"];
+  BB75a463468 -> BB75a46349e [color="red"];
+  BB75a46349e -> BB75a463509 [color="green"];
+  BB75a46349e -> BB75a4634a2 [color="red"];
+  BB75a4634a2 -> BB75a4634f8 [color="red"];
+  BB75a463509 -> BB75a4634f8 [color="blue"];
+  BB75a463519 -> BB75a46349e [color="blue"];
+}

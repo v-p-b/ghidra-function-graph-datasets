@@ -1,0 +1,28 @@
+digraph SplitPathName {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a480620 -> BB75a4806da [color="green"];
+  BB75a480620 -> BB75a480659 [color="red"];
+  BB75a480659 -> BB75a4806c7 [color="green"];
+  BB75a480659 -> BB75a480683 [color="red"];
+  BB75a480683 -> BB75a480714 [color="green"];
+  BB75a480683 -> BB75a4806a1 [color="red"];
+  BB75a4806a1 -> BB75a4806ae [color="blue"];
+  BB75a4806c7 -> BB75a4806d6 [color="green"];
+  BB75a4806c7 -> BB75a4806d1 [color="red"];
+  BB75a4806d1 -> BB75a4806d6 [color="red"];
+  BB75a4806d6 -> BB75a4806ae [color="blue"];
+  BB75a4806da -> BB75a4806f4 [color="green"];
+  BB75a4806da -> BB75a4806ed [color="red"];
+  BB75a4806ed -> BB75a4806ae [color="blue"];
+  BB75a4806f4 -> BB75a4806ed [color="green"];
+  BB75a4806f4 -> BB75a4806fa [color="red"];
+  BB75a4806fa -> BB75a4806ed [color="blue"];
+  BB75a480714 -> BB75a480723 [color="green"];
+  BB75a480714 -> BB75a48071e [color="red"];
+  BB75a48071e -> BB75a480723 [color="red"];
+  BB75a480723 -> BB75a480730 [color="green"];
+  BB75a480723 -> BB75a480728 [color="red"];
+  BB75a480728 -> BB75a480730 [color="red"];
+  BB75a480730 -> BB75a4806ae [color="blue"];
+}

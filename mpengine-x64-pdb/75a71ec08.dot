@@ -1,0 +1,12 @@
+digraph BuildIgnoreThreatNotFoundCache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a71ec08 -> BB75a71ecb2 [color="green"];
+  BB75a71ec08 -> BB75a71ec5c [color="red"];
+  BB75a71ec5c -> BB75a71ec5e [color="blue"];
+  BB75a71ec5e -> BB75a71eca3 [color="green"];
+  BB75a71ec5e -> BB75a71ec76 [color="red"];
+  BB75a71ec76 -> BB75a71eca3 [color="red"];
+  BB75a71eca3 -> BB75a71ec5e [color="green"];
+  BB75a71eca3 -> BB75a71ecb2 [color="red"];
+}

@@ -1,0 +1,18 @@
+digraph KERNEL32_DLL_Sleep {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3462e0 -> BB75a3463e2 [color="green"];
+  BB75a3462e0 -> BB75a346337 [color="red"];
+  BB75a346337 -> BB75a34633c [color="red"];
+  BB75a34633c -> BB75a346381 [color="green"];
+  BB75a34633c -> BB75a34636b [color="red"];
+  BB75a34636b -> BB75a346381 [color="green"];
+  BB75a34636b -> BB75a346377 [color="red"];
+  BB75a346377 -> BB75a3463ba [color="green"];
+  BB75a346377 -> BB75a346381 [color="red"];
+  BB75a346381 -> BB75a34639a [color="green"];
+  BB75a346381 -> BB75a34638f [color="red"];
+  BB75a34638f -> BB75a34639a [color="blue"];
+  BB75a3463ba -> BB75a346381 [color="blue"];
+  BB75a3463e2 -> BB75a34633c [color="blue"];
+}

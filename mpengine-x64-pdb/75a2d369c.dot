@@ -1,0 +1,11 @@
+digraph SyncScanReplyForReScan {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2d369c -> BB75a2d36d6 [color="green"];
+  BB75a2d369c -> BB75a2d36d1 [color="red"];
+  BB75a2d36d1 -> BB75a2d36d6 [color="red"];
+  BB75a2d36d6 -> BB75a2d37d3 [color="blue"];
+  BB75a2d3756 -> BB75a2d37d3 [color="red"];
+  BB75a2d37d3 -> BB75a2d3756 [color="green"];
+  BB75a2d37d3 -> BB75a2d37dc [color="red"];
+}

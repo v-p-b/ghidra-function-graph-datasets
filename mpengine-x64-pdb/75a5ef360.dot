@@ -1,0 +1,22 @@
+digraph sysio_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5ef360 -> BB75a5ef4a6 [color="green"];
+  BB75a5ef360 -> BB75a5ef490 [color="red"];
+  BB75a5ef490 -> BB75a5ef4a6 [color="red"];
+  BB75a5ef4a6 -> BB75a5ef4b9 [color="green"];
+  BB75a5ef4a6 -> BB75a5ef4af [color="red"];
+  BB75a5ef4af -> BB75a5ef564 [color="blue"];
+  BB75a5ef4b9 -> BB75a5ef4e1 [color="green"];
+  BB75a5ef4b9 -> BB75a5ef4d7 [color="red"];
+  BB75a5ef4d7 -> BB75a5ef4e1 [color="blue"];
+  BB75a5ef4e1 -> BB75a5ef541 [color="green"];
+  BB75a5ef4e1 -> BB75a5ef4f4 [color="red"];
+  BB75a5ef4f4 -> BB75a5ef533 [color="green"];
+  BB75a5ef4f4 -> BB75a5ef507 [color="red"];
+  BB75a5ef507 -> BB75a5ef533 [color="green"];
+  BB75a5ef507 -> BB75a5ef50d [color="red"];
+  BB75a5ef50d -> BB75a5ef533 [color="red"];
+  BB75a5ef533 -> BB75a5ef4af [color="blue"];
+  BB75a5ef541 -> BB75a5ef564 [color="red"];
+}

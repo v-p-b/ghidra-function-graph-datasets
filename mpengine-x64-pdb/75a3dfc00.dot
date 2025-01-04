@@ -1,0 +1,12 @@
+digraph ShouldExit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3dfc00 -> BB75a3dfc15 [color="blue"];
+  BB75a3dfc15 -> BB75a3dfc15 [color="green"];
+  BB75a3dfc15 -> BB75a3dfc23 [color="red"];
+  BB75a3dfc23 -> BB75a3dfc46 [color="green"];
+  BB75a3dfc23 -> BB75a3dfc27 [color="red"];
+  BB75a3dfc27 -> BB75a3dfc46 [color="green"];
+  BB75a3dfc27 -> BB75a3dfc3e [color="red"];
+  BB75a3dfc46 -> BB75a3dfc3e [color="blue"];
+}

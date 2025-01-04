@@ -1,0 +1,21 @@
+digraph getStateFromIterators {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7836ec -> BB75a783789 [color="green"];
+  BB75a7836ec -> BB75a783712 [color="red"];
+  BB75a783712 -> BB75a783789 [color="green"];
+  BB75a783712 -> BB75a783718 [color="red"];
+  BB75a783718 -> BB75a783758 [color="green"];
+  BB75a783718 -> BB75a78372b [color="red"];
+  BB75a78372b -> BB75a783785 [color="green"];
+  BB75a78372b -> BB75a78373a [color="red"];
+  BB75a78373a -> BB75a78373a [color="green"];
+  BB75a78373a -> BB75a783756 [color="red"];
+  BB75a783756 -> BB75a783785 [color="blue"];
+  BB75a783758 -> BB75a783785 [color="green"];
+  BB75a783758 -> BB75a783769 [color="red"];
+  BB75a783769 -> BB75a783769 [color="green"];
+  BB75a783769 -> BB75a783785 [color="red"];
+  BB75a783785 -> BB75a78378c [color="blue"];
+  BB75a783789 -> BB75a78378c [color="blue"];
+}

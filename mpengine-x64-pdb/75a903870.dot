@@ -1,0 +1,19 @@
+digraph incompatible_app_list_has_dlls {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a903870 -> BB75a9038ab [color="blue"];
+  BB75a9038ab -> BB75a903945 [color="green"];
+  BB75a9038ab -> BB75a9038b4 [color="red"];
+  BB75a9038b4 -> BB75a903905 [color="green"];
+  BB75a9038b4 -> BB75a9038cf [color="red"];
+  BB75a9038cf -> BB75a903908 [color="green"];
+  BB75a9038cf -> BB75a903905 [color="red"];
+  BB75a903905 -> BB75a903908 [color="blue"];
+  BB75a903908 -> BB75a90391a [color="green"];
+  BB75a903908 -> BB75a90390e [color="red"];
+  BB75a90390e -> BB75a90391a [color="red"];
+  BB75a90391a -> BB75a90393a [color="green"];
+  BB75a90391a -> BB75a90391f [color="red"];
+  BB75a90391f -> BB75a9038ab [color="blue"];
+  BB75a90393a -> BB75a903945 [color="red"];
+}

@@ -1,0 +1,19 @@
+digraph check_offset {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa5de54 -> BB75aa5deb1 [color="green"];
+  BB75aa5de54 -> BB75aa5de8b [color="red"];
+  BB75aa5de8b -> BB75aa5deb1 [color="green"];
+  BB75aa5de8b -> BB75aa5de92 [color="red"];
+  BB75aa5de92 -> BB75aa5deb1 [color="red"];
+  BB75aa5deb1 -> BB75aa5dedd [color="green"];
+  BB75aa5deb1 -> BB75aa5debe [color="red"];
+  BB75aa5debe -> BB75aa5dedd [color="green"];
+  BB75aa5debe -> BB75aa5dec4 [color="red"];
+  BB75aa5dec4 -> BB75aa5dedd [color="blue"];
+  BB75aa5dedd -> BB75aa5df01 [color="green"];
+  BB75aa5dedd -> BB75aa5dee2 [color="red"];
+  BB75aa5dee2 -> BB75aa5df01 [color="green"];
+  BB75aa5dee2 -> BB75aa5dee9 [color="red"];
+  BB75aa5dee9 -> BB75aa5df01 [color="red"];
+}

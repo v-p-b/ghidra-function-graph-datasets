@@ -1,0 +1,15 @@
+digraph MpCatchupQuickScanReattemptLimit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8a03f0 -> BB75a8a040d [color="green"];
+  BB75a8a03f0 -> BB75a8a0400 [color="red"];
+  BB75a8a0400 -> BB75a8a040d [color="green"];
+  BB75a8a0400 -> BB75a8a0409 [color="red"];
+  BB75a8a0409 -> BB75a8a0440 [color="blue"];
+  BB75a8a040d -> BB75a8a043b [color="green"];
+  BB75a8a040d -> BB75a8a0420 [color="red"];
+  BB75a8a0420 -> BB75a8a043b [color="green"];
+  BB75a8a0420 -> BB75a8a0426 [color="red"];
+  BB75a8a0426 -> BB75a8a043b [color="red"];
+  BB75a8a043b -> BB75a8a0440 [color="blue"];
+}

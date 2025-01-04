@@ -1,0 +1,10 @@
+digraph SSE_microcode_wrap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a330804 -> BB75a330840 [color="green"];
+  BB75a330804 -> BB75a33081d [color="red"];
+  BB75a33081d -> BB75a330835 [color="green"];
+  BB75a33081d -> BB75a330826 [color="red"];
+  BB75a330826 -> BB75a330835 [color="red"];
+  BB75a330840 -> BB75a330835 [color="blue"];
+}

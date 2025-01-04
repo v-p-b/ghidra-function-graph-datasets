@@ -1,0 +1,13 @@
+digraph resume {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8fbef0 -> BB75a8fc20f [color="green"];
+  BB75a8fbef0 -> BB75a8fbf6c [color="red"];
+  BB75a8fbf6c -> BB75a8fc20f [color="green"];
+  BB75a8fbf6c -> BB75a8fbfa4 [color="red"];
+  BB75a8fbfa4 -> BB75a8fc123 [color="green"];
+  BB75a8fbfa4 -> BB75a8fbff3 [color="red"];
+  BB75a8fbff3 -> BB75a8fc19f [color="blue"];
+  BB75a8fc123 -> BB75a8fc19f [color="red"];
+  BB75a8fc19f -> BB75a8fc20f [color="red"];
+}

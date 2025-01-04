@@ -1,0 +1,30 @@
+digraph IntervalCheck {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a67ee28 -> BB75a67eeb4 [color="green"];
+  BB75a67ee28 -> BB75a67ee56 [color="red"];
+  BB75a67ee56 -> BB75a67ee95 [color="green"];
+  BB75a67ee56 -> BB75a67ee5a [color="red"];
+  BB75a67ee5a -> BB75a67ee95 [color="green"];
+  BB75a67ee5a -> BB75a67ee5e [color="red"];
+  BB75a67ee5e -> BB75a67eeaf [color="green"];
+  BB75a67ee5e -> BB75a67ee65 [color="red"];
+  BB75a67ee65 -> BB75a67eeaf [color="green"];
+  BB75a67ee65 -> BB75a67ee6c [color="red"];
+  BB75a67ee6c -> BB75a67ee9c [color="green"];
+  BB75a67ee6c -> BB75a67ee70 [color="red"];
+  BB75a67ee70 -> BB75a67ee7a [color="blue"];
+  BB75a67ee95 -> BB75a67ee7a [color="blue"];
+  BB75a67ee9c -> BB75a67ee70 [color="green"];
+  BB75a67ee9c -> BB75a67eea0 [color="red"];
+  BB75a67eea0 -> BB75a67eebb [color="green"];
+  BB75a67eea0 -> BB75a67eea4 [color="red"];
+  BB75a67eea4 -> BB75a67eebb [color="green"];
+  BB75a67eea4 -> BB75a67eeab [color="red"];
+  BB75a67eeab -> BB75a67ee7a [color="blue"];
+  BB75a67eeaf -> BB75a67ee7a [color="blue"];
+  BB75a67eeb4 -> BB75a67ee56 [color="blue"];
+  BB75a67eebb -> BB75a67eeaf [color="green"];
+  BB75a67eebb -> BB75a67eebf [color="red"];
+  BB75a67eebf -> BB75a67ee7a [color="blue"];
+}

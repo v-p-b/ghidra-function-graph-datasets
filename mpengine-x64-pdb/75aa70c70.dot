@@ -1,0 +1,27 @@
+digraph nvir_cure {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa70c70 -> BB75aa70cf4 [color="green"];
+  BB75aa70c70 -> BB75aa70cd3 [color="red"];
+  BB75aa70cd3 -> BB75aa70cd3 [color="green"];
+  BB75aa70cd3 -> BB75aa70cf4 [color="red"];
+  BB75aa70cf4 -> BB75aa70d97 [color="green"];
+  BB75aa70cf4 -> BB75aa70d01 [color="red"];
+  BB75aa70d01 -> BB75aa70d01 [color="green"];
+  BB75aa70d01 -> BB75aa70d97 [color="red"];
+  BB75aa70d97 -> BB75aa70dbd [color="green"];
+  BB75aa70d97 -> BB75aa70d9c [color="red"];
+  BB75aa70d9c -> BB75aa70d9c [color="green"];
+  BB75aa70d9c -> BB75aa70dbd [color="red"];
+  BB75aa70dbd -> BB75aa70e1e [color="green"];
+  BB75aa70dbd -> BB75aa70dcb [color="red"];
+  BB75aa70dcb -> BB75aa70e57 [color="green"];
+  BB75aa70dcb -> BB75aa70dd8 [color="red"];
+  BB75aa70dd8 -> BB75aa70e3b [color="green"];
+  BB75aa70dd8 -> BB75aa70deb [color="red"];
+  BB75aa70deb -> BB75aa70dd8 [color="green"];
+  BB75aa70deb -> BB75aa70e1e [color="red"];
+  BB75aa70e1e -> BB75aa70e20 [color="blue"];
+  BB75aa70e3b -> BB75aa70e57 [color="blue"];
+  BB75aa70e57 -> BB75aa70e20 [color="blue"];
+}

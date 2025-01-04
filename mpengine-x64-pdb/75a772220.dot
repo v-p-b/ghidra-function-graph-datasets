@@ -1,0 +1,30 @@
+digraph bsearch {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a772220 -> BB75a772269 [color="green"];
+  BB75a772220 -> BB75a772250 [color="red"];
+  BB75a772250 -> BB75a772269 [color="green"];
+  BB75a772250 -> BB75a772255 [color="red"];
+  BB75a772255 -> BB75a7722d6 [color="blue"];
+  BB75a772269 -> BB75a772255 [color="green"];
+  BB75a772269 -> BB75a77226e [color="red"];
+  BB75a77226e -> BB75a772255 [color="green"];
+  BB75a77226e -> BB75a772275 [color="red"];
+  BB75a772275 -> BB75a7722d0 [color="green"];
+  BB75a772275 -> BB75a772285 [color="red"];
+  BB75a772285 -> BB75a7722f5 [color="green"];
+  BB75a772285 -> BB75a77228d [color="red"];
+  BB75a77228d -> BB75a7722d3 [color="green"];
+  BB75a77228d -> BB75a7722ba [color="red"];
+  BB75a7722ba -> BB75a7722c4 [color="green"];
+  BB75a7722ba -> BB75a7722bc [color="red"];
+  BB75a7722bc -> BB75a7722cb [color="blue"];
+  BB75a7722c4 -> BB75a7722cb [color="blue"];
+  BB75a7722cb -> BB75a772285 [color="green"];
+  BB75a7722cb -> BB75a7722d0 [color="red"];
+  BB75a7722d0 -> BB75a7722d3 [color="blue"];
+  BB75a7722d3 -> BB75a7722d6 [color="blue"];
+  BB75a7722f5 -> BB75a7722d0 [color="green"];
+  BB75a7722f5 -> BB75a7722fa [color="red"];
+  BB75a7722fa -> BB75a7722d3 [color="blue"];
+}

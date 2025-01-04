@@ -1,0 +1,16 @@
+digraph VMCopy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a515958 -> BB75a515a14 [color="green"];
+  BB75a515958 -> BB75a515997 [color="red"];
+  BB75a515997 -> BB75a515a14 [color="green"];
+  BB75a515997 -> BB75a5159bf [color="red"];
+  BB75a5159bf -> BB75a5159f2 [color="green"];
+  BB75a5159bf -> BB75a5159de [color="red"];
+  BB75a5159de -> BB75a5159f2 [color="green"];
+  BB75a5159de -> BB75a5159e3 [color="red"];
+  BB75a5159e3 -> BB75a5159f4 [color="blue"];
+  BB75a5159f2 -> BB75a5159f4 [color="blue"];
+  BB75a5159f4 -> BB75a515a16 [color="blue"];
+  BB75a515a14 -> BB75a515a16 [color="blue"];
+}

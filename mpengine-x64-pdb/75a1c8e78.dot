@@ -1,0 +1,9 @@
+digraph branchExists {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1c8e78 -> BB75a1c8eba [color="green"];
+  BB75a1c8e78 -> BB75a1c8e9c [color="red"];
+  BB75a1c8e9c -> BB75a1c8eba [color="green"];
+  BB75a1c8e9c -> BB75a1c8eb7 [color="red"];
+  BB75a1c8eb7 -> BB75a1c8eba [color="blue"];
+}

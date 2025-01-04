@@ -1,0 +1,13 @@
+digraph RemoveIAT {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa1650c -> BB75aa165c5 [color="green"];
+  BB75aa1650c -> BB75aa165c0 [color="red"];
+  BB75aa165c0 -> BB75aa165c5 [color="red"];
+  BB75aa165c5 -> BB75aa165d2 [color="green"];
+  BB75aa165c5 -> BB75aa165ce [color="red"];
+  BB75aa165ce -> BB75aa165d2 [color="blue"];
+  BB75aa165d2 -> BB75aa165f0 [color="green"];
+  BB75aa165d2 -> BB75aa165eb [color="red"];
+  BB75aa165eb -> BB75aa165f0 [color="red"];
+}

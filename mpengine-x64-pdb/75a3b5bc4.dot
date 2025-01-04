@@ -1,0 +1,19 @@
+digraph is_min_client_supported_cpu {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3b5bc4 -> BB75a3b5c71 [color="green"];
+  BB75a3b5bc4 -> BB75a3b5c1b [color="red"];
+  BB75a3b5c1b -> BB75a3b5c71 [color="green"];
+  BB75a3b5c1b -> BB75a3b5c4b [color="red"];
+  BB75a3b5c4b -> BB75a3b5c71 [color="green"];
+  BB75a3b5c4b -> BB75a3b5c58 [color="red"];
+  BB75a3b5c58 -> BB75a3b5c71 [color="green"];
+  BB75a3b5c58 -> BB75a3b5c5e [color="red"];
+  BB75a3b5c5e -> BB75a3b5c71 [color="green"];
+  BB75a3b5c5e -> BB75a3b5c64 [color="red"];
+  BB75a3b5c64 -> BB75a3b5c71 [color="green"];
+  BB75a3b5c64 -> BB75a3b5c6a [color="red"];
+  BB75a3b5c6a -> BB75a3b5c71 [color="green"];
+  BB75a3b5c6a -> BB75a3b5c6f [color="red"];
+  BB75a3b5c6f -> BB75a3b5c71 [color="blue"];
+}

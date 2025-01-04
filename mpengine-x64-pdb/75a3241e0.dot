@@ -1,0 +1,35 @@
+digraph fixup_pointers {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3241e0 -> BB75a324295 [color="green"];
+  BB75a3241e0 -> BB75a3241e9 [color="red"];
+  BB75a3241e9 -> BB75a3241f9 [color="blue"];
+  BB75a3241f9 -> BB75a324278 [color="green"];
+  BB75a3241f9 -> BB75a324202 [color="red"];
+  BB75a324202 -> BB75a324260 [color="green"];
+  BB75a324202 -> BB75a324208 [color="red"];
+  BB75a324208 -> BB75a324251 [color="green"];
+  BB75a324208 -> BB75a32420e [color="red"];
+  BB75a32420e -> BB75a324251 [color="green"];
+  BB75a32420e -> BB75a324214 [color="red"];
+  BB75a324214 -> BB75a324251 [color="green"];
+  BB75a324214 -> BB75a32421a [color="red"];
+  BB75a32421a -> BB75a324251 [color="green"];
+  BB75a32421a -> BB75a324220 [color="red"];
+  BB75a324220 -> BB75a324251 [color="green"];
+  BB75a324220 -> BB75a324226 [color="red"];
+  BB75a324226 -> BB75a32427c [color="green"];
+  BB75a324226 -> BB75a32422c [color="red"];
+  BB75a32422c -> BB75a324247 [color="blue"];
+  BB75a324247 -> BB75a3241f9 [color="green"];
+  BB75a324247 -> BB75a32424f [color="red"];
+  BB75a32424f -> BB75a32428b [color="blue"];
+  BB75a324251 -> BB75a324260 [color="blue"];
+  BB75a324260 -> BB75a324278 [color="red"];
+  BB75a324278 -> BB75a32427c [color="blue"];
+  BB75a32427c -> BB75a324296 [color="green"];
+  BB75a32427c -> BB75a324288 [color="red"];
+  BB75a324288 -> BB75a32428b [color="blue"];
+  BB75a32428b -> BB75a324295 [color="blue"];
+  BB75a324296 -> BB75a324247 [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph IsMine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a636b10 -> BB75a636b2f [color="green"];
+  BB75a636b10 -> BB75a636b29 [color="red"];
+  BB75a636b2f -> BB75a636b29 [color="green"];
+  BB75a636b2f -> BB75a636b38 [color="red"];
+  BB75a636b38 -> BB75a636b77 [color="green"];
+  BB75a636b38 -> BB75a636b40 [color="red"];
+  BB75a636b40 -> BB75a636b77 [color="green"];
+  BB75a636b40 -> BB75a636b4a [color="red"];
+  BB75a636b4a -> BB75a636b77 [color="green"];
+  BB75a636b4a -> BB75a636b4e [color="red"];
+  BB75a636b4e -> BB75a636b29 [color="blue"];
+  BB75a636b77 -> BB75a636b29 [color="blue"];
+}

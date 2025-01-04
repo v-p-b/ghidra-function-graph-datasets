@@ -1,0 +1,13 @@
+digraph RunFirewallCleanup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab22570 -> BB75ab225c3 [color="green"];
+  BB75ab22570 -> BB75ab22582 [color="red"];
+  BB75ab22582 -> BB75ab225b3 [color="green"];
+  BB75ab22582 -> BB75ab22595 [color="red"];
+  BB75ab22595 -> BB75ab225b3 [color="green"];
+  BB75ab22595 -> BB75ab2259b [color="red"];
+  BB75ab2259b -> BB75ab225b3 [color="red"];
+  BB75ab225b3 -> BB75ab225d4 [color="blue"];
+  BB75ab225c3 -> BB75ab225d4 [color="blue"];
+}

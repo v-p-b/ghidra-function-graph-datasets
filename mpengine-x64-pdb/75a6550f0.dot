@@ -1,0 +1,18 @@
+digraph ReadOptionalBlob<std::optional<std::array<unsigned_char,20>_>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6550f0 -> BB75a65518c [color="green"];
+  BB75a6550f0 -> BB75a65511c [color="red"];
+  BB75a65511c -> BB75a65518c [color="green"];
+  BB75a65511c -> BB75a655136 [color="red"];
+  BB75a655136 -> BB75a655171 [color="green"];
+  BB75a655136 -> BB75a65513e [color="red"];
+  BB75a65513e -> BB75a65518c [color="green"];
+  BB75a65513e -> BB75a655151 [color="red"];
+  BB75a655151 -> BB75a65518c [color="green"];
+  BB75a655151 -> BB75a655157 [color="red"];
+  BB75a655157 -> BB75a65518c [color="blue"];
+  BB75a655171 -> BB75a65518c [color="green"];
+  BB75a655171 -> BB75a655188 [color="red"];
+  BB75a655188 -> BB75a65518c [color="blue"];
+}

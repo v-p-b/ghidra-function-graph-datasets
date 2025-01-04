@@ -1,0 +1,10 @@
+digraph CSE_Tell {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2fcdd4 -> BB75a2fce05 [color="green"];
+  BB75a2fcdd4 -> BB75a2fcde6 [color="red"];
+  BB75a2fcde6 -> BB75a2fce05 [color="green"];
+  BB75a2fcde6 -> BB75a2fcdfb [color="red"];
+  BB75a2fcdfb -> BB75a2fce00 [color="blue"];
+  BB75a2fce05 -> BB75a2fce00 [color="blue"];
+}

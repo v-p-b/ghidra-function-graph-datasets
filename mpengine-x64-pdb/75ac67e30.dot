@@ -1,0 +1,9 @@
+digraph CanDeleteContainer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac67e30 -> BB75ac67e45 [color="green"];
+  BB75ac67e30 -> BB75ac67e3b [color="red"];
+  BB75ac67e3b -> BB75ac67e47 [color="green"];
+  BB75ac67e3b -> BB75ac67e45 [color="red"];
+  BB75ac67e45 -> BB75ac67e47 [color="blue"];
+}

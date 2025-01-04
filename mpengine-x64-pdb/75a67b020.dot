@@ -1,0 +1,11 @@
+digraph WPP_SF_SdL {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a67b020 -> BB75a67b09c [color="green"];
+  BB75a67b020 -> BB75a67b02c [color="red"];
+  BB75a67b02c -> BB75a67b030 [color="blue"];
+  BB75a67b030 -> BB75a67b030 [color="green"];
+  BB75a67b030 -> BB75a67b03a [color="red"];
+  BB75a67b03a -> BB75a67b042 [color="blue"];
+  BB75a67b09c -> BB75a67b042 [color="blue"];
+}

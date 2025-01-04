@@ -1,0 +1,28 @@
+digraph AcquireInstance {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a56724c -> BB75a567296 [color="green"];
+  BB75a56724c -> BB75a56728c [color="red"];
+  BB75a56728c -> BB75a567331 [color="blue"];
+  BB75a567296 -> BB75a5672b0 [color="green"];
+  BB75a567296 -> BB75a56729b [color="red"];
+  BB75a56729b -> BB75a567331 [color="green"];
+  BB75a56729b -> BB75a5672b0 [color="red"];
+  BB75a5672b0 -> BB75a567313 [color="green"];
+  BB75a5672b0 -> BB75a5672dc [color="red"];
+  BB75a5672dc -> BB75a5672f3 [color="green"];
+  BB75a5672dc -> BB75a5672e0 [color="red"];
+  BB75a5672e0 -> BB75a5672ef [color="green"];
+  BB75a5672e0 -> BB75a5672e5 [color="red"];
+  BB75a5672e5 -> BB75a5672ef [color="red"];
+  BB75a5672ef -> BB75a56733c [color="blue"];
+  BB75a5672f3 -> BB75a567313 [color="green"];
+  BB75a5672f3 -> BB75a5672fd [color="red"];
+  BB75a5672fd -> BB75a567317 [color="blue"];
+  BB75a567313 -> BB75a567317 [color="blue"];
+  BB75a567317 -> BB75a56732f [color="green"];
+  BB75a567317 -> BB75a567325 [color="red"];
+  BB75a567325 -> BB75a567331 [color="blue"];
+  BB75a56732f -> BB75a567331 [color="blue"];
+  BB75a567331 -> BB75a56733c [color="red"];
+}

@@ -1,0 +1,15 @@
+digraph LRPredictBoolByName<double> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa9ce18 -> BB75aa9ce75 [color="green"];
+  BB75aa9ce18 -> BB75aa9ce40 [color="red"];
+  BB75aa9ce40 -> BB75aa9ce42 [color="blue"];
+  BB75aa9ce42 -> BB75aa9ce58 [color="green"];
+  BB75aa9ce42 -> BB75aa9ce54 [color="red"];
+  BB75aa9ce54 -> BB75aa9ce58 [color="blue"];
+  BB75aa9ce58 -> BB75aa9ce5c [color="blue"];
+  BB75aa9ce5c -> BB75aa9ce5c [color="green"];
+  BB75aa9ce5c -> BB75aa9ce65 [color="red"];
+  BB75aa9ce65 -> BB75aa9ce42 [color="green"];
+  BB75aa9ce65 -> BB75aa9ce75 [color="red"];
+}

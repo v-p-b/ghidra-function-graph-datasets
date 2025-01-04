@@ -1,0 +1,15 @@
+digraph AddAdminExclusion {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7d18fc -> BB75a7d1928 [color="green"];
+  BB75a7d18fc -> BB75a7d1923 [color="red"];
+  BB75a7d1923 -> BB75a7d1928 [color="red"];
+  BB75a7d1928 -> BB75a7d1991 [color="green"];
+  BB75a7d1928 -> BB75a7d192d [color="red"];
+  BB75a7d192d -> BB75a7d197e [color="green"];
+  BB75a7d192d -> BB75a7d1944 [color="red"];
+  BB75a7d1944 -> BB75a7d197e [color="blue"];
+  BB75a7d197e -> BB75a7d1991 [color="green"];
+  BB75a7d197e -> BB75a7d198e [color="red"];
+  BB75a7d198e -> BB75a7d1991 [color="blue"];
+}

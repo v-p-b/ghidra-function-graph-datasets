@@ -1,0 +1,31 @@
+digraph FindWin64KernelModule {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4871ac -> BB75a4872d9 [color="green"];
+  BB75a4871ac -> BB75a4871c8 [color="red"];
+  BB75a4871c8 -> BB75a4871ea [color="green"];
+  BB75a4871c8 -> BB75a4871dc [color="red"];
+  BB75a4871dc -> BB75a4872d9 [color="blue"];
+  BB75a4871ea -> BB75a487200 [color="blue"];
+  BB75a487200 -> BB75a48721c [color="green"];
+  BB75a487200 -> BB75a487215 [color="red"];
+  BB75a487215 -> BB75a4872d9 [color="blue"];
+  BB75a48721c -> BB75a48723a [color="green"];
+  BB75a48721c -> BB75a487236 [color="red"];
+  BB75a487236 -> BB75a48723a [color="blue"];
+  BB75a48723a -> BB75a487248 [color="green"];
+  BB75a48723a -> BB75a487244 [color="red"];
+  BB75a487244 -> BB75a487248 [color="blue"];
+  BB75a487248 -> BB75a4872c3 [color="green"];
+  BB75a487248 -> BB75a487270 [color="red"];
+  BB75a487270 -> BB75a4872b0 [color="green"];
+  BB75a487270 -> BB75a487295 [color="red"];
+  BB75a487295 -> BB75a4872b0 [color="green"];
+  BB75a487295 -> BB75a48729b [color="red"];
+  BB75a48729b -> BB75a4872b0 [color="red"];
+  BB75a4872b0 -> BB75a4872d9 [color="blue"];
+  BB75a4872c3 -> BB75a4872e1 [color="green"];
+  BB75a4872c3 -> BB75a4872cd [color="red"];
+  BB75a4872cd -> BB75a4872d9 [color="red"];
+  BB75a4872e1 -> BB75a487200 [color="blue"];
+}

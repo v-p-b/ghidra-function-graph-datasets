@@ -1,0 +1,20 @@
+digraph WriteSQLite {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a27b050 -> BB75a27b07a [color="green"];
+  BB75a27b050 -> BB75a27b070 [color="red"];
+  BB75a27b070 -> BB75a27b125 [color="green"];
+  BB75a27b070 -> BB75a27b07a [color="red"];
+  BB75a27b07a -> BB75a27b09e [color="green"];
+  BB75a27b07a -> BB75a27b084 [color="red"];
+  BB75a27b084 -> BB75a27b146 [color="green"];
+  BB75a27b084 -> BB75a27b09e [color="red"];
+  BB75a27b09e -> BB75a27b11a [color="red"];
+  BB75a27b125 -> BB75a27b07a [color="blue"];
+  BB75a27b146 -> BB75a27b166 [color="green"];
+  BB75a27b146 -> BB75a27b14b [color="red"];
+  BB75a27b14b -> BB75a27b166 [color="green"];
+  BB75a27b14b -> BB75a27b151 [color="red"];
+  BB75a27b151 -> BB75a27b166 [color="red"];
+  BB75a27b166 -> BB75a27b11a [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph MakeStringHandleNull<wchar_t_const*___ptr64_const> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1e2068 -> BB75a1e2126 [color="green"];
+  BB75a1e2068 -> BB75a1e20a3 [color="red"];
+  BB75a1e20a3 -> BB75a1e20b1 [color="red"];
+  BB75a1e20b1 -> BB75a1e20f2 [color="green"];
+  BB75a1e20b1 -> BB75a1e20e4 [color="red"];
+  BB75a1e20e4 -> BB75a1e20f2 [color="red"];
+  BB75a1e20f2 -> BB75a1e2101 [color="green"];
+  BB75a1e20f2 -> BB75a1e20f7 [color="red"];
+  BB75a1e20f7 -> BB75a1e2101 [color="red"];
+  BB75a1e2126 -> BB75a1e20b1 [color="blue"];
+}

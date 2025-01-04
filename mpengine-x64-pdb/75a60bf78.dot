@@ -1,0 +1,18 @@
+digraph tdt_get_proc_address {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a60bf78 -> BB75a60bf8f [color="red"];
+  BB75a60bf8f -> BB75a60bf9e [color="green"];
+  BB75a60bf8f -> BB75a60bf94 [color="red"];
+  BB75a60bf94 -> BB75a60bf9e [color="green"];
+  BB75a60bf94 -> BB75a60bf98 [color="red"];
+  BB75a60bf98 -> BB75a60bf8f [color="blue"];
+  BB75a60bf9e -> BB75a60bfce [color="green"];
+  BB75a60bf9e -> BB75a60bfa3 [color="red"];
+  BB75a60bfa3 -> BB75a60bfce [color="green"];
+  BB75a60bfa3 -> BB75a60bfb2 [color="red"];
+  BB75a60bfb2 -> BB75a60bfbc [color="green"];
+  BB75a60bfb2 -> BB75a60bfb9 [color="red"];
+  BB75a60bfb9 -> BB75a60bfbc [color="blue"];
+  BB75a60bfbc -> BB75ae20a18 [color="blue"];
+}

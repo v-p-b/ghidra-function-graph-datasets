@@ -1,0 +1,18 @@
+digraph is_hooked_interrupt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5ae6ac -> BB75a5ae75c [color="green"];
+  BB75a5ae6ac -> BB75a5ae6d9 [color="red"];
+  BB75a5ae6d9 -> BB75a5ae75c [color="green"];
+  BB75a5ae6d9 -> BB75a5ae6ef [color="red"];
+  BB75a5ae6ef -> BB75a5ae74d [color="green"];
+  BB75a5ae6ef -> BB75a5ae721 [color="red"];
+  BB75a5ae721 -> BB75a5ae748 [color="green"];
+  BB75a5ae721 -> BB75a5ae740 [color="red"];
+  BB75a5ae740 -> BB75a5ae748 [color="blue"];
+  BB75a5ae748 -> BB75a5ae74f [color="green"];
+  BB75a5ae748 -> BB75a5ae74d [color="red"];
+  BB75a5ae74d -> BB75a5ae74f [color="blue"];
+  BB75a5ae74f -> BB75a5ae751 [color="blue"];
+  BB75a5ae75c -> BB75a5ae751 [color="blue"];
+}

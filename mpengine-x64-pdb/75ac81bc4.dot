@@ -1,0 +1,19 @@
+digraph FixHomepageNonHardened {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac81bc4 -> BB75ac81c55 [color="green"];
+  BB75ac81bc4 -> BB75ac81c11 [color="red"];
+  BB75ac81c11 -> BB75ac81c48 [color="green"];
+  BB75ac81c11 -> BB75ac81c35 [color="red"];
+  BB75ac81c35 -> BB75ac81c48 [color="green"];
+  BB75ac81c35 -> BB75ac81c3b [color="red"];
+  BB75ac81c3b -> BB75ac81c48 [color="red"];
+  BB75ac81c48 -> BB75ac81c55 [color="green"];
+  BB75ac81c48 -> BB75ac81c4d [color="red"];
+  BB75ac81c4d -> BB75ac81c55 [color="red"];
+  BB75ac81c55 -> BB75ac81d08 [color="green"];
+  BB75ac81c55 -> BB75ac81c84 [color="red"];
+  BB75ac81c84 -> BB75ac81d08 [color="green"];
+  BB75ac81c84 -> BB75ac81cd2 [color="red"];
+  BB75ac81cd2 -> BB75ac81d08 [color="red"];
+}

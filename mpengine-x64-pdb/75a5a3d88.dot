@@ -1,0 +1,19 @@
+digraph recycleCompletedWorkUnit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5a3d88 -> BB75a5a3dc7 [color="green"];
+  BB75a5a3d88 -> BB75a5a3db9 [color="red"];
+  BB75a5a3db9 -> BB75a5a3e6a [color="blue"];
+  BB75a5a3dc7 -> BB75a5a3e29 [color="green"];
+  BB75a5a3dc7 -> BB75a5a3e0c [color="red"];
+  BB75a5a3e0c -> BB75a5a3e29 [color="green"];
+  BB75a5a3e0c -> BB75a5a3e11 [color="red"];
+  BB75a5a3e11 -> BB75a5a3e29 [color="red"];
+  BB75a5a3e29 -> BB75a5a3e52 [color="green"];
+  BB75a5a3e29 -> BB75a5a3e3d [color="red"];
+  BB75a5a3e3d -> BB75a5a3e52 [color="red"];
+  BB75a5a3e52 -> BB75a5a3e60 [color="green"];
+  BB75a5a3e52 -> BB75a5a3e5b [color="red"];
+  BB75a5a3e5b -> BB75a5a3e60 [color="red"];
+  BB75a5a3e60 -> BB75a5a3e6a [color="red"];
+}

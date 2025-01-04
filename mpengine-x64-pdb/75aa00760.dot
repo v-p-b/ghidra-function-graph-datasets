@@ -1,0 +1,8 @@
+digraph do_widen {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa00760 -> BB75aa0079e [color="green"];
+  BB75aa00760 -> BB75aa00785 [color="red"];
+  BB75aa00785 -> BB75aa00785 [color="green"];
+  BB75aa00785 -> BB75aa0079e [color="red"];
+}

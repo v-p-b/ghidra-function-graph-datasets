@@ -1,0 +1,14 @@
+digraph match_combining {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7cef50 -> BB75a7cef7f [color="green"];
+  BB75a7cef50 -> BB75a7cef63 [color="red"];
+  BB75a7cef63 -> BB75a7cefa3 [color="green"];
+  BB75a7cef63 -> BB75a7cef7f [color="red"];
+  BB75a7cef7f -> BB75a7cef81 [color="blue"];
+  BB75a7cef87 -> BB75a7cefb2 [color="green"];
+  BB75a7cef87 -> BB75a7cefa3 [color="red"];
+  BB75a7cefa3 -> BB75a7cef87 [color="green"];
+  BB75a7cefa3 -> BB75a7cefb2 [color="red"];
+  BB75a7cefb2 -> BB75a7cef81 [color="blue"];
+}

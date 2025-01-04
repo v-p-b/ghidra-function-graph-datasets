@@ -1,0 +1,18 @@
+digraph CheckImportsSize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a24b52c -> BB75a24b55a [color="green"];
+  BB75a24b52c -> BB75a24b54c [color="red"];
+  BB75a24b54c -> BB75a24b58a [color="green"];
+  BB75a24b54c -> BB75a24b555 [color="red"];
+  BB75a24b55a -> BB75a24b5bb [color="green"];
+  BB75a24b55a -> BB75a24b56d [color="red"];
+  BB75a24b56d -> BB75a24b5bb [color="green"];
+  BB75a24b56d -> BB75a24b573 [color="red"];
+  BB75a24b573 -> BB75a24b5bb [color="blue"];
+  BB75a24b58a -> BB75a24b5bb [color="green"];
+  BB75a24b58a -> BB75a24b59d [color="red"];
+  BB75a24b59d -> BB75a24b5bb [color="green"];
+  BB75a24b59d -> BB75a24b5a3 [color="red"];
+  BB75a24b5a3 -> BB75a24b5bb [color="red"];
+}

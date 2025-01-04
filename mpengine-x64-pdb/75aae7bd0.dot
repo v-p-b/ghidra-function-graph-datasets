@@ -1,0 +1,10 @@
+digraph logskip_cleanup_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aae7bd0 -> BB75aae7be5 [color="green"];
+  BB75aae7bd0 -> BB75aae7be0 [color="red"];
+  BB75aae7be0 -> BB75aae7be5 [color="red"];
+  BB75aae7be5 -> BB75aae7bfe [color="green"];
+  BB75aae7be5 -> BB75aae7bf9 [color="red"];
+  BB75aae7bf9 -> BB75aae7bfe [color="red"];
+}

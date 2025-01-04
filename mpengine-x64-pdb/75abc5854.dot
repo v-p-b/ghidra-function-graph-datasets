@@ -1,0 +1,23 @@
+digraph param_2_stack {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abc5854 -> BB75abc58a1 [color="green"];
+  BB75abc5854 -> BB75abc589c [color="red"];
+  BB75abc589c -> BB75abc58a1 [color="red"];
+  BB75abc58a1 -> BB75abc58e8 [color="green"];
+  BB75abc58a1 -> BB75abc58df [color="red"];
+  BB75abc58df -> BB75abc58e8 [color="blue"];
+  BB75abc58e8 -> BB75abc58f5 [color="green"];
+  BB75abc58e8 -> BB75abc58f0 [color="red"];
+  BB75abc58f0 -> BB75abc58f5 [color="red"];
+  BB75abc58f5 -> BB75abc5945 [color="green"];
+  BB75abc58f5 -> BB75abc5927 [color="red"];
+  BB75abc5927 -> BB75abc597c [color="blue"];
+  BB75abc5945 -> BB75abc596c [color="green"];
+  BB75abc5945 -> BB75abc5957 [color="red"];
+  BB75abc5957 -> BB75abc597c [color="blue"];
+  BB75abc596c -> BB75abc597c [color="blue"];
+  BB75abc597c -> BB75abc598c [color="green"];
+  BB75abc597c -> BB75abc5981 [color="red"];
+  BB75abc5981 -> BB75abc598c [color="blue"];
+}

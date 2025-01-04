@@ -1,0 +1,16 @@
+digraph FpForceExpireSignatures {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aade9ac -> BB75aadea76 [color="green"];
+  BB75aade9ac -> BB75aade9be [color="red"];
+  BB75aade9be -> BB75aadea76 [color="green"];
+  BB75aade9be -> BB75aade9f2 [color="red"];
+  BB75aade9f2 -> BB75aade9f9 [color="blue"];
+  BB75aade9f9 -> BB75aadea5e [color="green"];
+  BB75aade9f9 -> BB75aadea1d [color="red"];
+  BB75aadea1d -> BB75aadea5e [color="green"];
+  BB75aadea1d -> BB75aadea24 [color="red"];
+  BB75aadea24 -> BB75aadea5e [color="red"];
+  BB75aadea5e -> BB75aade9f9 [color="green"];
+  BB75aadea5e -> BB75aadea76 [color="red"];
+}

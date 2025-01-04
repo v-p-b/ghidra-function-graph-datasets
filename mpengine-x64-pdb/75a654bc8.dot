@@ -1,0 +1,13 @@
+digraph ReadOptionalUInt<std::optional<unsigned_long>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a654bc8 -> BB75a654c30 [color="green"];
+  BB75a654bc8 -> BB75a654be4 [color="red"];
+  BB75a654be4 -> BB75a654c30 [color="green"];
+  BB75a654be4 -> BB75a654beb [color="red"];
+  BB75a654beb -> BB75a654c2a [color="green"];
+  BB75a654beb -> BB75a654c05 [color="red"];
+  BB75a654c05 -> BB75a654c1a [color="blue"];
+  BB75a654c2a -> BB75a654c1a [color="blue"];
+  BB75a654c30 -> BB75a654beb [color="blue"];
+}

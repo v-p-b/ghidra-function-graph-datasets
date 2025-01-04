@@ -1,0 +1,15 @@
+digraph ws<char,struct_std::char_traits<char>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2f1d9c -> BB75a2f1e62 [color="green"];
+  BB75a2f1d9c -> BB75a2f1dd0 [color="red"];
+  BB75a2f1dd0 -> BB75a2f1e14 [color="red"];
+  BB75a2f1e14 -> BB75a2f1e22 [color="green"];
+  BB75a2f1e14 -> BB75a2f1e19 [color="red"];
+  BB75a2f1e19 -> BB75a2f1e2f [color="blue"];
+  BB75a2f1e22 -> BB75a2f1e31 [color="green"];
+  BB75a2f1e22 -> BB75a2f1e2f [color="red"];
+  BB75a2f1e2f -> BB75a2f1e4d [color="blue"];
+  BB75a2f1e31 -> BB75a2f1e14 [color="blue"];
+  BB75a2f1e4d -> BB75a2f1e62 [color="red"];
+}

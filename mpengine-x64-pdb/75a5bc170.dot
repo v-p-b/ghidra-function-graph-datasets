@@ -1,0 +1,8 @@
+digraph TestIsVmProcessProtectionTarget {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5bc170 -> BB75a5bc1ef [color="green"];
+  BB75a5bc170 -> BB75a5bc1ad [color="red"];
+  BB75a5bc1ad -> BB75a5bc1da [color="red"];
+  BB75a5bc1ef -> BB75a5bc1da [color="blue"];
+}

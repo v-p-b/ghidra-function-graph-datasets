@@ -1,0 +1,19 @@
+digraph stream_is_at_end_of_file_nolock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7ab394 -> BB75a7ab3aa [color="green"];
+  BB75a7ab394 -> BB75a7ab3a6 [color="red"];
+  BB75a7ab3a6 -> BB75a7ab416 [color="blue"];
+  BB75a7ab3aa -> BB75a7ab3bb [color="green"];
+  BB75a7ab3aa -> BB75a7ab3b2 [color="red"];
+  BB75a7ab3b2 -> BB75a7ab414 [color="green"];
+  BB75a7ab3b2 -> BB75a7ab3bb [color="red"];
+  BB75a7ab3bb -> BB75a7ab414 [color="green"];
+  BB75a7ab3bb -> BB75a7ab3cd [color="red"];
+  BB75a7ab3cd -> BB75a7ab414 [color="green"];
+  BB75a7ab3cd -> BB75a7ab3ed [color="red"];
+  BB75a7ab3ed -> BB75a7ab414 [color="green"];
+  BB75a7ab3ed -> BB75a7ab405 [color="red"];
+  BB75a7ab405 -> BB75a7ab416 [color="blue"];
+  BB75a7ab414 -> BB75a7ab416 [color="blue"];
+}

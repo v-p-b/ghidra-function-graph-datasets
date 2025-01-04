@@ -1,0 +1,17 @@
+digraph __scrt_initialize_thread_safe_statics {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7b1c80 -> BB75a7b1cc6 [color="green"];
+  BB75a7b1c80 -> BB75a7b1cb1 [color="red"];
+  BB75a7b1cb1 -> BB75a7b1d45 [color="green"];
+  BB75a7b1cb1 -> BB75a7b1cc6 [color="red"];
+  BB75a7b1cc6 -> BB75a7b1d03 [color="green"];
+  BB75a7b1cc6 -> BB75a7b1cee [color="red"];
+  BB75a7b1cee -> BB75a7b1d03 [color="green"];
+  BB75a7b1cee -> BB75a7b1cf3 [color="red"];
+  BB75a7b1cf3 -> BB75a7b1d21 [color="blue"];
+  BB75a7b1d03 -> BB75a7b1d45 [color="green"];
+  BB75a7b1d03 -> BB75a7b1d21 [color="red"];
+  BB75a7b1d21 -> BB75a7b1d45 [color="green"];
+  BB75a7b1d21 -> BB75a7b1d2c [color="red"];
+}

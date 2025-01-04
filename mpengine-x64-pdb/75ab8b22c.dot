@@ -1,0 +1,16 @@
+digraph isAllowedThreatId {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab8b22c -> BB75ab8b254 [color="green"];
+  BB75ab8b22c -> BB75ab8b24f [color="red"];
+  BB75ab8b24f -> BB75ab8b259 [color="green"];
+  BB75ab8b24f -> BB75ab8b254 [color="red"];
+  BB75ab8b254 -> BB75ab8b259 [color="red"];
+  BB75ab8b259 -> BB75ab8b26c [color="green"];
+  BB75ab8b259 -> BB75ab8b25d [color="red"];
+  BB75ab8b25d -> BB75ab8b268 [color="green"];
+  BB75ab8b25d -> BB75ab8b264 [color="red"];
+  BB75ab8b264 -> BB75ab8b259 [color="blue"];
+  BB75ab8b268 -> BB75ab8b26e [color="blue"];
+  BB75ab8b26c -> BB75ab8b26e [color="blue"];
+}

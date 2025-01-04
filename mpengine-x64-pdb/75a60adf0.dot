@@ -1,0 +1,31 @@
+digraph macbin_ismine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a60adf0 -> BB75a60ae09 [color="green"];
+  BB75a60adf0 -> BB75a60adfd [color="red"];
+  BB75a60adfd -> BB75a60ae0c [color="green"];
+  BB75a60adfd -> BB75a60ae09 [color="red"];
+  BB75a60ae0c -> BB75a60ae09 [color="green"];
+  BB75a60ae0c -> BB75a60ae12 [color="red"];
+  BB75a60ae12 -> BB75a60ae09 [color="green"];
+  BB75a60ae12 -> BB75a60ae18 [color="red"];
+  BB75a60ae18 -> BB75a60ae09 [color="green"];
+  BB75a60ae18 -> BB75a60ae21 [color="red"];
+  BB75a60ae21 -> BB75a60ae29 [color="blue"];
+  BB75a60ae29 -> BB75a60ae3d [color="green"];
+  BB75a60ae29 -> BB75a60ae2e [color="red"];
+  BB75a60ae2e -> BB75a60ae09 [color="green"];
+  BB75a60ae2e -> BB75a60ae38 [color="red"];
+  BB75a60ae38 -> BB75a60ae29 [color="blue"];
+  BB75a60ae3d -> BB75a60ae95 [color="green"];
+  BB75a60ae3d -> BB75a60ae8a [color="red"];
+  BB75a60ae8a -> BB75a60ae09 [color="green"];
+  BB75a60ae8a -> BB75a60ae93 [color="red"];
+  BB75a60ae93 -> BB75a60ae9d [color="blue"];
+  BB75a60ae95 -> BB75a60ae09 [color="green"];
+  BB75a60ae95 -> BB75a60ae9d [color="red"];
+  BB75a60ae9d -> BB75a60ae09 [color="green"];
+  BB75a60ae9d -> BB75a60aea6 [color="red"];
+  BB75a60aea6 -> BB75a60ae09 [color="green"];
+  BB75a60aea6 -> BB75a60aeaf [color="red"];
+}

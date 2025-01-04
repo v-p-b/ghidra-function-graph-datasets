@@ -1,0 +1,23 @@
+digraph GetPifShortcutComponents {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a228354 -> BB75a2283ec [color="green"];
+  BB75a228354 -> BB75a228382 [color="red"];
+  BB75a228382 -> BB75a2283ec [color="green"];
+  BB75a228382 -> BB75a22838e [color="red"];
+  BB75a22838e -> BB75a2283ac [color="green"];
+  BB75a22838e -> BB75a2283a5 [color="red"];
+  BB75a2283a5 -> BB75a2283f1 [color="blue"];
+  BB75a2283ac -> BB75a2283a5 [color="green"];
+  BB75a2283ac -> BB75a2283cc [color="red"];
+  BB75a2283cc -> BB75a228406 [color="green"];
+  BB75a2283cc -> BB75a2283e7 [color="red"];
+  BB75a2283e7 -> BB75a22840a [color="green"];
+  BB75a2283e7 -> BB75a2283ec [color="red"];
+  BB75a2283ec -> BB75a2283f1 [color="blue"];
+  BB75a228406 -> BB75a2283f1 [color="blue"];
+  BB75a22840a -> BB75a228414 [color="green"];
+  BB75a22840a -> BB75a22840f [color="red"];
+  BB75a22840f -> BB75a2283f1 [color="blue"];
+  BB75a228414 -> BB75a2283f1 [color="blue"];
+}

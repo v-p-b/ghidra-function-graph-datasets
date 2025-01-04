@@ -1,0 +1,11 @@
+digraph do_tolower {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acf03f0 -> BB75acf044f [color="green"];
+  BB75acf03f0 -> BB75acf040d [color="red"];
+  BB75acf040d -> BB75acf0446 [color="green"];
+  BB75acf040d -> BB75acf0426 [color="red"];
+  BB75acf0426 -> BB75acf0446 [color="red"];
+  BB75acf0446 -> BB75acf040d [color="green"];
+  BB75acf0446 -> BB75acf044f [color="red"];
+}

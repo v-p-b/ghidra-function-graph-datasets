@@ -1,0 +1,17 @@
+digraph RetrieveTrustAnchors {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8a1104 -> BB75a8a1115 [color="green"];
+  BB75a8a1104 -> BB75a8a110f [color="red"];
+  BB75a8a1115 -> BB75a8a1160 [color="green"];
+  BB75a8a1115 -> BB75a8a1128 [color="red"];
+  BB75a8a1128 -> BB75a8a114f [color="green"];
+  BB75a8a1128 -> BB75a8a1130 [color="red"];
+  BB75a8a1130 -> BB75a8a1133 [color="blue"];
+  BB75a8a1133 -> BB75a8a114a [color="green"];
+  BB75a8a1133 -> BB75a8a1141 [color="red"];
+  BB75a8a1141 -> BB75a8a1133 [color="green"];
+  BB75a8a1141 -> BB75a8a114a [color="red"];
+  BB75a8a114a -> BB75a8a1160 [color="green"];
+  BB75a8a114a -> BB75a8a114f [color="red"];
+}

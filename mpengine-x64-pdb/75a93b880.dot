@@ -1,0 +1,10 @@
+digraph notify_event {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a93b880 -> BB75a93b8e3 [color="green"];
+  BB75a93b880 -> BB75a93b8c7 [color="red"];
+  BB75a93b8c7 -> BB75a93b8f5 [color="green"];
+  BB75a93b8c7 -> BB75a93b8d0 [color="red"];
+  BB75a93b8d0 -> BB75a93b8f5 [color="blue"];
+  BB75a93b8e3 -> BB75a93b8f5 [color="red"];
+}

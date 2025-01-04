@@ -1,0 +1,9 @@
+digraph AcquireExclusive {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a43e7dc -> BB75a43e81a [color="green"];
+  BB75a43e7dc -> BB75a43e80a [color="red"];
+  BB75a43e81a -> BB75a43e81a [color="green"];
+  BB75a43e81a -> BB75a43e82a [color="red"];
+  BB75a43e82a -> BB75a43e80a [color="blue"];
+}

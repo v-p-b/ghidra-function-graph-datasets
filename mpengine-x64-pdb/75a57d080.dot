@@ -1,0 +1,15 @@
+digraph whereIndexExprTrans {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a57d080 -> BB75a57d0d6 [color="green"];
+  BB75a57d080 -> BB75a57d0b8 [color="red"];
+  BB75a57d0d6 -> BB75a57d0b8 [color="green"];
+  BB75a57d0d6 -> BB75a57d104 [color="red"];
+  BB75a57d104 -> BB75a57d10b [color="blue"];
+  BB75a57d10b -> BB75a57d147 [color="green"];
+  BB75a57d10b -> BB75a57d116 [color="red"];
+  BB75a57d116 -> BB75a57d147 [color="red"];
+  BB75a57d147 -> BB75a57d10b [color="green"];
+  BB75a57d147 -> BB75a57d155 [color="red"];
+  BB75a57d155 -> BB75a57d0b8 [color="blue"];
+}

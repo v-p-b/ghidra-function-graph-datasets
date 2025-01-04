@@ -1,0 +1,11 @@
+digraph CheckSameTypePointer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2d924c -> BB75a2d9265 [color="green"];
+  BB75a2d924c -> BB75a2d9260 [color="red"];
+  BB75a2d9265 -> BB75a2d92be [color="green"];
+  BB75a2d9265 -> BB75a2d9278 [color="red"];
+  BB75a2d9278 -> BB75a2d92be [color="green"];
+  BB75a2d9278 -> BB75a2d927e [color="red"];
+  BB75a2d927e -> BB75a2d92be [color="red"];
+}

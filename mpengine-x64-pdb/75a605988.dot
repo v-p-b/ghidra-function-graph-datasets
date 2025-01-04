@@ -1,0 +1,25 @@
+digraph Attach {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a605988 -> BB75a605a97 [color="green"];
+  BB75a605988 -> BB75a605a16 [color="red"];
+  BB75a605a16 -> BB75a605a97 [color="green"];
+  BB75a605a16 -> BB75a605a27 [color="red"];
+  BB75a605a27 -> BB75a605a33 [color="blue"];
+  BB75a605a33 -> BB75a605a97 [color="green"];
+  BB75a605a33 -> BB75a605a37 [color="red"];
+  BB75a605a37 -> BB75a605a44 [color="green"];
+  BB75a605a37 -> BB75a605a40 [color="red"];
+  BB75a605a40 -> BB75a605a33 [color="blue"];
+  BB75a605a44 -> BB75a605a40 [color="green"];
+  BB75a605a44 -> BB75a605a4d [color="red"];
+  BB75a605a4d -> BB75a605a40 [color="green"];
+  BB75a605a4d -> BB75a605a56 [color="red"];
+  BB75a605a56 -> BB75a605a40 [color="green"];
+  BB75a605a56 -> BB75a605a5f [color="red"];
+  BB75a605a5f -> BB75a605a8e [color="green"];
+  BB75a605a5f -> BB75a605a6e [color="red"];
+  BB75a605a6e -> BB75a605a7a [color="red"];
+  BB75a605a8e -> BB75a605a40 [color="blue"];
+  BB75a605a97 -> BB75a605a7a [color="blue"];
+}

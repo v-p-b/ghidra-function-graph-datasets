@@ -1,0 +1,12 @@
+digraph eIL_emu_intnn {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abbbc6c -> BB75abbbce6 [color="green"];
+  BB75abbbc6c -> BB75abbbcb3 [color="red"];
+  BB75abbbcb3 -> BB75abbbcdf [color="green"];
+  BB75abbbcb3 -> BB75abbbccb [color="red"];
+  BB75abbbccb -> BB75abbbcdf [color="green"];
+  BB75abbbccb -> BB75abbbcd8 [color="red"];
+  BB75abbbcd8 -> BB75abbbcdf [color="blue"];
+  BB75abbbcdf -> BB75abbbce6 [color="blue"];
+}

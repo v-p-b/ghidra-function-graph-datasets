@@ -1,0 +1,15 @@
+digraph ComparePluginPriorities {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6540f0 -> BB75a65411c [color="green"];
+  BB75a6540f0 -> BB75a654108 [color="red"];
+  BB75a654108 -> BB75a654112 [color="green"];
+  BB75a654108 -> BB75a65410a [color="red"];
+  BB75a65410a -> BB75a65411a [color="green"];
+  BB75a65410a -> BB75a654112 [color="red"];
+  BB75a654112 -> BB75a654115 [color="blue"];
+  BB75a65411a -> BB75a654123 [color="green"];
+  BB75a65411a -> BB75a65411c [color="red"];
+  BB75a65411c -> BB75a654115 [color="blue"];
+  BB75a654123 -> BB75a65411c [color="blue"];
+}

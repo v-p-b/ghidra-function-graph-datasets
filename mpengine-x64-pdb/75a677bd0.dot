@@ -1,0 +1,13 @@
+digraph ServerScanStream {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a677bd0 -> BB75a677caf [color="green"];
+  BB75a677bd0 -> BB75a677c15 [color="red"];
+  BB75a677c15 -> BB75a677c71 [color="green"];
+  BB75a677c15 -> BB75a677c1a [color="red"];
+  BB75a677c1a -> BB75a677c1f [color="blue"];
+  BB75a677c71 -> BB75a677c1f [color="blue"];
+  BB75a677caf -> BB75a677c15 [color="green"];
+  BB75a677caf -> BB75a677cb9 [color="red"];
+  BB75a677cb9 -> BB75a677c15 [color="blue"];
+}

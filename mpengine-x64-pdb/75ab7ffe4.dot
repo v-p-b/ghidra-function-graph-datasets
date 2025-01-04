@@ -1,0 +1,9 @@
+digraph IsUniqueValue {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab7ffe4 -> BB75ab80005 [color="green"];
+  BB75ab7ffe4 -> BB75ab7fffb [color="red"];
+  BB75ab7fffb -> BB75ab80005 [color="green"];
+  BB75ab7fffb -> BB75ab80003 [color="red"];
+  BB75ab80003 -> BB75ab80005 [color="blue"];
+}

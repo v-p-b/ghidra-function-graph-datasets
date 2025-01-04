@@ -1,0 +1,10 @@
+digraph myfcallback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a59bcc0 -> BB75a59bcfb [color="green"];
+  BB75a59bcc0 -> BB75a59bcec [color="red"];
+  BB75a59bcec -> BB75a59bcfb [color="green"];
+  BB75a59bcec -> BB75a59bcf1 [color="red"];
+  BB75a59bcf1 -> BB75a59bcf5 [color="blue"];
+  BB75a59bcfb -> BB75a59bcf5 [color="blue"];
+}

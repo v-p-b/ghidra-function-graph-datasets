@@ -1,0 +1,24 @@
+digraph initialize_inherited_file_handles_nolock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7a6a50 -> BB75a7a6b2f [color="green"];
+  BB75a7a6a50 -> BB75a7a6a95 [color="red"];
+  BB75a7a6a95 -> BB75a7a6b2f [color="green"];
+  BB75a7a6a95 -> BB75a7a6aa3 [color="red"];
+  BB75a7a6aa3 -> BB75a7a6b2f [color="green"];
+  BB75a7a6aa3 -> BB75a7a6acf [color="red"];
+  BB75a7a6acf -> BB75a7a6ad2 [color="blue"];
+  BB75a7a6ad2 -> BB75a7a6b1f [color="green"];
+  BB75a7a6ad2 -> BB75a7a6ad8 [color="red"];
+  BB75a7a6ad8 -> BB75a7a6b1f [color="green"];
+  BB75a7a6ad8 -> BB75a7a6ade [color="red"];
+  BB75a7a6ade -> BB75a7a6b1f [color="green"];
+  BB75a7a6ade -> BB75a7a6ae3 [color="red"];
+  BB75a7a6ae3 -> BB75a7a6af5 [color="green"];
+  BB75a7a6ae3 -> BB75a7a6ae8 [color="red"];
+  BB75a7a6ae8 -> BB75a7a6b1f [color="green"];
+  BB75a7a6ae8 -> BB75a7a6af5 [color="red"];
+  BB75a7a6af5 -> BB75a7a6b1f [color="blue"];
+  BB75a7a6b1f -> BB75a7a6ad2 [color="green"];
+  BB75a7a6b1f -> BB75a7a6b2f [color="red"];
+}

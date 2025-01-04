@@ -1,0 +1,14 @@
+digraph GetUserdbQuarantineStore {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a59afb8 -> BB75a59afcf [color="green"];
+  BB75a59afb8 -> BB75a59afc9 [color="red"];
+  BB75a59afc9 -> BB75a59afd2 [color="blue"];
+  BB75a59afcf -> BB75a59afd2 [color="blue"];
+  BB75a59afd2 -> BB75a59b002 [color="green"];
+  BB75a59afd2 -> BB75a59afdf [color="red"];
+  BB75a59afdf -> BB75a59afff [color="green"];
+  BB75a59afdf -> BB75a59afee [color="red"];
+  BB75a59afee -> BB75a59afff [color="red"];
+  BB75a59afff -> BB75a59b002 [color="blue"];
+}

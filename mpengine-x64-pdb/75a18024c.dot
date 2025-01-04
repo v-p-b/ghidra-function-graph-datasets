@@ -1,0 +1,26 @@
+digraph try_fetch_row {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a18024c -> BB75a1802dc [color="green"];
+  BB75a18024c -> BB75a180261 [color="red"];
+  BB75a180261 -> BB75a180292 [color="green"];
+  BB75a180261 -> BB75a18026c [color="red"];
+  BB75a18026c -> BB75a180299 [color="green"];
+  BB75a18026c -> BB75a18027a [color="red"];
+  BB75a18027a -> BB75a18029d [color="green"];
+  BB75a18027a -> BB75a180281 [color="red"];
+  BB75a180281 -> BB75a180283 [color="blue"];
+  BB75a180283 -> BB75a180287 [color="blue"];
+  BB75a180292 -> BB75a180287 [color="blue"];
+  BB75a180299 -> BB75a180283 [color="blue"];
+  BB75a18029d -> BB75a1802cf [color="green"];
+  BB75a18029d -> BB75a1802b0 [color="red"];
+  BB75a1802b0 -> BB75a1802cf [color="green"];
+  BB75a1802b0 -> BB75a1802b7 [color="red"];
+  BB75a1802b7 -> BB75a1802cf [color="red"];
+  BB75a1802cf -> BB75a1802d8 [color="green"];
+  BB75a1802cf -> BB75a1802d3 [color="red"];
+  BB75a1802d3 -> BB75a1802d8 [color="red"];
+  BB75a1802d8 -> BB75a180287 [color="blue"];
+  BB75a1802dc -> BB75a180261 [color="blue"];
+}

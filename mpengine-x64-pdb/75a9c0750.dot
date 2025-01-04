@@ -1,0 +1,11 @@
+digraph get_dependencies {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9c0750 -> BB75a9c0854 [color="green"];
+  BB75a9c0750 -> BB75a9c0810 [color="red"];
+  BB75a9c0810 -> BB75a9c0843 [color="green"];
+  BB75a9c0810 -> BB75a9c0830 [color="red"];
+  BB75a9c0830 -> BB75a9c08a3 [color="blue"];
+  BB75a9c0843 -> BB75a9c08a3 [color="blue"];
+  BB75a9c0854 -> BB75a9c08a3 [color="red"];
+}

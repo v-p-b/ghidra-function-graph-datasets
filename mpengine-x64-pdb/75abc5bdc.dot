@@ -1,0 +1,14 @@
+digraph getop_address {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abc5bdc -> BB75abc5c3b [color="green"];
+  BB75abc5bdc -> BB75abc5c16 [color="red"];
+  BB75abc5c16 -> BB75abc5c7e [color="blue"];
+  BB75abc5c3b -> BB75abc5c44 [color="green"];
+  BB75abc5c3b -> BB75abc5c3f [color="red"];
+  BB75abc5c3f -> BB75abc5c44 [color="red"];
+  BB75abc5c44 -> BB75abc5c6d [color="green"];
+  BB75abc5c44 -> BB75abc5c68 [color="red"];
+  BB75abc5c68 -> BB75abc5c6d [color="red"];
+  BB75abc5c6d -> BB75abc5c7e [color="blue"];
+}

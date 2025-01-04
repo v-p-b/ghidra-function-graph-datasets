@@ -1,0 +1,21 @@
+digraph RecordPush {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a523428 -> BB75a52348f [color="green"];
+  BB75a523428 -> BB75a523483 [color="red"];
+  BB75a523483 -> BB75a52348f [color="red"];
+  BB75a52348f -> BB75a523546 [color="green"];
+  BB75a52348f -> BB75a5234a6 [color="red"];
+  BB75a5234a6 -> BB75a5234f6 [color="green"];
+  BB75a5234a6 -> BB75a5234cf [color="red"];
+  BB75a5234cf -> BB75a5234f6 [color="green"];
+  BB75a5234cf -> BB75a5234d5 [color="red"];
+  BB75a5234d5 -> BB75a5234f6 [color="red"];
+  BB75a5234f6 -> BB75a52353d [color="green"];
+  BB75a5234f6 -> BB75a52350b [color="red"];
+  BB75a52353d -> BB75a523546 [color="blue"];
+  BB75a523546 -> BB75a523577 [color="green"];
+  BB75a523546 -> BB75a523570 [color="red"];
+  BB75a523570 -> BB75a523582 [color="blue"];
+  BB75a523577 -> BB75a523582 [color="blue"];
+}

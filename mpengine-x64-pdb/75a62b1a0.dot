@@ -1,0 +1,22 @@
+digraph lzma_ismine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a62b1a0 -> BB75a62b1d4 [color="green"];
+  BB75a62b1a0 -> BB75a62b1b2 [color="red"];
+  BB75a62b1b2 -> BB75a62b1d4 [color="green"];
+  BB75a62b1b2 -> BB75a62b1bc [color="red"];
+  BB75a62b1bc -> BB75a62b1d4 [color="green"];
+  BB75a62b1bc -> BB75a62b1c4 [color="red"];
+  BB75a62b1c4 -> BB75a62b1d4 [color="green"];
+  BB75a62b1c4 -> BB75a62b1cb [color="red"];
+  BB75a62b1cb -> BB75a62b1dc [color="green"];
+  BB75a62b1cb -> BB75a62b1d4 [color="red"];
+  BB75a62b1d4 -> BB75a62b1d6 [color="blue"];
+  BB75a62b1dc -> BB75a62b1f1 [color="green"];
+  BB75a62b1dc -> BB75a62b1eb [color="red"];
+  BB75a62b1eb -> BB75a62b1d4 [color="green"];
+  BB75a62b1eb -> BB75a62b1f1 [color="red"];
+  BB75a62b1f1 -> BB75a62b1d4 [color="green"];
+  BB75a62b1f1 -> BB75a62b1fe [color="red"];
+  BB75a62b1fe -> BB75a62b1d6 [color="blue"];
+}

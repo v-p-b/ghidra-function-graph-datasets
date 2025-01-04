@@ -1,0 +1,30 @@
+digraph sqlite3BtreeRollback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a45d440 -> BB75a45d530 [color="green"];
+  BB75a45d440 -> BB75a45d460 [color="red"];
+  BB75a45d460 -> BB75a45d563 [color="green"];
+  BB75a45d460 -> BB75a45d46d [color="red"];
+  BB75a45d46d -> BB75a45d475 [color="red"];
+  BB75a45d475 -> BB75a45d532 [color="green"];
+  BB75a45d475 -> BB75a45d486 [color="red"];
+  BB75a45d486 -> BB75a45d4a3 [color="green"];
+  BB75a45d486 -> BB75a45d48c [color="red"];
+  BB75a45d4a3 -> BB75a45d56a [color="green"];
+  BB75a45d4a3 -> BB75a45d4dc [color="red"];
+  BB75a45d4dc -> BB75a45d4e1 [color="red"];
+  BB75a45d4e1 -> BB75a45d519 [color="green"];
+  BB75a45d4e1 -> BB75a45d4e5 [color="red"];
+  BB75a45d4e5 -> BB75a45d546 [color="green"];
+  BB75a45d4e5 -> BB75a45d4f4 [color="red"];
+  BB75a45d4f4 -> BB75a45d574 [color="green"];
+  BB75a45d4f4 -> BB75a45d501 [color="red"];
+  BB75a45d501 -> BB75a45d519 [color="red"];
+  BB75a45d519 -> BB75a45d48c [color="blue"];
+  BB75a45d530 -> BB75a45d532 [color="blue"];
+  BB75a45d532 -> BB75a45d486 [color="blue"];
+  BB75a45d546 -> BB75a45d4f4 [color="blue"];
+  BB75a45d563 -> BB75a45d475 [color="blue"];
+  BB75a45d56a -> BB75a45d4e1 [color="blue"];
+  BB75a45d574 -> BB75a45d501 [color="blue"];
+}

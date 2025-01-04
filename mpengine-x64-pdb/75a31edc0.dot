@@ -1,0 +1,13 @@
+digraph get_mem_block {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a31edc0 -> BB75a31edd2 [color="red"];
+  BB75a31edd2 -> BB75a31edfc [color="green"];
+  BB75a31edd2 -> BB75a31edd8 [color="red"];
+  BB75a31edd8 -> BB75a31edf3 [color="green"];
+  BB75a31edd8 -> BB75a31ede1 [color="red"];
+  BB75a31ede1 -> BB75a31edf3 [color="green"];
+  BB75a31ede1 -> BB75a31edeb [color="red"];
+  BB75a31edf3 -> BB75a31edd2 [color="blue"];
+  BB75a31edfc -> BB75a31edeb [color="blue"];
+}

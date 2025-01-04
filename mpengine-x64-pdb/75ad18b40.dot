@@ -1,0 +1,11 @@
+digraph GetReason {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad18b40 -> BB75ad18b7a [color="green"];
+  BB75ad18b40 -> BB75ad18b56 [color="red"];
+  BB75ad18b56 -> BB75ad18b7a [color="green"];
+  BB75ad18b56 -> BB75ad18b6c [color="red"];
+  BB75ad18b6c -> BB75ad18b7a [color="green"];
+  BB75ad18b6c -> BB75ad18b75 [color="red"];
+  BB75ad18b75 -> BB75ad18b7a [color="red"];
+}

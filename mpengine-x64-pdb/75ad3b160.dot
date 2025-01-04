@@ -1,0 +1,16 @@
+digraph remove_data {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad3b160 -> BB75ad3b17d [color="green"];
+  BB75ad3b160 -> BB75ad3b178 [color="red"];
+  BB75ad3b178 -> BB75ad3b17d [color="red"];
+  BB75ad3b17d -> BB75ad3b20c [color="green"];
+  BB75ad3b17d -> BB75ad3b186 [color="red"];
+  BB75ad3b186 -> BB75ad3b20c [color="green"];
+  BB75ad3b186 -> BB75ad3b191 [color="red"];
+  BB75ad3b191 -> BB75ad3b1ab [color="green"];
+  BB75ad3b191 -> BB75ad3b1a1 [color="red"];
+  BB75ad3b1a1 -> BB75ad3b20e [color="blue"];
+  BB75ad3b1ab -> BB75ad3b1a1 [color="blue"];
+  BB75ad3b20c -> BB75ad3b20e [color="blue"];
+}

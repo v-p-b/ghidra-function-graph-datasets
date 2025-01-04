@@ -1,0 +1,18 @@
+digraph CheckDbVarData {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4088cc -> BB75a408906 [color="green"];
+  BB75a4088cc -> BB75a4088da [color="red"];
+  BB75a4088da -> BB75a40890d [color="green"];
+  BB75a4088da -> BB75a4088e2 [color="red"];
+  BB75a4088e2 -> BB75a40890d [color="green"];
+  BB75a4088e2 -> BB75a4088e7 [color="red"];
+  BB75a4088e7 -> BB75a408914 [color="green"];
+  BB75a4088e7 -> BB75a4088ee [color="red"];
+  BB75a4088ee -> BB75a40891b [color="green"];
+  BB75a4088ee -> BB75a4088f4 [color="red"];
+  BB75a408906 -> BB75a4088da [color="blue"];
+  BB75a40890d -> BB75a4088e7 [color="blue"];
+  BB75a408914 -> BB75a4088ee [color="blue"];
+  BB75a40891b -> BB75a4088f4 [color="blue"];
+}

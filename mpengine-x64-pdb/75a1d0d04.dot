@@ -1,0 +1,23 @@
+digraph newObjectObjectThrows {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1d0d04 -> BB75a1d0dad [color="green"];
+  BB75a1d0d04 -> BB75a1d0d2b [color="red"];
+  BB75a1d0d2b -> BB75a1d0da9 [color="green"];
+  BB75a1d0d2b -> BB75a1d0d46 [color="red"];
+  BB75a1d0d46 -> BB75a1d0da9 [color="green"];
+  BB75a1d0d46 -> BB75a1d0d5b [color="red"];
+  BB75a1d0d5b -> BB75a1d0d97 [color="red"];
+  BB75a1d0d97 -> BB75a1d0d99 [color="blue"];
+  BB75a1d0da9 -> BB75a1d0d99 [color="blue"];
+  BB75a1d0dad -> BB75a1d0dd8 [color="green"];
+  BB75a1d0dad -> BB75a1d0dbf [color="red"];
+  BB75a1d0dbf -> BB75a1d0dc9 [color="blue"];
+  BB75a1d0dc4 -> BB75a1d0dc9 [color="blue"];
+  BB75a1d0dc9 -> BB75a1d0d97 [color="blue"];
+  BB75a1d0dd8 -> BB75a1d0d2b [color="green"];
+  BB75a1d0dd8 -> BB75a1d0de4 [color="red"];
+  BB75a1d0de4 -> BB75a1d0da9 [color="green"];
+  BB75a1d0de4 -> BB75a1d0df8 [color="red"];
+  BB75a1d0df8 -> BB75a1d0dc4 [color="blue"];
+}

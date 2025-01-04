@@ -1,0 +1,11 @@
+digraph TestByte {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a26ad30 -> BB75a26ad87 [color="green"];
+  BB75a26ad30 -> BB75a26ad4f [color="red"];
+  BB75a26ad4f -> BB75a26ad7a [color="green"];
+  BB75a26ad4f -> BB75a26ad61 [color="red"];
+  BB75a26ad61 -> BB75a26ad67 [color="blue"];
+  BB75a26ad7a -> BB75a26ad67 [color="blue"];
+  BB75a26ad87 -> BB75a26ad4f [color="blue"];
+}

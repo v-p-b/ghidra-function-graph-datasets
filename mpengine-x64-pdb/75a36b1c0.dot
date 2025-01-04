@@ -1,0 +1,8 @@
+digraph IsThreat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a36b1c0 -> BB75a36b1e8 [color="green"];
+  BB75a36b1c0 -> BB75a36b1cd [color="red"];
+  BB75a36b1cd -> BB75a36b1e3 [color="red"];
+  BB75a36b1e8 -> BB75a36b1e3 [color="blue"];
+}

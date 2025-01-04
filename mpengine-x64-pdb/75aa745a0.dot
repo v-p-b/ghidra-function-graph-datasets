@@ -1,0 +1,10 @@
+digraph KERNEL32_DLL_TerminateProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa745a0 -> BB75aa74601 [color="green"];
+  BB75aa745a0 -> BB75aa745f4 [color="red"];
+  BB75aa745f4 -> BB75aa74601 [color="green"];
+  BB75aa745f4 -> BB75aa745fa [color="red"];
+  BB75aa745fa -> BB75aa74603 [color="blue"];
+  BB75aa74601 -> BB75aa74603 [color="blue"];
+}

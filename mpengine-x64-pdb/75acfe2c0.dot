@@ -1,0 +1,37 @@
+digraph GetKernelRoutineAddress {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acfe2c0 -> BB75acfe30f [color="green"];
+  BB75acfe2c0 -> BB75acfe2e7 [color="red"];
+  BB75acfe2e7 -> BB75acfe457 [color="green"];
+  BB75acfe2e7 -> BB75acfe2fe [color="red"];
+  BB75acfe2fe -> BB75acfe457 [color="green"];
+  BB75acfe2fe -> BB75acfe308 [color="red"];
+  BB75acfe308 -> BB75acfe34b [color="blue"];
+  BB75acfe30f -> BB75acfe360 [color="green"];
+  BB75acfe30f -> BB75acfe327 [color="red"];
+  BB75acfe327 -> BB75acfe457 [color="green"];
+  BB75acfe327 -> BB75acfe33e [color="red"];
+  BB75acfe33e -> BB75acfe457 [color="green"];
+  BB75acfe33e -> BB75acfe348 [color="red"];
+  BB75acfe348 -> BB75acfe34b [color="blue"];
+  BB75acfe34b -> BB75acfe457 [color="blue"];
+  BB75acfe360 -> BB75acfe3a3 [color="green"];
+  BB75acfe360 -> BB75acfe3a0 [color="red"];
+  BB75acfe3a0 -> BB75acfe3a3 [color="blue"];
+  BB75acfe3a3 -> BB75acfe3fb [color="green"];
+  BB75acfe3a3 -> BB75acfe3ea [color="red"];
+  BB75acfe3ea -> BB75acfe3fb [color="green"];
+  BB75acfe3ea -> BB75acfe3ef [color="red"];
+  BB75acfe3ef -> BB75acfe45c [color="blue"];
+  BB75acfe3fb -> BB75acfe44b [color="green"];
+  BB75acfe3fb -> BB75acfe40e [color="red"];
+  BB75acfe40e -> BB75acfe44b [color="green"];
+  BB75acfe40e -> BB75acfe414 [color="red"];
+  BB75acfe414 -> BB75acfe426 [color="green"];
+  BB75acfe414 -> BB75acfe41e [color="red"];
+  BB75acfe41e -> BB75acfe426 [color="blue"];
+  BB75acfe426 -> BB75acfe44b [color="red"];
+  BB75acfe44b -> BB75acfe457 [color="red"];
+  BB75acfe457 -> BB75acfe45c [color="blue"];
+}

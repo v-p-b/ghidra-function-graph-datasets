@@ -1,0 +1,11 @@
+digraph GetState {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1894f8 -> BB75a18951c [color="green"];
+  BB75a1894f8 -> BB75a18950c [color="red"];
+  BB75a18950c -> BB75a18950c [color="green"];
+  BB75a18950c -> BB75a18951c [color="red"];
+  BB75a18951c -> BB75a189539 [color="green"];
+  BB75a18951c -> BB75a18952c [color="red"];
+  BB75a189539 -> BB75a18952c [color="blue"];
+}

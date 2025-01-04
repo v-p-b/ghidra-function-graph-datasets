@@ -1,0 +1,11 @@
+digraph msil_esc_apicall_emu_worker {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a515f44 -> BB75a515fd5 [color="green"];
+  BB75a515f44 -> BB75a515f87 [color="red"];
+  BB75a515f87 -> BB75a515fc9 [color="green"];
+  BB75a515f87 -> BB75a515f9d [color="red"];
+  BB75a515f9d -> BB75a515fbe [color="red"];
+  BB75a515fc9 -> BB75a515fbe [color="blue"];
+  BB75a515fd5 -> BB75a515fbe [color="blue"];
+}

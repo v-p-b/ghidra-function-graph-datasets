@@ -1,0 +1,11 @@
+digraph DispatchRecord {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3bcac4 -> BB75a3bcb23 [color="green"];
+  BB75a3bcac4 -> BB75a3bcaea [color="red"];
+  BB75a3bcaea -> BB75a3bcb21 [color="green"];
+  BB75a3bcaea -> BB75a3bcafe [color="red"];
+  BB75a3bcafe -> BB75a3bcb1c [color="red"];
+  BB75a3bcb21 -> BB75a3bcb1c [color="blue"];
+  BB75a3bcb23 -> BB75a3bcb1c [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph SandboxUpdateSettings {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8ae9bc -> BB75a8aea82 [color="green"];
+  BB75a8ae9bc -> BB75a8aea4e [color="red"];
+  BB75a8aea4e -> BB75a8aea4e [color="green"];
+  BB75a8aea4e -> BB75a8aea82 [color="red"];
+  BB75a8aea82 -> BB75a8aeae1 [color="blue"];
+  BB75a8aeae1 -> BB75a8aeb32 [color="green"];
+  BB75a8aeae1 -> BB75a8aeae6 [color="red"];
+  BB75a8aeae6 -> BB75a8aeb2c [color="green"];
+  BB75a8aeae6 -> BB75a8aeb0c [color="red"];
+  BB75a8aeb0c -> BB75a8aeb2c [color="red"];
+  BB75a8aeb2c -> BB75a8aeae1 [color="blue"];
+  BB75a8aeb32 -> BB75a8aeb45 [color="blue"];
+}

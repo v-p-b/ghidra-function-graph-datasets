@@ -1,0 +1,13 @@
+digraph SendSacRemainInEvalNotification {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aae1dc4 -> BB75aae1e69 [color="green"];
+  BB75aae1dc4 -> BB75aae1ded [color="red"];
+  BB75aae1ded -> BB75aae1e69 [color="green"];
+  BB75aae1ded -> BB75aae1e38 [color="red"];
+  BB75aae1e38 -> BB75aae1e69 [color="green"];
+  BB75aae1e38 -> BB75aae1e4b [color="red"];
+  BB75aae1e4b -> BB75aae1e69 [color="green"];
+  BB75aae1e4b -> BB75aae1e51 [color="red"];
+  BB75aae1e51 -> BB75aae1e69 [color="red"];
+}

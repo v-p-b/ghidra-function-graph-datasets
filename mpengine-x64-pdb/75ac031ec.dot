@@ -1,0 +1,16 @@
+digraph ZSTD_fseBitCost {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac031ec -> BB75ac03290 [color="green"];
+  BB75ac031ec -> BB75ac03221 [color="red"];
+  BB75ac03221 -> BB75ac0323c [color="blue"];
+  BB75ac0323c -> BB75ac03277 [color="green"];
+  BB75ac0323c -> BB75ac03263 [color="red"];
+  BB75ac03263 -> BB75ac03290 [color="green"];
+  BB75ac03263 -> BB75ac0326e [color="red"];
+  BB75ac0326e -> BB75ac03277 [color="blue"];
+  BB75ac03277 -> BB75ac0323c [color="green"];
+  BB75ac03277 -> BB75ac03287 [color="red"];
+  BB75ac03287 -> BB75ac03294 [color="blue"];
+  BB75ac03290 -> BB75ac03294 [color="blue"];
+}

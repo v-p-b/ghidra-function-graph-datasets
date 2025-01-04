@@ -1,0 +1,11 @@
+digraph AllocScanReply {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a143e14 -> BB75a144039 [color="green"];
+  BB75a143e14 -> BB75a143e4c [color="red"];
+  BB75a143e4c -> BB75a143f40 [color="red"];
+  BB75a143f40 -> BB75a143f58 [color="green"];
+  BB75a143f40 -> BB75a143f4b [color="red"];
+  BB75a143f4b -> BB75a143f40 [color="blue"];
+  BB75a143f58 -> BB75a144039 [color="red"];
+}

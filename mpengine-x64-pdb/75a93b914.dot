@@ -1,0 +1,14 @@
+digraph print_memory_usage {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a93b914 -> BB75a93ba51 [color="green"];
+  BB75a93b914 -> BB75a93b960 [color="red"];
+  BB75a93b960 -> BB75a93ba51 [color="green"];
+  BB75a93b960 -> BB75a93b96a [color="red"];
+  BB75a93b96a -> BB75a93ba0f [color="green"];
+  BB75a93b96a -> BB75a93b9ac [color="red"];
+  BB75a93b9ac -> BB75a93ba0f [color="green"];
+  BB75a93b9ac -> BB75a93b9f8 [color="red"];
+  BB75a93b9f8 -> BB75a93ba0f [color="blue"];
+  BB75a93ba0f -> BB75a93ba51 [color="red"];
+}

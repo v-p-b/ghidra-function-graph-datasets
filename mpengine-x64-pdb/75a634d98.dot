@@ -1,0 +1,10 @@
+digraph _Emplace_reallocate<char*___ptr64_const&___ptr64> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a634d98 -> BB75a634e6c [color="green"];
+  BB75a634d98 -> BB75a634dd5 [color="red"];
+  BB75a634dd5 -> BB75a634e79 [color="green"];
+  BB75a634dd5 -> BB75a634e40 [color="red"];
+  BB75a634e6c -> BB75a634e79 [color="red"];
+  BB75a634e79 -> BB75a634e40 [color="blue"];
+}

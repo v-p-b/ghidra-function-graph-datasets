@@ -1,0 +1,11 @@
+digraph ZSTD_allocateChainTable {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6a8224 -> BB75a6a823e [color="green"];
+  BB75a6a8224 -> BB75a6a8230 [color="red"];
+  BB75a6a8230 -> BB75a6a8244 [color="green"];
+  BB75a6a8230 -> BB75a6a8235 [color="red"];
+  BB75a6a8235 -> BB75a6a8244 [color="green"];
+  BB75a6a8235 -> BB75a6a823e [color="red"];
+  BB75a6a823e -> BB75a6a8244 [color="blue"];
+}

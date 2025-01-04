@@ -1,0 +1,14 @@
+digraph Enumerate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acc5fc0 -> BB75acc5fe2 [color="green"];
+  BB75acc5fc0 -> BB75acc5fdb [color="red"];
+  BB75acc5fdb -> BB75acc600e [color="blue"];
+  BB75acc5fe2 -> BB75acc5fec [color="green"];
+  BB75acc5fe2 -> BB75acc5fe7 [color="red"];
+  BB75acc5fe7 -> BB75acc5fec [color="red"];
+  BB75acc5fec -> BB75acc5ffb [color="green"];
+  BB75acc5fec -> BB75acc5ff6 [color="red"];
+  BB75acc5ff6 -> BB75acc5ffb [color="red"];
+  BB75acc5ffb -> BB75acc600e [color="red"];
+}

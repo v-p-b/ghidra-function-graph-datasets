@@ -1,0 +1,12 @@
+digraph LookupValue {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a50dbdc -> BB75a50dc07 [color="green"];
+  BB75a50dbdc -> BB75a50dbfe [color="red"];
+  BB75a50dbfe -> BB75a50dc0e [color="green"];
+  BB75a50dbfe -> BB75a50dc07 [color="red"];
+  BB75a50dc07 -> BB75a50dc09 [color="blue"];
+  BB75a50dc0e -> BB75a50dc07 [color="green"];
+  BB75a50dc0e -> BB75a50dc13 [color="red"];
+  BB75a50dc13 -> BB75a50dc09 [color="blue"];
+}

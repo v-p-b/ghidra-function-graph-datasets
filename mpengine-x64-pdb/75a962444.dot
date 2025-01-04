@@ -1,0 +1,22 @@
+digraph _fallback_to_cpu_all_models {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a962444 -> BB75a962588 [color="green"];
+  BB75a962444 -> BB75a962570 [color="red"];
+  BB75a962570 -> BB75a962588 [color="red"];
+  BB75a962588 -> BB75a9625a7 [color="green"];
+  BB75a962588 -> BB75a962598 [color="red"];
+  BB75a962598 -> BB75a9625a7 [color="red"];
+  BB75a9625a7 -> BB75a9625b3 [color="blue"];
+  BB75a9625b3 -> BB75a962753 [color="green"];
+  BB75a9625b3 -> BB75a9625bd [color="red"];
+  BB75a9625bd -> BB75a9626f6 [color="green"];
+  BB75a9625bd -> BB75a9625d2 [color="red"];
+  BB75a9625d2 -> BB75a96270a [color="green"];
+  BB75a9625d2 -> BB75a9625fd [color="red"];
+  BB75a9625fd -> BB75a96275f [color="green"];
+  BB75a9625fd -> BB75a9626f6 [color="red"];
+  BB75a9626f6 -> BB75a9625b3 [color="blue"];
+  BB75a96270a -> BB75a96275f [color="blue"];
+  BB75a962753 -> BB75a96275f [color="red"];
+}

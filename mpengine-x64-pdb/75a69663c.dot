@@ -1,0 +1,14 @@
+digraph chm_reads {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a69663c -> BB75a696696 [color="green"];
+  BB75a69663c -> BB75a69664f [color="red"];
+  BB75a69664f -> BB75a696692 [color="green"];
+  BB75a69664f -> BB75a69665d [color="red"];
+  BB75a69665d -> BB75a696661 [color="blue"];
+  BB75a696661 -> BB75a69668c [color="green"];
+  BB75a696661 -> BB75a69667d [color="red"];
+  BB75a69667d -> BB75a69668c [color="blue"];
+  BB75a696692 -> BB75a696661 [color="blue"];
+  BB75a696696 -> BB75a69668c [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph push_ptid_as_string {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaffcc4 -> BB75aaffcf9 [color="green"];
+  BB75aaffcc4 -> BB75aaffceb [color="red"];
+  BB75aaffceb -> BB75aaffd05 [color="blue"];
+  BB75aaffcf9 -> BB75aaffd05 [color="red"];
+  BB75aaffd05 -> BB75aaffd1c [color="green"];
+  BB75aaffd05 -> BB75aaffd0c [color="red"];
+  BB75aaffd1c -> BB75aaffd3a [color="green"];
+  BB75aaffd1c -> BB75aaffd30 [color="red"];
+  BB75aaffd30 -> BB75aaffd3a [color="red"];
+}

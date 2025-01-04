@@ -1,0 +1,23 @@
+digraph bzip2_unpack {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6dbaf0 -> BB75a6dbca0 [color="green"];
+  BB75a6dbaf0 -> BB75a6dbb2b [color="red"];
+  BB75a6dbb2b -> BB75a6dbca0 [color="green"];
+  BB75a6dbb2b -> BB75a6dbb48 [color="red"];
+  BB75a6dbb48 -> BB75a6dbbc4 [color="red"];
+  BB75a6dbbc4 -> BB75a6dbc83 [color="green"];
+  BB75a6dbbc4 -> BB75a6dbbe1 [color="red"];
+  BB75a6dbbe1 -> BB75a6dbc83 [color="green"];
+  BB75a6dbbe1 -> BB75a6dbbea [color="red"];
+  BB75a6dbbea -> BB75a6dbc83 [color="green"];
+  BB75a6dbbea -> BB75a6dbbf7 [color="red"];
+  BB75a6dbbf7 -> BB75a6dbc78 [color="green"];
+  BB75a6dbbf7 -> BB75a6dbc4c [color="red"];
+  BB75a6dbc4c -> BB75a6dbc78 [color="green"];
+  BB75a6dbc4c -> BB75a6dbc68 [color="red"];
+  BB75a6dbc68 -> BB75a6dbbc4 [color="blue"];
+  BB75a6dbc78 -> BB75a6dbc83 [color="blue"];
+  BB75a6dbc83 -> BB75a6dbca2 [color="blue"];
+  BB75a6dbca0 -> BB75a6dbca2 [color="blue"];
+}

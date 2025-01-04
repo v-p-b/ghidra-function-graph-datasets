@@ -1,0 +1,16 @@
+digraph GetShortestTokenizedPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab477c0 -> BB75ab47831 [color="green"];
+  BB75ab477c0 -> BB75ab477f6 [color="red"];
+  BB75ab477f6 -> BB75ab4780c [color="blue"];
+  BB75ab477fc -> BB75ab4780c [color="blue"];
+  BB75ab4780c -> BB75ab477fc [color="green"];
+  BB75ab4780c -> BB75ab47811 [color="red"];
+  BB75ab47811 -> BB75ab47831 [color="green"];
+  BB75ab47811 -> BB75ab47816 [color="red"];
+  BB75ab47816 -> BB75ab47820 [color="green"];
+  BB75ab47816 -> BB75ab4781d [color="red"];
+  BB75ab4781d -> BB75ab47820 [color="blue"];
+  BB75ab47820 -> BB75ab47831 [color="red"];
+}

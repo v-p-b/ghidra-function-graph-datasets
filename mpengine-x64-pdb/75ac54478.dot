@@ -1,0 +1,36 @@
+digraph GetFilePartialCRC {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac54478 -> BB75ac544df [color="green"];
+  BB75ac54478 -> BB75ac544b0 [color="red"];
+  BB75ac544b0 -> BB75ac544d8 [color="green"];
+  BB75ac544b0 -> BB75ac544c4 [color="red"];
+  BB75ac544c4 -> BB75ac545fb [color="blue"];
+  BB75ac544d8 -> BB75ac544f0 [color="blue"];
+  BB75ac544df -> BB75ac544f0 [color="red"];
+  BB75ac544f0 -> BB75ac5452f [color="green"];
+  BB75ac544f0 -> BB75ac5452b [color="red"];
+  BB75ac5452b -> BB75ac54556 [color="blue"];
+  BB75ac5452f -> BB75ac54556 [color="green"];
+  BB75ac5452f -> BB75ac54534 [color="red"];
+  BB75ac54534 -> BB75ac5453d [color="blue"];
+  BB75ac5453d -> BB75ac5453d [color="green"];
+  BB75ac5453d -> BB75ac54554 [color="red"];
+  BB75ac54554 -> BB75ac54556 [color="blue"];
+  BB75ac54556 -> BB75ac5458c [color="green"];
+  BB75ac54556 -> BB75ac54589 [color="red"];
+  BB75ac54589 -> BB75ac5458c [color="blue"];
+  BB75ac5458c -> BB75ac545bb [color="green"];
+  BB75ac5458c -> BB75ac54598 [color="red"];
+  BB75ac54598 -> BB75ac545f7 [color="blue"];
+  BB75ac545bb -> BB75ac545db [color="green"];
+  BB75ac545bb -> BB75ac545c0 [color="red"];
+  BB75ac545c0 -> BB75ac545c9 [color="blue"];
+  BB75ac545c9 -> BB75ac545c9 [color="green"];
+  BB75ac545c9 -> BB75ac545d9 [color="red"];
+  BB75ac545d9 -> BB75ac545db [color="blue"];
+  BB75ac545db -> BB75ac545f7 [color="red"];
+  BB75ac545f7 -> BB75ac545fb [color="green"];
+  BB75ac545f7 -> BB75ac545f9 [color="red"];
+  BB75ac545f9 -> BB75ac545fb [color="blue"];
+}

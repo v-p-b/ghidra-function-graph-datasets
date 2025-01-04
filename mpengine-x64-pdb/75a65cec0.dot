@@ -1,0 +1,15 @@
+digraph declare {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a65cec0 -> BB75a65cf0b [color="green"];
+  BB75a65cec0 -> BB75a65cede [color="red"];
+  BB75a65cede -> BB75a65cefe [color="green"];
+  BB75a65cede -> BB75a65ceeb [color="red"];
+  BB75a65ceeb -> BB75a65cf0b [color="green"];
+  BB75a65ceeb -> BB75a65cefe [color="red"];
+  BB75a65cefe -> BB75a65cf1d [color="green"];
+  BB75a65cefe -> BB75a65cf07 [color="red"];
+  BB75a65cf07 -> BB75a65cf0d [color="blue"];
+  BB75a65cf0b -> BB75a65cf0d [color="blue"];
+  BB75a65cf1d -> BB75a65cf0d [color="blue"];
+}

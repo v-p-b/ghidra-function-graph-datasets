@@ -1,0 +1,17 @@
+digraph ProcessContextLogger {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8436a8 -> BB75a8436f5 [color="green"];
+  BB75a8436a8 -> BB75a8436e7 [color="red"];
+  BB75a8436e7 -> BB75a8436f5 [color="red"];
+  BB75a8436f5 -> BB75a843705 [color="green"];
+  BB75a8436f5 -> BB75a843701 [color="red"];
+  BB75a843701 -> BB75a843705 [color="blue"];
+  BB75a843705 -> BB75a84376b [color="green"];
+  BB75a843705 -> BB75a843739 [color="red"];
+  BB75a843739 -> BB75a84376b [color="green"];
+  BB75a843739 -> BB75a84374c [color="red"];
+  BB75a84374c -> BB75a84376b [color="green"];
+  BB75a84374c -> BB75a843752 [color="red"];
+  BB75a843752 -> BB75a84376b [color="red"];
+}

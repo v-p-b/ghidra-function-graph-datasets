@@ -1,0 +1,21 @@
+digraph IsAmsiProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1e3ff0 -> BB75a1e4013 [color="green"];
+  BB75a1e3ff0 -> BB75a1e4002 [color="red"];
+  BB75a1e4013 -> BB75a1e4063 [color="green"];
+  BB75a1e4013 -> BB75a1e4027 [color="red"];
+  BB75a1e4027 -> BB75a1e4048 [color="green"];
+  BB75a1e4027 -> BB75a1e4033 [color="red"];
+  BB75a1e4033 -> BB75a1e4048 [color="green"];
+  BB75a1e4033 -> BB75a1e4041 [color="red"];
+  BB75a1e4041 -> BB75a1e4048 [color="blue"];
+  BB75a1e4048 -> BB75a1e4002 [color="green"];
+  BB75a1e4048 -> BB75a1e4057 [color="red"];
+  BB75a1e4057 -> BB75a1e4002 [color="blue"];
+  BB75a1e4063 -> BB75a1e4048 [color="green"];
+  BB75a1e4063 -> BB75a1e4076 [color="red"];
+  BB75a1e4076 -> BB75a1e4048 [color="green"];
+  BB75a1e4076 -> BB75a1e407c [color="red"];
+  BB75a1e407c -> BB75a1e4048 [color="blue"];
+}

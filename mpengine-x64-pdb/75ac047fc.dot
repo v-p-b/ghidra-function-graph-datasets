@@ -1,0 +1,12 @@
+digraph ZSTD_ldm_countBackwardsMatch {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac047fc -> BB75ac04828 [color="green"];
+  BB75ac047fc -> BB75ac04806 [color="red"];
+  BB75ac04806 -> BB75ac04828 [color="green"];
+  BB75ac04806 -> BB75ac0480b [color="red"];
+  BB75ac0480b -> BB75ac04828 [color="green"];
+  BB75ac0480b -> BB75ac0481d [color="red"];
+  BB75ac0481d -> BB75ac04806 [color="green"];
+  BB75ac0481d -> BB75ac04828 [color="red"];
+}

@@ -1,0 +1,21 @@
+digraph wcscpy_s {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a778274 -> BB75a77828e [color="green"];
+  BB75a778274 -> BB75a778281 [color="red"];
+  BB75a778281 -> BB75a77828e [color="green"];
+  BB75a778281 -> BB75a778286 [color="red"];
+  BB75a778286 -> BB75a7782a7 [color="green"];
+  BB75a778286 -> BB75a77828b [color="red"];
+  BB75a77828b -> BB75a77828e [color="blue"];
+  BB75a77828e -> BB75a778298 [color="red"];
+  BB75a778298 -> BB75a77829f [color="red"];
+  BB75a7782a7 -> BB75a7782ad [color="blue"];
+  BB75a7782ad -> BB75a77829f [color="green"];
+  BB75a7782ad -> BB75a7782bf [color="red"];
+  BB75a7782bf -> BB75a7782ad [color="green"];
+  BB75a7782bf -> BB75a7782c5 [color="red"];
+  BB75a7782c5 -> BB75a77829f [color="green"];
+  BB75a7782c5 -> BB75a7782ca [color="red"];
+  BB75a7782ca -> BB75a778298 [color="blue"];
+}

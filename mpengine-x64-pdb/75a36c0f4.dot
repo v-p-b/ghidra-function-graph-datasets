@@ -1,0 +1,13 @@
+digraph GetPseudoThreatList {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a36c0f4 -> BB75a36c161 [color="green"];
+  BB75a36c0f4 -> BB75a36c117 [color="red"];
+  BB75a36c117 -> BB75a36c11c [color="red"];
+  BB75a36c11c -> BB75a36c14c [color="green"];
+  BB75a36c11c -> BB75a36c12d [color="red"];
+  BB75a36c12d -> BB75a36c14c [color="red"];
+  BB75a36c161 -> BB75a36c11c [color="green"];
+  BB75a36c161 -> BB75a36c166 [color="red"];
+  BB75a36c166 -> BB75a36c117 [color="blue"];
+}

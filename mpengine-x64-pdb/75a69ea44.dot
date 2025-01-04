@@ -1,0 +1,16 @@
+digraph get_num_logical_processors {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a69ea44 -> BB75a69eb0c [color="green"];
+  BB75a69ea44 -> BB75a69ea7a [color="red"];
+  BB75a69ea7a -> BB75a69eaee [color="green"];
+  BB75a69ea7a -> BB75a69ea9d [color="red"];
+  BB75a69ea9d -> BB75a69eace [color="green"];
+  BB75a69ea9d -> BB75a69eaab [color="red"];
+  BB75a69eaab -> BB75a69eaae [color="blue"];
+  BB75a69eaae -> BB75a69eaae [color="green"];
+  BB75a69eaae -> BB75a69eace [color="red"];
+  BB75a69eace -> BB75a69ead9 [color="red"];
+  BB75a69eaee -> BB75a69eace [color="blue"];
+  BB75a69eb0c -> BB75a69ead9 [color="blue"];
+}

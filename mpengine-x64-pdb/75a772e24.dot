@@ -1,0 +1,14 @@
+digraph __acrt_copy_locale_name {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a772e24 -> BB75a772e7e [color="green"];
+  BB75a772e24 -> BB75a772e3b [color="red"];
+  BB75a772e3b -> BB75a772e7e [color="green"];
+  BB75a772e3b -> BB75a772e4e [color="red"];
+  BB75a772e4e -> BB75a772e7e [color="green"];
+  BB75a772e4e -> BB75a772e63 [color="red"];
+  BB75a772e63 -> BB75a772e90 [color="green"];
+  BB75a772e63 -> BB75a772e79 [color="red"];
+  BB75a772e79 -> BB75a772e80 [color="blue"];
+  BB75a772e7e -> BB75a772e80 [color="blue"];
+}

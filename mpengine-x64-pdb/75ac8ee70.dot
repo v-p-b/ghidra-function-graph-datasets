@@ -1,0 +1,28 @@
+digraph Commit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac8ee70 -> BB75ac8eebb [color="green"];
+  BB75ac8ee70 -> BB75ac8ee97 [color="red"];
+  BB75ac8ee97 -> BB75ac8eebb [color="green"];
+  BB75ac8ee97 -> BB75ac8ee9d [color="red"];
+  BB75ac8ee9d -> BB75ac8eebb [color="red"];
+  BB75ac8eebb -> BB75ac8ef17 [color="green"];
+  BB75ac8eebb -> BB75ac8eece [color="red"];
+  BB75ac8eece -> BB75ac8ef00 [color="green"];
+  BB75ac8eece -> BB75ac8eeda [color="red"];
+  BB75ac8eeda -> BB75ac8ef00 [color="green"];
+  BB75ac8eeda -> BB75ac8eee0 [color="red"];
+  BB75ac8eee0 -> BB75ac8ef00 [color="red"];
+  BB75ac8ef00 -> BB75ac8ef05 [color="blue"];
+  BB75ac8ef05 -> BB75ac8ef07 [color="blue"];
+  BB75ac8ef17 -> BB75ac8ef52 [color="green"];
+  BB75ac8ef17 -> BB75ac8ef28 [color="red"];
+  BB75ac8ef28 -> BB75ac8ef52 [color="green"];
+  BB75ac8ef28 -> BB75ac8ef38 [color="red"];
+  BB75ac8ef38 -> BB75ac8ef52 [color="green"];
+  BB75ac8ef38 -> BB75ac8ef4b [color="red"];
+  BB75ac8ef4b -> BB75ac8ef52 [color="blue"];
+  BB75ac8ef52 -> BB75ac8ef05 [color="green"];
+  BB75ac8ef52 -> BB75ac8ef57 [color="red"];
+  BB75ac8ef57 -> BB75ac8ef07 [color="blue"];
+}

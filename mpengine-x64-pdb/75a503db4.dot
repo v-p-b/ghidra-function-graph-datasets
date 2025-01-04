@@ -1,0 +1,16 @@
+digraph SetSignerInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a503db4 -> BB75a503e33 [color="green"];
+  BB75a503db4 -> BB75a503e2e [color="red"];
+  BB75a503e2e -> BB75a503e33 [color="red"];
+  BB75a503e33 -> BB75a503e6f [color="green"];
+  BB75a503e33 -> BB75a503e6a [color="red"];
+  BB75a503e6a -> BB75a503e6f [color="red"];
+  BB75a503e6f -> BB75a503ea8 [color="green"];
+  BB75a503e6f -> BB75a503ea3 [color="red"];
+  BB75a503ea3 -> BB75a503ea8 [color="red"];
+  BB75a503ea8 -> BB75a503ee1 [color="green"];
+  BB75a503ea8 -> BB75a503edc [color="red"];
+  BB75a503edc -> BB75a503ee1 [color="red"];
+}

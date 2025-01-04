@@ -1,0 +1,13 @@
+digraph ~CTriggerAsyncResourceScan {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6be324 -> BB75a6be33b [color="green"];
+  BB75a6be324 -> BB75a6be336 [color="red"];
+  BB75a6be336 -> BB75a6be33b [color="red"];
+  BB75a6be33b -> BB75a6be349 [color="green"];
+  BB75a6be33b -> BB75a6be344 [color="red"];
+  BB75a6be344 -> BB75a6be349 [color="red"];
+  BB75a6be349 -> BB75a6be362 [color="green"];
+  BB75a6be349 -> BB75a6be352 [color="red"];
+  BB75a6be362 -> BB75a6be352 [color="blue"];
+}

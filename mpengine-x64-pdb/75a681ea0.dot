@@ -1,0 +1,21 @@
+digraph GrantAccessToNetworkService {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a681ea0 -> BB75a681fd8 [color="green"];
+  BB75a681ea0 -> BB75a681f0c [color="red"];
+  BB75a681f0c -> BB75a68200e [color="green"];
+  BB75a681f0c -> BB75a681f55 [color="red"];
+  BB75a681f55 -> BB75a681fc6 [color="green"];
+  BB75a681f55 -> BB75a681f9e [color="red"];
+  BB75a681f9e -> BB75a681fc6 [color="red"];
+  BB75a681fc6 -> BB75a682018 [color="green"];
+  BB75a681fc6 -> BB75a681fcf [color="red"];
+  BB75a681fcf -> BB75a682020 [color="green"];
+  BB75a681fcf -> BB75a681fd8 [color="red"];
+  BB75a681fd8 -> BB75a681fe7 [color="green"];
+  BB75a681fd8 -> BB75a681fe1 [color="red"];
+  BB75a681fe1 -> BB75a681fe7 [color="red"];
+  BB75a68200e -> BB75a681fcf [color="blue"];
+  BB75a682018 -> BB75a681fcf [color="blue"];
+  BB75a682020 -> BB75a681fd8 [color="blue"];
+}

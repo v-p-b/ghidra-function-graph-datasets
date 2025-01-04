@@ -1,0 +1,13 @@
+digraph _Destroy_range<class_std::allocator<class_std::unique_ptr<struct_NameTree::Node,struct_std::default_delete<struct_NameTree::Node>_>_>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4ae8a4 -> BB75a4ae8d4 [color="green"];
+  BB75a4ae8a4 -> BB75a4ae8a9 [color="red"];
+  BB75a4ae8a9 -> BB75a4ae8b9 [color="blue"];
+  BB75a4ae8b9 -> BB75a4ae8d5 [color="green"];
+  BB75a4ae8b9 -> BB75a4ae8c1 [color="red"];
+  BB75a4ae8c1 -> BB75a4ae8b9 [color="green"];
+  BB75a4ae8c1 -> BB75a4ae8ca [color="red"];
+  BB75a4ae8ca -> BB75a4ae8d4 [color="blue"];
+  BB75a4ae8d5 -> BB75a4ae8c1 [color="blue"];
+}

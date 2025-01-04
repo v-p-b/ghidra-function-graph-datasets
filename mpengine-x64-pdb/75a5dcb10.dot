@@ -1,0 +1,16 @@
+digraph ice_ismine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5dcb10 -> BB75a5dcb6f [color="green"];
+  BB75a5dcb10 -> BB75a5dcb18 [color="red"];
+  BB75a5dcb18 -> BB75a5dcb6f [color="green"];
+  BB75a5dcb18 -> BB75a5dcb21 [color="red"];
+  BB75a5dcb21 -> BB75a5dcb3d [color="blue"];
+  BB75a5dcb3d -> BB75a5dcb69 [color="green"];
+  BB75a5dcb3d -> BB75a5dcb43 [color="red"];
+  BB75a5dcb43 -> BB75a5dcb64 [color="green"];
+  BB75a5dcb43 -> BB75a5dcb54 [color="red"];
+  BB75a5dcb54 -> BB75a5dcb64 [color="green"];
+  BB75a5dcb54 -> BB75a5dcb59 [color="red"];
+  BB75a5dcb64 -> BB75a5dcb3d [color="blue"];
+}

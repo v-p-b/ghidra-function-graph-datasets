@@ -1,0 +1,25 @@
+digraph ExtractAllInstances {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab09660 -> BB75ab09750 [color="green"];
+  BB75ab09660 -> BB75ab0968f [color="red"];
+  BB75ab0968f -> BB75ab09750 [color="green"];
+  BB75ab0968f -> BB75ab0969b [color="red"];
+  BB75ab0969b -> BB75ab09750 [color="green"];
+  BB75ab0969b -> BB75ab096a7 [color="red"];
+  BB75ab096a7 -> BB75ab096a9 [color="blue"];
+  BB75ab096a9 -> BB75ab09775 [color="green"];
+  BB75ab096a9 -> BB75ab096f9 [color="red"];
+  BB75ab096f9 -> BB75ab09775 [color="green"];
+  BB75ab096f9 -> BB75ab096fd [color="red"];
+  BB75ab096fd -> BB75ab0973b [color="green"];
+  BB75ab096fd -> BB75ab0970c [color="red"];
+  BB75ab0970c -> BB75ab0973b [color="green"];
+  BB75ab0970c -> BB75ab09714 [color="red"];
+  BB75ab09714 -> BB75ab09775 [color="green"];
+  BB75ab09714 -> BB75ab0971d [color="red"];
+  BB75ab0971d -> BB75ab096a9 [color="blue"];
+  BB75ab0973b -> BB75ab09750 [color="red"];
+  BB75ab09750 -> BB75ab09755 [color="blue"];
+  BB75ab09775 -> BB75ab09755 [color="blue"];
+}

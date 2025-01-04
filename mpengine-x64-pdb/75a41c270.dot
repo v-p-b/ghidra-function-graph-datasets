@@ -1,0 +1,16 @@
+digraph FillDisks {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a41c270 -> BB75a41c2f8 [color="green"];
+  BB75a41c270 -> BB75a41c2e1 [color="red"];
+  BB75a41c2e1 -> BB75a41c2f8 [color="red"];
+  BB75a41c2f8 -> BB75a41c33a [color="green"];
+  BB75a41c2f8 -> BB75a41c2fc [color="red"];
+  BB75a41c2fc -> BB75a41c32d [color="green"];
+  BB75a41c2fc -> BB75a41c30f [color="red"];
+  BB75a41c30f -> BB75a41c32d [color="green"];
+  BB75a41c30f -> BB75a41c315 [color="red"];
+  BB75a41c315 -> BB75a41c32d [color="red"];
+  BB75a41c32d -> BB75a41c349 [color="blue"];
+  BB75a41c33a -> BB75a41c349 [color="red"];
+}

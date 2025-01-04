@@ -1,0 +1,14 @@
+digraph IsSystemProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a653fb0 -> BB75a653feb [color="green"];
+  BB75a653fb0 -> BB75a653fcd [color="red"];
+  BB75a653fcd -> BB75a653ffc [color="green"];
+  BB75a653fcd -> BB75a653fd4 [color="red"];
+  BB75a653fd4 -> BB75a653ff2 [color="green"];
+  BB75a653fd4 -> BB75a653fd9 [color="red"];
+  BB75a653feb -> BB75a653fcd [color="blue"];
+  BB75a653ff2 -> BB75a653fd9 [color="green"];
+  BB75a653ff2 -> BB75a653ffc [color="red"];
+  BB75a653ffc -> BB75a653fd9 [color="blue"];
+}

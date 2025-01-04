@@ -1,0 +1,12 @@
+digraph modmon_module_cleanup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abab530 -> BB75abab571 [color="green"];
+  BB75abab530 -> BB75abab555 [color="red"];
+  BB75abab555 -> BB75abab571 [color="green"];
+  BB75abab555 -> BB75abab562 [color="red"];
+  BB75abab562 -> BB75abab571 [color="blue"];
+  BB75abab571 -> BB75abab588 [color="green"];
+  BB75abab571 -> BB75abab580 [color="red"];
+  BB75abab580 -> BB75abab588 [color="red"];
+}

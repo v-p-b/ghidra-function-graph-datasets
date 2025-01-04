@@ -1,0 +1,19 @@
+digraph multibyte_nop {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a600c94 -> BB75a600d44 [color="green"];
+  BB75a600c94 -> BB75a600cc0 [color="red"];
+  BB75a600cc0 -> BB75a600d44 [color="green"];
+  BB75a600cc0 -> BB75a600ccc [color="red"];
+  BB75a600ccc -> BB75a600ce9 [color="blue"];
+  BB75a600ce9 -> BB75a600d3a [color="green"];
+  BB75a600ce9 -> BB75a600cf9 [color="red"];
+  BB75a600d3a -> BB75a600cf9 [color="blue"];
+  BB75a600d44 -> BB75a600d64 [color="green"];
+  BB75a600d44 -> BB75a600d58 [color="red"];
+  BB75a600d58 -> BB75a600d5f [color="blue"];
+  BB75a600d5f -> BB75a600ce9 [color="blue"];
+  BB75a600d64 -> BB75a600ccc [color="green"];
+  BB75a600d64 -> BB75a600d77 [color="red"];
+  BB75a600d77 -> BB75a600d5f [color="blue"];
+}

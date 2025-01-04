@@ -1,0 +1,11 @@
+digraph Signal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a417854 -> BB75a41785e [color="blue"];
+  BB75a41785e -> BB75a417891 [color="green"];
+  BB75a41785e -> BB75a41786b [color="red"];
+  BB75a41786b -> BB75a41785e [color="green"];
+  BB75a41786b -> BB75a41787b [color="red"];
+  BB75a41787b -> BB75a41786b [color="green"];
+  BB75a41787b -> BB75a41788c [color="red"];
+}

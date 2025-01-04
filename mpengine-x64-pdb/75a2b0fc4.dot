@@ -1,0 +1,16 @@
+digraph LogResultToAsimov {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2b0fc4 -> BB75a2b0ff4 [color="green"];
+  BB75a2b0fc4 -> BB75a2b0fe9 [color="red"];
+  BB75a2b0ff4 -> BB75a2b0fe9 [color="green"];
+  BB75a2b0ff4 -> BB75a2b1000 [color="red"];
+  BB75a2b1000 -> BB75a2b101d [color="green"];
+  BB75a2b1000 -> BB75a2b1012 [color="red"];
+  BB75a2b1012 -> BB75a2b0fe9 [color="blue"];
+  BB75a2b101d -> BB75a2b1012 [color="green"];
+  BB75a2b101d -> BB75a2b1030 [color="red"];
+  BB75a2b1030 -> BB75a2b1012 [color="green"];
+  BB75a2b1030 -> BB75a2b1043 [color="red"];
+  BB75a2b1043 -> BB75a2b1012 [color="blue"];
+}

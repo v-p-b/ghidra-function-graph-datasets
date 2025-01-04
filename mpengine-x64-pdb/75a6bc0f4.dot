@@ -1,0 +1,15 @@
+digraph InsideTransaction {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6bc0f4 -> BB75a6bc136 [color="green"];
+  BB75a6bc0f4 -> BB75a6bc10a [color="red"];
+  BB75a6bc10a -> BB75a6bc13f [color="green"];
+  BB75a6bc10a -> BB75a6bc12e [color="red"];
+  BB75a6bc12e -> BB75a6bc130 [color="blue"];
+  BB75a6bc136 -> BB75a6bc130 [color="blue"];
+  BB75a6bc13f -> BB75a6bc12e [color="green"];
+  BB75a6bc13f -> BB75a6bc147 [color="red"];
+  BB75a6bc147 -> BB75a6bc12e [color="green"];
+  BB75a6bc147 -> BB75a6bc14d [color="red"];
+  BB75a6bc14d -> BB75a6bc12e [color="blue"];
+}

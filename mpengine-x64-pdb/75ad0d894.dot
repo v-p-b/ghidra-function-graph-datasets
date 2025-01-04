@@ -1,0 +1,13 @@
+digraph WriteZeros {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad0d894 -> BB75ad0d8dc [color="green"];
+  BB75ad0d894 -> BB75ad0d8a1 [color="red"];
+  BB75ad0d8a1 -> BB75ad0d8d7 [color="green"];
+  BB75ad0d8a1 -> BB75ad0d8b4 [color="red"];
+  BB75ad0d8b4 -> BB75ad0d8d7 [color="green"];
+  BB75ad0d8b4 -> BB75ad0d8ba [color="red"];
+  BB75ad0d8ba -> BB75ad0d8d7 [color="red"];
+  BB75ad0d8d7 -> BB75ad0d8ef [color="blue"];
+  BB75ad0d8dc -> BB75ad0d8ef [color="red"];
+}

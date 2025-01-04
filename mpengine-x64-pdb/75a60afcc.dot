@@ -1,0 +1,13 @@
+digraph set_all_masks {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a60afcc -> BB75a60b018 [color="green"];
+  BB75a60afcc -> BB75a60afd1 [color="red"];
+  BB75a60afd1 -> BB75a60b019 [color="green"];
+  BB75a60afd1 -> BB75a60aff3 [color="red"];
+  BB75a60aff3 -> BB75a60affb [color="blue"];
+  BB75a60affb -> BB75a60affb [color="green"];
+  BB75a60affb -> BB75a60b010 [color="red"];
+  BB75a60b010 -> BB75a60b018 [color="blue"];
+  BB75a60b019 -> BB75a60b010 [color="blue"];
+}

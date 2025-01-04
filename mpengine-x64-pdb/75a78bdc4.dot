@@ -1,0 +1,19 @@
+digraph initialize_environment_by_cloning_nolock<wchar_t> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a78bdc4 -> BB75a78be65 [color="green"];
+  BB75a78bdc4 -> BB75a78bde7 [color="red"];
+  BB75a78bde7 -> BB75a78bde9 [color="blue"];
+  BB75a78bdfe -> BB75a78bde7 [color="green"];
+  BB75a78bdfe -> BB75a78be1f [color="red"];
+  BB75a78be1f -> BB75a78be72 [color="green"];
+  BB75a78be1f -> BB75a78be34 [color="red"];
+  BB75a78be34 -> BB75a78be74 [color="green"];
+  BB75a78be34 -> BB75a78be53 [color="red"];
+  BB75a78be53 -> BB75a78be65 [color="red"];
+  BB75a78be65 -> BB75a78bdfe [color="green"];
+  BB75a78be65 -> BB75a78be6d [color="red"];
+  BB75a78be6d -> BB75a78bde9 [color="blue"];
+  BB75a78be72 -> BB75a78be74 [color="blue"];
+  BB75a78be74 -> BB75a78bde7 [color="blue"];
+}

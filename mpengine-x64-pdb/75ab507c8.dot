@@ -1,0 +1,22 @@
+digraph isSelfJoinView {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab507c8 -> BB75ab507de [color="blue"];
+  BB75ab507de -> BB75ab50841 [color="green"];
+  BB75ab507de -> BB75ab507e3 [color="red"];
+  BB75ab507e3 -> BB75ab50836 [color="green"];
+  BB75ab507e3 -> BB75ab507ec [color="red"];
+  BB75ab507ec -> BB75ab50836 [color="green"];
+  BB75ab507ec -> BB75ab507f2 [color="red"];
+  BB75ab507f2 -> BB75ab50836 [color="green"];
+  BB75ab507f2 -> BB75ab507f9 [color="red"];
+  BB75ab507f9 -> BB75ab50836 [color="green"];
+  BB75ab507f9 -> BB75ab5080a [color="red"];
+  BB75ab5080a -> BB75ab50836 [color="green"];
+  BB75ab5080a -> BB75ab5081b [color="red"];
+  BB75ab5081b -> BB75ab5083c [color="green"];
+  BB75ab5081b -> BB75ab50836 [color="red"];
+  BB75ab50836 -> BB75ab507de [color="blue"];
+  BB75ab5083c -> BB75ab50843 [color="blue"];
+  BB75ab50841 -> BB75ab50843 [color="blue"];
+}

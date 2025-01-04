@@ -1,0 +1,9 @@
+digraph GetParentPpid {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acc0530 -> BB75acc056d [color="green"];
+  BB75acc0530 -> BB75acc0558 [color="red"];
+  BB75acc0558 -> BB75acc0626 [color="blue"];
+  BB75acc056d -> BB75acc05c4 [color="blue"];
+  BB75acc05c4 -> BB75acc0626 [color="blue"];
+}

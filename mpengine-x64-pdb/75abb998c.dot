@@ -1,0 +1,9 @@
+digraph SignalEIP {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb998c -> BB75abb999f [color="green"];
+  BB75abb998c -> BB75abb9992 [color="red"];
+  BB75abb9992 -> BB75abb999f [color="green"];
+  BB75abb9992 -> BB75abb999b [color="red"];
+  BB75abb999b -> BB75abb999f [color="blue"];
+}

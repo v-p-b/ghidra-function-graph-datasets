@@ -1,0 +1,33 @@
+digraph ReportActionFailure {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac88294 -> BB75ac882e3 [color="green"];
+  BB75ac88294 -> BB75ac882cb [color="red"];
+  BB75ac882cb -> BB75ac8839d [color="green"];
+  BB75ac882cb -> BB75ac882e3 [color="red"];
+  BB75ac882e3 -> BB75ac8839d [color="green"];
+  BB75ac882e3 -> BB75ac882fb [color="red"];
+  BB75ac882fb -> BB75ac88301 [color="blue"];
+  BB75ac88301 -> BB75ac8839d [color="green"];
+  BB75ac88301 -> BB75ac8830a [color="red"];
+  BB75ac8830a -> BB75ac88351 [color="green"];
+  BB75ac8830a -> BB75ac8831c [color="red"];
+  BB75ac8831c -> BB75ac88351 [color="green"];
+  BB75ac8831c -> BB75ac88338 [color="red"];
+  BB75ac88338 -> BB75ac8839d [color="green"];
+  BB75ac88338 -> BB75ac88351 [color="red"];
+  BB75ac88351 -> BB75ac88379 [color="green"];
+  BB75ac88351 -> BB75ac8835b [color="red"];
+  BB75ac8835b -> BB75ac8836e [color="blue"];
+  BB75ac88361 -> BB75ac88374 [color="green"];
+  BB75ac88361 -> BB75ac88367 [color="red"];
+  BB75ac88367 -> BB75ac8836e [color="blue"];
+  BB75ac8836e -> BB75ac88361 [color="green"];
+  BB75ac8836e -> BB75ac88374 [color="red"];
+  BB75ac88374 -> BB75ac88301 [color="blue"];
+  BB75ac88379 -> BB75ac88301 [color="green"];
+  BB75ac88379 -> BB75ac88389 [color="red"];
+  BB75ac88389 -> BB75ac88389 [color="green"];
+  BB75ac88389 -> BB75ac88398 [color="red"];
+  BB75ac88398 -> BB75ac88301 [color="blue"];
+}

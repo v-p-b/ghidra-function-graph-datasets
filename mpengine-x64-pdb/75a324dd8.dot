@@ -1,0 +1,14 @@
+digraph GetSyncMonitoringFlags {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a324dd8 -> BB75a324e72 [color="green"];
+  BB75a324dd8 -> BB75a324e11 [color="red"];
+  BB75a324e11 -> BB75a324e55 [color="green"];
+  BB75a324e11 -> BB75a324e4d [color="red"];
+  BB75a324e4d -> BB75a324e55 [color="red"];
+  BB75a324e55 -> BB75a324e57 [color="blue"];
+  BB75a324e72 -> BB75a324e81 [color="green"];
+  BB75a324e72 -> BB75a324e7c [color="red"];
+  BB75a324e7c -> BB75a324e81 [color="red"];
+  BB75a324e81 -> BB75a324e57 [color="blue"];
+}

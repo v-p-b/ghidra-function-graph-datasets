@@ -1,0 +1,20 @@
+digraph PanicHandler {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a44d780 -> BB75a44d7d8 [color="green"];
+  BB75a44d780 -> BB75a44d7a3 [color="red"];
+  BB75a44d7a3 -> BB75a44d7b3 [color="green"];
+  BB75a44d7a3 -> BB75a44d7af [color="red"];
+  BB75a44d7af -> BB75a44d7df [color="blue"];
+  BB75a44d7b3 -> BB75a44d7cd [color="green"];
+  BB75a44d7b3 -> BB75a44d7c1 [color="red"];
+  BB75a44d7c1 -> BB75a44d7cd [color="red"];
+  BB75a44d7cd -> BB75a44d7d8 [color="red"];
+  BB75a44d7d8 -> BB75a44d7df [color="blue"];
+  BB75a44d7df -> BB75a44d838 [color="green"];
+  BB75a44d7df -> BB75a44d81b [color="red"];
+  BB75a44d81b -> BB75a44d833 [color="blue"];
+  BB75a44d824 -> BB75a44d833 [color="red"];
+  BB75a44d833 -> BB75a44d824 [color="green"];
+  BB75a44d833 -> BB75a44d838 [color="red"];
+}

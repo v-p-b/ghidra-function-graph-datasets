@@ -1,0 +1,34 @@
+digraph CheckRootCertificate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5a8f90 -> BB75a5a8fde [color="green"];
+  BB75a5a8f90 -> BB75a5a8fc4 [color="red"];
+  BB75a5a8fde -> BB75a5a9098 [color="green"];
+  BB75a5a8fde -> BB75a5a900f [color="red"];
+  BB75a5a900f -> BB75a5a9060 [color="green"];
+  BB75a5a900f -> BB75a5a904c [color="red"];
+  BB75a5a904c -> BB75a5a9060 [color="red"];
+  BB75a5a9060 -> BB75a5a908f [color="green"];
+  BB75a5a9060 -> BB75a5a9078 [color="red"];
+  BB75a5a9078 -> BB75a5a908f [color="red"];
+  BB75a5a908f -> BB75a5a8fc4 [color="green"];
+  BB75a5a908f -> BB75a5a9098 [color="red"];
+  BB75a5a9098 -> BB75a5a9127 [color="green"];
+  BB75a5a9098 -> BB75a5a90a1 [color="red"];
+  BB75a5a90a1 -> BB75a5a90f1 [color="green"];
+  BB75a5a90a1 -> BB75a5a90de [color="red"];
+  BB75a5a90de -> BB75a5a90f1 [color="red"];
+  BB75a5a90f1 -> BB75a5a911e [color="green"];
+  BB75a5a90f1 -> BB75a5a9108 [color="red"];
+  BB75a5a9108 -> BB75a5a911e [color="red"];
+  BB75a5a911e -> BB75a5a8fc4 [color="green"];
+  BB75a5a911e -> BB75a5a9127 [color="red"];
+  BB75a5a9127 -> BB75a5a8fc4 [color="green"];
+  BB75a5a9127 -> BB75a5a9130 [color="red"];
+  BB75a5a9130 -> BB75a5a9180 [color="green"];
+  BB75a5a9130 -> BB75a5a916d [color="red"];
+  BB75a5a916d -> BB75a5a9180 [color="red"];
+  BB75a5a9180 -> BB75a5a8fc4 [color="green"];
+  BB75a5a9180 -> BB75a5a919a [color="red"];
+  BB75a5a919a -> BB75a5a8fc4 [color="blue"];
+}

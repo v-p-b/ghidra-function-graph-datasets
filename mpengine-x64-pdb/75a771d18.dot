@@ -1,0 +1,17 @@
+digraph __acrt_call_reportfault {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a771d18 -> BB75a771d57 [color="green"];
+  BB75a771d18 -> BB75a771d52 [color="red"];
+  BB75a771d52 -> BB75a771d57 [color="red"];
+  BB75a771d57 -> BB75a771dfc [color="green"];
+  BB75a771d57 -> BB75a771dc6 [color="red"];
+  BB75a771dc6 -> BB75a771dfc [color="red"];
+  BB75a771dfc -> BB75a771e5e [color="green"];
+  BB75a771dfc -> BB75a771e4e [color="red"];
+  BB75a771e4e -> BB75a771e5e [color="green"];
+  BB75a771e4e -> BB75a771e52 [color="red"];
+  BB75a771e52 -> BB75a771e5e [color="green"];
+  BB75a771e52 -> BB75a771e57 [color="red"];
+  BB75a771e57 -> BB75a771e5e [color="red"];
+}

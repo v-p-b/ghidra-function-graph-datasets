@@ -1,0 +1,27 @@
+digraph copyBlockFromReaderToVfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac66bf8 -> BB75ac66c78 [color="green"];
+  BB75ac66bf8 -> BB75ac66c26 [color="red"];
+  BB75ac66c26 -> BB75ac66c78 [color="green"];
+  BB75ac66c26 -> BB75ac66c3a [color="red"];
+  BB75ac66c3a -> BB75ac66d14 [color="green"];
+  BB75ac66c3a -> BB75ac66c51 [color="red"];
+  BB75ac66c51 -> BB75ac66d14 [color="green"];
+  BB75ac66c51 -> BB75ac66c5b [color="red"];
+  BB75ac66c5b -> BB75ac66d14 [color="blue"];
+  BB75ac66c78 -> BB75ac66d18 [color="green"];
+  BB75ac66c78 -> BB75ac66c80 [color="red"];
+  BB75ac66c80 -> BB75ac66ccb [color="green"];
+  BB75ac66c80 -> BB75ac66cac [color="red"];
+  BB75ac66cac -> BB75ac66ccb [color="green"];
+  BB75ac66cac -> BB75ac66cc7 [color="red"];
+  BB75ac66cc7 -> BB75ac66c78 [color="blue"];
+  BB75ac66ccb -> BB75ac66d14 [color="green"];
+  BB75ac66ccb -> BB75ac66cde [color="red"];
+  BB75ac66cde -> BB75ac66d14 [color="green"];
+  BB75ac66cde -> BB75ac66ce4 [color="red"];
+  BB75ac66ce4 -> BB75ac66d14 [color="red"];
+  BB75ac66d14 -> BB75ac66d1a [color="blue"];
+  BB75ac66d18 -> BB75ac66d1a [color="blue"];
+}

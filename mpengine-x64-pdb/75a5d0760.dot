@@ -1,0 +1,14 @@
+digraph simboot_ismine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5d0760 -> BB75a5d07ba [color="green"];
+  BB75a5d0760 -> BB75a5d0770 [color="red"];
+  BB75a5d0770 -> BB75a5d07ba [color="green"];
+  BB75a5d0770 -> BB75a5d077e [color="red"];
+  BB75a5d077e -> BB75a5d07ba [color="green"];
+  BB75a5d077e -> BB75a5d078a [color="red"];
+  BB75a5d078a -> BB75a5d07ba [color="green"];
+  BB75a5d078a -> BB75a5d0796 [color="red"];
+  BB75a5d0796 -> BB75a5d07b4 [color="red"];
+  BB75a5d07ba -> BB75a5d07b4 [color="blue"];
+}

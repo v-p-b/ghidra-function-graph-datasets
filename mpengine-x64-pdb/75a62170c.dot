@@ -1,0 +1,12 @@
+digraph Purge {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a62170c -> BB75a62173b [color="red"];
+  BB75a62173b -> BB75a62173e [color="blue"];
+  BB75a62173e -> BB75a621787 [color="green"];
+  BB75a62173e -> BB75a621743 [color="red"];
+  BB75a621743 -> BB75a62173b [color="green"];
+  BB75a621743 -> BB75a621754 [color="red"];
+  BB75a621754 -> BB75ae20de0 [color="blue"];
+  BB75a621787 -> BB75a62173e [color="blue"];
+}

@@ -1,0 +1,21 @@
+digraph write_buffer_nolock<char> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7ab29c -> BB75a7ab362 [color="green"];
+  BB75a7ab29c -> BB75a7ab2d1 [color="red"];
+  BB75a7ab2d1 -> BB75a7ab30d [color="green"];
+  BB75a7ab2d1 -> BB75a7ab2ef [color="red"];
+  BB75a7ab2ef -> BB75a7ab2ff [color="red"];
+  BB75a7ab2ff -> BB75a7ab37b [color="blue"];
+  BB75a7ab30d -> BB75a7ab338 [color="green"];
+  BB75a7ab30d -> BB75a7ab316 [color="red"];
+  BB75a7ab316 -> BB75a7ab33f [color="blue"];
+  BB75a7ab338 -> BB75a7ab33f [color="blue"];
+  BB75a7ab33f -> BB75a7ab2ff [color="green"];
+  BB75a7ab33f -> BB75a7ab345 [color="red"];
+  BB75a7ab345 -> BB75a7ab2ff [color="green"];
+  BB75a7ab345 -> BB75a7ab359 [color="red"];
+  BB75a7ab359 -> BB75a7ab37e [color="blue"];
+  BB75a7ab362 -> BB75a7ab37b [color="red"];
+  BB75a7ab37b -> BB75a7ab37e [color="blue"];
+}

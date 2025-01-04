@@ -1,0 +1,13 @@
+digraph filepathscan_cleanup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a30c0f0 -> BB75a30c108 [color="blue"];
+  BB75a30c108 -> BB75a30c116 [color="green"];
+  BB75a30c108 -> BB75a30c111 [color="red"];
+  BB75a30c111 -> BB75a30c116 [color="red"];
+  BB75a30c116 -> BB75a30c128 [color="green"];
+  BB75a30c116 -> BB75a30c123 [color="red"];
+  BB75a30c123 -> BB75a30c128 [color="red"];
+  BB75a30c128 -> BB75a30c108 [color="green"];
+  BB75a30c128 -> BB75a30c135 [color="red"];
+}

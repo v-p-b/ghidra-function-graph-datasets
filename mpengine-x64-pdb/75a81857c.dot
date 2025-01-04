@@ -1,0 +1,32 @@
+digraph BmDopplegang {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a81857c -> BB75a8187e0 [color="green"];
+  BB75a81857c -> BB75a8185b0 [color="red"];
+  BB75a8185b0 -> BB75a8187e0 [color="green"];
+  BB75a8185b0 -> BB75a8185c0 [color="red"];
+  BB75a8185c0 -> BB75a8187d2 [color="green"];
+  BB75a8185c0 -> BB75a8185da [color="red"];
+  BB75a8185da -> BB75a8187d2 [color="green"];
+  BB75a8185da -> BB75a8185f8 [color="red"];
+  BB75a8185f8 -> BB75a8187d2 [color="red"];
+  BB75a8187d2 -> BB75a8187e0 [color="red"];
+  BB75a8187e0 -> BB75a818860 [color="green"];
+  BB75a8187e0 -> BB75a81881c [color="red"];
+  BB75a81881c -> BB75a81884c [color="green"];
+  BB75a81881c -> BB75a81882f [color="red"];
+  BB75a81882f -> BB75a81884c [color="green"];
+  BB75a81882f -> BB75a818835 [color="red"];
+  BB75a818835 -> BB75a81884c [color="red"];
+  BB75a81884c -> BB75a81890a [color="blue"];
+  BB75a818860 -> BB75a8188b3 [color="green"];
+  BB75a818860 -> BB75a818871 [color="red"];
+  BB75a818871 -> BB75a8188a2 [color="green"];
+  BB75a818871 -> BB75a818884 [color="red"];
+  BB75a818884 -> BB75a8188a2 [color="green"];
+  BB75a818884 -> BB75a81888a [color="red"];
+  BB75a81888a -> BB75a8188a2 [color="red"];
+  BB75a8188a2 -> BB75a81890a [color="blue"];
+  BB75a8188b3 -> BB75a818908 [color="blue"];
+  BB75a818908 -> BB75a81890a [color="blue"];
+}

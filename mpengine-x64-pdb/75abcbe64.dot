@@ -1,0 +1,18 @@
+digraph Heartbeat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abcbe64 -> BB75abcbf02 [color="green"];
+  BB75abcbe64 -> BB75abcbe8e [color="red"];
+  BB75abcbe8e -> BB75abcbf02 [color="green"];
+  BB75abcbe8e -> BB75abcbec0 [color="red"];
+  BB75abcbec0 -> BB75abcbeca [color="green"];
+  BB75abcbec0 -> BB75abcbec5 [color="red"];
+  BB75abcbec5 -> BB75abcbeca [color="red"];
+  BB75abcbeca -> BB75abcbefb [color="green"];
+  BB75abcbeca -> BB75abcbedd [color="red"];
+  BB75abcbedd -> BB75abcbefb [color="green"];
+  BB75abcbedd -> BB75abcbee3 [color="red"];
+  BB75abcbee3 -> BB75abcbefb [color="red"];
+  BB75abcbefb -> BB75abcbf04 [color="blue"];
+  BB75abcbf02 -> BB75abcbf04 [color="blue"];
+}

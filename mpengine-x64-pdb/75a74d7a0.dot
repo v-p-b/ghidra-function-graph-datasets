@@ -1,0 +1,10 @@
+digraph `scalar_deleting_destructor' {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a74d7a0 -> BB75a74d7e1 [color="green"];
+  BB75a74d7a0 -> BB75a74d7c2 [color="red"];
+  BB75a74d7c2 -> BB75a74d7e1 [color="red"];
+  BB75a74d7e1 -> BB75a74d7f4 [color="green"];
+  BB75a74d7e1 -> BB75a74d7e7 [color="red"];
+  BB75a74d7e7 -> BB75a74d7f4 [color="red"];
+}

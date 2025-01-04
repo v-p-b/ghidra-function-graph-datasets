@@ -1,0 +1,8 @@
+digraph TestIsHardenedProcessTarget {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a22b840 -> BB75a22b8aa [color="green"];
+  BB75a22b840 -> BB75a22b86d [color="red"];
+  BB75a22b86d -> BB75a22b89f [color="red"];
+  BB75a22b8aa -> BB75a22b89f [color="blue"];
+}

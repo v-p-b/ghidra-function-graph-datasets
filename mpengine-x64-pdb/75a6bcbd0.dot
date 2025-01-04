@@ -1,0 +1,13 @@
+digraph NativeWrapper_GetAttribute {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6bcbd0 -> BB75a6bcbd8 [color="green"];
+  BB75a6bcbd0 -> BB75a6bcbd5 [color="red"];
+  BB75a6bcbd8 -> BB75a6bcbd5 [color="green"];
+  BB75a6bcbd8 -> BB75a6bcbde [color="red"];
+  BB75a6bcbde -> BB75a6bcbd5 [color="green"];
+  BB75a6bcbde -> BB75a6bcbe3 [color="red"];
+  BB75a6bcbe3 -> BB75a6bcbf8 [color="green"];
+  BB75a6bcbe3 -> BB75a6bcbf1 [color="red"];
+  BB75a6bcbf1 -> BB75a6bcbf8 [color="blue"];
+}

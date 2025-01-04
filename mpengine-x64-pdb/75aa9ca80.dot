@@ -1,0 +1,10 @@
+digraph resolve_global_apis {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa9ca80 -> BB75aa9cac3 [color="green"];
+  BB75aa9ca80 -> BB75aa9cab8 [color="red"];
+  BB75aa9cab8 -> BB75aa9cac3 [color="green"];
+  BB75aa9cab8 -> BB75aa9cabd [color="red"];
+  BB75aa9cabd -> BB75aa9cac5 [color="blue"];
+  BB75aa9cac3 -> BB75aa9cac5 [color="blue"];
+}

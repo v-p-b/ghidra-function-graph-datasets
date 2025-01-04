@@ -1,0 +1,11 @@
+digraph eIL_shrd64 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abc54b4 -> BB75abc55a0 [color="green"];
+  BB75abc54b4 -> BB75abc54db [color="red"];
+  BB75abc54db -> BB75abc5589 [color="green"];
+  BB75abc54db -> BB75abc5564 [color="red"];
+  BB75abc5564 -> BB75abc5595 [color="blue"];
+  BB75abc5589 -> BB75abc5595 [color="blue"];
+  BB75abc5595 -> BB75abc55a0 [color="blue"];
+}

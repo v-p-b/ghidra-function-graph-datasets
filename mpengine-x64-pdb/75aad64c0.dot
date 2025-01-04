@@ -1,0 +1,16 @@
+digraph match_wild {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aad64c0 -> BB75aad6515 [color="green"];
+  BB75aad64c0 -> BB75aad64d1 [color="red"];
+  BB75aad64d1 -> BB75aad64f1 [color="green"];
+  BB75aad64d1 -> BB75aad64e2 [color="red"];
+  BB75aad64e2 -> BB75aad6515 [color="green"];
+  BB75aad64e2 -> BB75aad64f1 [color="red"];
+  BB75aad64f1 -> BB75aad64ff [color="green"];
+  BB75aad64f1 -> BB75aad64f8 [color="red"];
+  BB75aad64f8 -> BB75aad6515 [color="green"];
+  BB75aad64f8 -> BB75aad64ff [color="red"];
+  BB75aad64ff -> BB75aad6517 [color="blue"];
+  BB75aad6515 -> BB75aad6517 [color="blue"];
+}

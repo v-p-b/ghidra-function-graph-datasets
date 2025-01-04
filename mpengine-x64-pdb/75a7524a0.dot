@@ -1,0 +1,25 @@
+digraph sqlite3_shutdown {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7524a0 -> BB75a7524c1 [color="green"];
+  BB75a7524a0 -> BB75a7524ad [color="red"];
+  BB75a7524ad -> BB75a7524c1 [color="red"];
+  BB75a7524c1 -> BB75a7524e9 [color="green"];
+  BB75a7524c1 -> BB75a7524ca [color="red"];
+  BB75a7524ca -> BB75a7524e2 [color="green"];
+  BB75a7524ca -> BB75a7524d6 [color="red"];
+  BB75a7524d6 -> BB75a7524e2 [color="red"];
+  BB75a7524e2 -> BB75a7524e9 [color="blue"];
+  BB75a7524e9 -> BB75a752531 [color="green"];
+  BB75a7524e9 -> BB75a7524f2 [color="red"];
+  BB75a7524f2 -> BB75a75250a [color="green"];
+  BB75a7524f2 -> BB75a7524fe [color="red"];
+  BB75a7524fe -> BB75a75250a [color="red"];
+  BB75a75250a -> BB75a752531 [color="blue"];
+  BB75a752531 -> BB75a752552 [color="green"];
+  BB75a752531 -> BB75a75253a [color="red"];
+  BB75a75253a -> BB75a75254b [color="green"];
+  BB75a75253a -> BB75a752546 [color="red"];
+  BB75a752546 -> BB75a75254b [color="red"];
+  BB75a75254b -> BB75a752552 [color="blue"];
+}

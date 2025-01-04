@@ -1,0 +1,20 @@
+digraph UpdateHips {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7c4678 -> BB75a7c46ae [color="green"];
+  BB75a7c4678 -> BB75a7c46a1 [color="red"];
+  BB75a7c46a1 -> BB75a7c46ae [color="red"];
+  BB75a7c46ae -> BB75a7c4712 [color="green"];
+  BB75a7c46ae -> BB75a7c46b8 [color="red"];
+  BB75a7c46b8 -> BB75a7c4712 [color="green"];
+  BB75a7c46b8 -> BB75a7c46c1 [color="red"];
+  BB75a7c46c1 -> BB75a7c46d0 [color="green"];
+  BB75a7c46c1 -> BB75a7c46c6 [color="red"];
+  BB75a7c46c6 -> BB75a7c46d2 [color="green"];
+  BB75a7c46c6 -> BB75a7c46d0 [color="red"];
+  BB75a7c46d0 -> BB75a7c46d2 [color="blue"];
+  BB75a7c46d2 -> BB75a7c4717 [color="green"];
+  BB75a7c46d2 -> BB75a7c46eb [color="red"];
+  BB75a7c46eb -> BB75a7c4717 [color="blue"];
+  BB75a7c4712 -> BB75a7c4717 [color="blue"];
+}

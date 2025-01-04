@@ -1,0 +1,12 @@
+digraph `vbase_destructor' {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6b2cb4 -> BB75a6b2d08 [color="green"];
+  BB75a6b2cb4 -> BB75a6b2cdc [color="red"];
+  BB75a6b2cdc -> BB75a6b2d02 [color="green"];
+  BB75a6b2cdc -> BB75a6b2ced [color="red"];
+  BB75a6b2ced -> BB75a6b2d02 [color="red"];
+  BB75a6b2d08 -> BB75a6b2d02 [color="green"];
+  BB75a6b2d08 -> BB75a6b2d18 [color="red"];
+  BB75a6b2d18 -> BB75a6b2cdc [color="blue"];
+}

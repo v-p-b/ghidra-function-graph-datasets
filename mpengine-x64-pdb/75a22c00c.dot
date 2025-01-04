@@ -1,0 +1,8 @@
+digraph TestIsTaintAllowed {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a22c00c -> BB75a22c07f [color="green"];
+  BB75a22c00c -> BB75a22c039 [color="red"];
+  BB75a22c039 -> BB75a22c074 [color="red"];
+  BB75a22c07f -> BB75a22c074 [color="blue"];
+}

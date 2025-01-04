@@ -1,0 +1,9 @@
+digraph thread_start<unsigned_int_(__cdecl*)(void_*),1> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a79c610 -> BB75a79c62d [color="green"];
+  BB75a79c610 -> BB75a79c61e [color="red"];
+  BB75a79c62d -> BB75a79c653 [color="green"];
+  BB75a79c62d -> BB75a79c643 [color="red"];
+  BB75a79c643 -> BB75a79c653 [color="red"];
+}

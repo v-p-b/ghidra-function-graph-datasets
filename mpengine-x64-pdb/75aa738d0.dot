@@ -1,0 +1,19 @@
+digraph NTDLL_DLL_VFS_Open {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa738d0 -> BB75aa73a1f [color="green"];
+  BB75aa738d0 -> BB75aa7393f [color="red"];
+  BB75aa7393f -> BB75aa73a1f [color="green"];
+  BB75aa7393f -> BB75aa7394d [color="red"];
+  BB75aa7394d -> BB75aa73a15 [color="green"];
+  BB75aa7394d -> BB75aa73974 [color="red"];
+  BB75aa73974 -> BB75aa739b9 [color="green"];
+  BB75aa73974 -> BB75aa739b3 [color="red"];
+  BB75aa739b3 -> BB75aa73a15 [color="blue"];
+  BB75aa739b9 -> BB75aa73a15 [color="green"];
+  BB75aa739b9 -> BB75aa739d0 [color="red"];
+  BB75aa739d0 -> BB75aa73a15 [color="green"];
+  BB75aa739d0 -> BB75aa739e6 [color="red"];
+  BB75aa739e6 -> BB75aa73a15 [color="red"];
+  BB75aa73a15 -> BB75aa73a1f [color="red"];
+}

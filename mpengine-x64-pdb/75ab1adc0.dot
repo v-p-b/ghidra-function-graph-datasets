@@ -1,0 +1,17 @@
+digraph GetBehavioralNetworkBlocksExclusions {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab1adc0 -> BB75ab1ae33 [color="green"];
+  BB75ab1adc0 -> BB75ab1add5 [color="red"];
+  BB75ab1add5 -> BB75ab1ae33 [color="green"];
+  BB75ab1add5 -> BB75ab1addf [color="red"];
+  BB75ab1addf -> BB75ab1adfc [color="red"];
+  BB75ab1adfc -> BB75ab1ae24 [color="green"];
+  BB75ab1adfc -> BB75ab1ae01 [color="red"];
+  BB75ab1ae01 -> BB75ab1ae15 [color="green"];
+  BB75ab1ae01 -> BB75ab1ae11 [color="red"];
+  BB75ab1ae11 -> BB75ab1adfc [color="blue"];
+  BB75ab1ae15 -> BB75ab1ae40 [color="blue"];
+  BB75ab1ae24 -> BB75ab1ae40 [color="blue"];
+  BB75ab1ae33 -> BB75ab1ae40 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph estimateIndexWidth {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a28e378 -> BB75a28e3bd [color="green"];
+  BB75a28e378 -> BB75a28e394 [color="red"];
+  BB75a28e394 -> BB75a28e39d [color="blue"];
+  BB75a28e39d -> BB75a28e3d3 [color="green"];
+  BB75a28e39d -> BB75a28e3a3 [color="red"];
+  BB75a28e3a3 -> BB75a28e3b1 [color="blue"];
+  BB75a28e3b1 -> BB75a28e39d [color="green"];
+  BB75a28e3b1 -> BB75a28e3bd [color="red"];
+  BB75a28e3d3 -> BB75a28e3b1 [color="blue"];
+}

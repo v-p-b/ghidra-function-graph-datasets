@@ -1,0 +1,14 @@
+digraph FindDetection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a492524 -> BB75a49254d [color="green"];
+  BB75a492524 -> BB75a492548 [color="red"];
+  BB75a492548 -> BB75a49254d [color="red"];
+  BB75a49254d -> BB75a492559 [color="green"];
+  BB75a49254d -> BB75a492552 [color="red"];
+  BB75a492552 -> BB75a4925ad [color="blue"];
+  BB75a492559 -> BB75a4925a1 [color="green"];
+  BB75a492559 -> BB75a492591 [color="red"];
+  BB75a492591 -> BB75a4925a1 [color="blue"];
+  BB75a4925a1 -> BB75a4925ad [color="red"];
+}

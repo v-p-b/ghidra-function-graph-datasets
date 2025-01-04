@@ -1,0 +1,10 @@
+digraph emulate_IL {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4c3c04 -> BB75a4c3d8e [color="green"];
+  BB75a4c3c04 -> BB75a4c3d01 [color="red"];
+  BB75a4c3d8e -> BB75a4c3db9 [color="green"];
+  BB75a4c3d8e -> BB75a4c3d9b [color="red"];
+  BB75a4c3d9b -> BB75a4c3d01 [color="blue"];
+  BB75a4c3db9 -> BB75a4c3d01 [color="blue"];
+}

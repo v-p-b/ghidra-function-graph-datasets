@@ -1,0 +1,17 @@
+digraph sqlite3WalExclusiveMode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5eda68 -> BB75a5edaa9 [color="green"];
+  BB75a5eda68 -> BB75a5eda7b [color="red"];
+  BB75a5eda7b -> BB75a5eda8d [color="green"];
+  BB75a5eda7b -> BB75a5eda80 [color="red"];
+  BB75a5eda8d -> BB75a5edaa4 [color="green"];
+  BB75a5eda8d -> BB75a5edaa0 [color="red"];
+  BB75a5edaa0 -> BB75a5edaa4 [color="blue"];
+  BB75a5edaa4 -> BB75a5edac5 [color="blue"];
+  BB75a5edaa9 -> BB75a5edac2 [color="green"];
+  BB75a5edaa9 -> BB75a5edaab [color="red"];
+  BB75a5edaab -> BB75a5eda80 [color="blue"];
+  BB75a5edac2 -> BB75a5edac5 [color="blue"];
+  BB75a5edac5 -> BB75a5eda80 [color="blue"];
+}

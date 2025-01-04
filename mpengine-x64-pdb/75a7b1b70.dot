@@ -1,0 +1,9 @@
+digraph _IsNonwritableInCurrentImage {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7b1b70 -> BB75a7b1bb2 [color="green"];
+  BB75a7b1b70 -> BB75a7b1b90 [color="red"];
+  BB75a7b1b90 -> BB75a7b1bb2 [color="green"];
+  BB75a7b1b90 -> BB75a7b1ba3 [color="red"];
+  BB75a7b1ba3 -> BB75a7b1bb2 [color="blue"];
+}

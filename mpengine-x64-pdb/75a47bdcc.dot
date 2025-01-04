@@ -1,0 +1,13 @@
+digraph handleMovedCursor {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a47bdcc -> BB75a47bdf7 [color="green"];
+  BB75a47bdcc -> BB75a47bde2 [color="red"];
+  BB75a47bde2 -> BB75a47bdf7 [color="green"];
+  BB75a47bde2 -> BB75a47bdf0 [color="red"];
+  BB75a47bdf0 -> BB75a47be00 [color="blue"];
+  BB75a47bdf7 -> BB75a47be00 [color="blue"];
+  BB75a47be00 -> BB75a47be0c [color="green"];
+  BB75a47be00 -> BB75a47be08 [color="red"];
+  BB75a47be08 -> BB75a47be0c [color="blue"];
+}

@@ -1,0 +1,22 @@
+digraph ScanRkPatterns {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa8cbec -> BB75aa8cc96 [color="green"];
+  BB75aa8cbec -> BB75aa8cc11 [color="red"];
+  BB75aa8cc11 -> BB75aa8cc14 [color="blue"];
+  BB75aa8cc14 -> BB75aa8cc96 [color="green"];
+  BB75aa8cc14 -> BB75aa8cc1a [color="red"];
+  BB75aa8cc1a -> BB75aa8cc56 [color="green"];
+  BB75aa8cc1a -> BB75aa8cc23 [color="red"];
+  BB75aa8cc23 -> BB75aa8cc5c [color="green"];
+  BB75aa8cc23 -> BB75aa8cc4f [color="red"];
+  BB75aa8cc4f -> BB75aa8cc56 [color="blue"];
+  BB75aa8cc56 -> BB75aa8cc14 [color="blue"];
+  BB75aa8cc5c -> BB75aa8cc8f [color="green"];
+  BB75aa8cc5c -> BB75aa8cc74 [color="red"];
+  BB75aa8cc74 -> BB75aa8cc8f [color="green"];
+  BB75aa8cc74 -> BB75aa8cc7a [color="red"];
+  BB75aa8cc7a -> BB75aa8cc8f [color="red"];
+  BB75aa8cc8f -> BB75aa8cc98 [color="blue"];
+  BB75aa8cc96 -> BB75aa8cc98 [color="blue"];
+}

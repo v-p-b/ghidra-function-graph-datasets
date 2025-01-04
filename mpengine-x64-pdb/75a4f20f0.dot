@@ -1,0 +1,17 @@
+digraph KERNEL32_DLL_ReadProcessMemory {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4f20f0 -> BB75a4f21dc [color="green"];
+  BB75a4f20f0 -> BB75a4f2153 [color="red"];
+  BB75a4f2153 -> BB75a4f219f [color="green"];
+  BB75a4f2153 -> BB75a4f2184 [color="red"];
+  BB75a4f2184 -> BB75a4f21e5 [color="green"];
+  BB75a4f2184 -> BB75a4f219d [color="red"];
+  BB75a4f219d -> BB75a4f219f [color="blue"];
+  BB75a4f219f -> BB75a4f21a5 [color="blue"];
+  BB75a4f21a5 -> BB75a4f21b6 [color="green"];
+  BB75a4f21a5 -> BB75a4f21aa [color="red"];
+  BB75a4f21aa -> BB75a4f21b6 [color="blue"];
+  BB75a4f21dc -> BB75a4f21a5 [color="blue"];
+  BB75a4f21e5 -> BB75a4f219f [color="blue"];
+}

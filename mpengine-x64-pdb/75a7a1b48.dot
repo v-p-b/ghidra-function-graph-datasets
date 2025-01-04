@@ -1,0 +1,18 @@
+digraph process_integer_specifier {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7a1b48 -> BB75a7a1b98 [color="green"];
+  BB75a7a1b48 -> BB75a7a1b80 [color="red"];
+  BB75a7a1b80 -> BB75a7a1b90 [color="green"];
+  BB75a7a1b80 -> BB75a7a1b86 [color="red"];
+  BB75a7a1b86 -> BB75a7a1b98 [color="green"];
+  BB75a7a1b86 -> BB75a7a1b90 [color="red"];
+  BB75a7a1b90 -> BB75a7a1b98 [color="blue"];
+  BB75a7a1b98 -> BB75a7a1bdb [color="green"];
+  BB75a7a1b98 -> BB75a7a1bd7 [color="red"];
+  BB75a7a1bd7 -> BB75a7a1bf0 [color="blue"];
+  BB75a7a1bdb -> BB75a7a1be5 [color="green"];
+  BB75a7a1bdb -> BB75a7a1be1 [color="red"];
+  BB75a7a1be1 -> BB75a7a1bf0 [color="blue"];
+  BB75a7a1be5 -> BB75a7a1bf0 [color="red"];
+}

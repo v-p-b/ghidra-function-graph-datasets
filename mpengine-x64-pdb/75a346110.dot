@@ -1,0 +1,18 @@
+digraph NTDLL_DLL_ThrdMgr_SwitchThreads {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a346110 -> BB75a3461c3 [color="green"];
+  BB75a346110 -> BB75a346130 [color="red"];
+  BB75a346130 -> BB75a3461c3 [color="green"];
+  BB75a346130 -> BB75a34613e [color="red"];
+  BB75a34613e -> BB75a3461c3 [color="green"];
+  BB75a34613e -> BB75a346148 [color="red"];
+  BB75a346148 -> BB75a3461a9 [color="green"];
+  BB75a346148 -> BB75a346185 [color="red"];
+  BB75a346185 -> BB75a346196 [color="green"];
+  BB75a346185 -> BB75a34618a [color="red"];
+  BB75a34618a -> BB75a346196 [color="blue"];
+  BB75a346196 -> BB75a346199 [color="blue"];
+  BB75a3461a9 -> BB75a346185 [color="blue"];
+  BB75a3461c3 -> BB75a346199 [color="blue"];
+}

@@ -1,0 +1,20 @@
+digraph AcquireInstance {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5673e0 -> BB75a567420 [color="green"];
+  BB75a5673e0 -> BB75a567419 [color="red"];
+  BB75a567419 -> BB75a56742a [color="blue"];
+  BB75a567420 -> BB75a567435 [color="green"];
+  BB75a567420 -> BB75a56742a [color="red"];
+  BB75a56742a -> BB75a5674af [color="blue"];
+  BB75a567435 -> BB75a56748a [color="green"];
+  BB75a567435 -> BB75a567471 [color="red"];
+  BB75a567471 -> BB75a56748a [color="green"];
+  BB75a567471 -> BB75a56747a [color="red"];
+  BB75a56747a -> BB75a56748a [color="blue"];
+  BB75a56748a -> BB75a5674a3 [color="green"];
+  BB75a56748a -> BB75a567499 [color="red"];
+  BB75a567499 -> BB75a5674a5 [color="blue"];
+  BB75a5674a3 -> BB75a5674a5 [color="blue"];
+  BB75a5674a5 -> BB75a5674af [color="red"];
+}

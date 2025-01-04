@@ -1,0 +1,18 @@
+digraph IsNetworkDevice {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4fe04c -> BB75a4fe0e3 [color="green"];
+  BB75a4fe04c -> BB75a4fe080 [color="red"];
+  BB75a4fe080 -> BB75a4fe0fc [color="green"];
+  BB75a4fe080 -> BB75a4fe097 [color="red"];
+  BB75a4fe097 -> BB75a4fe0e3 [color="green"];
+  BB75a4fe097 -> BB75a4fe0ad [color="red"];
+  BB75a4fe0ad -> BB75a4fe0e3 [color="green"];
+  BB75a4fe0ad -> BB75a4fe0c8 [color="red"];
+  BB75a4fe0c8 -> BB75a4fe0f8 [color="green"];
+  BB75a4fe0c8 -> BB75a4fe0e3 [color="red"];
+  BB75a4fe0e3 -> BB75a4fe0e6 [color="blue"];
+  BB75a4fe0e6 -> BB75a4fe0e8 [color="blue"];
+  BB75a4fe0f8 -> BB75a4fe0e8 [color="blue"];
+  BB75a4fe0fc -> BB75a4fe0e6 [color="blue"];
+}

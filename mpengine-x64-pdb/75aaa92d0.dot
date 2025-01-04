@@ -1,0 +1,19 @@
+digraph WriteSector {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaa92d0 -> BB75aaa9303 [color="green"];
+  BB75aaa92d0 -> BB75aaa92fe [color="red"];
+  BB75aaa92fe -> BB75aaa9303 [color="red"];
+  BB75aaa9303 -> BB75aaa930d [color="green"];
+  BB75aaa9303 -> BB75aaa9308 [color="red"];
+  BB75aaa9308 -> BB75aaa930d [color="red"];
+  BB75aaa930d -> BB75aaa937d [color="green"];
+  BB75aaa930d -> BB75aaa9336 [color="red"];
+  BB75aaa9336 -> BB75aaa9340 [color="green"];
+  BB75aaa9336 -> BB75aaa933b [color="red"];
+  BB75aaa933b -> BB75aaa937d [color="blue"];
+  BB75aaa9340 -> BB75aaa937d [color="red"];
+  BB75aaa937d -> BB75aaa9393 [color="green"];
+  BB75aaa937d -> BB75aaa9390 [color="red"];
+  BB75aaa9390 -> BB75aaa9393 [color="blue"];
+}

@@ -1,0 +1,19 @@
+digraph CopyLZWString {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aabb678 -> BB75aabb68d [color="blue"];
+  BB75aabb68d -> BB75aabb6f7 [color="green"];
+  BB75aabb68d -> BB75aabb692 [color="red"];
+  BB75aabb692 -> BB75aabb6a6 [color="green"];
+  BB75aabb692 -> BB75aabb69d [color="red"];
+  BB75aabb69d -> BB75aabb6ab [color="blue"];
+  BB75aabb6a6 -> BB75aabb6ab [color="blue"];
+  BB75aabb6ab -> BB75aabb6c2 [color="green"];
+  BB75aabb6ab -> BB75aabb6b9 [color="red"];
+  BB75aabb6b9 -> BB75aabb6c7 [color="blue"];
+  BB75aabb6c2 -> BB75aabb6c7 [color="blue"];
+  BB75aabb6c7 -> BB75aabb68d [color="green"];
+  BB75aabb6c7 -> BB75aabb6d2 [color="red"];
+  BB75aabb6d2 -> BB75aabb6fc [color="blue"];
+  BB75aabb6f7 -> BB75aabb6fc [color="blue"];
+}

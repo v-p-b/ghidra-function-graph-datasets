@@ -1,0 +1,15 @@
+digraph RollingQueueQueryKey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4009b0 -> BB75a400b84 [color="green"];
+  BB75a4009b0 -> BB75a4009ec [color="red"];
+  BB75a4009ec -> BB75a400b88 [color="green"];
+  BB75a4009ec -> BB75a400ac7 [color="red"];
+  BB75a400ac7 -> BB75a400b95 [color="blue"];
+  BB75a400b84 -> BB75a400bae [color="blue"];
+  BB75a400b88 -> BB75a400b95 [color="blue"];
+  BB75a400b95 -> BB75a400ba9 [color="green"];
+  BB75a400b95 -> BB75a400b9f [color="red"];
+  BB75a400b9f -> BB75a400ba9 [color="red"];
+  BB75a400ba9 -> BB75a400bae [color="blue"];
+}

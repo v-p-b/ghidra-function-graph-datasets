@@ -1,0 +1,18 @@
+digraph virtual_suballocate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a21b634 -> BB75a21b67f [color="green"];
+  BB75a21b634 -> BB75a21b669 [color="red"];
+  BB75a21b669 -> BB75a21b67f [color="green"];
+  BB75a21b669 -> BB75a21b671 [color="red"];
+  BB75a21b671 -> BB75a21b695 [color="blue"];
+  BB75a21b67f -> BB75a21b701 [color="green"];
+  BB75a21b67f -> BB75a21b689 [color="red"];
+  BB75a21b689 -> BB75a21b6ab [color="green"];
+  BB75a21b689 -> BB75a21b693 [color="red"];
+  BB75a21b693 -> BB75a21b695 [color="blue"];
+  BB75a21b6ab -> BB75a21b671 [color="green"];
+  BB75a21b6ab -> BB75a21b6fd [color="red"];
+  BB75a21b6fd -> BB75a21b693 [color="blue"];
+  BB75a21b701 -> BB75a21b689 [color="blue"];
+}

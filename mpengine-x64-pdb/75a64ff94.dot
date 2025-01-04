@@ -1,0 +1,11 @@
+digraph ~PythonIndentationHelper {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a64ff94 -> BB75a64ffeb [color="green"];
+  BB75a64ff94 -> BB75a64ffd1 [color="red"];
+  BB75a64ffd1 -> BB75a64ffeb [color="green"];
+  BB75a64ffd1 -> BB75a64ffda [color="red"];
+  BB75a64ffda -> BB75a64ffd1 [color="green"];
+  BB75a64ffda -> BB75a64ffe2 [color="red"];
+  BB75a64ffe2 -> BB75a64ffd1 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph luaC_fullgc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1fc140 -> BB75a1fc179 [color="green"];
+  BB75a1fc140 -> BB75a1fc158 [color="red"];
+  BB75a1fc158 -> BB75a1fc17d [color="blue"];
+  BB75a1fc179 -> BB75a1fc18b [color="green"];
+  BB75a1fc179 -> BB75a1fc17d [color="red"];
+  BB75a1fc17d -> BB75a1fc17d [color="green"];
+  BB75a1fc17d -> BB75a1fc18b [color="red"];
+  BB75a1fc18b -> BB75a1fc19d [color="blue"];
+  BB75a1fc195 -> BB75a1fc19d [color="red"];
+  BB75a1fc19d -> BB75a1fc195 [color="green"];
+  BB75a1fc19d -> BB75a1fc1a3 [color="red"];
+}

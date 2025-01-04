@@ -1,0 +1,16 @@
+digraph ~global_BB_locker {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1af80c -> BB75a1af844 [color="green"];
+  BB75a1af80c -> BB75a1af81b [color="red"];
+  BB75a1af81b -> BB75a1af858 [color="green"];
+  BB75a1af81b -> BB75a1af822 [color="red"];
+  BB75a1af822 -> BB75a1af827 [color="blue"];
+  BB75a1af827 -> BB75a1af878 [color="green"];
+  BB75a1af827 -> BB75a1af832 [color="red"];
+  BB75a1af844 -> BB75a1af827 [color="blue"];
+  BB75a1af858 -> BB75a1af858 [color="green"];
+  BB75a1af858 -> BB75a1af876 [color="red"];
+  BB75a1af876 -> BB75a1af822 [color="blue"];
+  BB75a1af878 -> BB75a1af832 [color="blue"];
+}

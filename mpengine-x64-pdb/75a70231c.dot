@@ -1,0 +1,13 @@
+digraph GetDetectionInformation {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a70231c -> BB75a702365 [color="green"];
+  BB75a70231c -> BB75a702335 [color="red"];
+  BB75a702335 -> BB75a702365 [color="green"];
+  BB75a702335 -> BB75a70234d [color="red"];
+  BB75a70234d -> BB75a70235b [color="green"];
+  BB75a70234d -> BB75a702358 [color="red"];
+  BB75a702358 -> BB75a70235b [color="blue"];
+  BB75a70235b -> BB75a70236a [color="blue"];
+  BB75a702365 -> BB75a70236a [color="blue"];
+}

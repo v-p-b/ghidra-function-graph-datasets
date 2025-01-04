@@ -1,0 +1,22 @@
+digraph DlpQueryJitFileExtensionAllowed {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6bbcd4 -> BB75a6bbd23 [color="green"];
+  BB75a6bbcd4 -> BB75a6bbcf2 [color="red"];
+  BB75a6bbcf2 -> BB75a6bbd98 [color="green"];
+  BB75a6bbcf2 -> BB75a6bbd09 [color="red"];
+  BB75a6bbd09 -> BB75a6bbd0e [color="blue"];
+  BB75a6bbd23 -> BB75a6bbcf2 [color="green"];
+  BB75a6bbd23 -> BB75a6bbd29 [color="red"];
+  BB75a6bbd29 -> BB75a6bbd80 [color="green"];
+  BB75a6bbd29 -> BB75a6bbd4c [color="red"];
+  BB75a6bbd4c -> BB75a6bbd72 [color="green"];
+  BB75a6bbd4c -> BB75a6bbd65 [color="red"];
+  BB75a6bbd65 -> BB75a6bbd72 [color="red"];
+  BB75a6bbd72 -> BB75a6bbd8b [color="blue"];
+  BB75a6bbd80 -> BB75a6bbd8b [color="red"];
+  BB75a6bbd8b -> BB75a6bbd0e [color="blue"];
+  BB75a6bbd98 -> BB75a6bbd09 [color="green"];
+  BB75a6bbd98 -> BB75a6bbda6 [color="red"];
+  BB75a6bbda6 -> BB75a6bbd09 [color="blue"];
+}

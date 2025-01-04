@@ -1,0 +1,19 @@
+digraph MatchStartMenuPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab48278 -> BB75ab4836c [color="green"];
+  BB75ab48278 -> BB75ab482f0 [color="red"];
+  BB75ab482f0 -> BB75ab4836c [color="green"];
+  BB75ab482f0 -> BB75ab48312 [color="red"];
+  BB75ab48312 -> BB75ab48338 [color="green"];
+  BB75ab48312 -> BB75ab48331 [color="red"];
+  BB75ab48331 -> BB75ab48338 [color="blue"];
+  BB75ab48338 -> BB75ab48351 [color="green"];
+  BB75ab48338 -> BB75ab4834b [color="red"];
+  BB75ab4834b -> BB75ab48358 [color="blue"];
+  BB75ab48351 -> BB75ab48358 [color="blue"];
+  BB75ab48358 -> BB75ab48370 [color="green"];
+  BB75ab48358 -> BB75ab48360 [color="red"];
+  BB75ab48360 -> BB75ab48370 [color="blue"];
+  BB75ab4836c -> BB75ab48370 [color="blue"];
+}

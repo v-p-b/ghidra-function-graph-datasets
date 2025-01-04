@@ -1,0 +1,17 @@
+digraph MakeBootSigSeq {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a741f44 -> BB75a741fd1 [color="green"];
+  BB75a741f44 -> BB75a741faa [color="red"];
+  BB75a741faa -> BB75a741fad [color="blue"];
+  BB75a741fad -> BB75a741fad [color="green"];
+  BB75a741fad -> BB75a741fd1 [color="red"];
+  BB75a741fd1 -> BB75a742074 [color="green"];
+  BB75a741fd1 -> BB75a741fde [color="red"];
+  BB75a741fde -> BB75a741fde [color="green"];
+  BB75a741fde -> BB75a742074 [color="red"];
+  BB75a742074 -> BB75a74209b [color="green"];
+  BB75a742074 -> BB75a742079 [color="red"];
+  BB75a742079 -> BB75a742079 [color="green"];
+  BB75a742079 -> BB75a74209b [color="red"];
+}

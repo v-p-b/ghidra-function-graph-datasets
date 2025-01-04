@@ -1,0 +1,17 @@
+digraph sizeBlockSequences {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac083ac -> BB75ac083f6 [color="green"];
+  BB75ac083ac -> BB75ac083ef [color="red"];
+  BB75ac083ef -> BB75ac0844f [color="blue"];
+  BB75ac083f6 -> BB75ac0844c [color="green"];
+  BB75ac083f6 -> BB75ac0840c [color="red"];
+  BB75ac0840c -> BB75ac08410 [color="blue"];
+  BB75ac08410 -> BB75ac08440 [color="green"];
+  BB75ac08410 -> BB75ac08434 [color="red"];
+  BB75ac08434 -> BB75ac0844c [color="green"];
+  BB75ac08434 -> BB75ac08440 [color="red"];
+  BB75ac08440 -> BB75ac08410 [color="green"];
+  BB75ac08440 -> BB75ac0844c [color="red"];
+  BB75ac0844c -> BB75ac0844f [color="blue"];
+}

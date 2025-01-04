@@ -1,0 +1,14 @@
+digraph resize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a70a1bc -> BB75a70a21e [color="green"];
+  BB75a70a1bc -> BB75a70a1d7 [color="red"];
+  BB75a70a1d7 -> BB75a70a21c [color="green"];
+  BB75a70a1d7 -> BB75a70a1fc [color="red"];
+  BB75a70a1fc -> BB75a70a21c [color="blue"];
+  BB75a70a21c -> BB75a70a24f [color="blue"];
+  BB75a70a21e -> BB75a70a24f [color="green"];
+  BB75a70a21e -> BB75a70a220 [color="red"];
+  BB75a70a220 -> BB75a70a220 [color="green"];
+  BB75a70a220 -> BB75a70a24f [color="red"];
+}

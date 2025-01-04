@@ -1,0 +1,16 @@
+digraph CheckMaintenanceWindowTime {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab282b8 -> BB75ab2831a [color="green"];
+  BB75ab282b8 -> BB75ab282df [color="red"];
+  BB75ab282df -> BB75ab282ee [color="green"];
+  BB75ab282df -> BB75ab282e7 [color="red"];
+  BB75ab282e7 -> BB75ab28318 [color="blue"];
+  BB75ab282ee -> BB75ab28301 [color="green"];
+  BB75ab282ee -> BB75ab282fa [color="red"];
+  BB75ab282fa -> BB75ab2831a [color="blue"];
+  BB75ab28301 -> BB75ab28318 [color="green"];
+  BB75ab28301 -> BB75ab28315 [color="red"];
+  BB75ab28315 -> BB75ab28318 [color="blue"];
+  BB75ab28318 -> BB75ab2831a [color="blue"];
+}

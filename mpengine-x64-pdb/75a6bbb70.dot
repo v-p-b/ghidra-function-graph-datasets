@@ -1,0 +1,18 @@
+digraph SSE_pshufhw {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6bbb70 -> BB75a6bbc8e [color="green"];
+  BB75a6bbb70 -> BB75a6bbba8 [color="red"];
+  BB75a6bbba8 -> BB75a6bbbfb [color="green"];
+  BB75a6bbba8 -> BB75a6bbbb8 [color="red"];
+  BB75a6bbbb8 -> BB75a6bbcc4 [color="blue"];
+  BB75a6bbbfb -> BB75a6bbc6e [color="green"];
+  BB75a6bbbfb -> BB75a6bbc56 [color="red"];
+  BB75a6bbc56 -> BB75a6bbc80 [color="blue"];
+  BB75a6bbc6e -> BB75a6bbc80 [color="blue"];
+  BB75a6bbc80 -> BB75a6bbcc4 [color="blue"];
+  BB75a6bbc8e -> BB75a6bbca2 [color="blue"];
+  BB75a6bbca2 -> BB75a6bbca2 [color="green"];
+  BB75a6bbca2 -> BB75a6bbcbe [color="red"];
+  BB75a6bbcbe -> BB75a6bbcc4 [color="blue"];
+}

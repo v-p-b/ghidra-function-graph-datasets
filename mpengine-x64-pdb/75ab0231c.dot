@@ -1,0 +1,17 @@
+digraph collectvalidlines {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab0231c -> BB75ab0239c [color="green"];
+  BB75ab0231c -> BB75ab02342 [color="red"];
+  BB75ab02342 -> BB75ab0239c [color="green"];
+  BB75ab02342 -> BB75ab02348 [color="red"];
+  BB75ab02348 -> BB75ab0238c [color="green"];
+  BB75ab02348 -> BB75ab02362 [color="red"];
+  BB75ab02362 -> BB75ab02362 [color="green"];
+  BB75ab02362 -> BB75ab0238c [color="red"];
+  BB75ab0238c -> BB75ab023a3 [color="blue"];
+  BB75ab0239c -> BB75ab023a3 [color="blue"];
+  BB75ab023a3 -> BB75ab023be [color="green"];
+  BB75ab023a3 -> BB75ab023b1 [color="red"];
+  BB75ab023b1 -> BB75ab023be [color="red"];
+}

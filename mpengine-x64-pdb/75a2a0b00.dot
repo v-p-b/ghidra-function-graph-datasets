@@ -1,0 +1,16 @@
+digraph sqlite3BtreeCommitPhaseTwo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2a0b00 -> BB75a2a0b27 [color="green"];
+  BB75a2a0b00 -> BB75a2a0b1b [color="red"];
+  BB75a2a0b1b -> BB75a2a0b39 [color="green"];
+  BB75a2a0b1b -> BB75a2a0b1f [color="red"];
+  BB75a2a0b1f -> BB75a2a0b27 [color="red"];
+  BB75a2a0b27 -> BB75a2a0b29 [color="blue"];
+  BB75a2a0b39 -> BB75a2a0b60 [color="green"];
+  BB75a2a0b39 -> BB75a2a0b49 [color="red"];
+  BB75a2a0b49 -> BB75a2a0b1f [color="blue"];
+  BB75a2a0b60 -> BB75a2a0b29 [color="green"];
+  BB75a2a0b60 -> BB75a2a0b64 [color="red"];
+  BB75a2a0b64 -> BB75a2a0b49 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph get_recent_violation_rate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a923e04 -> BB75a923e60 [color="green"];
+  BB75a923e04 -> BB75a923e0f [color="red"];
+  BB75a923e0f -> BB75a923e22 [color="green"];
+  BB75a923e0f -> BB75a923e1b [color="red"];
+  BB75a923e1b -> BB75a923e37 [color="blue"];
+  BB75a923e22 -> BB75a923e37 [color="blue"];
+  BB75a923e37 -> BB75a923e46 [color="green"];
+  BB75a923e37 -> BB75a923e3f [color="red"];
+  BB75a923e3f -> BB75a923e5c [color="blue"];
+  BB75a923e46 -> BB75a923e5c [color="blue"];
+  BB75a923e5c -> BB75a923e60 [color="blue"];
+}

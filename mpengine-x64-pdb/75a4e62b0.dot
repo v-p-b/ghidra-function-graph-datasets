@@ -1,0 +1,10 @@
+digraph NTDLL_DLL_VFS_FindClose {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4e62b0 -> BB75a4e634b [color="green"];
+  BB75a4e62b0 -> BB75a4e630c [color="red"];
+  BB75a4e630c -> BB75a4e632b [color="green"];
+  BB75a4e630c -> BB75a4e631d [color="red"];
+  BB75a4e631d -> BB75a4e632b [color="blue"];
+  BB75a4e634b -> BB75a4e630c [color="blue"];
+}

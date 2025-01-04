@@ -1,0 +1,14 @@
+digraph lua_concat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1fd8e0 -> BB75a1fd92c [color="green"];
+  BB75a1fd8e0 -> BB75a1fd8f5 [color="red"];
+  BB75a1fd8f5 -> BB75a1fd904 [color="green"];
+  BB75a1fd8f5 -> BB75a1fd8f9 [color="red"];
+  BB75a1fd904 -> BB75a1fd926 [color="red"];
+  BB75a1fd926 -> BB75a1fd8f9 [color="blue"];
+  BB75a1fd92c -> BB75a1fd964 [color="green"];
+  BB75a1fd92c -> BB75a1fd93a [color="red"];
+  BB75a1fd93a -> BB75a1fd926 [color="blue"];
+  BB75a1fd964 -> BB75a1fd93a [color="blue"];
+}

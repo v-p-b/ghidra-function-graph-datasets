@@ -1,0 +1,15 @@
+digraph get_recent_norm_error_rate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9af134 -> BB75a9af18c [color="green"];
+  BB75a9af134 -> BB75a9af13f [color="red"];
+  BB75a9af13f -> BB75a9af14f [color="green"];
+  BB75a9af13f -> BB75a9af148 [color="red"];
+  BB75a9af148 -> BB75a9af164 [color="blue"];
+  BB75a9af14f -> BB75a9af164 [color="blue"];
+  BB75a9af164 -> BB75a9af173 [color="green"];
+  BB75a9af164 -> BB75a9af16c [color="red"];
+  BB75a9af16c -> BB75a9af188 [color="blue"];
+  BB75a9af173 -> BB75a9af188 [color="blue"];
+  BB75a9af188 -> BB75a9af18c [color="blue"];
+}

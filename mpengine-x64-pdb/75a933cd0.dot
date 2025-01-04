@@ -1,0 +1,9 @@
+digraph diff_time_with_current_time {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a933cd0 -> BB75a933ce7 [color="green"];
+  BB75a933cd0 -> BB75a933cd7 [color="red"];
+  BB75a933cd7 -> BB75a933ce7 [color="green"];
+  BB75a933cd7 -> BB75a933cdc [color="red"];
+  BB75a933cdc -> BB75a933ce7 [color="blue"];
+}

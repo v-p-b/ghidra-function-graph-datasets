@@ -1,0 +1,24 @@
+digraph Hook_realloc_and_allocate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6dde28 -> BB75a6dde74 [color="green"];
+  BB75a6dde28 -> BB75a6dde49 [color="red"];
+  BB75a6dde49 -> BB75a6ddf1c [color="blue"];
+  BB75a6dde74 -> BB75a6dde8b [color="green"];
+  BB75a6dde74 -> BB75a6dde79 [color="red"];
+  BB75a6dde79 -> BB75a6ddf1a [color="blue"];
+  BB75a6dde8b -> BB75a6ddeb7 [color="green"];
+  BB75a6dde8b -> BB75a6ddeac [color="red"];
+  BB75a6ddeac -> BB75a6ddec5 [color="blue"];
+  BB75a6ddeb7 -> BB75a6ddec5 [color="red"];
+  BB75a6ddec5 -> BB75a6ddf10 [color="green"];
+  BB75a6ddec5 -> BB75a6dded8 [color="red"];
+  BB75a6dded8 -> BB75a6ddf10 [color="green"];
+  BB75a6dded8 -> BB75a6ddedd [color="red"];
+  BB75a6ddedd -> BB75a6ddf0b [color="green"];
+  BB75a6ddedd -> BB75a6ddef3 [color="red"];
+  BB75a6ddef3 -> BB75a6ddf0b [color="red"];
+  BB75a6ddf0b -> BB75a6ddf1c [color="blue"];
+  BB75a6ddf10 -> BB75a6ddf1c [color="blue"];
+  BB75a6ddf1a -> BB75a6ddf1c [color="blue"];
+}

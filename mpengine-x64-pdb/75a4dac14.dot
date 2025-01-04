@@ -1,0 +1,19 @@
+digraph NtOpenFileWrapper {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4dac14 -> BB75a4dace5 [color="green"];
+  BB75a4dac14 -> BB75a4dacb1 [color="red"];
+  BB75a4dacb1 -> BB75a4dacca [color="green"];
+  BB75a4dacb1 -> BB75a4dacc2 [color="red"];
+  BB75a4dacc2 -> BB75a4dad22 [color="green"];
+  BB75a4dacc2 -> BB75a4dacc7 [color="red"];
+  BB75a4dacc7 -> BB75a4dacca [color="blue"];
+  BB75a4dacca -> BB75a4daccc [color="blue"];
+  BB75a4dace5 -> BB75a4dad1a [color="green"];
+  BB75a4dace5 -> BB75a4dacf8 [color="red"];
+  BB75a4dacf8 -> BB75a4dad1a [color="green"];
+  BB75a4dacf8 -> BB75a4dacfe [color="red"];
+  BB75a4dacfe -> BB75a4dad1a [color="red"];
+  BB75a4dad1a -> BB75a4daccc [color="blue"];
+  BB75a4dad22 -> BB75a4dacc7 [color="blue"];
+}

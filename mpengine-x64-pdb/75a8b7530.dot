@@ -1,0 +1,30 @@
+digraph _is_os_supported {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8b7530 -> BB75a8b783a [color="green"];
+  BB75a8b7530 -> BB75a8b75bc [color="red"];
+  BB75a8b75bc -> BB75a8b783a [color="green"];
+  BB75a8b75bc -> BB75a8b75d8 [color="red"];
+  BB75a8b75d8 -> BB75a8b76c4 [color="green"];
+  BB75a8b75d8 -> BB75a8b76c0 [color="red"];
+  BB75a8b76c0 -> BB75a8b76d4 [color="green"];
+  BB75a8b76c0 -> BB75a8b76c4 [color="red"];
+  BB75a8b76c4 -> BB75a8b7829 [color="green"];
+  BB75a8b76c4 -> BB75a8b76cc [color="red"];
+  BB75a8b76cc -> BB75a8b7829 [color="green"];
+  BB75a8b76cc -> BB75a8b76d4 [color="red"];
+  BB75a8b76d4 -> BB75a8b780c [color="green"];
+  BB75a8b76d4 -> BB75a8b76f9 [color="red"];
+  BB75a8b76f9 -> BB75a8b780c [color="green"];
+  BB75a8b76f9 -> BB75a8b7703 [color="red"];
+  BB75a8b7703 -> BB75a8b77c5 [color="green"];
+  BB75a8b7703 -> BB75a8b7751 [color="red"];
+  BB75a8b7751 -> BB75a8b77c5 [color="green"];
+  BB75a8b7751 -> BB75a8b77ab [color="red"];
+  BB75a8b77ab -> BB75a8b77c5 [color="blue"];
+  BB75a8b77c5 -> BB75a8b780c [color="red"];
+  BB75a8b780c -> BB75a8b78b5 [color="blue"];
+  BB75a8b7829 -> BB75a8b78b3 [color="blue"];
+  BB75a8b783a -> BB75a8b78b3 [color="red"];
+  BB75a8b78b3 -> BB75a8b78b5 [color="blue"];
+}

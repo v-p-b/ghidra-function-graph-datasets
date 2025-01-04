@@ -1,0 +1,14 @@
+digraph subjRequiresPage {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a462cf0 -> BB75a462d1b [color="blue"];
+  BB75a462d1b -> BB75a462d3d [color="green"];
+  BB75a462d1b -> BB75a462d20 [color="red"];
+  BB75a462d20 -> BB75a462d22 [color="blue"];
+  BB75a462d3d -> BB75a462d50 [color="green"];
+  BB75a462d3d -> BB75a462d47 [color="red"];
+  BB75a462d47 -> BB75a462d1b [color="blue"];
+  BB75a462d50 -> BB75a462d47 [color="green"];
+  BB75a462d50 -> BB75a462d60 [color="red"];
+  BB75a462d60 -> BB75a462d22 [color="blue"];
+}

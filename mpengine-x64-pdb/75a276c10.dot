@@ -1,0 +1,10 @@
+digraph exprAlwaysFalse {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a276c10 -> BB75a276c30 [color="green"];
+  BB75a276c10 -> BB75a276c22 [color="red"];
+  BB75a276c22 -> BB75a276c37 [color="green"];
+  BB75a276c22 -> BB75a276c30 [color="red"];
+  BB75a276c30 -> BB75a276c32 [color="blue"];
+  BB75a276c37 -> BB75a276c32 [color="blue"];
+}

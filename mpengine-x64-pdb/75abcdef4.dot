@@ -1,0 +1,11 @@
+digraph AddResultDetails {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abcdef4 -> BB75abcdf1a [color="green"];
+  BB75abcdef4 -> BB75abcdf0e [color="red"];
+  BB75abcdf0e -> BB75abcdf29 [color="blue"];
+  BB75abcdf1a -> BB75abcdf29 [color="red"];
+  BB75abcdf29 -> BB75abcdf49 [color="green"];
+  BB75abcdf29 -> BB75abcdf44 [color="red"];
+  BB75abcdf44 -> BB75abcdf49 [color="red"];
+}

@@ -1,0 +1,14 @@
+digraph StoreEntry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a416dd8 -> BB75a416e46 [color="green"];
+  BB75a416dd8 -> BB75a416e25 [color="red"];
+  BB75a416e25 -> BB75a416e46 [color="green"];
+  BB75a416e25 -> BB75a416e35 [color="red"];
+  BB75a416e35 -> BB75a416ed6 [color="blue"];
+  BB75a416e46 -> BB75a416e84 [color="green"];
+  BB75a416e46 -> BB75a416e76 [color="red"];
+  BB75a416e76 -> BB75a416ed6 [color="blue"];
+  BB75a416e84 -> BB75a416ed4 [color="blue"];
+  BB75a416ed4 -> BB75a416ed6 [color="blue"];
+}

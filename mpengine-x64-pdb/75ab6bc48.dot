@@ -1,0 +1,33 @@
+digraph GetCleanSha256CountInMetaStore {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab6bc48 -> BB75ab6bcc9 [color="green"];
+  BB75ab6bc48 -> BB75ab6bc9e [color="red"];
+  BB75ab6bc9e -> BB75ab6bd70 [color="green"];
+  BB75ab6bc9e -> BB75ab6bcb5 [color="red"];
+  BB75ab6bcb5 -> BB75ab6bd70 [color="green"];
+  BB75ab6bcb5 -> BB75ab6bcbf [color="red"];
+  BB75ab6bcbf -> BB75ab6bcc4 [color="blue"];
+  BB75ab6bcc4 -> BB75ab6bd38 [color="blue"];
+  BB75ab6bcc9 -> BB75ab6bd00 [color="green"];
+  BB75ab6bcc9 -> BB75ab6bce0 [color="red"];
+  BB75ab6bce0 -> BB75ab6bd70 [color="green"];
+  BB75ab6bce0 -> BB75ab6bcf3 [color="red"];
+  BB75ab6bcf3 -> BB75ab6bd70 [color="green"];
+  BB75ab6bcf3 -> BB75ab6bcf9 [color="red"];
+  BB75ab6bcf9 -> BB75ab6bcc4 [color="blue"];
+  BB75ab6bd00 -> BB75ab6bd4a [color="green"];
+  BB75ab6bd00 -> BB75ab6bd17 [color="red"];
+  BB75ab6bd17 -> BB75ab6bd70 [color="green"];
+  BB75ab6bd17 -> BB75ab6bd2a [color="red"];
+  BB75ab6bd2a -> BB75ab6bd70 [color="green"];
+  BB75ab6bd2a -> BB75ab6bd30 [color="red"];
+  BB75ab6bd30 -> BB75ab6bd38 [color="blue"];
+  BB75ab6bd38 -> BB75ab6bd70 [color="blue"];
+  BB75ab6bd4a -> BB75ab6bd54 [color="green"];
+  BB75ab6bd4a -> BB75ab6bd50 [color="red"];
+  BB75ab6bd50 -> BB75ab6bd70 [color="blue"];
+  BB75ab6bd54 -> BB75ab6bd70 [color="green"];
+  BB75ab6bd54 -> BB75ab6bd6d [color="red"];
+  BB75ab6bd6d -> BB75ab6bd70 [color="blue"];
+}

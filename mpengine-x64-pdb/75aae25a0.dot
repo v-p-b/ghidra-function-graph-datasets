@@ -1,0 +1,13 @@
+digraph fastpath_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aae25a0 -> BB75aae27d4 [color="green"];
+  BB75aae25a0 -> BB75aae27a2 [color="red"];
+  BB75aae27a2 -> BB75aae27c9 [color="green"];
+  BB75aae27a2 -> BB75aae27b1 [color="red"];
+  BB75aae27b1 -> BB75aae27c3 [color="green"];
+  BB75aae27b1 -> BB75aae27bc [color="red"];
+  BB75aae27bc -> BB75aae27c9 [color="blue"];
+  BB75aae27c3 -> BB75aae27c9 [color="blue"];
+  BB75aae27c9 -> BB75aae27d4 [color="red"];
+}

@@ -1,0 +1,14 @@
+digraph GetCleanReportType {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a89020c -> BB75a89024c [color="green"];
+  BB75a89020c -> BB75a890211 [color="red"];
+  BB75a890211 -> BB75a89024c [color="green"];
+  BB75a890211 -> BB75a89021d [color="red"];
+  BB75a89021d -> BB75a89024c [color="green"];
+  BB75a89021d -> BB75a890222 [color="red"];
+  BB75a890222 -> BB75a890231 [color="green"];
+  BB75a890222 -> BB75a89022b [color="red"];
+  BB75a890231 -> BB75a89023d [color="green"];
+  BB75a890231 -> BB75a890237 [color="red"];
+}

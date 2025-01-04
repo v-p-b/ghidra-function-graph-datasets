@@ -1,0 +1,28 @@
+digraph _init_cpu_device {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a962c5c -> BB75a962dcf [color="green"];
+  BB75a962c5c -> BB75a962cc8 [color="red"];
+  BB75a962cc8 -> BB75a962dca [color="green"];
+  BB75a962cc8 -> BB75a962cde [color="red"];
+  BB75a962cde -> BB75a962dca [color="green"];
+  BB75a962cde -> BB75a962ce8 [color="red"];
+  BB75a962ce8 -> BB75a962d88 [color="green"];
+  BB75a962ce8 -> BB75a962d28 [color="red"];
+  BB75a962d28 -> BB75a962d88 [color="green"];
+  BB75a962d28 -> BB75a962d72 [color="red"];
+  BB75a962d72 -> BB75a962d88 [color="blue"];
+  BB75a962d88 -> BB75a962dca [color="red"];
+  BB75a962dca -> BB75a962ed6 [color="blue"];
+  BB75a962dcf -> BB75a962ed1 [color="green"];
+  BB75a962dcf -> BB75a962de5 [color="red"];
+  BB75a962de5 -> BB75a962ed1 [color="green"];
+  BB75a962de5 -> BB75a962def [color="red"];
+  BB75a962def -> BB75a962e8f [color="green"];
+  BB75a962def -> BB75a962e2f [color="red"];
+  BB75a962e2f -> BB75a962e8f [color="green"];
+  BB75a962e2f -> BB75a962e79 [color="red"];
+  BB75a962e79 -> BB75a962e8f [color="blue"];
+  BB75a962e8f -> BB75a962ed1 [color="red"];
+  BB75a962ed1 -> BB75a962ed6 [color="blue"];
+}

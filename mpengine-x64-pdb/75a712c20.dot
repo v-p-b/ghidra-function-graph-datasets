@@ -1,0 +1,10 @@
+digraph createProxyMethod {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a712c20 -> BB75a712cb6 [color="green"];
+  BB75a712c20 -> BB75a712c74 [color="red"];
+  BB75a712c74 -> BB75a712cb6 [color="green"];
+  BB75a712c74 -> BB75a712ca7 [color="red"];
+  BB75a712ca7 -> BB75a712cb8 [color="blue"];
+  BB75a712cb6 -> BB75a712cb8 [color="blue"];
+}

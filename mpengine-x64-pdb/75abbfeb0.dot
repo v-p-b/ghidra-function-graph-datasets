@@ -1,0 +1,23 @@
+digraph cmpxchg16b {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abbfeb0 -> BB75abbfeed [color="green"];
+  BB75abbfeb0 -> BB75abbfee8 [color="red"];
+  BB75abbfee8 -> BB75abbfeed [color="red"];
+  BB75abbfeed -> BB75abbfffa [color="green"];
+  BB75abbfeed -> BB75abbff10 [color="red"];
+  BB75abbff10 -> BB75abbff62 [color="green"];
+  BB75abbff10 -> BB75abbff20 [color="red"];
+  BB75abbff20 -> BB75abc00aa [color="blue"];
+  BB75abbff62 -> BB75abbffd6 [color="green"];
+  BB75abbff62 -> BB75abbffbe [color="red"];
+  BB75abbffbe -> BB75abbffe8 [color="blue"];
+  BB75abbffd6 -> BB75abbffe8 [color="blue"];
+  BB75abbffe8 -> BB75abc00aa [color="blue"];
+  BB75abbfffa -> BB75abc0067 [color="green"];
+  BB75abbfffa -> BB75abc000e [color="red"];
+  BB75abc000e -> BB75abc0067 [color="green"];
+  BB75abc000e -> BB75abc001b [color="red"];
+  BB75abc001b -> BB75abc00aa [color="blue"];
+  BB75abc0067 -> BB75abc00aa [color="blue"];
+}

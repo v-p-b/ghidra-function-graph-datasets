@@ -1,0 +1,24 @@
+digraph SendUFSTelemetry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7fdef0 -> BB75a7fdf51 [color="green"];
+  BB75a7fdef0 -> BB75a7fdf39 [color="red"];
+  BB75a7fdf39 -> BB75a7fdf51 [color="green"];
+  BB75a7fdf39 -> BB75a7fdf3e [color="red"];
+  BB75a7fdf3e -> BB75a7fdf51 [color="green"];
+  BB75a7fdf3e -> BB75a7fdf43 [color="red"];
+  BB75a7fdf43 -> BB75a7fdf51 [color="green"];
+  BB75a7fdf43 -> BB75a7fdf48 [color="red"];
+  BB75a7fdf48 -> BB75a7fe14e [color="green"];
+  BB75a7fdf48 -> BB75a7fdf51 [color="red"];
+  BB75a7fdf51 -> BB75a7fe14e [color="green"];
+  BB75a7fdf51 -> BB75a7fdf67 [color="red"];
+  BB75a7fdf67 -> BB75a7fe14e [color="green"];
+  BB75a7fdf67 -> BB75a7fdf77 [color="red"];
+  BB75a7fdf77 -> BB75a7fe145 [color="green"];
+  BB75a7fdf77 -> BB75a7fdf8d [color="red"];
+  BB75a7fdf8d -> BB75a7fe145 [color="green"];
+  BB75a7fdf8d -> BB75a7fdfab [color="red"];
+  BB75a7fdfab -> BB75a7fe145 [color="red"];
+  BB75a7fe145 -> BB75a7fe14e [color="red"];
+}

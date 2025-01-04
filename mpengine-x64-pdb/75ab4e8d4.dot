@@ -1,0 +1,15 @@
+digraph exprCommute {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab4e8d4 -> BB75ab4e92b [color="green"];
+  BB75ab4e8d4 -> BB75ab4e90a [color="red"];
+  BB75ab4e90a -> BB75ab4e917 [color="green"];
+  BB75ab4e90a -> BB75ab4e910 [color="red"];
+  BB75ab4e910 -> BB75ab4e92b [color="blue"];
+  BB75ab4e917 -> BB75ab4e92b [color="green"];
+  BB75ab4e917 -> BB75ab4e924 [color="red"];
+  BB75ab4e924 -> BB75ab4e92b [color="blue"];
+  BB75ab4e92b -> BB75ab4e94b [color="green"];
+  BB75ab4e92b -> BB75ab4e943 [color="red"];
+  BB75ab4e943 -> BB75ab4e94b [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph add_vpath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab3d2bc -> BB75ab3d2fb [color="green"];
+  BB75ab3d2bc -> BB75ab3d2f2 [color="red"];
+  BB75ab3d2f2 -> BB75ab3d2fb [color="red"];
+  BB75ab3d2fb -> BB75ab3d344 [color="green"];
+  BB75ab3d2fb -> BB75ab3d30a [color="red"];
+  BB75ab3d30a -> BB75ab3d326 [color="blue"];
+  BB75ab3d326 -> BB75ab3d344 [color="red"];
+}

@@ -1,0 +1,11 @@
+digraph TrustAnchorSerialize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb60f4 -> BB75abb6143 [color="green"];
+  BB75abb60f4 -> BB75abb611f [color="red"];
+  BB75abb611f -> BB75abb6131 [color="green"];
+  BB75abb611f -> BB75abb612a [color="red"];
+  BB75abb612a -> BB75abb6148 [color="blue"];
+  BB75abb6131 -> BB75abb6148 [color="blue"];
+  BB75abb6143 -> BB75abb6148 [color="blue"];
+}

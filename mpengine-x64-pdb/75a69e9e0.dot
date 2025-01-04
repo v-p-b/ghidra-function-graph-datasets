@@ -1,0 +1,16 @@
+digraph upack_ismine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a69e9e0 -> BB75a69ea19 [color="green"];
+  BB75a69e9e0 -> BB75a69e9f7 [color="red"];
+  BB75a69e9f7 -> BB75a69ea02 [color="blue"];
+  BB75a69ea02 -> BB75a69ea19 [color="green"];
+  BB75a69ea02 -> BB75a69ea0a [color="red"];
+  BB75a69ea0a -> BB75a69ea21 [color="green"];
+  BB75a69ea0a -> BB75a69ea10 [color="red"];
+  BB75a69ea10 -> BB75a69ea02 [color="blue"];
+  BB75a69ea19 -> BB75a69ea1b [color="blue"];
+  BB75a69ea21 -> BB75a69ea19 [color="green"];
+  BB75a69ea21 -> BB75a69ea36 [color="red"];
+  BB75a69ea36 -> BB75a69ea1b [color="blue"];
+}

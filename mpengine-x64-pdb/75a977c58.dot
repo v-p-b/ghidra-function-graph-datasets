@@ -1,0 +1,15 @@
+digraph do_detection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a977c58 -> BB75a977c90 [color="green"];
+  BB75a977c58 -> BB75a977c80 [color="red"];
+  BB75a977c80 -> BB75a977ce1 [color="green"];
+  BB75a977c80 -> BB75a977c90 [color="red"];
+  BB75a977c90 -> BB75a977ce1 [color="green"];
+  BB75a977c90 -> BB75a977c99 [color="red"];
+  BB75a977c99 -> BB75a977cc6 [color="green"];
+  BB75a977c99 -> BB75a977cac [color="red"];
+  BB75a977cac -> BB75a977cde [color="blue"];
+  BB75a977cc6 -> BB75a977cde [color="red"];
+  BB75a977cde -> BB75a977ce1 [color="blue"];
+}

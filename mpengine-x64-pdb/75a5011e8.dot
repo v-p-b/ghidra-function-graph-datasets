@@ -1,0 +1,9 @@
+digraph GetSelf {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5011e8 -> BB75a50123e [color="green"];
+  BB75a5011e8 -> BB75a501213 [color="red"];
+  BB75a50123e -> BB75a501213 [color="green"];
+  BB75a50123e -> BB75a501260 [color="red"];
+  BB75a501260 -> BB75a501213 [color="blue"];
+}

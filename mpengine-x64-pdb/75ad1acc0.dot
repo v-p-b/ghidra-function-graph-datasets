@@ -1,0 +1,12 @@
+digraph Validate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad1acc0 -> BB75ad1ad37 [color="green"];
+  BB75ad1acc0 -> BB75ad1ad09 [color="red"];
+  BB75ad1ad09 -> BB75ad1ad48 [color="green"];
+  BB75ad1ad09 -> BB75ad1ad1c [color="red"];
+  BB75ad1ad1c -> BB75ad1ad48 [color="green"];
+  BB75ad1ad1c -> BB75ad1ad22 [color="red"];
+  BB75ad1ad22 -> BB75ad1ad48 [color="blue"];
+  BB75ad1ad37 -> BB75ad1ad48 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph NewPtrInstance<class_AsyncResourceScan> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7e2ab4 -> BB75a7e2b08 [color="green"];
+  BB75a7e2ab4 -> BB75a7e2ae6 [color="red"];
+  BB75a7e2ae6 -> BB75a7e2b04 [color="green"];
+  BB75a7e2ae6 -> BB75a7e2aef [color="red"];
+  BB75a7e2aef -> BB75a7e2b04 [color="red"];
+  BB75a7e2b04 -> BB75a7e2b82 [color="blue"];
+  BB75a7e2b08 -> BB75a7e2ae6 [color="green"];
+  BB75a7e2b08 -> BB75a7e2b39 [color="red"];
+  BB75a7e2b39 -> BB75a7e2ae6 [color="green"];
+  BB75a7e2b39 -> BB75a7e2b72 [color="red"];
+  BB75a7e2b72 -> BB75a7e2b82 [color="blue"];
+}

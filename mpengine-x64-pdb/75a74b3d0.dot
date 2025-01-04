@@ -1,0 +1,37 @@
+digraph GetThreatDword {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a74b3d0 -> BB75a74b400 [color="green"];
+  BB75a74b3d0 -> BB75a74b3f6 [color="red"];
+  BB75a74b3f6 -> BB75a74b400 [color="green"];
+  BB75a74b3f6 -> BB75a74b3fb [color="red"];
+  BB75a74b3fb -> BB75a74b400 [color="red"];
+  BB75a74b400 -> BB75a74b426 [color="blue"];
+  BB75a74b40d -> BB75a74b422 [color="green"];
+  BB75a74b40d -> BB75a74b412 [color="red"];
+  BB75a74b412 -> BB75a74b41a [color="green"];
+  BB75a74b412 -> BB75a74b414 [color="red"];
+  BB75a74b414 -> BB75a74b422 [color="green"];
+  BB75a74b414 -> BB75a74b41a [color="red"];
+  BB75a74b41a -> BB75a74b426 [color="blue"];
+  BB75a74b422 -> BB75a74b426 [color="blue"];
+  BB75a74b426 -> BB75a74b40d [color="green"];
+  BB75a74b426 -> BB75a74b42c [color="red"];
+  BB75a74b42c -> BB75a74b448 [color="green"];
+  BB75a74b42c -> BB75a74b432 [color="red"];
+  BB75a74b432 -> BB75a74b448 [color="green"];
+  BB75a74b432 -> BB75a74b437 [color="red"];
+  BB75a74b437 -> BB75a74b43f [color="green"];
+  BB75a74b437 -> BB75a74b439 [color="red"];
+  BB75a74b439 -> BB75a74b448 [color="green"];
+  BB75a74b439 -> BB75a74b43f [color="red"];
+  BB75a74b43f -> BB75a74b44b [color="green"];
+  BB75a74b43f -> BB75a74b444 [color="red"];
+  BB75a74b444 -> BB75a74b44d [color="blue"];
+  BB75a74b448 -> BB75a74b44b [color="blue"];
+  BB75a74b44b -> BB75a74b44d [color="blue"];
+  BB75a74b44d -> BB75a74b465 [color="green"];
+  BB75a74b44d -> BB75a74b45e [color="red"];
+  BB75a74b45e -> BB75a74b46c [color="blue"];
+  BB75a74b465 -> BB75a74b46c [color="blue"];
+}

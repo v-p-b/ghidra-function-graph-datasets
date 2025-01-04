@@ -1,0 +1,13 @@
+digraph ecPopRtfState {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2b6160 -> BB75a2b61eb [color="green"];
+  BB75a2b6160 -> BB75a2b6170 [color="red"];
+  BB75a2b6170 -> BB75a2b61e6 [color="red"];
+  BB75a2b61eb -> BB75a2b6219 [color="green"];
+  BB75a2b61eb -> BB75a2b61fe [color="red"];
+  BB75a2b61fe -> BB75a2b6219 [color="green"];
+  BB75a2b61fe -> BB75a2b6204 [color="red"];
+  BB75a2b6204 -> BB75a2b6219 [color="red"];
+  BB75a2b6219 -> BB75a2b61e6 [color="blue"];
+}

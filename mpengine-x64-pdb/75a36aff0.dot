@@ -1,0 +1,11 @@
+digraph is_threat_splittable {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a36aff0 -> BB75a36b029 [color="green"];
+  BB75a36aff0 -> BB75a36b009 [color="red"];
+  BB75a36b009 -> BB75a36b027 [color="green"];
+  BB75a36b009 -> BB75a36b019 [color="red"];
+  BB75a36b019 -> BB75a36b029 [color="green"];
+  BB75a36b019 -> BB75a36b027 [color="red"];
+  BB75a36b027 -> BB75a36b029 [color="blue"];
+}

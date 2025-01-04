@@ -1,0 +1,16 @@
+digraph sqlite3BtreeCloseCursor {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a287a20 -> BB75a287a6b [color="green"];
+  BB75a287a20 -> BB75a287a34 [color="red"];
+  BB75a287a34 -> BB75a287a78 [color="green"];
+  BB75a287a34 -> BB75a287a41 [color="red"];
+  BB75a287a41 -> BB75a287a49 [color="blue"];
+  BB75a287a49 -> BB75a287a6b [color="red"];
+  BB75a287a78 -> BB75a287a8d [color="green"];
+  BB75a287a78 -> BB75a287a84 [color="red"];
+  BB75a287a84 -> BB75a287a49 [color="blue"];
+  BB75a287a8d -> BB75a287a49 [color="green"];
+  BB75a287a8d -> BB75a287a92 [color="red"];
+  BB75a287a92 -> BB75a287a78 [color="blue"];
+}

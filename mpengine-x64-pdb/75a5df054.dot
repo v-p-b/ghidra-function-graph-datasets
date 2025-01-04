@@ -1,0 +1,19 @@
+digraph isv_sample {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5df054 -> BB75a5df0f4 [color="green"];
+  BB75a5df054 -> BB75a5df0c3 [color="red"];
+  BB75a5df0c3 -> BB75a5df0f2 [color="green"];
+  BB75a5df0c3 -> BB75a5df0ec [color="red"];
+  BB75a5df0ec -> BB75a5df0f2 [color="red"];
+  BB75a5df0f2 -> BB75a5df123 [color="blue"];
+  BB75a5df0f4 -> BB75a5df123 [color="green"];
+  BB75a5df0f4 -> BB75a5df11d [color="red"];
+  BB75a5df11d -> BB75a5df123 [color="red"];
+  BB75a5df123 -> BB75a5df132 [color="green"];
+  BB75a5df123 -> BB75a5df12c [color="red"];
+  BB75a5df12c -> BB75a5df132 [color="red"];
+  BB75a5df132 -> BB75a5df13f [color="green"];
+  BB75a5df132 -> BB75a5df13a [color="red"];
+  BB75a5df13a -> BB75a5df13f [color="red"];
+}

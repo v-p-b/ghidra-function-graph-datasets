@@ -1,0 +1,17 @@
+digraph getAPKStatus {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa6b594 -> BB75aa6b703 [color="green"];
+  BB75aa6b594 -> BB75aa6b6cc [color="red"];
+  BB75aa6b6cc -> BB75aa6b703 [color="red"];
+  BB75aa6b703 -> BB75aa6b763 [color="green"];
+  BB75aa6b703 -> BB75aa6b72c [color="red"];
+  BB75aa6b72c -> BB75aa6b763 [color="red"];
+  BB75aa6b763 -> BB75aa6b78e [color="green"];
+  BB75aa6b763 -> BB75aa6b787 [color="red"];
+  BB75aa6b787 -> BB75aa6b794 [color="blue"];
+  BB75aa6b78e -> BB75aa6b7a3 [color="green"];
+  BB75aa6b78e -> BB75aa6b794 [color="red"];
+  BB75aa6b794 -> BB75aa6b7a5 [color="blue"];
+  BB75aa6b7a3 -> BB75aa6b7a5 [color="blue"];
+}

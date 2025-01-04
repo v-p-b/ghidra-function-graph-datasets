@@ -1,0 +1,14 @@
+digraph WriteRawVarint {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a30f0c0 -> BB75a30f0d0 [color="blue"];
+  BB75a30f0d0 -> BB75a30f104 [color="green"];
+  BB75a30f0d0 -> BB75a30f0e2 [color="red"];
+  BB75a30f0e2 -> BB75a30f10c [color="green"];
+  BB75a30f0e2 -> BB75a30f0ec [color="red"];
+  BB75a30f0ec -> BB75a30f0f2 [color="blue"];
+  BB75a30f0f2 -> BB75a30f0d0 [color="green"];
+  BB75a30f0f2 -> BB75a30f0f7 [color="red"];
+  BB75a30f104 -> BB75a30f0e2 [color="blue"];
+  BB75a30f10c -> BB75a30f0f2 [color="blue"];
+}

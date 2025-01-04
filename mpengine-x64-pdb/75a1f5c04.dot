@@ -1,0 +1,9 @@
+digraph release {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1f5c04 -> BB75a1f5c1b [color="green"];
+  BB75a1f5c04 -> BB75a1f5c15 [color="red"];
+  BB75a1f5c1b -> BB75a1f5c15 [color="green"];
+  BB75a1f5c1b -> BB75a1f5c2b [color="red"];
+  BB75a1f5c2b -> BB75a1f5c15 [color="blue"];
+}

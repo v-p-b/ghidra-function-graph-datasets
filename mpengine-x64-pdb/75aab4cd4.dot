@@ -1,0 +1,21 @@
+digraph GetResourceFromUpperThreat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aab4cd4 -> BB75aab4d26 [color="green"];
+  BB75aab4cd4 -> BB75aab4ce4 [color="red"];
+  BB75aab4ce4 -> BB75aab4d26 [color="green"];
+  BB75aab4ce4 -> BB75aab4ce9 [color="red"];
+  BB75aab4ce9 -> BB75aab4d21 [color="green"];
+  BB75aab4ce9 -> BB75aab4cf1 [color="red"];
+  BB75aab4cf1 -> BB75aab4cf8 [color="blue"];
+  BB75aab4cf8 -> BB75aab4d1b [color="green"];
+  BB75aab4cf8 -> BB75aab4cfc [color="red"];
+  BB75aab4cfc -> BB75aab4d17 [color="green"];
+  BB75aab4cfc -> BB75aab4d11 [color="red"];
+  BB75aab4d11 -> BB75aab4d21 [color="green"];
+  BB75aab4d11 -> BB75aab4d17 [color="red"];
+  BB75aab4d17 -> BB75aab4cf8 [color="blue"];
+  BB75aab4d1b -> BB75aab4ce4 [color="blue"];
+  BB75aab4d21 -> BB75aab4d28 [color="blue"];
+  BB75aab4d26 -> BB75aab4d28 [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph ReadVmCompare {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a868580 -> BB75a8685de [color="green"];
+  BB75a868580 -> BB75a8685ab [color="red"];
+  BB75a8685ab -> BB75a8685de [color="green"];
+  BB75a8685ab -> BB75a8685b0 [color="red"];
+  BB75a8685b0 -> BB75a86862c [color="green"];
+  BB75a8685b0 -> BB75a8685c3 [color="red"];
+  BB75a8685c3 -> BB75a86862e [color="blue"];
+  BB75a8685de -> BB75a86862c [color="green"];
+  BB75a8685de -> BB75a8685f6 [color="red"];
+  BB75a8685f6 -> BB75a86862c [color="green"];
+  BB75a8685f6 -> BB75a8685fc [color="red"];
+  BB75a8685fc -> BB75a86862c [color="red"];
+  BB75a86862c -> BB75a86862e [color="blue"];
+}

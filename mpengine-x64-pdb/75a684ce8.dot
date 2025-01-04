@@ -1,0 +1,13 @@
+digraph ZSTD_getDDict {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a684ce8 -> BB75a684d37 [color="green"];
+  BB75a684ce8 -> BB75a684cfc [color="red"];
+  BB75a684cfc -> BB75a684d2b [color="green"];
+  BB75a684cfc -> BB75a684d00 [color="red"];
+  BB75a684d00 -> BB75a684d25 [color="red"];
+  BB75a684d2b -> BB75a684d00 [color="green"];
+  BB75a684d2b -> BB75a684d30 [color="red"];
+  BB75a684d30 -> BB75a684d37 [color="blue"];
+  BB75a684d37 -> BB75a684d25 [color="blue"];
+}

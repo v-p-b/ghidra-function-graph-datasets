@@ -1,0 +1,15 @@
+digraph get_unknown_threat_count {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a369748 -> BB75a36978f [color="green"];
+  BB75a369748 -> BB75a369769 [color="red"];
+  BB75a369769 -> BB75a369796 [color="green"];
+  BB75a369769 -> BB75a36977d [color="red"];
+  BB75a36977d -> BB75a36977f [color="blue"];
+  BB75a36978f -> BB75a36977d [color="blue"];
+  BB75a369796 -> BB75a3697ca [color="green"];
+  BB75a369796 -> BB75a3697a6 [color="red"];
+  BB75a3697a6 -> BB75a3697dc [color="blue"];
+  BB75a3697ca -> BB75a3697dc [color="blue"];
+  BB75a3697dc -> BB75a36977f [color="blue"];
+}

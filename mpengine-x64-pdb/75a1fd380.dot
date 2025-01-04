@@ -1,0 +1,14 @@
+digraph checkSizes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1fd380 -> BB75a1fd3f5 [color="green"];
+  BB75a1fd380 -> BB75a1fd3ab [color="red"];
+  BB75a1fd3ab -> BB75a1fd3ca [color="green"];
+  BB75a1fd3ab -> BB75a1fd3b5 [color="red"];
+  BB75a1fd3ca -> BB75a1fd412 [color="green"];
+  BB75a1fd3ca -> BB75a1fd3df [color="red"];
+  BB75a1fd3df -> BB75a1fd3b5 [color="blue"];
+  BB75a1fd3f5 -> BB75a1fd3ab [color="green"];
+  BB75a1fd3f5 -> BB75a1fd3fb [color="red"];
+  BB75a1fd3fb -> BB75a1fd3ab [color="blue"];
+}

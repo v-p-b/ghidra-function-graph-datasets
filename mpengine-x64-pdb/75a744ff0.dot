@@ -1,0 +1,14 @@
+digraph GetNextGoodPrime {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a744ff0 -> BB75a744ffc [color="blue"];
+  BB75a744ffc -> BB75a74501b [color="green"];
+  BB75a744ffc -> BB75a74500b [color="red"];
+  BB75a74500b -> BB75a74501e [color="blue"];
+  BB75a74501b -> BB75a74501e [color="blue"];
+  BB75a74501e -> BB75a744ffc [color="green"];
+  BB75a74501e -> BB75a745023 [color="red"];
+  BB75a745023 -> BB75a745037 [color="green"];
+  BB75a745023 -> BB75a745034 [color="red"];
+  BB75a745034 -> BB75a745037 [color="blue"];
+}

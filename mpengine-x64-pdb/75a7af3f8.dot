@@ -1,0 +1,23 @@
+digraph common_sopen_dispatch<wchar_t> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7af3f8 -> BB75a7af42d [color="green"];
+  BB75a7af3f8 -> BB75a7af40f [color="red"];
+  BB75a7af40f -> BB75a7af422 [color="red"];
+  BB75a7af42d -> BB75a7af40f [color="green"];
+  BB75a7af42d -> BB75a7af435 [color="red"];
+  BB75a7af435 -> BB75a7af449 [color="green"];
+  BB75a7af435 -> BB75a7af440 [color="red"];
+  BB75a7af440 -> BB75a7af40f [color="green"];
+  BB75a7af440 -> BB75a7af449 [color="red"];
+  BB75a7af449 -> BB75a7af4ad [color="green"];
+  BB75a7af449 -> BB75a7af481 [color="red"];
+  BB75a7af481 -> BB75a7af4a6 [color="green"];
+  BB75a7af481 -> BB75a7af485 [color="red"];
+  BB75a7af485 -> BB75a7af4a6 [color="blue"];
+  BB75a7af4a6 -> BB75a7af4ad [color="red"];
+  BB75a7af4ad -> BB75a7af4b4 [color="green"];
+  BB75a7af4ad -> BB75a7af4b1 [color="red"];
+  BB75a7af4b1 -> BB75a7af4b4 [color="blue"];
+  BB75a7af4b4 -> BB75a7af422 [color="blue"];
+}

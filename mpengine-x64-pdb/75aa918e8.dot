@@ -1,0 +1,13 @@
+digraph DisableTrustedImage {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa918e8 -> BB75aa9192f [color="green"];
+  BB75aa918e8 -> BB75aa918fa [color="red"];
+  BB75aa918fa -> BB75aa91928 [color="green"];
+  BB75aa918fa -> BB75aa9190d [color="red"];
+  BB75aa9190d -> BB75aa91928 [color="green"];
+  BB75aa9190d -> BB75aa91913 [color="red"];
+  BB75aa91913 -> BB75aa91928 [color="red"];
+  BB75aa91928 -> BB75aa919a5 [color="blue"];
+  BB75aa9192f -> BB75aa9197e [color="blue"];
+}

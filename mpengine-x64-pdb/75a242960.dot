@@ -1,0 +1,13 @@
+digraph set_FPU_state {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a242960 -> BB75a242986 [color="green"];
+  BB75a242960 -> BB75a24297b [color="red"];
+  BB75a242986 -> BB75a2429bf [color="green"];
+  BB75a242986 -> BB75a2429ab [color="red"];
+  BB75a2429ab -> BB75a2429b7 [color="red"];
+  BB75a2429b7 -> BB75a24297b [color="blue"];
+  BB75a2429bf -> BB75a2429b7 [color="green"];
+  BB75a2429bf -> BB75a2429d4 [color="red"];
+  BB75a2429d4 -> BB75a2429b7 [color="blue"];
+}

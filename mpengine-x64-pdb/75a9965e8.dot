@@ -1,0 +1,10 @@
+digraph incompatible_processes_imp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9965e8 -> BB75a996695 [color="green"];
+  BB75a9965e8 -> BB75a996631 [color="red"];
+  BB75a996631 -> BB75a996690 [color="blue"];
+  BB75a99663a -> BB75a996690 [color="red"];
+  BB75a996690 -> BB75a99663a [color="green"];
+  BB75a996690 -> BB75a996695 [color="red"];
+}

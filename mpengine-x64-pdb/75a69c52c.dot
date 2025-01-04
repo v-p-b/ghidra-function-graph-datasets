@@ -1,0 +1,17 @@
+digraph IsLowNetworkLatency {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a69c52c -> BB75a69c57c [color="green"];
+  BB75a69c52c -> BB75a69c53e [color="red"];
+  BB75a69c53e -> BB75a69c57c [color="green"];
+  BB75a69c53e -> BB75a69c546 [color="red"];
+  BB75a69c546 -> BB75a69c57c [color="green"];
+  BB75a69c546 -> BB75a69c54f [color="red"];
+  BB75a69c54f -> BB75a69c574 [color="green"];
+  BB75a69c54f -> BB75a69c567 [color="red"];
+  BB75a69c567 -> BB75a69c580 [color="green"];
+  BB75a69c567 -> BB75a69c574 [color="red"];
+  BB75a69c574 -> BB75a69c576 [color="blue"];
+  BB75a69c57c -> BB75a69c576 [color="blue"];
+  BB75a69c580 -> BB75a69c574 [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph emulate_rdmsr {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb8fb0 -> BB75abb8fd9 [color="green"];
+  BB75abb8fb0 -> BB75abb8fcc [color="red"];
+  BB75abb8fd9 -> BB75abb901d [color="green"];
+  BB75abb8fd9 -> BB75abb8feb [color="red"];
+  BB75abb8feb -> BB75abb8fcc [color="green"];
+  BB75abb8feb -> BB75abb8ff0 [color="red"];
+  BB75abb8ff0 -> BB75abb9048 [color="blue"];
+  BB75abb901d -> BB75abb9048 [color="blue"];
+}

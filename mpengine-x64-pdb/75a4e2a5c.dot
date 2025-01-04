@@ -1,0 +1,12 @@
+digraph GetScanReason {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4e2a5c -> BB75a4e2a7b [color="green"];
+  BB75a4e2a5c -> BB75a4e2a73 [color="red"];
+  BB75a4e2a73 -> BB75a4e2a75 [color="blue"];
+  BB75a4e2a7b -> BB75a4e2a73 [color="green"];
+  BB75a4e2a7b -> BB75a4e2a8d [color="red"];
+  BB75a4e2a8d -> BB75a4e2a73 [color="green"];
+  BB75a4e2a8d -> BB75a4e2a9e [color="red"];
+  BB75a4e2a9e -> BB75a4e2a75 [color="blue"];
+}

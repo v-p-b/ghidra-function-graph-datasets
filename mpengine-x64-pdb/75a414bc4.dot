@@ -1,0 +1,11 @@
+digraph GetFileDesiredAccess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a414bc4 -> BB75a414c00 [color="green"];
+  BB75a414bc4 -> BB75a414bf1 [color="red"];
+  BB75a414bf1 -> BB75a414c07 [color="green"];
+  BB75a414bf1 -> BB75a414bf9 [color="red"];
+  BB75a414bf9 -> BB75a414bfb [color="blue"];
+  BB75a414c00 -> BB75a414bfb [color="blue"];
+  BB75a414c07 -> BB75a414bf9 [color="blue"];
+}

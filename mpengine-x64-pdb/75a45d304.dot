@@ -1,0 +1,23 @@
+digraph sqlite3PagerClose {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a45d304 -> BB75a45d347 [color="green"];
+  BB75a45d304 -> BB75a45d336 [color="red"];
+  BB75a45d336 -> BB75a45d336 [color="green"];
+  BB75a45d336 -> BB75a45d347 [color="red"];
+  BB75a45d347 -> BB75a45d36a [color="green"];
+  BB75a45d347 -> BB75a45d352 [color="red"];
+  BB75a45d352 -> BB75a45d36a [color="green"];
+  BB75a45d352 -> BB75a45d35c [color="red"];
+  BB75a45d35c -> BB75a45d36a [color="red"];
+  BB75a45d36a -> BB75a45d409 [color="green"];
+  BB75a45d36a -> BB75a45d3a0 [color="red"];
+  BB75a45d3a0 -> BB75a45d3a8 [color="red"];
+  BB75a45d3a8 -> BB75a45d432 [color="green"];
+  BB75a45d3a8 -> BB75a45d3ea [color="red"];
+  BB75a45d409 -> BB75a45d425 [color="green"];
+  BB75a45d409 -> BB75a45d413 [color="red"];
+  BB75a45d413 -> BB75a45d425 [color="red"];
+  BB75a45d425 -> BB75a45d3a8 [color="blue"];
+  BB75a45d432 -> BB75a45d3ea [color="blue"];
+}

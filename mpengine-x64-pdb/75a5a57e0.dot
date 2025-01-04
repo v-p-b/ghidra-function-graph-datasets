@@ -1,0 +1,14 @@
+digraph DirectedScan {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5a57e0 -> BB75a5a583b [color="red"];
+  BB75a5a583b -> BB75a5a5875 [color="green"];
+  BB75a5a583b -> BB75a5a5851 [color="red"];
+  BB75a5a5851 -> BB75a5a583b [color="green"];
+  BB75a5a5851 -> BB75a5a585f [color="red"];
+  BB75a5a585f -> BB75a5a583b [color="blue"];
+  BB75a5a5875 -> BB75a5a588c [color="green"];
+  BB75a5a5875 -> BB75a5a587d [color="red"];
+  BB75a5a587d -> BB75a5a588c [color="red"];
+  BB75a5a588c -> BB75a5a58bf [color="blue"];
+}

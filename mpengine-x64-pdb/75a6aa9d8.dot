@@ -1,0 +1,16 @@
+digraph ZSTD_literalsCompressionIsDisabled {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6aa9d8 -> BB75a6aa9ec [color="green"];
+  BB75a6aa9d8 -> BB75a6aa9df [color="red"];
+  BB75a6aa9df -> BB75a6aa9f9 [color="green"];
+  BB75a6aa9df -> BB75a6aa9e9 [color="red"];
+  BB75a6aa9e9 -> BB75a6aa9eb [color="blue"];
+  BB75a6aa9ec -> BB75a6aa9e9 [color="green"];
+  BB75a6aa9ec -> BB75a6aa9f1 [color="red"];
+  BB75a6aa9f1 -> BB75a6aa9df [color="green"];
+  BB75a6aa9f1 -> BB75a6aa9f6 [color="red"];
+  BB75a6aa9f9 -> BB75a6aa9eb [color="green"];
+  BB75a6aa9f9 -> BB75a6aa9ff [color="red"];
+  BB75a6aa9ff -> BB75a6aa9e9 [color="blue"];
+}

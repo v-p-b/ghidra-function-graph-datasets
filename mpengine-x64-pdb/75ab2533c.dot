@@ -1,0 +1,13 @@
+digraph suspend_or_fail {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab2533c -> BB75ab2535f [color="green"];
+  BB75ab2533c -> BB75ab25352 [color="red"];
+  BB75ab25352 -> BB75ab25386 [color="green"];
+  BB75ab25352 -> BB75ab25359 [color="red"];
+  BB75ab25359 -> BB75ab25386 [color="green"];
+  BB75ab25359 -> BB75ab2535f [color="red"];
+  BB75ab2535f -> BB75ab25386 [color="green"];
+  BB75ab2535f -> BB75ab25368 [color="red"];
+  BB75ab25368 -> BB75ab25386 [color="red"];
+}

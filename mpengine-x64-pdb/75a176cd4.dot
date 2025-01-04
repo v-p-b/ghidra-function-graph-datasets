@@ -1,0 +1,21 @@
+digraph numNegate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a176cd4 -> BB75a176d52 [color="green"];
+  BB75a176cd4 -> BB75a176cfa [color="red"];
+  BB75a176cfa -> BB75a176d3c [color="green"];
+  BB75a176cfa -> BB75a176d03 [color="red"];
+  BB75a176d03 -> BB75a176d68 [color="green"];
+  BB75a176d03 -> BB75a176d0f [color="red"];
+  BB75a176d0f -> BB75a176d2a [color="blue"];
+  BB75a176d2a -> BB75a176d2c [color="blue"];
+  BB75a176d3c -> BB75a176d4b [color="green"];
+  BB75a176d3c -> BB75a176d45 [color="red"];
+  BB75a176d45 -> BB75a176d03 [color="green"];
+  BB75a176d45 -> BB75a176d4b [color="red"];
+  BB75a176d4b -> BB75a176d03 [color="blue"];
+  BB75a176d52 -> BB75a176d68 [color="red"];
+  BB75a176d68 -> BB75a176d2c [color="green"];
+  BB75a176d68 -> BB75a176db7 [color="red"];
+  BB75a176db7 -> BB75a176d2a [color="blue"];
+}

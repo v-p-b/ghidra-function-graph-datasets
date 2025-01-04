@@ -1,0 +1,11 @@
+digraph AsrRemediateProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7c6f34 -> BB75a7c6fbf [color="green"];
+  BB75a7c6f34 -> BB75a7c6f60 [color="red"];
+  BB75a7c6f60 -> BB75a7c6fbf [color="green"];
+  BB75a7c6f60 -> BB75a7c6f65 [color="red"];
+  BB75a7c6f65 -> BB75a7c6fbf [color="green"];
+  BB75a7c6f65 -> BB75a7c6f73 [color="red"];
+  BB75a7c6f73 -> BB75a7c6fbf [color="red"];
+}

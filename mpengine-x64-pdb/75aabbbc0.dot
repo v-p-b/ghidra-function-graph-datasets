@@ -1,0 +1,13 @@
+digraph BufferCopy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aabbbc0 -> BB75aabbbe4 [color="blue"];
+  BB75aabbbe4 -> BB75aabbc05 [color="green"];
+  BB75aabbbe4 -> BB75aabbbe9 [color="red"];
+  BB75aabbbe9 -> BB75aabbbfd [color="green"];
+  BB75aabbbe9 -> BB75aabbbf8 [color="red"];
+  BB75aabbbf8 -> BB75aabbbe4 [color="blue"];
+  BB75aabbbfd -> BB75aabbc05 [color="green"];
+  BB75aabbbfd -> BB75aabbc02 [color="red"];
+  BB75aabbc02 -> BB75aabbc05 [color="blue"];
+}

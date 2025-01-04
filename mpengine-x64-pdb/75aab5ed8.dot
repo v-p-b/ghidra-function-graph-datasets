@@ -1,0 +1,27 @@
+digraph IsChildResourceSharedInThreat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aab5ed8 -> BB75aab5f0e [color="green"];
+  BB75aab5ed8 -> BB75aab5f08 [color="red"];
+  BB75aab5f08 -> BB75aab5f12 [color="blue"];
+  BB75aab5f0e -> BB75aab5f12 [color="blue"];
+  BB75aab5f12 -> BB75aab5f1c [color="blue"];
+  BB75aab5f1c -> BB75aab5f85 [color="green"];
+  BB75aab5f1c -> BB75aab5f21 [color="red"];
+  BB75aab5f21 -> BB75aab5f7b [color="green"];
+  BB75aab5f21 -> BB75aab5f29 [color="red"];
+  BB75aab5f29 -> BB75aab5f7b [color="green"];
+  BB75aab5f29 -> BB75aab5f2e [color="red"];
+  BB75aab5f2e -> BB75aab5f51 [color="green"];
+  BB75aab5f2e -> BB75aab5f4c [color="red"];
+  BB75aab5f4c -> BB75aab5f51 [color="red"];
+  BB75aab5f51 -> BB75aab5f68 [color="blue"];
+  BB75aab5f68 -> BB75aab5f7b [color="green"];
+  BB75aab5f68 -> BB75aab5f6d [color="red"];
+  BB75aab5f6d -> BB75aab5f81 [color="green"];
+  BB75aab5f6d -> BB75aab5f77 [color="red"];
+  BB75aab5f77 -> BB75aab5f68 [color="blue"];
+  BB75aab5f7b -> BB75aab5f1c [color="blue"];
+  BB75aab5f81 -> BB75aab5f87 [color="blue"];
+  BB75aab5f85 -> BB75aab5f87 [color="blue"];
+}

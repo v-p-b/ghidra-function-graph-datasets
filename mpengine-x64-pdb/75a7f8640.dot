@@ -1,0 +1,10 @@
+digraph NotifyExpensive {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7f8640 -> BB75a7f8698 [color="green"];
+  BB75a7f8640 -> BB75a7f868b [color="red"];
+  BB75a7f868b -> BB75a7f8698 [color="red"];
+  BB75a7f8698 -> BB75a7f86fa [color="green"];
+  BB75a7f8698 -> BB75a7f86ed [color="red"];
+  BB75a7f86ed -> BB75a7f86fa [color="red"];
+}

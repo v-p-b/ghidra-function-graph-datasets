@@ -1,0 +1,14 @@
+digraph sqlite3UnlinkAndDeleteTrigger {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a76315c -> BB75a7631fa [color="green"];
+  BB75a76315c -> BB75a7631a0 [color="red"];
+  BB75a7631a0 -> BB75a7631ee [color="green"];
+  BB75a7631a0 -> BB75a7631be [color="red"];
+  BB75a7631be -> BB75a7631df [color="blue"];
+  BB75a7631db -> BB75a7631df [color="blue"];
+  BB75a7631df -> BB75a7631db [color="green"];
+  BB75a7631df -> BB75a7631e7 [color="red"];
+  BB75a7631e7 -> BB75a7631ee [color="blue"];
+  BB75a7631ee -> BB75a7631fa [color="red"];
+}

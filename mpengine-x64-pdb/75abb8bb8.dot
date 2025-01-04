@@ -1,0 +1,31 @@
+digraph init_x86_GBB {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb8bb8 -> BB75abb8d16 [color="green"];
+  BB75abb8bb8 -> BB75abb8be9 [color="red"];
+  BB75abb8be9 -> BB75abb8d16 [color="green"];
+  BB75abb8be9 -> BB75abb8bfa [color="red"];
+  BB75abb8bfa -> BB75abb8c55 [color="green"];
+  BB75abb8bfa -> BB75abb8c03 [color="red"];
+  BB75abb8c03 -> BB75abb8cb3 [color="green"];
+  BB75abb8c03 -> BB75abb8c1b [color="red"];
+  BB75abb8c1b -> BB75abb8c55 [color="blue"];
+  BB75abb8c55 -> BB75abb8c83 [color="green"];
+  BB75abb8c55 -> BB75abb8c6d [color="red"];
+  BB75abb8c6d -> BB75abb8c83 [color="red"];
+  BB75abb8c83 -> BB75abb8cb1 [color="green"];
+  BB75abb8c83 -> BB75abb8cab [color="red"];
+  BB75abb8cab -> BB75abb8cb1 [color="red"];
+  BB75abb8cb1 -> BB75abb8cce [color="blue"];
+  BB75abb8cb3 -> BB75abb8d76 [color="blue"];
+  BB75abb8cce -> BB75abb8d76 [color="green"];
+  BB75abb8cce -> BB75abb8d0a [color="red"];
+  BB75abb8d0a -> BB75abb8d16 [color="red"];
+  BB75abb8d16 -> BB75abb8d18 [color="blue"];
+  BB75abb8d76 -> BB75abb8da4 [color="green"];
+  BB75abb8d76 -> BB75abb8d89 [color="red"];
+  BB75abb8d89 -> BB75abb8da4 [color="green"];
+  BB75abb8d89 -> BB75abb8d8f [color="red"];
+  BB75abb8d8f -> BB75abb8da4 [color="red"];
+  BB75abb8da4 -> BB75abb8d18 [color="blue"];
+}

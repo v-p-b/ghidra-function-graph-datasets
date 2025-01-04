@@ -1,0 +1,27 @@
+digraph __acrt_execute_initializers {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7a6ce0 -> BB75a7a6d4e [color="green"];
+  BB75a7a6ce0 -> BB75a7a6cfa [color="red"];
+  BB75a7a6cfa -> BB75a7a6cfd [color="blue"];
+  BB75a7a6cfd -> BB75a7a6d0f [color="green"];
+  BB75a7a6cfd -> BB75a7a6d05 [color="red"];
+  BB75a7a6d05 -> BB75a7a6d18 [color="green"];
+  BB75a7a6d05 -> BB75a7a6d0f [color="red"];
+  BB75a7a6d0f -> BB75a7a6cfd [color="green"];
+  BB75a7a6d0f -> BB75a7a6d18 [color="red"];
+  BB75a7a6d18 -> BB75a7a6d4e [color="green"];
+  BB75a7a6d18 -> BB75a7a6d1d [color="red"];
+  BB75a7a6d1d -> BB75a7a6d4a [color="green"];
+  BB75a7a6d1d -> BB75a7a6d22 [color="red"];
+  BB75a7a6d22 -> BB75a7a6d26 [color="blue"];
+  BB75a7a6d26 -> BB75a7a6d3d [color="green"];
+  BB75a7a6d26 -> BB75a7a6d2d [color="red"];
+  BB75a7a6d2d -> BB75a7a6d3d [color="green"];
+  BB75a7a6d2d -> BB75a7a6d35 [color="red"];
+  BB75a7a6d35 -> BB75a7a6d3d [color="red"];
+  BB75a7a6d3d -> BB75a7a6d26 [color="green"];
+  BB75a7a6d3d -> BB75a7a6d4a [color="red"];
+  BB75a7a6d4a -> BB75a7a6d50 [color="blue"];
+  BB75a7a6d4e -> BB75a7a6d50 [color="blue"];
+}

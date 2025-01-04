@@ -1,0 +1,18 @@
+digraph compare_version_names {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5bad38 -> BB75a5bad6b [color="green"];
+  BB75a5bad38 -> BB75a5bad65 [color="red"];
+  BB75a5bad65 -> BB75a5bad6e [color="blue"];
+  BB75a5bad6b -> BB75a5bad6e [color="blue"];
+  BB75a5bad6e -> BB75a5bad71 [color="blue"];
+  BB75a5bad71 -> BB75a5badbb [color="green"];
+  BB75a5bad71 -> BB75a5bad76 [color="red"];
+  BB75a5bad76 -> BB75a5badbb [color="green"];
+  BB75a5bad76 -> BB75a5bad82 [color="red"];
+  BB75a5bad82 -> BB75a5badb7 [color="green"];
+  BB75a5bad82 -> BB75a5badae [color="red"];
+  BB75a5badae -> BB75a5bad71 [color="blue"];
+  BB75a5badb7 -> BB75a5badbd [color="blue"];
+  BB75a5badbb -> BB75a5badbd [color="blue"];
+}

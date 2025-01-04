@@ -1,0 +1,13 @@
+digraph GetBYTE {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5205bc -> BB75a5205f9 [color="green"];
+  BB75a5205bc -> BB75a5205da [color="red"];
+  BB75a5205da -> BB75a5205ee [color="blue"];
+  BB75a5205f9 -> BB75a520627 [color="green"];
+  BB75a5205f9 -> BB75a52060c [color="red"];
+  BB75a52060c -> BB75a520627 [color="green"];
+  BB75a52060c -> BB75a520612 [color="red"];
+  BB75a520612 -> BB75a520627 [color="red"];
+  BB75a520627 -> BB75a5205ee [color="blue"];
+}

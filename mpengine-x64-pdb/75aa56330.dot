@@ -1,0 +1,33 @@
+digraph CheckAndUnmergeSections {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa56330 -> BB75aa563c6 [color="green"];
+  BB75aa56330 -> BB75aa5638d [color="red"];
+  BB75aa5638d -> BB75aa56496 [color="green"];
+  BB75aa5638d -> BB75aa563a4 [color="red"];
+  BB75aa563a4 -> BB75aa56496 [color="green"];
+  BB75aa563a4 -> BB75aa563ae [color="red"];
+  BB75aa563ae -> BB75aa563b1 [color="blue"];
+  BB75aa563b1 -> BB75aa56496 [color="blue"];
+  BB75aa563c6 -> BB75aa56406 [color="green"];
+  BB75aa563c6 -> BB75aa563e6 [color="red"];
+  BB75aa563e6 -> BB75aa56406 [color="green"];
+  BB75aa563e6 -> BB75aa563f7 [color="red"];
+  BB75aa563f7 -> BB75aa56406 [color="blue"];
+  BB75aa56406 -> BB75aa5643d [color="green"];
+  BB75aa56406 -> BB75aa5640b [color="red"];
+  BB75aa5640b -> BB75aa56439 [color="green"];
+  BB75aa5640b -> BB75aa5641e [color="red"];
+  BB75aa5641e -> BB75aa56439 [color="green"];
+  BB75aa5641e -> BB75aa56424 [color="red"];
+  BB75aa56424 -> BB75aa56439 [color="red"];
+  BB75aa56439 -> BB75aa56496 [color="blue"];
+  BB75aa5643d -> BB75aa56479 [color="green"];
+  BB75aa5643d -> BB75aa56457 [color="red"];
+  BB75aa56457 -> BB75aa56496 [color="green"];
+  BB75aa56457 -> BB75aa5646a [color="red"];
+  BB75aa5646a -> BB75aa56496 [color="green"];
+  BB75aa5646a -> BB75aa56470 [color="red"];
+  BB75aa56470 -> BB75aa563b1 [color="blue"];
+  BB75aa56479 -> BB75aa56496 [color="red"];
+}

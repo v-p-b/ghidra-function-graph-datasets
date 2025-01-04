@@ -1,0 +1,16 @@
+digraph alloc<struct_JsPrototypeObject_RegExp> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3aed94 -> BB75a3aee23 [color="green"];
+  BB75a3aed94 -> BB75a3aedaf [color="red"];
+  BB75a3aedaf -> BB75a3aee23 [color="green"];
+  BB75a3aedaf -> BB75a3aedbc [color="red"];
+  BB75a3aedbc -> BB75a3aee23 [color="green"];
+  BB75a3aedbc -> BB75a3aedca [color="red"];
+  BB75a3aedca -> BB75a3aee17 [color="green"];
+  BB75a3aedca -> BB75a3aedf9 [color="red"];
+  BB75a3aedf9 -> BB75a3aee01 [color="blue"];
+  BB75a3aee01 -> BB75a3aee0a [color="blue"];
+  BB75a3aee17 -> BB75a3aee01 [color="blue"];
+  BB75a3aee23 -> BB75a3aee0a [color="blue"];
+}

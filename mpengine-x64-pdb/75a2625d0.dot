@@ -1,0 +1,29 @@
+digraph ZeroMemoryBlocks {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2625d0 -> BB75a26269d [color="green"];
+  BB75a2625d0 -> BB75a2625fc [color="red"];
+  BB75a2625fc -> BB75a2626a7 [color="green"];
+  BB75a2625fc -> BB75a262606 [color="red"];
+  BB75a262606 -> BB75a262630 [color="green"];
+  BB75a262606 -> BB75a262615 [color="red"];
+  BB75a262630 -> BB75a262615 [color="green"];
+  BB75a262630 -> BB75a262635 [color="red"];
+  BB75a262635 -> BB75a262615 [color="green"];
+  BB75a262635 -> BB75a26264f [color="red"];
+  BB75a26264f -> BB75a262656 [color="blue"];
+  BB75a262656 -> BB75a262615 [color="green"];
+  BB75a262656 -> BB75a26265e [color="red"];
+  BB75a26265e -> BB75a262699 [color="green"];
+  BB75a26265e -> BB75a262672 [color="red"];
+  BB75a262672 -> BB75a262677 [color="blue"];
+  BB75a262677 -> BB75a2626b1 [color="green"];
+  BB75a262677 -> BB75a262685 [color="red"];
+  BB75a262685 -> BB75a262656 [color="green"];
+  BB75a262685 -> BB75a262694 [color="red"];
+  BB75a262694 -> BB75a262615 [color="blue"];
+  BB75a262699 -> BB75a262677 [color="blue"];
+  BB75a26269d -> BB75a2625fc [color="blue"];
+  BB75a2626a7 -> BB75a262606 [color="blue"];
+  BB75a2626b1 -> BB75a262685 [color="blue"];
+}

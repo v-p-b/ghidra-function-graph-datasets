@@ -1,0 +1,27 @@
+digraph ReportBlockingPID {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac9764c -> BB75ac976a6 [color="green"];
+  BB75ac9764c -> BB75ac9768d [color="red"];
+  BB75ac9768d -> BB75ac9769c [color="green"];
+  BB75ac9768d -> BB75ac97697 [color="red"];
+  BB75ac97697 -> BB75ac9769c [color="red"];
+  BB75ac9769c -> BB75ac9772a [color="blue"];
+  BB75ac976a6 -> BB75ac97707 [color="green"];
+  BB75ac976a6 -> BB75ac976b0 [color="red"];
+  BB75ac976b0 -> BB75ac976b8 [color="blue"];
+  BB75ac976b8 -> BB75ac976b8 [color="green"];
+  BB75ac976b8 -> BB75ac976c2 [color="red"];
+  BB75ac976c2 -> BB75ac97707 [color="green"];
+  BB75ac976c2 -> BB75ac976eb [color="red"];
+  BB75ac976eb -> BB75ac97707 [color="green"];
+  BB75ac976eb -> BB75ac976f6 [color="red"];
+  BB75ac976f6 -> BB75ac97703 [color="green"];
+  BB75ac976f6 -> BB75ac976fb [color="red"];
+  BB75ac976fb -> BB75ac97703 [color="red"];
+  BB75ac97703 -> BB75ac9772a [color="blue"];
+  BB75ac97707 -> BB75ac97728 [color="green"];
+  BB75ac97707 -> BB75ac97720 [color="red"];
+  BB75ac97720 -> BB75ac97728 [color="red"];
+  BB75ac97728 -> BB75ac9772a [color="blue"];
+}

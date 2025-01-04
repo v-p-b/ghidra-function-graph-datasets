@@ -1,0 +1,22 @@
+digraph destroyTable {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab4e4cc -> BB75ab4e4ed [color="blue"];
+  BB75ab4e4ed -> BB75ab4e4f9 [color="green"];
+  BB75ab4e4ed -> BB75ab4e4f4 [color="red"];
+  BB75ab4e4f4 -> BB75ab4e4fb [color="green"];
+  BB75ab4e4f4 -> BB75ab4e4f9 [color="red"];
+  BB75ab4e4f9 -> BB75ab4e4fb [color="blue"];
+  BB75ab4e4fb -> BB75ab4e517 [color="blue"];
+  BB75ab4e501 -> BB75ab4e50c [color="green"];
+  BB75ab4e501 -> BB75ab4e506 [color="red"];
+  BB75ab4e506 -> BB75ab4e513 [color="green"];
+  BB75ab4e506 -> BB75ab4e50c [color="red"];
+  BB75ab4e50c -> BB75ab4e513 [color="blue"];
+  BB75ab4e513 -> BB75ab4e517 [color="blue"];
+  BB75ab4e517 -> BB75ab4e501 [color="green"];
+  BB75ab4e517 -> BB75ab4e51c [color="red"];
+  BB75ab4e51c -> BB75ab4e53e [color="green"];
+  BB75ab4e51c -> BB75ab4e520 [color="red"];
+  BB75ab4e520 -> BB75ab4e4ed [color="blue"];
+}

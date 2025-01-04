@@ -1,0 +1,19 @@
+digraph RegOpenKeyDiff {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab0c090 -> BB75ab0c0b1 [color="green"];
+  BB75ab0c090 -> BB75ab0c0aa [color="red"];
+  BB75ab0c0aa -> BB75ab0c151 [color="blue"];
+  BB75ab0c0b1 -> BB75ab0c100 [color="green"];
+  BB75ab0c0b1 -> BB75ab0c0cf [color="red"];
+  BB75ab0c0cf -> BB75ab0c0fe [color="green"];
+  BB75ab0c0cf -> BB75ab0c0e2 [color="red"];
+  BB75ab0c0e2 -> BB75ab0c0fe [color="green"];
+  BB75ab0c0e2 -> BB75ab0c0e8 [color="red"];
+  BB75ab0c0e8 -> BB75ab0c0fe [color="red"];
+  BB75ab0c0fe -> BB75ab0c0aa [color="blue"];
+  BB75ab0c100 -> BB75ab0c14f [color="green"];
+  BB75ab0c100 -> BB75ab0c145 [color="red"];
+  BB75ab0c145 -> BB75ab0c14f [color="red"];
+  BB75ab0c14f -> BB75ab0c151 [color="blue"];
+}

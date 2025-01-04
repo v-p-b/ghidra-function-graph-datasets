@@ -1,0 +1,29 @@
+digraph MemScanOpenProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a38cb98 -> BB75a38cc0c [color="green"];
+  BB75a38cb98 -> BB75a38cbbb [color="red"];
+  BB75a38cbbb -> BB75a38cbc8 [color="green"];
+  BB75a38cbbb -> BB75a38cbbf [color="red"];
+  BB75a38cbbf -> BB75a38cbc8 [color="green"];
+  BB75a38cbbf -> BB75a38cbc4 [color="red"];
+  BB75a38cbc4 -> BB75a38cbca [color="blue"];
+  BB75a38cbc8 -> BB75a38cbca [color="blue"];
+  BB75a38cbca -> BB75a38cc1e [color="green"];
+  BB75a38cbca -> BB75a38cbd1 [color="red"];
+  BB75a38cbd1 -> BB75a38cbd6 [color="blue"];
+  BB75a38cbd6 -> BB75a38cbe1 [color="green"];
+  BB75a38cbd6 -> BB75a38cbdc [color="red"];
+  BB75a38cbdc -> BB75a38cbe1 [color="red"];
+  BB75a38cbe1 -> BB75a38cc0c [color="green"];
+  BB75a38cbe1 -> BB75a38cc07 [color="red"];
+  BB75a38cc07 -> BB75a38cc0c [color="red"];
+  BB75a38cc1e -> BB75a38cbd6 [color="green"];
+  BB75a38cc1e -> BB75a38cc41 [color="red"];
+  BB75a38cc41 -> BB75a38ccaf [color="green"];
+  BB75a38cc41 -> BB75a38cc54 [color="red"];
+  BB75a38cc54 -> BB75a38ccaf [color="green"];
+  BB75a38cc54 -> BB75a38cc5a [color="red"];
+  BB75a38cc5a -> BB75a38ccaf [color="red"];
+  BB75a38ccaf -> BB75a38cc0c [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph ResourceEnumerator {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8432cc -> BB75a843311 [color="green"];
+  BB75a8432cc -> BB75a843303 [color="red"];
+  BB75a843303 -> BB75a843311 [color="red"];
+  BB75a843311 -> BB75a84343f [color="blue"];
+  BB75a8433ab -> BB75a8433fd [color="green"];
+  BB75a8433ab -> BB75a8433d9 [color="red"];
+  BB75a8433d9 -> BB75a8433dd [color="blue"];
+  BB75a8433dd -> BB75a8433fd [color="green"];
+  BB75a8433dd -> BB75a8433e6 [color="red"];
+  BB75a8433e6 -> BB75a8433dd [color="blue"];
+  BB75a8433fd -> BB75a84343f [color="red"];
+  BB75a84343f -> BB75a8433ab [color="green"];
+  BB75a84343f -> BB75a843449 [color="red"];
+}

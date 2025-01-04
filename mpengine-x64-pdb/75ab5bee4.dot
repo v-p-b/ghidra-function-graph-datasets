@@ -1,0 +1,20 @@
+digraph vfsUnlink {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5bee4 -> BB75ab5bf30 [color="green"];
+  BB75ab5bee4 -> BB75ab5bee9 [color="red"];
+  BB75ab5bee9 -> BB75ab5bf01 [color="green"];
+  BB75ab5bee9 -> BB75ab5bef5 [color="red"];
+  BB75ab5bf01 -> BB75ab5bf30 [color="green"];
+  BB75ab5bf01 -> BB75ab5bf06 [color="red"];
+  BB75ab5bf06 -> BB75ab5bf22 [color="green"];
+  BB75ab5bf06 -> BB75ab5bf0d [color="red"];
+  BB75ab5bf0d -> BB75ab5bf11 [color="blue"];
+  BB75ab5bf11 -> BB75ab5bf22 [color="green"];
+  BB75ab5bf11 -> BB75ab5bf16 [color="red"];
+  BB75ab5bf16 -> BB75ab5bf11 [color="green"];
+  BB75ab5bf16 -> BB75ab5bf22 [color="red"];
+  BB75ab5bf22 -> BB75ab5bf30 [color="green"];
+  BB75ab5bf22 -> BB75ab5bf28 [color="red"];
+  BB75ab5bf28 -> BB75ab5bf30 [color="blue"];
+}

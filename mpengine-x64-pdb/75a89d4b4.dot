@@ -1,0 +1,21 @@
+digraph IsCloudTestMachine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a89d4b4 -> BB75a89d53c [color="green"];
+  BB75a89d4b4 -> BB75a89d4f9 [color="red"];
+  BB75a89d4f9 -> BB75a89d602 [color="green"];
+  BB75a89d4f9 -> BB75a89d510 [color="red"];
+  BB75a89d510 -> BB75a89d602 [color="green"];
+  BB75a89d510 -> BB75a89d51a [color="red"];
+  BB75a89d51a -> BB75a89d602 [color="blue"];
+  BB75a89d53c -> BB75a89d5f9 [color="green"];
+  BB75a89d53c -> BB75a89d582 [color="red"];
+  BB75a89d582 -> BB75a89d5f0 [color="green"];
+  BB75a89d582 -> BB75a89d5a6 [color="red"];
+  BB75a89d5a6 -> BB75a89d5f0 [color="green"];
+  BB75a89d5a6 -> BB75a89d5bb [color="red"];
+  BB75a89d5bb -> BB75a89d60d [color="blue"];
+  BB75a89d5f0 -> BB75a89d5f9 [color="red"];
+  BB75a89d5f9 -> BB75a89d602 [color="red"];
+  BB75a89d602 -> BB75a89d60d [color="red"];
+}

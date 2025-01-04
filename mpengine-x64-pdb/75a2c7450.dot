@@ -1,0 +1,15 @@
+digraph TestUfsPluginIdByDepth {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2c7450 -> BB75a2c74cd [color="green"];
+  BB75a2c7450 -> BB75a2c747a [color="red"];
+  BB75a2c747a -> BB75a2c74d4 [color="green"];
+  BB75a2c747a -> BB75a2c747f [color="red"];
+  BB75a2c747f -> BB75a2c74ad [color="green"];
+  BB75a2c747f -> BB75a2c7493 [color="red"];
+  BB75a2c7493 -> BB75a2c74ad [color="green"];
+  BB75a2c7493 -> BB75a2c74a6 [color="red"];
+  BB75a2c74a6 -> BB75a2c74ad [color="blue"];
+  BB75a2c74cd -> BB75a2c747a [color="blue"];
+  BB75a2c74d4 -> BB75a2c747f [color="blue"];
+}

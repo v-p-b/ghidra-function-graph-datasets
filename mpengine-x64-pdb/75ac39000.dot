@@ -1,0 +1,9 @@
+digraph wim_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac39000 -> BB75ac39061 [color="green"];
+  BB75ac39000 -> BB75ac3902b [color="red"];
+  BB75ac3902b -> BB75ac39061 [color="green"];
+  BB75ac3902b -> BB75ac39040 [color="red"];
+  BB75ac39040 -> BB75ac39061 [color="red"];
+}

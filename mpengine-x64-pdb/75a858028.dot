@@ -1,0 +1,13 @@
+digraph ProcessBlockExploitAudit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a858028 -> BB75a858075 [color="green"];
+  BB75a858028 -> BB75a85803d [color="red"];
+  BB75a85803d -> BB75a858075 [color="green"];
+  BB75a85803d -> BB75a858043 [color="red"];
+  BB75a858043 -> BB75a858085 [color="green"];
+  BB75a858043 -> BB75a858056 [color="red"];
+  BB75a858056 -> BB75a858085 [color="green"];
+  BB75a858056 -> BB75a85805c [color="red"];
+  BB75a858075 -> BB75a858085 [color="red"];
+}

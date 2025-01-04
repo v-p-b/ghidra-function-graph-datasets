@@ -1,0 +1,18 @@
+digraph CreateRegSymLink {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7d6544 -> BB75a7d6572 [color="green"];
+  BB75a7d6544 -> BB75a7d656d [color="red"];
+  BB75a7d656d -> BB75a7d6572 [color="red"];
+  BB75a7d6572 -> BB75a7d65dd [color="green"];
+  BB75a7d6572 -> BB75a7d65aa [color="red"];
+  BB75a7d65aa -> BB75a7d6613 [color="green"];
+  BB75a7d65aa -> BB75a7d65bd [color="red"];
+  BB75a7d65bd -> BB75a7d6613 [color="green"];
+  BB75a7d65bd -> BB75a7d65c3 [color="red"];
+  BB75a7d65c3 -> BB75a7d6613 [color="blue"];
+  BB75a7d65dd -> BB75a7d65e9 [color="blue"];
+  BB75a7d65e9 -> BB75a7d65e9 [color="green"];
+  BB75a7d65e9 -> BB75a7d65f2 [color="red"];
+  BB75a7d65f2 -> BB75a7d6613 [color="red"];
+}

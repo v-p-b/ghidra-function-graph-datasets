@@ -1,0 +1,29 @@
+digraph Write {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac2a3c0 -> BB75ac2a3e8 [color="green"];
+  BB75ac2a3c0 -> BB75ac2a3e3 [color="red"];
+  BB75ac2a3e3 -> BB75ac2a3e8 [color="red"];
+  BB75ac2a3e8 -> BB75ac2a3fd [color="green"];
+  BB75ac2a3e8 -> BB75ac2a3f8 [color="red"];
+  BB75ac2a3f8 -> BB75ac2a3fd [color="red"];
+  BB75ac2a3fd -> BB75ac2a46e [color="green"];
+  BB75ac2a3fd -> BB75ac2a40e [color="red"];
+  BB75ac2a40e -> BB75ac2a414 [color="blue"];
+  BB75ac2a414 -> BB75ac2a453 [color="green"];
+  BB75ac2a414 -> BB75ac2a445 [color="red"];
+  BB75ac2a445 -> BB75ac2a453 [color="green"];
+  BB75ac2a445 -> BB75ac2a44b [color="red"];
+  BB75ac2a44b -> BB75ac2a453 [color="blue"];
+  BB75ac2a453 -> BB75ac2a414 [color="green"];
+  BB75ac2a453 -> BB75ac2a46e [color="red"];
+  BB75ac2a46e -> BB75ac2a4e5 [color="green"];
+  BB75ac2a46e -> BB75ac2a49c [color="red"];
+  BB75ac2a49c -> BB75ac2a4d9 [color="green"];
+  BB75ac2a49c -> BB75ac2a4af [color="red"];
+  BB75ac2a4af -> BB75ac2a4d9 [color="green"];
+  BB75ac2a4af -> BB75ac2a4b5 [color="red"];
+  BB75ac2a4b5 -> BB75ac2a4d9 [color="red"];
+  BB75ac2a4d9 -> BB75ac2a4f9 [color="blue"];
+  BB75ac2a4e5 -> BB75ac2a4f9 [color="blue"];
+}

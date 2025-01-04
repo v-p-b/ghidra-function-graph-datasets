@@ -1,0 +1,35 @@
+digraph CalcRecordStats {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abd0f0c -> BB75abd0f71 [color="green"];
+  BB75abd0f0c -> BB75abd0f31 [color="red"];
+  BB75abd0f31 -> BB75abd107e [color="green"];
+  BB75abd0f31 -> BB75abd0f4d [color="red"];
+  BB75abd0f4d -> BB75abd107e [color="green"];
+  BB75abd0f4d -> BB75abd0f57 [color="red"];
+  BB75abd0f57 -> BB75abd107e [color="blue"];
+  BB75abd0f71 -> BB75abd0f8e [color="green"];
+  BB75abd0f71 -> BB75abd0f8a [color="red"];
+  BB75abd0f8a -> BB75abd0f8e [color="blue"];
+  BB75abd0f8e -> BB75abd104e [color="green"];
+  BB75abd0f8e -> BB75abd0fae [color="red"];
+  BB75abd0fae -> BB75abd0fb5 [color="blue"];
+  BB75abd0fb5 -> BB75abd0ffd [color="green"];
+  BB75abd0fb5 -> BB75abd0fd1 [color="red"];
+  BB75abd0fd1 -> BB75abd1041 [color="green"];
+  BB75abd0fd1 -> BB75abd0fdd [color="red"];
+  BB75abd0fdd -> BB75abd1041 [color="green"];
+  BB75abd0fdd -> BB75abd0fe3 [color="red"];
+  BB75abd0fe3 -> BB75abd1041 [color="blue"];
+  BB75abd0ffd -> BB75abd1020 [color="green"];
+  BB75abd0ffd -> BB75abd101b [color="red"];
+  BB75abd101b -> BB75abd1041 [color="green"];
+  BB75abd101b -> BB75abd1020 [color="red"];
+  BB75abd1020 -> BB75abd1034 [color="green"];
+  BB75abd1020 -> BB75abd102a [color="red"];
+  BB75abd102a -> BB75abd1041 [color="blue"];
+  BB75abd1034 -> BB75abd1041 [color="red"];
+  BB75abd1041 -> BB75abd0fb5 [color="green"];
+  BB75abd1041 -> BB75abd104e [color="red"];
+  BB75abd104e -> BB75abd107e [color="red"];
+}

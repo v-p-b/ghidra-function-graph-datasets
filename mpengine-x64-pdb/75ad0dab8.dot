@@ -1,0 +1,10 @@
+digraph do_left {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad0dab8 -> BB75ad0dad3 [color="green"];
+  BB75ad0dab8 -> BB75ad0dabd [color="red"];
+  BB75ad0dabd -> BB75ad0dad3 [color="green"];
+  BB75ad0dabd -> BB75ad0dac5 [color="red"];
+  BB75ad0dac5 -> BB75ad0dac5 [color="green"];
+  BB75ad0dac5 -> BB75ad0dad3 [color="red"];
+}

@@ -1,0 +1,16 @@
+digraph AtomicCounterValue {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6c41d0 -> BB75a6c4212 [color="green"];
+  BB75a6c41d0 -> BB75a6c420b [color="red"];
+  BB75a6c420b -> BB75a6c42d2 [color="blue"];
+  BB75a6c4212 -> BB75a6c428a [color="green"];
+  BB75a6c4212 -> BB75a6c427a [color="red"];
+  BB75a6c427a -> BB75a6c429a [color="blue"];
+  BB75a6c428a -> BB75a6c429a [color="red"];
+  BB75a6c429a -> BB75a6c42c4 [color="green"];
+  BB75a6c429a -> BB75a6c42b8 [color="red"];
+  BB75a6c42b8 -> BB75a6c42c8 [color="blue"];
+  BB75a6c42c4 -> BB75a6c42c8 [color="blue"];
+  BB75a6c42c8 -> BB75a6c42d2 [color="blue"];
+}

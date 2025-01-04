@@ -1,0 +1,25 @@
+digraph checkChild {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aac1d68 -> BB75aac1d95 [color="green"];
+  BB75aac1d68 -> BB75aac1d90 [color="red"];
+  BB75aac1d90 -> BB75aac1d95 [color="red"];
+  BB75aac1d95 -> BB75aac1dcb [color="green"];
+  BB75aac1d95 -> BB75aac1da7 [color="red"];
+  BB75aac1da7 -> BB75aac1df9 [color="green"];
+  BB75aac1da7 -> BB75aac1db1 [color="red"];
+  BB75aac1db1 -> BB75aac1db6 [color="blue"];
+  BB75aac1dcb -> BB75aac1db1 [color="green"];
+  BB75aac1dcb -> BB75aac1dcd [color="red"];
+  BB75aac1dcd -> BB75aac1db1 [color="green"];
+  BB75aac1dcd -> BB75aac1dd3 [color="red"];
+  BB75aac1dd3 -> BB75aac1db1 [color="green"];
+  BB75aac1dd3 -> BB75aac1dd8 [color="red"];
+  BB75aac1dd8 -> BB75aac1de8 [color="green"];
+  BB75aac1dd8 -> BB75aac1de3 [color="red"];
+  BB75aac1de3 -> BB75aac1de8 [color="red"];
+  BB75aac1de8 -> BB75aac1db1 [color="green"];
+  BB75aac1de8 -> BB75aac1df4 [color="red"];
+  BB75aac1df4 -> BB75aac1df9 [color="blue"];
+  BB75aac1df9 -> BB75aac1db6 [color="blue"];
+}

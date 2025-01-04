@@ -1,0 +1,20 @@
+digraph _extract_model {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3532fc -> BB75a35340e [color="green"];
+  BB75a3532fc -> BB75a353332 [color="red"];
+  BB75a353332 -> BB75a35346f [color="green"];
+  BB75a353332 -> BB75a3533a8 [color="red"];
+  BB75a3533a8 -> BB75a3533cc [color="green"];
+  BB75a3533a8 -> BB75a3533ae [color="red"];
+  BB75a3533ae -> BB75a3533cc [color="red"];
+  BB75a3533cc -> BB75a353427 [color="green"];
+  BB75a3533cc -> BB75a3533e5 [color="red"];
+  BB75a3533e5 -> BB75a3533fa [color="blue"];
+  BB75a3533fa -> BB75a35340e [color="blue"];
+  BB75a353427 -> BB75a353460 [color="red"];
+  BB75a353460 -> BB75a3533fa [color="green"];
+  BB75a353460 -> BB75a353465 [color="red"];
+  BB75a353465 -> BB75a353460 [color="blue"];
+  BB75a35346f -> BB75a3533a8 [color="blue"];
+}

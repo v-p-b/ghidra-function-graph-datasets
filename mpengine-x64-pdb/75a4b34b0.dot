@@ -1,0 +1,18 @@
+digraph TestFileRecordForAttribute {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4b34b0 -> BB75a4b3519 [color="green"];
+  BB75a4b34b0 -> BB75a4b34dd [color="red"];
+  BB75a4b34dd -> BB75a4b34fe [color="green"];
+  BB75a4b34dd -> BB75a4b34e2 [color="red"];
+  BB75a4b34e2 -> BB75a4b34f3 [color="red"];
+  BB75a4b34fe -> BB75a4b3512 [color="green"];
+  BB75a4b34fe -> BB75a4b3503 [color="red"];
+  BB75a4b3503 -> BB75a4b3512 [color="red"];
+  BB75a4b3512 -> BB75a4b34f3 [color="blue"];
+  BB75a4b3519 -> BB75a4b34fe [color="green"];
+  BB75a4b3519 -> BB75a4b352c [color="red"];
+  BB75a4b352c -> BB75a4b34fe [color="green"];
+  BB75a4b352c -> BB75a4b3532 [color="red"];
+  BB75a4b3532 -> BB75a4b34fe [color="blue"];
+}

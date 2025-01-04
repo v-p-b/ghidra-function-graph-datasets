@@ -1,0 +1,11 @@
+digraph TriggerSignature {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4fbf80 -> BB75a4fbfef [color="green"];
+  BB75a4fbf80 -> BB75a4fbfc6 [color="red"];
+  BB75a4fbfc6 -> BB75a4fbfef [color="green"];
+  BB75a4fbfc6 -> BB75a4fbfcc [color="red"];
+  BB75a4fbfcc -> BB75a4fbfef [color="red"];
+  BB75a4fbfef -> BB75a4fc08e [color="blue"];
+  BB75a4fc08e -> BB75a4fc0d3 [color="blue"];
+}

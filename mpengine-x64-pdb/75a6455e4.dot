@@ -1,0 +1,14 @@
+digraph sqlite3TriggerDeleteStep {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6455e4 -> BB75a645654 [color="green"];
+  BB75a6455e4 -> BB75a645624 [color="red"];
+  BB75a645624 -> BB75a645647 [color="green"];
+  BB75a645624 -> BB75a645629 [color="red"];
+  BB75a645647 -> BB75a645629 [color="blue"];
+  BB75a645654 -> BB75a64566a [color="green"];
+  BB75a645654 -> BB75a64565e [color="red"];
+  BB75a64565e -> BB75a645660 [color="blue"];
+  BB75a645660 -> BB75a645624 [color="blue"];
+  BB75a64566a -> BB75a645660 [color="blue"];
+}

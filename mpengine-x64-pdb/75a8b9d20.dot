@@ -1,0 +1,26 @@
+digraph do_get {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8b9d20 -> BB75a8b9da0 [color="green"];
+  BB75a8b9d20 -> BB75a8b9d93 [color="red"];
+  BB75a8b9d93 -> BB75a8b9dd7 [color="blue"];
+  BB75a8b9da0 -> BB75a8b9dd1 [color="green"];
+  BB75a8b9da0 -> BB75a8b9dcb [color="red"];
+  BB75a8b9dcb -> BB75a8b9dd7 [color="green"];
+  BB75a8b9dcb -> BB75a8b9dd1 [color="red"];
+  BB75a8b9dd1 -> BB75a8b9dd7 [color="blue"];
+  BB75a8b9dd7 -> BB75a8b9de5 [color="green"];
+  BB75a8b9dd7 -> BB75a8b9ddd [color="red"];
+  BB75a8b9ddd -> BB75a8b9de5 [color="red"];
+  BB75a8b9de5 -> BB75a8b9df4 [color="green"];
+  BB75a8b9de5 -> BB75a8b9dec [color="red"];
+  BB75a8b9dec -> BB75a8b9df4 [color="red"];
+  BB75a8b9df4 -> BB75a8b9e02 [color="green"];
+  BB75a8b9df4 -> BB75a8b9dfa [color="red"];
+  BB75a8b9dfa -> BB75a8b9e08 [color="green"];
+  BB75a8b9dfa -> BB75a8b9e00 [color="red"];
+  BB75a8b9e00 -> BB75a8b9e0b [color="blue"];
+  BB75a8b9e02 -> BB75a8b9e0b [color="green"];
+  BB75a8b9e02 -> BB75a8b9e08 [color="red"];
+  BB75a8b9e08 -> BB75a8b9e0b [color="blue"];
+}

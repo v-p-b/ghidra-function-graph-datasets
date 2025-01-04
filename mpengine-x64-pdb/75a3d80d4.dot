@@ -1,0 +1,14 @@
+digraph SymCryptRc4Init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3d80d4 -> BB75a3d819d [color="green"];
+  BB75a3d80d4 -> BB75a3d8109 [color="red"];
+  BB75a3d8109 -> BB75a3d811a [color="red"];
+  BB75a3d811a -> BB75a3d811a [color="green"];
+  BB75a3d811a -> BB75a3d8125 [color="red"];
+  BB75a3d8125 -> BB75a3d812e [color="blue"];
+  BB75a3d812e -> BB75a3d812e [color="green"];
+  BB75a3d812e -> BB75a3d8164 [color="red"];
+  BB75a3d8164 -> BB75a3d817c [color="red"];
+  BB75a3d819d -> BB75a3d817c [color="blue"];
+}

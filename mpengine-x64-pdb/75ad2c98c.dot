@@ -1,0 +1,16 @@
+digraph FfrScheduleScript {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad2c98c -> BB75ad2ca3b [color="green"];
+  BB75ad2c98c -> BB75ad2ca06 [color="red"];
+  BB75ad2ca06 -> BB75ad2ca37 [color="green"];
+  BB75ad2ca06 -> BB75ad2ca19 [color="red"];
+  BB75ad2ca19 -> BB75ad2ca37 [color="green"];
+  BB75ad2ca19 -> BB75ad2ca1f [color="red"];
+  BB75ad2ca1f -> BB75ad2ca37 [color="red"];
+  BB75ad2ca37 -> BB75ad2ca40 [color="blue"];
+  BB75ad2ca3b -> BB75ad2ca40 [color="blue"];
+  BB75ad2ca40 -> BB75ad2ca59 [color="green"];
+  BB75ad2ca40 -> BB75ad2ca50 [color="red"];
+  BB75ad2ca50 -> BB75ad2ca59 [color="red"];
+}

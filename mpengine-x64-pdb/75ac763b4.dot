@@ -1,0 +1,18 @@
+digraph IsUwsAllowListedPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac763b4 -> BB75ac763f7 [color="blue"];
+  BB75ac763f7 -> BB75ac7644a [color="green"];
+  BB75ac763f7 -> BB75ac76401 [color="red"];
+  BB75ac76401 -> BB75ac7643c [color="green"];
+  BB75ac76401 -> BB75ac7642c [color="red"];
+  BB75ac7642c -> BB75ac76436 [color="green"];
+  BB75ac7642c -> BB75ac76431 [color="red"];
+  BB75ac76431 -> BB75ac76436 [color="red"];
+  BB75ac76436 -> BB75ac763f7 [color="blue"];
+  BB75ac7643c -> BB75ac76446 [color="green"];
+  BB75ac7643c -> BB75ac76441 [color="red"];
+  BB75ac76441 -> BB75ac76446 [color="red"];
+  BB75ac76446 -> BB75ac7644c [color="blue"];
+  BB75ac7644a -> BB75ac7644c [color="blue"];
+}

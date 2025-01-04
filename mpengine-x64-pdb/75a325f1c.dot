@@ -1,0 +1,17 @@
+digraph GetDetectionNotification {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a325f1c -> BB75a326010 [color="green"];
+  BB75a325f1c -> BB75a325f48 [color="red"];
+  BB75a325f48 -> BB75a325fb7 [color="green"];
+  BB75a325f48 -> BB75a325f99 [color="red"];
+  BB75a325f99 -> BB75a325fb7 [color="red"];
+  BB75a325fb7 -> BB75a325ff6 [color="green"];
+  BB75a325fb7 -> BB75a325fca [color="red"];
+  BB75a325fca -> BB75a325ff6 [color="red"];
+  BB75a326010 -> BB75a325f48 [color="green"];
+  BB75a326010 -> BB75a326027 [color="red"];
+  BB75a326027 -> BB75a325f48 [color="green"];
+  BB75a326027 -> BB75a326031 [color="red"];
+  BB75a326031 -> BB75a325f48 [color="blue"];
+}

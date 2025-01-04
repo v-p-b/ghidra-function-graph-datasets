@@ -1,0 +1,25 @@
+digraph RollbackRebootAction {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acdbfd4 -> BB75acdbfff [color="green"];
+  BB75acdbfd4 -> BB75acdbffa [color="red"];
+  BB75acdbffa -> BB75acdc04f [color="blue"];
+  BB75acdbfff -> BB75acdc048 [color="blue"];
+  BB75acdc004 -> BB75acdc042 [color="green"];
+  BB75acdc004 -> BB75acdc00d [color="red"];
+  BB75acdc00d -> BB75acdc017 [color="green"];
+  BB75acdc00d -> BB75acdc012 [color="red"];
+  BB75acdc012 -> BB75acdc01a [color="blue"];
+  BB75acdc017 -> BB75acdc01a [color="blue"];
+  BB75acdc01a -> BB75acdc024 [color="green"];
+  BB75acdc01a -> BB75acdc020 [color="red"];
+  BB75acdc020 -> BB75acdc024 [color="blue"];
+  BB75acdc024 -> BB75acdc038 [color="green"];
+  BB75acdc024 -> BB75acdc033 [color="red"];
+  BB75acdc033 -> BB75acdc038 [color="red"];
+  BB75acdc038 -> BB75acdc048 [color="blue"];
+  BB75acdc042 -> BB75acdc048 [color="blue"];
+  BB75acdc048 -> BB75acdc004 [color="green"];
+  BB75acdc048 -> BB75acdc04d [color="red"];
+  BB75acdc04d -> BB75acdc04f [color="blue"];
+}

@@ -1,0 +1,19 @@
+digraph ~ThreadPriorityBoostHelper {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa98aa4 -> BB75aa98b0a [color="green"];
+  BB75aa98aa4 -> BB75aa98ac3 [color="red"];
+  BB75aa98ac3 -> BB75aa98b01 [color="green"];
+  BB75aa98ac3 -> BB75aa98acf [color="red"];
+  BB75aa98acf -> BB75aa98b01 [color="green"];
+  BB75aa98acf -> BB75aa98ad5 [color="red"];
+  BB75aa98ad5 -> BB75aa98b01 [color="red"];
+  BB75aa98b01 -> BB75aa98b0a [color="blue"];
+  BB75aa98b0a -> BB75aa98b6b [color="green"];
+  BB75aa98b0a -> BB75aa98b10 [color="red"];
+  BB75aa98b10 -> BB75aa98b6b [color="green"];
+  BB75aa98b10 -> BB75aa98b39 [color="red"];
+  BB75aa98b39 -> BB75aa98b6b [color="green"];
+  BB75aa98b39 -> BB75aa98b3f [color="red"];
+  BB75aa98b3f -> BB75aa98b6b [color="red"];
+}

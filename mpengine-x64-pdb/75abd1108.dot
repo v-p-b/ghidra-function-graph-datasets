@@ -1,0 +1,21 @@
+digraph IsInfected {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abd1108 -> BB75abd11b5 [color="green"];
+  BB75abd1108 -> BB75abd117d [color="red"];
+  BB75abd117d -> BB75abd11ae [color="green"];
+  BB75abd117d -> BB75abd1190 [color="red"];
+  BB75abd1190 -> BB75abd11ae [color="green"];
+  BB75abd1190 -> BB75abd1196 [color="red"];
+  BB75abd1196 -> BB75abd11ae [color="red"];
+  BB75abd11ae -> BB75abd11fe [color="blue"];
+  BB75abd11b5 -> BB75abd11f9 [color="green"];
+  BB75abd11b5 -> BB75abd11be [color="red"];
+  BB75abd11be -> BB75abd11f5 [color="green"];
+  BB75abd11be -> BB75abd11d1 [color="red"];
+  BB75abd11d1 -> BB75abd11f5 [color="green"];
+  BB75abd11d1 -> BB75abd11d7 [color="red"];
+  BB75abd11d7 -> BB75abd11f5 [color="red"];
+  BB75abd11f5 -> BB75abd11fe [color="blue"];
+  BB75abd11f9 -> BB75abd11fe [color="blue"];
+}

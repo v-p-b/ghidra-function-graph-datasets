@@ -1,0 +1,17 @@
+digraph is_min_server_supported_cpu {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3b704c -> BB75a3b7095 [color="green"];
+  BB75a3b704c -> BB75a3b708c [color="red"];
+  BB75a3b708c -> BB75a3b70a2 [color="green"];
+  BB75a3b708c -> BB75a3b7095 [color="red"];
+  BB75a3b70a2 -> BB75a3b7095 [color="green"];
+  BB75a3b70a2 -> BB75a3b70a8 [color="red"];
+  BB75a3b70a8 -> BB75a3b7095 [color="green"];
+  BB75a3b70a8 -> BB75a3b70ae [color="red"];
+  BB75a3b70ae -> BB75a3b7095 [color="green"];
+  BB75a3b70ae -> BB75a3b70b4 [color="red"];
+  BB75a3b70b4 -> BB75a3b7095 [color="green"];
+  BB75a3b70b4 -> BB75a3b70b9 [color="red"];
+  BB75a3b70b9 -> BB75a3b7095 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph call_heuristics {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6dbf20 -> BB75a6dbf8c [color="green"];
+  BB75a6dbf20 -> BB75a6dbf25 [color="red"];
+  BB75a6dbf25 -> BB75a6dbf54 [color="green"];
+  BB75a6dbf25 -> BB75a6dbf4c [color="red"];
+  BB75a6dbf54 -> BB75a6dbf67 [color="green"];
+  BB75a6dbf54 -> BB75a6dbf5f [color="red"];
+  BB75a6dbf67 -> BB75a6dbf7a [color="green"];
+  BB75a6dbf67 -> BB75a6dbf72 [color="red"];
+  BB75a6dbf7a -> BB75a6dbf8c [color="green"];
+  BB75a6dbf7a -> BB75a6dbf85 [color="red"];
+  BB75a6dbf85 -> BB75a6dbf8c [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph EnumerateClose {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aca4880 -> BB75aca489b [color="green"];
+  BB75aca4880 -> BB75aca4892 [color="red"];
+  BB75aca4892 -> BB75aca48f5 [color="green"];
+  BB75aca4892 -> BB75aca489b [color="red"];
+  BB75aca489b -> BB75aca48ba [color="green"];
+  BB75aca489b -> BB75aca48a7 [color="red"];
+  BB75aca48a7 -> BB75aca48ba [color="red"];
+  BB75aca48ba -> BB75aca48e7 [color="green"];
+  BB75aca48ba -> BB75aca48d4 [color="red"];
+  BB75aca48d4 -> BB75aca48e7 [color="red"];
+  BB75aca48e7 -> BB75aca48f5 [color="blue"];
+}

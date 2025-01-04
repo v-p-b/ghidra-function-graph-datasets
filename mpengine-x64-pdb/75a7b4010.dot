@@ -1,0 +1,14 @@
+digraph FPU_fprem1 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7b4010 -> BB75a7b402d [color="green"];
+  BB75a7b4010 -> BB75a7b402a [color="red"];
+  BB75a7b402a -> BB75a7b402d [color="blue"];
+  BB75a7b402d -> BB75a7b4045 [color="green"];
+  BB75a7b402d -> BB75a7b4043 [color="red"];
+  BB75a7b4043 -> BB75a7b4045 [color="blue"];
+  BB75a7b4045 -> BB75a7b4061 [color="green"];
+  BB75a7b4045 -> BB75a7b4056 [color="red"];
+  BB75a7b4056 -> BB75a7b406a [color="blue"];
+  BB75a7b4061 -> BB75a7b406a [color="blue"];
+}

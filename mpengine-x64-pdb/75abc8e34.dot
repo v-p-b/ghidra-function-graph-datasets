@@ -1,0 +1,14 @@
+digraph GetBasicType {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abc8e34 -> BB75abc8ed5 [color="green"];
+  BB75abc8e34 -> BB75abc8e74 [color="red"];
+  BB75abc8e74 -> BB75abc8ed5 [color="green"];
+  BB75abc8e74 -> BB75abc8eac [color="red"];
+  BB75abc8eac -> BB75abc8ed5 [color="green"];
+  BB75abc8eac -> BB75abc8ec9 [color="red"];
+  BB75abc8ec9 -> BB75abc8ed8 [color="green"];
+  BB75abc8ec9 -> BB75abc8ece [color="red"];
+  BB75abc8ece -> BB75abc8ed8 [color="blue"];
+  BB75abc8ed5 -> BB75abc8ed8 [color="blue"];
+}

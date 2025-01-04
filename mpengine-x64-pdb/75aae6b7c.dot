@@ -1,0 +1,13 @@
+digraph MultiPatternTrie<wchar_t,unsigned_long,class_UnitStorage::VirtualMemory> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aae6b7c -> BB75aae6c45 [color="green"];
+  BB75aae6b7c -> BB75aae6c40 [color="red"];
+  BB75aae6c40 -> BB75aae6c45 [color="red"];
+  BB75aae6c45 -> BB75aae6c5b [color="green"];
+  BB75aae6c45 -> BB75aae6c56 [color="red"];
+  BB75aae6c56 -> BB75aae6c5b [color="red"];
+  BB75aae6c5b -> BB75aae6c71 [color="green"];
+  BB75aae6c5b -> BB75aae6c6c [color="red"];
+  BB75aae6c6c -> BB75aae6c71 [color="red"];
+}

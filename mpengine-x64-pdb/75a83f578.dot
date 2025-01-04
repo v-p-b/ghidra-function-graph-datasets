@@ -1,0 +1,35 @@
+digraph TriggerWmiScan {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a83f578 -> BB75a83f5b1 [color="blue"];
+  BB75a83f5b1 -> BB75a83f5ef [color="green"];
+  BB75a83f5b1 -> BB75a83f5b6 [color="red"];
+  BB75a83f5b6 -> BB75a83f5e9 [color="green"];
+  BB75a83f5b6 -> BB75a83f5bc [color="red"];
+  BB75a83f5bc -> BB75a83f5e4 [color="green"];
+  BB75a83f5bc -> BB75a83f5d0 [color="red"];
+  BB75a83f5d0 -> BB75a83f5e4 [color="red"];
+  BB75a83f5e4 -> BB75a83f5e9 [color="blue"];
+  BB75a83f5e9 -> BB75a83f5b1 [color="blue"];
+  BB75a83f5ef -> BB75a83f622 [color="green"];
+  BB75a83f5ef -> BB75a83f5f4 [color="red"];
+  BB75a83f5f4 -> BB75a83f622 [color="green"];
+  BB75a83f5f4 -> BB75a83f607 [color="red"];
+  BB75a83f607 -> BB75a83f622 [color="green"];
+  BB75a83f607 -> BB75a83f60d [color="red"];
+  BB75a83f60d -> BB75a83f622 [color="red"];
+  BB75a83f622 -> BB75a83f62c [color="blue"];
+  BB75a83f62c -> BB75a83f641 [color="green"];
+  BB75a83f62c -> BB75a83f631 [color="red"];
+  BB75a83f631 -> BB75a83f6ed [color="blue"];
+  BB75a83f641 -> BB75a83f69d [color="green"];
+  BB75a83f641 -> BB75a83f65b [color="red"];
+  BB75a83f65b -> BB75a83f662 [color="blue"];
+  BB75a83f662 -> BB75a83f69d [color="green"];
+  BB75a83f662 -> BB75a83f668 [color="red"];
+  BB75a83f668 -> BB75a83f6a2 [color="green"];
+  BB75a83f668 -> BB75a83f67e [color="red"];
+  BB75a83f67e -> BB75a83f69d [color="red"];
+  BB75a83f69d -> BB75a83f62c [color="blue"];
+  BB75a83f6a2 -> BB75a83f662 [color="blue"];
+}

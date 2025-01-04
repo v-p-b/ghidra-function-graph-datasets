@@ -1,0 +1,13 @@
+digraph NTDLL_DLL_ThrdMgr_SaveTEB {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a610c80 -> BB75a610d47 [color="green"];
+  BB75a610c80 -> BB75a610caa [color="red"];
+  BB75a610caa -> BB75a610d47 [color="green"];
+  BB75a610caa -> BB75a610cb8 [color="red"];
+  BB75a610cb8 -> BB75a610d27 [color="green"];
+  BB75a610cb8 -> BB75a610d19 [color="red"];
+  BB75a610d19 -> BB75a610d27 [color="blue"];
+  BB75a610d27 -> BB75a610d2a [color="blue"];
+  BB75a610d47 -> BB75a610d2a [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph ShouldApplyDlpPrintFileHeuristicPolicy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a871aec -> BB75a871b30 [color="green"];
+  BB75a871aec -> BB75a871b29 [color="red"];
+  BB75a871b29 -> BB75a871b3b [color="blue"];
+  BB75a871b30 -> BB75a871b3b [color="blue"];
+  BB75a871b3b -> BB75a871b76 [color="green"];
+  BB75a871b3b -> BB75a871b49 [color="red"];
+  BB75a871b49 -> BB75a871b76 [color="red"];
+}

@@ -1,0 +1,26 @@
+digraph process {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9af674 -> BB75a9af6ea [color="green"];
+  BB75a9af674 -> BB75a9af6e5 [color="red"];
+  BB75a9af6e5 -> BB75a9af6f1 [color="green"];
+  BB75a9af6e5 -> BB75a9af6ea [color="red"];
+  BB75a9af6ea -> BB75a9af6f1 [color="blue"];
+  BB75a9af6f1 -> BB75a9af700 [color="green"];
+  BB75a9af6f1 -> BB75a9af6fa [color="red"];
+  BB75a9af6fa -> BB75a9af708 [color="green"];
+  BB75a9af6fa -> BB75a9af700 [color="red"];
+  BB75a9af700 -> BB75a9af708 [color="blue"];
+  BB75a9af708 -> BB75a9af7f3 [color="green"];
+  BB75a9af708 -> BB75a9af742 [color="red"];
+  BB75a9af742 -> BB75a9af7f3 [color="green"];
+  BB75a9af742 -> BB75a9af755 [color="red"];
+  BB75a9af755 -> BB75a9af773 [color="green"];
+  BB75a9af755 -> BB75a9af75b [color="red"];
+  BB75a9af75b -> BB75a9af7f3 [color="green"];
+  BB75a9af75b -> BB75a9af773 [color="red"];
+  BB75a9af773 -> BB75a9af7f3 [color="green"];
+  BB75a9af773 -> BB75a9af791 [color="red"];
+  BB75a9af791 -> BB75a9af7f6 [color="blue"];
+  BB75a9af7f3 -> BB75a9af7f6 [color="blue"];
+}

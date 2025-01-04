@@ -1,0 +1,9 @@
+digraph get_issuer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a622fb0 -> BB75a622fc9 [color="green"];
+  BB75a622fb0 -> BB75a622fbb [color="red"];
+  BB75a622fbb -> BB75a622fc9 [color="green"];
+  BB75a622fbb -> BB75a622fc6 [color="red"];
+  BB75a622fc6 -> BB75a622fc9 [color="blue"];
+}

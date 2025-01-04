@@ -1,0 +1,19 @@
+digraph isAllowedPUAFile {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a721bb4 -> BB75a721be1 [color="green"];
+  BB75a721bb4 -> BB75a721bdd [color="red"];
+  BB75a721bdd -> BB75a721c0f [color="blue"];
+  BB75a721be1 -> BB75a721c0f [color="green"];
+  BB75a721be1 -> BB75a721c08 [color="red"];
+  BB75a721c08 -> BB75a721c0f [color="blue"];
+  BB75a721c0f -> BB75a721c5d [color="green"];
+  BB75a721c0f -> BB75a721c13 [color="red"];
+  BB75a721c13 -> BB75a721c59 [color="green"];
+  BB75a721c13 -> BB75a721c26 [color="red"];
+  BB75a721c26 -> BB75a721c59 [color="green"];
+  BB75a721c26 -> BB75a721c2c [color="red"];
+  BB75a721c2c -> BB75a721c59 [color="red"];
+  BB75a721c59 -> BB75a721c5f [color="blue"];
+  BB75a721c5d -> BB75a721c5f [color="blue"];
+}

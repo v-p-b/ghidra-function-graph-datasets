@@ -1,0 +1,10 @@
+digraph sqlite3_stmt_busy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a180344 -> BB75a18034c [color="green"];
+  BB75a180344 -> BB75a18034b [color="red"];
+  BB75a18034c -> BB75a18034b [color="green"];
+  BB75a18034c -> BB75a180355 [color="red"];
+  BB75a180355 -> BB75a18034b [color="green"];
+  BB75a180355 -> BB75a18035a [color="red"];
+}

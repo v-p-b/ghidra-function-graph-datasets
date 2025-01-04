@@ -1,0 +1,14 @@
+digraph clear_buffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8d1cbc -> BB75a8d1d18 [color="green"];
+  BB75a8d1cbc -> BB75a8d1cdb [color="red"];
+  BB75a8d1cdb -> BB75a8d1d18 [color="green"];
+  BB75a8d1cdb -> BB75a8d1ce4 [color="red"];
+  BB75a8d1ce4 -> BB75a8d1d18 [color="red"];
+  BB75a8d1d18 -> BB75a8d1d61 [color="green"];
+  BB75a8d1d18 -> BB75a8d1d24 [color="red"];
+  BB75a8d1d24 -> BB75a8d1d61 [color="green"];
+  BB75a8d1d24 -> BB75a8d1d2d [color="red"];
+  BB75a8d1d2d -> BB75a8d1d61 [color="red"];
+}

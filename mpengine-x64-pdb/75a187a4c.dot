@@ -1,0 +1,16 @@
+digraph _Emplace_reallocate<struct_StreamBufferWrapper::DataStoreEntry> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a187a4c -> BB75a187b5f [color="green"];
+  BB75a187a4c -> BB75a187a89 [color="red"];
+  BB75a187a89 -> BB75a187ab3 [color="green"];
+  BB75a187a89 -> BB75a187aa8 [color="red"];
+  BB75a187aa8 -> BB75a187ab3 [color="blue"];
+  BB75a187ab3 -> BB75a187b6c [color="green"];
+  BB75a187ab3 -> BB75a187b25 [color="red"];
+  BB75a187b25 -> BB75a187b86 [color="green"];
+  BB75a187b25 -> BB75a187b33 [color="red"];
+  BB75a187b5f -> BB75a187b6c [color="red"];
+  BB75a187b6c -> BB75a187b25 [color="blue"];
+  BB75a187b86 -> BB75a187b33 [color="blue"];
+}

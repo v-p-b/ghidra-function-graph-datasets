@@ -1,0 +1,11 @@
+digraph DnsQuery_W {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a76deac -> BB75a76defa [color="green"];
+  BB75a76deac -> BB75a76ded8 [color="red"];
+  BB75a76ded8 -> BB75a76def3 [color="green"];
+  BB75a76ded8 -> BB75a76dee4 [color="red"];
+  BB75a76dee4 -> BB75a76df1f [color="blue"];
+  BB75a76def3 -> BB75a76defa [color="blue"];
+  BB75a76defa -> BB75a76df1f [color="red"];
+}

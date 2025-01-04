@@ -1,0 +1,9 @@
+digraph trigger_1step_exit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a32c8b0 -> BB75a32c8d5 [color="green"];
+  BB75a32c8b0 -> BB75a32c8b9 [color="red"];
+  BB75a32c8b9 -> BB75a32c8d5 [color="green"];
+  BB75a32c8b9 -> BB75a32c8c6 [color="red"];
+  BB75a32c8c6 -> BB75a32c8d5 [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph IsProcessMemoryScanCache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a440484 -> BB75a4404c6 [color="green"];
+  BB75a440484 -> BB75a4404a9 [color="red"];
+  BB75a4404a9 -> BB75a4404e0 [color="green"];
+  BB75a4404a9 -> BB75a4404b2 [color="red"];
+  BB75a4404b2 -> BB75a4404c6 [color="green"];
+  BB75a4404b2 -> BB75a4404be [color="red"];
+  BB75a4404be -> BB75a4404c6 [color="blue"];
+  BB75a4404e0 -> BB75a4404b2 [color="blue"];
+}

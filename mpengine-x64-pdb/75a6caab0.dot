@@ -1,0 +1,18 @@
+digraph MMX4_phaddsw {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6caab0 -> BB75a6caafa [color="blue"];
+  BB75a6caafa -> BB75a6cab16 [color="green"];
+  BB75a6caafa -> BB75a6cab0f [color="red"];
+  BB75a6cab0f -> BB75a6cab1b [color="blue"];
+  BB75a6cab16 -> BB75a6cab1b [color="blue"];
+  BB75a6cab1b -> BB75a6caafa [color="green"];
+  BB75a6cab1b -> BB75a6cab2c [color="red"];
+  BB75a6cab2c -> BB75a6cab30 [color="blue"];
+  BB75a6cab30 -> BB75a6cab4a [color="green"];
+  BB75a6cab30 -> BB75a6cab43 [color="red"];
+  BB75a6cab43 -> BB75a6cab4f [color="blue"];
+  BB75a6cab4a -> BB75a6cab4f [color="blue"];
+  BB75a6cab4f -> BB75a6cab30 [color="green"];
+  BB75a6cab4f -> BB75a6cab60 [color="red"];
+}

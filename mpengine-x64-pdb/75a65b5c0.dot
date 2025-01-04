@@ -1,0 +1,13 @@
+digraph AllocArray {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a65b5c0 -> BB75a65b640 [color="green"];
+  BB75a65b5c0 -> BB75a65b5de [color="red"];
+  BB75a65b5de -> BB75a65b640 [color="green"];
+  BB75a65b5de -> BB75a65b5fc [color="red"];
+  BB75a65b5fc -> BB75a65b647 [color="green"];
+  BB75a65b5fc -> BB75a65b60f [color="red"];
+  BB75a65b60f -> BB75a65b635 [color="red"];
+  BB75a65b640 -> BB75a65b635 [color="blue"];
+  BB75a65b647 -> BB75a65b635 [color="blue"];
+}

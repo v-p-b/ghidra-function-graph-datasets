@@ -1,0 +1,11 @@
+digraph IsBmFriendlyProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4fbef0 -> BB75a4fbf44 [color="green"];
+  BB75a4fbef0 -> BB75a4fbf20 [color="red"];
+  BB75a4fbf20 -> BB75a4fbf3f [color="green"];
+  BB75a4fbf20 -> BB75a4fbf35 [color="red"];
+  BB75a4fbf35 -> BB75a4fbf3f [color="red"];
+  BB75a4fbf3f -> BB75a4fbf50 [color="blue"];
+  BB75a4fbf44 -> BB75a4fbf50 [color="red"];
+}

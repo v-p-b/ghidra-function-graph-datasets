@@ -1,0 +1,20 @@
+digraph validateconfig_module_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb1c90 -> BB75abb1d12 [color="red"];
+  BB75abb1d12 -> BB75abb1d38 [color="green"];
+  BB75abb1d12 -> BB75abb1d2a [color="red"];
+  BB75abb1d2a -> BB75abb1d12 [color="green"];
+  BB75abb1d2a -> BB75abb1d34 [color="red"];
+  BB75abb1d34 -> BB75abb1d6b [color="blue"];
+  BB75abb1d38 -> BB75abb1d66 [color="green"];
+  BB75abb1d38 -> BB75abb1d4b [color="red"];
+  BB75abb1d4b -> BB75abb1d66 [color="green"];
+  BB75abb1d4b -> BB75abb1d51 [color="red"];
+  BB75abb1d51 -> BB75abb1d66 [color="red"];
+  BB75abb1d66 -> BB75abb1d6b [color="blue"];
+  BB75abb1d6b -> BB75abb1d89 [color="green"];
+  BB75abb1d6b -> BB75abb1d79 [color="red"];
+  BB75abb1d79 -> BB75abb1d79 [color="green"];
+  BB75abb1d79 -> BB75abb1d89 [color="red"];
+}

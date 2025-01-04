@@ -1,0 +1,15 @@
+digraph throttle_report {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a929544 -> BB75a9295f0 [color="green"];
+  BB75a929544 -> BB75a929568 [color="red"];
+  BB75a929568 -> BB75a9295e1 [color="green"];
+  BB75a929568 -> BB75a929592 [color="red"];
+  BB75a929592 -> BB75a9295f2 [color="green"];
+  BB75a929592 -> BB75a9295a3 [color="red"];
+  BB75a9295a3 -> BB75a9295f2 [color="green"];
+  BB75a9295a3 -> BB75a9295c6 [color="red"];
+  BB75a9295c6 -> BB75a9295f2 [color="blue"];
+  BB75a9295e1 -> BB75a9295f0 [color="red"];
+  BB75a9295f0 -> BB75a9295f2 [color="blue"];
+}

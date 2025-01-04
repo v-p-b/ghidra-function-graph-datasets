@@ -1,0 +1,16 @@
+digraph append_literal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a12ca74 -> BB75a12cafb [color="green"];
+  BB75a12ca74 -> BB75a12ca97 [color="red"];
+  BB75a12ca97 -> BB75a12cafb [color="green"];
+  BB75a12ca97 -> BB75a12ca9b [color="red"];
+  BB75a12ca9b -> BB75a12cadb [color="green"];
+  BB75a12ca9b -> BB75a12cacd [color="red"];
+  BB75a12cacd -> BB75a12cadb [color="blue"];
+  BB75a12cadb -> BB75a12cae8 [color="blue"];
+  BB75a12cafb -> BB75a12cb24 [color="green"];
+  BB75a12cafb -> BB75a12cb16 [color="red"];
+  BB75a12cb16 -> BB75a12cb24 [color="blue"];
+  BB75a12cb24 -> BB75a12cae8 [color="blue"];
+}

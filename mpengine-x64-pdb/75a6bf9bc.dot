@@ -1,0 +1,19 @@
+digraph pagerOpenWalIfPresent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6bf9bc -> BB75a6bf9ef [color="green"];
+  BB75a6bf9bc -> BB75a6bf9cc [color="red"];
+  BB75a6bf9cc -> BB75a6bf9f5 [color="green"];
+  BB75a6bf9cc -> BB75a6bf9ef [color="red"];
+  BB75a6bf9f5 -> BB75a6bfa30 [color="green"];
+  BB75a6bf9f5 -> BB75a6bf9fc [color="red"];
+  BB75a6bf9fc -> BB75a6bf9ef [color="green"];
+  BB75a6bf9fc -> BB75a6bfa12 [color="red"];
+  BB75a6bfa12 -> BB75a6bfa3c [color="green"];
+  BB75a6bfa12 -> BB75a6bfa18 [color="red"];
+  BB75a6bfa18 -> BB75a6bf9ef [color="blue"];
+  BB75a6bfa30 -> BB75a6bf9ef [color="green"];
+  BB75a6bfa30 -> BB75a6bfa36 [color="red"];
+  BB75a6bfa36 -> BB75a6bf9ef [color="blue"];
+  BB75a6bfa3c -> BB75a6bf9ef [color="blue"];
+}

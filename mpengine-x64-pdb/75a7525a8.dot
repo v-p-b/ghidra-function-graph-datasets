@@ -1,0 +1,15 @@
+digraph CleanupWmiSensorConfigStruct {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7525a8 -> BB75a752694 [color="green"];
+  BB75a7525a8 -> BB75a7525b1 [color="red"];
+  BB75a7525b1 -> BB75a752665 [color="green"];
+  BB75a7525b1 -> BB75a7525dc [color="red"];
+  BB75a7525dc -> BB75a75262c [color="green"];
+  BB75a7525dc -> BB75a75260b [color="red"];
+  BB75a75260b -> BB75a75260b [color="green"];
+  BB75a75260b -> BB75a75262c [color="red"];
+  BB75a75262c -> BB75a7525dc [color="green"];
+  BB75a75262c -> BB75a752665 [color="red"];
+  BB75a752665 -> BB75a752694 [color="red"];
+}

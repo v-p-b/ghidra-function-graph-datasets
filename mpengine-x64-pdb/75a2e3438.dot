@@ -1,0 +1,34 @@
+digraph TestForDetection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2e3438 -> BB75a2e34cd [color="green"];
+  BB75a2e3438 -> BB75a2e34b6 [color="red"];
+  BB75a2e34b6 -> BB75a2e34cd [color="green"];
+  BB75a2e34b6 -> BB75a2e34c2 [color="red"];
+  BB75a2e34c2 -> BB75a2e34cd [color="red"];
+  BB75a2e34cd -> BB75a2e351b [color="green"];
+  BB75a2e34cd -> BB75a2e34e2 [color="red"];
+  BB75a2e34e2 -> BB75a2e351b [color="red"];
+  BB75a2e351b -> BB75a2e3560 [color="green"];
+  BB75a2e351b -> BB75a2e3545 [color="red"];
+  BB75a2e3545 -> BB75a2e3560 [color="green"];
+  BB75a2e3545 -> BB75a2e355b [color="red"];
+  BB75a2e355b -> BB75a2e3560 [color="blue"];
+  BB75a2e3560 -> BB75a2e358a [color="green"];
+  BB75a2e3560 -> BB75a2e3581 [color="red"];
+  BB75a2e3581 -> BB75a2e35a8 [color="green"];
+  BB75a2e3581 -> BB75a2e358a [color="red"];
+  BB75a2e358a -> BB75a2e35a8 [color="red"];
+  BB75a2e35a8 -> BB75a2e35d5 [color="red"];
+  BB75a2e35d5 -> BB75a2e3691 [color="green"];
+  BB75a2e35d5 -> BB75a2e35de [color="red"];
+  BB75a2e35de -> BB75a2e361a [color="green"];
+  BB75a2e35de -> BB75a2e3611 [color="red"];
+  BB75a2e3611 -> BB75a2e3655 [color="green"];
+  BB75a2e3611 -> BB75a2e361a [color="red"];
+  BB75a2e361a -> BB75a2e3655 [color="red"];
+  BB75a2e3691 -> BB75a2e370e [color="green"];
+  BB75a2e3691 -> BB75a2e3696 [color="red"];
+  BB75a2e3696 -> BB75a2e370e [color="red"];
+  BB75a2e370e -> BB75a2e35d5 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph ~stack {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5e75dc -> BB75a5e75fb [color="green"];
+  BB75a5e75dc -> BB75a5e75ee [color="red"];
+  BB75a5e75fb -> BB75a5e7609 [color="green"];
+  BB75a5e75fb -> BB75a5e7603 [color="red"];
+  BB75a5e7603 -> BB75a5e7610 [color="blue"];
+  BB75a5e7609 -> BB75a5e7610 [color="blue"];
+  BB75a5e7610 -> BB75a5e75ee [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph GetCurrentProcessMonitoringFlags {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a600e40 -> BB75a600e85 [color="green"];
+  BB75a600e40 -> BB75a600e6f [color="red"];
+  BB75a600e6f -> BB75a600e85 [color="red"];
+  BB75a600e85 -> BB75a600e8f [color="green"];
+  BB75a600e85 -> BB75a600e8a [color="red"];
+  BB75a600e8a -> BB75a600e8f [color="red"];
+}

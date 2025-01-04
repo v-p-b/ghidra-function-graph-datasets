@@ -1,0 +1,26 @@
+digraph CallVmShutdown {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a34113c -> BB75a34129e [color="green"];
+  BB75a34113c -> BB75a341196 [color="red"];
+  BB75a341196 -> BB75a341294 [color="green"];
+  BB75a341196 -> BB75a3411b3 [color="red"];
+  BB75a3411b3 -> BB75a341294 [color="green"];
+  BB75a3411b3 -> BB75a3411ca [color="red"];
+  BB75a3411ca -> BB75a3411cc [color="blue"];
+  BB75a3411cc -> BB75a34129e [color="green"];
+  BB75a3411cc -> BB75a3411fe [color="red"];
+  BB75a3411fe -> BB75a341286 [color="green"];
+  BB75a3411fe -> BB75a34123c [color="red"];
+  BB75a34123c -> BB75a341248 [color="red"];
+  BB75a341248 -> BB75a341269 [color="green"];
+  BB75a341248 -> BB75a341262 [color="red"];
+  BB75a341262 -> BB75a341269 [color="blue"];
+  BB75a341269 -> BB75a34126b [color="blue"];
+  BB75a341286 -> BB75a341248 [color="blue"];
+  BB75a341294 -> BB75a3411cc [color="blue"];
+  BB75a34129e -> BB75a3412aa [color="green"];
+  BB75a34129e -> BB75a3412a3 [color="red"];
+  BB75a3412a3 -> BB75a3412aa [color="blue"];
+  BB75a3412aa -> BB75a34126b [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph ProcessEndOfBuffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a52db94 -> BB75a52dbde [color="green"];
+  BB75a52db94 -> BB75a52dbbf [color="red"];
+  BB75a52dbbf -> BB75a52dbc1 [color="blue"];
+  BB75a52dbde -> BB75a52dbc1 [color="green"];
+  BB75a52dbde -> BB75a52dbef [color="red"];
+  BB75a52dbef -> BB75a52dc2e [color="green"];
+  BB75a52dbef -> BB75a52dc24 [color="red"];
+  BB75a52dc24 -> BB75a52dc2e [color="red"];
+  BB75a52dc2e -> BB75a52dbc1 [color="blue"];
+}

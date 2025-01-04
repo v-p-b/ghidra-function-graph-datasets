@@ -1,0 +1,12 @@
+digraph GradualReleaseDataEnd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a642c10 -> BB75a642c5c [color="green"];
+  BB75a642c10 -> BB75a642c27 [color="red"];
+  BB75a642c27 -> BB75a642c65 [color="green"];
+  BB75a642c27 -> BB75a642c3a [color="red"];
+  BB75a642c3a -> BB75a642c65 [color="green"];
+  BB75a642c3a -> BB75a642c40 [color="red"];
+  BB75a642c40 -> BB75a642c65 [color="blue"];
+  BB75a642c5c -> BB75a642c65 [color="blue"];
+}

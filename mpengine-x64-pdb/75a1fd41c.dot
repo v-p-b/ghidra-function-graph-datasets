@@ -1,0 +1,18 @@
+digraph atomic {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1fd41c -> BB75a1fd511 [color="green"];
+  BB75a1fd41c -> BB75a1fd454 [color="red"];
+  BB75a1fd454 -> BB75a1fd4d9 [color="green"];
+  BB75a1fd454 -> BB75a1fd48f [color="red"];
+  BB75a1fd4d9 -> BB75a1fd508 [color="green"];
+  BB75a1fd4d9 -> BB75a1fd4e3 [color="red"];
+  BB75a1fd4e3 -> BB75a1fd4f5 [color="blue"];
+  BB75a1fd4f5 -> BB75a1fd4d9 [color="green"];
+  BB75a1fd4f5 -> BB75a1fd506 [color="red"];
+  BB75a1fd506 -> BB75a1fd48f [color="blue"];
+  BB75a1fd508 -> BB75a1fd4f5 [color="green"];
+  BB75a1fd508 -> BB75a1fd50f [color="red"];
+  BB75a1fd50f -> BB75a1fd4e3 [color="blue"];
+  BB75a1fd511 -> BB75a1fd454 [color="blue"];
+}

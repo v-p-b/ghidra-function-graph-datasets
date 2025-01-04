@@ -1,0 +1,24 @@
+digraph FillPartitions {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abcccc0 -> BB75abccd29 [color="green"];
+  BB75abcccc0 -> BB75abccd24 [color="red"];
+  BB75abccd24 -> BB75abccd29 [color="red"];
+  BB75abccd29 -> BB75abccd77 [color="green"];
+  BB75abccd29 -> BB75abccd5e [color="red"];
+  BB75abccd5e -> BB75abccd77 [color="red"];
+  BB75abccd77 -> BB75abccdc0 [color="green"];
+  BB75abccd77 -> BB75abccd7b [color="red"];
+  BB75abccd7b -> BB75abccdb1 [color="green"];
+  BB75abccd7b -> BB75abccd8e [color="red"];
+  BB75abccd8e -> BB75abccdb1 [color="green"];
+  BB75abccd8e -> BB75abccd94 [color="red"];
+  BB75abccd94 -> BB75abccdb1 [color="red"];
+  BB75abccdb1 -> BB75abccddc [color="green"];
+  BB75abccdb1 -> BB75abccdb6 [color="red"];
+  BB75abccdb6 -> BB75abccddc [color="blue"];
+  BB75abccdc0 -> BB75abccdda [color="green"];
+  BB75abccdc0 -> BB75abccdd2 [color="red"];
+  BB75abccdd2 -> BB75abccdda [color="red"];
+  BB75abccdda -> BB75abccddc [color="blue"];
+}

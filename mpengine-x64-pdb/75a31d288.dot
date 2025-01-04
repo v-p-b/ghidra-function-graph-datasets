@@ -1,0 +1,12 @@
+digraph RegExStringMatch {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a31d288 -> BB75a31d2da [color="green"];
+  BB75a31d288 -> BB75a31d2bd [color="red"];
+  BB75a31d2bd -> BB75a31d2c2 [color="blue"];
+  BB75a31d2c2 -> BB75a31d2fc [color="green"];
+  BB75a31d2c2 -> BB75a31d2d1 [color="red"];
+  BB75a31d2d1 -> BB75a31d2c2 [color="green"];
+  BB75a31d2d1 -> BB75a31d2da [color="red"];
+  BB75a31d2fc -> BB75a31d2d1 [color="blue"];
+}

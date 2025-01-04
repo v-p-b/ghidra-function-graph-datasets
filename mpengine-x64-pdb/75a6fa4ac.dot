@@ -1,0 +1,15 @@
+digraph CreateInStreams {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6fa4ac -> BB75a6fa536 [color="green"];
+  BB75a6fa4ac -> BB75a6fa4cd [color="red"];
+  BB75a6fa4cd -> BB75a6fa536 [color="green"];
+  BB75a6fa4cd -> BB75a6fa4d2 [color="red"];
+  BB75a6fa4d2 -> BB75a6fa536 [color="green"];
+  BB75a6fa4d2 -> BB75a6fa4d8 [color="red"];
+  BB75a6fa4d8 -> BB75a6fa530 [color="green"];
+  BB75a6fa4d8 -> BB75a6fa504 [color="red"];
+  BB75a6fa504 -> BB75a6fa532 [color="blue"];
+  BB75a6fa530 -> BB75a6fa532 [color="blue"];
+  BB75a6fa532 -> BB75a6fa536 [color="blue"];
+}

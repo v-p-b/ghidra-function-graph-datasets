@@ -1,0 +1,26 @@
+digraph xray_probe_aldebaran {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa19360 -> BB75aa19396 [color="green"];
+  BB75aa19360 -> BB75aa19391 [color="red"];
+  BB75aa19391 -> BB75aa19396 [color="red"];
+  BB75aa19396 -> BB75aa193a5 [color="green"];
+  BB75aa19396 -> BB75aa193a0 [color="red"];
+  BB75aa193a0 -> BB75aa193a5 [color="red"];
+  BB75aa193a5 -> BB75aa1942d [color="green"];
+  BB75aa193a5 -> BB75aa193c5 [color="red"];
+  BB75aa193c5 -> BB75aa1942d [color="green"];
+  BB75aa193c5 -> BB75aa193d5 [color="red"];
+  BB75aa193d5 -> BB75aa193e4 [color="blue"];
+  BB75aa193e4 -> BB75aa19402 [color="green"];
+  BB75aa193e4 -> BB75aa193e9 [color="red"];
+  BB75aa193e9 -> BB75aa1942d [color="green"];
+  BB75aa193e9 -> BB75aa193fc [color="red"];
+  BB75aa193fc -> BB75aa193e4 [color="blue"];
+  BB75aa19402 -> BB75aa19426 [color="green"];
+  BB75aa19402 -> BB75aa1940c [color="red"];
+  BB75aa1940c -> BB75aa1940c [color="green"];
+  BB75aa1940c -> BB75aa19426 [color="red"];
+  BB75aa19426 -> BB75aa1942f [color="blue"];
+  BB75aa1942d -> BB75aa1942f [color="blue"];
+}

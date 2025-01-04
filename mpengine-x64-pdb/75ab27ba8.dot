@@ -1,0 +1,21 @@
+digraph CanRun {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab27ba8 -> BB75ab27c1e [color="green"];
+  BB75ab27ba8 -> BB75ab27bc9 [color="red"];
+  BB75ab27bc9 -> BB75ab27c1e [color="green"];
+  BB75ab27bc9 -> BB75ab27bcf [color="red"];
+  BB75ab27bcf -> BB75ab27bf7 [color="green"];
+  BB75ab27bcf -> BB75ab27bea [color="red"];
+  BB75ab27bea -> BB75ab27c26 [color="green"];
+  BB75ab27bea -> BB75ab27bf2 [color="red"];
+  BB75ab27bf2 -> BB75ab27bf7 [color="red"];
+  BB75ab27bf7 -> BB75ab27c1e [color="green"];
+  BB75ab27bf7 -> BB75ab27c0c [color="red"];
+  BB75ab27c0c -> BB75ab27c1e [color="blue"];
+  BB75ab27c26 -> BB75ab27bf7 [color="green"];
+  BB75ab27c26 -> BB75ab27c32 [color="red"];
+  BB75ab27c32 -> BB75ab27bf7 [color="green"];
+  BB75ab27c32 -> BB75ab27c46 [color="red"];
+  BB75ab27c46 -> BB75ab27c1e [color="blue"];
+}

@@ -1,0 +1,9 @@
+digraph IsFolderASingleFile {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a73fea0 -> BB75a73fed8 [color="green"];
+  BB75a73fea0 -> BB75a73fec7 [color="red"];
+  BB75a73fec7 -> BB75a73fed8 [color="green"];
+  BB75a73fec7 -> BB75a73fed6 [color="red"];
+  BB75a73fed6 -> BB75a73fed8 [color="blue"];
+}

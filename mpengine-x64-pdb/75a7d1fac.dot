@@ -1,0 +1,18 @@
+digraph FromMpHipsRuleEx2 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7d1fac -> BB75a7d205e [color="green"];
+  BB75a7d1fac -> BB75a7d1fec [color="red"];
+  BB75a7d1fec -> BB75a7d204f [color="green"];
+  BB75a7d1fec -> BB75a7d201a [color="red"];
+  BB75a7d201a -> BB75a7d204f [color="green"];
+  BB75a7d201a -> BB75a7d202a [color="red"];
+  BB75a7d202a -> BB75a7d204f [color="blue"];
+  BB75a7d202f -> BB75a7d204b [color="green"];
+  BB75a7d202f -> BB75a7d2048 [color="red"];
+  BB75a7d2048 -> BB75a7d204b [color="blue"];
+  BB75a7d204b -> BB75a7d204f [color="blue"];
+  BB75a7d204f -> BB75a7d202f [color="green"];
+  BB75a7d204f -> BB75a7d2054 [color="red"];
+  BB75a7d2054 -> BB75a7d205e [color="red"];
+}

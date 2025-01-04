@@ -1,0 +1,15 @@
+digraph GetIATZone {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a62a038 -> BB75a62a0d1 [color="green"];
+  BB75a62a038 -> BB75a62a05e [color="red"];
+  BB75a62a05e -> BB75a62a0b3 [color="green"];
+  BB75a62a05e -> BB75a62a085 [color="red"];
+  BB75a62a085 -> BB75a62a0b3 [color="green"];
+  BB75a62a085 -> BB75a62a095 [color="red"];
+  BB75a62a095 -> BB75a62a0cb [color="green"];
+  BB75a62a095 -> BB75a62a0b3 [color="red"];
+  BB75a62a0b3 -> BB75a62a0b6 [color="blue"];
+  BB75a62a0cb -> BB75a62a0b6 [color="blue"];
+  BB75a62a0d1 -> BB75a62a05e [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph lower_bound {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a46b9d8 -> BB75a46ba11 [color="green"];
+  BB75a46b9d8 -> BB75a46b9eb [color="red"];
+  BB75a46b9eb -> BB75a46b9ee [color="blue"];
+  BB75a46b9ee -> BB75a46ba04 [color="green"];
+  BB75a46b9ee -> BB75a46b9f4 [color="red"];
+  BB75a46b9f4 -> BB75a46ba1c [color="green"];
+  BB75a46b9f4 -> BB75a46ba04 [color="red"];
+  BB75a46ba04 -> BB75a46ba0a [color="blue"];
+  BB75a46ba0a -> BB75a46b9ee [color="green"];
+  BB75a46ba0a -> BB75a46ba11 [color="red"];
+  BB75a46ba1c -> BB75a46ba0a [color="blue"];
+}

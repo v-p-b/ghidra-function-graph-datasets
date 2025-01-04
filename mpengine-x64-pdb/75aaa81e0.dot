@@ -1,0 +1,17 @@
+digraph sigtree_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaa81e0 -> BB75aaa8230 [color="blue"];
+  BB75aaa8230 -> BB75aaa827f [color="green"];
+  BB75aaa8230 -> BB75aaa8234 [color="red"];
+  BB75aaa8234 -> BB75aaa8230 [color="blue"];
+  BB75aaa827f -> BB75aaa8359 [color="green"];
+  BB75aaa827f -> BB75aaa82b9 [color="red"];
+  BB75aaa82b9 -> BB75aaa8359 [color="green"];
+  BB75aaa82b9 -> BB75aaa82e2 [color="red"];
+  BB75aaa82e2 -> BB75aaa8359 [color="green"];
+  BB75aaa82e2 -> BB75aaa830b [color="red"];
+  BB75aaa830b -> BB75aaa8359 [color="green"];
+  BB75aaa830b -> BB75aaa8334 [color="red"];
+  BB75aaa8334 -> BB75aaa8359 [color="red"];
+}

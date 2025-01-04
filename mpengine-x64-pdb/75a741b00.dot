@@ -1,0 +1,16 @@
+digraph SendEvents {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a741b00 -> BB75a741b7a [color="green"];
+  BB75a741b00 -> BB75a741b4a [color="red"];
+  BB75a741b4a -> BB75a741bd7 [color="green"];
+  BB75a741b4a -> BB75a741b5d [color="red"];
+  BB75a741b5d -> BB75a741bd7 [color="green"];
+  BB75a741b5d -> BB75a741b63 [color="red"];
+  BB75a741b63 -> BB75a741bd7 [color="blue"];
+  BB75a741b7a -> BB75a741bd3 [color="green"];
+  BB75a741b7a -> BB75a741b86 [color="red"];
+  BB75a741b86 -> BB75a741b86 [color="green"];
+  BB75a741b86 -> BB75a741bd3 [color="red"];
+  BB75a741bd3 -> BB75a741bd7 [color="blue"];
+}

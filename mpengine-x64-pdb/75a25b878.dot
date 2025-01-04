@@ -1,0 +1,17 @@
+digraph AddMetadataToQueuedObject<bool> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a25b878 -> BB75a25b8f5 [color="green"];
+  BB75a25b878 -> BB75a25b897 [color="red"];
+  BB75a25b897 -> BB75a25b8cc [color="green"];
+  BB75a25b897 -> BB75a25b8a8 [color="red"];
+  BB75a25b8a8 -> BB75a25b8ac [color="blue"];
+  BB75a25b8ac -> BB75a25b8ba [color="red"];
+  BB75a25b8cc -> BB75a25b8ac [color="blue"];
+  BB75a25b8f5 -> BB75a25b928 [color="green"];
+  BB75a25b8f5 -> BB75a25b90d [color="red"];
+  BB75a25b90d -> BB75a25b928 [color="green"];
+  BB75a25b90d -> BB75a25b913 [color="red"];
+  BB75a25b913 -> BB75a25b928 [color="red"];
+  BB75a25b928 -> BB75a25b8ba [color="blue"];
+}

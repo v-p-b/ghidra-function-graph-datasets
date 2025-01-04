@@ -1,0 +1,15 @@
+digraph get_mem_chunk<struct_t_res_list_node> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a36c9a4 -> BB75a36c9e8 [color="green"];
+  BB75a36c9a4 -> BB75a36c9b6 [color="red"];
+  BB75a36c9b6 -> BB75a36c9e4 [color="green"];
+  BB75a36c9b6 -> BB75a36c9c1 [color="red"];
+  BB75a36c9c1 -> BB75a36c9e8 [color="green"];
+  BB75a36c9c1 -> BB75a36c9ca [color="red"];
+  BB75a36c9ca -> BB75a36c9de [color="blue"];
+  BB75a36c9e4 -> BB75a36c9de [color="blue"];
+  BB75a36c9e8 -> BB75a36c9e4 [color="green"];
+  BB75a36c9e8 -> BB75a36c9fa [color="red"];
+  BB75a36c9fa -> BB75a36c9ca [color="blue"];
+}

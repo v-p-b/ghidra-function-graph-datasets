@@ -1,0 +1,26 @@
+digraph mmap64_lock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a503400 -> BB75a5034bb [color="green"];
+  BB75a503400 -> BB75a503435 [color="red"];
+  BB75a503435 -> BB75a5034d1 [color="green"];
+  BB75a503435 -> BB75a50343f [color="red"];
+  BB75a50343f -> BB75a5034d1 [color="green"];
+  BB75a50343f -> BB75a503455 [color="red"];
+  BB75a503455 -> BB75a5034b6 [color="green"];
+  BB75a503455 -> BB75a503475 [color="red"];
+  BB75a503475 -> BB75a5034c7 [color="green"];
+  BB75a503475 -> BB75a50347c [color="red"];
+  BB75a50347c -> BB75a5034ca [color="green"];
+  BB75a50347c -> BB75a503483 [color="red"];
+  BB75a503483 -> BB75a5034c0 [color="green"];
+  BB75a503483 -> BB75a50349b [color="red"];
+  BB75a50349b -> BB75a50349e [color="blue"];
+  BB75a50349e -> BB75a5034a1 [color="blue"];
+  BB75a5034b6 -> BB75a5034bb [color="red"];
+  BB75a5034bb -> BB75a5034c0 [color="blue"];
+  BB75a5034c0 -> BB75a5034a1 [color="blue"];
+  BB75a5034c7 -> BB75a5034ca [color="blue"];
+  BB75a5034ca -> BB75a503483 [color="blue"];
+  BB75a5034d1 -> BB75a50349e [color="blue"];
+}

@@ -1,0 +1,22 @@
+digraph lua_getstack {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a46a6d8 -> BB75a46a6e5 [color="blue"];
+  BB75a46a6e5 -> BB75a46a705 [color="green"];
+  BB75a46a6e5 -> BB75a46a6e9 [color="red"];
+  BB75a46a6e9 -> BB75a46a73c [color="green"];
+  BB75a46a6e9 -> BB75a46a6ef [color="red"];
+  BB75a46a6ef -> BB75a46a734 [color="green"];
+  BB75a46a6ef -> BB75a46a6ff [color="red"];
+  BB75a46a6ff -> BB75a46a6e5 [color="blue"];
+  BB75a46a705 -> BB75a46a73a [color="green"];
+  BB75a46a705 -> BB75a46a707 [color="red"];
+  BB75a46a707 -> BB75a46a73c [color="green"];
+  BB75a46a707 -> BB75a46a70d [color="red"];
+  BB75a46a70d -> BB75a46a730 [color="blue"];
+  BB75a46a734 -> BB75a46a6ff [color="blue"];
+  BB75a46a73a -> BB75a46a741 [color="green"];
+  BB75a46a73a -> BB75a46a73c [color="red"];
+  BB75a46a73c -> BB75a46a730 [color="blue"];
+  BB75a46a741 -> BB75a46a730 [color="blue"];
+}

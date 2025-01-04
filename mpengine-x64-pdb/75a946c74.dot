@@ -1,0 +1,16 @@
+digraph commit_cfi_models {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a946c74 -> BB75a946d11 [color="green"];
+  BB75a946c74 -> BB75a946ca7 [color="red"];
+  BB75a946ca7 -> BB75a946d11 [color="green"];
+  BB75a946ca7 -> BB75a946cac [color="red"];
+  BB75a946cac -> BB75a946d07 [color="green"];
+  BB75a946cac -> BB75a946cf9 [color="red"];
+  BB75a946cf9 -> BB75a946d07 [color="green"];
+  BB75a946cf9 -> BB75a946d05 [color="red"];
+  BB75a946d05 -> BB75a946d07 [color="blue"];
+  BB75a946d07 -> BB75a946d0d [color="blue"];
+  BB75a946d0d -> BB75a946d13 [color="blue"];
+  BB75a946d11 -> BB75a946d13 [color="blue"];
+}

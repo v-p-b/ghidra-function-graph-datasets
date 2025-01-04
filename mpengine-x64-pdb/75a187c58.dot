@@ -1,0 +1,25 @@
+digraph StreamBufferWrapper {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a187c58 -> BB75a187d5a [color="green"];
+  BB75a187c58 -> BB75a187d00 [color="red"];
+  BB75a187d00 -> BB75a187d11 [color="green"];
+  BB75a187d00 -> BB75a187d06 [color="red"];
+  BB75a187d06 -> BB75a187d11 [color="blue"];
+  BB75a187d11 -> BB75a187d4d [color="green"];
+  BB75a187d11 -> BB75a187d17 [color="red"];
+  BB75a187d17 -> BB75a187d28 [color="green"];
+  BB75a187d17 -> BB75a187d1d [color="red"];
+  BB75a187d1d -> BB75a187d28 [color="blue"];
+  BB75a187d28 -> BB75a187d67 [color="green"];
+  BB75a187d28 -> BB75a187d2e [color="red"];
+  BB75a187d2e -> BB75a187d74 [color="green"];
+  BB75a187d2e -> BB75a187d34 [color="red"];
+  BB75a187d34 -> BB75a187d81 [color="green"];
+  BB75a187d34 -> BB75a187d3a [color="red"];
+  BB75a187d4d -> BB75a187d17 [color="blue"];
+  BB75a187d5a -> BB75a187d00 [color="blue"];
+  BB75a187d67 -> BB75a187d2e [color="blue"];
+  BB75a187d74 -> BB75a187d34 [color="blue"];
+  BB75a187d81 -> BB75a187d3a [color="blue"];
+}

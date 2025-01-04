@@ -1,0 +1,22 @@
+digraph sqlite3_wal_checkpoint_v2 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a459910 -> BB75a459a07 [color="green"];
+  BB75a459910 -> BB75a459945 [color="red"];
+  BB75a459945 -> BB75a459a0f [color="green"];
+  BB75a459945 -> BB75a459953 [color="red"];
+  BB75a459953 -> BB75a4599fc [color="green"];
+  BB75a459953 -> BB75a459965 [color="red"];
+  BB75a459965 -> BB75a45998d [color="red"];
+  BB75a45998d -> BB75a4599ac [color="green"];
+  BB75a45998d -> BB75a4599a2 [color="red"];
+  BB75a4599a2 -> BB75a4599ac [color="blue"];
+  BB75a4599d0 -> BB75a459965 [color="green"];
+  BB75a4599d0 -> BB75a4599e1 [color="red"];
+  BB75a4599e1 -> BB75a45998d [color="blue"];
+  BB75a4599fc -> BB75a459965 [color="green"];
+  BB75a4599fc -> BB75a459a05 [color="red"];
+  BB75a459a05 -> BB75a4599d0 [color="blue"];
+  BB75a459a07 -> BB75a459945 [color="blue"];
+  BB75a459a0f -> BB75a459953 [color="blue"];
+}

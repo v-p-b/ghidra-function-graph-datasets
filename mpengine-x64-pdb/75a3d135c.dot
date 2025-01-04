@@ -1,0 +1,19 @@
+digraph hasNonCacheableAncestry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3d135c -> BB75a3d13a1 [color="green"];
+  BB75a3d135c -> BB75a3d1361 [color="red"];
+  BB75a3d1361 -> BB75a3d1370 [color="green"];
+  BB75a3d1361 -> BB75a3d136a [color="red"];
+  BB75a3d136a -> BB75a3d13a4 [color="green"];
+  BB75a3d136a -> BB75a3d1370 [color="red"];
+  BB75a3d1370 -> BB75a3d13a1 [color="green"];
+  BB75a3d1370 -> BB75a3d1375 [color="red"];
+  BB75a3d1375 -> BB75a3d13a4 [color="green"];
+  BB75a3d1375 -> BB75a3d1383 [color="red"];
+  BB75a3d1383 -> BB75a3d139b [color="green"];
+  BB75a3d1383 -> BB75a3d1391 [color="red"];
+  BB75a3d1391 -> BB75a3d13a4 [color="green"];
+  BB75a3d1391 -> BB75a3d139b [color="red"];
+  BB75a3d139b -> BB75a3d1370 [color="blue"];
+}

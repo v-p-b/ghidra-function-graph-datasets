@@ -1,0 +1,15 @@
+digraph sqlite3ArrayAllocate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a27e2e4 -> BB75a27e327 [color="green"];
+  BB75a27e2e4 -> BB75a27e30c [color="red"];
+  BB75a27e30c -> BB75a27e35f [color="green"];
+  BB75a27e30c -> BB75a27e310 [color="red"];
+  BB75a27e310 -> BB75a27e317 [color="blue"];
+  BB75a27e317 -> BB75a27e363 [color="green"];
+  BB75a27e317 -> BB75a27e324 [color="red"];
+  BB75a27e324 -> BB75a27e327 [color="blue"];
+  BB75a27e327 -> BB75a27e346 [color="red"];
+  BB75a27e35f -> BB75a27e317 [color="blue"];
+  BB75a27e363 -> BB75a27e346 [color="blue"];
+}

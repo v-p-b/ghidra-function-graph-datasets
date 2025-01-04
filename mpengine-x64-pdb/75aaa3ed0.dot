@@ -1,0 +1,15 @@
+digraph fetch {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aaa3ed0 -> BB75aaa3ef4 [color="green"];
+  BB75aaa3ed0 -> BB75aaa3eef [color="red"];
+  BB75aaa3eef -> BB75aaa3ef4 [color="red"];
+  BB75aaa3ef4 -> BB75aaa3f1d [color="green"];
+  BB75aaa3ef4 -> BB75aaa3efa [color="red"];
+  BB75aaa3efa -> BB75aaa3f1d [color="green"];
+  BB75aaa3efa -> BB75aaa3f08 [color="red"];
+  BB75aaa3f08 -> BB75aaa3f1d [color="green"];
+  BB75aaa3f08 -> BB75aaa3f10 [color="red"];
+  BB75aaa3f10 -> BB75aaa3f1f [color="blue"];
+  BB75aaa3f1d -> BB75aaa3f1f [color="blue"];
+}

@@ -1,0 +1,9 @@
+digraph _is_pipeline_running {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6a0948 -> BB75a6a0967 [color="green"];
+  BB75a6a0948 -> BB75a6a0954 [color="red"];
+  BB75a6a0954 -> BB75a6a0969 [color="green"];
+  BB75a6a0954 -> BB75a6a0967 [color="red"];
+  BB75a6a0967 -> BB75a6a0969 [color="blue"];
+}

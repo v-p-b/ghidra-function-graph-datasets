@@ -1,0 +1,16 @@
+digraph try_fetch_no_row {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a27b29c -> BB75a27b2c0 [color="green"];
+  BB75a27b29c -> BB75a27b2aa [color="red"];
+  BB75a27b2aa -> BB75a27b2c7 [color="green"];
+  BB75a27b2aa -> BB75a27b2b8 [color="red"];
+  BB75a27b2b8 -> BB75a27b2ba [color="blue"];
+  BB75a27b2c0 -> BB75a27b2ba [color="blue"];
+  BB75a27b2c7 -> BB75a27b2f8 [color="green"];
+  BB75a27b2c7 -> BB75a27b2da [color="red"];
+  BB75a27b2da -> BB75a27b2f8 [color="green"];
+  BB75a27b2da -> BB75a27b2e0 [color="red"];
+  BB75a27b2e0 -> BB75a27b2f8 [color="red"];
+  BB75a27b2f8 -> BB75a27b2ba [color="blue"];
+}

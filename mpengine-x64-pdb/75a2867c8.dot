@@ -1,0 +1,12 @@
+digraph sqlite3GetVdbe {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2867c8 -> BB75a2867f0 [color="green"];
+  BB75a2867c8 -> BB75a2867d5 [color="red"];
+  BB75a2867d5 -> BB75a2867eb [color="green"];
+  BB75a2867d5 -> BB75a2867de [color="red"];
+  BB75a2867de -> BB75a2867eb [color="green"];
+  BB75a2867de -> BB75a2867e7 [color="red"];
+  BB75a2867e7 -> BB75a2867eb [color="blue"];
+  BB75a2867eb -> BB75a2867f0 [color="red"];
+}

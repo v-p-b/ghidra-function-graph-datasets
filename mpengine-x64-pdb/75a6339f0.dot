@@ -1,0 +1,12 @@
+digraph zstd_ismine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6339f0 -> BB75a633a16 [color="green"];
+  BB75a6339f0 -> BB75a633a05 [color="red"];
+  BB75a633a05 -> BB75a633a16 [color="green"];
+  BB75a633a05 -> BB75a633a0c [color="red"];
+  BB75a633a0c -> BB75a633a1e [color="green"];
+  BB75a633a0c -> BB75a633a16 [color="red"];
+  BB75a633a16 -> BB75a633a18 [color="blue"];
+  BB75a633a1e -> BB75a633a18 [color="blue"];
+}

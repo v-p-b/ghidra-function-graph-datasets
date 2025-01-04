@@ -1,0 +1,23 @@
+digraph GetProcessIntegrity {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4a6f70 -> BB75a4a6ff1 [color="green"];
+  BB75a4a6f70 -> BB75a4a6f9a [color="red"];
+  BB75a4a6f9a -> BB75a4a6fdc [color="green"];
+  BB75a4a6f9a -> BB75a4a6fc0 [color="red"];
+  BB75a4a6fc0 -> BB75a4a6fe1 [color="blue"];
+  BB75a4a6fdc -> BB75a4a6fe1 [color="blue"];
+  BB75a4a6fe1 -> BB75a4a7006 [color="green"];
+  BB75a4a6fe1 -> BB75a4a6fe6 [color="red"];
+  BB75a4a6fe6 -> BB75a4a7006 [color="blue"];
+  BB75a4a6ff1 -> BB75a4a7006 [color="red"];
+  BB75a4a7006 -> BB75a4a7033 [color="green"];
+  BB75a4a7006 -> BB75a4a700d [color="red"];
+  BB75a4a700d -> BB75a4a7033 [color="green"];
+  BB75a4a700d -> BB75a4a701f [color="red"];
+  BB75a4a701f -> BB75a4a7033 [color="red"];
+  BB75a4a7033 -> BB75a4a707c [color="blue"];
+  BB75a4a707c -> BB75a4a7089 [color="green"];
+  BB75a4a707c -> BB75a4a7080 [color="red"];
+  BB75a4a7080 -> BB75a4a7089 [color="blue"];
+}

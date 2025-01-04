@@ -1,0 +1,12 @@
+digraph sqlite3SafetyCheckSickOrOk {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2803d4 -> BB75a2803eb [color="green"];
+  BB75a2803d4 -> BB75a2803e1 [color="red"];
+  BB75a2803e1 -> BB75a2803e6 [color="blue"];
+  BB75a2803eb -> BB75a2803e1 [color="green"];
+  BB75a2803eb -> BB75a2803f4 [color="red"];
+  BB75a2803f4 -> BB75a2803e1 [color="green"];
+  BB75a2803f4 -> BB75a2803fd [color="red"];
+  BB75a2803fd -> BB75a2803e6 [color="blue"];
+}

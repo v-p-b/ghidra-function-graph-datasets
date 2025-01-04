@@ -1,0 +1,11 @@
+digraph _do_cpu_classify {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8d5e48 -> BB75a8d5ec4 [color="green"];
+  BB75a8d5e48 -> BB75a8d5eb5 [color="red"];
+  BB75a8d5eb5 -> BB75a8d5f4f [color="blue"];
+  BB75a8d5ec4 -> BB75a8d5f4c [color="green"];
+  BB75a8d5ec4 -> BB75a8d5ee5 [color="red"];
+  BB75a8d5ee5 -> BB75a8d5f4c [color="red"];
+  BB75a8d5f4c -> BB75a8d5f4f [color="blue"];
+}

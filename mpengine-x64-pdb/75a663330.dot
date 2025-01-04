@@ -1,0 +1,21 @@
+digraph get_bin_index {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a663330 -> BB75a66333c [color="green"];
+  BB75a663330 -> BB75a66333a [color="red"];
+  BB75a66333a -> BB75a6633b5 [color="green"];
+  BB75a66333a -> BB75a66333c [color="red"];
+  BB75a66333c -> BB75a6633b5 [color="green"];
+  BB75a66333c -> BB75a663342 [color="red"];
+  BB75a663342 -> BB75a66338e [color="green"];
+  BB75a663342 -> BB75a663348 [color="red"];
+  BB75a663348 -> BB75a66339e [color="green"];
+  BB75a663348 -> BB75a663351 [color="red"];
+  BB75a663351 -> BB75a663356 [color="blue"];
+  BB75a663356 -> BB75a663382 [color="green"];
+  BB75a663356 -> BB75a66336b [color="red"];
+  BB75a66336b -> BB75a663382 [color="green"];
+  BB75a66336b -> BB75a663375 [color="red"];
+  BB75a663375 -> BB75a663382 [color="blue"];
+  BB75a66339e -> BB75a663356 [color="blue"];
+}

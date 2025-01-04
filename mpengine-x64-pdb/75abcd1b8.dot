@@ -1,0 +1,26 @@
+digraph QueryDiskPartitions {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abcd1b8 -> BB75abcd327 [color="green"];
+  BB75abcd1b8 -> BB75abcd20a [color="red"];
+  BB75abcd20a -> BB75abcd23b [color="green"];
+  BB75abcd20a -> BB75abcd21b [color="red"];
+  BB75abcd21b -> BB75abcd290 [color="green"];
+  BB75abcd21b -> BB75abcd22e [color="red"];
+  BB75abcd22e -> BB75abcd290 [color="green"];
+  BB75abcd22e -> BB75abcd234 [color="red"];
+  BB75abcd234 -> BB75abcd280 [color="blue"];
+  BB75abcd23b -> BB75abcd29a [color="green"];
+  BB75abcd23b -> BB75abcd262 [color="red"];
+  BB75abcd262 -> BB75abcd290 [color="green"];
+  BB75abcd262 -> BB75abcd275 [color="red"];
+  BB75abcd275 -> BB75abcd290 [color="green"];
+  BB75abcd275 -> BB75abcd27b [color="red"];
+  BB75abcd27b -> BB75abcd280 [color="blue"];
+  BB75abcd280 -> BB75abcd290 [color="red"];
+  BB75abcd290 -> BB75abcd327 [color="blue"];
+  BB75abcd29a -> BB75abcd31c [color="green"];
+  BB75abcd29a -> BB75abcd2f0 [color="red"];
+  BB75abcd2f0 -> BB75abcd31c [color="red"];
+  BB75abcd31c -> BB75abcd327 [color="red"];
+}

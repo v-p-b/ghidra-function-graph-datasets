@@ -1,0 +1,22 @@
+digraph matchbalance {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a160e48 -> BB75a160e93 [color="green"];
+  BB75a160e48 -> BB75a160e54 [color="red"];
+  BB75a160e54 -> BB75a160e93 [color="green"];
+  BB75a160e54 -> BB75a160e5d [color="red"];
+  BB75a160e5d -> BB75a160e8f [color="green"];
+  BB75a160e5d -> BB75a160e62 [color="red"];
+  BB75a160e62 -> BB75a160e6b [color="blue"];
+  BB75a160e6b -> BB75a160e8f [color="green"];
+  BB75a160e6b -> BB75a160e73 [color="red"];
+  BB75a160e73 -> BB75a160e86 [color="green"];
+  BB75a160e73 -> BB75a160e78 [color="red"];
+  BB75a160e78 -> BB75a160e6b [color="green"];
+  BB75a160e78 -> BB75a160e7d [color="red"];
+  BB75a160e7d -> BB75a160e81 [color="blue"];
+  BB75a160e86 -> BB75a160e6b [color="green"];
+  BB75a160e86 -> BB75a160e8b [color="red"];
+  BB75a160e8b -> BB75a160e6b [color="blue"];
+  BB75a160e8f -> BB75a160e81 [color="blue"];
+}

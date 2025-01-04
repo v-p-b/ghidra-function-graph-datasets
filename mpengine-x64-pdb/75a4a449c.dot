@@ -1,0 +1,15 @@
+digraph AsyncScanResource {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4a449c -> BB75a4a44ca [color="green"];
+  BB75a4a449c -> BB75a4a44b1 [color="red"];
+  BB75a4a44b1 -> BB75a4a44be [color="red"];
+  BB75a4a44be -> BB75a4a44d5 [color="green"];
+  BB75a4a44be -> BB75a4a44c2 [color="red"];
+  BB75a4a44ca -> BB75a4a44be [color="blue"];
+  BB75a4a44d5 -> BB75a4a44c2 [color="green"];
+  BB75a4a44d5 -> BB75a4a44e8 [color="red"];
+  BB75a4a44e8 -> BB75a4a44c2 [color="green"];
+  BB75a4a44e8 -> BB75a4a44ee [color="red"];
+  BB75a4a44ee -> BB75a4a44c2 [color="blue"];
+}

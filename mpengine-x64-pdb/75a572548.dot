@@ -1,0 +1,19 @@
+digraph ~ValidateTrustPluginMsi {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a572548 -> BB75a572601 [color="green"];
+  BB75a572548 -> BB75a57256b [color="red"];
+  BB75a57256b -> BB75a57258c [color="green"];
+  BB75a57256b -> BB75a572587 [color="red"];
+  BB75a572587 -> BB75a57258c [color="red"];
+  BB75a57258c -> BB75a5725d6 [color="green"];
+  BB75a57258c -> BB75a572598 [color="red"];
+  BB75a572598 -> BB75a5725d6 [color="red"];
+  BB75a5725d6 -> BB75a5725e8 [color="green"];
+  BB75a5725d6 -> BB75a5725e2 [color="red"];
+  BB75a5725e2 -> BB75a5725e8 [color="red"];
+  BB75a5725e8 -> BB75a572613 [color="green"];
+  BB75a5725e8 -> BB75a5725f4 [color="red"];
+  BB75a572601 -> BB75a57256b [color="blue"];
+  BB75a572613 -> BB75a5725f4 [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph CThreatLifeCycle {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab42290 -> BB75ab42306 [color="green"];
+  BB75ab42290 -> BB75ab422e9 [color="red"];
+  BB75ab422e9 -> BB75ab4234b [color="blue"];
+  BB75ab42306 -> BB75ab4237f [color="green"];
+  BB75ab42306 -> BB75ab42327 [color="red"];
+  BB75ab42327 -> BB75ab4234b [color="red"];
+}

@@ -1,0 +1,24 @@
+digraph NTDLL_DLL_NtSetEventWorker {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a614280 -> BB75a6143a2 [color="green"];
+  BB75a614280 -> BB75a6142b3 [color="red"];
+  BB75a6142b3 -> BB75a6143a2 [color="green"];
+  BB75a6142b3 -> BB75a6142c1 [color="red"];
+  BB75a6142c1 -> BB75a61435b [color="green"];
+  BB75a6142c1 -> BB75a614316 [color="red"];
+  BB75a614316 -> BB75a614335 [color="green"];
+  BB75a614316 -> BB75a614329 [color="red"];
+  BB75a614329 -> BB75a614335 [color="blue"];
+  BB75a614335 -> BB75a614338 [color="blue"];
+  BB75a61435b -> BB75a6143b0 [color="green"];
+  BB75a61435b -> BB75a614365 [color="red"];
+  BB75a614365 -> BB75a61439d [color="green"];
+  BB75a614365 -> BB75a614391 [color="red"];
+  BB75a614391 -> BB75a61439d [color="blue"];
+  BB75a61439d -> BB75a614338 [color="blue"];
+  BB75a6143a2 -> BB75a614338 [color="blue"];
+  BB75a6143b0 -> BB75a614365 [color="green"];
+  BB75a6143b0 -> BB75a6143d9 [color="red"];
+  BB75a6143d9 -> BB75a614338 [color="blue"];
+}

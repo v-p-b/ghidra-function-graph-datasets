@@ -1,0 +1,17 @@
+digraph pe_fofs_to_mofs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a597ba8 -> BB75a597bca [color="blue"];
+  BB75a597bca -> BB75a597c19 [color="green"];
+  BB75a597bca -> BB75a597bd6 [color="red"];
+  BB75a597bd6 -> BB75a597be4 [color="green"];
+  BB75a597bd6 -> BB75a597bdf [color="red"];
+  BB75a597bdf -> BB75a597be4 [color="red"];
+  BB75a597be4 -> BB75a597bfe [color="green"];
+  BB75a597be4 -> BB75a597bed [color="red"];
+  BB75a597bed -> BB75a597c07 [color="green"];
+  BB75a597bed -> BB75a597bfe [color="red"];
+  BB75a597bfe -> BB75a597bca [color="blue"];
+  BB75a597c07 -> BB75a597c1c [color="blue"];
+  BB75a597c19 -> BB75a597c1c [color="blue"];
+}

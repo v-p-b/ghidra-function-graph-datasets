@@ -1,0 +1,10 @@
+digraph CleanupSmallObjectCache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a719bfc -> BB75a719c24 [color="green"];
+  BB75a719bfc -> BB75a719c0c [color="red"];
+  BB75a719c0c -> BB75a719c24 [color="red"];
+  BB75a719c24 -> BB75a719c3d [color="green"];
+  BB75a719c24 -> BB75a719c30 [color="red"];
+  BB75a719c30 -> BB75a719c3d [color="red"];
+}

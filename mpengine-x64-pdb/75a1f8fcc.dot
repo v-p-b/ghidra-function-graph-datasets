@@ -1,0 +1,13 @@
+digraph luaL_addlstring {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1f8fcc -> BB75a1f9023 [color="green"];
+  BB75a1f8fcc -> BB75a1f8fd1 [color="red"];
+  BB75a1f8fd1 -> BB75a1f8ff5 [color="blue"];
+  BB75a1f8ff5 -> BB75a1f9024 [color="green"];
+  BB75a1f8ff5 -> BB75a1f8ffd [color="red"];
+  BB75a1f8ffd -> BB75a1f8ff5 [color="green"];
+  BB75a1f8ffd -> BB75a1f900f [color="red"];
+  BB75a1f900f -> BB75a1f9023 [color="blue"];
+  BB75a1f9024 -> BB75a1f8ffd [color="blue"];
+}

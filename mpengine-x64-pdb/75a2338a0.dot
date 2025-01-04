@@ -1,0 +1,12 @@
+digraph alloc_xptr {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2338a0 -> BB75a23391d [color="green"];
+  BB75a2338a0 -> BB75a2338c8 [color="red"];
+  BB75a2338c8 -> BB75a233908 [color="green"];
+  BB75a2338c8 -> BB75a2338e0 [color="red"];
+  BB75a233908 -> BB75a2338e0 [color="green"];
+  BB75a233908 -> BB75a233914 [color="red"];
+  BB75a233914 -> BB75a2338e0 [color="blue"];
+  BB75a23391d -> BB75a2338c8 [color="blue"];
+}

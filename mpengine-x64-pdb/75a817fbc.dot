@@ -1,0 +1,16 @@
+digraph WPP_SF_LISSL {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a817fbc -> BB75a81800e [color="green"];
+  BB75a817fbc -> BB75a817ff7 [color="red"];
+  BB75a817ff7 -> BB75a817ffa [color="blue"];
+  BB75a817ffa -> BB75a817ffa [color="green"];
+  BB75a817ffa -> BB75a818004 [color="red"];
+  BB75a818004 -> BB75a818011 [color="blue"];
+  BB75a81800e -> BB75a818011 [color="blue"];
+  BB75a818011 -> BB75a818039 [color="green"];
+  BB75a818011 -> BB75a818024 [color="red"];
+  BB75a818024 -> BB75a818024 [color="green"];
+  BB75a818024 -> BB75a81802e [color="red"];
+  BB75a81802e -> BB75a818039 [color="blue"];
+}

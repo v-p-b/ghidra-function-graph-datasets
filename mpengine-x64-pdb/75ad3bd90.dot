@@ -1,0 +1,20 @@
+digraph create_staging_buffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad3bd90 -> BB75ad3bdd6 [color="green"];
+  BB75ad3bd90 -> BB75ad3bdca [color="red"];
+  BB75ad3bdca -> BB75ad3be6c [color="blue"];
+  BB75ad3bdd6 -> BB75ad3be25 [color="green"];
+  BB75ad3bdd6 -> BB75ad3bdef [color="red"];
+  BB75ad3bdef -> BB75ad3be1d [color="green"];
+  BB75ad3bdef -> BB75ad3be19 [color="red"];
+  BB75ad3be19 -> BB75ad3be91 [color="blue"];
+  BB75ad3be1d -> BB75ad3be25 [color="red"];
+  BB75ad3be25 -> BB75ad3be91 [color="green"];
+  BB75ad3be25 -> BB75ad3be5f [color="red"];
+  BB75ad3be5f -> BB75ad3be8f [color="green"];
+  BB75ad3be5f -> BB75ad3be65 [color="red"];
+  BB75ad3be65 -> BB75ad3be6c [color="blue"];
+  BB75ad3be6c -> BB75ad3be8f [color="red"];
+  BB75ad3be8f -> BB75ad3be91 [color="blue"];
+}

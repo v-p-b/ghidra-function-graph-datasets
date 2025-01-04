@@ -1,0 +1,17 @@
+digraph latent_sig_only {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a36d00c -> BB75a36d069 [color="green"];
+  BB75a36d00c -> BB75a36d034 [color="red"];
+  BB75a36d034 -> BB75a36d069 [color="green"];
+  BB75a36d034 -> BB75a36d03f [color="red"];
+  BB75a36d03f -> BB75a36d069 [color="red"];
+  BB75a36d069 -> BB75a36d06f [color="blue"];
+  BB75a36d06f -> BB75a36d096 [color="green"];
+  BB75a36d06f -> BB75a36d074 [color="red"];
+  BB75a36d074 -> BB75a36d09a [color="green"];
+  BB75a36d074 -> BB75a36d087 [color="red"];
+  BB75a36d087 -> BB75a36d089 [color="blue"];
+  BB75a36d096 -> BB75a36d089 [color="blue"];
+  BB75a36d09a -> BB75a36d06f [color="blue"];
+}

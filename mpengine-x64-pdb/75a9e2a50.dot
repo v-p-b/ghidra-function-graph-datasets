@@ -1,0 +1,16 @@
+digraph get_osal_callback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9e2a50 -> BB75a9e2a91 [color="red"];
+  BB75a9e2a91 -> BB75a9e2aaf [color="green"];
+  BB75a9e2a91 -> BB75a9e2aac [color="red"];
+  BB75a9e2aac -> BB75a9e2aaf [color="blue"];
+  BB75a9e2aaf -> BB75a9e2aca [color="green"];
+  BB75a9e2aaf -> BB75a9e2ac1 [color="red"];
+  BB75a9e2ac1 -> BB75a9e2a91 [color="green"];
+  BB75a9e2ac1 -> BB75a9e2aca [color="red"];
+  BB75a9e2aca -> BB75a9e2adf [color="green"];
+  BB75a9e2aca -> BB75a9e2ad9 [color="red"];
+  BB75a9e2ad9 -> BB75a9e2ae1 [color="blue"];
+  BB75a9e2adf -> BB75a9e2ae1 [color="blue"];
+}

@@ -1,0 +1,27 @@
+digraph emulate_CPUID {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a59c988 -> BB75a59ca33 [color="green"];
+  BB75a59c988 -> BB75a59c9be [color="red"];
+  BB75a59c9be -> BB75a59c9e5 [color="blue"];
+  BB75a59c9e5 -> BB75a59ca6f [color="green"];
+  BB75a59c9e5 -> BB75a59c9f6 [color="red"];
+  BB75a59c9f6 -> BB75a59ca13 [color="blue"];
+  BB75a59ca33 -> BB75a59ca8e [color="green"];
+  BB75a59ca33 -> BB75a59ca38 [color="red"];
+  BB75a59ca38 -> BB75a59cab5 [color="green"];
+  BB75a59ca38 -> BB75a59ca3d [color="red"];
+  BB75a59ca3d -> BB75a59cad3 [color="green"];
+  BB75a59ca3d -> BB75a59ca49 [color="red"];
+  BB75a59ca49 -> BB75a59cac8 [color="green"];
+  BB75a59ca49 -> BB75a59ca51 [color="red"];
+  BB75a59ca51 -> BB75a59cabd [color="green"];
+  BB75a59ca51 -> BB75a59ca59 [color="red"];
+  BB75a59ca59 -> BB75a59c9be [color="blue"];
+  BB75a59ca6f -> BB75a59ca13 [color="blue"];
+  BB75a59ca8e -> BB75a59c9e5 [color="blue"];
+  BB75a59cab5 -> BB75a59c9be [color="blue"];
+  BB75a59cabd -> BB75a59c9be [color="blue"];
+  BB75a59cac8 -> BB75a59c9be [color="blue"];
+  BB75a59cad3 -> BB75a59c9be [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph _Get_temporary_buffer<struct_staticrec_t> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa13f3c -> BB75aa13f77 [color="green"];
+  BB75aa13f3c -> BB75aa13f5b [color="red"];
+  BB75aa13f5b -> BB75aa13f77 [color="green"];
+  BB75aa13f5b -> BB75aa13f60 [color="red"];
+  BB75aa13f60 -> BB75aa13f8e [color="green"];
+  BB75aa13f60 -> BB75aa13f72 [color="red"];
+  BB75aa13f72 -> BB75aa13f60 [color="green"];
+  BB75aa13f72 -> BB75aa13f77 [color="red"];
+  BB75aa13f77 -> BB75aa13f80 [color="blue"];
+  BB75aa13f8e -> BB75aa13f80 [color="blue"];
+}

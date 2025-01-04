@@ -1,0 +1,12 @@
+digraph armadillo_ismine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a769cc0 -> BB75a769ce3 [color="green"];
+  BB75a769cc0 -> BB75a769cdb [color="red"];
+  BB75a769cdb -> BB75a769cfb [color="green"];
+  BB75a769cdb -> BB75a769ce3 [color="red"];
+  BB75a769ce3 -> BB75a769cfb [color="green"];
+  BB75a769ce3 -> BB75a769cf0 [color="red"];
+  BB75a769cf0 -> BB75a769cfd [color="blue"];
+  BB75a769cfb -> BB75a769cfd [color="blue"];
+}

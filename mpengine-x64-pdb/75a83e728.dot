@@ -1,0 +1,13 @@
+digraph ~TriggerScanWorker {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a83e728 -> BB75a83e73f [color="green"];
+  BB75a83e728 -> BB75a83e73a [color="red"];
+  BB75a83e73a -> BB75a83e73f [color="red"];
+  BB75a83e73f -> BB75a83e74d [color="green"];
+  BB75a83e73f -> BB75a83e748 [color="red"];
+  BB75a83e748 -> BB75a83e74d [color="red"];
+  BB75a83e74d -> BB75a83e75b [color="green"];
+  BB75a83e74d -> BB75a83e756 [color="red"];
+  BB75a83e756 -> BB75a83e75b [color="red"];
+}

@@ -1,0 +1,24 @@
+digraph _process_all_telemetry_data {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8f7b9c -> BB75a8f7e46 [color="green"];
+  BB75a8f7b9c -> BB75a8f7cfe [color="red"];
+  BB75a8f7cfe -> BB75a8f7e46 [color="green"];
+  BB75a8f7cfe -> BB75a8f7d08 [color="red"];
+  BB75a8f7d08 -> BB75a8f7df0 [color="green"];
+  BB75a8f7d08 -> BB75a8f7d60 [color="red"];
+  BB75a8f7d60 -> BB75a8f7df0 [color="green"];
+  BB75a8f7d60 -> BB75a8f7dca [color="red"];
+  BB75a8f7dca -> BB75a8f7df0 [color="blue"];
+  BB75a8f7df0 -> BB75a8f7e46 [color="red"];
+  BB75a8f7e46 -> BB75a8f801b [color="green"];
+  BB75a8f7e46 -> BB75a8f7e6f [color="red"];
+  BB75a8f7e6f -> BB75a8f801b [color="green"];
+  BB75a8f7e6f -> BB75a8f7e79 [color="red"];
+  BB75a8f7e79 -> BB75a8f7fc5 [color="green"];
+  BB75a8f7e79 -> BB75a8f7f03 [color="red"];
+  BB75a8f7f03 -> BB75a8f7fc5 [color="green"];
+  BB75a8f7f03 -> BB75a8f7f9f [color="red"];
+  BB75a8f7f9f -> BB75a8f7fc5 [color="blue"];
+  BB75a8f7fc5 -> BB75a8f801b [color="red"];
+}

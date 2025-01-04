@@ -1,0 +1,16 @@
+digraph PFAC_AMS_deinit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ace0f00 -> BB75ace0f1c [color="green"];
+  BB75ace0f00 -> BB75ace0f17 [color="red"];
+  BB75ace0f17 -> BB75ace0f69 [color="blue"];
+  BB75ace0f1c -> BB75ace0f64 [color="green"];
+  BB75ace0f1c -> BB75ace0f25 [color="red"];
+  BB75ace0f25 -> BB75ace0f44 [color="green"];
+  BB75ace0f25 -> BB75ace0f2b [color="red"];
+  BB75ace0f2b -> BB75ace0f64 [color="green"];
+  BB75ace0f2b -> BB75ace0f34 [color="red"];
+  BB75ace0f34 -> BB75ace0f44 [color="red"];
+  BB75ace0f44 -> BB75ace0f69 [color="blue"];
+  BB75ace0f64 -> BB75ace0f69 [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph InsertZeroInterval {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4231b0 -> BB75a423201 [color="green"];
+  BB75a4231b0 -> BB75a4231fb [color="red"];
+  BB75a4231fb -> BB75a423201 [color="red"];
+  BB75a423201 -> BB75a423271 [color="green"];
+  BB75a423201 -> BB75a42326c [color="red"];
+  BB75a42326c -> BB75a423271 [color="red"];
+  BB75a423271 -> BB75a42329d [color="green"];
+  BB75a423271 -> BB75a423286 [color="red"];
+  BB75a423286 -> BB75a423288 [color="blue"];
+  BB75a42329d -> BB75a423288 [color="blue"];
+}

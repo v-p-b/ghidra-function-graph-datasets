@@ -1,0 +1,11 @@
+digraph auto_commit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9d1da8 -> BB75a9d1db8 [color="green"];
+  BB75a9d1da8 -> BB75a9d1db4 [color="red"];
+  BB75a9d1db4 -> BB75a9d1dda [color="blue"];
+  BB75a9d1db8 -> BB75a9d1dd8 [color="green"];
+  BB75a9d1db8 -> BB75a9d1dcd [color="red"];
+  BB75a9d1dcd -> BB75a9d1dd8 [color="red"];
+  BB75a9d1dd8 -> BB75a9d1dda [color="blue"];
+}

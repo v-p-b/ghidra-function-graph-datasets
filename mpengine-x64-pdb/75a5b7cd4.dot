@@ -1,0 +1,18 @@
+digraph IsCurrentFileOplocked {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5b7cd4 -> BB75a5b7d27 [color="green"];
+  BB75a5b7cd4 -> BB75a5b7cf3 [color="red"];
+  BB75a5b7cf3 -> BB75a5b7d4f [color="green"];
+  BB75a5b7cf3 -> BB75a5b7d1d [color="red"];
+  BB75a5b7d1d -> BB75a5b7d27 [color="red"];
+  BB75a5b7d27 -> BB75a5b7d44 [color="blue"];
+  BB75a5b7d2b -> BB75a5b7d33 [color="red"];
+  BB75a5b7d33 -> BB75a5b7d42 [color="green"];
+  BB75a5b7d33 -> BB75a5b7d3d [color="red"];
+  BB75a5b7d3d -> BB75a5b7d42 [color="red"];
+  BB75a5b7d42 -> BB75a5b7d44 [color="blue"];
+  BB75a5b7d4f -> BB75a5b7d2b [color="green"];
+  BB75a5b7d4f -> BB75a5b7d58 [color="red"];
+  BB75a5b7d58 -> BB75a5b7d33 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph sqlite3PagerWrite {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a461748 -> BB75a461775 [color="green"];
+  BB75a461748 -> BB75a461756 [color="red"];
+  BB75a461756 -> BB75a461770 [color="green"];
+  BB75a461756 -> BB75a46175d [color="red"];
+  BB75a46175d -> BB75a461796 [color="green"];
+  BB75a46175d -> BB75a46176b [color="red"];
+  BB75a46176b -> BB75a461770 [color="red"];
+  BB75a461775 -> BB75a461756 [color="green"];
+  BB75a461775 -> BB75a46177d [color="red"];
+  BB75a46177d -> BB75a46178d [color="green"];
+  BB75a46177d -> BB75a461786 [color="red"];
+}

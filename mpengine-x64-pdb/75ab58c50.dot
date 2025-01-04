@@ -1,0 +1,21 @@
+digraph statPush {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab58c50 -> BB75ab58c9b [color="green"];
+  BB75ab58c50 -> BB75ab58c7e [color="red"];
+  BB75ab58c7e -> BB75ab58cde [color="green"];
+  BB75ab58c7e -> BB75ab58c83 [color="red"];
+  BB75ab58c83 -> BB75ab58c85 [color="blue"];
+  BB75ab58c85 -> BB75ab58c85 [color="green"];
+  BB75ab58c85 -> BB75ab58c99 [color="red"];
+  BB75ab58c99 -> BB75ab58cde [color="blue"];
+  BB75ab58c9b -> BB75ab58cb3 [color="green"];
+  BB75ab58c9b -> BB75ab58ca3 [color="red"];
+  BB75ab58ca3 -> BB75ab58ca3 [color="green"];
+  BB75ab58ca3 -> BB75ab58cb3 [color="red"];
+  BB75ab58cb3 -> BB75ab58cde [color="green"];
+  BB75ab58cb3 -> BB75ab58cb9 [color="red"];
+  BB75ab58cb9 -> BB75ab58cc1 [color="blue"];
+  BB75ab58cc1 -> BB75ab58cc1 [color="green"];
+  BB75ab58cc1 -> BB75ab58cde [color="red"];
+}

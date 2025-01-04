@@ -1,0 +1,20 @@
+digraph decrement {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a942a88 -> BB75a942aad [color="green"];
+  BB75a942a88 -> BB75a942a94 [color="red"];
+  BB75a942a94 -> BB75a942aad [color="green"];
+  BB75a942a94 -> BB75a942aa7 [color="red"];
+  BB75a942aa7 -> BB75a942ae7 [color="blue"];
+  BB75a942aad -> BB75a942aca [color="green"];
+  BB75a942aad -> BB75a942ab6 [color="red"];
+  BB75a942ab6 -> BB75a942ac3 [color="blue"];
+  BB75a942abc -> BB75a942ac3 [color="blue"];
+  BB75a942ac3 -> BB75a942abc [color="green"];
+  BB75a942ac3 -> BB75a942ac8 [color="red"];
+  BB75a942ac8 -> BB75a942ae7 [color="blue"];
+  BB75a942aca -> BB75a942ae7 [color="green"];
+  BB75a942aca -> BB75a942ad7 [color="red"];
+  BB75a942ad7 -> BB75a942ad7 [color="green"];
+  BB75a942ad7 -> BB75a942ae7 [color="red"];
+}

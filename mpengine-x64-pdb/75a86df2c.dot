@@ -1,0 +1,11 @@
+digraph RemoveBmDetection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a86df2c -> BB75a86df51 [color="green"];
+  BB75a86df2c -> BB75a86df46 [color="red"];
+  BB75a86df46 -> BB75a86df69 [color="blue"];
+  BB75a86df51 -> BB75a86df69 [color="red"];
+  BB75a86df69 -> BB75a86df90 [color="green"];
+  BB75a86df69 -> BB75a86df7f [color="red"];
+  BB75a86df7f -> BB75a86df90 [color="red"];
+}

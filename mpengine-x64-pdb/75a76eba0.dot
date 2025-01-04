@@ -1,0 +1,11 @@
+digraph GetBestInterfaceEx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a76eba0 -> BB75a76ebde [color="green"];
+  BB75a76eba0 -> BB75a76ebbc [color="red"];
+  BB75a76ebbc -> BB75a76ebd7 [color="green"];
+  BB75a76ebbc -> BB75a76ebc8 [color="red"];
+  BB75a76ebc8 -> BB75a76ebe9 [color="blue"];
+  BB75a76ebd7 -> BB75a76ebde [color="blue"];
+  BB75a76ebde -> BB75a76ebe9 [color="red"];
+}

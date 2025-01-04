@@ -1,0 +1,10 @@
+digraph CSE_Write {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa414dc -> BB75aa41508 [color="green"];
+  BB75aa414dc -> BB75aa414ed [color="red"];
+  BB75aa414ed -> BB75aa41508 [color="green"];
+  BB75aa414ed -> BB75aa41502 [color="red"];
+  BB75aa41502 -> BB75aa4150c [color="blue"];
+  BB75aa41508 -> BB75aa4150c [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph SmallObjCheckCache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5d6aa4 -> BB75a5d6b0d [color="green"];
+  BB75a5d6aa4 -> BB75a5d6abf [color="red"];
+  BB75a5d6abf -> BB75a5d6b03 [color="green"];
+  BB75a5d6abf -> BB75a5d6adf [color="red"];
+  BB75a5d6adf -> BB75a5d6ae5 [color="blue"];
+  BB75a5d6b03 -> BB75a5d6ae5 [color="blue"];
+  BB75a5d6b0d -> BB75a5d6abf [color="blue"];
+}

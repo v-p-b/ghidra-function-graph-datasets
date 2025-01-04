@@ -1,0 +1,10 @@
+digraph GetUpgradeQuery {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab6e6fc -> BB75ab6e713 [color="green"];
+  BB75ab6e6fc -> BB75ab6e702 [color="red"];
+  BB75ab6e702 -> BB75ab6e713 [color="green"];
+  BB75ab6e702 -> BB75ab6e708 [color="red"];
+  BB75ab6e708 -> BB75ab6e725 [color="blue"];
+  BB75ab6e713 -> BB75ab6e725 [color="blue"];
+}

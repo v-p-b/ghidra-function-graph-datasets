@@ -1,0 +1,21 @@
+digraph MakeNtRegPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acdb74c -> BB75acdb7fd [color="green"];
+  BB75acdb74c -> BB75acdb77a [color="red"];
+  BB75acdb77a -> BB75acdb782 [color="blue"];
+  BB75acdb782 -> BB75acdb782 [color="green"];
+  BB75acdb782 -> BB75acdb78b [color="red"];
+  BB75acdb78b -> BB75acdb7fd [color="green"];
+  BB75acdb78b -> BB75acdb7a3 [color="red"];
+  BB75acdb7a3 -> BB75acdb814 [color="green"];
+  BB75acdb7a3 -> BB75acdb7c4 [color="red"];
+  BB75acdb7c4 -> BB75acdb7f5 [color="green"];
+  BB75acdb7c4 -> BB75acdb7d7 [color="red"];
+  BB75acdb7d7 -> BB75acdb7f5 [color="green"];
+  BB75acdb7d7 -> BB75acdb7dd [color="red"];
+  BB75acdb7dd -> BB75acdb7f5 [color="red"];
+  BB75acdb7f5 -> BB75acdb7fd [color="red"];
+  BB75acdb7fd -> BB75acdb7ff [color="blue"];
+  BB75acdb814 -> BB75acdb7ff [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph pfnGetRegValType {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab75b90 -> BB75ab75bc9 [color="green"];
+  BB75ab75b90 -> BB75ab75bb2 [color="red"];
+  BB75ab75bb2 -> BB75ab75bc9 [color="green"];
+  BB75ab75bb2 -> BB75ab75bbe [color="red"];
+  BB75ab75bbe -> BB75ab75bd5 [color="blue"];
+  BB75ab75bc9 -> BB75ab75bd5 [color="blue"];
+}

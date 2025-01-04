@@ -1,0 +1,14 @@
+digraph MpDisableNetworkProtection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8a0580 -> BB75a8a05a1 [color="green"];
+  BB75a8a0580 -> BB75a8a0594 [color="red"];
+  BB75a8a0594 -> BB75a8a05a1 [color="green"];
+  BB75a8a0594 -> BB75a8a059d [color="red"];
+  BB75a8a059d -> BB75a8a05cf [color="blue"];
+  BB75a8a05a1 -> BB75a8a05cf [color="green"];
+  BB75a8a05a1 -> BB75a8a05b4 [color="red"];
+  BB75a8a05b4 -> BB75a8a05cf [color="green"];
+  BB75a8a05b4 -> BB75a8a05ba [color="red"];
+  BB75a8a05ba -> BB75a8a05cf [color="red"];
+}

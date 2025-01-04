@@ -1,0 +1,11 @@
+digraph SandboxPathToWin32 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a680598 -> BB75a68060b [color="green"];
+  BB75a680598 -> BB75a6805e0 [color="red"];
+  BB75a6805e0 -> BB75a6805f7 [color="green"];
+  BB75a6805e0 -> BB75a6805e6 [color="red"];
+  BB75a6805e6 -> BB75a6805f7 [color="red"];
+  BB75a6805f7 -> BB75a680605 [color="red"];
+  BB75a68060b -> BB75a680605 [color="blue"];
+}

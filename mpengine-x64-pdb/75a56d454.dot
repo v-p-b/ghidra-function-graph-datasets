@@ -1,0 +1,24 @@
+digraph walMergesort {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a56d454 -> BB75a56d530 [color="green"];
+  BB75a56d454 -> BB75a56d4ba [color="red"];
+  BB75a56d4ba -> BB75a56d4bf [color="blue"];
+  BB75a56d4bf -> BB75a56d512 [color="green"];
+  BB75a56d4bf -> BB75a56d4d7 [color="red"];
+  BB75a56d4d7 -> BB75a56d4d7 [color="green"];
+  BB75a56d4d7 -> BB75a56d509 [color="red"];
+  BB75a56d509 -> BB75a56d512 [color="blue"];
+  BB75a56d512 -> BB75a56d4bf [color="green"];
+  BB75a56d512 -> BB75a56d52b [color="red"];
+  BB75a56d52b -> BB75a56d530 [color="blue"];
+  BB75a56d530 -> BB75a56d587 [color="green"];
+  BB75a56d530 -> BB75a56d537 [color="red"];
+  BB75a56d537 -> BB75a56d54a [color="blue"];
+  BB75a56d54a -> BB75a56d573 [color="green"];
+  BB75a56d54a -> BB75a56d550 [color="red"];
+  BB75a56d550 -> BB75a56d573 [color="red"];
+  BB75a56d573 -> BB75a56d54a [color="green"];
+  BB75a56d573 -> BB75a56d57e [color="red"];
+  BB75a56d57e -> BB75a56d587 [color="blue"];
+}

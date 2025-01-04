@@ -1,0 +1,12 @@
+digraph write_IO_port {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a65fee0 -> BB75a65ff04 [color="green"];
+  BB75a65fee0 -> BB75a65fefc [color="red"];
+  BB75a65fefc -> BB75a65fefe [color="blue"];
+  BB75a65ff04 -> BB75a65ff7a [color="green"];
+  BB75a65ff04 -> BB75a65ff1b [color="red"];
+  BB75a65ff1b -> BB75a65ff73 [color="red"];
+  BB75a65ff73 -> BB75a65fefe [color="blue"];
+  BB75a65ff7a -> BB75a65ff73 [color="blue"];
+}

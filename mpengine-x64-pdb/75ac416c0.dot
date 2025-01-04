@@ -1,0 +1,11 @@
+digraph GetBootImage {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac416c0 -> BB75ac416f1 [color="green"];
+  BB75ac416c0 -> BB75ac416ec [color="red"];
+  BB75ac416ec -> BB75ac416f1 [color="red"];
+  BB75ac416f1 -> BB75ac4170e [color="green"];
+  BB75ac416f1 -> BB75ac41704 [color="red"];
+  BB75ac41704 -> BB75ac417a3 [color="blue"];
+  BB75ac4170e -> BB75ac417a3 [color="blue"];
+}

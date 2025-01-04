@@ -1,0 +1,16 @@
+digraph Release {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a157278 -> BB75a15728e [color="green"];
+  BB75a157278 -> BB75a157289 [color="red"];
+  BB75a15728e -> BB75a1572c7 [color="green"];
+  BB75a15728e -> BB75a157293 [color="red"];
+  BB75a157293 -> BB75a1572bd [color="green"];
+  BB75a157293 -> BB75a1572a5 [color="red"];
+  BB75a1572a5 -> BB75a1572cb [color="green"];
+  BB75a1572a5 -> BB75a1572b6 [color="red"];
+  BB75a1572b6 -> BB75a1572c7 [color="blue"];
+  BB75a1572bd -> BB75a1572c7 [color="red"];
+  BB75a1572c7 -> BB75a157289 [color="blue"];
+  BB75a1572cb -> BB75a1572c7 [color="blue"];
+}

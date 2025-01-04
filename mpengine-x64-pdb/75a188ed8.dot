@@ -1,0 +1,24 @@
+digraph isMonitoredPath {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a188ed8 -> BB75a188f9f [color="green"];
+  BB75a188ed8 -> BB75a188f12 [color="red"];
+  BB75a188f12 -> BB75a189002 [color="green"];
+  BB75a188f12 -> BB75a188f1b [color="red"];
+  BB75a188f1b -> BB75a188f3b [color="green"];
+  BB75a188f1b -> BB75a188f2b [color="red"];
+  BB75a188f2b -> BB75a188f2b [color="green"];
+  BB75a188f2b -> BB75a188f3b [color="red"];
+  BB75a188f3b -> BB75a188fbd [color="green"];
+  BB75a188f3b -> BB75a188f65 [color="red"];
+  BB75a188f65 -> BB75a188fa8 [color="green"];
+  BB75a188f65 -> BB75a188f82 [color="red"];
+  BB75a188f82 -> BB75a188f84 [color="blue"];
+  BB75a188f9f -> BB75a188f12 [color="blue"];
+  BB75a188fa8 -> BB75a188f82 [color="blue"];
+  BB75a188fbd -> BB75a188fd3 [color="green"];
+  BB75a188fbd -> BB75a188fc2 [color="red"];
+  BB75a188fc2 -> BB75a188fd3 [color="red"];
+  BB75a188fd3 -> BB75a188f84 [color="blue"];
+  BB75a189002 -> BB75a188f84 [color="blue"];
+}

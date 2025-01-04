@@ -1,0 +1,18 @@
+digraph NTDLL_DLL_VFS_SetCurrentDir {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a68a4f0 -> BB75a68a59f [color="green"];
+  BB75a68a4f0 -> BB75a68a557 [color="red"];
+  BB75a68a557 -> BB75a68a575 [color="green"];
+  BB75a68a557 -> BB75a68a569 [color="red"];
+  BB75a68a569 -> BB75a68a575 [color="blue"];
+  BB75a68a59f -> BB75a68a557 [color="green"];
+  BB75a68a59f -> BB75a68a5a9 [color="red"];
+  BB75a68a5a9 -> BB75a68a61d [color="green"];
+  BB75a68a5a9 -> BB75a68a5c9 [color="red"];
+  BB75a68a5c9 -> BB75a68a60e [color="green"];
+  BB75a68a5c9 -> BB75a68a5f4 [color="red"];
+  BB75a68a5f4 -> BB75a68a60e [color="red"];
+  BB75a68a60e -> BB75a68a557 [color="blue"];
+  BB75a68a61d -> BB75a68a557 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph count_cfi_models {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a946d34 -> BB75a946dc4 [color="green"];
+  BB75a946d34 -> BB75a946d5c [color="red"];
+  BB75a946d5c -> BB75a946dc4 [color="green"];
+  BB75a946d5c -> BB75a946d62 [color="red"];
+  BB75a946d62 -> BB75a946dc4 [color="green"];
+  BB75a946d62 -> BB75a946d68 [color="red"];
+  BB75a946d68 -> BB75a946dc4 [color="red"];
+}

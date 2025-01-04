@@ -1,0 +1,11 @@
+digraph countInverse {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab4e220 -> BB75ab4e254 [color="green"];
+  BB75ab4e220 -> BB75ab4e23d [color="red"];
+  BB75ab4e23d -> BB75ab4e25c [color="green"];
+  BB75ab4e23d -> BB75ab4e254 [color="red"];
+  BB75ab4e254 -> BB75ab4e25c [color="green"];
+  BB75ab4e254 -> BB75ab4e259 [color="red"];
+  BB75ab4e259 -> BB75ab4e25c [color="blue"];
+}

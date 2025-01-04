@@ -1,0 +1,14 @@
+digraph _should_report {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9b5f24 -> BB75a9b5fc7 [color="green"];
+  BB75a9b5f24 -> BB75a9b5f5c [color="red"];
+  BB75a9b5f5c -> BB75a9b5fa8 [color="green"];
+  BB75a9b5f5c -> BB75a9b5f74 [color="red"];
+  BB75a9b5f74 -> BB75a9b5fa1 [color="green"];
+  BB75a9b5f74 -> BB75a9b5f9a [color="red"];
+  BB75a9b5f9a -> BB75a9b5fda [color="blue"];
+  BB75a9b5fa1 -> BB75a9b5fda [color="blue"];
+  BB75a9b5fa8 -> BB75a9b5fda [color="blue"];
+  BB75a9b5fc7 -> BB75a9b5fda [color="red"];
+}

@@ -1,0 +1,14 @@
+digraph GetSectionEnd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa5164c -> BB75aa5167c [color="blue"];
+  BB75aa5167c -> BB75aa516d8 [color="green"];
+  BB75aa5167c -> BB75aa51682 [color="red"];
+  BB75aa51682 -> BB75aa516d8 [color="green"];
+  BB75aa51682 -> BB75aa516aa [color="red"];
+  BB75aa516aa -> BB75aa5167c [color="green"];
+  BB75aa516aa -> BB75aa516cd [color="red"];
+  BB75aa516cd -> BB75aa5167c [color="green"];
+  BB75aa516cd -> BB75aa516d2 [color="red"];
+  BB75aa516d2 -> BB75aa516d8 [color="blue"];
+}

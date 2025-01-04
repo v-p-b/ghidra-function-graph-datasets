@@ -1,0 +1,20 @@
+digraph MergeType {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab800ec -> BB75ab80118 [color="green"];
+  BB75ab800ec -> BB75ab8010e [color="red"];
+  BB75ab8010e -> BB75ab801be [color="blue"];
+  BB75ab80118 -> BB75ab80172 [color="green"];
+  BB75ab80118 -> BB75ab8016d [color="red"];
+  BB75ab8016d -> BB75ab80172 [color="red"];
+  BB75ab80172 -> BB75ab8018b [color="green"];
+  BB75ab80172 -> BB75ab80184 [color="red"];
+  BB75ab80184 -> BB75ab801b2 [color="blue"];
+  BB75ab8018b -> BB75ab801b2 [color="green"];
+  BB75ab8018b -> BB75ab8019a [color="red"];
+  BB75ab8019a -> BB75ab801b0 [color="green"];
+  BB75ab8019a -> BB75ab801a9 [color="red"];
+  BB75ab801a9 -> BB75ab801b2 [color="blue"];
+  BB75ab801b0 -> BB75ab801b2 [color="blue"];
+  BB75ab801b2 -> BB75ab801be [color="red"];
+}

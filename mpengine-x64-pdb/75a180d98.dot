@@ -1,0 +1,16 @@
+digraph SetClientConfig {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a180d98 -> BB75a180db7 [color="green"];
+  BB75a180d98 -> BB75a180dae [color="red"];
+  BB75a180dae -> BB75a180dbe [color="green"];
+  BB75a180dae -> BB75a180db7 [color="red"];
+  BB75a180db7 -> BB75a180dbe [color="blue"];
+  BB75a180dbe -> BB75a180e0f [color="green"];
+  BB75a180dbe -> BB75a180df8 [color="red"];
+  BB75a180df8 -> BB75a180e0f [color="red"];
+  BB75a180e0f -> BB75a180e27 [color="green"];
+  BB75a180e0f -> BB75a180e16 [color="red"];
+  BB75a180e16 -> BB75a180e18 [color="blue"];
+  BB75a180e27 -> BB75a180e18 [color="blue"];
+}

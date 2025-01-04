@@ -1,0 +1,20 @@
+digraph sqlite3TriggersExist {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a29123c -> BB75a291275 [color="green"];
+  BB75a29123c -> BB75a29126d [color="red"];
+  BB75a29126d -> BB75a291275 [color="red"];
+  BB75a291275 -> BB75a2912aa [color="green"];
+  BB75a291275 -> BB75a29127d [color="red"];
+  BB75a29127d -> BB75a2912bd [color="green"];
+  BB75a29127d -> BB75a291287 [color="red"];
+  BB75a2912aa -> BB75a2912c1 [color="green"];
+  BB75a2912aa -> BB75a2912b2 [color="red"];
+  BB75a2912b2 -> BB75a29127d [color="green"];
+  BB75a2912b2 -> BB75a2912bb [color="red"];
+  BB75a2912bb -> BB75a2912aa [color="blue"];
+  BB75a2912bd -> BB75a291287 [color="blue"];
+  BB75a2912c1 -> BB75a2912b2 [color="green"];
+  BB75a2912c1 -> BB75a2912d1 [color="red"];
+  BB75a2912d1 -> BB75a2912b2 [color="blue"];
+}

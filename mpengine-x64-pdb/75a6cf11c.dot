@@ -1,0 +1,18 @@
+digraph fix_latent_threats {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6cf11c -> BB75a6cf192 [color="green"];
+  BB75a6cf11c -> BB75a6cf144 [color="red"];
+  BB75a6cf144 -> BB75a6cf146 [color="blue"];
+  BB75a6cf146 -> BB75a6cf17e [color="green"];
+  BB75a6cf146 -> BB75a6cf155 [color="red"];
+  BB75a6cf155 -> BB75a6cf17e [color="green"];
+  BB75a6cf155 -> BB75a6cf16c [color="red"];
+  BB75a6cf16c -> BB75a6cf185 [color="blue"];
+  BB75a6cf17e -> BB75a6cf185 [color="blue"];
+  BB75a6cf185 -> BB75a6cf146 [color="green"];
+  BB75a6cf185 -> BB75a6cf192 [color="red"];
+  BB75a6cf192 -> BB75a6cf1b5 [color="green"];
+  BB75a6cf192 -> BB75a6cf1a0 [color="red"];
+  BB75a6cf1a0 -> BB75a6cf1b5 [color="red"];
+}

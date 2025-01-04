@@ -1,0 +1,14 @@
+digraph SetConnectionString {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4b7744 -> BB75a4b778e [color="green"];
+  BB75a4b7744 -> BB75a4b7752 [color="red"];
+  BB75a4b7752 -> BB75a4b7777 [color="green"];
+  BB75a4b7752 -> BB75a4b7766 [color="red"];
+  BB75a4b7766 -> BB75a4b7777 [color="red"];
+  BB75a4b7777 -> BB75a4b7786 [color="green"];
+  BB75a4b7777 -> BB75a4b7781 [color="red"];
+  BB75a4b7781 -> BB75a4b7786 [color="red"];
+  BB75a4b7786 -> BB75a4b7788 [color="blue"];
+  BB75a4b778e -> BB75a4b7788 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph GetPackSizeAndPos {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a51f25c -> BB75a51f2d7 [color="green"];
+  BB75a51f25c -> BB75a51f281 [color="red"];
+  BB75a51f281 -> BB75a51f2a1 [color="green"];
+  BB75a51f281 -> BB75a51f28a [color="red"];
+  BB75a51f28a -> BB75a51f28c [color="blue"];
+  BB75a51f2a1 -> BB75a51f28a [color="green"];
+  BB75a51f2a1 -> BB75a51f2af [color="red"];
+  BB75a51f2af -> BB75a51f28a [color="green"];
+  BB75a51f2af -> BB75a51f2b8 [color="red"];
+  BB75a51f2b8 -> BB75a51f28a [color="blue"];
+  BB75a51f2d7 -> BB75a51f28c [color="blue"];
+}

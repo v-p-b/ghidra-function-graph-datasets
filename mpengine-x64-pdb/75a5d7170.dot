@@ -1,0 +1,35 @@
+digraph HandlePropagateNotification {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5d7170 -> BB75a5d71a9 [color="blue"];
+  BB75a5d71a9 -> BB75a5d71c0 [color="green"];
+  BB75a5d71a9 -> BB75a5d71b7 [color="red"];
+  BB75a5d71b7 -> BB75a5d71a9 [color="green"];
+  BB75a5d71b7 -> BB75a5d71c0 [color="red"];
+  BB75a5d71c0 -> BB75a5d7208 [color="green"];
+  BB75a5d71c0 -> BB75a5d71c8 [color="red"];
+  BB75a5d71c8 -> BB75a5d71ea [color="red"];
+  BB75a5d7208 -> BB75a5d721e [color="blue"];
+  BB75a5d721e -> BB75a5d72d5 [color="green"];
+  BB75a5d721e -> BB75a5d7227 [color="red"];
+  BB75a5d7227 -> BB75a5d7237 [color="blue"];
+  BB75a5d7237 -> BB75a5d724d [color="green"];
+  BB75a5d7237 -> BB75a5d7244 [color="red"];
+  BB75a5d7244 -> BB75a5d7237 [color="green"];
+  BB75a5d7244 -> BB75a5d724d [color="red"];
+  BB75a5d724d -> BB75a5d72cc [color="green"];
+  BB75a5d724d -> BB75a5d7251 [color="red"];
+  BB75a5d7251 -> BB75a5d72cc [color="green"];
+  BB75a5d7251 -> BB75a5d7265 [color="red"];
+  BB75a5d7265 -> BB75a5d72cc [color="red"];
+  BB75a5d72cc -> BB75a5d721e [color="blue"];
+  BB75a5d72d5 -> BB75a5d72e6 [color="blue"];
+  BB75a5d72e6 -> BB75a5d72fa [color="green"];
+  BB75a5d72e6 -> BB75a5d72f2 [color="red"];
+  BB75a5d72f2 -> BB75a5d72e6 [color="green"];
+  BB75a5d72f2 -> BB75a5d72fa [color="red"];
+  BB75a5d72fa -> BB75a5d7309 [color="green"];
+  BB75a5d72fa -> BB75a5d72fe [color="red"];
+  BB75a5d72fe -> BB75a5d7309 [color="red"];
+  BB75a5d7309 -> BB75a5d71ea [color="blue"];
+}

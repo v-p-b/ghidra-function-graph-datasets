@@ -1,0 +1,13 @@
+digraph ShouldExcludeDlpAnyFileProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a871cc0 -> BB75a871d02 [color="green"];
+  BB75a871cc0 -> BB75a871cfb [color="red"];
+  BB75a871cfb -> BB75a871d10 [color="blue"];
+  BB75a871d02 -> BB75a871d10 [color="blue"];
+  BB75a871d10 -> BB75a871d31 [color="green"];
+  BB75a871d10 -> BB75a871d1e [color="red"];
+  BB75a871d1e -> BB75a871d31 [color="green"];
+  BB75a871d1e -> BB75a871d23 [color="red"];
+  BB75a871d23 -> BB75a871d31 [color="red"];
+}

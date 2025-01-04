@@ -1,0 +1,13 @@
+digraph CheckInvariants {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2487e4 -> BB75a2487fb [color="green"];
+  BB75a2487e4 -> BB75a2487f6 [color="red"];
+  BB75a2487f6 -> BB75a2487fb [color="red"];
+  BB75a2487fb -> BB75a24882c [color="green"];
+  BB75a2487fb -> BB75a248827 [color="red"];
+  BB75a248827 -> BB75a24882c [color="red"];
+  BB75a24882c -> BB75a248841 [color="green"];
+  BB75a24882c -> BB75a24883c [color="red"];
+  BB75a24883c -> BB75a248841 [color="red"];
+}

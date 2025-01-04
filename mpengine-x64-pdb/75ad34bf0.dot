@@ -1,0 +1,14 @@
+digraph GetRawChunk {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad34bf0 -> BB75ad34c1f [color="green"];
+  BB75ad34bf0 -> BB75ad34c1a [color="red"];
+  BB75ad34c1a -> BB75ad34c1f [color="red"];
+  BB75ad34c1f -> BB75ad34c34 [color="green"];
+  BB75ad34c1f -> BB75ad34c2f [color="red"];
+  BB75ad34c2f -> BB75ad34c34 [color="blue"];
+  BB75ad34c34 -> BB75ad34c4d [color="green"];
+  BB75ad34c34 -> BB75ad34c38 [color="red"];
+  BB75ad34c38 -> BB75ad34c71 [color="blue"];
+  BB75ad34c4d -> BB75ad34c71 [color="blue"];
+}

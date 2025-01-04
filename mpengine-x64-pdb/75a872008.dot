@@ -1,0 +1,18 @@
+digraph TestIsProxyProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a872008 -> BB75a872044 [color="green"];
+  BB75a872008 -> BB75a87203b [color="red"];
+  BB75a87203b -> BB75a87204f [color="blue"];
+  BB75a872044 -> BB75a87204f [color="blue"];
+  BB75a87204f -> BB75a8720ca [color="green"];
+  BB75a87204f -> BB75a87205d [color="red"];
+  BB75a87205d -> BB75a8720a2 [color="green"];
+  BB75a87205d -> BB75a87206f [color="red"];
+  BB75a87206f -> BB75a8720ca [color="green"];
+  BB75a87206f -> BB75a872082 [color="red"];
+  BB75a872082 -> BB75a8720ca [color="green"];
+  BB75a872082 -> BB75a872088 [color="red"];
+  BB75a872088 -> BB75a8720ca [color="blue"];
+  BB75a8720a2 -> BB75a8720ca [color="red"];
+}

@@ -1,0 +1,13 @@
+digraph DssSpynetContext {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a495aa8 -> BB75a495aee [color="green"];
+  BB75a495aa8 -> BB75a495aea [color="red"];
+  BB75a495aea -> BB75a495aee [color="blue"];
+  BB75a495aee -> BB75a495b89 [color="green"];
+  BB75a495aee -> BB75a495b4e [color="red"];
+  BB75a495b4e -> BB75a495b92 [color="green"];
+  BB75a495b4e -> BB75a495b7b [color="red"];
+  BB75a495b89 -> BB75a495b4e [color="blue"];
+  BB75a495b92 -> BB75a495b7b [color="blue"];
+}

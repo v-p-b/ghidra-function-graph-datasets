@@ -1,0 +1,12 @@
+digraph _get_profile_cves_json {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a615830 -> BB75a615af7 [color="green"];
+  BB75a615830 -> BB75a615ae7 [color="red"];
+  BB75a615ae7 -> BB75a615b27 [color="green"];
+  BB75a615ae7 -> BB75a615af7 [color="red"];
+  BB75a615af7 -> BB75a615b27 [color="green"];
+  BB75a615af7 -> BB75a615b11 [color="red"];
+  BB75a615b11 -> BB75a615b27 [color="red"];
+  BB75a615b27 -> BB75a615b4a [color="blue"];
+}

@@ -1,0 +1,23 @@
+digraph FolderHasSubstream {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a51f2dc -> BB75a51f319 [color="green"];
+  BB75a51f2dc -> BB75a51f2fe [color="red"];
+  BB75a51f319 -> BB75a51f2fe [color="green"];
+  BB75a51f319 -> BB75a51f31f [color="red"];
+  BB75a51f31f -> BB75a51f2fe [color="green"];
+  BB75a51f31f -> BB75a51f325 [color="red"];
+  BB75a51f325 -> BB75a51f328 [color="blue"];
+  BB75a51f328 -> BB75a51f2fe [color="green"];
+  BB75a51f328 -> BB75a51f32d [color="red"];
+  BB75a51f32d -> BB75a51f2fe [color="green"];
+  BB75a51f32d -> BB75a51f346 [color="red"];
+  BB75a51f346 -> BB75a51f35b [color="green"];
+  BB75a51f346 -> BB75a51f351 [color="red"];
+  BB75a51f351 -> BB75a51f328 [color="blue"];
+  BB75a51f35b -> BB75a51f2fe [color="green"];
+  BB75a51f35b -> BB75a51f36e [color="red"];
+  BB75a51f36e -> BB75a51f2fe [color="green"];
+  BB75a51f36e -> BB75a51f374 [color="red"];
+  BB75a51f374 -> BB75a51f2fe [color="blue"];
+}

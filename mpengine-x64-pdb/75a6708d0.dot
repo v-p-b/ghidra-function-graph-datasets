@@ -1,0 +1,18 @@
+digraph push {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6708d0 -> BB75a670920 [color="green"];
+  BB75a6708d0 -> BB75a6708ea [color="red"];
+  BB75a6708ea -> BB75a670920 [color="green"];
+  BB75a6708ea -> BB75a6708ef [color="red"];
+  BB75a6708ef -> BB75a67090d [color="green"];
+  BB75a6708ef -> BB75a6708ff [color="red"];
+  BB75a6708ff -> BB75a67090d [color="red"];
+  BB75a67090d -> BB75a670910 [color="blue"];
+  BB75a670920 -> BB75a67094e [color="green"];
+  BB75a670920 -> BB75a670933 [color="red"];
+  BB75a670933 -> BB75a67094e [color="green"];
+  BB75a670933 -> BB75a670939 [color="red"];
+  BB75a670939 -> BB75a67094e [color="red"];
+  BB75a67094e -> BB75a670910 [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph do_scan_is {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a817850 -> BB75a817898 [color="green"];
+  BB75a817850 -> BB75a817875 [color="red"];
+  BB75a817875 -> BB75a817898 [color="green"];
+  BB75a817875 -> BB75a81788f [color="red"];
+  BB75a81788f -> BB75a817875 [color="green"];
+  BB75a81788f -> BB75a817898 [color="red"];
+}

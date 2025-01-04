@@ -1,0 +1,13 @@
+digraph IsFileInfectorThreat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a702484 -> BB75a7024cb [color="green"];
+  BB75a702484 -> BB75a702496 [color="red"];
+  BB75a702496 -> BB75a7024c7 [color="green"];
+  BB75a702496 -> BB75a7024a9 [color="red"];
+  BB75a7024a9 -> BB75a7024c7 [color="green"];
+  BB75a7024a9 -> BB75a7024af [color="red"];
+  BB75a7024af -> BB75a7024c7 [color="red"];
+  BB75a7024c7 -> BB75a7024d9 [color="blue"];
+  BB75a7024cb -> BB75a7024d9 [color="red"];
+}

@@ -1,0 +1,14 @@
+digraph BmProcessInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a415698 -> BB75a4157a8 [color="green"];
+  BB75a415698 -> BB75a415781 [color="red"];
+  BB75a415781 -> BB75a4157a8 [color="green"];
+  BB75a415781 -> BB75a4157a3 [color="red"];
+  BB75a4157a3 -> BB75a4157a8 [color="red"];
+  BB75a4157a8 -> BB75a4157d7 [color="green"];
+  BB75a4157a8 -> BB75a4157b2 [color="red"];
+  BB75a4157b2 -> BB75a4157d7 [color="green"];
+  BB75a4157b2 -> BB75a4157d2 [color="red"];
+  BB75a4157d2 -> BB75a4157d7 [color="red"];
+}

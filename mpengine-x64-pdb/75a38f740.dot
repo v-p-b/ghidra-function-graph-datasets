@@ -1,0 +1,25 @@
+digraph MemScanQueryTokenElevation {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a38f740 -> BB75a38f7b1 [color="green"];
+  BB75a38f740 -> BB75a38f780 [color="red"];
+  BB75a38f780 -> BB75a38f802 [color="green"];
+  BB75a38f780 -> BB75a38f7a4 [color="red"];
+  BB75a38f7a4 -> BB75a38f7a6 [color="blue"];
+  BB75a38f7b1 -> BB75a38f7f1 [color="green"];
+  BB75a38f7b1 -> BB75a38f7cc [color="red"];
+  BB75a38f7cc -> BB75a38f7f1 [color="green"];
+  BB75a38f7cc -> BB75a38f7d2 [color="red"];
+  BB75a38f7d2 -> BB75a38f7de [color="blue"];
+  BB75a38f7d9 -> BB75a38f7de [color="blue"];
+  BB75a38f7de -> BB75a38f7f1 [color="red"];
+  BB75a38f7f1 -> BB75a38f7fe [color="green"];
+  BB75a38f7f1 -> BB75a38f7f5 [color="red"];
+  BB75a38f7f5 -> BB75a38f7fe [color="blue"];
+  BB75a38f7fe -> BB75a38f7a6 [color="blue"];
+  BB75a38f802 -> BB75a38f7f1 [color="green"];
+  BB75a38f802 -> BB75a38f81d [color="red"];
+  BB75a38f81d -> BB75a38f7f1 [color="green"];
+  BB75a38f81d -> BB75a38f823 [color="red"];
+  BB75a38f823 -> BB75a38f7d9 [color="blue"];
+}

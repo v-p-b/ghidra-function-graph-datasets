@@ -1,0 +1,15 @@
+digraph get_object_reuse_rate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a698e10 -> BB75a698e50 [color="green"];
+  BB75a698e10 -> BB75a698e1f [color="red"];
+  BB75a698e1f -> BB75a698e54 [color="green"];
+  BB75a698e1f -> BB75a698e2e [color="red"];
+  BB75a698e2e -> BB75a698e33 [color="blue"];
+  BB75a698e33 -> BB75a698e6b [color="green"];
+  BB75a698e33 -> BB75a698e3b [color="red"];
+  BB75a698e3b -> BB75a698e40 [color="blue"];
+  BB75a698e40 -> BB75a698e50 [color="blue"];
+  BB75a698e54 -> BB75a698e33 [color="blue"];
+  BB75a698e6b -> BB75a698e40 [color="blue"];
+}

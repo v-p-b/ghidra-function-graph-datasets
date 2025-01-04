@@ -1,0 +1,16 @@
+digraph sqlite3CodeVerifyNamedSchema {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab55b18 -> BB75ab55b79 [color="green"];
+  BB75ab55b18 -> BB75ab55b41 [color="red"];
+  BB75ab55b41 -> BB75ab55b43 [color="blue"];
+  BB75ab55b43 -> BB75ab55b6e [color="green"];
+  BB75ab55b43 -> BB75ab55b4f [color="red"];
+  BB75ab55b4f -> BB75ab55b64 [color="green"];
+  BB75ab55b4f -> BB75ab55b54 [color="red"];
+  BB75ab55b54 -> BB75ab55b6e [color="green"];
+  BB75ab55b54 -> BB75ab55b64 [color="red"];
+  BB75ab55b64 -> BB75ab55b6e [color="red"];
+  BB75ab55b6e -> BB75ab55b43 [color="green"];
+  BB75ab55b6e -> BB75ab55b79 [color="red"];
+}

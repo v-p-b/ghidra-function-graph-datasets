@@ -1,0 +1,25 @@
+digraph writeJournalHdr {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a459d78 -> BB75a459ddc [color="green"];
+  BB75a459d78 -> BB75a459db8 [color="red"];
+  BB75a459db8 -> BB75a459dba [color="blue"];
+  BB75a459dba -> BB75a459dce [color="green"];
+  BB75a459dba -> BB75a459dc5 [color="red"];
+  BB75a459dc5 -> BB75a459dce [color="blue"];
+  BB75a459dce -> BB75a459dba [color="green"];
+  BB75a459dce -> BB75a459ddc [color="red"];
+  BB75a459ddc -> BB75a459e11 [color="green"];
+  BB75a459ddc -> BB75a459df2 [color="red"];
+  BB75a459df2 -> BB75a459e11 [color="green"];
+  BB75a459df2 -> BB75a459df8 [color="red"];
+  BB75a459df8 -> BB75a459e11 [color="green"];
+  BB75a459df8 -> BB75a459e07 [color="red"];
+  BB75a459e07 -> BB75a459e1f [color="blue"];
+  BB75a459e11 -> BB75a459e1f [color="blue"];
+  BB75a459e1f -> BB75a459e67 [color="red"];
+  BB75a459e67 -> BB75a459e8f [color="green"];
+  BB75a459e67 -> BB75a459e6f [color="red"];
+  BB75a459e6f -> BB75a459e67 [color="green"];
+  BB75a459e6f -> BB75a459e8f [color="red"];
+}

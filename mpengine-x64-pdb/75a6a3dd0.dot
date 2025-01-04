@@ -1,0 +1,15 @@
+digraph get_allocation_failure_rate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6a3dd0 -> BB75a6a3e01 [color="green"];
+  BB75a6a3dd0 -> BB75a6a3ddf [color="red"];
+  BB75a6a3ddf -> BB75a6a3e02 [color="green"];
+  BB75a6a3ddf -> BB75a6a3deb [color="red"];
+  BB75a6a3deb -> BB75a6a3df0 [color="blue"];
+  BB75a6a3df0 -> BB75a6a3e19 [color="green"];
+  BB75a6a3df0 -> BB75a6a3df8 [color="red"];
+  BB75a6a3df8 -> BB75a6a3dfd [color="blue"];
+  BB75a6a3dfd -> BB75a6a3e01 [color="blue"];
+  BB75a6a3e02 -> BB75a6a3df0 [color="blue"];
+  BB75a6a3e19 -> BB75a6a3dfd [color="blue"];
+}

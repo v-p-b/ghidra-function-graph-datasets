@@ -1,0 +1,12 @@
+digraph AnomalyDetection_init_module {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aba1890 -> BB75aba18d0 [color="green"];
+  BB75aba1890 -> BB75aba189d [color="red"];
+  BB75aba189d -> BB75aba18e1 [color="green"];
+  BB75aba189d -> BB75aba18b0 [color="red"];
+  BB75aba18b0 -> BB75aba18e1 [color="green"];
+  BB75aba18b0 -> BB75aba18b6 [color="red"];
+  BB75aba18b6 -> BB75aba18e1 [color="blue"];
+  BB75aba18d0 -> BB75aba18e1 [color="red"];
+}

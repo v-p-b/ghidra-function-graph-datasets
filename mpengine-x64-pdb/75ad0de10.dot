@@ -1,0 +1,9 @@
+digraph EmuSync {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad0de10 -> BB75ad0de36 [color="green"];
+  BB75ad0de10 -> BB75ad0de2b [color="red"];
+  BB75ad0de2b -> BB75ad0de3a [color="green"];
+  BB75ad0de2b -> BB75ad0de36 [color="red"];
+  BB75ad0de36 -> BB75ad0de3a [color="blue"];
+}

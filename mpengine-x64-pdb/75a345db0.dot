@@ -1,0 +1,31 @@
+digraph KERNEL32_DLL_VirtualProtectEx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a345db0 -> BB75a345f13 [color="green"];
+  BB75a345db0 -> BB75a345e22 [color="red"];
+  BB75a345e22 -> BB75a345e56 [color="green"];
+  BB75a345e22 -> BB75a345e2b [color="red"];
+  BB75a345e2b -> BB75a345f13 [color="green"];
+  BB75a345e2b -> BB75a345e38 [color="red"];
+  BB75a345e38 -> BB75a345f13 [color="green"];
+  BB75a345e38 -> BB75a345e56 [color="red"];
+  BB75a345e56 -> BB75a345f64 [color="green"];
+  BB75a345e56 -> BB75a345e69 [color="red"];
+  BB75a345e69 -> BB75a345f09 [color="green"];
+  BB75a345e69 -> BB75a345e8a [color="red"];
+  BB75a345e8a -> BB75a345ef1 [color="green"];
+  BB75a345e8a -> BB75a345e92 [color="red"];
+  BB75a345e92 -> BB75a345ef1 [color="red"];
+  BB75a345ef1 -> BB75a345f09 [color="green"];
+  BB75a345ef1 -> BB75a345efa [color="red"];
+  BB75a345efa -> BB75a345f09 [color="red"];
+  BB75a345f09 -> BB75a345f13 [color="blue"];
+  BB75a345f13 -> BB75a345f32 [color="green"];
+  BB75a345f13 -> BB75a345f24 [color="red"];
+  BB75a345f24 -> BB75a345f32 [color="blue"];
+  BB75a345f64 -> BB75a345e69 [color="green"];
+  BB75a345f64 -> BB75a345f6d [color="red"];
+  BB75a345f6d -> BB75a345e69 [color="green"];
+  BB75a345f6d -> BB75a345f7f [color="red"];
+  BB75a345f7f -> BB75a345e69 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph lua_mp_readprotection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a56c450 -> BB75a56c48a [color="green"];
+  BB75a56c450 -> BB75a56c45e [color="red"];
+  BB75a56c45e -> BB75a56c48a [color="green"];
+  BB75a56c45e -> BB75a56c46a [color="red"];
+  BB75a56c46a -> BB75a56c48a [color="green"];
+  BB75a56c46a -> BB75a56c470 [color="red"];
+  BB75a56c470 -> BB75a56c478 [color="green"];
+  BB75a56c470 -> BB75a56c476 [color="red"];
+  BB75a56c476 -> BB75a56c478 [color="blue"];
+}

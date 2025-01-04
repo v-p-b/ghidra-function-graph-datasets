@@ -1,0 +1,12 @@
+digraph Attach {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a750100 -> BB75a75020d [color="green"];
+  BB75a750100 -> BB75a75015e [color="red"];
+  BB75a75015e -> BB75a75018a [color="green"];
+  BB75a75015e -> BB75a750180 [color="red"];
+  BB75a750180 -> BB75a75020d [color="blue"];
+  BB75a75018a -> BB75a750180 [color="green"];
+  BB75a75018a -> BB75a75019e [color="red"];
+  BB75a75019e -> BB75a75020d [color="red"];
+}

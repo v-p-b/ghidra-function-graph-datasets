@@ -1,0 +1,19 @@
+digraph pefile_register_breakpoint {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa13540 -> BB75aa135a2 [color="green"];
+  BB75aa13540 -> BB75aa13563 [color="red"];
+  BB75aa13563 -> BB75aa1356a [color="green"];
+  BB75aa13563 -> BB75aa13565 [color="red"];
+  BB75aa13565 -> BB75aa1356a [color="red"];
+  BB75aa1356a -> BB75aa1356c [color="blue"];
+  BB75aa1356c -> BB75aa1359b [color="green"];
+  BB75aa1356c -> BB75aa13574 [color="red"];
+  BB75aa13574 -> BB75aa1358b [color="green"];
+  BB75aa13574 -> BB75aa13587 [color="red"];
+  BB75aa13587 -> BB75aa1356c [color="blue"];
+  BB75aa1358b -> BB75aa135c5 [color="blue"];
+  BB75aa1359b -> BB75aa135c7 [color="blue"];
+  BB75aa135a2 -> BB75aa135c5 [color="blue"];
+  BB75aa135c5 -> BB75aa135c7 [color="blue"];
+}

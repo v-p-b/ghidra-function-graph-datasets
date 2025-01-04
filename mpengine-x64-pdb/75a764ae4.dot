@@ -1,0 +1,11 @@
+digraph ~EngineHealthAlert {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a764ae4 -> BB75a764b31 [color="green"];
+  BB75a764ae4 -> BB75a764b00 [color="red"];
+  BB75a764b00 -> BB75a764b31 [color="green"];
+  BB75a764b00 -> BB75a764b13 [color="red"];
+  BB75a764b13 -> BB75a764b31 [color="green"];
+  BB75a764b13 -> BB75a764b19 [color="red"];
+  BB75a764b19 -> BB75a764b31 [color="red"];
+}

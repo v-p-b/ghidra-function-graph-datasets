@@ -1,0 +1,10 @@
+digraph GetStorageID {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a72ab3c -> BB75a72ab58 [color="green"];
+  BB75a72ab3c -> BB75a72ab4e [color="red"];
+  BB75a72ab4e -> BB75a72ab58 [color="green"];
+  BB75a72ab4e -> BB75a72ab54 [color="red"];
+  BB75a72ab54 -> BB75a72ab79 [color="blue"];
+  BB75a72ab58 -> BB75a72ab79 [color="red"];
+}

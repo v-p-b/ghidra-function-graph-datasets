@@ -1,0 +1,10 @@
+digraph ~DetectionQueue {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a84d250 -> BB75a84d26b [color="green"];
+  BB75a84d250 -> BB75a84d265 [color="red"];
+  BB75a84d265 -> BB75a84d26b [color="red"];
+  BB75a84d26b -> BB75a84d28f [color="green"];
+  BB75a84d26b -> BB75a84d289 [color="red"];
+  BB75a84d289 -> BB75a84d28f [color="red"];
+}

@@ -1,0 +1,13 @@
+digraph BuildTrees {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2681cc -> BB75a2682d4 [color="green"];
+  BB75a2681cc -> BB75a26820c [color="red"];
+  BB75a26820c -> BB75a2682d4 [color="green"];
+  BB75a26820c -> BB75a268244 [color="red"];
+  BB75a268244 -> BB75a2682d4 [color="green"];
+  BB75a268244 -> BB75a268275 [color="red"];
+  BB75a268275 -> BB75a2682d4 [color="green"];
+  BB75a268275 -> BB75a2682a6 [color="red"];
+  BB75a2682a6 -> BB75a2682d4 [color="red"];
+}

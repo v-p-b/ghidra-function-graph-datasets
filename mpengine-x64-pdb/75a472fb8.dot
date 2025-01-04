@@ -1,0 +1,15 @@
+digraph vdll_get_export_va_by_ordinal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a472fb8 -> BB75a472ff0 [color="green"];
+  BB75a472fb8 -> BB75a472fce [color="red"];
+  BB75a472fce -> BB75a472ff0 [color="green"];
+  BB75a472fce -> BB75a472fe6 [color="red"];
+  BB75a472fe6 -> BB75a472fea [color="blue"];
+  BB75a472ff0 -> BB75a47300a [color="green"];
+  BB75a472ff0 -> BB75a473003 [color="red"];
+  BB75a473003 -> BB75a47300e [color="green"];
+  BB75a473003 -> BB75a47300a [color="red"];
+  BB75a47300a -> BB75a472fea [color="blue"];
+  BB75a47300e -> BB75a47300a [color="blue"];
+}

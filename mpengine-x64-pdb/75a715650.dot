@@ -1,0 +1,15 @@
+digraph QueueDetection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a715650 -> BB75a71566c [color="green"];
+  BB75a715650 -> BB75a715667 [color="red"];
+  BB75a715667 -> BB75a71566c [color="red"];
+  BB75a71566c -> BB75a7156aa [color="green"];
+  BB75a71566c -> BB75a715677 [color="red"];
+  BB75a715677 -> BB75a7156b6 [color="green"];
+  BB75a715677 -> BB75a71568a [color="red"];
+  BB75a71568a -> BB75a7156b6 [color="green"];
+  BB75a71568a -> BB75a715690 [color="red"];
+  BB75a715690 -> BB75a7156b6 [color="blue"];
+  BB75a7156aa -> BB75a7156b6 [color="red"];
+}

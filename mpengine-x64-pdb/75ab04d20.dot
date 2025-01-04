@@ -1,0 +1,18 @@
+digraph LsaReadU64 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab04d20 -> BB75ab04d65 [color="green"];
+  BB75ab04d20 -> BB75ab04d57 [color="red"];
+  BB75ab04d57 -> BB75ab04d65 [color="red"];
+  BB75ab04d65 -> BB75ab04d96 [color="green"];
+  BB75ab04d65 -> BB75ab04d73 [color="red"];
+  BB75ab04d73 -> BB75ab04d96 [color="green"];
+  BB75ab04d73 -> BB75ab04d78 [color="red"];
+  BB75ab04d78 -> BB75ab04dcb [color="blue"];
+  BB75ab04d96 -> BB75ab04dc9 [color="green"];
+  BB75ab04d96 -> BB75ab04da9 [color="red"];
+  BB75ab04da9 -> BB75ab04dc9 [color="green"];
+  BB75ab04da9 -> BB75ab04daf [color="red"];
+  BB75ab04daf -> BB75ab04dc9 [color="red"];
+  BB75ab04dc9 -> BB75ab04dcb [color="blue"];
+}

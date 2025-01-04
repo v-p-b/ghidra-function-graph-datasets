@@ -1,0 +1,17 @@
+digraph GetSigSeq {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5db404 -> BB75a5db553 [color="green"];
+  BB75a5db404 -> BB75a5db470 [color="red"];
+  BB75a5db470 -> BB75a5db509 [color="green"];
+  BB75a5db470 -> BB75a5db47d [color="red"];
+  BB75a5db47d -> BB75a5db47d [color="green"];
+  BB75a5db47d -> BB75a5db509 [color="red"];
+  BB75a5db509 -> BB75a5db52c [color="green"];
+  BB75a5db509 -> BB75a5db50e [color="red"];
+  BB75a5db50e -> BB75a5db50e [color="green"];
+  BB75a5db50e -> BB75a5db52c [color="red"];
+  BB75a5db553 -> BB75a5db470 [color="green"];
+  BB75a5db553 -> BB75a5db575 [color="red"];
+  BB75a5db575 -> BB75a5db553 [color="blue"];
+}

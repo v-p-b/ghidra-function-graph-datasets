@@ -1,0 +1,16 @@
+digraph CreateSimpleFilterBE {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad22270 -> BB75ad22399 [color="green"];
+  BB75ad22270 -> BB75ad222e2 [color="red"];
+  BB75ad222e2 -> BB75ad22399 [color="green"];
+  BB75ad222e2 -> BB75ad22324 [color="red"];
+  BB75ad22324 -> BB75ad2236b [color="green"];
+  BB75ad22324 -> BB75ad2232b [color="red"];
+  BB75ad2232b -> BB75ad22399 [color="blue"];
+  BB75ad2236b -> BB75ad22399 [color="green"];
+  BB75ad2236b -> BB75ad2237e [color="red"];
+  BB75ad2237e -> BB75ad22399 [color="green"];
+  BB75ad2237e -> BB75ad22384 [color="red"];
+  BB75ad22384 -> BB75ad22399 [color="red"];
+}

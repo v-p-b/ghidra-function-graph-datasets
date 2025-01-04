@@ -1,0 +1,18 @@
+digraph SetRegkeys {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a736f00 -> BB75a736f52 [color="blue"];
+  BB75a736f28 -> BB75a736f52 [color="red"];
+  BB75a736f52 -> BB75a736f28 [color="green"];
+  BB75a736f52 -> BB75a736f57 [color="red"];
+  BB75a736f57 -> BB75a736f84 [color="green"];
+  BB75a736f57 -> BB75a736f7d [color="red"];
+  BB75a736f7d -> BB75a736fa4 [color="blue"];
+  BB75a736f84 -> BB75a736fa4 [color="red"];
+  BB75a736fa4 -> BB75a736fba [color="green"];
+  BB75a736fa4 -> BB75a736fb1 [color="red"];
+  BB75a736fb1 -> BB75a736fba [color="red"];
+  BB75a736fba -> BB75a736fe2 [color="green"];
+  BB75a736fba -> BB75a736fc3 [color="red"];
+  BB75a736fc3 -> BB75a736fe2 [color="red"];
+}

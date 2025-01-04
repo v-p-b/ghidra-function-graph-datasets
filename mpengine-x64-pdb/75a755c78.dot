@@ -1,0 +1,26 @@
+digraph LogDetection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a755c78 -> BB75a755d30 [color="green"];
+  BB75a755c78 -> BB75a755ca1 [color="red"];
+  BB75a755ca1 -> BB75a755ce9 [color="green"];
+  BB75a755ca1 -> BB75a755cce [color="red"];
+  BB75a755cce -> BB75a755cd7 [color="green"];
+  BB75a755cce -> BB75a755cd2 [color="red"];
+  BB75a755cd2 -> BB75a755ce9 [color="green"];
+  BB75a755cd2 -> BB75a755cd7 [color="red"];
+  BB75a755cd7 -> BB75a755ce4 [color="green"];
+  BB75a755cd7 -> BB75a755cdc [color="red"];
+  BB75a755cdc -> BB75a755ce9 [color="green"];
+  BB75a755cdc -> BB75a755ce4 [color="red"];
+  BB75a755ce4 -> BB75a755cec [color="blue"];
+  BB75a755ce9 -> BB75a755cec [color="blue"];
+  BB75a755cec -> BB75a755d0b [color="green"];
+  BB75a755cec -> BB75a755cf7 [color="red"];
+  BB75a755cf7 -> BB75a755d0b [color="green"];
+  BB75a755cf7 -> BB75a755d06 [color="red"];
+  BB75a755d06 -> BB75a755d0b [color="blue"];
+  BB75a755d0b -> BB75a755d30 [color="green"];
+  BB75a755d0b -> BB75a755d2b [color="red"];
+  BB75a755d2b -> BB75a755d30 [color="red"];
+}

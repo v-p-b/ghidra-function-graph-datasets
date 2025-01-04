@@ -1,0 +1,9 @@
+digraph flush_pending {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a550f7c -> BB75a550fda [color="green"];
+  BB75a550f7c -> BB75a550fad [color="red"];
+  BB75a550fad -> BB75a550fda [color="green"];
+  BB75a550fad -> BB75a550fd2 [color="red"];
+  BB75a550fd2 -> BB75a550fda [color="blue"];
+}

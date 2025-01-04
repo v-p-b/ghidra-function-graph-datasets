@@ -1,0 +1,19 @@
+digraph setup_net_plugin_common {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2435f8 -> BB75a2437a6 [color="green"];
+  BB75a2435f8 -> BB75a243636 [color="red"];
+  BB75a243636 -> BB75a2437a6 [color="green"];
+  BB75a243636 -> BB75a2436a8 [color="red"];
+  BB75a2436a8 -> BB75a243771 [color="green"];
+  BB75a2436a8 -> BB75a24374e [color="red"];
+  BB75a24374e -> BB75a2437ad [color="green"];
+  BB75a24374e -> BB75a243757 [color="red"];
+  BB75a243757 -> BB75a243764 [color="blue"];
+  BB75a243764 -> BB75a243771 [color="green"];
+  BB75a243764 -> BB75a24376d [color="red"];
+  BB75a24376d -> BB75a243771 [color="blue"];
+  BB75a243771 -> BB75a243787 [color="red"];
+  BB75a2437a6 -> BB75a243787 [color="blue"];
+  BB75a2437ad -> BB75a243764 [color="blue"];
+}

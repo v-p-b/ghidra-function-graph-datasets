@@ -1,0 +1,14 @@
+digraph vdbeMergeEngineNew {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5a9c8 -> BB75ab5a9dd [color="green"];
+  BB75ab5a9c8 -> BB75ab5a9d7 [color="red"];
+  BB75ab5a9d7 -> BB75ab5a9d7 [color="green"];
+  BB75ab5a9d7 -> BB75ab5a9dd [color="red"];
+  BB75ab5a9dd -> BB75ab5a9ef [color="green"];
+  BB75ab5a9dd -> BB75ab5a9eb [color="red"];
+  BB75ab5a9eb -> BB75ab5aa23 [color="blue"];
+  BB75ab5a9ef -> BB75ab5aa23 [color="green"];
+  BB75ab5a9ef -> BB75ab5aa02 [color="red"];
+  BB75ab5aa02 -> BB75ab5aa23 [color="blue"];
+}

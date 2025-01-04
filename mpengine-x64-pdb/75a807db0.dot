@@ -1,0 +1,13 @@
+digraph GetCompressionUsingHandle {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a807db0 -> BB75a807dd2 [color="green"];
+  BB75a807db0 -> BB75a807dcd [color="red"];
+  BB75a807dcd -> BB75a807dd2 [color="red"];
+  BB75a807dd2 -> BB75a807ddc [color="green"];
+  BB75a807dd2 -> BB75a807dd7 [color="red"];
+  BB75a807dd7 -> BB75a807ddc [color="red"];
+  BB75a807ddc -> BB75a807e1c [color="green"];
+  BB75a807ddc -> BB75a807e14 [color="red"];
+  BB75a807e14 -> BB75a807e1c [color="red"];
+}

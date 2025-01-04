@@ -1,0 +1,13 @@
+digraph setGetterMethod {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a45cdec -> BB75a45ce07 [color="green"];
+  BB75a45cdec -> BB75a45cdf3 [color="red"];
+  BB75a45cdf3 -> BB75a45ce10 [color="green"];
+  BB75a45cdf3 -> BB75a45cdf8 [color="red"];
+  BB75a45cdf8 -> BB75a45cdff [color="blue"];
+  BB75a45ce07 -> BB75a45cdff [color="blue"];
+  BB75a45ce10 -> BB75a45cdff [color="green"];
+  BB75a45ce10 -> BB75a45ce20 [color="red"];
+  BB75a45ce20 -> BB75a45cdf8 [color="blue"];
+}

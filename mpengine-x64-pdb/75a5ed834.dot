@@ -1,0 +1,16 @@
+digraph vdbeCompareMemString {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5ed834 -> BB75a5ed8a3 [color="green"];
+  BB75a5ed834 -> BB75a5ed865 [color="red"];
+  BB75a5ed865 -> BB75a5ed886 [color="red"];
+  BB75a5ed8a3 -> BB75a5ed953 [color="green"];
+  BB75a5ed8a3 -> BB75a5ed92e [color="red"];
+  BB75a5ed92e -> BB75a5ed953 [color="green"];
+  BB75a5ed92e -> BB75a5ed933 [color="red"];
+  BB75a5ed933 -> BB75a5ed95b [color="blue"];
+  BB75a5ed953 -> BB75a5ed95b [color="green"];
+  BB75a5ed953 -> BB75a5ed958 [color="red"];
+  BB75a5ed958 -> BB75a5ed95b [color="blue"];
+  BB75a5ed95b -> BB75a5ed886 [color="blue"];
+}

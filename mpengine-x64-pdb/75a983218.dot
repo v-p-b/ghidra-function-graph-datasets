@@ -1,0 +1,22 @@
+digraph allocate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a983218 -> BB75a983301 [color="green"];
+  BB75a983218 -> BB75a983272 [color="red"];
+  BB75a983272 -> BB75a9832a1 [color="green"];
+  BB75a983272 -> BB75a98328c [color="red"];
+  BB75a98328c -> BB75a9832a1 [color="green"];
+  BB75a98328c -> BB75a983298 [color="red"];
+  BB75a983298 -> BB75a98331b [color="blue"];
+  BB75a9832a1 -> BB75a9832c9 [color="green"];
+  BB75a9832a1 -> BB75a9832bf [color="red"];
+  BB75a9832bf -> BB75a9832c9 [color="blue"];
+  BB75a9832c9 -> BB75a9832fc [color="green"];
+  BB75a9832c9 -> BB75a9832f5 [color="red"];
+  BB75a9832f5 -> BB75a9832fc [color="blue"];
+  BB75a9832fc -> BB75a98331b [color="green"];
+  BB75a9832fc -> BB75a983301 [color="red"];
+  BB75a983301 -> BB75a98331b [color="green"];
+  BB75a983301 -> BB75a98330b [color="red"];
+  BB75a98330b -> BB75a98331b [color="red"];
+}

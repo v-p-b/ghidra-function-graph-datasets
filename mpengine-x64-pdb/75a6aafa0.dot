@@ -1,0 +1,10 @@
+digraph CloseFile {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6aafa0 -> BB75a6aafc9 [color="green"];
+  BB75a6aafa0 -> BB75a6aafb0 [color="red"];
+  BB75a6aafb0 -> BB75a6aafcf [color="green"];
+  BB75a6aafb0 -> BB75a6aafbd [color="red"];
+  BB75a6aafbd -> BB75a6aafc9 [color="red"];
+  BB75a6aafcf -> BB75a6aafbd [color="blue"];
+}

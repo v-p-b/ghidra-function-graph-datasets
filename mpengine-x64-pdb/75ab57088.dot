@@ -1,0 +1,17 @@
+digraph sqlite3ThreadJoin {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab57088 -> BB75ab570b3 [color="green"];
+  BB75ab57088 -> BB75ab570ae [color="red"];
+  BB75ab570ae -> BB75ab57104 [color="blue"];
+  BB75ab570b3 -> BB75ab570bd [color="green"];
+  BB75ab570b3 -> BB75ab570b9 [color="red"];
+  BB75ab570b9 -> BB75ab570ee [color="blue"];
+  BB75ab570bd -> BB75ab570c0 [color="blue"];
+  BB75ab570c0 -> BB75ab570c0 [color="green"];
+  BB75ab570c0 -> BB75ab570e1 [color="red"];
+  BB75ab570e1 -> BB75ab570f5 [color="green"];
+  BB75ab570e1 -> BB75ab570ee [color="red"];
+  BB75ab570ee -> BB75ab570f5 [color="blue"];
+  BB75ab570f5 -> BB75ab57104 [color="red"];
+}

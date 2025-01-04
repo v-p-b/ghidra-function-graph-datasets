@@ -1,0 +1,18 @@
+digraph testForReadSharingError {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a9e5468 -> BB75a9e54a6 [color="green"];
+  BB75a9e5468 -> BB75a9e5496 [color="red"];
+  BB75a9e5496 -> BB75a9e54ab [color="green"];
+  BB75a9e5496 -> BB75a9e54a6 [color="red"];
+  BB75a9e54a6 -> BB75a9e54ab [color="red"];
+  BB75a9e54ab -> BB75a9e54f8 [color="green"];
+  BB75a9e54ab -> BB75a9e54df [color="red"];
+  BB75a9e54df -> BB75a9e54fa [color="green"];
+  BB75a9e54df -> BB75a9e54e9 [color="red"];
+  BB75a9e54e9 -> BB75a9e54fa [color="green"];
+  BB75a9e54e9 -> BB75a9e54f0 [color="red"];
+  BB75a9e54f0 -> BB75a9e54fa [color="green"];
+  BB75a9e54f0 -> BB75a9e54f8 [color="red"];
+  BB75a9e54f8 -> BB75a9e54fa [color="blue"];
+}

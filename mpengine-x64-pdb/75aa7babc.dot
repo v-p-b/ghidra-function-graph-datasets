@@ -1,0 +1,23 @@
+digraph CDcState {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa7babc -> BB75aa7bb03 [color="red"];
+  BB75aa7bb03 -> BB75aa7bbdf [color="green"];
+  BB75aa7bb03 -> BB75aa7bb10 [color="red"];
+  BB75aa7bb10 -> BB75aa7bb75 [color="green"];
+  BB75aa7bb10 -> BB75aa7bb42 [color="red"];
+  BB75aa7bb42 -> BB75aa7bb75 [color="green"];
+  BB75aa7bb42 -> BB75aa7bb70 [color="red"];
+  BB75aa7bb70 -> BB75aa7bb78 [color="blue"];
+  BB75aa7bb75 -> BB75aa7bb78 [color="blue"];
+  BB75aa7bb78 -> BB75aa7bb8a [color="green"];
+  BB75aa7bb78 -> BB75aa7bb7e [color="red"];
+  BB75aa7bb7e -> BB75aa7bb8a [color="red"];
+  BB75aa7bb8a -> BB75aa7bbb6 [color="green"];
+  BB75aa7bb8a -> BB75aa7bb8f [color="red"];
+  BB75aa7bb8f -> BB75aa7bb9c [color="green"];
+  BB75aa7bb8f -> BB75aa7bb94 [color="red"];
+  BB75aa7bb94 -> BB75aa7bb9c [color="blue"];
+  BB75aa7bb9c -> BB75aa7bbb6 [color="red"];
+  BB75aa7bbb6 -> BB75aa7bb03 [color="blue"];
+}

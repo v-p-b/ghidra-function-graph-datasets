@@ -1,0 +1,24 @@
+digraph winNextSystemCall {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5ca70 -> BB75ab5cac8 [color="green"];
+  BB75ab5ca70 -> BB75ab5ca8d [color="red"];
+  BB75ab5ca8d -> BB75ab5ca9a [color="blue"];
+  BB75ab5ca9a -> BB75ab5caa3 [color="blue"];
+  BB75ab5caa3 -> BB75ab5cab8 [color="green"];
+  BB75ab5caa3 -> BB75ab5cab0 [color="red"];
+  BB75ab5cab0 -> BB75ab5caa3 [color="green"];
+  BB75ab5cab0 -> BB75ab5cab8 [color="red"];
+  BB75ab5cab8 -> BB75ab5cac8 [color="green"];
+  BB75ab5cab8 -> BB75ab5cabc [color="red"];
+  BB75ab5cabc -> BB75ab5ca9a [color="green"];
+  BB75ab5cabc -> BB75ab5cac8 [color="red"];
+  BB75ab5cac8 -> BB75ab5cae4 [color="blue"];
+  BB75ab5cae4 -> BB75ab5cb05 [color="green"];
+  BB75ab5cae4 -> BB75ab5cae9 [color="red"];
+  BB75ab5cae9 -> BB75ab5caf8 [color="green"];
+  BB75ab5cae9 -> BB75ab5caef [color="red"];
+  BB75ab5caef -> BB75ab5cae4 [color="blue"];
+  BB75ab5caf8 -> BB75ab5cb07 [color="blue"];
+  BB75ab5cb05 -> BB75ab5cb07 [color="blue"];
+}

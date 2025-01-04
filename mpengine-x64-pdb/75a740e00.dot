@@ -1,0 +1,14 @@
+digraph sqliteDefaultBusyCallback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a740e00 -> BB75a740e2e [color="green"];
+  BB75a740e00 -> BB75a740e13 [color="red"];
+  BB75a740e13 -> BB75a740e3e [color="blue"];
+  BB75a740e2e -> BB75a740e3e [color="blue"];
+  BB75a740e3e -> BB75a740e55 [color="green"];
+  BB75a740e3e -> BB75a740e47 [color="red"];
+  BB75a740e47 -> BB75a740e55 [color="green"];
+  BB75a740e47 -> BB75a740e51 [color="red"];
+  BB75a740e51 -> BB75a740e6f [color="blue"];
+  BB75a740e55 -> BB75a740e6f [color="red"];
+}

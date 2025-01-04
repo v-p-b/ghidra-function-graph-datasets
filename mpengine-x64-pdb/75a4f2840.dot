@@ -1,0 +1,12 @@
+digraph exprIdxCover {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4f2840 -> BB75a4f2875 [color="green"];
+  BB75a4f2840 -> BB75a4f284c [color="red"];
+  BB75a4f284c -> BB75a4f2875 [color="green"];
+  BB75a4f284c -> BB75a4f2858 [color="red"];
+  BB75a4f2858 -> BB75a4f2875 [color="green"];
+  BB75a4f2858 -> BB75a4f2869 [color="red"];
+  BB75a4f2869 -> BB75a4f2877 [color="blue"];
+  BB75a4f2875 -> BB75a4f2877 [color="blue"];
+}

@@ -1,0 +1,9 @@
+digraph KillRawWriteEnd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a70c1d0 -> BB75a70c1ee [color="green"];
+  BB75a70c1d0 -> BB75a70c1dd [color="red"];
+  BB75a70c1dd -> BB75a70c1ee [color="green"];
+  BB75a70c1dd -> BB75a70c1e9 [color="red"];
+  BB75a70c1e9 -> BB75a70c1ee [color="red"];
+}

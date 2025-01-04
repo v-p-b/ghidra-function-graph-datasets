@@ -1,0 +1,15 @@
+digraph adjuststack {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a1fbaac -> BB75a1fbb12 [color="green"];
+  BB75a1fbaac -> BB75a1fbad2 [color="red"];
+  BB75a1fbad2 -> BB75a1fbae6 [color="red"];
+  BB75a1fbae6 -> BB75a1fbb2d [color="green"];
+  BB75a1fbae6 -> BB75a1fbafe [color="red"];
+  BB75a1fbafe -> BB75a1fbb2d [color="green"];
+  BB75a1fbafe -> BB75a1fbb03 [color="red"];
+  BB75a1fbb03 -> BB75a1fbb12 [color="red"];
+  BB75a1fbb2d -> BB75a1fbb03 [color="green"];
+  BB75a1fbb2d -> BB75a1fbb37 [color="red"];
+  BB75a1fbb37 -> BB75a1fbae6 [color="blue"];
+}

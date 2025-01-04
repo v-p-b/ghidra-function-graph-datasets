@@ -1,0 +1,10 @@
+digraph is_path_to_anonymous_node {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8cc008 -> BB75a8cc025 [color="green"];
+  BB75a8cc008 -> BB75a8cc013 [color="red"];
+  BB75a8cc013 -> BB75a8cc01d [color="green"];
+  BB75a8cc013 -> BB75a8cc01a [color="red"];
+  BB75a8cc01a -> BB75a8cc01d [color="blue"];
+  BB75a8cc01d -> BB75a8cc025 [color="blue"];
+}

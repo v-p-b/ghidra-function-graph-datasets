@@ -1,0 +1,10 @@
+digraph open_file {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a60bb40 -> BB75a60bc1f [color="green"];
+  BB75a60bb40 -> BB75a60bb9d [color="red"];
+  BB75a60bb9d -> BB75a60bc15 [color="green"];
+  BB75a60bb9d -> BB75a60bbfa [color="red"];
+  BB75a60bbfa -> BB75a60bc15 [color="red"];
+  BB75a60bc15 -> BB75a60bc1f [color="red"];
+}

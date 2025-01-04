@@ -1,0 +1,12 @@
+digraph StoreThreadInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3e7ab8 -> BB75a3e7b27 [color="green"];
+  BB75a3e7ab8 -> BB75a3e7afd [color="red"];
+  BB75a3e7afd -> BB75a3e7b0e [color="red"];
+  BB75a3e7b27 -> BB75a3e7b0e [color="green"];
+  BB75a3e7b27 -> BB75a3e7b3a [color="red"];
+  BB75a3e7b3a -> BB75a3e7b0e [color="green"];
+  BB75a3e7b3a -> BB75a3e7b40 [color="red"];
+  BB75a3e7b40 -> BB75a3e7b0e [color="blue"];
+}

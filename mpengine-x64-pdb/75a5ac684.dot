@@ -1,0 +1,23 @@
+digraph precheck {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5ac684 -> BB75a5ac6b3 [color="green"];
+  BB75a5ac684 -> BB75a5ac68d [color="red"];
+  BB75a5ac68d -> BB75a5ac6b3 [color="green"];
+  BB75a5ac68d -> BB75a5ac6a9 [color="red"];
+  BB75a5ac6a9 -> BB75a5ac6b6 [color="green"];
+  BB75a5ac6a9 -> BB75a5ac6b3 [color="red"];
+  BB75a5ac6b6 -> BB75a5ac6b3 [color="green"];
+  BB75a5ac6b6 -> BB75a5ac6bf [color="red"];
+  BB75a5ac6bf -> BB75a5ac6ce [color="green"];
+  BB75a5ac6bf -> BB75a5ac6ca [color="red"];
+  BB75a5ac6ca -> BB75a5ac6b3 [color="green"];
+  BB75a5ac6ca -> BB75a5ac6ce [color="red"];
+  BB75a5ac6ce -> BB75a5ac6b3 [color="green"];
+  BB75a5ac6ce -> BB75a5ac6d4 [color="red"];
+  BB75a5ac6d4 -> BB75a5ac6f5 [color="green"];
+  BB75a5ac6d4 -> BB75a5ac6ed [color="red"];
+  BB75a5ac6ed -> BB75a5ac703 [color="green"];
+  BB75a5ac6ed -> BB75a5ac6f5 [color="red"];
+  BB75a5ac703 -> BB75a5ac6f5 [color="blue"];
+}

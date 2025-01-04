@@ -1,0 +1,16 @@
+digraph HIST_count_simple {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a50262c -> BB75a5026c1 [color="green"];
+  BB75a50262c -> BB75a502671 [color="red"];
+  BB75a502671 -> BB75a502684 [color="green"];
+  BB75a502671 -> BB75a502676 [color="red"];
+  BB75a502676 -> BB75a502671 [color="blue"];
+  BB75a502682 -> BB75a502684 [color="blue"];
+  BB75a502684 -> BB75a502682 [color="green"];
+  BB75a502684 -> BB75a502689 [color="red"];
+  BB75a502689 -> BB75a50268f [color="blue"];
+  BB75a50268f -> BB75a50268f [color="green"];
+  BB75a50268f -> BB75a5026a2 [color="red"];
+  BB75a5026c1 -> BB75a5026a2 [color="blue"];
+}

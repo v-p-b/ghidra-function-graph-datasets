@@ -1,0 +1,15 @@
+digraph StringLengthWorkerW {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2502d8 -> BB75a2502f3 [color="green"];
+  BB75a2502d8 -> BB75a2502e3 [color="red"];
+  BB75a2502e3 -> BB75a2502f3 [color="green"];
+  BB75a2502e3 -> BB75a2502e9 [color="red"];
+  BB75a2502e9 -> BB75a2502e3 [color="green"];
+  BB75a2502e9 -> BB75a2502f3 [color="red"];
+  BB75a2502f3 -> BB75a250312 [color="green"];
+  BB75a2502f3 -> BB75a250307 [color="red"];
+  BB75a250307 -> BB75a250313 [color="green"];
+  BB75a250307 -> BB75a25030c [color="red"];
+  BB75a25030c -> BB75a250312 [color="blue"];
+}

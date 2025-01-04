@@ -1,0 +1,17 @@
+digraph CleanupNativeRPFModules {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3c5b0c -> BB75a3c5b3f [color="green"];
+  BB75a3c5b0c -> BB75a3c5b22 [color="red"];
+  BB75a3c5b22 -> BB75a3c5b3f [color="red"];
+  BB75a3c5b3f -> BB75a3c5ba7 [color="green"];
+  BB75a3c5b3f -> BB75a3c5b4b [color="red"];
+  BB75a3c5b4b -> BB75a3c5b4f [color="blue"];
+  BB75a3c5b4f -> BB75a3c5b6f [color="green"];
+  BB75a3c5b4f -> BB75a3c5b5a [color="red"];
+  BB75a3c5b5a -> BB75a3c5b4f [color="blue"];
+  BB75a3c5b6f -> BB75a3c5b92 [color="green"];
+  BB75a3c5b6f -> BB75a3c5b74 [color="red"];
+  BB75a3c5b74 -> BB75a3c5b92 [color="red"];
+  BB75a3c5b92 -> BB75a3c5ba7 [color="red"];
+}

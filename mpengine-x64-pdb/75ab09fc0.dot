@@ -1,0 +1,19 @@
+digraph GetLogicalDrivesMask {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab09fc0 -> BB75ab09fde [color="green"];
+  BB75ab09fc0 -> BB75ab09fda [color="red"];
+  BB75ab09fda -> BB75ab0a058 [color="blue"];
+  BB75ab09fde -> BB75ab0a03a [color="green"];
+  BB75ab09fde -> BB75ab09fef [color="red"];
+  BB75ab09fef -> BB75ab0a028 [color="green"];
+  BB75ab09fef -> BB75ab0a00a [color="red"];
+  BB75ab0a00a -> BB75ab0a028 [color="green"];
+  BB75ab0a00a -> BB75ab0a010 [color="red"];
+  BB75ab0a010 -> BB75ab0a028 [color="red"];
+  BB75ab0a028 -> BB75ab0a035 [color="green"];
+  BB75ab0a028 -> BB75ab0a02c [color="red"];
+  BB75ab0a02c -> BB75ab0a035 [color="blue"];
+  BB75ab0a035 -> BB75ab09fda [color="blue"];
+  BB75ab0a03a -> BB75ab0a058 [color="blue"];
+}

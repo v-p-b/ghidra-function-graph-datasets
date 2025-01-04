@@ -1,0 +1,13 @@
+digraph withDup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5e874 -> BB75ab5e906 [color="green"];
+  BB75ab5e874 -> BB75ab5e89b [color="red"];
+  BB75ab5e89b -> BB75ab5e906 [color="green"];
+  BB75ab5e89b -> BB75ab5e8b3 [color="red"];
+  BB75ab5e8b3 -> BB75ab5e906 [color="green"];
+  BB75ab5e8b3 -> BB75ab5e8bb [color="red"];
+  BB75ab5e8bb -> BB75ab5e8c5 [color="blue"];
+  BB75ab5e8c5 -> BB75ab5e8c5 [color="green"];
+  BB75ab5e8c5 -> BB75ab5e906 [color="red"];
+}

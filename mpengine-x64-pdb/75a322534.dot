@@ -1,0 +1,14 @@
+digraph do_assign {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a322534 -> BB75a322607 [color="green"];
+  BB75a322534 -> BB75a32256a [color="red"];
+  BB75a32256a -> BB75a3225b2 [color="red"];
+  BB75a3225b2 -> BB75a3225c1 [color="green"];
+  BB75a3225b2 -> BB75a3225bc [color="red"];
+  BB75a3225bc -> BB75a3225c1 [color="red"];
+  BB75a3225c1 -> BB75a3225f1 [color="green"];
+  BB75a3225c1 -> BB75a3225ec [color="red"];
+  BB75a3225ec -> BB75a3225f1 [color="red"];
+  BB75a322607 -> BB75a3225b2 [color="blue"];
+}

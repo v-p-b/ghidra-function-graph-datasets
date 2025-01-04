@@ -1,0 +1,15 @@
+digraph BatchSamplesByShaEnd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a89fd00 -> BB75a89fd1d [color="green"];
+  BB75a89fd00 -> BB75a89fd10 [color="red"];
+  BB75a89fd10 -> BB75a89fd1d [color="green"];
+  BB75a89fd10 -> BB75a89fd19 [color="red"];
+  BB75a89fd19 -> BB75a89fd50 [color="blue"];
+  BB75a89fd1d -> BB75a89fd4b [color="green"];
+  BB75a89fd1d -> BB75a89fd30 [color="red"];
+  BB75a89fd30 -> BB75a89fd4b [color="green"];
+  BB75a89fd30 -> BB75a89fd36 [color="red"];
+  BB75a89fd36 -> BB75a89fd4b [color="red"];
+  BB75a89fd4b -> BB75a89fd50 [color="blue"];
+}

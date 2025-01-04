@@ -1,0 +1,22 @@
+digraph HaveIntermediate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abb5784 -> BB75abb5828 [color="green"];
+  BB75abb5784 -> BB75abb57bb [color="red"];
+  BB75abb57bb -> BB75abb57db [color="green"];
+  BB75abb57bb -> BB75abb57c8 [color="red"];
+  BB75abb57c8 -> BB75abb57cd [color="blue"];
+  BB75abb57cd -> BB75abb5837 [color="blue"];
+  BB75abb57db -> BB75abb5817 [color="green"];
+  BB75abb57db -> BB75abb57f2 [color="red"];
+  BB75abb57f2 -> BB75abb580b [color="green"];
+  BB75abb57f2 -> BB75abb57f7 [color="red"];
+  BB75abb57f7 -> BB75abb580b [color="green"];
+  BB75abb57f7 -> BB75abb57fc [color="red"];
+  BB75abb57fc -> BB75abb57cd [color="green"];
+  BB75abb57fc -> BB75abb580b [color="red"];
+  BB75abb580b -> BB75abb57f7 [color="green"];
+  BB75abb580b -> BB75abb5817 [color="red"];
+  BB75abb5817 -> BB75abb5837 [color="blue"];
+  BB75abb5828 -> BB75abb5837 [color="red"];
+}

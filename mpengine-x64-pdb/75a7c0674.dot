@@ -1,0 +1,13 @@
+digraph AdaptStartupToBoot {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7c0674 -> BB75a7c0696 [color="green"];
+  BB75a7c0674 -> BB75a7c0691 [color="red"];
+  BB75a7c0691 -> BB75a7c0696 [color="red"];
+  BB75a7c0696 -> BB75a7c06e2 [color="green"];
+  BB75a7c0696 -> BB75a7c06ac [color="red"];
+  BB75a7c06ac -> BB75a7c06e2 [color="green"];
+  BB75a7c06ac -> BB75a7c06b1 [color="red"];
+  BB75a7c06b1 -> BB75a7c06e7 [color="blue"];
+  BB75a7c06e2 -> BB75a7c06e7 [color="blue"];
+}

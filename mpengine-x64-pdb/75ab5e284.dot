@@ -1,0 +1,14 @@
+digraph windowPartitionCache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5e284 -> BB75ab5e312 [color="green"];
+  BB75ab5e284 -> BB75ab5e2eb [color="red"];
+  BB75ab5e2eb -> BB75ab5e2ed [color="blue"];
+  BB75ab5e2ed -> BB75ab5e2ed [color="green"];
+  BB75ab5e2ed -> BB75ab5e30e [color="red"];
+  BB75ab5e30e -> BB75ab5e312 [color="blue"];
+  BB75ab5e312 -> BB75ab5e3e0 [color="green"];
+  BB75ab5e312 -> BB75ab5e337 [color="red"];
+  BB75ab5e337 -> BB75ab5e3e7 [color="blue"];
+  BB75ab5e3e0 -> BB75ab5e3e7 [color="blue"];
+}

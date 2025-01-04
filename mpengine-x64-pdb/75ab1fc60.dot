@@ -1,0 +1,12 @@
+digraph RollingQueueCreateNamespaced {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab1fc60 -> BB75ab1fca9 [color="green"];
+  BB75ab1fc60 -> BB75ab1fca2 [color="red"];
+  BB75ab1fca2 -> BB75ab1fd61 [color="blue"];
+  BB75ab1fca9 -> BB75ab1fd0d [color="green"];
+  BB75ab1fca9 -> BB75ab1fcfb [color="red"];
+  BB75ab1fcfb -> BB75ab1fd0f [color="blue"];
+  BB75ab1fd0d -> BB75ab1fd0f [color="blue"];
+  BB75ab1fd0f -> BB75ab1fd61 [color="red"];
+}

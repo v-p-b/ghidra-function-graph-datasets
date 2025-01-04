@@ -1,0 +1,19 @@
+digraph NTDLL_DLL_ObjMgr_ValidateVFSHandle {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a61b6b0 -> BB75a61b785 [color="green"];
+  BB75a61b6b0 -> BB75a61b6df [color="red"];
+  BB75a61b6df -> BB75a61b785 [color="green"];
+  BB75a61b6df -> BB75a61b6ed [color="red"];
+  BB75a61b6ed -> BB75a61b78e [color="green"];
+  BB75a61b6ed -> BB75a61b73c [color="red"];
+  BB75a61b73c -> BB75a61b78e [color="green"];
+  BB75a61b73c -> BB75a61b747 [color="red"];
+  BB75a61b747 -> BB75a61b749 [color="blue"];
+  BB75a61b749 -> BB75a61b763 [color="green"];
+  BB75a61b749 -> BB75a61b757 [color="red"];
+  BB75a61b757 -> BB75a61b763 [color="blue"];
+  BB75a61b763 -> BB75a61b766 [color="blue"];
+  BB75a61b785 -> BB75a61b766 [color="blue"];
+  BB75a61b78e -> BB75a61b749 [color="blue"];
+}

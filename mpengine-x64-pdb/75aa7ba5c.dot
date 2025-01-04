@@ -1,0 +1,9 @@
+digraph ends_with {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa7ba5c -> BB75aa7baaf [color="green"];
+  BB75aa7ba5c -> BB75aa7ba75 [color="red"];
+  BB75aa7ba75 -> BB75aa7baaf [color="green"];
+  BB75aa7ba75 -> BB75aa7baad [color="red"];
+  BB75aa7baad -> BB75aa7baaf [color="blue"];
+}

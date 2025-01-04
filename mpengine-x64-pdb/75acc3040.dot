@@ -1,0 +1,21 @@
+digraph Scan {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acc3040 -> BB75acc3230 [color="green"];
+  BB75acc3040 -> BB75acc306d [color="red"];
+  BB75acc306d -> BB75acc3230 [color="green"];
+  BB75acc306d -> BB75acc307d [color="red"];
+  BB75acc307d -> BB75acc3227 [color="green"];
+  BB75acc307d -> BB75acc3093 [color="red"];
+  BB75acc3093 -> BB75acc3227 [color="green"];
+  BB75acc3093 -> BB75acc30b1 [color="red"];
+  BB75acc30b1 -> BB75acc30d0 [color="green"];
+  BB75acc30b1 -> BB75acc30be [color="red"];
+  BB75acc30be -> BB75acc30c6 [color="green"];
+  BB75acc30be -> BB75acc30c2 [color="red"];
+  BB75acc30c2 -> BB75acc30d2 [color="blue"];
+  BB75acc30c6 -> BB75acc30d2 [color="blue"];
+  BB75acc30d0 -> BB75acc30d2 [color="blue"];
+  BB75acc30d2 -> BB75acc3227 [color="red"];
+  BB75acc3227 -> BB75acc3230 [color="red"];
+}

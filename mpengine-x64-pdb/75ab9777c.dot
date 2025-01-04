@@ -1,0 +1,19 @@
+digraph scan_reply_cleanup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab9777c -> BB75ab9779b [color="green"];
+  BB75ab9777c -> BB75ab97796 [color="red"];
+  BB75ab97796 -> BB75ab9779b [color="red"];
+  BB75ab9779b -> BB75ab977b4 [color="green"];
+  BB75ab9779b -> BB75ab977af [color="red"];
+  BB75ab977af -> BB75ab977b4 [color="red"];
+  BB75ab977b4 -> BB75ab977cd [color="green"];
+  BB75ab977b4 -> BB75ab977c8 [color="red"];
+  BB75ab977c8 -> BB75ab977cd [color="red"];
+  BB75ab977cd -> BB75ab977eb [color="green"];
+  BB75ab977cd -> BB75ab977e1 [color="red"];
+  BB75ab977e1 -> BB75ab977eb [color="red"];
+  BB75ab977eb -> BB75ab97804 [color="green"];
+  BB75ab977eb -> BB75ab977ff [color="red"];
+  BB75ab977ff -> BB75ab97804 [color="red"];
+}

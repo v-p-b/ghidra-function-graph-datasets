@@ -1,0 +1,12 @@
+digraph folderguard_module_cleanup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7d45e0 -> BB75a7d4621 [color="green"];
+  BB75a7d45e0 -> BB75a7d4605 [color="red"];
+  BB75a7d4605 -> BB75a7d4621 [color="green"];
+  BB75a7d4605 -> BB75a7d4612 [color="red"];
+  BB75a7d4612 -> BB75a7d4621 [color="blue"];
+  BB75a7d4621 -> BB75a7d4638 [color="green"];
+  BB75a7d4621 -> BB75a7d4630 [color="red"];
+  BB75a7d4630 -> BB75a7d4638 [color="red"];
+}

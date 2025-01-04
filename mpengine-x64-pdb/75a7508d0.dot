@@ -1,0 +1,15 @@
+digraph ShouldUseSandbox {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a7508d0 -> BB75a750903 [color="green"];
+  BB75a7508d0 -> BB75a7508da [color="red"];
+  BB75a7508da -> BB75a750903 [color="green"];
+  BB75a7508da -> BB75a7508e4 [color="red"];
+  BB75a7508e4 -> BB75a7508fe [color="green"];
+  BB75a7508e4 -> BB75a7508e9 [color="red"];
+  BB75a7508e9 -> BB75a750900 [color="green"];
+  BB75a7508e9 -> BB75a7508f2 [color="red"];
+  BB75a7508f2 -> BB75a750900 [color="green"];
+  BB75a7508f2 -> BB75a7508fe [color="red"];
+  BB75a7508fe -> BB75a750900 [color="blue"];
+}

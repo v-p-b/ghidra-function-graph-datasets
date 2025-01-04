@@ -1,0 +1,10 @@
+digraph PurgeCache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa90e40 -> BB75aa90e7a [color="green"];
+  BB75aa90e40 -> BB75aa90e53 [color="red"];
+  BB75aa90e53 -> BB75aa90e71 [color="green"];
+  BB75aa90e53 -> BB75aa90e6c [color="red"];
+  BB75aa90e6c -> BB75aa90e71 [color="red"];
+  BB75aa90e71 -> BB75aa90e7a [color="red"];
+}

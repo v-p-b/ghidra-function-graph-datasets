@@ -1,0 +1,12 @@
+digraph OpenSucceeded {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a143d08 -> BB75a143d11 [color="green"];
+  BB75a143d08 -> BB75a143d0e [color="red"];
+  BB75a143d0e -> BB75a143d10 [color="blue"];
+  BB75a143d11 -> BB75a143d0e [color="green"];
+  BB75a143d11 -> BB75a143d19 [color="red"];
+  BB75a143d19 -> BB75a143d10 [color="green"];
+  BB75a143d19 -> BB75a143d21 [color="red"];
+  BB75a143d21 -> BB75a143d0e [color="blue"];
+}

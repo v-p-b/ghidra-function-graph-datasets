@@ -1,0 +1,10 @@
+digraph ~sentry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a17f510 -> BB75a17f541 [color="green"];
+  BB75a17f510 -> BB75a17f528 [color="red"];
+  BB75a17f528 -> BB75a17f546 [color="green"];
+  BB75a17f528 -> BB75a17f53b [color="red"];
+  BB75a17f53b -> BB75a17f541 [color="red"];
+  BB75a17f546 -> BB75a17f541 [color="blue"];
+}

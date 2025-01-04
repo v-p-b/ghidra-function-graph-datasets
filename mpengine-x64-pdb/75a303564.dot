@@ -1,0 +1,22 @@
+digraph msil_emit_pop_op {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a303564 -> BB75a30366b [color="green"];
+  BB75a303564 -> BB75a303588 [color="red"];
+  BB75a303588 -> BB75a30364a [color="green"];
+  BB75a303588 -> BB75a3035a8 [color="red"];
+  BB75a3035a8 -> BB75a303658 [color="green"];
+  BB75a3035a8 -> BB75a3035b4 [color="red"];
+  BB75a3035b4 -> BB75a3035d1 [color="blue"];
+  BB75a3035d1 -> BB75a303652 [color="green"];
+  BB75a3035d1 -> BB75a3035ed [color="red"];
+  BB75a3035ed -> BB75a3035f1 [color="blue"];
+  BB75a3035f1 -> BB75a30363f [color="red"];
+  BB75a30364a -> BB75a3035a8 [color="blue"];
+  BB75a303652 -> BB75a3035f1 [color="blue"];
+  BB75a303658 -> BB75a3035d1 [color="blue"];
+  BB75a30366b -> BB75a303673 [color="green"];
+  BB75a30366b -> BB75a303670 [color="red"];
+  BB75a303670 -> BB75a303673 [color="blue"];
+  BB75a303673 -> BB75a30363f [color="blue"];
+}

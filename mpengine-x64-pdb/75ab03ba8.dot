@@ -1,0 +1,12 @@
+digraph sort_comp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab03ba8 -> BB75ab03c1d [color="green"];
+  BB75ab03ba8 -> BB75ab03bcf [color="red"];
+  BB75ab03bcf -> BB75ab03c54 [color="blue"];
+  BB75ab03c1d -> BB75ab03c54 [color="green"];
+  BB75ab03c1d -> BB75ab03c3e [color="red"];
+  BB75ab03c3e -> BB75ab03c54 [color="green"];
+  BB75ab03c3e -> BB75ab03c43 [color="red"];
+  BB75ab03c43 -> BB75ab03c54 [color="red"];
+}

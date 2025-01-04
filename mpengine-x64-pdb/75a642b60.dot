@@ -1,0 +1,11 @@
+digraph UpdatePlatformRingPolicy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a642b60 -> BB75a642ba6 [color="green"];
+  BB75a642b60 -> BB75a642b74 [color="red"];
+  BB75a642b74 -> BB75a642bb2 [color="green"];
+  BB75a642b74 -> BB75a642b87 [color="red"];
+  BB75a642b87 -> BB75a642bb2 [color="green"];
+  BB75a642b87 -> BB75a642b8d [color="red"];
+  BB75a642ba6 -> BB75a642bb2 [color="red"];
+}

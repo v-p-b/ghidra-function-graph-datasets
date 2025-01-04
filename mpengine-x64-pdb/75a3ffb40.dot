@@ -1,0 +1,15 @@
+digraph RollingQueueAppend {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3ffb40 -> BB75a3ffba7 [color="green"];
+  BB75a3ffb40 -> BB75a3ffb7c [color="red"];
+  BB75a3ffb7c -> BB75a3ffb7e [color="blue"];
+  BB75a3ffba7 -> BB75a3ffce7 [color="green"];
+  BB75a3ffba7 -> BB75a3ffbf3 [color="red"];
+  BB75a3ffbf3 -> BB75a3ffbfe [color="red"];
+  BB75a3ffbfe -> BB75a3ffcd7 [color="green"];
+  BB75a3ffbfe -> BB75a3ffc79 [color="red"];
+  BB75a3ffc79 -> BB75a3ffb7e [color="blue"];
+  BB75a3ffcd7 -> BB75a3ffce7 [color="red"];
+  BB75a3ffce7 -> BB75a3ffbfe [color="blue"];
+}

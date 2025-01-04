@@ -1,0 +1,12 @@
+digraph schedule {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a8c35b0 -> BB75a8c363d [color="green"];
+  BB75a8c35b0 -> BB75a8c360d [color="red"];
+  BB75a8c360d -> BB75a8c3624 [color="green"];
+  BB75a8c360d -> BB75a8c3616 [color="red"];
+  BB75a8c3616 -> BB75a8c3624 [color="red"];
+  BB75a8c3624 -> BB75a8c362d [color="red"];
+  BB75a8c363d -> BB75a8c362d [color="green"];
+  BB75a8c363d -> BB75a8c3647 [color="red"];
+}

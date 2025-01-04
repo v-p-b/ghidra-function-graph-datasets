@@ -1,0 +1,10 @@
+digraph Test<unsigned_long> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a662314 -> BB75a662369 [color="green"];
+  BB75a662314 -> BB75a66233c [color="red"];
+  BB75a66233c -> BB75a66234c [color="blue"];
+  BB75a66234c -> BB75a66234c [color="green"];
+  BB75a66234c -> BB75a662364 [color="red"];
+  BB75a662364 -> BB75a662369 [color="blue"];
+}

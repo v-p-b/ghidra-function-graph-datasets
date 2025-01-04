@@ -1,0 +1,11 @@
+digraph emu_pushval<unsigned_long> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6bccc4 -> BB75a6bccef [color="green"];
+  BB75a6bccc4 -> BB75a6bccd6 [color="red"];
+  BB75a6bccd6 -> BB75a6bcd11 [color="green"];
+  BB75a6bccd6 -> BB75a6bccdc [color="red"];
+  BB75a6bccdc -> BB75a6bcd06 [color="blue"];
+  BB75a6bccef -> BB75a6bcd06 [color="blue"];
+  BB75a6bcd11 -> BB75a6bcd06 [color="blue"];
+}

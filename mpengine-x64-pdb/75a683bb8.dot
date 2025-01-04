@@ -1,0 +1,14 @@
+digraph CompactAlloc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a683bb8 -> BB75a683bed [color="green"];
+  BB75a683bb8 -> BB75a683bc7 [color="red"];
+  BB75a683bc7 -> BB75a683be7 [color="green"];
+  BB75a683bc7 -> BB75a683bd0 [color="red"];
+  BB75a683bd0 -> BB75a683be7 [color="green"];
+  BB75a683bd0 -> BB75a683bdd [color="red"];
+  BB75a683bdd -> BB75a683be7 [color="blue"];
+  BB75a683bed -> BB75a683bc7 [color="green"];
+  BB75a683bed -> BB75a683bf3 [color="red"];
+  BB75a683bf3 -> BB75a683bc7 [color="blue"];
+}

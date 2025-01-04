@@ -1,0 +1,20 @@
+digraph Quarantine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acb5740 -> BB75acb57a7 [color="green"];
+  BB75acb5740 -> BB75acb5774 [color="red"];
+  BB75acb5774 -> BB75acb57a0 [color="green"];
+  BB75acb5774 -> BB75acb5787 [color="red"];
+  BB75acb5787 -> BB75acb57a0 [color="green"];
+  BB75acb5787 -> BB75acb578d [color="red"];
+  BB75acb578d -> BB75acb57a0 [color="red"];
+  BB75acb57a0 -> BB75acb580b [color="blue"];
+  BB75acb57a7 -> BB75acb580b [color="green"];
+  BB75acb57a7 -> BB75acb57c7 [color="red"];
+  BB75acb57c7 -> BB75acb57f8 [color="green"];
+  BB75acb57c7 -> BB75acb57da [color="red"];
+  BB75acb57da -> BB75acb57f8 [color="green"];
+  BB75acb57da -> BB75acb57e0 [color="red"];
+  BB75acb57e0 -> BB75acb57f8 [color="red"];
+  BB75acb57f8 -> BB75acb580b [color="red"];
+}

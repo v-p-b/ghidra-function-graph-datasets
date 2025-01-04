@@ -1,0 +1,22 @@
+digraph MallocInsetFailed {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aa9b258 -> BB75aa9b2c0 [color="green"];
+  BB75aa9b258 -> BB75aa9b266 [color="red"];
+  BB75aa9b266 -> BB75aa9b2b6 [color="green"];
+  BB75aa9b266 -> BB75aa9b26c [color="red"];
+  BB75aa9b26c -> BB75aa9b2ac [color="green"];
+  BB75aa9b26c -> BB75aa9b272 [color="red"];
+  BB75aa9b272 -> BB75aa9b2a2 [color="green"];
+  BB75aa9b272 -> BB75aa9b278 [color="red"];
+  BB75aa9b278 -> BB75aa9b298 [color="green"];
+  BB75aa9b278 -> BB75aa9b27e [color="red"];
+  BB75aa9b27e -> BB75aa9b28e [color="green"];
+  BB75aa9b27e -> BB75aa9b284 [color="red"];
+  BB75aa9b28e -> BB75aa9b2c8 [color="blue"];
+  BB75aa9b298 -> BB75aa9b2c8 [color="blue"];
+  BB75aa9b2a2 -> BB75aa9b2c8 [color="blue"];
+  BB75aa9b2ac -> BB75aa9b2c8 [color="blue"];
+  BB75aa9b2b6 -> BB75aa9b2c8 [color="blue"];
+  BB75aa9b2c0 -> BB75aa9b2c8 [color="red"];
+}

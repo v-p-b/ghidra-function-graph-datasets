@@ -1,0 +1,10 @@
+digraph luaB_collectgarbage {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a46b150 -> BB75a46b1b9 [color="green"];
+  BB75a46b150 -> BB75a46b1a1 [color="red"];
+  BB75a46b1a1 -> BB75a46b1b9 [color="green"];
+  BB75a46b1a1 -> BB75a46b1a7 [color="red"];
+  BB75a46b1a7 -> BB75a46b1c0 [color="blue"];
+  BB75a46b1b9 -> BB75a46b1c0 [color="blue"];
+}

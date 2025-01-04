@@ -1,0 +1,16 @@
+digraph translate_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a336e80 -> BB75a336f4d [color="green"];
+  BB75a336e80 -> BB75a336e9d [color="red"];
+  BB75a336e9d -> BB75a336f57 [color="green"];
+  BB75a336e9d -> BB75a336ef9 [color="red"];
+  BB75a336ef9 -> BB75a336f42 [color="blue"];
+  BB75a336f4d -> BB75a336e9d [color="blue"];
+  BB75a336f57 -> BB75a336f8c [color="green"];
+  BB75a336f57 -> BB75a336f6a [color="red"];
+  BB75a336f6a -> BB75a336f8c [color="green"];
+  BB75a336f6a -> BB75a336f70 [color="red"];
+  BB75a336f70 -> BB75a336f8c [color="red"];
+  BB75a336f8c -> BB75a336f42 [color="blue"];
+}

@@ -1,0 +1,27 @@
+digraph get_comp_ratio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a529048 -> BB75a529169 [color="green"];
+  BB75a529048 -> BB75a529064 [color="red"];
+  BB75a529064 -> BB75a529177 [color="green"];
+  BB75a529064 -> BB75a529071 [color="red"];
+  BB75a529071 -> BB75a52917c [color="green"];
+  BB75a529071 -> BB75a529087 [color="red"];
+  BB75a529087 -> BB75a52909c [color="blue"];
+  BB75a52909c -> BB75a5290a8 [color="blue"];
+  BB75a5290a8 -> BB75a52915e [color="green"];
+  BB75a5290a8 -> BB75a5290b6 [color="red"];
+  BB75a5290b6 -> BB75a5290a8 [color="green"];
+  BB75a5290b6 -> BB75a5290c2 [color="red"];
+  BB75a5290c2 -> BB75a529170 [color="green"];
+  BB75a5290c2 -> BB75a529122 [color="red"];
+  BB75a529122 -> BB75a529135 [color="blue"];
+  BB75a529135 -> BB75a529153 [color="green"];
+  BB75a529135 -> BB75a529139 [color="red"];
+  BB75a529139 -> BB75a529153 [color="blue"];
+  BB75a52915e -> BB75a5290b6 [color="blue"];
+  BB75a529169 -> BB75a529153 [color="blue"];
+  BB75a529170 -> BB75a529135 [color="blue"];
+  BB75a529177 -> BB75a529153 [color="blue"];
+  BB75a52917c -> BB75a52909c [color="blue"];
+}

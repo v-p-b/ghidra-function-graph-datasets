@@ -1,0 +1,13 @@
+digraph pcodevirrec_cmp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a2f6d60 -> BB75a2f6da4 [color="green"];
+  BB75a2f6d60 -> BB75a2f6d84 [color="red"];
+  BB75a2f6d84 -> BB75a2f6dc8 [color="green"];
+  BB75a2f6d84 -> BB75a2f6d95 [color="red"];
+  BB75a2f6d95 -> BB75a2f6db2 [color="green"];
+  BB75a2f6d95 -> BB75a2f6da4 [color="red"];
+  BB75a2f6da4 -> BB75a2f6da7 [color="blue"];
+  BB75a2f6db2 -> BB75a2f6da7 [color="blue"];
+  BB75a2f6dc8 -> BB75a2f6da7 [color="blue"];
+}

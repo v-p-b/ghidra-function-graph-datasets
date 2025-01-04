@@ -1,0 +1,20 @@
+digraph GetTelemetryOnlyFlag {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acc0818 -> BB75acc082b [color="green"];
+  BB75acc0818 -> BB75acc0824 [color="red"];
+  BB75acc0824 -> BB75acc08c8 [color="blue"];
+  BB75acc082b -> BB75acc087a [color="green"];
+  BB75acc082b -> BB75acc0848 [color="red"];
+  BB75acc0848 -> BB75acc0876 [color="green"];
+  BB75acc0848 -> BB75acc085b [color="red"];
+  BB75acc085b -> BB75acc0876 [color="green"];
+  BB75acc085b -> BB75acc0861 [color="red"];
+  BB75acc0861 -> BB75acc0876 [color="red"];
+  BB75acc0876 -> BB75acc08c8 [color="blue"];
+  BB75acc087a -> BB75acc0885 [color="green"];
+  BB75acc087a -> BB75acc0881 [color="red"];
+  BB75acc0881 -> BB75acc08c8 [color="blue"];
+  BB75acc0885 -> BB75acc08c6 [color="blue"];
+  BB75acc08c6 -> BB75acc08c8 [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph HUF_decompress4X1_usingDTable_internal_fast_c_loop {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abdfe7c -> BB75abdff10 [color="blue"];
+  BB75abdff10 -> BB75abe029e [color="green"];
+  BB75abdff10 -> BB75abdff61 [color="red"];
+  BB75abdff61 -> BB75abdff66 [color="blue"];
+  BB75abdff66 -> BB75abe029e [color="green"];
+  BB75abdff66 -> BB75abdff76 [color="red"];
+  BB75abdff76 -> BB75abdff66 [color="green"];
+  BB75abdff76 -> BB75abdff7f [color="red"];
+  BB75abdff7f -> BB75abdff87 [color="blue"];
+  BB75abdff87 -> BB75abdff87 [color="green"];
+  BB75abdff87 -> BB75abe027d [color="red"];
+  BB75abe027d -> BB75abdff10 [color="blue"];
+}

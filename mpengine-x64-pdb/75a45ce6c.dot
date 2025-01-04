@@ -1,0 +1,20 @@
+digraph sqlite3BtreeTripAllCursors {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a45ce6c -> BB75a45cea2 [color="green"];
+  BB75a45ce6c -> BB75a45ce95 [color="red"];
+  BB75a45ce95 -> BB75a45ce9d [color="blue"];
+  BB75a45ce9d -> BB75a45cebf [color="green"];
+  BB75a45ce9d -> BB75a45cea2 [color="red"];
+  BB75a45cebf -> BB75a45cee6 [color="green"];
+  BB75a45cebf -> BB75a45cec3 [color="red"];
+  BB75a45cec3 -> BB75a45ced8 [color="red"];
+  BB75a45ced8 -> BB75a45ce9d [color="blue"];
+  BB75a45cee6 -> BB75a45cec3 [color="green"];
+  BB75a45cee6 -> BB75a45ceec [color="red"];
+  BB75a45ceec -> BB75a45ced8 [color="green"];
+  BB75a45ceec -> BB75a45cef1 [color="red"];
+  BB75a45cef1 -> BB75a45ced8 [color="green"];
+  BB75a45cef1 -> BB75a45ceff [color="red"];
+  BB75a45ceff -> BB75a45cea2 [color="blue"];
+}

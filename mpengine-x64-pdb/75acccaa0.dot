@@ -1,0 +1,16 @@
+digraph named_subexpression_index {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acccaa0 -> BB75acccac3 [color="green"];
+  BB75acccaa0 -> BB75acccabd [color="red"];
+  BB75acccac3 -> BB75acccae1 [color="red"];
+  BB75acccae1 -> BB75acccaff [color="green"];
+  BB75acccae1 -> BB75acccae6 [color="red"];
+  BB75acccae6 -> BB75acccafc [color="green"];
+  BB75acccae6 -> BB75acccaf6 [color="red"];
+  BB75acccaf6 -> BB75acccae1 [color="blue"];
+  BB75acccafc -> BB75acccaff [color="blue"];
+  BB75acccaff -> BB75acccb0f [color="green"];
+  BB75acccaff -> BB75acccb0d [color="red"];
+  BB75acccb0d -> BB75acccb0f [color="blue"];
+}

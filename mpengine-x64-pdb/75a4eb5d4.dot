@@ -1,0 +1,16 @@
+digraph wcsEndsWith {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4eb5d4 -> BB75a4eb5e1 [color="blue"];
+  BB75a4eb5e1 -> BB75a4eb5e1 [color="green"];
+  BB75a4eb5e1 -> BB75a4eb5eb [color="red"];
+  BB75a4eb5eb -> BB75a4eb5eb [color="green"];
+  BB75a4eb5eb -> BB75a4eb5f5 [color="red"];
+  BB75a4eb5f5 -> BB75a4eb5fd [color="green"];
+  BB75a4eb5f5 -> BB75a4eb5fa [color="red"];
+  BB75a4eb5fd -> BB75a4eb607 [color="blue"];
+  BB75a4eb607 -> BB75a4eb61b [color="green"];
+  BB75a4eb607 -> BB75a4eb613 [color="red"];
+  BB75a4eb613 -> BB75a4eb607 [color="green"];
+  BB75a4eb613 -> BB75a4eb61b [color="red"];
+}

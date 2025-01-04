@@ -1,0 +1,10 @@
+digraph MemScanCloseProcess {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a38cd98 -> BB75a38cddd [color="green"];
+  BB75a38cd98 -> BB75a38cd9d [color="red"];
+  BB75a38cd9d -> BB75a38cdb7 [color="green"];
+  BB75a38cd9d -> BB75a38cdad [color="red"];
+  BB75a38cdad -> BB75a38cdb7 [color="red"];
+  BB75a38cdb7 -> BB75a38cddd [color="red"];
+}

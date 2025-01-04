@@ -1,0 +1,10 @@
+digraph make_op_const {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a23fb3c -> BB75a23fb55 [color="green"];
+  BB75a23fb3c -> BB75a23fb50 [color="red"];
+  BB75a23fb55 -> BB75a23fb7f [color="green"];
+  BB75a23fb55 -> BB75a23fb62 [color="red"];
+  BB75a23fb62 -> BB75a23fb50 [color="blue"];
+  BB75a23fb7f -> BB75a23fb50 [color="blue"];
+}

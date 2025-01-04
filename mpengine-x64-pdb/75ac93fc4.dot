@@ -1,0 +1,30 @@
+digraph CheckCriticalFileFailure {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac93fc4 -> BB75ac9410b [color="green"];
+  BB75ac93fc4 -> BB75ac93fcd [color="red"];
+  BB75ac93fcd -> BB75ac94057 [color="green"];
+  BB75ac93fcd -> BB75ac9402f [color="red"];
+  BB75ac9402f -> BB75ac940ee [color="green"];
+  BB75ac9402f -> BB75ac94046 [color="red"];
+  BB75ac94046 -> BB75ac940ee [color="green"];
+  BB75ac94046 -> BB75ac94050 [color="red"];
+  BB75ac94050 -> BB75ac94099 [color="blue"];
+  BB75ac94057 -> BB75ac940b2 [color="green"];
+  BB75ac94057 -> BB75ac9407b [color="red"];
+  BB75ac9407b -> BB75ac940ee [color="green"];
+  BB75ac9407b -> BB75ac9408e [color="red"];
+  BB75ac9408e -> BB75ac940ee [color="green"];
+  BB75ac9408e -> BB75ac94094 [color="red"];
+  BB75ac94094 -> BB75ac94099 [color="blue"];
+  BB75ac94099 -> BB75ac940ee [color="blue"];
+  BB75ac940b2 -> BB75ac940c3 [color="green"];
+  BB75ac940b2 -> BB75ac940be [color="red"];
+  BB75ac940be -> BB75ac940d5 [color="green"];
+  BB75ac940be -> BB75ac940c3 [color="red"];
+  BB75ac940c3 -> BB75ac940d5 [color="red"];
+  BB75ac940d5 -> BB75ac940ee [color="green"];
+  BB75ac940d5 -> BB75ac940d9 [color="red"];
+  BB75ac940d9 -> BB75ac940ee [color="red"];
+  BB75ac940ee -> BB75ac9410b [color="red"];
+}

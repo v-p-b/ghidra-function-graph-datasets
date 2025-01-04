@@ -1,0 +1,14 @@
+digraph switchToLocalTree {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a3900d4 -> BB75a390102 [color="green"];
+  BB75a3900d4 -> BB75a3900f0 [color="red"];
+  BB75a3900f0 -> BB75a3900f2 [color="blue"];
+  BB75a390102 -> BB75a390148 [color="green"];
+  BB75a390102 -> BB75a390116 [color="red"];
+  BB75a390116 -> BB75a39013e [color="green"];
+  BB75a390116 -> BB75a390127 [color="red"];
+  BB75a390127 -> BB75a39013e [color="red"];
+  BB75a39013e -> BB75a3900f0 [color="blue"];
+  BB75a390148 -> BB75a3900f2 [color="blue"];
+}

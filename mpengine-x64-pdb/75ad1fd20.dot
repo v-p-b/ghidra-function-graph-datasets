@@ -1,0 +1,19 @@
+digraph _Emplace_reallocate<class_PtrType,class_PtrType,class_std::shared_ptr<class_XORBuffer>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad1fd20 -> BB75ad1fd9d [color="green"];
+  BB75ad1fd20 -> BB75ad1fd90 [color="red"];
+  BB75ad1fd9d -> BB75ad1fdd8 [color="green"];
+  BB75ad1fd9d -> BB75ad1fdcd [color="red"];
+  BB75ad1fdcd -> BB75ad1fdd8 [color="blue"];
+  BB75ad1fdd8 -> BB75ad1ff19 [color="green"];
+  BB75ad1fdd8 -> BB75ad1fe4c [color="red"];
+  BB75ad1fe4c -> BB75ad1fe6f [color="red"];
+  BB75ad1fe6f -> BB75ad1feb2 [color="green"];
+  BB75ad1fe6f -> BB75ad1fe77 [color="red"];
+  BB75ad1fe77 -> BB75ad1feb2 [color="red"];
+  BB75ad1fee6 -> BB75ad1ff19 [color="red"];
+  BB75ad1ff19 -> BB75ad1fee6 [color="green"];
+  BB75ad1ff19 -> BB75ad1ff1e [color="red"];
+  BB75ad1ff1e -> BB75ad1fe6f [color="blue"];
+}

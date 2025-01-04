@@ -1,0 +1,25 @@
+digraph pklite_detectRelocs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac5e9fc -> BB75ac5ea25 [color="green"];
+  BB75ac5e9fc -> BB75ac5ea21 [color="red"];
+  BB75ac5ea21 -> BB75ac5ea25 [color="blue"];
+  BB75ac5ea25 -> BB75ac5ea32 [color="blue"];
+  BB75ac5ea32 -> BB75ac5eace [color="green"];
+  BB75ac5ea32 -> BB75ac5ea3f [color="red"];
+  BB75ac5ea3f -> BB75ac5eaae [color="green"];
+  BB75ac5ea3f -> BB75ac5ea44 [color="red"];
+  BB75ac5ea44 -> BB75ac5eac8 [color="green"];
+  BB75ac5ea44 -> BB75ac5ea63 [color="red"];
+  BB75ac5ea63 -> BB75ac5eac8 [color="green"];
+  BB75ac5ea63 -> BB75ac5ea7c [color="red"];
+  BB75ac5ea7c -> BB75ac5eac2 [color="green"];
+  BB75ac5ea7c -> BB75ac5ea95 [color="red"];
+  BB75ac5ea95 -> BB75ac5eab9 [color="green"];
+  BB75ac5ea95 -> BB75ac5eaae [color="red"];
+  BB75ac5eaae -> BB75ac5ea32 [color="blue"];
+  BB75ac5eab9 -> BB75ac5eacb [color="blue"];
+  BB75ac5eac2 -> BB75ac5eacb [color="blue"];
+  BB75ac5eac8 -> BB75ac5eacb [color="blue"];
+  BB75ac5eacb -> BB75ac5eace [color="blue"];
+}

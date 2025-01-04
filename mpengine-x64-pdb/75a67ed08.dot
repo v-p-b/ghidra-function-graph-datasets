@@ -1,0 +1,10 @@
+digraph ZSTD_cpuid {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a67ed08 -> BB75a67ed3f [color="green"];
+  BB75a67ed08 -> BB75a67ed36 [color="red"];
+  BB75a67ed36 -> BB75a67ed3f [color="blue"];
+  BB75a67ed3f -> BB75a67ed52 [color="green"];
+  BB75a67ed3f -> BB75a67ed48 [color="red"];
+  BB75a67ed48 -> BB75a67ed52 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph TestForProcessStart {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5e96c0 -> BB75a5e97bb [color="green"];
+  BB75a5e96c0 -> BB75a5e970c [color="red"];
+  BB75a5e970c -> BB75a5e97e6 [color="green"];
+  BB75a5e970c -> BB75a5e9790 [color="red"];
+  BB75a5e9790 -> BB75a5e979d [color="green"];
+  BB75a5e9790 -> BB75a5e9795 [color="red"];
+  BB75a5e9795 -> BB75a5e979d [color="red"];
+  BB75a5e97bb -> BB75a5e970c [color="blue"];
+  BB75a5e97e6 -> BB75a5e9790 [color="green"];
+  BB75a5e97e6 -> BB75a5e97eb [color="red"];
+  BB75a5e97eb -> BB75a5e9790 [color="blue"];
+}

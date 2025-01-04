@@ -1,0 +1,22 @@
+digraph GetLastFullRebuildTime {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab7d2f8 -> BB75ab7d342 [color="green"];
+  BB75ab7d2f8 -> BB75ab7d33d [color="red"];
+  BB75ab7d33d -> BB75ab7d342 [color="red"];
+  BB75ab7d342 -> BB75ab7d3c1 [color="green"];
+  BB75ab7d342 -> BB75ab7d36c [color="red"];
+  BB75ab7d36c -> BB75ab7d3c1 [color="green"];
+  BB75ab7d36c -> BB75ab7d383 [color="red"];
+  BB75ab7d383 -> BB75ab7d3c1 [color="green"];
+  BB75ab7d383 -> BB75ab7d396 [color="red"];
+  BB75ab7d396 -> BB75ab7d3c1 [color="green"];
+  BB75ab7d396 -> BB75ab7d39c [color="red"];
+  BB75ab7d39c -> BB75ab7d3c1 [color="red"];
+  BB75ab7d3c1 -> BB75ab7d3cf [color="green"];
+  BB75ab7d3c1 -> BB75ab7d3c6 [color="red"];
+  BB75ab7d3c6 -> BB75ab7d3cf [color="red"];
+  BB75ab7d3cf -> BB75ab7d3e2 [color="green"];
+  BB75ab7d3cf -> BB75ab7d3d7 [color="red"];
+  BB75ab7d3d7 -> BB75ab7d3e2 [color="red"];
+}

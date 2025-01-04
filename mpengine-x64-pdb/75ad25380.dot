@@ -1,0 +1,20 @@
+digraph DeleteCatalogEntry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ad25380 -> BB75ad253e2 [color="green"];
+  BB75ad25380 -> BB75ad253ac [color="red"];
+  BB75ad253ac -> BB75ad253de [color="green"];
+  BB75ad253ac -> BB75ad253bf [color="red"];
+  BB75ad253bf -> BB75ad253de [color="green"];
+  BB75ad253bf -> BB75ad253c6 [color="red"];
+  BB75ad253c6 -> BB75ad253de [color="red"];
+  BB75ad253de -> BB75ad2543f [color="blue"];
+  BB75ad253e2 -> BB75ad2543d [color="green"];
+  BB75ad253e2 -> BB75ad253ff [color="red"];
+  BB75ad253ff -> BB75ad253de [color="green"];
+  BB75ad253ff -> BB75ad25412 [color="red"];
+  BB75ad25412 -> BB75ad253de [color="green"];
+  BB75ad25412 -> BB75ad25419 [color="red"];
+  BB75ad25419 -> BB75ad253de [color="blue"];
+  BB75ad2543d -> BB75ad2543f [color="blue"];
+}

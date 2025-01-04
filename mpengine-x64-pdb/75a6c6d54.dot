@@ -1,0 +1,25 @@
+digraph CleanupModules {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6c6d54 -> BB75a6c6d8b [color="green"];
+  BB75a6c6d54 -> BB75a6c6d79 [color="red"];
+  BB75a6c6d79 -> BB75a6c6e0e [color="green"];
+  BB75a6c6d79 -> BB75a6c6d81 [color="red"];
+  BB75a6c6d81 -> BB75a6c6e0e [color="blue"];
+  BB75a6c6d8b -> BB75a6c6df6 [color="blue"];
+  BB75a6c6da0 -> BB75a6c6dbe [color="green"];
+  BB75a6c6da0 -> BB75a6c6db8 [color="red"];
+  BB75a6c6db8 -> BB75a6c6df6 [color="green"];
+  BB75a6c6db8 -> BB75a6c6dbe [color="red"];
+  BB75a6c6dbe -> BB75a6c6ded [color="green"];
+  BB75a6c6dbe -> BB75a6c6dd1 [color="red"];
+  BB75a6c6dd1 -> BB75a6c6ded [color="green"];
+  BB75a6c6dd1 -> BB75a6c6dd7 [color="red"];
+  BB75a6c6dd7 -> BB75a6c6ded [color="red"];
+  BB75a6c6ded -> BB75a6c6df6 [color="red"];
+  BB75a6c6df6 -> BB75a6c6da0 [color="green"];
+  BB75a6c6df6 -> BB75a6c6dff [color="red"];
+  BB75a6c6dff -> BB75a6c6e0e [color="green"];
+  BB75a6c6dff -> BB75a6c6e08 [color="red"];
+  BB75a6c6e08 -> BB75a6c6e0e [color="red"];
+}

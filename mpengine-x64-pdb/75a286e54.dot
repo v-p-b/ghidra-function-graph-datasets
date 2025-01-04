@@ -1,0 +1,15 @@
+digraph sqlite3VdbeSetNumCols {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a286e54 -> BB75a286ee6 [color="green"];
+  BB75a286e54 -> BB75a286e8c [color="red"];
+  BB75a286e8c -> BB75a286ec2 [color="green"];
+  BB75a286e8c -> BB75a286ea7 [color="red"];
+  BB75a286ec2 -> BB75a286ea7 [color="green"];
+  BB75a286ec2 -> BB75a286ec6 [color="red"];
+  BB75a286ec6 -> BB75a286ecf [color="blue"];
+  BB75a286ecf -> BB75a286ecf [color="green"];
+  BB75a286ecf -> BB75a286ee4 [color="red"];
+  BB75a286ee4 -> BB75a286ea7 [color="blue"];
+  BB75a286ee6 -> BB75a286e8c [color="blue"];
+}

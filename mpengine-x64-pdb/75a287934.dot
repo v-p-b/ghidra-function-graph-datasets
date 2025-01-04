@@ -1,0 +1,14 @@
+digraph closeCursorsInFrame {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a287934 -> BB75a287974 [color="green"];
+  BB75a287934 -> BB75a287950 [color="red"];
+  BB75a287950 -> BB75a287974 [color="green"];
+  BB75a287950 -> BB75a287957 [color="red"];
+  BB75a287957 -> BB75a287959 [color="blue"];
+  BB75a287959 -> BB75a287984 [color="green"];
+  BB75a287959 -> BB75a287969 [color="red"];
+  BB75a287969 -> BB75a287959 [color="green"];
+  BB75a287969 -> BB75a287974 [color="red"];
+  BB75a287984 -> BB75a287969 [color="blue"];
+}

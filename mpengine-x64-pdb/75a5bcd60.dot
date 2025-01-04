@@ -1,0 +1,22 @@
+digraph ShouldMatchResource {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a5bcd60 -> BB75a5bcdaf [color="green"];
+  BB75a5bcd60 -> BB75a5bcd76 [color="red"];
+  BB75a5bcd76 -> BB75a5bcd8e [color="blue"];
+  BB75a5bcd8a -> BB75a5bcd8e [color="blue"];
+  BB75a5bcd8e -> BB75a5bcda1 [color="green"];
+  BB75a5bcd8e -> BB75a5bcd94 [color="red"];
+  BB75a5bcd94 -> BB75a5bcd8a [color="green"];
+  BB75a5bcd94 -> BB75a5bcd99 [color="red"];
+  BB75a5bcd99 -> BB75a5bcd8e [color="blue"];
+  BB75a5bcda1 -> BB75a5bcdb3 [color="green"];
+  BB75a5bcda1 -> BB75a5bcda7 [color="red"];
+  BB75a5bcda7 -> BB75a5bcda9 [color="blue"];
+  BB75a5bcdaf -> BB75a5bcda9 [color="blue"];
+  BB75a5bcdb3 -> BB75a5bcda7 [color="green"];
+  BB75a5bcdb3 -> BB75a5bcdb8 [color="red"];
+  BB75a5bcdb8 -> BB75a5bcda7 [color="green"];
+  BB75a5bcdb8 -> BB75a5bcdbd [color="red"];
+  BB75a5bcdbd -> BB75a5bcdaf [color="blue"];
+}

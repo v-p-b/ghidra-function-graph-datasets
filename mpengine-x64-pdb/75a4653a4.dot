@@ -1,0 +1,24 @@
+digraph vdll_rva_to_ofs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a4653a4 -> BB75a4653c8 [color="blue"];
+  BB75a4653c8 -> BB75a46544b [color="green"];
+  BB75a4653c8 -> BB75a4653f9 [color="red"];
+  BB75a4653f9 -> BB75a465463 [color="green"];
+  BB75a4653f9 -> BB75a465409 [color="red"];
+  BB75a465409 -> BB75a4654aa [color="green"];
+  BB75a465409 -> BB75a465411 [color="red"];
+  BB75a465411 -> BB75a4654aa [color="green"];
+  BB75a465411 -> BB75a465421 [color="red"];
+  BB75a465421 -> BB75a4654b6 [color="green"];
+  BB75a465421 -> BB75a46542d [color="red"];
+  BB75a46542d -> BB75a465436 [color="blue"];
+  BB75a46544b -> BB75a465436 [color="blue"];
+  BB75a465463 -> BB75a4654aa [color="green"];
+  BB75a465463 -> BB75a46546f [color="red"];
+  BB75a46546f -> BB75a4654aa [color="green"];
+  BB75a46546f -> BB75a465476 [color="red"];
+  BB75a465476 -> BB75a4654aa [color="red"];
+  BB75a4654aa -> BB75a4653c8 [color="blue"];
+  BB75a4654b6 -> BB75a465436 [color="blue"];
+}

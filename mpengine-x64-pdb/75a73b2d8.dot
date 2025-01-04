@@ -1,0 +1,18 @@
+digraph _Insertion_sort_unchecked<MachoSegment64_*,`MachoParser::Scan'::__l2::compare_segments> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a73b2d8 -> BB75a73b3cd [color="green"];
+  BB75a73b2d8 -> BB75a73b2fb [color="red"];
+  BB75a73b2fb -> BB75a73b3cd [color="green"];
+  BB75a73b2fb -> BB75a73b30b [color="red"];
+  BB75a73b30b -> BB75a73b372 [color="green"];
+  BB75a73b30b -> BB75a73b33c [color="red"];
+  BB75a73b33c -> BB75a73b3c0 [color="blue"];
+  BB75a73b372 -> BB75a73b375 [color="blue"];
+  BB75a73b375 -> BB75a73b3a2 [color="green"];
+  BB75a73b375 -> BB75a73b37f [color="red"];
+  BB75a73b37f -> BB75a73b375 [color="blue"];
+  BB75a73b3a2 -> BB75a73b3c0 [color="blue"];
+  BB75a73b3c0 -> BB75a73b30b [color="green"];
+  BB75a73b3c0 -> BB75a73b3cd [color="red"];
+}

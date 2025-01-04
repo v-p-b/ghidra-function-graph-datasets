@@ -1,0 +1,9 @@
+digraph _Lower_bound_duplicate<struct_sha1_t> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a54d3a8 -> BB75a54d3c0 [color="green"];
+  BB75a54d3a8 -> BB75a54d3b8 [color="red"];
+  BB75a54d3c0 -> BB75a54d3b8 [color="green"];
+  BB75a54d3c0 -> BB75a54d3d6 [color="red"];
+  BB75a54d3d6 -> BB75a54d3b8 [color="blue"];
+}

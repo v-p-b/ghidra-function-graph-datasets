@@ -1,0 +1,18 @@
+digraph vdbeSorterListToPMA {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab5b8f4 -> BB75ab5b94c [color="green"];
+  BB75ab5b8f4 -> BB75ab5b937 [color="red"];
+  BB75ab5b937 -> BB75ab5b9f2 [color="green"];
+  BB75ab5b937 -> BB75ab5b94c [color="red"];
+  BB75ab5b94c -> BB75ab5b9f2 [color="green"];
+  BB75ab5b94c -> BB75ab5b978 [color="red"];
+  BB75ab5b978 -> BB75ab5b9e2 [color="green"];
+  BB75ab5b978 -> BB75ab5b9a9 [color="red"];
+  BB75ab5b9a9 -> BB75ab5b9da [color="green"];
+  BB75ab5b9a9 -> BB75ab5b9d2 [color="red"];
+  BB75ab5b9d2 -> BB75ab5b9da [color="red"];
+  BB75ab5b9da -> BB75ab5b9a9 [color="green"];
+  BB75ab5b9da -> BB75ab5b9e2 [color="red"];
+  BB75ab5b9e2 -> BB75ab5b9f2 [color="red"];
+}

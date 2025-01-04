@@ -1,0 +1,14 @@
+digraph get_new_pVMM {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a637b10 -> BB75a637ba9 [color="green"];
+  BB75a637b10 -> BB75a637b3c [color="red"];
+  BB75a637b3c -> BB75a637bad [color="green"];
+  BB75a637b3c -> BB75a637b49 [color="red"];
+  BB75a637b49 -> BB75a637bb4 [color="green"];
+  BB75a637b49 -> BB75a637b56 [color="red"];
+  BB75a637b56 -> BB75a637b94 [color="red"];
+  BB75a637ba9 -> BB75a637b94 [color="blue"];
+  BB75a637bad -> BB75a637b49 [color="blue"];
+  BB75a637bb4 -> BB75a637b56 [color="blue"];
+}

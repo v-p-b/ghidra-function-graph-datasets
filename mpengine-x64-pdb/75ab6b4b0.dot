@@ -1,0 +1,21 @@
+digraph Merge {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ab6b4b0 -> BB75ab6b4ca [color="green"];
+  BB75ab6b4b0 -> BB75ab6b4c5 [color="red"];
+  BB75ab6b4c5 -> BB75ab6b4ca [color="red"];
+  BB75ab6b4ca -> BB75ab6b4e3 [color="green"];
+  BB75ab6b4ca -> BB75ab6b4de [color="red"];
+  BB75ab6b4de -> BB75ab6b4e3 [color="red"];
+  BB75ab6b4e3 -> BB75ab6b531 [color="green"];
+  BB75ab6b4e3 -> BB75ab6b4ed [color="red"];
+  BB75ab6b4ed -> BB75ab6b531 [color="green"];
+  BB75ab6b4ed -> BB75ab6b4fc [color="red"];
+  BB75ab6b4fc -> BB75ab6b52a [color="green"];
+  BB75ab6b4fc -> BB75ab6b50f [color="red"];
+  BB75ab6b50f -> BB75ab6b52a [color="green"];
+  BB75ab6b50f -> BB75ab6b515 [color="red"];
+  BB75ab6b515 -> BB75ab6b52a [color="red"];
+  BB75ab6b52a -> BB75ab6b533 [color="blue"];
+  BB75ab6b531 -> BB75ab6b533 [color="blue"];
+}

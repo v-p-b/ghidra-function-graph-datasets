@@ -1,0 +1,10 @@
+digraph ~CAutoExpandUserLock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a6bc530 -> BB75a6bc556 [color="green"];
+  BB75a6bc530 -> BB75a6bc549 [color="red"];
+  BB75a6bc549 -> BB75a6bc55c [color="green"];
+  BB75a6bc549 -> BB75a6bc54d [color="red"];
+  BB75a6bc54d -> BB75a6bc556 [color="red"];
+  BB75a6bc55c -> BB75a6bc54d [color="blue"];
+}

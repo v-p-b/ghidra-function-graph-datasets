@@ -1,0 +1,10 @@
+digraph GetBiosFlashInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75acfe1e0 -> BB75acfe297 [color="green"];
+  BB75acfe1e0 -> BB75acfe272 [color="red"];
+  BB75acfe272 -> BB75acfe297 [color="green"];
+  BB75acfe272 -> BB75acfe278 [color="red"];
+  BB75acfe278 -> BB75acfe29c [color="blue"];
+  BB75acfe297 -> BB75acfe29c [color="blue"];
+}

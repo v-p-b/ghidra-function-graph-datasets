@@ -1,0 +1,27 @@
+digraph exec_function_on_multi_cores<enum_tdt_status_,struct_std::pair<class_std::shared_ptr<unsigned_char_[0]>,unsigned___int64>,class_std::vector<struct_tdt_control_flow_freq_,class_std::allocator<struct_tdt_control_flow_freq_>_>,class_std::_Binder<struct_std::_Unforced,enum_tdt_status__(__cdecl_tdt::pt_decode_common::*)(unsigned_char_const*___ptr64,unsigned___int64,class_std::vector<struct_tdt_control_flow_freq_,class_std::allocator<struct_tdt_control_flow_freq_>_>&___ptr64,bool_const&___ptr64)___ptr64,class_tdt::pt_decode_cpu_multi*___ptr64,struct_std::_Ph<1>_const&___ptr64,struct_std::_Ph<2>_const&___ptr64,struct_std::_Ph<3>_const&___ptr64,struct_std::_Ph<4>_const&___ptr64>_> {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75aceb630 -> BB75aceb6f2 [color="green"];
+  BB75aceb630 -> BB75aceb6bd [color="red"];
+  BB75aceb6bd -> BB75aceb6bf [color="blue"];
+  BB75aceb6bf -> BB75aceb6bf [color="green"];
+  BB75aceb6bf -> BB75aceb6f2 [color="red"];
+  BB75aceb6f2 -> BB75aceb778 [color="green"];
+  BB75aceb6f2 -> BB75aceb70c [color="red"];
+  BB75aceb70c -> BB75aceb774 [color="green"];
+  BB75aceb70c -> BB75aceb76e [color="red"];
+  BB75aceb76e -> BB75aceb70c [color="blue"];
+  BB75aceb774 -> BB75aceb778 [color="blue"];
+  BB75aceb778 -> BB75aceb7ac [color="green"];
+  BB75aceb778 -> BB75aceb787 [color="red"];
+  BB75aceb787 -> BB75aceb799 [color="green"];
+  BB75aceb787 -> BB75aceb794 [color="red"];
+  BB75aceb794 -> BB75aceb79b [color="blue"];
+  BB75aceb799 -> BB75aceb79b [color="blue"];
+  BB75aceb79b -> BB75aceb787 [color="green"];
+  BB75aceb79b -> BB75aceb7a5 [color="red"];
+  BB75aceb7a5 -> BB75aceb7ac [color="blue"];
+  BB75aceb7ac -> BB75aceb7d5 [color="green"];
+  BB75aceb7ac -> BB75aceb7b3 [color="red"];
+  BB75aceb7b3 -> BB75aceb7d5 [color="red"];
+}

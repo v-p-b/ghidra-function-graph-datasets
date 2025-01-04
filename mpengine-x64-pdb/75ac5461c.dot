@@ -1,0 +1,10 @@
+digraph GetPartialCRCs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75ac5461c -> BB75ac54691 [color="green"];
+  BB75ac5461c -> BB75ac5467c [color="red"];
+  BB75ac5467c -> BB75ac54691 [color="red"];
+  BB75ac54691 -> BB75ac54718 [color="green"];
+  BB75ac54691 -> BB75ac54715 [color="red"];
+  BB75ac54715 -> BB75ac54718 [color="blue"];
+}

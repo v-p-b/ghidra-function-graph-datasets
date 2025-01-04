@@ -1,0 +1,9 @@
+digraph ValidBuffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75a520b24 -> BB75a520b40 [color="green"];
+  BB75a520b24 -> BB75a520b38 [color="red"];
+  BB75a520b38 -> BB75a520b40 [color="green"];
+  BB75a520b38 -> BB75a520b3e [color="red"];
+  BB75a520b3e -> BB75a520b40 [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph read_CSIP_dw {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB75abca888 -> BB75abca8ec [color="green"];
+  BB75abca888 -> BB75abca8be [color="red"];
+  BB75abca8be -> BB75abca8f3 [color="green"];
+  BB75abca8be -> BB75abca8ec [color="red"];
+  BB75abca8ec -> BB75abca8f5 [color="blue"];
+  BB75abca8f3 -> BB75abca8f5 [color="blue"];
+}
