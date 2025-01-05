@@ -1,0 +1,18 @@
+digraph dtls1_start_timer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00476e20 -> BB00476f20 [color="green"];
+  BB00476e20 -> BB00476e40 [color="red"];
+  BB00476e40 -> BB00476f38 [color="green"];
+  BB00476e40 -> BB00476e50 [color="red"];
+  BB00476e50 -> BB00476e6e [color="blue"];
+  BB00476e6e -> BB00476f61 [color="green"];
+  BB00476e6e -> BB00476e83 [color="red"];
+  BB00476e83 -> BB00476f4c [color="green"];
+  BB00476e83 -> BB00476eae [color="red"];
+  BB00476eae -> BB00476ef3 [color="blue"];
+  BB00476f20 -> BB00476e6e [color="blue"];
+  BB00476f38 -> BB00476e6e [color="blue"];
+  BB00476f4c -> BB00476ef3 [color="blue"];
+  BB00476f61 -> BB00476e83 [color="blue"];
+}

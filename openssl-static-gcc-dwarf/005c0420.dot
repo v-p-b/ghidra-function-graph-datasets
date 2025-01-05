@@ -1,0 +1,12 @@
+digraph EVP_set_default_properties {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005c0420 -> BB005c0444 [color="green"];
+  BB005c0420 -> BB005c0432 [color="red"];
+  BB005c0432 -> BB005c0490 [color="green"];
+  BB005c0432 -> BB005c0444 [color="red"];
+  BB005c0444 -> BB005c0470 [color="green"];
+  BB005c0444 -> BB005c045a [color="red"];
+  BB005c045a -> BB005c045f [color="blue"];
+  BB005c0490 -> BB005c045f [color="blue"];
+}

@@ -1,0 +1,21 @@
+digraph int_mallinfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00885510 -> BB00885538 [color="blue"];
+  BB00885538 -> BB00885558 [color="green"];
+  BB00885538 -> BB00885540 [color="red"];
+  BB00885540 -> BB00885540 [color="green"];
+  BB00885540 -> BB00885558 [color="red"];
+  BB00885558 -> BB00885538 [color="green"];
+  BB00885558 -> BB00885561 [color="red"];
+  BB00885561 -> BB00885570 [color="blue"];
+  BB00885570 -> BB00885597 [color="green"];
+  BB00885570 -> BB00885579 [color="red"];
+  BB00885579 -> BB00885580 [color="blue"];
+  BB00885580 -> BB00885580 [color="green"];
+  BB00885580 -> BB00885597 [color="red"];
+  BB00885597 -> BB00885570 [color="green"];
+  BB00885597 -> BB008855a0 [color="red"];
+  BB008855a0 -> BB008855d5 [color="green"];
+  BB008855a0 -> BB008855d2 [color="red"];
+}

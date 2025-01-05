@@ -1,0 +1,31 @@
+digraph OSSL_trace_string {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00600d80 -> BB00600da2 [color="green"];
+  BB00600d80 -> BB00600d98 [color="red"];
+  BB00600d98 -> BB00600e40 [color="green"];
+  BB00600d98 -> BB00600da2 [color="red"];
+  BB00600da2 -> BB00600e18 [color="green"];
+  BB00600da2 -> BB00600da9 [color="red"];
+  BB00600da9 -> BB00600e70 [color="green"];
+  BB00600da9 -> BB00600db2 [color="red"];
+  BB00600db2 -> BB00600dc0 [color="blue"];
+  BB00600dc0 -> BB00600de3 [color="green"];
+  BB00600dc0 -> BB00600dcb [color="red"];
+  BB00600dcb -> BB00600de3 [color="green"];
+  BB00600dcb -> BB00600dde [color="red"];
+  BB00600dde -> BB00600de3 [color="blue"];
+  BB00600de3 -> BB00600dc0 [color="green"];
+  BB00600de3 -> BB00600df0 [color="red"];
+  BB00600df0 -> BB00600e02 [color="blue"];
+  BB00600e02 -> BB00600e88 [color="green"];
+  BB00600e02 -> BB00600e0a [color="red"];
+  BB00600e0a -> BB00600e18 [color="blue"];
+  BB00600e40 -> BB00600db2 [color="green"];
+  BB00600e40 -> BB00600e64 [color="red"];
+  BB00600e64 -> BB00600e18 [color="blue"];
+  BB00600e70 -> BB00600e02 [color="green"];
+  BB00600e70 -> BB00600e75 [color="red"];
+  BB00600e75 -> BB00600e18 [color="blue"];
+  BB00600e88 -> BB00600e18 [color="blue"];
+}

@@ -1,0 +1,9 @@
+digraph blowfish_128_ecb_newctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006fbde0 -> BB006fbe42 [color="green"];
+  BB006fbde0 -> BB006fbdf6 [color="red"];
+  BB006fbdf6 -> BB006fbe42 [color="green"];
+  BB006fbdf6 -> BB006fbe14 [color="red"];
+  BB006fbe14 -> BB006fbe42 [color="red"];
+}

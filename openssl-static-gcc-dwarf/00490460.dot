@@ -1,0 +1,14 @@
+digraph SSL_get_info_callback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00490460 -> BB00490490 [color="green"];
+  BB00490460 -> BB00490465 [color="red"];
+  BB00490465 -> BB0049047c [color="green"];
+  BB00490465 -> BB0049046b [color="red"];
+  BB0049046b -> BB00490483 [color="green"];
+  BB0049046b -> BB00490473 [color="red"];
+  BB00490473 -> BB00490483 [color="green"];
+  BB00490473 -> BB0049047c [color="red"];
+  BB0049047c -> BB00490483 [color="blue"];
+  BB00490490 -> BB00490483 [color="blue"];
+}

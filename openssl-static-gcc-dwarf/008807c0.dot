@@ -1,0 +1,26 @@
+digraph _IO_file_seekoff_mmap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008807c0 -> BB008808a0 [color="green"];
+  BB008807c0 -> BB008807cf [color="red"];
+  BB008807cf -> BB00880890 [color="green"];
+  BB008807cf -> BB008807db [color="red"];
+  BB008807db -> BB00880868 [color="green"];
+  BB008807db -> BB008807e4 [color="red"];
+  BB008807e4 -> BB008808ca [color="green"];
+  BB008807e4 -> BB008807ed [color="red"];
+  BB008807ed -> BB008808c0 [color="green"];
+  BB008807ed -> BB00880815 [color="red"];
+  BB00880815 -> BB008808e4 [color="green"];
+  BB00880815 -> BB0088082e [color="red"];
+  BB0088082e -> BB00880880 [color="green"];
+  BB0088082e -> BB00880845 [color="red"];
+  BB00880845 -> BB00880850 [color="blue"];
+  BB00880850 -> BB0088085d [color="blue"];
+  BB00880868 -> BB008807e4 [color="blue"];
+  BB00880880 -> BB00880850 [color="blue"];
+  BB00880890 -> BB008807e4 [color="blue"];
+  BB008808c0 -> BB00880815 [color="blue"];
+  BB008808ca -> BB0088085d [color="blue"];
+  BB008808e4 -> BB0088085d [color="blue"];
+}

@@ -1,0 +1,27 @@
+digraph check_purpose_ssl_server {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00669710 -> BB00669726 [color="green"];
+  BB00669710 -> BB0066971a [color="red"];
+  BB0066971a -> BB00669756 [color="green"];
+  BB0066971a -> BB00669726 [color="red"];
+  BB00669726 -> BB00669760 [color="green"];
+  BB00669726 -> BB0066972a [color="red"];
+  BB0066972a -> BB0066973a [color="green"];
+  BB0066972a -> BB0066972e [color="red"];
+  BB0066972e -> BB00669756 [color="green"];
+  BB0066972e -> BB0066973a [color="red"];
+  BB0066973a -> BB00669756 [color="blue"];
+  BB00669760 -> BB00669756 [color="green"];
+  BB00669760 -> BB0066977a [color="red"];
+  BB0066977a -> BB006697c0 [color="green"];
+  BB0066977a -> BB0066977e [color="red"];
+  BB0066977e -> BB00669756 [color="green"];
+  BB0066977e -> BB00669794 [color="red"];
+  BB00669794 -> BB00669756 [color="green"];
+  BB00669794 -> BB00669798 [color="red"];
+  BB00669798 -> BB00669756 [color="green"];
+  BB00669798 -> BB0066979f [color="red"];
+  BB0066979f -> BB00669756 [color="blue"];
+  BB006697c0 -> BB00669756 [color="blue"];
+}

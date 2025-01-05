@@ -1,0 +1,20 @@
+digraph aes_xts_ctrl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005b3b50 -> BB005b3b88 [color="green"];
+  BB005b3b50 -> BB005b3b66 [color="red"];
+  BB005b3b66 -> BB005b3b7f [color="green"];
+  BB005b3b66 -> BB005b3b6f [color="red"];
+  BB005b3b6f -> BB005b3b7f [color="blue"];
+  BB005b3b88 -> BB005b3bb7 [color="green"];
+  BB005b3b88 -> BB005b3b9c [color="red"];
+  BB005b3b9c -> BB005b3bb0 [color="green"];
+  BB005b3b9c -> BB005b3ba1 [color="red"];
+  BB005b3bb0 -> BB005b3bb7 [color="blue"];
+  BB005b3bb7 -> BB005b3be8 [color="green"];
+  BB005b3bb7 -> BB005b3bc3 [color="red"];
+  BB005b3bc3 -> BB005b3ba1 [color="green"];
+  BB005b3bc3 -> BB005b3bcf [color="red"];
+  BB005b3bcf -> BB005b3b7f [color="blue"];
+  BB005b3be8 -> BB005b3b7f [color="blue"];
+}

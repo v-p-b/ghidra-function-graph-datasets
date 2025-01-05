@@ -1,0 +1,12 @@
+digraph ossl_qrx_inject_urxe {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b7350 -> BB004b736b [color="green"];
+  BB004b7350 -> BB004b7368 [color="red"];
+  BB004b7368 -> BB004b736b [color="blue"];
+  BB004b736b -> BB004b73c8 [color="green"];
+  BB004b736b -> BB004b7381 [color="red"];
+  BB004b7381 -> BB004b73d0 [color="green"];
+  BB004b7381 -> BB004b7392 [color="red"];
+  BB004b73c8 -> BB004b7381 [color="blue"];
+}

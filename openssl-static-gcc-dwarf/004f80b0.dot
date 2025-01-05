@@ -1,0 +1,12 @@
+digraph ossl_qlog_event_recovery_packet_lost {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004f80b0 -> BB004f80f0 [color="green"];
+  BB004f80b0 -> BB004f80df [color="red"];
+  BB004f80f0 -> BB004f81c4 [color="green"];
+  BB004f80f0 -> BB004f8109 [color="red"];
+  BB004f8130 -> BB004f815c [color="green"];
+  BB004f8130 -> BB004f814a [color="red"];
+  BB004f814a -> BB004f815c [color="red"];
+  BB004f81c4 -> BB004f8130 [color="blue"];
+}

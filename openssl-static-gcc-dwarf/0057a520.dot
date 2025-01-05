@@ -1,0 +1,11 @@
+digraph ossl_dh_params_fromdata {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0057a520 -> BB0057a550 [color="green"];
+  BB0057a520 -> BB0057a541 [color="red"];
+  BB0057a541 -> BB0057a543 [color="blue"];
+  BB0057a550 -> BB0057a543 [color="green"];
+  BB0057a550 -> BB0057a574 [color="red"];
+  BB0057a574 -> BB0057a541 [color="green"];
+  BB0057a574 -> BB0057a582 [color="red"];
+}

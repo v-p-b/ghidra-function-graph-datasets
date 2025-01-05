@@ -1,0 +1,17 @@
+digraph dtls1_handle_timeout {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004771c0 -> BB004771d8 [color="green"];
+  BB004771c0 -> BB004771d1 [color="red"];
+  BB004771d8 -> BB00477240 [color="green"];
+  BB004771d8 -> BB004771f9 [color="red"];
+  BB004771f9 -> BB00477258 [color="green"];
+  BB004771f9 -> BB0047720b [color="red"];
+  BB0047720b -> BB00477216 [color="blue"];
+  BB00477216 -> BB00477270 [color="green"];
+  BB00477216 -> BB00477222 [color="red"];
+  BB00477240 -> BB004771f9 [color="green"];
+  BB00477240 -> BB0047724e [color="red"];
+  BB00477258 -> BB00477216 [color="blue"];
+  BB00477270 -> BB0047724e [color="blue"];
+}

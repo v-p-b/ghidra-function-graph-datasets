@@ -1,0 +1,13 @@
+digraph blake2b.part.0.constprop.0 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006c2b00 -> BB006c2bbf [color="green"];
+  BB006c2b00 -> BB006c2b31 [color="red"];
+  BB006c2b31 -> BB006c2bd0 [color="green"];
+  BB006c2b31 -> BB006c2bad [color="red"];
+  BB006c2bad -> BB006c2baf [color="blue"];
+  BB006c2baf -> BB006c2bbf [color="red"];
+  BB006c2bd0 -> BB006c2bad [color="green"];
+  BB006c2bd0 -> BB006c2be5 [color="red"];
+  BB006c2be5 -> BB006c2baf [color="blue"];
+}

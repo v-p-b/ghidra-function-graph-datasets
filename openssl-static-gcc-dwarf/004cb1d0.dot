@@ -1,0 +1,14 @@
+digraph tls1_initialise_write_packets {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004cb1d0 -> BB004cb201 [color="green"];
+  BB004cb1d0 -> BB004cb1fc [color="red"];
+  BB004cb1fc -> BB004cb230 [color="green"];
+  BB004cb1fc -> BB004cb201 [color="red"];
+  BB004cb230 -> BB004cb2c0 [color="green"];
+  BB004cb230 -> BB004cb27a [color="red"];
+  BB004cb27a -> BB004cb201 [color="green"];
+  BB004cb27a -> BB004cb2a8 [color="red"];
+  BB004cb2a8 -> BB004cb2d1 [color="blue"];
+  BB004cb2c0 -> BB004cb2d1 [color="red"];
+}

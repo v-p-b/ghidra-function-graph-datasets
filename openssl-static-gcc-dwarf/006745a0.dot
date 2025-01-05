@@ -1,0 +1,17 @@
+digraph X509_find_by_issuer_and_serial {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006745a0 -> BB00674630 [color="green"];
+  BB006745a0 -> BB006745b2 [color="red"];
+  BB006745b2 -> BB006745db [color="blue"];
+  BB006745d8 -> BB006745db [color="blue"];
+  BB006745db -> BB00674630 [color="green"];
+  BB006745db -> BB006745e7 [color="red"];
+  BB006745e7 -> BB006745d8 [color="green"];
+  BB006745e7 -> BB006745f9 [color="red"];
+  BB006745f9 -> BB006745d8 [color="green"];
+  BB006745f9 -> BB00674609 [color="red"];
+  BB00674609 -> BB006745d8 [color="green"];
+  BB00674609 -> BB0067461c [color="red"];
+  BB00674630 -> BB0067461c [color="blue"];
+}

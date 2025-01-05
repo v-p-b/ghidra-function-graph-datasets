@@ -1,0 +1,8 @@
+digraph test_rng_lock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006e3280 -> BB006e3298 [color="green"];
+  BB006e3280 -> BB006e3285 [color="red"];
+  BB006e3285 -> BB006e3298 [color="green"];
+  BB006e3285 -> BB006e328e [color="red"];
+}

@@ -1,0 +1,20 @@
+digraph keccak_init_params {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006ab900 -> BB006ab920 [color="green"];
+  BB006ab900 -> BB006ab913 [color="red"];
+  BB006ab913 -> BB006ab916 [color="blue"];
+  BB006ab920 -> BB006ab913 [color="green"];
+  BB006ab920 -> BB006ab92d [color="red"];
+  BB006ab92d -> BB006ab95c [color="green"];
+  BB006ab92d -> BB006ab932 [color="red"];
+  BB006ab932 -> BB006ab970 [color="green"];
+  BB006ab932 -> BB006ab946 [color="red"];
+  BB006ab946 -> BB006ab990 [color="green"];
+  BB006ab946 -> BB006ab95c [color="red"];
+  BB006ab95c -> BB006ab962 [color="blue"];
+  BB006ab970 -> BB006ab946 [color="green"];
+  BB006ab970 -> BB006ab984 [color="red"];
+  BB006ab984 -> BB006ab962 [color="blue"];
+  BB006ab990 -> BB006ab916 [color="blue"];
+}

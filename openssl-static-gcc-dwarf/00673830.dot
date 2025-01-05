@@ -1,0 +1,35 @@
+digraph X509_issuer_name_cmp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00673830 -> BB006738d0 [color="green"];
+  BB00673830 -> BB00673847 [color="red"];
+  BB00673847 -> BB006738e0 [color="green"];
+  BB00673847 -> BB00673850 [color="red"];
+  BB00673850 -> BB006738b8 [color="green"];
+  BB00673850 -> BB00673857 [color="red"];
+  BB00673857 -> BB006738b8 [color="green"];
+  BB00673857 -> BB0067385e [color="red"];
+  BB0067385e -> BB0067386c [color="green"];
+  BB0067385e -> BB00673865 [color="red"];
+  BB00673865 -> BB0067387a [color="green"];
+  BB00673865 -> BB0067386c [color="red"];
+  BB0067386c -> BB006738c6 [color="green"];
+  BB0067386c -> BB0067387a [color="red"];
+  BB0067387a -> BB006738a4 [color="green"];
+  BB0067387a -> BB00673884 [color="red"];
+  BB00673884 -> BB006738ae [color="green"];
+  BB00673884 -> BB00673888 [color="red"];
+  BB00673888 -> BB006738c6 [color="green"];
+  BB00673888 -> BB00673891 [color="red"];
+  BB00673891 -> BB006738c6 [color="green"];
+  BB00673891 -> BB0067389a [color="red"];
+  BB0067389a -> BB004010d8 [color="green"];
+  BB0067389a -> BB006738a4 [color="red"];
+  BB006738a4 -> BB006738e0 [color="green"];
+  BB006738a4 -> BB006738a8 [color="red"];
+  BB006738a8 -> BB006738ae [color="blue"];
+  BB006738b8 -> BB0067385e [color="green"];
+  BB006738b8 -> BB006738c6 [color="red"];
+  BB006738c6 -> BB006738ae [color="blue"];
+  BB006738e0 -> BB006738ae [color="blue"];
+}

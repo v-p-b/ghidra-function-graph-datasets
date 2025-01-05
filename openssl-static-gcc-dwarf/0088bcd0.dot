@@ -1,0 +1,16 @@
+digraph strncat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0088bcd0 -> BB0088bd18 [color="green"];
+  BB0088bcd0 -> BB0088bce9 [color="red"];
+  BB0088bce9 -> BB0088bcef [color="blue"];
+  BB0088bcef -> BB0088bd14 [color="green"];
+  BB0088bcef -> BB0088bcfb [color="red"];
+  BB0088bcfb -> BB0088bd14 [color="blue"];
+  BB0088bd18 -> BB0088bd14 [color="green"];
+  BB0088bd18 -> BB0088bd33 [color="red"];
+  BB0088bd33 -> BB0088bd14 [color="green"];
+  BB0088bd33 -> BB0088bd43 [color="red"];
+  BB0088bd43 -> BB0088bcef [color="green"];
+  BB0088bd43 -> BB0088bd55 [color="red"];
+}

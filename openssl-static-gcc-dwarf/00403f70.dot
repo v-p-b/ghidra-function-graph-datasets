@@ -1,0 +1,18 @@
+digraph ossl_cmp_mock_srv_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00403f70 -> BB00404063 [color="green"];
+  BB00403f70 -> BB00403f9e [color="red"];
+  BB00403f9e -> BB00404080 [color="green"];
+  BB00403f9e -> BB00403fb6 [color="red"];
+  BB00403fb6 -> BB0040401d [color="green"];
+  BB00403fb6 -> BB00403fc2 [color="red"];
+  BB00403fc2 -> BB00404019 [color="green"];
+  BB00403fc2 -> BB00403fff [color="red"];
+  BB00403fff -> BB0040406e [color="green"];
+  BB00403fff -> BB00404019 [color="red"];
+  BB00404019 -> BB0040401d [color="blue"];
+  BB0040401d -> BB00404063 [color="red"];
+  BB00404063 -> BB0040406e [color="red"];
+  BB00404080 -> BB0040401d [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph SSL_get_event_timeout {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004947d0 -> BB004947f0 [color="green"];
+  BB004947d0 -> BB004947e2 [color="red"];
+  BB004947e2 -> BB00494850 [color="green"];
+  BB004947e2 -> BB004947ec [color="red"];
+  BB004947ec -> BB00494818 [color="green"];
+  BB004947ec -> BB004947f0 [color="red"];
+  BB004947f0 -> BB00494804 [color="blue"];
+  BB00494818 -> BB004947f0 [color="green"];
+  BB00494818 -> BB00494829 [color="red"];
+  BB00494829 -> BB004947f0 [color="green"];
+  BB00494829 -> BB00494840 [color="red"];
+  BB00494840 -> BB00494804 [color="blue"];
+}

@@ -1,0 +1,24 @@
+digraph ssl_read_internal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048ac60 -> BB0048ad00 [color="green"];
+  BB0048ac60 -> BB0048ac69 [color="red"];
+  BB0048ac69 -> BB0048ace0 [color="green"];
+  BB0048ac69 -> BB0048ac86 [color="red"];
+  BB0048ac86 -> BB0048adbe [color="green"];
+  BB0048ac86 -> BB0048ac91 [color="red"];
+  BB0048ac91 -> BB0048ad10 [color="green"];
+  BB0048ac91 -> BB0048ac97 [color="red"];
+  BB0048ac97 -> BB0048ad80 [color="green"];
+  BB0048ac97 -> BB0048aca6 [color="red"];
+  BB0048aca6 -> BB0048ad80 [color="green"];
+  BB0048aca6 -> BB0048acaf [color="red"];
+  BB0048acaf -> BB0048ad28 [color="green"];
+  BB0048acaf -> BB0048acbf [color="red"];
+  BB0048ace0 -> BB0048acbf [color="green"];
+  BB0048ace0 -> BB0048aced [color="red"];
+  BB0048ad28 -> BB0048acbf [color="green"];
+  BB0048ad28 -> BB0048ad32 [color="red"];
+  BB0048ad32 -> BB0048aced [color="blue"];
+  BB0048adbe -> BB0048aced [color="blue"];
+}

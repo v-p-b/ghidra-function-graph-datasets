@@ -1,0 +1,27 @@
+digraph dgram_pair_recvmmsg {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005391d0 -> BB005392a0 [color="green"];
+  BB005391d0 -> BB005391eb [color="red"];
+  BB005391eb -> BB00539358 [color="green"];
+  BB005391eb -> BB005391fb [color="red"];
+  BB005391fb -> BB00539214 [color="green"];
+  BB005391fb -> BB00539210 [color="red"];
+  BB00539210 -> BB00539214 [color="blue"];
+  BB00539214 -> BB00539308 [color="green"];
+  BB00539214 -> BB00539228 [color="red"];
+  BB00539228 -> BB00539230 [color="blue"];
+  BB00539230 -> BB005392b0 [color="green"];
+  BB00539230 -> BB00539252 [color="red"];
+  BB00539252 -> BB00539230 [color="green"];
+  BB00539252 -> BB0053926a [color="red"];
+  BB0053926a -> BB00539277 [color="blue"];
+  BB00539277 -> BB00539288 [color="red"];
+  BB005392a0 -> BB00539288 [color="blue"];
+  BB005392b0 -> BB00539277 [color="green"];
+  BB005392b0 -> BB005392c2 [color="red"];
+  BB005392c2 -> BB00539277 [color="blue"];
+  BB00539308 -> BB00539330 [color="red"];
+  BB00539330 -> BB00539288 [color="blue"];
+  BB00539358 -> BB00539330 [color="blue"];
+}

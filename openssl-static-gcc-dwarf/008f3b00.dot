@@ -1,0 +1,15 @@
+digraph __libc_dlopen_mode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008f3b00 -> BB008f3b90 [color="green"];
+  BB008f3b00 -> BB008f3b40 [color="red"];
+  BB008f3b40 -> BB008f3b63 [color="green"];
+  BB008f3b40 -> BB008f3b59 [color="red"];
+  BB008f3b59 -> BB008f3b63 [color="blue"];
+  BB008f3b63 -> BB008f3b81 [color="green"];
+  BB008f3b63 -> BB008f3b77 [color="red"];
+  BB008f3b77 -> BB008f3b81 [color="blue"];
+  BB008f3b81 -> BB008f3b90 [color="red"];
+  BB008f3b90 -> BB008f3ba6 [color="green"];
+  BB008f3b90 -> BB008f3ba0 [color="red"];
+}

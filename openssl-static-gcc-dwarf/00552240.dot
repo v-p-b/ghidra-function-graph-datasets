@@ -1,0 +1,28 @@
+digraph BUF_MEM_grow_clean {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00552240 -> BB00552368 [color="green"];
+  BB00552240 -> BB00552260 [color="red"];
+  BB00552260 -> BB005523c8 [color="green"];
+  BB00552260 -> BB0055226d [color="red"];
+  BB0055226d -> BB00552380 [color="green"];
+  BB0055226d -> BB0055227a [color="red"];
+  BB0055227a -> BB00552330 [color="green"];
+  BB0055227a -> BB005522a3 [color="red"];
+  BB005522a3 -> BB0055234c [color="green"];
+  BB005522a3 -> BB005522c7 [color="red"];
+  BB005522c7 -> BB00552351 [color="green"];
+  BB005522c7 -> BB005522d0 [color="red"];
+  BB005522d0 -> BB00401070 [color="green"];
+  BB005522d0 -> BB005522f9 [color="red"];
+  BB005522f9 -> BB00401080 [color="green"];
+  BB005522f9 -> BB00552316 [color="red"];
+  BB00552330 -> BB0055234c [color="red"];
+  BB0055234c -> BB005522f9 [color="green"];
+  BB0055234c -> BB00552351 [color="red"];
+  BB00552368 -> BB00552316 [color="green"];
+  BB00552368 -> BB00552371 [color="red"];
+  BB00552371 -> BB00401080 [color="blue"];
+  BB00552371 -> BB00552316 [color="blue"];
+  BB005523c8 -> BB00401080 [color="blue"];
+}

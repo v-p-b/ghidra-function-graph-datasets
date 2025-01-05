@@ -1,0 +1,17 @@
+digraph init_thread_remove_handlers {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005ed790 -> BB005ed7d3 [color="green"];
+  BB005ed790 -> BB005ed7ae [color="red"];
+  BB005ed7ae -> BB005ed7d3 [color="green"];
+  BB005ed7ae -> BB005ed7b8 [color="red"];
+  BB005ed7b8 -> BB005ed7d3 [color="green"];
+  BB005ed7b8 -> BB005ed7c4 [color="red"];
+  BB005ed7c4 -> BB005ed7f2 [color="green"];
+  BB005ed7c4 -> BB005ed7d3 [color="red"];
+  BB005ed7e0 -> BB005ed810 [color="green"];
+  BB005ed7e0 -> BB005ed7ef [color="red"];
+  BB005ed7ef -> BB005ed7f2 [color="blue"];
+  BB005ed7f2 -> BB005ed7e0 [color="green"];
+  BB005ed7f2 -> BB005ed7fe [color="red"];
+}

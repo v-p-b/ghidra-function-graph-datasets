@@ -1,0 +1,18 @@
+digraph BN_consttime_swap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00541000 -> BB0054113a [color="green"];
+  BB00541000 -> BB00541066 [color="red"];
+  BB00541066 -> BB00541110 [color="green"];
+  BB00541066 -> BB0054107d [color="red"];
+  BB0054107d -> BB00541110 [color="green"];
+  BB0054107d -> BB0054108a [color="red"];
+  BB0054108a -> BB005410a8 [color="blue"];
+  BB005410a8 -> BB005410a8 [color="green"];
+  BB005410a8 -> BB005410de [color="red"];
+  BB005410de -> BB0054113a [color="green"];
+  BB005410de -> BB005410ea [color="red"];
+  BB00541110 -> BB00541118 [color="blue"];
+  BB00541118 -> BB00541118 [color="green"];
+  BB00541118 -> BB0054113a [color="red"];
+}

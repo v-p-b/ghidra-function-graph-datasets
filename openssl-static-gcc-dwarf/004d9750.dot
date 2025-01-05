@@ -1,0 +1,17 @@
+digraph tls_parse_ctos_ec_pt_formats {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d9750 -> BB004d9775 [color="green"];
+  BB004d9750 -> BB004d9766 [color="red"];
+  BB004d9766 -> BB004d97c0 [color="green"];
+  BB004d9766 -> BB004d9775 [color="red"];
+  BB004d9775 -> BB004d97ab [color="red"];
+  BB004d97c0 -> BB004d9775 [color="green"];
+  BB004d97c0 -> BB004d97d9 [color="red"];
+  BB004d97d9 -> BB004d9800 [color="green"];
+  BB004d97d9 -> BB004d97e5 [color="red"];
+  BB004d9800 -> BB004d9863 [color="green"];
+  BB004d9800 -> BB004d9851 [color="red"];
+  BB004d9851 -> BB004d97ab [color="blue"];
+  BB004d9863 -> BB004d97ab [color="blue"];
+}

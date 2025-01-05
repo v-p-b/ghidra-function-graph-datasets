@@ -1,0 +1,11 @@
+digraph CRYPTO_memcmp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00601120 -> BB0060117d [color="green"];
+  BB00601120 -> BB00601130 [color="red"];
+  BB00601130 -> BB00601160 [color="green"];
+  BB00601130 -> BB00601136 [color="red"];
+  BB00601160 -> BB00601160 [color="green"];
+  BB00601160 -> BB00601176 [color="red"];
+  BB00601176 -> BB0060117d [color="blue"];
+}

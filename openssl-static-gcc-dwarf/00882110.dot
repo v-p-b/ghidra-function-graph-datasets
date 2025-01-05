@@ -1,0 +1,19 @@
+digraph _IO_switch_to_get_mode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00882110 -> BB0088215b [color="green"];
+  BB00882110 -> BB00882123 [color="red"];
+  BB00882123 -> BB008821a0 [color="green"];
+  BB00882123 -> BB00882147 [color="red"];
+  BB00882147 -> BB00882187 [color="green"];
+  BB00882147 -> BB00882157 [color="red"];
+  BB00882157 -> BB0088215b [color="blue"];
+  BB0088215b -> BB00882190 [color="green"];
+  BB0088215b -> BB00882162 [color="red"];
+  BB00882162 -> BB00882174 [color="green"];
+  BB00882162 -> BB00882170 [color="red"];
+  BB00882170 -> BB00882174 [color="blue"];
+  BB00882174 -> BB00882187 [color="blue"];
+  BB00882190 -> BB00882174 [color="blue"];
+  BB008821a0 -> BB00882147 [color="blue"];
+}

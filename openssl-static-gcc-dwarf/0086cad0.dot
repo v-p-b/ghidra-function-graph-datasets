@@ -1,0 +1,10 @@
+digraph char_buffer_add_slow {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0086cad0 -> BB0086cb20 [color="green"];
+  BB0086cad0 -> BB0086cad6 [color="red"];
+  BB0086cad6 -> BB0086cb28 [color="green"];
+  BB0086cad6 -> BB0086caf6 [color="red"];
+  BB0086caf6 -> BB0086cb12 [color="blue"];
+  BB0086cb28 -> BB0086cb12 [color="blue"];
+}

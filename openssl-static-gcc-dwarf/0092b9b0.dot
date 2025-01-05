@@ -1,0 +1,20 @@
+digraph __register_frame_info_bases {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0092b9b0 -> BB0092ba40 [color="green"];
+  BB0092b9b0 -> BB0092b9b9 [color="red"];
+  BB0092b9b9 -> BB0092ba40 [color="green"];
+  BB0092b9b9 -> BB0092b9c1 [color="red"];
+  BB0092b9c1 -> BB0092b9fd [color="green"];
+  BB0092b9c1 -> BB0092b9f1 [color="red"];
+  BB0092b9f1 -> BB00000000 [color="green"];
+  BB0092b9f1 -> BB0092b9fd [color="red"];
+  BB0092b9fd -> BB0092ba48 [color="green"];
+  BB0092b9fd -> BB0092ba19 [color="red"];
+  BB0092ba19 -> BB0092ba30 [color="green"];
+  BB0092ba19 -> BB0092ba1e [color="red"];
+  BB0092ba1e -> BB00000000 [color="blue"];
+  BB0092ba48 -> BB0092ba1e [color="green"];
+  BB0092ba48 -> BB0092ba57 [color="red"];
+  BB0092ba57 -> BB0092ba30 [color="blue"];
+}

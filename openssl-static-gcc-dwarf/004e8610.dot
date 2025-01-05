@@ -1,0 +1,26 @@
+digraph dtls1_buffer_message {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004e8610 -> BB004e8810 [color="green"];
+  BB004e8610 -> BB004e861e [color="red"];
+  BB004e861e -> BB004e87b2 [color="green"];
+  BB004e861e -> BB004e8657 [color="red"];
+  BB004e8657 -> BB004e87c0 [color="green"];
+  BB004e8657 -> BB004e8662 [color="red"];
+  BB004e8662 -> BB00401070 [color="green"];
+  BB004e8662 -> BB004e8750 [color="green"];
+  BB004e8662 -> BB004e869e [color="red"];
+  BB004e869e -> BB004e8778 [color="green"];
+  BB004e869e -> BB004e86b2 [color="red"];
+  BB004e86b2 -> BB004e8800 [color="green"];
+  BB004e86b2 -> BB004e8727 [color="red"];
+  BB004e8727 -> BB004e873f [color="red"];
+  BB004e8750 -> BB004e86b2 [color="green"];
+  BB004e8750 -> BB004e8771 [color="red"];
+  BB004e8771 -> BB004e8778 [color="blue"];
+  BB004e8778 -> BB004e87b2 [color="red"];
+  BB004e87c0 -> BB004e8662 [color="green"];
+  BB004e87c0 -> BB004e87e0 [color="red"];
+  BB004e87e0 -> BB004e873f [color="blue"];
+  BB004e8800 -> BB004e8778 [color="blue"];
+}

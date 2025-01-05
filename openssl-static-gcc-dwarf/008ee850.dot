@@ -1,0 +1,20 @@
+digraph _dl_find_dso_for_object {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008ee850 -> BB008ee8a8 [color="green"];
+  BB008ee850 -> BB008ee861 [color="red"];
+  BB008ee861 -> BB008ee8a8 [color="green"];
+  BB008ee861 -> BB008ee870 [color="red"];
+  BB008ee870 -> BB008ee89e [color="green"];
+  BB008ee870 -> BB008ee87a [color="red"];
+  BB008ee87a -> BB008ee89e [color="green"];
+  BB008ee87a -> BB008ee884 [color="red"];
+  BB008ee884 -> BB008ee8c0 [color="green"];
+  BB008ee884 -> BB008ee88f [color="red"];
+  BB008ee88f -> BB008ee8c0 [color="green"];
+  BB008ee88f -> BB008ee89e [color="red"];
+  BB008ee89e -> BB008ee870 [color="green"];
+  BB008ee89e -> BB008ee8a8 [color="red"];
+  BB008ee8c0 -> BB008ee8d3 [color="green"];
+  BB008ee8c0 -> BB008ee8c8 [color="red"];
+}

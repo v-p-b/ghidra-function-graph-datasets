@@ -1,0 +1,14 @@
+digraph ossl_quic_stream_map_alloc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004be950 -> BB004bea18 [color="green"];
+  BB004be950 -> BB004be97e [color="red"];
+  BB004be97e -> BB004bea18 [color="green"];
+  BB004be97e -> BB004be99c [color="red"];
+  BB004be99c -> BB004bea20 [color="green"];
+  BB004be99c -> BB004be9d8 [color="red"];
+  BB004be9d8 -> BB004be9e5 [color="blue"];
+  BB004be9e5 -> BB004bea02 [color="red"];
+  BB004bea18 -> BB004bea02 [color="blue"];
+  BB004bea20 -> BB004be9e5 [color="blue"];
+}

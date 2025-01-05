@@ -1,0 +1,16 @@
+digraph final_sig_algs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d1470 -> BB004d14b7 [color="green"];
+  BB004d1470 -> BB004d1481 [color="red"];
+  BB004d1481 -> BB004d14b7 [color="green"];
+  BB004d1481 -> BB004d1495 [color="red"];
+  BB004d1495 -> BB004d14b1 [color="green"];
+  BB004d1495 -> BB004d149e [color="red"];
+  BB004d149e -> BB004d14b1 [color="green"];
+  BB004d149e -> BB004d14a5 [color="red"];
+  BB004d14a5 -> BB004d14c8 [color="green"];
+  BB004d14a5 -> BB004d14b1 [color="red"];
+  BB004d14b1 -> BB004d14b7 [color="blue"];
+  BB004d14c8 -> BB004d14b7 [color="blue"];
+}

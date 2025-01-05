@@ -1,0 +1,22 @@
+digraph do_dtls1_write {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c70f0 -> BB004c7128 [color="green"];
+  BB004c70f0 -> BB004c7117 [color="red"];
+  BB004c7117 -> BB004c7130 [color="green"];
+  BB004c7117 -> BB004c7128 [color="red"];
+  BB004c7128 -> BB004c7148 [color="green"];
+  BB004c7128 -> BB004c7130 [color="red"];
+  BB004c7148 -> BB004c71e8 [color="green"];
+  BB004c7148 -> BB004c715b [color="red"];
+  BB004c715b -> BB004c71d0 [color="green"];
+  BB004c715b -> BB004c716b [color="red"];
+  BB004c716b -> BB004c716e [color="blue"];
+  BB004c716e -> BB004c7130 [color="green"];
+  BB004c716e -> BB004c71bc [color="red"];
+  BB004c71bc -> BB004c7130 [color="blue"];
+  BB004c71d0 -> BB004c716e [color="green"];
+  BB004c71d0 -> BB004c71e1 [color="red"];
+  BB004c71e1 -> BB004c716b [color="blue"];
+  BB004c71e8 -> BB004c7130 [color="blue"];
+}

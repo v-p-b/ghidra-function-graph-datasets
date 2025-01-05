@@ -1,0 +1,26 @@
+digraph _IO_file_sync {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00881720 -> BB00881763 [color="green"];
+  BB00881720 -> BB00881736 [color="red"];
+  BB00881736 -> BB008817c8 [color="green"];
+  BB00881736 -> BB00881744 [color="red"];
+  BB00881744 -> BB008817d8 [color="green"];
+  BB00881744 -> BB00881763 [color="red"];
+  BB00881763 -> BB008817ad [color="green"];
+  BB00881763 -> BB0088176d [color="red"];
+  BB0088176d -> BB008817f0 [color="green"];
+  BB0088176d -> BB00881791 [color="red"];
+  BB00881791 -> BB008817e0 [color="green"];
+  BB00881791 -> BB008817a5 [color="red"];
+  BB008817a5 -> BB008817ad [color="blue"];
+  BB008817ad -> BB008817ba [color="blue"];
+  BB008817c8 -> BB00881763 [color="green"];
+  BB008817c8 -> BB008817d4 [color="red"];
+  BB008817d4 -> BB008817d8 [color="blue"];
+  BB008817d8 -> BB008817ba [color="blue"];
+  BB008817e0 -> BB008817ad [color="green"];
+  BB008817e0 -> BB008817ed [color="red"];
+  BB008817ed -> BB008817d8 [color="blue"];
+  BB008817f0 -> BB00881791 [color="blue"];
+}

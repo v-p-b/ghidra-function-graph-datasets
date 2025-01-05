@@ -1,0 +1,25 @@
+digraph ossl_aria_set_encrypt_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00718c10 -> BB00719820 [color="green"];
+  BB00718c10 -> BB00718c3e [color="red"];
+  BB00718c3e -> BB00719820 [color="green"];
+  BB00718c3e -> BB00718c47 [color="red"];
+  BB00718c47 -> BB00718c60 [color="green"];
+  BB00718c47 -> BB00718c54 [color="red"];
+  BB00718c54 -> BB00719816 [color="green"];
+  BB00718c54 -> BB00718c60 [color="red"];
+  BB00718c60 -> BB00718f4f [color="green"];
+  BB00718c60 -> BB00718ea3 [color="red"];
+  BB00718ea3 -> BB00718f4f [color="green"];
+  BB00718ea3 -> BB00718efd [color="red"];
+  BB00718efd -> BB00718f4f [color="blue"];
+  BB00718f4f -> BB00719809 [color="green"];
+  BB00718f4f -> BB007196bb [color="red"];
+  BB007196bb -> BB00719809 [color="green"];
+  BB007196bb -> BB00719791 [color="red"];
+  BB00719791 -> BB00719809 [color="blue"];
+  BB00719809 -> BB0071980b [color="blue"];
+  BB00719816 -> BB0071980b [color="blue"];
+  BB00719820 -> BB0071980b [color="blue"];
+}

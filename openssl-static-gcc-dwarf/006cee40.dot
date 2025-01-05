@@ -1,0 +1,22 @@
+digraph eckem_decapsulate_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006cee40 -> BB006cee60 [color="green"];
+  BB006cee40 -> BB006cee56 [color="red"];
+  BB006cee56 -> BB006cee58 [color="blue"];
+  BB006cee60 -> BB006cee56 [color="green"];
+  BB006cee60 -> BB006cee71 [color="red"];
+  BB006cee71 -> BB006ceecf [color="green"];
+  BB006cee71 -> BB006cee87 [color="red"];
+  BB006cee87 -> BB006ceefa [color="green"];
+  BB006cee87 -> BB006ceea6 [color="red"];
+  BB006ceea6 -> BB006ceefa [color="green"];
+  BB006ceea6 -> BB006ceeb4 [color="red"];
+  BB006ceeb4 -> BB006cee56 [color="green"];
+  BB006ceeb4 -> BB006ceec0 [color="red"];
+  BB006ceec0 -> BB006ceecf [color="blue"];
+  BB006ceecf -> BB006ceef0 [color="green"];
+  BB006ceecf -> BB006ceedb [color="red"];
+  BB006ceef0 -> BB006cee58 [color="blue"];
+  BB006ceefa -> BB006cee58 [color="blue"];
+}

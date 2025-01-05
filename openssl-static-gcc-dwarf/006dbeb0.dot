@@ -1,0 +1,9 @@
+digraph poly1305_dup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006dbeb0 -> BB006dbeec [color="green"];
+  BB006dbeb0 -> BB006dbec3 [color="red"];
+  BB006dbec3 -> BB006dbeec [color="green"];
+  BB006dbec3 -> BB006dbede [color="red"];
+  BB006dbede -> BB006dbeec [color="blue"];
+}

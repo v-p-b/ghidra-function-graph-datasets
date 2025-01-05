@@ -1,0 +1,20 @@
+digraph malloc_usable_size {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0088aeb0 -> BB0088aef8 [color="green"];
+  BB0088aeb0 -> BB0088aeb5 [color="red"];
+  BB0088aeb5 -> BB0088af00 [color="green"];
+  BB0088aeb5 -> BB0088aed3 [color="red"];
+  BB0088aed3 -> BB0088aee0 [color="green"];
+  BB0088aed3 -> BB0088aed8 [color="red"];
+  BB0088af00 -> BB0088aed8 [color="green"];
+  BB0088af00 -> BB0088af35 [color="red"];
+  BB0088af35 -> BB0088af38 [color="blue"];
+  BB0088af38 -> BB0088af53 [color="green"];
+  BB0088af38 -> BB0088af3c [color="red"];
+  BB0088af3c -> BB0088af53 [color="green"];
+  BB0088af3c -> BB0088af45 [color="red"];
+  BB0088af45 -> BB0088af38 [color="green"];
+  BB0088af45 -> BB0088af51 [color="red"];
+  BB0088af51 -> BB0088aed8 [color="blue"];
+}

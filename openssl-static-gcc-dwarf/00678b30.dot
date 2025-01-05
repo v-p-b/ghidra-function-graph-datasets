@@ -1,0 +1,36 @@
+digraph X509_TRUST_add {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00678b30 -> BB00678d10 [color="green"];
+  BB00678b30 -> BB00678b62 [color="red"];
+  BB00678b62 -> BB00678c28 [color="green"];
+  BB00678b62 -> BB00678b72 [color="red"];
+  BB00678b72 -> BB00678c28 [color="green"];
+  BB00678b72 -> BB00678b96 [color="red"];
+  BB00678b96 -> BB00678c28 [color="green"];
+  BB00678b96 -> BB00678b9f [color="red"];
+  BB00678b9f -> BB00678bae [color="red"];
+  BB00678bae -> BB00678bca [color="green"];
+  BB00678bae -> BB00678bb5 [color="red"];
+  BB00678bb5 -> BB00678bca [color="red"];
+  BB00678bca -> BB00678d09 [color="green"];
+  BB00678bca -> BB00678beb [color="red"];
+  BB00678beb -> BB00678c0d [color="blue"];
+  BB00678c0d -> BB00678c12 [color="blue"];
+  BB00678c28 -> BB00678d09 [color="green"];
+  BB00678c28 -> BB00678c4a [color="red"];
+  BB00678c4a -> BB00678ce0 [color="green"];
+  BB00678c4a -> BB00678c6e [color="red"];
+  BB00678c6e -> BB00678d30 [color="green"];
+  BB00678c6e -> BB00678ca0 [color="red"];
+  BB00678ca0 -> BB00678c0d [color="green"];
+  BB00678ca0 -> BB00678cb0 [color="red"];
+  BB00678cb0 -> BB00678cc1 [color="red"];
+  BB00678cc1 -> BB00678ce0 [color="red"];
+  BB00678ce0 -> BB00678d09 [color="red"];
+  BB00678d09 -> BB00678c12 [color="blue"];
+  BB00678d10 -> BB00678bae [color="blue"];
+  BB00678d30 -> BB00678ca0 [color="green"];
+  BB00678d30 -> BB00678d4f [color="red"];
+  BB00678d4f -> BB00678cc1 [color="blue"];
+}

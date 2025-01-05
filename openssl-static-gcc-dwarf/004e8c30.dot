@@ -1,0 +1,18 @@
+digraph dtls1_close_construct_packet {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004e8c30 -> BB004e8c58 [color="green"];
+  BB004e8c30 -> BB004e8c48 [color="red"];
+  BB004e8c48 -> BB004e8ce0 [color="green"];
+  BB004e8c48 -> BB004e8c58 [color="red"];
+  BB004e8c58 -> BB004e8ce0 [color="green"];
+  BB004e8c58 -> BB004e8c69 [color="red"];
+  BB004e8c69 -> BB004e8ce0 [color="green"];
+  BB004e8c69 -> BB004e8c76 [color="red"];
+  BB004e8c76 -> BB004e8cf0 [color="green"];
+  BB004e8c76 -> BB004e8c7e [color="red"];
+  BB004e8c7e -> BB004e8ce2 [color="green"];
+  BB004e8c7e -> BB004e8cb6 [color="red"];
+  BB004e8ce0 -> BB004e8ce2 [color="blue"];
+  BB004e8cf0 -> BB004e8cb6 [color="blue"];
+}

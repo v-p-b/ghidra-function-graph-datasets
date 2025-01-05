@@ -1,0 +1,25 @@
+digraph BN_mod_lshift_quick {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00541ff0 -> BB00542018 [color="green"];
+  BB00541ff0 -> BB00542007 [color="red"];
+  BB00542007 -> BB0054206f [color="green"];
+  BB00542007 -> BB00542011 [color="red"];
+  BB00542011 -> BB00542018 [color="blue"];
+  BB00542018 -> BB00542098 [color="green"];
+  BB00542018 -> BB0054201c [color="red"];
+  BB0054201c -> BB005420b0 [color="green"];
+  BB0054201c -> BB00542032 [color="red"];
+  BB00542032 -> BB00542080 [color="green"];
+  BB00542032 -> BB0054203b [color="red"];
+  BB0054203b -> BB0054206f [color="green"];
+  BB0054203b -> BB0054204c [color="red"];
+  BB0054204c -> BB0054204e [color="blue"];
+  BB0054204e -> BB00542018 [color="green"];
+  BB0054204e -> BB0054205d [color="red"];
+  BB0054205d -> BB00542018 [color="green"];
+  BB0054205d -> BB0054206f [color="red"];
+  BB00542080 -> BB0054206f [color="green"];
+  BB00542080 -> BB0054208f [color="red"];
+  BB0054208f -> BB0054204e [color="blue"];
+}

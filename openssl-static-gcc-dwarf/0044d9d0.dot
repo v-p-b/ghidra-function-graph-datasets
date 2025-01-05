@@ -1,0 +1,17 @@
+digraph EdDSA_verify_loop {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0044d9d0 -> BB0044da63 [color="green"];
+  BB0044d9d0 -> BB0044d9f3 [color="red"];
+  BB0044d9f3 -> BB0044da4d [color="blue"];
+  BB0044da00 -> BB0044da70 [color="green"];
+  BB0044da00 -> BB0044da1c [color="red"];
+  BB0044da1c -> BB0044dab0 [color="green"];
+  BB0044da1c -> BB0044da3f [color="red"];
+  BB0044da3f -> BB0044da63 [color="green"];
+  BB0044da3f -> BB0044da4d [color="red"];
+  BB0044da4d -> BB0044da00 [color="green"];
+  BB0044da4d -> BB0044da63 [color="red"];
+  BB0044da70 -> BB0044da7e [color="blue"];
+  BB0044dab0 -> BB0044da7e [color="blue"];
+}

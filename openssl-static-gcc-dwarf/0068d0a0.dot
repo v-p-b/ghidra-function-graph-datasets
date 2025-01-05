@@ -1,0 +1,22 @@
+digraph padlock_aes_init_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0068d0a0 -> BB0068d189 [color="green"];
+  BB0068d0a0 -> BB0068d0db [color="red"];
+  BB0068d0db -> BB0068d1a0 [color="green"];
+  BB0068d0db -> BB0068d133 [color="red"];
+  BB0068d133 -> BB0068d1e8 [color="green"];
+  BB0068d133 -> BB0068d17e [color="red"];
+  BB0068d17e -> BB0068d1c8 [color="green"];
+  BB0068d17e -> BB0068d189 [color="red"];
+  BB0068d1a0 -> BB0068d133 [color="blue"];
+  BB0068d1c8 -> BB0068d1d7 [color="blue"];
+  BB0068d1d7 -> BB0068d189 [color="blue"];
+  BB0068d1e8 -> BB0068d201 [color="green"];
+  BB0068d1e8 -> BB0068d1fc [color="red"];
+  BB0068d1fc -> BB0068d218 [color="green"];
+  BB0068d1fc -> BB0068d201 [color="red"];
+  BB0068d201 -> BB0068d206 [color="red"];
+  BB0068d206 -> BB0068d1d7 [color="blue"];
+  BB0068d218 -> BB0068d206 [color="blue"];
+}

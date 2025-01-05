@@ -1,0 +1,20 @@
+digraph tls_group_allowed {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0049f410 -> BB0049f4b0 [color="green"];
+  BB0049f410 -> BB0049f42b [color="red"];
+  BB0049f42b -> BB0049f44d [color="blue"];
+  BB0049f440 -> BB0049f4b0 [color="green"];
+  BB0049f440 -> BB0049f44d [color="red"];
+  BB0049f44d -> BB0049f440 [color="green"];
+  BB0049f44d -> BB0049f453 [color="red"];
+  BB0049f453 -> BB0049f482 [color="green"];
+  BB0049f453 -> BB0049f473 [color="red"];
+  BB0049f473 -> BB0049f493 [color="blue"];
+  BB0049f478 -> BB0049f4b8 [color="green"];
+  BB0049f478 -> BB0049f482 [color="red"];
+  BB0049f482 -> BB0049f478 [color="green"];
+  BB0049f482 -> BB0049f488 [color="red"];
+  BB0049f488 -> BB0049f493 [color="blue"];
+  BB0049f4b8 -> BB0049f493 [color="blue"];
+}

@@ -1,0 +1,27 @@
+digraph ossl_quic_lcidm_retire {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00500a60 -> BB00500ba0 [color="green"];
+  BB00500a60 -> BB00500a95 [color="red"];
+  BB00500a95 -> BB00500b86 [color="green"];
+  BB00500a95 -> BB00500ac2 [color="red"];
+  BB00500ac2 -> BB00500b86 [color="green"];
+  BB00500ac2 -> BB00500af0 [color="red"];
+  BB00500af0 -> BB00500b20 [color="green"];
+  BB00500af0 -> BB00500af5 [color="red"];
+  BB00500af5 -> BB00500b20 [color="green"];
+  BB00500af5 -> BB00500aff [color="red"];
+  BB00500aff -> BB00500b20 [color="green"];
+  BB00500aff -> BB00500b04 [color="red"];
+  BB00500b04 -> BB004010d8 [color="green"];
+  BB00500b04 -> BB00500ba0 [color="green"];
+  BB00500b04 -> BB00500b19 [color="red"];
+  BB00500b19 -> BB00500b20 [color="blue"];
+  BB00500b20 -> BB00500b41 [color="green"];
+  BB00500b20 -> BB00500b2c [color="red"];
+  BB00500b2c -> BB00500b41 [color="blue"];
+  BB00500b41 -> BB00500b4d [color="green"];
+  BB00500b41 -> BB00500b46 [color="red"];
+  BB00500b46 -> BB00500b4d [color="blue"];
+  BB00500b4d -> BB00500b86 [color="red"];
+}

@@ -1,0 +1,32 @@
+digraph ecdsa_sha512_verify_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006e9670 -> BB006e9690 [color="green"];
+  BB006e9670 -> BB006e9686 [color="red"];
+  BB006e9686 -> BB006e9688 [color="blue"];
+  BB006e9690 -> BB006e9686 [color="green"];
+  BB006e9690 -> BB006e969a [color="red"];
+  BB006e969a -> BB006e9686 [color="green"];
+  BB006e969a -> BB006e969e [color="red"];
+  BB006e969e -> BB006e9748 [color="green"];
+  BB006e969e -> BB006e96a7 [color="red"];
+  BB006e96a7 -> BB006e9686 [color="green"];
+  BB006e96a7 -> BB006e96b3 [color="red"];
+  BB006e96b3 -> BB006e96c0 [color="red"];
+  BB006e96c0 -> BB006e9686 [color="green"];
+  BB006e96c0 -> BB006e96d6 [color="red"];
+  BB006e96d6 -> BB006e9686 [color="green"];
+  BB006e96d6 -> BB006e96eb [color="red"];
+  BB006e96eb -> BB006e9790 [color="green"];
+  BB006e96eb -> BB006e9708 [color="red"];
+  BB006e9708 -> BB006e9688 [color="green"];
+  BB006e9708 -> BB006e9728 [color="red"];
+  BB006e9728 -> BB006e972f [color="blue"];
+  BB006e972f -> BB006e9686 [color="blue"];
+  BB006e9748 -> BB006e96c0 [color="green"];
+  BB006e9748 -> BB006e9753 [color="red"];
+  BB006e9753 -> BB006e9688 [color="blue"];
+  BB006e9790 -> BB006e9708 [color="green"];
+  BB006e9790 -> BB006e97a8 [color="red"];
+  BB006e97a8 -> BB006e972f [color="blue"];
+}

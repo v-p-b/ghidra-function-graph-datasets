@@ -1,0 +1,14 @@
+digraph final_psk {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d1380 -> BB004d1392 [color="green"];
+  BB004d1380 -> BB004d138e [color="red"];
+  BB004d138e -> BB004d13a8 [color="green"];
+  BB004d138e -> BB004d1392 [color="red"];
+  BB004d1392 -> BB004d1398 [color="blue"];
+  BB004d13a8 -> BB004d1398 [color="green"];
+  BB004d13a8 -> BB004d13bd [color="red"];
+  BB004d13bd -> BB004d1392 [color="green"];
+  BB004d13bd -> BB004d13d0 [color="red"];
+  BB004d13d0 -> BB004d1398 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph ASN1_TYPE_set {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005185d0 -> BB00518607 [color="green"];
+  BB005185d0 -> BB005185ed [color="red"];
+  BB005185ed -> BB00518607 [color="green"];
+  BB005185ed -> BB005185f4 [color="red"];
+  BB005185f4 -> BB00518607 [color="red"];
+  BB00518607 -> BB00518620 [color="green"];
+  BB00518607 -> BB0051860e [color="red"];
+}

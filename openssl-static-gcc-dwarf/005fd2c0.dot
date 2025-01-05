@@ -1,0 +1,22 @@
+digraph core_get_params {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005fd2c0 -> BB005fd2f3 [color="green"];
+  BB005fd2c0 -> BB005fd2e4 [color="red"];
+  BB005fd2e4 -> BB005fd2f3 [color="red"];
+  BB005fd2f3 -> BB005fd314 [color="green"];
+  BB005fd2f3 -> BB005fd30a [color="red"];
+  BB005fd30a -> BB005fd314 [color="red"];
+  BB005fd314 -> BB005fd340 [color="green"];
+  BB005fd314 -> BB005fd32b [color="red"];
+  BB005fd32b -> BB005fd340 [color="red"];
+  BB005fd340 -> BB005fd383 [color="green"];
+  BB005fd340 -> BB005fd34c [color="red"];
+  BB005fd34c -> BB005fd38c [color="blue"];
+  BB005fd350 -> BB005fd37b [color="green"];
+  BB005fd350 -> BB005fd372 [color="red"];
+  BB005fd372 -> BB005fd37b [color="red"];
+  BB005fd37b -> BB005fd383 [color="blue"];
+  BB005fd383 -> BB005fd350 [color="green"];
+  BB005fd383 -> BB005fd38c [color="red"];
+}

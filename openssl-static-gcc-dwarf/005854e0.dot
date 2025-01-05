@@ -1,0 +1,14 @@
+digraph ossl_ec_set_ecdh_cofactor_mode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005854e0 -> BB00585500 [color="green"];
+  BB005854e0 -> BB005854f5 [color="red"];
+  BB005854f5 -> BB005854f7 [color="blue"];
+  BB00585500 -> BB005854f5 [color="green"];
+  BB00585500 -> BB00585510 [color="red"];
+  BB00585510 -> BB005854f7 [color="green"];
+  BB00585510 -> BB00585522 [color="red"];
+  BB00585522 -> BB00585548 [color="green"];
+  BB00585522 -> BB00585533 [color="red"];
+  BB00585548 -> BB005854f7 [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph __libc_dlclose {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008f39e0 -> BB008f3a48 [color="green"];
+  BB008f39e0 -> BB008f3a1f [color="red"];
+  BB008f3a1f -> BB008f3a3c [color="green"];
+  BB008f3a1f -> BB008f3a27 [color="red"];
+  BB008f3a27 -> BB008f3a63 [color="green"];
+  BB008f3a27 -> BB008f3a37 [color="red"];
+  BB008f3a3c -> BB008f3a48 [color="blue"];
+  BB008f3a48 -> BB008f3a27 [color="green"];
+  BB008f3a48 -> BB008f3a4f [color="red"];
+  BB008f3a4f -> BB008f3a27 [color="blue"];
+}

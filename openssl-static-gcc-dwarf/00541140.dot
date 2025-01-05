@@ -1,0 +1,24 @@
+digraph BN_security_bits {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00541140 -> BB00541160 [color="green"];
+  BB00541140 -> BB00541148 [color="red"];
+  BB00541148 -> BB00541180 [color="green"];
+  BB00541148 -> BB00541150 [color="red"];
+  BB00541150 -> BB0054116a [color="green"];
+  BB00541150 -> BB0054115a [color="red"];
+  BB00541160 -> BB00541165 [color="blue"];
+  BB00541165 -> BB0054115a [color="green"];
+  BB00541165 -> BB0054116a [color="red"];
+  BB0054116a -> BB005411a8 [color="green"];
+  BB0054116a -> BB00541172 [color="red"];
+  BB00541180 -> BB005411b0 [color="green"];
+  BB00541180 -> BB00541188 [color="red"];
+  BB00541188 -> BB005411c0 [color="green"];
+  BB00541188 -> BB00541190 [color="red"];
+  BB00541190 -> BB0054115a [color="green"];
+  BB00541190 -> BB0054119a [color="red"];
+  BB0054119a -> BB00541165 [color="blue"];
+  BB005411b0 -> BB00541165 [color="blue"];
+  BB005411c0 -> BB00541165 [color="blue"];
+}

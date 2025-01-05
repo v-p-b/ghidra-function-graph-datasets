@@ -1,0 +1,17 @@
+digraph _IO_helper_overflow {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00874570 -> BB008745f1 [color="green"];
+  BB00874570 -> BB00874591 [color="red"];
+  BB00874591 -> BB00874618 [color="green"];
+  BB00874591 -> BB008745bc [color="red"];
+  BB008745bc -> BB00874648 [color="green"];
+  BB008745bc -> BB008745d3 [color="red"];
+  BB008745d3 -> BB00401020 [color="green"];
+  BB008745d3 -> BB008745f1 [color="red"];
+  BB008745f1 -> BB00874630 [color="green"];
+  BB008745f1 -> BB008745fb [color="red"];
+  BB008745fb -> BB00874605 [color="blue"];
+  BB00874618 -> BB008745bc [color="blue"];
+  BB00874648 -> BB00874605 [color="blue"];
+}

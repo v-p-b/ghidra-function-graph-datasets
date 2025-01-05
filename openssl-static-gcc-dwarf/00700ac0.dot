@@ -1,0 +1,19 @@
+digraph mdc2_internal_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00700ac0 -> BB00700ae8 [color="green"];
+  BB00700ac0 -> BB00700ad6 [color="red"];
+  BB00700ad6 -> BB00700ad9 [color="blue"];
+  BB00700ae8 -> BB00700ad6 [color="green"];
+  BB00700ae8 -> BB00700af4 [color="red"];
+  BB00700af4 -> BB00700ad6 [color="green"];
+  BB00700af4 -> BB00700af9 [color="red"];
+  BB00700af9 -> BB00700b60 [color="green"];
+  BB00700af9 -> BB00700afe [color="red"];
+  BB00700afe -> BB00700b60 [color="green"];
+  BB00700afe -> BB00700b15 [color="red"];
+  BB00700b15 -> BB00700b60 [color="green"];
+  BB00700b15 -> BB00700b26 [color="red"];
+  BB00700b26 -> BB00700ad9 [color="blue"];
+  BB00700b60 -> BB00700ad9 [color="blue"];
+}

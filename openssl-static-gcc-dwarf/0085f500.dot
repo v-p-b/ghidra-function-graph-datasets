@@ -1,0 +1,12 @@
+digraph whirlpool_block {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0085f500 -> BB0085f55e [color="blue"];
+  BB0085f55e -> BB0085f5e0 [color="blue"];
+  BB0085f5e0 -> BB0085fd40 [color="green"];
+  BB0085f5e0 -> BB0085fd0a [color="red"];
+  BB0085fd0a -> BB0085f5e0 [color="blue"];
+  BB0085fd40 -> BB0085fdbf [color="green"];
+  BB0085fd40 -> BB0085fdb2 [color="red"];
+  BB0085fdb2 -> BB0085f55e [color="blue"];
+}

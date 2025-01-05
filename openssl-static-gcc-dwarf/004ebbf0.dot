@@ -1,0 +1,14 @@
+digraph ssl_version_cmp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ebbf0 -> BB004ebc42 [color="green"];
+  BB004ebbf0 -> BB004ebc09 [color="red"];
+  BB004ebc09 -> BB004ebc48 [color="green"];
+  BB004ebc09 -> BB004ebc0d [color="red"];
+  BB004ebc0d -> BB004ebc30 [color="green"];
+  BB004ebc0d -> BB004ebc15 [color="red"];
+  BB004ebc15 -> BB004ebc23 [color="blue"];
+  BB004ebc30 -> BB004ebc23 [color="green"];
+  BB004ebc30 -> BB004ebc3d [color="red"];
+  BB004ebc3d -> BB004ebc42 [color="blue"];
+}

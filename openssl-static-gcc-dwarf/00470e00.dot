@@ -1,0 +1,21 @@
+digraph opt_check_rest_arg {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00470e00 -> BB00470e50 [color="green"];
+  BB00470e00 -> BB00470e1e [color="red"];
+  BB00470e1e -> BB00470e50 [color="green"];
+  BB00470e1e -> BB00470e23 [color="red"];
+  BB00470e23 -> BB00470ea0 [color="green"];
+  BB00470e23 -> BB00470e28 [color="red"];
+  BB00470e28 -> BB00470e44 [color="green"];
+  BB00470e28 -> BB00470e3f [color="red"];
+  BB00470e3f -> BB00470e80 [color="green"];
+  BB00470e3f -> BB00470e44 [color="red"];
+  BB00470e50 -> BB00470e44 [color="green"];
+  BB00470e50 -> BB00470e5a [color="red"];
+  BB00470e80 -> BB00470e44 [color="blue"];
+  BB00470ea0 -> BB00470ed0 [color="green"];
+  BB00470ea0 -> BB00470eac [color="red"];
+  BB00470eac -> BB00470e44 [color="blue"];
+  BB00470ed0 -> BB00470e44 [color="blue"];
+}

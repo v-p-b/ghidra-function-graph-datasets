@@ -1,0 +1,8 @@
+digraph ossl_quic_sstream_mark_transmitted_fin {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004bddd0 -> BB004bdde1 [color="green"];
+  BB004bddd0 -> BB004bdddb [color="red"];
+  BB004bdddb -> BB004bdde8 [color="green"];
+  BB004bdddb -> BB004bdde1 [color="red"];
+}

@@ -1,0 +1,10 @@
+digraph load_pubkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00467590 -> BB00467640 [color="green"];
+  BB00467590 -> BB004675cc [color="red"];
+  BB004675cc -> BB00467660 [color="green"];
+  BB004675cc -> BB00467613 [color="red"];
+  BB00467640 -> BB004675cc [color="blue"];
+  BB00467660 -> BB00467613 [color="blue"];
+}

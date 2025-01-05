@@ -1,0 +1,20 @@
+digraph ossl_quic_is_stream_local {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b2ee0 -> BB004b2fb8 [color="green"];
+  BB004b2ee0 -> BB004b2efd [color="red"];
+  BB004b2efd -> BB004b2f40 [color="green"];
+  BB004b2efd -> BB004b2f04 [color="red"];
+  BB004b2f04 -> BB004b2f5a [color="green"];
+  BB004b2f04 -> BB004b2f09 [color="red"];
+  BB004b2f09 -> BB004b2f30 [color="red"];
+  BB004b2f30 -> BB004b2f7c [color="green"];
+  BB004b2f30 -> BB004b2f39 [color="red"];
+  BB004b2f39 -> BB004b2f55 [color="blue"];
+  BB004b2f40 -> BB004b2f55 [color="blue"];
+  BB004b2f55 -> BB004b2f88 [color="green"];
+  BB004b2f55 -> BB004b2f5a [color="red"];
+  BB004b2f5a -> BB004b2f7c [color="blue"];
+  BB004b2f88 -> BB004b2f7c [color="blue"];
+  BB004b2fb8 -> BB004b2f30 [color="blue"];
+}

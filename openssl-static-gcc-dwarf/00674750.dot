@@ -1,0 +1,17 @@
+digraph ossl_x509_check_private_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00674750 -> BB00674810 [color="green"];
+  BB00674750 -> BB0067475b [color="red"];
+  BB0067475b -> BB00674850 [color="green"];
+  BB0067475b -> BB0067476b [color="red"];
+  BB0067476b -> BB006747b8 [color="green"];
+  BB0067476b -> BB0067476d [color="red"];
+  BB0067476d -> BB006747d0 [color="green"];
+  BB0067476d -> BB00674772 [color="red"];
+  BB00674772 -> BB00674800 [color="green"];
+  BB00674772 -> BB0067477b [color="red"];
+  BB0067477b -> BB006747ae [color="red"];
+  BB006747d0 -> BB00674800 [color="red"];
+  BB00674850 -> BB006747ae [color="blue"];
+}

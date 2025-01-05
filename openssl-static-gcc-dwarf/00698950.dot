@@ -1,0 +1,12 @@
+digraph ossl_aes_gcm_siv_stream_final {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00698950 -> BB0069898f [color="green"];
+  BB00698950 -> BB00698966 [color="red"];
+  BB00698966 -> BB0069898c [color="green"];
+  BB00698966 -> BB00698981 [color="red"];
+  BB00698981 -> BB0069898c [color="green"];
+  BB00698981 -> BB00698985 [color="red"];
+  BB00698985 -> BB0069898c [color="blue"];
+  BB0069898c -> BB0069898f [color="blue"];
+}

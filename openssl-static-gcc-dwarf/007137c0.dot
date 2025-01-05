@@ -1,0 +1,28 @@
+digraph aesni_ocb_encrypt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB007137c0 -> BB0071385d [color="green"];
+  BB007137c0 -> BB00713828 [color="red"];
+  BB00713828 -> BB007139b9 [color="green"];
+  BB00713828 -> BB0071385d [color="red"];
+  BB0071385d -> BB007138e7 [color="green"];
+  BB0071385d -> BB0071388b [color="red"];
+  BB0071388b -> BB007138a0 [color="blue"];
+  BB007138a0 -> BB007138a0 [color="green"];
+  BB007138a0 -> BB007138e7 [color="red"];
+  BB007138e7 -> BB007139b9 [color="green"];
+  BB007138e7 -> BB007138f1 [color="red"];
+  BB007138f1 -> BB00713940 [color="green"];
+  BB007138f1 -> BB007138fb [color="red"];
+  BB007138fb -> BB00713960 [color="green"];
+  BB007138fb -> BB00713902 [color="red"];
+  BB00713902 -> BB00713980 [color="green"];
+  BB00713902 -> BB0071390d [color="red"];
+  BB0071390d -> BB007139a0 [color="green"];
+  BB0071390d -> BB00713918 [color="red"];
+  BB00713918 -> BB007139b9 [color="blue"];
+  BB00713940 -> BB007139b9 [color="blue"];
+  BB00713960 -> BB007139b9 [color="blue"];
+  BB00713980 -> BB007139b9 [color="blue"];
+  BB007139a0 -> BB007139b9 [color="red"];
+}

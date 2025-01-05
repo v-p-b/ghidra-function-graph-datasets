@@ -1,0 +1,12 @@
+digraph chacha20_poly1305_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006a14c0 -> BB006a151e [color="green"];
+  BB006a14c0 -> BB006a14f5 [color="red"];
+  BB006a14f5 -> BB006a1530 [color="green"];
+  BB006a14f5 -> BB006a14fa [color="red"];
+  BB006a14fa -> BB006a1550 [color="green"];
+  BB006a14fa -> BB006a14ff [color="red"];
+  BB006a14ff -> BB006a151e [color="blue"];
+  BB006a1550 -> BB006a151e [color="blue"];
+}

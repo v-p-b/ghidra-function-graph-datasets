@@ -1,0 +1,17 @@
+digraph ossl_ec_GFp_mont_group_copy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00592400 -> BB005924a9 [color="green"];
+  BB00592400 -> BB00592443 [color="red"];
+  BB00592443 -> BB00592469 [color="green"];
+  BB00592443 -> BB0059244a [color="red"];
+  BB0059244a -> BB005924a9 [color="green"];
+  BB0059244a -> BB0059245b [color="red"];
+  BB0059245b -> BB00592498 [color="green"];
+  BB0059245b -> BB00592469 [color="red"];
+  BB00592469 -> BB00592486 [color="green"];
+  BB00592469 -> BB00592475 [color="red"];
+  BB00592475 -> BB00592498 [color="green"];
+  BB00592475 -> BB00592486 [color="red"];
+  BB00592498 -> BB005924a9 [color="red"];
+}

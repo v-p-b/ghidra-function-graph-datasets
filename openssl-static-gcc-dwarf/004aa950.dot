@@ -1,0 +1,32 @@
+digraph tls13_export_keying_material_early {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004aa950 -> BB004aaaf8 [color="green"];
+  BB004aa950 -> BB004aa987 [color="red"];
+  BB004aa987 -> BB004aaaf8 [color="green"];
+  BB004aa987 -> BB004aa997 [color="red"];
+  BB004aa997 -> BB004aa9b3 [color="green"];
+  BB004aa997 -> BB004aa9a5 [color="red"];
+  BB004aa9a5 -> BB004aab20 [color="green"];
+  BB004aa9a5 -> BB004aa9b3 [color="red"];
+  BB004aa9b3 -> BB004aa9b8 [color="red"];
+  BB004aa9b8 -> BB004aaaf8 [color="green"];
+  BB004aa9b8 -> BB004aa9d0 [color="red"];
+  BB004aa9d0 -> BB004aaaf8 [color="green"];
+  BB004aa9d0 -> BB004aa9e5 [color="red"];
+  BB004aa9e5 -> BB004aaaf8 [color="green"];
+  BB004aa9e5 -> BB004aaa00 [color="red"];
+  BB004aaa00 -> BB004aaaf8 [color="green"];
+  BB004aaa00 -> BB004aaa1d [color="red"];
+  BB004aaa1d -> BB004aaaf8 [color="green"];
+  BB004aaa1d -> BB004aaa32 [color="red"];
+  BB004aaa32 -> BB004aaaf8 [color="green"];
+  BB004aaa32 -> BB004aaa57 [color="red"];
+  BB004aaa57 -> BB004aaaf8 [color="green"];
+  BB004aaa57 -> BB004aaaa7 [color="red"];
+  BB004aaaa7 -> BB004aaafb [color="blue"];
+  BB004aaaf8 -> BB004aaafb [color="blue"];
+  BB004aab20 -> BB004aa9b3 [color="green"];
+  BB004aab20 -> BB004aab2e [color="red"];
+  BB004aab2e -> BB004aa9b8 [color="blue"];
+}

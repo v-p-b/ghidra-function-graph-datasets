@@ -1,0 +1,14 @@
+digraph cipher_hw_des_cfb8_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006fd5c0 -> BB006fd6c8 [color="green"];
+  BB006fd5c0 -> BB006fd5f2 [color="red"];
+  BB006fd5f2 -> BB006fd620 [color="blue"];
+  BB006fd620 -> BB006fd620 [color="green"];
+  BB006fd620 -> BB006fd65f [color="red"];
+  BB006fd65f -> BB006fd672 [color="blue"];
+  BB006fd672 -> BB006fd690 [color="green"];
+  BB006fd672 -> BB006fd67a [color="red"];
+  BB006fd690 -> BB006fd67a [color="blue"];
+  BB006fd6c8 -> BB006fd672 [color="blue"];
+}

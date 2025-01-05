@@ -1,0 +1,27 @@
+digraph ossl_quic_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ae5e0 -> BB004ae710 [color="green"];
+  BB004ae5e0 -> BB004ae5ed [color="red"];
+  BB004ae5ed -> BB004ae6a0 [color="green"];
+  BB004ae5ed -> BB004ae5fb [color="red"];
+  BB004ae5fb -> BB004ae638 [color="green"];
+  BB004ae5fb -> BB004ae600 [color="red"];
+  BB004ae600 -> BB004ae625 [color="red"];
+  BB004ae625 -> BB004ae777 [color="green"];
+  BB004ae625 -> BB004ae62d [color="red"];
+  BB004ae638 -> BB004ae740 [color="green"];
+  BB004ae638 -> BB004ae65b [color="red"];
+  BB004ae65b -> BB004ae6f0 [color="green"];
+  BB004ae65b -> BB004ae672 [color="red"];
+  BB004ae672 -> BB004ae62d [color="green"];
+  BB004ae672 -> BB004ae690 [color="red"];
+  BB004ae6a0 -> BB004ae6b6 [color="green"];
+  BB004ae6a0 -> BB004ae6a9 [color="red"];
+  BB004ae6a9 -> BB004ae6b6 [color="red"];
+  BB004ae6f0 -> BB004ae672 [color="blue"];
+  BB004ae710 -> BB004ae625 [color="blue"];
+  BB004ae740 -> BB004ae65b [color="green"];
+  BB004ae740 -> BB004ae757 [color="red"];
+  BB004ae757 -> BB004ae65b [color="blue"];
+}

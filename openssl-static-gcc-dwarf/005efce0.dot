@@ -1,0 +1,18 @@
+digraph CRYPTO_strndup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005efce0 -> BB005efd56 [color="green"];
+  BB005efce0 -> BB005efce5 [color="red"];
+  BB005efce5 -> BB005efd19 [color="green"];
+  BB005efce5 -> BB005efd05 [color="red"];
+  BB005efd05 -> BB005efd28 [color="blue"];
+  BB005efd10 -> BB005efd1e [color="green"];
+  BB005efd10 -> BB005efd19 [color="red"];
+  BB005efd19 -> BB005efd10 [color="green"];
+  BB005efd19 -> BB005efd1e [color="red"];
+  BB005efd1e -> BB005efd28 [color="blue"];
+  BB005efd28 -> BB005efd4c [color="green"];
+  BB005efd28 -> BB005efd37 [color="red"];
+  BB005efd37 -> BB00401070 [color="green"];
+  BB005efd37 -> BB005efd4c [color="red"];
+}

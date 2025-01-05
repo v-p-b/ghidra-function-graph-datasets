@@ -1,0 +1,12 @@
+digraph SSL_ct_is_enabled {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004921e0 -> BB00492210 [color="green"];
+  BB004921e0 -> BB004921e5 [color="red"];
+  BB004921e5 -> BB00492200 [color="green"];
+  BB004921e5 -> BB004921eb [color="red"];
+  BB004921eb -> BB004921fb [color="green"];
+  BB004921eb -> BB004921f2 [color="red"];
+  BB004921f2 -> BB00492200 [color="green"];
+  BB004921f2 -> BB004921fb [color="red"];
+}

@@ -1,0 +1,12 @@
+digraph __libc_init_first {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008f4f90 -> BB008f4ff0 [color="green"];
+  BB008f4f90 -> BB008f4fa9 [color="red"];
+  BB008f4fa9 -> BB008f4ff0 [color="green"];
+  BB008f4fa9 -> BB008f4faf [color="red"];
+  BB008f4faf -> BB008f4fb9 [color="blue"];
+  BB008f4ff0 -> BB008f4fb9 [color="green"];
+  BB008f4ff0 -> BB008f500a [color="red"];
+  BB008f500a -> BB008f4fb9 [color="blue"];
+}

@@ -1,0 +1,37 @@
+digraph HKDF_Expand {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006c4cd0 -> BB006c4e78 [color="green"];
+  BB006c4cd0 -> BB006c4d04 [color="red"];
+  BB006c4d04 -> BB006c4e78 [color="green"];
+  BB006c4d04 -> BB006c4d2d [color="red"];
+  BB006c4d2d -> BB006c4e78 [color="green"];
+  BB006c4d2d -> BB006c4d39 [color="red"];
+  BB006c4d39 -> BB006c4e78 [color="green"];
+  BB006c4d39 -> BB006c4d4a [color="red"];
+  BB006c4d4a -> BB006c4e52 [color="green"];
+  BB006c4d4a -> BB006c4d6b [color="red"];
+  BB006c4d6b -> BB006c4e90 [color="green"];
+  BB006c4d6b -> BB006c4d77 [color="red"];
+  BB006c4d77 -> BB006c4d90 [color="blue"];
+  BB006c4d90 -> BB006c4e50 [color="green"];
+  BB006c4d90 -> BB006c4da8 [color="red"];
+  BB006c4da8 -> BB006c4e50 [color="green"];
+  BB006c4da8 -> BB006c4dc2 [color="red"];
+  BB006c4dc2 -> BB006c4e50 [color="green"];
+  BB006c4dc2 -> BB006c4dd3 [color="red"];
+  BB006c4dd3 -> BB00401070 [color="green"];
+  BB006c4dd3 -> BB006c4e90 [color="green"];
+  BB006c4dd3 -> BB006c4e12 [color="red"];
+  BB006c4e12 -> BB006c4d90 [color="green"];
+  BB006c4e12 -> BB006c4e21 [color="red"];
+  BB006c4e21 -> BB006c4e50 [color="green"];
+  BB006c4e21 -> BB006c4e36 [color="red"];
+  BB006c4e36 -> BB006c4d90 [color="green"];
+  BB006c4e36 -> BB006c4e4c [color="red"];
+  BB006c4e4c -> BB006c4e50 [color="blue"];
+  BB006c4e50 -> BB006c4e52 [color="blue"];
+  BB006c4e52 -> BB006c4e7a [color="blue"];
+  BB006c4e78 -> BB006c4e7a [color="blue"];
+  BB006c4e90 -> BB006c4e52 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph sha512_block_data_order {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0084c040 -> BB0084c05f [color="red"];
+  BB0084c05f -> BB0084c073 [color="red"];
+  BB0084c073 -> BB0084c091 [color="red"];
+  BB0084c091 -> BB0084c100 [color="blue"];
+  BB0084c100 -> BB0084c7c0 [color="blue"];
+  BB0084c7c0 -> BB0084c7c0 [color="green"];
+  BB0084c7c0 -> BB0084d205 [color="red"];
+  BB0084d205 -> BB0084c100 [color="green"];
+  BB0084d205 -> BB0084d263 [color="red"];
+}

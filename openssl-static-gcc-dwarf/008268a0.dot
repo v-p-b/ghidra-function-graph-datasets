@@ -1,0 +1,32 @@
+digraph ossl_siv128_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008268a0 -> BB00826a73 [color="green"];
+  BB008268a0 -> BB008268c3 [color="red"];
+  BB008268c3 -> BB00826a73 [color="green"];
+  BB008268c3 -> BB0082691b [color="red"];
+  BB0082691b -> BB00826a73 [color="green"];
+  BB0082691b -> BB00826924 [color="red"];
+  BB00826924 -> BB00826a90 [color="green"];
+  BB00826924 -> BB008269de [color="red"];
+  BB008269de -> BB00826a50 [color="green"];
+  BB008269de -> BB00826a01 [color="red"];
+  BB00826a01 -> BB00826a50 [color="green"];
+  BB00826a01 -> BB00826a15 [color="red"];
+  BB00826a15 -> BB00826a3f [color="green"];
+  BB00826a15 -> BB00826a26 [color="red"];
+  BB00826a26 -> BB00826a98 [color="green"];
+  BB00826a26 -> BB00826a3f [color="red"];
+  BB00826a3f -> BB00826a54 [color="blue"];
+  BB00826a50 -> BB00826a54 [color="blue"];
+  BB00826a54 -> BB00826a73 [color="red"];
+  BB00826a73 -> BB00826a75 [color="blue"];
+  BB00826a90 -> BB00826a54 [color="blue"];
+  BB00826a98 -> BB00826a50 [color="green"];
+  BB00826a98 -> BB00826aa9 [color="red"];
+  BB00826aa9 -> BB00826a50 [color="green"];
+  BB00826aa9 -> BB00826ac1 [color="red"];
+  BB00826ac1 -> BB00826a50 [color="green"];
+  BB00826ac1 -> BB00826ade [color="red"];
+  BB00826ade -> BB00826a75 [color="blue"];
+}

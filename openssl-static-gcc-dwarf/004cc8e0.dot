@@ -1,0 +1,9 @@
+digraph tls_set1_bio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004cc8e0 -> BB004cc8fd [color="green"];
+  BB004cc8e0 -> BB004cc8f1 [color="red"];
+  BB004cc8f1 -> BB004cc90f [color="green"];
+  BB004cc8f1 -> BB004cc8fd [color="red"];
+  BB004cc8fd -> BB004cc90f [color="red"];
+}

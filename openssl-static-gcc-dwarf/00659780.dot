@@ -1,0 +1,16 @@
+digraph by_store_ctrl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00659780 -> BB006597c0 [color="green"];
+  BB00659780 -> BB00659790 [color="red"];
+  BB00659790 -> BB006597b0 [color="green"];
+  BB00659790 -> BB00659795 [color="red"];
+  BB006597b0 -> BB006597b2 [color="blue"];
+  BB006597c0 -> BB006597b2 [color="green"];
+  BB006597c0 -> BB006597ca [color="red"];
+  BB006597ca -> BB006597b0 [color="green"];
+  BB006597ca -> BB006597ee [color="red"];
+  BB006597ee -> BB00659810 [color="green"];
+  BB006597ee -> BB006597f3 [color="red"];
+  BB00659810 -> BB006597f3 [color="blue"];
+}

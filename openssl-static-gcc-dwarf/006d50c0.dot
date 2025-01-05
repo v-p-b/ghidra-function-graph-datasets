@@ -1,0 +1,12 @@
+digraph ec_load {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006d50c0 -> BB006d50d9 [color="green"];
+  BB006d50c0 -> BB006d50d5 [color="red"];
+  BB006d50d5 -> BB006d50e8 [color="green"];
+  BB006d50d5 -> BB006d50d9 [color="red"];
+  BB006d50e8 -> BB006d50d9 [color="green"];
+  BB006d50e8 -> BB006d50fc [color="red"];
+  BB006d50fc -> BB006d50d9 [color="green"];
+  BB006d50fc -> BB006d5108 [color="red"];
+}

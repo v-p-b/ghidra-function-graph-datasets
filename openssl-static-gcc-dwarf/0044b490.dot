@@ -1,0 +1,11 @@
+digraph smime_cb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0044b490 -> BB0044b4b4 [color="green"];
+  BB0044b490 -> BB0044b4aa [color="red"];
+  BB0044b4aa -> BB0044b4bc [color="green"];
+  BB0044b4aa -> BB0044b4ae [color="red"];
+  BB0044b4ae -> BB0044b4bc [color="green"];
+  BB0044b4ae -> BB0044b4b4 [color="red"];
+  BB0044b4b4 -> BB0044b4bc [color="red"];
+}

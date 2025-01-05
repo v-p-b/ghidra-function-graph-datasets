@@ -1,0 +1,25 @@
+digraph ossl_x509_likely_issued {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0066ab90 -> BB0066abd8 [color="green"];
+  BB0066ab90 -> BB0066abc6 [color="red"];
+  BB0066abc6 -> BB0066abe8 [color="green"];
+  BB0066abc6 -> BB0066abd2 [color="red"];
+  BB0066abd2 -> BB0066abd8 [color="blue"];
+  BB0066abe8 -> BB0066abd2 [color="green"];
+  BB0066abe8 -> BB0066abf4 [color="red"];
+  BB0066abf4 -> BB0066abd8 [color="green"];
+  BB0066abf4 -> BB0066ac0a [color="red"];
+  BB0066ac0a -> BB0066ac90 [color="green"];
+  BB0066ac0a -> BB0066ac1a [color="red"];
+  BB0066ac1a -> BB0066ac80 [color="green"];
+  BB0066ac1a -> BB0066ac35 [color="red"];
+  BB0066ac35 -> BB0066abd8 [color="green"];
+  BB0066ac35 -> BB0066ac4d [color="red"];
+  BB0066ac4d -> BB0066ac9b [color="green"];
+  BB0066ac4d -> BB0066ac60 [color="red"];
+  BB0066ac60 -> BB0066abd8 [color="blue"];
+  BB0066ac80 -> BB0066abd8 [color="blue"];
+  BB0066ac90 -> BB0066abd8 [color="blue"];
+  BB0066ac9b -> BB0066abd8 [color="blue"];
+}

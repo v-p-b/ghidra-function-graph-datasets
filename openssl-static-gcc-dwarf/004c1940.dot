@@ -1,0 +1,17 @@
+digraph ossl_quic_wire_peek_frame_header {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c1940 -> BB004c19f0 [color="green"];
+  BB004c1940 -> BB004c1950 [color="red"];
+  BB004c1950 -> BB004c1978 [color="green"];
+  BB004c1950 -> BB004c1969 [color="red"];
+  BB004c1978 -> BB004c1969 [color="green"];
+  BB004c1978 -> BB004c1992 [color="red"];
+  BB004c1992 -> BB004c19ce [color="green"];
+  BB004c1992 -> BB004c199d [color="red"];
+  BB004c199d -> BB004c19ce [color="green"];
+  BB004c199d -> BB004c19aa [color="red"];
+  BB004c19aa -> BB004c19ce [color="green"];
+  BB004c19aa -> BB004c19b7 [color="red"];
+  BB004c19b7 -> BB004c19ce [color="blue"];
+}

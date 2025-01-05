@@ -1,0 +1,12 @@
+digraph mdc2_internal_final {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00700a60 -> BB00700a85 [color="green"];
+  BB00700a60 -> BB00700a7f [color="red"];
+  BB00700a7f -> BB00700a98 [color="green"];
+  BB00700a7f -> BB00700a85 [color="red"];
+  BB00700a85 -> BB00700a87 [color="blue"];
+  BB00700a98 -> BB00700a85 [color="green"];
+  BB00700a98 -> BB00700aa7 [color="red"];
+  BB00700aa7 -> BB00700a87 [color="blue"];
+}

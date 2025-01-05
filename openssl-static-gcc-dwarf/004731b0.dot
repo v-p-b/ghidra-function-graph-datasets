@@ -1,0 +1,12 @@
+digraph verify_stateless_cookie_callback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004731b0 -> BB004731c0 [color="green"];
+  BB004731b0 -> BB004731ba [color="red"];
+  BB004731c0 -> BB00473204 [color="green"];
+  BB004731c0 -> BB004731e5 [color="red"];
+  BB004731e5 -> BB00473204 [color="green"];
+  BB004731e5 -> BB004731ee [color="red"];
+  BB004731ee -> BB004010d8 [color="green"];
+  BB004731ee -> BB00473204 [color="red"];
+}

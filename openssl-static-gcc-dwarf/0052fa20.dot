@@ -1,0 +1,24 @@
+digraph BIO_wait {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0052fa20 -> BB0052fa48 [color="green"];
+  BB0052fa20 -> BB0052fa2f [color="red"];
+  BB0052fa2f -> BB0052fa35 [color="blue"];
+  BB0052fa48 -> BB0052fad0 [color="green"];
+  BB0052fa48 -> BB0052fa65 [color="red"];
+  BB0052fa65 -> BB0052fad0 [color="green"];
+  BB0052fa65 -> BB0052fa7f [color="red"];
+  BB0052fa7f -> BB0052fa35 [color="green"];
+  BB0052fa7f -> BB0052fa83 [color="red"];
+  BB0052fa83 -> BB0052faac [color="red"];
+  BB0052fad0 -> BB0052fb18 [color="green"];
+  BB0052fad0 -> BB0052fadc [color="red"];
+  BB0052fadc -> BB0052fb00 [color="green"];
+  BB0052fadc -> BB0052fade [color="red"];
+  BB0052fade -> BB0052faf3 [color="green"];
+  BB0052fade -> BB0052faed [color="red"];
+  BB0052faed -> BB0052faf3 [color="blue"];
+  BB0052faf3 -> BB0052fa2f [color="blue"];
+  BB0052fb00 -> BB0052faf3 [color="blue"];
+  BB0052fb18 -> BB0052faac [color="blue"];
+}

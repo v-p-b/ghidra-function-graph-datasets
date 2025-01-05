@@ -1,0 +1,11 @@
+digraph dsa_gen_set_template {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006d2700 -> BB006d2730 [color="green"];
+  BB006d2700 -> BB006d2715 [color="red"];
+  BB006d2715 -> BB006d2740 [color="green"];
+  BB006d2715 -> BB006d271a [color="red"];
+  BB006d271a -> BB006d2740 [color="green"];
+  BB006d271a -> BB006d271f [color="red"];
+  BB006d271f -> BB006d2730 [color="red"];
+}

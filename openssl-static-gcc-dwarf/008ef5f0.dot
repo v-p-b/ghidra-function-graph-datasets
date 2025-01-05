@@ -1,0 +1,13 @@
+digraph call_destructors {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008ef5f0 -> BB008ef636 [color="green"];
+  BB008ef5f0 -> BB008ef603 [color="red"];
+  BB008ef603 -> BB008ef636 [color="green"];
+  BB008ef603 -> BB008ef620 [color="red"];
+  BB008ef620 -> BB008ef628 [color="blue"];
+  BB008ef628 -> BB008ef628 [color="green"];
+  BB008ef628 -> BB008ef636 [color="red"];
+  BB008ef636 -> BB008ef658 [color="green"];
+  BB008ef636 -> BB008ef643 [color="red"];
+}

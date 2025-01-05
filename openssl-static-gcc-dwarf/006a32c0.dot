@@ -1,0 +1,9 @@
+digraph sm4_dupctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006a32c0 -> BB006a3304 [color="green"];
+  BB006a32c0 -> BB006a32d6 [color="red"];
+  BB006a32d6 -> BB006a3304 [color="green"];
+  BB006a32d6 -> BB006a32f4 [color="red"];
+  BB006a32f4 -> BB006a3304 [color="blue"];
+}

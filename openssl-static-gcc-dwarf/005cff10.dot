@@ -1,0 +1,16 @@
+digraph get_raw_key_details {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005cff10 -> BB005cff28 [color="green"];
+  BB005cff10 -> BB005cff1c [color="red"];
+  BB005cff1c -> BB005cff58 [color="green"];
+  BB005cff1c -> BB005cff21 [color="red"];
+  BB005cff28 -> BB005cff21 [color="green"];
+  BB005cff28 -> BB005cff3c [color="red"];
+  BB005cff3c -> BB005cff4d [color="green"];
+  BB005cff3c -> BB005cff4a [color="red"];
+  BB005cff4a -> BB005cff4d [color="blue"];
+  BB005cff58 -> BB005cff3c [color="green"];
+  BB005cff58 -> BB005cff6c [color="red"];
+  BB005cff6c -> BB005cff21 [color="blue"];
+}

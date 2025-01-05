@@ -1,0 +1,12 @@
+digraph ocsp_ext_d2i_SCT_LIST {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00738780 -> BB007387bf [color="green"];
+  BB00738780 -> BB00738796 [color="red"];
+  BB00738796 -> BB007387cb [color="blue"];
+  BB007387a0 -> BB007387d8 [color="green"];
+  BB007387a0 -> BB007387bc [color="red"];
+  BB007387bc -> BB007387bf [color="blue"];
+  BB007387bf -> BB007387a0 [color="green"];
+  BB007387bf -> BB007387cb [color="red"];
+}

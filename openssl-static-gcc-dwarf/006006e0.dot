@@ -1,0 +1,10 @@
+digraph OSSL_SELF_TEST_oncorrupt_byte {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006006e0 -> BB006007f0 [color="green"];
+  BB006006e0 -> BB006006e9 [color="red"];
+  BB006006e9 -> BB006007e3 [color="green"];
+  BB006006e9 -> BB006006ff [color="red"];
+  BB006006ff -> BB006007f8 [color="green"];
+  BB006006ff -> BB006007e3 [color="red"];
+}

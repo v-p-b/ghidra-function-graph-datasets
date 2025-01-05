@@ -1,0 +1,26 @@
+digraph check_crl_path {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0067fc60 -> BB0067fca0 [color="green"];
+  BB0067fc60 -> BB0067fc8d [color="red"];
+  BB0067fca0 -> BB0067fdf7 [color="green"];
+  BB0067fca0 -> BB0067fcba [color="red"];
+  BB0067fcba -> BB0067fde0 [color="green"];
+  BB0067fcba -> BB0067fcf9 [color="red"];
+  BB0067fcf9 -> BB0067fd01 [color="red"];
+  BB0067fd01 -> BB0067fd52 [color="green"];
+  BB0067fd01 -> BB0067fd06 [color="red"];
+  BB0067fd06 -> BB0067fd52 [color="red"];
+  BB0067fd52 -> BB0067fd70 [color="green"];
+  BB0067fd52 -> BB0067fd5f [color="red"];
+  BB0067fd5f -> BB0067fd70 [color="blue"];
+  BB0067fd70 -> BB0067fd8e [color="green"];
+  BB0067fd70 -> BB0067fd7a [color="red"];
+  BB0067fd7a -> BB0067fdf0 [color="green"];
+  BB0067fd7a -> BB0067fd85 [color="red"];
+  BB0067fd85 -> BB0067fd8e [color="blue"];
+  BB0067fd8e -> BB0067fc8d [color="blue"];
+  BB0067fde0 -> BB0067fd01 [color="blue"];
+  BB0067fdf0 -> BB0067fd85 [color="blue"];
+  BB0067fdf7 -> BB0067fc8d [color="blue"];
+}

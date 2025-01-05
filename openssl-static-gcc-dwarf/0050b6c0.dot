@@ -1,0 +1,16 @@
+digraph ossl_qlog_event_end {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0050b6c0 -> BB0050b768 [color="green"];
+  BB0050b6c0 -> BB0050b6c9 [color="red"];
+  BB0050b6c9 -> BB0050b73b [color="green"];
+  BB0050b6c9 -> BB0050b6d9 [color="red"];
+  BB0050b6d9 -> BB0050b770 [color="green"];
+  BB0050b6d9 -> BB0050b701 [color="red"];
+  BB0050b701 -> BB0050b748 [color="green"];
+  BB0050b701 -> BB0050b716 [color="red"];
+  BB0050b716 -> BB0050b72c [color="red"];
+  BB0050b72c -> BB0050b73b [color="red"];
+  BB0050b748 -> BB0050b716 [color="blue"];
+  BB0050b770 -> BB0050b72c [color="blue"];
+}

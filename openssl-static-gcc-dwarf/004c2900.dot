@@ -1,0 +1,14 @@
+digraph ossl_quic_wire_decode_frame_streams_blocked {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c2900 -> BB004c29a8 [color="green"];
+  BB004c2900 -> BB004c290d [color="red"];
+  BB004c290d -> BB004c2948 [color="green"];
+  BB004c290d -> BB004c2934 [color="red"];
+  BB004c2948 -> BB004c2934 [color="green"];
+  BB004c2948 -> BB004c2971 [color="red"];
+  BB004c2971 -> BB004c2934 [color="green"];
+  BB004c2971 -> BB004c2976 [color="red"];
+  BB004c2976 -> BB004c2934 [color="green"];
+  BB004c2976 -> BB004c2984 [color="red"];
+}

@@ -1,0 +1,16 @@
+digraph dgram_mem_read {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00539570 -> BB00539653 [color="green"];
+  BB00539570 -> BB00539586 [color="red"];
+  BB00539586 -> BB00539618 [color="green"];
+  BB00539586 -> BB0053959b [color="red"];
+  BB0053959b -> BB005395d8 [color="green"];
+  BB0053959b -> BB005395bc [color="red"];
+  BB005395bc -> BB005395c5 [color="red"];
+  BB005395d8 -> BB005395bc [color="green"];
+  BB005395d8 -> BB005395e4 [color="red"];
+  BB005395e4 -> BB005395bc [color="blue"];
+  BB00539618 -> BB005395c5 [color="blue"];
+  BB00539653 -> BB005395c5 [color="blue"];
+}

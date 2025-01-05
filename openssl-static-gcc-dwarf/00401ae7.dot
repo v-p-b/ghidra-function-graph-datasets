@@ -1,0 +1,15 @@
+digraph fseek.cold {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00401ae7 -> BB00401b18 [color="green"];
+  BB00401ae7 -> BB00401aef [color="red"];
+  BB00401aef -> BB00401b18 [color="green"];
+  BB00401aef -> BB00401b01 [color="red"];
+  BB00401b01 -> BB00401b20 [color="green"];
+  BB00401b01 -> BB00401b15 [color="red"];
+  BB00401b15 -> BB00401b18 [color="blue"];
+  BB00401b18 -> BB00401b1b [color="blue"];
+  BB00401b20 -> BB00401b18 [color="green"];
+  BB00401b20 -> BB00401b27 [color="red"];
+  BB00401b27 -> BB00401b18 [color="blue"];
+}

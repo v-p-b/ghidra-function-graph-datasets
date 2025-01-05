@@ -1,0 +1,16 @@
+digraph tls_parse_ctos_sig_algs_cert {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d9920 -> BB004d994a [color="green"];
+  BB004d9920 -> BB004d9934 [color="red"];
+  BB004d9934 -> BB004d9990 [color="green"];
+  BB004d9934 -> BB004d994a [color="red"];
+  BB004d994a -> BB004d9980 [color="red"];
+  BB004d9990 -> BB004d994a [color="green"];
+  BB004d9990 -> BB004d99b1 [color="red"];
+  BB004d99b1 -> BB004d99d0 [color="green"];
+  BB004d99b1 -> BB004d99bb [color="red"];
+  BB004d99d0 -> BB004d99bb [color="green"];
+  BB004d99d0 -> BB004d99e4 [color="red"];
+  BB004d99e4 -> BB004d9980 [color="blue"];
+}

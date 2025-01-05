@@ -1,0 +1,17 @@
+digraph CRYPTO_ocb128_copy_ctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0060a520 -> BB0060a5a6 [color="green"];
+  BB0060a520 -> BB0060a5a2 [color="red"];
+  BB0060a5a2 -> BB0060a5a6 [color="blue"];
+  BB0060a5a6 -> BB0060a5af [color="green"];
+  BB0060a5a6 -> BB0060a5ab [color="red"];
+  BB0060a5ab -> BB0060a5af [color="blue"];
+  BB0060a5af -> BB0060a5f6 [color="green"];
+  BB0060a5af -> BB0060a5bc [color="red"];
+  BB0060a5bc -> BB0060a5fe [color="green"];
+  BB0060a5bc -> BB0060a5e1 [color="red"];
+  BB0060a5e1 -> BB00401070 [color="green"];
+  BB0060a5e1 -> BB0060a5f6 [color="red"];
+  BB0060a5fe -> BB0060a5f6 [color="blue"];
+}

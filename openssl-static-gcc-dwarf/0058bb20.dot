@@ -1,0 +1,16 @@
+digraph EC_POINT_make_affine {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0058bb20 -> BB0058bb90 [color="green"];
+  BB0058bb20 -> BB0058bb33 [color="red"];
+  BB0058bb33 -> BB0058bb70 [color="green"];
+  BB0058bb33 -> BB0058bb38 [color="red"];
+  BB0058bb38 -> BB0058bb68 [color="red"];
+  BB0058bb70 -> BB0058bb85 [color="green"];
+  BB0058bb70 -> BB0058bb77 [color="red"];
+  BB0058bb77 -> BB0058bb85 [color="green"];
+  BB0058bb77 -> BB0058bb80 [color="red"];
+  BB0058bb80 -> BB0058bb38 [color="green"];
+  BB0058bb80 -> BB0058bb85 [color="red"];
+  BB0058bb90 -> BB0058bb68 [color="blue"];
+}

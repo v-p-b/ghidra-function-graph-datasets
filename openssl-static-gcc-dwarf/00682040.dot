@@ -1,0 +1,27 @@
+digraph X509_NAME_get_text_by_OBJ {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00682040 -> BB00682120 [color="green"];
+  BB00682040 -> BB0068205f [color="red"];
+  BB0068205f -> BB00682120 [color="green"];
+  BB0068205f -> BB0068207a [color="red"];
+  BB0068207a -> BB0068208d [color="blue"];
+  BB00682080 -> BB00682120 [color="green"];
+  BB00682080 -> BB0068208d [color="red"];
+  BB0068208d -> BB00682080 [color="green"];
+  BB0068208d -> BB006820aa [color="red"];
+  BB006820aa -> BB00682138 [color="green"];
+  BB006820aa -> BB006820bc [color="red"];
+  BB006820bc -> BB00682138 [color="green"];
+  BB006820bc -> BB006820cd [color="red"];
+  BB006820cd -> BB006820d1 [color="blue"];
+  BB006820d1 -> BB00682130 [color="green"];
+  BB006820d1 -> BB006820d8 [color="red"];
+  BB006820d8 -> BB00682108 [color="green"];
+  BB006820d8 -> BB006820e0 [color="red"];
+  BB006820e0 -> BB00401070 [color="green"];
+  BB006820e0 -> BB00682108 [color="red"];
+  BB00682120 -> BB00682108 [color="blue"];
+  BB00682130 -> BB00682108 [color="blue"];
+  BB00682138 -> BB006820d1 [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph BIO_get_accept_socket {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00532cc0 -> BB00532de0 [color="green"];
+  BB00532cc0 -> BB00532d02 [color="red"];
+  BB00532d02 -> BB00532d70 [color="green"];
+  BB00532d02 -> BB00532d27 [color="red"];
+  BB00532d27 -> BB00532d2d [color="blue"];
+  BB00532d2d -> BB00532d63 [color="red"];
+  BB00532d70 -> BB00532d27 [color="green"];
+  BB00532d70 -> BB00532daf [color="red"];
+  BB00532daf -> BB00532d2d [color="green"];
+  BB00532daf -> BB00532dd3 [color="red"];
+  BB00532dd3 -> BB00532d27 [color="blue"];
+  BB00532de0 -> BB00532d63 [color="blue"];
+}

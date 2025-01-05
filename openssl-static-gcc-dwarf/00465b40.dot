@@ -1,0 +1,11 @@
+digraph get_passwd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00465b40 -> BB00465b70 [color="green"];
+  BB00465b40 -> BB00465b5e [color="red"];
+  BB00465b5e -> BB00465b79 [color="green"];
+  BB00465b5e -> BB00465b70 [color="red"];
+  BB00465b79 -> BB00465b70 [color="green"];
+  BB00465b79 -> BB00465bc2 [color="red"];
+  BB00465bc2 -> BB00465b70 [color="blue"];
+}

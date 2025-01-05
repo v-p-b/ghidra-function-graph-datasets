@@ -1,0 +1,11 @@
+digraph open_memstream {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00915730 -> BB009157f2 [color="green"];
+  BB00915730 -> BB00915753 [color="red"];
+  BB00915753 -> BB009157f7 [color="green"];
+  BB00915753 -> BB0091577c [color="red"];
+  BB0091577c -> BB009157e4 [color="red"];
+  BB009157f2 -> BB009157e4 [color="blue"];
+  BB009157f7 -> BB009157e4 [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph tls_initialise_write_packets_default {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004cf8c0 -> BB004cf9c8 [color="green"];
+  BB004cf8c0 -> BB004cf8e6 [color="red"];
+  BB004cf8e6 -> BB004cf930 [color="blue"];
+  BB004cf8f8 -> BB004cf9d0 [color="green"];
+  BB004cf8f8 -> BB004cf915 [color="red"];
+  BB004cf915 -> BB004cf9c8 [color="green"];
+  BB004cf915 -> BB004cf930 [color="red"];
+  BB004cf930 -> BB004cf8f8 [color="green"];
+  BB004cf930 -> BB004cf97d [color="red"];
+  BB004cf97d -> BB004cf98e [color="red"];
+  BB004cf98e -> BB004cf9b2 [color="red"];
+  BB004cf9c8 -> BB004cf9b2 [color="blue"];
+  BB004cf9d0 -> BB004cf98e [color="blue"];
+}

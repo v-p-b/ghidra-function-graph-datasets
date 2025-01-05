@@ -1,0 +1,14 @@
+digraph EC_der2ec_does_selection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006acdf0 -> BB006ace0f [color="green"];
+  BB006acdf0 -> BB006acdf9 [color="red"];
+  BB006acdf9 -> BB006ace15 [color="green"];
+  BB006acdf9 -> BB006ace00 [color="red"];
+  BB006ace00 -> BB006ace10 [color="green"];
+  BB006ace00 -> BB006ace06 [color="red"];
+  BB006ace06 -> BB006ace20 [color="green"];
+  BB006ace06 -> BB006ace0f [color="red"];
+  BB006ace10 -> BB006ace15 [color="blue"];
+  BB006ace20 -> BB006ace15 [color="blue"];
+}

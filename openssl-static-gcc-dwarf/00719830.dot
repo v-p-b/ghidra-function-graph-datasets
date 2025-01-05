@@ -1,0 +1,13 @@
+digraph ossl_aria_set_decrypt_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00719830 -> BB00719af0 [color="green"];
+  BB00719830 -> BB0071984f [color="red"];
+  BB0071984f -> BB00719a37 [color="green"];
+  BB0071984f -> BB00719887 [color="red"];
+  BB00719887 -> BB00719890 [color="blue"];
+  BB00719890 -> BB00719890 [color="green"];
+  BB00719890 -> BB00719a16 [color="red"];
+  BB00719a16 -> BB00719a37 [color="blue"];
+  BB00719a37 -> BB00719af0 [color="blue"];
+}

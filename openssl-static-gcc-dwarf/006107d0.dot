@@ -1,0 +1,10 @@
+digraph OCSP_archive_cutoff_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006107d0 -> BB00610820 [color="green"];
+  BB006107d0 -> BB006107e7 [color="red"];
+  BB006107e7 -> BB00610820 [color="green"];
+  BB006107e7 -> BB006107f6 [color="red"];
+  BB006107f6 -> BB00610808 [color="red"];
+  BB00610820 -> BB00610808 [color="blue"];
+}

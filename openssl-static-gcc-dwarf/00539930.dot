@@ -1,0 +1,24 @@
+digraph fd_read {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00539930 -> BB0053997d [color="green"];
+  BB00539930 -> BB00539940 [color="red"];
+  BB00539940 -> BB00539990 [color="green"];
+  BB00539940 -> BB0053997d [color="red"];
+  BB00539990 -> BB005399b8 [color="green"];
+  BB00539990 -> BB00539998 [color="red"];
+  BB00539998 -> BB0053997d [color="green"];
+  BB00539998 -> BB0053999c [color="red"];
+  BB005399b8 -> BB00539998 [color="green"];
+  BB005399b8 -> BB005399c0 [color="red"];
+  BB005399c0 -> BB005399e0 [color="green"];
+  BB005399c0 -> BB005399c5 [color="red"];
+  BB005399c5 -> BB005399cf [color="green"];
+  BB005399c5 -> BB005399ca [color="red"];
+  BB005399ca -> BB00539998 [color="green"];
+  BB005399ca -> BB005399cf [color="red"];
+  BB005399cf -> BB0053997d [color="blue"];
+  BB005399e0 -> BB00539998 [color="green"];
+  BB005399e0 -> BB005399f3 [color="red"];
+  BB005399f3 -> BB005399cf [color="blue"];
+}

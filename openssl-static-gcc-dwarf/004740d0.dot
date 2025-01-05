@@ -1,0 +1,12 @@
+digraph config_ctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004740d0 -> BB00474120 [color="blue"];
+  BB004740f0 -> BB00474150 [color="green"];
+  BB004740f0 -> BB0047411d [color="red"];
+  BB0047411d -> BB00474120 [color="blue"];
+  BB00474120 -> BB004740f0 [color="green"];
+  BB00474120 -> BB0047412c [color="red"];
+  BB0047412c -> BB00474198 [color="green"];
+  BB0047412c -> BB0047413b [color="red"];
+}

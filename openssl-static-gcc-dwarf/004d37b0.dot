@@ -1,0 +1,23 @@
+digraph tls_construct_ctos_server_name {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d37b0 -> BB004d38b0 [color="green"];
+  BB004d37b0 -> BB004d37be [color="red"];
+  BB004d37be -> BB004d37ed [color="green"];
+  BB004d37be -> BB004d37dc [color="red"];
+  BB004d37dc -> BB004d3830 [color="green"];
+  BB004d37dc -> BB004d37ed [color="red"];
+  BB004d37ed -> BB004d3822 [color="red"];
+  BB004d3830 -> BB004d37ed [color="green"];
+  BB004d3830 -> BB004d3841 [color="red"];
+  BB004d3841 -> BB004d37ed [color="green"];
+  BB004d3841 -> BB004d3854 [color="red"];
+  BB004d3854 -> BB00401100 [color="green"];
+  BB004d3854 -> BB004d37ed [color="green"];
+  BB004d3854 -> BB004d387e [color="red"];
+  BB004d387e -> BB004d37ed [color="green"];
+  BB004d387e -> BB004d388e [color="red"];
+  BB004d388e -> BB004d37ed [color="green"];
+  BB004d388e -> BB004d389e [color="red"];
+  BB004d389e -> BB004d3822 [color="blue"];
+}

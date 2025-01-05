@@ -1,0 +1,15 @@
+digraph lose.constprop.0 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008e74c0 -> BB008e74ee [color="green"];
+  BB008e74c0 -> BB008e74e7 [color="red"];
+  BB008e74e7 -> BB008e74ee [color="red"];
+  BB008e74ee -> BB008e7505 [color="green"];
+  BB008e74ee -> BB008e74f3 [color="red"];
+  BB008e74f3 -> BB008e7505 [color="green"];
+  BB008e74f3 -> BB008e7500 [color="red"];
+  BB008e7500 -> BB008e7505 [color="red"];
+  BB008e7505 -> BB008e7526 [color="green"];
+  BB008e7505 -> BB008e751a [color="red"];
+  BB008e751a -> BB008e7526 [color="red"];
+}

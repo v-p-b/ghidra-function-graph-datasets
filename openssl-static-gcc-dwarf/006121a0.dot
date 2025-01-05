@@ -1,0 +1,14 @@
+digraph ocsp_verify.part.0 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006121a0 -> BB00612288 [color="green"];
+  BB006121a0 -> BB006121c8 [color="red"];
+  BB006121c8 -> BB00612228 [color="green"];
+  BB006121c8 -> BB006121de [color="red"];
+  BB006121de -> BB00612256 [color="green"];
+  BB006121de -> BB00612210 [color="red"];
+  BB00612228 -> BB00612210 [color="green"];
+  BB00612228 -> BB00612256 [color="red"];
+  BB00612256 -> BB00612210 [color="blue"];
+  BB00612288 -> BB00612210 [color="blue"];
+}

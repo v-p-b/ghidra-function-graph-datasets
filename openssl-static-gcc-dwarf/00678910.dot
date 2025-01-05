@@ -1,0 +1,17 @@
+digraph X509_check_trust {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00678910 -> BB006789b8 [color="green"];
+  BB00678910 -> BB00678927 [color="red"];
+  BB00678927 -> BB006789a0 [color="green"];
+  BB00678927 -> BB00678931 [color="red"];
+  BB00678931 -> BB00678988 [color="green"];
+  BB00678931 -> BB0067893d [color="red"];
+  BB0067893d -> BB00678988 [color="green"];
+  BB0067893d -> BB0067895a [color="red"];
+  BB0067895a -> BB00678988 [color="green"];
+  BB0067895a -> BB0067895f [color="red"];
+  BB0067895f -> BB0067896e [color="red"];
+  BB00678988 -> BB00b4d920 [color="blue"];
+  BB006789a0 -> BB0067896e [color="blue"];
+}

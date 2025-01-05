@@ -1,0 +1,10 @@
+digraph X509_VERIFY_PARAM_add0_policy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00680920 -> BB00680948 [color="green"];
+  BB00680920 -> BB00680931 [color="red"];
+  BB00680931 -> BB0068093e [color="red"];
+  BB00680948 -> BB00680931 [color="green"];
+  BB00680948 -> BB00680963 [color="red"];
+  BB00680963 -> BB0068093e [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph OSSL_CMP_ITAV_new0_certReqTemplate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005530e0 -> BB005530f4 [color="green"];
+  BB005530e0 -> BB005530ef [color="red"];
+  BB005530ef -> BB00553150 [color="green"];
+  BB005530ef -> BB005530f4 [color="red"];
+  BB005530f4 -> BB00553142 [color="green"];
+  BB005530f4 -> BB00553108 [color="red"];
+  BB00553108 -> BB00553142 [color="green"];
+  BB00553108 -> BB0055311b [color="red"];
+  BB0055311b -> BB00553190 [color="green"];
+  BB0055311b -> BB0055312c [color="red"];
+  BB0055312c -> BB00553142 [color="blue"];
+  BB00553190 -> BB00553142 [color="blue"];
+}

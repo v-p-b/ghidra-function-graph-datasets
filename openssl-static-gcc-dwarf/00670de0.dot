@@ -1,0 +1,16 @@
+digraph ossl_ipaddr_to_asc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00670de0 -> BB00670eb0 [color="green"];
+  BB00670de0 -> BB00670dfa [color="red"];
+  BB00670dfa -> BB00670e40 [color="green"];
+  BB00670dfa -> BB00670dff [color="red"];
+  BB00670dff -> BB00670e1a [color="red"];
+  BB00670e40 -> BB00670e58 [color="blue"];
+  BB00670e58 -> BB00670e1a [color="green"];
+  BB00670e58 -> BB00670e83 [color="red"];
+  BB00670e83 -> BB00670e58 [color="green"];
+  BB00670e83 -> BB00670e88 [color="red"];
+  BB00670e88 -> BB00670e1a [color="blue"];
+  BB00670eb0 -> BB00670e1a [color="blue"];
+}

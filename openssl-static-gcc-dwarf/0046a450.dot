@@ -1,0 +1,10 @@
+digraph dup_bio_out {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0046a450 -> BB0046a487 [color="green"];
+  BB0046a450 -> BB0046a47c [color="red"];
+  BB0046a47c -> BB0046a490 [color="green"];
+  BB0046a47c -> BB0046a487 [color="red"];
+  BB0046a490 -> BB0046a487 [color="green"];
+  BB0046a490 -> BB0046a4a4 [color="red"];
+}

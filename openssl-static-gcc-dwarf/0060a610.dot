@@ -1,0 +1,9 @@
+digraph CRYPTO_ocb128_setiv {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0060a610 -> BB0060a632 [color="green"];
+  BB0060a610 -> BB0060a628 [color="red"];
+  BB0060a628 -> BB0060a640 [color="green"];
+  BB0060a628 -> BB0060a632 [color="red"];
+  BB0060a640 -> BB00401070 [color="blue"];
+}

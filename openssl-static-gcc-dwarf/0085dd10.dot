@@ -1,0 +1,10 @@
+digraph BN_GF2m_mod_div {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0085dd10 -> BB0085dd5a [color="green"];
+  BB0085dd10 -> BB0085dd42 [color="red"];
+  BB0085dd42 -> BB0085dd80 [color="green"];
+  BB0085dd42 -> BB0085dd5a [color="red"];
+  BB0085dd5a -> BB0085dd5d [color="blue"];
+  BB0085dd80 -> BB0085dd5d [color="blue"];
+}

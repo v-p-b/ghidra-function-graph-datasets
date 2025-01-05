@@ -1,0 +1,12 @@
+digraph wp_internal_final {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00700cd0 -> BB00700cf5 [color="green"];
+  BB00700cd0 -> BB00700cef [color="red"];
+  BB00700cef -> BB00700d08 [color="green"];
+  BB00700cef -> BB00700cf5 [color="red"];
+  BB00700cf5 -> BB00700cf7 [color="blue"];
+  BB00700d08 -> BB00700cf5 [color="green"];
+  BB00700d08 -> BB00700d17 [color="red"];
+  BB00700d17 -> BB00700cf7 [color="blue"];
+}

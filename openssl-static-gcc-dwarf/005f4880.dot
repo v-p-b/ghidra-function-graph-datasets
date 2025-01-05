@@ -1,0 +1,20 @@
+digraph copy_integer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005f4880 -> BB005f4920 [color="green"];
+  BB005f4880 -> BB005f4897 [color="red"];
+  BB005f4897 -> BB005f48f8 [color="green"];
+  BB005f4897 -> BB005f4899 [color="red"];
+  BB005f4899 -> BB005f48b9 [color="blue"];
+  BB005f48b0 -> BB005f48f8 [color="green"];
+  BB005f48b0 -> BB005f48b9 [color="red"];
+  BB005f48b9 -> BB005f48b0 [color="green"];
+  BB005f48b9 -> BB005f48bd [color="red"];
+  BB005f48f8 -> BB005f4906 [color="green"];
+  BB005f48f8 -> BB005f48fd [color="red"];
+  BB005f48fd -> BB005f48bd [color="green"];
+  BB005f48fd -> BB005f4906 [color="red"];
+  BB005f4906 -> BB00401070 [color="blue"];
+  BB005f4920 -> BB00401080 [color="blue"];
+  BB005f4920 -> BB00401070 [color="blue"];
+}

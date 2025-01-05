@@ -1,0 +1,9 @@
+digraph __libc_csu_fini {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00861c40 -> BB00861c72 [color="green"];
+  BB00861c40 -> BB00861c5d [color="red"];
+  BB00861c5d -> BB00861c68 [color="blue"];
+  BB00861c68 -> BB00861c68 [color="green"];
+  BB00861c68 -> BB00861c72 [color="red"];
+}

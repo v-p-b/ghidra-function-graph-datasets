@@ -1,0 +1,25 @@
+digraph mem_write {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0053aa80 -> BB0053ab70 [color="green"];
+  BB0053aa80 -> BB0053aa96 [color="red"];
+  BB0053aa96 -> BB0053ab09 [color="green"];
+  BB0053aa96 -> BB0053aaae [color="red"];
+  BB0053aaae -> BB0053abab [color="green"];
+  BB0053aaae -> BB0053aab7 [color="red"];
+  BB0053aab7 -> BB0053ab18 [color="green"];
+  BB0053aab7 -> BB0053aac5 [color="red"];
+  BB0053aac5 -> BB0053ab60 [color="green"];
+  BB0053aac5 -> BB0053aadd [color="red"];
+  BB0053aadd -> BB00401070 [color="green"];
+  BB0053aadd -> BB0053ab09 [color="red"];
+  BB0053ab18 -> BB0053aac5 [color="green"];
+  BB0053ab18 -> BB0053ab21 [color="red"];
+  BB0053ab21 -> BB0053aac5 [color="green"];
+  BB0053ab21 -> BB0053ab35 [color="red"];
+  BB0053ab35 -> BB00401020 [color="blue"];
+  BB0053ab35 -> BB0053aac5 [color="blue"];
+  BB0053ab60 -> BB0053ab09 [color="blue"];
+  BB0053ab70 -> BB0053ab09 [color="blue"];
+  BB0053abab -> BB0053ab09 [color="blue"];
+}

@@ -1,0 +1,20 @@
+digraph check_purpose_crl_sign {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006692e0 -> BB00669310 [color="green"];
+  BB006692e0 -> BB006692eb [color="red"];
+  BB006692eb -> BB00669303 [color="blue"];
+  BB00669310 -> BB00669303 [color="green"];
+  BB00669310 -> BB00669326 [color="red"];
+  BB00669326 -> BB00669370 [color="green"];
+  BB00669326 -> BB00669330 [color="red"];
+  BB00669330 -> BB00669380 [color="green"];
+  BB00669330 -> BB00669340 [color="red"];
+  BB00669340 -> BB00669303 [color="green"];
+  BB00669340 -> BB0066934a [color="red"];
+  BB0066934a -> BB00669303 [color="green"];
+  BB0066934a -> BB00669351 [color="red"];
+  BB00669351 -> BB00669303 [color="blue"];
+  BB00669370 -> BB00669303 [color="blue"];
+  BB00669380 -> BB00669303 [color="blue"];
+}

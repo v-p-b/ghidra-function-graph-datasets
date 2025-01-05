@@ -1,0 +1,23 @@
+digraph CRYPTO_ccm128_tag {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00604810 -> BB00604830 [color="green"];
+  BB00604810 -> BB00604826 [color="red"];
+  BB00604826 -> BB00604829 [color="blue"];
+  BB00604830 -> BB00604880 [color="green"];
+  BB00604830 -> BB0060483a [color="red"];
+  BB0060483a -> BB00604829 [color="green"];
+  BB0060483a -> BB00604866 [color="red"];
+  BB00604866 -> BB0060486b [color="blue"];
+  BB0060486b -> BB0060486b [color="green"];
+  BB0060486b -> BB0060487c [color="red"];
+  BB0060487c -> BB00604829 [color="blue"];
+  BB00604880 -> BB006048a8 [color="green"];
+  BB00604880 -> BB00604884 [color="red"];
+  BB00604884 -> BB00604829 [color="green"];
+  BB00604884 -> BB00604889 [color="red"];
+  BB00604889 -> BB00604829 [color="green"];
+  BB00604889 -> BB00604893 [color="red"];
+  BB00604893 -> BB00604829 [color="blue"];
+  BB006048a8 -> BB00604829 [color="blue"];
+}

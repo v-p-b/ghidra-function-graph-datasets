@@ -1,0 +1,12 @@
+digraph _IO_sungetc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00882ff0 -> BB00883020 [color="green"];
+  BB00882ff0 -> BB00883003 [color="red"];
+  BB00883003 -> BB0088300f [color="blue"];
+  BB00883020 -> BB00883060 [color="green"];
+  BB00883020 -> BB00883044 [color="red"];
+  BB00883044 -> BB0088300f [color="green"];
+  BB00883044 -> BB00883054 [color="red"];
+  BB00883060 -> BB00883044 [color="blue"];
+}

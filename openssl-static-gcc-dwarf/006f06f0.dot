@@ -1,0 +1,19 @@
+digraph mac_poly1305_newctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006f06f0 -> BB006f07d5 [color="green"];
+  BB006f06f0 -> BB006f0708 [color="red"];
+  BB006f0708 -> BB006f07d5 [color="green"];
+  BB006f0708 -> BB006f072a [color="red"];
+  BB006f072a -> BB006f0760 [color="green"];
+  BB006f072a -> BB006f073e [color="red"];
+  BB006f073e -> BB006f07a0 [color="green"];
+  BB006f073e -> BB006f075c [color="red"];
+  BB006f075c -> BB006f0760 [color="blue"];
+  BB006f0760 -> BB006f07a0 [color="green"];
+  BB006f0760 -> BB006f0777 [color="red"];
+  BB006f0777 -> BB006f07a3 [color="green"];
+  BB006f0777 -> BB006f0789 [color="red"];
+  BB006f07a0 -> BB006f07a3 [color="blue"];
+  BB006f07a3 -> BB006f07d5 [color="red"];
+}

@@ -1,0 +1,28 @@
+digraph ossl_quic_conn_set0_net_wbio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004af000 -> BB004af100 [color="green"];
+  BB004af000 -> BB004af00f [color="red"];
+  BB004af00f -> BB004af05c [color="green"];
+  BB004af00f -> BB004af01c [color="red"];
+  BB004af01c -> BB004af058 [color="green"];
+  BB004af01c -> BB004af021 [color="red"];
+  BB004af021 -> BB004af046 [color="red"];
+  BB004af046 -> BB004af12a [color="green"];
+  BB004af046 -> BB004af04e [color="red"];
+  BB004af058 -> BB004af05c [color="blue"];
+  BB004af05c -> BB004af04e [color="green"];
+  BB004af05c -> BB004af062 [color="red"];
+  BB004af062 -> BB004af04e [color="green"];
+  BB004af062 -> BB004af072 [color="red"];
+  BB004af072 -> BB004af098 [color="green"];
+  BB004af072 -> BB004af084 [color="red"];
+  BB004af084 -> BB004af098 [color="red"];
+  BB004af098 -> BB004af0d0 [color="green"];
+  BB004af098 -> BB004af0aa [color="red"];
+  BB004af0aa -> BB004af0ac [color="blue"];
+  BB004af0d0 -> BB004af0aa [color="green"];
+  BB004af0d0 -> BB004af0e8 [color="red"];
+  BB004af0e8 -> BB004af0ac [color="blue"];
+  BB004af100 -> BB004af046 [color="blue"];
+}

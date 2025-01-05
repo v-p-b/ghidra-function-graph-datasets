@@ -1,0 +1,15 @@
+digraph ossl_statem_send_fatal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ddd10 -> BB004ddd30 [color="green"];
+  BB004ddd10 -> BB004ddd27 [color="red"];
+  BB004ddd27 -> BB004ddd70 [color="green"];
+  BB004ddd27 -> BB004ddd30 [color="red"];
+  BB004ddd30 -> BB004ddd60 [color="green"];
+  BB004ddd30 -> BB004ddd46 [color="red"];
+  BB004ddd46 -> BB004ddd60 [color="green"];
+  BB004ddd46 -> BB004ddd52 [color="red"];
+  BB004ddd52 -> BB004ddd60 [color="blue"];
+  BB004ddd60 -> BB004ddd80 [color="green"];
+  BB004ddd60 -> BB004ddd70 [color="red"];
+}

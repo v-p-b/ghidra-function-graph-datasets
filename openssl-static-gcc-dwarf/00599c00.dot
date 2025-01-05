@@ -1,0 +1,10 @@
+digraph ecx_set_priv_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00599c00 -> BB00599c29 [color="green"];
+  BB00599c00 -> BB00599c16 [color="red"];
+  BB00599c16 -> BB00599c29 [color="red"];
+  BB00599c29 -> BB00599c66 [color="green"];
+  BB00599c29 -> BB00599c53 [color="red"];
+  BB00599c53 -> BB00599c66 [color="red"];
+}

@@ -1,0 +1,37 @@
+digraph ossl_rsa_sp800_56b_check_public {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006402a0 -> BB0064032b [color="green"];
+  BB006402a0 -> BB006402bb [color="red"];
+  BB006402bb -> BB0064032b [color="green"];
+  BB006402bb -> BB006402c2 [color="red"];
+  BB006402c2 -> BB00640340 [color="green"];
+  BB006402c2 -> BB006402d0 [color="red"];
+  BB006402d0 -> BB00640440 [color="green"];
+  BB006402d0 -> BB006402e4 [color="red"];
+  BB006402e4 -> BB00640380 [color="green"];
+  BB006402e4 -> BB006402f8 [color="red"];
+  BB006402f8 -> BB0064032b [color="red"];
+  BB00640380 -> BB006402f8 [color="green"];
+  BB00640380 -> BB00640398 [color="red"];
+  BB00640398 -> BB00640480 [color="green"];
+  BB00640398 -> BB006403b5 [color="red"];
+  BB006403b5 -> BB00640480 [color="green"];
+  BB006403b5 -> BB006403be [color="red"];
+  BB006403be -> BB006403e9 [color="green"];
+  BB006403be -> BB006403d9 [color="red"];
+  BB006403d9 -> BB00640488 [color="green"];
+  BB006403d9 -> BB006403e9 [color="red"];
+  BB006403e9 -> BB006403fa [color="red"];
+  BB006403fa -> BB0064041c [color="red"];
+  BB00640480 -> BB0064041c [color="blue"];
+  BB00640488 -> BB006404cc [color="green"];
+  BB00640488 -> BB006404ae [color="red"];
+  BB006404ae -> BB0064041c [color="green"];
+  BB006404ae -> BB006404bb [color="red"];
+  BB006404bb -> BB006404cc [color="green"];
+  BB006404bb -> BB006404c3 [color="red"];
+  BB006404c3 -> BB0064041c [color="green"];
+  BB006404c3 -> BB006404cc [color="red"];
+  BB006404cc -> BB006403fa [color="blue"];
+}

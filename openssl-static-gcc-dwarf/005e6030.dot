@@ -1,0 +1,32 @@
+digraph OSSL_HTTP_transfer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e6030 -> BB005e6170 [color="green"];
+  BB005e6030 -> BB005e6059 [color="red"];
+  BB005e6059 -> BB005e6128 [color="green"];
+  BB005e6059 -> BB005e6065 [color="red"];
+  BB005e6065 -> BB005e6100 [color="green"];
+  BB005e6065 -> BB005e60b0 [color="red"];
+  BB005e60b0 -> BB005e60b5 [color="blue"];
+  BB005e60b5 -> BB005e60d7 [color="green"];
+  BB005e60b5 -> BB005e60be [color="red"];
+  BB005e60be -> BB005e61b0 [color="green"];
+  BB005e60be -> BB005e60d3 [color="red"];
+  BB005e60d3 -> BB005e60d7 [color="blue"];
+  BB005e60d7 -> BB005e60e1 [color="red"];
+  BB005e60e1 -> BB005e60e9 [color="green"];
+  BB005e60e1 -> BB005e60e6 [color="red"];
+  BB005e60e6 -> BB005e60e9 [color="blue"];
+  BB005e6100 -> BB005e60b0 [color="green"];
+  BB005e6100 -> BB005e6112 [color="red"];
+  BB005e6112 -> BB005e60e1 [color="green"];
+  BB005e6112 -> BB005e611c [color="red"];
+  BB005e611c -> BB005e60b5 [color="blue"];
+  BB005e6128 -> BB005e60e6 [color="green"];
+  BB005e6128 -> BB005e615c [color="red"];
+  BB005e615c -> BB005e6065 [color="blue"];
+  BB005e6170 -> BB005e60e9 [color="green"];
+  BB005e6170 -> BB005e61a5 [color="red"];
+  BB005e61a5 -> BB005e615c [color="blue"];
+  BB005e61b0 -> BB005e60e1 [color="blue"];
+}

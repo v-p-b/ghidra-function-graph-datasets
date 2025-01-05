@@ -1,0 +1,12 @@
+digraph put_loader_in_store {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0064bbc0 -> BB0064bc55 [color="green"];
+  BB0064bbc0 -> BB0064bbed [color="red"];
+  BB0064bbed -> BB0064bc55 [color="green"];
+  BB0064bbed -> BB0064bbff [color="red"];
+  BB0064bbff -> BB0064bc40 [color="green"];
+  BB0064bbff -> BB0064bc04 [color="red"];
+  BB0064bc40 -> BB0064bc04 [color="green"];
+  BB0064bc40 -> BB0064bc55 [color="red"];
+}

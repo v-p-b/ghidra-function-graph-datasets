@@ -1,0 +1,19 @@
+digraph sm4_xts_einit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006a3d10 -> BB006a3dd0 [color="green"];
+  BB006a3d10 -> BB006a3d3d [color="red"];
+  BB006a3d3d -> BB006a3d58 [color="green"];
+  BB006a3d3d -> BB006a3d46 [color="red"];
+  BB006a3d46 -> BB006a3dd0 [color="green"];
+  BB006a3d46 -> BB006a3d58 [color="red"];
+  BB006a3d58 -> BB006a3d79 [color="green"];
+  BB006a3d58 -> BB006a3d5d [color="red"];
+  BB006a3d5d -> BB006a3da0 [color="green"];
+  BB006a3d5d -> BB006a3d63 [color="red"];
+  BB006a3d63 -> BB006a3dd0 [color="green"];
+  BB006a3d63 -> BB006a3d79 [color="red"];
+  BB006a3d79 -> BB006a3de8 [color="green"];
+  BB006a3d79 -> BB006a3d7e [color="red"];
+  BB006a3da0 -> BB006a3dd0 [color="red"];
+}

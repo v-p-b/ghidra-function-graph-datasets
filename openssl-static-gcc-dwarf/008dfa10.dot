@@ -1,0 +1,14 @@
+digraph functions_allocate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008dfa10 -> BB008dfaad [color="green"];
+  BB008dfa10 -> BB008dfa2a [color="red"];
+  BB008dfa2a -> BB008dfac0 [color="green"];
+  BB008dfa2a -> BB008dfa43 [color="red"];
+  BB008dfa43 -> BB008dfab8 [color="green"];
+  BB008dfa43 -> BB008dfa7a [color="red"];
+  BB008dfa7a -> BB008dfab8 [color="green"];
+  BB008dfa7a -> BB008dfa7f [color="red"];
+  BB008dfa7f -> BB008dfaad [color="blue"];
+  BB008dfab8 -> BB008dfac0 [color="red"];
+}

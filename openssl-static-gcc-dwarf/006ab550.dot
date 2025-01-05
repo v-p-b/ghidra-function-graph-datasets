@@ -1,0 +1,12 @@
+digraph shake_squeeze {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006ab550 -> BB006ab589 [color="green"];
+  BB006ab550 -> BB006ab56f [color="red"];
+  BB006ab56f -> BB006ab5a8 [color="green"];
+  BB006ab56f -> BB006ab57b [color="red"];
+  BB006ab57b -> BB006ab598 [color="green"];
+  BB006ab57b -> BB006ab585 [color="red"];
+  BB006ab585 -> BB006ab589 [color="blue"];
+  BB006ab598 -> BB006ab585 [color="blue"];
+}

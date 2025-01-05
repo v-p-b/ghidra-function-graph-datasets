@@ -1,0 +1,15 @@
+digraph get_legacy_pkey_id {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0046cc10 -> BB0046cc5d [color="green"];
+  BB0046cc10 -> BB0046cc58 [color="red"];
+  BB0046cc58 -> BB0046cc98 [color="green"];
+  BB0046cc58 -> BB0046cc5d [color="red"];
+  BB0046cc5d -> BB0046ccb0 [color="green"];
+  BB0046cc5d -> BB0046cc65 [color="red"];
+  BB0046cc65 -> BB0046cc8b [color="green"];
+  BB0046cc65 -> BB0046cc71 [color="red"];
+  BB0046cc71 -> BB0046cc8b [color="red"];
+  BB0046cc98 -> BB0046cc65 [color="blue"];
+  BB0046ccb0 -> BB0046cc8b [color="blue"];
+}

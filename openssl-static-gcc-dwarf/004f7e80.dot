@@ -1,0 +1,16 @@
+digraph ossl_qlog_event_connectivity_connection_closed {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004f7e80 -> BB004f7f00 [color="green"];
+  BB004f7e80 -> BB004f7eb1 [color="red"];
+  BB004f7eb1 -> BB004f7f10 [color="green"];
+  BB004f7eb1 -> BB004f7edc [color="red"];
+  BB004f7edc -> BB004f8064 [color="green"];
+  BB004f7edc -> BB004f7ee9 [color="red"];
+  BB004f7f10 -> BB004f7f22 [color="red"];
+  BB004f7f60 -> BB004f7f22 [color="blue"];
+  BB004f8064 -> BB004f808a [color="green"];
+  BB004f8064 -> BB004f8073 [color="red"];
+  BB004f8073 -> BB004f7f22 [color="blue"];
+  BB004f808a -> BB004f7f60 [color="blue"];
+}

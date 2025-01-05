@@ -1,0 +1,25 @@
+digraph drbg_hmac_verify_zeroization {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006e1d90 -> BB006e1db6 [color="green"];
+  BB006e1d90 -> BB006e1da6 [color="red"];
+  BB006e1da6 -> BB006e1ddb [color="green"];
+  BB006e1da6 -> BB006e1db2 [color="red"];
+  BB006e1db2 -> BB006e1db6 [color="blue"];
+  BB006e1db6 -> BB006e1dc9 [color="blue"];
+  BB006e1dc0 -> BB006e1de8 [color="green"];
+  BB006e1dc0 -> BB006e1dc9 [color="red"];
+  BB006e1dc9 -> BB006e1dc0 [color="green"];
+  BB006e1dc9 -> BB006e1dce [color="red"];
+  BB006e1dce -> BB006e1dd1 [color="blue"];
+  BB006e1dd1 -> BB006e1ddb [color="green"];
+  BB006e1dd1 -> BB006e1dd6 [color="red"];
+  BB006e1dd6 -> BB006e1ddb [color="red"];
+  BB006e1de8 -> BB006e1e01 [color="blue"];
+  BB006e1df8 -> BB006e1e08 [color="green"];
+  BB006e1df8 -> BB006e1e01 [color="red"];
+  BB006e1e01 -> BB006e1df8 [color="green"];
+  BB006e1e01 -> BB006e1e06 [color="red"];
+  BB006e1e06 -> BB006e1dce [color="blue"];
+  BB006e1e08 -> BB006e1dd1 [color="blue"];
+}

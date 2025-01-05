@@ -1,0 +1,16 @@
+digraph unprotected_exception {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0055eea0 -> BB0055ef40 [color="green"];
+  BB0055eea0 -> BB0055eeb3 [color="red"];
+  BB0055eeb3 -> BB0055ef40 [color="green"];
+  BB0055eeb3 -> BB0055eebf [color="red"];
+  BB0055eebf -> BB0055ef20 [color="green"];
+  BB0055eebf -> BB0055eec3 [color="red"];
+  BB0055eec3 -> BB0055ef12 [color="red"];
+  BB0055ef20 -> BB0055ef58 [color="green"];
+  BB0055ef20 -> BB0055ef2a [color="red"];
+  BB0055ef58 -> BB0055ef2a [color="green"];
+  BB0055ef58 -> BB0055ef6d [color="red"];
+  BB0055ef6d -> BB0055ef12 [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph sha256_internal_final {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006aaa00 -> BB006aaa25 [color="green"];
+  BB006aaa00 -> BB006aaa1f [color="red"];
+  BB006aaa1f -> BB006aaa38 [color="green"];
+  BB006aaa1f -> BB006aaa25 [color="red"];
+  BB006aaa25 -> BB006aaa27 [color="blue"];
+  BB006aaa38 -> BB006aaa25 [color="green"];
+  BB006aaa38 -> BB006aaa47 [color="red"];
+  BB006aaa47 -> BB006aaa27 [color="blue"];
+}

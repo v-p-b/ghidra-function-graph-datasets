@@ -1,0 +1,9 @@
+digraph sha3_512_newctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006ab120 -> BB006ab17e [color="green"];
+  BB006ab120 -> BB006ab12e [color="red"];
+  BB006ab12e -> BB006ab17e [color="green"];
+  BB006ab12e -> BB006ab14c [color="red"];
+  BB006ab14c -> BB006ab17e [color="red"];
+}

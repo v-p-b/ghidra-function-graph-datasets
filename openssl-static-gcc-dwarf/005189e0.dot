@@ -1,0 +1,12 @@
+digraph ASN1_UTCTIME_adj {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005189e0 -> BB00518a52 [color="green"];
+  BB005189e0 -> BB00518a0d [color="red"];
+  BB00518a0d -> BB00518a40 [color="green"];
+  BB00518a0d -> BB00518a15 [color="red"];
+  BB00518a15 -> BB00518a40 [color="green"];
+  BB00518a15 -> BB00518a1a [color="red"];
+  BB00518a40 -> BB00518a1a [color="green"];
+  BB00518a40 -> BB00518a52 [color="red"];
+}

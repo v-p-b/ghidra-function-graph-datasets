@@ -1,0 +1,14 @@
+digraph dsa_to_PrivateKeyInfo_pem_does_selection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b3be0 -> BB006b3bff [color="green"];
+  BB006b3be0 -> BB006b3be9 [color="red"];
+  BB006b3be9 -> BB006b3c05 [color="green"];
+  BB006b3be9 -> BB006b3bf0 [color="red"];
+  BB006b3bf0 -> BB006b3c00 [color="green"];
+  BB006b3bf0 -> BB006b3bf6 [color="red"];
+  BB006b3bf6 -> BB006b3c10 [color="green"];
+  BB006b3bf6 -> BB006b3bff [color="red"];
+  BB006b3c00 -> BB006b3c05 [color="blue"];
+  BB006b3c10 -> BB006b3c05 [color="blue"];
+}

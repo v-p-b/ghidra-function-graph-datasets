@@ -1,0 +1,10 @@
+digraph ossl_quic_stream_map_peek_accept_queue {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004bf960 -> BB004bf978 [color="green"];
+  BB004bf960 -> BB004bf96d [color="red"];
+  BB004bf96d -> BB004bf971 [color="blue"];
+  BB004bf978 -> BB004bf971 [color="green"];
+  BB004bf978 -> BB004bf984 [color="red"];
+  BB004bf984 -> BB004bf96d [color="blue"];
+}

@@ -1,0 +1,18 @@
+digraph ossl_statem_fatal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ddda0 -> BB004dddfa [color="green"];
+  BB004ddda0 -> BB004dddc3 [color="red"];
+  BB004dddc3 -> BB004dddfa [color="blue"];
+  BB004dddfa -> BB004dde43 [color="green"];
+  BB004dddfa -> BB004dde3a [color="red"];
+  BB004dde3a -> BB004dde83 [color="green"];
+  BB004dde3a -> BB004dde43 [color="red"];
+  BB004dde43 -> BB004dde73 [color="green"];
+  BB004dde43 -> BB004dde59 [color="red"];
+  BB004dde59 -> BB004dde73 [color="green"];
+  BB004dde59 -> BB004dde65 [color="red"];
+  BB004dde65 -> BB004dde73 [color="blue"];
+  BB004dde73 -> BB004dde90 [color="green"];
+  BB004dde73 -> BB004dde83 [color="red"];
+}

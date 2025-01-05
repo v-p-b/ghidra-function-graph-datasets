@@ -1,0 +1,14 @@
+digraph der2obj_decode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006fa420 -> BB006fa54b [color="green"];
+  BB006fa420 -> BB006fa44d [color="red"];
+  BB006fa44d -> BB006fa560 [color="green"];
+  BB006fa44d -> BB006fa473 [color="red"];
+  BB006fa473 -> BB006fa54b [color="green"];
+  BB006fa473 -> BB006fa497 [color="red"];
+  BB006fa497 -> BB006fa54b [color="red"];
+  BB006fa560 -> BB006fa473 [color="green"];
+  BB006fa560 -> BB006fa56e [color="red"];
+  BB006fa56e -> BB006fa473 [color="blue"];
+}

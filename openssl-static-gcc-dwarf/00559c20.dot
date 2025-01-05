@@ -1,0 +1,36 @@
+digraph verify_ss_cert_trans {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00559c20 -> BB00559cbf [color="green"];
+  BB00559c20 -> BB00559c54 [color="red"];
+  BB00559c54 -> BB00559c9e [color="green"];
+  BB00559c54 -> BB00559c71 [color="red"];
+  BB00559c71 -> BB00559cb0 [color="green"];
+  BB00559c71 -> BB00559c82 [color="red"];
+  BB00559c82 -> BB00559c96 [color="red"];
+  BB00559c96 -> BB00559c9e [color="red"];
+  BB00559cb0 -> BB00559c82 [color="green"];
+  BB00559cb0 -> BB00559cbf [color="red"];
+  BB00559cbf -> BB00559ce1 [color="green"];
+  BB00559cbf -> BB00559cc4 [color="red"];
+  BB00559cc4 -> BB00559d90 [color="green"];
+  BB00559cc4 -> BB00559ce1 [color="red"];
+  BB00559ce1 -> BB00559de8 [color="green"];
+  BB00559ce1 -> BB00559d05 [color="red"];
+  BB00559d05 -> BB00559de8 [color="green"];
+  BB00559d05 -> BB00559d0e [color="red"];
+  BB00559d0e -> BB00559e20 [color="green"];
+  BB00559d0e -> BB00559d22 [color="red"];
+  BB00559d22 -> BB00559db0 [color="green"];
+  BB00559d22 -> BB00559d37 [color="red"];
+  BB00559d37 -> BB00559d3f [color="red"];
+  BB00559d3f -> BB00559d90 [color="red"];
+  BB00559d90 -> BB00559c9e [color="green"];
+  BB00559d90 -> BB00559daa [color="red"];
+  BB00559daa -> BB00559c96 [color="blue"];
+  BB00559db0 -> BB00559d3f [color="green"];
+  BB00559db0 -> BB00559ddb [color="red"];
+  BB00559ddb -> BB00559d90 [color="blue"];
+  BB00559de8 -> BB00559d3f [color="blue"];
+  BB00559e20 -> BB00559d3f [color="blue"];
+}

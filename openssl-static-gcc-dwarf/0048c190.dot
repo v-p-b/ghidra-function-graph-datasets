@@ -1,0 +1,18 @@
+digraph SSL_renegotiate_abbreviated {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048c190 -> BB0048c19b [color="green"];
+  BB0048c190 -> BB0048c195 [color="red"];
+  BB0048c195 -> BB0048c1a0 [color="green"];
+  BB0048c195 -> BB0048c19b [color="red"];
+  BB0048c1a0 -> BB0048c1c7 [color="green"];
+  BB0048c1a0 -> BB0048c1b5 [color="red"];
+  BB0048c1b5 -> BB0048c1c7 [color="green"];
+  BB0048c1b5 -> BB0048c1bf [color="red"];
+  BB0048c1bf -> BB0048c230 [color="green"];
+  BB0048c1bf -> BB0048c1c7 [color="red"];
+  BB0048c1c7 -> BB0048c1f0 [color="green"];
+  BB0048c1c7 -> BB0048c1d0 [color="red"];
+  BB0048c1f0 -> BB0048c220 [color="red"];
+  BB0048c230 -> BB0048c220 [color="blue"];
+}

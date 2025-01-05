@@ -1,0 +1,25 @@
+digraph ecp_nistz256_inv_mod_ord {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00592f00 -> BB00593230 [color="green"];
+  BB00592f00 -> BB00592f33 [color="red"];
+  BB00592f33 -> BB005931a0 [color="green"];
+  BB00592f33 -> BB00592f46 [color="red"];
+  BB00592f46 -> BB005931c0 [color="green"];
+  BB00592f46 -> BB00592f5a [color="red"];
+  BB00592f5a -> BB005931c0 [color="green"];
+  BB00592f5a -> BB00592f74 [color="red"];
+  BB00592f74 -> BB005931f8 [color="green"];
+  BB00592f74 -> BB00592f94 [color="red"];
+  BB00592f94 -> BB00593130 [color="red"];
+  BB00593130 -> BB00593130 [color="green"];
+  BB00593130 -> BB00593160 [color="red"];
+  BB00593160 -> BB0059318b [color="red"];
+  BB005931a0 -> BB00592f74 [color="green"];
+  BB005931a0 -> BB005931b3 [color="red"];
+  BB005931b3 -> BB00592f46 [color="blue"];
+  BB005931c0 -> BB005931d1 [color="red"];
+  BB005931d1 -> BB0059318b [color="blue"];
+  BB005931f8 -> BB0059318b [color="blue"];
+  BB00593230 -> BB005931d1 [color="blue"];
+}

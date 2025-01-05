@@ -1,0 +1,11 @@
+digraph RC2_encrypt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0082c4e0 -> BB0082c54d [color="blue"];
+  BB0082c518 -> BB0082c54a [color="blue"];
+  BB0082c54a -> BB0082c54d [color="blue"];
+  BB0082c54d -> BB0082c54a [color="green"];
+  BB0082c54d -> BB0082c5da [color="red"];
+  BB0082c5da -> BB0082c518 [color="green"];
+  BB0082c5da -> BB0082c5e3 [color="red"];
+}

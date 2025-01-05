@@ -1,0 +1,17 @@
+digraph X509v3_get_ext_by_critical {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00679540 -> BB006795d0 [color="green"];
+  BB00679540 -> BB00679553 [color="red"];
+  BB00679553 -> BB006795a2 [color="green"];
+  BB00679553 -> BB00679575 [color="red"];
+  BB00679575 -> BB006795d0 [color="blue"];
+  BB00679580 -> BB006795c2 [color="green"];
+  BB00679580 -> BB00679599 [color="red"];
+  BB00679599 -> BB006795d0 [color="green"];
+  BB00679599 -> BB006795a2 [color="red"];
+  BB006795a2 -> BB00679580 [color="green"];
+  BB006795a2 -> BB006795b2 [color="red"];
+  BB006795b2 -> BB00679599 [color="green"];
+  BB006795b2 -> BB006795c2 [color="red"];
+}

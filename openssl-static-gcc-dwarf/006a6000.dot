@@ -1,0 +1,11 @@
+digraph blake2b512_internal_final {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006a6000 -> BB006a6055 [color="green"];
+  BB006a6000 -> BB006a601f [color="red"];
+  BB006a601f -> BB006a6050 [color="green"];
+  BB006a601f -> BB006a602f [color="red"];
+  BB006a602f -> BB006a6060 [color="green"];
+  BB006a602f -> BB006a6034 [color="red"];
+  BB006a6050 -> BB006a6055 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph ossl_encode_der_length {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e7ea0 -> BB005e7f28 [color="green"];
+  BB005e7ea0 -> BB005e7ea9 [color="red"];
+  BB005e7ea9 -> BB005e7f00 [color="green"];
+  BB005e7ea9 -> BB005e7ebf [color="red"];
+  BB005e7ebf -> BB005e7ed8 [color="green"];
+  BB005e7ebf -> BB005e7ec5 [color="red"];
+  BB005e7ec5 -> BB005e7f18 [color="green"];
+  BB005e7ec5 -> BB005e7ed8 [color="red"];
+  BB005e7ed8 -> BB005e7edd [color="blue"];
+  BB005e7f00 -> BB005e7edd [color="green"];
+  BB005e7f00 -> BB005e7f18 [color="red"];
+}

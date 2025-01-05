@@ -1,0 +1,21 @@
+digraph __malloc_fork_lock_parent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00889970 -> BB008899e8 [color="green"];
+  BB00889970 -> BB0088997a [color="red"];
+  BB0088997a -> BB008899f0 [color="green"];
+  BB0088997a -> BB0088998a [color="red"];
+  BB0088998a -> BB00889996 [color="blue"];
+  BB00889996 -> BB008899a8 [color="blue"];
+  BB008899a8 -> BB008899d0 [color="green"];
+  BB008899a8 -> BB008899b9 [color="red"];
+  BB008899b9 -> BB008899bc [color="blue"];
+  BB008899bc -> BB008899a8 [color="green"];
+  BB008899bc -> BB008899c8 [color="red"];
+  BB008899d0 -> BB008899bc [color="green"];
+  BB008899d0 -> BB008899d9 [color="red"];
+  BB008899d9 -> BB008899bc [color="blue"];
+  BB008899f0 -> BB00889996 [color="green"];
+  BB008899f0 -> BB00889a01 [color="red"];
+  BB00889a01 -> BB00889996 [color="blue"];
+}

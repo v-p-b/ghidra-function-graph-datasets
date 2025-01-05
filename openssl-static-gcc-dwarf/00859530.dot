@@ -1,0 +1,9 @@
+digraph _padlock_verify_ctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00859530 -> BB00859543 [color="green"];
+  BB00859530 -> BB0085953c [color="red"];
+  BB0085953c -> BB00859543 [color="green"];
+  BB0085953c -> BB00859541 [color="red"];
+  BB00859541 -> BB00859543 [color="blue"];
+}

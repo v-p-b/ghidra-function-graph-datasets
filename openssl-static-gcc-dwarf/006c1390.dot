@@ -1,0 +1,16 @@
+digraph ecx_set_peer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006c1390 -> BB006c13eb [color="green"];
+  BB006c1390 -> BB006c13a5 [color="red"];
+  BB006c13a5 -> BB006c13b9 [color="green"];
+  BB006c13a5 -> BB006c13aa [color="red"];
+  BB006c13aa -> BB006c13b9 [color="green"];
+  BB006c13aa -> BB006c13af [color="red"];
+  BB006c13af -> BB006c13f8 [color="green"];
+  BB006c13af -> BB006c13b9 [color="red"];
+  BB006c13b9 -> BB006c13eb [color="red"];
+  BB006c13f8 -> BB006c13b9 [color="green"];
+  BB006c13f8 -> BB006c1404 [color="red"];
+  BB006c1404 -> BB006c13eb [color="blue"];
+}

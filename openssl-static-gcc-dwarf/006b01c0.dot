@@ -1,0 +1,11 @@
+digraph ecx_pki_priv_to_der {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b01c0 -> BB006b0200 [color="green"];
+  BB006b01c0 -> BB006b01c9 [color="red"];
+  BB006b01c9 -> BB006b0200 [color="green"];
+  BB006b01c9 -> BB006b01d2 [color="red"];
+  BB006b01d2 -> BB006b0240 [color="green"];
+  BB006b01d2 -> BB006b01f3 [color="red"];
+  BB006b0240 -> BB006b01f3 [color="blue"];
+}

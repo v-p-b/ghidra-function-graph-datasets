@@ -1,0 +1,12 @@
+digraph X509_TRUST_set {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00678aa0 -> BB00678adf [color="green"];
+  BB00678aa0 -> BB00678ab3 [color="red"];
+  BB00678ab3 -> BB00678af0 [color="green"];
+  BB00678ab3 -> BB00678abf [color="red"];
+  BB00678abf -> BB00678af0 [color="green"];
+  BB00678abf -> BB00678ada [color="red"];
+  BB00678ada -> BB00678af0 [color="green"];
+  BB00678ada -> BB00678adf [color="red"];
+}

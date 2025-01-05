@@ -1,0 +1,17 @@
+digraph SSL_get0_server_cert_type {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00495340 -> BB0049534b [color="green"];
+  BB00495340 -> BB00495345 [color="red"];
+  BB00495345 -> BB00495370 [color="green"];
+  BB00495345 -> BB0049534b [color="red"];
+  BB0049534b -> BB0049537c [color="green"];
+  BB0049534b -> BB00495350 [color="red"];
+  BB00495350 -> BB0049537c [color="green"];
+  BB00495350 -> BB00495355 [color="red"];
+  BB00495370 -> BB00495380 [color="green"];
+  BB00495370 -> BB00495375 [color="red"];
+  BB00495375 -> BB00495350 [color="green"];
+  BB00495375 -> BB0049537c [color="red"];
+  BB00495380 -> BB0049534b [color="blue"];
+}

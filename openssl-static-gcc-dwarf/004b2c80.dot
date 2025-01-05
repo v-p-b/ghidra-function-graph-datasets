@@ -1,0 +1,17 @@
+digraph ossl_quic_get0_connection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b2c80 -> BB004b2ce0 [color="green"];
+  BB004b2c80 -> BB004b2c89 [color="red"];
+  BB004b2c89 -> BB004b2cc8 [color="green"];
+  BB004b2c89 -> BB004b2c90 [color="red"];
+  BB004b2c90 -> BB004b2cd0 [color="green"];
+  BB004b2c90 -> BB004b2c95 [color="red"];
+  BB004b2c95 -> BB004b2cbc [color="red"];
+  BB004b2cbc -> BB004b2ccb [color="green"];
+  BB004b2cbc -> BB004b2cc2 [color="red"];
+  BB004b2cc2 -> BB004b2cc8 [color="blue"];
+  BB004b2cc8 -> BB004b2ccb [color="blue"];
+  BB004b2cd0 -> BB004b2cc8 [color="blue"];
+  BB004b2ce0 -> BB004b2cbc [color="blue"];
+}

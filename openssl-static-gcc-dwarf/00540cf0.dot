@@ -1,0 +1,14 @@
+digraph BN_clear_bit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00540cf0 -> BB00540d4b [color="green"];
+  BB00540cf0 -> BB00540cf9 [color="red"];
+  BB00540cf9 -> BB00540d4b [color="green"];
+  BB00540cf9 -> BB00540d05 [color="red"];
+  BB00540d05 -> BB00540d28 [color="blue"];
+  BB00540d28 -> BB00540d50 [color="green"];
+  BB00540d28 -> BB00540d32 [color="red"];
+  BB00540d32 -> BB00540d28 [color="green"];
+  BB00540d32 -> BB00540d37 [color="red"];
+  BB00540d37 -> BB00540d4b [color="blue"];
+}

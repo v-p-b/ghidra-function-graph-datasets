@@ -1,0 +1,19 @@
+digraph ChaCha20_ssse3 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0072ef00 -> BB0072ef10 [color="red"];
+  BB0072ef10 -> BB0072ef1d [color="red"];
+  BB0072ef1d -> BB0072ef23 [color="red"];
+  BB0072ef23 -> BB0072efc0 [color="blue"];
+  BB0072ef80 -> BB0072efc0 [color="blue"];
+  BB0072efc0 -> BB0072efc0 [color="green"];
+  BB0072efc0 -> BB0072f084 [color="red"];
+  BB0072f084 -> BB0072f0f0 [color="green"];
+  BB0072f084 -> BB0072f0a1 [color="red"];
+  BB0072f0a1 -> BB0072ef80 [color="green"];
+  BB0072f0a1 -> BB0072f0e9 [color="red"];
+  BB0072f0e9 -> BB0072f124 [color="blue"];
+  BB0072f0f0 -> BB0072f10a [color="blue"];
+  BB0072f10a -> BB0072f10a [color="green"];
+  BB0072f10a -> BB0072f124 [color="red"];
+}

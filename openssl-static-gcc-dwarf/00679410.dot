@@ -1,0 +1,16 @@
+digraph X509v3_get_ext_by_NID {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00679410 -> BB006794a4 [color="green"];
+  BB00679410 -> BB0067942c [color="red"];
+  BB0067942c -> BB00679490 [color="green"];
+  BB0067942c -> BB00679431 [color="red"];
+  BB00679431 -> BB00679461 [color="green"];
+  BB00679431 -> BB00679451 [color="red"];
+  BB00679451 -> BB00679490 [color="blue"];
+  BB00679458 -> BB00679490 [color="green"];
+  BB00679458 -> BB00679461 [color="red"];
+  BB00679461 -> BB00679458 [color="green"];
+  BB00679461 -> BB0067947b [color="red"];
+  BB006794a4 -> BB0067947b [color="blue"];
+}

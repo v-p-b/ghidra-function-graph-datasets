@@ -1,0 +1,20 @@
+digraph tls1_setup_key_block {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0049c7a0 -> BB0049c7d8 [color="green"];
+  BB0049c7a0 -> BB0049c7c8 [color="red"];
+  BB0049c7d8 -> BB0049c970 [color="green"];
+  BB0049c7d8 -> BB0049c816 [color="red"];
+  BB0049c816 -> BB0049c8c8 [color="green"];
+  BB0049c816 -> BB0049c86e [color="red"];
+  BB0049c86e -> BB0049c8c8 [color="green"];
+  BB0049c86e -> BB0049c87b [color="red"];
+  BB0049c87b -> BB0049c8cd [color="green"];
+  BB0049c87b -> BB0049c88a [color="red"];
+  BB0049c88a -> BB0049c8ae [color="red"];
+  BB0049c8ae -> BB0049c7c8 [color="blue"];
+  BB0049c8c8 -> BB0049c8cd [color="blue"];
+  BB0049c8cd -> BB0049c98e [color="green"];
+  BB0049c8cd -> BB0049c909 [color="red"];
+  BB0049c98e -> BB0049c8ae [color="blue"];
+}

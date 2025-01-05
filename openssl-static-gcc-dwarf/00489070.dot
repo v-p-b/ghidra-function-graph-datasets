@@ -1,0 +1,12 @@
+digraph SSL_dane_tlsa_add {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00489070 -> BB00489089 [color="green"];
+  BB00489070 -> BB00489075 [color="red"];
+  BB00489075 -> BB00489090 [color="green"];
+  BB00489075 -> BB0048907b [color="red"];
+  BB0048907b -> BB00489089 [color="green"];
+  BB0048907b -> BB00489080 [color="red"];
+  BB00489080 -> BB00489090 [color="green"];
+  BB00489080 -> BB00489089 [color="red"];
+}

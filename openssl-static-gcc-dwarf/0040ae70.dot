@@ -1,0 +1,17 @@
+digraph truststore_set_host_etc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0040ae70 -> BB0040aea0 [color="green"];
+  BB0040ae70 -> BB0040ae92 [color="red"];
+  BB0040ae92 -> BB0040ae94 [color="blue"];
+  BB0040aea0 -> BB0040ae92 [color="green"];
+  BB0040aea0 -> BB0040aeb0 [color="red"];
+  BB0040aeb0 -> BB0040ae92 [color="green"];
+  BB0040aeb0 -> BB0040aec0 [color="red"];
+  BB0040aec0 -> BB0040aef0 [color="green"];
+  BB0040aec0 -> BB0040aed2 [color="red"];
+  BB0040aed2 -> BB0040aef0 [color="green"];
+  BB0040aed2 -> BB0040aee1 [color="red"];
+  BB0040aee1 -> BB0040ae94 [color="blue"];
+  BB0040aef0 -> BB0040ae94 [color="blue"];
+}

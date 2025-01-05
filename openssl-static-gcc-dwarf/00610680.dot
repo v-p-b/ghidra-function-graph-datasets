@@ -1,0 +1,26 @@
+digraph OCSP_crlID_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00610680 -> BB00610740 [color="green"];
+  BB00610680 -> BB006106a4 [color="red"];
+  BB006106a4 -> BB006106cf [color="green"];
+  BB006106a4 -> BB006106a9 [color="red"];
+  BB006106a9 -> BB00610740 [color="green"];
+  BB006106a9 -> BB006106be [color="red"];
+  BB006106be -> BB00610740 [color="green"];
+  BB006106be -> BB006106cf [color="red"];
+  BB006106cf -> BB006106f1 [color="green"];
+  BB006106cf -> BB006106d4 [color="red"];
+  BB006106d4 -> BB00610740 [color="green"];
+  BB006106d4 -> BB006106e5 [color="red"];
+  BB006106e5 -> BB00610740 [color="green"];
+  BB006106e5 -> BB006106f1 [color="red"];
+  BB006106f1 -> BB00610713 [color="green"];
+  BB006106f1 -> BB006106f6 [color="red"];
+  BB006106f6 -> BB00610740 [color="green"];
+  BB006106f6 -> BB00610707 [color="red"];
+  BB00610707 -> BB00610740 [color="green"];
+  BB00610707 -> BB00610713 [color="red"];
+  BB00610713 -> BB00610725 [color="red"];
+  BB00610740 -> BB00610725 [color="blue"];
+}

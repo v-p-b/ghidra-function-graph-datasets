@@ -1,0 +1,23 @@
+digraph DSO_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0057fc80 -> BB0057fd1f [color="green"];
+  BB0057fc80 -> BB0057fc90 [color="red"];
+  BB0057fc90 -> BB0057fd1f [color="green"];
+  BB0057fc90 -> BB0057fca0 [color="red"];
+  BB0057fca0 -> BB0057fcc3 [color="green"];
+  BB0057fca0 -> BB0057fca9 [color="red"];
+  BB0057fca9 -> BB0057fcc3 [color="green"];
+  BB0057fca9 -> BB0057fcb2 [color="red"];
+  BB0057fcb2 -> BB0057fd68 [color="green"];
+  BB0057fcb2 -> BB0057fcbf [color="red"];
+  BB0057fcbf -> BB0057fcc3 [color="blue"];
+  BB0057fcc3 -> BB0057fcd8 [color="green"];
+  BB0057fcc3 -> BB0057fccc [color="red"];
+  BB0057fccc -> BB0057fd30 [color="green"];
+  BB0057fccc -> BB0057fcd8 [color="red"];
+  BB0057fcd8 -> BB0057fd1f [color="red"];
+  BB0057fd1f -> BB0057fd25 [color="blue"];
+  BB0057fd30 -> BB0057fd25 [color="blue"];
+  BB0057fd68 -> BB0057fd25 [color="blue"];
+}

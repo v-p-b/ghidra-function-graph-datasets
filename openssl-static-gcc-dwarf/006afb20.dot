@@ -1,0 +1,11 @@
+digraph key_to_pubkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006afb20 -> BB006afba0 [color="green"];
+  BB006afb20 -> BB006afb52 [color="red"];
+  BB006afb52 -> BB006afba0 [color="green"];
+  BB006afb52 -> BB006afb62 [color="red"];
+  BB006afb62 -> BB006afba0 [color="green"];
+  BB006afb62 -> BB006afb89 [color="red"];
+  BB006afba0 -> BB006afb89 [color="blue"];
+}

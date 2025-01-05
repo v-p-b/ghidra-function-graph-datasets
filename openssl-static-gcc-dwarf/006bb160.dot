@@ -1,0 +1,27 @@
+digraph dh_to_PKCS3_der_encode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006bb160 -> BB006bb178 [color="green"];
+  BB006bb160 -> BB006bb16f [color="red"];
+  BB006bb16f -> BB006bb1c0 [color="green"];
+  BB006bb16f -> BB006bb178 [color="red"];
+  BB006bb178 -> BB006bb189 [color="red"];
+  BB006bb189 -> BB006bb1ab [color="red"];
+  BB006bb1c0 -> BB006bb288 [color="green"];
+  BB006bb1c0 -> BB006bb1cc [color="red"];
+  BB006bb1cc -> BB006bb200 [color="green"];
+  BB006bb1cc -> BB006bb1e6 [color="red"];
+  BB006bb1e6 -> BB006bb189 [color="blue"];
+  BB006bb200 -> BB006bb276 [color="green"];
+  BB006bb200 -> BB006bb213 [color="red"];
+  BB006bb213 -> BB006bb2c0 [color="green"];
+  BB006bb213 -> BB006bb239 [color="red"];
+  BB006bb239 -> BB006bb240 [color="red"];
+  BB006bb240 -> BB006bb2d0 [color="green"];
+  BB006bb240 -> BB006bb248 [color="red"];
+  BB006bb248 -> BB006bb276 [color="red"];
+  BB006bb276 -> BB006bb1ab [color="blue"];
+  BB006bb288 -> BB006bb1ab [color="blue"];
+  BB006bb2c0 -> BB006bb240 [color="blue"];
+  BB006bb2d0 -> BB006bb276 [color="blue"];
+}

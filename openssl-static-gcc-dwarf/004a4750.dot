@@ -1,0 +1,12 @@
+digraph tls_get_ticket_from_client {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004a4750 -> BB004a47e0 [color="green"];
+  BB004a4750 -> BB004a476a [color="red"];
+  BB004a476a -> BB004a4788 [color="green"];
+  BB004a476a -> BB004a477a [color="red"];
+  BB004a4788 -> BB004a477a [color="green"];
+  BB004a4788 -> BB004a47a3 [color="red"];
+  BB004a47a3 -> BB004a477a [color="green"];
+  BB004a47a3 -> BB004a47b5 [color="red"];
+}

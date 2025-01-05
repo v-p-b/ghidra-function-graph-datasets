@@ -1,0 +1,14 @@
+digraph EC_KEY_check_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00587a50 -> BB00587a80 [color="green"];
+  BB00587a50 -> BB00587a59 [color="red"];
+  BB00587a59 -> BB00587a80 [color="green"];
+  BB00587a59 -> BB00587a62 [color="red"];
+  BB00587a62 -> BB00587a80 [color="green"];
+  BB00587a62 -> BB00587a69 [color="red"];
+  BB00587a69 -> BB00587ac0 [color="green"];
+  BB00587a69 -> BB00587a78 [color="red"];
+  BB00587a80 -> BB00587ab0 [color="red"];
+  BB00587ac0 -> BB00587ab0 [color="blue"];
+}

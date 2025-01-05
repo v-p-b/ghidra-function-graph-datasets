@@ -1,0 +1,20 @@
+digraph ssl3_renegotiate_check {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0047ae50 -> BB0047aed0 [color="green"];
+  BB0047ae50 -> BB0047ae55 [color="red"];
+  BB0047ae55 -> BB0047ae6c [color="green"];
+  BB0047ae55 -> BB0047ae62 [color="red"];
+  BB0047ae62 -> BB0047ae78 [color="green"];
+  BB0047ae62 -> BB0047ae6c [color="red"];
+  BB0047ae6c -> BB0047ae6e [color="blue"];
+  BB0047ae78 -> BB0047ae6c [color="green"];
+  BB0047ae78 -> BB0047ae8d [color="red"];
+  BB0047ae8d -> BB0047ae6c [color="green"];
+  BB0047ae8d -> BB0047ae99 [color="red"];
+  BB0047ae99 -> BB0047aea9 [color="green"];
+  BB0047ae99 -> BB0047ae9d [color="red"];
+  BB0047ae9d -> BB0047ae6c [color="green"];
+  BB0047ae9d -> BB0047aea9 [color="red"];
+  BB0047aea9 -> BB0047ae6e [color="blue"];
+}

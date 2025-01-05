@@ -1,0 +1,19 @@
+digraph do_X509_sign {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00469c30 -> BB00469ca0 [color="green"];
+  BB00469c30 -> BB00469c5d [color="red"];
+  BB00469c5d -> BB00469c7b [color="green"];
+  BB00469c5d -> BB00469c62 [color="red"];
+  BB00469c62 -> BB00469d28 [color="green"];
+  BB00469c62 -> BB00469c7b [color="red"];
+  BB00469c7b -> BB00469c7e [color="blue"];
+  BB00469ca0 -> BB00469c7b [color="green"];
+  BB00469ca0 -> BB00469cb1 [color="red"];
+  BB00469cb1 -> BB00469c7b [color="green"];
+  BB00469cb1 -> BB00469cd9 [color="red"];
+  BB00469cd9 -> BB00469c5d [color="green"];
+  BB00469cd9 -> BB00469d20 [color="red"];
+  BB00469d20 -> BB00469c7b [color="blue"];
+  BB00469d28 -> BB00469c7e [color="blue"];
+}

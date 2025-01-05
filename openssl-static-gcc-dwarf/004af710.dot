@@ -1,0 +1,17 @@
+digraph ossl_quic_handle_events {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004af710 -> BB004af790 [color="green"];
+  BB004af710 -> BB004af717 [color="red"];
+  BB004af717 -> BB004af764 [color="green"];
+  BB004af717 -> BB004af71e [color="red"];
+  BB004af71e -> BB004af760 [color="green"];
+  BB004af71e -> BB004af723 [color="red"];
+  BB004af723 -> BB004af74b [color="red"];
+  BB004af74b -> BB004af7b8 [color="green"];
+  BB004af74b -> BB004af750 [color="red"];
+  BB004af760 -> BB004af764 [color="blue"];
+  BB004af764 -> BB004af750 [color="green"];
+  BB004af764 -> BB004af773 [color="red"];
+  BB004af790 -> BB004af74b [color="blue"];
+}

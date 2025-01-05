@@ -1,0 +1,16 @@
+digraph OSSL_SELF_TEST_get_callback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00600290 -> BB006002b9 [color="green"];
+  BB00600290 -> BB006002ab [color="red"];
+  BB006002ab -> BB006002b5 [color="green"];
+  BB006002ab -> BB006002b2 [color="red"];
+  BB006002b2 -> BB006002b5 [color="blue"];
+  BB006002b5 -> BB006002b9 [color="blue"];
+  BB006002b9 -> BB006002ca [color="green"];
+  BB006002b9 -> BB006002be [color="red"];
+  BB006002be -> BB006002c7 [color="green"];
+  BB006002be -> BB006002c3 [color="red"];
+  BB006002c3 -> BB006002c7 [color="blue"];
+  BB006002c7 -> BB006002ca [color="blue"];
+}

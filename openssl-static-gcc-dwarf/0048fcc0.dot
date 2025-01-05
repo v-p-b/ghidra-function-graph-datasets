@@ -1,0 +1,15 @@
+digraph SSL_get_certificate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048fcc0 -> BB0048fcf0 [color="green"];
+  BB0048fcc0 -> BB0048fcc5 [color="red"];
+  BB0048fcc5 -> BB0048fcdb [color="green"];
+  BB0048fcc5 -> BB0048fccb [color="red"];
+  BB0048fccb -> BB0048fcf2 [color="green"];
+  BB0048fccb -> BB0048fcd2 [color="red"];
+  BB0048fcd2 -> BB0048fcf2 [color="green"];
+  BB0048fcd2 -> BB0048fcdb [color="red"];
+  BB0048fcdb -> BB0048fcf2 [color="green"];
+  BB0048fcdb -> BB0048fce7 [color="red"];
+  BB0048fcf0 -> BB0048fcf2 [color="blue"];
+}

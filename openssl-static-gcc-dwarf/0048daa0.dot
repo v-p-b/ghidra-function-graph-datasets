@@ -1,0 +1,14 @@
+digraph SSL_export_keying_material_early {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048daa0 -> BB0048dae0 [color="green"];
+  BB0048daa0 -> BB0048daaa [color="red"];
+  BB0048daaa -> BB0048dabe [color="green"];
+  BB0048daaa -> BB0048dab0 [color="red"];
+  BB0048dab0 -> BB0048dae0 [color="green"];
+  BB0048dab0 -> BB0048dab5 [color="red"];
+  BB0048dab5 -> BB0048dae0 [color="green"];
+  BB0048dab5 -> BB0048dabe [color="red"];
+  BB0048dabe -> BB0048dad0 [color="green"];
+  BB0048dabe -> BB0048dac9 [color="red"];
+}

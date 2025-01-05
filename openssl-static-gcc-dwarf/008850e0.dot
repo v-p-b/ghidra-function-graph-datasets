@@ -1,0 +1,9 @@
+digraph __lll_lock_wait_private {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008850e0 -> BB008850f2 [color="green"];
+  BB008850e0 -> BB008850e7 [color="red"];
+  BB008850e7 -> BB00885110 [color="green"];
+  BB008850e7 -> BB008850f2 [color="red"];
+  BB008850f2 -> BB008850e7 [color="blue"];
+}

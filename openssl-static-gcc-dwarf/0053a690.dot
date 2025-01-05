@@ -1,0 +1,17 @@
+digraph mem_gets {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0053a690 -> BB0053a6b4 [color="green"];
+  BB0053a690 -> BB0053a6b1 [color="red"];
+  BB0053a6b1 -> BB0053a6b4 [color="blue"];
+  BB0053a6b4 -> BB0053a718 [color="green"];
+  BB0053a6b4 -> BB0053a6d4 [color="red"];
+  BB0053a6d4 -> BB0053a6e0 [color="blue"];
+  BB0053a6e0 -> BB0053a6f2 [color="green"];
+  BB0053a6e0 -> BB0053a6e9 [color="red"];
+  BB0053a6e9 -> BB0053a6e0 [color="green"];
+  BB0053a6e9 -> BB0053a6f2 [color="red"];
+  BB0053a6f2 -> BB0053a708 [color="green"];
+  BB0053a6f2 -> BB0053a701 [color="red"];
+  BB0053a701 -> BB0053a708 [color="blue"];
+}

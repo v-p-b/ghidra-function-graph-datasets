@@ -1,0 +1,18 @@
+digraph get_phys_pages {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008dba10 -> BB008dba5a [color="green"];
+  BB008dba10 -> BB008dba46 [color="red"];
+  BB008dba46 -> BB008dba60 [color="blue"];
+  BB008dba50 -> BB008dba60 [color="green"];
+  BB008dba50 -> BB008dba5a [color="red"];
+  BB008dba5a -> BB008dba50 [color="green"];
+  BB008dba5a -> BB008dba60 [color="red"];
+  BB008dba60 -> BB008dba7c [color="green"];
+  BB008dba60 -> BB008dba6d [color="red"];
+  BB008dba6d -> BB008dba70 [color="blue"];
+  BB008dba70 -> BB008dba70 [color="green"];
+  BB008dba70 -> BB008dba7c [color="red"];
+  BB008dba7c -> BB008dba99 [color="green"];
+  BB008dba7c -> BB008dba8c [color="red"];
+}

@@ -1,0 +1,20 @@
+digraph x25519_to_PrivateKeyInfo_der_encode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b52a0 -> BB006b52b5 [color="green"];
+  BB006b52a0 -> BB006b52af [color="red"];
+  BB006b52af -> BB006b5300 [color="green"];
+  BB006b52af -> BB006b52b5 [color="red"];
+  BB006b52b5 -> BB006b52e8 [color="red"];
+  BB006b5300 -> BB006b5388 [color="green"];
+  BB006b5300 -> BB006b530c [color="red"];
+  BB006b530c -> BB006b5380 [color="green"];
+  BB006b530c -> BB006b5322 [color="red"];
+  BB006b5322 -> BB006b533c [color="green"];
+  BB006b5322 -> BB006b5327 [color="red"];
+  BB006b5327 -> BB006b5380 [color="green"];
+  BB006b5327 -> BB006b533c [color="red"];
+  BB006b533c -> BB006b5367 [color="red"];
+  BB006b5380 -> BB006b5367 [color="blue"];
+  BB006b5388 -> BB006b52e8 [color="blue"];
+}

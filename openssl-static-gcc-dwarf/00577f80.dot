@@ -1,0 +1,12 @@
+digraph SCT_signature_is_complete {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00577f80 -> BB00577f90 [color="green"];
+  BB00577f80 -> BB00577f86 [color="red"];
+  BB00577f86 -> BB00577f98 [color="green"];
+  BB00577f86 -> BB00577f8c [color="red"];
+  BB00577f98 -> BB00577f8c [color="green"];
+  BB00577f98 -> BB00577fa4 [color="red"];
+  BB00577fa4 -> BB00577f8c [color="green"];
+  BB00577fa4 -> BB00577fab [color="red"];
+}

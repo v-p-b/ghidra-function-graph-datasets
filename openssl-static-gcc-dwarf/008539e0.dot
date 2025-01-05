@@ -1,0 +1,19 @@
+digraph ossl_sm2_internal_sign {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008539e0 -> BB00853aa0 [color="green"];
+  BB008539e0 -> BB008539f8 [color="red"];
+  BB008539f8 -> BB00853ae8 [color="green"];
+  BB008539f8 -> BB00853a11 [color="red"];
+  BB00853a11 -> BB00853b10 [color="green"];
+  BB00853a11 -> BB00853a28 [color="red"];
+  BB00853a28 -> BB00853a60 [color="green"];
+  BB00853a28 -> BB00853a39 [color="red"];
+  BB00853a39 -> BB00853a41 [color="blue"];
+  BB00853a60 -> BB00853a71 [color="red"];
+  BB00853a71 -> BB00853a41 [color="blue"];
+  BB00853aa0 -> BB00853ac7 [color="red"];
+  BB00853ac7 -> BB00853a41 [color="blue"];
+  BB00853ae8 -> BB00853ac7 [color="blue"];
+  BB00853b10 -> BB00853a71 [color="blue"];
+}

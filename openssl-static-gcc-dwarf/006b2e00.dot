@@ -1,0 +1,14 @@
+digraph ec_to_EC_pem_does_selection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b2e00 -> BB006b2e1f [color="green"];
+  BB006b2e00 -> BB006b2e09 [color="red"];
+  BB006b2e09 -> BB006b2e25 [color="green"];
+  BB006b2e09 -> BB006b2e10 [color="red"];
+  BB006b2e10 -> BB006b2e20 [color="green"];
+  BB006b2e10 -> BB006b2e16 [color="red"];
+  BB006b2e16 -> BB006b2e30 [color="green"];
+  BB006b2e16 -> BB006b2e1f [color="red"];
+  BB006b2e20 -> BB006b2e25 [color="blue"];
+  BB006b2e30 -> BB006b2e25 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph EVP_PKEY_get_bits {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005d0200 -> BB005d0230 [color="green"];
+  BB005d0200 -> BB005d0209 [color="red"];
+  BB005d0209 -> BB005d0223 [color="green"];
+  BB005d0209 -> BB005d0218 [color="red"];
+  BB005d0218 -> BB005d0223 [color="green"];
+  BB005d0218 -> BB005d0221 [color="red"];
+  BB005d0221 -> BB005d0223 [color="blue"];
+  BB005d0223 -> BB005d0230 [color="green"];
+  BB005d0223 -> BB005d0227 [color="red"];
+}

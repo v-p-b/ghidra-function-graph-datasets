@@ -1,0 +1,17 @@
+digraph tls_construct_stoc_psk {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004dd530 -> BB004dd5d0 [color="green"];
+  BB004dd530 -> BB004dd543 [color="red"];
+  BB004dd543 -> BB004dd590 [color="green"];
+  BB004dd543 -> BB004dd566 [color="red"];
+  BB004dd566 -> BB004dd590 [color="green"];
+  BB004dd566 -> BB004dd577 [color="red"];
+  BB004dd577 -> BB004dd5d8 [color="green"];
+  BB004dd577 -> BB004dd58f [color="red"];
+  BB004dd58f -> BB004dd590 [color="blue"];
+  BB004dd590 -> BB004dd5c5 [color="red"];
+  BB004dd5d8 -> BB004dd590 [color="green"];
+  BB004dd5d8 -> BB004dd5e4 [color="red"];
+  BB004dd5e4 -> BB004dd5c5 [color="blue"];
+}

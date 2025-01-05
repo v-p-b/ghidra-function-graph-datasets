@@ -1,0 +1,15 @@
+digraph release_each {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004be770 -> BB004be820 [color="green"];
+  BB004be770 -> BB004be779 [color="red"];
+  BB004be779 -> BB004be79f [color="green"];
+  BB004be779 -> BB004be78e [color="red"];
+  BB004be78e -> BB004be79f [color="blue"];
+  BB004be79f -> BB004be7bb [color="green"];
+  BB004be79f -> BB004be7a8 [color="red"];
+  BB004be7a8 -> BB004be7bb [color="blue"];
+  BB004be7bb -> BB004be7d7 [color="green"];
+  BB004be7bb -> BB004be7c4 [color="red"];
+  BB004be7c4 -> BB004be7d7 [color="blue"];
+}

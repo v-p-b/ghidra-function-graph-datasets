@@ -1,0 +1,17 @@
+digraph tx_helper_append_iovec {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005046b0 -> BB00504768 [color="green"];
+  BB005046b0 -> BB005046be [color="red"];
+  BB005046be -> BB00504780 [color="green"];
+  BB005046be -> BB005046d3 [color="red"];
+  BB005046d3 -> BB0050473a [color="green"];
+  BB005046d3 -> BB005046f7 [color="red"];
+  BB005046f7 -> BB00504770 [color="green"];
+  BB005046f7 -> BB005046fc [color="red"];
+  BB005046fc -> BB00504707 [color="blue"];
+  BB00504707 -> BB00504780 [color="green"];
+  BB00504707 -> BB00504724 [color="red"];
+  BB00504724 -> BB0050473a [color="blue"];
+  BB00504770 -> BB00504707 [color="blue"];
+}

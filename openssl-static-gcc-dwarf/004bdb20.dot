@@ -1,0 +1,10 @@
+digraph ossl_quic_sstream_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004bdb20 -> BB004bdba0 [color="green"];
+  BB004bdb20 -> BB004bdb25 [color="red"];
+  BB004bdb25 -> BB004bdb80 [color="green"];
+  BB004bdb25 -> BB004bdb41 [color="red"];
+  BB004bdb41 -> BB004bdb56 [color="red"];
+  BB004bdb80 -> BB004bdb56 [color="blue"];
+}

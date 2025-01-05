@@ -1,0 +1,13 @@
+digraph OPENSSL_strncasecmp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005f03e0 -> BB005f0440 [color="green"];
+  BB005f03e0 -> BB005f03ef [color="red"];
+  BB005f03ef -> BB005f040f [color="blue"];
+  BB005f0400 -> BB005f0440 [color="green"];
+  BB005f0400 -> BB005f040a [color="red"];
+  BB005f040a -> BB005f0440 [color="green"];
+  BB005f040a -> BB005f040f [color="red"];
+  BB005f040f -> BB005f0400 [color="green"];
+  BB005f040f -> BB005f042d [color="red"];
+}

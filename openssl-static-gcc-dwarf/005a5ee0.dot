@@ -1,0 +1,15 @@
+digraph ERR_lib_error_string {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005a5ee0 -> BB005a5f60 [color="green"];
+  BB005a5ee0 -> BB005a5eff [color="red"];
+  BB005a5eff -> BB005a5f60 [color="green"];
+  BB005a5eff -> BB005a5f09 [color="red"];
+  BB005a5f09 -> BB005a5f1e [color="green"];
+  BB005a5f09 -> BB005a5f16 [color="red"];
+  BB005a5f16 -> BB005a5f1e [color="blue"];
+  BB005a5f1e -> BB005a5f60 [color="green"];
+  BB005a5f1e -> BB005a5f32 [color="red"];
+  BB005a5f32 -> BB005a5f60 [color="green"];
+  BB005a5f32 -> BB005a5f55 [color="red"];
+}

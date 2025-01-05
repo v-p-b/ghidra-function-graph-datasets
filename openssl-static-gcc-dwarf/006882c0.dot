@@ -1,0 +1,10 @@
+digraph i2d_RSA_PUBKEY {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006882c0 -> BB00688314 [color="green"];
+  BB006882c0 -> BB006882d3 [color="red"];
+  BB006882d3 -> BB00688323 [color="green"];
+  BB006882d3 -> BB006882e6 [color="red"];
+  BB006882e6 -> BB00688314 [color="red"];
+  BB00688323 -> BB00688314 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph lookup_certs_sk {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00679db0 -> BB00679e32 [color="green"];
+  BB00679db0 -> BB00679dcb [color="red"];
+  BB00679dcb -> BB00679dd3 [color="blue"];
+  BB00679dd0 -> BB00679dd3 [color="blue"];
+  BB00679dd3 -> BB00679e32 [color="green"];
+  BB00679dd3 -> BB00679de1 [color="red"];
+  BB00679de1 -> BB00679dd0 [color="green"];
+  BB00679de1 -> BB00679e07 [color="red"];
+  BB00679e07 -> BB00679dd0 [color="green"];
+  BB00679e07 -> BB00679e1b [color="red"];
+  BB00679e1b -> BB00679e32 [color="red"];
+}

@@ -1,0 +1,8 @@
+digraph register_tm_clones {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00402750 -> BB00402780 [color="green"];
+  BB00402750 -> BB0040276f [color="red"];
+  BB0040276f -> BB00402780 [color="green"];
+  BB0040276f -> BB00402779 [color="red"];
+}

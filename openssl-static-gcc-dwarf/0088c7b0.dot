@@ -1,0 +1,19 @@
+digraph memcmp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0088c7b0 -> BB0088c7c8 [color="green"];
+  BB0088c7b0 -> BB0088c7c0 [color="red"];
+  BB0088c7c0 -> BB0088c7f0 [color="green"];
+  BB0088c7c0 -> BB0088c7c8 [color="red"];
+  BB0088c7c8 -> BB0088c7ec [color="green"];
+  BB0088c7c8 -> BB0088c7d7 [color="red"];
+  BB0088c7d7 -> BB0088c7ec [color="blue"];
+  BB0088c7f0 -> BB0088c7c8 [color="green"];
+  BB0088c7f0 -> BB0088c7fe [color="red"];
+  BB0088c7fe -> BB0088c7ec [color="green"];
+  BB0088c7fe -> BB0088c814 [color="red"];
+  BB0088c814 -> BB0088c7ec [color="green"];
+  BB0088c814 -> BB0088c824 [color="red"];
+  BB0088c824 -> BB0088c7c8 [color="green"];
+  BB0088c824 -> BB0088c833 [color="red"];
+}

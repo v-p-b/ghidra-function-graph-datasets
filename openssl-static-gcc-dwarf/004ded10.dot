@@ -1,0 +1,8 @@
+digraph ossl_statem_set_in_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ded10 -> BB004ded40 [color="green"];
+  BB004ded10 -> BB004ded22 [color="red"];
+  BB004ded22 -> BB004ded40 [color="green"];
+  BB004ded22 -> BB004ded2e [color="red"];
+}

@@ -1,0 +1,13 @@
+digraph BIO_bind {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005335c0 -> BB00533728 [color="green"];
+  BB005335c0 -> BB005335da [color="red"];
+  BB005335da -> BB00533620 [color="green"];
+  BB005335da -> BB005335e4 [color="red"];
+  BB005335e4 -> BB005336b0 [color="green"];
+  BB005335e4 -> BB00533615 [color="red"];
+  BB00533620 -> BB005335e4 [color="green"];
+  BB00533620 -> BB0053363e [color="red"];
+  BB0053363e -> BB00533615 [color="blue"];
+}

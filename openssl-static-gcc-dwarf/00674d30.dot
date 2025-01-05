@@ -1,0 +1,17 @@
+digraph X509_chain_up_ref {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00674d30 -> BB00674d6d [color="green"];
+  BB00674d30 -> BB00674d41 [color="red"];
+  BB00674d41 -> BB00674d61 [color="blue"];
+  BB00674d48 -> BB00674d78 [color="green"];
+  BB00674d48 -> BB00674d5e [color="red"];
+  BB00674d5e -> BB00674d61 [color="blue"];
+  BB00674d61 -> BB00674d48 [color="green"];
+  BB00674d61 -> BB00674d6d [color="red"];
+  BB00674d78 -> BB00674d97 [color="green"];
+  BB00674d78 -> BB00674d7f [color="red"];
+  BB00674d7f -> BB00674d80 [color="blue"];
+  BB00674d80 -> BB00674d80 [color="green"];
+  BB00674d80 -> BB00674d97 [color="red"];
+}

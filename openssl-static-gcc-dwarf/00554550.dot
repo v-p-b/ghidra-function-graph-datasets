@@ -1,0 +1,34 @@
+digraph unprotected_exception {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00554550 -> BB005545e7 [color="green"];
+  BB00554550 -> BB00554570 [color="red"];
+  BB00554570 -> BB005545e7 [color="green"];
+  BB00554570 -> BB00554575 [color="red"];
+  BB00554575 -> BB005545a5 [color="green"];
+  BB00554575 -> BB0055457f [color="red"];
+  BB0055457f -> BB005546a8 [color="green"];
+  BB0055457f -> BB00554588 [color="red"];
+  BB00554588 -> BB00554600 [color="green"];
+  BB00554588 -> BB0055458d [color="red"];
+  BB0055458d -> BB00554670 [color="green"];
+  BB0055458d -> BB00554596 [color="red"];
+  BB00554596 -> BB005545b8 [color="green"];
+  BB00554596 -> BB005545a0 [color="red"];
+  BB005545a0 -> BB005545b8 [color="green"];
+  BB005545a0 -> BB005545a5 [color="red"];
+  BB005545b8 -> BB005545e7 [color="green"];
+  BB005545b8 -> BB005545de [color="red"];
+  BB005545de -> BB005546b8 [color="green"];
+  BB005545de -> BB005545e7 [color="red"];
+  BB00554600 -> BB00554607 [color="blue"];
+  BB00554670 -> BB005545e7 [color="green"];
+  BB00554670 -> BB0055468b [color="red"];
+  BB0055468b -> BB005545a5 [color="green"];
+  BB0055468b -> BB00554699 [color="red"];
+  BB00554699 -> BB00554607 [color="blue"];
+  BB005546a8 -> BB00554607 [color="blue"];
+  BB005546b8 -> BB00554607 [color="green"];
+  BB005546b8 -> BB005546d1 [color="red"];
+  BB005546d1 -> BB005545a5 [color="blue"];
+}

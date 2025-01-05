@@ -1,0 +1,14 @@
+digraph ossl_ecdsa_deterministic_sign {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005905c0 -> BB005906f0 [color="green"];
+  BB005905c0 -> BB005905ef [color="red"];
+  BB005905ef -> BB005906b0 [color="green"];
+  BB005905ef -> BB005905f8 [color="red"];
+  BB005905f8 -> BB00590648 [color="green"];
+  BB005905f8 -> BB00590637 [color="red"];
+  BB00590648 -> BB00590687 [color="green"];
+  BB00590648 -> BB0059066a [color="red"];
+  BB0059066a -> BB00590687 [color="red"];
+  BB005906f0 -> BB00590637 [color="blue"];
+}

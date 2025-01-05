@@ -1,0 +1,10 @@
+digraph sm4_init_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0076de10 -> BB0076de48 [color="green"];
+  BB0076de10 -> BB0076de43 [color="red"];
+  BB0076de43 -> BB0076de80 [color="green"];
+  BB0076de43 -> BB0076de48 [color="red"];
+  BB0076de48 -> BB0076de4f [color="blue"];
+  BB0076de80 -> BB0076de4f [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph X509_CRL_digest {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006843b0 -> BB00684480 [color="green"];
+  BB006843b0 -> BB006843c7 [color="red"];
+  BB006843c7 -> BB006843fa [color="green"];
+  BB006843c7 -> BB006843e6 [color="red"];
+  BB006843e6 -> BB00684440 [color="green"];
+  BB006843e6 -> BB006843fa [color="red"];
+  BB00684440 -> BB0068444b [color="green"];
+  BB00684440 -> BB00684445 [color="red"];
+  BB00684445 -> BB0068444b [color="blue"];
+}

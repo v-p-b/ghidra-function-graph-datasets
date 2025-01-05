@@ -1,0 +1,32 @@
+digraph s2i_ASN1_INTEGER {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006700b0 -> BB00670250 [color="green"];
+  BB006700b0 -> BB006700c9 [color="red"];
+  BB006700c9 -> BB00670290 [color="green"];
+  BB006700c9 -> BB006700e2 [color="red"];
+  BB006700e2 -> BB006700fa [color="green"];
+  BB006700e2 -> BB006700ec [color="red"];
+  BB006700ec -> BB006700fa [color="blue"];
+  BB006700fa -> BB0067010d [color="green"];
+  BB006700fa -> BB006700fe [color="red"];
+  BB006700fe -> BB00670228 [color="green"];
+  BB006700fe -> BB0067010d [color="red"];
+  BB0067010d -> BB0067011a [color="red"];
+  BB0067011a -> BB006701e0 [color="green"];
+  BB0067011a -> BB00670127 [color="red"];
+  BB00670127 -> BB006701e0 [color="green"];
+  BB00670127 -> BB00670133 [color="red"];
+  BB00670133 -> BB006701a0 [color="green"];
+  BB00670133 -> BB00670138 [color="red"];
+  BB00670138 -> BB00670160 [color="green"];
+  BB00670138 -> BB00670151 [color="red"];
+  BB006701a0 -> BB00670240 [color="green"];
+  BB006701a0 -> BB006701ad [color="red"];
+  BB006701ad -> BB00670160 [color="green"];
+  BB006701ad -> BB006701cb [color="red"];
+  BB00670228 -> BB0067011a [color="blue"];
+  BB00670240 -> BB00670138 [color="blue"];
+  BB00670250 -> BB00670151 [color="blue"];
+  BB00670290 -> BB00670151 [color="blue"];
+}

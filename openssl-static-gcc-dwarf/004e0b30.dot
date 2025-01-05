@@ -1,0 +1,16 @@
+digraph ossl_statem_client_write_transition {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004e0b30 -> BB004e0b6b [color="green"];
+  BB004e0b30 -> BB004e0b55 [color="red"];
+  BB004e0b55 -> BB004e0b6b [color="green"];
+  BB004e0b55 -> BB004e0b5f [color="red"];
+  BB004e0b5f -> BB004e0bf0 [color="green"];
+  BB004e0b5f -> BB004e0b6b [color="red"];
+  BB004e0b6b -> BB004e0bb0 [color="green"];
+  BB004e0b6b -> BB004e0b70 [color="red"];
+  BB004e0bb0 -> BB004e0ba0 [color="blue"];
+  BB004e0bf0 -> BB004e0d90 [color="green"];
+  BB004e0bf0 -> BB004e0bf9 [color="red"];
+  BB004e0d90 -> BB004e0ba0 [color="blue"];
+}

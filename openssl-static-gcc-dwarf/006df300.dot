@@ -1,0 +1,10 @@
+digraph drbg_ctr_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006df300 -> BB006df38a [color="green"];
+  BB006df300 -> BB006df31f [color="red"];
+  BB006df31f -> BB006df385 [color="green"];
+  BB006df31f -> BB006df374 [color="red"];
+  BB006df374 -> BB006df385 [color="blue"];
+  BB006df38a -> BB006df385 [color="blue"];
+}

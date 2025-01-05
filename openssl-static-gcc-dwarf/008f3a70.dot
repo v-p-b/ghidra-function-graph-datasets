@@ -1,0 +1,17 @@
+digraph __libc_dlsym_private {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008f3a70 -> BB008f3acd [color="green"];
+  BB008f3a70 -> BB008f3aa6 [color="red"];
+  BB008f3aa6 -> BB008f3acd [color="green"];
+  BB008f3aa6 -> BB008f3ab0 [color="red"];
+  BB008f3ab0 -> BB008f3ae8 [color="green"];
+  BB008f3ab0 -> BB008f3ab7 [color="red"];
+  BB008f3ab7 -> BB008f3ac6 [color="green"];
+  BB008f3ab7 -> BB008f3ac3 [color="red"];
+  BB008f3ac3 -> BB008f3ac6 [color="blue"];
+  BB008f3ac6 -> BB008f3acd [color="blue"];
+  BB008f3acd -> BB008f3aec [color="green"];
+  BB008f3acd -> BB008f3add [color="red"];
+  BB008f3ae8 -> BB008f3ac6 [color="blue"];
+}

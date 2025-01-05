@@ -1,0 +1,11 @@
+digraph OCSP_cert_to_id {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00610b00 -> BB00610b70 [color="green"];
+  BB00610b00 -> BB00610b19 [color="red"];
+  BB00610b19 -> BB00610b60 [color="green"];
+  BB00610b19 -> BB00610b1e [color="red"];
+  BB00610b1e -> BB00610b34 [color="red"];
+  BB00610b60 -> BB00610b34 [color="blue"];
+  BB00610b70 -> BB00610b19 [color="blue"];
+}

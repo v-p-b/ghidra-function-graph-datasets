@@ -1,0 +1,15 @@
+digraph ossl_quic_wire_encode_pkt_hdr_pn {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c5510 -> BB004c5550 [color="green"];
+  BB004c5510 -> BB004c5516 [color="red"];
+  BB004c5516 -> BB004c5538 [color="green"];
+  BB004c5516 -> BB004c5518 [color="red"];
+  BB004c5518 -> BB004c555e [color="green"];
+  BB004c5518 -> BB004c551e [color="red"];
+  BB004c551e -> BB004c5570 [color="green"];
+  BB004c551e -> BB004c5524 [color="red"];
+  BB004c5538 -> BB004c5570 [color="green"];
+  BB004c5538 -> BB004c553e [color="red"];
+  BB004c5550 -> BB004c555e [color="blue"];
+}

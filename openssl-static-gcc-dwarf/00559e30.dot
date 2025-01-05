@@ -1,0 +1,29 @@
+digraph selfsigned_verify_cb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00559e30 -> BB00559e55 [color="green"];
+  BB00559e30 -> BB00559e47 [color="red"];
+  BB00559e47 -> BB00559ea0 [color="green"];
+  BB00559e47 -> BB00559e55 [color="red"];
+  BB00559e55 -> BB00559e88 [color="green"];
+  BB00559e55 -> BB00559e65 [color="red"];
+  BB00559e65 -> BB00559e88 [color="green"];
+  BB00559e65 -> BB00559e6f [color="red"];
+  BB00559e88 -> BB00559e8a [color="blue"];
+  BB00559ea0 -> BB00559e55 [color="green"];
+  BB00559ea0 -> BB00559ead [color="red"];
+  BB00559ead -> BB00559f04 [color="blue"];
+  BB00559ee0 -> BB00559e8a [color="green"];
+  BB00559ee0 -> BB00559f01 [color="red"];
+  BB00559f01 -> BB00559f04 [color="blue"];
+  BB00559f04 -> BB00559ee0 [color="green"];
+  BB00559f04 -> BB00559f10 [color="red"];
+  BB00559f10 -> BB00559f51 [color="blue"];
+  BB00559f30 -> BB00559f73 [color="green"];
+  BB00559f30 -> BB00559f4e [color="red"];
+  BB00559f4e -> BB00559f51 [color="blue"];
+  BB00559f51 -> BB00559f30 [color="green"];
+  BB00559f51 -> BB00559f5d [color="red"];
+  BB00559f5d -> BB00559e8a [color="blue"];
+  BB00559f73 -> BB00559f5d [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph ssl_generate_pkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0047b2c0 -> BB0047b338 [color="green"];
+  BB0047b2c0 -> BB0047b2d7 [color="red"];
+  BB0047b2d7 -> BB0047b30b [color="green"];
+  BB0047b2d7 -> BB0047b2ee [color="red"];
+  BB0047b2ee -> BB0047b30b [color="green"];
+  BB0047b2ee -> BB0047b2fa [color="red"];
+  BB0047b2fa -> BB0047b320 [color="green"];
+  BB0047b2fa -> BB0047b30b [color="red"];
+  BB0047b320 -> BB0047b30b [color="blue"];
+}

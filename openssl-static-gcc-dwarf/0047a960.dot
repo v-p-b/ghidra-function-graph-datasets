@@ -1,0 +1,32 @@
+digraph ssl3_shutdown {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0047a960 -> BB0047a9e0 [color="green"];
+  BB0047a960 -> BB0047a965 [color="red"];
+  BB0047a965 -> BB0047a9d3 [color="green"];
+  BB0047a965 -> BB0047a975 [color="red"];
+  BB0047a975 -> BB0047a990 [color="green"];
+  BB0047a975 -> BB0047a97e [color="red"];
+  BB0047a97e -> BB0047a98a [color="blue"];
+  BB0047a990 -> BB0047a97e [color="green"];
+  BB0047a990 -> BB0047a999 [color="red"];
+  BB0047a999 -> BB0047a9e8 [color="green"];
+  BB0047a999 -> BB0047a9a0 [color="red"];
+  BB0047a9a0 -> BB0047aa18 [color="green"];
+  BB0047a9a0 -> BB0047a9aa [color="red"];
+  BB0047a9aa -> BB0047aa09 [color="green"];
+  BB0047a9aa -> BB0047a9bc [color="red"];
+  BB0047a9bc -> BB0047a9bf [color="blue"];
+  BB0047a9bf -> BB0047a9d3 [color="green"];
+  BB0047a9bf -> BB0047a9c4 [color="red"];
+  BB0047a9c4 -> BB0047a98a [color="green"];
+  BB0047a9c4 -> BB0047a9d3 [color="red"];
+  BB0047a9e8 -> BB0047a9bc [color="green"];
+  BB0047a9e8 -> BB0047aa09 [color="red"];
+  BB0047aa09 -> BB0047a98a [color="blue"];
+  BB0047aa18 -> BB0047a9bf [color="green"];
+  BB0047aa18 -> BB0047aa1c [color="red"];
+  BB0047aa1c -> BB0047a9bf [color="green"];
+  BB0047aa1c -> BB0047aa4c [color="red"];
+  BB0047aa4c -> BB0047aa09 [color="blue"];
+}

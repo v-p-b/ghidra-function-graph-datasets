@@ -1,0 +1,9 @@
+digraph idea_dupctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006fd9c0 -> BB006fd9fc [color="green"];
+  BB006fd9c0 -> BB006fd9d3 [color="red"];
+  BB006fd9d3 -> BB006fd9fc [color="green"];
+  BB006fd9d3 -> BB006fd9ee [color="red"];
+  BB006fd9ee -> BB006fd9fc [color="blue"];
+}

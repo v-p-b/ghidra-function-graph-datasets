@@ -1,0 +1,28 @@
+digraph ssl_cert_lookup_by_pkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0047fb60 -> BB0047fb88 [color="blue"];
+  BB0047fb88 -> BB0047fc68 [color="green"];
+  BB0047fb88 -> BB0047fbaa [color="red"];
+  BB0047fbaa -> BB0047fc68 [color="green"];
+  BB0047fbaa -> BB0047fbc5 [color="red"];
+  BB0047fbc5 -> BB0047fb88 [color="green"];
+  BB0047fbc5 -> BB0047fbd3 [color="red"];
+  BB0047fbd3 -> BB0047fc0d [color="green"];
+  BB0047fbd3 -> BB0047fbe0 [color="red"];
+  BB0047fbe0 -> BB0047fc80 [color="blue"];
+  BB0047fbe8 -> BB0047fc36 [color="green"];
+  BB0047fbe8 -> BB0047fbff [color="red"];
+  BB0047fbff -> BB0047fc80 [color="green"];
+  BB0047fbff -> BB0047fc0d [color="red"];
+  BB0047fc0d -> BB0047fbe8 [color="green"];
+  BB0047fc0d -> BB0047fc36 [color="red"];
+  BB0047fc36 -> BB0047fc4a [color="green"];
+  BB0047fc36 -> BB0047fc3e [color="red"];
+  BB0047fc3e -> BB0047fc4a [color="blue"];
+  BB0047fc4a -> BB0047fc51 [color="blue"];
+  BB0047fc68 -> BB0047fc51 [color="green"];
+  BB0047fc68 -> BB0047fc70 [color="red"];
+  BB0047fc70 -> BB0047fc51 [color="blue"];
+  BB0047fc80 -> BB0047fc51 [color="blue"];
+}

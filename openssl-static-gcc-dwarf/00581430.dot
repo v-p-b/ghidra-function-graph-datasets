@@ -1,0 +1,17 @@
+digraph ec_pkey_ctrl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00581430 -> BB00581460 [color="green"];
+  BB00581430 -> BB00581440 [color="red"];
+  BB00581440 -> BB005814b8 [color="green"];
+  BB00581440 -> BB00581445 [color="red"];
+  BB00581445 -> BB00581490 [color="green"];
+  BB00581445 -> BB0058144f [color="red"];
+  BB00581460 -> BB0058144f [color="green"];
+  BB00581460 -> BB00581466 [color="red"];
+  BB00581466 -> BB0058144f [color="green"];
+  BB00581466 -> BB0058146f [color="red"];
+  BB00581490 -> BB005814e0 [color="green"];
+  BB00581490 -> BB0058149c [color="red"];
+  BB005814e0 -> BB0058144f [color="blue"];
+}

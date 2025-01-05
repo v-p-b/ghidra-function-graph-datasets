@@ -1,0 +1,33 @@
+digraph WPACKET_reserve_bytes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005f0af0 -> BB005f0bc0 [color="green"];
+  BB005f0af0 -> BB005f0afb [color="red"];
+  BB005f0afb -> BB005f0bb0 [color="green"];
+  BB005f0afb -> BB005f0b0b [color="red"];
+  BB005f0b0b -> BB005f0bb0 [color="green"];
+  BB005f0b0b -> BB005f0b25 [color="red"];
+  BB005f0b25 -> BB005f0b6c [color="green"];
+  BB005f0b25 -> BB005f0b2d [color="red"];
+  BB005f0b2d -> BB005f0b6c [color="green"];
+  BB005f0b2d -> BB005f0b3b [color="red"];
+  BB005f0b3b -> BB005f0b62 [color="green"];
+  BB005f0b3b -> BB005f0b4e [color="red"];
+  BB005f0b4e -> BB005f0b62 [color="blue"];
+  BB005f0b62 -> BB005f0bb0 [color="green"];
+  BB005f0b62 -> BB005f0b6c [color="red"];
+  BB005f0b6c -> BB005f0b9c [color="green"];
+  BB005f0b6c -> BB005f0b71 [color="red"];
+  BB005f0b71 -> BB005f0be0 [color="green"];
+  BB005f0b71 -> BB005f0b7a [color="red"];
+  BB005f0b7a -> BB005f0b92 [color="green"];
+  BB005f0b7a -> BB005f0b88 [color="red"];
+  BB005f0b88 -> BB005f0b92 [color="blue"];
+  BB005f0b92 -> BB005f0bc8 [color="green"];
+  BB005f0b92 -> BB005f0b9c [color="red"];
+  BB005f0be0 -> BB005f0bf1 [color="green"];
+  BB005f0be0 -> BB005f0be8 [color="red"];
+  BB005f0be8 -> BB005f0b7a [color="green"];
+  BB005f0be8 -> BB005f0bf1 [color="red"];
+  BB005f0bf1 -> BB005f0b9c [color="blue"];
+}

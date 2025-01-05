@@ -1,0 +1,17 @@
+digraph EdDSA_sign_loop {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0044dad0 -> BB0044db62 [color="green"];
+  BB0044dad0 -> BB0044dafa [color="red"];
+  BB0044dafa -> BB0044db4c [color="blue"];
+  BB0044db00 -> BB0044db70 [color="green"];
+  BB0044db00 -> BB0044db1c [color="red"];
+  BB0044db1c -> BB0044dbb0 [color="green"];
+  BB0044db1c -> BB0044db3e [color="red"];
+  BB0044db3e -> BB0044db62 [color="green"];
+  BB0044db3e -> BB0044db4c [color="red"];
+  BB0044db4c -> BB0044db00 [color="green"];
+  BB0044db4c -> BB0044db62 [color="red"];
+  BB0044db70 -> BB0044db77 [color="blue"];
+  BB0044dbb0 -> BB0044db77 [color="blue"];
+}

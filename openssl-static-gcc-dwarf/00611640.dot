@@ -1,0 +1,14 @@
+digraph OCSP_response_create {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00611640 -> BB006116c0 [color="green"];
+  BB00611640 -> BB0061165c [color="red"];
+  BB0061165c -> BB006116c0 [color="green"];
+  BB0061165c -> BB0061166b [color="red"];
+  BB0061166b -> BB006116b0 [color="green"];
+  BB0061166b -> BB00611670 [color="red"];
+  BB00611670 -> BB006116c0 [color="green"];
+  BB00611670 -> BB00611682 [color="red"];
+  BB00611682 -> BB006116c0 [color="green"];
+  BB00611682 -> BB006116b0 [color="red"];
+}

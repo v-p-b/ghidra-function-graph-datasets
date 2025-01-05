@@ -1,0 +1,10 @@
+digraph hmac_setkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006daa40 -> BB006daa6f [color="green"];
+  BB006daa40 -> BB006daa5a [color="red"];
+  BB006daa5a -> BB006daa6f [color="red"];
+  BB006daa6f -> BB006daada [color="green"];
+  BB006daa6f -> BB006daa98 [color="red"];
+  BB006daa98 -> BB00401070 [color="blue"];
+}

@@ -1,0 +1,33 @@
+digraph quic_retry_write_records {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005037c0 -> BB00503838 [color="green"];
+  BB005037c0 -> BB005037df [color="red"];
+  BB005037df -> BB005037ef [color="green"];
+  BB005037df -> BB005037eb [color="red"];
+  BB005037eb -> BB005037ef [color="blue"];
+  BB005037ef -> BB005038f8 [color="green"];
+  BB005037ef -> BB00503838 [color="red"];
+  BB00503838 -> BB00503924 [color="green"];
+  BB00503838 -> BB00503844 [color="red"];
+  BB00503844 -> BB00503898 [color="green"];
+  BB00503844 -> BB00503848 [color="red"];
+  BB00503848 -> BB00503860 [color="red"];
+  BB00503860 -> BB00503873 [color="red"];
+  BB00503898 -> BB005039b5 [color="green"];
+  BB00503898 -> BB005038be [color="red"];
+  BB005038be -> BB00503950 [color="green"];
+  BB005038be -> BB005038d1 [color="red"];
+  BB005038d1 -> BB00503968 [color="green"];
+  BB005038d1 -> BB005038d7 [color="red"];
+  BB005038f8 -> BB00503844 [color="green"];
+  BB005038f8 -> BB00503924 [color="red"];
+  BB00503924 -> BB00503985 [color="green"];
+  BB00503924 -> BB0050392b [color="red"];
+  BB0050392b -> BB005039d2 [color="green"];
+  BB0050392b -> BB00503945 [color="red"];
+  BB00503968 -> BB00503860 [color="blue"];
+  BB00503985 -> BB00503873 [color="blue"];
+  BB005039b5 -> BB00503860 [color="blue"];
+  BB005039d2 -> BB00503860 [color="blue"];
+}

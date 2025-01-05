@@ -1,0 +1,12 @@
+digraph SSL_waiting_for_async {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048aa80 -> BB0048aab0 [color="green"];
+  BB0048aa80 -> BB0048aa85 [color="red"];
+  BB0048aa85 -> BB0048aaa0 [color="green"];
+  BB0048aa85 -> BB0048aa8b [color="red"];
+  BB0048aa8b -> BB0048aa9b [color="green"];
+  BB0048aa8b -> BB0048aa92 [color="red"];
+  BB0048aa92 -> BB0048aaa0 [color="green"];
+  BB0048aa92 -> BB0048aa9b [color="red"];
+}

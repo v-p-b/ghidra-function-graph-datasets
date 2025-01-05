@@ -1,0 +1,18 @@
+digraph bn_secure_c2i {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00527750 -> BB005277a0 [color="green"];
+  BB00527750 -> BB0052776e [color="red"];
+  BB0052776e -> BB005277c0 [color="green"];
+  BB0052776e -> BB0052777e [color="red"];
+  BB005277a0 -> BB0052776e [color="green"];
+  BB005277a0 -> BB005277b0 [color="red"];
+  BB005277b0 -> BB005277b2 [color="blue"];
+  BB005277c0 -> BB005277b0 [color="green"];
+  BB005277c0 -> BB005277c8 [color="red"];
+  BB005277c8 -> BB005277e0 [color="green"];
+  BB005277c8 -> BB005277cf [color="red"];
+  BB005277cf -> BB005277d4 [color="red"];
+  BB005277d4 -> BB005277b2 [color="blue"];
+  BB005277e0 -> BB005277d4 [color="blue"];
+}

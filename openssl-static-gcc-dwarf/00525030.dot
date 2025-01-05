@@ -1,0 +1,22 @@
+digraph asn1_template_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00525030 -> BB00525063 [color="green"];
+  BB00525030 -> BB00525059 [color="red"];
+  BB00525059 -> BB00525063 [color="blue"];
+  BB00525063 -> BB00525090 [color="green"];
+  BB00525063 -> BB00525067 [color="red"];
+  BB00525067 -> BB00525097 [color="green"];
+  BB00525067 -> BB0052506c [color="red"];
+  BB0052506c -> BB005250b0 [color="green"];
+  BB0052506c -> BB00525070 [color="red"];
+  BB00525070 -> BB005250f8 [color="green"];
+  BB00525070 -> BB0052507a [color="red"];
+  BB00525090 -> BB005250d0 [color="green"];
+  BB00525090 -> BB00525097 [color="red"];
+  BB00525097 -> BB005250a4 [color="blue"];
+  BB005250d0 -> BB005251a0 [color="green"];
+  BB005250d0 -> BB005250df [color="red"];
+  BB005250f8 -> BB005250a4 [color="blue"];
+  BB005251a0 -> BB005250a4 [color="blue"];
+}

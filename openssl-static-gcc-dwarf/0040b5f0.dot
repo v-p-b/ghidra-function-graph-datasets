@@ -1,0 +1,13 @@
+digraph opt_str {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0040b5f0 -> BB0040b618 [color="green"];
+  BB0040b5f0 -> BB0040b601 [color="red"];
+  BB0040b601 -> BB0040b678 [color="green"];
+  BB0040b601 -> BB0040b60d [color="red"];
+  BB0040b618 -> BB0040b60d [color="green"];
+  BB0040b618 -> BB0040b61c [color="red"];
+  BB0040b61c -> BB0040b60d [color="green"];
+  BB0040b61c -> BB0040b625 [color="red"];
+  BB0040b625 -> BB0040b60d [color="blue"];
+}

@@ -1,0 +1,34 @@
+digraph dhx_to_SubjectPublicKeyInfo_pem_encode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006bca20 -> BB006bca33 [color="green"];
+  BB006bca20 -> BB006bca2d [color="red"];
+  BB006bca2d -> BB006bca78 [color="green"];
+  BB006bca2d -> BB006bca33 [color="red"];
+  BB006bca33 -> BB006bca66 [color="red"];
+  BB006bca78 -> BB006bcb98 [color="green"];
+  BB006bca78 -> BB006bca84 [color="red"];
+  BB006bca84 -> BB006bcb60 [color="green"];
+  BB006bca84 -> BB006bcaa5 [color="red"];
+  BB006bcaa5 -> BB006bcc00 [color="green"];
+  BB006bcaa5 -> BB006bcabc [color="red"];
+  BB006bcabc -> BB006bcada [color="green"];
+  BB006bcabc -> BB006bcac1 [color="red"];
+  BB006bcac1 -> BB006bcc00 [color="green"];
+  BB006bcac1 -> BB006bcada [color="red"];
+  BB006bcada -> BB006bcbd0 [color="green"];
+  BB006bcada -> BB006bcaeb [color="red"];
+  BB006bcaeb -> BB006bcc08 [color="green"];
+  BB006bcaeb -> BB006bcb03 [color="red"];
+  BB006bcb03 -> BB006bcc50 [color="green"];
+  BB006bcb03 -> BB006bcb34 [color="red"];
+  BB006bcb34 -> BB006bcb42 [color="red"];
+  BB006bcb42 -> BB006bcb4a [color="red"];
+  BB006bcb4a -> BB006bca66 [color="blue"];
+  BB006bcb60 -> BB006bca66 [color="blue"];
+  BB006bcb98 -> BB006bca66 [color="blue"];
+  BB006bcbd0 -> BB006bcc00 [color="red"];
+  BB006bcc00 -> BB006bcb4a [color="blue"];
+  BB006bcc08 -> BB006bcb4a [color="blue"];
+  BB006bcc50 -> BB006bcb42 [color="blue"];
+}

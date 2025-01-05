@@ -1,0 +1,11 @@
+digraph ssl_x509err2alert {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ebb80 -> BB004ebbb0 [color="green"];
+  BB004ebb80 -> BB004ebb85 [color="red"];
+  BB004ebb85 -> BB004ebb94 [color="blue"];
+  BB004ebb90 -> BB004ebba2 [color="green"];
+  BB004ebb90 -> BB004ebb94 [color="red"];
+  BB004ebb94 -> BB004ebb90 [color="green"];
+  BB004ebb94 -> BB004ebba2 [color="red"];
+}

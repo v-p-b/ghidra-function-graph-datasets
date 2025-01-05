@@ -1,0 +1,18 @@
+digraph ossl_quic_wire_decode_transport_param_bytes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c31c0 -> BB004c3290 [color="green"];
+  BB004c31c0 -> BB004c31cd [color="red"];
+  BB004c31cd -> BB004c3210 [color="green"];
+  BB004c31cd -> BB004c31f8 [color="red"];
+  BB004c31f8 -> BB004c31fb [color="blue"];
+  BB004c3210 -> BB004c31f8 [color="green"];
+  BB004c3210 -> BB004c3234 [color="red"];
+  BB004c3234 -> BB004c31f8 [color="green"];
+  BB004c3234 -> BB004c3242 [color="red"];
+  BB004c3242 -> BB004c31f8 [color="green"];
+  BB004c3242 -> BB004c3263 [color="red"];
+  BB004c3263 -> BB004c31fb [color="green"];
+  BB004c3263 -> BB004c327e [color="red"];
+  BB004c327e -> BB004c31fb [color="blue"];
+}

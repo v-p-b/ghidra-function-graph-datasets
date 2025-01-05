@@ -1,0 +1,24 @@
+digraph EVP_default_properties_enable_fips {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005c06a0 -> BB005c0740 [color="green"];
+  BB005c06a0 -> BB005c06db [color="red"];
+  BB005c06db -> BB005c0740 [color="green"];
+  BB005c06db -> BB005c06e4 [color="red"];
+  BB005c06e4 -> BB005c0780 [color="green"];
+  BB005c06e4 -> BB005c06f5 [color="red"];
+  BB005c06f5 -> BB005c07c0 [color="green"];
+  BB005c06f5 -> BB005c0714 [color="red"];
+  BB005c0714 -> BB005c0800 [color="green"];
+  BB005c0714 -> BB005c072b [color="red"];
+  BB005c072b -> BB005c0730 [color="blue"];
+  BB005c0740 -> BB005c0818 [color="green"];
+  BB005c0740 -> BB005c0751 [color="red"];
+  BB005c0751 -> BB005c072b [color="green"];
+  BB005c0751 -> BB005c0764 [color="red"];
+  BB005c0764 -> BB005c0730 [color="blue"];
+  BB005c0780 -> BB005c0791 [color="red"];
+  BB005c07c0 -> BB005c0730 [color="blue"];
+  BB005c0800 -> BB005c0730 [color="blue"];
+  BB005c0818 -> BB005c0791 [color="blue"];
+}

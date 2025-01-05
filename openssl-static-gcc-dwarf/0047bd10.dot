@@ -1,0 +1,33 @@
+digraph ssl_encapsulate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0047bd10 -> BB0047bed0 [color="green"];
+  BB0047bd10 -> BB0047bd46 [color="red"];
+  BB0047bd46 -> BB0047bda3 [color="green"];
+  BB0047bd46 -> BB0047bd6d [color="red"];
+  BB0047bd6d -> BB0047bda3 [color="green"];
+  BB0047bd6d -> BB0047bd8d [color="red"];
+  BB0047bd8d -> BB0047bda3 [color="green"];
+  BB0047bd8d -> BB0047bd97 [color="red"];
+  BB0047bd97 -> BB0047be28 [color="green"];
+  BB0047bd97 -> BB0047bda3 [color="red"];
+  BB0047bda3 -> BB0047bde3 [color="red"];
+  BB0047bde3 -> BB0047be13 [color="red"];
+  BB0047be28 -> BB0047bf89 [color="green"];
+  BB0047be28 -> BB0047be65 [color="red"];
+  BB0047be65 -> BB0047bf89 [color="green"];
+  BB0047be65 -> BB0047be6e [color="red"];
+  BB0047be6e -> BB0047bf40 [color="green"];
+  BB0047be6e -> BB0047be94 [color="red"];
+  BB0047be94 -> BB0047bf10 [color="green"];
+  BB0047be94 -> BB0047be9d [color="red"];
+  BB0047be9d -> BB0047beb3 [color="blue"];
+  BB0047beb3 -> BB0047bde3 [color="blue"];
+  BB0047bed0 -> BB0047be13 [color="blue"];
+  BB0047bf10 -> BB0047beb3 [color="green"];
+  BB0047bf10 -> BB0047bf37 [color="red"];
+  BB0047bf37 -> BB0047bde3 [color="blue"];
+  BB0047bf40 -> BB0047bf69 [color="red"];
+  BB0047bf69 -> BB0047bde3 [color="blue"];
+  BB0047bf89 -> BB0047bf69 [color="blue"];
+}

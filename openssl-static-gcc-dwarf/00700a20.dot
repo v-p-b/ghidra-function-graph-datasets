@@ -1,0 +1,9 @@
+digraph mdc2_dupctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00700a20 -> BB00700a5e [color="green"];
+  BB00700a20 -> BB00700a33 [color="red"];
+  BB00700a33 -> BB00700a5e [color="green"];
+  BB00700a33 -> BB00700a4e [color="red"];
+  BB00700a4e -> BB00700a5e [color="blue"];
+}

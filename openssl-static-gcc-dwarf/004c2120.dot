@@ -1,0 +1,27 @@
+digraph ossl_quic_wire_decode_frame_crypto {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c2120 -> BB004c2230 [color="green"];
+  BB004c2120 -> BB004c212d [color="red"];
+  BB004c212d -> BB004c2160 [color="green"];
+  BB004c212d -> BB004c2152 [color="red"];
+  BB004c2152 -> BB004c2154 [color="blue"];
+  BB004c2160 -> BB004c2152 [color="green"];
+  BB004c2160 -> BB004c2188 [color="red"];
+  BB004c2188 -> BB004c2152 [color="green"];
+  BB004c2188 -> BB004c218d [color="red"];
+  BB004c218d -> BB004c2152 [color="green"];
+  BB004c218d -> BB004c219e [color="red"];
+  BB004c219e -> BB004c2152 [color="green"];
+  BB004c219e -> BB004c21bd [color="red"];
+  BB004c21bd -> BB004c2152 [color="green"];
+  BB004c21bd -> BB004c21cb [color="red"];
+  BB004c21cb -> BB004c2152 [color="green"];
+  BB004c21cb -> BB004c2202 [color="red"];
+  BB004c2202 -> BB004c2238 [color="green"];
+  BB004c2202 -> BB004c2207 [color="red"];
+  BB004c2207 -> BB004c2152 [color="green"];
+  BB004c2207 -> BB004c2210 [color="red"];
+  BB004c2210 -> BB004c2154 [color="blue"];
+  BB004c2238 -> BB004c2154 [color="blue"];
+}

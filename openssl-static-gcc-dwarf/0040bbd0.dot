@@ -1,0 +1,18 @@
+digraph save_cert_or_delete {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0040bbd0 -> BB0040bc50 [color="green"];
+  BB0040bbd0 -> BB0040bbe0 [color="red"];
+  BB0040bbe0 -> BB0040bc68 [color="green"];
+  BB0040bbe0 -> BB0040bbee [color="red"];
+  BB0040bbee -> BB0040bc38 [color="green"];
+  BB0040bbee -> BB0040bc0d [color="red"];
+  BB0040bc0d -> BB0040bc24 [color="red"];
+  BB0040bc68 -> BB0040bc24 [color="green"];
+  BB0040bc68 -> BB0040bc96 [color="red"];
+  BB0040bc96 -> BB0040bc24 [color="green"];
+  BB0040bc96 -> BB0040bca0 [color="red"];
+  BB0040bca0 -> BB0040bc24 [color="green"];
+  BB0040bca0 -> BB0040bcb0 [color="red"];
+  BB0040bcb0 -> BB0040bc24 [color="blue"];
+}

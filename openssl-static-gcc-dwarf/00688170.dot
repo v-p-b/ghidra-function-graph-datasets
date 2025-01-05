@@ -1,0 +1,16 @@
+digraph d2i_RSA_PUBKEY {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00688170 -> BB0068826f [color="green"];
+  BB00688170 -> BB006881bb [color="red"];
+  BB006881bb -> BB00688280 [color="green"];
+  BB006881bb -> BB00688208 [color="red"];
+  BB00688208 -> BB006882a0 [color="green"];
+  BB00688208 -> BB0068822f [color="red"];
+  BB0068822f -> BB0068826f [color="green"];
+  BB0068822f -> BB0068825a [color="red"];
+  BB0068825a -> BB0068826f [color="green"];
+  BB0068825a -> BB00688262 [color="red"];
+  BB00688262 -> BB0068826f [color="red"];
+  BB006882a0 -> BB0068826f [color="blue"];
+}

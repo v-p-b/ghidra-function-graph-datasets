@@ -1,0 +1,11 @@
+digraph ssl_hmac_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004a4840 -> BB004a48dd [color="green"];
+  BB004a4840 -> BB004a485f [color="red"];
+  BB004a485f -> BB004a48f7 [color="green"];
+  BB004a485f -> BB004a48dd [color="red"];
+  BB004a48dd -> BB004a48f7 [color="green"];
+  BB004a48dd -> BB004a48e6 [color="red"];
+  BB004a48e6 -> BB004a48f7 [color="red"];
+}

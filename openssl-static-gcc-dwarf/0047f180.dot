@@ -1,0 +1,13 @@
+digraph SSL_add_file_cert_subjects_to_stack {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0047f180 -> BB0047f228 [color="green"];
+  BB0047f180 -> BB0047f1cd [color="red"];
+  BB0047f1cd -> BB0047f1fd [color="green"];
+  BB0047f1cd -> BB0047f1dc [color="red"];
+  BB0047f1dc -> BB0047f1e0 [color="blue"];
+  BB0047f1e0 -> BB0047f1e0 [color="green"];
+  BB0047f1e0 -> BB0047f1fd [color="red"];
+  BB0047f1fd -> BB0047f20e [color="red"];
+  BB0047f228 -> BB0047f20e [color="blue"];
+}

@@ -1,0 +1,31 @@
+digraph drbg_hash_verify_zeroization {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006e0ed0 -> BB006e0ef5 [color="green"];
+  BB006e0ed0 -> BB006e0ee6 [color="red"];
+  BB006e0ee6 -> BB006e0f23 [color="green"];
+  BB006e0ee6 -> BB006e0ef2 [color="red"];
+  BB006e0ef2 -> BB006e0ef5 [color="blue"];
+  BB006e0ef5 -> BB006e0f11 [color="blue"];
+  BB006e0f08 -> BB006e0f30 [color="green"];
+  BB006e0f08 -> BB006e0f11 [color="red"];
+  BB006e0f11 -> BB006e0f08 [color="green"];
+  BB006e0f11 -> BB006e0f16 [color="red"];
+  BB006e0f16 -> BB006e0f19 [color="blue"];
+  BB006e0f19 -> BB006e0f23 [color="green"];
+  BB006e0f19 -> BB006e0f1e [color="red"];
+  BB006e0f1e -> BB006e0f23 [color="red"];
+  BB006e0f30 -> BB006e0f49 [color="blue"];
+  BB006e0f40 -> BB006e0f50 [color="green"];
+  BB006e0f40 -> BB006e0f49 [color="red"];
+  BB006e0f49 -> BB006e0f40 [color="green"];
+  BB006e0f49 -> BB006e0f4e [color="red"];
+  BB006e0f4e -> BB006e0f16 [color="blue"];
+  BB006e0f50 -> BB006e0f69 [color="blue"];
+  BB006e0f60 -> BB006e0f70 [color="green"];
+  BB006e0f60 -> BB006e0f69 [color="red"];
+  BB006e0f69 -> BB006e0f60 [color="green"];
+  BB006e0f69 -> BB006e0f6e [color="red"];
+  BB006e0f6e -> BB006e0f16 [color="blue"];
+  BB006e0f70 -> BB006e0f19 [color="blue"];
+}

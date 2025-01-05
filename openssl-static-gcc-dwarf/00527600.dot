@@ -1,0 +1,11 @@
+digraph bn_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00527600 -> BB0052761e [color="green"];
+  BB00527600 -> BB0052760c [color="red"];
+  BB0052760c -> BB00527620 [color="green"];
+  BB0052760c -> BB00527612 [color="red"];
+  BB00527612 -> BB00527617 [color="red"];
+  BB00527617 -> BB0052761e [color="blue"];
+  BB00527620 -> BB00527617 [color="blue"];
+}

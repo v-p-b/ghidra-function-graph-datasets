@@ -1,0 +1,15 @@
+digraph _IO_fwrite.cold {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004018d1 -> BB00401902 [color="green"];
+  BB004018d1 -> BB004018d9 [color="red"];
+  BB004018d9 -> BB00401902 [color="green"];
+  BB004018d9 -> BB004018eb [color="red"];
+  BB004018eb -> BB0040190a [color="green"];
+  BB004018eb -> BB004018ff [color="red"];
+  BB004018ff -> BB00401902 [color="blue"];
+  BB00401902 -> BB00401905 [color="blue"];
+  BB0040190a -> BB00401902 [color="green"];
+  BB0040190a -> BB00401911 [color="red"];
+  BB00401911 -> BB00401902 [color="blue"];
+}

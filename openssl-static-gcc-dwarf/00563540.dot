@@ -1,0 +1,14 @@
+digraph cms_ri_cb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00563540 -> BB00563550 [color="green"];
+  BB00563540 -> BB00563545 [color="red"];
+  BB00563550 -> BB00563570 [color="green"];
+  BB00563550 -> BB0056355a [color="red"];
+  BB0056355a -> BB005635a0 [color="green"];
+  BB0056355a -> BB0056355f [color="red"];
+  BB0056355f -> BB005635c0 [color="green"];
+  BB0056355f -> BB00563564 [color="red"];
+  BB005635a0 -> BB00563564 [color="blue"];
+  BB005635c0 -> BB00563564 [color="blue"];
+}

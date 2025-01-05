@@ -1,0 +1,9 @@
+digraph ssl_dh_to_pkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004aadb0 -> BB004aade8 [color="green"];
+  BB004aadb0 -> BB004aadbc [color="red"];
+  BB004aadbc -> BB004aae00 [color="green"];
+  BB004aadbc -> BB004aadd6 [color="red"];
+  BB004aae00 -> BB004aadd6 [color="blue"];
+}

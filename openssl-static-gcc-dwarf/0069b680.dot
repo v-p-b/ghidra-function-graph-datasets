@@ -1,0 +1,11 @@
+digraph cipher_hw_aes_ocb_aesni_initkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0069b680 -> BB0069b720 [color="green"];
+  BB0069b680 -> BB0069b6d7 [color="red"];
+  BB0069b6d7 -> BB0069b6de [color="blue"];
+  BB0069b6de -> BB0069b70a [color="green"];
+  BB0069b6de -> BB0069b6fe [color="red"];
+  BB0069b6fe -> BB0069b70a [color="blue"];
+  BB0069b720 -> BB0069b6de [color="blue"];
+}

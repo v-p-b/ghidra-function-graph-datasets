@@ -1,0 +1,30 @@
+digraph try_key_value_legacy.constprop.0.isra.0 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0064d6d0 -> BB0064d720 [color="green"];
+  BB0064d6d0 -> BB0064d6fd [color="red"];
+  BB0064d6fd -> BB0064d720 [color="green"];
+  BB0064d6fd -> BB0064d702 [color="red"];
+  BB0064d702 -> BB0064d760 [color="green"];
+  BB0064d702 -> BB0064d709 [color="red"];
+  BB0064d720 -> BB0064d888 [color="green"];
+  BB0064d720 -> BB0064d752 [color="red"];
+  BB0064d752 -> BB0064d709 [color="blue"];
+  BB0064d760 -> BB0064d801 [color="green"];
+  BB0064d760 -> BB0064d78d [color="red"];
+  BB0064d78d -> BB0064d890 [color="green"];
+  BB0064d78d -> BB0064d7c9 [color="red"];
+  BB0064d7c9 -> BB0064d7f9 [color="red"];
+  BB0064d7f9 -> BB0064d801 [color="red"];
+  BB0064d801 -> BB0064d880 [color="green"];
+  BB0064d801 -> BB0064d806 [color="red"];
+  BB0064d806 -> BB0064d880 [color="green"];
+  BB0064d806 -> BB0064d820 [color="red"];
+  BB0064d820 -> BB0064d854 [color="green"];
+  BB0064d820 -> BB0064d84a [color="red"];
+  BB0064d84a -> BB0064d854 [color="blue"];
+  BB0064d854 -> BB0064d709 [color="blue"];
+  BB0064d880 -> BB0064d854 [color="blue"];
+  BB0064d888 -> BB0064d702 [color="blue"];
+  BB0064d890 -> BB0064d7f9 [color="blue"];
+}

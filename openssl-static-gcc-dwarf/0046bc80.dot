@@ -1,0 +1,15 @@
+digraph set_crl_lastupdate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0046bc80 -> BB0046bcf0 [color="green"];
+  BB0046bc80 -> BB0046bc98 [color="red"];
+  BB0046bc98 -> BB0046bcd8 [color="green"];
+  BB0046bc98 -> BB0046bc9d [color="red"];
+  BB0046bc9d -> BB0046bcf0 [color="green"];
+  BB0046bc9d -> BB0046bcac [color="red"];
+  BB0046bcac -> BB0046bcc0 [color="red"];
+  BB0046bcd8 -> BB0046bcac [color="green"];
+  BB0046bcd8 -> BB0046bce7 [color="red"];
+  BB0046bce7 -> BB0046bcf0 [color="blue"];
+  BB0046bcf0 -> BB0046bcc0 [color="blue"];
+}

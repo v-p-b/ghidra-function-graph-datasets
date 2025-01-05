@@ -1,0 +1,28 @@
+digraph get_payload_public_key_ec {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB007606f0 -> BB007607f8 [color="green"];
+  BB007606f0 -> BB00760722 [color="red"];
+  BB00760722 -> BB0076076a [color="green"];
+  BB00760722 -> BB0076073f [color="red"];
+  BB0076073f -> BB00760780 [color="green"];
+  BB0076073f -> BB00760760 [color="red"];
+  BB00760760 -> BB00760762 [color="blue"];
+  BB00760762 -> BB0076076a [color="red"];
+  BB00760780 -> BB00760760 [color="green"];
+  BB00760780 -> BB0076079f [color="red"];
+  BB0076079f -> BB00760760 [color="green"];
+  BB0076079f -> BB007607bd [color="red"];
+  BB007607bd -> BB00760760 [color="green"];
+  BB007607bd -> BB007607cd [color="red"];
+  BB007607cd -> BB0076082f [color="green"];
+  BB007607cd -> BB007607d8 [color="red"];
+  BB007607d8 -> BB007607dd [color="blue"];
+  BB007607dd -> BB00760762 [color="blue"];
+  BB007607f8 -> BB0076076a [color="blue"];
+  BB0076082f -> BB00760760 [color="green"];
+  BB0076082f -> BB00760838 [color="red"];
+  BB00760838 -> BB00760760 [color="green"];
+  BB00760838 -> BB00760842 [color="red"];
+  BB00760842 -> BB007607dd [color="blue"];
+}

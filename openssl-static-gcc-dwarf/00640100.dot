@@ -1,0 +1,16 @@
+digraph ossl_rsa_check_private_exponent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00640100 -> BB00640140 [color="green"];
+  BB00640100 -> BB0064012b [color="red"];
+  BB00640140 -> BB0064020b [color="green"];
+  BB00640140 -> BB00640192 [color="red"];
+  BB00640192 -> BB00640258 [color="green"];
+  BB00640192 -> BB0064020b [color="red"];
+  BB0064020b -> BB0064020d [color="blue"];
+  BB00640258 -> BB0064020b [color="green"];
+  BB00640258 -> BB00640268 [color="red"];
+  BB00640268 -> BB0064020b [color="green"];
+  BB00640268 -> BB00640282 [color="red"];
+  BB00640282 -> BB0064020d [color="blue"];
+}

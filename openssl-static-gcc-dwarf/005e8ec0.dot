@@ -1,0 +1,19 @@
+digraph OSSL_LIB_CTX_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e8ec0 -> BB005e8f80 [color="green"];
+  BB005e8ec0 -> BB005e8ec9 [color="red"];
+  BB005e8ec9 -> BB005e8f60 [color="green"];
+  BB005e8ec9 -> BB005e8ee4 [color="red"];
+  BB005e8ee4 -> BB005e8f60 [color="green"];
+  BB005e8ee4 -> BB005e8eee [color="red"];
+  BB005e8eee -> BB005e8f60 [color="green"];
+  BB005e8eee -> BB005e8eff [color="red"];
+  BB005e8eff -> BB005e8f6c [color="green"];
+  BB005e8eff -> BB005e8f04 [color="red"];
+  BB005e8f04 -> BB005e8f70 [color="green"];
+  BB005e8f04 -> BB005e8f0e [color="red"];
+  BB005e8f60 -> BB005e8f04 [color="green"];
+  BB005e8f60 -> BB005e8f6c [color="red"];
+  BB005e8f70 -> BB005e8f0e [color="blue"];
+}

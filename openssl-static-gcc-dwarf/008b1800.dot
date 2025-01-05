@@ -1,0 +1,17 @@
+digraph __strchr_sse2 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008b1800 -> BB008b1980 [color="green"];
+  BB008b1800 -> BB008b1823 [color="red"];
+  BB008b1823 -> BB008b1858 [color="green"];
+  BB008b1823 -> BB008b1843 [color="red"];
+  BB008b1858 -> BB008b1960 [color="green"];
+  BB008b1858 -> BB008b18ba [color="red"];
+  BB008b18ba -> BB008b18c8 [color="blue"];
+  BB008b18c8 -> BB008b18c8 [color="green"];
+  BB008b18c8 -> BB008b191a [color="red"];
+  BB008b191a -> BB008b1960 [color="blue"];
+  BB008b1980 -> BB008b1960 [color="green"];
+  BB008b1980 -> BB008b1a15 [color="red"];
+  BB008b1a15 -> BB008b18ba [color="blue"];
+}

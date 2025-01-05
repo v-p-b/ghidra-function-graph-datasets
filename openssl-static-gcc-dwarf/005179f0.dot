@@ -1,0 +1,19 @@
+digraph ASN1_TIME_diff {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005179f0 -> BB00517a40 [color="green"];
+  BB005179f0 -> BB00517a0e [color="red"];
+  BB00517a0e -> BB00517a83 [color="green"];
+  BB00517a0e -> BB00517a27 [color="red"];
+  BB00517a27 -> BB00517a29 [color="blue"];
+  BB00517a40 -> BB00517a29 [color="green"];
+  BB00517a40 -> BB00517a83 [color="red"];
+  BB00517a83 -> BB00517ab0 [color="green"];
+  BB00517a83 -> BB00517a88 [color="red"];
+  BB00517a88 -> BB00517a27 [color="green"];
+  BB00517a88 -> BB00517a97 [color="red"];
+  BB00517a97 -> BB00517a29 [color="blue"];
+  BB00517ab0 -> BB00517a97 [color="green"];
+  BB00517ab0 -> BB00517aec [color="red"];
+  BB00517aec -> BB00517a29 [color="blue"];
+}

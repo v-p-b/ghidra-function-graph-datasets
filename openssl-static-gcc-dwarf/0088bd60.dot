@@ -1,0 +1,21 @@
+digraph strncmp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0088bd60 -> BB0088bdb0 [color="green"];
+  BB0088bd60 -> BB0088bd79 [color="red"];
+  BB0088bd79 -> BB0088bd97 [color="green"];
+  BB0088bd79 -> BB0088bd87 [color="red"];
+  BB0088bd87 -> BB0088bdac [color="green"];
+  BB0088bd87 -> BB0088bd97 [color="red"];
+  BB0088bd97 -> BB0088bdac [color="blue"];
+  BB0088bdb0 -> BB0088bde8 [color="green"];
+  BB0088bdb0 -> BB0088bdc8 [color="red"];
+  BB0088bdc8 -> BB0088bdac [color="green"];
+  BB0088bdc8 -> BB0088bdd4 [color="red"];
+  BB0088bdd4 -> BB0088bd79 [color="green"];
+  BB0088bdd4 -> BB0088bde4 [color="red"];
+  BB0088bde8 -> BB0088bdc8 [color="green"];
+  BB0088bde8 -> BB0088bded [color="red"];
+  BB0088bded -> BB0088bdc8 [color="green"];
+  BB0088bded -> BB0088bdfd [color="red"];
+}

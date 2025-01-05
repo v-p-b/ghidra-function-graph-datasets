@@ -1,0 +1,11 @@
+digraph OSSL_EC_curve_nid2name {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005b8f10 -> BB005b8f48 [color="green"];
+  BB005b8f10 -> BB005b8f14 [color="red"];
+  BB005b8f14 -> BB005b8f2e [color="blue"];
+  BB005b8f20 -> BB005b8f48 [color="green"];
+  BB005b8f20 -> BB005b8f2e [color="red"];
+  BB005b8f2e -> BB005b8f20 [color="green"];
+  BB005b8f2e -> BB005b8f32 [color="red"];
+}

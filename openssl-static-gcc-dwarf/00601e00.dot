@@ -1,0 +1,10 @@
+digraph _aesni_ctr32_6x {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00601e00 -> BB00601f20 [color="green"];
+  BB00601e00 -> BB00601e28 [color="red"];
+  BB00601e28 -> BB00601e60 [color="blue"];
+  BB00601e60 -> BB00601e60 [color="green"];
+  BB00601e60 -> BB00601e8e [color="red"];
+  BB00601f20 -> BB00601e60 [color="blue"];
+}

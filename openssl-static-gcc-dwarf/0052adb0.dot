@@ -1,0 +1,21 @@
+digraph BIO_ADDR_dup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0052adb0 -> BB0052ae50 [color="green"];
+  BB0052adb0 -> BB0052adb9 [color="red"];
+  BB0052adb9 -> BB0052ae13 [color="green"];
+  BB0052adb9 -> BB0052addb [color="red"];
+  BB0052addb -> BB0052ae20 [color="green"];
+  BB0052addb -> BB0052ade9 [color="red"];
+  BB0052ade9 -> BB0052ae60 [color="green"];
+  BB0052ade9 -> BB0052adef [color="red"];
+  BB0052adef -> BB0052aed0 [color="green"];
+  BB0052adef -> BB0052adf9 [color="red"];
+  BB0052adf9 -> BB0052ae70 [color="green"];
+  BB0052adf9 -> BB0052adff [color="red"];
+  BB0052adff -> BB0052ae13 [color="red"];
+  BB0052ae13 -> BB0052ae16 [color="blue"];
+  BB0052ae60 -> BB0052ae16 [color="blue"];
+  BB0052ae70 -> BB0052ae16 [color="blue"];
+  BB0052aed0 -> BB0052ae16 [color="blue"];
+}

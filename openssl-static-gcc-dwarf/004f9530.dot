@@ -1,0 +1,15 @@
+digraph ch_record_state_transition {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004f9530 -> BB004f95b0 [color="green"];
+  BB004f9530 -> BB004f9592 [color="red"];
+  BB004f95b0 -> BB004f9592 [color="green"];
+  BB004f95b0 -> BB004f95b9 [color="red"];
+  BB004f95b9 -> BB004f95cd [color="green"];
+  BB004f95b9 -> BB004f95c4 [color="red"];
+  BB004f95c4 -> BB004f9592 [color="green"];
+  BB004f95c4 -> BB004f95cd [color="red"];
+  BB004f95cd -> BB004f9592 [color="green"];
+  BB004f95cd -> BB004f9637 [color="red"];
+  BB004f9637 -> BB004f9592 [color="blue"];
+}

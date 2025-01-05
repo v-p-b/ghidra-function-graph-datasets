@@ -1,0 +1,14 @@
+digraph cipher_hw_cast5_cbc_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006fc610 -> BB006fc700 [color="green"];
+  BB006fc610 -> BB006fc642 [color="red"];
+  BB006fc642 -> BB006fc670 [color="blue"];
+  BB006fc670 -> BB006fc670 [color="green"];
+  BB006fc670 -> BB006fc6a5 [color="red"];
+  BB006fc6a5 -> BB006fc6b8 [color="blue"];
+  BB006fc6b8 -> BB006fc6d8 [color="green"];
+  BB006fc6b8 -> BB006fc6c0 [color="red"];
+  BB006fc6d8 -> BB006fc6c0 [color="blue"];
+  BB006fc700 -> BB006fc6b8 [color="blue"];
+}

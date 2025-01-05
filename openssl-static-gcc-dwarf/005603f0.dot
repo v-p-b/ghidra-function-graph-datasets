@@ -1,0 +1,12 @@
+digraph OSSL_CMP_snprint_PKIStatusInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005603f0 -> BB0056048d [color="green"];
+  BB005603f0 -> BB00560407 [color="red"];
+  BB00560407 -> BB0056045f [color="green"];
+  BB00560407 -> BB0056041c [color="red"];
+  BB0056041c -> BB00560434 [color="blue"];
+  BB00560430 -> BB00560434 [color="blue"];
+  BB00560434 -> BB00560430 [color="green"];
+  BB00560434 -> BB0056045f [color="red"];
+}

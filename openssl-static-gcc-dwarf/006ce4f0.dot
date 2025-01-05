@@ -1,0 +1,18 @@
+digraph eckey_check {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006ce4f0 -> BB006ce5c0 [color="green"];
+  BB006ce4f0 -> BB006ce51a [color="red"];
+  BB006ce51a -> BB006ce579 [color="green"];
+  BB006ce51a -> BB006ce523 [color="red"];
+  BB006ce523 -> BB006ce566 [color="green"];
+  BB006ce523 -> BB006ce561 [color="red"];
+  BB006ce561 -> BB006ce590 [color="green"];
+  BB006ce561 -> BB006ce566 [color="red"];
+  BB006ce566 -> BB006ce569 [color="blue"];
+  BB006ce569 -> BB006ce579 [color="red"];
+  BB006ce590 -> BB006ce566 [color="green"];
+  BB006ce590 -> BB006ce5a7 [color="red"];
+  BB006ce5a7 -> BB006ce569 [color="blue"];
+  BB006ce5c0 -> BB006ce579 [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph ossl_quic_wire_decode_padding {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c3060 -> BB004c3089 [color="green"];
+  BB004c3060 -> BB004c3076 [color="red"];
+  BB004c3076 -> BB004c309c [color="blue"];
+  BB004c3080 -> BB004c308e [color="green"];
+  BB004c3080 -> BB004c3089 [color="red"];
+  BB004c3089 -> BB004c3080 [color="green"];
+  BB004c3089 -> BB004c308e [color="red"];
+  BB004c308e -> BB004c30b0 [color="green"];
+  BB004c308e -> BB004c3099 [color="red"];
+  BB004c3099 -> BB004c309c [color="blue"];
+}

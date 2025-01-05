@@ -1,0 +1,13 @@
+digraph quic_wait_for_stream {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004acd50 -> BB004acdb8 [color="green"];
+  BB004acd50 -> BB004acd65 [color="red"];
+  BB004acd65 -> BB004acdb8 [color="green"];
+  BB004acd65 -> BB004acd72 [color="red"];
+  BB004acd72 -> BB004acdb8 [color="green"];
+  BB004acd72 -> BB004acd7f [color="red"];
+  BB004acd7f -> BB004acdf0 [color="green"];
+  BB004acd7f -> BB004acda3 [color="red"];
+  BB004acdf0 -> BB004acda3 [color="blue"];
+}

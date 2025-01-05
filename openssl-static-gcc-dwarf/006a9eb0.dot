@@ -1,0 +1,12 @@
+digraph ripemd160_internal_final {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006a9eb0 -> BB006a9ed5 [color="green"];
+  BB006a9eb0 -> BB006a9ecf [color="red"];
+  BB006a9ecf -> BB006a9ee8 [color="green"];
+  BB006a9ecf -> BB006a9ed5 [color="red"];
+  BB006a9ed5 -> BB006a9ed7 [color="blue"];
+  BB006a9ee8 -> BB006a9ed5 [color="green"];
+  BB006a9ee8 -> BB006a9ef7 [color="red"];
+  BB006a9ef7 -> BB006a9ed7 [color="blue"];
+}

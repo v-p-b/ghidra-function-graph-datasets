@@ -1,0 +1,19 @@
+digraph ossl_aes_gcm_siv_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006989a0 -> BB006989fa [color="green"];
+  BB006989a0 -> BB006989c9 [color="red"];
+  BB006989c9 -> BB00698a10 [color="green"];
+  BB006989c9 -> BB006989ce [color="red"];
+  BB006989ce -> BB00698a30 [color="green"];
+  BB006989ce -> BB006989d3 [color="red"];
+  BB006989d3 -> BB006989f7 [color="green"];
+  BB006989d3 -> BB006989f0 [color="red"];
+  BB006989f0 -> BB006989f7 [color="green"];
+  BB006989f0 -> BB006989f4 [color="red"];
+  BB006989f4 -> BB006989f7 [color="blue"];
+  BB006989f7 -> BB006989fa [color="blue"];
+  BB00698a10 -> BB006989fa [color="green"];
+  BB00698a10 -> BB00698a1a [color="red"];
+  BB00698a30 -> BB006989fa [color="blue"];
+}

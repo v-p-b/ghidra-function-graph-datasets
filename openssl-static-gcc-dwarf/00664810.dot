@@ -1,0 +1,23 @@
+digraph i2r_crldp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00664810 -> BB006648db [color="blue"];
+  BB00664838 -> BB0066488c [color="green"];
+  BB00664838 -> BB0066484d [color="red"];
+  BB0066484d -> BB00664908 [color="green"];
+  BB0066484d -> BB00664858 [color="red"];
+  BB00664858 -> BB0066488c [color="red"];
+  BB0066488c -> BB006648a7 [color="green"];
+  BB0066488c -> BB00664895 [color="red"];
+  BB00664895 -> BB006648a7 [color="red"];
+  BB006648a7 -> BB006648d8 [color="green"];
+  BB006648a7 -> BB006648ae [color="red"];
+  BB006648ae -> BB006648d8 [color="red"];
+  BB006648d8 -> BB006648db [color="blue"];
+  BB006648db -> BB00664960 [color="green"];
+  BB006648db -> BB006648e7 [color="red"];
+  BB006648e7 -> BB00664838 [color="green"];
+  BB006648e7 -> BB006648ef [color="red"];
+  BB006648ef -> BB00664838 [color="blue"];
+  BB00664908 -> BB0066488c [color="blue"];
+}

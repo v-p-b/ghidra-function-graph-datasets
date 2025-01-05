@@ -1,0 +1,13 @@
+digraph ossl_ecx_dhkem_derive_private {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006d06a0 -> BB006d07e0 [color="green"];
+  BB006d06a0 -> BB006d06e3 [color="red"];
+  BB006d06e3 -> BB006d07c7 [color="green"];
+  BB006d06e3 -> BB006d070a [color="red"];
+  BB006d070a -> BB006d07b2 [color="green"];
+  BB006d070a -> BB006d076a [color="red"];
+  BB006d076a -> BB006d07b2 [color="red"];
+  BB006d07b2 -> BB006d07c7 [color="red"];
+  BB006d07e0 -> BB006d07b2 [color="blue"];
+}

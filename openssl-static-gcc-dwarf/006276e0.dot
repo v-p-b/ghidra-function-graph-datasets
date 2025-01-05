@@ -1,0 +1,12 @@
+digraph SMIME_write_PKCS7 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006276e0 -> BB00627780 [color="green"];
+  BB006276e0 -> BB00627718 [color="red"];
+  BB00627718 -> BB00627790 [color="green"];
+  BB00627718 -> BB00627721 [color="red"];
+  BB00627721 -> BB0062772a [color="blue"];
+  BB0062772a -> BB0062776c [color="red"];
+  BB00627780 -> BB0062772a [color="blue"];
+  BB00627790 -> BB0062776c [color="blue"];
+}

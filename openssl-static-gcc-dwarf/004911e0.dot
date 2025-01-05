@@ -1,0 +1,12 @@
+digraph SSL_is_server {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004911e0 -> BB00491208 [color="green"];
+  BB004911e0 -> BB004911e5 [color="red"];
+  BB004911e5 -> BB00491200 [color="green"];
+  BB004911e5 -> BB004911eb [color="red"];
+  BB004911eb -> BB004911fb [color="green"];
+  BB004911eb -> BB004911f2 [color="red"];
+  BB004911f2 -> BB00491200 [color="green"];
+  BB004911f2 -> BB004911fb [color="red"];
+}

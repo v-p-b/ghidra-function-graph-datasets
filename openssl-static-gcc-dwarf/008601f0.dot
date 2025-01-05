@@ -1,0 +1,11 @@
+digraph __libc_write {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008601f0 -> BB00860210 [color="green"];
+  BB008601f0 -> BB008601fc [color="red"];
+  BB008601fc -> BB00860260 [color="green"];
+  BB008601fc -> BB0086020b [color="red"];
+  BB00860210 -> BB00860278 [color="green"];
+  BB00860210 -> BB00860247 [color="red"];
+  BB00860278 -> BB00860247 [color="blue"];
+}

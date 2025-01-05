@@ -1,0 +1,10 @@
+digraph RSA_get0_multi_prime_factors {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006366d0 -> BB00636722 [color="green"];
+  BB006366d0 -> BB006366f4 [color="red"];
+  BB006366f4 -> BB00636700 [color="blue"];
+  BB00636700 -> BB00636700 [color="green"];
+  BB00636700 -> BB0063671d [color="red"];
+  BB0063671d -> BB00636722 [color="blue"];
+}

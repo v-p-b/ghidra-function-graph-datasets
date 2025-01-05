@@ -1,0 +1,14 @@
+digraph cmac_gen_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006d7e80 -> BB006d7ee7 [color="green"];
+  BB006d7e80 -> BB006d7ea0 [color="red"];
+  BB006d7ea0 -> BB006d7ee7 [color="green"];
+  BB006d7ea0 -> BB006d7ebe [color="red"];
+  BB006d7ebe -> BB006d7f00 [color="green"];
+  BB006d7ebe -> BB006d7ed3 [color="red"];
+  BB006d7ed3 -> BB006d7ee7 [color="red"];
+  BB006d7f00 -> BB006d7f28 [color="green"];
+  BB006d7f00 -> BB006d7f15 [color="red"];
+  BB006d7f28 -> BB006d7ed3 [color="blue"];
+}

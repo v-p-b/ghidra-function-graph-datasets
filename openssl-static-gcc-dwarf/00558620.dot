@@ -1,0 +1,11 @@
+digraph OSSL_CMP_CTX_build_cert_chain {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00558620 -> BB00558700 [color="green"];
+  BB00558620 -> BB0055862d [color="red"];
+  BB0055862d -> BB00558650 [color="green"];
+  BB0055862d -> BB0055864b [color="red"];
+  BB00558650 -> BB00558740 [color="green"];
+  BB00558650 -> BB005586b7 [color="red"];
+  BB00558740 -> BB0055864b [color="blue"];
+}

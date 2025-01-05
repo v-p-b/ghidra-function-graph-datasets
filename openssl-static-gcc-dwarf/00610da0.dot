@@ -1,0 +1,13 @@
+digraph OCSP_cert_status_str {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00610da0 -> BB00610db9 [color="green"];
+  BB00610da0 -> BB00610da5 [color="red"];
+  BB00610da5 -> BB00610dc5 [color="green"];
+  BB00610da5 -> BB00610dab [color="red"];
+  BB00610dab -> BB00610dce [color="green"];
+  BB00610dab -> BB00610db8 [color="red"];
+  BB00610db9 -> BB00610dc0 [color="blue"];
+  BB00610dc5 -> BB00610dc0 [color="blue"];
+  BB00610dce -> BB00610dc0 [color="blue"];
+}

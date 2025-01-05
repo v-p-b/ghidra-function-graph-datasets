@@ -1,0 +1,11 @@
+digraph retire_for_conn {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00500230 -> BB0050024d [color="green"];
+  BB00500230 -> BB00500236 [color="red"];
+  BB00500236 -> BB0050024d [color="green"];
+  BB00500236 -> BB00500240 [color="red"];
+  BB00500240 -> BB0050024d [color="green"];
+  BB00500240 -> BB00500246 [color="red"];
+  BB00500246 -> BB0050024d [color="blue"];
+}

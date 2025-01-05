@@ -1,0 +1,19 @@
+digraph get_parent_strength {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006dc7c0 -> BB006dc8f0 [color="green"];
+  BB006dc7c0 -> BB006dc7f0 [color="red"];
+  BB006dc7f0 -> BB006dc843 [color="green"];
+  BB006dc7f0 -> BB006dc831 [color="red"];
+  BB006dc831 -> BB006dc843 [color="green"];
+  BB006dc831 -> BB006dc83a [color="red"];
+  BB006dc83a -> BB006dc880 [color="green"];
+  BB006dc83a -> BB006dc843 [color="red"];
+  BB006dc843 -> BB006dc865 [color="green"];
+  BB006dc843 -> BB006dc85a [color="red"];
+  BB006dc85a -> BB006dc865 [color="green"];
+  BB006dc85a -> BB006dc863 [color="red"];
+  BB006dc863 -> BB006dc865 [color="blue"];
+  BB006dc865 -> BB006dc930 [color="green"];
+  BB006dc865 -> BB006dc86e [color="red"];
+}

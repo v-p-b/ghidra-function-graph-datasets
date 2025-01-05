@@ -1,0 +1,17 @@
+digraph _aesni_ctr32_ghash_6x {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00601740 -> BB00601780 [color="blue"];
+  BB00601780 -> BB00601b60 [color="green"];
+  BB00601780 -> BB0060178c [color="red"];
+  BB0060178c -> BB006017a0 [color="blue"];
+  BB006017a0 -> BB00601bc0 [color="green"];
+  BB006017a0 -> BB00601abf [color="red"];
+  BB00601abf -> BB00601bc0 [color="green"];
+  BB00601abf -> BB00601b0b [color="red"];
+  BB00601b0b -> BB00601bc0 [color="blue"];
+  BB00601b60 -> BB006017a0 [color="blue"];
+  BB00601bc0 -> BB00601cb0 [color="green"];
+  BB00601bc0 -> BB00601c6e [color="red"];
+  BB00601c6e -> BB00601780 [color="blue"];
+}

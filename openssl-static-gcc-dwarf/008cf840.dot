@@ -1,0 +1,12 @@
+digraph __strcasecmp_l_nonascii {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008cf840 -> BB008cf880 [color="green"];
+  BB008cf840 -> BB008cf84b [color="red"];
+  BB008cf84b -> BB008cf861 [color="blue"];
+  BB008cf858 -> BB008cf882 [color="green"];
+  BB008cf858 -> BB008cf861 [color="red"];
+  BB008cf861 -> BB008cf858 [color="green"];
+  BB008cf861 -> BB008cf876 [color="red"];
+  BB008cf880 -> BB008cf882 [color="blue"];
+}

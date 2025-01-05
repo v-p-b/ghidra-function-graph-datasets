@@ -1,0 +1,21 @@
+digraph ossl_dh_check_pairwise {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0057b5b0 -> BB0057b63b [color="green"];
+  BB0057b5b0 -> BB0057b5c4 [color="red"];
+  BB0057b5c4 -> BB0057b63b [color="green"];
+  BB0057b5c4 -> BB0057b5ce [color="red"];
+  BB0057b5ce -> BB0057b63b [color="green"];
+  BB0057b5ce -> BB0057b5d5 [color="red"];
+  BB0057b5d5 -> BB0057b63b [color="green"];
+  BB0057b5d5 -> BB0057b5dc [color="red"];
+  BB0057b5dc -> BB0057b650 [color="green"];
+  BB0057b5dc -> BB0057b5f0 [color="red"];
+  BB0057b5f0 -> BB0057b650 [color="green"];
+  BB0057b5f0 -> BB0057b5fd [color="red"];
+  BB0057b5fd -> BB0057b62b [color="green"];
+  BB0057b5fd -> BB0057b616 [color="red"];
+  BB0057b616 -> BB0057b62b [color="red"];
+  BB0057b62b -> BB0057b63b [color="red"];
+  BB0057b650 -> BB0057b62b [color="blue"];
+}

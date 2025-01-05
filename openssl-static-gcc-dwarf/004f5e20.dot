@@ -1,0 +1,18 @@
+digraph dtls1_dispatch_alert {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004f5e20 -> BB004f5ea8 [color="green"];
+  BB004f5e20 -> BB004f5e2e [color="red"];
+  BB004f5e2e -> BB004f5e50 [color="green"];
+  BB004f5e2e -> BB004f5e3a [color="red"];
+  BB004f5e50 -> BB004f5ec0 [color="green"];
+  BB004f5e50 -> BB004f5e8d [color="red"];
+  BB004f5ec0 -> BB004f5f05 [color="green"];
+  BB004f5ec0 -> BB004f5ede [color="red"];
+  BB004f5ede -> BB004f5f05 [color="blue"];
+  BB004f5f05 -> BB004f5f40 [color="green"];
+  BB004f5f05 -> BB004f5f11 [color="red"];
+  BB004f5f40 -> BB004f5f11 [color="green"];
+  BB004f5f40 -> BB004f5f50 [color="red"];
+  BB004f5f50 -> BB004f5e3a [color="blue"];
+}

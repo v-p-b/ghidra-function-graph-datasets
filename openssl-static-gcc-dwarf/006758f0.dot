@@ -1,0 +1,11 @@
+digraph X509_LOOKUP_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006758f0 -> BB0067592e [color="green"];
+  BB006758f0 -> BB00675918 [color="red"];
+  BB00675918 -> BB0067592e [color="green"];
+  BB00675918 -> BB00675925 [color="red"];
+  BB00675925 -> BB00675940 [color="green"];
+  BB00675925 -> BB0067592e [color="red"];
+  BB00675940 -> BB0067592e [color="blue"];
+}

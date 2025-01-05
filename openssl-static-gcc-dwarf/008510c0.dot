@@ -1,0 +1,11 @@
+digraph ossl_sm2_ciphertext_size {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008510c0 -> BB00851170 [color="green"];
+  BB008510c0 -> BB008510e7 [color="red"];
+  BB008510e7 -> BB00851178 [color="green"];
+  BB008510e7 -> BB00851110 [color="red"];
+  BB00851110 -> BB00851178 [color="green"];
+  BB00851110 -> BB00851114 [color="red"];
+  BB00851170 -> BB00851178 [color="red"];
+}

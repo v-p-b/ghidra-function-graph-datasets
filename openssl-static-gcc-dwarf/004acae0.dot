@@ -1,0 +1,25 @@
+digraph quic_raise_non_normal_error.constprop.2 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004acae0 -> BB004acb35 [color="green"];
+  BB004acae0 -> BB004acafe [color="red"];
+  BB004acafe -> BB004acb35 [color="blue"];
+  BB004acb35 -> BB004acb6e [color="green"];
+  BB004acb35 -> BB004acb3a [color="red"];
+  BB004acb3a -> BB004acbeb [color="green"];
+  BB004acb3a -> BB004acb45 [color="red"];
+  BB004acb45 -> BB004acbd8 [color="green"];
+  BB004acb45 -> BB004acb50 [color="red"];
+  BB004acb50 -> BB004acb6e [color="green"];
+  BB004acb50 -> BB004acb58 [color="red"];
+  BB004acb58 -> BB004acc03 [color="green"];
+  BB004acb58 -> BB004acb6e [color="red"];
+  BB004acbd8 -> BB004acbeb [color="green"];
+  BB004acbd8 -> BB004acbe1 [color="red"];
+  BB004acbe1 -> BB004acbeb [color="blue"];
+  BB004acbeb -> BB004acb6e [color="green"];
+  BB004acbeb -> BB004acbf7 [color="red"];
+  BB004acbf7 -> BB004acb6e [color="green"];
+  BB004acbf7 -> BB004acc03 [color="red"];
+  BB004acc03 -> BB004acb6e [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph tls_parse_ctos_srp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d9640 -> BB004d9660 [color="green"];
+  BB004d9640 -> BB004d9651 [color="red"];
+  BB004d9651 -> BB004d96a0 [color="green"];
+  BB004d9651 -> BB004d9660 [color="red"];
+  BB004d9660 -> BB004d9695 [color="red"];
+  BB004d96a0 -> BB004010b8 [color="green"];
+  BB004d96a0 -> BB004d9660 [color="green"];
+  BB004d96a0 -> BB004d96c6 [color="red"];
+  BB004d96c6 -> BB004d9695 [color="green"];
+  BB004d96c6 -> BB004d970b [color="red"];
+  BB004d970b -> BB004d9695 [color="blue"];
+}

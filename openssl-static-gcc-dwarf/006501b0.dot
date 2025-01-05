@@ -1,0 +1,32 @@
+digraph TS_STATUS_INFO_print_bio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006501b0 -> BB00650330 [color="green"];
+  BB006501b0 -> BB006501df [color="red"];
+  BB006501df -> BB006501fb [color="red"];
+  BB006501fb -> BB0065024b [color="blue"];
+  BB00650220 -> BB0065024b [color="red"];
+  BB0065024b -> BB00650270 [color="green"];
+  BB0065024b -> BB00650259 [color="red"];
+  BB00650259 -> BB00650220 [color="green"];
+  BB00650259 -> BB0065025d [color="red"];
+  BB0065025d -> BB00650220 [color="blue"];
+  BB00650270 -> BB00650350 [color="green"];
+  BB00650270 -> BB00650278 [color="red"];
+  BB00650278 -> BB006502f8 [color="green"];
+  BB00650278 -> BB006502a6 [color="red"];
+  BB006502a6 -> BB006502b0 [color="blue"];
+  BB006502b0 -> BB006502e8 [color="green"];
+  BB006502b0 -> BB006502bc [color="red"];
+  BB006502bc -> BB006502d7 [color="green"];
+  BB006502bc -> BB006502c6 [color="red"];
+  BB006502c6 -> BB006502d7 [color="red"];
+  BB006502d7 -> BB006502e8 [color="red"];
+  BB006502e8 -> BB006502b0 [color="green"];
+  BB006502e8 -> BB006502f3 [color="red"];
+  BB006502f3 -> BB00650309 [color="green"];
+  BB006502f3 -> BB006502f8 [color="red"];
+  BB006502f8 -> BB00650309 [color="red"];
+  BB00650330 -> BB006501fb [color="blue"];
+  BB00650350 -> BB00650278 [color="blue"];
+}

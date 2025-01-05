@@ -1,0 +1,14 @@
+digraph x448_to_SubjectPublicKeyInfo_pem_does_selection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b3620 -> BB006b363f [color="green"];
+  BB006b3620 -> BB006b3629 [color="red"];
+  BB006b3629 -> BB006b3645 [color="green"];
+  BB006b3629 -> BB006b3630 [color="red"];
+  BB006b3630 -> BB006b3640 [color="green"];
+  BB006b3630 -> BB006b3636 [color="red"];
+  BB006b3636 -> BB006b3650 [color="green"];
+  BB006b3636 -> BB006b363f [color="red"];
+  BB006b3640 -> BB006b3645 [color="blue"];
+  BB006b3650 -> BB006b3645 [color="blue"];
+}

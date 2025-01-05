@@ -1,0 +1,16 @@
+digraph dsa_import {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006d2970 -> BB006d298f [color="green"];
+  BB006d2970 -> BB006d2986 [color="red"];
+  BB006d2986 -> BB006d298f [color="green"];
+  BB006d2986 -> BB006d298a [color="red"];
+  BB006d298a -> BB006d29a0 [color="green"];
+  BB006d298a -> BB006d298f [color="red"];
+  BB006d298f -> BB006d2991 [color="blue"];
+  BB006d29a0 -> BB006d298f [color="green"];
+  BB006d29a0 -> BB006d29af [color="red"];
+  BB006d29af -> BB006d2991 [color="green"];
+  BB006d29af -> BB006d29b9 [color="red"];
+  BB006d29b9 -> BB006d2991 [color="blue"];
+}

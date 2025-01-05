@@ -1,0 +1,35 @@
+digraph X509_OBJECT_retrieve_match {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00676920 -> BB00676960 [color="green"];
+  BB00676920 -> BB00676937 [color="red"];
+  BB00676937 -> BB00676a10 [color="green"];
+  BB00676937 -> BB00676948 [color="red"];
+  BB00676948 -> BB006769a3 [color="green"];
+  BB00676948 -> BB00676958 [color="red"];
+  BB00676958 -> BB00676960 [color="blue"];
+  BB00676960 -> BB00676963 [color="blue"];
+  BB00676970 -> BB006769f8 [color="green"];
+  BB00676970 -> BB00676979 [color="red"];
+  BB00676979 -> BB006769d8 [color="green"];
+  BB00676979 -> BB0067697e [color="red"];
+  BB0067697e -> BB006769c0 [color="green"];
+  BB0067697e -> BB00676983 [color="red"];
+  BB00676983 -> BB00676963 [color="green"];
+  BB00676983 -> BB00676988 [color="red"];
+  BB00676988 -> BB00676963 [color="green"];
+  BB00676988 -> BB0067699a [color="red"];
+  BB0067699a -> BB00676960 [color="green"];
+  BB0067699a -> BB006769a3 [color="red"];
+  BB006769a3 -> BB00676970 [color="green"];
+  BB006769a3 -> BB006769b9 [color="red"];
+  BB006769b9 -> BB00676960 [color="blue"];
+  BB006769c0 -> BB0067699a [color="green"];
+  BB006769c0 -> BB006769d2 [color="red"];
+  BB006769d2 -> BB00676963 [color="blue"];
+  BB006769d8 -> BB006769e6 [color="red"];
+  BB006769e6 -> BB00676960 [color="green"];
+  BB006769e6 -> BB006769ee [color="red"];
+  BB006769ee -> BB0067697e [color="blue"];
+  BB006769f8 -> BB006769e6 [color="blue"];
+}

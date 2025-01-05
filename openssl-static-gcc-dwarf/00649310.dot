@@ -1,0 +1,15 @@
+digraph OPENSSL_sk_delete {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00649310 -> BB00649378 [color="green"];
+  BB00649310 -> BB0064931c [color="red"];
+  BB0064931c -> BB00649378 [color="green"];
+  BB0064931c -> BB00649320 [color="red"];
+  BB00649320 -> BB00649347 [color="green"];
+  BB00649320 -> BB0064932c [color="red"];
+  BB0064932c -> BB00649358 [color="green"];
+  BB0064932c -> BB00649345 [color="red"];
+  BB00649345 -> BB00649347 [color="blue"];
+  BB00649358 -> BB00401020 [color="blue"];
+  BB00649358 -> BB00649345 [color="blue"];
+}

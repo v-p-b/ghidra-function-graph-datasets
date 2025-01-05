@@ -1,0 +1,10 @@
+digraph X509_CRL_add0_revoked {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00685bf0 -> BB00685c20 [color="green"];
+  BB00685bf0 -> BB00685c01 [color="red"];
+  BB00685c01 -> BB00685c42 [color="green"];
+  BB00685c01 -> BB00685c0a [color="red"];
+  BB00685c20 -> BB00685c01 [color="green"];
+  BB00685c20 -> BB00685c42 [color="red"];
+}

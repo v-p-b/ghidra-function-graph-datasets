@@ -1,0 +1,11 @@
+digraph ssl_get_split_send_fragment {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00493f30 -> BB00493f61 [color="green"];
+  BB00493f30 -> BB00493f43 [color="red"];
+  BB00493f43 -> BB00493f61 [color="green"];
+  BB00493f43 -> BB00493f51 [color="red"];
+  BB00493f51 -> BB00493f6e [color="green"];
+  BB00493f51 -> BB00493f61 [color="red"];
+  BB00493f61 -> BB00493f6e [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph BIO_new_mem_buf {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0053ae30 -> BB0053aea0 [color="green"];
+  BB0053ae30 -> BB0053ae3b [color="red"];
+  BB0053ae3b -> BB0053ae4d [color="green"];
+  BB0053ae3b -> BB0053ae45 [color="red"];
+  BB0053ae45 -> BB00401100 [color="green"];
+  BB0053ae45 -> BB0053ae4d [color="red"];
+  BB0053ae4d -> BB0053ae92 [color="green"];
+  BB0053ae4d -> BB0053ae5e [color="red"];
+  BB0053ae5e -> BB0053ae92 [color="blue"];
+  BB0053aea0 -> BB0053ae92 [color="blue"];
+}

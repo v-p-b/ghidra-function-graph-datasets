@@ -1,0 +1,22 @@
+digraph CMS_is_detached {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00568f90 -> BB00568fd0 [color="green"];
+  BB00568f90 -> BB00568fa1 [color="red"];
+  BB00568fa1 -> BB00569070 [color="green"];
+  BB00568fa1 -> BB00568faa [color="red"];
+  BB00568faa -> BB00569070 [color="green"];
+  BB00568faa -> BB00568fb6 [color="red"];
+  BB00568fd0 -> BB00569030 [color="green"];
+  BB00568fd0 -> BB00568fd7 [color="red"];
+  BB00568fd7 -> BB00568ff5 [color="green"];
+  BB00568fd7 -> BB00568fde [color="red"];
+  BB00568fde -> BB00568ff3 [color="blue"];
+  BB00568ff5 -> BB00569070 [color="green"];
+  BB00568ff5 -> BB00568ffc [color="red"];
+  BB00568ffc -> BB00568ff3 [color="blue"];
+  BB00569030 -> BB00569038 [color="blue"];
+  BB00569038 -> BB00568ff3 [color="blue"];
+  BB00569070 -> BB00569038 [color="green"];
+  BB00569070 -> BB00569079 [color="red"];
+}

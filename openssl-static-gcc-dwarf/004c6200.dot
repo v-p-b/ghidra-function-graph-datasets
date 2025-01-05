@@ -1,0 +1,10 @@
+digraph DTLS_RECORD_LAYER_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c6200 -> BB004c6274 [color="green"];
+  BB004c6200 -> BB004c6224 [color="red"];
+  BB004c6224 -> BB004c6250 [color="green"];
+  BB004c6224 -> BB004c6242 [color="red"];
+  BB004c6250 -> BB004c6242 [color="blue"];
+  BB004c6274 -> BB004c6242 [color="blue"];
+}

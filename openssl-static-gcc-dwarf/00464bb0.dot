@@ -1,0 +1,14 @@
+digraph opt_rand {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00464bb0 -> BB00464c10 [color="green"];
+  BB00464bb0 -> BB00464bbc [color="red"];
+  BB00464bbc -> BB00464c0a [color="green"];
+  BB00464bbc -> BB00464bc9 [color="red"];
+  BB00464bc9 -> BB00464c0a [color="red"];
+  BB00464c10 -> BB00464c40 [color="green"];
+  BB00464c10 -> BB00464c1a [color="red"];
+  BB00464c40 -> BB00464c1a [color="green"];
+  BB00464c40 -> BB00464c51 [color="red"];
+  BB00464c51 -> BB00464c0a [color="blue"];
+}

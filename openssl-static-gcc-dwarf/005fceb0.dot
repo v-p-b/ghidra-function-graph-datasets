@@ -1,0 +1,15 @@
+digraph infopair_copy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005fceb0 -> BB005fcf1e [color="green"];
+  BB005fceb0 -> BB005fced8 [color="red"];
+  BB005fced8 -> BB005fcefa [color="green"];
+  BB005fced8 -> BB005fcee0 [color="red"];
+  BB005fcee0 -> BB005fcf29 [color="green"];
+  BB005fcee0 -> BB005fcefa [color="red"];
+  BB005fcefa -> BB005fcf1e [color="green"];
+  BB005fcefa -> BB005fcf03 [color="red"];
+  BB005fcf03 -> BB005fcf29 [color="green"];
+  BB005fcf03 -> BB005fcf1e [color="red"];
+  BB005fcf29 -> BB005fcf1e [color="blue"];
+}

@@ -1,0 +1,25 @@
+digraph ossl_asn1_do_lock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005269e0 -> BB00526a00 [color="green"];
+  BB005269e0 -> BB005269ee [color="red"];
+  BB005269ee -> BB00526a00 [color="green"];
+  BB005269ee -> BB005269f5 [color="red"];
+  BB00526a00 -> BB00526a48 [color="green"];
+  BB00526a00 -> BB00526a09 [color="red"];
+  BB00526a09 -> BB005269f5 [color="green"];
+  BB00526a09 -> BB00526a13 [color="red"];
+  BB00526a13 -> BB00526aa0 [color="green"];
+  BB00526a13 -> BB00526a29 [color="red"];
+  BB00526a29 -> BB00526a88 [color="green"];
+  BB00526a29 -> BB00526a2e [color="red"];
+  BB00526a2e -> BB00526a60 [color="green"];
+  BB00526a2e -> BB00526a33 [color="red"];
+  BB00526a60 -> BB005269f5 [color="green"];
+  BB00526a60 -> BB00526a6e [color="red"];
+  BB00526a6e -> BB005269f5 [color="blue"];
+  BB00526a88 -> BB005269f5 [color="blue"];
+  BB00526aa0 -> BB005269f5 [color="green"];
+  BB00526aa0 -> BB00526ab7 [color="red"];
+  BB00526ab7 -> BB00526a33 [color="blue"];
+}

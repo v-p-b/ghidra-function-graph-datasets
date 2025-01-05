@@ -1,0 +1,22 @@
+digraph SCT_CTX_set1_issuer_pubkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00578950 -> BB00578a78 [color="green"];
+  BB00578950 -> BB00578989 [color="red"];
+  BB00578989 -> BB00578a50 [color="green"];
+  BB00578989 -> BB00578996 [color="red"];
+  BB00578996 -> BB00578a50 [color="green"];
+  BB00578996 -> BB005789a1 [color="red"];
+  BB005789a1 -> BB00578a09 [color="green"];
+  BB005789a1 -> BB005789b5 [color="red"];
+  BB005789b5 -> BB00578a09 [color="green"];
+  BB005789b5 -> BB005789d7 [color="red"];
+  BB005789d7 -> BB00578a80 [color="green"];
+  BB005789d7 -> BB005789e4 [color="red"];
+  BB005789e4 -> BB00578a09 [color="red"];
+  BB00578a50 -> BB005789a1 [color="green"];
+  BB00578a50 -> BB00578a72 [color="red"];
+  BB00578a72 -> BB00578a78 [color="blue"];
+  BB00578a78 -> BB00578a09 [color="blue"];
+  BB00578a80 -> BB00578a09 [color="blue"];
+}

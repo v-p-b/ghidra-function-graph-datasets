@@ -1,0 +1,15 @@
+digraph ossl_qrx_pkt_release {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b84e0 -> BB004b8528 [color="green"];
+  BB004b84e0 -> BB004b84e5 [color="red"];
+  BB004b84e5 -> BB004b8528 [color="green"];
+  BB004b84e5 -> BB004b84ec [color="red"];
+  BB004b84ec -> BB004b850c [color="green"];
+  BB004b84ec -> BB004b8508 [color="red"];
+  BB004b8508 -> BB004b850c [color="blue"];
+  BB004b850c -> BB004b8530 [color="green"];
+  BB004b850c -> BB004b8523 [color="red"];
+  BB004b8523 -> BB004b8528 [color="blue"];
+  BB004b8530 -> BB004b8523 [color="blue"];
+}

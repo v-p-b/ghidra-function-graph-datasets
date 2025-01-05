@@ -1,0 +1,12 @@
+digraph sm2_load {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006d4eb0 -> BB006d4ec9 [color="green"];
+  BB006d4eb0 -> BB006d4ec5 [color="red"];
+  BB006d4ec5 -> BB006d4ed8 [color="green"];
+  BB006d4ec5 -> BB006d4ec9 [color="red"];
+  BB006d4ed8 -> BB006d4ec9 [color="green"];
+  BB006d4ed8 -> BB006d4eec [color="red"];
+  BB006d4eec -> BB006d4ec9 [color="green"];
+  BB006d4eec -> BB006d4ef8 [color="red"];
+}

@@ -1,0 +1,19 @@
+digraph wait_for_async {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0046b750 -> BB0046b77e [color="green"];
+  BB0046b750 -> BB0046b774 [color="red"];
+  BB0046b774 -> BB0046b790 [color="green"];
+  BB0046b774 -> BB0046b77e [color="red"];
+  BB0046b790 -> BB0046b894 [color="green"];
+  BB0046b790 -> BB0046b7b8 [color="red"];
+  BB0046b7b8 -> BB0046b870 [color="green"];
+  BB0046b7b8 -> BB0046b7ce [color="red"];
+  BB0046b7ce -> BB0046b890 [color="green"];
+  BB0046b7ce -> BB0046b7ef [color="red"];
+  BB0046b7ef -> BB0046b800 [color="blue"];
+  BB0046b800 -> BB0046b800 [color="green"];
+  BB0046b800 -> BB0046b83f [color="red"];
+  BB0046b870 -> BB0046b77e [color="blue"];
+  BB0046b890 -> BB0046b83f [color="blue"];
+}

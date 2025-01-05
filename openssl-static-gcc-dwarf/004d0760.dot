@@ -1,0 +1,9 @@
+digraph tls_any_set_protocol_version {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d0760 -> BB004d0771 [color="green"];
+  BB004d0760 -> BB004d076a [color="red"];
+  BB004d076a -> BB004d077a [color="green"];
+  BB004d076a -> BB004d0771 [color="red"];
+  BB004d0771 -> BB004d077a [color="blue"];
+}

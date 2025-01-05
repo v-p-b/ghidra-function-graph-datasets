@@ -1,0 +1,15 @@
+digraph EVP_PKEY_CTX_set_dsa_paramgen_type {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005b3510 -> BB005b35c0 [color="green"];
+  BB005b3510 -> BB005b3523 [color="red"];
+  BB005b3523 -> BB005b35c0 [color="green"];
+  BB005b3523 -> BB005b352f [color="red"];
+  BB005b352f -> BB005b3540 [color="green"];
+  BB005b352f -> BB005b353b [color="red"];
+  BB005b353b -> BB005b35b8 [color="green"];
+  BB005b353b -> BB005b3540 [color="red"];
+  BB005b3540 -> BB005b35a7 [color="red"];
+  BB005b35b8 -> BB005b35a7 [color="blue"];
+  BB005b35c0 -> BB005b35a7 [color="blue"];
+}

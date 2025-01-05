@@ -1,0 +1,34 @@
+digraph __register_atfork {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00915f30 -> BB00916038 [color="green"];
+  BB00915f30 -> BB00915f51 [color="red"];
+  BB00915f51 -> BB00915f5d [color="blue"];
+  BB00915f5d -> BB00915fe0 [color="green"];
+  BB00915f5d -> BB00915f66 [color="red"];
+  BB00915f66 -> BB00915f88 [color="blue"];
+  BB00915f88 -> BB00915fb5 [color="green"];
+  BB00915f88 -> BB00915fa6 [color="red"];
+  BB00915fa6 -> BB00915fb5 [color="blue"];
+  BB00915fb5 -> BB00916070 [color="green"];
+  BB00915fb5 -> BB00915fc5 [color="red"];
+  BB00915fc5 -> BB00915fcc [color="blue"];
+  BB00915fe0 -> BB00916030 [color="green"];
+  BB00915fe0 -> BB00915fed [color="red"];
+  BB00915fed -> BB00915f88 [color="green"];
+  BB00915fed -> BB00915ff9 [color="red"];
+  BB00915ff9 -> BB009160a1 [color="green"];
+  BB00915ff9 -> BB00916020 [color="red"];
+  BB00916020 -> BB00915f88 [color="blue"];
+  BB00916030 -> BB00915fb5 [color="blue"];
+  BB00916038 -> BB00915f5d [color="green"];
+  BB00916038 -> BB0091604d [color="red"];
+  BB0091604d -> BB00915f5d [color="blue"];
+  BB00916070 -> BB00915fcc [color="green"];
+  BB00916070 -> BB00916081 [color="red"];
+  BB00916081 -> BB00915fcc [color="blue"];
+  BB009160a1 -> BB009160b9 [color="green"];
+  BB009160a1 -> BB009160b4 [color="red"];
+  BB009160b4 -> BB009160b9 [color="red"];
+  BB009160b9 -> BB00915fb5 [color="blue"];
+}

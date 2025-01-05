@@ -1,0 +1,14 @@
+digraph bn_powerx5 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005511c0 -> BB005511c3 [color="blue"];
+  BB005511c3 -> BB00551220 [color="green"];
+  BB005511c3 -> BB005511f5 [color="red"];
+  BB005511f5 -> BB00551241 [color="blue"];
+  BB00551220 -> BB00551241 [color="blue"];
+  BB00551241 -> BB00551261 [color="green"];
+  BB00551241 -> BB0055125f [color="red"];
+  BB0055125f -> BB00551272 [color="blue"];
+  BB00551261 -> BB00551261 [color="green"];
+  BB00551261 -> BB00551272 [color="red"];
+}

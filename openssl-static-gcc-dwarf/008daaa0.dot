@@ -1,0 +1,11 @@
+digraph tdestroy_recurse {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008daaa0 -> BB008daad8 [color="green"];
+  BB008daaa0 -> BB008daab6 [color="red"];
+  BB008daab6 -> BB008daae6 [color="green"];
+  BB008daab6 -> BB008daabf [color="red"];
+  BB008daad8 -> BB008daabf [color="green"];
+  BB008daad8 -> BB008daae6 [color="red"];
+  BB008daae6 -> BB008daabf [color="blue"];
+}

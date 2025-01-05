@@ -1,0 +1,10 @@
+digraph _dl_allocate_tls {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008ee0b0 -> BB008ee0f8 [color="green"];
+  BB008ee0b0 -> BB008ee0bb [color="red"];
+  BB008ee0bb -> BB008ee10e [color="green"];
+  BB008ee0bb -> BB008ee0dc [color="red"];
+  BB008ee0dc -> BB008ee0e7 [color="blue"];
+  BB008ee10e -> BB008ee0e7 [color="blue"];
+}

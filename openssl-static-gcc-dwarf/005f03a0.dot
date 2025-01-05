@@ -1,0 +1,9 @@
+digraph OPENSSL_strcasecmp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005f03a0 -> BB005f03ba [color="blue"];
+  BB005f03b0 -> BB005f03d8 [color="green"];
+  BB005f03b0 -> BB005f03ba [color="red"];
+  BB005f03ba -> BB005f03b0 [color="green"];
+  BB005f03ba -> BB005f03d8 [color="red"];
+}

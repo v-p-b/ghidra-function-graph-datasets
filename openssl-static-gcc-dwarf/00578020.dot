@@ -1,0 +1,28 @@
+digraph SCT_validate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00578020 -> BB00578068 [color="green"];
+  BB00578020 -> BB00578048 [color="red"];
+  BB00578068 -> BB00578130 [color="green"];
+  BB00578068 -> BB00578088 [color="red"];
+  BB00578088 -> BB005780b7 [color="green"];
+  BB00578088 -> BB0057809d [color="red"];
+  BB0057809d -> BB005780f0 [color="green"];
+  BB0057809d -> BB005780b7 [color="red"];
+  BB005780b7 -> BB005780bd [color="blue"];
+  BB005780f0 -> BB005780b7 [color="green"];
+  BB005780f0 -> BB00578102 [color="red"];
+  BB00578102 -> BB00578150 [color="green"];
+  BB00578102 -> BB00578108 [color="red"];
+  BB00578108 -> BB0057818c [color="green"];
+  BB00578108 -> BB00578127 [color="red"];
+  BB00578127 -> BB005780bd [color="blue"];
+  BB00578150 -> BB00578127 [color="green"];
+  BB00578150 -> BB00578159 [color="red"];
+  BB00578159 -> BB005780b7 [color="green"];
+  BB00578159 -> BB00578172 [color="red"];
+  BB00578172 -> BB005780b7 [color="green"];
+  BB00578172 -> BB00578187 [color="red"];
+  BB00578187 -> BB00578108 [color="blue"];
+  BB0057818c -> BB005780bd [color="blue"];
+}

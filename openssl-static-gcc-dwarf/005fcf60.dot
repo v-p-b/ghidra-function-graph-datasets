@@ -1,0 +1,18 @@
+digraph infopair_add {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005fcf60 -> BB005fd07e [color="green"];
+  BB005fcf60 -> BB005fcf92 [color="red"];
+  BB005fcf92 -> BB005fd040 [color="green"];
+  BB005fcf92 -> BB005fcfb6 [color="red"];
+  BB005fcfb6 -> BB005fd040 [color="green"];
+  BB005fcfb6 -> BB005fcfd3 [color="red"];
+  BB005fcfd3 -> BB005fd000 [color="green"];
+  BB005fcfd3 -> BB005fcfdb [color="red"];
+  BB005fcfdb -> BB005fd010 [color="green"];
+  BB005fcfdb -> BB005fcfe7 [color="red"];
+  BB005fd000 -> BB005fcfdb [color="green"];
+  BB005fd000 -> BB005fd010 [color="red"];
+  BB005fd010 -> BB005fd040 [color="red"];
+  BB005fd040 -> BB005fd07e [color="red"];
+}

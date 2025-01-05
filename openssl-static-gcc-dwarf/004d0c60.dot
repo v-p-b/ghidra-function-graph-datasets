@@ -1,0 +1,19 @@
+digraph tls_construct_certificate_authorities {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d0c60 -> BB004d0cf0 [color="green"];
+  BB004d0c60 -> BB004d0c75 [color="red"];
+  BB004d0c75 -> BB004d0cf0 [color="green"];
+  BB004d0c75 -> BB004d0c84 [color="red"];
+  BB004d0c84 -> BB004d0cab [color="green"];
+  BB004d0c84 -> BB004d0c9a [color="red"];
+  BB004d0c9a -> BB004d0d00 [color="green"];
+  BB004d0c9a -> BB004d0cab [color="red"];
+  BB004d0cab -> BB004d0cbc [color="red"];
+  BB004d0cbc -> BB004d0ce0 [color="red"];
+  BB004d0d00 -> BB004d0ce0 [color="green"];
+  BB004d0d00 -> BB004d0d18 [color="red"];
+  BB004d0d18 -> BB004d0ce0 [color="green"];
+  BB004d0d18 -> BB004d0d2d [color="red"];
+  BB004d0d2d -> BB004d0cbc [color="blue"];
+}

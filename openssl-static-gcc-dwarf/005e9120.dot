@@ -1,0 +1,14 @@
+digraph OSSL_LIB_CTX_set0_default {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e9120 -> BB005e9198 [color="green"];
+  BB005e9120 -> BB005e9141 [color="red"];
+  BB005e9141 -> BB005e9198 [color="green"];
+  BB005e9141 -> BB005e914b [color="red"];
+  BB005e914b -> BB005e9198 [color="green"];
+  BB005e914b -> BB005e915f [color="red"];
+  BB005e915f -> BB005e9186 [color="green"];
+  BB005e915f -> BB005e9164 [color="red"];
+  BB005e9164 -> BB005e9186 [color="red"];
+  BB005e9198 -> BB005e915f [color="blue"];
+}

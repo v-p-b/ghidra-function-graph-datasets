@@ -1,0 +1,22 @@
+digraph md_write {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005af970 -> BB005af9b5 [color="green"];
+  BB005af970 -> BB005af97e [color="red"];
+  BB005af97e -> BB005af9b5 [color="green"];
+  BB005af97e -> BB005af985 [color="red"];
+  BB005af985 -> BB005af9a8 [color="green"];
+  BB005af985 -> BB005af9a3 [color="red"];
+  BB005af9a3 -> BB005af9c8 [color="green"];
+  BB005af9a3 -> BB005af9a8 [color="red"];
+  BB005af9a8 -> BB005afa20 [color="green"];
+  BB005af9a8 -> BB005af9b5 [color="red"];
+  BB005af9c8 -> BB005af9fc [color="green"];
+  BB005af9c8 -> BB005af9e5 [color="red"];
+  BB005af9e5 -> BB005af9fc [color="green"];
+  BB005af9e5 -> BB005af9ea [color="red"];
+  BB005af9ea -> BB005afa28 [color="green"];
+  BB005af9ea -> BB005af9fc [color="red"];
+  BB005afa20 -> BB005af9fc [color="blue"];
+  BB005afa28 -> BB005af9b5 [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph BN_GF2m_mod_mul {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0085d020 -> BB0085d112 [color="green"];
+  BB0085d020 -> BB0085d06c [color="red"];
+  BB0085d06c -> BB0085d0e0 [color="green"];
+  BB0085d06c -> BB0085d07e [color="red"];
+  BB0085d07e -> BB0085d0e0 [color="green"];
+  BB0085d07e -> BB0085d097 [color="red"];
+  BB0085d097 -> BB0085d0e0 [color="green"];
+  BB0085d097 -> BB0085d09b [color="red"];
+  BB0085d09b -> BB0085d0b5 [color="red"];
+  BB0085d0b5 -> BB0085d0c9 [color="red"];
+  BB0085d0e0 -> BB0085d0b5 [color="blue"];
+  BB0085d112 -> BB0085d0c9 [color="blue"];
+}

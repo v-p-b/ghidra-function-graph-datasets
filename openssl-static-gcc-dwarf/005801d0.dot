@@ -1,0 +1,37 @@
+digraph DSO_load {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005801d0 -> BB005802d8 [color="green"];
+  BB005801d0 -> BB005801ec [color="red"];
+  BB005801ec -> BB005802a0 [color="green"];
+  BB005801ec -> BB005801f7 [color="red"];
+  BB005801f7 -> BB00580248 [color="green"];
+  BB005801f7 -> BB005801fc [color="red"];
+  BB005801fc -> BB00580380 [color="green"];
+  BB005801fc -> BB0058020f [color="red"];
+  BB0058020f -> BB00580248 [color="green"];
+  BB0058020f -> BB00580216 [color="red"];
+  BB00580216 -> BB005803b8 [color="green"];
+  BB00580216 -> BB00580227 [color="red"];
+  BB00580227 -> BB00580348 [color="green"];
+  BB00580227 -> BB00580237 [color="red"];
+  BB00580248 -> BB00580278 [color="red"];
+  BB00580278 -> BB00580237 [color="green"];
+  BB00580278 -> BB00580280 [color="red"];
+  BB005802a0 -> BB00580278 [color="blue"];
+  BB005802d8 -> BB005803f8 [color="green"];
+  BB005802d8 -> BB005802fc [color="red"];
+  BB005802fc -> BB00580430 [color="green"];
+  BB005802fc -> BB0058030e [color="red"];
+  BB0058030e -> BB00580334 [color="green"];
+  BB0058030e -> BB00580327 [color="red"];
+  BB00580327 -> BB005803f0 [color="green"];
+  BB00580327 -> BB00580334 [color="red"];
+  BB00580334 -> BB005801ec [color="blue"];
+  BB00580348 -> BB00580278 [color="blue"];
+  BB00580380 -> BB00580278 [color="blue"];
+  BB005803b8 -> BB00580278 [color="blue"];
+  BB005803f0 -> BB005803f8 [color="red"];
+  BB005803f8 -> BB00580237 [color="blue"];
+  BB00580430 -> BB005803f8 [color="blue"];
+}

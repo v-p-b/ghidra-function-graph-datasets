@@ -1,0 +1,16 @@
+digraph setup_ui_method {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0046c4e0 -> BB0046c527 [color="green"];
+  BB0046c4e0 -> BB0046c514 [color="red"];
+  BB0046c514 -> BB0046c530 [color="green"];
+  BB0046c514 -> BB0046c527 [color="red"];
+  BB0046c527 -> BB0046c529 [color="blue"];
+  BB0046c530 -> BB0046c527 [color="green"];
+  BB0046c530 -> BB0046c547 [color="red"];
+  BB0046c547 -> BB0046c527 [color="green"];
+  BB0046c547 -> BB0046c55e [color="red"];
+  BB0046c55e -> BB0046c527 [color="green"];
+  BB0046c55e -> BB0046c575 [color="red"];
+  BB0046c575 -> BB0046c529 [color="blue"];
+}

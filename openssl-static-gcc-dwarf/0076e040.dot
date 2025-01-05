@@ -1,0 +1,10 @@
+digraph sm4_ctr_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0076e040 -> BB0076e0d8 [color="green"];
+  BB0076e040 -> BB0076e06d [color="red"];
+  BB0076e06d -> BB0076e0f0 [color="green"];
+  BB0076e06d -> BB0076e089 [color="red"];
+  BB0076e089 -> BB0076e0b3 [color="red"];
+  BB0076e0f0 -> BB0076e0b3 [color="blue"];
+}

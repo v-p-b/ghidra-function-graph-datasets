@@ -1,0 +1,10 @@
+digraph ASYNC_pause_job {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005285f0 -> BB00528670 [color="green"];
+  BB005285f0 -> BB00528605 [color="red"];
+  BB00528605 -> BB0052861b [color="green"];
+  BB00528605 -> BB00528614 [color="red"];
+  BB00528614 -> BB00528628 [color="green"];
+  BB00528614 -> BB0052861b [color="red"];
+}

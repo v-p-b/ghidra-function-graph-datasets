@@ -1,0 +1,16 @@
+digraph OPENSSL_sk_dup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00648c30 -> BB00648c85 [color="green"];
+  BB00648c30 -> BB00648c58 [color="red"];
+  BB00648c58 -> BB00648cd8 [color="green"];
+  BB00648c58 -> BB00648c5d [color="red"];
+  BB00648c5d -> BB00648c90 [color="green"];
+  BB00648c5d -> BB00648c73 [color="red"];
+  BB00648c73 -> BB00648c85 [color="blue"];
+  BB00648c90 -> BB00648cef [color="green"];
+  BB00648c90 -> BB00648cb6 [color="red"];
+  BB00648cb6 -> BB00401070 [color="blue"];
+  BB00648cd8 -> BB00648c73 [color="blue"];
+  BB00648cef -> BB00648c85 [color="blue"];
+}

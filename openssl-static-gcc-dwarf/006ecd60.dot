@@ -1,0 +1,34 @@
+digraph ed25519_sign {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006ecd60 -> BB006ece56 [color="green"];
+  BB006ecd60 -> BB006ecd96 [color="red"];
+  BB006ecd96 -> BB006ece70 [color="green"];
+  BB006ecd96 -> BB006ecd9f [color="red"];
+  BB006ecd9f -> BB006eced0 [color="green"];
+  BB006ecd9f -> BB006ecda9 [color="red"];
+  BB006ecda9 -> BB006ecfa0 [color="green"];
+  BB006ecda9 -> BB006ecdb6 [color="red"];
+  BB006ecdb6 -> BB006ece88 [color="green"];
+  BB006ecdb6 -> BB006ecdcb [color="red"];
+  BB006ecdcb -> BB006ecfe0 [color="green"];
+  BB006ecdcb -> BB006ecdd3 [color="red"];
+  BB006ecdd3 -> BB006ece70 [color="green"];
+  BB006ecdd3 -> BB006ece1d [color="red"];
+  BB006ece1d -> BB006ece56 [color="red"];
+  BB006ece70 -> BB006ece56 [color="blue"];
+  BB006ece88 -> BB006ecf10 [color="green"];
+  BB006ece88 -> BB006ece90 [color="red"];
+  BB006ece90 -> BB006ecdd3 [color="green"];
+  BB006ece90 -> BB006ece9a [color="red"];
+  BB006ece9a -> BB006ece56 [color="blue"];
+  BB006eced0 -> BB006ece56 [color="blue"];
+  BB006ecf10 -> BB006ecf4a [color="green"];
+  BB006ecf10 -> BB006ecf3f [color="red"];
+  BB006ecf3f -> BB006ecf88 [color="green"];
+  BB006ecf3f -> BB006ecf4a [color="red"];
+  BB006ecf4a -> BB006ece56 [color="blue"];
+  BB006ecf88 -> BB006ecdd3 [color="blue"];
+  BB006ecfa0 -> BB006ece56 [color="blue"];
+  BB006ecfe0 -> BB006ece56 [color="blue"];
+}

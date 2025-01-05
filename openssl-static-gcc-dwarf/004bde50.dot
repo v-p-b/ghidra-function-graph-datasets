@@ -1,0 +1,28 @@
+digraph ossl_quic_sstream_mark_acked {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004bde50 -> BB004bde90 [color="green"];
+  BB004bde50 -> BB004bde7f [color="red"];
+  BB004bde90 -> BB004bdf0d [color="green"];
+  BB004bde90 -> BB004bde99 [color="red"];
+  BB004bde99 -> BB004bdf0d [color="green"];
+  BB004bde99 -> BB004bdea7 [color="red"];
+  BB004bdea7 -> BB004bdf0d [color="green"];
+  BB004bdea7 -> BB004bdeb6 [color="red"];
+  BB004bdeb6 -> BB004bdf00 [color="green"];
+  BB004bdeb6 -> BB004bdec4 [color="red"];
+  BB004bdec4 -> BB004bdf00 [color="green"];
+  BB004bdec4 -> BB004bdecd [color="red"];
+  BB004bdecd -> BB004bdf00 [color="green"];
+  BB004bdecd -> BB004bded2 [color="red"];
+  BB004bded2 -> BB004bdf1d [color="green"];
+  BB004bded2 -> BB004bdef2 [color="red"];
+  BB004bdef2 -> BB004bdf3a [color="green"];
+  BB004bdef2 -> BB004bdef7 [color="red"];
+  BB004bdef7 -> BB004bdf00 [color="blue"];
+  BB004bdf00 -> BB004bdf0d [color="green"];
+  BB004bdf00 -> BB004bdf09 [color="red"];
+  BB004bdf09 -> BB004bdf0d [color="blue"];
+  BB004bdf1d -> BB004bdef2 [color="blue"];
+  BB004bdf3a -> BB004bdef7 [color="blue"];
+}

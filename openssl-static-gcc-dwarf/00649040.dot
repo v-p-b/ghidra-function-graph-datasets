@@ -1,0 +1,23 @@
+digraph OPENSSL_sk_reserve {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00649040 -> BB00649100 [color="green"];
+  BB00649040 -> BB0064904d [color="red"];
+  BB0064904d -> BB006490ae [color="green"];
+  BB0064904d -> BB00649057 [color="red"];
+  BB00649057 -> BB006490c0 [color="green"];
+  BB00649057 -> BB00649067 [color="red"];
+  BB00649067 -> BB00649140 [color="green"];
+  BB00649067 -> BB00649081 [color="red"];
+  BB00649081 -> BB006490ae [color="green"];
+  BB00649081 -> BB00649086 [color="red"];
+  BB00649086 -> BB00649168 [color="green"];
+  BB00649086 -> BB006490a7 [color="red"];
+  BB006490a7 -> BB006490ab [color="blue"];
+  BB006490ab -> BB006490ae [color="blue"];
+  BB00649100 -> BB006490ae [color="blue"];
+  BB00649140 -> BB006490ab [color="green"];
+  BB00649140 -> BB00649165 [color="red"];
+  BB00649165 -> BB00649168 [color="blue"];
+  BB00649168 -> BB006490ae [color="blue"];
+}

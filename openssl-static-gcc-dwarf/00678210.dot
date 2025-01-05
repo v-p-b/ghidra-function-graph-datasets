@@ -1,0 +1,13 @@
+digraph X509_set1_notAfter {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00678210 -> BB00678260 [color="green"];
+  BB00678210 -> BB0067821c [color="red"];
+  BB0067821c -> BB00678260 [color="green"];
+  BB0067821c -> BB00678224 [color="red"];
+  BB00678224 -> BB00678254 [color="green"];
+  BB00678224 -> BB00678230 [color="red"];
+  BB00678230 -> BB00678260 [color="green"];
+  BB00678230 -> BB0067823d [color="red"];
+  BB0067823d -> BB00678254 [color="red"];
+}

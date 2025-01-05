@@ -1,0 +1,8 @@
+digraph ossl_rsa_sp800_56b_validate_strength {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00640b50 -> BB00640b64 [color="green"];
+  BB00640b50 -> BB00640b5d [color="red"];
+  BB00640b5d -> BB00640b70 [color="green"];
+  BB00640b5d -> BB00640b64 [color="red"];
+}

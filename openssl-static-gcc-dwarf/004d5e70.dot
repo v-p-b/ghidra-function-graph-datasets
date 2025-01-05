@@ -1,0 +1,35 @@
+digraph tls_parse_stoc_renegotiate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d5e70 -> BB004d5ee0 [color="green"];
+  BB004d5e70 -> BB004d5e9a [color="red"];
+  BB004d5e9a -> BB004d5ea4 [color="green"];
+  BB004d5e9a -> BB004d5e9f [color="red"];
+  BB004d5e9f -> BB004d5ee0 [color="green"];
+  BB004d5e9f -> BB004d5ea4 [color="red"];
+  BB004d5ea4 -> BB004d5fc6 [color="blue"];
+  BB004d5ee0 -> BB004d5f90 [color="green"];
+  BB004d5ee0 -> BB004d5eed [color="red"];
+  BB004d5eed -> BB004d5fe0 [color="green"];
+  BB004d5eed -> BB004d5f0b [color="red"];
+  BB004d5f0b -> BB004d6070 [color="green"];
+  BB004d5f0b -> BB004d5f14 [color="red"];
+  BB004d5f14 -> BB004d5ff8 [color="green"];
+  BB004d5f14 -> BB004d5f1d [color="red"];
+  BB004d5f1d -> BB004010d8 [color="green"];
+  BB004d5f1d -> BB004d5ff8 [color="green"];
+  BB004d5f1d -> BB004d5f45 [color="red"];
+  BB004d5f45 -> BB004d6030 [color="green"];
+  BB004d5f45 -> BB004d5f4e [color="red"];
+  BB004d5f4e -> BB004010d8 [color="green"];
+  BB004d5f4e -> BB004d6030 [color="green"];
+  BB004d5f4e -> BB004d5f79 [color="red"];
+  BB004d5f79 -> BB004d5fc6 [color="blue"];
+  BB004d5f90 -> BB004d5fa1 [color="red"];
+  BB004d5fa1 -> BB004d5fc6 [color="red"];
+  BB004d5fe0 -> BB004d5fa1 [color="blue"];
+  BB004d5ff8 -> BB004d6009 [color="red"];
+  BB004d6009 -> BB004d5fc6 [color="blue"];
+  BB004d6030 -> BB004d5fc6 [color="blue"];
+  BB004d6070 -> BB004d6009 [color="blue"];
+}

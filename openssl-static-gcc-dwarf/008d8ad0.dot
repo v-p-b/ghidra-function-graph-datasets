@@ -1,0 +1,20 @@
+digraph fcntl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008d8ad0 -> BB008d8b30 [color="green"];
+  BB008d8ad0 -> BB008d8b0a [color="red"];
+  BB008d8b0a -> BB008d8b30 [color="green"];
+  BB008d8b0a -> BB008d8b0f [color="red"];
+  BB008d8b0f -> BB008d8b14 [color="red"];
+  BB008d8b14 -> BB008d8bb5 [color="green"];
+  BB008d8b14 -> BB008d8b28 [color="red"];
+  BB008d8b30 -> BB008d8b60 [color="green"];
+  BB008d8b30 -> BB008d8b3c [color="red"];
+  BB008d8b3c -> BB008d8b14 [color="green"];
+  BB008d8b3c -> BB008d8b4b [color="red"];
+  BB008d8b4b -> BB008d8b14 [color="blue"];
+  BB008d8b60 -> BB008d8ba2 [color="green"];
+  BB008d8b60 -> BB008d8b8f [color="red"];
+  BB008d8b8f -> BB008d8b14 [color="blue"];
+  BB008d8ba2 -> BB008d8b8f [color="blue"];
+}

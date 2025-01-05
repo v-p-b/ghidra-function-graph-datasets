@@ -1,0 +1,8 @@
+digraph tls_construct_cert_status {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004f0870 -> BB004f08c8 [color="green"];
+  BB004f0870 -> BB004f0895 [color="red"];
+  BB004f0895 -> BB004f08c8 [color="green"];
+  BB004f0895 -> BB004f08b4 [color="red"];
+}

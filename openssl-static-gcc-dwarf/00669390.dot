@@ -1,0 +1,29 @@
+digraph check_purpose_smime_encrypt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00669390 -> BB006693a6 [color="green"];
+  BB00669390 -> BB0066939b [color="red"];
+  BB0066939b -> BB006693fa [color="green"];
+  BB0066939b -> BB006693a6 [color="red"];
+  BB006693a6 -> BB00669400 [color="green"];
+  BB006693a6 -> BB006693aa [color="red"];
+  BB006693aa -> BB006693fa [color="green"];
+  BB006693aa -> BB006693c3 [color="red"];
+  BB006693c3 -> BB00669450 [color="green"];
+  BB006693c3 -> BB006693ce [color="red"];
+  BB006693ce -> BB00669460 [color="green"];
+  BB006693ce -> BB006693de [color="red"];
+  BB006693de -> BB006693fa [color="green"];
+  BB006693de -> BB006693e8 [color="red"];
+  BB006693e8 -> BB006693fa [color="green"];
+  BB006693e8 -> BB006693ef [color="red"];
+  BB006693ef -> BB00669440 [color="green"];
+  BB006693ef -> BB006693fa [color="red"];
+  BB00669400 -> BB00669438 [color="green"];
+  BB00669400 -> BB00669405 [color="red"];
+  BB00669405 -> BB00669438 [color="green"];
+  BB00669405 -> BB0066940f [color="red"];
+  BB0066940f -> BB00669466 [color="green"];
+  BB0066940f -> BB00669417 [color="red"];
+  BB00669438 -> BB00669417 [color="blue"];
+}

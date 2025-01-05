@@ -1,0 +1,21 @@
+digraph OSSL_CMP_CRLSTATUS_get0 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00553e40 -> BB00553eb0 [color="green"];
+  BB00553e40 -> BB00553e56 [color="red"];
+  BB00553e56 -> BB00553eb0 [color="green"];
+  BB00553e56 -> BB00553e5b [color="red"];
+  BB00553e5b -> BB00553f30 [color="green"];
+  BB00553e5b -> BB00553e67 [color="red"];
+  BB00553e67 -> BB00553e98 [color="green"];
+  BB00553e67 -> BB00553e6f [color="red"];
+  BB00553e6f -> BB00553e7d [color="blue"];
+  BB00553e7d -> BB00553e8e [color="green"];
+  BB00553e7d -> BB00553e87 [color="red"];
+  BB00553e87 -> BB00553e8e [color="blue"];
+  BB00553e98 -> BB00553ef0 [color="green"];
+  BB00553e98 -> BB00553e9e [color="red"];
+  BB00553e9e -> BB00553e7d [color="blue"];
+  BB00553ef0 -> BB00553f01 [color="red"];
+  BB00553f30 -> BB00553f01 [color="blue"];
+}

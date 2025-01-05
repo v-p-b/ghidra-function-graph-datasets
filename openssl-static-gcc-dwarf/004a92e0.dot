@@ -1,0 +1,20 @@
+digraph tls13_generate_secret {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004a92e0 -> BB004a9588 [color="green"];
+  BB004a92e0 -> BB004a9355 [color="red"];
+  BB004a9355 -> BB004a95c8 [color="green"];
+  BB004a9355 -> BB004a9365 [color="red"];
+  BB004a9365 -> BB004a9436 [color="green"];
+  BB004a9365 -> BB004a93ee [color="red"];
+  BB004a93ee -> BB004a9436 [color="red"];
+  BB004a9436 -> BB004a947f [color="green"];
+  BB004a9436 -> BB004a9444 [color="red"];
+  BB004a9444 -> BB004a947f [color="red"];
+  BB004a947f -> BB004a9550 [color="green"];
+  BB004a947f -> BB004a952f [color="red"];
+  BB004a952f -> BB004a953e [color="red"];
+  BB004a9550 -> BB004a952f [color="blue"];
+  BB004a9588 -> BB004a953e [color="blue"];
+  BB004a95c8 -> BB004a953e [color="blue"];
+}

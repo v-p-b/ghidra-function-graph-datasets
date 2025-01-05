@@ -1,0 +1,12 @@
+digraph cipher_hw_aria_initkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0069ee90 -> BB0069eebe [color="green"];
+  BB0069ee90 -> BB0069eeb3 [color="red"];
+  BB0069eeb3 -> BB0069eee8 [color="green"];
+  BB0069eeb3 -> BB0069eebe [color="red"];
+  BB0069eebe -> BB0069eef1 [color="green"];
+  BB0069eebe -> BB0069eec7 [color="red"];
+  BB0069eee8 -> BB0069eec7 [color="green"];
+  BB0069eee8 -> BB0069eef1 [color="red"];
+}

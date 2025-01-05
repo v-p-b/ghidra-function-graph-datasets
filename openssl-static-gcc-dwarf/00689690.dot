@@ -1,0 +1,23 @@
+digraph X509_PUBKEY_eq {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00689690 -> BB006896f8 [color="green"];
+  BB00689690 -> BB00689695 [color="red"];
+  BB00689695 -> BB006896c8 [color="green"];
+  BB00689695 -> BB006896a3 [color="red"];
+  BB006896a3 -> BB006896c8 [color="green"];
+  BB006896a3 -> BB006896ab [color="red"];
+  BB006896ab -> BB00689737 [color="green"];
+  BB006896ab -> BB006896b7 [color="red"];
+  BB006896b7 -> BB00689737 [color="green"];
+  BB006896b7 -> BB006896bf [color="red"];
+  BB006896bf -> BB006896d8 [color="green"];
+  BB006896bf -> BB006896c8 [color="red"];
+  BB006896c8 -> BB006896ca [color="blue"];
+  BB006896d8 -> BB00689700 [color="green"];
+  BB006896d8 -> BB006896e1 [color="red"];
+  BB006896e1 -> BB00689700 [color="green"];
+  BB006896e1 -> BB006896ea [color="red"];
+  BB00689700 -> BB006896ca [color="blue"];
+  BB00689737 -> BB006896ca [color="blue"];
+}

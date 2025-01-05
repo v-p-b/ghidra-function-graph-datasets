@@ -1,0 +1,15 @@
+digraph cipher_hw_rc2_cfb64_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006ff020 -> BB006ff0e0 [color="green"];
+  BB006ff020 -> BB006ff058 [color="red"];
+  BB006ff058 -> BB006ff0c3 [color="green"];
+  BB006ff058 -> BB006ff060 [color="red"];
+  BB006ff060 -> BB006ff070 [color="blue"];
+  BB006ff070 -> BB006ff0bf [color="green"];
+  BB006ff070 -> BB006ff0b1 [color="red"];
+  BB006ff0b1 -> BB006ff070 [color="green"];
+  BB006ff0b1 -> BB006ff0bf [color="red"];
+  BB006ff0bf -> BB006ff0c3 [color="blue"];
+  BB006ff0e0 -> BB006ff060 [color="blue"];
+}

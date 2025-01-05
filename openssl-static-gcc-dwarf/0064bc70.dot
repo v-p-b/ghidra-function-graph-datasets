@@ -1,0 +1,14 @@
+digraph get_loader_from_store {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0064bc70 -> BB0064bcc8 [color="green"];
+  BB0064bc70 -> BB0064bc95 [color="red"];
+  BB0064bc95 -> BB0064bce4 [color="green"];
+  BB0064bc95 -> BB0064bc9a [color="red"];
+  BB0064bc9a -> BB0064bcf9 [color="green"];
+  BB0064bc9a -> BB0064bcb5 [color="red"];
+  BB0064bcc8 -> BB0064bc9a [color="green"];
+  BB0064bcc8 -> BB0064bce4 [color="red"];
+  BB0064bce4 -> BB0064bc9a [color="green"];
+  BB0064bce4 -> BB0064bcf9 [color="red"];
+}

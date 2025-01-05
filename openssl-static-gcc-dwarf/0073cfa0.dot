@@ -1,0 +1,15 @@
+digraph DES_ofb64_encrypt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0073cfa0 -> BB0073d05e [color="green"];
+  BB0073cfa0 -> BB0073cfd2 [color="red"];
+  BB0073cfd2 -> BB0073d018 [color="blue"];
+  BB0073cff0 -> BB0073d050 [color="green"];
+  BB0073cff0 -> BB0073d018 [color="red"];
+  BB0073d018 -> BB0073cff0 [color="green"];
+  BB0073d018 -> BB0073d01c [color="red"];
+  BB0073d01c -> BB0073cff0 [color="blue"];
+  BB0073d050 -> BB0073d05e [color="green"];
+  BB0073d050 -> BB0073d055 [color="red"];
+  BB0073d055 -> BB0073d05e [color="blue"];
+}

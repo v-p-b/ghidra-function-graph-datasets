@@ -1,0 +1,30 @@
+digraph SCT_print {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00577530 -> BB00577808 [color="green"];
+  BB00577530 -> BB00577554 [color="red"];
+  BB00577554 -> BB005777d8 [color="green"];
+  BB00577554 -> BB005775a7 [color="red"];
+  BB005775a7 -> BB005775e3 [color="green"];
+  BB005775a7 -> BB005775bd [color="red"];
+  BB005775bd -> BB005775e3 [color="red"];
+  BB005775e3 -> BB00577712 [color="green"];
+  BB005775e3 -> BB0057764a [color="red"];
+  BB0057764a -> BB005778a0 [color="green"];
+  BB0057764a -> BB0057770a [color="red"];
+  BB0057770a -> BB00577712 [color="red"];
+  BB00577712 -> BB00577880 [color="green"];
+  BB00577712 -> BB0057773a [color="red"];
+  BB0057773a -> BB0057774b [color="red"];
+  BB0057774b -> BB00577860 [color="green"];
+  BB0057774b -> BB00577778 [color="red"];
+  BB00577778 -> BB00577791 [color="red"];
+  BB00577791 -> BB005777b4 [color="red"];
+  BB005777d8 -> BB005777b4 [color="blue"];
+  BB00577808 -> BB005777d8 [color="green"];
+  BB00577808 -> BB00577841 [color="red"];
+  BB00577841 -> BB005775e3 [color="blue"];
+  BB00577860 -> BB00577791 [color="blue"];
+  BB00577880 -> BB0057774b [color="blue"];
+  BB005778a0 -> BB0057770a [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph OSSL_CMP_ITAV_get0_crlStatusList {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00553830 -> BB005538b0 [color="green"];
+  BB00553830 -> BB0055383b [color="red"];
+  BB0055383b -> BB005538b0 [color="green"];
+  BB0055383b -> BB00553843 [color="red"];
+  BB00553843 -> BB00553870 [color="green"];
+  BB00553843 -> BB00553855 [color="red"];
+}

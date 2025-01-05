@@ -1,0 +1,9 @@
+digraph camellia_192_ctr_newctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0069fad0 -> BB0069fb32 [color="green"];
+  BB0069fad0 -> BB0069fae6 [color="red"];
+  BB0069fae6 -> BB0069fb32 [color="green"];
+  BB0069fae6 -> BB0069fb04 [color="red"];
+  BB0069fb04 -> BB0069fb32 [color="red"];
+}

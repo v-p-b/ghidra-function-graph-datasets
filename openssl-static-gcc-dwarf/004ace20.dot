@@ -1,0 +1,14 @@
+digraph qc_get_stream_write_buf_stat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ace20 -> BB004ace70 [color="green"];
+  BB004ace20 -> BB004ace28 [color="red"];
+  BB004ace28 -> BB004aced0 [color="green"];
+  BB004ace28 -> BB004ace35 [color="red"];
+  BB004ace35 -> BB004acea0 [color="green"];
+  BB004ace35 -> BB004ace44 [color="red"];
+  BB004ace44 -> BB004ace60 [color="green"];
+  BB004ace44 -> BB004ace4c [color="red"];
+  BB004ace4c -> BB004ace58 [color="blue"];
+  BB004aced0 -> BB004ace58 [color="blue"];
+}

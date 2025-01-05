@@ -1,0 +1,19 @@
+digraph dhx_to_DHX_pem_encode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006bacf0 -> BB006bad08 [color="green"];
+  BB006bacf0 -> BB006bacff [color="red"];
+  BB006bacff -> BB006bad50 [color="green"];
+  BB006bacff -> BB006bad08 [color="red"];
+  BB006bad08 -> BB006bad3b [color="red"];
+  BB006bad50 -> BB006bae08 [color="green"];
+  BB006bad50 -> BB006bad5c [color="red"];
+  BB006bad5c -> BB006badd0 [color="green"];
+  BB006bad5c -> BB006bad76 [color="red"];
+  BB006bad76 -> BB006badc3 [color="green"];
+  BB006bad76 -> BB006bad8c [color="red"];
+  BB006bad8c -> BB006badc3 [color="red"];
+  BB006badc3 -> BB006bad3b [color="blue"];
+  BB006badd0 -> BB006bad3b [color="blue"];
+  BB006bae08 -> BB006bad3b [color="blue"];
+}

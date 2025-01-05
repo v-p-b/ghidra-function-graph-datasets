@@ -1,0 +1,14 @@
+digraph ec_to_type_specific_no_pub_pem_does_selection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b2f00 -> BB006b2f1f [color="green"];
+  BB006b2f00 -> BB006b2f09 [color="red"];
+  BB006b2f09 -> BB006b2f25 [color="green"];
+  BB006b2f09 -> BB006b2f10 [color="red"];
+  BB006b2f10 -> BB006b2f20 [color="green"];
+  BB006b2f10 -> BB006b2f16 [color="red"];
+  BB006b2f16 -> BB006b2f30 [color="green"];
+  BB006b2f16 -> BB006b2f1f [color="red"];
+  BB006b2f20 -> BB006b2f25 [color="blue"];
+  BB006b2f30 -> BB006b2f25 [color="blue"];
+}

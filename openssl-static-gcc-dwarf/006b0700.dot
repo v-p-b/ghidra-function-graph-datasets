@@ -1,0 +1,26 @@
+digraph key_to_epki_der_priv_bio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b0700 -> BB006b07d0 [color="green"];
+  BB006b0700 -> BB006b0730 [color="red"];
+  BB006b0730 -> BB006b07e8 [color="green"];
+  BB006b0730 -> BB006b0748 [color="red"];
+  BB006b0748 -> BB006b07d0 [color="green"];
+  BB006b0748 -> BB006b0762 [color="red"];
+  BB006b0762 -> BB006b0810 [color="green"];
+  BB006b0762 -> BB006b0792 [color="red"];
+  BB006b0792 -> BB006b07be [color="green"];
+  BB006b0792 -> BB006b07b0 [color="red"];
+  BB006b07b0 -> BB006b07be [color="red"];
+  BB006b07be -> BB006b07d3 [color="blue"];
+  BB006b07d0 -> BB006b07d3 [color="blue"];
+  BB006b07e8 -> BB006b0792 [color="green"];
+  BB006b07e8 -> BB006b0805 [color="red"];
+  BB006b0805 -> BB006b07be [color="blue"];
+  BB006b0810 -> BB006b0830 [color="green"];
+  BB006b0810 -> BB006b0816 [color="red"];
+  BB006b0816 -> BB006b0805 [color="green"];
+  BB006b0816 -> BB006b081c [color="red"];
+  BB006b081c -> BB006b07be [color="blue"];
+  BB006b0830 -> BB006b07be [color="blue"];
+}

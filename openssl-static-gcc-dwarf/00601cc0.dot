@@ -1,0 +1,12 @@
+digraph aesni_gcm_decrypt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00601cc0 -> BB00601dec [color="green"];
+  BB00601cc0 -> BB00601ccd [color="red"];
+  BB00601ccd -> BB00601d35 [color="green"];
+  BB00601ccd -> BB00601d29 [color="red"];
+  BB00601d29 -> BB00601d35 [color="green"];
+  BB00601d29 -> BB00601d32 [color="red"];
+  BB00601d32 -> BB00601d35 [color="blue"];
+  BB00601d35 -> BB00601dec [color="red"];
+}

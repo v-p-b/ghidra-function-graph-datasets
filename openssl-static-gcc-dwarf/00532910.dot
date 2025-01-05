@@ -1,0 +1,10 @@
+digraph BIO_vsnprintf {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00532910 -> BB00532970 [color="green"];
+  BB00532910 -> BB00532948 [color="red"];
+  BB00532948 -> BB00532970 [color="green"];
+  BB00532948 -> BB00532950 [color="red"];
+  BB00532950 -> BB00532963 [color="blue"];
+  BB00532970 -> BB00532963 [color="blue"];
+}

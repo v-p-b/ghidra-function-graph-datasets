@@ -1,0 +1,19 @@
+digraph ossl_aria_encrypt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00718640 -> BB00718bf7 [color="green"];
+  BB00718640 -> BB00718664 [color="red"];
+  BB00718664 -> BB00718bf7 [color="green"];
+  BB00718664 -> BB0071866d [color="red"];
+  BB0071866d -> BB00718689 [color="green"];
+  BB0071866d -> BB0071867f [color="red"];
+  BB0071867f -> BB00718bf7 [color="green"];
+  BB0071867f -> BB00718689 [color="red"];
+  BB00718689 -> BB00718ac8 [color="green"];
+  BB00718689 -> BB00718857 [color="red"];
+  BB00718857 -> BB00718880 [color="blue"];
+  BB00718880 -> BB00718880 [color="green"];
+  BB00718880 -> BB00718ab5 [color="red"];
+  BB00718ab5 -> BB00718ac8 [color="blue"];
+  BB00718ac8 -> BB00718bf7 [color="blue"];
+}

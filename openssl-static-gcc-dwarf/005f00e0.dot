@@ -1,0 +1,16 @@
+digraph OPENSSL_hexstr2buf {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005f00e0 -> BB00401100 [color="green"];
+  BB005f00e0 -> BB005f01c0 [color="green"];
+  BB005f00e0 -> BB005f00ff [color="red"];
+  BB005f00ff -> BB005f015b [color="green"];
+  BB005f00ff -> BB005f0121 [color="red"];
+  BB005f0121 -> BB005f0170 [color="green"];
+  BB005f0121 -> BB005f0126 [color="red"];
+  BB005f0126 -> BB005f0196 [color="green"];
+  BB005f0126 -> BB005f0153 [color="red"];
+  BB005f0153 -> BB005f015b [color="blue"];
+  BB005f0170 -> BB005f015b [color="green"];
+  BB005f0170 -> BB005f0196 [color="red"];
+}

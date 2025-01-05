@@ -1,0 +1,16 @@
+digraph dlfcn_bind_func {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB007406a0 -> BB00740700 [color="green"];
+  BB007406a0 -> BB007406aa [color="red"];
+  BB007406aa -> BB00740700 [color="green"];
+  BB007406aa -> BB007406b2 [color="red"];
+  BB007406b2 -> BB00740740 [color="green"];
+  BB007406b2 -> BB007406c2 [color="red"];
+  BB007406c2 -> BB00740780 [color="green"];
+  BB007406c2 -> BB007406e3 [color="red"];
+  BB007406e3 -> BB007407c0 [color="green"];
+  BB007406e3 -> BB007406f7 [color="red"];
+  BB00740780 -> BB007406f7 [color="blue"];
+  BB007407c0 -> BB007406f7 [color="blue"];
+}

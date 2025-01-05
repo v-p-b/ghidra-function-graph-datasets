@@ -1,0 +1,9 @@
+digraph cipher_hw_des_ecb_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006fd0b0 -> BB006fd10e [color="green"];
+  BB006fd0b0 -> BB006fd0cc [color="red"];
+  BB006fd0cc -> BB006fd0e8 [color="blue"];
+  BB006fd0e8 -> BB006fd0e8 [color="green"];
+  BB006fd0e8 -> BB006fd10e [color="red"];
+}

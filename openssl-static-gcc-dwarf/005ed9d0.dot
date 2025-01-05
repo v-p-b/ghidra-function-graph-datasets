@@ -1,0 +1,23 @@
+digraph ossl_cleanup_thread {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005ed9d0 -> BB005edabb [color="green"];
+  BB005ed9d0 -> BB005ed9f3 [color="red"];
+  BB005ed9f3 -> BB005edabb [color="green"];
+  BB005ed9f3 -> BB005eda01 [color="red"];
+  BB005eda01 -> BB005edabb [color="green"];
+  BB005eda01 -> BB005eda11 [color="red"];
+  BB005eda11 -> BB005eda96 [color="green"];
+  BB005eda11 -> BB005eda33 [color="red"];
+  BB005eda33 -> BB005eda38 [color="blue"];
+  BB005eda38 -> BB005edabb [color="green"];
+  BB005eda38 -> BB005eda4b [color="red"];
+  BB005eda4b -> BB005eda75 [color="green"];
+  BB005eda4b -> BB005eda53 [color="red"];
+  BB005eda53 -> BB005eda58 [color="blue"];
+  BB005eda58 -> BB005eda58 [color="green"];
+  BB005eda58 -> BB005eda75 [color="red"];
+  BB005eda75 -> BB005eda38 [color="green"];
+  BB005eda75 -> BB005eda96 [color="red"];
+  BB005eda96 -> BB005edabb [color="red"];
+}

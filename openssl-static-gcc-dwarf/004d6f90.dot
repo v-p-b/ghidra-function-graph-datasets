@@ -1,0 +1,31 @@
+digraph tls_parse_stoc_use_srtp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d6f90 -> BB004d7070 [color="green"];
+  BB004d6f90 -> BB004d6fab [color="red"];
+  BB004d6fab -> BB004d7070 [color="green"];
+  BB004d6fab -> BB004d6fce [color="red"];
+  BB004d6fce -> BB004d7070 [color="green"];
+  BB004d6fce -> BB004d6fd8 [color="red"];
+  BB004d6fd8 -> BB004d7070 [color="green"];
+  BB004d6fd8 -> BB004d6ff1 [color="red"];
+  BB004d6ff1 -> BB004d7070 [color="green"];
+  BB004d6ff1 -> BB004d7006 [color="red"];
+  BB004d7006 -> BB004d70b0 [color="green"];
+  BB004d7006 -> BB004d700e [color="red"];
+  BB004d700e -> BB004d70fe [color="green"];
+  BB004d700e -> BB004d7022 [color="red"];
+  BB004d7022 -> BB004d7047 [color="blue"];
+  BB004d7030 -> BB004d70f0 [color="green"];
+  BB004d7030 -> BB004d7044 [color="red"];
+  BB004d7044 -> BB004d7047 [color="blue"];
+  BB004d7047 -> BB004d7030 [color="green"];
+  BB004d7047 -> BB004d7053 [color="red"];
+  BB004d7053 -> BB004d7081 [color="blue"];
+  BB004d7070 -> BB004d7081 [color="red"];
+  BB004d7081 -> BB004d7094 [color="red"];
+  BB004d7094 -> BB004d70a5 [color="red"];
+  BB004d70b0 -> BB004d70a5 [color="blue"];
+  BB004d70f0 -> BB004d70a5 [color="blue"];
+  BB004d70fe -> BB004d7094 [color="blue"];
+}

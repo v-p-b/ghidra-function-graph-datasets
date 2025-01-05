@@ -1,0 +1,13 @@
+digraph SMIME_read_PKCS7_ex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006277a0 -> BB00627810 [color="green"];
+  BB006277a0 -> BB006277b6 [color="red"];
+  BB006277b6 -> BB006277cb [color="green"];
+  BB006277b6 -> BB006277c1 [color="red"];
+  BB006277c1 -> BB006277cb [color="blue"];
+  BB006277cb -> BB006277fe [color="green"];
+  BB006277cb -> BB006277f6 [color="red"];
+  BB006277f6 -> BB006277fe [color="red"];
+  BB00627810 -> BB006277cb [color="blue"];
+}

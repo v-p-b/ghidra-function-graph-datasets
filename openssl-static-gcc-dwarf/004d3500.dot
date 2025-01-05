@@ -1,0 +1,27 @@
+digraph use_ecc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d3500 -> BB004d3608 [color="green"];
+  BB004d3500 -> BB004d3523 [color="red"];
+  BB004d3523 -> BB004d3600 [color="green"];
+  BB004d3523 -> BB004d3546 [color="red"];
+  BB004d3546 -> BB004d3566 [color="blue"];
+  BB004d3550 -> BB004d3584 [color="green"];
+  BB004d3550 -> BB004d3559 [color="red"];
+  BB004d3559 -> BB004d3600 [color="green"];
+  BB004d3559 -> BB004d3566 [color="red"];
+  BB004d3566 -> BB004d3550 [color="green"];
+  BB004d3566 -> BB004d3584 [color="red"];
+  BB004d3584 -> BB004d35bb [color="green"];
+  BB004d3584 -> BB004d35a6 [color="red"];
+  BB004d35a6 -> BB004d3608 [color="blue"];
+  BB004d35b0 -> BB004d3608 [color="green"];
+  BB004d35b0 -> BB004d35bb [color="red"];
+  BB004d35bb -> BB004d35b0 [color="green"];
+  BB004d35bb -> BB004d35e2 [color="red"];
+  BB004d35e2 -> BB004d35b0 [color="green"];
+  BB004d35e2 -> BB004d35f6 [color="red"];
+  BB004d35f6 -> BB004d360a [color="blue"];
+  BB004d3600 -> BB004d3608 [color="red"];
+  BB004d3608 -> BB004d360a [color="blue"];
+}

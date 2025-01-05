@@ -1,0 +1,10 @@
+digraph __libc_alloc_buffer_allocate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB009165d0 -> BB00916617 [color="green"];
+  BB009165d0 -> BB009165e9 [color="red"];
+  BB009165e9 -> BB009165f8 [color="green"];
+  BB009165e9 -> BB009165f1 [color="red"];
+  BB009165f8 -> BB009165f1 [color="blue"];
+  BB00916617 -> BB009165f1 [color="blue"];
+}

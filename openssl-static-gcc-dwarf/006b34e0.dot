@@ -1,0 +1,14 @@
+digraph dsa_to_SubjectPublicKeyInfo_der_does_selection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b34e0 -> BB006b34ff [color="green"];
+  BB006b34e0 -> BB006b34e9 [color="red"];
+  BB006b34e9 -> BB006b3505 [color="green"];
+  BB006b34e9 -> BB006b34f0 [color="red"];
+  BB006b34f0 -> BB006b3500 [color="green"];
+  BB006b34f0 -> BB006b34f6 [color="red"];
+  BB006b34f6 -> BB006b3510 [color="green"];
+  BB006b34f6 -> BB006b34ff [color="red"];
+  BB006b3500 -> BB006b3505 [color="blue"];
+  BB006b3510 -> BB006b3505 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph TS_CONF_set_signer_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0064eeb0 -> BB0064ef70 [color="green"];
+  BB0064eeb0 -> BB0064eecd [color="red"];
+  BB0064eecd -> BB0064ef30 [color="green"];
+  BB0064eecd -> BB0064eee4 [color="red"];
+  BB0064eee4 -> BB0064ef30 [color="green"];
+  BB0064eee4 -> BB0064eefb [color="red"];
+  BB0064eefb -> BB0064ef17 [color="red"];
+  BB0064ef30 -> BB0064ef17 [color="blue"];
+  BB0064ef70 -> BB0064eecd [color="green"];
+  BB0064ef70 -> BB0064ef8b [color="red"];
+  BB0064ef8b -> BB0064ef17 [color="blue"];
+}

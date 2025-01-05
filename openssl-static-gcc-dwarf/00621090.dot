@@ -1,0 +1,34 @@
+digraph PKCS12_setup_mac {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00621090 -> BB00621250 [color="green"];
+  BB00621090 -> BB006210d8 [color="red"];
+  BB006210d8 -> BB00621198 [color="green"];
+  BB006210d8 -> BB006210e2 [color="red"];
+  BB006210e2 -> BB00621200 [color="green"];
+  BB006210e2 -> BB006210eb [color="red"];
+  BB006210eb -> BB00621250 [color="green"];
+  BB006210eb -> BB006210f4 [color="red"];
+  BB006210f4 -> BB00621250 [color="green"];
+  BB006210f4 -> BB0062111d [color="red"];
+  BB0062111d -> BB00621260 [color="green"];
+  BB0062111d -> BB00621135 [color="red"];
+  BB00621135 -> BB00401070 [color="green"];
+  BB00621135 -> BB00621140 [color="red"];
+  BB00621140 -> BB00621288 [color="green"];
+  BB00621140 -> BB0062117a [color="red"];
+  BB0062117a -> BB00621180 [color="blue"];
+  BB00621198 -> BB00621218 [color="green"];
+  BB00621198 -> BB006211a9 [color="red"];
+  BB006211a9 -> BB006210e2 [color="green"];
+  BB006211a9 -> BB006211c4 [color="red"];
+  BB006211c4 -> BB006211d5 [color="red"];
+  BB006211d5 -> BB00621180 [color="blue"];
+  BB00621200 -> BB006210f4 [color="blue"];
+  BB00621218 -> BB00621250 [color="red"];
+  BB00621250 -> BB00621180 [color="blue"];
+  BB00621260 -> BB00621140 [color="green"];
+  BB00621260 -> BB00621280 [color="red"];
+  BB00621280 -> BB00621250 [color="blue"];
+  BB00621288 -> BB006211d5 [color="blue"];
+}

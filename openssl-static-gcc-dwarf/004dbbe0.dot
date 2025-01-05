@@ -1,0 +1,23 @@
+digraph tls_construct_stoc_renegotiate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004dbbe0 -> BB004dbc80 [color="green"];
+  BB004dbbe0 -> BB004dbbf3 [color="red"];
+  BB004dbbf3 -> BB004dbc40 [color="green"];
+  BB004dbbf3 -> BB004dbc16 [color="red"];
+  BB004dbc16 -> BB004dbc40 [color="green"];
+  BB004dbc16 -> BB004dbc27 [color="red"];
+  BB004dbc27 -> BB004dbc88 [color="green"];
+  BB004dbc27 -> BB004dbc38 [color="red"];
+  BB004dbc38 -> BB004dbc40 [color="blue"];
+  BB004dbc40 -> BB004dbc75 [color="red"];
+  BB004dbc88 -> BB004dbc40 [color="green"];
+  BB004dbc88 -> BB004dbca2 [color="red"];
+  BB004dbca2 -> BB004dbc40 [color="green"];
+  BB004dbca2 -> BB004dbcbc [color="red"];
+  BB004dbcbc -> BB004dbc40 [color="green"];
+  BB004dbcbc -> BB004dbccc [color="red"];
+  BB004dbccc -> BB004dbc40 [color="green"];
+  BB004dbccc -> BB004dbcdc [color="red"];
+  BB004dbcdc -> BB004dbc75 [color="blue"];
+}

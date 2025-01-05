@@ -1,0 +1,11 @@
+digraph sm4_cbc_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0076dd60 -> BB0076ddd0 [color="green"];
+  BB0076dd60 -> BB0076dd9a [color="red"];
+  BB0076dd9a -> BB0076ddb5 [color="red"];
+  BB0076ddd0 -> BB0076de00 [color="green"];
+  BB0076ddd0 -> BB0076ddf2 [color="red"];
+  BB0076ddf2 -> BB0076ddb5 [color="blue"];
+  BB0076de00 -> BB0076ddb5 [color="blue"];
+}

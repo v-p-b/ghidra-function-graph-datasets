@@ -1,0 +1,18 @@
+digraph __libc_sigaction {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008608a0 -> BB00860a40 [color="green"];
+  BB008608a0 -> BB008608c6 [color="red"];
+  BB008608c6 -> BB00860955 [color="blue"];
+  BB00860955 -> BB00860a60 [color="green"];
+  BB00860955 -> BB0086096e [color="red"];
+  BB0086096e -> BB00860a1b [color="green"];
+  BB0086096e -> BB0086097a [color="red"];
+  BB0086097a -> BB00860a1b [color="green"];
+  BB0086097a -> BB00860982 [color="red"];
+  BB00860982 -> BB00860a1b [color="blue"];
+  BB00860a1b -> BB00860a74 [color="green"];
+  BB00860a1b -> BB00860a2e [color="red"];
+  BB00860a40 -> BB00860955 [color="blue"];
+  BB00860a60 -> BB00860a1b [color="blue"];
+}

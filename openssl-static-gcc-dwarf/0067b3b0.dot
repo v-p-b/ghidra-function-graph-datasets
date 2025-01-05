@@ -1,0 +1,31 @@
+digraph find_issuer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0067b3b0 -> BB0067b48a [color="green"];
+  BB0067b3b0 -> BB0067b3ea [color="red"];
+  BB0067b3ea -> BB0067b3f0 [color="blue"];
+  BB0067b3f0 -> BB0067b473 [color="green"];
+  BB0067b3f0 -> BB0067b416 [color="red"];
+  BB0067b416 -> BB0067b43b [color="green"];
+  BB0067b416 -> BB0067b427 [color="red"];
+  BB0067b427 -> BB0067b4a0 [color="green"];
+  BB0067b427 -> BB0067b434 [color="red"];
+  BB0067b434 -> BB0067b43b [color="blue"];
+  BB0067b43b -> BB0067b4a0 [color="green"];
+  BB0067b43b -> BB0067b449 [color="red"];
+  BB0067b449 -> BB0067b459 [color="blue"];
+  BB0067b450 -> BB0067b4a0 [color="green"];
+  BB0067b450 -> BB0067b459 [color="red"];
+  BB0067b459 -> BB0067b450 [color="green"];
+  BB0067b459 -> BB0067b473 [color="red"];
+  BB0067b473 -> BB0067b477 [color="blue"];
+  BB0067b477 -> BB0067b3f0 [color="green"];
+  BB0067b477 -> BB0067b48a [color="red"];
+  BB0067b4a0 -> BB0067b4fe [color="green"];
+  BB0067b4a0 -> BB0067b4b4 [color="red"];
+  BB0067b4b4 -> BB0067b4f0 [color="green"];
+  BB0067b4b4 -> BB0067b4be [color="red"];
+  BB0067b4be -> BB0067b477 [color="blue"];
+  BB0067b4f0 -> BB0067b477 [color="blue"];
+  BB0067b4fe -> BB0067b48a [color="blue"];
+}

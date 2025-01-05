@@ -1,0 +1,11 @@
+digraph SCT_CTX_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005783b0 -> BB005783ff [color="green"];
+  BB005783b0 -> BB005783d8 [color="red"];
+  BB005783d8 -> BB005783ff [color="green"];
+  BB005783d8 -> BB005783e1 [color="red"];
+  BB005783e1 -> BB00578407 [color="green"];
+  BB005783e1 -> BB005783ff [color="red"];
+  BB00578407 -> BB005783ff [color="blue"];
+}

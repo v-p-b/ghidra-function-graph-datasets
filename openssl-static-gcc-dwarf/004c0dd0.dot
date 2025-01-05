@@ -1,0 +1,16 @@
+digraph ossl_quic_wire_encode_frame_crypto {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c0dd0 -> BB004c0e00 [color="green"];
+  BB004c0dd0 -> BB004c0df3 [color="red"];
+  BB004c0df3 -> BB004c0df5 [color="blue"];
+  BB004c0e00 -> BB004c0df3 [color="green"];
+  BB004c0e00 -> BB004c0e0f [color="red"];
+  BB004c0e0f -> BB004c0df3 [color="green"];
+  BB004c0e0f -> BB004c0e1f [color="red"];
+  BB004c0e1f -> BB004c0df3 [color="green"];
+  BB004c0e1f -> BB004c0e34 [color="red"];
+  BB004c0e34 -> BB004c0df5 [color="green"];
+  BB004c0e34 -> BB004c0e42 [color="red"];
+  BB004c0e42 -> BB00401070 [color="blue"];
+}

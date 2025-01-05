@@ -1,0 +1,10 @@
+digraph ssl_cert_is_disabled {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00483e60 -> BB00483e70 [color="green"];
+  BB00483e60 -> BB00483e66 [color="red"];
+  BB00483e70 -> BB00483e98 [color="green"];
+  BB00483e70 -> BB00483e84 [color="red"];
+  BB00483e84 -> BB00483e98 [color="green"];
+  BB00483e84 -> BB00483e8f [color="red"];
+}

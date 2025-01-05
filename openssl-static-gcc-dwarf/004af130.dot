@@ -1,0 +1,15 @@
+digraph ossl_quic_conn_get_net_rbio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004af130 -> BB004af188 [color="green"];
+  BB004af130 -> BB004af139 [color="red"];
+  BB004af139 -> BB004af17c [color="green"];
+  BB004af139 -> BB004af140 [color="red"];
+  BB004af140 -> BB004af178 [color="green"];
+  BB004af140 -> BB004af145 [color="red"];
+  BB004af145 -> BB004af16a [color="red"];
+  BB004af16a -> BB004af1ad [color="green"];
+  BB004af16a -> BB004af16e [color="red"];
+  BB004af178 -> BB004af17c [color="blue"];
+  BB004af188 -> BB004af16a [color="blue"];
+}

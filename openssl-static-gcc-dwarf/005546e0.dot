@@ -1,0 +1,33 @@
+digraph OSSL_CMP_certConf_cb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005546e0 -> BB0055480b [color="green"];
+  BB005546e0 -> BB0055470c [color="red"];
+  BB0055470c -> BB00554820 [color="green"];
+  BB0055470c -> BB00554718 [color="red"];
+  BB00554718 -> BB00554788 [color="green"];
+  BB00554718 -> BB0055476b [color="red"];
+  BB0055476b -> BB005548c8 [color="green"];
+  BB0055476b -> BB00554788 [color="red"];
+  BB00554788 -> BB005547b0 [color="green"];
+  BB00554788 -> BB0055479e [color="red"];
+  BB0055479e -> BB005547b0 [color="red"];
+  BB005547b0 -> BB00554930 [color="green"];
+  BB005547b0 -> BB005547bc [color="red"];
+  BB005547bc -> BB005547d2 [color="blue"];
+  BB005547d2 -> BB005547f9 [color="red"];
+  BB005547f9 -> BB0055480b [color="red"];
+  BB00554820 -> BB0055489c [color="green"];
+  BB00554820 -> BB0055488a [color="red"];
+  BB0055488a -> BB0055489c [color="red"];
+  BB0055489c -> BB00554980 [color="green"];
+  BB0055489c -> BB005548a8 [color="red"];
+  BB005548a8 -> BB005547d2 [color="blue"];
+  BB005548c8 -> BB00554788 [color="green"];
+  BB005548c8 -> BB005548ef [color="red"];
+  BB005548ef -> BB00554788 [color="green"];
+  BB005548ef -> BB00554911 [color="red"];
+  BB00554911 -> BB00554788 [color="blue"];
+  BB00554930 -> BB005547f9 [color="blue"];
+  BB00554980 -> BB005547f9 [color="blue"];
+}

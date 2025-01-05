@@ -1,0 +1,18 @@
+digraph EVP_PKEY_asn1_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00519390 -> BB00519475 [color="green"];
+  BB00519390 -> BB005193c1 [color="red"];
+  BB005193c1 -> BB005193fe [color="green"];
+  BB005193c1 -> BB005193e0 [color="red"];
+  BB005193e0 -> BB0051942d [color="green"];
+  BB005193e0 -> BB005193fe [color="red"];
+  BB005193fe -> BB00519421 [color="green"];
+  BB005193fe -> BB00519403 [color="red"];
+  BB00519403 -> BB0051942d [color="green"];
+  BB00519403 -> BB00519421 [color="red"];
+  BB0051942d -> BB00519475 [color="green"];
+  BB0051942d -> BB00519435 [color="red"];
+  BB00519435 -> BB00519475 [color="red"];
+  BB00519475 -> BB00519421 [color="blue"];
+}

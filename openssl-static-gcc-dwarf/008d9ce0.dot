@@ -1,0 +1,30 @@
+digraph openlog_internal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008d9ce0 -> BB008d9cfa [color="green"];
+  BB008d9ce0 -> BB008d9cf3 [color="red"];
+  BB008d9cf3 -> BB008d9cfa [color="blue"];
+  BB008d9cfa -> BB008d9d10 [color="green"];
+  BB008d9cfa -> BB008d9d04 [color="red"];
+  BB008d9d04 -> BB008d9d98 [color="green"];
+  BB008d9d04 -> BB008d9d10 [color="red"];
+  BB008d9d10 -> BB008d9d22 [color="blue"];
+  BB008d9d22 -> BB008d9da8 [color="green"];
+  BB008d9d22 -> BB008d9d2d [color="red"];
+  BB008d9d2d -> BB008d9d83 [color="green"];
+  BB008d9d2d -> BB008d9d37 [color="red"];
+  BB008d9d37 -> BB008d9e70 [color="green"];
+  BB008d9d37 -> BB008d9d5c [color="red"];
+  BB008d9d5c -> BB008d9e40 [color="green"];
+  BB008d9d5c -> BB008d9d83 [color="red"];
+  BB008d9d98 -> BB008d9d10 [color="blue"];
+  BB008d9da8 -> BB008d9d83 [color="green"];
+  BB008d9da8 -> BB008d9e0b [color="red"];
+  BB008d9e0b -> BB008d9d2d [color="green"];
+  BB008d9e0b -> BB008d9e34 [color="red"];
+  BB008d9e34 -> BB008d9d83 [color="blue"];
+  BB008d9e40 -> BB008d9d83 [color="green"];
+  BB008d9e40 -> BB008d9e5e [color="red"];
+  BB008d9e5e -> BB008d9d22 [color="blue"];
+  BB008d9e70 -> BB008d9d83 [color="blue"];
+}

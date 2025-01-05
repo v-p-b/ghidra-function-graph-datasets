@@ -1,0 +1,30 @@
+digraph check_purpose_ns_ssl_server {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00669170 -> BB00669186 [color="green"];
+  BB00669170 -> BB0066917a [color="red"];
+  BB0066917a -> BB006691c3 [color="green"];
+  BB0066917a -> BB00669186 [color="red"];
+  BB00669186 -> BB006691e0 [color="green"];
+  BB00669186 -> BB0066918a [color="red"];
+  BB0066918a -> BB006691d0 [color="green"];
+  BB0066918a -> BB0066918e [color="red"];
+  BB0066918e -> BB006691c3 [color="green"];
+  BB0066918e -> BB006691ab [color="red"];
+  BB006691ab -> BB006691c3 [color="blue"];
+  BB006691d0 -> BB0066918e [color="green"];
+  BB006691d0 -> BB006691dc [color="red"];
+  BB006691dc -> BB006691c3 [color="blue"];
+  BB006691e0 -> BB006691c3 [color="green"];
+  BB006691e0 -> BB006691fa [color="red"];
+  BB006691fa -> BB00669240 [color="green"];
+  BB006691fa -> BB006691fe [color="red"];
+  BB006691fe -> BB006691c3 [color="green"];
+  BB006691fe -> BB00669214 [color="red"];
+  BB00669214 -> BB006691c3 [color="green"];
+  BB00669214 -> BB00669218 [color="red"];
+  BB00669218 -> BB006691c3 [color="green"];
+  BB00669218 -> BB0066921f [color="red"];
+  BB0066921f -> BB006691c3 [color="blue"];
+  BB00669240 -> BB006691c3 [color="blue"];
+}

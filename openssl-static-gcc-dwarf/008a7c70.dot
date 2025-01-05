@@ -1,0 +1,30 @@
+digraph __strcasecmp_l_avx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008a7c70 -> BB008a7c83 [color="red"];
+  BB008a7c83 -> BB008a7d10 [color="green"];
+  BB008a7c83 -> BB008a7cac [color="red"];
+  BB008a7cac -> BB008a7d10 [color="green"];
+  BB008a7cac -> BB008a7cb1 [color="red"];
+  BB008a7cb1 -> BB008a9290 [color="green"];
+  BB008a7cb1 -> BB008a7d02 [color="red"];
+  BB008a7d02 -> BB008a7d10 [color="blue"];
+  BB008a7d10 -> BB008a7d60 [color="green"];
+  BB008a7d10 -> BB008a7d2e [color="red"];
+  BB008a7d2e -> BB008a7d37 [color="green"];
+  BB008a7d2e -> BB008a7d30 [color="red"];
+  BB008a7d30 -> BB008a7d37 [color="blue"];
+  BB008a7d60 -> BB008a9278 [color="green"];
+  BB008a7d60 -> BB008a7daf [color="red"];
+  BB008a7daf -> BB008a7dc0 [color="blue"];
+  BB008a7dc0 -> BB008a7e40 [color="green"];
+  BB008a7dc0 -> BB008a7dff [color="red"];
+  BB008a7dff -> BB008a7e40 [color="green"];
+  BB008a7dff -> BB008a7e3e [color="red"];
+  BB008a7e3e -> BB008a7dc0 [color="blue"];
+  BB008a7e40 -> BB008a92ac [color="green"];
+  BB008a7e40 -> BB008a7e46 [color="red"];
+  BB008a9278 -> BB008a9290 [color="green"];
+  BB008a9278 -> BB008a9285 [color="red"];
+  BB008a9285 -> BB008a9290 [color="blue"];
+}

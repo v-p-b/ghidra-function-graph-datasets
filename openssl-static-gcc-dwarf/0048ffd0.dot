@@ -1,0 +1,9 @@
+digraph SSL_set_shutdown {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048ffd0 -> BB0048ffde [color="green"];
+  BB0048ffd0 -> BB0048ffd5 [color="red"];
+  BB0048ffd5 -> BB0048ffde [color="green"];
+  BB0048ffd5 -> BB0048ffdb [color="red"];
+  BB0048ffdb -> BB0048ffde [color="blue"];
+}

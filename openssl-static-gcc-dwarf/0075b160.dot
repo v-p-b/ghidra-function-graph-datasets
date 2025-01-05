@@ -1,0 +1,20 @@
+digraph test_r4_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0075b160 -> BB0075b180 [color="green"];
+  BB0075b160 -> BB0075b173 [color="red"];
+  BB0075b180 -> BB0075b1aa [color="green"];
+  BB0075b180 -> BB0075b19c [color="red"];
+  BB0075b19c -> BB0075b1c8 [color="green"];
+  BB0075b19c -> BB0075b1aa [color="red"];
+  BB0075b1aa -> BB0075b1b2 [color="red"];
+  BB0075b1c8 -> BB0075b1aa [color="green"];
+  BB0075b1c8 -> BB0075b1d9 [color="red"];
+  BB0075b1d9 -> BB0075b1aa [color="green"];
+  BB0075b1d9 -> BB0075b1ec [color="red"];
+  BB0075b1ec -> BB0075b1aa [color="green"];
+  BB0075b1ec -> BB0075b1ff [color="red"];
+  BB0075b1ff -> BB0075b1aa [color="green"];
+  BB0075b1ff -> BB0075b210 [color="red"];
+  BB0075b210 -> BB0075b1b2 [color="blue"];
+}

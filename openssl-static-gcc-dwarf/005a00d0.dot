@@ -1,0 +1,23 @@
+digraph get_encoder_from_store {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005a00d0 -> BB005a013d [color="green"];
+  BB005a00d0 -> BB005a00f5 [color="red"];
+  BB005a00f5 -> BB005a0185 [color="green"];
+  BB005a00f5 -> BB005a0100 [color="red"];
+  BB005a0100 -> BB00401040 [color="green"];
+  BB005a0100 -> BB005a0198 [color="green"];
+  BB005a0100 -> BB005a0127 [color="red"];
+  BB005a0127 -> BB005a0185 [color="green"];
+  BB005a0127 -> BB005a012c [color="red"];
+  BB005a012c -> BB005a0185 [color="green"];
+  BB005a012c -> BB005a013d [color="red"];
+  BB005a013d -> BB005a0170 [color="green"];
+  BB005a013d -> BB005a0142 [color="red"];
+  BB005a0142 -> BB005a0185 [color="green"];
+  BB005a0142 -> BB005a015c [color="red"];
+  BB005a0170 -> BB005a0142 [color="green"];
+  BB005a0170 -> BB005a0185 [color="red"];
+  BB005a0198 -> BB00401100 [color="blue"];
+  BB005a0198 -> BB005a0127 [color="blue"];
+}

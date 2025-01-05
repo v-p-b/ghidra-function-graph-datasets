@@ -1,0 +1,14 @@
+digraph OSSL_PROVIDER_add_builtin {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005fbbb0 -> BB005fbc28 [color="green"];
+  BB005fbbb0 -> BB005fbbbd [color="red"];
+  BB005fbbbd -> BB005fbc28 [color="green"];
+  BB005fbbbd -> BB005fbbc5 [color="red"];
+  BB005fbbc5 -> BB005fbc81 [color="green"];
+  BB005fbbc5 -> BB005fbc02 [color="red"];
+  BB005fbc02 -> BB005fbc68 [color="green"];
+  BB005fbc02 -> BB005fbc16 [color="red"];
+  BB005fbc16 -> BB005fbc1b [color="blue"];
+  BB005fbc81 -> BB005fbc1b [color="blue"];
+}

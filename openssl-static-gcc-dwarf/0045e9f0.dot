@@ -1,0 +1,13 @@
+digraph serial_cb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0045e9f0 -> BB0045ea78 [color="green"];
+  BB0045e9f0 -> BB0045ea0b [color="red"];
+  BB0045ea0b -> BB0045ea58 [color="green"];
+  BB0045ea0b -> BB0045ea22 [color="red"];
+  BB0045ea22 -> BB0045ea58 [color="green"];
+  BB0045ea22 -> BB0045ea31 [color="red"];
+  BB0045ea31 -> BB0045ea58 [color="green"];
+  BB0045ea31 -> BB0045ea44 [color="red"];
+  BB0045ea58 -> BB0045ea44 [color="blue"];
+}

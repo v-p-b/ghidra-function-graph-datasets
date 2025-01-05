@@ -1,0 +1,16 @@
+digraph ASN1_i2d_bio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00511190 -> BB00511230 [color="green"];
+  BB00511190 -> BB005111b1 [color="red"];
+  BB005111b1 -> BB00511230 [color="green"];
+  BB005111b1 -> BB005111cf [color="red"];
+  BB005111cf -> BB005111f1 [color="blue"];
+  BB005111e8 -> BB00511248 [color="green"];
+  BB005111e8 -> BB005111ec [color="red"];
+  BB005111ec -> BB005111f1 [color="blue"];
+  BB005111f1 -> BB005111e8 [color="green"];
+  BB005111f1 -> BB00511205 [color="red"];
+  BB00511205 -> BB0051120b [color="blue"];
+  BB00511248 -> BB0051120b [color="blue"];
+}

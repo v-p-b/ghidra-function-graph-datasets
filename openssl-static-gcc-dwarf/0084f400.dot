@@ -1,0 +1,16 @@
+digraph sha512_block_data_order_avx2 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0084f400 -> BB0084f480 [color="blue"];
+  BB0084f480 -> BB0084f5a0 [color="blue"];
+  BB0084f5a0 -> BB0084f5a0 [color="green"];
+  BB0084f5a0 -> BB00850073 [color="red"];
+  BB00850073 -> BB00850ad6 [color="green"];
+  BB00850073 -> BB00850728 [color="red"];
+  BB00850728 -> BB00850740 [color="blue"];
+  BB00850740 -> BB00850740 [color="green"];
+  BB00850740 -> BB00850a65 [color="red"];
+  BB00850a65 -> BB0084f480 [color="green"];
+  BB00850a65 -> BB00850ad2 [color="red"];
+  BB00850ad2 -> BB00850ad6 [color="blue"];
+}

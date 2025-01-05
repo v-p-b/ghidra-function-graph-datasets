@@ -1,0 +1,18 @@
+digraph tx_helper_begin {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00504510 -> BB005045b8 [color="green"];
+  BB00504510 -> BB00504524 [color="red"];
+  BB00504524 -> BB005045b8 [color="green"];
+  BB00504524 -> BB00504534 [color="red"];
+  BB00504534 -> BB005045d0 [color="green"];
+  BB00504534 -> BB00504561 [color="red"];
+  BB00504561 -> BB005045b8 [color="green"];
+  BB00504561 -> BB0050456d [color="red"];
+  BB0050456d -> BB005045b8 [color="green"];
+  BB0050456d -> BB00504582 [color="red"];
+  BB00504582 -> BB005045b0 [color="green"];
+  BB00504582 -> BB00504591 [color="red"];
+  BB005045b0 -> BB005045b8 [color="red"];
+  BB005045d0 -> BB00504561 [color="blue"];
+}

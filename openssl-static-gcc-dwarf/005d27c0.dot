@@ -1,0 +1,12 @@
+digraph EVP_PKEY_set_type_by_keymgmt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005d27c0 -> BB005d27f4 [color="green"];
+  BB005d27c0 -> BB005d27ec [color="red"];
+  BB005d27ec -> BB005d2830 [color="green"];
+  BB005d27ec -> BB005d27f4 [color="red"];
+  BB005d2830 -> BB005d284a [color="green"];
+  BB005d2830 -> BB005d283f [color="red"];
+  BB005d283f -> BB00401100 [color="green"];
+  BB005d283f -> BB005d284a [color="red"];
+}

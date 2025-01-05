@@ -1,0 +1,28 @@
+digraph ossl_quic_conn_set0_net_rbio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004aeed0 -> BB004aefd0 [color="green"];
+  BB004aeed0 -> BB004aeedf [color="red"];
+  BB004aeedf -> BB004aef2c [color="green"];
+  BB004aeedf -> BB004aeeec [color="red"];
+  BB004aeeec -> BB004aef28 [color="green"];
+  BB004aeeec -> BB004aeef1 [color="red"];
+  BB004aeef1 -> BB004aef16 [color="red"];
+  BB004aef16 -> BB004aeffa [color="green"];
+  BB004aef16 -> BB004aef1e [color="red"];
+  BB004aef28 -> BB004aef2c [color="blue"];
+  BB004aef2c -> BB004aef1e [color="green"];
+  BB004aef2c -> BB004aef32 [color="red"];
+  BB004aef32 -> BB004aef1e [color="green"];
+  BB004aef32 -> BB004aef42 [color="red"];
+  BB004aef42 -> BB004aef68 [color="green"];
+  BB004aef42 -> BB004aef54 [color="red"];
+  BB004aef54 -> BB004aef68 [color="red"];
+  BB004aef68 -> BB004aefa0 [color="green"];
+  BB004aef68 -> BB004aef7a [color="red"];
+  BB004aef7a -> BB004aef7c [color="blue"];
+  BB004aefa0 -> BB004aef7a [color="green"];
+  BB004aefa0 -> BB004aefb8 [color="red"];
+  BB004aefb8 -> BB004aef7c [color="blue"];
+  BB004aefd0 -> BB004aef16 [color="blue"];
+}

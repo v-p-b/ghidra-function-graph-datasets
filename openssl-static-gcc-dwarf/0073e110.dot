@@ -1,0 +1,11 @@
+digraph ossl_dh_generate_ffc_parameters {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0073e110 -> BB0073e160 [color="green"];
+  BB0073e110 -> BB0073e135 [color="red"];
+  BB0073e135 -> BB0073e14b [color="red"];
+  BB0073e14b -> BB0073e157 [color="green"];
+  BB0073e14b -> BB0073e14f [color="red"];
+  BB0073e14f -> BB0073e157 [color="blue"];
+  BB0073e160 -> BB0073e14b [color="blue"];
+}

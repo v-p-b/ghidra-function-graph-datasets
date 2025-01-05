@@ -1,0 +1,26 @@
+digraph ossl_ackm_on_handshake_confirmed {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0050d090 -> BB0050d160 [color="green"];
+  BB0050d090 -> BB0050d0c2 [color="red"];
+  BB0050d0c2 -> BB0050d180 [color="green"];
+  BB0050d0c2 -> BB0050d0cb [color="red"];
+  BB0050d0cb -> BB0050d12d [color="green"];
+  BB0050d0cb -> BB0050d0d8 [color="red"];
+  BB0050d0d8 -> BB0050d120 [color="green"];
+  BB0050d0d8 -> BB0050d0ef [color="red"];
+  BB0050d0ef -> BB0050d14c [color="green"];
+  BB0050d0ef -> BB0050d106 [color="red"];
+  BB0050d120 -> BB0050d12d [color="red"];
+  BB0050d12d -> BB0050d130 [color="blue"];
+  BB0050d130 -> BB0050d14c [color="green"];
+  BB0050d130 -> BB0050d143 [color="red"];
+  BB0050d143 -> BB0050d14c [color="blue"];
+  BB0050d160 -> BB0050d0c2 [color="green"];
+  BB0050d160 -> BB0050d169 [color="red"];
+  BB0050d169 -> BB0050d16b [color="blue"];
+  BB0050d16b -> BB0050d0cb [color="green"];
+  BB0050d16b -> BB0050d174 [color="red"];
+  BB0050d174 -> BB0050d130 [color="blue"];
+  BB0050d180 -> BB0050d16b [color="blue"];
+}

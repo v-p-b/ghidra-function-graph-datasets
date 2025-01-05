@@ -1,0 +1,29 @@
+digraph dtls_prepare_record_header {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004cb010 -> BB004cb040 [color="green"];
+  BB004cb010 -> BB004cb039 [color="red"];
+  BB004cb039 -> BB004cb040 [color="blue"];
+  BB004cb040 -> BB004cb068 [color="green"];
+  BB004cb040 -> BB004cb054 [color="red"];
+  BB004cb054 -> BB004cb0b0 [color="green"];
+  BB004cb054 -> BB004cb068 [color="red"];
+  BB004cb068 -> BB004cb09d [color="red"];
+  BB004cb0b0 -> BB004cb068 [color="green"];
+  BB004cb0b0 -> BB004cb0c5 [color="red"];
+  BB004cb0c5 -> BB004cb068 [color="green"];
+  BB004cb0c5 -> BB004cb0dd [color="red"];
+  BB004cb0dd -> BB004cb068 [color="green"];
+  BB004cb0dd -> BB004cb0f2 [color="red"];
+  BB004cb0f2 -> BB004cb110 [color="green"];
+  BB004cb0f2 -> BB004cb0fe [color="red"];
+  BB004cb0fe -> BB004cb128 [color="green"];
+  BB004cb0fe -> BB004cb103 [color="red"];
+  BB004cb103 -> BB004cb09d [color="blue"];
+  BB004cb110 -> BB004cb0fe [color="green"];
+  BB004cb110 -> BB004cb11e [color="red"];
+  BB004cb11e -> BB004cb068 [color="blue"];
+  BB004cb128 -> BB004cb103 [color="green"];
+  BB004cb128 -> BB004cb13a [color="red"];
+  BB004cb13a -> BB004cb068 [color="blue"];
+}

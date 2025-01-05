@@ -1,0 +1,24 @@
+digraph blake2b512_internal_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006a60c0 -> BB006a60f0 [color="green"];
+  BB006a60c0 -> BB006a60db [color="red"];
+  BB006a60f0 -> BB006a61d0 [color="green"];
+  BB006a60f0 -> BB006a60f9 [color="red"];
+  BB006a60f9 -> BB006a6190 [color="green"];
+  BB006a60f9 -> BB006a6102 [color="red"];
+  BB006a6102 -> BB006a6190 [color="green"];
+  BB006a6102 -> BB006a6119 [color="red"];
+  BB006a6119 -> BB006a61e0 [color="green"];
+  BB006a6119 -> BB006a612e [color="red"];
+  BB006a612e -> BB006a61a0 [color="green"];
+  BB006a612e -> BB006a613d [color="red"];
+  BB006a613d -> BB006a614c [color="red"];
+  BB006a614c -> BB006a6168 [color="green"];
+  BB006a614c -> BB006a6161 [color="red"];
+  BB006a6161 -> BB006a6168 [color="blue"];
+  BB006a6190 -> BB006a614c [color="blue"];
+  BB006a61a0 -> BB006a61d0 [color="red"];
+  BB006a61d0 -> BB006a60db [color="blue"];
+  BB006a61e0 -> BB006a60db [color="blue"];
+}

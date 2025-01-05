@@ -1,0 +1,9 @@
+digraph OSSL_SELF_TEST_onend {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00600590 -> BB006006d0 [color="green"];
+  BB00600590 -> BB00600599 [color="red"];
+  BB00600599 -> BB006006c0 [color="green"];
+  BB00600599 -> BB006005af [color="red"];
+  BB006005af -> BB006006c0 [color="red"];
+}

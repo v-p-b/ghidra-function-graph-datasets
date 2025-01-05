@@ -1,0 +1,16 @@
+digraph EC_POINT_is_at_infinity {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0058b000 -> BB0058b070 [color="green"];
+  BB0058b000 -> BB0058b013 [color="red"];
+  BB0058b013 -> BB0058b050 [color="green"];
+  BB0058b013 -> BB0058b018 [color="red"];
+  BB0058b018 -> BB0058b048 [color="red"];
+  BB0058b050 -> BB0058b062 [color="green"];
+  BB0058b050 -> BB0058b057 [color="red"];
+  BB0058b057 -> BB0058b062 [color="green"];
+  BB0058b057 -> BB0058b05e [color="red"];
+  BB0058b05e -> BB0058b018 [color="green"];
+  BB0058b05e -> BB0058b062 [color="red"];
+  BB0058b070 -> BB0058b048 [color="blue"];
+}

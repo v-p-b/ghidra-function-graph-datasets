@@ -1,0 +1,31 @@
+digraph free_mem {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0092cc20 -> BB0092cc54 [color="green"];
+  BB0092cc20 -> BB0092cc36 [color="red"];
+  BB0092cc36 -> BB0092cc40 [color="blue"];
+  BB0092cc40 -> BB0092cc40 [color="green"];
+  BB0092cc40 -> BB0092cc54 [color="red"];
+  BB0092cc54 -> BB0092ccc4 [color="green"];
+  BB0092cc54 -> BB0092cc5e [color="red"];
+  BB0092cc5e -> BB0092ccba [color="green"];
+  BB0092cc5e -> BB0092cc6a [color="red"];
+  BB0092cc6a -> BB0092cc70 [color="blue"];
+  BB0092cc70 -> BB0092cc80 [color="blue"];
+  BB0092cc80 -> BB0092cc9d [color="green"];
+  BB0092cc80 -> BB0092cc85 [color="red"];
+  BB0092cc85 -> BB0092cc80 [color="green"];
+  BB0092cc85 -> BB0092cc93 [color="red"];
+  BB0092cc93 -> BB0092cc85 [color="green"];
+  BB0092cc93 -> BB0092cc9d [color="red"];
+  BB0092cc9d -> BB0092ccf8 [color="green"];
+  BB0092cc9d -> BB0092cca6 [color="red"];
+  BB0092cca6 -> BB0092cc70 [color="green"];
+  BB0092cca6 -> BB0092ccba [color="red"];
+  BB0092ccba -> BB0092cd06 [color="green"];
+  BB0092ccba -> BB0092ccc4 [color="red"];
+  BB0092ccf8 -> BB0092cca6 [color="blue"];
+  BB0092cd06 -> BB0092ccc4 [color="green"];
+  BB0092cd06 -> BB0092cd18 [color="red"];
+  BB0092cd18 -> BB0092ccc4 [color="blue"];
+}

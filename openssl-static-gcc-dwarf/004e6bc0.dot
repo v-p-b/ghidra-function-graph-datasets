@@ -1,0 +1,10 @@
+digraph tls_process_hello_req {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004e6bc0 -> BB004e6c08 [color="green"];
+  BB004e6bc0 -> BB004e6bcb [color="red"];
+  BB004e6bcb -> BB004e6c40 [color="green"];
+  BB004e6bcb -> BB004e6bd4 [color="red"];
+  BB004e6bd4 -> BB004e6bf8 [color="green"];
+  BB004e6bd4 -> BB004e6be5 [color="red"];
+}

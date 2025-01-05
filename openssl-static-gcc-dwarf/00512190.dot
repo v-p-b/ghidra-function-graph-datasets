@@ -1,0 +1,13 @@
+digraph ASN1_INTEGER_set {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00512190 -> BB005121e0 [color="green"];
+  BB00512190 -> BB005121ad [color="red"];
+  BB005121ad -> BB005121b0 [color="blue"];
+  BB005121b0 -> BB005121b0 [color="green"];
+  BB005121b0 -> BB005121c3 [color="red"];
+  BB005121e0 -> BB005121e8 [color="blue"];
+  BB005121e8 -> BB005121e8 [color="green"];
+  BB005121e8 -> BB005121fc [color="red"];
+  BB005121fc -> BB005121c3 [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph sm2_to_SubjectPublicKeyInfo_pem_does_selection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b35e0 -> BB006b35ff [color="green"];
+  BB006b35e0 -> BB006b35e9 [color="red"];
+  BB006b35e9 -> BB006b3605 [color="green"];
+  BB006b35e9 -> BB006b35f0 [color="red"];
+  BB006b35f0 -> BB006b3600 [color="green"];
+  BB006b35f0 -> BB006b35f6 [color="red"];
+  BB006b35f6 -> BB006b3610 [color="green"];
+  BB006b35f6 -> BB006b35ff [color="red"];
+  BB006b3600 -> BB006b3605 [color="blue"];
+  BB006b3610 -> BB006b3605 [color="blue"];
+}

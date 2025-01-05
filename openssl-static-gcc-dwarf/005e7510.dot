@@ -1,0 +1,20 @@
+digraph OSSL_HTTP_adapt_proxy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e7510 -> BB005e7548 [color="green"];
+  BB005e7510 -> BB005e7523 [color="red"];
+  BB005e7523 -> BB005e7574 [color="green"];
+  BB005e7523 -> BB005e752a [color="red"];
+  BB005e752a -> BB005e7574 [color="green"];
+  BB005e752a -> BB005e7539 [color="red"];
+  BB005e7548 -> BB005e7580 [color="green"];
+  BB005e7548 -> BB005e754c [color="red"];
+  BB005e754c -> BB005e7523 [color="green"];
+  BB005e754c -> BB005e7560 [color="red"];
+  BB005e7560 -> BB005e7567 [color="blue"];
+  BB005e7567 -> BB005e7523 [color="green"];
+  BB005e7567 -> BB005e7574 [color="red"];
+  BB005e7580 -> BB005e7523 [color="green"];
+  BB005e7580 -> BB005e7594 [color="red"];
+  BB005e7594 -> BB005e7567 [color="blue"];
+}

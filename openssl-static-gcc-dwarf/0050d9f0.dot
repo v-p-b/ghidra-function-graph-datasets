@@ -1,0 +1,16 @@
+digraph ossl_ackm_get_pto_duration {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0050d9f0 -> BB0050da59 [color="green"];
+  BB0050d9f0 -> BB0050da1a [color="red"];
+  BB0050da1a -> BB0050da29 [color="blue"];
+  BB0050da29 -> BB0050da53 [color="green"];
+  BB0050da29 -> BB0050da2f [color="red"];
+  BB0050da2f -> BB0050da48 [color="green"];
+  BB0050da2f -> BB0050da3c [color="red"];
+  BB0050da48 -> BB0050da3c [color="green"];
+  BB0050da48 -> BB0050da4d [color="red"];
+  BB0050da4d -> BB0050da3c [color="blue"];
+  BB0050da53 -> BB0050da2f [color="blue"];
+  BB0050da59 -> BB0050da29 [color="blue"];
+}

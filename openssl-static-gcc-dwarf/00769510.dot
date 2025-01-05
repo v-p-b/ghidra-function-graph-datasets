@@ -1,0 +1,14 @@
+digraph aria_192_cfb128_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00769510 -> BB007695e0 [color="green"];
+  BB00769510 -> BB00769537 [color="red"];
+  BB00769537 -> BB007695c2 [color="green"];
+  BB00769537 -> BB00769543 [color="red"];
+  BB00769543 -> BB00769558 [color="blue"];
+  BB00769558 -> BB007695c2 [color="green"];
+  BB00769558 -> BB007695bd [color="red"];
+  BB007695bd -> BB00769558 [color="green"];
+  BB007695bd -> BB007695c2 [color="red"];
+  BB007695e0 -> BB00769543 [color="blue"];
+}

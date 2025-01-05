@@ -1,0 +1,14 @@
+digraph sm2_to_SM2_pem_does_selection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b0300 -> BB006b031f [color="green"];
+  BB006b0300 -> BB006b0309 [color="red"];
+  BB006b0309 -> BB006b0325 [color="green"];
+  BB006b0309 -> BB006b0310 [color="red"];
+  BB006b0310 -> BB006b0320 [color="green"];
+  BB006b0310 -> BB006b0316 [color="red"];
+  BB006b0316 -> BB006b0330 [color="green"];
+  BB006b0316 -> BB006b031f [color="red"];
+  BB006b0320 -> BB006b0325 [color="blue"];
+  BB006b0330 -> BB006b0325 [color="blue"];
+}

@@ -1,0 +1,24 @@
+digraph ossl_qtx_pop_net {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004bafc0 -> BB004bb0ba [color="green"];
+  BB004bafc0 -> BB004bafda [color="red"];
+  BB004bafda -> BB004bb0c8 [color="green"];
+  BB004bafda -> BB004bb04c [color="red"];
+  BB004bb04c -> BB004bb057 [color="green"];
+  BB004bb04c -> BB004bb051 [color="red"];
+  BB004bb051 -> BB004bb057 [color="blue"];
+  BB004bb057 -> BB004bb060 [color="green"];
+  BB004bb057 -> BB004bb05c [color="red"];
+  BB004bb05c -> BB004bb060 [color="blue"];
+  BB004bb060 -> BB004bb091 [color="green"];
+  BB004bb060 -> BB004bb08e [color="red"];
+  BB004bb08e -> BB004bb091 [color="blue"];
+  BB004bb091 -> BB004bb0e0 [color="green"];
+  BB004bb091 -> BB004bb0ad [color="red"];
+  BB004bb0ad -> BB004bb0ba [color="blue"];
+  BB004bb0c8 -> BB004bb051 [color="green"];
+  BB004bb0c8 -> BB004bb0d8 [color="red"];
+  BB004bb0d8 -> BB004bb057 [color="blue"];
+  BB004bb0e0 -> BB004bb0ad [color="blue"];
+}

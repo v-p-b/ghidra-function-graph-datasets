@@ -1,0 +1,16 @@
+digraph _IO_new_file_finish {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00881470 -> BB008814d7 [color="green"];
+  BB00881470 -> BB0088147f [color="red"];
+  BB0088147f -> BB008814f0 [color="green"];
+  BB0088147f -> BB00881489 [color="red"];
+  BB00881489 -> BB008814a4 [color="red"];
+  BB008814a4 -> BB008814d7 [color="green"];
+  BB008814a4 -> BB008814aa [color="red"];
+  BB008814aa -> BB00881508 [color="green"];
+  BB008814aa -> BB008814ce [color="red"];
+  BB008814ce -> BB008814d7 [color="blue"];
+  BB008814f0 -> BB008814a4 [color="blue"];
+  BB00881508 -> BB008814ce [color="blue"];
+}

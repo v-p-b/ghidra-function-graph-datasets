@@ -1,0 +1,14 @@
+digraph ossl_policy_node_match {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00860110 -> BB00860168 [color="green"];
+  BB00860110 -> BB00860120 [color="red"];
+  BB00860120 -> BB00860168 [color="green"];
+  BB00860120 -> BB00860126 [color="red"];
+  BB00860126 -> BB0086014d [color="blue"];
+  BB00860130 -> BB00860188 [color="green"];
+  BB00860130 -> BB0086014a [color="red"];
+  BB0086014a -> BB0086014d [color="blue"];
+  BB0086014d -> BB00860130 [color="green"];
+  BB0086014d -> BB0086015a [color="red"];
+}

@@ -1,0 +1,12 @@
+digraph ossl_quic_reset {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ae840 -> BB004ae8c0 [color="green"];
+  BB004ae840 -> BB004ae849 [color="red"];
+  BB004ae849 -> BB004ae890 [color="green"];
+  BB004ae849 -> BB004ae853 [color="red"];
+  BB004ae890 -> BB004ae8b5 [color="red"];
+  BB004ae8b5 -> BB004ae853 [color="green"];
+  BB004ae8b5 -> BB004ae8b9 [color="red"];
+  BB004ae8c0 -> BB004ae8b5 [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph sh_testbit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005ee610 -> BB005ee680 [color="green"];
+  BB005ee610 -> BB005ee618 [color="red"];
+  BB005ee618 -> BB005ee680 [color="green"];
+  BB005ee618 -> BB005ee629 [color="red"];
+  BB005ee629 -> BB005ee6b0 [color="green"];
+  BB005ee629 -> BB005ee646 [color="red"];
+  BB005ee646 -> BB005ee698 [color="green"];
+  BB005ee646 -> BB005ee65e [color="red"];
+  BB005ee65e -> BB005ee698 [color="green"];
+  BB005ee65e -> BB005ee667 [color="red"];
+  BB005ee680 -> BB005ee698 [color="red"];
+  BB005ee698 -> BB005ee6b0 [color="red"];
+}

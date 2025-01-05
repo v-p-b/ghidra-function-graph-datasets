@@ -1,0 +1,19 @@
+digraph DSO_dsobyaddr {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00580630 -> BB005806d4 [color="green"];
+  BB00580630 -> BB00580650 [color="red"];
+  BB00580650 -> BB005806b1 [color="green"];
+  BB00580650 -> BB00580662 [color="red"];
+  BB00580662 -> BB0058069a [color="green"];
+  BB00580662 -> BB0058067e [color="red"];
+  BB0058067e -> BB00580709 [color="green"];
+  BB0058067e -> BB0058068c [color="red"];
+  BB0058068c -> BB005806c0 [color="green"];
+  BB0058068c -> BB0058069a [color="red"];
+  BB0058069a -> BB0058069d [color="blue"];
+  BB0058069d -> BB005806b1 [color="red"];
+  BB005806c0 -> BB0058069d [color="blue"];
+  BB005806d4 -> BB005806b1 [color="blue"];
+  BB00580709 -> BB0058069d [color="blue"];
+}

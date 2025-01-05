@@ -1,0 +1,15 @@
+digraph _IO_ftell.cold {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0040187b -> BB004018ac [color="green"];
+  BB0040187b -> BB00401883 [color="red"];
+  BB00401883 -> BB004018ac [color="green"];
+  BB00401883 -> BB00401895 [color="red"];
+  BB00401895 -> BB004018b4 [color="green"];
+  BB00401895 -> BB004018a9 [color="red"];
+  BB004018a9 -> BB004018ac [color="blue"];
+  BB004018ac -> BB004018af [color="blue"];
+  BB004018b4 -> BB004018ac [color="green"];
+  BB004018b4 -> BB004018bb [color="red"];
+  BB004018bb -> BB004018ac [color="blue"];
+}

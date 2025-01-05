@@ -1,0 +1,17 @@
+digraph bn_i2c {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00527590 -> BB005275f1 [color="green"];
+  BB00527590 -> BB0052759c [color="red"];
+  BB0052759c -> BB005275e8 [color="green"];
+  BB0052759c -> BB005275ab [color="red"];
+  BB005275ab -> BB005275c8 [color="green"];
+  BB005275ab -> BB005275b5 [color="red"];
+  BB005275b5 -> BB005275bd [color="blue"];
+  BB005275bd -> BB005275c8 [color="red"];
+  BB005275c8 -> BB005275de [color="red"];
+  BB005275e8 -> BB005275bd [color="green"];
+  BB005275e8 -> BB005275ef [color="red"];
+  BB005275ef -> BB005275c8 [color="blue"];
+  BB005275f1 -> BB005275de [color="blue"];
+}

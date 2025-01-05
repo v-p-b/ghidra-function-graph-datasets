@@ -1,0 +1,13 @@
+digraph tls_parse_stoc_cookie {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d77a0 -> BB004d77cd [color="green"];
+  BB004d77a0 -> BB004d77b7 [color="red"];
+  BB004d77b7 -> BB004d7818 [color="green"];
+  BB004d77b7 -> BB004d77cd [color="red"];
+  BB004d77cd -> BB004d7803 [color="red"];
+  BB004d7818 -> BB004d7803 [color="green"];
+  BB004d7818 -> BB004d7864 [color="red"];
+  BB004d7864 -> BB004d77cd [color="green"];
+  BB004d7864 -> BB004d788b [color="red"];
+}

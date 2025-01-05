@@ -1,0 +1,20 @@
+digraph x509_pubkey_decode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00686db0 -> BB00686dec [color="green"];
+  BB00686db0 -> BB00686dd6 [color="red"];
+  BB00686dd6 -> BB00686e2d [color="green"];
+  BB00686dd6 -> BB00686de7 [color="red"];
+  BB00686de7 -> BB00686dec [color="red"];
+  BB00686dec -> BB00686ec0 [color="green"];
+  BB00686dec -> BB00686dfd [color="red"];
+  BB00686dfd -> BB00686e40 [color="green"];
+  BB00686dfd -> BB00686e0c [color="red"];
+  BB00686e0c -> BB00686e88 [color="green"];
+  BB00686e0c -> BB00686e19 [color="red"];
+  BB00686e19 -> BB00686e70 [color="green"];
+  BB00686e19 -> BB00686e25 [color="red"];
+  BB00686e25 -> BB00686e2d [color="blue"];
+  BB00686e40 -> BB00686e70 [color="red"];
+  BB00686e88 -> BB00686e70 [color="blue"];
+}

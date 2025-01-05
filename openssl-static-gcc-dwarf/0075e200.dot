@@ -1,0 +1,12 @@
+digraph fix_distid_len {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0075e200 -> BB0075e220 [color="green"];
+  BB0075e200 -> BB0075e214 [color="red"];
+  BB0075e214 -> BB0075e230 [color="green"];
+  BB0075e214 -> BB0075e219 [color="red"];
+  BB0075e219 -> BB0075e230 [color="green"];
+  BB0075e219 -> BB0075e220 [color="red"];
+  BB0075e230 -> BB0075e220 [color="green"];
+  BB0075e230 -> BB0075e238 [color="red"];
+}

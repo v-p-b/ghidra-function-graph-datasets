@@ -1,0 +1,10 @@
+digraph rsa_pkey_copy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00630090 -> BB006300bc [color="green"];
+  BB00630090 -> BB006300a7 [color="red"];
+  BB006300a7 -> BB00630100 [color="green"];
+  BB006300a7 -> BB006300bc [color="red"];
+  BB006300bc -> BB006300e0 [color="green"];
+  BB006300bc -> BB006300cd [color="red"];
+}

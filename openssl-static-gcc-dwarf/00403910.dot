@@ -1,0 +1,11 @@
+digraph ossl_cmp_mock_srv_set1_refCert {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00403910 -> BB00403960 [color="green"];
+  BB00403910 -> BB00403923 [color="red"];
+  BB00403923 -> BB00403940 [color="green"];
+  BB00403923 -> BB0040392b [color="red"];
+  BB0040392b -> BB00403940 [color="green"];
+  BB0040392b -> BB00403937 [color="red"];
+  BB00403960 -> BB00403937 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph CMS_add1_ReceiptRequest {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005664b0 -> BB00566530 [color="green"];
+  BB005664b0 -> BB005664df [color="red"];
+  BB005664df -> BB00566568 [color="green"];
+  BB005664df -> BB00566500 [color="red"];
+  BB00566500 -> BB00566506 [color="blue"];
+  BB00566530 -> BB00566506 [color="blue"];
+  BB00566568 -> BB00566506 [color="blue"];
+}

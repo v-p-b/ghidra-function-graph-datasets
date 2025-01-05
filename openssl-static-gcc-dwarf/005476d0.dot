@@ -1,0 +1,12 @@
+digraph BN_rand_range_ex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005476d0 -> BB00547760 [color="green"];
+  BB005476d0 -> BB005476e3 [color="red"];
+  BB005476e3 -> BB00547702 [color="green"];
+  BB005476e3 -> BB005476ed [color="red"];
+  BB005476ed -> BB00547740 [color="green"];
+  BB005476ed -> BB00547702 [color="red"];
+  BB00547702 -> BB00547732 [color="red"];
+  BB00547760 -> BB00547732 [color="blue"];
+}

@@ -1,0 +1,35 @@
+digraph ec_to_EncryptedPrivateKeyInfo_der_encode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b7e60 -> BB006b7e77 [color="green"];
+  BB006b7e60 -> BB006b7e71 [color="red"];
+  BB006b7e71 -> BB006b7ec0 [color="green"];
+  BB006b7e71 -> BB006b7e77 [color="red"];
+  BB006b7e77 -> BB006b7eaa [color="red"];
+  BB006b7ec0 -> BB006b7fc8 [color="green"];
+  BB006b7ec0 -> BB006b7ecc [color="red"];
+  BB006b7ecc -> BB006b7fa8 [color="green"];
+  BB006b7ecc -> BB006b7ee6 [color="red"];
+  BB006b7ee6 -> BB006b7f04 [color="green"];
+  BB006b7ee6 -> BB006b7eeb [color="red"];
+  BB006b7eeb -> BB006b7fa8 [color="green"];
+  BB006b7eeb -> BB006b7f04 [color="red"];
+  BB006b7f04 -> BB006b7fa8 [color="green"];
+  BB006b7f04 -> BB006b7f20 [color="red"];
+  BB006b7f20 -> BB006b7fa8 [color="green"];
+  BB006b7f20 -> BB006b7f3e [color="red"];
+  BB006b7f3e -> BB006b7ffd [color="green"];
+  BB006b7f3e -> BB006b7f6c [color="red"];
+  BB006b7f6c -> BB006b7f98 [color="green"];
+  BB006b7f6c -> BB006b7f8a [color="red"];
+  BB006b7f8a -> BB006b7f98 [color="red"];
+  BB006b7f98 -> BB006b7fab [color="blue"];
+  BB006b7fa8 -> BB006b7fab [color="blue"];
+  BB006b7fc8 -> BB006b7eaa [color="blue"];
+  BB006b7ffd -> BB006b801b [color="green"];
+  BB006b7ffd -> BB006b8002 [color="red"];
+  BB006b8002 -> BB006b7f98 [color="green"];
+  BB006b8002 -> BB006b8009 [color="red"];
+  BB006b8009 -> BB006b7f98 [color="blue"];
+  BB006b801b -> BB006b7f98 [color="blue"];
+}

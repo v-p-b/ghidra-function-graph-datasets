@@ -1,0 +1,15 @@
+digraph sm2_asym_encrypt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00690e20 -> BB00690ee8 [color="green"];
+  BB00690e20 -> BB00690e55 [color="red"];
+  BB00690e55 -> BB00690e80 [color="green"];
+  BB00690e55 -> BB00690e5e [color="red"];
+  BB00690e80 -> BB00690eb0 [color="green"];
+  BB00690e80 -> BB00690e92 [color="red"];
+  BB00690e92 -> BB00690e98 [color="blue"];
+  BB00690eb0 -> BB00690e98 [color="blue"];
+  BB00690ee8 -> BB00690e55 [color="green"];
+  BB00690ee8 -> BB00690f08 [color="red"];
+  BB00690f08 -> BB00690e98 [color="blue"];
+}

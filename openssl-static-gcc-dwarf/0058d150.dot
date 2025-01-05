@@ -1,0 +1,17 @@
+digraph EC_GROUP_to_params {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0058d150 -> BB0058d220 [color="green"];
+  BB0058d150 -> BB0058d173 [color="red"];
+  BB0058d173 -> BB0058d220 [color="green"];
+  BB0058d173 -> BB0058d18d [color="red"];
+  BB0058d18d -> BB0058d230 [color="green"];
+  BB0058d18d -> BB0058d199 [color="red"];
+  BB0058d199 -> BB0058d1d5 [color="green"];
+  BB0058d199 -> BB0058d1cd [color="red"];
+  BB0058d1cd -> BB0058d1d5 [color="red"];
+  BB0058d220 -> BB0058d1d5 [color="blue"];
+  BB0058d230 -> BB0058d1d5 [color="green"];
+  BB0058d230 -> BB0058d242 [color="red"];
+  BB0058d242 -> BB0058d199 [color="blue"];
+}

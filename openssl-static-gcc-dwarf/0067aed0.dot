@@ -1,0 +1,14 @@
+digraph X509_self_signed {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0067aed0 -> BB0067af37 [color="green"];
+  BB0067aed0 -> BB0067aee3 [color="red"];
+  BB0067aee3 -> BB0067af30 [color="green"];
+  BB0067aee3 -> BB0067aef2 [color="red"];
+  BB0067aef2 -> BB0067af20 [color="green"];
+  BB0067aef2 -> BB0067aefb [color="red"];
+  BB0067aefb -> BB0067af10 [color="green"];
+  BB0067aefb -> BB0067af04 [color="red"];
+  BB0067af30 -> BB0067af04 [color="blue"];
+  BB0067af37 -> BB0067af04 [color="blue"];
+}

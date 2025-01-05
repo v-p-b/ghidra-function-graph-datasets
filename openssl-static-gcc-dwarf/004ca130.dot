@@ -1,0 +1,10 @@
+digraph dtls_get_max_record_overhead {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ca130 -> BB004ca152 [color="green"];
+  BB004ca130 -> BB004ca140 [color="red"];
+  BB004ca140 -> BB004ca170 [color="green"];
+  BB004ca140 -> BB004ca152 [color="red"];
+  BB004ca152 -> BB004ca154 [color="blue"];
+  BB004ca170 -> BB004ca154 [color="blue"];
+}

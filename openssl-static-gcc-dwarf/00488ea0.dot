@@ -1,0 +1,29 @@
+digraph SSL_get0_dane_authority {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00488ea0 -> BB00488f36 [color="green"];
+  BB00488ea0 -> BB00488ea9 [color="red"];
+  BB00488ea9 -> BB00488f18 [color="green"];
+  BB00488ea9 -> BB00488ebc [color="red"];
+  BB00488ebc -> BB00488f26 [color="green"];
+  BB00488ebc -> BB00488ecc [color="red"];
+  BB00488ecc -> BB00488f26 [color="green"];
+  BB00488ecc -> BB00488ed6 [color="red"];
+  BB00488ed6 -> BB00488f07 [color="green"];
+  BB00488ed6 -> BB00488ee2 [color="red"];
+  BB00488ee2 -> BB00488ef2 [color="green"];
+  BB00488ee2 -> BB00488ee7 [color="red"];
+  BB00488ee7 -> BB00488ef2 [color="blue"];
+  BB00488ef2 -> BB00488f07 [color="green"];
+  BB00488ef2 -> BB00488ef7 [color="red"];
+  BB00488ef7 -> BB00488f30 [color="green"];
+  BB00488ef7 -> BB00488f03 [color="red"];
+  BB00488f03 -> BB00488f07 [color="blue"];
+  BB00488f07 -> BB00488f0d [color="blue"];
+  BB00488f18 -> BB00488f26 [color="green"];
+  BB00488f18 -> BB00488f1d [color="red"];
+  BB00488f1d -> BB00488ebc [color="green"];
+  BB00488f1d -> BB00488f26 [color="red"];
+  BB00488f26 -> BB00488f0d [color="blue"];
+  BB00488f30 -> BB00488f03 [color="blue"];
+}

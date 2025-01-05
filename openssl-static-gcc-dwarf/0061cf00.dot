@@ -1,0 +1,9 @@
+digraph PKCS12_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0061cf00 -> BB0061cf33 [color="green"];
+  BB0061cf00 -> BB0061cf09 [color="red"];
+  BB0061cf09 -> BB0061cf33 [color="green"];
+  BB0061cf09 -> BB0061cf12 [color="red"];
+  BB0061cf12 -> BB0061cf33 [color="red"];
+}

@@ -1,0 +1,36 @@
+digraph add_uris_recursive {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0047d5d0 -> BB0047d718 [color="green"];
+  BB0047d5d0 -> BB0047d60a [color="red"];
+  BB0047d60a -> BB0047d610 [color="blue"];
+  BB0047d610 -> BB0047d65e [color="green"];
+  BB0047d610 -> BB0047d61c [color="red"];
+  BB0047d61c -> BB0047d65e [color="green"];
+  BB0047d61c -> BB0047d628 [color="red"];
+  BB0047d628 -> BB0047d610 [color="green"];
+  BB0047d628 -> BB0047d638 [color="red"];
+  BB0047d638 -> BB0047d680 [color="green"];
+  BB0047d638 -> BB0047d645 [color="red"];
+  BB0047d645 -> BB0047d6a0 [color="green"];
+  BB0047d645 -> BB0047d64a [color="red"];
+  BB0047d64a -> BB0047d61c [color="green"];
+  BB0047d64a -> BB0047d65e [color="red"];
+  BB0047d65e -> BB0047d663 [color="red"];
+  BB0047d680 -> BB0047d64a [color="green"];
+  BB0047d680 -> BB0047d684 [color="red"];
+  BB0047d684 -> BB0047d64a [color="blue"];
+  BB0047d6a0 -> BB0047d718 [color="green"];
+  BB0047d6a0 -> BB0047d6b0 [color="red"];
+  BB0047d6b0 -> BB0047d718 [color="green"];
+  BB0047d6b0 -> BB0047d6bd [color="red"];
+  BB0047d6bd -> BB0047d718 [color="green"];
+  BB0047d6bd -> BB0047d6c7 [color="red"];
+  BB0047d6c7 -> BB0047d6f0 [color="green"];
+  BB0047d6c7 -> BB0047d6e0 [color="red"];
+  BB0047d6e0 -> BB0047d64a [color="blue"];
+  BB0047d6f0 -> BB0047d64a [color="green"];
+  BB0047d6f0 -> BB0047d70d [color="red"];
+  BB0047d70d -> BB0047d718 [color="red"];
+  BB0047d718 -> BB0047d663 [color="blue"];
+}

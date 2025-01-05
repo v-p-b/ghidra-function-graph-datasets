@@ -1,0 +1,22 @@
+digraph ossl_quic_channel_on_handshake_confirmed {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004fc240 -> BB004fc390 [color="green"];
+  BB004fc240 -> BB004fc255 [color="red"];
+  BB004fc255 -> BB004fc398 [color="green"];
+  BB004fc255 -> BB004fc269 [color="red"];
+  BB004fc269 -> BB004fc2e8 [color="green"];
+  BB004fc269 -> BB004fc272 [color="red"];
+  BB004fc272 -> BB004fc300 [color="green"];
+  BB004fc272 -> BB004fc2b0 [color="red"];
+  BB004fc2e8 -> BB004fc272 [color="blue"];
+  BB004fc300 -> BB004fc2b0 [color="green"];
+  BB004fc300 -> BB004fc309 [color="red"];
+  BB004fc309 -> BB004fc31d [color="green"];
+  BB004fc309 -> BB004fc314 [color="red"];
+  BB004fc314 -> BB004fc2b0 [color="green"];
+  BB004fc314 -> BB004fc31d [color="red"];
+  BB004fc31d -> BB004fc2b0 [color="green"];
+  BB004fc31d -> BB004fc37c [color="red"];
+  BB004fc37c -> BB004fc2b0 [color="blue"];
+}

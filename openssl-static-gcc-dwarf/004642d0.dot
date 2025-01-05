@@ -1,0 +1,11 @@
+digraph app_create_libctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004642d0 -> BB004642e8 [color="green"];
+  BB004642d0 -> BB004642de [color="red"];
+  BB004642e8 -> BB00464330 [color="green"];
+  BB004642e8 -> BB004642fa [color="red"];
+  BB004642fa -> BB004642de [color="green"];
+  BB004642fa -> BB0046430e [color="red"];
+  BB00464330 -> BB004642de [color="blue"];
+}

@@ -1,0 +1,22 @@
+digraph PKCS7_simple_smimecap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00828930 -> BB00828a30 [color="green"];
+  BB00828930 -> BB00828950 [color="red"];
+  BB00828950 -> BB008289b2 [color="green"];
+  BB00828950 -> BB0082896b [color="red"];
+  BB0082896b -> BB00828a70 [color="green"];
+  BB0082896b -> BB00828980 [color="red"];
+  BB00828980 -> BB00828aa8 [color="green"];
+  BB00828980 -> BB00828991 [color="red"];
+  BB00828991 -> BB00828ac0 [color="green"];
+  BB00828991 -> BB008289a4 [color="red"];
+  BB008289a4 -> BB008289b2 [color="blue"];
+  BB008289b2 -> BB008289d8 [color="green"];
+  BB008289b2 -> BB008289ca [color="red"];
+  BB008289d8 -> BB00828a0b [color="red"];
+  BB00828a70 -> BB00828a81 [color="red"];
+  BB00828a81 -> BB00828a0b [color="blue"];
+  BB00828aa8 -> BB00828a81 [color="blue"];
+  BB00828ac0 -> BB00828a81 [color="blue"];
+}

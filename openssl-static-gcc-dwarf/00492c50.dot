@@ -1,0 +1,12 @@
+digraph SSL_alloc_buffers {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00492c50 -> BB00492cb8 [color="green"];
+  BB00492c50 -> BB00492c55 [color="red"];
+  BB00492c55 -> BB00492c70 [color="green"];
+  BB00492c55 -> BB00492c5f [color="red"];
+  BB00492c5f -> BB00492cb0 [color="green"];
+  BB00492c5f -> BB00492c64 [color="red"];
+  BB00492c70 -> BB00492cb0 [color="green"];
+  BB00492c70 -> BB00492c88 [color="red"];
+}

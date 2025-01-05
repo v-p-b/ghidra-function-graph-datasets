@@ -1,0 +1,22 @@
+digraph dtls_process_hello_verify {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004e1390 -> BB004e1418 [color="green"];
+  BB004e1390 -> BB004e139e [color="red"];
+  BB004e139e -> BB004e1418 [color="green"];
+  BB004e139e -> BB004e13b5 [color="red"];
+  BB004e13b5 -> BB004e1418 [color="green"];
+  BB004e13b5 -> BB004e13c2 [color="red"];
+  BB004e13c2 -> BB004e1450 [color="green"];
+  BB004e13c2 -> BB004e13e0 [color="red"];
+  BB004e13e0 -> BB004e1488 [color="green"];
+  BB004e13e0 -> BB004e13e9 [color="red"];
+  BB004e13e9 -> BB004e1403 [color="green"];
+  BB004e13e9 -> BB004e13ed [color="red"];
+  BB004e13ed -> BB004e14a2 [color="green"];
+  BB004e13ed -> BB004e13fc [color="red"];
+  BB004e13fc -> BB004e1403 [color="blue"];
+  BB004e1450 -> BB004e13fc [color="blue"];
+  BB004e1488 -> BB004e1403 [color="blue"];
+  BB004e14a2 -> BB004e1403 [color="blue"];
+}

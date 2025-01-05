@@ -1,0 +1,18 @@
+digraph pkey_pss_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0063be60 -> BB0063be90 [color="green"];
+  BB0063be60 -> BB0063be78 [color="red"];
+  BB0063be78 -> BB0063be7b [color="blue"];
+  BB0063be90 -> BB0063be7b [color="green"];
+  BB0063be90 -> BB0063beb8 [color="red"];
+  BB0063beb8 -> BB0063be78 [color="green"];
+  BB0063beb8 -> BB0063bed0 [color="red"];
+  BB0063bed0 -> BB0063bf38 [color="green"];
+  BB0063bed0 -> BB0063bee1 [color="red"];
+  BB0063bee1 -> BB0063bf70 [color="green"];
+  BB0063bee1 -> BB0063bf0f [color="red"];
+  BB0063bf0f -> BB0063be7b [color="blue"];
+  BB0063bf38 -> BB0063be78 [color="blue"];
+  BB0063bf70 -> BB0063be7b [color="blue"];
+}

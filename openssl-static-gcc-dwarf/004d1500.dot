@@ -1,0 +1,15 @@
+digraph final_ems {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d1500 -> BB004d15b0 [color="green"];
+  BB004d1500 -> BB004d1527 [color="red"];
+  BB004d1527 -> BB004d1560 [color="green"];
+  BB004d1527 -> BB004d1530 [color="red"];
+  BB004d1530 -> BB004d1560 [color="green"];
+  BB004d1530 -> BB004d153a [color="red"];
+  BB004d153a -> BB004d1578 [color="green"];
+  BB004d153a -> BB004d155b [color="red"];
+  BB004d155b -> BB004d1560 [color="blue"];
+  BB004d1560 -> BB004d1566 [color="blue"];
+  BB004d1578 -> BB004d1566 [color="blue"];
+}

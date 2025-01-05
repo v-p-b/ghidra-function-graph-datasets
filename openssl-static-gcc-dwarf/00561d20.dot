@@ -1,0 +1,13 @@
+digraph check_cert_path_3gpp.part.0 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00561d20 -> BB00561d53 [color="green"];
+  BB00561d20 -> BB00561d3e [color="red"];
+  BB00561d3e -> BB00561d70 [color="green"];
+  BB00561d3e -> BB00561d53 [color="red"];
+  BB00561d53 -> BB00561d56 [color="blue"];
+  BB00561d70 -> BB00561dc8 [color="green"];
+  BB00561d70 -> BB00561d85 [color="red"];
+  BB00561d85 -> BB00561d56 [color="blue"];
+  BB00561dc8 -> BB00561d56 [color="blue"];
+}

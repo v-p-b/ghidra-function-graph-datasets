@@ -1,0 +1,14 @@
+digraph ASYNC_WAIT_CTX_get_all_fds {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00529160 -> BB0052916d [color="blue"];
+  BB0052916d -> BB00529198 [color="green"];
+  BB0052916d -> BB00529172 [color="red"];
+  BB00529172 -> BB0052916d [color="green"];
+  BB00529172 -> BB00529180 [color="red"];
+  BB00529180 -> BB0052918f [color="green"];
+  BB00529180 -> BB00529185 [color="red"];
+  BB00529185 -> BB0052918f [color="blue"];
+  BB0052918f -> BB00529172 [color="green"];
+  BB0052918f -> BB00529198 [color="red"];
+}

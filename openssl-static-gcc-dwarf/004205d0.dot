@@ -1,0 +1,24 @@
+digraph errstr_main {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004205d0 -> BB004205ec [color="red"];
+  BB004205ec -> BB00420650 [color="green"];
+  BB004205ec -> BB004205f8 [color="red"];
+  BB004205f8 -> BB00420628 [color="green"];
+  BB004205f8 -> BB004205fe [color="red"];
+  BB004205fe -> BB004205ec [color="green"];
+  BB004205fe -> BB00420604 [color="red"];
+  BB00420604 -> BB00420613 [color="red"];
+  BB00420628 -> BB00420613 [color="blue"];
+  BB00420650 -> BB00420613 [color="green"];
+  BB00420650 -> BB0042066c [color="red"];
+  BB0042066c -> BB00420680 [color="blue"];
+  BB00420680 -> BB004206b0 [color="green"];
+  BB00420680 -> BB00420695 [color="red"];
+  BB00420695 -> BB00420680 [color="green"];
+  BB00420695 -> BB004206a6 [color="red"];
+  BB004206a6 -> BB00420613 [color="blue"];
+  BB004206b0 -> BB00420680 [color="green"];
+  BB004206b0 -> BB004206e7 [color="red"];
+  BB004206e7 -> BB00420613 [color="blue"];
+}

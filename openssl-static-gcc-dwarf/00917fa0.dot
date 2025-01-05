@@ -1,0 +1,37 @@
+digraph __wcslen_avx2_rtm {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00917fa0 -> BB00918160 [color="green"];
+  BB00917fa0 -> BB00917fb9 [color="red"];
+  BB00917fb9 -> BB00918060 [color="green"];
+  BB00917fb9 -> BB00917fc9 [color="red"];
+  BB00917fc9 -> BB00918181 [color="blue"];
+  BB00917fe0 -> BB00918181 [color="blue"];
+  BB00918000 -> BB00918181 [color="blue"];
+  BB00918020 -> BB00918181 [color="blue"];
+  BB00918040 -> BB00918181 [color="blue"];
+  BB00918060 -> BB00918064 [color="blue"];
+  BB00918064 -> BB00917fe0 [color="green"];
+  BB00918064 -> BB00918075 [color="red"];
+  BB00918075 -> BB00918000 [color="green"];
+  BB00918075 -> BB00918086 [color="red"];
+  BB00918086 -> BB00918020 [color="green"];
+  BB00918086 -> BB00918093 [color="red"];
+  BB00918093 -> BB00918040 [color="green"];
+  BB00918093 -> BB009180a0 [color="red"];
+  BB009180a0 -> BB009180b0 [color="blue"];
+  BB009180b0 -> BB009180b0 [color="green"];
+  BB009180b0 -> BB009180db [color="red"];
+  BB009180db -> BB00918120 [color="green"];
+  BB009180db -> BB009180ea [color="red"];
+  BB009180ea -> BB00918140 [color="green"];
+  BB009180ea -> BB009180f6 [color="red"];
+  BB009180f6 -> BB00918181 [color="blue"];
+  BB00918120 -> BB00918181 [color="blue"];
+  BB00918140 -> BB00918181 [color="blue"];
+  BB00918160 -> BB00918064 [color="green"];
+  BB00918160 -> BB0091817a [color="red"];
+  BB0091817a -> BB00918181 [color="blue"];
+  BB00918181 -> BB0091818a [color="green"];
+  BB00918181 -> BB00918186 [color="red"];
+}

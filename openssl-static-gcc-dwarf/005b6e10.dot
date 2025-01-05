@@ -1,0 +1,33 @@
+digraph aes_ocb_init_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005b6e10 -> BB005b6f04 [color="green"];
+  BB005b6e10 -> BB005b6e40 [color="red"];
+  BB005b6e40 -> BB005b6f18 [color="green"];
+  BB005b6e40 -> BB005b6e49 [color="red"];
+  BB005b6e49 -> BB005b6ff0 [color="green"];
+  BB005b6e49 -> BB005b6e62 [color="red"];
+  BB005b6e62 -> BB005b6f80 [color="green"];
+  BB005b6e62 -> BB005b6e86 [color="red"];
+  BB005b6e86 -> BB005b6eaa [color="red"];
+  BB005b6eaa -> BB005b6fb0 [color="green"];
+  BB005b6eaa -> BB005b6ec0 [color="red"];
+  BB005b6ec0 -> BB005b6fc8 [color="green"];
+  BB005b6ec0 -> BB005b6ec9 [color="red"];
+  BB005b6ec9 -> BB005b6fb0 [color="green"];
+  BB005b6ec9 -> BB005b6eeb [color="red"];
+  BB005b6eeb -> BB005b6ef5 [color="blue"];
+  BB005b6ef5 -> BB005b6f04 [color="blue"];
+  BB005b6f18 -> BB005b6f60 [color="green"];
+  BB005b6f18 -> BB005b6f29 [color="red"];
+  BB005b6f29 -> BB00401070 [color="green"];
+  BB005b6f29 -> BB005b6f38 [color="red"];
+  BB005b6f60 -> BB005b6f38 [color="blue"];
+  BB005b6f80 -> BB005b6eaa [color="blue"];
+  BB005b6fc8 -> BB005b6ef5 [color="green"];
+  BB005b6fc8 -> BB005b6fd6 [color="red"];
+  BB005b6fd6 -> BB005b6ef5 [color="green"];
+  BB005b6fd6 -> BB005b6fe6 [color="red"];
+  BB005b6fe6 -> BB005b6ec9 [color="blue"];
+  BB005b6ff0 -> BB005b6f04 [color="blue"];
+}

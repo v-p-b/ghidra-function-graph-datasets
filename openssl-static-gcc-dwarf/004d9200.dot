@@ -1,0 +1,15 @@
+digraph tls_parse_ctos_renegotiate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d9200 -> BB004d9268 [color="green"];
+  BB004d9200 -> BB004d920d [color="red"];
+  BB004d920d -> BB004d9268 [color="green"];
+  BB004d920d -> BB004d9227 [color="red"];
+  BB004d9227 -> BB004d92a0 [color="green"];
+  BB004d9227 -> BB004d923e [color="red"];
+  BB004d923e -> BB004010d8 [color="green"];
+  BB004d923e -> BB004d92e0 [color="green"];
+  BB004d923e -> BB004d9252 [color="red"];
+  BB004d92a0 -> BB004d92b1 [color="red"];
+  BB004d92e0 -> BB004d92b1 [color="blue"];
+}

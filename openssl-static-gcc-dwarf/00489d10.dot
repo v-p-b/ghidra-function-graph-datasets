@@ -1,0 +1,16 @@
+digraph SSL_get_fd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00489d10 -> BB00489d2b [color="green"];
+  BB00489d10 -> BB00489d21 [color="red"];
+  BB00489d21 -> BB00489d60 [color="green"];
+  BB00489d21 -> BB00489d27 [color="red"];
+  BB00489d27 -> BB00489d2b [color="blue"];
+  BB00489d2b -> BB00489d4e [color="green"];
+  BB00489d2b -> BB00489d3d [color="red"];
+  BB00489d3d -> BB00489d4e [color="red"];
+  BB00489d60 -> BB00489d70 [color="green"];
+  BB00489d60 -> BB00489d68 [color="red"];
+  BB00489d68 -> BB00489d2b [color="blue"];
+  BB00489d70 -> BB00489d2b [color="blue"];
+}

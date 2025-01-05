@@ -1,0 +1,30 @@
+digraph wcrtomb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008cfb60 -> BB008cfcd0 [color="green"];
+  BB008cfb60 -> BB008cfbac [color="red"];
+  BB008cfbac -> BB008cfce8 [color="green"];
+  BB008cfbac -> BB008cfbda [color="red"];
+  BB008cfbda -> BB008cfbf6 [color="green"];
+  BB008cfbda -> BB008cfbe9 [color="red"];
+  BB008cfbe9 -> BB008cfbf6 [color="blue"];
+  BB008cfbf6 -> BB008cfc68 [color="green"];
+  BB008cfbf6 -> BB008cfc00 [color="red"];
+  BB008cfc00 -> BB008cfca9 [color="green"];
+  BB008cfc00 -> BB008cfc2d [color="red"];
+  BB008cfc2d -> BB008cfc3e [color="blue"];
+  BB008cfc3e -> BB008cfc46 [color="blue"];
+  BB008cfc46 -> BB008cfd2f [color="green"];
+  BB008cfc46 -> BB008cfc5a [color="red"];
+  BB008cfc68 -> BB008cfc3e [color="green"];
+  BB008cfc68 -> BB008cfca9 [color="red"];
+  BB008cfca9 -> BB008cfd10 [color="green"];
+  BB008cfca9 -> BB008cfcb1 [color="red"];
+  BB008cfcb1 -> BB008cfc3e [color="green"];
+  BB008cfcb1 -> BB008cfcb6 [color="red"];
+  BB008cfcb6 -> BB008cfc46 [color="blue"];
+  BB008cfcd0 -> BB008cfbac [color="blue"];
+  BB008cfce8 -> BB008cfbda [color="green"];
+  BB008cfce8 -> BB008cfcff [color="red"];
+  BB008cfcff -> BB008cfbda [color="blue"];
+}

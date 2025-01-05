@@ -1,0 +1,10 @@
+digraph x509_object_dup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00675610 -> BB00675651 [color="green"];
+  BB00675610 -> BB00675638 [color="red"];
+  BB00675638 -> BB00675670 [color="green"];
+  BB00675638 -> BB0067564c [color="red"];
+  BB0067564c -> BB00675660 [color="green"];
+  BB0067564c -> BB00675651 [color="red"];
+}

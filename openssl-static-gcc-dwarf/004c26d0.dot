@@ -1,0 +1,14 @@
+digraph ossl_quic_wire_decode_frame_max_streams {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c26d0 -> BB004c2778 [color="green"];
+  BB004c26d0 -> BB004c26dd [color="red"];
+  BB004c26dd -> BB004c2718 [color="green"];
+  BB004c26dd -> BB004c2704 [color="red"];
+  BB004c2718 -> BB004c2704 [color="green"];
+  BB004c2718 -> BB004c2741 [color="red"];
+  BB004c2741 -> BB004c2704 [color="green"];
+  BB004c2741 -> BB004c2746 [color="red"];
+  BB004c2746 -> BB004c2704 [color="green"];
+  BB004c2746 -> BB004c2754 [color="red"];
+}

@@ -1,0 +1,29 @@
+digraph ossl_quic_cfq_mark_tx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0050df30 -> BB0050df8b [color="green"];
+  BB0050df30 -> BB0050df37 [color="red"];
+  BB0050df37 -> BB0050dfb0 [color="green"];
+  BB0050df37 -> BB0050df40 [color="red"];
+  BB0050df40 -> BB0050df90 [color="green"];
+  BB0050df40 -> BB0050df4a [color="red"];
+  BB0050df4a -> BB0050df57 [color="green"];
+  BB0050df4a -> BB0050df4f [color="red"];
+  BB0050df4f -> BB0050df57 [color="blue"];
+  BB0050df57 -> BB0050df60 [color="green"];
+  BB0050df57 -> BB0050df5c [color="red"];
+  BB0050df5c -> BB0050df60 [color="blue"];
+  BB0050df60 -> BB0050df7d [color="green"];
+  BB0050df60 -> BB0050df79 [color="red"];
+  BB0050df79 -> BB0050df7d [color="blue"];
+  BB0050df7d -> BB0050dfa0 [color="green"];
+  BB0050df7d -> BB0050df84 [color="red"];
+  BB0050df84 -> BB0050df8b [color="blue"];
+  BB0050df90 -> BB0050df4f [color="green"];
+  BB0050df90 -> BB0050df99 [color="red"];
+  BB0050df99 -> BB0050df57 [color="blue"];
+  BB0050dfa0 -> BB0050df8b [color="blue"];
+  BB0050dfb0 -> BB0050df4a [color="green"];
+  BB0050dfb0 -> BB0050dfbd [color="red"];
+  BB0050dfbd -> BB0050df90 [color="blue"];
+}

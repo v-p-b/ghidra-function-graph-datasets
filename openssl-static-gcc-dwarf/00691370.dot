@@ -1,0 +1,9 @@
+digraph aes_dupctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00691370 -> BB006913b4 [color="green"];
+  BB00691370 -> BB00691386 [color="red"];
+  BB00691386 -> BB006913b4 [color="green"];
+  BB00691386 -> BB006913a4 [color="red"];
+  BB006913a4 -> BB006913b4 [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph CMS_digest_create {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005707f0 -> BB00570870 [color="green"];
+  BB005707f0 -> BB00570803 [color="red"];
+  BB00570803 -> BB00570823 [color="green"];
+  BB00570803 -> BB00570814 [color="red"];
+  BB00570814 -> BB00570860 [color="green"];
+  BB00570814 -> BB0057081a [color="red"];
+  BB0057081a -> BB00570830 [color="green"];
+  BB0057081a -> BB00570823 [color="red"];
+  BB00570830 -> BB00570823 [color="green"];
+  BB00570830 -> BB00570844 [color="red"];
+  BB00570860 -> BB0057081a [color="blue"];
+  BB00570870 -> BB00570803 [color="blue"];
+}

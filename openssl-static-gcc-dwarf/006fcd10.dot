@@ -1,0 +1,9 @@
+digraph des_ecb_newctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006fcd10 -> BB006fcd6d [color="green"];
+  BB006fcd10 -> BB006fcd2b [color="red"];
+  BB006fcd2b -> BB006fcd6d [color="green"];
+  BB006fcd2b -> BB006fcd49 [color="red"];
+  BB006fcd49 -> BB006fcd6d [color="red"];
+}

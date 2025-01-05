@@ -1,0 +1,16 @@
+digraph x25519_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006c1480 -> BB006c14db [color="green"];
+  BB006c1480 -> BB006c1495 [color="red"];
+  BB006c1495 -> BB006c14a9 [color="green"];
+  BB006c1495 -> BB006c149a [color="red"];
+  BB006c149a -> BB006c14a9 [color="green"];
+  BB006c149a -> BB006c149f [color="red"];
+  BB006c149f -> BB006c14e8 [color="green"];
+  BB006c149f -> BB006c14a9 [color="red"];
+  BB006c14a9 -> BB006c14db [color="red"];
+  BB006c14e8 -> BB006c14a9 [color="green"];
+  BB006c14e8 -> BB006c14f4 [color="red"];
+  BB006c14f4 -> BB006c14db [color="blue"];
+}

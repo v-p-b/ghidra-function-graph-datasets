@@ -1,0 +1,18 @@
+digraph ossl_ecdsa_verify {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00590d80 -> BB00590e75 [color="green"];
+  BB00590d80 -> BB00590dbe [color="red"];
+  BB00590dbe -> BB00590e68 [color="green"];
+  BB00590dbe -> BB00590ddc [color="red"];
+  BB00590ddc -> BB00590e30 [color="green"];
+  BB00590ddc -> BB00590df4 [color="red"];
+  BB00590df4 -> BB00590dfa [color="blue"];
+  BB00590dfa -> BB00590e18 [color="red"];
+  BB00590e30 -> BB004010d8 [color="green"];
+  BB00590e30 -> BB00590dfa [color="green"];
+  BB00590e30 -> BB00590e48 [color="red"];
+  BB00590e48 -> BB00590dfa [color="blue"];
+  BB00590e68 -> BB00590dfa [color="blue"];
+  BB00590e75 -> BB00590e18 [color="blue"];
+}

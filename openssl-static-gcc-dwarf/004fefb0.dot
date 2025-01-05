@@ -1,0 +1,13 @@
+digraph ossl_quic_demux_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004fefb0 -> BB004ff013 [color="green"];
+  BB004fefb0 -> BB004fefe2 [color="red"];
+  BB004fefe2 -> BB004ff013 [color="green"];
+  BB004fefe2 -> BB004feffe [color="red"];
+  BB004feffe -> BB004ff020 [color="green"];
+  BB004feffe -> BB004ff013 [color="red"];
+  BB004ff020 -> BB004ff013 [color="green"];
+  BB004ff020 -> BB004ff038 [color="red"];
+  BB004ff038 -> BB004ff013 [color="blue"];
+}

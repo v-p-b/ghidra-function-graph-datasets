@@ -1,0 +1,16 @@
+digraph ossl_quic_tls_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005039f0 -> BB00503ab0 [color="green"];
+  BB005039f0 -> BB00503a02 [color="red"];
+  BB00503a02 -> BB00503ab0 [color="green"];
+  BB00503a02 -> BB00503a10 [color="red"];
+  BB00503a10 -> BB00503ab0 [color="green"];
+  BB00503a10 -> BB00503a1b [color="red"];
+  BB00503a1b -> BB00503aa5 [color="green"];
+  BB00503a1b -> BB00503a39 [color="red"];
+  BB00503a39 -> BB00503af0 [color="green"];
+  BB00503a39 -> BB00503a4f [color="red"];
+  BB00503a4f -> BB00503aa5 [color="blue"];
+  BB00503af0 -> BB00503aa5 [color="blue"];
+}

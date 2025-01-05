@@ -1,0 +1,9 @@
+digraph ossl_synchronize_rcu {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006008e0 -> BB00600923 [color="green"];
+  BB006008e0 -> BB006008f3 [color="red"];
+  BB006008f3 -> BB00600900 [color="blue"];
+  BB00600900 -> BB00600900 [color="green"];
+  BB00600900 -> BB00600923 [color="red"];
+}

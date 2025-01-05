@@ -1,0 +1,22 @@
+digraph flush_cleanup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00881810 -> BB00881824 [color="green"];
+  BB00881810 -> BB0088181c [color="red"];
+  BB0088181c -> BB00881868 [color="green"];
+  BB0088181c -> BB00881824 [color="red"];
+  BB00881824 -> BB00881863 [color="green"];
+  BB00881824 -> BB00881835 [color="red"];
+  BB00881835 -> BB00881858 [color="green"];
+  BB00881835 -> BB0088184c [color="red"];
+  BB00881858 -> BB00881893 [color="green"];
+  BB00881858 -> BB00881863 [color="red"];
+  BB00881868 -> BB00881824 [color="green"];
+  BB00881868 -> BB0088187a [color="red"];
+  BB0088187a -> BB008818b0 [color="green"];
+  BB0088187a -> BB0088188e [color="red"];
+  BB0088188e -> BB00881824 [color="blue"];
+  BB008818b0 -> BB00881824 [color="green"];
+  BB008818b0 -> BB008818bb [color="red"];
+  BB008818bb -> BB00881824 [color="blue"];
+}

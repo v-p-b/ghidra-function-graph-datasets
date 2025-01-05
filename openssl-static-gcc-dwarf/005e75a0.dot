@@ -1,0 +1,24 @@
+digraph getrn {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e75a0 -> BB005e7640 [color="green"];
+  BB005e75a0 -> BB005e75c1 [color="red"];
+  BB005e75c1 -> BB005e75c6 [color="blue"];
+  BB005e75c6 -> BB005e75e7 [color="green"];
+  BB005e75c6 -> BB005e75dc [color="red"];
+  BB005e75dc -> BB005e75e7 [color="blue"];
+  BB005e75e7 -> BB005e7613 [color="green"];
+  BB005e75e7 -> BB005e75fb [color="red"];
+  BB005e75fb -> BB005e7632 [color="blue"];
+  BB005e7600 -> BB005e7632 [color="green"];
+  BB005e7600 -> BB005e7606 [color="red"];
+  BB005e7606 -> BB005e7632 [color="green"];
+  BB005e7606 -> BB005e7613 [color="red"];
+  BB005e7613 -> BB005e7606 [color="green"];
+  BB005e7613 -> BB005e7619 [color="red"];
+  BB005e7619 -> BB005e7600 [color="green"];
+  BB005e7619 -> BB005e762c [color="red"];
+  BB005e762c -> BB005e7606 [color="green"];
+  BB005e762c -> BB005e7632 [color="red"];
+  BB005e7640 -> BB005e75c6 [color="blue"];
+}

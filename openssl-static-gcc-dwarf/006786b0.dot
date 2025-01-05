@@ -1,0 +1,8 @@
+digraph trust_compat {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006786b0 -> BB006786f0 [color="green"];
+  BB006786b0 -> BB006786cf [color="red"];
+  BB006786cf -> BB006786f0 [color="green"];
+  BB006786cf -> BB006786d4 [color="red"];
+}

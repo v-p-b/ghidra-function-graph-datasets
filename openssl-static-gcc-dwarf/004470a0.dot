@@ -1,0 +1,20 @@
+digraph del_session {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004470a0 -> BB00447155 [color="green"];
+  BB004470a0 -> BB004470cb [color="red"];
+  BB004470cb -> BB004470ef [color="blue"];
+  BB004470e0 -> BB00447155 [color="green"];
+  BB004470e0 -> BB004470ec [color="red"];
+  BB004470ec -> BB004470ef [color="blue"];
+  BB004470ef -> BB004470e0 [color="green"];
+  BB004470ef -> BB004470f4 [color="red"];
+  BB004470f4 -> BB004010d8 [color="green"];
+  BB004470f4 -> BB004470e0 [color="green"];
+  BB004470f4 -> BB0044710a [color="red"];
+  BB0044710a -> BB00447164 [color="green"];
+  BB0044710a -> BB00447113 [color="red"];
+  BB00447113 -> BB00447118 [color="blue"];
+  BB00447118 -> BB00447155 [color="red"];
+  BB00447164 -> BB00447118 [color="blue"];
+}

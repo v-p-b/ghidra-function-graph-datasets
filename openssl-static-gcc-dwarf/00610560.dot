@@ -1,0 +1,18 @@
+digraph OCSP_check_nonce {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00610560 -> BB00610610 [color="green"];
+  BB00610560 -> BB006105a9 [color="red"];
+  BB006105a9 -> BB00610604 [color="green"];
+  BB006105a9 -> BB006105b2 [color="red"];
+  BB006105b2 -> BB00610610 [color="green"];
+  BB006105b2 -> BB006105b6 [color="red"];
+  BB006105b6 -> BB006105c4 [color="green"];
+  BB006105b6 -> BB006105bb [color="red"];
+  BB006105bb -> BB00610604 [color="green"];
+  BB006105bb -> BB006105c4 [color="red"];
+  BB006105c4 -> BB00610604 [color="red"];
+  BB00610610 -> BB006105b6 [color="green"];
+  BB00610610 -> BB00610614 [color="red"];
+  BB00610614 -> BB00610604 [color="blue"];
+}

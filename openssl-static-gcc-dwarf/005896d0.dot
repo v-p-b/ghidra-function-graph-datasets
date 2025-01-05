@@ -1,0 +1,21 @@
+digraph EC_GROUP_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005896d0 -> BB005897e0 [color="green"];
+  BB005896d0 -> BB005896d9 [color="red"];
+  BB005896d9 -> BB005896f1 [color="green"];
+  BB005896d9 -> BB005896ef [color="red"];
+  BB005896ef -> BB005896f1 [color="blue"];
+  BB005896f1 -> BB005897c8 [color="green"];
+  BB005896f1 -> BB00589700 [color="red"];
+  BB00589700 -> BB005897b0 [color="green"];
+  BB00589700 -> BB00589709 [color="red"];
+  BB00589709 -> BB0058974f [color="green"];
+  BB00589709 -> BB00589729 [color="red"];
+  BB00589729 -> BB0058973b [color="green"];
+  BB00589729 -> BB00589736 [color="red"];
+  BB00589736 -> BB0058973b [color="blue"];
+  BB0058973b -> BB0058974f [color="red"];
+  BB005897b0 -> BB00589709 [color="blue"];
+  BB005897c8 -> BB00589709 [color="blue"];
+}

@@ -1,0 +1,20 @@
+digraph ECDH_compute_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00589020 -> BB00589128 [color="green"];
+  BB00589020 -> BB00589048 [color="red"];
+  BB00589048 -> BB005890c0 [color="green"];
+  BB00589048 -> BB00589053 [color="red"];
+  BB00589053 -> BB005890b1 [color="green"];
+  BB00589053 -> BB00589069 [color="red"];
+  BB00589069 -> BB00589100 [color="green"];
+  BB00589069 -> BB0058907c [color="red"];
+  BB0058907c -> BB00589096 [color="blue"];
+  BB00589096 -> BB005890b1 [color="red"];
+  BB00589100 -> BB00589112 [color="green"];
+  BB00589100 -> BB0058910a [color="red"];
+  BB0058910a -> BB00589112 [color="blue"];
+  BB00589112 -> BB00401070 [color="blue"];
+  BB00589112 -> BB00589096 [color="blue"];
+  BB00589128 -> BB005890b1 [color="blue"];
+}

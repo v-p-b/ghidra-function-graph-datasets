@@ -1,0 +1,8 @@
+digraph chacha20_poly1305_initiv {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006a15d0 -> BB006a1658 [color="green"];
+  BB006a15d0 -> BB006a162c [color="red"];
+  BB006a162c -> BB006a1631 [color="red"];
+  BB006a1658 -> BB006a1631 [color="blue"];
+}

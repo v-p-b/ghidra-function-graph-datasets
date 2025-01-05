@@ -1,0 +1,14 @@
+digraph CRYPTO_realloc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005edf20 -> BB005edf40 [color="green"];
+  BB005edf20 -> BB005edf39 [color="red"];
+  BB005edf40 -> BB005edf78 [color="green"];
+  BB005edf40 -> BB005edf45 [color="red"];
+  BB005edf45 -> BB005edf50 [color="green"];
+  BB005edf45 -> BB005edf4a [color="red"];
+  BB005edf50 -> BB005edf88 [color="green"];
+  BB005edf50 -> BB005edf67 [color="red"];
+  BB005edf67 -> BB005edf6e [color="blue"];
+  BB005edf88 -> BB005edf6e [color="blue"];
+}

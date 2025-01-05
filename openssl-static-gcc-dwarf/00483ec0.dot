@@ -1,0 +1,12 @@
+digraph cmd_NumTickets {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00483ec0 -> BB00483f10 [color="green"];
+  BB00483ec0 -> BB00483edc [color="red"];
+  BB00483edc -> BB00483ef2 [color="green"];
+  BB00483edc -> BB00483eea [color="red"];
+  BB00483eea -> BB00483ef2 [color="red"];
+  BB00483ef2 -> BB00483f12 [color="green"];
+  BB00483ef2 -> BB00483efb [color="red"];
+  BB00483f10 -> BB00483f12 [color="blue"];
+}

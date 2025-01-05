@@ -1,0 +1,35 @@
+digraph tls_construct_ctos_renegotiate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d3620 -> BB004d36e0 [color="green"];
+  BB004d3620 -> BB004d363b [color="red"];
+  BB004d363b -> BB004d3678 [color="green"];
+  BB004d363b -> BB004d364c [color="red"];
+  BB004d364c -> BB004d3760 [color="green"];
+  BB004d364c -> BB004d365c [color="red"];
+  BB004d365c -> BB004d3750 [color="green"];
+  BB004d365c -> BB004d3678 [color="red"];
+  BB004d3678 -> BB004d36a3 [color="green"];
+  BB004d3678 -> BB004d368e [color="red"];
+  BB004d368e -> BB004d3720 [color="green"];
+  BB004d368e -> BB004d36a3 [color="red"];
+  BB004d36a3 -> BB004d36b4 [color="red"];
+  BB004d36b4 -> BB004d36d8 [color="red"];
+  BB004d36e0 -> BB004d3707 [color="green"];
+  BB004d36e0 -> BB004d36f6 [color="red"];
+  BB004d36f6 -> BB004d3770 [color="green"];
+  BB004d36f6 -> BB004d3707 [color="red"];
+  BB004d3707 -> BB004d36b4 [color="blue"];
+  BB004d3720 -> BB004d36a3 [color="green"];
+  BB004d3720 -> BB004d3737 [color="red"];
+  BB004d3737 -> BB004d36a3 [color="green"];
+  BB004d3737 -> BB004d3747 [color="red"];
+  BB004d3747 -> BB004d36d8 [color="blue"];
+  BB004d3750 -> BB004d3678 [color="green"];
+  BB004d3750 -> BB004d3760 [color="red"];
+  BB004d3770 -> BB004d3707 [color="green"];
+  BB004d3770 -> BB004d3793 [color="red"];
+  BB004d3793 -> BB004d3747 [color="green"];
+  BB004d3793 -> BB004d379f [color="red"];
+  BB004d379f -> BB004d3707 [color="blue"];
+}

@@ -1,0 +1,9 @@
+digraph sm4_128_cfb128_newctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006a3500 -> BB006a3562 [color="green"];
+  BB006a3500 -> BB006a3516 [color="red"];
+  BB006a3516 -> BB006a3562 [color="green"];
+  BB006a3516 -> BB006a3534 [color="red"];
+  BB006a3534 -> BB006a3562 [color="red"];
+}

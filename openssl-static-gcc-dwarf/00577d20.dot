@@ -1,0 +1,12 @@
+digraph SCT_set1_extensions {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00577d20 -> BB00577d63 [color="green"];
+  BB00577d20 -> BB00577d5e [color="red"];
+  BB00577d5e -> BB00577d70 [color="green"];
+  BB00577d5e -> BB00577d63 [color="red"];
+  BB00577d63 -> BB00577d68 [color="blue"];
+  BB00577d70 -> BB00577d9e [color="green"];
+  BB00577d70 -> BB00577d90 [color="red"];
+  BB00577d9e -> BB00577d68 [color="blue"];
+}

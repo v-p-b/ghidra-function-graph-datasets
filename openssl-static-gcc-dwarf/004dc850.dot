@@ -1,0 +1,20 @@
+digraph tls_construct_stoc_supported_versions {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004dc850 -> BB004dc8b0 [color="green"];
+  BB004dc850 -> BB004dc86b [color="red"];
+  BB004dc86b -> BB004dc8a1 [color="red"];
+  BB004dc8b0 -> BB004dc86b [color="green"];
+  BB004dc8b0 -> BB004dc8bc [color="red"];
+  BB004dc8bc -> BB004dc86b [color="green"];
+  BB004dc8bc -> BB004dc8c3 [color="red"];
+  BB004dc8c3 -> BB004dc902 [color="green"];
+  BB004dc8c3 -> BB004dc8dc [color="red"];
+  BB004dc8dc -> BB004dc902 [color="green"];
+  BB004dc8dc -> BB004dc8ed [color="red"];
+  BB004dc8ed -> BB004dc940 [color="green"];
+  BB004dc8ed -> BB004dc902 [color="red"];
+  BB004dc940 -> BB004dc902 [color="green"];
+  BB004dc940 -> BB004dc94c [color="red"];
+  BB004dc94c -> BB004dc8a1 [color="blue"];
+}

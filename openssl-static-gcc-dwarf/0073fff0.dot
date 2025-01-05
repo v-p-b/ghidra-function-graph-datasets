@@ -1,0 +1,10 @@
+digraph pkey_dsa_verify {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0073fff0 -> BB00740050 [color="green"];
+  BB0073fff0 -> BB00740029 [color="red"];
+  BB00740029 -> BB00740039 [color="green"];
+  BB00740029 -> BB00740032 [color="red"];
+  BB00740032 -> BB00740050 [color="green"];
+  BB00740032 -> BB00740039 [color="red"];
+}

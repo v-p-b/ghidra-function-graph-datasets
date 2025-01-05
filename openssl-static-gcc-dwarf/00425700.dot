@@ -1,0 +1,25 @@
+digraph list_signatures {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00425700 -> BB0042575b [color="blue"];
+  BB00425750 -> BB00425758 [color="red"];
+  BB00425758 -> BB0042575b [color="blue"];
+  BB0042575b -> BB00425880 [color="green"];
+  BB0042575b -> BB0042576b [color="red"];
+  BB0042576b -> BB00425790 [color="green"];
+  BB0042576b -> BB00425784 [color="red"];
+  BB00425784 -> BB00425758 [color="green"];
+  BB00425784 -> BB00425790 [color="red"];
+  BB00425790 -> BB00425750 [color="green"];
+  BB00425790 -> BB004257a4 [color="red"];
+  BB004257a4 -> BB00425750 [color="green"];
+  BB004257a4 -> BB004257ba [color="red"];
+  BB004257ba -> BB00425750 [color="green"];
+  BB004257ba -> BB00425814 [color="red"];
+  BB00425814 -> BB00425839 [color="green"];
+  BB00425814 -> BB00425824 [color="red"];
+  BB00425824 -> BB00425839 [color="red"];
+  BB00425839 -> BB00425750 [color="blue"];
+  BB00425880 -> BB004258a8 [color="green"];
+  BB00425880 -> BB00425894 [color="red"];
+}

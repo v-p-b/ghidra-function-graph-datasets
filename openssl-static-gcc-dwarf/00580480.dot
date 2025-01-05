@@ -1,0 +1,14 @@
+digraph DSO_merge {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00580480 -> BB005804b0 [color="green"];
+  BB00580480 -> BB00580485 [color="red"];
+  BB00580485 -> BB005804b0 [color="green"];
+  BB00580485 -> BB0058048a [color="red"];
+  BB0058048a -> BB005804ac [color="green"];
+  BB0058048a -> BB00580490 [color="red"];
+  BB00580490 -> BB005804a0 [color="green"];
+  BB00580490 -> BB00580499 [color="red"];
+  BB005804a0 -> BB00580499 [color="green"];
+  BB005804a0 -> BB005804ac [color="red"];
+}

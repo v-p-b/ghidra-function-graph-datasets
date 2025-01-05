@@ -1,0 +1,9 @@
+digraph ossl_policy_data_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008561b0 -> BB00856208 [color="green"];
+  BB008561b0 -> BB008561b5 [color="red"];
+  BB008561b5 -> BB008561f0 [color="green"];
+  BB008561b5 -> BB008561c8 [color="red"];
+  BB008561f0 -> BB008561c8 [color="blue"];
+}

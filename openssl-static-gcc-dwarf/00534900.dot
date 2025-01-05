@@ -1,0 +1,11 @@
+digraph acpt_puts {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00534900 -> BB00401100 [color="blue"];
+  BB00534900 -> BB0053493f [color="blue"];
+  BB00534930 -> BB00534963 [color="green"];
+  BB00534930 -> BB0053493f [color="red"];
+  BB0053493f -> BB00534930 [color="green"];
+  BB0053493f -> BB00534948 [color="red"];
+  BB00534948 -> BB00534963 [color="red"];
+}

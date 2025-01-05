@@ -1,0 +1,12 @@
+digraph BIO_get_new_index {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0052ffd0 -> BB00530010 [color="green"];
+  BB0052ffd0 -> BB0052ffeb [color="red"];
+  BB0052ffeb -> BB00530010 [color="green"];
+  BB0052ffeb -> BB0052fff5 [color="red"];
+  BB0052fff5 -> BB00530050 [color="green"];
+  BB0052fff5 -> BB0053000b [color="red"];
+  BB00530010 -> BB0053000b [color="blue"];
+  BB00530050 -> BB0053000b [color="blue"];
+}

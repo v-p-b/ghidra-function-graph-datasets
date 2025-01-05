@@ -1,0 +1,26 @@
+digraph CRYPTO_zalloc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005ee000 -> BB005ee050 [color="green"];
+  BB005ee000 -> BB005ee021 [color="red"];
+  BB005ee021 -> BB005ee079 [color="green"];
+  BB005ee021 -> BB005ee02e [color="red"];
+  BB005ee02e -> BB005ee098 [color="green"];
+  BB005ee02e -> BB005ee033 [color="red"];
+  BB005ee033 -> BB005ee0a0 [color="green"];
+  BB005ee033 -> BB005ee038 [color="red"];
+  BB005ee038 -> BB005ee0a0 [color="green"];
+  BB005ee038 -> BB005ee03d [color="red"];
+  BB005ee050 -> BB005ee03d [color="green"];
+  BB005ee050 -> BB005ee055 [color="red"];
+  BB005ee055 -> BB005ee069 [color="green"];
+  BB005ee055 -> BB005ee05f [color="red"];
+  BB005ee05f -> BB005ee069 [color="blue"];
+  BB005ee069 -> BB005ee033 [color="green"];
+  BB005ee069 -> BB005ee079 [color="red"];
+  BB005ee079 -> BB00401080 [color="blue"];
+  BB005ee098 -> BB005ee079 [color="green"];
+  BB005ee098 -> BB005ee09d [color="red"];
+  BB005ee09d -> BB005ee03d [color="blue"];
+  BB005ee0a0 -> BB005ee03d [color="blue"];
+}

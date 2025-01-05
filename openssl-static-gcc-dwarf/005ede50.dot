@@ -1,0 +1,23 @@
+digraph CRYPTO_malloc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005ede50 -> BB005ede98 [color="green"];
+  BB005ede50 -> BB005ede71 [color="red"];
+  BB005ede71 -> BB005ede8c [color="green"];
+  BB005ede71 -> BB005ede7b [color="red"];
+  BB005ede7b -> BB005ede8c [color="green"];
+  BB005ede7b -> BB005ede80 [color="red"];
+  BB005ede80 -> BB005edec8 [color="green"];
+  BB005ede80 -> BB005ede85 [color="red"];
+  BB005ede85 -> BB005edec8 [color="green"];
+  BB005ede85 -> BB005ede8a [color="red"];
+  BB005ede8a -> BB005ede8c [color="blue"];
+  BB005ede98 -> BB005ede8a [color="green"];
+  BB005ede98 -> BB005ede9d [color="red"];
+  BB005ede9d -> BB005edeb1 [color="green"];
+  BB005ede9d -> BB005edea7 [color="red"];
+  BB005edea7 -> BB005edeb1 [color="blue"];
+  BB005edeb1 -> BB005ede80 [color="green"];
+  BB005edeb1 -> BB005edebe [color="red"];
+  BB005edec8 -> BB005ede8c [color="blue"];
+}

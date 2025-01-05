@@ -1,0 +1,17 @@
+digraph OSSL_HTTP_REQ_CTX_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e3300 -> BB005e33c8 [color="green"];
+  BB005e3300 -> BB005e3313 [color="red"];
+  BB005e3313 -> BB005e33c8 [color="green"];
+  BB005e3313 -> BB005e331f [color="red"];
+  BB005e331f -> BB005e33a4 [color="green"];
+  BB005e331f -> BB005e3342 [color="red"];
+  BB005e3342 -> BB005e33b8 [color="green"];
+  BB005e3342 -> BB005e334f [color="red"];
+  BB005e334f -> BB005e3409 [color="green"];
+  BB005e334f -> BB005e3398 [color="red"];
+  BB005e3398 -> BB005e33a4 [color="blue"];
+  BB005e33b8 -> BB005e334f [color="blue"];
+  BB005e3409 -> BB005e33a4 [color="blue"];
+}

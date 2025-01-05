@@ -1,0 +1,25 @@
+digraph X509_PUBKEY_dup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006875a0 -> BB0068767a [color="green"];
+  BB006875a0 -> BB006875c9 [color="red"];
+  BB006875c9 -> BB0068761c [color="green"];
+  BB006875c9 -> BB006875fa [color="red"];
+  BB006875fa -> BB00687780 [color="green"];
+  BB006875fa -> BB0068761c [color="red"];
+  BB0068761c -> BB0068768c [color="green"];
+  BB0068761c -> BB0068762d [color="red"];
+  BB0068762d -> BB00687688 [color="green"];
+  BB0068762d -> BB0068763f [color="red"];
+  BB0068763f -> BB00687688 [color="green"];
+  BB0068763f -> BB00687652 [color="red"];
+  BB00687652 -> BB0068767a [color="green"];
+  BB00687652 -> BB00687659 [color="red"];
+  BB00687659 -> BB00687710 [color="green"];
+  BB00687659 -> BB00687675 [color="red"];
+  BB00687675 -> BB0068767a [color="red"];
+  BB00687688 -> BB0068768c [color="blue"];
+  BB00687710 -> BB00687675 [color="green"];
+  BB00687710 -> BB0068772b [color="red"];
+  BB0068772b -> BB0068767a [color="blue"];
+}

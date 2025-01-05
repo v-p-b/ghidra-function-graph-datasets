@@ -1,0 +1,16 @@
+digraph PEM_dek_info {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006149b0 -> BB00401100 [color="green"];
+  BB006149b0 -> BB00614a38 [color="green"];
+  BB006149b0 -> BB006149f0 [color="red"];
+  BB006149f0 -> BB00614a48 [color="green"];
+  BB006149f0 -> BB006149fc [color="red"];
+  BB006149fc -> BB00614a21 [color="blue"];
+  BB00614a10 -> BB00614a48 [color="green"];
+  BB00614a10 -> BB00614a21 [color="red"];
+  BB00614a21 -> BB00614a10 [color="green"];
+  BB00614a21 -> BB00614a38 [color="red"];
+  BB00614a48 -> BB00614a38 [color="green"];
+  BB00614a48 -> BB00614a4e [color="red"];
+}

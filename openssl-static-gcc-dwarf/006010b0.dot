@@ -1,0 +1,17 @@
+digraph OPENSSL_cleanse {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006010b0 -> BB006010e0 [color="green"];
+  BB006010b0 -> BB006010bd [color="red"];
+  BB006010bd -> BB006010cf [color="green"];
+  BB006010bd -> BB006010c3 [color="red"];
+  BB006010c3 -> BB006010c3 [color="green"];
+  BB006010c3 -> BB006010cf [color="red"];
+  BB006010e0 -> BB006010f5 [color="green"];
+  BB006010e0 -> BB006010e9 [color="red"];
+  BB006010e9 -> BB006010e0 [color="blue"];
+  BB006010f5 -> BB006010f5 [color="green"];
+  BB006010f5 -> BB00601109 [color="red"];
+  BB00601109 -> BB006010c3 [color="green"];
+  BB00601109 -> BB0060110f [color="red"];
+}

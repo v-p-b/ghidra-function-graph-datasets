@@ -1,0 +1,11 @@
+digraph ossl_quic_vlint_decode_unchecked {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00600060 -> BB006000e0 [color="green"];
+  BB00600060 -> BB0060006c [color="red"];
+  BB0060006c -> BB00600110 [color="green"];
+  BB0060006c -> BB0060007d [color="red"];
+  BB0060007d -> BB006000e8 [color="green"];
+  BB0060007d -> BB0060008c [color="red"];
+  BB0060008c -> BB006000e0 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph PEM_read_bio_DHparams {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00613780 -> BB00613890 [color="green"];
+  BB00613780 -> BB006137d1 [color="red"];
+  BB006137d1 -> BB00613848 [color="green"];
+  BB006137d1 -> BB00613803 [color="red"];
+  BB00613803 -> BB00613855 [color="green"];
+  BB00613803 -> BB00613810 [color="red"];
+  BB00613848 -> BB00613810 [color="green"];
+  BB00613848 -> BB00613855 [color="red"];
+  BB00613855 -> BB00613810 [color="blue"];
+}

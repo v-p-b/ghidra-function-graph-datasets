@@ -1,0 +1,10 @@
+digraph X509_PUBKEY_get0 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00687b10 -> BB00687b30 [color="green"];
+  BB00687b10 -> BB00687b17 [color="red"];
+  BB00687b17 -> BB00687b68 [color="green"];
+  BB00687b17 -> BB00687b20 [color="red"];
+  BB00687b30 -> BB00687b20 [color="blue"];
+  BB00687b68 -> BB00687b20 [color="blue"];
+}

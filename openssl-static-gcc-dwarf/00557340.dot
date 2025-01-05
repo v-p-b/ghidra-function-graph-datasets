@@ -1,0 +1,18 @@
+digraph OSSL_CMP_CTX_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00557340 -> BB005574d8 [color="green"];
+  BB00557340 -> BB00557372 [color="red"];
+  BB00557372 -> BB0055739c [color="green"];
+  BB00557372 -> BB0055737a [color="red"];
+  BB0055737a -> BB005574d8 [color="green"];
+  BB0055737a -> BB0055739c [color="red"];
+  BB0055739c -> BB005574f8 [color="green"];
+  BB0055739c -> BB005573e8 [color="red"];
+  BB005573e8 -> BB005574a8 [color="green"];
+  BB005573e8 -> BB0055741e [color="red"];
+  BB0055741e -> BB005574a8 [color="green"];
+  BB0055741e -> BB00557468 [color="red"];
+  BB005574a8 -> BB005574d8 [color="red"];
+  BB005574f8 -> BB005574d8 [color="blue"];
+}

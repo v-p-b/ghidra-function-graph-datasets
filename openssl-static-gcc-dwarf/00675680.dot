@@ -1,0 +1,12 @@
+digraph X509_OBJECT_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00675680 -> BB00675695 [color="green"];
+  BB00675680 -> BB00675689 [color="red"];
+  BB00675689 -> BB006756c0 [color="green"];
+  BB00675689 -> BB00675690 [color="red"];
+  BB00675690 -> BB006756b0 [color="green"];
+  BB00675690 -> BB00675695 [color="red"];
+  BB006756b0 -> BB00675695 [color="blue"];
+  BB006756c0 -> BB00675695 [color="blue"];
+}

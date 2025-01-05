@@ -1,0 +1,16 @@
+digraph SSL_client_hello_get0_random {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004927f0 -> BB00492830 [color="green"];
+  BB004927f0 -> BB004927f5 [color="red"];
+  BB004927f5 -> BB00492810 [color="green"];
+  BB004927f5 -> BB004927fb [color="red"];
+  BB004927fb -> BB0049280b [color="green"];
+  BB004927fb -> BB00492802 [color="red"];
+  BB00492802 -> BB00492810 [color="green"];
+  BB00492802 -> BB0049280b [color="red"];
+  BB00492810 -> BB00492830 [color="green"];
+  BB00492810 -> BB0049281c [color="red"];
+  BB0049281c -> BB0049280b [color="green"];
+  BB0049281c -> BB00492826 [color="red"];
+}

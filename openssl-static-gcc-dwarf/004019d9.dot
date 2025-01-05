@@ -1,0 +1,15 @@
+digraph putchar.cold {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004019d9 -> BB00401a0a [color="green"];
+  BB004019d9 -> BB004019e1 [color="red"];
+  BB004019e1 -> BB00401a0a [color="green"];
+  BB004019e1 -> BB004019f3 [color="red"];
+  BB004019f3 -> BB00401a12 [color="green"];
+  BB004019f3 -> BB00401a07 [color="red"];
+  BB00401a07 -> BB00401a0a [color="blue"];
+  BB00401a0a -> BB00401a0d [color="blue"];
+  BB00401a12 -> BB00401a0a [color="green"];
+  BB00401a12 -> BB00401a19 [color="red"];
+  BB00401a19 -> BB00401a0a [color="blue"];
+}

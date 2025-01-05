@@ -1,0 +1,10 @@
+digraph ossl_ed25519_public_from_private {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00750b10 -> BB00750c1d [color="green"];
+  BB00750b10 -> BB00750b40 [color="red"];
+  BB00750b40 -> BB00750c30 [color="green"];
+  BB00750b40 -> BB00750b77 [color="red"];
+  BB00750b77 -> BB00750c1d [color="red"];
+  BB00750c30 -> BB00750c1d [color="blue"];
+}

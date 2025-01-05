@@ -1,0 +1,15 @@
+digraph _IO_wfile_underflow.cold {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00401a2f -> BB00401a6b [color="green"];
+  BB00401a2f -> BB00401a3e [color="red"];
+  BB00401a3e -> BB00401a6b [color="green"];
+  BB00401a3e -> BB00401a54 [color="red"];
+  BB00401a54 -> BB00401a73 [color="green"];
+  BB00401a54 -> BB00401a68 [color="red"];
+  BB00401a68 -> BB00401a6b [color="blue"];
+  BB00401a6b -> BB00401a6e [color="blue"];
+  BB00401a73 -> BB00401a6b [color="green"];
+  BB00401a73 -> BB00401a7a [color="red"];
+  BB00401a7a -> BB00401a6b [color="blue"];
+}

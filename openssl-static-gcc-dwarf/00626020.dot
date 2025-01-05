@@ -1,0 +1,12 @@
+digraph PKCS7_set_attributes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00626020 -> BB00626079 [color="green"];
+  BB00626020 -> BB0062604e [color="red"];
+  BB0062604e -> BB00626090 [color="blue"];
+  BB00626050 -> BB00626090 [color="green"];
+  BB00626050 -> BB00626076 [color="red"];
+  BB00626076 -> BB00626079 [color="blue"];
+  BB00626079 -> BB00626050 [color="green"];
+  BB00626079 -> BB00626085 [color="red"];
+}

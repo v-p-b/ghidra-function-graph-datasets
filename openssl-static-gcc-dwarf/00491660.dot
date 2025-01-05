@@ -1,0 +1,14 @@
+digraph SSL_get0_verified_chain {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00491660 -> BB00491690 [color="green"];
+  BB00491660 -> BB00491665 [color="red"];
+  BB00491665 -> BB0049167c [color="green"];
+  BB00491665 -> BB0049166b [color="red"];
+  BB0049166b -> BB00491683 [color="green"];
+  BB0049166b -> BB00491673 [color="red"];
+  BB00491673 -> BB00491683 [color="green"];
+  BB00491673 -> BB0049167c [color="red"];
+  BB0049167c -> BB00491683 [color="blue"];
+  BB00491690 -> BB00491683 [color="blue"];
+}

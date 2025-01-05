@@ -1,0 +1,19 @@
+digraph X509_cmp_timeframe {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0067d260 -> BB0067d2f0 [color="green"];
+  BB0067d260 -> BB0067d274 [color="red"];
+  BB0067d274 -> BB0067d2d8 [color="green"];
+  BB0067d274 -> BB0067d280 [color="red"];
+  BB0067d280 -> BB0067d292 [color="red"];
+  BB0067d292 -> BB0067d2af [color="green"];
+  BB0067d292 -> BB0067d297 [color="red"];
+  BB0067d297 -> BB0067d2c9 [color="green"];
+  BB0067d297 -> BB0067d2af [color="red"];
+  BB0067d2af -> BB0067d2df [color="green"];
+  BB0067d2af -> BB0067d2b4 [color="red"];
+  BB0067d2b4 -> BB0067d2c9 [color="red"];
+  BB0067d2d8 -> BB0067d2f0 [color="green"];
+  BB0067d2d8 -> BB0067d2df [color="red"];
+  BB0067d2f0 -> BB0067d292 [color="blue"];
+}

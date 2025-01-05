@@ -1,0 +1,15 @@
+digraph conn_sendmmsg {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005350f0 -> BB005351b8 [color="green"];
+  BB005350f0 -> BB0053510a [color="red"];
+  BB0053510a -> BB00535150 [color="green"];
+  BB0053510a -> BB0053511f [color="red"];
+  BB0053511f -> BB00535178 [color="green"];
+  BB0053511f -> BB00535128 [color="red"];
+  BB00535150 -> BB0053511f [color="green"];
+  BB00535150 -> BB0053515c [color="red"];
+  BB0053515c -> BB00535163 [color="blue"];
+  BB00535178 -> BB00535163 [color="blue"];
+  BB005351b8 -> BB00535163 [color="blue"];
+}

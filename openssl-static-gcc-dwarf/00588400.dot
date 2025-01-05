@@ -1,0 +1,16 @@
+digraph EC_KEY_set_group {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00588400 -> BB0058841e [color="green"];
+  BB00588400 -> BB00588418 [color="red"];
+  BB00588418 -> BB0058845f [color="green"];
+  BB00588418 -> BB0058841e [color="red"];
+  BB0058841e -> BB00588470 [color="green"];
+  BB0058841e -> BB0058843b [color="red"];
+  BB0058843b -> BB00588480 [color="green"];
+  BB0058843b -> BB00588447 [color="red"];
+  BB00588447 -> BB0058844f [color="blue"];
+  BB0058844f -> BB0058845f [color="blue"];
+  BB00588470 -> BB0058844f [color="blue"];
+  BB00588480 -> BB0058844f [color="blue"];
+}

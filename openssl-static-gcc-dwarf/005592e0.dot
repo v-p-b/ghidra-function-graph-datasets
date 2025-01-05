@@ -1,0 +1,30 @@
+digraph OSSL_CMP_CTX_set_option {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005592e0 -> BB00559380 [color="green"];
+  BB005592e0 -> BB005592ed [color="red"];
+  BB005592ed -> BB00559360 [color="green"];
+  BB005592ed -> BB005592f7 [color="red"];
+  BB005592f7 -> BB00559320 [color="green"];
+  BB005592f7 -> BB005592fc [color="red"];
+  BB005592fc -> BB00559329 [color="green"];
+  BB005592fc -> BB00559300 [color="red"];
+  BB00559300 -> BB005593b8 [color="green"];
+  BB00559300 -> BB00559309 [color="red"];
+  BB00559320 -> BB005595a8 [color="green"];
+  BB00559320 -> BB00559329 [color="red"];
+  BB00559329 -> BB0055935b [color="red"];
+  BB00559360 -> BB00559329 [color="green"];
+  BB00559360 -> BB00559365 [color="red"];
+  BB00559365 -> BB00559636 [color="green"];
+  BB00559365 -> BB0055936e [color="red"];
+  BB0055936e -> BB0055935b [color="blue"];
+  BB00559380 -> BB0055935b [color="blue"];
+  BB005593b8 -> BB0055935b [color="blue"];
+  BB005595a8 -> BB0055966d [color="green"];
+  BB005595a8 -> BB005595b1 [color="red"];
+  BB005595b1 -> BB0055935b [color="blue"];
+  BB00559636 -> BB00559647 [color="red"];
+  BB00559647 -> BB0055935b [color="blue"];
+  BB0055966d -> BB00559647 [color="blue"];
+}

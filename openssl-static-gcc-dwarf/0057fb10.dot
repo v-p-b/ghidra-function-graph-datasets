@@ -1,0 +1,20 @@
+digraph DSA_verify {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0057fb10 -> BB0057fc5e [color="green"];
+  BB0057fb10 -> BB0057fb5f [color="red"];
+  BB0057fb5f -> BB0057fc48 [color="green"];
+  BB0057fb5f -> BB0057fb7d [color="red"];
+  BB0057fb7d -> BB0057fbf8 [color="green"];
+  BB0057fb7d -> BB0057fb90 [color="red"];
+  BB0057fb90 -> BB0057fb9d [color="blue"];
+  BB0057fb9d -> BB0057fbe4 [color="green"];
+  BB0057fb9d -> BB0057fbbe [color="red"];
+  BB0057fbbe -> BB0057fbe4 [color="red"];
+  BB0057fbf8 -> BB004010d8 [color="green"];
+  BB0057fbf8 -> BB0057fb9d [color="green"];
+  BB0057fbf8 -> BB0057fc22 [color="red"];
+  BB0057fc22 -> BB0057fb9d [color="blue"];
+  BB0057fc48 -> BB0057fb9d [color="blue"];
+  BB0057fc5e -> BB0057fbe4 [color="blue"];
+}

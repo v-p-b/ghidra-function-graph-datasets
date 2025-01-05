@@ -1,0 +1,16 @@
+digraph OSSL_DECODER_do_all_provided {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0059d6f0 -> BB0059d860 [color="green"];
+  BB0059d6f0 -> BB0059d734 [color="red"];
+  BB0059d734 -> BB0059d860 [color="green"];
+  BB0059d734 -> BB0059d73d [color="red"];
+  BB0059d73d -> BB0059d7fa [color="red"];
+  BB0059d7fa -> BB0059d81d [color="green"];
+  BB0059d7fa -> BB0059d80e [color="red"];
+  BB0059d80e -> BB0059d81d [color="red"];
+  BB0059d81d -> BB0059d84b [color="green"];
+  BB0059d81d -> BB0059d846 [color="red"];
+  BB0059d846 -> BB0059d84b [color="red"];
+  BB0059d860 -> BB0059d7fa [color="blue"];
+}

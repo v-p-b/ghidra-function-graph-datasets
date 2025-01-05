@@ -1,0 +1,12 @@
+digraph OSSL_CMP_CTX_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00557070 -> BB00557330 [color="green"];
+  BB00557070 -> BB00557079 [color="red"];
+  BB00557079 -> BB005570d2 [color="green"];
+  BB00557079 -> BB0055708c [color="red"];
+  BB0055708c -> BB005570d2 [color="red"];
+  BB005570d2 -> BB005571c6 [color="green"];
+  BB005570d2 -> BB005571b3 [color="red"];
+  BB005571b3 -> BB005571c6 [color="red"];
+}

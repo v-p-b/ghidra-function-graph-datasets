@@ -1,0 +1,36 @@
+digraph EVP_PKEY_verify_recover {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e0e10 -> BB005e0fa5 [color="green"];
+  BB005e0e10 -> BB005e0e1e [color="red"];
+  BB005e0e1e -> BB005e0f30 [color="green"];
+  BB005e0e1e -> BB005e0e2a [color="red"];
+  BB005e0e2a -> BB005e0e68 [color="green"];
+  BB005e0e2a -> BB005e0e36 [color="red"];
+  BB005e0e36 -> BB005e0fdf [color="green"];
+  BB005e0e36 -> BB005e0e4a [color="red"];
+  BB005e0e4a -> BB005e0e55 [color="green"];
+  BB005e0e4a -> BB005e0e52 [color="red"];
+  BB005e0e52 -> BB005e0e55 [color="blue"];
+  BB005e0e68 -> BB005e1019 [color="green"];
+  BB005e0e68 -> BB005e0e75 [color="red"];
+  BB005e0e75 -> BB005e1019 [color="green"];
+  BB005e0e75 -> BB005e0e82 [color="red"];
+  BB005e0e82 -> BB005e0ea0 [color="green"];
+  BB005e0e82 -> BB005e0e88 [color="red"];
+  BB005e0ea0 -> BB005e0ef8 [color="green"];
+  BB005e0ea0 -> BB005e0ed9 [color="red"];
+  BB005e0ed9 -> BB005e0f67 [color="green"];
+  BB005e0ed9 -> BB005e0ee2 [color="red"];
+  BB005e0ee2 -> BB005e0f71 [color="green"];
+  BB005e0ee2 -> BB005e0eeb [color="red"];
+  BB005e0eeb -> BB005e0e88 [color="blue"];
+  BB005e0ef8 -> BB005e0f2a [color="red"];
+  BB005e0f30 -> BB005e0f2a [color="blue"];
+  BB005e0f67 -> BB005e0f2a [color="blue"];
+  BB005e0f71 -> BB005e0f2a [color="blue"];
+  BB005e0fa5 -> BB005e0f2a [color="blue"];
+  BB005e0fdf -> BB005e0ff0 [color="red"];
+  BB005e0ff0 -> BB005e0f2a [color="blue"];
+  BB005e1019 -> BB005e0ff0 [color="blue"];
+}

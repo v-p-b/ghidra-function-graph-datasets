@@ -1,0 +1,9 @@
+digraph cast5_128_ecb_newctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006fc450 -> BB006fc4b2 [color="green"];
+  BB006fc450 -> BB006fc466 [color="red"];
+  BB006fc466 -> BB006fc4b2 [color="green"];
+  BB006fc466 -> BB006fc484 [color="red"];
+  BB006fc484 -> BB006fc4b2 [color="red"];
+}

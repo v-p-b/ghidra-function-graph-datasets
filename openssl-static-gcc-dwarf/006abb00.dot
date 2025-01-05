@@ -1,0 +1,12 @@
+digraph sm3_internal_final {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006abb00 -> BB006abb25 [color="green"];
+  BB006abb00 -> BB006abb1f [color="red"];
+  BB006abb1f -> BB006abb38 [color="green"];
+  BB006abb1f -> BB006abb25 [color="red"];
+  BB006abb25 -> BB006abb27 [color="blue"];
+  BB006abb38 -> BB006abb25 [color="green"];
+  BB006abb38 -> BB006abb47 [color="red"];
+  BB006abb47 -> BB006abb27 [color="blue"];
+}

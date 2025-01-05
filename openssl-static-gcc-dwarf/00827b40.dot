@@ -1,0 +1,20 @@
+digraph d2i_ocsp_nonce {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00827b40 -> BB00827bf0 [color="green"];
+  BB00827b40 -> BB00827b59 [color="red"];
+  BB00827b59 -> BB00827b90 [color="green"];
+  BB00827b59 -> BB00827b64 [color="red"];
+  BB00827b64 -> BB00827ba0 [color="green"];
+  BB00827b64 -> BB00827b76 [color="red"];
+  BB00827b90 -> BB00827b64 [color="green"];
+  BB00827b90 -> BB00827b9d [color="red"];
+  BB00827b9d -> BB00827ba0 [color="blue"];
+  BB00827ba0 -> BB00827bae [color="green"];
+  BB00827ba0 -> BB00827ba6 [color="red"];
+  BB00827ba6 -> BB00827bae [color="red"];
+  BB00827bf0 -> BB00827ba6 [color="green"];
+  BB00827bf0 -> BB00827bfd [color="red"];
+  BB00827bfd -> BB00827ba6 [color="green"];
+  BB00827bfd -> BB00827c0f [color="red"];
+}

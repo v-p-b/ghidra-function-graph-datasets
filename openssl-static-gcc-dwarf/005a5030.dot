@@ -1,0 +1,12 @@
+digraph ENGINE_register_all_DSA {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005a5030 -> BB005a5089 [color="green"];
+  BB005a5030 -> BB005a5040 [color="red"];
+  BB005a5040 -> BB005a5050 [color="blue"];
+  BB005a5050 -> BB005a5079 [color="green"];
+  BB005a5050 -> BB005a5057 [color="red"];
+  BB005a5057 -> BB005a5079 [color="red"];
+  BB005a5079 -> BB005a5050 [color="green"];
+  BB005a5079 -> BB005a5089 [color="red"];
+}

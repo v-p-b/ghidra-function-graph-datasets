@@ -1,0 +1,14 @@
+digraph ossl_ec_key_private_check {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00587ee0 -> BB00587f68 [color="green"];
+  BB00587ee0 -> BB00587eea [color="red"];
+  BB00587eea -> BB00587f68 [color="green"];
+  BB00587eea -> BB00587ef4 [color="red"];
+  BB00587ef4 -> BB00587f68 [color="green"];
+  BB00587ef4 -> BB00587efb [color="red"];
+  BB00587efb -> BB00587f30 [color="green"];
+  BB00587efb -> BB00587f10 [color="red"];
+  BB00587f10 -> BB00587f30 [color="green"];
+  BB00587f10 -> BB00587f25 [color="red"];
+}

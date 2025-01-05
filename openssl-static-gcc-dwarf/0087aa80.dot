@@ -1,0 +1,9 @@
+digraph __fopen_maybe_mmap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0087aa80 -> BB0087aabd [color="green"];
+  BB0087aa80 -> BB0087aa89 [color="red"];
+  BB0087aa89 -> BB0087aabd [color="green"];
+  BB0087aa89 -> BB0087aa8e [color="red"];
+  BB0087aa8e -> BB0087aabd [color="blue"];
+}

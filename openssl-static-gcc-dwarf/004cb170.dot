@@ -1,0 +1,9 @@
+digraph tls1_allocate_write_buffers {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004cb170 -> BB004cb190 [color="green"];
+  BB004cb170 -> BB004cb18b [color="red"];
+  BB004cb18b -> BB004cb1b0 [color="green"];
+  BB004cb18b -> BB004cb190 [color="red"];
+  BB004cb1b0 -> BB004cb190 [color="blue"];
+}

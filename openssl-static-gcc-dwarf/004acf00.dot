@@ -1,0 +1,10 @@
+digraph wait_for_incoming_stream {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004acf00 -> BB004acf60 [color="green"];
+  BB004acf00 -> BB004acf1f [color="red"];
+  BB004acf1f -> BB004acf60 [color="green"];
+  BB004acf1f -> BB004acf2f [color="red"];
+  BB004acf2f -> BB004acf60 [color="green"];
+  BB004acf2f -> BB004acf3c [color="red"];
+}

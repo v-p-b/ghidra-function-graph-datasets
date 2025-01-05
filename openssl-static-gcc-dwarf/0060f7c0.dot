@@ -1,0 +1,14 @@
+digraph OCSP_request_add1_cert {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0060f7c0 -> BB0060f7f0 [color="green"];
+  BB0060f7c0 -> BB0060f7c9 [color="red"];
+  BB0060f7c9 -> BB0060f7e0 [color="green"];
+  BB0060f7c9 -> BB0060f7ce [color="red"];
+  BB0060f7f0 -> BB0060f840 [color="green"];
+  BB0060f7f0 -> BB0060f810 [color="red"];
+  BB0060f810 -> BB0060f830 [color="green"];
+  BB0060f810 -> BB0060f815 [color="red"];
+  BB0060f830 -> BB0060f835 [color="blue"];
+  BB0060f840 -> BB0060f835 [color="blue"];
+}

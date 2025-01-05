@@ -1,0 +1,19 @@
+digraph send_receive_also_delayed.part.0 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00555960 -> BB005559da [color="green"];
+  BB00555960 -> BB00555978 [color="red"];
+  BB00555978 -> BB00555a28 [color="green"];
+  BB00555978 -> BB00555990 [color="red"];
+  BB00555990 -> BB005559b2 [color="green"];
+  BB00555990 -> BB00555998 [color="red"];
+  BB00555998 -> BB00555a28 [color="green"];
+  BB00555998 -> BB005559af [color="red"];
+  BB005559af -> BB005559b2 [color="blue"];
+  BB005559b2 -> BB00555a30 [color="green"];
+  BB005559b2 -> BB005559da [color="red"];
+  BB005559da -> BB005559f8 [color="green"];
+  BB005559da -> BB005559ef [color="red"];
+  BB005559f8 -> BB00555a28 [color="red"];
+  BB00555a30 -> BB005559ef [color="blue"];
+}

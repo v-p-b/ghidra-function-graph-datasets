@@ -1,0 +1,29 @@
+digraph tls_construct_stoc_early_data {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004dd3f0 -> BB004dd490 [color="green"];
+  BB004dd3f0 -> BB004dd40e [color="red"];
+  BB004dd40e -> BB004dd420 [color="green"];
+  BB004dd40e -> BB004dd417 [color="red"];
+  BB004dd420 -> BB004dd44b [color="green"];
+  BB004dd420 -> BB004dd436 [color="red"];
+  BB004dd436 -> BB004dd500 [color="green"];
+  BB004dd436 -> BB004dd44b [color="red"];
+  BB004dd44b -> BB004dd45c [color="red"];
+  BB004dd490 -> BB004dd417 [color="green"];
+  BB004dd490 -> BB004dd49e [color="red"];
+  BB004dd49e -> BB004dd4e0 [color="green"];
+  BB004dd49e -> BB004dd4b4 [color="red"];
+  BB004dd4b4 -> BB004dd4e0 [color="green"];
+  BB004dd4b4 -> BB004dd4c5 [color="red"];
+  BB004dd4c5 -> BB004dd520 [color="green"];
+  BB004dd4c5 -> BB004dd4dc [color="red"];
+  BB004dd4dc -> BB004dd4e0 [color="blue"];
+  BB004dd4e0 -> BB004dd45c [color="blue"];
+  BB004dd500 -> BB004dd44b [color="green"];
+  BB004dd500 -> BB004dd510 [color="red"];
+  BB004dd510 -> BB004dd417 [color="blue"];
+  BB004dd520 -> BB004dd4e0 [color="green"];
+  BB004dd520 -> BB004dd52c [color="red"];
+  BB004dd52c -> BB004dd510 [color="blue"];
+}

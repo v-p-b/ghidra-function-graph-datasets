@@ -1,0 +1,15 @@
+digraph chacha20_poly1305_dinit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006a12e0 -> BB006a1323 [color="green"];
+  BB006a12e0 -> BB006a12ff [color="red"];
+  BB006a12ff -> BB006a1338 [color="green"];
+  BB006a12ff -> BB006a1307 [color="red"];
+  BB006a1307 -> BB006a1314 [color="blue"];
+  BB006a1314 -> BB006a1326 [color="green"];
+  BB006a1314 -> BB006a1323 [color="red"];
+  BB006a1323 -> BB006a1326 [color="blue"];
+  BB006a1338 -> BB006a1314 [color="green"];
+  BB006a1338 -> BB006a133c [color="red"];
+  BB006a133c -> BB006a1326 [color="blue"];
+}

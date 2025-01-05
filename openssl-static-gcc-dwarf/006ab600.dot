@@ -1,0 +1,13 @@
+digraph keccak_final {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006ab600 -> BB006ab63a [color="green"];
+  BB006ab600 -> BB006ab61f [color="red"];
+  BB006ab61f -> BB006ab660 [color="green"];
+  BB006ab61f -> BB006ab62c [color="red"];
+  BB006ab62c -> BB006ab648 [color="green"];
+  BB006ab62c -> BB006ab636 [color="red"];
+  BB006ab636 -> BB006ab63a [color="blue"];
+  BB006ab648 -> BB006ab636 [color="blue"];
+  BB006ab660 -> BB006ab63a [color="blue"];
+}

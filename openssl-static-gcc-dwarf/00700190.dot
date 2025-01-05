@@ -1,0 +1,9 @@
+digraph seed_dupctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00700190 -> BB007001cc [color="green"];
+  BB00700190 -> BB007001a3 [color="red"];
+  BB007001a3 -> BB007001cc [color="green"];
+  BB007001a3 -> BB007001be [color="red"];
+  BB007001be -> BB007001cc [color="blue"];
+}

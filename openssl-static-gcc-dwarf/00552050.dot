@@ -1,0 +1,12 @@
+digraph BUF_MEM_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00552050 -> BB005520b0 [color="green"];
+  BB00552050 -> BB00552055 [color="red"];
+  BB00552055 -> BB0055207d [color="green"];
+  BB00552055 -> BB00552062 [color="red"];
+  BB00552062 -> BB00552098 [color="green"];
+  BB00552062 -> BB0055206c [color="red"];
+  BB0055206c -> BB0055207d [color="red"];
+  BB00552098 -> BB0055207d [color="blue"];
+}

@@ -1,0 +1,20 @@
+digraph ossl_asn1_item_digest_ex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0071a190 -> BB0071a230 [color="green"];
+  BB0071a190 -> BB0071a1cf [color="red"];
+  BB0071a1cf -> BB0071a230 [color="green"];
+  BB0071a1cf -> BB0071a1d7 [color="red"];
+  BB0071a1d7 -> BB0071a248 [color="green"];
+  BB0071a1d7 -> BB0071a1e9 [color="red"];
+  BB0071a1e9 -> BB0071a212 [color="green"];
+  BB0071a1e9 -> BB0071a1f6 [color="red"];
+  BB0071a1f6 -> BB0071a212 [color="red"];
+  BB0071a212 -> BB0071a230 [color="green"];
+  BB0071a212 -> BB0071a228 [color="red"];
+  BB0071a228 -> BB0071a230 [color="red"];
+  BB0071a248 -> BB0071a270 [color="green"];
+  BB0071a248 -> BB0071a25f [color="red"];
+  BB0071a25f -> BB0071a1e9 [color="blue"];
+  BB0071a270 -> BB0071a1e9 [color="blue"];
+}

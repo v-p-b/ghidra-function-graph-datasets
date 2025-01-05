@@ -1,0 +1,13 @@
+digraph i2r_pci {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00668260 -> BB00668318 [color="green"];
+  BB00668260 -> BB00668294 [color="red"];
+  BB00668294 -> BB0066829c [color="red"];
+  BB0066829c -> BB00668309 [color="green"];
+  BB0066829c -> BB006682e2 [color="red"];
+  BB006682e2 -> BB00668309 [color="green"];
+  BB006682e2 -> BB006682eb [color="red"];
+  BB006682eb -> BB00668309 [color="red"];
+  BB00668318 -> BB0066829c [color="blue"];
+}

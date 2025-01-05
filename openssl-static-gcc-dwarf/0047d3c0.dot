@@ -1,0 +1,14 @@
+digraph xname_cmp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0047d3c0 -> BB0047d458 [color="green"];
+  BB0047d3c0 -> BB0047d3fb [color="red"];
+  BB0047d3fb -> BB0047d458 [color="green"];
+  BB0047d3fb -> BB0047d3ff [color="red"];
+  BB0047d3ff -> BB0047d440 [color="green"];
+  BB0047d3ff -> BB0047d403 [color="red"];
+  BB0047d403 -> BB0047d408 [color="blue"];
+  BB0047d440 -> BB004010d8 [color="blue"];
+  BB0047d440 -> BB0047d408 [color="blue"];
+  BB0047d458 -> BB0047d408 [color="blue"];
+}

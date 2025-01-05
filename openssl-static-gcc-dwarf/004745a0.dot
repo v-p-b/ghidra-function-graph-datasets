@@ -1,0 +1,14 @@
+digraph print_ca_names {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004745a0 -> BB004745e9 [color="green"];
+  BB004745a0 -> BB004745da [color="red"];
+  BB004745da -> BB00474600 [color="green"];
+  BB004745da -> BB004745e9 [color="red"];
+  BB004745e9 -> BB00474670 [color="green"];
+  BB004745e9 -> BB004745f5 [color="red"];
+  BB00474600 -> BB00474655 [color="blue"];
+  BB00474620 -> BB00474655 [color="red"];
+  BB00474655 -> BB00474620 [color="green"];
+  BB00474655 -> BB00474661 [color="red"];
+}

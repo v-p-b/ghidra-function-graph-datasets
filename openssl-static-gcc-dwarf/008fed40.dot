@@ -1,0 +1,18 @@
+digraph do_release_shlib {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008fed40 -> BB008fed50 [color="green"];
+  BB008fed40 -> BB008fed44 [color="red"];
+  BB008fed44 -> BB008fed50 [color="green"];
+  BB008fed44 -> BB008fed49 [color="red"];
+  BB008fed50 -> BB008fed78 [color="green"];
+  BB008fed50 -> BB008fed5c [color="red"];
+  BB008fed5c -> BB008fed6f [color="green"];
+  BB008fed5c -> BB008fed64 [color="red"];
+  BB008fed64 -> BB008fed88 [color="green"];
+  BB008fed64 -> BB008fed6f [color="red"];
+  BB008fed78 -> BB008feda0 [color="green"];
+  BB008fed78 -> BB008fed7c [color="red"];
+  BB008fed88 -> BB008fed6f [color="green"];
+  BB008fed88 -> BB008fed91 [color="red"];
+}

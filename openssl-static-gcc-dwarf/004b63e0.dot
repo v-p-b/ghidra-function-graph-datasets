@@ -1,0 +1,15 @@
+digraph ossl_quic_port_set_net_rbio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b63e0 -> BB004b64a0 [color="green"];
+  BB004b63e0 -> BB004b63ef [color="red"];
+  BB004b63ef -> BB004b6468 [color="green"];
+  BB004b63ef -> BB004b640d [color="red"];
+  BB004b640d -> BB004b6468 [color="green"];
+  BB004b640d -> BB004b641c [color="red"];
+  BB004b641c -> BB004b646f [color="green"];
+  BB004b641c -> BB004b6422 [color="red"];
+  BB004b6422 -> BB004b646f [color="green"];
+  BB004b6422 -> BB004b642a [color="red"];
+  BB004b6468 -> BB004b646f [color="blue"];
+}

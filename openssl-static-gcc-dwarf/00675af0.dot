@@ -1,0 +1,14 @@
+digraph X509_LOOKUP_by_subject {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00675af0 -> BB00675b25 [color="green"];
+  BB00675af0 -> BB00675af7 [color="red"];
+  BB00675af7 -> BB00675b25 [color="green"];
+  BB00675af7 -> BB00675b00 [color="red"];
+  BB00675b00 -> BB00675b20 [color="green"];
+  BB00675b00 -> BB00675b0d [color="red"];
+  BB00675b0d -> BB00675b30 [color="green"];
+  BB00675b0d -> BB00675b12 [color="red"];
+  BB00675b20 -> BB00675b12 [color="green"];
+  BB00675b20 -> BB00675b25 [color="red"];
+}

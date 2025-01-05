@@ -1,0 +1,21 @@
+digraph key_to_spki_pem_pub_bio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b29c0 -> BB006b2aa0 [color="green"];
+  BB006b29c0 -> BB006b29f2 [color="red"];
+  BB006b29f2 -> BB006b2a4b [color="green"];
+  BB006b29f2 -> BB006b2a16 [color="red"];
+  BB006b2a16 -> BB006b2a1f [color="blue"];
+  BB006b2a1f -> BB006b2a60 [color="green"];
+  BB006b2a1f -> BB006b2a35 [color="red"];
+  BB006b2a35 -> BB006b2a43 [color="red"];
+  BB006b2a43 -> BB006b2a4b [color="red"];
+  BB006b2a60 -> BB006b2a90 [color="green"];
+  BB006b2a60 -> BB006b2a6e [color="red"];
+  BB006b2a6e -> BB006b2a80 [color="green"];
+  BB006b2a6e -> BB006b2a73 [color="red"];
+  BB006b2a73 -> BB006b2a43 [color="blue"];
+  BB006b2a80 -> BB006b2a73 [color="blue"];
+  BB006b2a90 -> BB006b2a43 [color="blue"];
+  BB006b2aa0 -> BB006b2a1f [color="blue"];
+}

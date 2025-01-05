@@ -1,0 +1,29 @@
+digraph OSSL_ESS_signing_cert_new_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005abe50 -> BB005abfce [color="green"];
+  BB005abe50 -> BB005abe72 [color="red"];
+  BB005abe72 -> BB005abf08 [color="green"];
+  BB005abe72 -> BB005abe7c [color="red"];
+  BB005abe7c -> BB005abfb8 [color="green"];
+  BB005abe7c -> BB005abe93 [color="red"];
+  BB005abe93 -> BB005abee8 [color="green"];
+  BB005abe93 -> BB005abea6 [color="red"];
+  BB005abea6 -> BB005abfb8 [color="blue"];
+  BB005abeb0 -> BB005abf30 [color="green"];
+  BB005abeb0 -> BB005abed0 [color="red"];
+  BB005abed0 -> BB005abf80 [color="green"];
+  BB005abed0 -> BB005abee4 [color="red"];
+  BB005abee4 -> BB005abee8 [color="blue"];
+  BB005abee8 -> BB005abeb0 [color="green"];
+  BB005abee8 -> BB005abef5 [color="red"];
+  BB005abf08 -> BB005abe7c [color="green"];
+  BB005abf08 -> BB005abf1d [color="red"];
+  BB005abf1d -> BB005abf91 [color="blue"];
+  BB005abf30 -> BB005abf41 [color="red"];
+  BB005abf41 -> BB005abf60 [color="red"];
+  BB005abf80 -> BB005abf91 [color="red"];
+  BB005abf91 -> BB005abf60 [color="blue"];
+  BB005abfb8 -> BB005abf41 [color="blue"];
+  BB005abfce -> BB005abf60 [color="blue"];
+}

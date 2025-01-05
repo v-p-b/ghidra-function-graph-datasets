@@ -1,0 +1,24 @@
+digraph prov_tls13_hkdf_expand {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006c4fc0 -> BB006c501f [color="green"];
+  BB006c4fc0 -> BB006c5006 [color="red"];
+  BB006c5006 -> BB006c5040 [color="green"];
+  BB006c5006 -> BB006c501f [color="red"];
+  BB006c501f -> BB006c5029 [color="red"];
+  BB006c5040 -> BB006c501f [color="green"];
+  BB006c5040 -> BB006c5051 [color="red"];
+  BB006c5051 -> BB006c501f [color="green"];
+  BB006c5051 -> BB006c5063 [color="red"];
+  BB006c5063 -> BB006c501f [color="green"];
+  BB006c5063 -> BB006c507a [color="red"];
+  BB006c507a -> BB006c501f [color="green"];
+  BB006c507a -> BB006c5086 [color="red"];
+  BB006c5086 -> BB006c501f [color="green"];
+  BB006c5086 -> BB006c50c5 [color="red"];
+  BB006c50c5 -> BB006c501f [color="green"];
+  BB006c50c5 -> BB006c50da [color="red"];
+  BB006c50da -> BB006c501f [color="green"];
+  BB006c50da -> BB006c50ea [color="red"];
+  BB006c50ea -> BB006c5029 [color="blue"];
+}

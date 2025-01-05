@@ -1,0 +1,16 @@
+digraph alg_cleanup_by_provider {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006293f0 -> BB0062947d [color="green"];
+  BB006293f0 -> BB00629411 [color="red"];
+  BB00629411 -> BB0062942e [color="blue"];
+  BB00629428 -> BB00629478 [color="green"];
+  BB00629428 -> BB0062942e [color="red"];
+  BB0062942e -> BB00629428 [color="green"];
+  BB0062942e -> BB00629448 [color="red"];
+  BB00629448 -> BB0062942e [color="green"];
+  BB00629448 -> BB00629475 [color="red"];
+  BB00629475 -> BB00629478 [color="blue"];
+  BB00629478 -> BB00629490 [color="green"];
+  BB00629478 -> BB0062947d [color="red"];
+}

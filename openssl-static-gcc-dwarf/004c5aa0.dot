@@ -1,0 +1,10 @@
+digraph ossl_quic_validate_retry_integrity_tag {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c5aa0 -> BB004c5b00 [color="green"];
+  BB004c5aa0 -> BB004c5aa5 [color="red"];
+  BB004c5aa5 -> BB004c5ac0 [color="green"];
+  BB004c5aa5 -> BB004c5ab5 [color="red"];
+  BB004c5ac0 -> BB004c5ab5 [color="green"];
+  BB004c5ac0 -> BB004c5acf [color="red"];
+}

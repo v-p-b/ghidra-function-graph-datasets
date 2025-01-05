@@ -1,0 +1,17 @@
+digraph print_bignum_var {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004682e0 -> BB00468348 [color="green"];
+  BB004682e0 -> BB00468311 [color="red"];
+  BB00468311 -> BB00468322 [color="red"];
+  BB00468348 -> BB004683a5 [color="green"];
+  BB00468348 -> BB0046836a [color="red"];
+  BB0046836a -> BB00468322 [color="blue"];
+  BB00468370 -> BB00468381 [color="red"];
+  BB00468381 -> BB00468322 [color="green"];
+  BB00468381 -> BB00468389 [color="red"];
+  BB00468389 -> BB004683a5 [color="blue"];
+  BB004683a5 -> BB00468370 [color="green"];
+  BB004683a5 -> BB004683b8 [color="red"];
+  BB004683b8 -> BB00468381 [color="blue"];
+}

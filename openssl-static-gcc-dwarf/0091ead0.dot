@@ -1,0 +1,8 @@
+digraph _dl_protect_relro {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0091ead0 -> BB0091eb00 [color="green"];
+  BB0091ead0 -> BB0091eafd [color="red"];
+  BB0091eb00 -> BB0091eafd [color="green"];
+  BB0091eb00 -> BB0091eb11 [color="red"];
+}

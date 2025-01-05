@@ -1,0 +1,15 @@
+digraph ch_get_qlog_cb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004f9470 -> BB004f94a0 [color="green"];
+  BB004f9470 -> BB004f9491 [color="red"];
+  BB004f94a0 -> BB004f9491 [color="green"];
+  BB004f94a0 -> BB004f94a9 [color="red"];
+  BB004f94a9 -> BB004f94be [color="green"];
+  BB004f94a9 -> BB004f94b5 [color="red"];
+  BB004f94b5 -> BB004f9491 [color="green"];
+  BB004f94b5 -> BB004f94be [color="red"];
+  BB004f94be -> BB004f9491 [color="green"];
+  BB004f94be -> BB004f951a [color="red"];
+  BB004f951a -> BB004f9491 [color="blue"];
+}

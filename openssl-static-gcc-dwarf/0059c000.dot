@@ -1,0 +1,10 @@
+digraph ossl_decoder_ctx_add_decoder_inst {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0059c000 -> BB0059c028 [color="green"];
+  BB0059c000 -> BB0059c011 [color="red"];
+  BB0059c011 -> BB0059c01e [color="red"];
+  BB0059c028 -> BB0059c011 [color="green"];
+  BB0059c028 -> BB0059c043 [color="red"];
+  BB0059c043 -> BB0059c01e [color="blue"];
+}

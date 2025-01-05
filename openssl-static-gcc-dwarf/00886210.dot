@@ -1,0 +1,19 @@
+digraph systrim.constprop.0 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00886210 -> BB0088625b [color="green"];
+  BB00886210 -> BB0088622c [color="red"];
+  BB0088622c -> BB0088625b [color="green"];
+  BB0088622c -> BB00886241 [color="red"];
+  BB00886241 -> BB00886268 [color="green"];
+  BB00886241 -> BB0088625b [color="red"];
+  BB0088625b -> BB0088625d [color="blue"];
+  BB00886268 -> BB008862b8 [color="green"];
+  BB00886268 -> BB00886280 [color="red"];
+  BB00886280 -> BB0088625b [color="green"];
+  BB00886280 -> BB0088628d [color="red"];
+  BB0088628d -> BB0088625b [color="green"];
+  BB0088628d -> BB00886292 [color="red"];
+  BB00886292 -> BB0088625d [color="blue"];
+  BB008862b8 -> BB00886280 [color="blue"];
+}

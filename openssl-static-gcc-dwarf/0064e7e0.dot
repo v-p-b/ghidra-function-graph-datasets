@@ -1,0 +1,9 @@
+digraph TS_CONF_load_cert {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0064e7e0 -> BB0064e828 [color="green"];
+  BB0064e7e0 -> BB0064e7fb [color="red"];
+  BB0064e7fb -> BB0064e828 [color="green"];
+  BB0064e7fb -> BB0064e811 [color="red"];
+  BB0064e828 -> BB0064e811 [color="blue"];
+}

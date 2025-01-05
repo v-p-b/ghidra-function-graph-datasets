@@ -1,0 +1,9 @@
+digraph drbg_ctr_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006df240 -> BB006df2a5 [color="green"];
+  BB006df240 -> BB006df24f [color="red"];
+  BB006df24f -> BB006df2a5 [color="green"];
+  BB006df24f -> BB006df25b [color="red"];
+  BB006df25b -> BB006df2a5 [color="red"];
+}

@@ -1,0 +1,11 @@
+digraph __inet_aton_exact {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008e0d40 -> BB008e0d77 [color="green"];
+  BB008e0d40 -> BB008e0d6b [color="red"];
+  BB008e0d6b -> BB008e0d90 [color="green"];
+  BB008e0d6b -> BB008e0d77 [color="red"];
+  BB008e0d77 -> BB008e0d9d [color="green"];
+  BB008e0d77 -> BB008e0d87 [color="red"];
+  BB008e0d90 -> BB008e0d77 [color="blue"];
+}

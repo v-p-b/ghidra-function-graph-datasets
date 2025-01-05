@@ -1,0 +1,10 @@
+digraph PKCS7_add_recipient_info {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006270f0 -> BB00627130 [color="green"];
+  BB006270f0 -> BB0062710a [color="red"];
+  BB0062710a -> BB00627140 [color="green"];
+  BB0062710a -> BB0062710f [color="red"];
+  BB0062710f -> BB00627117 [color="blue"];
+  BB00627130 -> BB00627117 [color="blue"];
+}

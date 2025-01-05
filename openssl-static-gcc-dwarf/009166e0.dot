@@ -1,0 +1,11 @@
+digraph strcasecmp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB009166e0 -> BB00916723 [color="green"];
+  BB009166e0 -> BB009166f0 [color="red"];
+  BB009166f0 -> BB0091670e [color="green"];
+  BB009166f0 -> BB009166fe [color="red"];
+  BB009166fe -> BB00916723 [color="green"];
+  BB009166fe -> BB0091670e [color="red"];
+  BB0091670e -> BB00916723 [color="blue"];
+}

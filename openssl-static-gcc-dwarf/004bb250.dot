@@ -1,0 +1,12 @@
+digraph ossl_quic_hkdf_extract {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004bb250 -> BB004bb450 [color="green"];
+  BB004bb250 -> BB004bb293 [color="red"];
+  BB004bb293 -> BB004bb450 [color="green"];
+  BB004bb293 -> BB004bb2b4 [color="red"];
+  BB004bb2b4 -> BB004bb456 [color="green"];
+  BB004bb2b4 -> BB004bb2ca [color="red"];
+  BB004bb2ca -> BB004bb456 [color="blue"];
+  BB004bb450 -> BB004bb456 [color="blue"];
+}

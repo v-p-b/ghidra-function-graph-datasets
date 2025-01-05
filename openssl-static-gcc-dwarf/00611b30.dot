@@ -1,0 +1,10 @@
+digraph OCSP_basic_sign {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00611b30 -> BB00611bd6 [color="green"];
+  BB00611b30 -> BB00611b6a [color="red"];
+  BB00611b6a -> BB00611bce [color="green"];
+  BB00611b6a -> BB00611bb5 [color="red"];
+  BB00611bb5 -> BB00611bce [color="red"];
+  BB00611bce -> BB00611bd6 [color="red"];
+}

@@ -1,0 +1,12 @@
+digraph tls_close_construct_packet {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004e9390 -> BB004e93b0 [color="green"];
+  BB004e9390 -> BB004e93a4 [color="red"];
+  BB004e93a4 -> BB004e93f0 [color="green"];
+  BB004e93a4 -> BB004e93b0 [color="red"];
+  BB004e93b0 -> BB004e93f0 [color="green"];
+  BB004e93b0 -> BB004e93c1 [color="red"];
+  BB004e93c1 -> BB004e93f0 [color="green"];
+  BB004e93c1 -> BB004e93ce [color="red"];
+}

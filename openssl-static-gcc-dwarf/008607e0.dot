@@ -1,0 +1,11 @@
+digraph __libc_sendmsg {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008607e0 -> BB00860800 [color="green"];
+  BB008607e0 -> BB008607ec [color="red"];
+  BB008607ec -> BB00860850 [color="green"];
+  BB008607ec -> BB008607fb [color="red"];
+  BB00860800 -> BB00860868 [color="green"];
+  BB00860800 -> BB00860835 [color="red"];
+  BB00860868 -> BB00860835 [color="blue"];
+}

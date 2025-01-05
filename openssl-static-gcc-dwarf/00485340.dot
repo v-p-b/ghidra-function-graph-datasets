@@ -1,0 +1,29 @@
+digraph cmd_VerifyCAFile {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00485340 -> BB004853a0 [color="green"];
+  BB00485340 -> BB00485352 [color="red"];
+  BB00485352 -> BB00485359 [color="blue"];
+  BB00485359 -> BB004853ce [color="green"];
+  BB00485359 -> BB0048536c [color="red"];
+  BB0048536c -> BB00485390 [color="green"];
+  BB0048536c -> BB00485371 [color="red"];
+  BB004853a0 -> BB00485390 [color="green"];
+  BB004853a0 -> BB004853a9 [color="red"];
+  BB004853a9 -> BB004853f8 [color="green"];
+  BB004853a9 -> BB004853af [color="red"];
+  BB004853af -> BB004853b2 [color="blue"];
+  BB004853b2 -> BB0048540a [color="green"];
+  BB004853b2 -> BB004853c2 [color="red"];
+  BB004853c2 -> BB0048536c [color="green"];
+  BB004853c2 -> BB004853ce [color="red"];
+  BB004853ce -> BB0048536c [color="green"];
+  BB004853ce -> BB004853e9 [color="red"];
+  BB004853e9 -> BB004853eb [color="blue"];
+  BB004853f8 -> BB004853e9 [color="green"];
+  BB004853f8 -> BB004853fd [color="red"];
+  BB004853fd -> BB004853b2 [color="green"];
+  BB004853fd -> BB00485406 [color="red"];
+  BB00485406 -> BB004853eb [color="blue"];
+  BB0048540a -> BB00485359 [color="blue"];
+}

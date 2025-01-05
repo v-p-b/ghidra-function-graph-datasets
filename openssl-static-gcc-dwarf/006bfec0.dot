@@ -1,0 +1,19 @@
+digraph dh_plain_derive {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006bfec0 -> BB006bff60 [color="green"];
+  BB006bfec0 -> BB006bfee1 [color="red"];
+  BB006bfee1 -> BB006bff60 [color="green"];
+  BB006bfee1 -> BB006bfee8 [color="red"];
+  BB006bfee8 -> BB006bfff0 [color="green"];
+  BB006bfee8 -> BB006bff04 [color="red"];
+  BB006bff04 -> BB006bffa0 [color="green"];
+  BB006bff04 -> BB006bff0d [color="red"];
+  BB006bff0d -> BB006bffe0 [color="green"];
+  BB006bff0d -> BB006bff32 [color="red"];
+  BB006bff32 -> BB006bff3a [color="red"];
+  BB006bff3a -> BB006bff92 [color="green"];
+  BB006bff3a -> BB006bff40 [color="red"];
+  BB006bff60 -> BB006bff92 [color="red"];
+  BB006bffe0 -> BB006bff3a [color="blue"];
+}

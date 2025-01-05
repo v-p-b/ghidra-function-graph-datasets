@@ -1,0 +1,17 @@
+digraph IDEA_ofb64_encrypt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00774210 -> BB00774320 [color="green"];
+  BB00774210 -> BB0077422e [color="red"];
+  BB0077422e -> BB00774302 [color="green"];
+  BB0077422e -> BB00774265 [color="red"];
+  BB00774265 -> BB007742a8 [color="blue"];
+  BB00774280 -> BB007742e8 [color="green"];
+  BB00774280 -> BB007742a8 [color="red"];
+  BB007742a8 -> BB00774280 [color="green"];
+  BB007742a8 -> BB007742ac [color="red"];
+  BB007742ac -> BB00774280 [color="blue"];
+  BB007742e8 -> BB00774302 [color="green"];
+  BB007742e8 -> BB007742ed [color="red"];
+  BB007742ed -> BB00774302 [color="blue"];
+}

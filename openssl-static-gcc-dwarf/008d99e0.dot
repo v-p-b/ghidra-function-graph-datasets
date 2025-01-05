@@ -1,0 +1,12 @@
+digraph tcgetattr {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008d99e0 -> BB008d9a90 [color="green"];
+  BB008d99e0 -> BB008d9a12 [color="red"];
+  BB008d9a12 -> BB008d9a76 [color="green"];
+  BB008d9a12 -> BB008d9a19 [color="red"];
+  BB008d9a19 -> BB008d9a76 [color="blue"];
+  BB008d9a76 -> BB008d9aa4 [color="green"];
+  BB008d9a76 -> BB008d9a86 [color="red"];
+  BB008d9a90 -> BB008d9a76 [color="blue"];
+}

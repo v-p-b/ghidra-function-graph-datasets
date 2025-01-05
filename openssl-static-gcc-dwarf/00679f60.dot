@@ -1,0 +1,16 @@
+digraph cert_crl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00679f60 -> BB00679f9f [color="green"];
+  BB00679f60 -> BB00679f76 [color="red"];
+  BB00679f76 -> BB00679f9f [color="green"];
+  BB00679f76 -> BB00679f7f [color="red"];
+  BB00679f7f -> BB00679fe5 [color="green"];
+  BB00679f7f -> BB00679f9f [color="red"];
+  BB00679f9f -> BB00679fe0 [color="green"];
+  BB00679f9f -> BB00679fb0 [color="red"];
+  BB00679fb0 -> BB00679ff0 [color="green"];
+  BB00679fb0 -> BB00679fbb [color="red"];
+  BB00679fe0 -> BB00679fe5 [color="blue"];
+  BB00679ff0 -> BB00679fe5 [color="blue"];
+}

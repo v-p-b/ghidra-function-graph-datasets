@@ -1,0 +1,14 @@
+digraph ASN1_STRING_to_UTF8 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00516460 -> BB005164e0 [color="green"];
+  BB00516460 -> BB00516474 [color="red"];
+  BB00516474 -> BB005164e0 [color="green"];
+  BB00516474 -> BB0051647d [color="red"];
+  BB0051647d -> BB005164d8 [color="green"];
+  BB0051647d -> BB0051648d [color="red"];
+  BB0051648d -> BB005164d8 [color="green"];
+  BB0051648d -> BB005164cc [color="red"];
+  BB005164cc -> BB005164d8 [color="blue"];
+  BB005164e0 -> BB005164d8 [color="blue"];
+}

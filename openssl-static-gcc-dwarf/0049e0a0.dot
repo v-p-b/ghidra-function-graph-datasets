@@ -1,0 +1,31 @@
+digraph tls1_check_pkey_comp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0049e0a0 -> BB0049e0d0 [color="green"];
+  BB0049e0a0 -> BB0049e0bf [color="red"];
+  BB0049e0d0 -> BB0049e151 [color="green"];
+  BB0049e0d0 -> BB0049e0dc [color="red"];
+  BB0049e0dc -> BB0049e160 [color="green"];
+  BB0049e0dc -> BB0049e0e1 [color="red"];
+  BB0049e0e1 -> BB0049e102 [color="green"];
+  BB0049e0e1 -> BB0049e0f2 [color="red"];
+  BB0049e0f2 -> BB0049e102 [color="green"];
+  BB0049e0f2 -> BB0049e0fb [color="red"];
+  BB0049e0fb -> BB0049e0bf [color="green"];
+  BB0049e0fb -> BB0049e102 [color="red"];
+  BB0049e102 -> BB0049e168 [color="green"];
+  BB0049e102 -> BB0049e111 [color="red"];
+  BB0049e111 -> BB0049e151 [color="green"];
+  BB0049e111 -> BB0049e11d [color="red"];
+  BB0049e11d -> BB0049e0bf [color="green"];
+  BB0049e11d -> BB0049e129 [color="red"];
+  BB0049e129 -> BB0049e151 [color="green"];
+  BB0049e129 -> BB0049e135 [color="red"];
+  BB0049e135 -> BB0049e140 [color="blue"];
+  BB0049e140 -> BB0049e0bf [color="green"];
+  BB0049e140 -> BB0049e148 [color="red"];
+  BB0049e148 -> BB0049e140 [color="green"];
+  BB0049e148 -> BB0049e151 [color="red"];
+  BB0049e160 -> BB0049e11d [color="blue"];
+  BB0049e168 -> BB0049e11d [color="blue"];
+}

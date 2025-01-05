@@ -1,0 +1,32 @@
+digraph __malloc_arena_thread_freeres {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0088a2b0 -> BB0088a314 [color="green"];
+  BB0088a2b0 -> BB0088a2c2 [color="red"];
+  BB0088a2c2 -> BB0088a2fb [color="blue"];
+  BB0088a2f0 -> BB0088a2fb [color="red"];
+  BB0088a2fb -> BB0088a2f0 [color="green"];
+  BB0088a2fb -> BB0088a303 [color="red"];
+  BB0088a303 -> BB0088a2fb [color="green"];
+  BB0088a303 -> BB0088a30c [color="red"];
+  BB0088a30c -> BB0088a314 [color="red"];
+  BB0088a314 -> BB0088a374 [color="green"];
+  BB0088a314 -> BB0088a32c [color="red"];
+  BB0088a32c -> BB0088a390 [color="green"];
+  BB0088a32c -> BB0088a338 [color="red"];
+  BB0088a338 -> BB0088a344 [color="blue"];
+  BB0088a344 -> BB0088a3d9 [color="green"];
+  BB0088a344 -> BB0088a354 [color="red"];
+  BB0088a354 -> BB0088a379 [color="green"];
+  BB0088a354 -> BB0088a361 [color="red"];
+  BB0088a361 -> BB0088a3af [color="green"];
+  BB0088a361 -> BB0088a36d [color="red"];
+  BB0088a36d -> BB0088a374 [color="blue"];
+  BB0088a379 -> BB0088a361 [color="blue"];
+  BB0088a390 -> BB0088a344 [color="green"];
+  BB0088a390 -> BB0088a3a1 [color="red"];
+  BB0088a3a1 -> BB0088a344 [color="blue"];
+  BB0088a3af -> BB0088a374 [color="green"];
+  BB0088a3af -> BB0088a3bc [color="red"];
+  BB0088a3bc -> BB0088a374 [color="blue"];
+}

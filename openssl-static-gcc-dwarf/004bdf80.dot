@@ -1,0 +1,9 @@
+digraph ossl_quic_sstream_get_final_size {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004bdf80 -> BB004bdf99 [color="green"];
+  BB004bdf80 -> BB004bdf88 [color="red"];
+  BB004bdf88 -> BB004bdf99 [color="green"];
+  BB004bdf88 -> BB004bdf92 [color="red"];
+  BB004bdf92 -> BB004bdf99 [color="blue"];
+}

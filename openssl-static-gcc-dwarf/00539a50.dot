@@ -1,0 +1,20 @@
+digraph fd_write {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00539a50 -> BB00539aa0 [color="green"];
+  BB00539a50 -> BB00539a92 [color="red"];
+  BB00539aa0 -> BB00539a92 [color="green"];
+  BB00539aa0 -> BB00539aa8 [color="red"];
+  BB00539aa8 -> BB00539a92 [color="green"];
+  BB00539aa8 -> BB00539ab1 [color="red"];
+  BB00539ab1 -> BB00539ad0 [color="green"];
+  BB00539ab1 -> BB00539ab6 [color="red"];
+  BB00539ab6 -> BB00539ac0 [color="green"];
+  BB00539ab6 -> BB00539abb [color="red"];
+  BB00539abb -> BB00539a92 [color="green"];
+  BB00539abb -> BB00539ac0 [color="red"];
+  BB00539ac0 -> BB00539a92 [color="blue"];
+  BB00539ad0 -> BB00539a92 [color="green"];
+  BB00539ad0 -> BB00539ae3 [color="red"];
+  BB00539ae3 -> BB00539ac0 [color="blue"];
+}

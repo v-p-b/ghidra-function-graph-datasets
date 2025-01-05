@@ -1,0 +1,14 @@
+digraph ossl_lib_ctx_is_global_default {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e92b0 -> BB005e92d0 [color="green"];
+  BB005e92b0 -> BB005e92b5 [color="red"];
+  BB005e92d0 -> BB005e9320 [color="green"];
+  BB005e92d0 -> BB005e92eb [color="red"];
+  BB005e92eb -> BB005e9320 [color="green"];
+  BB005e92eb -> BB005e92f5 [color="red"];
+  BB005e92f5 -> BB005e9320 [color="green"];
+  BB005e92f5 -> BB005e9309 [color="red"];
+  BB005e9309 -> BB005e9319 [color="blue"];
+  BB005e9320 -> BB005e9319 [color="blue"];
+}

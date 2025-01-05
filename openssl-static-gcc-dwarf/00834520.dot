@@ -1,0 +1,14 @@
+digraph sha1_multi_block {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00834520 -> BB00834532 [color="red"];
+  BB00834532 -> BB0083453e [color="red"];
+  BB0083453e -> BB00834568 [color="blue"];
+  BB00834568 -> BB00836fb8 [color="green"];
+  BB00834568 -> BB008345cb [color="red"];
+  BB008345cb -> BB00834600 [color="blue"];
+  BB00834600 -> BB00834600 [color="green"];
+  BB00834600 -> BB00836fa1 [color="red"];
+  BB00836fa1 -> BB00834568 [color="green"];
+  BB00836fa1 -> BB00836fb8 [color="red"];
+}

@@ -1,0 +1,19 @@
+digraph SSL_check_private_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048a990 -> BB0048a9ad [color="green"];
+  BB0048a990 -> BB0048a999 [color="red"];
+  BB0048a999 -> BB0048a9e8 [color="green"];
+  BB0048a999 -> BB0048a99f [color="red"];
+  BB0048a99f -> BB0048a9ad [color="green"];
+  BB0048a99f -> BB0048a9a4 [color="red"];
+  BB0048a9a4 -> BB0048a9e8 [color="green"];
+  BB0048a9a4 -> BB0048a9ad [color="red"];
+  BB0048a9ad -> BB0048a9dd [color="red"];
+  BB0048a9e8 -> BB0048aa10 [color="green"];
+  BB0048a9e8 -> BB0048a9fa [color="red"];
+  BB0048a9fa -> BB0048aa48 [color="green"];
+  BB0048a9fa -> BB0048aa03 [color="red"];
+  BB0048aa10 -> BB0048a9dd [color="blue"];
+  BB0048aa48 -> BB0048a9dd [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph ossl_quic_stream_map_schedule_stop_sending {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004bf910 -> BB004bf93b [color="green"];
+  BB004bf910 -> BB004bf91b [color="red"];
+  BB004bf91b -> BB004bf93b [color="green"];
+  BB004bf91b -> BB004bf92c [color="red"];
+  BB004bf92c -> BB004bf940 [color="green"];
+  BB004bf92c -> BB004bf93b [color="red"];
+}

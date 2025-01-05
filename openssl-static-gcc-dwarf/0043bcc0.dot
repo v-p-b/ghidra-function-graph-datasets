@@ -1,0 +1,19 @@
+digraph checked_uint8 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0043bcc0 -> BB0043bd21 [color="green"];
+  BB0043bcc0 -> BB0043bd1c [color="red"];
+  BB0043bd1c -> BB0043bd70 [color="green"];
+  BB0043bd1c -> BB0043bd21 [color="red"];
+  BB0043bd21 -> BB0043bd70 [color="green"];
+  BB0043bd21 -> BB0043bd2b [color="red"];
+  BB0043bd2b -> BB0043bd70 [color="green"];
+  BB0043bd2b -> BB0043bd3d [color="red"];
+  BB0043bd3d -> BB0043bd70 [color="green"];
+  BB0043bd3d -> BB0043bd4a [color="red"];
+  BB0043bd4a -> BB0043bd90 [color="green"];
+  BB0043bd4a -> BB0043bd57 [color="red"];
+  BB0043bd90 -> BB0043bd57 [color="green"];
+  BB0043bd90 -> BB0043bd9f [color="red"];
+  BB0043bd9f -> BB0043bd90 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph rsa_pub_cmp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00630a30 -> BB00630a58 [color="green"];
+  BB00630a30 -> BB00630a47 [color="red"];
+  BB00630a47 -> BB00630a4d [color="blue"];
+  BB00630a58 -> BB00630a47 [color="green"];
+  BB00630a58 -> BB00630a69 [color="red"];
+  BB00630a69 -> BB00630a4d [color="green"];
+  BB00630a69 -> BB00630a82 [color="red"];
+}

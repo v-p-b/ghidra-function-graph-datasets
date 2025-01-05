@@ -1,0 +1,10 @@
+digraph ossl_read_der {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006bf960 -> BB006bf9ac [color="green"];
+  BB006bf960 -> BB006bf986 [color="red"];
+  BB006bf986 -> BB006bf9c0 [color="green"];
+  BB006bf986 -> BB006bf9a4 [color="red"];
+  BB006bf9a4 -> BB006bf9ac [color="red"];
+  BB006bf9c0 -> BB006bf9a4 [color="blue"];
+}

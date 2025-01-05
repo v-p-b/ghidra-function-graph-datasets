@@ -1,0 +1,31 @@
+digraph OSSL_STORE_attach {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0064b9a0 -> BB0064ba98 [color="green"];
+  BB0064b9a0 -> BB0064b9eb [color="red"];
+  BB0064b9eb -> BB0064bb48 [color="green"];
+  BB0064b9eb -> BB0064ba0f [color="red"];
+  BB0064ba0f -> BB0064ba12 [color="blue"];
+  BB0064ba12 -> BB0064bb48 [color="green"];
+  BB0064ba12 -> BB0064ba34 [color="red"];
+  BB0064ba34 -> BB0064ba50 [color="green"];
+  BB0064ba34 -> BB0064ba39 [color="red"];
+  BB0064ba39 -> BB0064bb58 [color="green"];
+  BB0064ba39 -> BB0064ba50 [color="red"];
+  BB0064ba50 -> BB0064ba81 [color="red"];
+  BB0064ba98 -> BB0064bb48 [color="green"];
+  BB0064ba98 -> BB0064bab2 [color="red"];
+  BB0064bab2 -> BB0064bb38 [color="green"];
+  BB0064bab2 -> BB0064bad7 [color="red"];
+  BB0064bad7 -> BB0064bb38 [color="green"];
+  BB0064bad7 -> BB0064bae3 [color="red"];
+  BB0064bae3 -> BB0064bb38 [color="green"];
+  BB0064bae3 -> BB0064baf5 [color="red"];
+  BB0064baf5 -> BB0064bb21 [color="green"];
+  BB0064baf5 -> BB0064bb0c [color="red"];
+  BB0064bb0c -> BB0064bb21 [color="red"];
+  BB0064bb21 -> BB0064ba12 [color="blue"];
+  BB0064bb38 -> BB0064bb48 [color="red"];
+  BB0064bb48 -> BB0064ba81 [color="blue"];
+  BB0064bb58 -> BB0064ba81 [color="blue"];
+}

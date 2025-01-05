@@ -1,0 +1,15 @@
+digraph sigprocmask {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00866c90 -> BB00866cc7 [color="green"];
+  BB00866c90 -> BB00866cb2 [color="red"];
+  BB00866cb2 -> BB00866d08 [color="green"];
+  BB00866cb2 -> BB00866cc4 [color="red"];
+  BB00866cc4 -> BB00866cc7 [color="blue"];
+  BB00866cc7 -> BB00866d70 [color="green"];
+  BB00866cc7 -> BB00866ce3 [color="red"];
+  BB00866ce3 -> BB00866d86 [color="green"];
+  BB00866ce3 -> BB00866cfa [color="red"];
+  BB00866d08 -> BB00866cc7 [color="blue"];
+  BB00866d70 -> BB00866ce3 [color="blue"];
+}

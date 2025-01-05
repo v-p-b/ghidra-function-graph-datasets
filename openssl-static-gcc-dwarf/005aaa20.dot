@@ -1,0 +1,15 @@
+digraph ERR_add_error_mem_bio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005aaa20 -> BB005aaa70 [color="green"];
+  BB005aaa20 -> BB005aaa25 [color="red"];
+  BB005aaa25 -> BB005aaa62 [color="green"];
+  BB005aaa25 -> BB005aaa50 [color="red"];
+  BB005aaa50 -> BB005aaa90 [color="green"];
+  BB005aaa50 -> BB005aaa5c [color="red"];
+  BB005aaa5c -> BB005aaa78 [color="green"];
+  BB005aaa5c -> BB005aaa62 [color="red"];
+  BB005aaa90 -> BB005aaa62 [color="green"];
+  BB005aaa90 -> BB005aaaa8 [color="red"];
+  BB005aaaa8 -> BB005aaa5c [color="blue"];
+}

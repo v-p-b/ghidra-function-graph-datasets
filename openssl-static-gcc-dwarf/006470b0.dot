@@ -1,0 +1,16 @@
+digraph SRP_Verify_A_mod_N {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006470b0 -> BB00647120 [color="green"];
+  BB006470b0 -> BB006470c0 [color="red"];
+  BB006470c0 -> BB00647120 [color="green"];
+  BB006470c0 -> BB006470c8 [color="red"];
+  BB006470c8 -> BB00647120 [color="green"];
+  BB006470c8 -> BB006470d8 [color="red"];
+  BB006470d8 -> BB006470fa [color="green"];
+  BB006470d8 -> BB006470e5 [color="red"];
+  BB006470e5 -> BB00647138 [color="green"];
+  BB006470e5 -> BB006470fa [color="red"];
+  BB006470fa -> BB006470fd [color="blue"];
+  BB00647138 -> BB006470fd [color="blue"];
+}

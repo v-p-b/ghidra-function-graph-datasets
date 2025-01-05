@@ -1,0 +1,10 @@
+digraph ossl_cmp_is_error_with_waiting {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0055db80 -> BB0055db93 [color="green"];
+  BB0055db80 -> BB0055db85 [color="red"];
+  BB0055db85 -> BB0055dba0 [color="green"];
+  BB0055db85 -> BB0055db8e [color="red"];
+  BB0055db8e -> BB0055dba8 [color="green"];
+  BB0055db8e -> BB0055db93 [color="red"];
+}

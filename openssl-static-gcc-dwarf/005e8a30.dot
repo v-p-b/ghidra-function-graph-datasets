@@ -1,0 +1,13 @@
+digraph ossl_lib_ctx_read_lock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e8a30 -> BB005e8a40 [color="green"];
+  BB005e8a30 -> BB005e8a35 [color="red"];
+  BB005e8a40 -> BB005e8a88 [color="green"];
+  BB005e8a40 -> BB005e8a5b [color="red"];
+  BB005e8a5b -> BB005e8a88 [color="green"];
+  BB005e8a5b -> BB005e8a65 [color="red"];
+  BB005e8a65 -> BB005e8a88 [color="green"];
+  BB005e8a65 -> BB005e8a79 [color="red"];
+  BB005e8a88 -> BB005e8a79 [color="blue"];
+}

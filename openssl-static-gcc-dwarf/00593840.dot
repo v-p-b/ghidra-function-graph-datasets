@@ -1,0 +1,18 @@
+digraph ecp_nistz256_is_affine_G {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00593840 -> BB00593860 [color="green"];
+  BB00593840 -> BB00593857 [color="red"];
+  BB00593857 -> BB00593859 [color="blue"];
+  BB00593860 -> BB00593857 [color="green"];
+  BB00593860 -> BB0059386e [color="red"];
+  BB0059386e -> BB00593857 [color="green"];
+  BB0059386e -> BB005938c8 [color="red"];
+  BB005938c8 -> BB00593857 [color="green"];
+  BB005938c8 -> BB00593926 [color="red"];
+  BB00593926 -> BB00593857 [color="green"];
+  BB00593926 -> BB00593946 [color="red"];
+  BB00593946 -> BB00593859 [color="green"];
+  BB00593946 -> BB00593988 [color="red"];
+  BB00593988 -> BB00593857 [color="blue"];
+}

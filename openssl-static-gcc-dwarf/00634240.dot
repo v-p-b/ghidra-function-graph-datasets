@@ -1,0 +1,14 @@
+digraph RSA_check_key_ex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00634240 -> BB00634270 [color="green"];
+  BB00634240 -> BB00634247 [color="red"];
+  BB00634247 -> BB00634270 [color="green"];
+  BB00634247 -> BB0063424e [color="red"];
+  BB0063424e -> BB00634270 [color="green"];
+  BB0063424e -> BB00634255 [color="red"];
+  BB00634255 -> BB00634270 [color="green"];
+  BB00634255 -> BB0063425c [color="red"];
+  BB0063425c -> BB00634270 [color="green"];
+  BB0063425c -> BB00634263 [color="red"];
+}

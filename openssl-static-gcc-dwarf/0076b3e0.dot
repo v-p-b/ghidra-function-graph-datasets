@@ -1,0 +1,29 @@
+digraph chacha20_poly1305_tls_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0076b3e0 -> BB0076b6f0 [color="green"];
+  BB0076b3e0 -> BB0076b413 [color="red"];
+  BB0076b413 -> BB0076b5a8 [color="green"];
+  BB0076b413 -> BB0076b44b [color="red"];
+  BB0076b44b -> BB0076b6a0 [color="green"];
+  BB0076b44b -> BB0076b4c5 [color="red"];
+  BB0076b4c5 -> BB0076b4e6 [color="red"];
+  BB0076b4e6 -> BB0076b51d [color="red"];
+  BB0076b51d -> BB0076b660 [color="green"];
+  BB0076b51d -> BB0076b583 [color="red"];
+  BB0076b583 -> BB0076b58f [color="blue"];
+  BB0076b58f -> BB0076b593 [color="blue"];
+  BB0076b5a8 -> BB0076b51d [color="green"];
+  BB0076b5a8 -> BB0076b61b [color="red"];
+  BB0076b61b -> BB0076b6d8 [color="green"];
+  BB0076b61b -> BB0076b63a [color="red"];
+  BB0076b63a -> BB0076b647 [color="red"];
+  BB0076b647 -> BB0076b51d [color="blue"];
+  BB0076b660 -> BB0076b58f [color="green"];
+  BB0076b660 -> BB0076b67c [color="red"];
+  BB0076b67c -> BB00401080 [color="blue"];
+  BB0076b67c -> BB0076b593 [color="blue"];
+  BB0076b6a0 -> BB0076b4e6 [color="blue"];
+  BB0076b6d8 -> BB0076b647 [color="blue"];
+  BB0076b6f0 -> BB0076b593 [color="blue"];
+}

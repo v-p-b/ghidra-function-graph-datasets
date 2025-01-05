@@ -1,0 +1,18 @@
+digraph get_avphys_pages {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008dbaa0 -> BB008dbaea [color="green"];
+  BB008dbaa0 -> BB008dbad6 [color="red"];
+  BB008dbad6 -> BB008dbaf0 [color="blue"];
+  BB008dbae0 -> BB008dbaf0 [color="green"];
+  BB008dbae0 -> BB008dbaea [color="red"];
+  BB008dbaea -> BB008dbae0 [color="green"];
+  BB008dbaea -> BB008dbaf0 [color="red"];
+  BB008dbaf0 -> BB008dbb0c [color="green"];
+  BB008dbaf0 -> BB008dbafd [color="red"];
+  BB008dbafd -> BB008dbb00 [color="blue"];
+  BB008dbb00 -> BB008dbb00 [color="green"];
+  BB008dbb00 -> BB008dbb0c [color="red"];
+  BB008dbb0c -> BB008dbb29 [color="green"];
+  BB008dbb0c -> BB008dbb1c [color="red"];
+}

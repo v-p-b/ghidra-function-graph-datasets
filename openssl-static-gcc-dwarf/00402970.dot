@@ -1,0 +1,20 @@
+digraph process_certConf {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00402970 -> BB00402a58 [color="green"];
+  BB00402970 -> BB0040299c [color="red"];
+  BB0040299c -> BB00402a58 [color="green"];
+  BB0040299c -> BB004029a5 [color="red"];
+  BB004029a5 -> BB00402a10 [color="green"];
+  BB004029a5 -> BB004029af [color="red"];
+  BB004029af -> BB00402a10 [color="green"];
+  BB004029af -> BB004029bc [color="red"];
+  BB004029bc -> BB00402a10 [color="green"];
+  BB004029bc -> BB004029c5 [color="red"];
+  BB004029c5 -> BB00402a43 [color="green"];
+  BB004029c5 -> BB004029d9 [color="red"];
+  BB004029d9 -> BB00402aa0 [color="green"];
+  BB004029d9 -> BB004029ef [color="red"];
+  BB00402a10 -> BB00402a43 [color="red"];
+  BB00402aa0 -> BB00402a43 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph fputc.cold {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00401a90 -> BB00401ac2 [color="green"];
+  BB00401a90 -> BB00401a99 [color="red"];
+  BB00401a99 -> BB00401ac2 [color="green"];
+  BB00401a99 -> BB00401aab [color="red"];
+  BB00401aab -> BB00401aca [color="green"];
+  BB00401aab -> BB00401abf [color="red"];
+  BB00401abf -> BB00401ac2 [color="blue"];
+  BB00401ac2 -> BB00401ac5 [color="blue"];
+  BB00401aca -> BB00401ac2 [color="green"];
+  BB00401aca -> BB00401ad1 [color="red"];
+  BB00401ad1 -> BB00401ac2 [color="blue"];
+}

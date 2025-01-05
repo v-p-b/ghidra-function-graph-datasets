@@ -1,0 +1,10 @@
+digraph ossl_statem_skip_early_data {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ded80 -> BB004ded9d [color="green"];
+  BB004ded80 -> BB004ded8b [color="red"];
+  BB004ded8b -> BB004ded9d [color="green"];
+  BB004ded8b -> BB004ded92 [color="red"];
+  BB004ded92 -> BB004deda0 [color="green"];
+  BB004ded92 -> BB004ded9d [color="red"];
+}

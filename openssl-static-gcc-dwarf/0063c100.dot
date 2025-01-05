@@ -1,0 +1,12 @@
+digraph pkey_rsa_ctrl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0063c100 -> BB0063c140 [color="green"];
+  BB0063c100 -> BB0063c11c [color="red"];
+  BB0063c11c -> BB0063c144 [color="green"];
+  BB0063c11c -> BB0063c127 [color="red"];
+  BB0063c140 -> BB0063c158 [color="green"];
+  BB0063c140 -> BB0063c144 [color="red"];
+  BB0063c158 -> BB0063c144 [color="green"];
+  BB0063c158 -> BB0063c15d [color="red"];
+}

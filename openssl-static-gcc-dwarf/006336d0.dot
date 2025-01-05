@@ -1,0 +1,15 @@
+digraph ossl_rsa_key_from_pkcs8 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006336d0 -> BB0063374c [color="green"];
+  BB006336d0 -> BB006336fa [color="red"];
+  BB006336fa -> BB006337b0 [color="green"];
+  BB006336fa -> BB00633715 [color="red"];
+  BB00633715 -> BB00633798 [color="green"];
+  BB00633715 -> BB00633726 [color="red"];
+  BB00633726 -> BB00633780 [color="green"];
+  BB00633726 -> BB00633745 [color="red"];
+  BB00633745 -> BB00633760 [color="green"];
+  BB00633745 -> BB0063374c [color="red"];
+  BB006337b0 -> BB0063374c [color="blue"];
+}

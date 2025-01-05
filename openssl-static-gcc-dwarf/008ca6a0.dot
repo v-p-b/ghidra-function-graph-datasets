@@ -1,0 +1,35 @@
+digraph __memchr_evex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008ca6a0 -> BB008ca6da [color="green"];
+  BB008ca6a0 -> BB008ca6a5 [color="red"];
+  BB008ca6a5 -> BB008ca6f1 [color="green"];
+  BB008ca6a5 -> BB008ca6b9 [color="red"];
+  BB008ca6b9 -> BB008ca760 [color="green"];
+  BB008ca6b9 -> BB008ca6d2 [color="red"];
+  BB008ca6f1 -> BB008ca695 [color="green"];
+  BB008ca6f1 -> BB008ca702 [color="red"];
+  BB008ca702 -> BB008ca702 [color="green"];
+  BB008ca702 -> BB008ca70e [color="red"];
+  BB008ca70e -> BB008ca6e0 [color="green"];
+  BB008ca70e -> BB008ca714 [color="red"];
+  BB008ca714 -> BB008ca760 [color="green"];
+  BB008ca714 -> BB008ca718 [color="red"];
+  BB008ca760 -> BB008ca830 [color="green"];
+  BB008ca760 -> BB008ca784 [color="red"];
+  BB008ca784 -> BB008ca720 [color="green"];
+  BB008ca784 -> BB008ca788 [color="red"];
+  BB008ca788 -> BB008ca7bc [color="blue"];
+  BB008ca830 -> BB008ca860 [color="green"];
+  BB008ca830 -> BB008ca834 [color="red"];
+  BB008ca834 -> BB008ca900 [color="green"];
+  BB008ca834 -> BB008ca83d [color="red"];
+  BB008ca83d -> BB008ca85b [color="green"];
+  BB008ca83d -> BB008ca842 [color="red"];
+  BB008ca860 -> BB008ca871 [color="green"];
+  BB008ca860 -> BB008ca86b [color="red"];
+  BB008ca900 -> BB008ca934 [color="blue"];
+  BB008ca934 -> BB008ca951 [color="green"];
+  BB008ca934 -> BB008ca945 [color="red"];
+  BB008ca945 -> BB008ca951 [color="blue"];
+}

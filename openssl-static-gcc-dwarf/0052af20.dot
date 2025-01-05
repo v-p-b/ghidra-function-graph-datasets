@@ -1,0 +1,12 @@
+digraph BIO_ADDR_make {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0052af20 -> BB0052af40 [color="green"];
+  BB0052af20 -> BB0052af29 [color="red"];
+  BB0052af29 -> BB0052af58 [color="green"];
+  BB0052af29 -> BB0052af2f [color="red"];
+  BB0052af2f -> BB0052af78 [color="green"];
+  BB0052af2f -> BB0052af38 [color="red"];
+  BB0052af58 -> BB0052af38 [color="blue"];
+  BB0052af78 -> BB0052af38 [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph wait_on_socket {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008e6510 -> BB008e6580 [color="green"];
+  BB008e6510 -> BB008e6558 [color="red"];
+  BB008e6558 -> BB008e6635 [color="green"];
+  BB008e6558 -> BB008e656c [color="red"];
+  BB008e6580 -> BB008e6558 [color="green"];
+  BB008e6580 -> BB008e658e [color="red"];
+  BB008e658e -> BB008e661b [color="blue"];
+  BB008e65d8 -> BB008e6558 [color="green"];
+  BB008e65d8 -> BB008e65e3 [color="red"];
+  BB008e65e3 -> BB008e661b [color="red"];
+  BB008e661b -> BB008e65d8 [color="green"];
+  BB008e661b -> BB008e6630 [color="red"];
+  BB008e6630 -> BB008e6558 [color="blue"];
+}

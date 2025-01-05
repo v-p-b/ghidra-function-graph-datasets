@@ -1,0 +1,27 @@
+digraph PKCS7_stream {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00627560 -> BB00627600 [color="green"];
+  BB00627560 -> BB0062757e [color="red"];
+  BB0062757e -> BB006275c0 [color="green"];
+  BB0062757e -> BB00627580 [color="red"];
+  BB00627580 -> BB00627630 [color="green"];
+  BB00627580 -> BB00627589 [color="red"];
+  BB00627589 -> BB006275f0 [color="green"];
+  BB00627589 -> BB0062758e [color="red"];
+  BB0062758e -> BB0062759a [color="blue"];
+  BB0062759a -> BB006275b4 [color="green"];
+  BB0062759a -> BB006275a2 [color="red"];
+  BB006275a2 -> BB006275b4 [color="blue"];
+  BB006275c0 -> BB006275f0 [color="green"];
+  BB006275c0 -> BB006275c5 [color="red"];
+  BB006275c5 -> BB006275a2 [color="green"];
+  BB006275c5 -> BB006275d6 [color="red"];
+  BB006275d6 -> BB0062759a [color="blue"];
+  BB00627600 -> BB006275a2 [color="green"];
+  BB00627600 -> BB00627611 [color="red"];
+  BB00627611 -> BB0062759a [color="blue"];
+  BB00627630 -> BB006275a2 [color="green"];
+  BB00627630 -> BB00627640 [color="red"];
+  BB00627640 -> BB006275b4 [color="blue"];
+}

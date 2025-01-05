@@ -1,0 +1,14 @@
+digraph dsa_to_DSA_der_does_selection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b2900 -> BB006b291f [color="green"];
+  BB006b2900 -> BB006b2909 [color="red"];
+  BB006b2909 -> BB006b2925 [color="green"];
+  BB006b2909 -> BB006b2910 [color="red"];
+  BB006b2910 -> BB006b2920 [color="green"];
+  BB006b2910 -> BB006b2916 [color="red"];
+  BB006b2916 -> BB006b2930 [color="green"];
+  BB006b2916 -> BB006b291f [color="red"];
+  BB006b2920 -> BB006b2925 [color="blue"];
+  BB006b2930 -> BB006b2925 [color="blue"];
+}

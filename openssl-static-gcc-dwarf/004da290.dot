@@ -1,0 +1,26 @@
+digraph tls_parse_ctos_psk_kex_modes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004da290 -> BB004da2ac [color="green"];
+  BB004da290 -> BB004da29d [color="red"];
+  BB004da29d -> BB004da2e8 [color="green"];
+  BB004da29d -> BB004da2ac [color="red"];
+  BB004da2ac -> BB004da2e1 [color="red"];
+  BB004da2e8 -> BB004da2ac [color="green"];
+  BB004da2e8 -> BB004da2fb [color="red"];
+  BB004da2fb -> BB004da304 [color="blue"];
+  BB004da304 -> BB004da350 [color="green"];
+  BB004da304 -> BB004da30d [color="red"];
+  BB004da30d -> BB004da328 [color="green"];
+  BB004da30d -> BB004da311 [color="red"];
+  BB004da311 -> BB004da328 [color="green"];
+  BB004da311 -> BB004da31a [color="red"];
+  BB004da31a -> BB004da328 [color="blue"];
+  BB004da328 -> BB004da304 [color="green"];
+  BB004da328 -> BB004da331 [color="red"];
+  BB004da331 -> BB004da360 [color="green"];
+  BB004da331 -> BB004da338 [color="red"];
+  BB004da338 -> BB004da2e1 [color="green"];
+  BB004da338 -> BB004da341 [color="red"];
+  BB004da350 -> BB004da328 [color="blue"];
+}

@@ -1,0 +1,8 @@
+digraph process_error {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00403290 -> BB004032d0 [color="green"];
+  BB00403290 -> BB004032b0 [color="red"];
+  BB004032b0 -> BB004032d0 [color="green"];
+  BB004032b0 -> BB004032b5 [color="red"];
+}

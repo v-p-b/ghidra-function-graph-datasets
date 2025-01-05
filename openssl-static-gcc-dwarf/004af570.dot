@@ -1,0 +1,24 @@
+digraph ossl_quic_conn_set_initial_peer_addr {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004af570 -> BB004af6c8 [color="green"];
+  BB004af570 -> BB004af591 [color="red"];
+  BB004af591 -> BB004af670 [color="green"];
+  BB004af591 -> BB004af59c [color="red"];
+  BB004af59c -> BB004af638 [color="green"];
+  BB004af59c -> BB004af5a5 [color="red"];
+  BB004af5a5 -> BB004af5be [color="blue"];
+  BB004af5be -> BB004af695 [color="green"];
+  BB004af5be -> BB004af5cb [color="red"];
+  BB004af5cb -> BB004af6f0 [color="green"];
+  BB004af5cb -> BB004af5d4 [color="red"];
+  BB004af5d4 -> BB004af62c [color="blue"];
+  BB004af638 -> BB004af65d [color="red"];
+  BB004af65d -> BB004af62c [color="green"];
+  BB004af65d -> BB004af661 [color="red"];
+  BB004af661 -> BB004af5be [color="blue"];
+  BB004af670 -> BB004af5cb [color="green"];
+  BB004af670 -> BB004af695 [color="red"];
+  BB004af6c8 -> BB004af65d [color="blue"];
+  BB004af6f0 -> BB004af62c [color="blue"];
+}

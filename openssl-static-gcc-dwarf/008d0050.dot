@@ -1,0 +1,18 @@
+digraph wcsnlen {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008d0050 -> BB008d00a8 [color="green"];
+  BB008d0050 -> BB008d005a [color="red"];
+  BB008d005a -> BB008d00a8 [color="green"];
+  BB008d005a -> BB008d0065 [color="red"];
+  BB008d0065 -> BB008d00a8 [color="green"];
+  BB008d0065 -> BB008d0073 [color="red"];
+  BB008d0073 -> BB008d00c1 [color="green"];
+  BB008d0073 -> BB008d0089 [color="red"];
+  BB008d0089 -> BB008d00c1 [color="green"];
+  BB008d0089 -> BB008d0095 [color="red"];
+  BB008d0095 -> BB008d00c1 [color="green"];
+  BB008d0095 -> BB008d00a4 [color="red"];
+  BB008d00a4 -> BB008d00a8 [color="blue"];
+  BB008d00a8 -> BB008d00c1 [color="blue"];
+}

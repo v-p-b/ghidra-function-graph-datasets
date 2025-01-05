@@ -1,0 +1,16 @@
+digraph ec_pkey_import_from {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005807f0 -> BB00580880 [color="green"];
+  BB005807f0 -> BB00580818 [color="red"];
+  BB00580818 -> BB00580839 [color="green"];
+  BB00580818 -> BB0058082a [color="red"];
+  BB0058082a -> BB00580850 [color="green"];
+  BB0058082a -> BB00580839 [color="red"];
+  BB00580839 -> BB00580843 [color="red"];
+  BB00580850 -> BB00580839 [color="green"];
+  BB00580850 -> BB00580864 [color="red"];
+  BB00580864 -> BB00580839 [color="green"];
+  BB00580864 -> BB00580878 [color="red"];
+  BB00580878 -> BB00580843 [color="blue"];
+}

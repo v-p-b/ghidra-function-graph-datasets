@@ -1,0 +1,37 @@
+digraph ossl_quic_wire_encode_frame_ack {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c0a10 -> BB004c0a62 [color="green"];
+  BB004c0a10 -> BB004c0a27 [color="red"];
+  BB004c0a27 -> BB004c0a78 [color="green"];
+  BB004c0a27 -> BB004c0a41 [color="red"];
+  BB004c0a41 -> BB004c0a98 [color="green"];
+  BB004c0a41 -> BB004c0a62 [color="red"];
+  BB004c0a62 -> BB004c0a64 [color="blue"];
+  BB004c0a78 -> BB004c0a41 [color="blue"];
+  BB004c0a98 -> BB004c0a62 [color="green"];
+  BB004c0a98 -> BB004c0aa7 [color="red"];
+  BB004c0aa7 -> BB004c0a62 [color="green"];
+  BB004c0aa7 -> BB004c0ab6 [color="red"];
+  BB004c0ab6 -> BB004c0a62 [color="green"];
+  BB004c0ab6 -> BB004c0ac6 [color="red"];
+  BB004c0ac6 -> BB004c0a62 [color="green"];
+  BB004c0ac6 -> BB004c0ad8 [color="red"];
+  BB004c0ad8 -> BB004c0b41 [color="green"];
+  BB004c0ad8 -> BB004c0ade [color="red"];
+  BB004c0ade -> BB004c0b0c [color="blue"];
+  BB004c0af0 -> BB004c0a62 [color="green"];
+  BB004c0af0 -> BB004c0b03 [color="red"];
+  BB004c0b03 -> BB004c0b41 [color="green"];
+  BB004c0b03 -> BB004c0b0c [color="red"];
+  BB004c0b0c -> BB004c0af0 [color="green"];
+  BB004c0b0c -> BB004c0b3c [color="red"];
+  BB004c0b3c -> BB004c0a62 [color="blue"];
+  BB004c0b41 -> BB004c0a64 [color="green"];
+  BB004c0b41 -> BB004c0b50 [color="red"];
+  BB004c0b50 -> BB004c0a62 [color="green"];
+  BB004c0b50 -> BB004c0b64 [color="red"];
+  BB004c0b64 -> BB004c0a62 [color="green"];
+  BB004c0b64 -> BB004c0b78 [color="red"];
+  BB004c0b78 -> BB004c0a64 [color="blue"];
+}

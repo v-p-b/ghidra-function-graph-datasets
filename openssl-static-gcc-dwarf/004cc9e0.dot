@@ -1,0 +1,14 @@
+digraph tls_read_record {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004cc9e0 -> BB004cca2b [color="blue"];
+  BB004cca08 -> BB004ccad0 [color="green"];
+  BB004cca08 -> BB004cca15 [color="red"];
+  BB004cca15 -> BB004ccabb [color="green"];
+  BB004cca15 -> BB004cca2b [color="red"];
+  BB004cca2b -> BB004cca08 [color="green"];
+  BB004cca2b -> BB004cca3e [color="red"];
+  BB004cca3e -> BB004ccabb [color="green"];
+  BB004cca3e -> BB004cca9c [color="red"];
+  BB004cca9c -> BB004ccabb [color="blue"];
+}

@@ -1,0 +1,21 @@
+digraph ossl_aes_gcm_siv_einit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00698cd0 -> BB00698d3b [color="green"];
+  BB00698cd0 -> BB00698cf9 [color="red"];
+  BB00698cf9 -> BB00698d5f [color="green"];
+  BB00698cf9 -> BB00698d05 [color="red"];
+  BB00698d05 -> BB00698d50 [color="green"];
+  BB00698d05 -> BB00698d0b [color="red"];
+  BB00698d0b -> BB00698d3b [color="red"];
+  BB00698d50 -> BB00401070 [color="green"];
+  BB00698d50 -> BB00698d5f [color="red"];
+  BB00698d5f -> BB00698db3 [color="green"];
+  BB00698d5f -> BB00698d64 [color="red"];
+  BB00698d64 -> BB00698da0 [color="green"];
+  BB00698d64 -> BB00698d6a [color="red"];
+  BB00698d6a -> BB00698d3b [color="blue"];
+  BB00698da0 -> BB00698db3 [color="blue"];
+  BB00698db3 -> BB00698d3b [color="green"];
+  BB00698db3 -> BB00698dc4 [color="red"];
+}

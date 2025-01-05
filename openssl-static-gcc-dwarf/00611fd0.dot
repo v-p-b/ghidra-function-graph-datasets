@@ -1,0 +1,28 @@
+digraph ocsp_verify_signer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00611fd0 -> BB0061217b [color="green"];
+  BB00611fd0 -> BB00612008 [color="red"];
+  BB00612008 -> BB00612140 [color="green"];
+  BB00612008 -> BB0061201e [color="red"];
+  BB0061201e -> BB0061218e [color="green"];
+  BB0061201e -> BB00612032 [color="red"];
+  BB00612032 -> BB006120d0 [color="green"];
+  BB00612032 -> BB0061203f [color="red"];
+  BB0061203f -> BB006120a0 [color="green"];
+  BB0061203f -> BB00612044 [color="red"];
+  BB00612044 -> BB006120e8 [color="green"];
+  BB00612044 -> BB0061206d [color="red"];
+  BB0061206d -> BB0061207d [color="green"];
+  BB0061206d -> BB00612072 [color="red"];
+  BB00612072 -> BB0061207d [color="red"];
+  BB006120a0 -> BB00612044 [color="green"];
+  BB006120a0 -> BB006120b6 [color="red"];
+  BB006120b6 -> BB00612044 [color="blue"];
+  BB006120d0 -> BB0061203f [color="blue"];
+  BB006120e8 -> BB0061207d [color="blue"];
+  BB00612140 -> BB00612151 [color="red"];
+  BB00612151 -> BB0061207d [color="blue"];
+  BB0061217b -> BB00612151 [color="blue"];
+  BB0061218e -> BB0061207d [color="blue"];
+}

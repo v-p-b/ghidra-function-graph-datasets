@@ -1,0 +1,16 @@
+digraph CT_POLICY_EVAL_CTX_new_ex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00577270 -> BB005772e9 [color="green"];
+  BB00577270 -> BB00577298 [color="red"];
+  BB00577298 -> BB005772bf [color="green"];
+  BB00577298 -> BB005772a1 [color="red"];
+  BB005772a1 -> BB005772fd [color="green"];
+  BB005772a1 -> BB005772bf [color="red"];
+  BB005772bf -> BB005772f1 [color="green"];
+  BB005772bf -> BB005772d3 [color="red"];
+  BB005772d3 -> BB005772e4 [color="blue"];
+  BB005772e4 -> BB005772e9 [color="blue"];
+  BB005772f1 -> BB005772e4 [color="blue"];
+  BB005772fd -> BB005772e9 [color="blue"];
+}

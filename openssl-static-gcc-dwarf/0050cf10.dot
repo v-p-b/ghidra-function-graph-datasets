@@ -1,0 +1,24 @@
+digraph ossl_ackm_on_pkt_space_discarded {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0050cf10 -> BB0050d037 [color="green"];
+  BB0050cf10 -> BB0050cf32 [color="red"];
+  BB0050cf32 -> BB0050d050 [color="green"];
+  BB0050cf32 -> BB0050cf3e [color="red"];
+  BB0050cf3e -> BB0050d060 [color="green"];
+  BB0050cf3e -> BB0050cf65 [color="red"];
+  BB0050cf65 -> BB0050cf8d [color="blue"];
+  BB0050cf70 -> BB0050cfa3 [color="green"];
+  BB0050cf70 -> BB0050cf8a [color="red"];
+  BB0050cf8a -> BB0050cf8d [color="blue"];
+  BB0050cf8d -> BB0050cf70 [color="green"];
+  BB0050cf8d -> BB0050cf97 [color="red"];
+  BB0050cf97 -> BB0050cf8a [color="green"];
+  BB0050cf97 -> BB0050cfa3 [color="red"];
+  BB0050cfa3 -> BB0050cff1 [color="green"];
+  BB0050cfa3 -> BB0050cfdd [color="red"];
+  BB0050cfdd -> BB0050cff1 [color="blue"];
+  BB0050cff1 -> BB0050d037 [color="red"];
+  BB0050d050 -> BB0050cf3e [color="blue"];
+  BB0050d060 -> BB0050cff1 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph calculate_columns {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0046c860 -> BB0046c8d0 [color="green"];
+  BB0046c860 -> BB0046c873 [color="red"];
+  BB0046c873 -> BB0046c880 [color="blue"];
+  BB0046c880 -> BB0046c896 [color="green"];
+  BB0046c880 -> BB0046c88a [color="red"];
+  BB0046c88a -> BB00401100 [color="green"];
+  BB0046c88a -> BB0046c896 [color="red"];
+  BB0046c896 -> BB0046c880 [color="green"];
+  BB0046c896 -> BB0046c8a3 [color="red"];
+  BB0046c8a3 -> BB0046c8b4 [color="blue"];
+  BB0046c8d0 -> BB0046c8b4 [color="blue"];
+}

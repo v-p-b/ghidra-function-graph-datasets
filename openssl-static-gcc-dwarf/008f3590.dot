@@ -1,0 +1,9 @@
+digraph __libc_init_secure {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008f3590 -> BB008f35a0 [color="green"];
+  BB008f3590 -> BB008f359a [color="red"];
+  BB008f35a0 -> BB008f35c8 [color="green"];
+  BB008f35a0 -> BB008f35ba [color="red"];
+  BB008f35c8 -> BB008f35ba [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph dtls1_retransmit_buffered_messages {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004e89c0 -> BB004e8a48 [color="green"];
+  BB004e89c0 -> BB004e89fd [color="red"];
+  BB004e89fd -> BB004e8a15 [color="blue"];
+  BB004e8a08 -> BB004e8a48 [color="green"];
+  BB004e8a08 -> BB004e8a15 [color="red"];
+  BB004e8a15 -> BB004e8a08 [color="green"];
+  BB004e8a15 -> BB004e8a34 [color="red"];
+}

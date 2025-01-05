@@ -1,0 +1,14 @@
+digraph __dlsym {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008848b0 -> BB008848ea [color="green"];
+  BB008848b0 -> BB008848de [color="red"];
+  BB008848de -> BB00000000 [color="green"];
+  BB008848de -> BB008848ea [color="red"];
+  BB008848ea -> BB0088491f [color="green"];
+  BB008848ea -> BB00884913 [color="red"];
+  BB00884913 -> BB00000000 [color="green"];
+  BB00884913 -> BB0088491f [color="red"];
+  BB0088491f -> BB00884939 [color="green"];
+  BB0088491f -> BB0088492f [color="red"];
+}

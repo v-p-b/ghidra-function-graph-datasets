@@ -1,0 +1,16 @@
+digraph X509_SIG_INFO_get {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00678390 -> BB00678399 [color="green"];
+  BB00678390 -> BB00678395 [color="red"];
+  BB00678395 -> BB00678399 [color="blue"];
+  BB00678399 -> BB006783a3 [color="green"];
+  BB00678399 -> BB0067839e [color="red"];
+  BB0067839e -> BB006783a3 [color="blue"];
+  BB006783a3 -> BB006783ad [color="green"];
+  BB006783a3 -> BB006783a8 [color="red"];
+  BB006783a8 -> BB006783ad [color="blue"];
+  BB006783ad -> BB006783b8 [color="green"];
+  BB006783ad -> BB006783b5 [color="red"];
+  BB006783b5 -> BB006783b8 [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph eckey_pub_cmp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005810b0 -> BB00581120 [color="green"];
+  BB005810b0 -> BB005810ef [color="red"];
+  BB005810ef -> BB00581120 [color="green"];
+  BB005810ef -> BB005810f4 [color="red"];
+  BB005810f4 -> BB00581113 [color="green"];
+  BB005810f4 -> BB0058110b [color="red"];
+  BB0058110b -> BB00581120 [color="green"];
+  BB0058110b -> BB00581110 [color="red"];
+  BB00581110 -> BB00581113 [color="blue"];
+  BB00581120 -> BB00581113 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph ossl_quic_tx_packetiser_get_deadline {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005083a0 -> BB005083bd [color="blue"];
+  BB005083bd -> BB00508418 [color="green"];
+  BB005083bd -> BB005083cf [color="red"];
+  BB005083cf -> BB005083bd [color="green"];
+  BB005083cf -> BB005083d9 [color="red"];
+  BB005083d9 -> BB00508407 [color="green"];
+  BB005083d9 -> BB005083ef [color="red"];
+  BB005083ef -> BB00508407 [color="blue"];
+  BB00508418 -> BB005083cf [color="blue"];
+}

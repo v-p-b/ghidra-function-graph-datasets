@@ -1,0 +1,28 @@
+digraph tls_check_sigalg_curve {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004a0450 -> BB004a04e2 [color="green"];
+  BB004a0450 -> BB004a0463 [color="red"];
+  BB004a0463 -> BB004a0467 [color="blue"];
+  BB004a0467 -> BB004a04c4 [color="green"];
+  BB004a0467 -> BB004a046c [color="red"];
+  BB004a046c -> BB004a0480 [color="blue"];
+  BB004a0480 -> BB004a04bb [color="green"];
+  BB004a0480 -> BB004a048a [color="red"];
+  BB004a048a -> BB004a04a5 [color="blue"];
+  BB004a0498 -> BB004a04bb [color="green"];
+  BB004a0498 -> BB004a04a5 [color="red"];
+  BB004a04a5 -> BB004a0498 [color="green"];
+  BB004a04a5 -> BB004a04ab [color="red"];
+  BB004a04ab -> BB004a04bb [color="green"];
+  BB004a04ab -> BB004a04b2 [color="red"];
+  BB004a04b2 -> BB004a04d0 [color="green"];
+  BB004a04b2 -> BB004a04bb [color="red"];
+  BB004a04bb -> BB004a0480 [color="green"];
+  BB004a04bb -> BB004a04c4 [color="red"];
+  BB004a04d0 -> BB004a04bb [color="green"];
+  BB004a04d0 -> BB004a04d8 [color="red"];
+  BB004a04d8 -> BB004a04bb [color="green"];
+  BB004a04d8 -> BB004a04dc [color="red"];
+  BB004a04e2 -> BB004a0467 [color="blue"];
+}

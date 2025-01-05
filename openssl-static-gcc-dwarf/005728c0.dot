@@ -1,0 +1,9 @@
+digraph CONF_module_add {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005728c0 -> BB00572908 [color="green"];
+  BB005728c0 -> BB005728e5 [color="red"];
+  BB005728e5 -> BB00572908 [color="green"];
+  BB005728e5 -> BB005728ef [color="red"];
+  BB005728ef -> BB00572908 [color="red"];
+}

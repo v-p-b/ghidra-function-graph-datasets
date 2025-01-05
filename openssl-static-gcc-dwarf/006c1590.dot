@@ -1,0 +1,16 @@
+digraph x448_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006c1590 -> BB006c15eb [color="green"];
+  BB006c1590 -> BB006c15a5 [color="red"];
+  BB006c15a5 -> BB006c15b9 [color="green"];
+  BB006c15a5 -> BB006c15aa [color="red"];
+  BB006c15aa -> BB006c15b9 [color="green"];
+  BB006c15aa -> BB006c15af [color="red"];
+  BB006c15af -> BB006c15f8 [color="green"];
+  BB006c15af -> BB006c15b9 [color="red"];
+  BB006c15b9 -> BB006c15eb [color="red"];
+  BB006c15f8 -> BB006c15b9 [color="green"];
+  BB006c15f8 -> BB006c1604 [color="red"];
+  BB006c1604 -> BB006c15eb [color="blue"];
+}

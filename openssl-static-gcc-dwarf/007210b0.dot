@@ -1,0 +1,18 @@
+digraph readbuffer_ctrl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB007210b0 -> BB007210e8 [color="green"];
+  BB007210b0 -> BB007210bc [color="red"];
+  BB007210bc -> BB007210e0 [color="green"];
+  BB007210bc -> BB007210c0 [color="red"];
+  BB007210c0 -> BB007210e0 [color="green"];
+  BB007210c0 -> BB007210c5 [color="red"];
+  BB007210e8 -> BB00721130 [color="green"];
+  BB007210e8 -> BB007210f0 [color="red"];
+  BB007210f0 -> BB007210e0 [color="green"];
+  BB007210f0 -> BB007210f8 [color="red"];
+  BB00721130 -> BB007210e0 [color="green"];
+  BB00721130 -> BB0072113d [color="red"];
+  BB0072113d -> BB007210e0 [color="green"];
+  BB0072113d -> BB00721145 [color="red"];
+}

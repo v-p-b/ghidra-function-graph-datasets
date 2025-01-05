@@ -1,0 +1,17 @@
+digraph ossl_quic_want {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b0cb0 -> BB004b0d30 [color="green"];
+  BB004b0cb0 -> BB004b0cb9 [color="red"];
+  BB004b0cb9 -> BB004b0d20 [color="green"];
+  BB004b0cb9 -> BB004b0cc0 [color="red"];
+  BB004b0cc0 -> BB004b0ce8 [color="green"];
+  BB004b0cc0 -> BB004b0cc5 [color="red"];
+  BB004b0cc5 -> BB004b0ccb [color="blue"];
+  BB004b0ccb -> BB004b0d15 [color="green"];
+  BB004b0ccb -> BB004b0cd3 [color="red"];
+  BB004b0ce8 -> BB004b0d0d [color="red"];
+  BB004b0d0d -> BB004b0d15 [color="red"];
+  BB004b0d20 -> BB004b0ccb [color="blue"];
+  BB004b0d30 -> BB004b0d0d [color="blue"];
+}

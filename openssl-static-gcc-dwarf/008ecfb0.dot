@@ -1,0 +1,15 @@
+digraph _dl_debug_initialize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008ecfb0 -> BB008ecfd0 [color="green"];
+  BB008ecfb0 -> BB008ecfbc [color="red"];
+  BB008ecfbc -> BB008ecfd0 [color="blue"];
+  BB008ecfd0 -> BB008ed018 [color="green"];
+  BB008ecfd0 -> BB008ecfd7 [color="red"];
+  BB008ecfd7 -> BB008ed010 [color="green"];
+  BB008ecfd7 -> BB008ecfdc [color="red"];
+  BB008ecfdc -> BB008ecfe2 [color="blue"];
+  BB008ed018 -> BB008ecfe2 [color="green"];
+  BB008ed018 -> BB008ed023 [color="red"];
+  BB008ed023 -> BB008ecfe2 [color="blue"];
+}

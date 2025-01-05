@@ -1,0 +1,15 @@
+digraph gmac_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006da800 -> BB006da830 [color="green"];
+  BB006da800 -> BB006da81f [color="red"];
+  BB006da81f -> BB006da821 [color="blue"];
+  BB006da830 -> BB006da81f [color="green"];
+  BB006da830 -> BB006da83f [color="red"];
+  BB006da83f -> BB006da890 [color="green"];
+  BB006da83f -> BB006da848 [color="red"];
+  BB006da848 -> BB006da8b0 [color="green"];
+  BB006da848 -> BB006da857 [color="red"];
+  BB006da857 -> BB006da81f [color="blue"];
+  BB006da8b0 -> BB006da821 [color="blue"];
+}

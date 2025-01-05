@@ -1,0 +1,23 @@
+digraph dsa_sign_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006e51a0 -> BB006e51cc [color="green"];
+  BB006e51a0 -> BB006e51b6 [color="red"];
+  BB006e51b6 -> BB006e51cc [color="green"];
+  BB006e51b6 -> BB006e51bb [color="red"];
+  BB006e51bb -> BB006e51d8 [color="green"];
+  BB006e51bb -> BB006e51c0 [color="red"];
+  BB006e51c0 -> BB006e5230 [color="green"];
+  BB006e51c0 -> BB006e51cc [color="red"];
+  BB006e51cc -> BB006e51ce [color="blue"];
+  BB006e51d8 -> BB006e5240 [color="green"];
+  BB006e51d8 -> BB006e51df [color="red"];
+  BB006e51df -> BB006e51ce [color="green"];
+  BB006e51df -> BB006e51f0 [color="red"];
+  BB006e51f0 -> BB006e5214 [color="green"];
+  BB006e51f0 -> BB006e5207 [color="red"];
+  BB006e5207 -> BB006e51cc [color="green"];
+  BB006e5207 -> BB006e5214 [color="red"];
+  BB006e5230 -> BB006e51df [color="blue"];
+  BB006e5240 -> BB006e51cc [color="blue"];
+}

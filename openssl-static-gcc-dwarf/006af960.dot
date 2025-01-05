@@ -1,0 +1,11 @@
+digraph key_to_p8info {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006af960 -> BB006af9e8 [color="green"];
+  BB006af960 -> BB006af993 [color="red"];
+  BB006af993 -> BB006af9e8 [color="green"];
+  BB006af993 -> BB006af9a3 [color="red"];
+  BB006af9a3 -> BB006af9e8 [color="green"];
+  BB006af9a3 -> BB006af9d1 [color="red"];
+  BB006af9e8 -> BB006af9d1 [color="blue"];
+}

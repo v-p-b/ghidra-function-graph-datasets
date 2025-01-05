@@ -1,0 +1,14 @@
+digraph opt_verify {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00470200 -> BB004707b0 [color="green"];
+  BB00470200 -> BB00470213 [color="red"];
+  BB00470213 -> BB00470798 [color="green"];
+  BB00470213 -> BB0047021f [color="red"];
+  BB0047021f -> BB004707c8 [color="green"];
+  BB0047021f -> BB0047022b [color="red"];
+  BB0047022b -> BB00470250 [color="green"];
+  BB0047022b -> BB00470236 [color="red"];
+  BB00470798 -> BB004707b0 [color="red"];
+  BB004707b0 -> BB004707c8 [color="red"];
+}

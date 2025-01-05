@@ -1,0 +1,25 @@
+digraph list_decoders {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00425290 -> BB00425430 [color="green"];
+  BB00425290 -> BB004252b3 [color="red"];
+  BB004252b3 -> BB00425303 [color="blue"];
+  BB004252f8 -> BB00425300 [color="red"];
+  BB00425300 -> BB00425303 [color="blue"];
+  BB00425303 -> BB00425410 [color="green"];
+  BB00425303 -> BB00425313 [color="red"];
+  BB00425313 -> BB00425338 [color="green"];
+  BB00425313 -> BB0042532c [color="red"];
+  BB0042532c -> BB00425300 [color="green"];
+  BB0042532c -> BB00425338 [color="red"];
+  BB00425338 -> BB004252f8 [color="green"];
+  BB00425338 -> BB0042534c [color="red"];
+  BB0042534c -> BB004252f8 [color="green"];
+  BB0042534c -> BB00425362 [color="red"];
+  BB00425362 -> BB004252f8 [color="green"];
+  BB00425362 -> BB004253c6 [color="red"];
+  BB004253c6 -> BB004253eb [color="green"];
+  BB004253c6 -> BB004253d6 [color="red"];
+  BB004253d6 -> BB004253eb [color="red"];
+  BB004253eb -> BB004252f8 [color="blue"];
+}

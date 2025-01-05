@@ -1,0 +1,12 @@
+digraph crls_http_cb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00467420 -> BB004674c3 [color="green"];
+  BB00467420 -> BB0046743d [color="red"];
+  BB0046743d -> BB004674d0 [color="green"];
+  BB0046743d -> BB0046747e [color="red"];
+  BB0046747e -> BB004674c3 [color="green"];
+  BB0046747e -> BB004674b8 [color="red"];
+  BB004674b8 -> BB004674c3 [color="red"];
+  BB004674d0 -> BB004674c3 [color="blue"];
+}

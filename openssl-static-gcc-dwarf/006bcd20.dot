@@ -1,0 +1,16 @@
+digraph sm22blob_encode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006bcd20 -> BB006bcd80 [color="green"];
+  BB006bcd20 -> BB006bcd32 [color="red"];
+  BB006bcd32 -> BB006bcd65 [color="red"];
+  BB006bcd80 -> BB006bcde1 [color="green"];
+  BB006bcd80 -> BB006bcdab [color="red"];
+  BB006bcdab -> BB006bcde1 [color="green"];
+  BB006bcdab -> BB006bcdb0 [color="red"];
+  BB006bcdb0 -> BB006bcddc [color="green"];
+  BB006bcdb0 -> BB006bcdc3 [color="red"];
+  BB006bcdc3 -> BB006bcddc [color="red"];
+  BB006bcddc -> BB006bcde1 [color="blue"];
+  BB006bcde1 -> BB006bcd65 [color="blue"];
+}

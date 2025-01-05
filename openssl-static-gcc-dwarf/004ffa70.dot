@@ -1,0 +1,9 @@
+digraph ossl_quic_engine_create_port {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ffa70 -> BB004ffaa1 [color="green"];
+  BB004ffa70 -> BB004ffa8e [color="red"];
+  BB004ffa8e -> BB004ffaa1 [color="green"];
+  BB004ffa8e -> BB004ffa95 [color="red"];
+  BB004ffa95 -> BB004ffaa1 [color="red"];
+}

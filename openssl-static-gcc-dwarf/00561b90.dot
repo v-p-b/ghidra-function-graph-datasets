@@ -1,0 +1,20 @@
+digraph OSSL_CMP_validate_cert_path {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00561b90 -> BB00561c88 [color="green"];
+  BB00561b90 -> BB00561ba4 [color="red"];
+  BB00561ba4 -> BB00561c88 [color="green"];
+  BB00561ba4 -> BB00561bb0 [color="red"];
+  BB00561bb0 -> BB00561cd0 [color="green"];
+  BB00561bb0 -> BB00561bbc [color="red"];
+  BB00561bbc -> BB00561c60 [color="green"];
+  BB00561bbc -> BB00561bd7 [color="red"];
+  BB00561bd7 -> BB00561c60 [color="green"];
+  BB00561bd7 -> BB00561bf0 [color="red"];
+  BB00561bf0 -> BB00561c63 [color="green"];
+  BB00561bf0 -> BB00561c0e [color="red"];
+  BB00561c0e -> BB00561c63 [color="green"];
+  BB00561c0e -> BB00561c2c [color="red"];
+  BB00561c2c -> BB00561c63 [color="blue"];
+  BB00561c60 -> BB00561c63 [color="blue"];
+}

@@ -1,0 +1,16 @@
+digraph sha256_block_data_order_avx2 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0084ac00 -> BB0084ac80 [color="blue"];
+  BB0084ac80 -> BB0084ad20 [color="blue"];
+  BB0084ad20 -> BB0084ad20 [color="green"];
+  BB0084ad20 -> BB0084b5eb [color="red"];
+  BB0084b5eb -> BB0084bfff [color="green"];
+  BB0084b5eb -> BB0084bc65 [color="red"];
+  BB0084bc65 -> BB0084bc80 [color="blue"];
+  BB0084bc80 -> BB0084bc80 [color="green"];
+  BB0084bc80 -> BB0084bf99 [color="red"];
+  BB0084bf99 -> BB0084ac80 [color="green"];
+  BB0084bf99 -> BB0084bffb [color="red"];
+  BB0084bffb -> BB0084bfff [color="blue"];
+}

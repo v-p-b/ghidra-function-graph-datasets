@@ -1,0 +1,14 @@
+digraph SubjectPublicKeyInfo_der2dh_does_selection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006abbb0 -> BB006abbcf [color="green"];
+  BB006abbb0 -> BB006abbb9 [color="red"];
+  BB006abbb9 -> BB006abbd5 [color="green"];
+  BB006abbb9 -> BB006abbc0 [color="red"];
+  BB006abbc0 -> BB006abbd0 [color="green"];
+  BB006abbc0 -> BB006abbc6 [color="red"];
+  BB006abbc6 -> BB006abbe0 [color="green"];
+  BB006abbc6 -> BB006abbcf [color="red"];
+  BB006abbd0 -> BB006abbd5 [color="blue"];
+  BB006abbe0 -> BB006abbd5 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph OSSL_HTTP_close {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e61d0 -> BB005e620e [color="green"];
+  BB005e61d0 -> BB005e61e5 [color="red"];
+  BB005e61e5 -> BB005e620e [color="green"];
+  BB005e61e5 -> BB005e61ee [color="red"];
+  BB005e61ee -> BB005e620e [color="green"];
+  BB005e61ee -> BB005e6204 [color="red"];
+  BB005e6204 -> BB005e620e [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph __strncasecmp_l_nonascii {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008cf890 -> BB008cf8e0 [color="green"];
+  BB008cf890 -> BB008cf89e [color="red"];
+  BB008cf89e -> BB008cf8e0 [color="green"];
+  BB008cf89e -> BB008cf8a3 [color="red"];
+  BB008cf8a3 -> BB008cf8be [color="blue"];
+  BB008cf8b0 -> BB008cf8d3 [color="green"];
+  BB008cf8b0 -> BB008cf8b5 [color="red"];
+  BB008cf8b5 -> BB008cf8d3 [color="green"];
+  BB008cf8b5 -> BB008cf8be [color="red"];
+  BB008cf8be -> BB008cf8b0 [color="green"];
+  BB008cf8be -> BB008cf8d3 [color="red"];
+}

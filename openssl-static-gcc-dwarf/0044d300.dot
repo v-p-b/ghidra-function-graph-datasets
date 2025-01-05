@@ -1,0 +1,13 @@
+digraph KEM_keygen_loop {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0044d300 -> BB0044d386 [color="green"];
+  BB0044d300 -> BB0044d32e [color="red"];
+  BB0044d32e -> BB0044d370 [color="blue"];
+  BB0044d340 -> BB0044d398 [color="green"];
+  BB0044d340 -> BB0044d34f [color="red"];
+  BB0044d34f -> BB0044d386 [color="green"];
+  BB0044d34f -> BB0044d370 [color="red"];
+  BB0044d370 -> BB0044d340 [color="green"];
+  BB0044d370 -> BB0044d386 [color="red"];
+}

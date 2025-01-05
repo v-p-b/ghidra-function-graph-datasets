@@ -1,0 +1,23 @@
+digraph CTLOG_STORE_load_file {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00576190 -> BB005762f6 [color="green"];
+  BB00576190 -> BB005761bf [color="red"];
+  BB005761bf -> BB00576235 [color="green"];
+  BB005761bf -> BB005761db [color="red"];
+  BB005761db -> BB005762e0 [color="green"];
+  BB005761db -> BB005761ed [color="red"];
+  BB005761ed -> BB00576260 [color="green"];
+  BB005761ed -> BB00576207 [color="red"];
+  BB00576207 -> BB005762a0 [color="green"];
+  BB00576207 -> BB00576224 [color="red"];
+  BB00576224 -> BB005762a0 [color="green"];
+  BB00576224 -> BB0057622b [color="red"];
+  BB0057622b -> BB00576235 [color="blue"];
+  BB00576235 -> BB0057624e [color="red"];
+  BB00576260 -> BB00576271 [color="red"];
+  BB00576271 -> BB00576235 [color="blue"];
+  BB005762a0 -> BB00576235 [color="blue"];
+  BB005762e0 -> BB00576271 [color="blue"];
+  BB005762f6 -> BB0057624e [color="blue"];
+}

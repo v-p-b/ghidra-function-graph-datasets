@@ -1,0 +1,16 @@
+digraph X509_get_signature_info {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006783e0 -> BB00678414 [color="green"];
+  BB006783e0 -> BB0067840b [color="red"];
+  BB0067840b -> BB00678414 [color="blue"];
+  BB00678414 -> BB00678423 [color="green"];
+  BB00678414 -> BB00678419 [color="red"];
+  BB00678419 -> BB00678423 [color="blue"];
+  BB00678423 -> BB00678432 [color="green"];
+  BB00678423 -> BB00678428 [color="red"];
+  BB00678428 -> BB00678432 [color="blue"];
+  BB00678432 -> BB00678440 [color="green"];
+  BB00678432 -> BB0067843d [color="red"];
+  BB0067843d -> BB00678440 [color="blue"];
+}

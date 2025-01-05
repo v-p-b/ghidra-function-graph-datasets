@@ -1,0 +1,13 @@
+digraph ossl_ffc_validate_private_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e1a80 -> BB005e1ad8 [color="green"];
+  BB005e1a80 -> BB005e1a92 [color="red"];
+  BB005e1a92 -> BB005e1ad8 [color="green"];
+  BB005e1a92 -> BB005e1a9a [color="red"];
+  BB005e1a9a -> BB005e1ae8 [color="green"];
+  BB005e1a9a -> BB005e1ab1 [color="red"];
+  BB005e1ab1 -> BB005e1ae0 [color="green"];
+  BB005e1ab1 -> BB005e1ac9 [color="red"];
+  BB005e1ad8 -> BB005e1ae0 [color="blue"];
+}

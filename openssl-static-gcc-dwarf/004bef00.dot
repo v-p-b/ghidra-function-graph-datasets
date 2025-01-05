@@ -1,0 +1,9 @@
+digraph ossl_quic_stream_map_notify_totally_acked {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004bef00 -> BB004bef10 [color="green"];
+  BB004bef00 -> BB004bef0b [color="red"];
+  BB004bef10 -> BB004bef4e [color="green"];
+  BB004bef10 -> BB004bef42 [color="red"];
+  BB004bef42 -> BB004bef4e [color="blue"];
+}

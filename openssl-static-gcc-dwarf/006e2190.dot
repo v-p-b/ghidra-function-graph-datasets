@@ -1,0 +1,9 @@
+digraph drbg_hmac_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006e2190 -> BB006e21d7 [color="green"];
+  BB006e2190 -> BB006e219f [color="red"];
+  BB006e219f -> BB006e21d7 [color="green"];
+  BB006e219f -> BB006e21ab [color="red"];
+  BB006e21ab -> BB006e21d7 [color="red"];
+}

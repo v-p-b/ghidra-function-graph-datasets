@@ -1,0 +1,9 @@
+digraph blake2_mac_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006d99e0 -> BB006d9a18 [color="green"];
+  BB006d99e0 -> BB006d99ee [color="red"];
+  BB006d99ee -> BB006d9a18 [color="green"];
+  BB006d99ee -> BB006d9a0c [color="red"];
+  BB006d9a0c -> BB006d9a18 [color="red"];
+}

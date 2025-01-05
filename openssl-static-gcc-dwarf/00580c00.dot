@@ -1,0 +1,10 @@
+digraph ec_cmp_parameters {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00580c00 -> BB00580c48 [color="green"];
+  BB00580c00 -> BB00580c23 [color="red"];
+  BB00580c23 -> BB00580c48 [color="green"];
+  BB00580c23 -> BB00580c2b [color="red"];
+  BB00580c2b -> BB00580c3d [color="red"];
+  BB00580c48 -> BB00580c3d [color="blue"];
+}

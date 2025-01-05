@@ -1,0 +1,9 @@
+digraph SSL_set_post_handshake_auth {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00494050 -> BB00494061 [color="green"];
+  BB00494050 -> BB00494055 [color="red"];
+  BB00494055 -> BB00494061 [color="green"];
+  BB00494055 -> BB0049405b [color="red"];
+  BB0049405b -> BB00494061 [color="blue"];
+}

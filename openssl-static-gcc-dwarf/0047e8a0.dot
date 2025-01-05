@@ -1,0 +1,15 @@
+digraph SSL_dup_CA_list {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0047e8a0 -> BB0047e954 [color="green"];
+  BB0047e8a0 -> BB0047e8c9 [color="red"];
+  BB0047e8c9 -> BB0047e8e9 [color="green"];
+  BB0047e8c9 -> BB0047e8d0 [color="red"];
+  BB0047e8d0 -> BB0047e946 [color="blue"];
+  BB0047e8d8 -> BB0047e946 [color="green"];
+  BB0047e8d8 -> BB0047e8e9 [color="red"];
+  BB0047e8e9 -> BB0047e8d8 [color="green"];
+  BB0047e8e9 -> BB0047e904 [color="red"];
+  BB0047e904 -> BB0047e946 [color="red"];
+  BB0047e954 -> BB0047e946 [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph SIG_sign_loop {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0044dbc0 -> BB0044dc74 [color="green"];
+  BB0044dbc0 -> BB0044dc0e [color="red"];
+  BB0044dc0e -> BB0044dc5e [color="blue"];
+  BB0044dc20 -> BB0044dca0 [color="green"];
+  BB0044dc20 -> BB0044dc50 [color="red"];
+  BB0044dc50 -> BB0044dc74 [color="green"];
+  BB0044dc50 -> BB0044dc5e [color="red"];
+  BB0044dc5e -> BB0044dc20 [color="green"];
+  BB0044dc5e -> BB0044dc74 [color="red"];
+  BB0044dca0 -> BB0044dc74 [color="blue"];
+}

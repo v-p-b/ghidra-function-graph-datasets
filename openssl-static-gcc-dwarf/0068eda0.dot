@@ -1,0 +1,13 @@
+digraph ossl_bio_new_from_core_bio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0068eda0 -> BB0068edf8 [color="green"];
+  BB0068eda0 -> BB0068edb4 [color="red"];
+  BB0068edb4 -> BB0068edf8 [color="green"];
+  BB0068edb4 -> BB0068edc4 [color="red"];
+  BB0068edc4 -> BB0068edf0 [color="green"];
+  BB0068edc4 -> BB0068edd0 [color="red"];
+  BB0068edd0 -> BB0068edf0 [color="green"];
+  BB0068edd0 -> BB0068edd9 [color="red"];
+  BB0068edf0 -> BB0068edf8 [color="red"];
+}

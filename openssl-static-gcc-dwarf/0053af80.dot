@@ -1,0 +1,12 @@
+digraph sock_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0053af80 -> BB0053afd0 [color="green"];
+  BB0053af80 -> BB0053af85 [color="red"];
+  BB0053af85 -> BB0053afa5 [color="green"];
+  BB0053af85 -> BB0053af90 [color="red"];
+  BB0053af90 -> BB0053afd8 [color="green"];
+  BB0053af90 -> BB0053af97 [color="red"];
+  BB0053af97 -> BB0053afa5 [color="blue"];
+  BB0053afd8 -> BB0053af97 [color="blue"];
+}

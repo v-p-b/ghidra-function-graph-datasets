@@ -1,0 +1,14 @@
+digraph ecxkem_encapsulate_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006d00b0 -> BB006d0138 [color="green"];
+  BB006d00b0 -> BB006d00c6 [color="red"];
+  BB006d00c6 -> BB006d014a [color="green"];
+  BB006d00c6 -> BB006d00fc [color="red"];
+  BB006d00fc -> BB006d0138 [color="green"];
+  BB006d00fc -> BB006d0113 [color="red"];
+  BB006d0113 -> BB006d0140 [color="green"];
+  BB006d0113 -> BB006d0123 [color="red"];
+  BB006d0138 -> BB006d013a [color="blue"];
+  BB006d014a -> BB006d013a [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph CONF_load {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00570d80 -> BB00570e10 [color="green"];
+  BB00570d80 -> BB00570da4 [color="red"];
+  BB00570da4 -> BB00570df8 [color="green"];
+  BB00570da4 -> BB00570db3 [color="red"];
+  BB00570db3 -> BB00570de7 [color="red"];
+  BB00570df8 -> BB00570db3 [color="blue"];
+  BB00570e10 -> BB00570de7 [color="blue"];
+}

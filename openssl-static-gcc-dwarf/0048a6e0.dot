@@ -1,0 +1,18 @@
+digraph SSL_get1_peer_certificate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048a6e0 -> BB0048a728 [color="green"];
+  BB0048a6e0 -> BB0048a6e7 [color="red"];
+  BB0048a6e7 -> BB0048a6fe [color="green"];
+  BB0048a6e7 -> BB0048a6ed [color="red"];
+  BB0048a6ed -> BB0048a71f [color="green"];
+  BB0048a6ed -> BB0048a6f5 [color="red"];
+  BB0048a6f5 -> BB0048a71f [color="green"];
+  BB0048a6f5 -> BB0048a6fe [color="red"];
+  BB0048a6fe -> BB0048a71f [color="green"];
+  BB0048a6fe -> BB0048a70a [color="red"];
+  BB0048a70a -> BB0048a71f [color="green"];
+  BB0048a70a -> BB0048a717 [color="red"];
+  BB0048a717 -> BB0048a71f [color="red"];
+  BB0048a728 -> BB0048a71f [color="blue"];
+}

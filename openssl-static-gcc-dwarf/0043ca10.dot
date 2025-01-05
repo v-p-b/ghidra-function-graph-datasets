@@ -1,0 +1,12 @@
+digraph new_session_cb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0043ca10 -> BB0043ca4e [color="green"];
+  BB0043ca10 -> BB0043ca27 [color="red"];
+  BB0043ca27 -> BB0043cab0 [color="green"];
+  BB0043ca27 -> BB0043ca3b [color="red"];
+  BB0043ca3b -> BB0043ca4e [color="red"];
+  BB0043ca4e -> BB0043ca68 [color="green"];
+  BB0043ca4e -> BB0043ca5d [color="red"];
+  BB0043cab0 -> BB0043ca4e [color="blue"];
+}

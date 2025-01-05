@@ -1,0 +1,17 @@
+digraph conn_puts {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00535c00 -> BB00401100 [color="green"];
+  BB00535c00 -> BB00535cc0 [color="green"];
+  BB00535c00 -> BB00535c26 [color="red"];
+  BB00535c26 -> BB00535c70 [color="green"];
+  BB00535c26 -> BB00535c2d [color="red"];
+  BB00535c2d -> BB00535c64 [color="red"];
+  BB00535c70 -> BB00535c64 [color="green"];
+  BB00535c70 -> BB00535ca0 [color="red"];
+  BB00535ca0 -> BB00535c64 [color="green"];
+  BB00535ca0 -> BB00535cab [color="red"];
+  BB00535cab -> BB00535c64 [color="blue"];
+  BB00535cc0 -> BB00535c26 [color="green"];
+  BB00535cc0 -> BB00535cd6 [color="red"];
+}

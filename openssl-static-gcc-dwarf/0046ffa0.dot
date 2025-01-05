@@ -1,0 +1,16 @@
+digraph opt_long {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0046ffa0 -> BB0047001b [color="green"];
+  BB0046ffa0 -> BB0046ffda [color="red"];
+  BB0046ffda -> BB0047001b [color="green"];
+  BB0046ffda -> BB0046ffdf [color="red"];
+  BB0046ffdf -> BB00470010 [color="green"];
+  BB0046ffdf -> BB0046fff2 [color="red"];
+  BB0046fff2 -> BB0047001b [color="green"];
+  BB0046fff2 -> BB0046fff7 [color="red"];
+  BB00470010 -> BB0046fff7 [color="green"];
+  BB00470010 -> BB00470015 [color="red"];
+  BB00470015 -> BB0046fff7 [color="green"];
+  BB00470015 -> BB0047001b [color="red"];
+}

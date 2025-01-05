@@ -1,0 +1,10 @@
+digraph ASYNC_get_mem_functions {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00528420 -> BB0052842c [color="green"];
+  BB00528420 -> BB00528425 [color="red"];
+  BB00528425 -> BB0052842c [color="blue"];
+  BB0052842c -> BB00528438 [color="green"];
+  BB0052842c -> BB00528431 [color="red"];
+  BB00528431 -> BB00528438 [color="blue"];
+}

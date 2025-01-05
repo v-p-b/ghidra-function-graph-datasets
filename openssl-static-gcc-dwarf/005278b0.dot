@@ -1,0 +1,13 @@
+digraph uint32_i2c {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005278b0 -> BB005278c7 [color="green"];
+  BB005278b0 -> BB005278c3 [color="red"];
+  BB005278c3 -> BB005278dd [color="green"];
+  BB005278c3 -> BB005278c7 [color="red"];
+  BB005278c7 -> BB005278d8 [color="green"];
+  BB005278c7 -> BB005278cd [color="red"];
+  BB005278cd -> BB005278d8 [color="green"];
+  BB005278cd -> BB005278d1 [color="red"];
+  BB005278d1 -> BB005278d8 [color="blue"];
+}

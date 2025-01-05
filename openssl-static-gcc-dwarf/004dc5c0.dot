@@ -1,0 +1,20 @@
+digraph tls_construct_stoc_use_srtp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004dc5c0 -> BB004dc6a0 [color="green"];
+  BB004dc5c0 -> BB004dc5ce [color="red"];
+  BB004dc5ce -> BB004dc602 [color="green"];
+  BB004dc5ce -> BB004dc5f1 [color="red"];
+  BB004dc5f1 -> BB004dc640 [color="green"];
+  BB004dc5f1 -> BB004dc602 [color="red"];
+  BB004dc602 -> BB004dc637 [color="red"];
+  BB004dc640 -> BB004dc602 [color="green"];
+  BB004dc640 -> BB004dc656 [color="red"];
+  BB004dc656 -> BB004dc602 [color="green"];
+  BB004dc656 -> BB004dc672 [color="red"];
+  BB004dc672 -> BB004dc602 [color="green"];
+  BB004dc672 -> BB004dc689 [color="red"];
+  BB004dc689 -> BB004dc602 [color="green"];
+  BB004dc689 -> BB004dc699 [color="red"];
+  BB004dc699 -> BB004dc637 [color="blue"];
+}

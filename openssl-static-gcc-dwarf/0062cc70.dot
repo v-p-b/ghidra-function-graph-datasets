@@ -1,0 +1,14 @@
+digraph ossl_rand_get_nonce {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0062cc70 -> BB0062ccf0 [color="green"];
+  BB0062cc70 -> BB0062cc91 [color="red"];
+  BB0062cc91 -> BB0062cce8 [color="green"];
+  BB0062cc91 -> BB0062cca0 [color="red"];
+  BB0062cca0 -> BB0062ccb9 [color="green"];
+  BB0062cca0 -> BB0062cca5 [color="red"];
+  BB0062cca5 -> BB0062cce8 [color="green"];
+  BB0062cca5 -> BB0062ccb9 [color="red"];
+  BB0062ccb9 -> BB0062cccf [color="red"];
+  BB0062cce8 -> BB0062cccf [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph gnames_stack_print {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00414fc0 -> BB00415066 [color="green"];
+  BB00414fc0 -> BB00414fe8 [color="red"];
+  BB00414fe8 -> BB00414ff0 [color="blue"];
+  BB00414ff0 -> BB00415049 [color="blue"];
+  BB00415008 -> BB00415049 [color="red"];
+  BB00415049 -> BB00415008 [color="green"];
+  BB00415049 -> BB00415055 [color="red"];
+  BB00415055 -> BB00414ff0 [color="green"];
+  BB00415055 -> BB00415066 [color="red"];
+}

@@ -1,0 +1,17 @@
+digraph policies_print {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004697c0 -> BB004698f8 [color="green"];
+  BB004697c0 -> BB00469830 [color="red"];
+  BB00469830 -> BB00469871 [color="blue"];
+  BB00469850 -> BB00469871 [color="red"];
+  BB00469871 -> BB00469850 [color="green"];
+  BB00469871 -> BB0046987d [color="red"];
+  BB0046987d -> BB00469910 [color="green"];
+  BB0046987d -> BB004698a9 [color="red"];
+  BB004698a9 -> BB004698e1 [color="blue"];
+  BB004698c0 -> BB004698e1 [color="red"];
+  BB004698e1 -> BB004698c0 [color="green"];
+  BB004698e1 -> BB004698ed [color="red"];
+  BB004698f8 -> BB0046987d [color="blue"];
+}

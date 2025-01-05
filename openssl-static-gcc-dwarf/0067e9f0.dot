@@ -1,0 +1,13 @@
+digraph X509_STORE_CTX_verify {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0067e9f0 -> BB0067ea3e [color="green"];
+  BB0067e9f0 -> BB0067e9f6 [color="red"];
+  BB0067e9f6 -> BB0067ea18 [color="green"];
+  BB0067e9f6 -> BB0067ea03 [color="red"];
+  BB0067ea03 -> BB0067ea20 [color="green"];
+  BB0067ea03 -> BB0067ea0a [color="red"];
+  BB0067ea20 -> BB0067ea0a [color="green"];
+  BB0067ea20 -> BB0067ea2d [color="red"];
+  BB0067ea2d -> BB0067ea0a [color="blue"];
+}

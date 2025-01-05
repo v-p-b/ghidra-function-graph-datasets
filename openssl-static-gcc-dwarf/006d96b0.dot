@@ -1,0 +1,36 @@
+digraph blake2_mac_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006d96b0 -> BB006d96e0 [color="green"];
+  BB006d96b0 -> BB006d96cf [color="red"];
+  BB006d96e0 -> BB006d96cf [color="green"];
+  BB006d96e0 -> BB006d96ef [color="red"];
+  BB006d96ef -> BB006d9768 [color="green"];
+  BB006d96ef -> BB006d96f4 [color="red"];
+  BB006d96f4 -> BB006d97a0 [color="green"];
+  BB006d96f4 -> BB006d9702 [color="red"];
+  BB006d9702 -> BB00401070 [color="green"];
+  BB006d9702 -> BB006d9750 [color="green"];
+  BB006d9702 -> BB006d971d [color="red"];
+  BB006d971d -> BB006d97d8 [color="green"];
+  BB006d971d -> BB006d9734 [color="red"];
+  BB006d9734 -> BB006d9855 [color="green"];
+  BB006d9734 -> BB006d973c [color="red"];
+  BB006d973c -> BB006d9750 [color="green"];
+  BB006d973c -> BB006d9740 [color="red"];
+  BB006d9740 -> BB006d9750 [color="green"];
+  BB006d9740 -> BB006d9747 [color="red"];
+  BB006d9747 -> BB006d9750 [color="blue"];
+  BB006d9750 -> BB006d9783 [color="blue"];
+  BB006d9768 -> BB006d9820 [color="green"];
+  BB006d9768 -> BB006d9783 [color="red"];
+  BB006d97a0 -> BB006d96cf [color="blue"];
+  BB006d97d8 -> BB006d9750 [color="green"];
+  BB006d97d8 -> BB006d9803 [color="red"];
+  BB006d9803 -> BB006d9808 [color="blue"];
+  BB006d9808 -> BB006d9808 [color="green"];
+  BB006d9808 -> BB006d9815 [color="red"];
+  BB006d9815 -> BB006d9750 [color="blue"];
+  BB006d9820 -> BB006d96cf [color="blue"];
+  BB006d9855 -> BB006d9750 [color="blue"];
+}

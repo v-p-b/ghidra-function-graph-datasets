@@ -1,0 +1,13 @@
+digraph tls_get_state {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004cc670 -> BB004cc6b2 [color="green"];
+  BB004cc670 -> BB004cc68c [color="red"];
+  BB004cc68c -> BB004cc6b2 [color="blue"];
+  BB004cc6b2 -> BB004cc6ba [color="green"];
+  BB004cc6b2 -> BB004cc6b7 [color="red"];
+  BB004cc6b7 -> BB004cc6ba [color="blue"];
+  BB004cc6ba -> BB004cc6c2 [color="green"];
+  BB004cc6ba -> BB004cc6bf [color="red"];
+  BB004cc6bf -> BB004cc6c2 [color="blue"];
+}

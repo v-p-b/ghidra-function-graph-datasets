@@ -1,0 +1,19 @@
+digraph free_derivation {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0092cd40 -> BB0092cdab [color="green"];
+  BB0092cd40 -> BB0092cd58 [color="red"];
+  BB0092cd58 -> BB0092cd60 [color="blue"];
+  BB0092cd60 -> BB0092cd9d [color="green"];
+  BB0092cd60 -> BB0092cd6b [color="red"];
+  BB0092cd6b -> BB0092cd9d [color="green"];
+  BB0092cd6b -> BB0092cd71 [color="red"];
+  BB0092cd71 -> BB0092cd9d [color="green"];
+  BB0092cd71 -> BB0092cd87 [color="red"];
+  BB0092cd87 -> BB0092cd9d [color="red"];
+  BB0092cd9d -> BB0092cd60 [color="green"];
+  BB0092cd9d -> BB0092cdab [color="red"];
+  BB0092cdab -> BB0092cddf [color="green"];
+  BB0092cdab -> BB0092cdb0 [color="red"];
+  BB0092cdb0 -> BB0092cddf [color="red"];
+}

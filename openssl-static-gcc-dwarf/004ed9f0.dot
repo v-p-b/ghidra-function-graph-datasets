@@ -1,0 +1,10 @@
+digraph get_ca_names {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ed9f0 -> BB004eda1a [color="green"];
+  BB004ed9f0 -> BB004eda01 [color="red"];
+  BB004eda01 -> BB004eda1a [color="green"];
+  BB004eda01 -> BB004eda0e [color="red"];
+  BB004eda0e -> BB004eda30 [color="green"];
+  BB004eda0e -> BB004eda1a [color="red"];
+}

@@ -1,0 +1,18 @@
+digraph SM2_sign_loop {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0044d870 -> BB0044d971 [color="green"];
+  BB0044d870 -> BB0044d8be [color="red"];
+  BB0044d8be -> BB0044d957 [color="blue"];
+  BB0044d8d8 -> BB0044d988 [color="green"];
+  BB0044d8d8 -> BB0044d91a [color="red"];
+  BB0044d91a -> BB0044d9c0 [color="green"];
+  BB0044d91a -> BB0044d940 [color="red"];
+  BB0044d940 -> BB0044d971 [color="green"];
+  BB0044d940 -> BB0044d957 [color="red"];
+  BB0044d957 -> BB0044d8d8 [color="green"];
+  BB0044d957 -> BB0044d971 [color="red"];
+  BB0044d988 -> BB0044d98f [color="blue"];
+  BB0044d98f -> BB0044d971 [color="blue"];
+  BB0044d9c0 -> BB0044d98f [color="blue"];
+}

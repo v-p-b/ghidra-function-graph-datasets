@@ -1,0 +1,20 @@
+digraph ossl_tls_handle_rlayer_return {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c7b30 -> BB004c7c80 [color="green"];
+  BB004c7b30 -> BB004c7b44 [color="red"];
+  BB004c7b44 -> BB004c7bd8 [color="green"];
+  BB004c7b44 -> BB004c7b5a [color="red"];
+  BB004c7b5a -> BB004c7b80 [color="green"];
+  BB004c7b5a -> BB004c7b5f [color="red"];
+  BB004c7b5f -> BB004c7b70 [color="green"];
+  BB004c7b5f -> BB004c7b66 [color="red"];
+  BB004c7b66 -> BB004c7b70 [color="blue"];
+  BB004c7b80 -> BB004c7b70 [color="green"];
+  BB004c7b80 -> BB004c7b96 [color="red"];
+  BB004c7bd8 -> BB004c7c40 [color="green"];
+  BB004c7bd8 -> BB004c7bdc [color="red"];
+  BB004c7bdc -> BB004c7c08 [color="green"];
+  BB004c7bdc -> BB004c7be5 [color="red"];
+  BB004c7c80 -> BB004c7b70 [color="blue"];
+}

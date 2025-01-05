@@ -1,0 +1,32 @@
+digraph SipHash_Update {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00850c50 -> BB00850d0a [color="green"];
+  BB00850c50 -> BB00850c85 [color="red"];
+  BB00850c85 -> BB00850dc9 [color="green"];
+  BB00850c85 -> BB00850c9a [color="red"];
+  BB00850c9a -> BB00401070 [color="green"];
+  BB00850c9a -> BB00850d07 [color="green"];
+  BB00850c9a -> BB00850cc6 [color="red"];
+  BB00850cc6 -> BB00850cd0 [color="blue"];
+  BB00850cd0 -> BB00850cd0 [color="green"];
+  BB00850cd0 -> BB00850d07 [color="red"];
+  BB00850d07 -> BB00850d0a [color="blue"];
+  BB00850d0a -> BB00850d73 [color="green"];
+  BB00850d0a -> BB00850d1c [color="red"];
+  BB00850d1c -> BB00850d20 [color="blue"];
+  BB00850d20 -> BB00850d67 [color="green"];
+  BB00850d20 -> BB00850d2a [color="red"];
+  BB00850d2a -> BB00850d30 [color="blue"];
+  BB00850d30 -> BB00850d30 [color="green"];
+  BB00850d30 -> BB00850d67 [color="red"];
+  BB00850d67 -> BB00850d20 [color="green"];
+  BB00850d67 -> BB00850d73 [color="red"];
+  BB00850d73 -> BB00850db0 [color="green"];
+  BB00850d73 -> BB00850d77 [color="red"];
+  BB00850db0 -> BB00850db6 [color="blue"];
+  BB00850db6 -> BB00850db6 [color="green"];
+  BB00850db6 -> BB00850dc7 [color="red"];
+  BB00850dc7 -> BB00850d77 [color="blue"];
+  BB00850dc9 -> BB00401070 [color="blue"];
+}

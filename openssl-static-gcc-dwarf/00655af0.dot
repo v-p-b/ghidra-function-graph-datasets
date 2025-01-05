@@ -1,0 +1,24 @@
+digraph UI_dup_input_boolean {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00655af0 -> BB00655b35 [color="green"];
+  BB00655af0 -> BB00655b15 [color="red"];
+  BB00655b15 -> BB00655bcc [color="green"];
+  BB00655b15 -> BB00655b35 [color="red"];
+  BB00655b35 -> BB00655b5a [color="green"];
+  BB00655b35 -> BB00655b3a [color="red"];
+  BB00655b3a -> BB00655c26 [color="green"];
+  BB00655b3a -> BB00655b5a [color="red"];
+  BB00655b5a -> BB00655b7b [color="green"];
+  BB00655b5a -> BB00655b5f [color="red"];
+  BB00655b5f -> BB00655bd2 [color="green"];
+  BB00655b5f -> BB00655b7b [color="red"];
+  BB00655b7b -> BB00655b9c [color="green"];
+  BB00655b7b -> BB00655b80 [color="red"];
+  BB00655b80 -> BB00655bd2 [color="green"];
+  BB00655b80 -> BB00655b9c [color="red"];
+  BB00655b9c -> BB00655bbd [color="red"];
+  BB00655bcc -> BB00655bd2 [color="blue"];
+  BB00655bd2 -> BB00655bbd [color="blue"];
+  BB00655c26 -> BB00655bd2 [color="blue"];
+}

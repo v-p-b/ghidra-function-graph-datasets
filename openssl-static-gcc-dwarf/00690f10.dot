@@ -1,0 +1,13 @@
+digraph sm2_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00690f10 -> BB00690f80 [color="green"];
+  BB00690f10 -> BB00690f15 [color="red"];
+  BB00690f15 -> BB00690f70 [color="green"];
+  BB00690f15 -> BB00690f21 [color="red"];
+  BB00690f21 -> BB00690f70 [color="green"];
+  BB00690f21 -> BB00690f33 [color="red"];
+  BB00690f33 -> BB00690f72 [color="green"];
+  BB00690f33 -> BB00690f4a [color="red"];
+  BB00690f70 -> BB00690f72 [color="blue"];
+}

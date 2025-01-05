@@ -1,0 +1,27 @@
+digraph ossl_quic_channel_trigger_txku {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004fe950 -> BB004fe968 [color="green"];
+  BB004fe950 -> BB004fe962 [color="red"];
+  BB004fe968 -> BB004fe9f0 [color="green"];
+  BB004fe968 -> BB004fe97c [color="red"];
+  BB004fe97c -> BB004fea28 [color="green"];
+  BB004fe97c -> BB004fe9aa [color="red"];
+  BB004fe9aa -> BB004fea28 [color="green"];
+  BB004fe9aa -> BB004fe9ba [color="red"];
+  BB004fe9ba -> BB004fea1b [color="blue"];
+  BB004fe9f0 -> BB004fea60 [color="green"];
+  BB004fe9f0 -> BB004fea0a [color="red"];
+  BB004fea0a -> BB004fe97c [color="green"];
+  BB004fea0a -> BB004fea19 [color="red"];
+  BB004fea19 -> BB004fea1b [color="blue"];
+  BB004fea28 -> BB004fea1b [color="blue"];
+  BB004fea60 -> BB004fea9a [color="green"];
+  BB004fea60 -> BB004fea7d [color="red"];
+  BB004fea7d -> BB004fea80 [color="blue"];
+  BB004fea80 -> BB004feaa0 [color="green"];
+  BB004fea80 -> BB004fea8e [color="red"];
+  BB004fea8e -> BB004fea0a [color="blue"];
+  BB004fea9a -> BB004fea80 [color="blue"];
+  BB004feaa0 -> BB004fea8e [color="blue"];
+}

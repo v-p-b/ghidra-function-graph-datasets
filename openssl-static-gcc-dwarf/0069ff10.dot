@@ -1,0 +1,16 @@
+digraph cipher_hw_camellia_initkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0069ff10 -> BB0069ff98 [color="green"];
+  BB0069ff10 -> BB0069ff40 [color="red"];
+  BB0069ff40 -> BB0069ff70 [color="green"];
+  BB0069ff40 -> BB0069ff46 [color="red"];
+  BB0069ff46 -> BB0069ff88 [color="green"];
+  BB0069ff46 -> BB0069ff56 [color="red"];
+  BB0069ff56 -> BB0069ff58 [color="blue"];
+  BB0069ff70 -> BB0069ff46 [color="green"];
+  BB0069ff70 -> BB0069ff78 [color="red"];
+  BB0069ff78 -> BB0069ff56 [color="green"];
+  BB0069ff78 -> BB0069ff88 [color="red"];
+  BB0069ff88 -> BB0069ff58 [color="blue"];
+}

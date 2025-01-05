@@ -1,0 +1,11 @@
+digraph _IO_file_seekoff_maybe_mmap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0087f360 -> BB0087f3b0 [color="green"];
+  BB0087f360 -> BB0087f38d [color="red"];
+  BB0087f38d -> BB0087f3c7 [color="green"];
+  BB0087f38d -> BB0087f39b [color="red"];
+  BB0087f39b -> BB0087f3a2 [color="blue"];
+  BB0087f3b0 -> BB0087f38d [color="blue"];
+  BB0087f3c7 -> BB0087f3a2 [color="blue"];
+}

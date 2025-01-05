@@ -1,0 +1,32 @@
+digraph tls_construct_ctos_supported_versions {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d4910 -> BB004d49b0 [color="green"];
+  BB004d4910 -> BB004d4935 [color="red"];
+  BB004d4935 -> BB004d49a0 [color="green"];
+  BB004d4935 -> BB004d4944 [color="red"];
+  BB004d4944 -> BB004d496b [color="green"];
+  BB004d4944 -> BB004d495a [color="red"];
+  BB004d495a -> BB004d49e0 [color="green"];
+  BB004d495a -> BB004d496b [color="red"];
+  BB004d496b -> BB004d497c [color="red"];
+  BB004d497c -> BB004d498f [color="red"];
+  BB004d498f -> BB004d49a0 [color="red"];
+  BB004d49b0 -> BB004d498f [color="blue"];
+  BB004d49e0 -> BB004d496b [color="green"];
+  BB004d49e0 -> BB004d49f5 [color="red"];
+  BB004d49f5 -> BB004d4a40 [color="green"];
+  BB004d49f5 -> BB004d4a01 [color="red"];
+  BB004d4a01 -> BB004d4a16 [color="blue"];
+  BB004d4a08 -> BB004d4a40 [color="green"];
+  BB004d4a08 -> BB004d4a16 [color="red"];
+  BB004d4a16 -> BB004d4a08 [color="green"];
+  BB004d4a16 -> BB004d4a2a [color="red"];
+  BB004d4a2a -> BB004d497c [color="blue"];
+  BB004d4a40 -> BB004d4a68 [color="green"];
+  BB004d4a40 -> BB004d4a4c [color="red"];
+  BB004d4a4c -> BB004d4a68 [color="green"];
+  BB004d4a4c -> BB004d4a58 [color="red"];
+  BB004d4a58 -> BB004d49a0 [color="blue"];
+  BB004d4a68 -> BB004d497c [color="blue"];
+}

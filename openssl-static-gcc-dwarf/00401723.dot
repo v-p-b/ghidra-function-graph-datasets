@@ -1,0 +1,15 @@
+digraph _IO_fflush.cold {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00401723 -> BB00401754 [color="green"];
+  BB00401723 -> BB0040172b [color="red"];
+  BB0040172b -> BB00401754 [color="green"];
+  BB0040172b -> BB0040173d [color="red"];
+  BB0040173d -> BB0040175c [color="green"];
+  BB0040173d -> BB00401751 [color="red"];
+  BB00401751 -> BB00401754 [color="blue"];
+  BB00401754 -> BB00401757 [color="blue"];
+  BB0040175c -> BB00401754 [color="green"];
+  BB0040175c -> BB00401763 [color="red"];
+  BB00401763 -> BB00401754 [color="blue"];
+}

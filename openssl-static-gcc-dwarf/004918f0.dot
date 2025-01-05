@@ -1,0 +1,25 @@
+digraph SSL_set_ct_validation_callback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004918f0 -> BB004919a0 [color="green"];
+  BB004918f0 -> BB004918f9 [color="red"];
+  BB004918f9 -> BB00491950 [color="green"];
+  BB004918f9 -> BB00491912 [color="red"];
+  BB00491912 -> BB00491915 [color="blue"];
+  BB00491915 -> BB0049197e [color="green"];
+  BB00491915 -> BB0049191a [color="red"];
+  BB0049191a -> BB004919a8 [color="green"];
+  BB0049191a -> BB0049192c [color="red"];
+  BB0049192c -> BB00491960 [color="green"];
+  BB0049192c -> BB00491933 [color="red"];
+  BB00491933 -> BB00491960 [color="green"];
+  BB00491933 -> BB0049193b [color="red"];
+  BB00491950 -> BB0049193b [color="green"];
+  BB00491950 -> BB00491955 [color="red"];
+  BB00491955 -> BB0049193b [color="green"];
+  BB00491955 -> BB0049195e [color="red"];
+  BB0049195e -> BB00491915 [color="blue"];
+  BB00491960 -> BB0049193b [color="green"];
+  BB00491960 -> BB0049197e [color="red"];
+  BB004919a8 -> BB0049193b [color="blue"];
+}

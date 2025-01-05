@@ -1,0 +1,13 @@
+digraph X509_TRUST_get_by_id {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00678a50 -> BB00678a98 [color="green"];
+  BB00678a50 -> BB00678a58 [color="red"];
+  BB00678a58 -> BB00678a95 [color="green"];
+  BB00678a58 -> BB00678a64 [color="red"];
+  BB00678a64 -> BB00678a8e [color="green"];
+  BB00678a64 -> BB00678a86 [color="red"];
+  BB00678a86 -> BB00678a89 [color="blue"];
+  BB00678a8e -> BB00678a89 [color="blue"];
+  BB00678a95 -> BB00678a98 [color="blue"];
+}

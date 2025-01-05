@@ -1,0 +1,15 @@
+digraph ec_security_bits {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00580910 -> BB00580973 [color="green"];
+  BB00580910 -> BB00580932 [color="red"];
+  BB00580932 -> BB00580973 [color="green"];
+  BB00580932 -> BB0058093f [color="red"];
+  BB0058093f -> BB00580973 [color="green"];
+  BB0058093f -> BB0058094c [color="red"];
+  BB0058094c -> BB00580973 [color="green"];
+  BB0058094c -> BB00580959 [color="red"];
+  BB00580959 -> BB00580973 [color="green"];
+  BB00580959 -> BB00580966 [color="red"];
+  BB00580966 -> BB00580973 [color="blue"];
+}

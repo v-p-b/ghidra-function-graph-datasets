@@ -1,0 +1,28 @@
+digraph ossl_dsa_check_pairwise {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0073f7d0 -> BB0073f908 [color="green"];
+  BB0073f7d0 -> BB0073f7ea [color="red"];
+  BB0073f7ea -> BB0073f908 [color="green"];
+  BB0073f7ea -> BB0073f7f5 [color="red"];
+  BB0073f7f5 -> BB0073f8c0 [color="green"];
+  BB0073f7f5 -> BB0073f805 [color="red"];
+  BB0073f805 -> BB0073f978 [color="green"];
+  BB0073f805 -> BB0073f821 [color="red"];
+  BB0073f821 -> BB0073f960 [color="green"];
+  BB0073f821 -> BB0073f82c [color="red"];
+  BB0073f82c -> BB0073f8f3 [color="green"];
+  BB0073f82c -> BB0073f83a [color="red"];
+  BB0073f83a -> BB0073f8f3 [color="green"];
+  BB0073f83a -> BB0073f845 [color="red"];
+  BB0073f845 -> BB0073f950 [color="green"];
+  BB0073f845 -> BB0073f85d [color="red"];
+  BB0073f85d -> BB0073f950 [color="green"];
+  BB0073f85d -> BB0073f86e [color="red"];
+  BB0073f86e -> BB0073f89c [color="green"];
+  BB0073f86e -> BB0073f887 [color="red"];
+  BB0073f887 -> BB0073f89c [color="red"];
+  BB0073f8c0 -> BB0073f8f3 [color="red"];
+  BB0073f950 -> BB0073f89c [color="blue"];
+  BB0073f978 -> BB0073f8f3 [color="blue"];
+}

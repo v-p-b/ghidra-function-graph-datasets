@@ -1,0 +1,14 @@
+digraph SSL_get0_peer_CA_list {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0047eb20 -> BB0047eb50 [color="green"];
+  BB0047eb20 -> BB0047eb25 [color="red"];
+  BB0047eb25 -> BB0047eb3c [color="green"];
+  BB0047eb25 -> BB0047eb2b [color="red"];
+  BB0047eb2b -> BB0047eb43 [color="green"];
+  BB0047eb2b -> BB0047eb33 [color="red"];
+  BB0047eb33 -> BB0047eb43 [color="green"];
+  BB0047eb33 -> BB0047eb3c [color="red"];
+  BB0047eb3c -> BB0047eb43 [color="blue"];
+  BB0047eb50 -> BB0047eb43 [color="blue"];
+}

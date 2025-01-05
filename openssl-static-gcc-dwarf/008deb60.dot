@@ -1,0 +1,15 @@
+digraph __netlink_open {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008deb60 -> BB008dec18 [color="green"];
+  BB008deb60 -> BB008deb94 [color="red"];
+  BB008deb94 -> BB008dec08 [color="green"];
+  BB008deb94 -> BB008debc7 [color="red"];
+  BB008debc7 -> BB008dec08 [color="green"];
+  BB008debc7 -> BB008debe2 [color="red"];
+  BB008debe2 -> BB008debeb [color="blue"];
+  BB008debeb -> BB008dec1f [color="green"];
+  BB008debeb -> BB008debfb [color="red"];
+  BB008dec08 -> BB008debeb [color="blue"];
+  BB008dec18 -> BB008debeb [color="blue"];
+}

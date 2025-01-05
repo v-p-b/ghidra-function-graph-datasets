@@ -1,0 +1,21 @@
+digraph PEM_write_bio_PrivateKey_traditional {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00618170 -> BB006182b0 [color="green"];
+  BB00618170 -> BB00618190 [color="red"];
+  BB00618190 -> BB006182a0 [color="green"];
+  BB00618190 -> BB006181ad [color="red"];
+  BB006181ad -> BB006181ca [color="green"];
+  BB006181ad -> BB006181b5 [color="red"];
+  BB006181b5 -> BB006181ca [color="red"];
+  BB006181ca -> BB00618260 [color="green"];
+  BB006181ca -> BB006181d8 [color="red"];
+  BB006181d8 -> BB00618260 [color="green"];
+  BB006181d8 -> BB006181e2 [color="red"];
+  BB006181e2 -> BB00618246 [color="red"];
+  BB00618260 -> BB00618246 [color="blue"];
+  BB006182a0 -> BB006181ad [color="green"];
+  BB006182a0 -> BB006182ab [color="red"];
+  BB006182ab -> BB006181ca [color="blue"];
+  BB006182b0 -> BB00618246 [color="blue"];
+}

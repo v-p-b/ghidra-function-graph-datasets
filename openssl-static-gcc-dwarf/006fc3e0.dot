@@ -1,0 +1,9 @@
+digraph cast5_dupctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006fc3e0 -> BB006fc41c [color="green"];
+  BB006fc3e0 -> BB006fc3f3 [color="red"];
+  BB006fc3f3 -> BB006fc41c [color="green"];
+  BB006fc3f3 -> BB006fc40e [color="red"];
+  BB006fc40e -> BB006fc41c [color="blue"];
+}

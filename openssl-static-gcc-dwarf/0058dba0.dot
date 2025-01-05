@@ -1,0 +1,10 @@
+digraph ossl_ec_scalar_mul_ladder {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0058dba0 -> BB0058dbc8 [color="green"];
+  BB0058dba0 -> BB0058dbbc [color="red"];
+  BB0058dbbc -> BB0058dc38 [color="green"];
+  BB0058dbbc -> BB0058dbc8 [color="red"];
+  BB0058dbc8 -> BB0058dbf8 [color="green"];
+  BB0058dbc8 -> BB0058dbd5 [color="red"];
+}

@@ -1,0 +1,17 @@
+digraph check_one_fd {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00861810 -> BB00861840 [color="green"];
+  BB00861810 -> BB00861831 [color="red"];
+  BB00861840 -> BB00861831 [color="green"];
+  BB00861840 -> BB0086184d [color="red"];
+  BB0086184d -> BB008618b0 [color="green"];
+  BB0086184d -> BB00861883 [color="red"];
+  BB00861883 -> BB008618b0 [color="green"];
+  BB00861883 -> BB00861896 [color="red"];
+  BB00861896 -> BB008618b0 [color="green"];
+  BB00861896 -> BB008618a6 [color="red"];
+  BB008618a6 -> BB00861831 [color="green"];
+  BB008618a6 -> BB008618ad [color="red"];
+  BB008618ad -> BB008618b0 [color="blue"];
+}

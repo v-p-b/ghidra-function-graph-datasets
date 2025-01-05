@@ -1,0 +1,23 @@
+digraph hmac_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006db030 -> BB006db060 [color="green"];
+  BB006db030 -> BB006db050 [color="red"];
+  BB006db060 -> BB006db0e0 [color="green"];
+  BB006db060 -> BB006db071 [color="red"];
+  BB006db071 -> BB006db050 [color="green"];
+  BB006db071 -> BB006db081 [color="red"];
+  BB006db081 -> BB006db0af [color="green"];
+  BB006db081 -> BB006db095 [color="red"];
+  BB006db095 -> BB006db050 [color="green"];
+  BB006db095 -> BB006db09b [color="red"];
+  BB006db09b -> BB006db050 [color="green"];
+  BB006db09b -> BB006db0af [color="red"];
+  BB006db0af -> BB006db0e0 [color="green"];
+  BB006db0af -> BB006db0c6 [color="red"];
+  BB006db0c6 -> BB006db050 [color="green"];
+  BB006db0c6 -> BB006db0d7 [color="red"];
+  BB006db0d7 -> BB006db0e0 [color="blue"];
+  BB006db0e0 -> BB006db100 [color="green"];
+  BB006db0e0 -> BB006db0e5 [color="red"];
+}

@@ -1,0 +1,10 @@
+digraph ASYNC_block_pause {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00528f40 -> BB00528f60 [color="green"];
+  BB00528f40 -> BB00528f54 [color="red"];
+  BB00528f60 -> BB00528f54 [color="green"];
+  BB00528f60 -> BB00528f71 [color="red"];
+  BB00528f71 -> BB00528f54 [color="green"];
+  BB00528f71 -> BB00528f78 [color="red"];
+}

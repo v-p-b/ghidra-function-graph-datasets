@@ -1,0 +1,25 @@
+digraph aesni_gcm_init_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005b5830 -> BB005b58e2 [color="green"];
+  BB005b5830 -> BB005b585c [color="red"];
+  BB005b585c -> BB005b58f0 [color="green"];
+  BB005b585c -> BB005b5865 [color="red"];
+  BB005b5865 -> BB005b5978 [color="green"];
+  BB005b5865 -> BB005b587c [color="red"];
+  BB005b587c -> BB005b5950 [color="green"];
+  BB005b587c -> BB005b58b7 [color="red"];
+  BB005b58b7 -> BB005b58d3 [color="red"];
+  BB005b58d3 -> BB005b58e2 [color="blue"];
+  BB005b58f0 -> BB005b5938 [color="green"];
+  BB005b58f0 -> BB005b5901 [color="red"];
+  BB005b5901 -> BB00401070 [color="green"];
+  BB005b5901 -> BB005b5910 [color="red"];
+  BB005b5938 -> BB005b5910 [color="blue"];
+  BB005b5950 -> BB005b58d3 [color="green"];
+  BB005b5950 -> BB005b595e [color="red"];
+  BB005b595e -> BB005b58d3 [color="green"];
+  BB005b595e -> BB005b596e [color="red"];
+  BB005b596e -> BB005b58b7 [color="blue"];
+  BB005b5978 -> BB005b58e2 [color="blue"];
+}

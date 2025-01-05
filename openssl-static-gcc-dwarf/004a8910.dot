@@ -1,0 +1,27 @@
+digraph tls13_hkdf_expand_ex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004a8910 -> BB004a898c [color="green"];
+  BB004a8910 -> BB004a896c [color="red"];
+  BB004a896c -> BB004a89a0 [color="green"];
+  BB004a896c -> BB004a8975 [color="red"];
+  BB004a8975 -> BB004a8bb8 [color="green"];
+  BB004a8975 -> BB004a8984 [color="red"];
+  BB004a8984 -> BB004a898c [color="red"];
+  BB004a898c -> BB004a898e [color="blue"];
+  BB004a89a0 -> BB004a8bf0 [color="green"];
+  BB004a89a0 -> BB004a89b3 [color="red"];
+  BB004a89b3 -> BB004a8b4b [color="green"];
+  BB004a89b3 -> BB004a8afb [color="red"];
+  BB004a8afb -> BB004a8b4b [color="red"];
+  BB004a8b4b -> BB004a8ba9 [color="green"];
+  BB004a8b4b -> BB004a8ba1 [color="red"];
+  BB004a8ba1 -> BB004a8c40 [color="green"];
+  BB004a8ba1 -> BB004a8ba9 [color="red"];
+  BB004a8ba9 -> BB004a898e [color="blue"];
+  BB004a8bb8 -> BB004a8984 [color="blue"];
+  BB004a8bf0 -> BB004a898c [color="green"];
+  BB004a8bf0 -> BB004a8c07 [color="red"];
+  BB004a8c07 -> BB004a898e [color="blue"];
+  BB004a8c40 -> BB004a8ba9 [color="blue"];
+}

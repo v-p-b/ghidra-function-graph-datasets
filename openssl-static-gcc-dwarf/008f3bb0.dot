@@ -1,0 +1,10 @@
+digraph __libc_register_dl_open_hook {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008f3bb0 -> BB008f3bcf [color="green"];
+  BB008f3bb0 -> BB008f3bc5 [color="red"];
+  BB008f3bc5 -> BB008f3bcf [color="blue"];
+  BB008f3bcf -> BB008f3bed [color="green"];
+  BB008f3bcf -> BB008f3be3 [color="red"];
+  BB008f3be3 -> BB008f3bed [color="blue"];
+}

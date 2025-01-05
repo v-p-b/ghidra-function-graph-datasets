@@ -1,0 +1,28 @@
+digraph ossl_err_get_state_int {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005a6320 -> BB005a63b0 [color="green"];
+  BB005a6320 -> BB005a6344 [color="red"];
+  BB005a6344 -> BB005a63b0 [color="green"];
+  BB005a6344 -> BB005a635b [color="red"];
+  BB005a635b -> BB005a63b0 [color="green"];
+  BB005a635b -> BB005a6365 [color="red"];
+  BB005a6365 -> BB005a63b0 [color="green"];
+  BB005a6365 -> BB005a637a [color="red"];
+  BB005a637a -> BB005a6390 [color="green"];
+  BB005a637a -> BB005a637f [color="red"];
+  BB005a637f -> BB005a6381 [color="blue"];
+  BB005a6390 -> BB005a63c8 [color="green"];
+  BB005a6390 -> BB005a63a7 [color="red"];
+  BB005a63a7 -> BB005a63b0 [color="blue"];
+  BB005a63b0 -> BB005a63b3 [color="blue"];
+  BB005a63c8 -> BB005a6420 [color="green"];
+  BB005a63c8 -> BB005a63d5 [color="red"];
+  BB005a63d5 -> BB005a6418 [color="green"];
+  BB005a63d5 -> BB005a63e9 [color="red"];
+  BB005a63e9 -> BB005a6418 [color="green"];
+  BB005a63e9 -> BB005a63fc [color="red"];
+  BB005a63fc -> BB005a6381 [color="blue"];
+  BB005a6418 -> BB005a6420 [color="red"];
+  BB005a6420 -> BB005a63b3 [color="blue"];
+}

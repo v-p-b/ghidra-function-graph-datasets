@@ -1,0 +1,24 @@
+digraph dgram_write {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00536c50 -> BB00536cc0 [color="green"];
+  BB00536c50 -> BB00536c84 [color="red"];
+  BB00536c84 -> BB00536c95 [color="red"];
+  BB00536c95 -> BB00536cf0 [color="green"];
+  BB00536c95 -> BB00536ca7 [color="red"];
+  BB00536cc0 -> BB00536c95 [color="blue"];
+  BB00536cf0 -> BB00536ca7 [color="green"];
+  BB00536cf0 -> BB00536cfa [color="red"];
+  BB00536cfa -> BB00536d0f [color="green"];
+  BB00536cfa -> BB00536d03 [color="red"];
+  BB00536d03 -> BB00536d30 [color="green"];
+  BB00536d03 -> BB00536d05 [color="red"];
+  BB00536d05 -> BB00536d0f [color="green"];
+  BB00536d05 -> BB00536d0a [color="red"];
+  BB00536d0a -> BB00536ca7 [color="green"];
+  BB00536d0a -> BB00536d0f [color="red"];
+  BB00536d0f -> BB00536ca7 [color="blue"];
+  BB00536d30 -> BB00536ca7 [color="green"];
+  BB00536d30 -> BB00536d3c [color="red"];
+  BB00536d3c -> BB00536d0f [color="blue"];
+}

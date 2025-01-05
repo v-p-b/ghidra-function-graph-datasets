@@ -1,0 +1,10 @@
+digraph SSL_CIPHER_get_bits {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004835f0 -> BB00483604 [color="green"];
+  BB004835f0 -> BB004835f7 [color="red"];
+  BB004835f7 -> BB00483601 [color="green"];
+  BB004835f7 -> BB004835fc [color="red"];
+  BB004835fc -> BB00483601 [color="blue"];
+  BB00483601 -> BB00483604 [color="blue"];
+}

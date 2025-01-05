@@ -1,0 +1,16 @@
+digraph check_purpose_ocsp_helper {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00669250 -> BB00669260 [color="green"];
+  BB00669250 -> BB00669259 [color="red"];
+  BB00669260 -> BB00669259 [color="green"];
+  BB00669260 -> BB00669279 [color="red"];
+  BB00669279 -> BB006692c0 [color="green"];
+  BB00669279 -> BB00669286 [color="red"];
+  BB00669286 -> BB006692d0 [color="green"];
+  BB00669286 -> BB00669292 [color="red"];
+  BB00669292 -> BB00669259 [color="green"];
+  BB00669292 -> BB0066929c [color="red"];
+  BB0066929c -> BB00669259 [color="green"];
+  BB0066929c -> BB006692a3 [color="red"];
+}

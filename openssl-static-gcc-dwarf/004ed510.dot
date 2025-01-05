@@ -1,0 +1,19 @@
+digraph ssl_set_client_hello_version {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ed510 -> BB004ed52e [color="green"];
+  BB004ed510 -> BB004ed524 [color="red"];
+  BB004ed524 -> BB004ed5a0 [color="green"];
+  BB004ed524 -> BB004ed52e [color="red"];
+  BB004ed52e -> BB004ed574 [color="green"];
+  BB004ed52e -> BB004ed549 [color="red"];
+  BB004ed549 -> BB004ed580 [color="green"];
+  BB004ed549 -> BB004ed561 [color="red"];
+  BB004ed561 -> BB004ed56e [color="blue"];
+  BB004ed56e -> BB004ed574 [color="blue"];
+  BB004ed580 -> BB004ed56e [color="green"];
+  BB004ed580 -> BB004ed587 [color="red"];
+  BB004ed587 -> BB004ed5a0 [color="green"];
+  BB004ed587 -> BB004ed598 [color="red"];
+  BB004ed598 -> BB004ed56e [color="blue"];
+}

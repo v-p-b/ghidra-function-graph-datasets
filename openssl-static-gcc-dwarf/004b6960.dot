@@ -1,0 +1,21 @@
+digraph ossl_quic_port_raise_net_error {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b6960 -> BB004b6970 [color="green"];
+  BB004b6960 -> BB004b6966 [color="red"];
+  BB004b6970 -> BB004b69c8 [color="green"];
+  BB004b6970 -> BB004b69c2 [color="red"];
+  BB004b69c2 -> BB004b69c8 [color="blue"];
+  BB004b69c8 -> BB004b69d5 [color="green"];
+  BB004b69c8 -> BB004b69cd [color="red"];
+  BB004b69cd -> BB004b69d5 [color="red"];
+  BB004b69d5 -> BB004b69f6 [color="green"];
+  BB004b69d5 -> BB004b69de [color="red"];
+  BB004b69de -> BB004b69e0 [color="blue"];
+  BB004b69e0 -> BB004b6a00 [color="green"];
+  BB004b69e0 -> BB004b69e5 [color="red"];
+  BB004b69e5 -> BB004b69e0 [color="green"];
+  BB004b69e5 -> BB004b69f6 [color="red"];
+  BB004b6a00 -> BB004b69e0 [color="green"];
+  BB004b6a00 -> BB004b6a09 [color="red"];
+}

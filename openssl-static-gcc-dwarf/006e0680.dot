@@ -1,0 +1,29 @@
+digraph drbg_ctr_generate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006e0680 -> BB006e07f8 [color="green"];
+  BB006e0680 -> BB006e06b0 [color="red"];
+  BB006e06b0 -> BB006e07f8 [color="green"];
+  BB006e06b0 -> BB006e06bc [color="red"];
+  BB006e06bc -> BB006e0a70 [color="green"];
+  BB006e06bc -> BB006e07d8 [color="red"];
+  BB006e07d8 -> BB006e07fb [color="blue"];
+  BB006e07f8 -> BB006e07fb [color="blue"];
+  BB006e07fb -> BB006e0a88 [color="green"];
+  BB006e07fb -> BB006e093b [color="red"];
+  BB006e093b -> BB006e0a30 [color="blue"];
+  BB006e0a88 -> BB00401080 [color="blue"];
+  BB006e0a88 -> BB006e0ad6 [color="blue"];
+  BB006e0aa0 -> BB006e0a70 [color="green"];
+  BB006e0aa0 -> BB006e0ac1 [color="red"];
+  BB006e0ac1 -> BB006e0a70 [color="green"];
+  BB006e0ac1 -> BB006e0ac7 [color="red"];
+  BB006e0ac7 -> BB006e0be1 [color="green"];
+  BB006e0ac7 -> BB006e0ad6 [color="red"];
+  BB006e0ad6 -> BB006e0a70 [color="green"];
+  BB006e0ad6 -> BB006e0af6 [color="red"];
+  BB006e0af6 -> BB006e0aa0 [color="green"];
+  BB006e0af6 -> BB006e0b18 [color="red"];
+  BB006e0b18 -> BB006e0aa0 [color="blue"];
+  BB006e0be1 -> BB006e0a30 [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph load_trusted {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0040af10 -> BB0040af5b [color="green"];
+  BB0040af10 -> BB0040af35 [color="red"];
+  BB0040af35 -> BB0040af76 [color="green"];
+  BB0040af35 -> BB0040af57 [color="red"];
+  BB0040af57 -> BB0040af68 [color="green"];
+  BB0040af57 -> BB0040af5b [color="red"];
+  BB0040af68 -> BB0040af5b [color="green"];
+  BB0040af68 -> BB0040af76 [color="red"];
+}

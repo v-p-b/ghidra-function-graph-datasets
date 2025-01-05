@@ -1,0 +1,16 @@
+digraph ossl_quic_txpim_pkt_append_chunk {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005086c0 -> BB00508718 [color="green"];
+  BB005086c0 -> BB005086da [color="red"];
+  BB005086da -> BB005086e1 [color="blue"];
+  BB00508718 -> BB00508770 [color="green"];
+  BB00508718 -> BB00508723 [color="red"];
+  BB00508723 -> BB005087a4 [color="green"];
+  BB00508723 -> BB00508728 [color="red"];
+  BB00508728 -> BB005087a4 [color="green"];
+  BB00508728 -> BB0050874c [color="red"];
+  BB0050874c -> BB005086e1 [color="blue"];
+  BB00508770 -> BB00508728 [color="green"];
+  BB00508770 -> BB005087a4 [color="red"];
+}

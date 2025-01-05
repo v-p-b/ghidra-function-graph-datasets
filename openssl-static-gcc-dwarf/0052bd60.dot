@@ -1,0 +1,22 @@
+digraph BIO_debug_callback_ex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0052bd60 -> BB0052bd9d [color="green"];
+  BB0052bd60 -> BB0052bd9a [color="red"];
+  BB0052bd9a -> BB0052bd9d [color="blue"];
+  BB0052bd9d -> BB0052be00 [color="green"];
+  BB0052bd9d -> BB0052bddb [color="red"];
+  BB0052bddb -> BB0052c0a8 [color="green"];
+  BB0052bddb -> BB0052bde4 [color="red"];
+  BB0052bde4 -> BB0052c070 [color="green"];
+  BB0052bde4 -> BB0052bdee [color="red"];
+  BB0052be00 -> BB0052c0a8 [color="green"];
+  BB0052be00 -> BB0052be11 [color="red"];
+  BB0052be40 -> BB0052c090 [color="green"];
+  BB0052be40 -> BB0052be4d [color="red"];
+  BB0052be4d -> BB00401100 [color="green"];
+  BB0052be4d -> BB0052be63 [color="red"];
+  BB0052c070 -> BB0052be40 [color="blue"];
+  BB0052c090 -> BB0052be63 [color="blue"];
+  BB0052c0a8 -> BB0052be40 [color="blue"];
+}

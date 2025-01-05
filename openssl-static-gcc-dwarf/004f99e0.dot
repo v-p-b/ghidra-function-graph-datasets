@@ -1,0 +1,16 @@
+digraph ossl_quic_channel_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004f99e0 -> BB004f9a9f [color="green"];
+  BB004f99e0 -> BB004f9a0c [color="red"];
+  BB004f9a0c -> BB004f9a93 [color="green"];
+  BB004f9a0c -> BB004f9a6c [color="red"];
+  BB004f9a6c -> BB004f9a93 [color="green"];
+  BB004f9a6c -> BB004f9a75 [color="red"];
+  BB004f9a75 -> BB004f9ac9 [color="green"];
+  BB004f9a75 -> BB004f9a93 [color="red"];
+  BB004f9a93 -> BB004f9ab0 [color="green"];
+  BB004f9a93 -> BB004f9a9f [color="red"];
+  BB004f9ab0 -> BB004f9a9f [color="blue"];
+  BB004f9ac9 -> BB004f9a9f [color="blue"];
+}

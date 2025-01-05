@@ -1,0 +1,12 @@
+digraph opt_check_md {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0046fbf0 -> BB0046fc98 [color="green"];
+  BB0046fbf0 -> BB0046fbfe [color="red"];
+  BB0046fbfe -> BB0046fc50 [color="green"];
+  BB0046fbfe -> BB0046fc2e [color="red"];
+  BB0046fc50 -> BB0046fc69 [color="green"];
+  BB0046fc50 -> BB0046fc59 [color="red"];
+  BB0046fc59 -> BB0046fc2e [color="green"];
+  BB0046fc59 -> BB0046fc69 [color="red"];
+}

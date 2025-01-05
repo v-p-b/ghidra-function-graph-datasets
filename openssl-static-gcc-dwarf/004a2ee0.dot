@@ -1,0 +1,12 @@
+digraph SSL_check_chain {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004a2ee0 -> BB004a2ef9 [color="green"];
+  BB004a2ee0 -> BB004a2ee5 [color="red"];
+  BB004a2ee5 -> BB004a2f00 [color="green"];
+  BB004a2ee5 -> BB004a2eeb [color="red"];
+  BB004a2eeb -> BB004a2ef9 [color="green"];
+  BB004a2eeb -> BB004a2ef0 [color="red"];
+  BB004a2ef0 -> BB004a2f00 [color="green"];
+  BB004a2ef0 -> BB004a2ef9 [color="red"];
+}

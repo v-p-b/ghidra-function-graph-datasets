@@ -1,0 +1,12 @@
+digraph ssl_clear_bad_session {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0049afa0 -> BB0049aff8 [color="green"];
+  BB0049afa0 -> BB0049afaa [color="red"];
+  BB0049afaa -> BB0049afc0 [color="green"];
+  BB0049afaa -> BB0049afb4 [color="red"];
+  BB0049afc0 -> BB0049afb4 [color="green"];
+  BB0049afc0 -> BB0049afc9 [color="red"];
+  BB0049afc9 -> BB0049afb4 [color="green"];
+  BB0049afc9 -> BB0049afd5 [color="red"];
+}

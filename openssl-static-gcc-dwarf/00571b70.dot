@@ -1,0 +1,10 @@
+digraph OPENSSL_INIT_set_config_filename {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00571b70 -> BB00571b91 [color="green"];
+  BB00571b70 -> BB00571b81 [color="red"];
+  BB00571b81 -> BB00571ba8 [color="green"];
+  BB00571b81 -> BB00571b91 [color="red"];
+  BB00571b91 -> BB00571ba1 [color="red"];
+  BB00571ba8 -> BB00571ba1 [color="blue"];
+}

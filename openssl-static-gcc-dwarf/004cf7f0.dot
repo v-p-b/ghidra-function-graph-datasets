@@ -1,0 +1,18 @@
+digraph tls_get_max_records_default {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004cf7f0 -> BB004cf890 [color="green"];
+  BB004cf7f0 -> BB004cf7fe [color="red"];
+  BB004cf7fe -> BB004cf880 [color="green"];
+  BB004cf7fe -> BB004cf811 [color="red"];
+  BB004cf811 -> BB004cf880 [color="green"];
+  BB004cf811 -> BB004cf82b [color="red"];
+  BB004cf82b -> BB004cf854 [color="green"];
+  BB004cf82b -> BB004cf84a [color="red"];
+  BB004cf84a -> BB004cf880 [color="green"];
+  BB004cf84a -> BB004cf854 [color="red"];
+  BB004cf854 -> BB004cf880 [color="green"];
+  BB004cf854 -> BB004cf859 [color="red"];
+  BB004cf859 -> BB004cf885 [color="blue"];
+  BB004cf880 -> BB004cf885 [color="blue"];
+}

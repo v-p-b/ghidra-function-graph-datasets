@@ -1,0 +1,22 @@
+digraph ossl_quic_get_accept_stream_queue_len {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b43b0 -> BB004b44a0 [color="green"];
+  BB004b43b0 -> BB004b43cd [color="red"];
+  BB004b43cd -> BB004b4480 [color="green"];
+  BB004b43cd -> BB004b43d8 [color="red"];
+  BB004b43d8 -> BB004b4410 [color="green"];
+  BB004b43d8 -> BB004b43dd [color="red"];
+  BB004b43dd -> BB004b4402 [color="red"];
+  BB004b4402 -> BB004b4470 [color="green"];
+  BB004b4402 -> BB004b4406 [color="red"];
+  BB004b4410 -> BB004b4429 [color="blue"];
+  BB004b4429 -> BB004b4406 [color="green"];
+  BB004b4429 -> BB004b4453 [color="red"];
+  BB004b4453 -> BB004b4457 [color="blue"];
+  BB004b4470 -> BB004b4453 [color="green"];
+  BB004b4470 -> BB004b4478 [color="red"];
+  BB004b4478 -> BB004b4429 [color="blue"];
+  BB004b4480 -> BB004b4457 [color="blue"];
+  BB004b44a0 -> BB004b4402 [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph mem2mem_check {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00885280 -> BB00885307 [color="green"];
+  BB00885280 -> BB00885288 [color="red"];
+  BB00885288 -> BB00885303 [color="green"];
+  BB00885288 -> BB008852d8 [color="red"];
+  BB008852d8 -> BB008852e0 [color="blue"];
+  BB008852e0 -> BB008852e0 [color="green"];
+  BB008852e0 -> BB00885303 [color="red"];
+  BB00885303 -> BB00885307 [color="blue"];
+}

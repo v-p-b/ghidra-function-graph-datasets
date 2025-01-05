@@ -1,0 +1,14 @@
+digraph chacha20_get_ctx_params {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006a0340 -> BB006a0372 [color="green"];
+  BB006a0340 -> BB006a035e [color="red"];
+  BB006a035e -> BB006a03f0 [color="green"];
+  BB006a035e -> BB006a0372 [color="red"];
+  BB006a0372 -> BB006a039a [color="green"];
+  BB006a0372 -> BB006a0389 [color="red"];
+  BB006a0389 -> BB006a03b0 [color="green"];
+  BB006a0389 -> BB006a039a [color="red"];
+  BB006a03b0 -> BB006a03c1 [color="red"];
+  BB006a03f0 -> BB006a03c1 [color="blue"];
+}

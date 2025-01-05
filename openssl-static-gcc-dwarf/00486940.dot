@@ -1,0 +1,23 @@
+digraph ssl_check_allowed_versions {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00486940 -> BB00486990 [color="green"];
+  BB00486940 -> BB00486948 [color="red"];
+  BB00486948 -> BB00486978 [color="green"];
+  BB00486948 -> BB00486955 [color="red"];
+  BB00486955 -> BB00486978 [color="green"];
+  BB00486955 -> BB00486962 [color="red"];
+  BB00486962 -> BB004869ab [color="green"];
+  BB00486962 -> BB00486969 [color="red"];
+  BB00486978 -> BB004869af [color="green"];
+  BB00486978 -> BB0048697f [color="red"];
+  BB00486990 -> BB004869b4 [color="green"];
+  BB00486990 -> BB0048699d [color="red"];
+  BB0048699d -> BB00486969 [color="green"];
+  BB0048699d -> BB004869aa [color="red"];
+  BB004869ab -> BB004869b8 [color="green"];
+  BB004869ab -> BB004869af [color="red"];
+  BB004869af -> BB004869b4 [color="blue"];
+  BB004869b8 -> BB004869b4 [color="green"];
+  BB004869b8 -> BB004869cf [color="red"];
+}

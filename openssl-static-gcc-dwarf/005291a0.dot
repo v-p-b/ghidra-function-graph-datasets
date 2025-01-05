@@ -1,0 +1,29 @@
+digraph ASYNC_WAIT_CTX_get_changed_fds {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005291a0 -> BB00529211 [color="green"];
+  BB005291a0 -> BB005291b6 [color="red"];
+  BB005291b6 -> BB005291e9 [color="green"];
+  BB005291b6 -> BB005291be [color="red"];
+  BB005291be -> BB00529211 [color="blue"];
+  BB005291c0 -> BB005291e0 [color="green"];
+  BB005291c0 -> BB005291c4 [color="red"];
+  BB005291c4 -> BB005291e0 [color="green"];
+  BB005291c4 -> BB005291c9 [color="red"];
+  BB005291c9 -> BB00529220 [color="green"];
+  BB005291c9 -> BB005291da [color="red"];
+  BB005291da -> BB005291e0 [color="blue"];
+  BB005291e0 -> BB00529211 [color="green"];
+  BB005291e0 -> BB005291e9 [color="red"];
+  BB005291e9 -> BB005291c0 [color="green"];
+  BB005291e9 -> BB005291f5 [color="red"];
+  BB005291f5 -> BB005291e0 [color="green"];
+  BB005291f5 -> BB005291f9 [color="red"];
+  BB005291f9 -> BB005291e0 [color="green"];
+  BB005291f9 -> BB005291fe [color="red"];
+  BB005291fe -> BB005291e9 [color="green"];
+  BB005291fe -> BB00529211 [color="red"];
+  BB00529220 -> BB005291f9 [color="green"];
+  BB00529220 -> BB00529227 [color="red"];
+  BB00529227 -> BB005291e0 [color="blue"];
+}

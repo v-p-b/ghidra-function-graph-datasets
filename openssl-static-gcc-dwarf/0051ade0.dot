@@ -1,0 +1,12 @@
+digraph ASN1_const_check_infinite_end {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0051ade0 -> BB0051ae00 [color="green"];
+  BB0051ade0 -> BB0051adea [color="red"];
+  BB0051adea -> BB0051ae00 [color="green"];
+  BB0051adea -> BB0051adf2 [color="red"];
+  BB0051adf2 -> BB0051ae00 [color="green"];
+  BB0051adf2 -> BB0051adfa [color="red"];
+  BB0051adfa -> BB0051ae08 [color="green"];
+  BB0051adfa -> BB0051ae00 [color="red"];
+}

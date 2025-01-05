@@ -1,0 +1,18 @@
+digraph ossl_rsa_check_prime_factor {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0063fe90 -> BB0063fed0 [color="green"];
+  BB0063fe90 -> BB0063feb8 [color="red"];
+  BB0063fed0 -> BB0063feb8 [color="green"];
+  BB0063fed0 -> BB0063fee3 [color="red"];
+  BB0063fee3 -> BB0063ff70 [color="green"];
+  BB0063fee3 -> BB0063ff06 [color="red"];
+  BB0063ff06 -> BB0063ff70 [color="green"];
+  BB0063ff06 -> BB0063ff30 [color="red"];
+  BB0063ff30 -> BB0063ff70 [color="green"];
+  BB0063ff30 -> BB0063ff41 [color="red"];
+  BB0063ff41 -> BB0063ff70 [color="green"];
+  BB0063ff41 -> BB0063ff56 [color="red"];
+  BB0063ff56 -> BB0063ff72 [color="blue"];
+  BB0063ff70 -> BB0063ff72 [color="blue"];
+}

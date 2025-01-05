@@ -1,0 +1,16 @@
+digraph satsub64be {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ca0c0 -> BB004ca0e2 [color="green"];
+  BB004ca0c0 -> BB004ca0d7 [color="red"];
+  BB004ca0d7 -> BB004ca109 [color="green"];
+  BB004ca0d7 -> BB004ca0e2 [color="red"];
+  BB004ca0e2 -> BB004ca0ec [color="green"];
+  BB004ca0e2 -> BB004ca0e7 [color="red"];
+  BB004ca0e7 -> BB004ca10d [color="green"];
+  BB004ca0e7 -> BB004ca0ec [color="red"];
+  BB004ca0ec -> BB004ca109 [color="green"];
+  BB004ca0ec -> BB004ca0fb [color="red"];
+  BB004ca0fb -> BB004ca109 [color="blue"];
+  BB004ca10d -> BB004ca109 [color="blue"];
+}

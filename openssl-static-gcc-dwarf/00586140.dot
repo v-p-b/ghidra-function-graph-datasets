@@ -1,0 +1,18 @@
+digraph EC_GROUP_check_named_curve {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00586140 -> BB005861e0 [color="green"];
+  BB00586140 -> BB00586150 [color="red"];
+  BB00586150 -> BB00586198 [color="green"];
+  BB00586150 -> BB0058615c [color="red"];
+  BB0058615c -> BB0058616f [color="green"];
+  BB0058615c -> BB0058616b [color="red"];
+  BB0058616b -> BB00586180 [color="green"];
+  BB0058616b -> BB0058616f [color="red"];
+  BB0058616f -> BB00586177 [color="red"];
+  BB00586180 -> BB0058616f [color="blue"];
+  BB00586198 -> BB0058615c [color="green"];
+  BB00586198 -> BB005861aa [color="red"];
+  BB005861aa -> BB00586177 [color="blue"];
+  BB005861e0 -> BB00586177 [color="blue"];
+}

@@ -1,0 +1,28 @@
+digraph X509_check_issued {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0066acb0 -> BB0066acfa [color="green"];
+  BB0066acb0 -> BB0066ace8 [color="red"];
+  BB0066ace8 -> BB0066ad10 [color="green"];
+  BB0066ace8 -> BB0066acf4 [color="red"];
+  BB0066acf4 -> BB0066acfa [color="blue"];
+  BB0066ad10 -> BB0066acf4 [color="green"];
+  BB0066ad10 -> BB0066ad1c [color="red"];
+  BB0066ad1c -> BB0066acfa [color="green"];
+  BB0066ad1c -> BB0066ad32 [color="red"];
+  BB0066ad32 -> BB0066ae20 [color="green"];
+  BB0066ad32 -> BB0066ad46 [color="red"];
+  BB0066ad46 -> BB0066ada8 [color="green"];
+  BB0066ad46 -> BB0066ad61 [color="red"];
+  BB0066ad61 -> BB0066adb8 [color="green"];
+  BB0066ad61 -> BB0066ad79 [color="red"];
+  BB0066ad79 -> BB0066ad96 [color="green"];
+  BB0066ad79 -> BB0066ad8c [color="red"];
+  BB0066ad8c -> BB0066adb8 [color="green"];
+  BB0066ad8c -> BB0066ad96 [color="red"];
+  BB0066ad96 -> BB0066acfa [color="blue"];
+  BB0066ada8 -> BB0066acfa [color="blue"];
+  BB0066adb8 -> BB0066adf0 [color="green"];
+  BB0066adb8 -> BB0066adc8 [color="red"];
+  BB0066ae20 -> BB0066acfa [color="blue"];
+}

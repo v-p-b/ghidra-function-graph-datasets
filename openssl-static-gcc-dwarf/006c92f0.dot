@@ -1,0 +1,11 @@
+digraph scryptBlockMix {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006c92f0 -> BB006c98ed [color="green"];
+  BB006c92f0 -> BB006c9390 [color="red"];
+  BB006c9390 -> BB006c955f [color="blue"];
+  BB006c955f -> BB006c955f [color="green"];
+  BB006c955f -> BB006c96ce [color="red"];
+  BB006c96ce -> BB006c9390 [color="green"];
+  BB006c96ce -> BB006c98ed [color="red"];
+}

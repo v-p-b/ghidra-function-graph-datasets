@@ -1,0 +1,11 @@
+digraph siv_stream_final {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0069bc80 -> BB0069bcc8 [color="green"];
+  BB0069bc80 -> BB0069bc96 [color="red"];
+  BB0069bc96 -> BB0069bcc8 [color="green"];
+  BB0069bc96 -> BB0069bcab [color="red"];
+  BB0069bcab -> BB0069bcca [color="green"];
+  BB0069bcab -> BB0069bcb5 [color="red"];
+  BB0069bcc8 -> BB0069bcca [color="blue"];
+}

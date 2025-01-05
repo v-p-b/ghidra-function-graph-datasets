@@ -1,0 +1,15 @@
+digraph EVP_PKEY_CTX_set_rsa_keygen_primes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00637f00 -> BB00637fd0 [color="green"];
+  BB00637f00 -> BB00637f1b [color="red"];
+  BB00637f1b -> BB00637fd0 [color="green"];
+  BB00637f1b -> BB00637f27 [color="red"];
+  BB00637f27 -> BB00637fb0 [color="green"];
+  BB00637f27 -> BB00637f37 [color="red"];
+  BB00637f37 -> BB00637fa4 [color="red"];
+  BB00637fb0 -> BB00637f37 [color="green"];
+  BB00637fb0 -> BB00637fc7 [color="red"];
+  BB00637fc7 -> BB00637fa4 [color="blue"];
+  BB00637fd0 -> BB00637fa4 [color="blue"];
+}

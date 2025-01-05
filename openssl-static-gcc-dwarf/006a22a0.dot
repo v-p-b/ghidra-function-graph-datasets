@@ -1,0 +1,11 @@
+digraph chacha_poly1305_tls_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006a22a0 -> BB006a22b0 [color="green"];
+  BB006a22a0 -> BB006a22a6 [color="red"];
+  BB006a22b0 -> BB006a22f4 [color="green"];
+  BB006a22b0 -> BB006a22de [color="red"];
+  BB006a22de -> BB006a22a6 [color="green"];
+  BB006a22de -> BB006a22e4 [color="red"];
+  BB006a22e4 -> BB006a22f4 [color="blue"];
+}

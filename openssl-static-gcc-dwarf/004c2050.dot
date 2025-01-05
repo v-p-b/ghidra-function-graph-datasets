@@ -1,0 +1,20 @@
+digraph ossl_quic_wire_decode_frame_stop_sending {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c2050 -> BB004c2118 [color="green"];
+  BB004c2050 -> BB004c205d [color="red"];
+  BB004c205d -> BB004c2090 [color="green"];
+  BB004c205d -> BB004c2083 [color="red"];
+  BB004c2083 -> BB004c2085 [color="blue"];
+  BB004c2090 -> BB004c2083 [color="green"];
+  BB004c2090 -> BB004c20b5 [color="red"];
+  BB004c20b5 -> BB004c2083 [color="green"];
+  BB004c20b5 -> BB004c20ba [color="red"];
+  BB004c20ba -> BB004c2083 [color="green"];
+  BB004c20ba -> BB004c20ca [color="red"];
+  BB004c20ca -> BB004c2083 [color="green"];
+  BB004c20ca -> BB004c20e9 [color="red"];
+  BB004c20e9 -> BB004c2083 [color="green"];
+  BB004c20e9 -> BB004c20f7 [color="red"];
+  BB004c20f7 -> BB004c2085 [color="blue"];
+}

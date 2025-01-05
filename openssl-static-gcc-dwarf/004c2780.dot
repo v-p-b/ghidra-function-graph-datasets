@@ -1,0 +1,14 @@
+digraph ossl_quic_wire_decode_frame_data_blocked {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c2780 -> BB004c2820 [color="green"];
+  BB004c2780 -> BB004c278d [color="red"];
+  BB004c278d -> BB004c27c8 [color="green"];
+  BB004c278d -> BB004c27b4 [color="red"];
+  BB004c27c8 -> BB004c27b4 [color="green"];
+  BB004c27c8 -> BB004c27ed [color="red"];
+  BB004c27ed -> BB004c27b4 [color="green"];
+  BB004c27ed -> BB004c27f2 [color="red"];
+  BB004c27f2 -> BB004c27b4 [color="green"];
+  BB004c27f2 -> BB004c2800 [color="red"];
+}

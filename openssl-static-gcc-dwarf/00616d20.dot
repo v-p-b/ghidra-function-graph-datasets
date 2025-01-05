@@ -1,0 +1,14 @@
+digraph ossl_pem_check_suffix {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00616d20 -> BB00401100 [color="green"];
+  BB00616d20 -> BB00401100 [color="green"];
+  BB00616d20 -> BB00616d6e [color="green"];
+  BB00616d20 -> BB00616d44 [color="red"];
+  BB00616d44 -> BB00401118 [color="green"];
+  BB00616d44 -> BB00616d80 [color="green"];
+  BB00616d44 -> BB00616d61 [color="red"];
+  BB00616d61 -> BB00616d6e [color="green"];
+  BB00616d61 -> BB00616d67 [color="red"];
+  BB00616d67 -> BB00616d6e [color="blue"];
+}

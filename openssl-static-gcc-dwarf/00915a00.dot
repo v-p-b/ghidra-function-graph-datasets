@@ -1,0 +1,13 @@
+digraph __vsnprintf_internal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00915a00 -> BB00915ae0 [color="green"];
+  BB00915a00 -> BB00915a42 [color="red"];
+  BB00915a42 -> BB00915a51 [color="blue"];
+  BB00915a51 -> BB00915aba [color="green"];
+  BB00915a51 -> BB00915ab2 [color="red"];
+  BB00915ab2 -> BB00915aba [color="blue"];
+  BB00915aba -> BB00915af6 [color="green"];
+  BB00915aba -> BB00915acd [color="red"];
+  BB00915ae0 -> BB00915a51 [color="blue"];
+}

@@ -1,0 +1,18 @@
+digraph X509_get1_ocsp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006708f0 -> BB0067097d [color="green"];
+  BB006708f0 -> BB00670919 [color="red"];
+  BB00670919 -> BB0067092b [color="blue"];
+  BB00670928 -> BB0067092b [color="blue"];
+  BB0067092b -> BB00670970 [color="green"];
+  BB0067092b -> BB00670937 [color="red"];
+  BB00670937 -> BB00670928 [color="green"];
+  BB00670937 -> BB00670953 [color="red"];
+  BB00670953 -> BB00670928 [color="green"];
+  BB00670953 -> BB0067095c [color="red"];
+  BB0067095c -> BB00670928 [color="green"];
+  BB0067095c -> BB0067096c [color="red"];
+  BB0067096c -> BB00670970 [color="blue"];
+  BB00670970 -> BB0067097d [color="red"];
+}

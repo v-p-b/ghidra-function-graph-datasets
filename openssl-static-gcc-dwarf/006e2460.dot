@@ -1,0 +1,34 @@
+digraph drbg_hmac_reseed {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006e2460 -> BB006e24b8 [color="green"];
+  BB006e2460 -> BB006e24a3 [color="red"];
+  BB006e24a3 -> BB006e24a5 [color="blue"];
+  BB006e24b8 -> BB006e24a3 [color="green"];
+  BB006e24b8 -> BB006e24d4 [color="red"];
+  BB006e24d4 -> BB006e24a3 [color="green"];
+  BB006e24d4 -> BB006e24ea [color="red"];
+  BB006e24ea -> BB006e2506 [color="green"];
+  BB006e24ea -> BB006e24ef [color="red"];
+  BB006e24ef -> BB006e2506 [color="green"];
+  BB006e24ef -> BB006e24f4 [color="red"];
+  BB006e24f4 -> BB006e24a3 [color="green"];
+  BB006e24f4 -> BB006e2506 [color="red"];
+  BB006e2506 -> BB006e2518 [color="green"];
+  BB006e2506 -> BB006e250f [color="red"];
+  BB006e250f -> BB006e25c8 [color="green"];
+  BB006e250f -> BB006e2518 [color="red"];
+  BB006e2518 -> BB006e24a3 [color="green"];
+  BB006e2518 -> BB006e2532 [color="red"];
+  BB006e2532 -> BB006e24a3 [color="green"];
+  BB006e2532 -> BB006e254b [color="red"];
+  BB006e254b -> BB006e24a3 [color="green"];
+  BB006e254b -> BB006e2564 [color="red"];
+  BB006e2564 -> BB006e24a3 [color="green"];
+  BB006e2564 -> BB006e2580 [color="red"];
+  BB006e2580 -> BB006e24a5 [color="green"];
+  BB006e2580 -> BB006e2591 [color="red"];
+  BB006e25c8 -> BB006e2518 [color="green"];
+  BB006e25c8 -> BB006e25de [color="red"];
+  BB006e25de -> BB006e24a3 [color="blue"];
+}

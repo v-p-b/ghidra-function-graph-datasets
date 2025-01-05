@@ -1,0 +1,23 @@
+digraph PKCS12_get0_mac {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00620240 -> BB00620290 [color="green"];
+  BB00620240 -> BB00620253 [color="red"];
+  BB00620253 -> BB00620272 [color="green"];
+  BB00620253 -> BB00620266 [color="red"];
+  BB00620266 -> BB00620272 [color="blue"];
+  BB00620272 -> BB00620283 [color="green"];
+  BB00620272 -> BB00620277 [color="red"];
+  BB00620277 -> BB00620283 [color="blue"];
+  BB00620290 -> BB0062029c [color="green"];
+  BB00620290 -> BB00620295 [color="red"];
+  BB00620295 -> BB0062029c [color="blue"];
+  BB0062029c -> BB006202a8 [color="green"];
+  BB0062029c -> BB006202a1 [color="red"];
+  BB006202a1 -> BB006202a8 [color="blue"];
+  BB006202a8 -> BB006202b5 [color="green"];
+  BB006202a8 -> BB006202ad [color="red"];
+  BB006202ad -> BB006202b5 [color="blue"];
+  BB006202b5 -> BB00620283 [color="green"];
+  BB006202b5 -> BB006202ba [color="red"];
+}

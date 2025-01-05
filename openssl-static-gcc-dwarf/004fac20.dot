@@ -1,0 +1,31 @@
+digraph ch_on_handshake_alert {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004fac20 -> BB004fad60 [color="green"];
+  BB004fac20 -> BB004fac3d [color="red"];
+  BB004fac3d -> BB004fac50 [color="green"];
+  BB004fac3d -> BB004fac43 [color="red"];
+  BB004fac43 -> BB004fadb8 [color="green"];
+  BB004fac43 -> BB004fac50 [color="red"];
+  BB004fac50 -> BB004fad46 [color="green"];
+  BB004fac50 -> BB004fac88 [color="red"];
+  BB004fac88 -> BB004fada0 [color="green"];
+  BB004fac88 -> BB004fac9f [color="red"];
+  BB004fac9f -> BB004fae00 [color="green"];
+  BB004fac9f -> BB004fad12 [color="red"];
+  BB004fad12 -> BB004fad17 [color="red"];
+  BB004fad17 -> BB004fad46 [color="red"];
+  BB004fad60 -> BB004fac50 [color="green"];
+  BB004fad60 -> BB004fad6d [color="red"];
+  BB004fad6d -> BB004fac50 [color="green"];
+  BB004fad6d -> BB004fad7e [color="red"];
+  BB004fad7e -> BB004fade7 [color="blue"];
+  BB004fada0 -> BB004fac9f [color="blue"];
+  BB004fadb8 -> BB004fac50 [color="green"];
+  BB004fadb8 -> BB004fadc9 [color="red"];
+  BB004fadc9 -> BB004fade7 [color="blue"];
+  BB004fade7 -> BB004fad46 [color="blue"];
+  BB004fae00 -> BB004fad17 [color="green"];
+  BB004fae00 -> BB004fae18 [color="red"];
+  BB004fae18 -> BB004fad12 [color="blue"];
+}

@@ -1,0 +1,33 @@
+digraph tls_process_client_rpk {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004f4e20 -> BB004f500b [color="green"];
+  BB004f4e20 -> BB004f4e45 [color="red"];
+  BB004f4e45 -> BB004f4f78 [color="green"];
+  BB004f4e45 -> BB004f4e53 [color="red"];
+  BB004f4e53 -> BB004f4fd0 [color="green"];
+  BB004f4e53 -> BB004f4e63 [color="red"];
+  BB004f4e63 -> BB004f5040 [color="green"];
+  BB004f4e63 -> BB004f4e77 [color="red"];
+  BB004f4e77 -> BB004f4fb8 [color="green"];
+  BB004f4e77 -> BB004f4f0a [color="red"];
+  BB004f4f0a -> BB004f4fb8 [color="green"];
+  BB004f4f0a -> BB004f4f17 [color="red"];
+  BB004f4f17 -> BB004f4fb8 [color="green"];
+  BB004f4f17 -> BB004f4f22 [color="red"];
+  BB004f4f22 -> BB004f5028 [color="green"];
+  BB004f4f22 -> BB004f4f37 [color="red"];
+  BB004f4f37 -> BB004f5028 [color="green"];
+  BB004f4f37 -> BB004f4f5a [color="red"];
+  BB004f4f5a -> BB004f4fc0 [color="blue"];
+  BB004f4f78 -> BB004f4e63 [color="green"];
+  BB004f4f78 -> BB004f4f8a [color="red"];
+  BB004f4f8a -> BB004f5001 [color="blue"];
+  BB004f4fb8 -> BB004f4fc0 [color="blue"];
+  BB004f4fd0 -> BB004f5001 [color="red"];
+  BB004f5001 -> BB004f500b [color="red"];
+  BB004f5040 -> BB004f5070 [color="green"];
+  BB004f5040 -> BB004f5052 [color="red"];
+  BB004f5052 -> BB004f4e77 [color="blue"];
+  BB004f5070 -> BB004f4fc0 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph SSL_get_psk_identity {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00490ad0 -> BB00490b00 [color="green"];
+  BB00490ad0 -> BB00490ad5 [color="red"];
+  BB00490ad5 -> BB00490aeb [color="green"];
+  BB00490ad5 -> BB00490adb [color="red"];
+  BB00490adb -> BB00490b02 [color="green"];
+  BB00490adb -> BB00490ae2 [color="red"];
+  BB00490ae2 -> BB00490b02 [color="green"];
+  BB00490ae2 -> BB00490aeb [color="red"];
+  BB00490aeb -> BB00490b02 [color="green"];
+  BB00490aeb -> BB00490af7 [color="red"];
+  BB00490b00 -> BB00490b02 [color="blue"];
+}

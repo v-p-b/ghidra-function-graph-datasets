@@ -1,0 +1,19 @@
+digraph X509_check_purpose {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0066aa60 -> BB0066ab00 [color="green"];
+  BB0066aa60 -> BB0066aa7d [color="red"];
+  BB0066aa7d -> BB0066aaf0 [color="green"];
+  BB0066aa7d -> BB0066aa82 [color="red"];
+  BB0066aa82 -> BB0066aad8 [color="green"];
+  BB0066aa82 -> BB0066aa8a [color="red"];
+  BB0066aa8a -> BB0066ab00 [color="green"];
+  BB0066aa8a -> BB0066aa96 [color="red"];
+  BB0066aa96 -> BB0066ab00 [color="green"];
+  BB0066aa96 -> BB0066aaa7 [color="red"];
+  BB0066aaa7 -> BB0066aab0 [color="red"];
+  BB0066aab0 -> BB0066aabf [color="red"];
+  BB0066aad8 -> BB0066aabf [color="blue"];
+  BB0066aaf0 -> BB0066aaf5 [color="blue"];
+  BB0066ab00 -> BB0066aaf5 [color="blue"];
+}

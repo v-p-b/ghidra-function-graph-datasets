@@ -1,0 +1,18 @@
+digraph mmap64 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008da810 -> BB008da840 [color="green"];
+  BB008da810 -> BB008da819 [color="red"];
+  BB008da819 -> BB008da860 [color="green"];
+  BB008da819 -> BB008da825 [color="red"];
+  BB008da825 -> BB008da8a0 [color="green"];
+  BB008da825 -> BB008da83a [color="red"];
+  BB008da860 -> BB008da825 [color="green"];
+  BB008da860 -> BB008da865 [color="red"];
+  BB008da865 -> BB008da825 [color="green"];
+  BB008da865 -> BB008da86e [color="red"];
+  BB008da86e -> BB008da83a [color="green"];
+  BB008da86e -> BB008da88b [color="red"];
+  BB008da88b -> BB008da825 [color="blue"];
+  BB008da8a0 -> BB008da83a [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph app_load_config_bio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00465d90 -> BB00465de0 [color="green"];
+  BB00465d90 -> BB00465dd0 [color="red"];
+  BB00465de0 -> BB00465e48 [color="green"];
+  BB00465de0 -> BB00465dea [color="red"];
+  BB00465dea -> BB00465e71 [color="green"];
+  BB00465dea -> BB00465e16 [color="red"];
+  BB00465e16 -> BB00465e27 [color="red"];
+  BB00465e48 -> BB00465e16 [color="green"];
+  BB00465e48 -> BB00465e71 [color="red"];
+  BB00465e71 -> BB00465e27 [color="blue"];
+}

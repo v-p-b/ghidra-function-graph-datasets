@@ -1,0 +1,31 @@
+digraph display_random {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00424320 -> BB004244b8 [color="green"];
+  BB00424320 -> BB0042436c [color="red"];
+  BB0042436c -> BB004243f3 [color="green"];
+  BB0042436c -> BB004243d3 [color="red"];
+  BB004243d3 -> BB004243f3 [color="green"];
+  BB004243d3 -> BB004243df [color="red"];
+  BB004243df -> BB004243f3 [color="blue"];
+  BB004243f3 -> BB004244b8 [color="green"];
+  BB004243f3 -> BB0042441c [color="red"];
+  BB0042441c -> BB004244b8 [color="green"];
+  BB0042441c -> BB00424428 [color="red"];
+  BB00424428 -> BB00424469 [color="blue"];
+  BB00424430 -> BB0042443a [color="blue"];
+  BB0042443a -> BB004244c8 [color="green"];
+  BB0042443a -> BB0042445c [color="red"];
+  BB0042445c -> BB004244b8 [color="green"];
+  BB0042445c -> BB00424469 [color="red"];
+  BB00424469 -> BB0042445c [color="green"];
+  BB00424469 -> BB00424479 [color="red"];
+  BB00424479 -> BB00424490 [color="green"];
+  BB00424479 -> BB00424486 [color="red"];
+  BB00424486 -> BB0042445c [color="green"];
+  BB00424486 -> BB00424490 [color="red"];
+  BB00424490 -> BB00424430 [color="green"];
+  BB00424490 -> BB004244a7 [color="red"];
+  BB004244a7 -> BB0042443a [color="blue"];
+  BB004244c8 -> BB0042445c [color="blue"];
+}

@@ -1,0 +1,20 @@
+digraph tls_setup_read_buffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004cda40 -> BB004cda68 [color="green"];
+  BB004cda40 -> BB004cda5f [color="red"];
+  BB004cda68 -> BB004cdab7 [color="green"];
+  BB004cda68 -> BB004cda8a [color="red"];
+  BB004cda8a -> BB004cdaaf [color="green"];
+  BB004cda8a -> BB004cda96 [color="red"];
+  BB004cda96 -> BB004cdab7 [color="green"];
+  BB004cda96 -> BB004cdaaf [color="red"];
+  BB004cdaaf -> BB004cdab7 [color="blue"];
+  BB004cdab7 -> BB004cdac8 [color="green"];
+  BB004cdab7 -> BB004cdac4 [color="red"];
+  BB004cdac4 -> BB004cdac8 [color="blue"];
+  BB004cdac8 -> BB004cdb0c [color="green"];
+  BB004cdac8 -> BB004cdaf0 [color="red"];
+  BB004cdaf0 -> BB004cdb04 [color="blue"];
+  BB004cdb0c -> BB004cdb04 [color="blue"];
+}

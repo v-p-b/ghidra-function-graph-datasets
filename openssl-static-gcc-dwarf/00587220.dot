@@ -1,0 +1,18 @@
+digraph EC_KEY_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00587220 -> BB005872e0 [color="green"];
+  BB00587220 -> BB00587229 [color="red"];
+  BB00587229 -> BB005872d8 [color="green"];
+  BB00587229 -> BB0058723e [color="red"];
+  BB0058723e -> BB00587251 [color="green"];
+  BB0058723e -> BB00587246 [color="red"];
+  BB00587246 -> BB00587251 [color="green"];
+  BB00587246 -> BB0058724f [color="red"];
+  BB0058724f -> BB00587251 [color="blue"];
+  BB00587251 -> BB00587277 [color="green"];
+  BB00587251 -> BB00587263 [color="red"];
+  BB00587263 -> BB00587277 [color="green"];
+  BB00587263 -> BB00587272 [color="red"];
+  BB00587272 -> BB00587277 [color="blue"];
+}

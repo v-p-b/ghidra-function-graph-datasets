@@ -1,0 +1,29 @@
+digraph ec_GF2m_simple_points_mul {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00753180 -> BB007531c0 [color="green"];
+  BB00753180 -> BB007531ab [color="red"];
+  BB007531ab -> BB007531f0 [color="green"];
+  BB007531ab -> BB007531c0 [color="red"];
+  BB007531f0 -> BB007531c0 [color="green"];
+  BB007531f0 -> BB00753204 [color="red"];
+  BB00753204 -> BB00753288 [color="green"];
+  BB00753204 -> BB00753209 [color="red"];
+  BB00753209 -> BB00753300 [color="green"];
+  BB00753209 -> BB00753213 [color="red"];
+  BB00753213 -> BB00753288 [color="green"];
+  BB00753213 -> BB00753218 [color="red"];
+  BB00753218 -> BB00753310 [color="green"];
+  BB00753218 -> BB0075323e [color="red"];
+  BB0075323e -> BB007532b8 [color="green"];
+  BB0075323e -> BB00753262 [color="red"];
+  BB00753262 -> BB00753272 [color="red"];
+  BB00753288 -> BB00753218 [color="green"];
+  BB00753288 -> BB0075328e [color="red"];
+  BB0075328e -> BB00753298 [color="blue"];
+  BB007532b8 -> BB00753262 [color="green"];
+  BB007532b8 -> BB007532da [color="red"];
+  BB007532da -> BB00753262 [color="blue"];
+  BB00753300 -> BB00753298 [color="blue"];
+  BB00753310 -> BB00753272 [color="blue"];
+}

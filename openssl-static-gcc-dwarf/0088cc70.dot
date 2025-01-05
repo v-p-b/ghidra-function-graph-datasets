@@ -1,0 +1,11 @@
+digraph strncasecmp_l {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0088cc70 -> BB0088ccb3 [color="green"];
+  BB0088cc70 -> BB0088cc80 [color="red"];
+  BB0088cc80 -> BB0088cc9e [color="green"];
+  BB0088cc80 -> BB0088cc8e [color="red"];
+  BB0088cc8e -> BB0088ccb3 [color="green"];
+  BB0088cc8e -> BB0088cc9e [color="red"];
+  BB0088cc9e -> BB0088ccb3 [color="blue"];
+}

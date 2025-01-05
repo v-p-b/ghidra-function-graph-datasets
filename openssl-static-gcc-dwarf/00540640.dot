@@ -1,0 +1,17 @@
+digraph BN_copy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00540640 -> BB00540672 [color="green"];
+  BB00540640 -> BB00540659 [color="red"];
+  BB00540659 -> BB005406a0 [color="green"];
+  BB00540659 -> BB00540661 [color="red"];
+  BB00540661 -> BB00540680 [color="green"];
+  BB00540661 -> BB00540665 [color="red"];
+  BB00540665 -> BB00540672 [color="blue"];
+  BB00540680 -> BB00401070 [color="blue"];
+  BB00540680 -> BB00540665 [color="blue"];
+  BB005406a0 -> BB005406b8 [color="green"];
+  BB005406a0 -> BB005406ac [color="red"];
+  BB005406ac -> BB00540661 [color="blue"];
+  BB005406b8 -> BB00540672 [color="blue"];
+}

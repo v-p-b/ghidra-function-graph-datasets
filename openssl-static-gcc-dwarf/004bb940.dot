@@ -1,0 +1,28 @@
+digraph write_at_ring_buf_cb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004bb940 -> BB004bba38 [color="green"];
+  BB004bb940 -> BB004bb950 [color="red"];
+  BB004bb950 -> BB004bba40 [color="green"];
+  BB004bb950 -> BB004bb988 [color="red"];
+  BB004bb988 -> BB004bba23 [color="green"];
+  BB004bb988 -> BB004bb991 [color="red"];
+  BB004bb991 -> BB004bba40 [color="green"];
+  BB004bb991 -> BB004bb9b1 [color="red"];
+  BB004bb9b1 -> BB004bba40 [color="green"];
+  BB004bb9b1 -> BB004bb9ba [color="red"];
+  BB004bb9ba -> BB004bba1d [color="green"];
+  BB004bb9ba -> BB004bb9bf [color="red"];
+  BB004bb9bf -> BB004bb9e2 [color="blue"];
+  BB004bb9d0 -> BB004bba1d [color="green"];
+  BB004bb9d0 -> BB004bb9d5 [color="red"];
+  BB004bb9d5 -> BB004bb9e2 [color="blue"];
+  BB004bb9e2 -> BB00401070 [color="green"];
+  BB004bb9e2 -> BB004bba18 [color="green"];
+  BB004bb9e2 -> BB004bba14 [color="red"];
+  BB004bba14 -> BB004bba18 [color="blue"];
+  BB004bba18 -> BB004bb9d0 [color="green"];
+  BB004bba18 -> BB004bba1d [color="red"];
+  BB004bba1d -> BB004bba23 [color="blue"];
+  BB004bba40 -> BB004bba23 [color="blue"];
+}

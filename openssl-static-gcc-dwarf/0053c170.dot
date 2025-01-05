@@ -1,0 +1,17 @@
+digraph BN_CTX_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0053c170 -> BB0053c220 [color="green"];
+  BB0053c170 -> BB0053c179 [color="red"];
+  BB0053c179 -> BB0053c202 [color="green"];
+  BB0053c179 -> BB0053c1ad [color="red"];
+  BB0053c1ad -> BB0053c1b8 [color="blue"];
+  BB0053c1b8 -> BB0053c1c0 [color="blue"];
+  BB0053c1c0 -> BB0053c1ce [color="green"];
+  BB0053c1c0 -> BB0053c1c6 [color="red"];
+  BB0053c1c6 -> BB0053c1ce [color="red"];
+  BB0053c1ce -> BB0053c1c0 [color="green"];
+  BB0053c1ce -> BB0053c1d7 [color="red"];
+  BB0053c1d7 -> BB0053c1b8 [color="green"];
+  BB0053c1d7 -> BB0053c202 [color="red"];
+}

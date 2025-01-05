@@ -1,0 +1,15 @@
+digraph ossl_prov_digest_copy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0068f550 -> BB0068f56e [color="green"];
+  BB0068f550 -> BB0068f565 [color="red"];
+  BB0068f565 -> BB0068f595 [color="green"];
+  BB0068f565 -> BB0068f56e [color="red"];
+  BB0068f56e -> BB0068f584 [color="green"];
+  BB0068f56e -> BB0068f577 [color="red"];
+  BB0068f577 -> BB0068f5a0 [color="green"];
+  BB0068f577 -> BB0068f580 [color="red"];
+  BB0068f580 -> BB0068f584 [color="blue"];
+  BB0068f584 -> BB0068f595 [color="blue"];
+  BB0068f5a0 -> BB0068f595 [color="blue"];
+}

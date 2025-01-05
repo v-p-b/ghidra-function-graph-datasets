@@ -1,0 +1,27 @@
+digraph ossl_quic_sstream_append {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004bdfa0 -> BB004be15c [color="green"];
+  BB004bdfa0 -> BB004bdfc6 [color="red"];
+  BB004bdfc6 -> BB004be0d8 [color="green"];
+  BB004bdfc6 -> BB004bdfcf [color="red"];
+  BB004bdfcf -> BB004be010 [color="blue"];
+  BB004be010 -> BB004be0d0 [color="green"];
+  BB004be010 -> BB004be03b [color="red"];
+  BB004be03b -> BB004be048 [color="blue"];
+  BB004be048 -> BB00401070 [color="green"];
+  BB004be048 -> BB004be048 [color="green"];
+  BB004be048 -> BB004be0af [color="red"];
+  BB004be0af -> BB004be0d0 [color="green"];
+  BB004be0af -> BB004be0b4 [color="red"];
+  BB004be0b4 -> BB004be0d0 [color="green"];
+  BB004be0b4 -> BB004be0c4 [color="red"];
+  BB004be0c4 -> BB004be010 [color="blue"];
+  BB004be0d0 -> BB004be102 [color="green"];
+  BB004be0d0 -> BB004be0d8 [color="red"];
+  BB004be0d8 -> BB004be0e1 [color="blue"];
+  BB004be0e1 -> BB004be0f3 [color="blue"];
+  BB004be102 -> BB004be0e1 [color="green"];
+  BB004be102 -> BB004be12d [color="red"];
+  BB004be12d -> BB004be0f3 [color="blue"];
+}

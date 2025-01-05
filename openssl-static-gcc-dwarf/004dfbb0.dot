@@ -1,0 +1,23 @@
+digraph tls_construct_cke_psk_preamble {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004dfbb0 -> BB004dfdc0 [color="green"];
+  BB004dfbb0 -> BB004dfbd4 [color="red"];
+  BB004dfbd4 -> BB004dfe20 [color="green"];
+  BB004dfbd4 -> BB004dfc27 [color="red"];
+  BB004dfc27 -> BB004dfd70 [color="green"];
+  BB004dfc27 -> BB004dfc30 [color="red"];
+  BB004dfc30 -> BB00401100 [color="green"];
+  BB004dfc30 -> BB004dfeae [color="green"];
+  BB004dfc30 -> BB004dfc78 [color="red"];
+  BB004dfc78 -> BB004dfeae [color="green"];
+  BB004dfc78 -> BB004dfc81 [color="red"];
+  BB004dfc81 -> BB004dfe70 [color="green"];
+  BB004dfc81 -> BB004dfcf8 [color="red"];
+  BB004dfcf8 -> BB004dfd04 [color="blue"];
+  BB004dfd70 -> BB004dfd04 [color="blue"];
+  BB004dfdc0 -> BB004dfd04 [color="blue"];
+  BB004dfe20 -> BB004dfd04 [color="blue"];
+  BB004dfe70 -> BB004dfd04 [color="blue"];
+  BB004dfeae -> BB004dfd04 [color="blue"];
+}

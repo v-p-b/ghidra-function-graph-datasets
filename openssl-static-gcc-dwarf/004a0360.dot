@@ -1,0 +1,13 @@
+digraph tls1_lookup_md {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004a0360 -> BB004a03a0 [color="green"];
+  BB004a0360 -> BB004a0365 [color="red"];
+  BB004a0365 -> BB004a0388 [color="green"];
+  BB004a0365 -> BB004a0372 [color="red"];
+  BB004a0372 -> BB004a0380 [color="green"];
+  BB004a0372 -> BB004a037d [color="red"];
+  BB004a037d -> BB004a0380 [color="blue"];
+  BB004a0388 -> BB004a0372 [color="green"];
+  BB004a0388 -> BB004a0395 [color="red"];
+}

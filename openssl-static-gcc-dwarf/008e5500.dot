@@ -1,0 +1,13 @@
+digraph __nscd_gethostbyaddr_r {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008e5500 -> BB008e5530 [color="green"];
+  BB008e5500 -> BB008e550f [color="red"];
+  BB008e550f -> BB008e5530 [color="green"];
+  BB008e550f -> BB008e551a [color="red"];
+  BB008e5530 -> BB008e5542 [color="green"];
+  BB008e5530 -> BB008e5535 [color="red"];
+  BB008e5535 -> BB008e5542 [color="green"];
+  BB008e5535 -> BB008e553a [color="red"];
+  BB008e553a -> BB008e551a [color="blue"];
+}

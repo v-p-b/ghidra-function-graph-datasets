@@ -1,0 +1,13 @@
+digraph SCT_LIST_print {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005778b0 -> BB00577934 [color="green"];
+  BB005778b0 -> BB005778d8 [color="red"];
+  BB005778d8 -> BB005778e9 [color="blue"];
+  BB005778e0 -> BB00577934 [color="green"];
+  BB005778e0 -> BB005778e9 [color="red"];
+  BB005778e9 -> BB005778e0 [color="green"];
+  BB005778e9 -> BB00577915 [color="red"];
+  BB00577915 -> BB005778e9 [color="green"];
+  BB00577915 -> BB00577934 [color="red"];
+}

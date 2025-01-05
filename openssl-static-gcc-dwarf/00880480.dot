@@ -1,0 +1,27 @@
+digraph _IO_file_xsgetn_mmap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00880480 -> BB008804d6 [color="green"];
+  BB00880480 -> BB008804aa [color="red"];
+  BB008804aa -> BB008804f0 [color="green"];
+  BB008804aa -> BB008804b2 [color="red"];
+  BB008804b2 -> BB00880548 [color="green"];
+  BB008804b2 -> BB008804c2 [color="red"];
+  BB008804c2 -> BB008804d6 [color="green"];
+  BB008804c2 -> BB008804d2 [color="red"];
+  BB008804d2 -> BB008804d6 [color="blue"];
+  BB008804d6 -> BB00880521 [color="green"];
+  BB008804d6 -> BB008804db [color="red"];
+  BB008804db -> BB008804e1 [color="blue"];
+  BB008804f0 -> BB004010c0 [color="green"];
+  BB008804f0 -> BB008804b2 [color="green"];
+  BB008804f0 -> BB0088051c [color="red"];
+  BB0088051c -> BB008804db [color="green"];
+  BB0088051c -> BB00880521 [color="red"];
+  BB00880521 -> BB004010c0 [color="blue"];
+  BB00880521 -> BB008804db [color="blue"];
+  BB00880548 -> BB00880583 [color="green"];
+  BB00880548 -> BB0088056f [color="red"];
+  BB0088056f -> BB008804e1 [color="blue"];
+  BB00880583 -> BB0088056f [color="blue"];
+}

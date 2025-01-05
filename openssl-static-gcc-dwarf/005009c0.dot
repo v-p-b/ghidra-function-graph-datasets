@@ -1,0 +1,10 @@
+digraph ossl_quic_lcidm_retire_odcid {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005009c0 -> BB00500a40 [color="green"];
+  BB005009c0 -> BB005009e7 [color="red"];
+  BB005009e7 -> BB00500a53 [color="green"];
+  BB005009e7 -> BB005009f0 [color="red"];
+  BB00500a40 -> BB005009e7 [color="green"];
+  BB00500a40 -> BB00500a53 [color="red"];
+}

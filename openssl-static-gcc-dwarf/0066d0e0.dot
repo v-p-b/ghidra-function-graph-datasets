@@ -1,0 +1,16 @@
+digraph sxnet_i2r {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0066d0e0 -> BB0066d120 [color="green"];
+  BB0066d0e0 -> BB0066d108 [color="red"];
+  BB0066d108 -> BB0066d1e0 [color="green"];
+  BB0066d108 -> BB0066d120 [color="red"];
+  BB0066d120 -> BB0066d13b [color="red"];
+  BB0066d13b -> BB0066d1b9 [color="blue"];
+  BB0066d150 -> BB0066d208 [color="green"];
+  BB0066d150 -> BB0066d175 [color="red"];
+  BB0066d175 -> BB0066d1b9 [color="red"];
+  BB0066d1b9 -> BB0066d150 [color="green"];
+  BB0066d1b9 -> BB0066d1c7 [color="red"];
+  BB0066d1e0 -> BB0066d13b [color="blue"];
+}

@@ -1,0 +1,31 @@
+digraph DES_ncbc_encrypt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0073c3a0 -> BB0073c4f0 [color="green"];
+  BB0073c3a0 -> BB0073c3dc [color="red"];
+  BB0073c3dc -> BB0073c7b0 [color="green"];
+  BB0073c3dc -> BB0073c3e5 [color="red"];
+  BB0073c3e5 -> BB0073c410 [color="blue"];
+  BB0073c410 -> BB0073c410 [color="green"];
+  BB0073c410 -> BB0073c48b [color="red"];
+  BB0073c48b -> BB0073c4b9 [color="blue"];
+  BB0073c4b9 -> BB0073c7d0 [color="green"];
+  BB0073c4b9 -> BB0073c4c3 [color="red"];
+  BB0073c4c3 -> BB0073c6f0 [color="green"];
+  BB0073c4c3 -> BB0073c4dc [color="red"];
+  BB0073c4f0 -> BB0073c7c0 [color="green"];
+  BB0073c4f0 -> BB0073c4f9 [color="red"];
+  BB0073c4f9 -> BB0073c530 [color="blue"];
+  BB0073c530 -> BB0073c530 [color="green"];
+  BB0073c530 -> BB0073c5a6 [color="red"];
+  BB0073c5a6 -> BB0073c5da [color="blue"];
+  BB0073c5da -> BB0073c684 [color="green"];
+  BB0073c5da -> BB0073c5e8 [color="red"];
+  BB0073c5e8 -> BB0073c883 [color="green"];
+  BB0073c5e8 -> BB0073c62b [color="red"];
+  BB0073c6f0 -> BB0073c74b [color="red"];
+  BB0073c7b0 -> BB0073c4b9 [color="blue"];
+  BB0073c7c0 -> BB0073c5da [color="blue"];
+  BB0073c7d0 -> BB0073c74b [color="blue"];
+  BB0073c883 -> BB0073c684 [color="blue"];
+}

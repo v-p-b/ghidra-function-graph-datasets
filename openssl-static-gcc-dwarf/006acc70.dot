@@ -1,0 +1,16 @@
+digraph sm2_d2i_PKCS8 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006acc70 -> BB006acd10 [color="green"];
+  BB006acc70 -> BB006acc92 [color="red"];
+  BB006acc92 -> BB006acd10 [color="green"];
+  BB006acc92 -> BB006acca9 [color="red"];
+  BB006acca9 -> BB006acce8 [color="green"];
+  BB006acca9 -> BB006accc3 [color="red"];
+  BB006accc3 -> BB006acd10 [color="green"];
+  BB006accc3 -> BB006accd7 [color="red"];
+  BB006accd7 -> BB006acd10 [color="green"];
+  BB006accd7 -> BB006acce8 [color="red"];
+  BB006acce8 -> BB006acd13 [color="blue"];
+  BB006acd10 -> BB006acd13 [color="blue"];
+}

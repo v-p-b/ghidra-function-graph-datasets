@@ -1,0 +1,36 @@
+digraph ocsp_match_issuerid {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006122d0 -> BB00612360 [color="green"];
+  BB006122d0 -> BB006122e9 [color="red"];
+  BB006122e9 -> BB00612430 [color="green"];
+  BB006122e9 -> BB0061231e [color="red"];
+  BB0061231e -> BB00612488 [color="green"];
+  BB0061231e -> BB00612337 [color="red"];
+  BB00612337 -> BB006123b0 [color="green"];
+  BB00612337 -> BB00612340 [color="red"];
+  BB00612340 -> BB00612348 [color="red"];
+  BB00612360 -> BB0061239e [color="green"];
+  BB00612360 -> BB00612371 [color="red"];
+  BB00612371 -> BB00612348 [color="green"];
+  BB00612371 -> BB0061238f [color="red"];
+  BB0061238f -> BB00612371 [color="green"];
+  BB0061238f -> BB0061239e [color="red"];
+  BB0061239e -> BB00612348 [color="blue"];
+  BB006123b0 -> BB00612340 [color="green"];
+  BB006123b0 -> BB006123b6 [color="red"];
+  BB006123b6 -> BB00612340 [color="green"];
+  BB006123b6 -> BB006123e1 [color="red"];
+  BB006123e1 -> BB004010d8 [color="green"];
+  BB006123e1 -> BB00612340 [color="green"];
+  BB006123e1 -> BB006123fb [color="red"];
+  BB006123fb -> BB006124c3 [color="green"];
+  BB006123fb -> BB00612413 [color="red"];
+  BB00612413 -> BB004010d8 [color="blue"];
+  BB00612413 -> BB00612340 [color="blue"];
+  BB00612430 -> BB0061231e [color="green"];
+  BB00612430 -> BB00612444 [color="red"];
+  BB00612444 -> BB00612340 [color="blue"];
+  BB00612488 -> BB00612340 [color="blue"];
+  BB006124c3 -> BB00612340 [color="blue"];
+}

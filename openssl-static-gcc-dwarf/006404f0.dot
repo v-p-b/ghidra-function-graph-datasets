@@ -1,0 +1,10 @@
+digraph ossl_rsa_sp800_56b_check_private {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006404f0 -> BB00640538 [color="green"];
+  BB006404f0 -> BB006404f7 [color="red"];
+  BB006404f7 -> BB00640517 [color="green"];
+  BB006404f7 -> BB00640502 [color="red"];
+  BB00640502 -> BB00640520 [color="green"];
+  BB00640502 -> BB00640517 [color="red"];
+}

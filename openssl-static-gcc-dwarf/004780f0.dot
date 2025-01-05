@@ -1,0 +1,23 @@
+digraph DTLS_get_data_mtu {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004780f0 -> BB004781a0 [color="green"];
+  BB004780f0 -> BB00478107 [color="red"];
+  BB00478107 -> BB004781a0 [color="green"];
+  BB00478107 -> BB00478111 [color="red"];
+  BB00478111 -> BB004781a0 [color="green"];
+  BB00478111 -> BB0047811a [color="red"];
+  BB0047811a -> BB004781a0 [color="green"];
+  BB0047811a -> BB00478146 [color="red"];
+  BB00478146 -> BB004781b0 [color="green"];
+  BB00478146 -> BB00478158 [color="red"];
+  BB00478158 -> BB0047815d [color="blue"];
+  BB0047815d -> BB004781a0 [color="green"];
+  BB0047815d -> BB00478166 [color="red"];
+  BB00478166 -> BB00478182 [color="green"];
+  BB00478166 -> BB0047817a [color="red"];
+  BB0047817a -> BB00478182 [color="blue"];
+  BB00478182 -> BB004781a0 [color="green"];
+  BB00478182 -> BB0047818c [color="red"];
+  BB004781b0 -> BB0047815d [color="blue"];
+}

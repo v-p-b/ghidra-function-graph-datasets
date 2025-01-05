@@ -1,0 +1,25 @@
+digraph OPENSSL_init_ssl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00486420 -> BB00486450 [color="green"];
+  BB00486420 -> BB00486445 [color="red"];
+  BB00486445 -> BB00486447 [color="blue"];
+  BB00486450 -> BB00486445 [color="green"];
+  BB00486450 -> BB00486467 [color="red"];
+  BB00486467 -> BB00486445 [color="green"];
+  BB00486467 -> BB00486471 [color="red"];
+  BB00486471 -> BB00486490 [color="green"];
+  BB00486471 -> BB00486479 [color="red"];
+  BB00486479 -> BB004864b8 [color="green"];
+  BB00486479 -> BB00486481 [color="red"];
+  BB00486490 -> BB00486445 [color="green"];
+  BB00486490 -> BB004864a7 [color="red"];
+  BB004864a7 -> BB00486479 [color="green"];
+  BB004864a7 -> BB004864b1 [color="red"];
+  BB004864b1 -> BB00486447 [color="blue"];
+  BB004864b8 -> BB00486445 [color="green"];
+  BB004864b8 -> BB004864d3 [color="red"];
+  BB004864d3 -> BB00486481 [color="green"];
+  BB004864d3 -> BB004864dd [color="red"];
+  BB004864dd -> BB00486447 [color="blue"];
+}

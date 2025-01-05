@@ -1,0 +1,10 @@
+digraph OCSP_response_get1_basic {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0060fa80 -> BB0060fae8 [color="green"];
+  BB0060fa80 -> BB0060fa8a [color="red"];
+  BB0060fa8a -> BB0060fab0 [color="green"];
+  BB0060fa8a -> BB0060fa99 [color="red"];
+  BB0060fab0 -> BB0060fae0 [color="red"];
+  BB0060fae8 -> BB0060fae0 [color="blue"];
+}

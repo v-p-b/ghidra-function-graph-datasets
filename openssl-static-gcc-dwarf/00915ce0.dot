@@ -1,0 +1,15 @@
+digraph fputs_unlocked {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00915ce0 -> BB00401100 [color="green"];
+  BB00915ce0 -> BB00915d58 [color="green"];
+  BB00915ce0 -> BB00915d02 [color="red"];
+  BB00915d02 -> BB00915d0c [color="blue"];
+  BB00915d0c -> BB00915d70 [color="green"];
+  BB00915d0c -> BB00915d30 [color="red"];
+  BB00915d30 -> BB00915d5d [color="green"];
+  BB00915d30 -> BB00915d4a [color="red"];
+  BB00915d58 -> BB00915d0c [color="green"];
+  BB00915d58 -> BB00915d5d [color="red"];
+  BB00915d70 -> BB00915d30 [color="blue"];
+}

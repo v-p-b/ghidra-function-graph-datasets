@@ -1,0 +1,19 @@
+digraph BN_rshift1 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005489c0 -> BB00548a88 [color="green"];
+  BB005489c0 -> BB005489de [color="red"];
+  BB005489de -> BB00548a06 [color="green"];
+  BB005489de -> BB005489eb [color="red"];
+  BB005489eb -> BB00548a76 [color="green"];
+  BB005489eb -> BB005489fe [color="red"];
+  BB005489fe -> BB00548a06 [color="blue"];
+  BB00548a06 -> BB00548a62 [color="green"];
+  BB00548a06 -> BB00548a3c [color="red"];
+  BB00548a3c -> BB00548a40 [color="blue"];
+  BB00548a40 -> BB00548a40 [color="green"];
+  BB00548a40 -> BB00548a62 [color="red"];
+  BB00548a62 -> BB00548a76 [color="green"];
+  BB00548a62 -> BB00548a6d [color="red"];
+  BB00548a6d -> BB00548a76 [color="blue"];
+}

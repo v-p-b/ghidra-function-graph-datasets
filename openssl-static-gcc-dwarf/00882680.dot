@@ -1,0 +1,10 @@
+digraph _IO_default_uflow {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00882680 -> BB008826d0 [color="green"];
+  BB00882680 -> BB008826ad [color="red"];
+  BB008826ad -> BB008826c7 [color="green"];
+  BB008826ad -> BB008826b8 [color="red"];
+  BB008826b8 -> BB008826c7 [color="blue"];
+  BB008826d0 -> BB008826ad [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph get_rsa_payload_e1 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00761870 -> BB0076189c [color="green"];
+  BB00761870 -> BB0076188b [color="red"];
+  BB0076188b -> BB007618be [color="green"];
+  BB0076188b -> BB0076189c [color="red"];
+  BB0076189c -> BB007618be [color="green"];
+  BB0076189c -> BB007618b3 [color="red"];
+  BB007618b3 -> BB007618d0 [color="green"];
+  BB007618b3 -> BB007618be [color="red"];
+}

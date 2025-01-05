@@ -1,0 +1,9 @@
+digraph nullmd_dupctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006a9d50 -> BB006a9d83 [color="green"];
+  BB006a9d50 -> BB006a9d63 [color="red"];
+  BB006a9d63 -> BB006a9d83 [color="green"];
+  BB006a9d63 -> BB006a9d7e [color="red"];
+  BB006a9d7e -> BB006a9d83 [color="blue"];
+}

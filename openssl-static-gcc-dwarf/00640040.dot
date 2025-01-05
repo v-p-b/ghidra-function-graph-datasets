@@ -1,0 +1,14 @@
+digraph ossl_rsa_get_lcm {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00640040 -> BB00640090 [color="green"];
+  BB00640040 -> BB00640077 [color="red"];
+  BB00640077 -> BB00640079 [color="blue"];
+  BB00640090 -> BB00640077 [color="green"];
+  BB00640090 -> BB006400a9 [color="red"];
+  BB006400a9 -> BB00640077 [color="green"];
+  BB006400a9 -> BB006400c2 [color="red"];
+  BB006400c2 -> BB00640077 [color="green"];
+  BB006400c2 -> BB006400d9 [color="red"];
+  BB006400d9 -> BB00640079 [color="blue"];
+}

@@ -1,0 +1,24 @@
+digraph ossl_quic_port_update_poll_descriptors {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b62b0 -> BB004b62df [color="green"];
+  BB004b62b0 -> BB004b62cf [color="red"];
+  BB004b62cf -> BB004b6390 [color="green"];
+  BB004b62cf -> BB004b62df [color="red"];
+  BB004b62df -> BB004b62e6 [color="blue"];
+  BB004b62e6 -> BB004b62fb [color="red"];
+  BB004b62fb -> BB004b6318 [color="green"];
+  BB004b62fb -> BB004b630c [color="red"];
+  BB004b630c -> BB004b6340 [color="green"];
+  BB004b630c -> BB004b6318 [color="red"];
+  BB004b6318 -> BB004b631f [color="blue"];
+  BB004b6340 -> BB004b631f [color="green"];
+  BB004b6340 -> BB004b6346 [color="red"];
+  BB004b6346 -> BB004b631f [color="green"];
+  BB004b6346 -> BB004b634e [color="red"];
+  BB004b6390 -> BB004b62e6 [color="green"];
+  BB004b6390 -> BB004b639a [color="red"];
+  BB004b639a -> BB004b62e6 [color="green"];
+  BB004b639a -> BB004b63a6 [color="red"];
+  BB004b63a6 -> BB004b62fb [color="blue"];
+}

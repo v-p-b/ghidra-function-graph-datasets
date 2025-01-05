@@ -1,0 +1,16 @@
+digraph ec2blob_encode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006bce40 -> BB006bcea0 [color="green"];
+  BB006bce40 -> BB006bce52 [color="red"];
+  BB006bce52 -> BB006bce85 [color="red"];
+  BB006bcea0 -> BB006bcf01 [color="green"];
+  BB006bcea0 -> BB006bcecb [color="red"];
+  BB006bcecb -> BB006bcf01 [color="green"];
+  BB006bcecb -> BB006bced0 [color="red"];
+  BB006bced0 -> BB006bcefc [color="green"];
+  BB006bced0 -> BB006bcee3 [color="red"];
+  BB006bcee3 -> BB006bcefc [color="red"];
+  BB006bcefc -> BB006bcf01 [color="blue"];
+  BB006bcf01 -> BB006bce85 [color="blue"];
+}

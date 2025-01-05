@@ -1,0 +1,17 @@
+digraph EVP_PKEY_CTX_set_dh_paramgen_prime_len {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005affa0 -> BB005b0078 [color="green"];
+  BB005affa0 -> BB005affbb [color="red"];
+  BB005affbb -> BB005b0078 [color="green"];
+  BB005affbb -> BB005affc7 [color="red"];
+  BB005affc7 -> BB005b0050 [color="green"];
+  BB005affc7 -> BB005affd2 [color="red"];
+  BB005affd2 -> BB005b003f [color="red"];
+  BB005b0050 -> BB005affd2 [color="green"];
+  BB005b0050 -> BB005b005f [color="red"];
+  BB005b005f -> BB005affd2 [color="green"];
+  BB005b005f -> BB005b006a [color="red"];
+  BB005b006a -> BB005b003f [color="blue"];
+  BB005b0078 -> BB005b003f [color="blue"];
+}

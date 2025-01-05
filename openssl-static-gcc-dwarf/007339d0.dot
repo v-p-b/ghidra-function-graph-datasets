@@ -1,0 +1,10 @@
+digraph ossl_cms_DigestedData_create {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB007339d0 -> BB00733a46 [color="green"];
+  BB007339d0 -> BB007339f0 [color="red"];
+  BB007339f0 -> BB00733a58 [color="green"];
+  BB007339f0 -> BB00733a05 [color="red"];
+  BB00733a05 -> BB00733a46 [color="red"];
+  BB00733a58 -> BB00733a46 [color="blue"];
+}

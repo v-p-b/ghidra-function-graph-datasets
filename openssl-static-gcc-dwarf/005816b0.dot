@@ -1,0 +1,29 @@
+digraph eckey_pub_print {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005816b0 -> BB00581840 [color="green"];
+  BB005816b0 -> BB005816d3 [color="red"];
+  BB005816d3 -> BB00581840 [color="green"];
+  BB005816d3 -> BB005816ed [color="red"];
+  BB005816ed -> BB00581830 [color="green"];
+  BB005816ed -> BB005816fe [color="red"];
+  BB005816fe -> BB005817b8 [color="green"];
+  BB005816fe -> BB00581723 [color="red"];
+  BB00581723 -> BB005817b8 [color="green"];
+  BB00581723 -> BB0058173b [color="red"];
+  BB0058173b -> BB005817b8 [color="green"];
+  BB0058173b -> BB00581761 [color="red"];
+  BB00581761 -> BB0058179d [color="green"];
+  BB00581761 -> BB00581766 [color="red"];
+  BB00581766 -> BB005817b8 [color="green"];
+  BB00581766 -> BB00581785 [color="red"];
+  BB00581785 -> BB005817b8 [color="green"];
+  BB00581785 -> BB0058179d [color="red"];
+  BB0058179d -> BB005817eb [color="green"];
+  BB0058179d -> BB005817b5 [color="red"];
+  BB005817b5 -> BB005817b8 [color="blue"];
+  BB005817b8 -> BB005817eb [color="red"];
+  BB005817eb -> BB00581816 [color="red"];
+  BB00581830 -> BB00581723 [color="blue"];
+  BB00581840 -> BB00581816 [color="blue"];
+}

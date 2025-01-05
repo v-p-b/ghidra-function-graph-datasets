@@ -1,0 +1,16 @@
+digraph BN_GF2m_mod_exp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0085dfe0 -> BB0085e0d2 [color="green"];
+  BB0085dfe0 -> BB0085e02c [color="red"];
+  BB0085e02c -> BB0085e0a0 [color="green"];
+  BB0085e02c -> BB0085e03e [color="red"];
+  BB0085e03e -> BB0085e0a0 [color="green"];
+  BB0085e03e -> BB0085e057 [color="red"];
+  BB0085e057 -> BB0085e0a0 [color="green"];
+  BB0085e057 -> BB0085e05b [color="red"];
+  BB0085e05b -> BB0085e075 [color="red"];
+  BB0085e075 -> BB0085e089 [color="red"];
+  BB0085e0a0 -> BB0085e075 [color="blue"];
+  BB0085e0d2 -> BB0085e089 [color="blue"];
+}

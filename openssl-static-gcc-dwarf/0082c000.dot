@@ -1,0 +1,33 @@
+digraph Poly1305_Update {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0082c000 -> BB0082c074 [color="green"];
+  BB0082c000 -> BB0082c02a [color="red"];
+  BB0082c02a -> BB0082c118 [color="green"];
+  BB0082c02a -> BB0082c04c [color="red"];
+  BB0082c04c -> BB00401070 [color="green"];
+  BB0082c04c -> BB0082c074 [color="red"];
+  BB0082c074 -> BB0082c0a0 [color="green"];
+  BB0082c074 -> BB0082c085 [color="red"];
+  BB0082c085 -> BB0082c0b9 [color="green"];
+  BB0082c085 -> BB0082c08a [color="red"];
+  BB0082c0a0 -> BB0082c08a [color="green"];
+  BB0082c0a0 -> BB0082c0b9 [color="red"];
+  BB0082c0b9 -> BB0082c140 [color="green"];
+  BB0082c0b9 -> BB0082c0c6 [color="red"];
+  BB0082c0c6 -> BB0082c08a [color="green"];
+  BB0082c0c6 -> BB0082c0f7 [color="red"];
+  BB0082c0f7 -> BB0082c0fc [color="blue"];
+  BB0082c0fc -> BB0082c0fc [color="green"];
+  BB0082c0fc -> BB0082c10d [color="red"];
+  BB0082c10d -> BB0082c08a [color="blue"];
+  BB0082c118 -> BB00401070 [color="blue"];
+  BB0082c140 -> BB0082c178 [color="green"];
+  BB0082c140 -> BB0082c146 [color="red"];
+  BB0082c146 -> BB0082c08a [color="green"];
+  BB0082c146 -> BB0082c14f [color="red"];
+  BB0082c14f -> BB0082c08a [color="green"];
+  BB0082c14f -> BB0082c164 [color="red"];
+  BB0082c164 -> BB0082c08a [color="blue"];
+  BB0082c178 -> BB0082c08a [color="blue"];
+}

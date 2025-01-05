@@ -1,0 +1,28 @@
+digraph ctlog_store_load_log {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00575d50 -> BB00575e1c [color="green"];
+  BB00575d50 -> BB00575d6e [color="red"];
+  BB00575d6e -> BB00575f3a [color="green"];
+  BB00575d6e -> BB00575d91 [color="red"];
+  BB00575d91 -> BB00575e88 [color="green"];
+  BB00575d91 -> BB00575db6 [color="red"];
+  BB00575db6 -> BB00575e38 [color="green"];
+  BB00575db6 -> BB00575dd0 [color="red"];
+  BB00575dd0 -> BB00575e22 [color="green"];
+  BB00575dd0 -> BB00575e01 [color="red"];
+  BB00575e01 -> BB00575e7c [color="green"];
+  BB00575e01 -> BB00575e03 [color="red"];
+  BB00575e03 -> BB00575eae [color="green"];
+  BB00575e03 -> BB00575e1c [color="red"];
+  BB00575e1c -> BB00575e22 [color="blue"];
+  BB00575e38 -> BB00575e5c [color="red"];
+  BB00575e5c -> BB00575e7c [color="red"];
+  BB00575e7c -> BB00575e1c [color="blue"];
+  BB00575e88 -> BB00575e5c [color="blue"];
+  BB00575eae -> BB00575eff [color="green"];
+  BB00575eae -> BB00575eb8 [color="red"];
+  BB00575eb8 -> BB00575eff [color="red"];
+  BB00575eff -> BB00575e22 [color="blue"];
+  BB00575f3a -> BB00575e22 [color="blue"];
+}

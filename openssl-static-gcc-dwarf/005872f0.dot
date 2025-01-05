@@ -1,0 +1,13 @@
+digraph EC_KEY_new_by_curve_name_ex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005872f0 -> BB00587344 [color="green"];
+  BB005872f0 -> BB00587313 [color="red"];
+  BB00587313 -> BB00587358 [color="green"];
+  BB00587313 -> BB0058732e [color="red"];
+  BB0058732e -> BB00587344 [color="green"];
+  BB0058732e -> BB0058733b [color="red"];
+  BB0058733b -> BB00587358 [color="green"];
+  BB0058733b -> BB00587344 [color="red"];
+  BB00587358 -> BB00587344 [color="blue"];
+}

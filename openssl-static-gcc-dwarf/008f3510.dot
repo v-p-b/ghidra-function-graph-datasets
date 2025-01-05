@@ -1,0 +1,13 @@
+digraph _dl_addr_inside_object {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008f3510 -> BB008f3588 [color="green"];
+  BB008f3510 -> BB008f351f [color="red"];
+  BB008f351f -> BB008f3569 [color="blue"];
+  BB008f3560 -> BB008f3588 [color="green"];
+  BB008f3560 -> BB008f3569 [color="red"];
+  BB008f3569 -> BB008f3560 [color="green"];
+  BB008f3569 -> BB008f356e [color="red"];
+  BB008f356e -> BB008f3560 [color="green"];
+  BB008f356e -> BB008f357b [color="red"];
+}

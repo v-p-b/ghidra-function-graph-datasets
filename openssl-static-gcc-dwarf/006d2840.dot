@@ -1,0 +1,34 @@
+digraph dsa_export {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006d2840 -> BB006d286a [color="green"];
+  BB006d2840 -> BB006d2861 [color="red"];
+  BB006d2861 -> BB006d286a [color="green"];
+  BB006d2861 -> BB006d2865 [color="red"];
+  BB006d2865 -> BB006d2880 [color="green"];
+  BB006d2865 -> BB006d286a [color="red"];
+  BB006d2880 -> BB006d286a [color="green"];
+  BB006d2880 -> BB006d288d [color="red"];
+  BB006d288d -> BB006d2930 [color="green"];
+  BB006d288d -> BB006d2896 [color="red"];
+  BB006d2896 -> BB006d2900 [color="green"];
+  BB006d2896 -> BB006d289b [color="red"];
+  BB006d289b -> BB006d28e0 [color="green"];
+  BB006d289b -> BB006d28c1 [color="red"];
+  BB006d28c1 -> BB006d28e0 [color="green"];
+  BB006d28c1 -> BB006d28ca [color="red"];
+  BB006d28ca -> BB006d294d [color="green"];
+  BB006d28ca -> BB006d28df [color="red"];
+  BB006d28df -> BB006d28e0 [color="blue"];
+  BB006d28e0 -> BB006d2900 [color="green"];
+  BB006d28e0 -> BB006d28ea [color="red"];
+  BB006d28ea -> BB006d294d [color="green"];
+  BB006d28ea -> BB006d28ff [color="red"];
+  BB006d28ff -> BB006d2900 [color="blue"];
+  BB006d2900 -> BB006d294d [color="green"];
+  BB006d2900 -> BB006d2910 [color="red"];
+  BB006d2910 -> BB006d2950 [color="blue"];
+  BB006d2930 -> BB006d2896 [color="green"];
+  BB006d2930 -> BB006d294d [color="red"];
+  BB006d294d -> BB006d2950 [color="blue"];
+}

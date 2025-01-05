@@ -1,0 +1,14 @@
+digraph dtls_get_message {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004e8250 -> BB004e82b0 [color="blue"];
+  BB004e82a0 -> BB004e837c [color="green"];
+  BB004e82a0 -> BB004e82b0 [color="red"];
+  BB004e82b0 -> BB004e82a0 [color="green"];
+  BB004e82b0 -> BB004e82c2 [color="red"];
+  BB004e82c2 -> BB004e8390 [color="green"];
+  BB004e82c2 -> BB004e82e2 [color="red"];
+  BB004e82e2 -> BB004e837c [color="blue"];
+  BB004e8390 -> BB004e837c [color="green"];
+  BB004e8390 -> BB004e83a1 [color="red"];
+}

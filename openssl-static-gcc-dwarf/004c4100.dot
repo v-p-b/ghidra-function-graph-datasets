@@ -1,0 +1,32 @@
+digraph ossl_quic_hdr_protector_encrypt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c4100 -> BB004c41d0 [color="green"];
+  BB004c4100 -> BB004c4133 [color="red"];
+  BB004c4133 -> BB004c42a0 [color="green"];
+  BB004c4133 -> BB004c413c [color="red"];
+  BB004c413c -> BB004c4340 [color="green"];
+  BB004c413c -> BB004c4146 [color="red"];
+  BB004c4146 -> BB004c418a [color="green"];
+  BB004c4146 -> BB004c4162 [color="red"];
+  BB004c4162 -> BB004c422f [color="green"];
+  BB004c4162 -> BB004c418a [color="red"];
+  BB004c418a -> BB004c419b [color="red"];
+  BB004c41d0 -> BB004c4300 [color="green"];
+  BB004c41d0 -> BB004c41da [color="red"];
+  BB004c41da -> BB004c42e0 [color="green"];
+  BB004c41da -> BB004c41fa [color="red"];
+  BB004c41fa -> BB004c42e0 [color="green"];
+  BB004c41fa -> BB004c421e [color="red"];
+  BB004c421e -> BB004c422f [color="blue"];
+  BB004c422f -> BB004c426e [color="green"];
+  BB004c422f -> BB004c4246 [color="red"];
+  BB004c4246 -> BB004c426e [color="green"];
+  BB004c4246 -> BB004c4255 [color="red"];
+  BB004c4255 -> BB004c426e [color="green"];
+  BB004c4255 -> BB004c4264 [color="red"];
+  BB004c4264 -> BB004c426e [color="blue"];
+  BB004c42e0 -> BB004c419b [color="blue"];
+  BB004c4300 -> BB004c4311 [color="red"];
+  BB004c4340 -> BB004c4311 [color="blue"];
+}

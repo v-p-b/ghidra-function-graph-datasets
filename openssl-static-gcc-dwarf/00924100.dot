@@ -1,0 +1,31 @@
+digraph __wcschr_avx2 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00924100 -> BB00924150 [color="green"];
+  BB00924100 -> BB00924118 [color="red"];
+  BB00924118 -> BB00924290 [color="green"];
+  BB00924118 -> BB00924136 [color="red"];
+  BB00924136 -> BB00924194 [color="blue"];
+  BB00924150 -> BB00924190 [color="green"];
+  BB00924150 -> BB00924173 [color="red"];
+  BB00924190 -> BB00924194 [color="blue"];
+  BB00924194 -> BB00924290 [color="green"];
+  BB00924194 -> BB009241b2 [color="red"];
+  BB009241b2 -> BB009242b0 [color="green"];
+  BB009241b2 -> BB009241d1 [color="red"];
+  BB009241d1 -> BB009242d0 [color="green"];
+  BB009241d1 -> BB009241f0 [color="red"];
+  BB009241f0 -> BB0092430e [color="green"];
+  BB009241f0 -> BB0092420f [color="red"];
+  BB0092420f -> BB00924220 [color="blue"];
+  BB00924220 -> BB009242f0 [color="green"];
+  BB00924220 -> BB00924279 [color="red"];
+  BB00924279 -> BB00924220 [color="blue"];
+  BB009242f0 -> BB00924290 [color="green"];
+  BB009242f0 -> BB009242f8 [color="red"];
+  BB009242f8 -> BB009242b0 [color="green"];
+  BB009242f8 -> BB00924300 [color="red"];
+  BB00924300 -> BB009242d0 [color="green"];
+  BB00924300 -> BB00924308 [color="red"];
+  BB00924308 -> BB0092430e [color="blue"];
+}

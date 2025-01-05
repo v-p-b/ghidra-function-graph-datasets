@@ -1,0 +1,11 @@
+digraph ASN1_INTEGER_to_BN {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00512570 -> BB005125d0 [color="green"];
+  BB00512570 -> BB00512582 [color="red"];
+  BB00512582 -> BB00512610 [color="green"];
+  BB00512582 -> BB0051259b [color="red"];
+  BB0051259b -> BB005125b0 [color="green"];
+  BB0051259b -> BB005125a1 [color="red"];
+  BB00512610 -> BB005125a1 [color="blue"];
+}

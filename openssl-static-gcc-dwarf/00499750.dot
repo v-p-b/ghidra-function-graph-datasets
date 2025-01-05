@@ -1,0 +1,34 @@
+digraph lookup_sess_in_cache {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00499750 -> BB00499830 [color="green"];
+  BB00499750 -> BB0049977b [color="red"];
+  BB0049977b -> BB004998b0 [color="green"];
+  BB0049977b -> BB0049978b [color="red"];
+  BB0049978b -> BB00401070 [color="green"];
+  BB0049978b -> BB004998b0 [color="green"];
+  BB0049978b -> BB004997b8 [color="red"];
+  BB004997b8 -> BB00499800 [color="green"];
+  BB004997b8 -> BB004997d3 [color="red"];
+  BB004997d3 -> BB004997ed [color="red"];
+  BB00499800 -> BB00499830 [color="red"];
+  BB00499830 -> BB004997ed [color="green"];
+  BB00499830 -> BB0049983d [color="red"];
+  BB0049983d -> BB004997ed [color="green"];
+  BB0049983d -> BB00499859 [color="red"];
+  BB00499859 -> BB004998a0 [color="green"];
+  BB00499859 -> BB00499863 [color="red"];
+  BB00499863 -> BB00499882 [color="green"];
+  BB00499863 -> BB00499879 [color="red"];
+  BB00499879 -> BB00499882 [color="blue"];
+  BB00499882 -> BB004997ed [color="green"];
+  BB00499882 -> BB00499893 [color="red"];
+  BB00499893 -> BB004997ed [color="blue"];
+  BB004998a0 -> BB004998c0 [color="green"];
+  BB004998a0 -> BB004998a7 [color="red"];
+  BB004998a7 -> BB004998b0 [color="blue"];
+  BB004998b0 -> BB004997ed [color="blue"];
+  BB004998c0 -> BB004998b0 [color="green"];
+  BB004998c0 -> BB004998d5 [color="red"];
+  BB004998d5 -> BB004998b0 [color="blue"];
+}

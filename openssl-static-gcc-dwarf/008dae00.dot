@@ -1,0 +1,13 @@
+digraph tfind {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008dae00 -> BB008dae58 [color="green"];
+  BB008dae00 -> BB008dae0f [color="red"];
+  BB008dae0f -> BB008dae37 [color="green"];
+  BB008dae0f -> BB008dae1e [color="red"];
+  BB008dae1e -> BB008dae58 [color="blue"];
+  BB008dae20 -> BB008dae58 [color="green"];
+  BB008dae20 -> BB008dae37 [color="red"];
+  BB008dae37 -> BB008dae20 [color="green"];
+  BB008dae37 -> BB008dae47 [color="red"];
+}

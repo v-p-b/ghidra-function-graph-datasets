@@ -1,0 +1,17 @@
+digraph EVP_PKEY_CTX_set_dh_paramgen_gindex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005afd70 -> BB005afe40 [color="green"];
+  BB005afd70 -> BB005afd87 [color="red"];
+  BB005afd87 -> BB005afe40 [color="green"];
+  BB005afd87 -> BB005afd93 [color="red"];
+  BB005afd93 -> BB005afe18 [color="green"];
+  BB005afd93 -> BB005afd9a [color="red"];
+  BB005afd9a -> BB005afe07 [color="red"];
+  BB005afe18 -> BB005afd9a [color="green"];
+  BB005afe18 -> BB005afe27 [color="red"];
+  BB005afe27 -> BB005afd9a [color="green"];
+  BB005afe27 -> BB005afe32 [color="red"];
+  BB005afe32 -> BB005afe07 [color="blue"];
+  BB005afe40 -> BB005afe07 [color="blue"];
+}

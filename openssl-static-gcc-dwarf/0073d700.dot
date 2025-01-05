@@ -1,0 +1,14 @@
+digraph DES_set_key_checked {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0073d700 -> BB0073d8fa [color="green"];
+  BB0073d700 -> BB0073d8a4 [color="red"];
+  BB0073d8a4 -> BB0073d8b8 [color="blue"];
+  BB0073d8b8 -> BB0073d8b8 [color="green"];
+  BB0073d8b8 -> BB0073d8df [color="red"];
+  BB0073d8df -> BB0073d901 [color="green"];
+  BB0073d8df -> BB0073d8e4 [color="red"];
+  BB0073d8e4 -> BB0073d8f1 [color="red"];
+  BB0073d8fa -> BB0073d8f1 [color="blue"];
+  BB0073d901 -> BB0073d8f1 [color="blue"];
+}

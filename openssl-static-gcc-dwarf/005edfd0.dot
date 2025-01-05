@@ -1,0 +1,13 @@
+digraph CRYPTO_get_mem_functions {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005edfd0 -> BB005edfdf [color="green"];
+  BB005edfd0 -> BB005edfd5 [color="red"];
+  BB005edfd5 -> BB005edfdf [color="blue"];
+  BB005edfdf -> BB005edfee [color="green"];
+  BB005edfdf -> BB005edfe4 [color="red"];
+  BB005edfe4 -> BB005edfee [color="blue"];
+  BB005edfee -> BB005edffd [color="green"];
+  BB005edfee -> BB005edff3 [color="red"];
+  BB005edff3 -> BB005edffd [color="blue"];
+}

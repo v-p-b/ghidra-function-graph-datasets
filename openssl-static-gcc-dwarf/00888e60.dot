@@ -1,0 +1,18 @@
+digraph malloc_check {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00888e60 -> BB00888f1a [color="green"];
+  BB00888e60 -> BB00888e74 [color="red"];
+  BB00888e74 -> BB00888ed0 [color="green"];
+  BB00888e74 -> BB00888e83 [color="red"];
+  BB00888e83 -> BB00888e8f [color="blue"];
+  BB00888e8f -> BB00888ef0 [color="green"];
+  BB00888e8f -> BB00888eb2 [color="red"];
+  BB00888eb2 -> BB00888eb9 [color="blue"];
+  BB00888ed0 -> BB00888e8f [color="green"];
+  BB00888ed0 -> BB00888ee1 [color="red"];
+  BB00888ee1 -> BB00888e8f [color="blue"];
+  BB00888ef0 -> BB00888eb9 [color="green"];
+  BB00888ef0 -> BB00888efd [color="red"];
+  BB00888efd -> BB00888eb9 [color="blue"];
+}

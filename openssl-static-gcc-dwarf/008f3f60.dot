@@ -1,0 +1,23 @@
+digraph _dl_tunable_set_hwcaps {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008f3f60 -> BB008f3fd1 [color="green"];
+  BB008f3f60 -> BB008f3f89 [color="red"];
+  BB008f3f89 -> BB008f3f90 [color="blue"];
+  BB008f3f90 -> BB008f3fd1 [color="green"];
+  BB008f3f90 -> BB008f3f96 [color="red"];
+  BB008f3f96 -> BB008f3fa5 [color="blue"];
+  BB008f3fa0 -> BB008f3fb1 [color="green"];
+  BB008f3fa0 -> BB008f3fa5 [color="red"];
+  BB008f3fa5 -> BB008f3fa0 [color="green"];
+  BB008f3fa5 -> BB008f3fb1 [color="red"];
+  BB008f3fb1 -> BB008f4000 [color="green"];
+  BB008f3fb1 -> BB008f3fbe [color="red"];
+  BB008f3fbe -> BB008f3fe0 [color="green"];
+  BB008f3fbe -> BB008f3fc8 [color="red"];
+  BB008f3fd1 -> BB008f3fe0 [color="blue"];
+  BB008f3fe0 -> BB008f3f90 [color="green"];
+  BB008f3fe0 -> BB008f3fed [color="red"];
+  BB008f4000 -> BB008f3fe0 [color="green"];
+  BB008f4000 -> BB008f400f [color="red"];
+}

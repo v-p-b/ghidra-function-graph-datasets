@@ -1,0 +1,12 @@
+digraph PKCS12_SAFEBAG_get1_cert_ex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00621f50 -> BB00621fc0 [color="green"];
+  BB00621f50 -> BB00621f72 [color="red"];
+  BB00621f72 -> BB00621fc0 [color="green"];
+  BB00621f72 -> BB00621f85 [color="red"];
+  BB00621f85 -> BB00621fc3 [color="green"];
+  BB00621f85 -> BB00621fb5 [color="red"];
+  BB00621fb5 -> BB00621fc0 [color="red"];
+  BB00621fc0 -> BB00621fc3 [color="blue"];
+}

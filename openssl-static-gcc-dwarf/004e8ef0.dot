@@ -1,0 +1,25 @@
+digraph get_cert_verify_tbs_data {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004e8ef0 -> BB004e8f24 [color="green"];
+  BB004e8ef0 -> BB004e8f14 [color="red"];
+  BB004e8f14 -> BB004e8f24 [color="green"];
+  BB004e8f14 -> BB004e8f1d [color="red"];
+  BB004e8f1d -> BB004e8f60 [color="green"];
+  BB004e8f1d -> BB004e8f24 [color="red"];
+  BB004e8f24 -> BB004e9010 [color="green"];
+  BB004e8f24 -> BB004e8f43 [color="red"];
+  BB004e8f43 -> BB004e8f4c [color="blue"];
+  BB004e8f60 -> BB004e9070 [color="green"];
+  BB004e8f60 -> BB004e8f8c [color="red"];
+  BB004e8f8c -> BB004e8faf [color="blue"];
+  BB004e8faf -> BB004e9050 [color="green"];
+  BB004e8faf -> BB004e8fc2 [color="red"];
+  BB004e8fc2 -> BB004e9050 [color="green"];
+  BB004e8fc2 -> BB004e8fcb [color="red"];
+  BB004e8fcb -> BB004e8f4c [color="green"];
+  BB004e8fcb -> BB004e8fed [color="red"];
+  BB004e9050 -> BB00401070 [color="blue"];
+  BB004e9050 -> BB004e8fed [color="blue"];
+  BB004e9070 -> BB004e8faf [color="blue"];
+}

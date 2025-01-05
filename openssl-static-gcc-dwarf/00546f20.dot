@@ -1,0 +1,35 @@
+digraph BN_rand {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00546f20 -> BB00546f98 [color="green"];
+  BB00546f20 -> BB00546f43 [color="red"];
+  BB00546f43 -> BB00546f51 [color="green"];
+  BB00546f43 -> BB00546f49 [color="red"];
+  BB00546f49 -> BB00547020 [color="green"];
+  BB00546f49 -> BB00546f51 [color="red"];
+  BB00546f98 -> BB00546f51 [color="green"];
+  BB00546f98 -> BB00546f9a [color="red"];
+  BB00546f9a -> BB00546fa7 [color="green"];
+  BB00546f9a -> BB00546fa2 [color="red"];
+  BB00546fa2 -> BB00546f51 [color="green"];
+  BB00546fa2 -> BB00546fa7 [color="red"];
+  BB00546fa7 -> BB005470c0 [color="green"];
+  BB00546fa7 -> BB00546fdf [color="red"];
+  BB00546fdf -> BB005470c0 [color="green"];
+  BB00546fdf -> BB00546ff7 [color="red"];
+  BB00546ff7 -> BB00547040 [color="green"];
+  BB00546ff7 -> BB00547002 [color="red"];
+  BB00547002 -> BB005470a8 [color="green"];
+  BB00547002 -> BB00547008 [color="red"];
+  BB00547008 -> BB005470c8 [color="green"];
+  BB00547008 -> BB00547010 [color="red"];
+  BB00547010 -> BB00547044 [color="blue"];
+  BB00547040 -> BB00547044 [color="blue"];
+  BB00547044 -> BB0054705f [color="green"];
+  BB00547044 -> BB00547059 [color="red"];
+  BB00547059 -> BB0054705f [color="blue"];
+  BB0054705f -> BB00547077 [color="red"];
+  BB005470a8 -> BB00547044 [color="blue"];
+  BB005470c0 -> BB00547077 [color="blue"];
+  BB005470c8 -> BB00547044 [color="blue"];
+}

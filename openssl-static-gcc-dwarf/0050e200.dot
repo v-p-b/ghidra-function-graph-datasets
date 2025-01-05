@@ -1,0 +1,14 @@
+digraph ossl_quic_cfq_item_get_priority_next {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0050e200 -> BB0050e21f [color="green"];
+  BB0050e200 -> BB0050e205 [color="red"];
+  BB0050e205 -> BB0050e219 [color="green"];
+  BB0050e205 -> BB0050e20e [color="red"];
+  BB0050e20e -> BB0050e222 [color="blue"];
+  BB0050e210 -> BB0050e221 [color="green"];
+  BB0050e210 -> BB0050e219 [color="red"];
+  BB0050e219 -> BB0050e210 [color="green"];
+  BB0050e219 -> BB0050e21e [color="red"];
+  BB0050e21f -> BB0050e221 [color="blue"];
+}

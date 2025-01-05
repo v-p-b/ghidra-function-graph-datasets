@@ -1,0 +1,12 @@
+digraph tls_construct_ctos_sct {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d47d0 -> BB004d4828 [color="green"];
+  BB004d47d0 -> BB004d47da [color="red"];
+  BB004d47da -> BB004d4828 [color="green"];
+  BB004d47da -> BB004d47df [color="red"];
+  BB004d47df -> BB004d4830 [color="green"];
+  BB004d47df -> BB004d4802 [color="red"];
+  BB004d4802 -> BB004d4830 [color="green"];
+  BB004d4802 -> BB004d4815 [color="red"];
+}

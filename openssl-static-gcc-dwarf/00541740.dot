@@ -1,0 +1,19 @@
+digraph BN_mod_add {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00541740 -> BB00541760 [color="green"];
+  BB00541740 -> BB00541756 [color="red"];
+  BB00541756 -> BB00541758 [color="blue"];
+  BB00541760 -> BB005417b0 [color="green"];
+  BB00541760 -> BB00541765 [color="red"];
+  BB00541765 -> BB00541756 [color="green"];
+  BB00541765 -> BB0054177c [color="red"];
+  BB0054177c -> BB005417a8 [color="green"];
+  BB0054177c -> BB00541783 [color="red"];
+  BB00541783 -> BB005417e8 [color="green"];
+  BB00541783 -> BB0054178c [color="red"];
+  BB0054178c -> BB00541793 [color="blue"];
+  BB005417a8 -> BB00541758 [color="blue"];
+  BB005417b0 -> BB00541756 [color="blue"];
+  BB005417e8 -> BB00541793 [color="blue"];
+}

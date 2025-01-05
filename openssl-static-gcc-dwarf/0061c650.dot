@@ -1,0 +1,14 @@
+digraph PKCS12_item_pack_safebag {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0061c650 -> BB0061c6c0 [color="green"];
+  BB0061c650 -> BB0061c66f [color="red"];
+  BB0061c66f -> BB0061c6f8 [color="green"];
+  BB0061c66f -> BB0061c692 [color="red"];
+  BB0061c692 -> BB0061c740 [color="green"];
+  BB0061c692 -> BB0061c6a3 [color="red"];
+  BB0061c6a3 -> BB0061c6b3 [color="red"];
+  BB0061c6c0 -> BB0061c6b3 [color="blue"];
+  BB0061c6f8 -> BB0061c709 [color="red"];
+  BB0061c740 -> BB0061c709 [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph process_responder {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0042bdf0 -> BB0042be98 [color="green"];
+  BB0042bdf0 -> BB0042be1a [color="red"];
+  BB0042be1a -> BB0042bed0 [color="green"];
+  BB0042be1a -> BB0042be78 [color="red"];
+  BB0042be98 -> BB0042be1a [color="green"];
+  BB0042be98 -> BB0042beb1 [color="red"];
+  BB0042beb1 -> BB0042be78 [color="blue"];
+  BB0042bed0 -> BB0042be78 [color="blue"];
+}

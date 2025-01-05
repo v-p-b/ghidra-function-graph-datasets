@@ -1,0 +1,18 @@
+digraph BN_mod_mul_reciprocal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005487d0 -> BB00548870 [color="green"];
+  BB005487d0 -> BB00548802 [color="red"];
+  BB00548802 -> BB00548878 [color="green"];
+  BB00548802 -> BB00548807 [color="red"];
+  BB00548807 -> BB00548858 [color="green"];
+  BB00548807 -> BB0054880f [color="red"];
+  BB0054880f -> BB00548870 [color="green"];
+  BB0054880f -> BB00548824 [color="red"];
+  BB00548824 -> BB0054883a [color="red"];
+  BB00548858 -> BB00548824 [color="green"];
+  BB00548858 -> BB0054886a [color="red"];
+  BB0054886a -> BB00548870 [color="blue"];
+  BB00548870 -> BB0054883a [color="blue"];
+  BB00548878 -> BB00548824 [color="blue"];
+}

@@ -1,0 +1,20 @@
+digraph ASN1_STRING_set_by_NID {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00516680 -> BB005166ef [color="green"];
+  BB00516680 -> BB005166d2 [color="red"];
+  BB005166d2 -> BB00516760 [color="green"];
+  BB005166d2 -> BB005166ef [color="red"];
+  BB005166ef -> BB00516778 [color="green"];
+  BB005166ef -> BB00516714 [color="red"];
+  BB00516714 -> BB00516750 [color="green"];
+  BB00516714 -> BB0051671e [color="red"];
+  BB0051671e -> BB0051679b [color="green"];
+  BB0051671e -> BB00516740 [color="red"];
+  BB00516750 -> BB0051671e [color="blue"];
+  BB00516760 -> BB00516714 [color="green"];
+  BB00516760 -> BB00516773 [color="red"];
+  BB00516773 -> BB00516778 [color="blue"];
+  BB00516778 -> BB00516740 [color="green"];
+  BB00516778 -> BB0051679b [color="red"];
+}

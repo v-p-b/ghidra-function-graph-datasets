@@ -1,0 +1,10 @@
+digraph BIO_socket_wait {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005331d0 -> BB00533280 [color="green"];
+  BB005331d0 -> BB005331dc [color="red"];
+  BB005331dc -> BB00533200 [color="green"];
+  BB005331dc -> BB005331f4 [color="red"];
+  BB00533200 -> BB005331f4 [color="green"];
+  BB00533200 -> BB00533216 [color="red"];
+}

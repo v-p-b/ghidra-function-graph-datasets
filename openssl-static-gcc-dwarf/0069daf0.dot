@@ -1,0 +1,12 @@
+digraph cipher_hw_aesni_xts_initkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0069daf0 -> BB0069db98 [color="green"];
+  BB0069daf0 -> BB0069db28 [color="red"];
+  BB0069db28 -> BB0069db3b [color="red"];
+  BB0069db3b -> BB0069dbb8 [color="green"];
+  BB0069db3b -> BB0069db72 [color="red"];
+  BB0069db72 -> BB0069db79 [color="blue"];
+  BB0069db98 -> BB0069db3b [color="blue"];
+  BB0069dbb8 -> BB0069db79 [color="blue"];
+}

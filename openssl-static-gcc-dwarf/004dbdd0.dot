@@ -1,0 +1,17 @@
+digraph tls_construct_stoc_maxfragmentlen {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004dbdd0 -> BB004dbe90 [color="green"];
+  BB004dbdd0 -> BB004dbdef [color="red"];
+  BB004dbdef -> BB004dbe48 [color="green"];
+  BB004dbdef -> BB004dbe12 [color="red"];
+  BB004dbe12 -> BB004dbe48 [color="green"];
+  BB004dbe12 -> BB004dbe23 [color="red"];
+  BB004dbe23 -> BB004dbe98 [color="green"];
+  BB004dbe23 -> BB004dbe42 [color="red"];
+  BB004dbe42 -> BB004dbe48 [color="blue"];
+  BB004dbe48 -> BB004dbe7e [color="red"];
+  BB004dbe98 -> BB004dbe48 [color="green"];
+  BB004dbe98 -> BB004dbea4 [color="red"];
+  BB004dbea4 -> BB004dbe7e [color="blue"];
+}

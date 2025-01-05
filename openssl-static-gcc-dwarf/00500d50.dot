@@ -1,0 +1,19 @@
+digraph ossl_quic_lcidm_debug_add {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00500d50 -> BB00500e08 [color="green"];
+  BB00500d50 -> BB00500d59 [color="red"];
+  BB00500d59 -> BB00500d80 [color="green"];
+  BB00500d59 -> BB00500d6f [color="red"];
+  BB00500d6f -> BB00500d71 [color="blue"];
+  BB00500d80 -> BB00500e10 [color="green"];
+  BB00500d80 -> BB00500da5 [color="red"];
+  BB00500da5 -> BB00500d6f [color="green"];
+  BB00500da5 -> BB00500dd3 [color="red"];
+  BB00500dd3 -> BB00500d6f [color="green"];
+  BB00500dd3 -> BB00500de6 [color="red"];
+  BB00500de6 -> BB00500d71 [color="blue"];
+  BB00500e10 -> BB00500d6f [color="green"];
+  BB00500e10 -> BB00500e27 [color="red"];
+  BB00500e27 -> BB00500da5 [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph aes_siv_initkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0069c120 -> BB0069c180 [color="green"];
+  BB0069c120 -> BB0069c15a [color="red"];
+  BB0069c15a -> BB0069c210 [color="green"];
+  BB0069c15a -> BB0069c164 [color="red"];
+  BB0069c164 -> BB0069c1e8 [color="green"];
+  BB0069c164 -> BB0069c16c [color="red"];
+  BB0069c180 -> BB0069c19e [color="red"];
+  BB0069c19e -> BB0069c16c [color="green"];
+  BB0069c19e -> BB0069c1b8 [color="red"];
+  BB0069c1b8 -> BB0069c16c [color="green"];
+  BB0069c1b8 -> BB0069c1bd [color="red"];
+  BB0069c1e8 -> BB0069c19e [color="blue"];
+  BB0069c210 -> BB0069c19e [color="blue"];
+}

@@ -1,0 +1,7 @@
+digraph X509_ACERT_verify {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006830b0 -> BB00683103 [color="green"];
+  BB006830b0 -> BB006830dd [color="red"];
+  BB006830dd -> BB00683103 [color="red"];
+}

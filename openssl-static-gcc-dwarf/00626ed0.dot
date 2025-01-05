@@ -1,0 +1,12 @@
+digraph ossl_pkcs7_ctx_propagate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00626ed0 -> BB00626f08 [color="green"];
+  BB00626ed0 -> BB00626eef [color="red"];
+  BB00626eef -> BB00626f08 [color="red"];
+  BB00626f08 -> BB00626f2a [color="green"];
+  BB00626f08 -> BB00626f0d [color="red"];
+  BB00626f0d -> BB00626f37 [color="green"];
+  BB00626f0d -> BB00626f2a [color="red"];
+  BB00626f2a -> BB00626f37 [color="red"];
+}

@@ -1,0 +1,17 @@
+digraph SRP_check_known_gN_param {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00647150 -> BB006471d0 [color="green"];
+  BB00647150 -> BB00647155 [color="red"];
+  BB00647155 -> BB006471c0 [color="green"];
+  BB00647155 -> BB00647167 [color="red"];
+  BB00647167 -> BB00647186 [color="blue"];
+  BB00647178 -> BB006471c0 [color="green"];
+  BB00647178 -> BB00647186 [color="red"];
+  BB00647186 -> BB00647178 [color="green"];
+  BB00647186 -> BB00647195 [color="red"];
+  BB00647195 -> BB00647178 [color="green"];
+  BB00647195 -> BB006471a5 [color="red"];
+  BB006471a5 -> BB006471c2 [color="blue"];
+  BB006471c0 -> BB006471c2 [color="blue"];
+}

@@ -1,0 +1,22 @@
+digraph ChaCha20_ctr32 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0072eb40 -> BB0072eefa [color="green"];
+  BB0072eb40 -> BB0072eb4a [color="red"];
+  BB0072eb4a -> BB0072eb5c [color="red"];
+  BB0072eb5c -> BB0072eb65 [color="red"];
+  BB0072eb65 -> BB0072eb72 [color="red"];
+  BB0072eb72 -> BB0072ebc0 [color="blue"];
+  BB0072ebc0 -> BB0072ec20 [color="blue"];
+  BB0072ec20 -> BB0072ec20 [color="green"];
+  BB0072ec20 -> BB0072ed88 [color="red"];
+  BB0072ed88 -> BB0072ee80 [color="green"];
+  BB0072ed88 -> BB0072edf6 [color="red"];
+  BB0072edf6 -> BB0072ebc0 [color="green"];
+  BB0072edf6 -> BB0072ee78 [color="red"];
+  BB0072ee78 -> BB0072eed7 [color="blue"];
+  BB0072ee80 -> BB0072eec0 [color="blue"];
+  BB0072eec0 -> BB0072eec0 [color="green"];
+  BB0072eec0 -> BB0072eed7 [color="red"];
+  BB0072eed7 -> BB0072eefa [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph OSSL_CMP_CTX_set1_pkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005589f0 -> BB00558a38 [color="green"];
+  BB005589f0 -> BB005589fb [color="red"];
+  BB005589fb -> BB00558a12 [color="green"];
+  BB005589fb -> BB00558a06 [color="red"];
+  BB00558a06 -> BB00558a2a [color="green"];
+  BB00558a06 -> BB00558a12 [color="red"];
+  BB00558a12 -> BB00558a2a [color="red"];
+  BB00558a38 -> BB00558a2a [color="blue"];
+}

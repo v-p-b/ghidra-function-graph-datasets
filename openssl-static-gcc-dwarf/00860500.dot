@@ -1,0 +1,11 @@
+digraph __libc_recvfrom {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00860500 -> BB00860520 [color="green"];
+  BB00860500 -> BB0086050f [color="red"];
+  BB0086050f -> BB00860590 [color="green"];
+  BB0086050f -> BB0086051e [color="red"];
+  BB00860520 -> BB008605a8 [color="green"];
+  BB00860520 -> BB00860572 [color="red"];
+  BB008605a8 -> BB00860572 [color="blue"];
+}

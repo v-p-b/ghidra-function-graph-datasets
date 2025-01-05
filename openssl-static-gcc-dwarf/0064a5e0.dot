@@ -1,0 +1,19 @@
+digraph OSSL_STORE_expect {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0064a5e0 -> BB0064a6a8 [color="green"];
+  BB0064a5e0 -> BB0064a5f5 [color="red"];
+  BB0064a5f5 -> BB0064a6a8 [color="green"];
+  BB0064a5f5 -> BB0064a5fe [color="red"];
+  BB0064a5fe -> BB0064a6e8 [color="green"];
+  BB0064a5fe -> BB0064a60c [color="red"];
+  BB0064a60c -> BB0064a728 [color="green"];
+  BB0064a60c -> BB0064a621 [color="red"];
+  BB0064a621 -> BB0064a69c [color="green"];
+  BB0064a621 -> BB0064a62b [color="red"];
+  BB0064a62b -> BB0064a728 [color="green"];
+  BB0064a62b -> BB0064a69c [color="red"];
+  BB0064a728 -> BB0064a69c [color="green"];
+  BB0064a728 -> BB0064a738 [color="red"];
+  BB0064a738 -> BB0064a69c [color="blue"];
+}

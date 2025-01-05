@@ -1,0 +1,11 @@
+digraph OSSL_trace_get_category_num {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00600c90 -> BB00600cf8 [color="green"];
+  BB00600c90 -> BB00600c95 [color="red"];
+  BB00600c95 -> BB00600cbe [color="blue"];
+  BB00600cb0 -> BB00600ce8 [color="green"];
+  BB00600cb0 -> BB00600cbe [color="red"];
+  BB00600cbe -> BB00600cb0 [color="green"];
+  BB00600cbe -> BB00600cce [color="red"];
+}

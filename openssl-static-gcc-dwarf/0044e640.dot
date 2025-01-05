@@ -1,0 +1,9 @@
+digraph mac_teardown {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0044e640 -> BB0044e67c [color="green"];
+  BB0044e640 -> BB0044e64b [color="red"];
+  BB0044e64b -> BB0044e668 [color="blue"];
+  BB0044e668 -> BB0044e668 [color="green"];
+  BB0044e668 -> BB0044e67c [color="red"];
+}

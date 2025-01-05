@@ -1,0 +1,12 @@
+digraph ASN1_GENERALIZEDTIME_adj {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005110f0 -> BB00511162 [color="green"];
+  BB005110f0 -> BB0051111d [color="red"];
+  BB0051111d -> BB00511150 [color="green"];
+  BB0051111d -> BB00511125 [color="red"];
+  BB00511125 -> BB00511150 [color="green"];
+  BB00511125 -> BB0051112a [color="red"];
+  BB00511150 -> BB0051112a [color="green"];
+  BB00511150 -> BB00511162 [color="red"];
+}

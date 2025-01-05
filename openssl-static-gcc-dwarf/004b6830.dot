@@ -1,0 +1,28 @@
+digraph ossl_quic_port_subtick {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b6830 -> BB004b68c8 [color="green"];
+  BB004b6830 -> BB004b6849 [color="red"];
+  BB004b6849 -> BB004b68d0 [color="green"];
+  BB004b6849 -> BB004b6864 [color="red"];
+  BB004b6864 -> BB004b68b6 [color="green"];
+  BB004b6864 -> BB004b686d [color="red"];
+  BB004b686d -> BB004b6870 [color="blue"];
+  BB004b6870 -> BB004b6870 [color="green"];
+  BB004b6870 -> BB004b68b6 [color="red"];
+  BB004b68d0 -> BB004b6864 [color="green"];
+  BB004b68d0 -> BB004b68d4 [color="red"];
+  BB004b68d4 -> BB004b6864 [color="green"];
+  BB004b68d4 -> BB004b68e2 [color="red"];
+  BB004b68e2 -> BB004b6864 [color="green"];
+  BB004b68e2 -> BB004b68ec [color="red"];
+  BB004b68ec -> BB004b6938 [color="green"];
+  BB004b68ec -> BB004b6932 [color="red"];
+  BB004b6932 -> BB004b6938 [color="blue"];
+  BB004b6938 -> BB004b68b6 [color="green"];
+  BB004b6938 -> BB004b6945 [color="red"];
+  BB004b6945 -> BB004b6948 [color="blue"];
+  BB004b6948 -> BB004b6948 [color="green"];
+  BB004b6948 -> BB004b6959 [color="red"];
+  BB004b6959 -> BB004b6864 [color="blue"];
+}

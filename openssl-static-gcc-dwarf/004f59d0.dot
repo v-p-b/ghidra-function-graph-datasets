@@ -1,0 +1,21 @@
+digraph tls_process_next_proto {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004f59d0 -> BB004f5a60 [color="green"];
+  BB004f59d0 -> BB004f59e4 [color="red"];
+  BB004f59e4 -> BB004f5a60 [color="green"];
+  BB004f59e4 -> BB004f59f3 [color="red"];
+  BB004f59f3 -> BB004f5a60 [color="green"];
+  BB004f59f3 -> BB004f5a07 [color="red"];
+  BB004f5a07 -> BB004f5a60 [color="green"];
+  BB004f5a07 -> BB004f5a13 [color="red"];
+  BB004f5a13 -> BB004f5a60 [color="green"];
+  BB004f5a13 -> BB004f5a24 [color="red"];
+  BB004f5a24 -> BB004f5aa0 [color="green"];
+  BB004f5a24 -> BB004f5a4c [color="red"];
+  BB004f5a4c -> BB004f5a95 [color="blue"];
+  BB004f5a60 -> BB004f5a95 [color="red"];
+  BB004f5aa0 -> BB004f5a4c [color="green"];
+  BB004f5aa0 -> BB004f5ac3 [color="red"];
+  BB004f5ac3 -> BB004f5a95 [color="blue"];
+}

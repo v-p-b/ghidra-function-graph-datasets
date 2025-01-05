@@ -1,0 +1,20 @@
+digraph pkey_ec_copy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00754040 -> BB00754120 [color="green"];
+  BB00754040 -> BB00754069 [color="red"];
+  BB00754069 -> BB0075409e [color="green"];
+  BB00754069 -> BB0075408d [color="red"];
+  BB0075408d -> BB00754120 [color="green"];
+  BB0075408d -> BB0075409e [color="red"];
+  BB0075409e -> BB007540bd [color="green"];
+  BB0075409e -> BB007540af [color="red"];
+  BB007540af -> BB00754120 [color="green"];
+  BB007540af -> BB007540bd [color="red"];
+  BB007540bd -> BB00754110 [color="green"];
+  BB007540bd -> BB007540e1 [color="red"];
+  BB007540e1 -> BB00754120 [color="green"];
+  BB007540e1 -> BB007540fb [color="red"];
+  BB007540fb -> BB007540ff [color="blue"];
+  BB00754110 -> BB007540ff [color="blue"];
+}

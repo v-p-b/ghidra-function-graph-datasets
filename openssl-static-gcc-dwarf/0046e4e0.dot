@@ -1,0 +1,15 @@
+digraph trace_log_message {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0046e4e0 -> BB0046e54f [color="green"];
+  BB0046e4e0 -> BB0046e50f [color="red"];
+  BB0046e50f -> BB0046e54f [color="blue"];
+  BB0046e54f -> BB0046e630 [color="green"];
+  BB0046e54f -> BB0046e57e [color="red"];
+  BB0046e57e -> BB0046e61e [color="green"];
+  BB0046e57e -> BB0046e58a [color="red"];
+  BB0046e58a -> BB0046e61e [color="red"];
+  BB0046e630 -> BB0046e57e [color="green"];
+  BB0046e630 -> BB0046e63f [color="red"];
+  BB0046e63f -> BB0046e57e [color="blue"];
+}

@@ -1,0 +1,25 @@
+digraph long_i2c {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00527e10 -> BB00527eb3 [color="green"];
+  BB00527e10 -> BB00527e23 [color="red"];
+  BB00527e23 -> BB00527e34 [color="green"];
+  BB00527e23 -> BB00527e2b [color="red"];
+  BB00527e2b -> BB00527e34 [color="blue"];
+  BB00527e34 -> BB00527e40 [color="blue"];
+  BB00527e40 -> BB00527e40 [color="green"];
+  BB00527e40 -> BB00527e51 [color="red"];
+  BB00527e51 -> BB00527ea1 [color="green"];
+  BB00527e51 -> BB00527e5c [color="red"];
+  BB00527e5c -> BB00527e9d [color="green"];
+  BB00527e5c -> BB00527e64 [color="red"];
+  BB00527e64 -> BB00527e9d [color="green"];
+  BB00527e64 -> BB00527e6d [color="red"];
+  BB00527e6d -> BB00527e88 [color="blue"];
+  BB00527e88 -> BB00527e88 [color="green"];
+  BB00527e88 -> BB00527e9d [color="red"];
+  BB00527ea1 -> BB00527e9d [color="green"];
+  BB00527ea1 -> BB00527eaa [color="red"];
+  BB00527eaa -> BB00527e64 [color="blue"];
+  BB00527eb3 -> BB00527e9d [color="blue"];
+}

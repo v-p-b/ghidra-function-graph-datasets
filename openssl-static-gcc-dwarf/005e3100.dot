@@ -1,0 +1,28 @@
+digraph HMAC_CTX_copy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e3100 -> BB005e31a0 [color="green"];
+  BB005e3100 -> BB005e3117 [color="red"];
+  BB005e3117 -> BB005e31c0 [color="green"];
+  BB005e3117 -> BB005e3122 [color="red"];
+  BB005e3122 -> BB005e31e0 [color="green"];
+  BB005e3122 -> BB005e312d [color="red"];
+  BB005e312d -> BB005e3170 [color="green"];
+  BB005e312d -> BB005e313e [color="red"];
+  BB005e313e -> BB005e3142 [color="blue"];
+  BB005e3142 -> BB005e3162 [color="red"];
+  BB005e3170 -> BB005e313e [color="green"];
+  BB005e3170 -> BB005e3181 [color="red"];
+  BB005e3181 -> BB005e313e [color="green"];
+  BB005e3181 -> BB005e3192 [color="red"];
+  BB005e3192 -> BB005e3162 [color="blue"];
+  BB005e31a0 -> BB005e3142 [color="green"];
+  BB005e31a0 -> BB005e31b1 [color="red"];
+  BB005e31b1 -> BB005e3117 [color="blue"];
+  BB005e31c0 -> BB005e313e [color="green"];
+  BB005e31c0 -> BB005e31d2 [color="red"];
+  BB005e31d2 -> BB005e3122 [color="blue"];
+  BB005e31e0 -> BB005e313e [color="green"];
+  BB005e31e0 -> BB005e31f2 [color="red"];
+  BB005e31f2 -> BB005e312d [color="blue"];
+}

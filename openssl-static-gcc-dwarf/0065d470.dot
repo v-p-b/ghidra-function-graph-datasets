@@ -1,0 +1,21 @@
+digraph X509v3_addr_add_inherit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0065d470 -> BB0065d4b5 [color="green"];
+  BB0065d470 -> BB0065d480 [color="red"];
+  BB0065d480 -> BB0065d4b5 [color="green"];
+  BB0065d480 -> BB0065d48c [color="red"];
+  BB0065d48c -> BB0065d4b0 [color="green"];
+  BB0065d48c -> BB0065d498 [color="red"];
+  BB0065d498 -> BB0065d4c0 [color="green"];
+  BB0065d498 -> BB0065d49c [color="red"];
+  BB0065d49c -> BB0065d4e0 [color="green"];
+  BB0065d49c -> BB0065d4a6 [color="red"];
+  BB0065d4b0 -> BB0065d4e0 [color="green"];
+  BB0065d4b0 -> BB0065d4b5 [color="red"];
+  BB0065d4c0 -> BB0065d4e0 [color="green"];
+  BB0065d4c0 -> BB0065d4c5 [color="red"];
+  BB0065d4e0 -> BB0065d4b5 [color="green"];
+  BB0065d4e0 -> BB0065d4ee [color="red"];
+  BB0065d4ee -> BB0065d4c5 [color="blue"];
+}

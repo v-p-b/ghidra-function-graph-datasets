@@ -1,0 +1,18 @@
+digraph ossl_quic_wire_encode_frame_new_conn_id {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c14c0 -> BB004c14d0 [color="green"];
+  BB004c14c0 -> BB004c14cb [color="red"];
+  BB004c14d0 -> BB004c14f9 [color="green"];
+  BB004c14d0 -> BB004c14ea [color="red"];
+  BB004c14ea -> BB004c1508 [color="green"];
+  BB004c14ea -> BB004c14f9 [color="red"];
+  BB004c14f9 -> BB004c14fb [color="blue"];
+  BB004c1508 -> BB004c14f9 [color="green"];
+  BB004c1508 -> BB004c1518 [color="red"];
+  BB004c1518 -> BB004c14f9 [color="green"];
+  BB004c1518 -> BB004c152d [color="red"];
+  BB004c152d -> BB004c14f9 [color="green"];
+  BB004c152d -> BB004c1541 [color="red"];
+  BB004c1541 -> BB004c14fb [color="blue"];
+}

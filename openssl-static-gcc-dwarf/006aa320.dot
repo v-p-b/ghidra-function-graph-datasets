@@ -1,0 +1,18 @@
+digraph sha1_internal_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006aa320 -> BB006aa340 [color="green"];
+  BB006aa320 -> BB006aa336 [color="red"];
+  BB006aa336 -> BB006aa338 [color="blue"];
+  BB006aa340 -> BB006aa336 [color="green"];
+  BB006aa340 -> BB006aa34c [color="red"];
+  BB006aa34c -> BB006aa336 [color="green"];
+  BB006aa34c -> BB006aa351 [color="red"];
+  BB006aa351 -> BB006aa370 [color="green"];
+  BB006aa351 -> BB006aa356 [color="red"];
+  BB006aa356 -> BB006aa370 [color="green"];
+  BB006aa356 -> BB006aa36a [color="red"];
+  BB006aa36a -> BB006aa37d [color="green"];
+  BB006aa36a -> BB006aa370 [color="red"];
+  BB006aa37d -> BB006aa338 [color="blue"];
+}

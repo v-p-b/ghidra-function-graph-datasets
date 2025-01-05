@@ -1,0 +1,22 @@
+digraph BN_mask_bits {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00540de0 -> BB00540e0a [color="green"];
+  BB00540de0 -> BB00540de7 [color="red"];
+  BB00540de7 -> BB00540e0a [color="green"];
+  BB00540de7 -> BB00540df1 [color="red"];
+  BB00540df1 -> BB00540e10 [color="green"];
+  BB00540df1 -> BB00540df6 [color="red"];
+  BB00540df6 -> BB00540e60 [color="green"];
+  BB00540df6 -> BB00540dfd [color="red"];
+  BB00540dfd -> BB00540e0a [color="blue"];
+  BB00540e10 -> BB00540e2c [color="blue"];
+  BB00540e2c -> BB00540e38 [color="blue"];
+  BB00540e38 -> BB00540e47 [color="green"];
+  BB00540e38 -> BB00540e42 [color="red"];
+  BB00540e42 -> BB00540e38 [color="green"];
+  BB00540e42 -> BB00540e47 [color="red"];
+  BB00540e47 -> BB00540dfd [color="green"];
+  BB00540e47 -> BB00540e54 [color="red"];
+  BB00540e60 -> BB00540e2c [color="blue"];
+}

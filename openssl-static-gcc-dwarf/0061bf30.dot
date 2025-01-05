@@ -1,0 +1,17 @@
+digraph b2i_RSA_PVK_bio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0061bf30 -> BB0061c048 [color="green"];
+  BB0061bf30 -> BB0061bf72 [color="red"];
+  BB0061bf72 -> BB0061c040 [color="green"];
+  BB0061bf72 -> BB0061bf9a [color="red"];
+  BB0061bf9a -> BB0061c040 [color="green"];
+  BB0061bf9a -> BB0061bfc3 [color="red"];
+  BB0061bfc3 -> BB0061c080 [color="green"];
+  BB0061bfc3 -> BB0061bfdf [color="red"];
+  BB0061bfdf -> BB0061c012 [color="red"];
+  BB0061c012 -> BB0061c029 [color="red"];
+  BB0061c040 -> BB0061c029 [color="blue"];
+  BB0061c048 -> BB0061c029 [color="blue"];
+  BB0061c080 -> BB0061c012 [color="blue"];
+}

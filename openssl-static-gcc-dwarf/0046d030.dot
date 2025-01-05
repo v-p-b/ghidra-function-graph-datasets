@@ -1,0 +1,22 @@
+digraph setup_engine_loader {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0046d030 -> BB0046d05a [color="green"];
+  BB0046d030 -> BB0046d047 [color="red"];
+  BB0046d047 -> BB0046d070 [color="green"];
+  BB0046d047 -> BB0046d05a [color="red"];
+  BB0046d05a -> BB0046d064 [color="red"];
+  BB0046d070 -> BB0046d05a [color="green"];
+  BB0046d070 -> BB0046d083 [color="red"];
+  BB0046d083 -> BB0046d05a [color="green"];
+  BB0046d083 -> BB0046d096 [color="red"];
+  BB0046d096 -> BB0046d05a [color="green"];
+  BB0046d096 -> BB0046d0a9 [color="red"];
+  BB0046d0a9 -> BB0046d05a [color="green"];
+  BB0046d0a9 -> BB0046d0bc [color="red"];
+  BB0046d0bc -> BB0046d05a [color="green"];
+  BB0046d0bc -> BB0046d0cf [color="red"];
+  BB0046d0cf -> BB0046d064 [color="green"];
+  BB0046d0cf -> BB0046d0e4 [color="red"];
+  BB0046d0e4 -> BB0046d05a [color="blue"];
+}

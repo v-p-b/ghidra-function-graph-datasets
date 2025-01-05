@@ -1,0 +1,9 @@
+digraph malloc_info {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0088b540 -> BB0088b56a [color="green"];
+  BB0088b540 -> BB0088b544 [color="red"];
+  BB0088b544 -> BB0088b570 [color="green"];
+  BB0088b544 -> BB0088b552 [color="red"];
+  BB0088b570 -> BB0088b552 [color="blue"];
+}

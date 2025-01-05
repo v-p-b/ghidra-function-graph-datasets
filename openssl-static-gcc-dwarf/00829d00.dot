@@ -1,0 +1,23 @@
+digraph poly1305_blocks_avx2 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00829d00 -> BB00829d1a [color="green"];
+  BB00829d00 -> BB00829d11 [color="red"];
+  BB00829d11 -> BB00828d84 [color="green"];
+  BB00829d11 -> BB00829d1a [color="red"];
+  BB00829d1a -> BB00829ea2 [color="green"];
+  BB00829d1a -> BB00829d24 [color="red"];
+  BB00829d24 -> BB00829d30 [color="red"];
+  BB00829d30 -> BB00829d3d [color="red"];
+  BB00829d3d -> BB00829dce [color="blue"];
+  BB00829dce -> BB00829dce [color="green"];
+  BB00829dce -> BB00829df1 [color="red"];
+  BB00829df1 -> BB00829e60 [color="green"];
+  BB00829df1 -> BB00829df6 [color="red"];
+  BB00829df6 -> BB00829e70 [color="green"];
+  BB00829df6 -> BB00829e40 [color="red"];
+  BB00829e40 -> BB00829f7e [color="blue"];
+  BB00829e60 -> BB00829e80 [color="blue"];
+  BB00829e70 -> BB00829e80 [color="blue"];
+  BB00829e80 -> BB00829ea2 [color="blue"];
+}

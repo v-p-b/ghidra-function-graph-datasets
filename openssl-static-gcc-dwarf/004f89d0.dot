@@ -1,0 +1,10 @@
+digraph ch_on_txp_ack_tx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004f89d0 -> BB004f89e8 [color="green"];
+  BB004f89d0 -> BB004f89d5 [color="red"];
+  BB004f89d5 -> BB004f89f0 [color="green"];
+  BB004f89d5 -> BB004f89e2 [color="red"];
+  BB004f89f0 -> BB004f89e2 [color="green"];
+  BB004f89f0 -> BB004f8a00 [color="red"];
+}

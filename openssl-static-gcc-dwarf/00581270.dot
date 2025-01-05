@@ -1,0 +1,13 @@
+digraph eckey_pub_decode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00581270 -> BB005812c8 [color="green"];
+  BB00581270 -> BB005812b8 [color="red"];
+  BB005812c8 -> BB005812b8 [color="green"];
+  BB005812c8 -> BB005812e8 [color="red"];
+  BB005812e8 -> BB005812b8 [color="green"];
+  BB005812e8 -> BB00581306 [color="red"];
+  BB00581306 -> BB00581340 [color="green"];
+  BB00581306 -> BB0058131d [color="red"];
+  BB00581340 -> BB005812b8 [color="blue"];
+}

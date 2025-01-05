@@ -1,0 +1,19 @@
+digraph spki2typespki_decode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006aece0 -> BB006aed48 [color="green"];
+  BB006aece0 -> BB006aed30 [color="red"];
+  BB006aed48 -> BB006aed92 [color="green"];
+  BB006aed48 -> BB006aed78 [color="red"];
+  BB006aed78 -> BB006aedb8 [color="green"];
+  BB006aed78 -> BB006aed92 [color="red"];
+  BB006aed92 -> BB006aed30 [color="blue"];
+  BB006aedb8 -> BB006aef50 [color="green"];
+  BB006aedb8 -> BB006aede0 [color="red"];
+  BB006aede0 -> BB006aed92 [color="green"];
+  BB006aede0 -> BB006aee00 [color="red"];
+  BB006aee00 -> BB006aed92 [color="blue"];
+  BB006aef50 -> BB006aede0 [color="green"];
+  BB006aef50 -> BB006aef62 [color="red"];
+  BB006aef62 -> BB006aee00 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph clock_gettime {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008d3ef0 -> BB008d3f38 [color="green"];
+  BB008d3ef0 -> BB008d3f08 [color="red"];
+  BB008d3f08 -> BB008d3f2d [color="green"];
+  BB008d3f08 -> BB008d3f16 [color="red"];
+  BB008d3f16 -> BB008d3f38 [color="green"];
+  BB008d3f16 -> BB008d3f1c [color="red"];
+  BB008d3f1c -> BB008d3f2d [color="blue"];
+  BB008d3f38 -> BB008d3f1c [color="green"];
+  BB008d3f38 -> BB008d3f4f [color="red"];
+}

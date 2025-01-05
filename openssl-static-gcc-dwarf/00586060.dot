@@ -1,0 +1,11 @@
+digraph ossl_ec_key_from_pkcs8 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00586060 -> BB005860e0 [color="green"];
+  BB00586060 -> BB005860a7 [color="red"];
+  BB005860a7 -> BB00586125 [color="green"];
+  BB005860a7 -> BB005860c1 [color="red"];
+  BB005860c1 -> BB005860f0 [color="green"];
+  BB005860c1 -> BB005860e0 [color="red"];
+  BB005860f0 -> BB00586125 [color="red"];
+}

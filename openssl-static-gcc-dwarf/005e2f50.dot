@@ -1,0 +1,18 @@
+digraph HMAC_CTX_reset {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e2f50 -> BB005e2f98 [color="green"];
+  BB005e2f50 -> BB005e2f7d [color="red"];
+  BB005e2f7d -> BB005e2fd0 [color="green"];
+  BB005e2f7d -> BB005e2f84 [color="red"];
+  BB005e2f84 -> BB005e2fe8 [color="green"];
+  BB005e2f84 -> BB005e2f8b [color="red"];
+  BB005e2f98 -> BB005e2f7d [color="green"];
+  BB005e2f98 -> BB005e2fa9 [color="red"];
+  BB005e2fd0 -> BB005e2f84 [color="green"];
+  BB005e2fd0 -> BB005e2fde [color="red"];
+  BB005e2fde -> BB005e2fa9 [color="blue"];
+  BB005e2fe8 -> BB005e2fde [color="green"];
+  BB005e2fe8 -> BB005e2ff6 [color="red"];
+  BB005e2ff6 -> BB005e2f8b [color="blue"];
+}

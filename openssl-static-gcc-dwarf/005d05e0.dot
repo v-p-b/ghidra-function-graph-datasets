@@ -1,0 +1,25 @@
+digraph EVP_PKEY_new_CMAC_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005d05e0 -> BB005d060a [color="green"];
+  BB005d05e0 -> BB005d0602 [color="red"];
+  BB005d0602 -> BB005d060a [color="red"];
+  BB005d060a -> BB005d0780 [color="green"];
+  BB005d060a -> BB005d061c [color="red"];
+  BB005d061c -> BB005d0780 [color="green"];
+  BB005d061c -> BB005d0630 [color="red"];
+  BB005d0630 -> BB005d075f [color="green"];
+  BB005d0630 -> BB005d064c [color="red"];
+  BB005d064c -> BB005d07b8 [color="green"];
+  BB005d064c -> BB005d065c [color="red"];
+  BB005d065c -> BB005d071a [color="green"];
+  BB005d065c -> BB005d06d6 [color="red"];
+  BB005d06d6 -> BB005d071a [color="red"];
+  BB005d071a -> BB005d07f0 [color="green"];
+  BB005d071a -> BB005d075f [color="red"];
+  BB005d075f -> BB005d076c [color="red"];
+  BB005d0780 -> BB005d076c [color="blue"];
+  BB005d07b8 -> BB005d07c9 [color="red"];
+  BB005d07c9 -> BB005d075f [color="blue"];
+  BB005d07f0 -> BB005d07c9 [color="blue"];
+}

@@ -1,0 +1,9 @@
+digraph alg_cleanup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00629310 -> BB0062935f [color="green"];
+  BB00629310 -> BB0062931f [color="red"];
+  BB0062931f -> BB0062935f [color="red"];
+  BB0062935f -> BB00629380 [color="green"];
+  BB0062935f -> BB00629364 [color="red"];
+}

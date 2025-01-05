@@ -1,0 +1,20 @@
+digraph rand_serial {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00468c30 -> BB00468c78 [color="green"];
+  BB00468c30 -> BB00468c41 [color="red"];
+  BB00468c41 -> BB00468c85 [color="green"];
+  BB00468c41 -> BB00468c59 [color="red"];
+  BB00468c59 -> BB00468c98 [color="green"];
+  BB00468c59 -> BB00468c5e [color="red"];
+  BB00468c5e -> BB00468c88 [color="blue"];
+  BB00468c78 -> BB00468ca0 [color="green"];
+  BB00468c78 -> BB00468c85 [color="red"];
+  BB00468c85 -> BB00468c88 [color="blue"];
+  BB00468c98 -> BB00468c88 [color="blue"];
+  BB00468ca0 -> BB00468ce7 [color="green"];
+  BB00468ca0 -> BB00468cc0 [color="red"];
+  BB00468cc0 -> BB00468ce7 [color="green"];
+  BB00468cc0 -> BB00468ccb [color="red"];
+  BB00468ccb -> BB00468ce7 [color="red"];
+}

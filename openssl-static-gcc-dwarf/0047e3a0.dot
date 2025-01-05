@@ -1,0 +1,16 @@
+digraph ssl_cert_set0_chain {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0047e3a0 -> BB0047e480 [color="green"];
+  BB0047e3a0 -> BB0047e3bf [color="red"];
+  BB0047e3bf -> BB0047e493 [color="green"];
+  BB0047e3bf -> BB0047e3d2 [color="red"];
+  BB0047e3d2 -> BB0047e405 [color="blue"];
+  BB0047e3e0 -> BB0047e438 [color="green"];
+  BB0047e3e0 -> BB0047e402 [color="red"];
+  BB0047e402 -> BB0047e405 [color="blue"];
+  BB0047e405 -> BB0047e3e0 [color="green"];
+  BB0047e405 -> BB0047e411 [color="red"];
+  BB0047e480 -> BB0047e3d2 [color="green"];
+  BB0047e480 -> BB0047e493 [color="red"];
+}

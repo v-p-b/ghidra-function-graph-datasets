@@ -1,0 +1,13 @@
+digraph ct_strict {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00486b50 -> BB00486ba0 [color="green"];
+  BB00486b50 -> BB00486b59 [color="red"];
+  BB00486b59 -> BB00486ba0 [color="green"];
+  BB00486b59 -> BB00486b6b [color="red"];
+  BB00486b6b -> BB00486b78 [color="blue"];
+  BB00486b70 -> BB00486ba0 [color="green"];
+  BB00486b70 -> BB00486b78 [color="red"];
+  BB00486b78 -> BB00486b70 [color="green"];
+  BB00486b78 -> BB00486b8f [color="red"];
+}

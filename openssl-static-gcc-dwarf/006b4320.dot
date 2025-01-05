@@ -1,0 +1,14 @@
+digraph rsapss_to_PrivateKeyInfo_pem_does_selection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b4320 -> BB006b433f [color="green"];
+  BB006b4320 -> BB006b4329 [color="red"];
+  BB006b4329 -> BB006b4345 [color="green"];
+  BB006b4329 -> BB006b4330 [color="red"];
+  BB006b4330 -> BB006b4340 [color="green"];
+  BB006b4330 -> BB006b4336 [color="red"];
+  BB006b4336 -> BB006b4350 [color="green"];
+  BB006b4336 -> BB006b433f [color="red"];
+  BB006b4340 -> BB006b4345 [color="blue"];
+  BB006b4350 -> BB006b4345 [color="blue"];
+}

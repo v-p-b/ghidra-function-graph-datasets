@@ -1,0 +1,28 @@
+digraph ossl_x509_algor_md_to_mgf1 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005273f0 -> BB0052742a [color="green"];
+  BB005273f0 -> BB00527411 [color="red"];
+  BB00527411 -> BB00527440 [color="green"];
+  BB00527411 -> BB0052742a [color="red"];
+  BB00527440 -> BB00527510 [color="green"];
+  BB00527440 -> BB0052745a [color="red"];
+  BB0052745a -> BB00527540 [color="green"];
+  BB0052745a -> BB00527477 [color="red"];
+  BB00527477 -> BB00527538 [color="green"];
+  BB00527477 -> BB00527492 [color="red"];
+  BB00527492 -> BB0052756a [color="green"];
+  BB00527492 -> BB005274aa [color="red"];
+  BB005274aa -> BB00527550 [color="green"];
+  BB005274aa -> BB005274b5 [color="red"];
+  BB005274b5 -> BB005274e1 [color="red"];
+  BB00527510 -> BB00527540 [color="green"];
+  BB00527510 -> BB00527524 [color="red"];
+  BB00527524 -> BB0052745a [color="blue"];
+  BB00527538 -> BB00527540 [color="blue"];
+  BB00527540 -> BB005274e1 [color="blue"];
+  BB00527550 -> BB005274b5 [color="green"];
+  BB00527550 -> BB00527562 [color="red"];
+  BB00527562 -> BB0052756a [color="blue"];
+  BB0052756a -> BB005274e1 [color="blue"];
+}

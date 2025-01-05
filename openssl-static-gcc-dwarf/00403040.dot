@@ -1,0 +1,17 @@
+digraph delayed_delivery {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00403040 -> BB004030b0 [color="green"];
+  BB00403040 -> BB0040305e [color="red"];
+  BB0040305e -> BB004030b0 [color="green"];
+  BB0040305e -> BB00403063 [color="red"];
+  BB00403063 -> BB00403080 [color="green"];
+  BB00403063 -> BB00403068 [color="red"];
+  BB00403068 -> BB00403080 [color="green"];
+  BB00403068 -> BB00403076 [color="red"];
+  BB00403080 -> BB00403076 [color="green"];
+  BB00403080 -> BB0040308a [color="red"];
+  BB0040308a -> BB00403076 [color="green"];
+  BB0040308a -> BB00403091 [color="red"];
+  BB00403091 -> BB00403076 [color="blue"];
+}

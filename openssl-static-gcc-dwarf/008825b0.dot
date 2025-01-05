@@ -1,0 +1,22 @@
+digraph _IO_doallocbuf {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008825b0 -> BB008825c0 [color="green"];
+  BB008825b0 -> BB008825b7 [color="red"];
+  BB008825c0 -> BB008825d7 [color="green"];
+  BB008825c0 -> BB008825cd [color="red"];
+  BB008825cd -> BB00882638 [color="green"];
+  BB008825cd -> BB008825d7 [color="red"];
+  BB008825d7 -> BB00882660 [color="green"];
+  BB008825d7 -> BB008825fb [color="red"];
+  BB008825fb -> BB00882630 [color="green"];
+  BB008825fb -> BB00882606 [color="red"];
+  BB00882606 -> BB00882623 [color="green"];
+  BB00882606 -> BB0088261f [color="red"];
+  BB0088261f -> BB00882650 [color="green"];
+  BB0088261f -> BB00882623 [color="red"];
+  BB00882623 -> BB00882630 [color="blue"];
+  BB00882638 -> BB00882623 [color="blue"];
+  BB00882650 -> BB00882623 [color="blue"];
+  BB00882660 -> BB008825fb [color="blue"];
+}

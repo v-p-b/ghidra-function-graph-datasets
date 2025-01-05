@@ -1,0 +1,21 @@
+digraph cms_kek_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00567240 -> BB00567290 [color="green"];
+  BB00567240 -> BB0056727a [color="red"];
+  BB00567290 -> BB005672c4 [color="green"];
+  BB00567290 -> BB005672aa [color="red"];
+  BB005672aa -> BB00567318 [color="green"];
+  BB005672aa -> BB005672c4 [color="red"];
+  BB005672c4 -> BB005672d3 [color="red"];
+  BB005672d3 -> BB005672ea [color="red"];
+  BB005672ea -> BB0056727a [color="blue"];
+  BB00567318 -> BB005672c4 [color="green"];
+  BB00567318 -> BB0056733a [color="red"];
+  BB0056733a -> BB005673a0 [color="green"];
+  BB0056733a -> BB00567358 [color="red"];
+  BB00567358 -> BB005673a0 [color="green"];
+  BB00567358 -> BB00567376 [color="red"];
+  BB00567376 -> BB005672ea [color="blue"];
+  BB005673a0 -> BB005672d3 [color="blue"];
+}

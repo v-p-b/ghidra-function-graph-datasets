@@ -1,0 +1,10 @@
+digraph BN_from_montgomery {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00542840 -> BB00542890 [color="green"];
+  BB00542840 -> BB0054286a [color="red"];
+  BB0054286a -> BB00542890 [color="green"];
+  BB0054286a -> BB0054287d [color="red"];
+  BB0054287d -> BB00542893 [color="blue"];
+  BB00542890 -> BB00542893 [color="blue"];
+}

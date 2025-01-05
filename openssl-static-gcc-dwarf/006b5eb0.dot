@@ -1,0 +1,20 @@
+digraph ed25519_to_EncryptedPrivateKeyInfo_pem_encode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b5eb0 -> BB006b5ec5 [color="green"];
+  BB006b5eb0 -> BB006b5ebf [color="red"];
+  BB006b5ebf -> BB006b5f10 [color="green"];
+  BB006b5ebf -> BB006b5ec5 [color="red"];
+  BB006b5ec5 -> BB006b5ef8 [color="red"];
+  BB006b5f10 -> BB006b5f98 [color="green"];
+  BB006b5f10 -> BB006b5f1c [color="red"];
+  BB006b5f1c -> BB006b5f90 [color="green"];
+  BB006b5f1c -> BB006b5f32 [color="red"];
+  BB006b5f32 -> BB006b5f4c [color="green"];
+  BB006b5f32 -> BB006b5f37 [color="red"];
+  BB006b5f37 -> BB006b5f90 [color="green"];
+  BB006b5f37 -> BB006b5f4c [color="red"];
+  BB006b5f4c -> BB006b5f77 [color="red"];
+  BB006b5f90 -> BB006b5f77 [color="blue"];
+  BB006b5f98 -> BB006b5ef8 [color="blue"];
+}

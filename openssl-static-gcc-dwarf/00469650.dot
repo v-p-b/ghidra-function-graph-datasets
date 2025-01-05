@@ -1,0 +1,25 @@
+digraph bio_to_mem {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00469650 -> BB0046972c [color="green"];
+  BB00469650 -> BB0046967f [color="red"];
+  BB0046967f -> BB00469694 [color="blue"];
+  BB00469690 -> BB00469700 [color="green"];
+  BB00469690 -> BB00469694 [color="red"];
+  BB00469694 -> BB004696cc [color="green"];
+  BB00469694 -> BB00469699 [color="red"];
+  BB00469699 -> BB004696cc [color="green"];
+  BB00469699 -> BB004696a3 [color="red"];
+  BB004696a3 -> BB004696d8 [color="green"];
+  BB004696a3 -> BB004696b4 [color="red"];
+  BB004696b4 -> BB00469700 [color="green"];
+  BB004696b4 -> BB004696b6 [color="red"];
+  BB004696b6 -> BB004696d8 [color="green"];
+  BB004696b6 -> BB004696c7 [color="red"];
+  BB004696c7 -> BB00469690 [color="green"];
+  BB004696c7 -> BB004696cc [color="red"];
+  BB004696cc -> BB004696a3 [color="blue"];
+  BB004696d8 -> BB004696e6 [color="red"];
+  BB00469700 -> BB004696e6 [color="blue"];
+  BB0046972c -> BB004696e6 [color="blue"];
+}

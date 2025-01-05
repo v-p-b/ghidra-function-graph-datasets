@@ -1,0 +1,16 @@
+digraph ossl_quic_get_error {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b0c00 -> BB004b0c80 [color="green"];
+  BB004b0c00 -> BB004b0c06 [color="red"];
+  BB004b0c06 -> BB004b0c68 [color="green"];
+  BB004b0c06 -> BB004b0c10 [color="red"];
+  BB004b0c10 -> BB004b0c40 [color="green"];
+  BB004b0c10 -> BB004b0c15 [color="red"];
+  BB004b0c15 -> BB004b0c3a [color="red"];
+  BB004b0c3a -> BB004b0ca7 [color="green"];
+  BB004b0c3a -> BB004b0c3e [color="red"];
+  BB004b0c40 -> BB004b0c55 [color="red"];
+  BB004b0c68 -> BB004b0c55 [color="blue"];
+  BB004b0c80 -> BB004b0c3a [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph PEM_read_ECPrivateKey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00613660 -> BB006136b0 [color="green"];
+  BB00613660 -> BB00613673 [color="red"];
+  BB00613673 -> BB006136b0 [color="green"];
+  BB00613673 -> BB0061368e [color="red"];
+  BB0061368e -> BB0061369e [color="green"];
+  BB0061368e -> BB00613693 [color="red"];
+  BB00613693 -> BB0061369e [color="red"];
+}

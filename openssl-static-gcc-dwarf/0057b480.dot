@@ -1,0 +1,27 @@
+digraph ossl_dh_check_priv_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0057b480 -> BB0057b580 [color="green"];
+  BB0057b480 -> BB0057b4ab [color="red"];
+  BB0057b4ab -> BB0057b500 [color="green"];
+  BB0057b4ab -> BB0057b4b7 [color="red"];
+  BB0057b4b7 -> BB0057b4cc [color="green"];
+  BB0057b4b7 -> BB0057b4c3 [color="red"];
+  BB0057b4c3 -> BB0057b548 [color="green"];
+  BB0057b4c3 -> BB0057b4cc [color="red"];
+  BB0057b4cc -> BB0057b4e3 [color="red"];
+  BB0057b4e3 -> BB0057b4eb [color="red"];
+  BB0057b500 -> BB0057b523 [color="green"];
+  BB0057b500 -> BB0057b509 [color="red"];
+  BB0057b509 -> BB0057b530 [color="green"];
+  BB0057b509 -> BB0057b510 [color="red"];
+  BB0057b510 -> BB0057b590 [color="green"];
+  BB0057b510 -> BB0057b523 [color="red"];
+  BB0057b523 -> BB0057b4e3 [color="blue"];
+  BB0057b530 -> BB0057b4e3 [color="blue"];
+  BB0057b548 -> BB0057b523 [color="green"];
+  BB0057b548 -> BB0057b55f [color="red"];
+  BB0057b55f -> BB0057b4cc [color="blue"];
+  BB0057b580 -> BB0057b4eb [color="blue"];
+  BB0057b590 -> BB0057b4e3 [color="blue"];
+}

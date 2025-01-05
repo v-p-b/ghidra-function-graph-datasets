@@ -1,0 +1,19 @@
+digraph BIO_ADDR_rawaddress {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0052b0e0 -> BB0052b12b [color="green"];
+  BB0052b0e0 -> BB0052b103 [color="red"];
+  BB0052b103 -> BB0052b12b [color="green"];
+  BB0052b103 -> BB0052b113 [color="red"];
+  BB0052b113 -> BB0052b14c [color="green"];
+  BB0052b113 -> BB0052b11c [color="red"];
+  BB0052b11c -> BB00401100 [color="green"];
+  BB0052b11c -> BB0052b12b [color="red"];
+  BB0052b12b -> BB0052b13e [color="green"];
+  BB0052b12b -> BB0052b130 [color="red"];
+  BB0052b130 -> BB00401070 [color="green"];
+  BB0052b130 -> BB0052b13e [color="red"];
+  BB0052b13e -> BB0052b14c [color="green"];
+  BB0052b13e -> BB0052b149 [color="red"];
+  BB0052b149 -> BB0052b14c [color="blue"];
+}

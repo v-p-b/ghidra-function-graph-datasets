@@ -1,0 +1,14 @@
+digraph dh_gen_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006d2560 -> BB006d25e9 [color="green"];
+  BB006d2560 -> BB006d2583 [color="red"];
+  BB006d2583 -> BB006d25e9 [color="green"];
+  BB006d2583 -> BB006d2588 [color="red"];
+  BB006d2588 -> BB006d25da [color="green"];
+  BB006d2588 -> BB006d25a6 [color="red"];
+  BB006d25a6 -> BB006d25da [color="blue"];
+  BB006d25da -> BB006d2600 [color="green"];
+  BB006d25da -> BB006d25e9 [color="red"];
+  BB006d2600 -> BB006d25e9 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph X509_PKEY_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00528130 -> BB00528173 [color="green"];
+  BB00528130 -> BB00528150 [color="red"];
+  BB00528150 -> BB00528180 [color="green"];
+  BB00528150 -> BB0052816e [color="red"];
+  BB0052816e -> BB00528180 [color="green"];
+  BB0052816e -> BB00528173 [color="red"];
+  BB00528180 -> BB005281f0 [color="green"];
+  BB00528180 -> BB005281a2 [color="red"];
+  BB005281f0 -> BB005281a2 [color="blue"];
+}

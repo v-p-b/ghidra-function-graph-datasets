@@ -1,0 +1,14 @@
+digraph d2i_CMS_ContentInfo {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005681e0 -> BB00568250 [color="green"];
+  BB005681e0 -> BB005681f6 [color="red"];
+  BB005681f6 -> BB00568260 [color="green"];
+  BB005681f6 -> BB005681fe [color="red"];
+  BB005681fe -> BB00568208 [color="blue"];
+  BB00568208 -> BB0056823e [color="green"];
+  BB00568208 -> BB0056822c [color="red"];
+  BB0056822c -> BB0056823e [color="red"];
+  BB00568250 -> BB00568208 [color="blue"];
+  BB00568260 -> BB00568208 [color="blue"];
+}

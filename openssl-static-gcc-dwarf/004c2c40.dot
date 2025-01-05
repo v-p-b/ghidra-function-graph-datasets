@@ -1,0 +1,14 @@
+digraph ossl_quic_wire_decode_frame_retire_conn_id {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c2c40 -> BB004c2ce0 [color="green"];
+  BB004c2c40 -> BB004c2c4d [color="red"];
+  BB004c2c4d -> BB004c2c88 [color="green"];
+  BB004c2c4d -> BB004c2c74 [color="red"];
+  BB004c2c88 -> BB004c2c74 [color="green"];
+  BB004c2c88 -> BB004c2cad [color="red"];
+  BB004c2cad -> BB004c2c74 [color="green"];
+  BB004c2cad -> BB004c2cb2 [color="red"];
+  BB004c2cb2 -> BB004c2c74 [color="green"];
+  BB004c2cb2 -> BB004c2cc0 [color="red"];
+}

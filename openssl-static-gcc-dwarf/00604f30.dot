@@ -1,0 +1,12 @@
+digraph CRYPTO_cfb128_1_encrypt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00604f30 -> BB0060522e [color="green"];
+  BB00604f30 -> BB00604f5b [color="red"];
+  BB00604f5b -> BB00604f70 [color="blue"];
+  BB00604f70 -> BB00604fdc [color="green"];
+  BB00604f70 -> BB00604fd8 [color="red"];
+  BB00604fd8 -> BB00604fdc [color="blue"];
+  BB00604fdc -> BB00604f70 [color="green"];
+  BB00604fdc -> BB0060522e [color="red"];
+}

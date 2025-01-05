@@ -1,0 +1,16 @@
+digraph round_away {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB009045b0 -> BB00904610 [color="green"];
+  BB009045b0 -> BB009045bd [color="red"];
+  BB009045bd -> BB009045f8 [color="green"];
+  BB009045bd -> BB009045bf [color="red"];
+  BB009045bf -> BB009045d8 [color="green"];
+  BB009045bf -> BB009045c4 [color="red"];
+  BB009045c4 -> BB009045d0 [color="blue"];
+  BB009045d8 -> BB00904624 [color="green"];
+  BB009045d8 -> BB009045e1 [color="red"];
+  BB009045f8 -> BB0090461f [color="green"];
+  BB009045f8 -> BB00904601 [color="red"];
+  BB00904610 -> BB009045d0 [color="blue"];
+}

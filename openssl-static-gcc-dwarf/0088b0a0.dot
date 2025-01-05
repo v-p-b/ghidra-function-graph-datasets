@@ -1,0 +1,25 @@
+digraph malloc_stats {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0088b0a0 -> BB0088b2d0 [color="green"];
+  BB0088b0a0 -> BB0088b0d6 [color="red"];
+  BB0088b0d6 -> BB0088b104 [color="blue"];
+  BB0088b100 -> BB0088b104 [color="blue"];
+  BB0088b104 -> BB0088b2b0 [color="green"];
+  BB0088b104 -> BB0088b12d [color="red"];
+  BB0088b12d -> BB0088b130 [color="blue"];
+  BB0088b130 -> BB0088b280 [color="green"];
+  BB0088b130 -> BB0088b1a8 [color="red"];
+  BB0088b1a8 -> BB0088b1ab [color="blue"];
+  BB0088b1ab -> BB0088b100 [color="green"];
+  BB0088b1ab -> BB0088b1c2 [color="red"];
+  BB0088b1c2 -> BB0088b2da [color="green"];
+  BB0088b1c2 -> BB0088b26e [color="red"];
+  BB0088b280 -> BB0088b1ab [color="green"];
+  BB0088b280 -> BB0088b28d [color="red"];
+  BB0088b28d -> BB0088b1ab [color="blue"];
+  BB0088b2b0 -> BB0088b130 [color="green"];
+  BB0088b2b0 -> BB0088b2bc [color="red"];
+  BB0088b2bc -> BB0088b130 [color="blue"];
+  BB0088b2d0 -> BB0088b0d6 [color="blue"];
+}

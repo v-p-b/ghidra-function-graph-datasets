@@ -1,0 +1,16 @@
+digraph opendir_tail {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008d4060 -> BB008d4100 [color="green"];
+  BB008d4060 -> BB008d4081 [color="red"];
+  BB008d4081 -> BB008d40ee [color="green"];
+  BB008d4081 -> BB008d4099 [color="red"];
+  BB008d4099 -> BB008d40e0 [color="green"];
+  BB008d4099 -> BB008d40a9 [color="red"];
+  BB008d40a9 -> BB008d40ba [color="red"];
+  BB008d40ba -> BB008d4104 [color="green"];
+  BB008d40ba -> BB008d40cd [color="red"];
+  BB008d40e0 -> BB008d40ee [color="blue"];
+  BB008d40ee -> BB008d40ba [color="blue"];
+  BB008d4100 -> BB008d40ba [color="blue"];
+}

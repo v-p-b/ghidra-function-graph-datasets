@@ -1,0 +1,19 @@
+digraph ossl_quic_vlint_decode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00600120 -> BB006001da [color="green"];
+  BB00600120 -> BB00600132 [color="red"];
+  BB00600132 -> BB006001da [color="green"];
+  BB00600132 -> BB00600150 [color="red"];
+  BB00600150 -> BB006001e0 [color="green"];
+  BB00600150 -> BB0060015a [color="red"];
+  BB0060015a -> BB006001e8 [color="green"];
+  BB0060015a -> BB0060016c [color="red"];
+  BB0060016c -> BB00600200 [color="green"];
+  BB0060016c -> BB00600180 [color="red"];
+  BB00600180 -> BB006001d4 [color="blue"];
+  BB006001d4 -> BB006001da [color="blue"];
+  BB006001e0 -> BB006001d4 [color="blue"];
+  BB006001e8 -> BB006001d4 [color="blue"];
+  BB00600200 -> BB006001d4 [color="blue"];
+}

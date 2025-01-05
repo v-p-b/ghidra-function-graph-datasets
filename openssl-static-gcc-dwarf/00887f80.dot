@@ -1,0 +1,26 @@
+digraph arena_get_retry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00887f80 -> BB00887fc8 [color="green"];
+  BB00887f80 -> BB00887f91 [color="red"];
+  BB00887f91 -> BB00888000 [color="green"];
+  BB00887f91 -> BB00887f9d [color="red"];
+  BB00887f9d -> BB00887fa0 [color="blue"];
+  BB00887fa0 -> BB00888020 [color="green"];
+  BB00887fa0 -> BB00887fac [color="red"];
+  BB00887fac -> BB00887fbf [color="blue"];
+  BB00887fc8 -> BB00888050 [color="green"];
+  BB00887fc8 -> BB00887fd7 [color="red"];
+  BB00887fd7 -> BB00887fda [color="blue"];
+  BB00887fda -> BB00887fbf [color="green"];
+  BB00887fda -> BB00887fe4 [color="red"];
+  BB00888000 -> BB00887fa0 [color="green"];
+  BB00888000 -> BB00888009 [color="red"];
+  BB00888009 -> BB00887fa0 [color="blue"];
+  BB00888020 -> BB00887fbf [color="green"];
+  BB00888020 -> BB00888038 [color="red"];
+  BB00888038 -> BB00887fbf [color="blue"];
+  BB00888050 -> BB00887fda [color="green"];
+  BB00888050 -> BB00888059 [color="red"];
+  BB00888059 -> BB00887fda [color="blue"];
+}

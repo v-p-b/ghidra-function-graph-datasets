@@ -1,0 +1,12 @@
+digraph get_ec_decoded_from_explicit_params {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00760090 -> BB007600f8 [color="green"];
+  BB00760090 -> BB007600b6 [color="red"];
+  BB007600b6 -> BB007600e6 [color="red"];
+  BB007600f8 -> BB00760140 [color="green"];
+  BB007600f8 -> BB0076010c [color="red"];
+  BB0076010c -> BB007600e6 [color="green"];
+  BB0076010c -> BB00760117 [color="red"];
+  BB00760140 -> BB007600e6 [color="blue"];
+}

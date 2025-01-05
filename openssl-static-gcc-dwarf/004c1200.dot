@@ -1,0 +1,24 @@
+digraph ossl_quic_wire_encode_frame_stream {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c1200 -> BB004c1290 [color="green"];
+  BB004c1200 -> BB004c127e [color="red"];
+  BB004c127e -> BB004c1280 [color="blue"];
+  BB004c1290 -> BB004c127e [color="green"];
+  BB004c1290 -> BB004c129f [color="red"];
+  BB004c129f -> BB004c1308 [color="green"];
+  BB004c129f -> BB004c12a8 [color="red"];
+  BB004c12a8 -> BB004c12f0 [color="green"];
+  BB004c12a8 -> BB004c12b2 [color="red"];
+  BB004c12b2 -> BB004c127e [color="green"];
+  BB004c12b2 -> BB004c12c3 [color="red"];
+  BB004c12c3 -> BB004c1280 [color="green"];
+  BB004c12c3 -> BB004c12d1 [color="red"];
+  BB004c12d1 -> BB00401070 [color="blue"];
+  BB004c12f0 -> BB004c127e [color="green"];
+  BB004c12f0 -> BB004c12fc [color="red"];
+  BB004c12fc -> BB004c12b2 [color="blue"];
+  BB004c1308 -> BB004c12a8 [color="green"];
+  BB004c1308 -> BB004c1314 [color="red"];
+  BB004c1314 -> BB004c127e [color="blue"];
+}

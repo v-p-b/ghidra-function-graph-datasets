@@ -1,0 +1,15 @@
+digraph SSL_inject_net_dgram {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b2bb0 -> BB004b2c48 [color="green"];
+  BB004b2bb0 -> BB004b2bc3 [color="red"];
+  BB004b2bc3 -> BB004b2c1c [color="green"];
+  BB004b2bc3 -> BB004b2bd6 [color="red"];
+  BB004b2bd6 -> BB004b2c18 [color="green"];
+  BB004b2bd6 -> BB004b2bdb [color="red"];
+  BB004b2bdb -> BB004b2c00 [color="red"];
+  BB004b2c00 -> BB004b2c6d [color="green"];
+  BB004b2c00 -> BB004b2c04 [color="red"];
+  BB004b2c18 -> BB004b2c1c [color="blue"];
+  BB004b2c48 -> BB004b2c00 [color="blue"];
+}

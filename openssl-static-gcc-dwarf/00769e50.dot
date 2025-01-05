@@ -1,0 +1,11 @@
+digraph camellia_cbc_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00769e50 -> BB00769ec0 [color="green"];
+  BB00769e50 -> BB00769e8a [color="red"];
+  BB00769e8a -> BB00769ea5 [color="red"];
+  BB00769ec0 -> BB00769ef0 [color="green"];
+  BB00769ec0 -> BB00769ee2 [color="red"];
+  BB00769ee2 -> BB00769ea5 [color="blue"];
+  BB00769ef0 -> BB00769ea5 [color="blue"];
+}

@@ -1,0 +1,35 @@
+digraph rsa_item_sign {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006319b0 -> BB006319f0 [color="green"];
+  BB006319b0 -> BB006319e4 [color="red"];
+  BB006319e4 -> BB00631a00 [color="green"];
+  BB006319e4 -> BB006319f0 [color="red"];
+  BB00631a00 -> BB00631b08 [color="green"];
+  BB00631a00 -> BB00631a0b [color="red"];
+  BB00631a0b -> BB00631b38 [color="green"];
+  BB00631a0b -> BB00631a98 [color="red"];
+  BB00631a98 -> BB00631b38 [color="green"];
+  BB00631a98 -> BB00631aa9 [color="red"];
+  BB00631aa9 -> BB00631ad1 [color="green"];
+  BB00631aa9 -> BB00631ab1 [color="red"];
+  BB00631ab1 -> BB006319f0 [color="green"];
+  BB00631ab1 -> BB00631ad1 [color="red"];
+  BB00631ad1 -> BB00631b73 [color="green"];
+  BB00631ad1 -> BB00631add [color="red"];
+  BB00631add -> BB006319f0 [color="blue"];
+  BB00631b08 -> BB00631b38 [color="green"];
+  BB00631b08 -> BB00631b18 [color="red"];
+  BB00631b18 -> BB00631b50 [color="green"];
+  BB00631b18 -> BB00631b20 [color="red"];
+  BB00631b20 -> BB00631b80 [color="green"];
+  BB00631b20 -> BB00631b30 [color="red"];
+  BB00631b30 -> BB00631b38 [color="red"];
+  BB00631b50 -> BB00631bc0 [color="green"];
+  BB00631b50 -> BB00631b73 [color="red"];
+  BB00631b73 -> BB006319f0 [color="blue"];
+  BB00631b80 -> BB00631b50 [color="green"];
+  BB00631b80 -> BB00631ba3 [color="red"];
+  BB00631ba3 -> BB006319f0 [color="blue"];
+  BB00631bc0 -> BB006319f0 [color="blue"];
+}

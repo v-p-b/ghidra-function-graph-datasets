@@ -1,0 +1,13 @@
+digraph sm4_ecb_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0076de90 -> BB0076def2 [color="green"];
+  BB0076de90 -> BB0076debf [color="red"];
+  BB0076debf -> BB0076df10 [color="green"];
+  BB0076debf -> BB0076ded3 [color="red"];
+  BB0076ded3 -> BB0076def2 [color="red"];
+  BB0076df10 -> BB0076df20 [color="blue"];
+  BB0076df20 -> BB0076df20 [color="green"];
+  BB0076df20 -> BB0076df3b [color="red"];
+  BB0076df3b -> BB0076def2 [color="blue"];
+}

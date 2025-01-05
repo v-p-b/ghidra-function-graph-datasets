@@ -1,0 +1,10 @@
+digraph OSSL_INDICATOR_get_callback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005ecb30 -> BB005ecb50 [color="green"];
+  BB005ecb30 -> BB005ecb43 [color="red"];
+  BB005ecb43 -> BB005ecb4d [color="green"];
+  BB005ecb43 -> BB005ecb4a [color="red"];
+  BB005ecb4a -> BB005ecb4d [color="blue"];
+  BB005ecb4d -> BB005ecb50 [color="blue"];
+}

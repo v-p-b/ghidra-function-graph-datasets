@@ -1,0 +1,15 @@
+digraph X509_STORE_CTX_get_obj_by_subject {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00676030 -> BB0067607d [color="green"];
+  BB00676030 -> BB00676062 [color="red"];
+  BB00676062 -> BB00676090 [color="green"];
+  BB00676062 -> BB0067607d [color="red"];
+  BB00676090 -> BB006760d0 [color="green"];
+  BB00676090 -> BB00676099 [color="red"];
+  BB00676099 -> BB006760c0 [color="green"];
+  BB00676099 -> BB0067609e [color="red"];
+  BB0067609e -> BB0067607d [color="blue"];
+  BB006760c0 -> BB0067609e [color="blue"];
+  BB006760d0 -> BB0067609e [color="blue"];
+}

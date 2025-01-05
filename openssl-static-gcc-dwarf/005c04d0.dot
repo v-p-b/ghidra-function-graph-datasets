@@ -1,0 +1,7 @@
+digraph EVP_default_properties_is_fips_enabled {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005c04d0 -> BB005c0501 [color="green"];
+  BB005c04d0 -> BB005c04e6 [color="red"];
+  BB005c04e6 -> BB005c0501 [color="red"];
+}

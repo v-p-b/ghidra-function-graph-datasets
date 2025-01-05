@@ -1,0 +1,12 @@
+digraph tls_construct_stoc_cryptopro_bug {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004dd330 -> BB004dd380 [color="green"];
+  BB004dd330 -> BB004dd36e [color="red"];
+  BB004dd36e -> BB004dd373 [color="blue"];
+  BB004dd380 -> BB004dd36e [color="green"];
+  BB004dd380 -> BB004dd392 [color="red"];
+  BB004dd392 -> BB004dd373 [color="green"];
+  BB004dd392 -> BB004dd3af [color="red"];
+  BB004dd3af -> BB004dd373 [color="blue"];
+}

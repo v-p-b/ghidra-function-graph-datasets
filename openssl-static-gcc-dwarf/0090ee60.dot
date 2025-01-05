@@ -1,0 +1,25 @@
+digraph register_printf_type {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0090ee60 -> BB0090ef28 [color="green"];
+  BB0090ee60 -> BB0090ee74 [color="red"];
+  BB0090ee74 -> BB0090ee80 [color="blue"];
+  BB0090ee80 -> BB0090eed0 [color="green"];
+  BB0090ee80 -> BB0090ee8a [color="red"];
+  BB0090ee8a -> BB0090ef50 [color="green"];
+  BB0090ee8a -> BB0090ee9e [color="red"];
+  BB0090ee9e -> BB0090eeb7 [color="blue"];
+  BB0090eeb7 -> BB0090eef8 [color="green"];
+  BB0090eeb7 -> BB0090eec3 [color="red"];
+  BB0090eec3 -> BB0090eeca [color="blue"];
+  BB0090eed0 -> BB0090ee8a [color="green"];
+  BB0090eed0 -> BB0090eeeb [color="red"];
+  BB0090eeeb -> BB0090eeb7 [color="blue"];
+  BB0090eef8 -> BB0090eeca [color="green"];
+  BB0090eef8 -> BB0090ef05 [color="red"];
+  BB0090ef05 -> BB0090eeca [color="blue"];
+  BB0090ef28 -> BB0090ee80 [color="green"];
+  BB0090ef28 -> BB0090ef3d [color="red"];
+  BB0090ef3d -> BB0090ee80 [color="blue"];
+  BB0090ef50 -> BB0090eeb7 [color="blue"];
+}

@@ -1,0 +1,9 @@
+digraph OPENSSL_instrument_bus2 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00601250 -> BB00601282 [color="blue"];
+  BB00601282 -> BB006012b1 [color="green"];
+  BB00601282 -> BB00601290 [color="red"];
+  BB00601290 -> BB00601282 [color="green"];
+  BB00601290 -> BB006012b1 [color="red"];
+}

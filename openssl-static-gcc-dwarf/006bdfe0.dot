@@ -1,0 +1,21 @@
+digraph print_labeled_buf {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006bdfe0 -> BB006be0b4 [color="green"];
+  BB006bdfe0 -> BB006be010 [color="red"];
+  BB006be010 -> BB006be0c8 [color="green"];
+  BB006be010 -> BB006be019 [color="red"];
+  BB006be019 -> BB006be045 [color="blue"];
+  BB006be038 -> BB006be0c8 [color="green"];
+  BB006be038 -> BB006be045 [color="red"];
+  BB006be045 -> BB006be080 [color="green"];
+  BB006be045 -> BB006be051 [color="red"];
+  BB006be051 -> BB006be06b [color="green"];
+  BB006be051 -> BB006be056 [color="red"];
+  BB006be056 -> BB006be0b4 [color="green"];
+  BB006be056 -> BB006be06b [color="red"];
+  BB006be06b -> BB006be0b4 [color="green"];
+  BB006be06b -> BB006be080 [color="red"];
+  BB006be080 -> BB006be038 [color="green"];
+  BB006be080 -> BB006be0b4 [color="red"];
+}

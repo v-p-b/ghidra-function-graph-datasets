@@ -1,0 +1,11 @@
+digraph sendmmsg {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008dbf00 -> BB008dbf20 [color="green"];
+  BB008dbf00 -> BB008dbf0f [color="red"];
+  BB008dbf0f -> BB008dbf78 [color="green"];
+  BB008dbf0f -> BB008dbf1e [color="red"];
+  BB008dbf20 -> BB008dbf90 [color="green"];
+  BB008dbf20 -> BB008dbf5e [color="red"];
+  BB008dbf90 -> BB008dbf5e [color="blue"];
+}

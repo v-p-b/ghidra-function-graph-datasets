@@ -1,0 +1,12 @@
+digraph X509_REQ_extension_nid {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00677920 -> BB0067794b [color="green"];
+  BB00677920 -> BB0067792d [color="red"];
+  BB0067792d -> BB00677942 [color="blue"];
+  BB00677938 -> BB00677950 [color="green"];
+  BB00677938 -> BB00677942 [color="red"];
+  BB00677942 -> BB00677938 [color="green"];
+  BB00677942 -> BB00677946 [color="red"];
+  BB00677946 -> BB0067794b [color="blue"];
+}

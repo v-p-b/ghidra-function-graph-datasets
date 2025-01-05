@@ -1,0 +1,29 @@
+digraph parse_offset {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008d1d10 -> BB008d1e40 [color="green"];
+  BB008d1d10 -> BB008d1d40 [color="red"];
+  BB008d1d40 -> BB008d1e1d [color="green"];
+  BB008d1d40 -> BB008d1d4b [color="red"];
+  BB008d1d4b -> BB008d1eb8 [color="green"];
+  BB008d1d4b -> BB008d1d5a [color="red"];
+  BB008d1d5a -> BB008d1f30 [color="green"];
+  BB008d1d5a -> BB008d1dbc [color="red"];
+  BB008d1dbc -> BB008d1e0b [color="blue"];
+  BB008d1e0b -> BB008d1e1d [color="blue"];
+  BB008d1e1d -> BB008d1f3a [color="green"];
+  BB008d1e1d -> BB008d1e31 [color="red"];
+  BB008d1e40 -> BB008d1d5a [color="green"];
+  BB008d1e40 -> BB008d1e4f [color="red"];
+  BB008d1e4f -> BB008d1dbc [color="green"];
+  BB008d1e4f -> BB008d1e9f [color="red"];
+  BB008d1e9f -> BB008d1e0b [color="blue"];
+  BB008d1eb8 -> BB008d1e1d [color="green"];
+  BB008d1eb8 -> BB008d1ec4 [color="red"];
+  BB008d1ec4 -> BB008d1dbc [color="green"];
+  BB008d1ec4 -> BB008d1f18 [color="red"];
+  BB008d1f18 -> BB008d1e1d [color="blue"];
+  BB008d1f30 -> BB008d1e9f [color="green"];
+  BB008d1f30 -> BB008d1f38 [color="red"];
+  BB008d1f38 -> BB008d1f18 [color="blue"];
+}

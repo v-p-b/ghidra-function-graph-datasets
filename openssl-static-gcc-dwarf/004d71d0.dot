@@ -1,0 +1,16 @@
+digraph tls_parse_stoc_supported_versions {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d71d0 -> BB004d7240 [color="green"];
+  BB004d71d0 -> BB004d71e4 [color="red"];
+  BB004d71e4 -> BB004d7240 [color="green"];
+  BB004d71e4 -> BB004d71fd [color="red"];
+  BB004d71fd -> BB004d7288 [color="green"];
+  BB004d71fd -> BB004d7208 [color="red"];
+  BB004d7208 -> BB004d722f [color="green"];
+  BB004d7208 -> BB004d7210 [color="red"];
+  BB004d7210 -> BB004d72d0 [color="green"];
+  BB004d7210 -> BB004d722f [color="red"];
+  BB004d7240 -> BB004d7276 [color="red"];
+  BB004d72d0 -> BB004d7276 [color="blue"];
+}

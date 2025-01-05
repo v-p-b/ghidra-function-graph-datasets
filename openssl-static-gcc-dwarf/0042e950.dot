@@ -1,0 +1,11 @@
+digraph cert_load {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0042e950 -> BB0042e972 [color="blue"];
+  BB0042e960 -> BB0042e98d [color="green"];
+  BB0042e960 -> BB0042e972 [color="red"];
+  BB0042e972 -> BB0042e960 [color="green"];
+  BB0042e972 -> BB0042e988 [color="red"];
+  BB0042e988 -> BB0042e9a0 [color="green"];
+  BB0042e988 -> BB0042e98d [color="red"];
+}

@@ -1,0 +1,18 @@
+digraph prog_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0042c1a0 -> BB0042c270 [color="green"];
+  BB0042c1a0 -> BB0042c1ae [color="red"];
+  BB0042c1ae -> BB0042c1df [color="green"];
+  BB0042c1ae -> BB0042c1c5 [color="red"];
+  BB0042c1c5 -> BB0042c1d0 [color="blue"];
+  BB0042c1d0 -> BB0042c1d0 [color="green"];
+  BB0042c1d0 -> BB0042c1df [color="red"];
+  BB0042c1df -> BB0042c26a [color="green"];
+  BB0042c1df -> BB0042c23d [color="red"];
+  BB0042c23d -> BB0042c26a [color="green"];
+  BB0042c23d -> BB0042c247 [color="red"];
+  BB0042c247 -> BB0042c250 [color="blue"];
+  BB0042c250 -> BB0042c250 [color="green"];
+  BB0042c250 -> BB0042c26a [color="red"];
+}

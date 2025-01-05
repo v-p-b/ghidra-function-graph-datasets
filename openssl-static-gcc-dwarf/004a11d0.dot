@@ -1,0 +1,31 @@
+digraph tls12_shared_sigalgs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004a11d0 -> BB004a12ce [color="green"];
+  BB004a11d0 -> BB004a11f1 [color="red"];
+  BB004a11f1 -> BB004a1210 [color="blue"];
+  BB004a1210 -> BB004a1271 [color="green"];
+  BB004a1210 -> BB004a122d [color="red"];
+  BB004a122d -> BB004a1245 [color="blue"];
+  BB004a1238 -> BB004a1266 [color="green"];
+  BB004a1238 -> BB004a1245 [color="red"];
+  BB004a1245 -> BB004a1238 [color="green"];
+  BB004a1245 -> BB004a124b [color="red"];
+  BB004a124b -> BB004a1266 [color="green"];
+  BB004a124b -> BB004a1252 [color="red"];
+  BB004a1252 -> BB004a1288 [color="green"];
+  BB004a1252 -> BB004a1266 [color="red"];
+  BB004a1266 -> BB004a1210 [color="green"];
+  BB004a1266 -> BB004a1271 [color="red"];
+  BB004a1288 -> BB004a1266 [color="green"];
+  BB004a1288 -> BB004a128d [color="red"];
+  BB004a128d -> BB004a12a9 [color="blue"];
+  BB004a12a0 -> BB004a1266 [color="green"];
+  BB004a12a0 -> BB004a12a9 [color="red"];
+  BB004a12a9 -> BB004a12a0 [color="green"];
+  BB004a12a9 -> BB004a12b0 [color="red"];
+  BB004a12b0 -> BB004a1266 [color="green"];
+  BB004a12b0 -> BB004a12c0 [color="red"];
+  BB004a12c0 -> BB004a1266 [color="blue"];
+  BB004a12ce -> BB004a1271 [color="blue"];
+}

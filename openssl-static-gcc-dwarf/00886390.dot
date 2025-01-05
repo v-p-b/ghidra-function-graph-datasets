@@ -1,0 +1,31 @@
+digraph malloc_consolidate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00886390 -> BB008863b5 [color="blue"];
+  BB008863b5 -> BB0088643c [color="green"];
+  BB008863b5 -> BB008863c0 [color="red"];
+  BB008863c0 -> BB008863b5 [color="green"];
+  BB008863c0 -> BB008863cb [color="red"];
+  BB008863e0 -> BB008864b8 [color="green"];
+  BB008863e0 -> BB008863ec [color="red"];
+  BB008863ec -> BB008863f1 [color="blue"];
+  BB008863f1 -> BB00886418 [color="green"];
+  BB008863f1 -> BB00886408 [color="red"];
+  BB00886408 -> BB00886418 [color="blue"];
+  BB00886418 -> BB00886434 [color="blue"];
+  BB00886434 -> BB008863c0 [color="green"];
+  BB00886434 -> BB00886439 [color="red"];
+  BB00886439 -> BB0088643c [color="blue"];
+  BB0088643c -> BB008864dc [color="green"];
+  BB0088643c -> BB00886456 [color="red"];
+  BB00886456 -> BB00886497 [color="green"];
+  BB00886456 -> BB00886471 [color="red"];
+  BB00886471 -> BB008864d0 [color="green"];
+  BB00886471 -> BB00886487 [color="red"];
+  BB00886487 -> BB00886497 [color="red"];
+  BB00886497 -> BB008863e0 [color="green"];
+  BB00886497 -> BB008864a2 [color="red"];
+  BB008864a2 -> BB00886434 [color="blue"];
+  BB008864b8 -> BB008863f1 [color="blue"];
+  BB008864d0 -> BB008864dc [color="red"];
+}

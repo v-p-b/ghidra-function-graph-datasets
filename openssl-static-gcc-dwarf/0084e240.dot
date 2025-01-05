@@ -1,0 +1,10 @@
+digraph sha512_block_data_order_avx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0084e240 -> BB0084e2b0 [color="blue"];
+  BB0084e2b0 -> BB0084e380 [color="blue"];
+  BB0084e380 -> BB0084e380 [color="green"];
+  BB0084e380 -> BB0084ed8a [color="red"];
+  BB0084ed8a -> BB0084e2b0 [color="green"];
+  BB0084ed8a -> BB0084f3a7 [color="red"];
+}

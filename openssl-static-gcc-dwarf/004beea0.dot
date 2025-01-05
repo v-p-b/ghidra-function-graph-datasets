@@ -1,0 +1,9 @@
+digraph ossl_quic_stream_map_ensure_send_part_id {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004beea0 -> BB004beebe [color="green"];
+  BB004beea0 -> BB004beead [color="red"];
+  BB004beead -> BB004beebe [color="green"];
+  BB004beead -> BB004beeb7 [color="red"];
+  BB004beeb7 -> BB004beebe [color="blue"];
+}

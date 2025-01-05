@@ -1,0 +1,31 @@
+digraph ASN1_TIME_set {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005172c0 -> BB00517430 [color="green"];
+  BB005172c0 -> BB005172ea [color="red"];
+  BB005172ea -> BB005173f0 [color="green"];
+  BB005172ea -> BB0051730a [color="red"];
+  BB0051730a -> BB0051739d [color="green"];
+  BB0051730a -> BB00517321 [color="red"];
+  BB00517321 -> BB0051739d [color="green"];
+  BB00517321 -> BB00517330 [color="red"];
+  BB00517330 -> BB00517333 [color="blue"];
+  BB00517333 -> BB005173b0 [color="green"];
+  BB00517333 -> BB00517340 [color="red"];
+  BB00517340 -> BB00517390 [color="green"];
+  BB00517340 -> BB00517348 [color="red"];
+  BB00517348 -> BB0051736c [color="blue"];
+  BB00517390 -> BB0051739d [color="green"];
+  BB00517390 -> BB00517395 [color="red"];
+  BB00517395 -> BB0051739d [color="red"];
+  BB0051739d -> BB005173a0 [color="blue"];
+  BB005173b0 -> BB0051736c [color="blue"];
+  BB005173f0 -> BB0051739d [color="green"];
+  BB005173f0 -> BB005173fd [color="red"];
+  BB005173fd -> BB00517395 [color="green"];
+  BB005173fd -> BB00517410 [color="red"];
+  BB00517410 -> BB00517333 [color="green"];
+  BB00517410 -> BB00517423 [color="red"];
+  BB00517423 -> BB00517395 [color="blue"];
+  BB00517430 -> BB005173a0 [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph ossl_sframe_list_destroy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004bc780 -> BB004bc7e4 [color="green"];
+  BB004bc780 -> BB004bc792 [color="red"];
+  BB004bc792 -> BB004bc7a0 [color="blue"];
+  BB004bc7a0 -> BB004bc7c6 [color="green"];
+  BB004bc7a0 -> BB004bc7b0 [color="red"];
+  BB004bc7b0 -> BB004bc7c6 [color="green"];
+  BB004bc7b0 -> BB004bc7b9 [color="red"];
+  BB004bc7b9 -> BB004bc7c6 [color="red"];
+  BB004bc7c6 -> BB004bc7a0 [color="green"];
+  BB004bc7c6 -> BB004bc7e4 [color="red"];
+}

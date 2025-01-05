@@ -1,0 +1,15 @@
+digraph ossl_quic_rxfc_on_retire {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005000a0 -> BB005000f0 [color="green"];
+  BB005000a0 -> BB005000b4 [color="red"];
+  BB005000b4 -> BB005000e6 [color="green"];
+  BB005000b4 -> BB005000b9 [color="red"];
+  BB005000b9 -> BB005000d0 [color="green"];
+  BB005000b9 -> BB005000c8 [color="red"];
+  BB005000d0 -> BB00500100 [color="green"];
+  BB005000d0 -> BB005000e6 [color="red"];
+  BB005000f0 -> BB005000b4 [color="green"];
+  BB005000f0 -> BB005000f8 [color="red"];
+  BB00500100 -> BB005000e6 [color="blue"];
+}

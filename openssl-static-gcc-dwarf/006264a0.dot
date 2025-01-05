@@ -1,0 +1,13 @@
+digraph PKCS7_content_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006264a0 -> BB006264c6 [color="green"];
+  BB006264a0 -> BB006264b7 [color="red"];
+  BB006264b7 -> BB006264d8 [color="green"];
+  BB006264b7 -> BB006264c6 [color="red"];
+  BB006264d8 -> BB00626540 [color="green"];
+  BB006264d8 -> BB006264e6 [color="red"];
+  BB006264e6 -> BB00626520 [color="green"];
+  BB006264e6 -> BB006264eb [color="red"];
+  BB006264eb -> BB006264c6 [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph err_shelve_state {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005a9280 -> BB005a92b0 [color="green"];
+  BB005a9280 -> BB005a92a2 [color="red"];
+  BB005a92b0 -> BB005a92a2 [color="green"];
+  BB005a92b0 -> BB005a92c7 [color="red"];
+  BB005a92c7 -> BB005a92a2 [color="green"];
+  BB005a92c7 -> BB005a92d1 [color="red"];
+  BB005a92d1 -> BB005a92a2 [color="green"];
+  BB005a92d1 -> BB005a92f8 [color="red"];
+}

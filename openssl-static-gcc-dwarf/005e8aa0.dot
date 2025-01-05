@@ -1,0 +1,13 @@
+digraph ossl_lib_ctx_unlock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e8aa0 -> BB005e8ab0 [color="green"];
+  BB005e8aa0 -> BB005e8aa5 [color="red"];
+  BB005e8ab0 -> BB005e8af8 [color="green"];
+  BB005e8ab0 -> BB005e8acb [color="red"];
+  BB005e8acb -> BB005e8af8 [color="green"];
+  BB005e8acb -> BB005e8ad5 [color="red"];
+  BB005e8ad5 -> BB005e8af8 [color="green"];
+  BB005e8ad5 -> BB005e8ae9 [color="red"];
+  BB005e8af8 -> BB005e8ae9 [color="blue"];
+}

@@ -1,0 +1,23 @@
+digraph OSSL_PROVIDER_try_load {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005fb960 -> BB005fb9b0 [color="green"];
+  BB005fb960 -> BB005fb983 [color="red"];
+  BB005fb983 -> BB005fba30 [color="green"];
+  BB005fb983 -> BB005fb99a [color="red"];
+  BB005fb9b0 -> BB005fb99a [color="green"];
+  BB005fb9b0 -> BB005fb9ca [color="red"];
+  BB005fb9ca -> BB005fba24 [color="green"];
+  BB005fb9ca -> BB005fb9dd [color="red"];
+  BB005fb9dd -> BB005fba50 [color="green"];
+  BB005fb9dd -> BB005fb9f6 [color="red"];
+  BB005fb9f6 -> BB005fba6a [color="green"];
+  BB005fb9f6 -> BB005fba00 [color="red"];
+  BB005fba00 -> BB005fba40 [color="green"];
+  BB005fba00 -> BB005fba10 [color="red"];
+  BB005fba24 -> BB005fba30 [color="blue"];
+  BB005fba30 -> BB005fb99a [color="blue"];
+  BB005fba40 -> BB005fb99a [color="blue"];
+  BB005fba50 -> BB005fb99a [color="blue"];
+  BB005fba6a -> BB005fb99a [color="blue"];
+}

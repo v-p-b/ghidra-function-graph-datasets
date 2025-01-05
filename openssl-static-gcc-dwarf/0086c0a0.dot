@@ -1,0 +1,16 @@
+digraph __mpn_mul_n {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0086c0a0 -> BB0086c100 [color="green"];
+  BB0086c0a0 -> BB0086c0bf [color="red"];
+  BB0086c0bf -> BB0086c0f8 [color="green"];
+  BB0086c0bf -> BB0086c0c5 [color="red"];
+  BB0086c0c5 -> BB0086c0e1 [color="red"];
+  BB0086c0e1 -> BB0086c131 [color="green"];
+  BB0086c0e1 -> BB0086c0f0 [color="red"];
+  BB0086c0f8 -> BB0086c0e1 [color="blue"];
+  BB0086c100 -> BB0086c110 [color="green"];
+  BB0086c100 -> BB0086c106 [color="red"];
+  BB0086c106 -> BB0086c0e1 [color="blue"];
+  BB0086c110 -> BB0086c0e1 [color="blue"];
+}

@@ -1,0 +1,28 @@
+digraph ch_on_handshake_yield_secret {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004fbdf0 -> BB004fbed8 [color="green"];
+  BB004fbdf0 -> BB004fbe1d [color="red"];
+  BB004fbe1d -> BB004fbef0 [color="green"];
+  BB004fbe1d -> BB004fbe2a [color="red"];
+  BB004fbe2a -> BB004fbed8 [color="green"];
+  BB004fbe2a -> BB004fbe3e [color="red"];
+  BB004fbe3e -> BB004fbe6d [color="blue"];
+  BB004fbe58 -> BB004fbea0 [color="green"];
+  BB004fbe58 -> BB004fbe60 [color="red"];
+  BB004fbe60 -> BB004fbf48 [color="green"];
+  BB004fbe60 -> BB004fbe6d [color="red"];
+  BB004fbe6d -> BB004fbe60 [color="green"];
+  BB004fbe6d -> BB004fbe8f [color="red"];
+  BB004fbe8f -> BB004fbe58 [color="green"];
+  BB004fbe8f -> BB004fbea0 [color="red"];
+  BB004fbea0 -> BB004fbed8 [color="red"];
+  BB004fbed8 -> BB004fbeda [color="blue"];
+  BB004fbef0 -> BB004fbed8 [color="green"];
+  BB004fbef0 -> BB004fbf00 [color="red"];
+  BB004fbf00 -> BB004fbed8 [color="green"];
+  BB004fbf00 -> BB004fbf12 [color="red"];
+  BB004fbf48 -> BB004fbed8 [color="green"];
+  BB004fbf48 -> BB004fbf6f [color="red"];
+  BB004fbf6f -> BB004fbeda [color="blue"];
+}

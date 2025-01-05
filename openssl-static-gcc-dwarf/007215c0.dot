@@ -1,0 +1,10 @@
+digraph bio_core_ctrl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB007215c0 -> BB00721610 [color="green"];
+  BB007215c0 -> BB007215e6 [color="red"];
+  BB007215e6 -> BB00721610 [color="green"];
+  BB007215e6 -> BB007215ef [color="red"];
+  BB007215ef -> BB00721607 [color="red"];
+  BB00721610 -> BB00721607 [color="blue"];
+}

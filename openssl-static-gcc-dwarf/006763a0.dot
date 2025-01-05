@@ -1,0 +1,25 @@
+digraph X509_STORE_get1_all_certs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006763a0 -> BB00676468 [color="green"];
+  BB006763a0 -> BB006763b3 [color="red"];
+  BB006763b3 -> BB00676431 [color="green"];
+  BB006763b3 -> BB006763c3 [color="red"];
+  BB006763c3 -> BB0067644c [color="green"];
+  BB006763c3 -> BB006763d3 [color="red"];
+  BB006763d3 -> BB00676419 [color="blue"];
+  BB006763e8 -> BB00676416 [color="green"];
+  BB006763e8 -> BB006763f7 [color="red"];
+  BB006763f7 -> BB00676416 [color="green"];
+  BB006763f7 -> BB006763fc [color="red"];
+  BB006763fc -> BB00676416 [color="green"];
+  BB006763fc -> BB00676405 [color="red"];
+  BB00676405 -> BB00676440 [color="green"];
+  BB00676405 -> BB00676416 [color="red"];
+  BB00676416 -> BB00676419 [color="blue"];
+  BB00676419 -> BB006763e8 [color="green"];
+  BB00676419 -> BB00676425 [color="red"];
+  BB00676425 -> BB00676431 [color="red"];
+  BB00676440 -> BB0067644c [color="red"];
+  BB00676468 -> BB00676431 [color="blue"];
+}

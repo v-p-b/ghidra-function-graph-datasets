@@ -1,0 +1,29 @@
+digraph SSL_CTX_dane_mtype_set {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004890b0 -> BB004890d1 [color="green"];
+  BB004890b0 -> BB004890cc [color="red"];
+  BB004890cc -> BB00489118 [color="green"];
+  BB004890cc -> BB004890d1 [color="red"];
+  BB004890d1 -> BB00489160 [color="green"];
+  BB004890d1 -> BB004890e3 [color="red"];
+  BB004890e3 -> BB004890eb [color="blue"];
+  BB00489160 -> BB00489270 [color="green"];
+  BB00489160 -> BB0048919a [color="red"];
+  BB0048919a -> BB00489270 [color="green"];
+  BB0048919a -> BB004891c7 [color="red"];
+  BB004891c7 -> BB0048923f [color="green"];
+  BB004891c7 -> BB004891e0 [color="red"];
+  BB004891e0 -> BB0048920d [color="green"];
+  BB004891e0 -> BB00489205 [color="red"];
+  BB00489205 -> BB00489258 [color="green"];
+  BB00489205 -> BB0048920d [color="red"];
+  BB0048920d -> BB00401080 [color="green"];
+  BB0048920d -> BB00401080 [color="green"];
+  BB0048920d -> BB00489237 [color="red"];
+  BB00489237 -> BB0048923f [color="blue"];
+  BB0048923f -> BB004890eb [color="blue"];
+  BB00489258 -> BB00489258 [color="green"];
+  BB00489258 -> BB0048926d [color="red"];
+  BB0048926d -> BB00489237 [color="blue"];
+}

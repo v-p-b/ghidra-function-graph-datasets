@@ -1,0 +1,23 @@
+digraph ossl_quic_hdr_protector_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c3a20 -> BB004c3b60 [color="green"];
+  BB004c3a20 -> BB004c3a48 [color="red"];
+  BB004c3a48 -> BB004c3aa0 [color="green"];
+  BB004c3a48 -> BB004c3a4d [color="red"];
+  BB004c3a4d -> BB004c3b50 [color="green"];
+  BB004c3a4d -> BB004c3a56 [color="red"];
+  BB004c3aa0 -> BB004c3aa7 [color="blue"];
+  BB004c3aa7 -> BB004c3bc0 [color="green"];
+  BB004c3aa7 -> BB004c3ac3 [color="red"];
+  BB004c3ac3 -> BB004c3aea [color="green"];
+  BB004c3ac3 -> BB004c3ada [color="red"];
+  BB004c3ada -> BB004c3b70 [color="green"];
+  BB004c3ada -> BB004c3aea [color="red"];
+  BB004c3aea -> BB004c3afb [color="red"];
+  BB004c3b50 -> BB004c3aa7 [color="blue"];
+  BB004c3b60 -> BB004c3aa7 [color="blue"];
+  BB004c3b70 -> BB004c3c08 [color="green"];
+  BB004c3b70 -> BB004c3b8f [color="red"];
+  BB004c3c08 -> BB004c3afb [color="blue"];
+}

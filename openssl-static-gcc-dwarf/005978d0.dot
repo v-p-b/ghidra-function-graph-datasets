@@ -1,0 +1,10 @@
+digraph ossl_ec_GFp_simple_group_copy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005978d0 -> BB00597928 [color="green"];
+  BB005978d0 -> BB005978ee [color="red"];
+  BB005978ee -> BB00597928 [color="green"];
+  BB005978ee -> BB00597900 [color="red"];
+  BB00597900 -> BB00597928 [color="green"];
+  BB00597900 -> BB00597912 [color="red"];
+}

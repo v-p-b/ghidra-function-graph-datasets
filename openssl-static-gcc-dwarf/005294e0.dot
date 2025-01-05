@@ -1,0 +1,26 @@
+digraph buffer_gets {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005294e0 -> BB00529510 [color="red"];
+  BB00529510 -> BB0052957f [color="green"];
+  BB00529510 -> BB00529518 [color="red"];
+  BB00529518 -> BB00529561 [color="green"];
+  BB00529518 -> BB00529523 [color="red"];
+  BB00529523 -> BB00529530 [color="blue"];
+  BB00529530 -> BB005295a8 [color="green"];
+  BB00529530 -> BB00529541 [color="red"];
+  BB00529541 -> BB00529530 [color="green"];
+  BB00529541 -> BB00529554 [color="red"];
+  BB00529554 -> BB00529561 [color="blue"];
+  BB00529561 -> BB005295b3 [color="green"];
+  BB00529561 -> BB00529577 [color="red"];
+  BB00529577 -> BB00529518 [color="green"];
+  BB00529577 -> BB0052957f [color="red"];
+  BB0052957f -> BB005295c6 [color="green"];
+  BB0052957f -> BB00529590 [color="red"];
+  BB00529590 -> BB00529510 [color="blue"];
+  BB005295a8 -> BB005295b3 [color="blue"];
+  BB005295b3 -> BB005295b6 [color="blue"];
+  BB005295c6 -> BB005295b6 [color="green"];
+  BB005295c6 -> BB005295da [color="red"];
+}

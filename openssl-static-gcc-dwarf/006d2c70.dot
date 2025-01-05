@@ -1,0 +1,25 @@
+digraph dsa_has {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006d2c70 -> BB006d2ce0 [color="green"];
+  BB006d2c70 -> BB006d2c85 [color="red"];
+  BB006d2c85 -> BB006d2ce0 [color="green"];
+  BB006d2c85 -> BB006d2c89 [color="red"];
+  BB006d2c89 -> BB006d2cf0 [color="green"];
+  BB006d2c89 -> BB006d2c8e [color="red"];
+  BB006d2c8e -> BB006d2cd0 [color="green"];
+  BB006d2c8e -> BB006d2c93 [color="red"];
+  BB006d2c93 -> BB006d2ca5 [color="green"];
+  BB006d2c93 -> BB006d2c98 [color="red"];
+  BB006d2c98 -> BB006d2ce0 [color="green"];
+  BB006d2c98 -> BB006d2ca5 [color="red"];
+  BB006d2ca5 -> BB006d2cf0 [color="green"];
+  BB006d2ca5 -> BB006d2caa [color="red"];
+  BB006d2caa -> BB006d2ce0 [color="green"];
+  BB006d2caa -> BB006d2cb7 [color="red"];
+  BB006d2cb7 -> BB006d2ce2 [color="blue"];
+  BB006d2cd0 -> BB006d2c93 [color="green"];
+  BB006d2cd0 -> BB006d2cdd [color="red"];
+  BB006d2cdd -> BB006d2ce0 [color="blue"];
+  BB006d2ce0 -> BB006d2ce2 [color="blue"];
+}

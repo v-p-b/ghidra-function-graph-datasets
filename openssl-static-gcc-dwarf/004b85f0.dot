@@ -1,0 +1,15 @@
+digraph ossl_qrx_key_update_timeout {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b85f0 -> BB004b8649 [color="green"];
+  BB004b85f0 -> BB004b8615 [color="red"];
+  BB004b8615 -> BB004b8638 [color="green"];
+  BB004b8615 -> BB004b861e [color="red"];
+  BB004b861e -> BB004b862e [color="green"];
+  BB004b861e -> BB004b8628 [color="red"];
+  BB004b8628 -> BB004b8650 [color="green"];
+  BB004b8628 -> BB004b862e [color="red"];
+  BB004b8638 -> BB004b861e [color="green"];
+  BB004b8638 -> BB004b8649 [color="red"];
+  BB004b8650 -> BB004b862e [color="blue"];
+}

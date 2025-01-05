@@ -1,0 +1,25 @@
+digraph append_buf {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0041f580 -> BB00401100 [color="green"];
+  BB0041f580 -> BB0041f658 [color="green"];
+  BB0041f580 -> BB0041f5ae [color="red"];
+  BB0041f5ae -> BB00401100 [color="green"];
+  BB0041f5ae -> BB0041f610 [color="green"];
+  BB0041f5ae -> BB0041f5cb [color="red"];
+  BB0041f5cb -> BB0041f690 [color="green"];
+  BB0041f5cb -> BB0041f5d7 [color="red"];
+  BB0041f5d7 -> BB0041f5e9 [color="blue"];
+  BB0041f5e9 -> BB00401090 [color="green"];
+  BB0041f5e9 -> BB0041f5f9 [color="red"];
+  BB0041f610 -> BB0041f5e9 [color="green"];
+  BB0041f610 -> BB0041f614 [color="red"];
+  BB0041f614 -> BB0041f6d0 [color="green"];
+  BB0041f614 -> BB0041f650 [color="red"];
+  BB0041f650 -> BB0041f5e9 [color="blue"];
+  BB0041f658 -> BB0041f5e9 [color="blue"];
+  BB0041f690 -> BB0041f6d0 [color="green"];
+  BB0041f690 -> BB0041f6c2 [color="red"];
+  BB0041f6c2 -> BB0041f5d7 [color="blue"];
+  BB0041f6d0 -> BB0041f5f9 [color="blue"];
+}

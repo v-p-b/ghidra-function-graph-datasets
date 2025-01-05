@@ -1,0 +1,17 @@
+digraph X509_check_ca {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0066ab10 -> BB0066ab73 [color="green"];
+  BB0066ab10 -> BB0066ab1d [color="red"];
+  BB0066ab1d -> BB0066ab73 [color="green"];
+  BB0066ab1d -> BB0066ab36 [color="red"];
+  BB0066ab36 -> BB0066ab78 [color="green"];
+  BB0066ab36 -> BB0066ab43 [color="red"];
+  BB0066ab43 -> BB0066ab80 [color="green"];
+  BB0066ab43 -> BB0066ab4f [color="red"];
+  BB0066ab4f -> BB0066ab73 [color="green"];
+  BB0066ab4f -> BB0066ab59 [color="red"];
+  BB0066ab59 -> BB0066ab73 [color="green"];
+  BB0066ab59 -> BB0066ab60 [color="red"];
+  BB0066ab60 -> BB0066ab73 [color="blue"];
+}

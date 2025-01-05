@@ -1,0 +1,37 @@
+digraph memalign_check {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00889110 -> BB008891f0 [color="green"];
+  BB00889110 -> BB00889124 [color="red"];
+  BB00889124 -> BB008891a0 [color="green"];
+  BB00889124 -> BB0088912a [color="red"];
+  BB0088912a -> BB00889208 [color="green"];
+  BB0088912a -> BB00889139 [color="red"];
+  BB00889139 -> BB00889268 [color="green"];
+  BB00889139 -> BB00889149 [color="red"];
+  BB00889149 -> BB00889155 [color="blue"];
+  BB00889155 -> BB00889230 [color="green"];
+  BB00889155 -> BB00889181 [color="red"];
+  BB00889181 -> BB00889188 [color="blue"];
+  BB008891a0 -> BB00889220 [color="green"];
+  BB008891a0 -> BB008891af [color="red"];
+  BB008891af -> BB00889208 [color="green"];
+  BB008891af -> BB008891be [color="red"];
+  BB008891be -> BB0088928e [color="green"];
+  BB008891be -> BB008891cb [color="red"];
+  BB008891cb -> BB00889139 [color="green"];
+  BB008891cb -> BB008891da [color="red"];
+  BB008891da -> BB008891e0 [color="blue"];
+  BB008891e0 -> BB008891e0 [color="green"];
+  BB008891e0 -> BB008891e8 [color="red"];
+  BB008891e8 -> BB00889139 [color="blue"];
+  BB00889208 -> BB00889216 [color="blue"];
+  BB00889220 -> BB00889216 [color="blue"];
+  BB00889230 -> BB00889188 [color="green"];
+  BB00889230 -> BB00889241 [color="red"];
+  BB00889241 -> BB00889188 [color="blue"];
+  BB00889268 -> BB00889155 [color="green"];
+  BB00889268 -> BB0088927d [color="red"];
+  BB0088927d -> BB00889155 [color="blue"];
+  BB0088928e -> BB00889139 [color="blue"];
+}

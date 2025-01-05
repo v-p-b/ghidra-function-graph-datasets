@@ -1,0 +1,14 @@
+digraph ec_to_PrivateKeyInfo_der_does_selection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b3b20 -> BB006b3b3f [color="green"];
+  BB006b3b20 -> BB006b3b29 [color="red"];
+  BB006b3b29 -> BB006b3b45 [color="green"];
+  BB006b3b29 -> BB006b3b30 [color="red"];
+  BB006b3b30 -> BB006b3b40 [color="green"];
+  BB006b3b30 -> BB006b3b36 [color="red"];
+  BB006b3b36 -> BB006b3b50 [color="green"];
+  BB006b3b36 -> BB006b3b3f [color="red"];
+  BB006b3b40 -> BB006b3b45 [color="blue"];
+  BB006b3b50 -> BB006b3b45 [color="blue"];
+}

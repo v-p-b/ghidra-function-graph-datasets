@@ -1,0 +1,17 @@
+digraph ossl_sframe_list_lock_head {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004bcd00 -> BB004bcd10 [color="green"];
+  BB004bcd00 -> BB004bcd07 [color="red"];
+  BB004bcd10 -> BB004bcd80 [color="green"];
+  BB004bcd10 -> BB004bcd1f [color="red"];
+  BB004bcd1f -> BB004bcd68 [color="green"];
+  BB004bcd1f -> BB004bcd28 [color="red"];
+  BB004bcd28 -> BB004bcd68 [color="green"];
+  BB004bcd28 -> BB004bcd31 [color="red"];
+  BB004bcd31 -> BB004bcd60 [color="green"];
+  BB004bcd31 -> BB004bcd50 [color="red"];
+  BB004bcd60 -> BB004bcd50 [color="blue"];
+  BB004bcd68 -> BB004bcd75 [color="blue"];
+  BB004bcd80 -> BB004bcd75 [color="blue"];
+}

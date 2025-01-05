@@ -1,0 +1,9 @@
+digraph rsa_newctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00690670 -> BB006906b0 [color="green"];
+  BB00690670 -> BB00690686 [color="red"];
+  BB00690686 -> BB006906b0 [color="green"];
+  BB00690686 -> BB006906a4 [color="red"];
+  BB006906a4 -> BB006906b0 [color="red"];
+}

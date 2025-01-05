@@ -1,0 +1,9 @@
+digraph ossl_statem_set_renegotiate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ddcd0 -> BB004ddd04 [color="green"];
+  BB004ddcd0 -> BB004ddcea [color="red"];
+  BB004ddcea -> BB004ddd04 [color="green"];
+  BB004ddcea -> BB004ddcf6 [color="red"];
+  BB004ddcf6 -> BB004ddd04 [color="blue"];
+}

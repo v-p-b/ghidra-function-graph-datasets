@@ -1,0 +1,15 @@
+digraph conn_recvmmsg {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00534fe0 -> BB005350a8 [color="green"];
+  BB00534fe0 -> BB00534ffa [color="red"];
+  BB00534ffa -> BB00535040 [color="green"];
+  BB00534ffa -> BB0053500f [color="red"];
+  BB0053500f -> BB00535068 [color="green"];
+  BB0053500f -> BB00535018 [color="red"];
+  BB00535040 -> BB0053500f [color="green"];
+  BB00535040 -> BB0053504c [color="red"];
+  BB0053504c -> BB00535053 [color="blue"];
+  BB00535068 -> BB00535053 [color="blue"];
+  BB005350a8 -> BB00535053 [color="blue"];
+}

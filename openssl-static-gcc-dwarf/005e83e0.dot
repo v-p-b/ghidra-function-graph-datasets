@@ -1,0 +1,37 @@
+digraph ossl_decode_der_dsa_sig {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e83e0 -> BB005e83f0 [color="green"];
+  BB005e83e0 -> BB005e83e5 [color="red"];
+  BB005e83f0 -> BB005e83e5 [color="green"];
+  BB005e83f0 -> BB005e83f8 [color="red"];
+  BB005e83f8 -> BB005e83e5 [color="green"];
+  BB005e83f8 -> BB005e83fe [color="red"];
+  BB005e83fe -> BB005e84b0 [color="green"];
+  BB005e83fe -> BB005e841d [color="red"];
+  BB005e841d -> BB005e84d0 [color="green"];
+  BB005e841d -> BB005e8429 [color="red"];
+  BB005e8429 -> BB005e84a0 [color="green"];
+  BB005e8429 -> BB005e8431 [color="red"];
+  BB005e8431 -> BB005e84a0 [color="green"];
+  BB005e8431 -> BB005e8437 [color="red"];
+  BB005e8437 -> BB005e84a0 [color="green"];
+  BB005e8437 -> BB005e844b [color="red"];
+  BB005e844b -> BB005e8460 [color="blue"];
+  BB005e8460 -> BB005e84a0 [color="green"];
+  BB005e8460 -> BB005e8479 [color="red"];
+  BB005e8479 -> BB005e84a0 [color="green"];
+  BB005e8479 -> BB005e8488 [color="red"];
+  BB005e8488 -> BB005e84a0 [color="green"];
+  BB005e8488 -> BB005e8490 [color="red"];
+  BB005e8490 -> BB005e84a2 [color="blue"];
+  BB005e84a0 -> BB005e84a2 [color="blue"];
+  BB005e84b0 -> BB005e84a0 [color="green"];
+  BB005e84b0 -> BB005e84b5 [color="red"];
+  BB005e84b5 -> BB005e8460 [color="blue"];
+  BB005e84d0 -> BB005e84a0 [color="green"];
+  BB005e84d0 -> BB005e84d5 [color="red"];
+  BB005e84d5 -> BB005e84a0 [color="green"];
+  BB005e84d5 -> BB005e84e2 [color="red"];
+  BB005e84e2 -> BB005e8460 [color="blue"];
+}

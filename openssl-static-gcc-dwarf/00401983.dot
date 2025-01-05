@@ -1,0 +1,15 @@
+digraph _IO_seekoff.cold {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00401983 -> BB004019b4 [color="green"];
+  BB00401983 -> BB0040198b [color="red"];
+  BB0040198b -> BB004019b4 [color="green"];
+  BB0040198b -> BB0040199d [color="red"];
+  BB0040199d -> BB004019bc [color="green"];
+  BB0040199d -> BB004019b1 [color="red"];
+  BB004019b1 -> BB004019b4 [color="blue"];
+  BB004019b4 -> BB004019b7 [color="blue"];
+  BB004019bc -> BB004019b4 [color="green"];
+  BB004019bc -> BB004019c3 [color="red"];
+  BB004019c3 -> BB004019b4 [color="blue"];
+}

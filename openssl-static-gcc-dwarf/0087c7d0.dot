@@ -1,0 +1,16 @@
+digraph _IO_sputbackwc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0087c7d0 -> BB0087c7ee [color="green"];
+  BB0087c7d0 -> BB0087c7e9 [color="red"];
+  BB0087c7e9 -> BB0087c830 [color="green"];
+  BB0087c7e9 -> BB0087c7ee [color="red"];
+  BB0087c7ee -> BB0087c840 [color="green"];
+  BB0087c7ee -> BB0087c812 [color="red"];
+  BB0087c812 -> BB0087c818 [color="blue"];
+  BB0087c818 -> BB0087c820 [color="green"];
+  BB0087c818 -> BB0087c81d [color="red"];
+  BB0087c81d -> BB0087c820 [color="blue"];
+  BB0087c830 -> BB0087c818 [color="blue"];
+  BB0087c840 -> BB0087c812 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph CONF_get_string {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00571030 -> BB005710e0 [color="green"];
+  BB00571030 -> BB0057104a [color="red"];
+  BB0057104a -> BB00571130 [color="green"];
+  BB0057104a -> BB0057105d [color="red"];
+  BB0057105d -> BB00571090 [color="green"];
+  BB0057105d -> BB00571081 [color="red"];
+  BB005710e0 -> BB00571081 [color="green"];
+  BB005710e0 -> BB005710ef [color="red"];
+  BB00571130 -> BB0057105d [color="blue"];
+}

@@ -1,0 +1,23 @@
+digraph ASN1_object_size {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0051b2d0 -> BB0051b32d [color="green"];
+  BB0051b2d0 -> BB0051b2d4 [color="red"];
+  BB0051b2d4 -> BB0051b310 [color="green"];
+  BB0051b2d4 -> BB0051b2de [color="red"];
+  BB0051b2de -> BB0051b328 [color="green"];
+  BB0051b2de -> BB0051b2e3 [color="red"];
+  BB0051b2e3 -> BB0051b2f8 [color="green"];
+  BB0051b2e3 -> BB0051b2eb [color="red"];
+  BB0051b2eb -> BB0051b2f0 [color="blue"];
+  BB0051b2f0 -> BB0051b2f0 [color="green"];
+  BB0051b2f0 -> BB0051b2f8 [color="red"];
+  BB0051b2f8 -> BB0051b32d [color="green"];
+  BB0051b2f8 -> BB0051b303 [color="red"];
+  BB0051b310 -> BB0051b2de [color="green"];
+  BB0051b310 -> BB0051b318 [color="red"];
+  BB0051b318 -> BB0051b310 [color="green"];
+  BB0051b318 -> BB0051b320 [color="red"];
+  BB0051b320 -> BB0051b2de [color="blue"];
+  BB0051b328 -> BB0051b2f8 [color="blue"];
+}

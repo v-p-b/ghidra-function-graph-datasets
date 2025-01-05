@@ -1,0 +1,13 @@
+digraph KEM_encaps_loop {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0044d4c0 -> BB0044d55c [color="green"];
+  BB0044d4c0 -> BB0044d511 [color="red"];
+  BB0044d511 -> BB0044d546 [color="blue"];
+  BB0044d520 -> BB0044d570 [color="green"];
+  BB0044d520 -> BB0044d538 [color="red"];
+  BB0044d538 -> BB0044d55c [color="green"];
+  BB0044d538 -> BB0044d546 [color="red"];
+  BB0044d546 -> BB0044d520 [color="green"];
+  BB0044d546 -> BB0044d55c [color="red"];
+}

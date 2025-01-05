@@ -1,0 +1,16 @@
+digraph tls12_get_psigalgs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004a03b0 -> BB004a0410 [color="green"];
+  BB004a03b0 -> BB004a03c6 [color="red"];
+  BB004a03c6 -> BB004a0400 [color="green"];
+  BB004a03c6 -> BB004a03cd [color="red"];
+  BB004a03cd -> BB004a03f0 [color="green"];
+  BB004a03cd -> BB004a03d4 [color="red"];
+  BB004a03d4 -> BB004a0420 [color="green"];
+  BB004a03d4 -> BB004a03d9 [color="red"];
+  BB004a03d9 -> BB004a0438 [color="green"];
+  BB004a03d9 -> BB004a03e2 [color="red"];
+  BB004a0420 -> BB004a03d9 [color="green"];
+  BB004a0420 -> BB004a0429 [color="red"];
+}

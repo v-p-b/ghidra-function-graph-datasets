@@ -1,0 +1,9 @@
+digraph ossl_quic_demux_set_bio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ff180 -> BB004ff1ab [color="green"];
+  BB004ff180 -> BB004ff18c [color="red"];
+  BB004ff18c -> BB004ff1ab [color="green"];
+  BB004ff18c -> BB004ff1a4 [color="red"];
+  BB004ff1a4 -> BB004ff1ab [color="blue"];
+}

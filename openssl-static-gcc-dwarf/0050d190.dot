@@ -1,0 +1,28 @@
+digraph ossl_ackm_on_timeout {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0050d190 -> BB0050d230 [color="green"];
+  BB0050d190 -> BB0050d1b2 [color="red"];
+  BB0050d1b2 -> BB0050d278 [color="green"];
+  BB0050d1b2 -> BB0050d1bb [color="red"];
+  BB0050d1bb -> BB0050d288 [color="green"];
+  BB0050d1bb -> BB0050d1cc [color="red"];
+  BB0050d1cc -> BB0050d210 [color="green"];
+  BB0050d1cc -> BB0050d1e3 [color="red"];
+  BB0050d1e3 -> BB0050d268 [color="green"];
+  BB0050d1e3 -> BB0050d1ec [color="red"];
+  BB0050d1ec -> BB0050d1f3 [color="blue"];
+  BB0050d1f3 -> BB0050d1fa [color="blue"];
+  BB0050d210 -> BB0050d1f3 [color="blue"];
+  BB0050d230 -> BB0050d1b2 [color="green"];
+  BB0050d230 -> BB0050d23b [color="red"];
+  BB0050d23b -> BB0050d1bb [color="green"];
+  BB0050d23b -> BB0050d244 [color="red"];
+  BB0050d244 -> BB0050d248 [color="blue"];
+  BB0050d248 -> BB0050d1fa [color="green"];
+  BB0050d248 -> BB0050d258 [color="red"];
+  BB0050d258 -> BB0050d1fa [color="blue"];
+  BB0050d268 -> BB0050d1f3 [color="blue"];
+  BB0050d278 -> BB0050d23b [color="blue"];
+  BB0050d288 -> BB0050d248 [color="blue"];
+}

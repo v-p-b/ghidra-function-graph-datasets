@@ -1,0 +1,18 @@
+digraph PKCS12_item_i2d_encrypt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0061eb70 -> BB0061ec40 [color="green"];
+  BB0061eb70 -> BB0061ebac [color="red"];
+  BB0061ebac -> BB0061ec80 [color="green"];
+  BB0061ebac -> BB0061ebcc [color="red"];
+  BB0061ebcc -> BB0061ecb8 [color="green"];
+  BB0061ebcc -> BB0061ebf7 [color="red"];
+  BB0061ebf7 -> BB0061ec30 [color="green"];
+  BB0061ebf7 -> BB0061ec04 [color="red"];
+  BB0061ec04 -> BB0061ec15 [color="red"];
+  BB0061ec30 -> BB0061ec04 [color="blue"];
+  BB0061ec40 -> BB0061ec70 [color="red"];
+  BB0061ec70 -> BB0061ec15 [color="blue"];
+  BB0061ec80 -> BB0061ec70 [color="blue"];
+  BB0061ecb8 -> BB0061ec70 [color="blue"];
+}

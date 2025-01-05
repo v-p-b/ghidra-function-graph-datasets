@@ -1,0 +1,16 @@
+digraph ossl_quic_sstream_adjust_iov {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004be4d0 -> BB004be51d [color="green"];
+  BB004be4d0 -> BB004be4d5 [color="red"];
+  BB004be4d5 -> BB004be4f9 [color="blue"];
+  BB004be4e8 -> BB004be4f0 [color="blue"];
+  BB004be4f0 -> BB004be51d [color="green"];
+  BB004be4f0 -> BB004be4f9 [color="red"];
+  BB004be4f9 -> BB004be4e8 [color="green"];
+  BB004be4f9 -> BB004be505 [color="red"];
+  BB004be505 -> BB004be4f0 [color="green"];
+  BB004be505 -> BB004be50a [color="red"];
+  BB004be50a -> BB004be4f9 [color="green"];
+  BB004be50a -> BB004be51d [color="red"];
+}

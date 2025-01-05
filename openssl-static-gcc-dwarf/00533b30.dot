@@ -1,0 +1,12 @@
+digraph BIO_accept_ex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00533b30 -> BB00533b98 [color="green"];
+  BB00533b30 -> BB00533b73 [color="red"];
+  BB00533b73 -> BB00533c12 [color="green"];
+  BB00533b73 -> BB00533b8a [color="red"];
+  BB00533b98 -> BB00533b8a [color="green"];
+  BB00533b98 -> BB00533ba6 [color="red"];
+  BB00533ba6 -> BB00533b8a [color="blue"];
+  BB00533c12 -> BB00533b8a [color="blue"];
+}

@@ -1,0 +1,9 @@
+digraph x25519_newctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006c1550 -> BB006c1585 [color="green"];
+  BB006c1550 -> BB006c1563 [color="red"];
+  BB006c1563 -> BB006c1585 [color="green"];
+  BB006c1563 -> BB006c157e [color="red"];
+  BB006c157e -> BB006c1585 [color="blue"];
+}

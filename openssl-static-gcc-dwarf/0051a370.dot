@@ -1,0 +1,19 @@
+digraph bitstr_cb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0051a370 -> BB0051a3af [color="green"];
+  BB0051a370 -> BB0051a37d [color="red"];
+  BB0051a37d -> BB0051a3c0 [color="green"];
+  BB0051a37d -> BB0051a3a2 [color="red"];
+  BB0051a3a2 -> BB0051a3c0 [color="green"];
+  BB0051a3a2 -> BB0051a3a7 [color="red"];
+  BB0051a3a7 -> BB0051a3c0 [color="green"];
+  BB0051a3a7 -> BB0051a3af [color="red"];
+  BB0051a3af -> BB0051a3b2 [color="blue"];
+  BB0051a3c0 -> BB0051a3f0 [color="green"];
+  BB0051a3c0 -> BB0051a3c5 [color="red"];
+  BB0051a3c5 -> BB0051a428 [color="green"];
+  BB0051a3c5 -> BB0051a3d9 [color="red"];
+  BB0051a3f0 -> BB0051a3af [color="blue"];
+  BB0051a428 -> BB0051a3b2 [color="blue"];
+}

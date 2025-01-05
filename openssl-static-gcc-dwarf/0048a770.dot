@@ -1,0 +1,15 @@
+digraph SSL_get_peer_cert_chain {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048a770 -> BB0048a7a0 [color="green"];
+  BB0048a770 -> BB0048a775 [color="red"];
+  BB0048a775 -> BB0048a78b [color="green"];
+  BB0048a775 -> BB0048a77b [color="red"];
+  BB0048a77b -> BB0048a7a2 [color="green"];
+  BB0048a77b -> BB0048a782 [color="red"];
+  BB0048a782 -> BB0048a7a2 [color="green"];
+  BB0048a782 -> BB0048a78b [color="red"];
+  BB0048a78b -> BB0048a7a2 [color="green"];
+  BB0048a78b -> BB0048a797 [color="red"];
+  BB0048a7a0 -> BB0048a7a2 [color="blue"];
+}

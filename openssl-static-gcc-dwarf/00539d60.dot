@@ -1,0 +1,11 @@
+digraph BIO_fd_non_fatal_error {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00539d60 -> BB00539d9e [color="green"];
+  BB00539d60 -> BB00539d67 [color="red"];
+  BB00539d67 -> BB00539d80 [color="green"];
+  BB00539d67 -> BB00539d6c [color="red"];
+  BB00539d6c -> BB00539d9e [color="green"];
+  BB00539d6c -> BB00539d76 [color="red"];
+  BB00539d80 -> BB00539d9e [color="blue"];
+}

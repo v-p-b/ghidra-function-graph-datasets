@@ -1,0 +1,19 @@
+digraph tls1_clear {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0049ede0 -> BB0049ee50 [color="green"];
+  BB0049ede0 -> BB0049ede5 [color="red"];
+  BB0049ede5 -> BB0049ee20 [color="green"];
+  BB0049ede5 -> BB0049edf4 [color="red"];
+  BB0049edf4 -> BB0049edf7 [color="blue"];
+  BB0049edf7 -> BB0049ee2e [color="green"];
+  BB0049edf7 -> BB0049ee03 [color="red"];
+  BB0049ee03 -> BB0049ee40 [color="green"];
+  BB0049ee03 -> BB0049ee10 [color="red"];
+  BB0049ee20 -> BB0049ee2e [color="green"];
+  BB0049ee20 -> BB0049ee25 [color="red"];
+  BB0049ee25 -> BB0049edf7 [color="green"];
+  BB0049ee25 -> BB0049ee2e [color="red"];
+  BB0049ee2e -> BB0049ee30 [color="blue"];
+  BB0049ee40 -> BB0049ee30 [color="blue"];
+}

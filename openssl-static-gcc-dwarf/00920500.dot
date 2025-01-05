@@ -1,0 +1,14 @@
+digraph _dl_build_local_scope {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00920500 -> BB00920580 [color="green"];
+  BB00920500 -> BB00920527 [color="red"];
+  BB00920527 -> BB0092055f [color="green"];
+  BB00920527 -> BB0092053f [color="red"];
+  BB0092053f -> BB00920568 [color="green"];
+  BB0092053f -> BB00920548 [color="red"];
+  BB00920548 -> BB0092053f [color="green"];
+  BB00920548 -> BB00920555 [color="red"];
+  BB00920555 -> BB0092055f [color="blue"];
+  BB00920568 -> BB00920548 [color="blue"];
+}

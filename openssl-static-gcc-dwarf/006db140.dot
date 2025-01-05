@@ -1,0 +1,11 @@
+digraph kmac_get_ctx_params {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006db140 -> BB006db170 [color="green"];
+  BB006db140 -> BB006db160 [color="red"];
+  BB006db160 -> BB006db1af [color="green"];
+  BB006db160 -> BB006db170 [color="red"];
+  BB006db170 -> BB006db1af [color="green"];
+  BB006db170 -> BB006db18c [color="red"];
+  BB006db18c -> BB006db1af [color="red"];
+}

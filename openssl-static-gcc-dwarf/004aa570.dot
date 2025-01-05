@@ -1,0 +1,20 @@
+digraph tls13_update_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004aa570 -> BB004aa728 [color="green"];
+  BB004aa570 -> BB004aa5a9 [color="red"];
+  BB004aa5a9 -> BB004aa5c0 [color="green"];
+  BB004aa5a9 -> BB004aa5b9 [color="red"];
+  BB004aa5b9 -> BB004aa5c0 [color="blue"];
+  BB004aa5c0 -> BB004aa688 [color="green"];
+  BB004aa5c0 -> BB004aa636 [color="red"];
+  BB004aa636 -> BB004aa639 [color="blue"];
+  BB004aa639 -> BB004aa66e [color="green"];
+  BB004aa639 -> BB004aa65d [color="red"];
+  BB004aa65d -> BB004aa66e [color="red"];
+  BB004aa688 -> BB00401070 [color="green"];
+  BB004aa688 -> BB004aa636 [color="green"];
+  BB004aa688 -> BB004aa6ec [color="red"];
+  BB004aa6ec -> BB004aa639 [color="blue"];
+  BB004aa728 -> BB004aa66e [color="blue"];
+}

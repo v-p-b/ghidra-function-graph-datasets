@@ -1,0 +1,13 @@
+digraph TS_CONF_set_def_policy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0064f0d0 -> BB0064f120 [color="green"];
+  BB0064f0d0 -> BB0064f0e3 [color="red"];
+  BB0064f0e3 -> BB0064f180 [color="green"];
+  BB0064f0e3 -> BB0064f0f9 [color="red"];
+  BB0064f0f9 -> BB0064f10d [color="red"];
+  BB0064f120 -> BB0064f0e3 [color="green"];
+  BB0064f120 -> BB0064f134 [color="red"];
+  BB0064f134 -> BB0064f10d [color="blue"];
+  BB0064f180 -> BB0064f10d [color="blue"];
+}

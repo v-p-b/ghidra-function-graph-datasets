@@ -1,0 +1,19 @@
+digraph asn1_item_embed_d2i {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005213e0 -> BB00521478 [color="green"];
+  BB005213e0 -> BB00521409 [color="red"];
+  BB00521409 -> BB00521478 [color="green"];
+  BB00521409 -> BB00521411 [color="red"];
+  BB00521411 -> BB00521900 [color="green"];
+  BB00521411 -> BB0052141d [color="red"];
+  BB0052141d -> BB0052143e [color="green"];
+  BB0052141d -> BB00521435 [color="red"];
+  BB00521435 -> BB0052143e [color="blue"];
+  BB0052143e -> BB005218a0 [color="green"];
+  BB0052143e -> BB00521451 [color="red"];
+  BB00521451 -> BB005219a0 [color="green"];
+  BB00521451 -> BB0052145c [color="red"];
+  BB00521478 -> BB005214aa [color="red"];
+  BB005219a0 -> BB005214aa [color="blue"];
+}

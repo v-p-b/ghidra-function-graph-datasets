@@ -1,0 +1,15 @@
+digraph ossl_quic_conn_set_override_now_cb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ae9a0 -> BB004aea00 [color="green"];
+  BB004ae9a0 -> BB004ae9a9 [color="red"];
+  BB004ae9a9 -> BB004ae9e4 [color="green"];
+  BB004ae9a9 -> BB004ae9b0 [color="red"];
+  BB004ae9b0 -> BB004ae9e0 [color="green"];
+  BB004ae9b0 -> BB004ae9b5 [color="red"];
+  BB004ae9b5 -> BB004ae9da [color="red"];
+  BB004ae9da -> BB004aea25 [color="green"];
+  BB004ae9da -> BB004ae9de [color="red"];
+  BB004ae9e0 -> BB004ae9e4 [color="blue"];
+  BB004aea00 -> BB004ae9da [color="blue"];
+}

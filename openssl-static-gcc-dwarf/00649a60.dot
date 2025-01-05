@@ -1,0 +1,16 @@
+digraph OPENSSL_sk_pop_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00649a60 -> BB00649ae0 [color="green"];
+  BB00649a60 -> BB00649a65 [color="red"];
+  BB00649a65 -> BB00649a9b [color="green"];
+  BB00649a65 -> BB00649a76 [color="red"];
+  BB00649a76 -> BB00649a80 [color="blue"];
+  BB00649a80 -> BB00649ad0 [color="green"];
+  BB00649a80 -> BB00649a89 [color="red"];
+  BB00649a89 -> BB00649a80 [color="green"];
+  BB00649a89 -> BB00649a9b [color="red"];
+  BB00649ad0 -> BB00649a80 [color="green"];
+  BB00649ad0 -> BB00649ad8 [color="red"];
+  BB00649ad8 -> BB00649a9b [color="blue"];
+}

@@ -1,0 +1,19 @@
+digraph OCSP_accept_responses_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00610750 -> BB006107c9 [color="green"];
+  BB00610750 -> BB00610764 [color="red"];
+  BB00610764 -> BB00610774 [color="green"];
+  BB00610764 -> BB00610769 [color="red"];
+  BB00610769 -> BB006107a0 [color="blue"];
+  BB00610770 -> BB00610774 [color="blue"];
+  BB00610774 -> BB006107a0 [color="green"];
+  BB00610774 -> BB0061077c [color="red"];
+  BB0061077c -> BB00610770 [color="green"];
+  BB0061077c -> BB00610785 [color="red"];
+  BB00610785 -> BB00610770 [color="green"];
+  BB00610785 -> BB00610794 [color="red"];
+  BB00610794 -> BB00610770 [color="blue"];
+  BB006107a0 -> BB006107b2 [color="red"];
+  BB006107c9 -> BB006107b2 [color="blue"];
+}

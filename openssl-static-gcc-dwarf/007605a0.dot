@@ -1,0 +1,14 @@
+digraph get_dh_dsa_payload_g {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB007605a0 -> BB007605f0 [color="green"];
+  BB007605a0 -> BB007605bb [color="red"];
+  BB007605bb -> BB007605e2 [color="green"];
+  BB007605bb -> BB007605c0 [color="red"];
+  BB007605c0 -> BB007605d2 [color="red"];
+  BB007605d2 -> BB007605e2 [color="green"];
+  BB007605d2 -> BB007605d7 [color="red"];
+  BB007605d7 -> BB00760608 [color="green"];
+  BB007605d7 -> BB007605e2 [color="red"];
+  BB007605f0 -> BB007605d2 [color="blue"];
+}

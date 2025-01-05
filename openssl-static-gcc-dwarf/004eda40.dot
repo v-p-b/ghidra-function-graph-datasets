@@ -1,0 +1,30 @@
+digraph construct_ca_names {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004eda40 -> BB004edb60 [color="green"];
+  BB004eda40 -> BB004eda6e [color="red"];
+  BB004eda6e -> BB004edaf0 [color="green"];
+  BB004eda6e -> BB004eda73 [color="red"];
+  BB004eda73 -> BB004edaf0 [color="green"];
+  BB004eda73 -> BB004eda81 [color="red"];
+  BB004eda81 -> BB004edadb [color="blue"];
+  BB004eda90 -> BB004edb20 [color="green"];
+  BB004eda90 -> BB004edaa2 [color="red"];
+  BB004edaa2 -> BB004edb20 [color="green"];
+  BB004edaa2 -> BB004edab2 [color="red"];
+  BB004edab2 -> BB004edb20 [color="green"];
+  BB004edab2 -> BB004edac9 [color="red"];
+  BB004edac9 -> BB004edb20 [color="green"];
+  BB004edac9 -> BB004edad8 [color="red"];
+  BB004edad8 -> BB004edadb [color="blue"];
+  BB004edadb -> BB004eda90 [color="green"];
+  BB004edadb -> BB004edae7 [color="red"];
+  BB004edae7 -> BB004edaf0 [color="blue"];
+  BB004edaf0 -> BB004edba0 [color="green"];
+  BB004edaf0 -> BB004edb03 [color="red"];
+  BB004edb03 -> BB004edb09 [color="blue"];
+  BB004edb20 -> BB004edb09 [color="blue"];
+  BB004edb60 -> BB004edb74 [color="red"];
+  BB004edb74 -> BB004edb09 [color="blue"];
+  BB004edba0 -> BB004edb74 [color="blue"];
+}

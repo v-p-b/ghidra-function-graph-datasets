@@ -1,0 +1,13 @@
+digraph CONF_get_section {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00570f80 -> BB00570fd0 [color="green"];
+  BB00570f80 -> BB00570f87 [color="red"];
+  BB00570f87 -> BB00570fd8 [color="green"];
+  BB00570f87 -> BB00570fa1 [color="red"];
+  BB00570fa1 -> BB00570ff0 [color="green"];
+  BB00570fa1 -> BB00570fb4 [color="red"];
+  BB00570fb4 -> BB00570fbf [color="red"];
+  BB00570fd8 -> BB00570fa1 [color="blue"];
+  BB00570ff0 -> BB00570fbf [color="blue"];
+}

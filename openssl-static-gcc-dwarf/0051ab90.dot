@@ -1,0 +1,11 @@
+digraph ASN1_generate_nconf {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0051ab90 -> BB0051ac20 [color="green"];
+  BB0051ab90 -> BB0051aba3 [color="red"];
+  BB0051aba3 -> BB0051abe0 [color="green"];
+  BB0051aba3 -> BB0051abd5 [color="red"];
+  BB0051ac20 -> BB0051abd5 [color="green"];
+  BB0051ac20 -> BB0051ac3f [color="red"];
+  BB0051ac3f -> BB0051abd5 [color="blue"];
+}

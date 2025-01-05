@@ -1,0 +1,9 @@
+digraph eddsa_newctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006ed020 -> BB006ed060 [color="green"];
+  BB006ed020 -> BB006ed036 [color="red"];
+  BB006ed036 -> BB006ed060 [color="green"];
+  BB006ed036 -> BB006ed054 [color="red"];
+  BB006ed054 -> BB006ed060 [color="red"];
+}

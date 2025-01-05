@@ -1,0 +1,24 @@
+digraph ossl_quic_txfc_consume_credit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ffde0 -> BB004ffe50 [color="green"];
+  BB004ffde0 -> BB004ffdf3 [color="red"];
+  BB004ffdf3 -> BB004ffe04 [color="blue"];
+  BB004ffe04 -> BB004ffe12 [color="green"];
+  BB004ffe04 -> BB004ffe09 [color="red"];
+  BB004ffe09 -> BB004ffe12 [color="green"];
+  BB004ffe09 -> BB004ffe0e [color="red"];
+  BB004ffe0e -> BB004ffe12 [color="blue"];
+  BB004ffe12 -> BB004ffe46 [color="green"];
+  BB004ffe12 -> BB004ffe1e [color="red"];
+  BB004ffe1e -> BB004ffe60 [color="green"];
+  BB004ffe1e -> BB004ffe31 [color="red"];
+  BB004ffe31 -> BB004ffe80 [color="green"];
+  BB004ffe31 -> BB004ffe39 [color="red"];
+  BB004ffe39 -> BB004ffe80 [color="green"];
+  BB004ffe39 -> BB004ffe3e [color="red"];
+  BB004ffe3e -> BB004ffe46 [color="blue"];
+  BB004ffe50 -> BB004ffe04 [color="blue"];
+  BB004ffe60 -> BB004ffe78 [color="green"];
+  BB004ffe60 -> BB004ffe65 [color="red"];
+}

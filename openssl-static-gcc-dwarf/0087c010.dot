@@ -1,0 +1,9 @@
+digraph __woverflow {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0087c010 -> BB0087c060 [color="green"];
+  BB0087c010 -> BB0087c024 [color="red"];
+  BB0087c024 -> BB0087c070 [color="green"];
+  BB0087c024 -> BB0087c048 [color="red"];
+  BB0087c060 -> BB0087c024 [color="blue"];
+}

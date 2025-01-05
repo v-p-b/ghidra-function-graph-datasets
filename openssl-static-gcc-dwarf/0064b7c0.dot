@@ -1,0 +1,14 @@
+digraph OSSL_STORE_SEARCH_by_key_fingerprint {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0064b7c0 -> BB0064b82e [color="green"];
+  BB0064b7c0 -> BB0064b7f3 [color="red"];
+  BB0064b7f3 -> BB0064b8b0 [color="green"];
+  BB0064b7f3 -> BB0064b805 [color="red"];
+  BB0064b805 -> BB0064b811 [color="green"];
+  BB0064b805 -> BB0064b80a [color="red"];
+  BB0064b80a -> BB0064b840 [color="green"];
+  BB0064b80a -> BB0064b811 [color="red"];
+  BB0064b811 -> BB0064b82e [color="blue"];
+  BB0064b8b0 -> BB0064b82e [color="blue"];
+}

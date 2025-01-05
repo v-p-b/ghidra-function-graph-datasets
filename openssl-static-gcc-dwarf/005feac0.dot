@@ -1,0 +1,14 @@
+digraph ossl_provider_up_ref {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005feac0 -> BB005feaf0 [color="green"];
+  BB005feac0 -> BB005feadb [color="red"];
+  BB005feaf0 -> BB005feadb [color="green"];
+  BB005feaf0 -> BB005feafe [color="red"];
+  BB005feafe -> BB005feb20 [color="green"];
+  BB005feafe -> BB005feb0e [color="red"];
+  BB005feb0e -> BB005feadb [color="blue"];
+  BB005feb20 -> BB005feadb [color="green"];
+  BB005feb20 -> BB005feb2c [color="red"];
+  BB005feb2c -> BB005feadb [color="blue"];
+}

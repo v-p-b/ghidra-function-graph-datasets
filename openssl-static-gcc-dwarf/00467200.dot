@@ -1,0 +1,14 @@
+digraph load_crl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00467200 -> BB00467260 [color="green"];
+  BB00467200 -> BB0046722c [color="red"];
+  BB0046722c -> BB004672a0 [color="green"];
+  BB0046722c -> BB00467246 [color="red"];
+  BB00467246 -> BB004672c8 [color="green"];
+  BB00467246 -> BB00467260 [color="red"];
+  BB00467260 -> BB00467292 [color="red"];
+  BB004672c8 -> BB00467292 [color="green"];
+  BB004672c8 -> BB004672e0 [color="red"];
+  BB004672e0 -> BB00467292 [color="blue"];
+}

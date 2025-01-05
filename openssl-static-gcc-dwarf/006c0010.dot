@@ -1,0 +1,9 @@
+digraph dh_newctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006c0010 -> BB006c0059 [color="green"];
+  BB006c0010 -> BB006c0026 [color="red"];
+  BB006c0026 -> BB006c0059 [color="green"];
+  BB006c0026 -> BB006c0044 [color="red"];
+  BB006c0044 -> BB006c0059 [color="red"];
+}

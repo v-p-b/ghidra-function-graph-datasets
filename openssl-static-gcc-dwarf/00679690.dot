@@ -1,0 +1,26 @@
+digraph X509v3_add_ext {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00679690 -> BB006797f0 [color="green"];
+  BB00679690 -> BB006796a1 [color="red"];
+  BB006796a1 -> BB00679708 [color="green"];
+  BB006796a1 -> BB006796b1 [color="red"];
+  BB006796b1 -> BB006796c6 [color="green"];
+  BB006796b1 -> BB006796c0 [color="red"];
+  BB006796c0 -> BB006796c6 [color="blue"];
+  BB006796c6 -> BB00679760 [color="green"];
+  BB006796c6 -> BB006796da [color="red"];
+  BB006796da -> BB006797b8 [color="green"];
+  BB006796da -> BB006796f0 [color="red"];
+  BB006796f0 -> BB00679750 [color="green"];
+  BB006796f0 -> BB006796f6 [color="red"];
+  BB00679708 -> BB006796b1 [color="green"];
+  BB00679708 -> BB00679715 [color="red"];
+  BB00679715 -> BB00679790 [color="blue"];
+  BB00679760 -> BB00679790 [color="red"];
+  BB00679790 -> BB00679830 [color="green"];
+  BB00679790 -> BB006797a2 [color="red"];
+  BB006797b8 -> BB00679790 [color="blue"];
+  BB006797f0 -> BB006796f6 [color="blue"];
+  BB00679830 -> BB006796f6 [color="blue"];
+}

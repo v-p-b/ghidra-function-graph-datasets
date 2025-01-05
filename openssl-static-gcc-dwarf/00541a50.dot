@@ -1,0 +1,19 @@
+digraph BN_mod_sub {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00541a50 -> BB00541a70 [color="green"];
+  BB00541a50 -> BB00541a66 [color="red"];
+  BB00541a66 -> BB00541a68 [color="blue"];
+  BB00541a70 -> BB00541ac0 [color="green"];
+  BB00541a70 -> BB00541a75 [color="red"];
+  BB00541a75 -> BB00541a66 [color="green"];
+  BB00541a75 -> BB00541a8c [color="red"];
+  BB00541a8c -> BB00541ab8 [color="green"];
+  BB00541a8c -> BB00541a93 [color="red"];
+  BB00541a93 -> BB00541af8 [color="green"];
+  BB00541a93 -> BB00541a9c [color="red"];
+  BB00541a9c -> BB00541aa3 [color="blue"];
+  BB00541ab8 -> BB00541a68 [color="blue"];
+  BB00541ac0 -> BB00541a66 [color="blue"];
+  BB00541af8 -> BB00541aa3 [color="blue"];
+}

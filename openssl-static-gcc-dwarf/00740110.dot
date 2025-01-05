@@ -1,0 +1,20 @@
+digraph pkey_dsa_paramgen {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00740110 -> BB007401d8 [color="green"];
+  BB00740110 -> BB00740133 [color="red"];
+  BB00740133 -> BB007401c1 [color="green"];
+  BB00740133 -> BB00740146 [color="red"];
+  BB00740146 -> BB00740151 [color="red"];
+  BB00740151 -> BB007401f0 [color="green"];
+  BB00740151 -> BB00740162 [color="red"];
+  BB00740162 -> BB00740181 [color="green"];
+  BB00740162 -> BB0074016f [color="red"];
+  BB0074016f -> BB00740181 [color="red"];
+  BB00740181 -> BB007401e0 [color="green"];
+  BB00740181 -> BB007401b1 [color="red"];
+  BB007401b1 -> BB007401c1 [color="red"];
+  BB007401d8 -> BB00740151 [color="blue"];
+  BB007401e0 -> BB007401c1 [color="blue"];
+  BB007401f0 -> BB007401c1 [color="blue"];
+}

@@ -1,0 +1,19 @@
+digraph sha256_multi_block_avx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00843420 -> BB00843440 [color="green"];
+  BB00843420 -> BB00843429 [color="red"];
+  BB00843429 -> BB00843435 [color="red"];
+  BB00843435 -> BB00843440 [color="blue"];
+  BB00843440 -> BB00843471 [color="blue"];
+  BB00843471 -> BB008454f6 [color="green"];
+  BB00843471 -> BB008434d4 [color="red"];
+  BB008434d4 -> BB00843520 [color="blue"];
+  BB00843520 -> BB00844280 [color="blue"];
+  BB00844280 -> BB00844280 [color="green"];
+  BB00844280 -> BB00845402 [color="red"];
+  BB00845402 -> BB00843520 [color="green"];
+  BB00845402 -> BB008454df [color="red"];
+  BB008454df -> BB00843471 [color="green"];
+  BB008454df -> BB008454f6 [color="red"];
+}

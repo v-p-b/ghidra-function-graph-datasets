@@ -1,0 +1,10 @@
+digraph clock_nanosleep {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0091bb30 -> BB0091bb70 [color="green"];
+  BB0091bb30 -> BB0091bb35 [color="red"];
+  BB0091bb35 -> BB0091bb80 [color="green"];
+  BB0091bb35 -> BB0091bb53 [color="red"];
+  BB0091bb53 -> BB0091bb5a [color="blue"];
+  BB0091bb80 -> BB0091bb5a [color="blue"];
+}

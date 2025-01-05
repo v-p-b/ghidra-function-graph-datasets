@@ -1,0 +1,19 @@
+digraph CRYPTO_128_wrap.part.0 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0060b860 -> BB00401020 [color="green"];
+  BB0060b860 -> BB0060b89f [color="green"];
+  BB0060b860 -> BB0060b89c [color="red"];
+  BB0060b89c -> BB0060b89f [color="blue"];
+  BB0060b89f -> BB0060b92c [color="green"];
+  BB0060b89f -> BB0060b8be [color="red"];
+  BB0060b8be -> BB0060b8c0 [color="blue"];
+  BB0060b8c0 -> BB0060b8c8 [color="blue"];
+  BB0060b8c8 -> BB0060b90c [color="green"];
+  BB0060b8c8 -> BB0060b8eb [color="red"];
+  BB0060b8eb -> BB0060b90c [color="blue"];
+  BB0060b90c -> BB0060b8c8 [color="green"];
+  BB0060b90c -> BB0060b924 [color="red"];
+  BB0060b924 -> BB0060b8c0 [color="green"];
+  BB0060b924 -> BB0060b92c [color="red"];
+}

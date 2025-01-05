@@ -1,0 +1,16 @@
+digraph X509_NAME_get_index_by_NID {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006821a0 -> BB0068223c [color="green"];
+  BB006821a0 -> BB006821c0 [color="red"];
+  BB006821c0 -> BB00682228 [color="green"];
+  BB006821c0 -> BB006821c5 [color="red"];
+  BB006821c5 -> BB006821f9 [color="green"];
+  BB006821c5 -> BB006821eb [color="red"];
+  BB006821eb -> BB00682228 [color="blue"];
+  BB006821f0 -> BB00682228 [color="green"];
+  BB006821f0 -> BB006821f9 [color="red"];
+  BB006821f9 -> BB006821f0 [color="green"];
+  BB006821f9 -> BB00682213 [color="red"];
+  BB0068223c -> BB00682213 [color="blue"];
+}

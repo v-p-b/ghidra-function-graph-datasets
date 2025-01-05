@@ -1,0 +1,20 @@
+digraph tls_construct_ctos_alpn {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d44e0 -> BB004d45c8 [color="green"];
+  BB004d44e0 -> BB004d44f8 [color="red"];
+  BB004d44f8 -> BB004d451e [color="green"];
+  BB004d44f8 -> BB004d450f [color="red"];
+  BB004d450f -> BB004d457a [color="green"];
+  BB004d450f -> BB004d451e [color="red"];
+  BB004d451e -> BB004d4545 [color="green"];
+  BB004d451e -> BB004d4534 [color="red"];
+  BB004d4534 -> BB004d4588 [color="green"];
+  BB004d4534 -> BB004d4545 [color="red"];
+  BB004d4545 -> BB004d457a [color="red"];
+  BB004d4588 -> BB004d4545 [color="green"];
+  BB004d4588 -> BB004d45a7 [color="red"];
+  BB004d45a7 -> BB004d4545 [color="green"];
+  BB004d45a7 -> BB004d45b3 [color="red"];
+  BB004d45b3 -> BB004d457a [color="blue"];
+}

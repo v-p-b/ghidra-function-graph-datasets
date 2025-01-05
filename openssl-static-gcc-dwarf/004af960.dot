@@ -1,0 +1,20 @@
+digraph ossl_quic_get_rpoll_descriptor {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004af960 -> BB004afa50 [color="green"];
+  BB004af960 -> BB004af981 [color="red"];
+  BB004af981 -> BB004afa00 [color="green"];
+  BB004af981 -> BB004af988 [color="red"];
+  BB004af988 -> BB004af9d0 [color="green"];
+  BB004af988 -> BB004af98d [color="red"];
+  BB004af98d -> BB004af9a6 [color="blue"];
+  BB004af9a6 -> BB004afa20 [color="green"];
+  BB004af9a6 -> BB004af9ab [color="red"];
+  BB004af9ab -> BB004afa20 [color="green"];
+  BB004af9ab -> BB004af9b8 [color="red"];
+  BB004af9d0 -> BB004af9f5 [color="red"];
+  BB004af9f5 -> BB004af9a6 [color="green"];
+  BB004af9f5 -> BB004af9f9 [color="red"];
+  BB004afa00 -> BB004af9a6 [color="blue"];
+  BB004afa50 -> BB004af9f5 [color="blue"];
+}

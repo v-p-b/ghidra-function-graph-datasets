@@ -1,0 +1,22 @@
+digraph OCSP_response_status_str {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00610d30 -> BB00610d5b [color="green"];
+  BB00610d30 -> BB00610d35 [color="red"];
+  BB00610d35 -> BB00610d67 [color="green"];
+  BB00610d35 -> BB00610d3b [color="red"];
+  BB00610d3b -> BB00610d79 [color="green"];
+  BB00610d3b -> BB00610d41 [color="red"];
+  BB00610d41 -> BB00610d82 [color="green"];
+  BB00610d41 -> BB00610d47 [color="red"];
+  BB00610d47 -> BB00610d8b [color="green"];
+  BB00610d47 -> BB00610d4d [color="red"];
+  BB00610d4d -> BB00610d70 [color="green"];
+  BB00610d4d -> BB00610d5a [color="red"];
+  BB00610d5b -> BB00610d62 [color="blue"];
+  BB00610d67 -> BB00610d62 [color="blue"];
+  BB00610d70 -> BB00610d62 [color="blue"];
+  BB00610d79 -> BB00610d62 [color="blue"];
+  BB00610d82 -> BB00610d62 [color="blue"];
+  BB00610d8b -> BB00610d62 [color="blue"];
+}

@@ -1,0 +1,23 @@
+digraph BN_is_prime_ex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00545f30 -> BB00545fe0 [color="green"];
+  BB00545f30 -> BB00545f76 [color="red"];
+  BB00545f76 -> BB00545fe8 [color="green"];
+  BB00545f76 -> BB00545f82 [color="red"];
+  BB00545f82 -> BB00545fc7 [color="green"];
+  BB00545f82 -> BB00545f99 [color="red"];
+  BB00545f99 -> BB00546040 [color="green"];
+  BB00545f99 -> BB00545fab [color="red"];
+  BB00545fab -> BB00546008 [color="green"];
+  BB00545fab -> BB00545fbd [color="red"];
+  BB00545fbd -> BB00545fc7 [color="red"];
+  BB00545fe0 -> BB00545fc7 [color="blue"];
+  BB00546008 -> BB00545fbd [color="green"];
+  BB00546008 -> BB0054602b [color="red"];
+  BB0054602b -> BB00545fbd [color="blue"];
+  BB00546040 -> BB00546060 [color="green"];
+  BB00546040 -> BB0054604d [color="red"];
+  BB0054604d -> BB00545fab [color="blue"];
+  BB00546060 -> BB00545fbd [color="blue"];
+}

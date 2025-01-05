@@ -1,0 +1,11 @@
+digraph ossl_digest_get_approved_nid {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0085a4e0 -> BB0085a530 [color="green"];
+  BB0085a4e0 -> BB0085a4e5 [color="red"];
+  BB0085a4e5 -> BB0085a500 [color="blue"];
+  BB0085a500 -> BB0085a520 [color="green"];
+  BB0085a500 -> BB0085a510 [color="red"];
+  BB0085a510 -> BB0085a500 [color="green"];
+  BB0085a510 -> BB0085a519 [color="red"];
+}

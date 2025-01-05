@@ -1,0 +1,17 @@
+digraph quic_release_record {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00502da0 -> BB00502e00 [color="green"];
+  BB00502da0 -> BB00502db3 [color="red"];
+  BB00502db3 -> BB00502e00 [color="green"];
+  BB00502db3 -> BB00502dc9 [color="red"];
+  BB00502dc9 -> BB00502e00 [color="green"];
+  BB00502dc9 -> BB00502dce [color="red"];
+  BB00502dce -> BB00502df3 [color="green"];
+  BB00502dce -> BB00502ddd [color="red"];
+  BB00502ddd -> BB00502e52 [color="green"];
+  BB00502ddd -> BB00502deb [color="red"];
+  BB00502deb -> BB00502df3 [color="blue"];
+  BB00502e00 -> BB00502e18 [color="red"];
+  BB00502e52 -> BB00502e18 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph dtls1_read_failed {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004e8550 -> BB004e85a0 [color="green"];
+  BB004e8550 -> BB004e855d [color="red"];
+  BB004e855d -> BB004e8578 [color="green"];
+  BB004e855d -> BB004e8568 [color="red"];
+  BB004e8578 -> BB004e8568 [color="green"];
+  BB004e8578 -> BB004e8584 [color="red"];
+  BB004e8584 -> BB004e85e0 [color="green"];
+  BB004e8584 -> BB004e8593 [color="red"];
+  BB004e85e0 -> BB004e8568 [color="blue"];
+}

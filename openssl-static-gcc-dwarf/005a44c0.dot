@@ -1,0 +1,18 @@
+digraph look_str_cb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005a44c0 -> BB005a44f0 [color="green"];
+  BB005a44c0 -> BB005a44da [color="red"];
+  BB005a44f0 -> BB005a4503 [color="blue"];
+  BB005a4500 -> BB005a4503 [color="blue"];
+  BB005a4503 -> BB005a44da [color="green"];
+  BB005a4503 -> BB005a450f [color="red"];
+  BB005a450f -> BB005a4500 [color="green"];
+  BB005a450f -> BB005a4534 [color="red"];
+  BB005a4534 -> BB00401100 [color="green"];
+  BB005a4534 -> BB005a4500 [color="green"];
+  BB005a4534 -> BB005a454d [color="red"];
+  BB005a454d -> BB005a4500 [color="green"];
+  BB005a454d -> BB005a455d [color="red"];
+  BB005a455d -> BB005a44da [color="blue"];
+}

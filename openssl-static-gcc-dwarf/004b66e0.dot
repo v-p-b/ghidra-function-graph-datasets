@@ -1,0 +1,20 @@
+digraph ossl_quic_port_create_incoming {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b66e0 -> BB004b6758 [color="green"];
+  BB004b66e0 -> BB004b670d [color="red"];
+  BB004b670d -> BB004b6810 [color="green"];
+  BB004b670d -> BB004b6747 [color="red"];
+  BB004b6758 -> BB004b6810 [color="green"];
+  BB004b6758 -> BB004b6772 [color="red"];
+  BB004b6772 -> BB004b6820 [color="green"];
+  BB004b6772 -> BB004b677c [color="red"];
+  BB004b677c -> BB004b6810 [color="green"];
+  BB004b677c -> BB004b6785 [color="red"];
+  BB004b6785 -> BB004b6810 [color="green"];
+  BB004b6785 -> BB004b6792 [color="red"];
+  BB004b6792 -> BB004b6747 [color="green"];
+  BB004b6792 -> BB004b67f2 [color="red"];
+  BB004b67f2 -> BB004b6747 [color="blue"];
+  BB004b6820 -> BB004b6792 [color="blue"];
+}

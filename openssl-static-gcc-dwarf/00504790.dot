@@ -1,0 +1,27 @@
+digraph tx_helper_commit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00504790 -> BB005047b0 [color="green"];
+  BB00504790 -> BB005047a7 [color="red"];
+  BB005047b0 -> BB005048b8 [color="green"];
+  BB005047b0 -> BB005047cc [color="red"];
+  BB005047cc -> BB005048b8 [color="green"];
+  BB005047cc -> BB005047e5 [color="red"];
+  BB005047e5 -> BB00504891 [color="green"];
+  BB005047e5 -> BB005047fb [color="red"];
+  BB005047fb -> BB00504891 [color="green"];
+  BB005047fb -> BB00504804 [color="red"];
+  BB00504804 -> BB005048e0 [color="green"];
+  BB00504804 -> BB0050480a [color="red"];
+  BB0050480a -> BB005048e0 [color="green"];
+  BB0050480a -> BB00504831 [color="red"];
+  BB00504831 -> BB0050485d [color="green"];
+  BB00504831 -> BB00504840 [color="red"];
+  BB00504840 -> BB00504858 [color="green"];
+  BB00504840 -> BB0050484d [color="red"];
+  BB0050484d -> BB0050485d [color="green"];
+  BB0050484d -> BB00504858 [color="red"];
+  BB00504858 -> BB0050485d [color="blue"];
+  BB0050485d -> BB00504891 [color="blue"];
+  BB005048e0 -> BB005047a7 [color="blue"];
+}

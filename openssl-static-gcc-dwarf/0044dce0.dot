@@ -1,0 +1,13 @@
+digraph GHASH_loop {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0044dce0 -> BB0044dd4c [color="green"];
+  BB0044dce0 -> BB0044dcfe [color="red"];
+  BB0044dcfe -> BB0044dd36 [color="blue"];
+  BB0044dd08 -> BB0044dd58 [color="green"];
+  BB0044dd08 -> BB0044dd28 [color="red"];
+  BB0044dd28 -> BB0044dd4c [color="green"];
+  BB0044dd28 -> BB0044dd36 [color="red"];
+  BB0044dd36 -> BB0044dd08 [color="green"];
+  BB0044dd36 -> BB0044dd4c [color="red"];
+}

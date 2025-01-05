@@ -1,0 +1,17 @@
+digraph OPENSSL_sk_unshift {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00649880 -> BB00649940 [color="green"];
+  BB00649880 -> BB0064988f [color="red"];
+  BB0064988f -> BB00649900 [color="green"];
+  BB0064988f -> BB0064989a [color="red"];
+  BB0064989a -> BB006498d3 [color="green"];
+  BB0064989a -> BB006498ad [color="red"];
+  BB006498ad -> BB006498e0 [color="green"];
+  BB006498ad -> BB006498c3 [color="red"];
+  BB006498c3 -> BB006498c7 [color="blue"];
+  BB006498c7 -> BB006498d3 [color="blue"];
+  BB006498e0 -> BB00401020 [color="blue"];
+  BB006498e0 -> BB006498c7 [color="blue"];
+  BB00649940 -> BB006498d3 [color="blue"];
+}

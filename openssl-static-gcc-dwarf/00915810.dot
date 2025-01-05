@@ -1,0 +1,23 @@
+digraph __vdprintf_internal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00915810 -> BB00915977 [color="green"];
+  BB00915810 -> BB00915897 [color="red"];
+  BB00915897 -> BB009158f1 [color="green"];
+  BB00915897 -> BB009158be [color="red"];
+  BB009158be -> BB00915950 [color="green"];
+  BB009158be -> BB009158cd [color="red"];
+  BB009158cd -> BB009158f7 [color="green"];
+  BB009158cd -> BB009158f1 [color="red"];
+  BB009158f1 -> BB009158f7 [color="blue"];
+  BB009158f7 -> BB00915970 [color="green"];
+  BB009158f7 -> BB0091591c [color="red"];
+  BB0091591c -> BB00915925 [color="blue"];
+  BB00915925 -> BB00915987 [color="green"];
+  BB00915925 -> BB00915938 [color="red"];
+  BB00915950 -> BB009158f1 [color="green"];
+  BB00915950 -> BB0091596a [color="red"];
+  BB0091596a -> BB009158f7 [color="blue"];
+  BB00915970 -> BB0091591c [color="blue"];
+  BB00915977 -> BB00915925 [color="blue"];
+}

@@ -1,0 +1,9 @@
+digraph DTLS_set_timer_cb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004781c0 -> BB004781d9 [color="green"];
+  BB004781c0 -> BB004781c5 [color="red"];
+  BB004781c5 -> BB004781d9 [color="green"];
+  BB004781c5 -> BB004781cb [color="red"];
+  BB004781cb -> BB004781d9 [color="blue"];
+}

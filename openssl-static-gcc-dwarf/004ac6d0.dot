@@ -1,0 +1,9 @@
+digraph quic_shutdown_flush_wait {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ac6d0 -> BB004ac700 [color="green"];
+  BB004ac6d0 -> BB004ac6ed [color="red"];
+  BB004ac700 -> BB004ac6ed [color="green"];
+  BB004ac700 -> BB004ac715 [color="red"];
+  BB004ac715 -> BB004ac6ed [color="blue"];
+}

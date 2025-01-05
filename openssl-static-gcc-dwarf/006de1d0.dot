@@ -1,0 +1,17 @@
+digraph ossl_drbg_enable_locking {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006de1d0 -> BB006de1e5 [color="green"];
+  BB006de1d0 -> BB006de1dc [color="red"];
+  BB006de1dc -> BB006de200 [color="green"];
+  BB006de1dc -> BB006de1e5 [color="red"];
+  BB006de1e5 -> BB006de1eb [color="blue"];
+  BB006de200 -> BB006de216 [color="green"];
+  BB006de200 -> BB006de209 [color="red"];
+  BB006de209 -> BB006de260 [color="green"];
+  BB006de209 -> BB006de216 [color="red"];
+  BB006de216 -> BB006de1e5 [color="green"];
+  BB006de216 -> BB006de223 [color="red"];
+  BB006de223 -> BB006de1eb [color="blue"];
+  BB006de260 -> BB006de1eb [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph poly1305_blocks_avx512 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0082a4e0 -> BB0082a4e4 [color="blue"];
+  BB0082a4e4 -> BB0082aab2 [color="green"];
+  BB0082a4e4 -> BB0082a878 [color="red"];
+  BB0082a878 -> BB0082a880 [color="blue"];
+  BB0082a880 -> BB0082a880 [color="green"];
+  BB0082a880 -> BB0082aab2 [color="red"];
+  BB0082aab2 -> BB0082a2f0 [color="green"];
+  BB0082aab2 -> BB0082add8 [color="red"];
+}

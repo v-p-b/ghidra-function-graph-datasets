@@ -1,0 +1,30 @@
+digraph strerror_r {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0088ba30 -> BB0088bab0 [color="green"];
+  BB0088ba30 -> BB0088ba5a [color="red"];
+  BB0088ba5a -> BB0088bb70 [color="green"];
+  BB0088ba5a -> BB0088ba69 [color="red"];
+  BB0088ba69 -> BB0088bb70 [color="green"];
+  BB0088ba69 -> BB0088ba7d [color="red"];
+  BB0088ba7d -> BB0088bbe1 [color="green"];
+  BB0088ba7d -> BB0088ba91 [color="red"];
+  BB0088bab0 -> BB00401100 [color="green"];
+  BB0088bab0 -> BB004010c0 [color="green"];
+  BB0088bab0 -> BB0088bbd3 [color="green"];
+  BB0088bab0 -> BB0088bb12 [color="red"];
+  BB0088bb12 -> BB0088bb3f [color="green"];
+  BB0088bb12 -> BB0088bb22 [color="red"];
+  BB0088bb22 -> BB00401070 [color="green"];
+  BB0088bb22 -> BB0088bb3f [color="red"];
+  BB0088bb3f -> BB0088bb45 [color="blue"];
+  BB0088bb45 -> BB0088bbe1 [color="green"];
+  BB0088bb45 -> BB0088bb59 [color="red"];
+  BB0088bb70 -> BB00401100 [color="green"];
+  BB0088bb70 -> BB004010c0 [color="green"];
+  BB0088bb70 -> BB0088bb22 [color="green"];
+  BB0088bb70 -> BB0088bbd3 [color="red"];
+  BB0088bbd3 -> BB0088bb45 [color="green"];
+  BB0088bbd3 -> BB0088bbdc [color="red"];
+  BB0088bbdc -> BB0088bb3f [color="blue"];
+}

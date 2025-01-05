@@ -1,0 +1,15 @@
+digraph ENGINE_register_all_pkey_asn1_meths {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005a4600 -> BB005a467a [color="green"];
+  BB005a4600 -> BB005a4610 [color="red"];
+  BB005a4610 -> BB005a4630 [color="blue"];
+  BB005a4620 -> BB005a467a [color="green"];
+  BB005a4620 -> BB005a4630 [color="red"];
+  BB005a4630 -> BB005a4620 [color="green"];
+  BB005a4630 -> BB005a4639 [color="red"];
+  BB005a4639 -> BB005a4620 [color="green"];
+  BB005a4639 -> BB005a4649 [color="red"];
+  BB005a4649 -> BB005a4630 [color="green"];
+  BB005a4649 -> BB005a467a [color="red"];
+}

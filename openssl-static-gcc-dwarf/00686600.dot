@@ -1,0 +1,35 @@
+digraph x509_name_ex_d2i {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00686600 -> BB00686722 [color="green"];
+  BB00686600 -> BB00686666 [color="red"];
+  BB00686666 -> BB006866b9 [color="green"];
+  BB00686666 -> BB0068666e [color="red"];
+  BB0068666e -> BB006866b9 [color="red"];
+  BB006866b9 -> BB00686730 [color="green"];
+  BB006866b9 -> BB006866c9 [color="red"];
+  BB006866c9 -> BB006866df [color="green"];
+  BB006866c9 -> BB006866d3 [color="red"];
+  BB006866d3 -> BB006866df [color="red"];
+  BB006866df -> BB00686722 [color="red"];
+  BB00686730 -> BB006866c9 [color="green"];
+  BB00686730 -> BB0068674f [color="red"];
+  BB0068674f -> BB00401070 [color="green"];
+  BB0068674f -> BB0068676f [color="red"];
+  BB0068676f -> BB006867df [color="green"];
+  BB0068676f -> BB0068677e [color="red"];
+  BB0068677e -> BB006867cd [color="blue"];
+  BB00686798 -> BB006866c9 [color="green"];
+  BB00686798 -> BB006867be [color="red"];
+  BB006867be -> BB006867cd [color="red"];
+  BB006867cd -> BB00686798 [color="green"];
+  BB006867cd -> BB006867d9 [color="red"];
+  BB006867d9 -> BB0068676f [color="blue"];
+  BB006867df -> BB00686848 [color="green"];
+  BB006867df -> BB0068680e [color="red"];
+  BB0068680e -> BB00686815 [color="blue"];
+  BB00686815 -> BB00686722 [color="blue"];
+  BB00686848 -> BB006866c9 [color="green"];
+  BB00686848 -> BB00686858 [color="red"];
+  BB00686858 -> BB00686815 [color="blue"];
+}

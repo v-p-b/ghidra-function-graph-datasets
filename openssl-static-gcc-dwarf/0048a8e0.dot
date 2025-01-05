@@ -1,0 +1,10 @@
+digraph SSL_CTX_check_private_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048a8e0 -> BB0048a910 [color="green"];
+  BB0048a8e0 -> BB0048a8e9 [color="red"];
+  BB0048a8e9 -> BB0048a910 [color="green"];
+  BB0048a8e9 -> BB0048a8fb [color="red"];
+  BB0048a8fb -> BB0048a950 [color="green"];
+  BB0048a8fb -> BB0048a904 [color="red"];
+}

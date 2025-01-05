@@ -1,0 +1,23 @@
+digraph tls_construct_server_certificate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004efa40 -> BB004efb90 [color="green"];
+  BB004efa40 -> BB004efa5e [color="red"];
+  BB004efa5e -> BB004efa90 [color="green"];
+  BB004efa5e -> BB004efa76 [color="red"];
+  BB004efa76 -> BB004efa90 [color="green"];
+  BB004efa76 -> BB004efa7f [color="red"];
+  BB004efa7f -> BB004efb40 [color="green"];
+  BB004efa7f -> BB004efa8a [color="red"];
+  BB004efa8a -> BB004efa90 [color="blue"];
+  BB004efa90 -> BB004efb10 [color="green"];
+  BB004efa90 -> BB004efa9b [color="red"];
+  BB004efa9b -> BB004efae8 [color="green"];
+  BB004efa9b -> BB004efa9f [color="red"];
+  BB004efa9f -> BB004efab0 [color="red"];
+  BB004efae8 -> BB004efb00 [color="red"];
+  BB004efb40 -> BB004efa90 [color="green"];
+  BB004efb40 -> BB004efb57 [color="red"];
+  BB004efb57 -> BB004efb00 [color="blue"];
+  BB004efb90 -> BB004efab0 [color="blue"];
+}

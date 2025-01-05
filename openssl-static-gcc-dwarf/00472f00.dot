@@ -1,0 +1,10 @@
+digraph tlsext_cb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00472f00 -> BB00472f2d [color="blue"];
+  BB00472f20 -> BB00472f88 [color="green"];
+  BB00472f20 -> BB00472f2d [color="red"];
+  BB00472f2d -> BB00472f20 [color="green"];
+  BB00472f2d -> BB00472f32 [color="red"];
+  BB00472f88 -> BB00472f32 [color="blue"];
+}

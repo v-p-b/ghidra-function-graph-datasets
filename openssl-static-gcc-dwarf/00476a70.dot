@@ -1,0 +1,15 @@
+digraph dtls1_clear_sent_buffer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00476a70 -> BB00476ab8 [color="blue"];
+  BB00476a80 -> BB00476aa8 [color="green"];
+  BB00476a80 -> BB00476a8d [color="red"];
+  BB00476a8d -> BB00476aa8 [color="green"];
+  BB00476a8d -> BB00476a97 [color="red"];
+  BB00476a97 -> BB00476aa8 [color="green"];
+  BB00476a97 -> BB00476aa5 [color="red"];
+  BB00476aa5 -> BB00476aa8 [color="blue"];
+  BB00476aa8 -> BB00476ab8 [color="red"];
+  BB00476ab8 -> BB00476a80 [color="green"];
+  BB00476ab8 -> BB00476ad3 [color="red"];
+}

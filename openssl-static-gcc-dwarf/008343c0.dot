@@ -1,0 +1,11 @@
+digraph SHA3_absorb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008343c0 -> BB00834400 [color="blue"];
+  BB00834400 -> BB00834460 [color="green"];
+  BB00834400 -> BB00834405 [color="red"];
+  BB00834405 -> BB0083440d [color="blue"];
+  BB0083440d -> BB0083440d [color="green"];
+  BB0083440d -> BB00834429 [color="red"];
+  BB00834429 -> BB00834400 [color="blue"];
+}

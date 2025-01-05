@@ -1,0 +1,18 @@
+digraph ASN1_BIT_STRING_check {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0071a000 -> BB0071a050 [color="green"];
+  BB0071a000 -> BB0071a00a [color="red"];
+  BB0071a00a -> BB0071a050 [color="green"];
+  BB0071a00a -> BB0071a013 [color="red"];
+  BB0071a013 -> BB0071a050 [color="green"];
+  BB0071a013 -> BB0071a019 [color="red"];
+  BB0071a019 -> BB0071a028 [color="blue"];
+  BB0071a020 -> BB0071a060 [color="green"];
+  BB0071a020 -> BB0071a028 [color="red"];
+  BB0071a028 -> BB0071a038 [color="green"];
+  BB0071a028 -> BB0071a031 [color="red"];
+  BB0071a031 -> BB0071a038 [color="blue"];
+  BB0071a038 -> BB0071a020 [color="green"];
+  BB0071a038 -> BB0071a040 [color="red"];
+}

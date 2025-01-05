@@ -1,0 +1,22 @@
+digraph EVP_PKEY_public_check {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005d8320 -> BB005d83a0 [color="green"];
+  BB005d8320 -> BB005d8332 [color="red"];
+  BB005d8332 -> BB005d837a [color="green"];
+  BB005d8332 -> BB005d833e [color="red"];
+  BB005d833e -> BB005d8430 [color="green"];
+  BB005d833e -> BB005d8364 [color="red"];
+  BB005d8364 -> BB005d83d2 [color="green"];
+  BB005d8364 -> BB005d837a [color="red"];
+  BB005d837a -> BB005d83f5 [color="green"];
+  BB005d837a -> BB005d8381 [color="red"];
+  BB005d8381 -> BB005d83e0 [color="green"];
+  BB005d8381 -> BB005d8391 [color="red"];
+  BB005d83a0 -> BB005d83d2 [color="red"];
+  BB005d83e0 -> BB005d83f5 [color="green"];
+  BB005d83e0 -> BB005d83e9 [color="red"];
+  BB005d83e9 -> BB005d8391 [color="green"];
+  BB005d83e9 -> BB005d83f5 [color="red"];
+  BB005d83f5 -> BB005d83d2 [color="blue"];
+}

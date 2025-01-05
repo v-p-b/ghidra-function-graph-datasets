@@ -1,0 +1,12 @@
+digraph SSL_CTX_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048dbb0 -> BB0048dbe8 [color="green"];
+  BB0048dbb0 -> BB0048dbb7 [color="red"];
+  BB0048dbb7 -> BB0048dc18 [color="green"];
+  BB0048dbb7 -> BB0048dbca [color="red"];
+  BB0048dbca -> BB0048dc20 [color="green"];
+  BB0048dbca -> BB0048dbd3 [color="red"];
+  BB0048dbe8 -> BB0048dc18 [color="red"];
+  BB0048dc20 -> BB0048dc18 [color="blue"];
+}

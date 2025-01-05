@@ -1,0 +1,14 @@
+digraph SSL_get0_alpn_selected {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048d9d0 -> BB0048d9e9 [color="green"];
+  BB0048d9d0 -> BB0048d9d5 [color="red"];
+  BB0048d9d5 -> BB0048da00 [color="green"];
+  BB0048d9d5 -> BB0048d9db [color="red"];
+  BB0048d9db -> BB0048d9e9 [color="green"];
+  BB0048d9db -> BB0048d9e0 [color="red"];
+  BB0048d9e0 -> BB0048da00 [color="green"];
+  BB0048d9e0 -> BB0048d9e9 [color="red"];
+  BB0048da00 -> BB0048da20 [color="green"];
+  BB0048da00 -> BB0048da0f [color="red"];
+}

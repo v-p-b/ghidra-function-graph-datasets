@@ -1,0 +1,20 @@
+digraph PKCS12_set_mac {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00620ec0 -> BB00621048 [color="green"];
+  BB00620ec0 -> BB00620ef1 [color="red"];
+  BB00620ef1 -> BB00621010 [color="green"];
+  BB00620ef1 -> BB00620f21 [color="red"];
+  BB00620f21 -> BB00620fa8 [color="green"];
+  BB00620f21 -> BB00620f33 [color="red"];
+  BB00620f33 -> BB00620fd8 [color="green"];
+  BB00620f33 -> BB00620f5b [color="red"];
+  BB00620f5b -> BB00621058 [color="green"];
+  BB00620f5b -> BB00620f8a [color="red"];
+  BB00620f8a -> BB00620f90 [color="blue"];
+  BB00620fa8 -> BB00620fd8 [color="red"];
+  BB00620fd8 -> BB00620f90 [color="blue"];
+  BB00621010 -> BB00620f90 [color="blue"];
+  BB00621048 -> BB00620ef1 [color="blue"];
+  BB00621058 -> BB00620f90 [color="blue"];
+}

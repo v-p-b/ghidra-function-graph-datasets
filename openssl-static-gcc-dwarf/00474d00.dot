@@ -1,0 +1,28 @@
+digraph report_server_accept {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00474d00 -> BB00474d6b [color="green"];
+  BB00474d00 -> BB00474d2e [color="red"];
+  BB00474d2e -> BB00474da8 [color="green"];
+  BB00474d2e -> BB00474d39 [color="red"];
+  BB00474d39 -> BB00474d80 [color="green"];
+  BB00474d39 -> BB00474d3d [color="red"];
+  BB00474d3d -> BB00474d6b [color="red"];
+  BB00474d80 -> BB00474d3d [color="blue"];
+  BB00474da8 -> BB00474e30 [color="green"];
+  BB00474da8 -> BB00474dba [color="red"];
+  BB00474dba -> BB00474e40 [color="green"];
+  BB00474dba -> BB00474dcd [color="red"];
+  BB00474dcd -> BB00474ddd [color="red"];
+  BB00474ddd -> BB00474df1 [color="red"];
+  BB00474df1 -> BB00474d3d [color="green"];
+  BB00474df1 -> BB00474e21 [color="red"];
+  BB00474e21 -> BB00474d80 [color="blue"];
+  BB00474e30 -> BB00474ddd [color="blue"];
+  BB00474e40 -> BB00474ddd [color="green"];
+  BB00474e40 -> BB00474e77 [color="red"];
+  BB00474e77 -> BB00474ddd [color="green"];
+  BB00474e77 -> BB00474e80 [color="red"];
+  BB00474e80 -> BB00401040 [color="blue"];
+  BB00474e80 -> BB00474df1 [color="blue"];
+}

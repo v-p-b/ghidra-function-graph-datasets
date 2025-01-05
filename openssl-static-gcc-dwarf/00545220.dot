@@ -1,0 +1,23 @@
+digraph bn_is_prime_int.constprop.0 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00545220 -> BB005452b0 [color="green"];
+  BB00545220 -> BB0054524e [color="red"];
+  BB0054524e -> BB005452b8 [color="green"];
+  BB0054524e -> BB0054525a [color="red"];
+  BB0054525a -> BB00545296 [color="green"];
+  BB0054525a -> BB00545271 [color="red"];
+  BB00545271 -> BB00545308 [color="green"];
+  BB00545271 -> BB0054527c [color="red"];
+  BB0054527c -> BB005452d8 [color="green"];
+  BB0054527c -> BB0054528e [color="red"];
+  BB0054528e -> BB00545296 [color="red"];
+  BB005452b0 -> BB00545296 [color="blue"];
+  BB005452d8 -> BB0054528e [color="green"];
+  BB005452d8 -> BB005452f5 [color="red"];
+  BB005452f5 -> BB0054528e [color="blue"];
+  BB00545308 -> BB00545320 [color="green"];
+  BB00545308 -> BB00545315 [color="red"];
+  BB00545315 -> BB0054527c [color="blue"];
+  BB00545320 -> BB0054528e [color="blue"];
+}

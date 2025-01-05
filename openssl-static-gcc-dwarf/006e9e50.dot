@@ -1,0 +1,16 @@
+digraph ecdsa_sign_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006e9e50 -> BB006e9e7c [color="green"];
+  BB006e9e50 -> BB006e9e66 [color="red"];
+  BB006e9e66 -> BB006e9e7c [color="green"];
+  BB006e9e66 -> BB006e9e6b [color="red"];
+  BB006e9e6b -> BB006e9e88 [color="green"];
+  BB006e9e6b -> BB006e9e70 [color="red"];
+  BB006e9e70 -> BB006e9eb0 [color="green"];
+  BB006e9e70 -> BB006e9e7c [color="red"];
+  BB006e9e88 -> BB006e9ec0 [color="green"];
+  BB006e9e88 -> BB006e9e8f [color="red"];
+  BB006e9eb0 -> BB006e9e8f [color="blue"];
+  BB006e9ec0 -> BB006e9e7c [color="blue"];
+}

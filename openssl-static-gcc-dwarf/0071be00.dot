@@ -1,0 +1,11 @@
+digraph ASN1_item_sign_ex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0071be00 -> BB0071beb0 [color="green"];
+  BB0071be00 -> BB0071be41 [color="red"];
+  BB0071be41 -> BB0071be90 [color="green"];
+  BB0071be41 -> BB0071be5c [color="red"];
+  BB0071be5c -> BB0071be7e [color="red"];
+  BB0071be90 -> BB0071be5c [color="blue"];
+  BB0071beb0 -> BB0071be7e [color="blue"];
+}

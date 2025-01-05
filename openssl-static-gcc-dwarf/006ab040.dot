@@ -1,0 +1,9 @@
+digraph sha3_256_newctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006ab040 -> BB006ab09e [color="green"];
+  BB006ab040 -> BB006ab04e [color="red"];
+  BB006ab04e -> BB006ab09e [color="green"];
+  BB006ab04e -> BB006ab06c [color="red"];
+  BB006ab06c -> BB006ab09e [color="red"];
+}

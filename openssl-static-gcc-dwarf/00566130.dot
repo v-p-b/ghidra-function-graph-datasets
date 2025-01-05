@@ -1,0 +1,15 @@
+digraph ossl_cms_check_signing_certs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00566130 -> BB0056617a [color="green"];
+  BB00566130 -> BB00566162 [color="red"];
+  BB00566162 -> BB005661f0 [color="green"];
+  BB00566162 -> BB0056617a [color="red"];
+  BB0056617a -> BB005661b9 [color="green"];
+  BB0056617a -> BB005661a1 [color="red"];
+  BB005661a1 -> BB00566200 [color="green"];
+  BB005661a1 -> BB005661b9 [color="red"];
+  BB005661b9 -> BB005661d5 [color="red"];
+  BB005661f0 -> BB005661d5 [color="blue"];
+  BB00566200 -> BB005661d5 [color="blue"];
+}

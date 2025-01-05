@@ -1,0 +1,24 @@
+digraph ssl_decapsulate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0047baf0 -> BB0047bc60 [color="green"];
+  BB0047baf0 -> BB0047bb18 [color="red"];
+  BB0047bb18 -> BB0047bbd0 [color="green"];
+  BB0047bb18 -> BB0047bb46 [color="red"];
+  BB0047bb46 -> BB0047bbd0 [color="green"];
+  BB0047bb46 -> BB0047bb62 [color="red"];
+  BB0047bb62 -> BB0047bce0 [color="green"];
+  BB0047bb62 -> BB0047bb84 [color="red"];
+  BB0047bb84 -> BB0047bca0 [color="green"];
+  BB0047bb84 -> BB0047bba0 [color="red"];
+  BB0047bba0 -> BB0047bc40 [color="green"];
+  BB0047bba0 -> BB0047bbb1 [color="red"];
+  BB0047bbb1 -> BB0047bc0e [color="blue"];
+  BB0047bbd0 -> BB0047bc0e [color="red"];
+  BB0047bc0e -> BB0047bc2a [color="red"];
+  BB0047bc40 -> BB0047bc0e [color="blue"];
+  BB0047bc60 -> BB0047bc2a [color="blue"];
+  BB0047bca0 -> BB0047bcc4 [color="red"];
+  BB0047bcc4 -> BB0047bc0e [color="blue"];
+  BB0047bce0 -> BB0047bcc4 [color="blue"];
+}

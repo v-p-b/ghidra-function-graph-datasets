@@ -1,0 +1,29 @@
+digraph _dl_tlsdesc_resolve_rela_fixup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008f1dc0 -> BB008f1df0 [color="green"];
+  BB008f1dc0 -> BB008f1de4 [color="red"];
+  BB008f1df0 -> BB008f1e0c [color="green"];
+  BB008f1df0 -> BB008f1e00 [color="red"];
+  BB008f1e00 -> BB00000000 [color="green"];
+  BB008f1e00 -> BB008f1e0c [color="red"];
+  BB008f1e0c -> BB008f1e38 [color="green"];
+  BB008f1e0c -> BB008f1e14 [color="red"];
+  BB008f1e14 -> BB008f1de4 [color="green"];
+  BB008f1e14 -> BB008f1e1e [color="red"];
+  BB008f1e1e -> BB00000000 [color="blue"];
+  BB008f1e38 -> BB008f1f00 [color="green"];
+  BB008f1e38 -> BB008f1e70 [color="red"];
+  BB008f1e70 -> BB008f1f00 [color="green"];
+  BB008f1e70 -> BB008f1e7a [color="red"];
+  BB008f1e7a -> BB008f1eb2 [color="green"];
+  BB008f1e7a -> BB008f1e86 [color="red"];
+  BB008f1e86 -> BB008f1eb2 [color="blue"];
+  BB008f1eb2 -> BB008f1f00 [color="green"];
+  BB008f1eb2 -> BB008f1ee2 [color="red"];
+  BB008f1ee2 -> BB008f1e14 [color="blue"];
+  BB008f1f00 -> BB008f1f38 [color="green"];
+  BB008f1f00 -> BB008f1f11 [color="red"];
+  BB008f1f11 -> BB008f1e14 [color="blue"];
+  BB008f1f38 -> BB008f1f11 [color="blue"];
+}

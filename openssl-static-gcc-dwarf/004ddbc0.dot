@@ -1,0 +1,14 @@
+digraph SSL_is_init_finished {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ddbc0 -> BB004ddc00 [color="green"];
+  BB004ddbc0 -> BB004ddbc5 [color="red"];
+  BB004ddbc5 -> BB004ddbe0 [color="green"];
+  BB004ddbc5 -> BB004ddbcb [color="red"];
+  BB004ddbcb -> BB004ddbdb [color="green"];
+  BB004ddbcb -> BB004ddbd2 [color="red"];
+  BB004ddbd2 -> BB004ddbe0 [color="green"];
+  BB004ddbd2 -> BB004ddbdb [color="red"];
+  BB004ddbe0 -> BB004ddbdb [color="green"];
+  BB004ddbe0 -> BB004ddbec [color="red"];
+}

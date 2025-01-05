@@ -1,0 +1,33 @@
+digraph sm2sig_dupctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006f8c70 -> BB006f8daf [color="green"];
+  BB006f8c70 -> BB006f8c9c [color="red"];
+  BB006f8c9c -> BB006f8cde [color="green"];
+  BB006f8c9c -> BB006f8ccd [color="red"];
+  BB006f8ccd -> BB006f8dc0 [color="green"];
+  BB006f8ccd -> BB006f8cda [color="red"];
+  BB006f8cda -> BB006f8cde [color="blue"];
+  BB006f8cde -> BB006f8d0b [color="green"];
+  BB006f8cde -> BB006f8cec [color="red"];
+  BB006f8cec -> BB006f8dc0 [color="green"];
+  BB006f8cec -> BB006f8d0b [color="red"];
+  BB006f8d0b -> BB006f8d2b [color="green"];
+  BB006f8d0b -> BB006f8d17 [color="red"];
+  BB006f8d17 -> BB006f8dc0 [color="green"];
+  BB006f8d17 -> BB006f8d24 [color="red"];
+  BB006f8d24 -> BB006f8d2b [color="blue"];
+  BB006f8d2b -> BB006f8d62 [color="green"];
+  BB006f8d2b -> BB006f8d3d [color="red"];
+  BB006f8d3d -> BB006f8dc8 [color="green"];
+  BB006f8d3d -> BB006f8d52 [color="red"];
+  BB006f8d52 -> BB006f8dc0 [color="green"];
+  BB006f8d52 -> BB006f8d62 [color="red"];
+  BB006f8d62 -> BB006f8daf [color="green"];
+  BB006f8d62 -> BB006f8d6c [color="red"];
+  BB006f8d6c -> BB006f8dc0 [color="green"];
+  BB006f8d6c -> BB006f8d94 [color="red"];
+  BB006f8d94 -> BB00401070 [color="green"];
+  BB006f8d94 -> BB006f8daf [color="red"];
+  BB006f8dc0 -> BB006f8dc8 [color="blue"];
+}

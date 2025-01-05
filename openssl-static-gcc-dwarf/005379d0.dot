@@ -1,0 +1,11 @@
+digraph dgram_pair_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005379d0 -> BB00537a40 [color="green"];
+  BB005379d0 -> BB005379f4 [color="red"];
+  BB005379f4 -> BB00537a28 [color="green"];
+  BB005379f4 -> BB00537a11 [color="red"];
+  BB00537a11 -> BB00537a1a [color="blue"];
+  BB00537a28 -> BB00537a1a [color="blue"];
+  BB00537a40 -> BB00537a1a [color="blue"];
+}

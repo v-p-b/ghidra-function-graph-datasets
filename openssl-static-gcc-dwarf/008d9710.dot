@@ -1,0 +1,14 @@
+digraph __openat_nocancel {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008d9710 -> BB008d9768 [color="green"];
+  BB008d9710 -> BB008d972e [color="red"];
+  BB008d972e -> BB008d9768 [color="green"];
+  BB008d972e -> BB008d973f [color="red"];
+  BB008d973f -> BB008d9790 [color="green"];
+  BB008d973f -> BB008d974e [color="red"];
+  BB008d974e -> BB008d97a3 [color="green"];
+  BB008d974e -> BB008d975e [color="red"];
+  BB008d9768 -> BB008d973f [color="blue"];
+  BB008d9790 -> BB008d974e [color="blue"];
+}

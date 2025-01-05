@@ -1,0 +1,13 @@
+digraph tls_write_records {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004cd480 -> BB004cd4a7 [color="green"];
+  BB004cd480 -> BB004cd494 [color="red"];
+  BB004cd494 -> BB004cd4f0 [color="green"];
+  BB004cd494 -> BB004cd4a7 [color="red"];
+  BB004cd4a7 -> BB004cd523 [color="green"];
+  BB004cd4a7 -> BB004cd4b8 [color="red"];
+  BB004cd4b8 -> BB004cd4e0 [color="green"];
+  BB004cd4b8 -> BB004cd4cd [color="red"];
+  BB004cd4f0 -> BB004cd523 [color="red"];
+}

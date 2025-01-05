@@ -1,0 +1,12 @@
+digraph X509_issuer_name_hash {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00673ae0 -> BB00673b12 [color="green"];
+  BB00673ae0 -> BB00673b0d [color="red"];
+  BB00673b0d -> BB00673b30 [color="green"];
+  BB00673b0d -> BB00673b12 [color="red"];
+  BB00673b12 -> BB00673b15 [color="blue"];
+  BB00673b30 -> BB00673b12 [color="green"];
+  BB00673b30 -> BB00673b4c [color="red"];
+  BB00673b4c -> BB00673b15 [color="blue"];
+}

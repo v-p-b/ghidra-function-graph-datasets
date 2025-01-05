@@ -1,0 +1,9 @@
+digraph keccak_256_newctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006ab200 -> BB006ab25e [color="green"];
+  BB006ab200 -> BB006ab20e [color="red"];
+  BB006ab20e -> BB006ab25e [color="green"];
+  BB006ab20e -> BB006ab22c [color="red"];
+  BB006ab22c -> BB006ab25e [color="red"];
+}

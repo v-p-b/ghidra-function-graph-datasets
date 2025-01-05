@@ -1,0 +1,18 @@
+digraph BN_mod_inverse {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB007251c0 -> BB00725288 [color="green"];
+  BB007251c0 -> BB007251ed [color="red"];
+  BB007251ed -> BB00725248 [color="green"];
+  BB007251ed -> BB007251fe [color="red"];
+  BB007251fe -> BB00725248 [color="green"];
+  BB007251fe -> BB0072520a [color="red"];
+  BB0072520a -> BB00725253 [color="green"];
+  BB0072520a -> BB0072522b [color="red"];
+  BB0072522b -> BB00725233 [color="red"];
+  BB00725248 -> BB00725253 [color="blue"];
+  BB00725253 -> BB0072522b [color="blue"];
+  BB00725288 -> BB007251ed [color="green"];
+  BB00725288 -> BB0072529e [color="red"];
+  BB0072529e -> BB00725233 [color="blue"];
+}

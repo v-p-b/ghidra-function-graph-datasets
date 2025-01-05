@@ -1,0 +1,33 @@
+digraph dh_derive {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006c03d0 -> BB006c0402 [color="green"];
+  BB006c03d0 -> BB006c03f0 [color="red"];
+  BB006c03f0 -> BB006c04c0 [color="green"];
+  BB006c03f0 -> BB006c03fb [color="red"];
+  BB006c03fb -> BB006c0410 [color="green"];
+  BB006c03fb -> BB006c0400 [color="red"];
+  BB006c0400 -> BB006c0402 [color="blue"];
+  BB006c0410 -> BB006c0520 [color="green"];
+  BB006c0410 -> BB006c041d [color="red"];
+  BB006c041d -> BB006c04e8 [color="green"];
+  BB006c041d -> BB006c0426 [color="red"];
+  BB006c0426 -> BB006c0530 [color="green"];
+  BB006c0426 -> BB006c0433 [color="red"];
+  BB006c0433 -> BB006c0530 [color="green"];
+  BB006c0433 -> BB006c043e [color="red"];
+  BB006c043e -> BB006c0400 [color="green"];
+  BB006c043e -> BB006c0464 [color="red"];
+  BB006c0464 -> BB006c049f [color="green"];
+  BB006c0464 -> BB006c0488 [color="red"];
+  BB006c0488 -> BB006c0567 [color="green"];
+  BB006c0488 -> BB006c0496 [color="red"];
+  BB006c0496 -> BB006c049f [color="blue"];
+  BB006c049f -> BB006c0402 [color="blue"];
+  BB006c04e8 -> BB006c0402 [color="blue"];
+  BB006c0520 -> BB006c0402 [color="blue"];
+  BB006c0530 -> BB006c0402 [color="blue"];
+  BB006c0567 -> BB006c049f [color="green"];
+  BB006c0567 -> BB006c059c [color="red"];
+  BB006c059c -> BB006c0496 [color="blue"];
+}

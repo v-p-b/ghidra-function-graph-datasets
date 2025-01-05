@@ -1,0 +1,14 @@
+digraph cipher_hw_des_ofb64_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006fd280 -> BB006fd378 [color="green"];
+  BB006fd280 -> BB006fd2bd [color="red"];
+  BB006fd2bd -> BB006fd2e8 [color="blue"];
+  BB006fd2e8 -> BB006fd2e8 [color="green"];
+  BB006fd2e8 -> BB006fd314 [color="red"];
+  BB006fd314 -> BB006fd326 [color="blue"];
+  BB006fd326 -> BB006fd350 [color="green"];
+  BB006fd326 -> BB006fd32d [color="red"];
+  BB006fd350 -> BB006fd32d [color="blue"];
+  BB006fd378 -> BB006fd326 [color="blue"];
+}

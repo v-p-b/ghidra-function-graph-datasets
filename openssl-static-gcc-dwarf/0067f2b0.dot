@@ -1,0 +1,13 @@
+digraph X509_STORE_CTX_set_trust {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0067f2b0 -> BB0067f2c0 [color="green"];
+  BB0067f2b0 -> BB0067f2b4 [color="red"];
+  BB0067f2c0 -> BB0067f2f8 [color="green"];
+  BB0067f2c0 -> BB0067f2d7 [color="red"];
+  BB0067f2d7 -> BB0067f2e5 [color="green"];
+  BB0067f2d7 -> BB0067f2e2 [color="red"];
+  BB0067f2e2 -> BB0067f2e5 [color="blue"];
+  BB0067f2e5 -> BB0067f2ea [color="blue"];
+  BB0067f2f8 -> BB0067f2ea [color="blue"];
+}

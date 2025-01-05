@@ -1,0 +1,16 @@
+digraph free_modules_db {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0092ce00 -> BB0092ce12 [color="green"];
+  BB0092ce00 -> BB0092ce0d [color="red"];
+  BB0092ce0d -> BB0092ce12 [color="red"];
+  BB0092ce12 -> BB0092ce2d [color="green"];
+  BB0092ce12 -> BB0092ce1b [color="red"];
+  BB0092ce1b -> BB0092ce2d [color="blue"];
+  BB0092ce28 -> BB0092ce47 [color="green"];
+  BB0092ce28 -> BB0092ce2d [color="red"];
+  BB0092ce2d -> BB0092ce28 [color="green"];
+  BB0092ce2d -> BB0092ce3d [color="red"];
+  BB0092ce3d -> BB0092ce2d [color="green"];
+  BB0092ce3d -> BB0092ce47 [color="red"];
+}

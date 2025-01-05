@@ -1,0 +1,12 @@
+digraph rsa_check {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006acb30 -> BB006acb80 [color="green"];
+  BB006acb30 -> BB006acb4a [color="red"];
+  BB006acb4a -> BB006acb70 [color="green"];
+  BB006acb4a -> BB006acb51 [color="red"];
+  BB006acb51 -> BB006acb8d [color="green"];
+  BB006acb51 -> BB006acb63 [color="red"];
+  BB006acb80 -> BB006acb63 [color="green"];
+  BB006acb80 -> BB006acb8d [color="red"];
+}

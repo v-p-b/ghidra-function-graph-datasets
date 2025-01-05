@@ -1,0 +1,26 @@
+digraph key_to_epki_pem_priv_bio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b2f40 -> BB006b3010 [color="green"];
+  BB006b2f40 -> BB006b2f70 [color="red"];
+  BB006b2f70 -> BB006b3028 [color="green"];
+  BB006b2f70 -> BB006b2f88 [color="red"];
+  BB006b2f88 -> BB006b3010 [color="green"];
+  BB006b2f88 -> BB006b2fa2 [color="red"];
+  BB006b2fa2 -> BB006b3050 [color="green"];
+  BB006b2fa2 -> BB006b2fd2 [color="red"];
+  BB006b2fd2 -> BB006b2ffe [color="green"];
+  BB006b2fd2 -> BB006b2ff0 [color="red"];
+  BB006b2ff0 -> BB006b2ffe [color="red"];
+  BB006b2ffe -> BB006b3013 [color="blue"];
+  BB006b3010 -> BB006b3013 [color="blue"];
+  BB006b3028 -> BB006b2fd2 [color="green"];
+  BB006b3028 -> BB006b3045 [color="red"];
+  BB006b3045 -> BB006b2ffe [color="blue"];
+  BB006b3050 -> BB006b3070 [color="green"];
+  BB006b3050 -> BB006b3056 [color="red"];
+  BB006b3056 -> BB006b3045 [color="green"];
+  BB006b3056 -> BB006b305c [color="red"];
+  BB006b305c -> BB006b2ffe [color="blue"];
+  BB006b3070 -> BB006b2ffe [color="blue"];
+}

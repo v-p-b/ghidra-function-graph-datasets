@@ -1,0 +1,23 @@
+digraph BIO_connect {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00533340 -> BB00533488 [color="green"];
+  BB00533340 -> BB0053335b [color="red"];
+  BB0053335b -> BB00533473 [color="green"];
+  BB0053335b -> BB00533377 [color="red"];
+  BB00533377 -> BB005333e8 [color="green"];
+  BB00533377 -> BB0053337c [color="red"];
+  BB0053337c -> BB005333a5 [color="green"];
+  BB0053337c -> BB00533381 [color="red"];
+  BB00533381 -> BB00533550 [color="green"];
+  BB00533381 -> BB005333a5 [color="red"];
+  BB005333a5 -> BB005334d0 [color="green"];
+  BB005333a5 -> BB005333d4 [color="red"];
+  BB005333e8 -> BB0053337c [color="green"];
+  BB005333e8 -> BB0053340c [color="red"];
+  BB0053340c -> BB00533473 [color="red"];
+  BB005334d0 -> BB00533473 [color="green"];
+  BB005334d0 -> BB005334e1 [color="red"];
+  BB005334e1 -> BB005333d4 [color="blue"];
+  BB00533550 -> BB005333d4 [color="blue"];
+}

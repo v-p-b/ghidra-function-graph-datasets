@@ -1,0 +1,11 @@
+digraph EC_get_builtin_curves {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00586d70 -> BB00586dbb [color="green"];
+  BB00586d70 -> BB00586d75 [color="red"];
+  BB00586d75 -> BB00586dbb [color="green"];
+  BB00586d75 -> BB00586d7a [color="red"];
+  BB00586d7a -> BB00586da0 [color="blue"];
+  BB00586da0 -> BB00586da0 [color="green"];
+  BB00586da0 -> BB00586dbb [color="red"];
+}

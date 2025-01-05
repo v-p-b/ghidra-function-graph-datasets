@@ -1,0 +1,19 @@
+digraph _dl_try_allocate_static_tls {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0091e960 -> BB0091ea40 [color="green"];
+  BB0091e960 -> BB0091e96e [color="red"];
+  BB0091e96e -> BB0091ea40 [color="green"];
+  BB0091e96e -> BB0091e982 [color="red"];
+  BB0091e982 -> BB0091ea40 [color="green"];
+  BB0091e982 -> BB0091e9a3 [color="red"];
+  BB0091e9a3 -> BB0091ea40 [color="green"];
+  BB0091e9a3 -> BB0091e9c4 [color="red"];
+  BB0091e9c4 -> BB0091e9fd [color="green"];
+  BB0091e9c4 -> BB0091e9e1 [color="red"];
+  BB0091e9e1 -> BB0091ea40 [color="green"];
+  BB0091e9e1 -> BB0091e9ed [color="red"];
+  BB0091e9ed -> BB0091e9fd [color="blue"];
+  BB0091e9fd -> BB0091ea30 [color="green"];
+  BB0091e9fd -> BB0091ea1c [color="red"];
+}

@@ -1,0 +1,16 @@
+digraph BN_mul_word {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005498f0 -> BB00549900 [color="green"];
+  BB005498f0 -> BB005498f7 [color="red"];
+  BB00549900 -> BB00549920 [color="green"];
+  BB00549900 -> BB0054990e [color="red"];
+  BB0054990e -> BB00549913 [color="red"];
+  BB00549913 -> BB00549918 [color="blue"];
+  BB00549920 -> BB00549913 [color="green"];
+  BB00549920 -> BB00549936 [color="red"];
+  BB00549936 -> BB00549968 [color="green"];
+  BB00549936 -> BB00549949 [color="red"];
+  BB00549949 -> BB00549918 [color="blue"];
+  BB00549968 -> BB00549918 [color="blue"];
+}

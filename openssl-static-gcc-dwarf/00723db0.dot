@@ -1,0 +1,18 @@
+digraph BN_div {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00723db0 -> BB00723e78 [color="green"];
+  BB00723db0 -> BB00723ddd [color="red"];
+  BB00723ddd -> BB00723e40 [color="green"];
+  BB00723ddd -> BB00723df0 [color="red"];
+  BB00723df0 -> BB00723e25 [color="green"];
+  BB00723df0 -> BB00723e0b [color="red"];
+  BB00723e0b -> BB00723e18 [color="green"];
+  BB00723e0b -> BB00723e10 [color="red"];
+  BB00723e10 -> BB00723e18 [color="red"];
+  BB00723e18 -> BB00723e25 [color="green"];
+  BB00723e18 -> BB00723e1d [color="red"];
+  BB00723e1d -> BB00723e25 [color="red"];
+  BB00723e40 -> BB00723e25 [color="blue"];
+  BB00723e78 -> BB00723e25 [color="blue"];
+}

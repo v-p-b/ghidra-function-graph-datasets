@@ -1,0 +1,17 @@
+digraph des3_ctrl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005b8030 -> BB005b8040 [color="green"];
+  BB005b8030 -> BB005b803a [color="red"];
+  BB005b8040 -> BB005b8090 [color="green"];
+  BB005b8040 -> BB005b8054 [color="red"];
+  BB005b8054 -> BB005b8090 [color="green"];
+  BB005b8054 -> BB005b8062 [color="red"];
+  BB005b8062 -> BB005b80a0 [color="green"];
+  BB005b8062 -> BB005b806f [color="red"];
+  BB005b806f -> BB005b8092 [color="green"];
+  BB005b806f -> BB005b8079 [color="red"];
+  BB005b8079 -> BB005b8092 [color="blue"];
+  BB005b8090 -> BB005b8092 [color="blue"];
+  BB005b80a0 -> BB005b806f [color="blue"];
+}

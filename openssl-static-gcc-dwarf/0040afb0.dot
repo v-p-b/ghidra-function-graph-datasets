@@ -1,0 +1,16 @@
+digraph read_PKIMESSAGE {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0040afb0 -> BB0040b0d8 [color="green"];
+  BB0040afb0 -> BB0040afc6 [color="red"];
+  BB0040afc6 -> BB0040b018 [color="green"];
+  BB0040afc6 -> BB0040affa [color="red"];
+  BB0040affa -> BB0040b080 [color="green"];
+  BB0040affa -> BB0040b003 [color="red"];
+  BB0040b018 -> BB0040b038 [color="green"];
+  BB0040b018 -> BB0040b021 [color="red"];
+  BB0040b038 -> BB0040b003 [color="blue"];
+  BB0040b0d8 -> BB0040b021 [color="green"];
+  BB0040b0d8 -> BB0040b0e5 [color="red"];
+  BB0040b0e5 -> BB0040b021 [color="blue"];
+}

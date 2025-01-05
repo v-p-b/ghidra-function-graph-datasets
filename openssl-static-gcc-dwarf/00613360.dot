@@ -1,0 +1,11 @@
+digraph PEM_read_DSAPrivateKey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00613360 -> BB006133b0 [color="green"];
+  BB00613360 -> BB00613373 [color="red"];
+  BB00613373 -> BB006133b0 [color="green"];
+  BB00613373 -> BB0061338e [color="red"];
+  BB0061338e -> BB0061339e [color="green"];
+  BB0061338e -> BB00613393 [color="red"];
+  BB00613393 -> BB0061339e [color="red"];
+}

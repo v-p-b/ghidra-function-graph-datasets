@@ -1,0 +1,14 @@
+digraph des_ofb_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0076bf50 -> BB0076c070 [color="green"];
+  BB0076bf50 -> BB0076bf7b [color="red"];
+  BB0076bf7b -> BB0076bfa8 [color="blue"];
+  BB0076bfa8 -> BB0076bfa8 [color="green"];
+  BB0076bfa8 -> BB0076bff4 [color="red"];
+  BB0076bff4 -> BB0076c007 [color="blue"];
+  BB0076c007 -> BB0076c028 [color="green"];
+  BB0076c007 -> BB0076c00f [color="red"];
+  BB0076c028 -> BB0076c00f [color="blue"];
+  BB0076c070 -> BB0076c007 [color="blue"];
+}

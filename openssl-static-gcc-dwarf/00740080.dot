@@ -1,0 +1,13 @@
+digraph pkey_dsa_sign {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00740080 -> BB007400e0 [color="green"];
+  BB00740080 -> BB007400b9 [color="red"];
+  BB007400b9 -> BB007400cc [color="green"];
+  BB007400b9 -> BB007400c5 [color="red"];
+  BB007400c5 -> BB007400e0 [color="green"];
+  BB007400c5 -> BB007400cc [color="red"];
+  BB007400e0 -> BB007400cc [color="green"];
+  BB007400e0 -> BB007400fe [color="red"];
+  BB007400fe -> BB007400cc [color="blue"];
+}

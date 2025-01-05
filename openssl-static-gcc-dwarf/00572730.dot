@@ -1,0 +1,27 @@
+digraph CONF_modules_unload {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00572730 -> BB00572750 [color="green"];
+  BB00572730 -> BB00572745 [color="red"];
+  BB00572750 -> BB00572890 [color="green"];
+  BB00572750 -> BB00572781 [color="red"];
+  BB00572781 -> BB005727d3 [color="green"];
+  BB00572781 -> BB0057279a [color="red"];
+  BB0057279a -> BB00572853 [color="green"];
+  BB0057279a -> BB005727a2 [color="red"];
+  BB005727a2 -> BB005727a8 [color="blue"];
+  BB005727a8 -> BB005727a8 [color="green"];
+  BB005727a8 -> BB005727d3 [color="red"];
+  BB005727d3 -> BB00572870 [color="green"];
+  BB005727d3 -> BB005727e5 [color="red"];
+  BB00572830 -> BB0057284e [color="green"];
+  BB00572830 -> BB00572837 [color="red"];
+  BB00572837 -> BB0057284e [color="red"];
+  BB0057284e -> BB005727d3 [color="green"];
+  BB0057284e -> BB00572853 [color="red"];
+  BB00572853 -> BB0057284e [color="green"];
+  BB00572853 -> BB00572869 [color="red"];
+  BB00572869 -> BB00572830 [color="blue"];
+  BB00572870 -> BB005727e5 [color="blue"];
+  BB00572890 -> BB00572745 [color="blue"];
+}

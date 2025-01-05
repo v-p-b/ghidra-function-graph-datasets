@@ -1,0 +1,13 @@
+digraph quic_handshake_wait {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ac910 -> BB004ac988 [color="green"];
+  BB004ac910 -> BB004ac922 [color="red"];
+  BB004ac922 -> BB004ac988 [color="green"];
+  BB004ac922 -> BB004ac932 [color="red"];
+  BB004ac932 -> BB004ac988 [color="green"];
+  BB004ac932 -> BB004ac93f [color="red"];
+  BB004ac93f -> BB004ac98d [color="green"];
+  BB004ac93f -> BB004ac958 [color="red"];
+  BB004ac988 -> BB004ac98d [color="blue"];
+}

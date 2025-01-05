@@ -1,0 +1,16 @@
+digraph opt_intmax {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00470040 -> BB004700bb [color="green"];
+  BB00470040 -> BB0047007c [color="red"];
+  BB0047007c -> BB004700bb [color="green"];
+  BB0047007c -> BB00470081 [color="red"];
+  BB00470081 -> BB004700b0 [color="green"];
+  BB00470081 -> BB00470094 [color="red"];
+  BB00470094 -> BB004700bb [color="green"];
+  BB00470094 -> BB00470099 [color="red"];
+  BB004700b0 -> BB00470099 [color="green"];
+  BB004700b0 -> BB004700b5 [color="red"];
+  BB004700b5 -> BB00470099 [color="green"];
+  BB004700b5 -> BB004700bb [color="red"];
+}

@@ -1,0 +1,16 @@
+digraph eckey_priv_encode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00580ec0 -> BB00580fd0 [color="green"];
+  BB00580ec0 -> BB00580f45 [color="red"];
+  BB00580f45 -> BB00581008 [color="green"];
+  BB00580f45 -> BB00580f71 [color="red"];
+  BB00580f71 -> BB00581058 [color="green"];
+  BB00580f71 -> BB00580fb5 [color="red"];
+  BB00580fd0 -> BB00580fb5 [color="blue"];
+  BB00581008 -> BB00581038 [color="red"];
+  BB00581038 -> BB00580fb5 [color="green"];
+  BB00581038 -> BB00581046 [color="red"];
+  BB00581046 -> BB00580fb5 [color="blue"];
+  BB00581058 -> BB00581038 [color="blue"];
+}

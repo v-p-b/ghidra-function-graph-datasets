@@ -1,0 +1,29 @@
+digraph bn_expand2 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00540370 -> BB00540390 [color="green"];
+  BB00540370 -> BB00540382 [color="red"];
+  BB00540390 -> BB00540480 [color="green"];
+  BB00540390 -> BB0054039e [color="red"];
+  BB0054039e -> BB005404c0 [color="green"];
+  BB0054039e -> BB005403a9 [color="red"];
+  BB005403a9 -> BB00540400 [color="green"];
+  BB005403a9 -> BB005403b4 [color="red"];
+  BB005403b4 -> BB005403c8 [color="red"];
+  BB005403c8 -> BB005404f8 [color="green"];
+  BB005403c8 -> BB005403d1 [color="red"];
+  BB005403d1 -> BB00540420 [color="green"];
+  BB005403d1 -> BB005403de [color="red"];
+  BB005403de -> BB0054042f [color="green"];
+  BB005403de -> BB005403e3 [color="red"];
+  BB00540400 -> BB005403c8 [color="blue"];
+  BB00540420 -> BB00401070 [color="green"];
+  BB00540420 -> BB0054042f [color="red"];
+  BB0054042f -> BB00540460 [color="green"];
+  BB0054042f -> BB00540440 [color="red"];
+  BB00540440 -> BB005403e3 [color="blue"];
+  BB00540460 -> BB005403e3 [color="blue"];
+  BB00540480 -> BB00540382 [color="blue"];
+  BB005404c0 -> BB00540382 [color="blue"];
+  BB005404f8 -> BB00540382 [color="blue"];
+}

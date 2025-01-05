@@ -1,0 +1,11 @@
+digraph BN_reciprocal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00548880 -> BB005488f0 [color="green"];
+  BB00548880 -> BB005488aa [color="red"];
+  BB005488aa -> BB005488f0 [color="green"];
+  BB005488aa -> BB005488bc [color="red"];
+  BB005488bc -> BB005488f0 [color="green"];
+  BB005488bc -> BB005488d3 [color="red"];
+  BB005488f0 -> BB005488d3 [color="blue"];
+}

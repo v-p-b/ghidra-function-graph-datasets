@@ -1,0 +1,21 @@
+digraph ecx_has {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006d5a50 -> BB006d5a88 [color="green"];
+  BB006d5a50 -> BB006d5a65 [color="red"];
+  BB006d5a65 -> BB006d5a88 [color="green"];
+  BB006d5a65 -> BB006d5a69 [color="red"];
+  BB006d5a69 -> BB006d5a98 [color="green"];
+  BB006d5a69 -> BB006d5a73 [color="red"];
+  BB006d5a73 -> BB006d5aa8 [color="green"];
+  BB006d5a73 -> BB006d5a7e [color="red"];
+  BB006d5a7e -> BB006d5a8a [color="blue"];
+  BB006d5a88 -> BB006d5a8a [color="blue"];
+  BB006d5a98 -> BB006d5ab0 [color="green"];
+  BB006d5a98 -> BB006d5a9c [color="red"];
+  BB006d5a9c -> BB006d5a8a [color="blue"];
+  BB006d5aa8 -> BB006d5a8a [color="green"];
+  BB006d5aa8 -> BB006d5aae [color="red"];
+  BB006d5aae -> BB006d5ab0 [color="blue"];
+  BB006d5ab0 -> BB006d5a8a [color="blue"];
+}

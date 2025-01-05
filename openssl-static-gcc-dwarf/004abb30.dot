@@ -1,0 +1,15 @@
+digraph srp_generate_server_master_secret {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004abb30 -> BB004abb90 [color="green"];
+  BB004abb30 -> BB004abb5c [color="red"];
+  BB004abb5c -> BB004abb65 [color="blue"];
+  BB004abb90 -> BB004abb5c [color="green"];
+  BB004abb90 -> BB004abbbe [color="red"];
+  BB004abbbe -> BB004abb65 [color="green"];
+  BB004abbbe -> BB004abbf1 [color="red"];
+  BB004abbf1 -> BB004abc50 [color="green"];
+  BB004abbf1 -> BB004abc2a [color="red"];
+  BB004abc2a -> BB004abb65 [color="blue"];
+  BB004abc50 -> BB004abb65 [color="blue"];
+}

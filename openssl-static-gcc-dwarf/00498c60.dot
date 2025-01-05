@@ -1,0 +1,14 @@
+digraph SSL_get_session {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00498c60 -> BB00498c90 [color="green"];
+  BB00498c60 -> BB00498c65 [color="red"];
+  BB00498c65 -> BB00498c7c [color="green"];
+  BB00498c65 -> BB00498c6b [color="red"];
+  BB00498c6b -> BB00498c83 [color="green"];
+  BB00498c6b -> BB00498c73 [color="red"];
+  BB00498c73 -> BB00498c83 [color="green"];
+  BB00498c73 -> BB00498c7c [color="red"];
+  BB00498c7c -> BB00498c83 [color="blue"];
+  BB00498c90 -> BB00498c83 [color="blue"];
+}

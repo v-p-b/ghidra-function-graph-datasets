@@ -1,0 +1,9 @@
+digraph wp_dupctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00700c20 -> BB00700cc4 [color="green"];
+  BB00700c20 -> BB00700c37 [color="red"];
+  BB00700c37 -> BB00700cc4 [color="green"];
+  BB00700c37 -> BB00700c52 [color="red"];
+  BB00700c52 -> BB00700cc4 [color="blue"];
+}

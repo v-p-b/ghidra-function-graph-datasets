@@ -1,0 +1,23 @@
+digraph ossl_sm2_key_private_check {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00852870 -> BB00852900 [color="green"];
+  BB00852870 -> BB0085287e [color="red"];
+  BB0085287e -> BB00852900 [color="green"];
+  BB0085287e -> BB0085288e [color="red"];
+  BB0085288e -> BB00852900 [color="green"];
+  BB0085288e -> BB0085289e [color="red"];
+  BB0085289e -> BB00852900 [color="green"];
+  BB0085289e -> BB008528ae [color="red"];
+  BB008528ae -> BB00852970 [color="green"];
+  BB008528ae -> BB008528bf [color="red"];
+  BB008528bf -> BB00852970 [color="green"];
+  BB008528bf -> BB008528d4 [color="red"];
+  BB008528d4 -> BB00852940 [color="green"];
+  BB008528d4 -> BB008528e8 [color="red"];
+  BB008528e8 -> BB00852940 [color="green"];
+  BB008528e8 -> BB008528f7 [color="red"];
+  BB008528f7 -> BB00852973 [color="blue"];
+  BB00852940 -> BB00852970 [color="red"];
+  BB00852970 -> BB00852973 [color="blue"];
+}

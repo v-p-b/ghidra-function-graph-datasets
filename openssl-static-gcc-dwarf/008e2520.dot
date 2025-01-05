@@ -1,0 +1,14 @@
+digraph get_locked_global {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008e2520 -> BB008e2590 [color="green"];
+  BB008e2520 -> BB008e2530 [color="red"];
+  BB008e2530 -> BB008e253c [color="blue"];
+  BB008e253c -> BB008e2550 [color="green"];
+  BB008e253c -> BB008e2548 [color="red"];
+  BB008e2550 -> BB008e2548 [color="green"];
+  BB008e2550 -> BB008e2564 [color="red"];
+  BB008e2590 -> BB008e253c [color="green"];
+  BB008e2590 -> BB008e25a1 [color="red"];
+  BB008e25a1 -> BB008e253c [color="blue"];
+}

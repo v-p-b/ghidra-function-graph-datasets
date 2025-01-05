@@ -1,0 +1,24 @@
+digraph tls_process_cert_status {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004e3ad0 -> BB004e3b04 [color="green"];
+  BB004e3ad0 -> BB004e3ae6 [color="red"];
+  BB004e3ae6 -> BB004e3b48 [color="green"];
+  BB004e3ae6 -> BB004e3b04 [color="red"];
+  BB004e3b04 -> BB004e3b28 [color="red"];
+  BB004e3b28 -> BB004e3b39 [color="red"];
+  BB004e3b48 -> BB004e3b7d [color="green"];
+  BB004e3b48 -> BB004e3b4e [color="red"];
+  BB004e3b4e -> BB004e3ba8 [color="green"];
+  BB004e3b4e -> BB004e3b7d [color="red"];
+  BB004e3b7d -> BB004e3b8e [color="red"];
+  BB004e3b8e -> BB004e3b28 [color="blue"];
+  BB004e3ba8 -> BB004e3c16 [color="green"];
+  BB004e3ba8 -> BB004e3bcb [color="red"];
+  BB004e3bcb -> BB004e3c00 [color="green"];
+  BB004e3bcb -> BB004e3bdb [color="red"];
+  BB004e3bdb -> BB00401070 [color="blue"];
+  BB004e3bdb -> BB004e3b39 [color="blue"];
+  BB004e3c00 -> BB004e3b8e [color="blue"];
+  BB004e3c16 -> BB004e3b39 [color="blue"];
+}

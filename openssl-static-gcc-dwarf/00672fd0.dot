@@ -1,0 +1,34 @@
+digraph X509_ATTRIBUTE_create_by_NID {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00672fd0 -> BB006730b0 [color="green"];
+  BB00672fd0 -> BB00672ffa [color="red"];
+  BB00672ffa -> BB00673058 [color="green"];
+  BB00672ffa -> BB00673002 [color="red"];
+  BB00673002 -> BB00673058 [color="green"];
+  BB00673002 -> BB0067300a [color="red"];
+  BB0067300a -> BB00673087 [color="green"];
+  BB0067300a -> BB00673024 [color="red"];
+  BB00673024 -> BB00673087 [color="green"];
+  BB00673024 -> BB00673039 [color="red"];
+  BB00673039 -> BB006730a8 [color="green"];
+  BB00673039 -> BB0067303f [color="red"];
+  BB00673058 -> BB00673120 [color="green"];
+  BB00673058 -> BB00673069 [color="red"];
+  BB00673069 -> BB006730f0 [color="green"];
+  BB00673069 -> BB00673082 [color="red"];
+  BB00673082 -> BB0067308c [color="green"];
+  BB00673082 -> BB00673087 [color="red"];
+  BB00673087 -> BB00673094 [color="green"];
+  BB00673087 -> BB0067308c [color="red"];
+  BB0067308c -> BB00673094 [color="red"];
+  BB00673094 -> BB0067303f [color="blue"];
+  BB006730a8 -> BB0067303f [color="blue"];
+  BB006730b0 -> BB0067303f [color="blue"];
+  BB006730f0 -> BB00673082 [color="green"];
+  BB006730f0 -> BB00673109 [color="red"];
+  BB00673109 -> BB0067303f [color="green"];
+  BB00673109 -> BB00673112 [color="red"];
+  BB00673112 -> BB00673039 [color="blue"];
+  BB00673120 -> BB00673094 [color="blue"];
+}

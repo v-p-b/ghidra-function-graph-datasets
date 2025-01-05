@@ -1,0 +1,25 @@
+digraph ring_buf_resize {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005378b0 -> BB00537988 [color="green"];
+  BB005378b0 -> BB005378cc [color="red"];
+  BB005378cc -> BB0053791f [color="green"];
+  BB005378cc -> BB005378da [color="red"];
+  BB005378da -> BB005378e6 [color="green"];
+  BB005378da -> BB005378e1 [color="red"];
+  BB005378e1 -> BB00537930 [color="green"];
+  BB005378e1 -> BB005378e6 [color="red"];
+  BB005378e6 -> BB00537930 [color="green"];
+  BB005378e6 -> BB00537902 [color="red"];
+  BB00537902 -> BB00537940 [color="green"];
+  BB00537902 -> BB00537909 [color="red"];
+  BB00537909 -> BB00537960 [color="green"];
+  BB00537909 -> BB00537913 [color="red"];
+  BB00537913 -> BB0053791f [color="blue"];
+  BB00537940 -> BB0053791f [color="blue"];
+  BB00537960 -> BB00401020 [color="blue"];
+  BB00537960 -> BB00537913 [color="blue"];
+  BB00537988 -> BB00537930 [color="green"];
+  BB00537988 -> BB005379a4 [color="red"];
+  BB005379a4 -> BB0053791f [color="blue"];
+}

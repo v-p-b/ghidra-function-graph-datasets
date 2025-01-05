@@ -1,0 +1,10 @@
+digraph SSL_write_early_data {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048eef0 -> BB0048f008 [color="green"];
+  BB0048eef0 -> BB0048ef05 [color="red"];
+  BB0048ef05 -> BB0048f008 [color="green"];
+  BB0048ef05 -> BB0048ef14 [color="red"];
+  BB0048ef14 -> BB0048f020 [color="green"];
+  BB0048ef14 -> BB0048ef25 [color="red"];
+}

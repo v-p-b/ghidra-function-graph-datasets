@@ -1,0 +1,16 @@
+digraph tls_construct_ctos_server_cert_type {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d7e20 -> BB004d7ef0 [color="green"];
+  BB004d7e20 -> BB004d7e35 [color="red"];
+  BB004d7e35 -> BB004d7e69 [color="green"];
+  BB004d7e35 -> BB004d7e58 [color="red"];
+  BB004d7e58 -> BB004d7eb0 [color="green"];
+  BB004d7e58 -> BB004d7e69 [color="red"];
+  BB004d7e69 -> BB004d7e9e [color="red"];
+  BB004d7eb0 -> BB004d7e69 [color="green"];
+  BB004d7eb0 -> BB004d7ecf [color="red"];
+  BB004d7ecf -> BB004d7e69 [color="green"];
+  BB004d7ecf -> BB004d7edb [color="red"];
+  BB004d7edb -> BB004d7e9e [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph tls_process_end_of_early_data {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004f5b10 -> BB004f5bb0 [color="green"];
+  BB004f5b10 -> BB004f5b1f [color="red"];
+  BB004f5b1f -> BB004f5b70 [color="green"];
+  BB004f5b1f -> BB004f5b2d [color="red"];
+  BB004f5b2d -> BB004f5bf0 [color="green"];
+  BB004f5b2d -> BB004f5b41 [color="red"];
+}

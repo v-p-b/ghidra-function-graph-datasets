@@ -1,0 +1,12 @@
+digraph TS_CONF_set_certs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0064ee40 -> BB0064ee90 [color="green"];
+  BB0064ee40 -> BB0064ee50 [color="red"];
+  BB0064ee50 -> BB0064ee77 [color="green"];
+  BB0064ee50 -> BB0064ee63 [color="red"];
+  BB0064ee63 -> BB0064ee77 [color="red"];
+  BB0064ee90 -> BB0064ee50 [color="green"];
+  BB0064ee90 -> BB0064eea4 [color="red"];
+  BB0064eea4 -> BB0064ee77 [color="blue"];
+}

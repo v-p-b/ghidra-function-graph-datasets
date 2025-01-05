@@ -1,0 +1,15 @@
+digraph bn_correct_top {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00541640 -> BB0054166a [color="green"];
+  BB00541640 -> BB00541647 [color="red"];
+  BB00541647 -> BB00541658 [color="blue"];
+  BB00541658 -> BB00541667 [color="green"];
+  BB00541658 -> BB00541662 [color="red"];
+  BB00541662 -> BB00541658 [color="green"];
+  BB00541662 -> BB00541667 [color="red"];
+  BB00541667 -> BB0054166a [color="blue"];
+  BB0054166a -> BB00541675 [color="green"];
+  BB0054166a -> BB0054166e [color="red"];
+  BB0054166e -> BB00541675 [color="blue"];
+}

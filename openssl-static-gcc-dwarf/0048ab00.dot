@@ -1,0 +1,14 @@
+digraph SSL_get_changed_async_fds {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048ab00 -> BB0048ab19 [color="green"];
+  BB0048ab00 -> BB0048ab05 [color="red"];
+  BB0048ab05 -> BB0048ab20 [color="green"];
+  BB0048ab05 -> BB0048ab0b [color="red"];
+  BB0048ab0b -> BB0048ab19 [color="green"];
+  BB0048ab0b -> BB0048ab10 [color="red"];
+  BB0048ab10 -> BB0048ab20 [color="green"];
+  BB0048ab10 -> BB0048ab19 [color="red"];
+  BB0048ab20 -> BB0048ab19 [color="green"];
+  BB0048ab20 -> BB0048ab2c [color="red"];
+}

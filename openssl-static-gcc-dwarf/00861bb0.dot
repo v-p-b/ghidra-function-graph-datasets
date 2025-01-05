@@ -1,0 +1,14 @@
+digraph __libc_csu_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00861bb0 -> BB00861bf5 [color="green"];
+  BB00861bb0 -> BB00861bdd [color="red"];
+  BB00861bdd -> BB00861be0 [color="blue"];
+  BB00861be0 -> BB00861be0 [color="green"];
+  BB00861be0 -> BB00861bf5 [color="red"];
+  BB00861bf5 -> BB00861c2d [color="green"];
+  BB00861bf5 -> BB00861c11 [color="red"];
+  BB00861c11 -> BB00861c18 [color="blue"];
+  BB00861c18 -> BB00861c18 [color="green"];
+  BB00861c18 -> BB00861c2d [color="red"];
+}

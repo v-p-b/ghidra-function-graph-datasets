@@ -1,0 +1,17 @@
+digraph SSL_has_pending {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048a630 -> BB0048a63f [color="red"];
+  BB0048a63f -> BB0048a6d0 [color="green"];
+  BB0048a63f -> BB0048a650 [color="red"];
+  BB0048a650 -> BB0048a658 [color="red"];
+  BB0048a658 -> BB0048a6a0 [color="green"];
+  BB0048a658 -> BB0048a669 [color="red"];
+  BB0048a669 -> BB0048a693 [color="blue"];
+  BB0048a688 -> BB0048a6b3 [color="green"];
+  BB0048a688 -> BB0048a693 [color="red"];
+  BB0048a693 -> BB0048a688 [color="green"];
+  BB0048a693 -> BB0048a6a0 [color="red"];
+  BB0048a6a0 -> BB0048a6c0 [color="green"];
+  BB0048a6a0 -> BB0048a6b3 [color="red"];
+}

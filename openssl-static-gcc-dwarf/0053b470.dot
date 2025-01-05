@@ -1,0 +1,12 @@
+digraph BIO_sock_should_retry {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0053b470 -> BB0053b488 [color="green"];
+  BB0053b470 -> BB0053b47d [color="red"];
+  BB0053b488 -> BB0053b47d [color="green"];
+  BB0053b488 -> BB0053b494 [color="red"];
+  BB0053b494 -> BB0053b4b8 [color="green"];
+  BB0053b494 -> BB0053b499 [color="red"];
+  BB0053b499 -> BB0053b47d [color="green"];
+  BB0053b499 -> BB0053b4a4 [color="red"];
+}

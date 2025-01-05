@@ -1,0 +1,25 @@
+digraph ackm_on_pkts_lost.constprop.0 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0050c260 -> BB0050c2ed [color="green"];
+  BB0050c260 -> BB0050c27a [color="red"];
+  BB0050c27a -> BB0050c320 [color="green"];
+  BB0050c27a -> BB0050c288 [color="red"];
+  BB0050c288 -> BB0050c290 [color="blue"];
+  BB0050c290 -> BB0050c2de [color="green"];
+  BB0050c290 -> BB0050c2a1 [color="red"];
+  BB0050c2a1 -> BB0050c2bc [color="green"];
+  BB0050c2a1 -> BB0050c2b1 [color="red"];
+  BB0050c2b1 -> BB0050c2bc [color="blue"];
+  BB0050c2bc -> BB0050c2de [color="blue"];
+  BB0050c2de -> BB0050c290 [color="green"];
+  BB0050c2de -> BB0050c2ed [color="red"];
+  BB0050c320 -> BB0050c34b [color="green"];
+  BB0050c320 -> BB0050c330 [color="red"];
+  BB0050c330 -> BB0050c34b [color="green"];
+  BB0050c330 -> BB0050c340 [color="red"];
+  BB0050c340 -> BB0050c34b [color="blue"];
+  BB0050c34b -> BB0050c320 [color="green"];
+  BB0050c34b -> BB0050c357 [color="red"];
+  BB0050c357 -> BB0050c2ed [color="blue"];
+}

@@ -1,0 +1,25 @@
+digraph ed25519_digest_verify {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006edfc0 -> BB006edff0 [color="green"];
+  BB006edfc0 -> BB006edfec [color="red"];
+  BB006edfec -> BB006ee008 [color="green"];
+  BB006edfec -> BB006edff0 [color="red"];
+  BB006edff0 -> BB006edff2 [color="blue"];
+  BB006ee008 -> BB006ee060 [color="green"];
+  BB006ee008 -> BB006ee018 [color="red"];
+  BB006ee018 -> BB006ee0c8 [color="green"];
+  BB006ee018 -> BB006ee020 [color="red"];
+  BB006ee020 -> BB006ee068 [color="green"];
+  BB006ee020 -> BB006ee026 [color="red"];
+  BB006ee026 -> BB006edff2 [color="blue"];
+  BB006ee060 -> BB006ee150 [color="green"];
+  BB006ee060 -> BB006ee068 [color="red"];
+  BB006ee0c8 -> BB006ee118 [color="green"];
+  BB006ee0c8 -> BB006ee0f7 [color="red"];
+  BB006ee0f7 -> BB006ee118 [color="green"];
+  BB006ee0f7 -> BB006ee102 [color="red"];
+  BB006ee102 -> BB006ee068 [color="blue"];
+  BB006ee118 -> BB006edff2 [color="blue"];
+  BB006ee150 -> BB006edff2 [color="blue"];
+}

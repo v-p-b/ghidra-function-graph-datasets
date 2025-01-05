@@ -1,0 +1,18 @@
+digraph EVP_PKEY_decapsulate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005c9330 -> BB005c9370 [color="green"];
+  BB005c9330 -> BB005c9335 [color="red"];
+  BB005c9335 -> BB005c9370 [color="green"];
+  BB005c9335 -> BB005c933a [color="red"];
+  BB005c933a -> BB005c9370 [color="green"];
+  BB005c933a -> BB005c933f [color="red"];
+  BB005c933f -> BB005c9370 [color="green"];
+  BB005c933f -> BB005c9347 [color="red"];
+  BB005c9347 -> BB005c9373 [color="green"];
+  BB005c9347 -> BB005c9353 [color="red"];
+  BB005c9353 -> BB005c93ad [color="green"];
+  BB005c9353 -> BB005c935c [color="red"];
+  BB005c9373 -> BB005c93a8 [color="red"];
+  BB005c93ad -> BB005c93a8 [color="blue"];
+}

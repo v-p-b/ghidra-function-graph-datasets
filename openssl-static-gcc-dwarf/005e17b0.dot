@@ -1,0 +1,28 @@
+digraph ossl_ffc_validate_public_key_partial {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e17b0 -> BB005e1840 [color="green"];
+  BB005e17b0 -> BB005e17ca [color="red"];
+  BB005e17ca -> BB005e1840 [color="green"];
+  BB005e17ca -> BB005e17d2 [color="red"];
+  BB005e17d2 -> BB005e1840 [color="green"];
+  BB005e17d2 -> BB005e17db [color="red"];
+  BB005e17db -> BB005e184c [color="green"];
+  BB005e17db -> BB005e17ec [color="red"];
+  BB005e17ec -> BB005e1815 [color="green"];
+  BB005e17ec -> BB005e1804 [color="red"];
+  BB005e1804 -> BB005e1860 [color="green"];
+  BB005e1804 -> BB005e1815 [color="red"];
+  BB005e1815 -> BB005e1817 [color="blue"];
+  BB005e1840 -> BB005e184c [color="blue"];
+  BB005e1860 -> BB005e1873 [color="green"];
+  BB005e1860 -> BB005e186f [color="red"];
+  BB005e186f -> BB005e1873 [color="blue"];
+  BB005e1873 -> BB005e1815 [color="green"];
+  BB005e1873 -> BB005e1883 [color="red"];
+  BB005e1883 -> BB005e1815 [color="green"];
+  BB005e1883 -> BB005e1894 [color="red"];
+  BB005e1894 -> BB005e1817 [color="green"];
+  BB005e1894 -> BB005e18b0 [color="red"];
+  BB005e18b0 -> BB005e1817 [color="blue"];
+}

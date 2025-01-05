@@ -1,0 +1,11 @@
+digraph posix_memalign {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0088b4e0 -> BB0088b530 [color="green"];
+  BB0088b4e0 -> BB0088b503 [color="red"];
+  BB0088b503 -> BB0088b530 [color="green"];
+  BB0088b503 -> BB0088b508 [color="red"];
+  BB0088b508 -> BB0088b524 [color="green"];
+  BB0088b508 -> BB0088b51f [color="red"];
+  BB0088b51f -> BB0088b524 [color="blue"];
+}

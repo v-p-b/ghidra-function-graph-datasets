@@ -1,0 +1,13 @@
+digraph ossl_rand_get_user_entropy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0062caf0 -> BB0062cb1e [color="green"];
+  BB0062caf0 -> BB0062cb0f [color="red"];
+  BB0062cb0f -> BB0062cb60 [color="green"];
+  BB0062cb0f -> BB0062cb1e [color="red"];
+  BB0062cb1e -> BB0062cbb0 [color="green"];
+  BB0062cb1e -> BB0062cb39 [color="red"];
+  BB0062cb39 -> BB0062cb90 [color="green"];
+  BB0062cb39 -> BB0062cb49 [color="red"];
+  BB0062cb90 -> BB0062cb49 [color="blue"];
+}

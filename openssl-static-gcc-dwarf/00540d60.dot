@@ -1,0 +1,9 @@
+digraph BN_is_bit_set {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00540d60 -> BB00540d82 [color="green"];
+  BB00540d60 -> BB00540d66 [color="red"];
+  BB00540d66 -> BB00540d82 [color="green"];
+  BB00540d66 -> BB00540d70 [color="red"];
+  BB00540d70 -> BB00540d82 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph SSL_want {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00490820 -> BB00490850 [color="green"];
+  BB00490820 -> BB00490825 [color="red"];
+  BB00490825 -> BB00490838 [color="green"];
+  BB00490825 -> BB0049082b [color="red"];
+  BB0049082b -> BB0049082f [color="blue"];
+  BB00490838 -> BB0049082f [color="green"];
+  BB00490838 -> BB00490846 [color="red"];
+}

@@ -1,0 +1,22 @@
+digraph quic_write_again {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ac9a0 -> BB004aca88 [color="green"];
+  BB004ac9a0 -> BB004ac9cb [color="red"];
+  BB004ac9cb -> BB004aca88 [color="green"];
+  BB004ac9cb -> BB004ac9df [color="red"];
+  BB004ac9df -> BB004aca88 [color="green"];
+  BB004ac9df -> BB004ac9f0 [color="red"];
+  BB004ac9f0 -> BB004aca88 [color="green"];
+  BB004ac9f0 -> BB004aca04 [color="red"];
+  BB004aca04 -> BB004aca88 [color="green"];
+  BB004aca04 -> BB004aca24 [color="red"];
+  BB004aca24 -> BB004acaa0 [color="green"];
+  BB004aca24 -> BB004aca39 [color="red"];
+  BB004aca39 -> BB004aca48 [color="green"];
+  BB004aca39 -> BB004aca3e [color="red"];
+  BB004aca3e -> BB004acac8 [color="green"];
+  BB004aca3e -> BB004aca48 [color="red"];
+  BB004acaa0 -> BB004aca39 [color="blue"];
+  BB004acac8 -> BB004aca48 [color="blue"];
+}

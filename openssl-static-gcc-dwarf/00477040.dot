@@ -1,0 +1,15 @@
+digraph dtls1_stop_timer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00477040 -> BB004770c8 [color="blue"];
+  BB00477090 -> BB004770b8 [color="green"];
+  BB00477090 -> BB0047709d [color="red"];
+  BB0047709d -> BB004770b8 [color="green"];
+  BB0047709d -> BB004770a7 [color="red"];
+  BB004770a7 -> BB004770b8 [color="green"];
+  BB004770a7 -> BB004770b5 [color="red"];
+  BB004770b5 -> BB004770b8 [color="blue"];
+  BB004770b8 -> BB004770c8 [color="red"];
+  BB004770c8 -> BB00477090 [color="green"];
+  BB004770c8 -> BB004770e3 [color="red"];
+}

@@ -1,0 +1,11 @@
+digraph _IO_init_marker {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008839f0 -> BB00883a38 [color="green"];
+  BB008839f0 -> BB00883a07 [color="red"];
+  BB00883a07 -> BB00883a30 [color="green"];
+  BB00883a07 -> BB00883a10 [color="red"];
+  BB00883a10 -> BB00883a13 [color="blue"];
+  BB00883a30 -> BB00883a13 [color="blue"];
+  BB00883a38 -> BB00883a07 [color="blue"];
+}

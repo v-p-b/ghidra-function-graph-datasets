@@ -1,0 +1,15 @@
+digraph OSSL_PROVIDER_set_default_search_path {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005ff4b0 -> BB005ff4df [color="green"];
+  BB005ff4b0 -> BB005ff4bf [color="red"];
+  BB005ff4bf -> BB005ff584 [color="green"];
+  BB005ff4bf -> BB005ff4df [color="red"];
+  BB005ff4df -> BB005ff520 [color="green"];
+  BB005ff4df -> BB005ff4f4 [color="red"];
+  BB005ff4f4 -> BB005ff558 [color="green"];
+  BB005ff4f4 -> BB005ff501 [color="red"];
+  BB005ff501 -> BB005ff517 [color="red"];
+  BB005ff520 -> BB005ff501 [color="blue"];
+  BB005ff584 -> BB005ff517 [color="blue"];
+}

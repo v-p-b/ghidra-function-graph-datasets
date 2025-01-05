@@ -1,0 +1,12 @@
+digraph check_msg_given_cert {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00561e10 -> BB00561e50 [color="green"];
+  BB00561e10 -> BB00561e45 [color="red"];
+  BB00561e45 -> BB00561e47 [color="blue"];
+  BB00561e50 -> BB00561e47 [color="green"];
+  BB00561e50 -> BB00561e6f [color="red"];
+  BB00561e6f -> BB00561e45 [color="green"];
+  BB00561e6f -> BB00561eb5 [color="red"];
+  BB00561eb5 -> BB00561e47 [color="blue"];
+}

@@ -1,0 +1,22 @@
+digraph SSL_set_session_ticket_ext {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0049ab20 -> BB0049abe0 [color="green"];
+  BB0049ab20 -> BB0049ab29 [color="red"];
+  BB0049ab29 -> BB0049ab60 [color="green"];
+  BB0049ab29 -> BB0049ab42 [color="red"];
+  BB0049ab42 -> BB0049ab50 [color="green"];
+  BB0049ab42 -> BB0049ab47 [color="red"];
+  BB0049ab47 -> BB0049ab60 [color="green"];
+  BB0049ab47 -> BB0049ab50 [color="red"];
+  BB0049ab50 -> BB0049ab52 [color="blue"];
+  BB0049ab60 -> BB0049ab50 [color="green"];
+  BB0049ab60 -> BB0049ab69 [color="red"];
+  BB0049ab69 -> BB0049ab50 [color="green"];
+  BB0049ab69 -> BB0049abb0 [color="red"];
+  BB0049abb0 -> BB0049abe8 [color="green"];
+  BB0049abb0 -> BB0049abb5 [color="red"];
+  BB0049abb5 -> BB00401070 [color="blue"];
+  BB0049abb5 -> BB0049ab52 [color="blue"];
+  BB0049abe8 -> BB0049ab52 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph app_provider_load {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00464770 -> BB00464800 [color="green"];
+  BB00464770 -> BB00464783 [color="red"];
+  BB00464783 -> BB004647e0 [color="green"];
+  BB00464783 -> BB00464792 [color="red"];
+  BB00464792 -> BB004647b0 [color="green"];
+  BB00464792 -> BB004647a4 [color="red"];
+  BB004647b0 -> BB004647b7 [color="blue"];
+  BB004647e0 -> BB004647b7 [color="green"];
+  BB004647e0 -> BB004647fe [color="red"];
+  BB004647fe -> BB00464792 [color="blue"];
+  BB00464800 -> BB004647a4 [color="blue"];
+}

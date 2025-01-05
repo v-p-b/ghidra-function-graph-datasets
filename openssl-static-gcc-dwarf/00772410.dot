@@ -1,0 +1,13 @@
+digraph ossl_hpke_kdf_extract {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00772410 -> BB007724c6 [color="green"];
+  BB00772410 -> BB00772481 [color="red"];
+  BB00772481 -> BB007724c6 [color="red"];
+  BB007724c6 -> BB00772508 [color="green"];
+  BB007724c6 -> BB007724cb [color="red"];
+  BB007724cb -> BB00772508 [color="red"];
+  BB00772508 -> BB00772560 [color="green"];
+  BB00772508 -> BB0077254b [color="red"];
+  BB00772560 -> BB0077254b [color="blue"];
+}

@@ -1,0 +1,19 @@
+digraph SSL_use_certificate {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004965e0 -> BB004966c8 [color="green"];
+  BB004965e0 -> BB004965e9 [color="red"];
+  BB004965e9 -> BB00496610 [color="green"];
+  BB004965e9 -> BB004965f9 [color="red"];
+  BB004965f9 -> BB00496660 [color="green"];
+  BB004965f9 -> BB004965fe [color="red"];
+  BB004965fe -> BB00496660 [color="green"];
+  BB004965fe -> BB00496607 [color="red"];
+  BB00496607 -> BB00496610 [color="blue"];
+  BB00496610 -> BB00496690 [color="green"];
+  BB00496610 -> BB00496615 [color="red"];
+  BB00496615 -> BB00496670 [color="green"];
+  BB00496615 -> BB00496632 [color="red"];
+  BB00496632 -> BB00496660 [color="red"];
+  BB00496690 -> BB00496660 [color="blue"];
+}

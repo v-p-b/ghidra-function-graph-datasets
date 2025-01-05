@@ -1,0 +1,29 @@
+digraph X509_ATTRIBUTE_create_by_OBJ {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00672560 -> BB00672630 [color="green"];
+  BB00672560 -> BB00672585 [color="red"];
+  BB00672585 -> BB00672630 [color="green"];
+  BB00672585 -> BB00672591 [color="red"];
+  BB00672591 -> BB006725d8 [color="green"];
+  BB00672591 -> BB00672596 [color="red"];
+  BB00672596 -> BB00672608 [color="green"];
+  BB00672596 -> BB006725b0 [color="red"];
+  BB006725b0 -> BB00672608 [color="green"];
+  BB006725b0 -> BB006725c4 [color="red"];
+  BB006725c4 -> BB0067261d [color="green"];
+  BB006725c4 -> BB006725c9 [color="red"];
+  BB006725c9 -> BB0067261d [color="green"];
+  BB006725c9 -> BB006725cf [color="red"];
+  BB006725cf -> BB0067261d [color="blue"];
+  BB006725d8 -> BB00672608 [color="red"];
+  BB00672608 -> BB00672612 [color="green"];
+  BB00672608 -> BB0067260d [color="red"];
+  BB0067260d -> BB00672678 [color="green"];
+  BB0067260d -> BB00672612 [color="red"];
+  BB00672612 -> BB0067261d [color="red"];
+  BB00672630 -> BB00672591 [color="green"];
+  BB00672630 -> BB00672641 [color="red"];
+  BB00672641 -> BB0067261d [color="blue"];
+  BB00672678 -> BB0067261d [color="blue"];
+}

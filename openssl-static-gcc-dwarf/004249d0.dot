@@ -1,0 +1,25 @@
+digraph list_macs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004249d0 -> BB00424b90 [color="green"];
+  BB004249d0 -> BB004249ed [color="red"];
+  BB004249ed -> BB00424a3b [color="blue"];
+  BB00424a30 -> BB00424a38 [color="red"];
+  BB00424a38 -> BB00424a3b [color="blue"];
+  BB00424a3b -> BB00424b70 [color="green"];
+  BB00424a3b -> BB00424a4b [color="red"];
+  BB00424a4b -> BB00424a70 [color="green"];
+  BB00424a4b -> BB00424a64 [color="red"];
+  BB00424a64 -> BB00424a38 [color="green"];
+  BB00424a64 -> BB00424a70 [color="red"];
+  BB00424a70 -> BB00424a30 [color="green"];
+  BB00424a70 -> BB00424a84 [color="red"];
+  BB00424a84 -> BB00424a30 [color="green"];
+  BB00424a84 -> BB00424a9a [color="red"];
+  BB00424a9a -> BB00424a30 [color="green"];
+  BB00424a9a -> BB00424af0 [color="red"];
+  BB00424af0 -> BB00424b15 [color="green"];
+  BB00424af0 -> BB00424b00 [color="red"];
+  BB00424b00 -> BB00424b15 [color="red"];
+  BB00424b15 -> BB00424a30 [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph SSL_get_num_tickets {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00491010 -> BB00491040 [color="green"];
+  BB00491010 -> BB00491015 [color="red"];
+  BB00491015 -> BB00491030 [color="green"];
+  BB00491015 -> BB0049101b [color="red"];
+  BB0049101b -> BB0049102b [color="green"];
+  BB0049101b -> BB00491022 [color="red"];
+  BB00491022 -> BB00491030 [color="green"];
+  BB00491022 -> BB0049102b [color="red"];
+}

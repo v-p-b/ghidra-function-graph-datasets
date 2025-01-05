@@ -1,0 +1,12 @@
+digraph PKCS7_get_issuer_and_serial {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00625e70 -> BB00625ec0 [color="green"];
+  BB00625e70 -> BB00625e88 [color="red"];
+  BB00625e88 -> BB00625ec0 [color="green"];
+  BB00625e88 -> BB00625e91 [color="red"];
+  BB00625e91 -> BB00625ec0 [color="green"];
+  BB00625e91 -> BB00625e9a [color="red"];
+  BB00625e9a -> BB00625ec0 [color="green"];
+  BB00625e9a -> BB00625ea7 [color="red"];
+}

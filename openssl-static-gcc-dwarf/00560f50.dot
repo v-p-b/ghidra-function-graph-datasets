@@ -1,0 +1,25 @@
+digraph verify_signature {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00560f50 -> BB00561080 [color="green"];
+  BB00560f50 -> BB00560f75 [color="red"];
+  BB00560f75 -> BB00561080 [color="green"];
+  BB00560f75 -> BB00560f81 [color="red"];
+  BB00560f81 -> BB00561080 [color="green"];
+  BB00560f81 -> BB00560f9d [color="red"];
+  BB00560f9d -> BB00561098 [color="green"];
+  BB00560f9d -> BB00560fad [color="red"];
+  BB00560fad -> BB00561110 [color="green"];
+  BB00560fad -> BB00560fc1 [color="red"];
+  BB00560fc1 -> BB00561065 [color="green"];
+  BB00560fc1 -> BB0056101d [color="red"];
+  BB0056101d -> BB005610e0 [color="green"];
+  BB0056101d -> BB00561065 [color="red"];
+  BB00561065 -> BB00561083 [color="blue"];
+  BB00561080 -> BB00561083 [color="blue"];
+  BB00561098 -> BB00560fad [color="green"];
+  BB00561098 -> BB005610a8 [color="red"];
+  BB005610a8 -> BB0056101d [color="blue"];
+  BB005610e0 -> BB00561083 [color="blue"];
+  BB00561110 -> BB0056101d [color="blue"];
+}

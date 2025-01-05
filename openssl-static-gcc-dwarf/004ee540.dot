@@ -1,0 +1,32 @@
+digraph create_ticket_prequel {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ee540 -> BB004ee5a1 [color="green"];
+  BB004ee540 -> BB004ee58d [color="red"];
+  BB004ee58d -> BB004ee5a1 [color="green"];
+  BB004ee58d -> BB004ee596 [color="red"];
+  BB004ee596 -> BB004ee660 [color="green"];
+  BB004ee596 -> BB004ee5a1 [color="red"];
+  BB004ee5a1 -> BB004ee610 [color="green"];
+  BB004ee5a1 -> BB004ee5ad [color="red"];
+  BB004ee5ad -> BB004ee618 [color="green"];
+  BB004ee5ad -> BB004ee5c1 [color="red"];
+  BB004ee5c1 -> BB004ee5e6 [color="green"];
+  BB004ee5c1 -> BB004ee5d2 [color="red"];
+  BB004ee5d2 -> BB004ee5e6 [color="green"];
+  BB004ee5d2 -> BB004ee5db [color="red"];
+  BB004ee5db -> BB004ee680 [color="green"];
+  BB004ee5db -> BB004ee5e6 [color="red"];
+  BB004ee5e6 -> BB004ee6f0 [color="green"];
+  BB004ee5e6 -> BB004ee5fe [color="red"];
+  BB004ee5fe -> BB004ee604 [color="blue"];
+  BB004ee610 -> BB004ee5ad [color="blue"];
+  BB004ee618 -> BB004ee629 [color="red"];
+  BB004ee660 -> BB004ee5ad [color="blue"];
+  BB004ee680 -> BB004ee6b0 [color="green"];
+  BB004ee680 -> BB004ee693 [color="red"];
+  BB004ee693 -> BB004ee5e6 [color="green"];
+  BB004ee693 -> BB004ee6b0 [color="red"];
+  BB004ee6b0 -> BB004ee604 [color="blue"];
+  BB004ee6f0 -> BB004ee629 [color="blue"];
+}

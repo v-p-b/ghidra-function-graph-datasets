@@ -1,0 +1,20 @@
+digraph tls_construct_stoc_alpn {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004dc4e0 -> BB004dc5b8 [color="green"];
+  BB004dc4e0 -> BB004dc4ee [color="red"];
+  BB004dc4ee -> BB004dc522 [color="green"];
+  BB004dc4ee -> BB004dc511 [color="red"];
+  BB004dc511 -> BB004dc560 [color="green"];
+  BB004dc511 -> BB004dc522 [color="red"];
+  BB004dc522 -> BB004dc557 [color="red"];
+  BB004dc560 -> BB004dc522 [color="green"];
+  BB004dc560 -> BB004dc571 [color="red"];
+  BB004dc571 -> BB004dc522 [color="green"];
+  BB004dc571 -> BB004dc590 [color="red"];
+  BB004dc590 -> BB004dc522 [color="green"];
+  BB004dc590 -> BB004dc59c [color="red"];
+  BB004dc59c -> BB004dc522 [color="green"];
+  BB004dc59c -> BB004dc5ac [color="red"];
+  BB004dc5ac -> BB004dc557 [color="blue"];
+}

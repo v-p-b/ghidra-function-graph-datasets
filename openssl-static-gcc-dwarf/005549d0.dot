@@ -1,0 +1,14 @@
+digraph get1_cert_status {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005549d0 -> BB00554b1c [color="green"];
+  BB005549d0 -> BB005549e4 [color="red"];
+  BB005549e4 -> BB00554b1c [color="green"];
+  BB005549e4 -> BB005549f0 [color="red"];
+  BB005549f0 -> BB00554c6d [color="green"];
+  BB005549f0 -> BB00554a07 [color="red"];
+  BB00554af5 -> BB00554b1c [color="green"];
+  BB00554af5 -> BB00554b0d [color="red"];
+  BB00554b0d -> BB00554b1c [color="red"];
+  BB00554c6d -> BB00554af5 [color="blue"];
+}

@@ -1,0 +1,27 @@
+digraph tls_release_record {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004cce00 -> BB004ccf18 [color="green"];
+  BB004cce00 -> BB004cce2e [color="red"];
+  BB004cce2e -> BB004ccf18 [color="green"];
+  BB004cce2e -> BB004cce3b [color="red"];
+  BB004cce3b -> BB004ccf73 [color="green"];
+  BB004cce3b -> BB004cce4e [color="red"];
+  BB004cce4e -> BB004ccea8 [color="green"];
+  BB004cce4e -> BB004cce5b [color="red"];
+  BB004cce5b -> BB004cce93 [color="green"];
+  BB004cce5b -> BB004cce78 [color="red"];
+  BB004cce78 -> BB004ccec0 [color="green"];
+  BB004cce78 -> BB004cce93 [color="red"];
+  BB004ccea8 -> BB004cce5b [color="blue"];
+  BB004ccec0 -> BB004cce93 [color="green"];
+  BB004ccec0 -> BB004ccec6 [color="red"];
+  BB004ccec6 -> BB004cce93 [color="green"];
+  BB004ccec6 -> BB004cced0 [color="red"];
+  BB004cced0 -> BB004ccf5b [color="green"];
+  BB004cced0 -> BB004ccedd [color="red"];
+  BB004ccedd -> BB004cce93 [color="blue"];
+  BB004ccf18 -> BB004ccf3c [color="red"];
+  BB004ccf5b -> BB004ccedd [color="blue"];
+  BB004ccf73 -> BB004ccf3c [color="blue"];
+}

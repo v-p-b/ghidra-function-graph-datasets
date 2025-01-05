@@ -1,0 +1,13 @@
+digraph ossl_lib_ctx_is_child {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e8b10 -> BB005e8b20 [color="green"];
+  BB005e8b10 -> BB005e8b15 [color="red"];
+  BB005e8b20 -> BB005e8b68 [color="green"];
+  BB005e8b20 -> BB005e8b3b [color="red"];
+  BB005e8b3b -> BB005e8b68 [color="green"];
+  BB005e8b3b -> BB005e8b45 [color="red"];
+  BB005e8b45 -> BB005e8b68 [color="green"];
+  BB005e8b45 -> BB005e8b59 [color="red"];
+  BB005e8b68 -> BB005e8b59 [color="blue"];
+}

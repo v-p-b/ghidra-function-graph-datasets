@@ -1,0 +1,14 @@
+digraph key_to_spki_der_pub_bio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006afc00 -> BB006afca0 [color="green"];
+  BB006afc00 -> BB006afc2e [color="red"];
+  BB006afc2e -> BB006afc8a [color="green"];
+  BB006afc2e -> BB006afc52 [color="red"];
+  BB006afc52 -> BB006afc5b [color="blue"];
+  BB006afc5b -> BB006afc82 [color="green"];
+  BB006afc5b -> BB006afc74 [color="red"];
+  BB006afc74 -> BB006afc82 [color="red"];
+  BB006afc82 -> BB006afc8a [color="red"];
+  BB006afca0 -> BB006afc5b [color="blue"];
+}

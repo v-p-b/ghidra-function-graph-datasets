@@ -1,0 +1,13 @@
+digraph COMP_CTX_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00570b10 -> BB00570b74 [color="green"];
+  BB00570b10 -> BB00570b1c [color="red"];
+  BB00570b1c -> BB00570b74 [color="green"];
+  BB00570b1c -> BB00570b3d [color="red"];
+  BB00570b3d -> BB00570b52 [color="green"];
+  BB00570b3d -> BB00570b49 [color="red"];
+  BB00570b49 -> BB00570b60 [color="green"];
+  BB00570b49 -> BB00570b52 [color="red"];
+  BB00570b60 -> BB00570b74 [color="red"];
+}

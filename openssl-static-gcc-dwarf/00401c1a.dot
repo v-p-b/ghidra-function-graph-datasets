@@ -1,0 +1,15 @@
+digraph _IO_getdelim.cold {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00401c1a -> BB00401c4b [color="green"];
+  BB00401c1a -> BB00401c22 [color="red"];
+  BB00401c22 -> BB00401c4b [color="green"];
+  BB00401c22 -> BB00401c34 [color="red"];
+  BB00401c34 -> BB00401c53 [color="green"];
+  BB00401c34 -> BB00401c48 [color="red"];
+  BB00401c48 -> BB00401c4b [color="blue"];
+  BB00401c4b -> BB00401c4e [color="blue"];
+  BB00401c53 -> BB00401c4b [color="green"];
+  BB00401c53 -> BB00401c5a [color="red"];
+  BB00401c5a -> BB00401c4b [color="blue"];
+}

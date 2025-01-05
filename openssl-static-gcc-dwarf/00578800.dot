@@ -1,0 +1,22 @@
+digraph SCT_CTX_set1_issuer {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00578800 -> BB00578930 [color="green"];
+  BB00578800 -> BB00578841 [color="red"];
+  BB00578841 -> BB00578908 [color="green"];
+  BB00578841 -> BB0057884e [color="red"];
+  BB0057884e -> BB00578908 [color="green"];
+  BB0057884e -> BB00578859 [color="red"];
+  BB00578859 -> BB005788c1 [color="green"];
+  BB00578859 -> BB0057886d [color="red"];
+  BB0057886d -> BB005788c1 [color="green"];
+  BB0057886d -> BB0057888f [color="red"];
+  BB0057888f -> BB00578940 [color="green"];
+  BB0057888f -> BB0057889c [color="red"];
+  BB0057889c -> BB005788c1 [color="red"];
+  BB00578908 -> BB00578859 [color="green"];
+  BB00578908 -> BB0057892a [color="red"];
+  BB0057892a -> BB00578930 [color="blue"];
+  BB00578930 -> BB005788c1 [color="blue"];
+  BB00578940 -> BB005788c1 [color="blue"];
+}

@@ -1,0 +1,8 @@
+digraph __libc_longjmp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00866920 -> BB0086694e [color="green"];
+  BB00866920 -> BB0086693a [color="red"];
+  BB0086693a -> BB0086694e [color="red"];
+  BB0086694e -> BB0086693a [color="blue"];
+}

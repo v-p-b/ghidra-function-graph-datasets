@@ -1,0 +1,33 @@
+digraph X509_EXTENSION_create_by_OBJ {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00679b40 -> BB00679bd0 [color="green"];
+  BB00679b40 -> BB00679b59 [color="red"];
+  BB00679b59 -> BB00679bd0 [color="green"];
+  BB00679b59 -> BB00679b61 [color="red"];
+  BB00679b61 -> BB00679b78 [color="green"];
+  BB00679b61 -> BB00679b66 [color="red"];
+  BB00679b66 -> BB00679b69 [color="blue"];
+  BB00679b78 -> BB00679be7 [color="green"];
+  BB00679b78 -> BB00679b92 [color="red"];
+  BB00679b92 -> BB00679be2 [color="green"];
+  BB00679b92 -> BB00679bb8 [color="red"];
+  BB00679bb8 -> BB00679b69 [color="green"];
+  BB00679bb8 -> BB00679bbd [color="red"];
+  BB00679bbd -> BB00679b69 [color="green"];
+  BB00679bbd -> BB00679bc3 [color="red"];
+  BB00679bc3 -> BB00679b69 [color="blue"];
+  BB00679bd0 -> BB00679c20 [color="green"];
+  BB00679bd0 -> BB00679bdd [color="red"];
+  BB00679bdd -> BB00679c00 [color="green"];
+  BB00679bdd -> BB00679be2 [color="red"];
+  BB00679be2 -> BB00679bf0 [color="green"];
+  BB00679be2 -> BB00679be7 [color="red"];
+  BB00679be7 -> BB00679b66 [color="green"];
+  BB00679be7 -> BB00679bf0 [color="red"];
+  BB00679bf0 -> BB00679b66 [color="blue"];
+  BB00679c00 -> BB00679b92 [color="green"];
+  BB00679c00 -> BB00679c1d [color="red"];
+  BB00679c1d -> BB00679be2 [color="blue"];
+  BB00679c20 -> BB00679b69 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph ossl_HPKE_KEM_INFO_find_curve {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB007720f0 -> BB00772109 [color="blue"];
+  BB00772109 -> BB00772170 [color="green"];
+  BB00772109 -> BB00772112 [color="red"];
+  BB00772112 -> BB00772180 [color="green"];
+  BB00772112 -> BB0077211e [color="red"];
+  BB0077211e -> BB00772109 [color="green"];
+  BB0077211e -> BB0077212a [color="red"];
+  BB00772170 -> BB0077211e [color="green"];
+  BB00772170 -> BB00772180 [color="red"];
+}

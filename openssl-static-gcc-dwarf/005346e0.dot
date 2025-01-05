@@ -1,0 +1,10 @@
+digraph acpt_read {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005346e0 -> BB00534717 [color="blue"];
+  BB00534708 -> BB0053473b [color="green"];
+  BB00534708 -> BB00534717 [color="red"];
+  BB00534717 -> BB00534708 [color="green"];
+  BB00534717 -> BB00534720 [color="red"];
+  BB00534720 -> BB0053473b [color="red"];
+}

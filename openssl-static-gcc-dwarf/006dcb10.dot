@@ -1,0 +1,17 @@
+digraph cleanup_entropy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006dcb10 -> BB006dcb80 [color="green"];
+  BB006dcb10 -> BB006dcb21 [color="red"];
+  BB006dcb21 -> BB006dcb70 [color="green"];
+  BB006dcb21 -> BB006dcb2a [color="red"];
+  BB006dcb2a -> BB006dcb53 [color="green"];
+  BB006dcb2a -> BB006dcb33 [color="red"];
+  BB006dcb33 -> BB006dcb90 [color="green"];
+  BB006dcb33 -> BB006dcb42 [color="red"];
+  BB006dcb42 -> BB006dcb53 [color="blue"];
+  BB006dcb53 -> BB006dcb70 [color="green"];
+  BB006dcb53 -> BB006dcb5e [color="red"];
+  BB006dcb5e -> BB006dcb70 [color="green"];
+  BB006dcb5e -> BB006dcb67 [color="red"];
+}

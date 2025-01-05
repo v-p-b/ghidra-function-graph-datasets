@@ -1,0 +1,21 @@
+digraph OSSL_STORE_delete {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0064ac60 -> BB00401040 [color="green"];
+  BB0064ac60 -> BB0064ada0 [color="green"];
+  BB0064ac60 -> BB0064acc4 [color="red"];
+  BB0064acc4 -> BB0064acef [color="green"];
+  BB0064acc4 -> BB0064acd1 [color="red"];
+  BB0064acd1 -> BB0064ad58 [color="green"];
+  BB0064acd1 -> BB0064ace3 [color="red"];
+  BB0064ace3 -> BB0064ad58 [color="green"];
+  BB0064ace3 -> BB0064acef [color="red"];
+  BB0064acef -> BB0064ad43 [color="green"];
+  BB0064acef -> BB0064ad09 [color="red"];
+  BB0064ad09 -> BB0064ad43 [color="green"];
+  BB0064ad09 -> BB0064ad13 [color="red"];
+  BB0064ad13 -> BB0064ad43 [color="red"];
+  BB0064ad43 -> BB0064ad8b [color="blue"];
+  BB0064ad58 -> BB0064ad8b [color="red"];
+  BB0064ada0 -> BB0064ad8b [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph ossl_i2d_X25519_PUBKEY {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006892f0 -> BB00689344 [color="green"];
+  BB006892f0 -> BB00689303 [color="red"];
+  BB00689303 -> BB00689353 [color="green"];
+  BB00689303 -> BB00689316 [color="red"];
+  BB00689316 -> BB00689344 [color="red"];
+  BB00689353 -> BB00689344 [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph ossl_quic_sstream_is_totally_acked {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004be470 -> BB004be497 [color="green"];
+  BB004be470 -> BB004be47e [color="red"];
+  BB004be47e -> BB004be497 [color="green"];
+  BB004be47e -> BB004be48d [color="red"];
+  BB004be48d -> BB004be4a0 [color="green"];
+  BB004be48d -> BB004be497 [color="red"];
+  BB004be4a0 -> BB004be497 [color="green"];
+  BB004be4a0 -> BB004be4af [color="red"];
+}

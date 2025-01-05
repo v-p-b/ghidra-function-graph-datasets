@@ -1,0 +1,15 @@
+digraph ossl_curve448_scalar_decode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00747ab0 -> BB00747ac0 [color="blue"];
+  BB00747ac0 -> BB00747ad0 [color="blue"];
+  BB00747ad0 -> BB00747af6 [color="green"];
+  BB00747ad0 -> BB00747af0 [color="red"];
+  BB00747af0 -> BB00747ad0 [color="green"];
+  BB00747af0 -> BB00747af6 [color="red"];
+  BB00747af6 -> BB00747b22 [color="green"];
+  BB00747af6 -> BB00747b05 [color="red"];
+  BB00747b05 -> BB00747ac0 [color="green"];
+  BB00747b05 -> BB00747b0b [color="red"];
+  BB00747b0b -> BB00747b22 [color="red"];
+}

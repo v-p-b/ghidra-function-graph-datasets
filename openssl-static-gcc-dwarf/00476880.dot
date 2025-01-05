@@ -1,0 +1,17 @@
+digraph BIO_ssl_shutdown {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00476880 -> BB004768e0 [color="green"];
+  BB00476880 -> BB00476885 [color="red"];
+  BB00476885 -> BB004768a0 [color="blue"];
+  BB00476890 -> BB004768d9 [color="green"];
+  BB00476890 -> BB004768a0 [color="red"];
+  BB004768a0 -> BB00476890 [color="green"];
+  BB004768a0 -> BB004768af [color="red"];
+  BB004768af -> BB00476890 [color="green"];
+  BB004768af -> BB004768bc [color="red"];
+  BB004768bc -> BB00476890 [color="green"];
+  BB004768bc -> BB004768c4 [color="red"];
+  BB004768c4 -> BB004768a0 [color="green"];
+  BB004768c4 -> BB004768d9 [color="red"];
+}

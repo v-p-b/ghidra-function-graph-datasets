@@ -1,0 +1,10 @@
+digraph check_cert_time_string {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0046b8d0 -> BB0046b8fd [color="green"];
+  BB0046b8d0 -> BB0046b8dd [color="red"];
+  BB0046b8dd -> BB0046b910 [color="green"];
+  BB0046b8dd -> BB0046b8fd [color="red"];
+  BB0046b910 -> BB0046b8fd [color="green"];
+  BB0046b910 -> BB0046b921 [color="red"];
+}

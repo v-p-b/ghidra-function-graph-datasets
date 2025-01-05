@@ -1,0 +1,13 @@
+digraph OSSL_LIB_CTX_get_conf_diagnostics {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e97f0 -> BB005e9800 [color="green"];
+  BB005e97f0 -> BB005e97f5 [color="red"];
+  BB005e9800 -> BB005e9848 [color="green"];
+  BB005e9800 -> BB005e981b [color="red"];
+  BB005e981b -> BB005e9848 [color="green"];
+  BB005e981b -> BB005e9825 [color="red"];
+  BB005e9825 -> BB005e9848 [color="green"];
+  BB005e9825 -> BB005e9839 [color="red"];
+  BB005e9848 -> BB005e9839 [color="blue"];
+}

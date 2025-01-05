@@ -1,0 +1,12 @@
+digraph ossl_cmp_mock_srv_set1_chainOut {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00403ab0 -> BB00403b08 [color="green"];
+  BB00403ab0 -> BB00403ac3 [color="red"];
+  BB00403ac3 -> BB00403adb [color="green"];
+  BB00403ac3 -> BB00403acb [color="red"];
+  BB00403acb -> BB00403af8 [color="green"];
+  BB00403acb -> BB00403adb [color="red"];
+  BB00403adb -> BB00403aed [color="red"];
+  BB00403b08 -> BB00403aed [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph ossl_quic_wire_encode_frame_reset_stream {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c0ba0 -> BB004c0bc8 [color="green"];
+  BB004c0ba0 -> BB004c0bba [color="red"];
+  BB004c0bc8 -> BB004c0bba [color="green"];
+  BB004c0bc8 -> BB004c0bd7 [color="red"];
+  BB004c0bd7 -> BB004c0bba [color="green"];
+  BB004c0bd7 -> BB004c0be7 [color="red"];
+}

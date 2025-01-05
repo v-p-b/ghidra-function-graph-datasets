@@ -1,0 +1,20 @@
+digraph ossl_quic_port_set_net_wbio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b64b0 -> BB004b6598 [color="green"];
+  BB004b64b0 -> BB004b64bf [color="red"];
+  BB004b64bf -> BB004b6540 [color="green"];
+  BB004b64bf -> BB004b64df [color="red"];
+  BB004b64df -> BB004b6540 [color="green"];
+  BB004b64df -> BB004b64ee [color="red"];
+  BB004b64ee -> BB004b6547 [color="green"];
+  BB004b64ee -> BB004b64f4 [color="red"];
+  BB004b64f4 -> BB004b6547 [color="green"];
+  BB004b64f4 -> BB004b64fc [color="red"];
+  BB004b6540 -> BB004b6547 [color="blue"];
+  BB004b6547 -> BB004b6580 [color="green"];
+  BB004b6547 -> BB004b6561 [color="red"];
+  BB004b6561 -> BB004b6568 [color="blue"];
+  BB004b6568 -> BB004b6568 [color="green"];
+  BB004b6568 -> BB004b6580 [color="red"];
+}

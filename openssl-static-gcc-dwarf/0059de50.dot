@@ -1,0 +1,28 @@
+digraph collect_keymgmt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0059de50 -> BB0059de80 [color="green"];
+  BB0059de50 -> BB0059de61 [color="red"];
+  BB0059de61 -> BB0059deb0 [color="green"];
+  BB0059de61 -> BB0059de67 [color="red"];
+  BB0059de67 -> BB0059de6a [color="blue"];
+  BB0059de6a -> BB0059de7a [color="green"];
+  BB0059de6a -> BB0059de6e [color="red"];
+  BB0059de6e -> BB0059de80 [color="green"];
+  BB0059de6e -> BB0059de75 [color="red"];
+  BB0059de75 -> BB0059de80 [color="green"];
+  BB0059de75 -> BB0059de7a [color="red"];
+  BB0059de80 -> BB0059de7a [color="green"];
+  BB0059de80 -> BB0059de8c [color="red"];
+  BB0059de8c -> BB0059de7a [color="green"];
+  BB0059de8c -> BB0059de9c [color="red"];
+  BB0059de9c -> BB0059de7a [color="blue"];
+  BB0059deb0 -> BB0059df30 [color="green"];
+  BB0059deb0 -> BB0059dece [color="red"];
+  BB0059dece -> BB0059df08 [color="green"];
+  BB0059dece -> BB0059deed [color="red"];
+  BB0059deed -> BB0059df1d [color="green"];
+  BB0059deed -> BB0059df08 [color="red"];
+  BB0059df08 -> BB0059df1d [color="red"];
+  BB0059df1d -> BB0059de6a [color="blue"];
+}

@@ -1,0 +1,23 @@
+digraph ChaCha20_avx512vl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00731440 -> BB00731450 [color="red"];
+  BB00731450 -> BB007314c0 [color="blue"];
+  BB007314a0 -> BB007314c0 [color="blue"];
+  BB007314c0 -> BB007314c0 [color="green"];
+  BB007314c0 -> BB0073155f [color="red"];
+  BB0073155f -> BB00731620 [color="green"];
+  BB0073155f -> BB00731581 [color="red"];
+  BB00731581 -> BB00731684 [color="green"];
+  BB00731581 -> BB007315b5 [color="red"];
+  BB007315b5 -> BB00731640 [color="green"];
+  BB007315b5 -> BB007315d3 [color="red"];
+  BB007315d3 -> BB007314a0 [color="green"];
+  BB007315d3 -> BB00731613 [color="red"];
+  BB00731613 -> BB00731684 [color="blue"];
+  BB00731620 -> BB0073165b [color="blue"];
+  BB00731640 -> BB0073165b [color="blue"];
+  BB0073165b -> BB0073165b [color="green"];
+  BB0073165b -> BB00731675 [color="red"];
+  BB00731675 -> BB00731684 [color="blue"];
+}

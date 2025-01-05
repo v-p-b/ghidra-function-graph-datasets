@@ -1,0 +1,14 @@
+digraph get_session {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00447170 -> BB00447210 [color="green"];
+  BB00447170 -> BB00447190 [color="red"];
+  BB00447190 -> BB004471a9 [color="blue"];
+  BB004471a0 -> BB00447210 [color="green"];
+  BB004471a0 -> BB004471a9 [color="red"];
+  BB004471a9 -> BB004471a0 [color="green"];
+  BB004471a9 -> BB004471ae [color="red"];
+  BB004471ae -> BB004010d8 [color="green"];
+  BB004471ae -> BB004471a0 [color="green"];
+  BB004471ae -> BB004471c0 [color="red"];
+}

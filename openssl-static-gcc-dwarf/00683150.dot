@@ -1,0 +1,11 @@
+digraph X509_sign {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00683150 -> BB006831e0 [color="green"];
+  BB00683150 -> BB00683161 [color="red"];
+  BB00683161 -> BB0068318c [color="green"];
+  BB00683161 -> BB0068317b [color="red"];
+  BB0068317b -> BB006831d4 [color="green"];
+  BB0068317b -> BB0068318c [color="red"];
+  BB0068318c -> BB006831d4 [color="red"];
+}

@@ -1,0 +1,20 @@
+digraph adjust_wide_data {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0087d1a0 -> BB0087d200 [color="green"];
+  BB0087d1a0 -> BB0087d1d2 [color="red"];
+  BB0087d1d2 -> BB0087d200 [color="green"];
+  BB0087d1d2 -> BB0087d1d8 [color="red"];
+  BB0087d1d8 -> BB0087d250 [color="blue"];
+  BB0087d200 -> BB0087d20b [color="blue"];
+  BB0087d20b -> BB0087d270 [color="green"];
+  BB0087d20b -> BB0087d240 [color="red"];
+  BB0087d240 -> BB0087d280 [color="green"];
+  BB0087d240 -> BB0087d245 [color="red"];
+  BB0087d245 -> BB0087d250 [color="blue"];
+  BB0087d250 -> BB0087d255 [color="blue"];
+  BB0087d255 -> BB0087d286 [color="green"];
+  BB0087d255 -> BB0087d265 [color="red"];
+  BB0087d270 -> BB0087d255 [color="blue"];
+  BB0087d280 -> BB0087d20b [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph sha256_multi_block_shaext {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00842b80 -> BB00842bb3 [color="blue"];
+  BB00842bb3 -> BB0084340d [color="green"];
+  BB00842bb3 -> BB00842bec [color="red"];
+  BB00842bec -> BB00842c80 [color="blue"];
+  BB00842c80 -> BB00842c80 [color="green"];
+  BB00842c80 -> BB0084337f [color="red"];
+  BB0084337f -> BB00842bb3 [color="green"];
+  BB0084337f -> BB0084340d [color="red"];
+}

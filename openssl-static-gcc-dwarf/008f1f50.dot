@@ -1,0 +1,15 @@
+digraph _dl_tlsdesc_resolve_hold_fixup {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008f1f50 -> BB008f1f60 [color="green"];
+  BB008f1f50 -> BB008f1f58 [color="red"];
+  BB008f1f60 -> BB008f1fa0 [color="green"];
+  BB008f1f60 -> BB008f1f6a [color="red"];
+  BB008f1f6a -> BB00000000 [color="green"];
+  BB008f1f6a -> BB008f1f98 [color="green"];
+  BB008f1f6a -> BB008f1f84 [color="red"];
+  BB008f1f84 -> BB00000000 [color="blue"];
+  BB008f1fa0 -> BB008f1f58 [color="green"];
+  BB008f1fa0 -> BB008f1faa [color="red"];
+  BB008f1faa -> BB00000000 [color="blue"];
+}

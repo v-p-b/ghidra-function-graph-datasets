@@ -1,0 +1,30 @@
+digraph X509_STORE_add_cert {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00676bb0 -> BB00676c70 [color="green"];
+  BB00676bb0 -> BB00676bc3 [color="red"];
+  BB00676bc3 -> BB00676c70 [color="green"];
+  BB00676bc3 -> BB00676beb [color="red"];
+  BB00676beb -> BB00676cb8 [color="green"];
+  BB00676beb -> BB00676c05 [color="red"];
+  BB00676c05 -> BB00676cb8 [color="green"];
+  BB00676c05 -> BB00676c19 [color="red"];
+  BB00676c19 -> BB00676cd8 [color="green"];
+  BB00676c19 -> BB00676c2e [color="red"];
+  BB00676c2e -> BB00676c40 [color="red"];
+  BB00676c40 -> BB00676d20 [color="green"];
+  BB00676c40 -> BB00676c4c [color="red"];
+  BB00676c4c -> BB00676d10 [color="green"];
+  BB00676c4c -> BB00676c55 [color="red"];
+  BB00676c55 -> BB00676c69 [color="red"];
+  BB00676c69 -> BB00676ca3 [color="green"];
+  BB00676c69 -> BB00676c6e [color="red"];
+  BB00676c6e -> BB00676c70 [color="blue"];
+  BB00676c70 -> BB00676ca3 [color="red"];
+  BB00676cb8 -> BB00676c70 [color="blue"];
+  BB00676cd8 -> BB00676c69 [color="green"];
+  BB00676cd8 -> BB00676d05 [color="red"];
+  BB00676d05 -> BB00676c40 [color="blue"];
+  BB00676d10 -> BB00676c55 [color="blue"];
+  BB00676d20 -> BB00676c55 [color="blue"];
+}

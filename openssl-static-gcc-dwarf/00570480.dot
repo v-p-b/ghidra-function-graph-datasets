@@ -1,0 +1,31 @@
+digraph CMS_sign_receipt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00570480 -> BB005705c8 [color="green"];
+  BB00570480 -> BB005704af [color="red"];
+  BB005704af -> BB005705c8 [color="green"];
+  BB005704af -> BB005704bb [color="red"];
+  BB005704bb -> BB00570515 [color="green"];
+  BB005704bb -> BB005704fc [color="red"];
+  BB005704fc -> BB00570548 [color="green"];
+  BB005704fc -> BB00570515 [color="red"];
+  BB00570515 -> BB0057051f [color="red"];
+  BB0057051f -> BB00570532 [color="red"];
+  BB00570548 -> BB00570600 [color="green"];
+  BB00570548 -> BB00570567 [color="red"];
+  BB00570567 -> BB00570515 [color="green"];
+  BB00570567 -> BB00570577 [color="red"];
+  BB00570577 -> BB00570660 [color="green"];
+  BB00570577 -> BB0057058e [color="red"];
+  BB0057058e -> BB005705b5 [color="green"];
+  BB0057058e -> BB0057059d [color="red"];
+  BB0057059d -> BB00570638 [color="green"];
+  BB0057059d -> BB005705b5 [color="red"];
+  BB005705b5 -> BB0057051f [color="blue"];
+  BB005705c8 -> BB00570532 [color="blue"];
+  BB00570600 -> BB00570515 [color="blue"];
+  BB00570638 -> BB005705b5 [color="green"];
+  BB00570638 -> BB00570649 [color="red"];
+  BB00570649 -> BB00570532 [color="blue"];
+  BB00570660 -> BB0057051f [color="blue"];
+}

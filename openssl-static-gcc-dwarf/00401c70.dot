@@ -1,0 +1,15 @@
+digraph _IO_setbuffer.cold {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00401c70 -> BB00401ca1 [color="green"];
+  BB00401c70 -> BB00401c78 [color="red"];
+  BB00401c78 -> BB00401ca1 [color="green"];
+  BB00401c78 -> BB00401c8a [color="red"];
+  BB00401c8a -> BB00401ca9 [color="green"];
+  BB00401c8a -> BB00401c9e [color="red"];
+  BB00401c9e -> BB00401ca1 [color="blue"];
+  BB00401ca1 -> BB00401ca4 [color="blue"];
+  BB00401ca9 -> BB00401ca1 [color="green"];
+  BB00401ca9 -> BB00401cb0 [color="red"];
+  BB00401cb0 -> BB00401ca1 [color="blue"];
+}

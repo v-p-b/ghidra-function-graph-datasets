@@ -1,0 +1,20 @@
+digraph __libc_setup_tls {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00861900 -> BB00861b70 [color="green"];
+  BB00861900 -> BB00861925 [color="red"];
+  BB00861925 -> BB00861955 [color="green"];
+  BB00861925 -> BB00861940 [color="red"];
+  BB00861940 -> BB00861b30 [color="blue"];
+  BB00861948 -> BB00861b30 [color="green"];
+  BB00861948 -> BB00861955 [color="red"];
+  BB00861955 -> BB00861948 [color="green"];
+  BB00861955 -> BB0086195a [color="red"];
+  BB0086195a -> BB008619ad [color="blue"];
+  BB008619ad -> BB00401070 [color="green"];
+  BB008619ad -> BB00861a90 [color="green"];
+  BB008619ad -> BB00861a7c [color="red"];
+  BB00861a7c -> BB00861a90 [color="red"];
+  BB00861b30 -> BB008619ad [color="blue"];
+  BB00861b70 -> BB008619ad [color="blue"];
+}

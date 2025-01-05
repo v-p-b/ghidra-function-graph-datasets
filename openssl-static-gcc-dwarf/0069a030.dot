@@ -1,0 +1,21 @@
+digraph cipher_hw_aesni_initkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0069a030 -> BB0069a060 [color="green"];
+  BB0069a030 -> BB0069a05a [color="red"];
+  BB0069a05a -> BB0069a0a0 [color="green"];
+  BB0069a05a -> BB0069a060 [color="red"];
+  BB0069a060 -> BB0069a0c0 [color="green"];
+  BB0069a060 -> BB0069a078 [color="red"];
+  BB0069a078 -> BB0069a110 [color="green"];
+  BB0069a078 -> BB0069a081 [color="red"];
+  BB0069a081 -> BB0069a0d5 [color="green"];
+  BB0069a081 -> BB0069a093 [color="red"];
+  BB0069a0a0 -> BB0069a0c7 [color="green"];
+  BB0069a0a0 -> BB0069a0b8 [color="red"];
+  BB0069a0b8 -> BB0069a0c0 [color="blue"];
+  BB0069a0c0 -> BB0069a0c7 [color="blue"];
+  BB0069a0c7 -> BB0069a093 [color="green"];
+  BB0069a0c7 -> BB0069a0d5 [color="red"];
+  BB0069a110 -> BB0069a0c7 [color="blue"];
+}

@@ -1,0 +1,15 @@
+digraph _IO_puts.cold {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00401927 -> BB00401959 [color="green"];
+  BB00401927 -> BB00401930 [color="red"];
+  BB00401930 -> BB00401959 [color="green"];
+  BB00401930 -> BB00401942 [color="red"];
+  BB00401942 -> BB00401961 [color="green"];
+  BB00401942 -> BB00401956 [color="red"];
+  BB00401956 -> BB00401959 [color="blue"];
+  BB00401959 -> BB0040195c [color="blue"];
+  BB00401961 -> BB00401959 [color="green"];
+  BB00401961 -> BB00401968 [color="red"];
+  BB00401968 -> BB00401959 [color="blue"];
+}

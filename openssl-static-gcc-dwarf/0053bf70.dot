@@ -1,0 +1,19 @@
+digraph BN_asc2bn {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0053bf70 -> BB0053bf8b [color="green"];
+  BB0053bf70 -> BB0053bf83 [color="red"];
+  BB0053bf83 -> BB0053bf8b [color="blue"];
+  BB0053bf8b -> BB0053bf9a [color="green"];
+  BB0053bf8b -> BB0053bf8f [color="red"];
+  BB0053bf8f -> BB0053bfe0 [color="green"];
+  BB0053bf8f -> BB0053bf9a [color="red"];
+  BB0053bf9a -> BB0053bff0 [color="green"];
+  BB0053bf9a -> BB0053bfa6 [color="red"];
+  BB0053bfa6 -> BB0053bfc0 [color="green"];
+  BB0053bfa6 -> BB0053bfb0 [color="red"];
+  BB0053bfc0 -> BB0053bfb0 [color="green"];
+  BB0053bfc0 -> BB0053bfd0 [color="red"];
+  BB0053bfe0 -> BB0053bfa6 [color="green"];
+  BB0053bfe0 -> BB0053bff0 [color="red"];
+}

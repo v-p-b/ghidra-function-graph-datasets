@@ -1,0 +1,14 @@
+digraph ossl_dsa_check_priv_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0073f680 -> BB0073f740 [color="green"];
+  BB0073f680 -> BB0073f6a3 [color="red"];
+  BB0073f6a3 -> BB0073f740 [color="green"];
+  BB0073f6a3 -> BB0073f6ae [color="red"];
+  BB0073f6ae -> BB0073f6f8 [color="green"];
+  BB0073f6ae -> BB0073f6bd [color="red"];
+  BB0073f6bd -> BB0073f788 [color="green"];
+  BB0073f6bd -> BB0073f6db [color="red"];
+  BB0073f6f8 -> BB0073f730 [color="red"];
+  BB0073f788 -> BB0073f730 [color="blue"];
+}

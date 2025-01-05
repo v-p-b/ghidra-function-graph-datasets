@@ -1,0 +1,23 @@
+digraph rsa_sha512_256_verify_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006f4530 -> BB006f4550 [color="green"];
+  BB006f4530 -> BB006f4546 [color="red"];
+  BB006f4546 -> BB006f4548 [color="blue"];
+  BB006f4550 -> BB006f4546 [color="green"];
+  BB006f4550 -> BB006f456f [color="red"];
+  BB006f456f -> BB006f45e0 [color="green"];
+  BB006f456f -> BB006f4575 [color="red"];
+  BB006f4575 -> BB006f4546 [color="green"];
+  BB006f4575 -> BB006f458a [color="red"];
+  BB006f458a -> BB006f4620 [color="green"];
+  BB006f458a -> BB006f45a7 [color="red"];
+  BB006f45a7 -> BB006f4548 [color="green"];
+  BB006f45a7 -> BB006f45c0 [color="red"];
+  BB006f45c0 -> BB006f45c4 [color="blue"];
+  BB006f45c4 -> BB006f4546 [color="blue"];
+  BB006f45e0 -> BB006f4548 [color="blue"];
+  BB006f4620 -> BB006f45a7 [color="green"];
+  BB006f4620 -> BB006f4635 [color="red"];
+  BB006f4635 -> BB006f45c4 [color="blue"];
+}

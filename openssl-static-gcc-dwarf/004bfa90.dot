@@ -1,0 +1,14 @@
+digraph ossl_quic_stream_iter_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004bfa90 -> BB004bfad3 [color="green"];
+  BB004bfa90 -> BB004bfaa3 [color="red"];
+  BB004bfaa3 -> BB004bfad3 [color="green"];
+  BB004bfaa3 -> BB004bfaa8 [color="red"];
+  BB004bfaa8 -> BB004bfad3 [color="green"];
+  BB004bfaa8 -> BB004bfaba [color="red"];
+  BB004bfaba -> BB004bfad8 [color="green"];
+  BB004bfaba -> BB004bfacf [color="red"];
+  BB004bfacf -> BB004bfad3 [color="blue"];
+  BB004bfad8 -> BB004bfacf [color="blue"];
+}

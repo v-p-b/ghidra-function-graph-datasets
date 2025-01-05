@@ -1,0 +1,17 @@
+digraph BIO_new_from_core_bio {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB007217e0 -> BB00721850 [color="green"];
+  BB007217e0 -> BB007217f9 [color="red"];
+  BB007217f9 -> BB00721840 [color="green"];
+  BB007217f9 -> BB00721803 [color="red"];
+  BB00721803 -> BB00721850 [color="green"];
+  BB00721803 -> BB0072181a [color="red"];
+  BB0072181a -> BB00721860 [color="green"];
+  BB0072181a -> BB00721824 [color="red"];
+  BB00721840 -> BB00721803 [color="green"];
+  BB00721840 -> BB00721846 [color="red"];
+  BB00721846 -> BB00721850 [color="blue"];
+  BB00721850 -> BB00721853 [color="blue"];
+  BB00721860 -> BB00721853 [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph b64_read_asn1 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0071cd30 -> BB0071ce00 [color="green"];
+  BB0071cd30 -> BB0071cd63 [color="red"];
+  BB0071cd63 -> BB0071cdc8 [color="green"];
+  BB0071cd63 -> BB0071cd90 [color="red"];
+  BB0071cd90 -> BB0071cdb1 [color="red"];
+  BB0071cdc8 -> BB0071cd90 [color="blue"];
+  BB0071ce00 -> BB0071cdb1 [color="blue"];
+}

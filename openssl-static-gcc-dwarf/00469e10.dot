@@ -1,0 +1,12 @@
+digraph do_X509_verify {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00469e10 -> BB00469e4f [color="green"];
+  BB00469e10 -> BB00469e28 [color="red"];
+  BB00469e28 -> BB00469e5b [color="blue"];
+  BB00469e30 -> BB00469e70 [color="green"];
+  BB00469e30 -> BB00469e4c [color="red"];
+  BB00469e4c -> BB00469e4f [color="blue"];
+  BB00469e4f -> BB00469e30 [color="green"];
+  BB00469e4f -> BB00469e5b [color="red"];
+}

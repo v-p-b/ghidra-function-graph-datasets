@@ -1,0 +1,13 @@
+digraph ECDSA_verify_loop {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0044ede0 -> BB0044ee5e [color="green"];
+  BB0044ede0 -> BB0044ee0d [color="red"];
+  BB0044ee0d -> BB0044ee48 [color="blue"];
+  BB0044ee18 -> BB0044ee70 [color="green"];
+  BB0044ee18 -> BB0044ee3a [color="red"];
+  BB0044ee3a -> BB0044ee5e [color="green"];
+  BB0044ee3a -> BB0044ee48 [color="red"];
+  BB0044ee48 -> BB0044ee18 [color="green"];
+  BB0044ee48 -> BB0044ee5e [color="red"];
+}

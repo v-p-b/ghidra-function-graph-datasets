@@ -1,0 +1,24 @@
+digraph OCSP_single_get0_status {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0060fce0 -> BB0060fd78 [color="green"];
+  BB0060fce0 -> BB0060fcf0 [color="red"];
+  BB0060fcf0 -> BB0060fd28 [color="green"];
+  BB0060fcf0 -> BB0060fd00 [color="red"];
+  BB0060fd00 -> BB0060fd0c [color="green"];
+  BB0060fd00 -> BB0060fd05 [color="red"];
+  BB0060fd05 -> BB0060fd0c [color="blue"];
+  BB0060fd0c -> BB0060fd18 [color="green"];
+  BB0060fd0c -> BB0060fd11 [color="red"];
+  BB0060fd11 -> BB0060fd18 [color="blue"];
+  BB0060fd28 -> BB0060fd37 [color="green"];
+  BB0060fd28 -> BB0060fd31 [color="red"];
+  BB0060fd31 -> BB0060fd37 [color="blue"];
+  BB0060fd37 -> BB0060fd00 [color="green"];
+  BB0060fd37 -> BB0060fd3c [color="red"];
+  BB0060fd3c -> BB0060fd70 [color="green"];
+  BB0060fd3c -> BB0060fd45 [color="red"];
+  BB0060fd45 -> BB0060fd00 [color="blue"];
+  BB0060fd70 -> BB0060fd00 [color="blue"];
+  BB0060fd78 -> BB0060fd18 [color="blue"];
+}

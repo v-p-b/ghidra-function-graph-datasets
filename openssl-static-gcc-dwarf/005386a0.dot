@@ -1,0 +1,14 @@
+digraph dgram_mem_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005386a0 -> BB00538758 [color="green"];
+  BB005386a0 -> BB005386c6 [color="red"];
+  BB005386c6 -> BB00538740 [color="green"];
+  BB005386c6 -> BB005386e3 [color="red"];
+  BB005386e3 -> BB0053875c [color="green"];
+  BB005386e3 -> BB00538708 [color="red"];
+  BB00538708 -> BB00538734 [color="blue"];
+  BB00538740 -> BB00538734 [color="blue"];
+  BB00538758 -> BB00538734 [color="blue"];
+  BB0053875c -> BB00538734 [color="blue"];
+}

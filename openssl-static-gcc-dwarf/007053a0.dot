@@ -1,0 +1,12 @@
+digraph ossl_ccm_generic_auth_encrypt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB007053a0 -> BB00705400 [color="green"];
+  BB007053a0 -> BB007053be [color="red"];
+  BB007053be -> BB007053ce [color="red"];
+  BB007053ce -> BB007053d7 [color="green"];
+  BB007053ce -> BB007053d3 [color="red"];
+  BB007053d3 -> BB007053e0 [color="green"];
+  BB007053d3 -> BB007053d7 [color="red"];
+  BB00705400 -> BB007053ce [color="blue"];
+}

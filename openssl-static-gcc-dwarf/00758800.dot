@@ -1,0 +1,21 @@
+digraph ossl_ecx_public_from_private {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00758800 -> BB00758888 [color="green"];
+  BB00758800 -> BB0075880a [color="red"];
+  BB0075880a -> BB00758830 [color="green"];
+  BB0075880a -> BB0075880c [color="red"];
+  BB0075880c -> BB00758868 [color="green"];
+  BB0075880c -> BB00758810 [color="red"];
+  BB00758810 -> BB0075881d [color="red"];
+  BB0075881d -> BB00758823 [color="blue"];
+  BB00758830 -> BB0075881d [color="green"];
+  BB00758830 -> BB00758835 [color="red"];
+  BB00758835 -> BB0075881d [color="green"];
+  BB00758835 -> BB00758850 [color="red"];
+  BB00758850 -> BB007588b8 [color="blue"];
+  BB00758888 -> BB0075881d [color="green"];
+  BB00758888 -> BB007588a7 [color="red"];
+  BB007588a7 -> BB007588b8 [color="red"];
+  BB007588b8 -> BB00758823 [color="blue"];
+}

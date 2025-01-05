@@ -1,0 +1,33 @@
+digraph new_heap {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008856e0 -> BB00885800 [color="green"];
+  BB008856e0 -> BB00885701 [color="red"];
+  BB00885701 -> BB00885810 [color="green"];
+  BB00885701 -> BB0088570e [color="red"];
+  BB0088570e -> BB00885767 [color="green"];
+  BB0088570e -> BB00885725 [color="red"];
+  BB00885725 -> BB00885767 [color="green"];
+  BB00885725 -> BB00885753 [color="red"];
+  BB00885753 -> BB008857c6 [color="green"];
+  BB00885753 -> BB0088575a [color="red"];
+  BB0088575a -> BB00885767 [color="red"];
+  BB00885767 -> BB00885838 [color="green"];
+  BB00885767 -> BB0088578d [color="red"];
+  BB0088578d -> BB00885880 [color="green"];
+  BB0088578d -> BB008857af [color="red"];
+  BB008857af -> BB008857b6 [color="blue"];
+  BB008857b6 -> BB008857c6 [color="red"];
+  BB008857c6 -> BB00885870 [color="green"];
+  BB008857c6 -> BB008857de [color="red"];
+  BB00885800 -> BB0088570e [color="blue"];
+  BB00885810 -> BB0088570e [color="green"];
+  BB00885810 -> BB00885822 [color="red"];
+  BB00885838 -> BB00885822 [color="green"];
+  BB00885838 -> BB0088585d [color="red"];
+  BB0088585d -> BB008857c6 [color="green"];
+  BB0088585d -> BB00885868 [color="red"];
+  BB00885868 -> BB00885870 [color="blue"];
+  BB00885870 -> BB00885822 [color="blue"];
+  BB00885880 -> BB008857b6 [color="blue"];
+}

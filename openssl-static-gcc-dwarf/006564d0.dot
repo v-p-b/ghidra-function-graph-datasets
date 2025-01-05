@@ -1,0 +1,22 @@
+digraph UI_construct_prompt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006564d0 -> BB00656508 [color="green"];
+  BB006564d0 -> BB006564e6 [color="red"];
+  BB006564e6 -> BB00656508 [color="green"];
+  BB006564e6 -> BB006564ee [color="red"];
+  BB006564ee -> BB00656508 [color="green"];
+  BB006564ee -> BB006564f7 [color="red"];
+  BB00656508 -> BB00656630 [color="green"];
+  BB00656508 -> BB00656544 [color="red"];
+  BB00656544 -> BB00401100 [color="green"];
+  BB00656544 -> BB006565e8 [color="green"];
+  BB00656544 -> BB00656558 [color="red"];
+  BB00656558 -> BB00401100 [color="green"];
+  BB00656558 -> BB00656630 [color="green"];
+  BB00656558 -> BB00656588 [color="red"];
+  BB00656588 -> BB006565c4 [color="red"];
+  BB006565e8 -> BB00656630 [color="green"];
+  BB006565e8 -> BB0065660b [color="red"];
+  BB0065660b -> BB006565c4 [color="blue"];
+}

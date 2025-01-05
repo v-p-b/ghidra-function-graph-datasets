@@ -1,0 +1,17 @@
+digraph kmac256_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006dbbc0 -> BB006dbc9f [color="green"];
+  BB006dbbc0 -> BB006dbbd5 [color="red"];
+  BB006dbbd5 -> BB006dbc9f [color="green"];
+  BB006dbbd5 -> BB006dbbf7 [color="red"];
+  BB006dbbf7 -> BB006dbcb0 [color="green"];
+  BB006dbbf7 -> BB006dbc0f [color="red"];
+  BB006dbc0f -> BB006dbc58 [color="green"];
+  BB006dbc0f -> BB006dbc31 [color="red"];
+  BB006dbc31 -> BB006dbc58 [color="green"];
+  BB006dbc31 -> BB006dbc45 [color="red"];
+  BB006dbc58 -> BB006dbc5d [color="blue"];
+  BB006dbc5d -> BB006dbc9f [color="red"];
+  BB006dbcb0 -> BB006dbc5d [color="blue"];
+}

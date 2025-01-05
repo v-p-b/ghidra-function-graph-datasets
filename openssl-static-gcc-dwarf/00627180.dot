@@ -1,0 +1,36 @@
+digraph PKCS7_RECIP_INFO_set {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00627180 -> BB006271b0 [color="green"];
+  BB00627180 -> BB0062719e [color="red"];
+  BB0062719e -> BB006271a1 [color="blue"];
+  BB006271b0 -> BB0062719e [color="green"];
+  BB006271b0 -> BB006271c8 [color="red"];
+  BB006271c8 -> BB0062719e [color="green"];
+  BB006271c8 -> BB006271f3 [color="red"];
+  BB006271f3 -> BB0062719e [color="green"];
+  BB006271f3 -> BB00627203 [color="red"];
+  BB00627203 -> BB00627340 [color="green"];
+  BB00627203 -> BB0062721a [color="red"];
+  BB0062721a -> BB006272c0 [color="green"];
+  BB0062721a -> BB00627234 [color="red"];
+  BB00627234 -> BB006272f8 [color="green"];
+  BB00627234 -> BB00627241 [color="red"];
+  BB00627241 -> BB006272f8 [color="green"];
+  BB00627241 -> BB00627251 [color="red"];
+  BB00627251 -> BB00627284 [color="green"];
+  BB00627251 -> BB00627265 [color="red"];
+  BB00627265 -> BB0062730b [color="green"];
+  BB00627265 -> BB0062726d [color="red"];
+  BB0062726d -> BB006271a1 [color="blue"];
+  BB00627284 -> BB00627295 [color="red"];
+  BB00627295 -> BB006271a1 [color="blue"];
+  BB006272c0 -> BB0062726d [color="green"];
+  BB006272c0 -> BB006272c9 [color="red"];
+  BB006272c9 -> BB0062719e [color="green"];
+  BB006272c9 -> BB006272ed [color="red"];
+  BB006272ed -> BB0062726d [color="blue"];
+  BB006272f8 -> BB00627295 [color="blue"];
+  BB0062730b -> BB006271a1 [color="blue"];
+  BB00627340 -> BB006271a1 [color="blue"];
+}

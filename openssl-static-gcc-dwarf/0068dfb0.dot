@@ -1,0 +1,24 @@
+digraph ossl_base_provider_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0068dfb0 -> BB0068e06e [color="green"];
+  BB0068dfb0 -> BB0068dfdd [color="red"];
+  BB0068dfdd -> BB0068e06e [color="green"];
+  BB0068dfdd -> BB0068dfe9 [color="red"];
+  BB0068dfe9 -> BB0068dffd [color="blue"];
+  BB0068dff0 -> BB0068e014 [color="green"];
+  BB0068dff0 -> BB0068dffd [color="red"];
+  BB0068dffd -> BB0068dff0 [color="green"];
+  BB0068dffd -> BB0068e003 [color="red"];
+  BB0068e003 -> BB0068dffd [color="green"];
+  BB0068e003 -> BB0068e014 [color="red"];
+  BB0068e014 -> BB0068e06e [color="green"];
+  BB0068e014 -> BB0068e019 [color="red"];
+  BB0068e019 -> BB0068e084 [color="green"];
+  BB0068e019 -> BB0068e027 [color="red"];
+  BB0068e027 -> BB0068e080 [color="green"];
+  BB0068e027 -> BB0068e034 [color="red"];
+  BB0068e034 -> BB0068e06e [color="red"];
+  BB0068e080 -> BB0068e084 [color="blue"];
+  BB0068e084 -> BB0068e06e [color="blue"];
+}

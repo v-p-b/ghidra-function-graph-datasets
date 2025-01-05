@@ -1,0 +1,13 @@
+digraph do_ssl_shutdown {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00475460 -> BB00475464 [color="blue"];
+  BB00475464 -> BB00475478 [color="green"];
+  BB00475464 -> BB00475470 [color="red"];
+  BB00475478 -> BB00475490 [color="green"];
+  BB00475478 -> BB00475487 [color="red"];
+  BB00475487 -> BB00475464 [color="green"];
+  BB00475487 -> BB0047548c [color="red"];
+  BB00475490 -> BB00475464 [color="green"];
+  BB00475490 -> BB00475498 [color="red"];
+}

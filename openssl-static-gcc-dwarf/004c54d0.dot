@@ -1,0 +1,9 @@
+digraph ossl_quic_wire_determine_pn_len {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c54d0 -> BB004c550a [color="green"];
+  BB004c54d0 -> BB004c54ed [color="red"];
+  BB004c54ed -> BB004c550a [color="green"];
+  BB004c54ed -> BB004c54fb [color="red"];
+  BB004c54fb -> BB004c550a [color="blue"];
+}

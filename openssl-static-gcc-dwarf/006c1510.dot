@@ -1,0 +1,9 @@
+digraph x448_newctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006c1510 -> BB006c1545 [color="green"];
+  BB006c1510 -> BB006c1523 [color="red"];
+  BB006c1523 -> BB006c1545 [color="green"];
+  BB006c1523 -> BB006c153e [color="red"];
+  BB006c153e -> BB006c1545 [color="blue"];
+}

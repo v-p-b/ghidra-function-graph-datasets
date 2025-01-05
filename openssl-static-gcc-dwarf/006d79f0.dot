@@ -1,0 +1,11 @@
+digraph mac_has {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006d79f0 -> BB006d7a28 [color="green"];
+  BB006d79f0 -> BB006d7a05 [color="red"];
+  BB006d7a05 -> BB006d7a28 [color="green"];
+  BB006d7a05 -> BB006d7a09 [color="red"];
+  BB006d7a09 -> BB006d7a2a [color="green"];
+  BB006d7a09 -> BB006d7a13 [color="red"];
+  BB006d7a28 -> BB006d7a2a [color="blue"];
+}

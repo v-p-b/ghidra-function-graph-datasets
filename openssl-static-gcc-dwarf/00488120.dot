@@ -1,0 +1,26 @@
+digraph ossl_ssl_connection_reset {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00488120 -> BB00488370 [color="green"];
+  BB00488120 -> BB00488129 [color="red"];
+  BB00488129 -> BB004882e8 [color="green"];
+  BB00488129 -> BB0048813c [color="red"];
+  BB0048813c -> BB0048813f [color="blue"];
+  BB0048813f -> BB00488350 [color="green"];
+  BB0048813f -> BB0048814f [color="red"];
+  BB0048814f -> BB00488318 [color="green"];
+  BB0048814f -> BB004881d2 [color="red"];
+  BB004881d2 -> BB00488308 [color="green"];
+  BB004881d2 -> BB004882b5 [color="red"];
+  BB004882b5 -> BB004882fa [color="green"];
+  BB004882b5 -> BB004882ca [color="red"];
+  BB004882e8 -> BB004882fa [color="green"];
+  BB004882e8 -> BB004882ed [color="red"];
+  BB004882ed -> BB0048813f [color="green"];
+  BB004882ed -> BB004882fa [color="red"];
+  BB00488308 -> BB004882ca [color="green"];
+  BB00488308 -> BB0048830f [color="red"];
+  BB0048830f -> BB004882fa [color="blue"];
+  BB00488318 -> BB004882fa [color="blue"];
+  BB00488350 -> BB0048814f [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph sm4_xts_dupctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006a3c70 -> BB006a3cf8 [color="green"];
+  BB006a3c70 -> BB006a3c83 [color="red"];
+  BB006a3c83 -> BB006a3c9e [color="green"];
+  BB006a3c83 -> BB006a3c8f [color="red"];
+  BB006a3c8f -> BB006a3ce7 [color="green"];
+  BB006a3c8f -> BB006a3c9e [color="red"];
+  BB006a3c9e -> BB006a3cb9 [color="green"];
+  BB006a3c9e -> BB006a3caa [color="red"];
+  BB006a3caa -> BB006a3ce7 [color="green"];
+  BB006a3caa -> BB006a3cb9 [color="red"];
+  BB006a3cb9 -> BB006a3ce7 [color="green"];
+  BB006a3cb9 -> BB006a3cd7 [color="red"];
+  BB006a3cd7 -> BB006a3ce7 [color="blue"];
+}

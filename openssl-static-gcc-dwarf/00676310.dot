@@ -1,0 +1,10 @@
+digraph X509_STORE_get1_objects {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00676310 -> BB00676368 [color="green"];
+  BB00676310 -> BB0067631c [color="red"];
+  BB0067631c -> BB00676358 [color="green"];
+  BB0067631c -> BB00676332 [color="red"];
+  BB00676332 -> BB00676358 [color="red"];
+  BB00676368 -> BB00676358 [color="blue"];
+}

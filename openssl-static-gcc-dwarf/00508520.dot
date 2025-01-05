@@ -1,0 +1,29 @@
+digraph ossl_quic_txpim_pkt_alloc {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00508520 -> BB005085d0 [color="green"];
+  BB00508520 -> BB00508530 [color="red"];
+  BB00508530 -> BB0050853e [color="blue"];
+  BB0050853e -> BB00508640 [color="green"];
+  BB0050853e -> BB00508589 [color="red"];
+  BB00508589 -> BB00508630 [color="green"];
+  BB00508589 -> BB00508593 [color="red"];
+  BB00508593 -> BB005085a6 [color="green"];
+  BB00508593 -> BB00508598 [color="red"];
+  BB00508598 -> BB005085a6 [color="blue"];
+  BB005085a6 -> BB005085b2 [color="green"];
+  BB005085a6 -> BB005085ab [color="red"];
+  BB005085ab -> BB005085b2 [color="blue"];
+  BB005085b2 -> BB005085c2 [color="blue"];
+  BB005085d0 -> BB00508648 [color="green"];
+  BB005085d0 -> BB005085ee [color="red"];
+  BB005085ee -> BB0050861d [color="green"];
+  BB005085ee -> BB0050860f [color="red"];
+  BB0050860f -> BB0050861d [color="blue"];
+  BB0050861d -> BB0050853e [color="green"];
+  BB0050861d -> BB00508627 [color="red"];
+  BB00508627 -> BB0050853e [color="blue"];
+  BB00508630 -> BB00508593 [color="blue"];
+  BB00508640 -> BB00508589 [color="blue"];
+  BB00508648 -> BB005085c2 [color="blue"];
+}

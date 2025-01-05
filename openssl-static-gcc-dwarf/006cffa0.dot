@@ -1,0 +1,26 @@
+digraph ecxkem_auth_decapsulate_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006cffa0 -> BB006d002a [color="green"];
+  BB006cffa0 -> BB006cffbf [color="red"];
+  BB006cffbf -> BB006d002a [color="green"];
+  BB006cffbf -> BB006cffc6 [color="red"];
+  BB006cffc6 -> BB006d009f [color="green"];
+  BB006cffc6 -> BB006d0000 [color="red"];
+  BB006d0000 -> BB006d002a [color="green"];
+  BB006d0000 -> BB006d0017 [color="red"];
+  BB006d0017 -> BB006d0070 [color="green"];
+  BB006d0017 -> BB006d0020 [color="red"];
+  BB006d0020 -> BB006d0040 [color="green"];
+  BB006d0020 -> BB006d002a [color="red"];
+  BB006d002a -> BB006d002c [color="blue"];
+  BB006d0040 -> BB006d002a [color="green"];
+  BB006d0040 -> BB006d004b [color="red"];
+  BB006d004b -> BB006d002a [color="green"];
+  BB006d004b -> BB006d0068 [color="red"];
+  BB006d0068 -> BB006d0070 [color="blue"];
+  BB006d0070 -> BB006d0098 [color="green"];
+  BB006d0070 -> BB006d007c [color="red"];
+  BB006d0098 -> BB006d002c [color="blue"];
+  BB006d009f -> BB006d002c [color="blue"];
+}

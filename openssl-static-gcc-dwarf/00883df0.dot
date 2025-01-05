@@ -1,0 +1,13 @@
+digraph _IO_list_lock {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00883df0 -> BB00883e22 [color="green"];
+  BB00883df0 -> BB00883e03 [color="red"];
+  BB00883e03 -> BB00883e30 [color="green"];
+  BB00883e03 -> BB00883e0f [color="red"];
+  BB00883e0f -> BB00883e1b [color="blue"];
+  BB00883e1b -> BB00883e22 [color="blue"];
+  BB00883e30 -> BB00883e1b [color="green"];
+  BB00883e30 -> BB00883e41 [color="red"];
+  BB00883e41 -> BB00883e1b [color="blue"];
+}

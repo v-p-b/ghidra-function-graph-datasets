@@ -1,0 +1,13 @@
+digraph EC_GROUP_new_by_curve_name {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00586cd0 -> BB00586d20 [color="green"];
+  BB00586cd0 -> BB00586cd7 [color="red"];
+  BB00586cd7 -> BB00586cf6 [color="blue"];
+  BB00586ce8 -> BB00586d20 [color="green"];
+  BB00586ce8 -> BB00586cf6 [color="red"];
+  BB00586cf6 -> BB00586ce8 [color="green"];
+  BB00586cf6 -> BB00586cfa [color="red"];
+  BB00586cfa -> BB00586d20 [color="green"];
+  BB00586cfa -> BB00586d19 [color="red"];
+}

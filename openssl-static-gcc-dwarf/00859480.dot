@@ -1,0 +1,20 @@
+digraph padlock_capability {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00859480 -> BB008594a3 [color="green"];
+  BB00859480 -> BB00859491 [color="red"];
+  BB00859491 -> BB008594dd [color="green"];
+  BB00859491 -> BB00859499 [color="red"];
+  BB00859499 -> BB008594dd [color="green"];
+  BB00859499 -> BB008594a1 [color="red"];
+  BB008594a1 -> BB008594bb [color="blue"];
+  BB008594a3 -> BB008594dd [color="green"];
+  BB008594a3 -> BB008594ab [color="red"];
+  BB008594ab -> BB008594dd [color="green"];
+  BB008594ab -> BB008594b3 [color="red"];
+  BB008594b3 -> BB008594dd [color="green"];
+  BB008594b3 -> BB008594bb [color="red"];
+  BB008594bb -> BB008594dd [color="green"];
+  BB008594bb -> BB008594ce [color="red"];
+  BB008594ce -> BB008594dd [color="blue"];
+}

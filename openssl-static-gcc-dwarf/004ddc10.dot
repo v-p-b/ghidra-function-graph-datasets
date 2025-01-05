@@ -1,0 +1,14 @@
+digraph SSL_in_before {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ddc10 -> BB004ddc50 [color="green"];
+  BB004ddc10 -> BB004ddc15 [color="red"];
+  BB004ddc15 -> BB004ddc30 [color="green"];
+  BB004ddc15 -> BB004ddc1b [color="red"];
+  BB004ddc1b -> BB004ddc2b [color="green"];
+  BB004ddc1b -> BB004ddc22 [color="red"];
+  BB004ddc22 -> BB004ddc30 [color="green"];
+  BB004ddc22 -> BB004ddc2b [color="red"];
+  BB004ddc30 -> BB004ddc2b [color="green"];
+  BB004ddc30 -> BB004ddc3c [color="red"];
+}

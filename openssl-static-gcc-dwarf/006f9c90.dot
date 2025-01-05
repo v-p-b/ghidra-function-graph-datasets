@@ -1,0 +1,16 @@
+digraph file_close {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006f9c90 -> BB006f9d28 [color="green"];
+  BB006f9c90 -> BB006f9c9f [color="red"];
+  BB006f9c9f -> BB006f9ce3 [color="green"];
+  BB006f9c9f -> BB006f9ca4 [color="red"];
+  BB006f9ca4 -> BB006f9cb4 [color="green"];
+  BB006f9ca4 -> BB006f9cab [color="red"];
+  BB006f9cab -> BB006f9cb4 [color="red"];
+  BB006f9cb4 -> BB006f9cf0 [color="green"];
+  BB006f9cb4 -> BB006f9ccf [color="red"];
+  BB006f9ccf -> BB006f9ce3 [color="red"];
+  BB006f9cf0 -> BB006f9ccf [color="blue"];
+  BB006f9d28 -> BB006f9cb4 [color="blue"];
+}

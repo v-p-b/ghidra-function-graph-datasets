@@ -1,0 +1,14 @@
+digraph NETSCAPE_SPKI_b64_decode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00682d40 -> BB00682d5b [color="green"];
+  BB00682d40 -> BB00682d53 [color="red"];
+  BB00682d53 -> BB00401100 [color="green"];
+  BB00682d53 -> BB00682d5b [color="red"];
+  BB00682d5b -> BB00682e24 [color="green"];
+  BB00682d5b -> BB00682d80 [color="red"];
+  BB00682d80 -> BB00682dd0 [color="green"];
+  BB00682d80 -> BB00682d92 [color="red"];
+  BB00682d92 -> BB00682dbd [color="red"];
+  BB00682e24 -> BB00682dbd [color="blue"];
+}

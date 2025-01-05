@@ -1,0 +1,13 @@
+digraph ossl_quic_txfc_consume_credit_local {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ffd90 -> BB004ffdd0 [color="green"];
+  BB004ffd90 -> BB004ffda3 [color="red"];
+  BB004ffda3 -> BB004ffdb4 [color="blue"];
+  BB004ffdb4 -> BB004ffdc2 [color="green"];
+  BB004ffdb4 -> BB004ffdb9 [color="red"];
+  BB004ffdb9 -> BB004ffdc2 [color="green"];
+  BB004ffdb9 -> BB004ffdbe [color="red"];
+  BB004ffdbe -> BB004ffdc2 [color="blue"];
+  BB004ffdd0 -> BB004ffdb4 [color="blue"];
+}

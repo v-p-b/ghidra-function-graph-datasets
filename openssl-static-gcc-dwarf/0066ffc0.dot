@@ -1,0 +1,16 @@
+digraph i2s_ASN1_INTEGER {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0066ffc0 -> BB006700a0 [color="green"];
+  BB0066ffc0 -> BB0066ffd0 [color="red"];
+  BB0066ffd0 -> BB00670060 [color="green"];
+  BB0066ffd0 -> BB0066ffe2 [color="red"];
+  BB0066ffe2 -> BB00670018 [color="green"];
+  BB0066ffe2 -> BB0066fff2 [color="red"];
+  BB0066fff2 -> BB00670025 [color="green"];
+  BB0066fff2 -> BB0066ffff [color="red"];
+  BB00670018 -> BB0066ffff [color="green"];
+  BB00670018 -> BB00670025 [color="red"];
+  BB00670025 -> BB0066ffff [color="blue"];
+  BB00670060 -> BB0066ffff [color="blue"];
+}

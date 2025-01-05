@@ -1,0 +1,14 @@
+digraph PrivateKeyInfo_der2sm2_does_selection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006acff0 -> BB006ad00f [color="green"];
+  BB006acff0 -> BB006acff9 [color="red"];
+  BB006acff9 -> BB006ad015 [color="green"];
+  BB006acff9 -> BB006ad000 [color="red"];
+  BB006ad000 -> BB006ad010 [color="green"];
+  BB006ad000 -> BB006ad006 [color="red"];
+  BB006ad006 -> BB006ad020 [color="green"];
+  BB006ad006 -> BB006ad00f [color="red"];
+  BB006ad010 -> BB006ad015 [color="blue"];
+  BB006ad020 -> BB006ad015 [color="blue"];
+}

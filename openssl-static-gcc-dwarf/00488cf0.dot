@@ -1,0 +1,18 @@
+digraph SSL_CTX_dane_enable {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00488cf0 -> BB00488d00 [color="green"];
+  BB00488cf0 -> BB00488cff [color="red"];
+  BB00488d00 -> BB00488dab [color="green"];
+  BB00488d00 -> BB00488d3e [color="red"];
+  BB00488d3e -> BB00488dab [color="green"];
+  BB00488d3e -> BB00488d43 [color="red"];
+  BB00488d43 -> BB00488d64 [color="green"];
+  BB00488d43 -> BB00488d5a [color="red"];
+  BB00488d5a -> BB00488d64 [color="blue"];
+  BB00488d64 -> BB00488d85 [color="green"];
+  BB00488d64 -> BB00488d7b [color="red"];
+  BB00488d7b -> BB00488d85 [color="blue"];
+  BB00488d85 -> BB00488da6 [color="blue"];
+  BB00488dab -> BB00488da6 [color="blue"];
+}

@@ -1,0 +1,14 @@
+digraph x25519_to_PrivateKeyInfo_der_does_selection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b3c20 -> BB006b3c3f [color="green"];
+  BB006b3c20 -> BB006b3c29 [color="red"];
+  BB006b3c29 -> BB006b3c45 [color="green"];
+  BB006b3c29 -> BB006b3c30 [color="red"];
+  BB006b3c30 -> BB006b3c40 [color="green"];
+  BB006b3c30 -> BB006b3c36 [color="red"];
+  BB006b3c36 -> BB006b3c50 [color="green"];
+  BB006b3c36 -> BB006b3c3f [color="red"];
+  BB006b3c40 -> BB006b3c45 [color="blue"];
+  BB006b3c50 -> BB006b3c45 [color="blue"];
+}

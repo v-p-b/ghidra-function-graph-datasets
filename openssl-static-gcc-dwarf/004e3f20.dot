@@ -1,0 +1,18 @@
+digraph ossl_gost_ukm {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004e3f20 -> BB004e3fe2 [color="green"];
+  BB004e3f20 -> BB004e3f56 [color="red"];
+  BB004e3f56 -> BB004e3fd0 [color="green"];
+  BB004e3f56 -> BB004e3f63 [color="red"];
+  BB004e3f63 -> BB004e3fd0 [color="green"];
+  BB004e3f63 -> BB004e3f72 [color="red"];
+  BB004e3f72 -> BB004e3fd0 [color="green"];
+  BB004e3f72 -> BB004e3f8a [color="red"];
+  BB004e3f8a -> BB004e3fd0 [color="green"];
+  BB004e3f8a -> BB004e3fa2 [color="red"];
+  BB004e3fa2 -> BB004e3fd0 [color="green"];
+  BB004e3fa2 -> BB004e3fb6 [color="red"];
+  BB004e3fb6 -> BB004e3fe2 [color="blue"];
+  BB004e3fd0 -> BB004e3fe2 [color="red"];
+}

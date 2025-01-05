@@ -1,0 +1,15 @@
+digraph aes_ocb_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0069aef0 -> BB0069af45 [color="green"];
+  BB0069aef0 -> BB0069af19 [color="red"];
+  BB0069af19 -> BB0069af58 [color="green"];
+  BB0069af19 -> BB0069af1e [color="red"];
+  BB0069af1e -> BB0069afa0 [color="green"];
+  BB0069af1e -> BB0069af34 [color="red"];
+  BB0069af34 -> BB0069afa9 [color="green"];
+  BB0069af34 -> BB0069af3d [color="red"];
+  BB0069af3d -> BB0069af45 [color="blue"];
+  BB0069afa0 -> BB0069af3d [color="green"];
+  BB0069afa0 -> BB0069afa9 [color="red"];
+}

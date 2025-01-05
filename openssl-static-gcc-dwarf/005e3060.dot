@@ -1,0 +1,9 @@
+digraph HMAC_CTX_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005e3060 -> BB005e308c [color="green"];
+  BB005e3060 -> BB005e3080 [color="red"];
+  BB005e3080 -> BB005e3098 [color="green"];
+  BB005e3080 -> BB005e308c [color="red"];
+  BB005e3098 -> BB005e308c [color="blue"];
+}

@@ -1,0 +1,21 @@
+digraph aes_ccm_init_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005b6230 -> BB005b62e9 [color="green"];
+  BB005b6230 -> BB005b6255 [color="red"];
+  BB005b6255 -> BB005b62bf [color="green"];
+  BB005b6255 -> BB005b625a [color="red"];
+  BB005b625a -> BB005b6320 [color="green"];
+  BB005b625a -> BB005b6271 [color="red"];
+  BB005b6271 -> BB005b6300 [color="green"];
+  BB005b6271 -> BB005b6287 [color="red"];
+  BB005b6287 -> BB005b629f [color="red"];
+  BB005b629f -> BB005b62bf [color="red"];
+  BB005b62bf -> BB005b62e9 [color="green"];
+  BB005b62bf -> BB005b62c4 [color="red"];
+  BB005b62c4 -> BB00401070 [color="green"];
+  BB005b62c4 -> BB005b62e9 [color="red"];
+  BB005b62e9 -> BB005b62ee [color="blue"];
+  BB005b6300 -> BB005b629f [color="blue"];
+  BB005b6320 -> BB005b62ee [color="blue"];
+}

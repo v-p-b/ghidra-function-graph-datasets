@@ -1,0 +1,23 @@
+digraph _dl_show_scope {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008eeb20 -> BB008eeb53 [color="green"];
+  BB008eeb20 -> BB008eeb3b [color="red"];
+  BB008eeb3b -> BB008eeb53 [color="blue"];
+  BB008eeb53 -> BB008eec3a [color="green"];
+  BB008eeb53 -> BB008eeb71 [color="red"];
+  BB008eeb71 -> BB008eec24 [color="green"];
+  BB008eeb71 -> BB008eeb8e [color="red"];
+  BB008eeb8e -> BB008eeb90 [color="blue"];
+  BB008eeb90 -> BB008eebfc [color="green"];
+  BB008eeb90 -> BB008eebb3 [color="red"];
+  BB008eebb3 -> BB008eebb8 [color="blue"];
+  BB008eebb8 -> BB008eebdb [color="green"];
+  BB008eebb8 -> BB008eebca [color="red"];
+  BB008eebca -> BB008eebdb [color="blue"];
+  BB008eebdb -> BB008eebb8 [color="green"];
+  BB008eebdb -> BB008eebfc [color="red"];
+  BB008eebfc -> BB008eeb90 [color="green"];
+  BB008eebfc -> BB008eec24 [color="red"];
+  BB008eec3a -> BB008eec24 [color="blue"];
+}

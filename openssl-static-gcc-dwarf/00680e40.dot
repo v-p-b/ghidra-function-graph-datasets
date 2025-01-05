@@ -1,0 +1,12 @@
+digraph X509_VERIFY_PARAM_move_peername {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00680e40 -> BB00680e80 [color="green"];
+  BB00680e40 -> BB00680e50 [color="red"];
+  BB00680e50 -> BB00680e71 [color="green"];
+  BB00680e50 -> BB00680e5c [color="red"];
+  BB00680e5c -> BB00680e71 [color="red"];
+  BB00680e71 -> BB00680e79 [color="blue"];
+  BB00680e80 -> BB00680e79 [color="green"];
+  BB00680e80 -> BB00680e85 [color="red"];
+}

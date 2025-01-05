@@ -1,0 +1,20 @@
+digraph app_load_modules {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0046a9f0 -> BB0046aa68 [color="green"];
+  BB0046a9f0 -> BB0046aa02 [color="red"];
+  BB0046aa02 -> BB0046aa30 [color="green"];
+  BB0046aa02 -> BB0046aa12 [color="red"];
+  BB0046aa12 -> BB0046aa1a [color="red"];
+  BB0046aa68 -> BB0046aa7a [color="green"];
+  BB0046aa68 -> BB0046aa74 [color="red"];
+  BB0046aa74 -> BB0046aac0 [color="green"];
+  BB0046aa74 -> BB0046aa7a [color="red"];
+  BB0046aa7a -> BB0046aa1a [color="green"];
+  BB0046aa7a -> BB0046aa99 [color="red"];
+  BB0046aa99 -> BB0046aaaf [color="red"];
+  BB0046aaaf -> BB0046aa1a [color="green"];
+  BB0046aaaf -> BB0046aab8 [color="red"];
+  BB0046aab8 -> BB0046aa02 [color="blue"];
+  BB0046aac0 -> BB0046aaaf [color="blue"];
+}

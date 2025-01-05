@@ -1,0 +1,20 @@
+digraph __libc_open64 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008606b0 -> BB00860730 [color="green"];
+  BB008606b0 -> BB008606db [color="red"];
+  BB008606db -> BB00860730 [color="green"];
+  BB008606db -> BB008606e9 [color="red"];
+  BB008606e9 -> BB00860760 [color="green"];
+  BB008606e9 -> BB008606f5 [color="red"];
+  BB008606f5 -> BB008607a8 [color="green"];
+  BB008606f5 -> BB00860713 [color="red"];
+  BB00860713 -> BB008607d3 [color="green"];
+  BB00860713 -> BB00860727 [color="red"];
+  BB00860730 -> BB008606e9 [color="blue"];
+  BB00860760 -> BB008607c0 [color="green"];
+  BB00860760 -> BB0086078c [color="red"];
+  BB0086078c -> BB00860713 [color="blue"];
+  BB008607a8 -> BB00860713 [color="blue"];
+  BB008607c0 -> BB0086078c [color="blue"];
+}

@@ -1,0 +1,25 @@
+digraph ossl_quic_srtm_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004bd020 -> BB004bd1c8 [color="green"];
+  BB004bd020 -> BB004bd04f [color="red"];
+  BB004bd04f -> BB004bd150 [color="green"];
+  BB004bd04f -> BB004bd071 [color="red"];
+  BB004bd071 -> BB004bd160 [color="green"];
+  BB004bd071 -> BB004bd08f [color="red"];
+  BB004bd08f -> BB004bd160 [color="green"];
+  BB004bd08f -> BB004bd0a4 [color="red"];
+  BB004bd0a4 -> BB004bd160 [color="green"];
+  BB004bd0a4 -> BB004bd0bc [color="red"];
+  BB004bd0bc -> BB004bd160 [color="green"];
+  BB004bd0bc -> BB004bd108 [color="red"];
+  BB004bd108 -> BB004bd1d0 [color="green"];
+  BB004bd108 -> BB004bd150 [color="red"];
+  BB004bd160 -> BB004bd165 [color="blue"];
+  BB004bd165 -> BB004bd18a [color="green"];
+  BB004bd165 -> BB004bd174 [color="red"];
+  BB004bd174 -> BB004bd18a [color="red"];
+  BB004bd18a -> BB004bd1a7 [color="red"];
+  BB004bd1c8 -> BB004bd1a7 [color="blue"];
+  BB004bd1d0 -> BB004bd165 [color="blue"];
+}

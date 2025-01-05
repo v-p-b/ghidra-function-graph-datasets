@@ -1,0 +1,12 @@
+digraph sha512_224_internal_final {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006aac10 -> BB006aac35 [color="green"];
+  BB006aac10 -> BB006aac2f [color="red"];
+  BB006aac2f -> BB006aac48 [color="green"];
+  BB006aac2f -> BB006aac35 [color="red"];
+  BB006aac35 -> BB006aac37 [color="blue"];
+  BB006aac48 -> BB006aac35 [color="green"];
+  BB006aac48 -> BB006aac57 [color="red"];
+  BB006aac57 -> BB006aac37 [color="blue"];
+}

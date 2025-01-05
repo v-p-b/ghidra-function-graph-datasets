@@ -1,0 +1,14 @@
+digraph sm22blob_does_selection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006bce00 -> BB006bce1f [color="green"];
+  BB006bce00 -> BB006bce09 [color="red"];
+  BB006bce09 -> BB006bce25 [color="green"];
+  BB006bce09 -> BB006bce10 [color="red"];
+  BB006bce10 -> BB006bce20 [color="green"];
+  BB006bce10 -> BB006bce16 [color="red"];
+  BB006bce16 -> BB006bce30 [color="green"];
+  BB006bce16 -> BB006bce1f [color="red"];
+  BB006bce20 -> BB006bce25 [color="blue"];
+  BB006bce30 -> BB006bce25 [color="blue"];
+}

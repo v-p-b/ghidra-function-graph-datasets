@@ -1,0 +1,22 @@
+digraph quic_validate_for_write {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ac610 -> BB004ac6a0 [color="green"];
+  BB004ac610 -> BB004ac622 [color="red"];
+  BB004ac622 -> BB004ac6a0 [color="green"];
+  BB004ac622 -> BB004ac62e [color="red"];
+  BB004ac62e -> BB004ac680 [color="green"];
+  BB004ac62e -> BB004ac639 [color="red"];
+  BB004ac639 -> BB004ac660 [color="green"];
+  BB004ac639 -> BB004ac63d [color="red"];
+  BB004ac63d -> BB004ac6b0 [color="green"];
+  BB004ac63d -> BB004ac63f [color="red"];
+  BB004ac63f -> BB004ac6a0 [color="green"];
+  BB004ac63f -> BB004ac65c [color="red"];
+  BB004ac65c -> BB004ac660 [color="blue"];
+  BB004ac660 -> BB004ac6c0 [color="green"];
+  BB004ac660 -> BB004ac678 [color="red"];
+  BB004ac680 -> BB004ac6b0 [color="green"];
+  BB004ac680 -> BB004ac687 [color="red"];
+  BB004ac6c0 -> BB004ac678 [color="blue"];
+}

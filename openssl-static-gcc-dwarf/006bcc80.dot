@@ -1,0 +1,14 @@
+digraph ec2blob_does_selection {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006bcc80 -> BB006bcc9f [color="green"];
+  BB006bcc80 -> BB006bcc89 [color="red"];
+  BB006bcc89 -> BB006bcca5 [color="green"];
+  BB006bcc89 -> BB006bcc90 [color="red"];
+  BB006bcc90 -> BB006bcca0 [color="green"];
+  BB006bcc90 -> BB006bcc96 [color="red"];
+  BB006bcc96 -> BB006bccb0 [color="green"];
+  BB006bcc96 -> BB006bcc9f [color="red"];
+  BB006bcca0 -> BB006bcca5 [color="blue"];
+  BB006bccb0 -> BB006bcca5 [color="blue"];
+}

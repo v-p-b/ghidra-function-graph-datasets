@@ -1,0 +1,21 @@
+digraph sock_puts {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0053b370 -> BB00401100 [color="green"];
+  BB0053b370 -> BB0053b3d0 [color="green"];
+  BB0053b370 -> BB0053b3bb [color="red"];
+  BB0053b3d0 -> BB0053b3bb [color="green"];
+  BB0053b3d0 -> BB0053b3d8 [color="red"];
+  BB0053b3d8 -> BB0053b3bb [color="green"];
+  BB0053b3d8 -> BB0053b3e1 [color="red"];
+  BB0053b3e1 -> BB0053b400 [color="green"];
+  BB0053b3e1 -> BB0053b3e6 [color="red"];
+  BB0053b3e6 -> BB0053b3f0 [color="green"];
+  BB0053b3e6 -> BB0053b3eb [color="red"];
+  BB0053b3eb -> BB0053b3bb [color="green"];
+  BB0053b3eb -> BB0053b3f0 [color="red"];
+  BB0053b3f0 -> BB0053b3bb [color="blue"];
+  BB0053b400 -> BB0053b3bb [color="green"];
+  BB0053b400 -> BB0053b413 [color="red"];
+  BB0053b413 -> BB0053b3f0 [color="blue"];
+}

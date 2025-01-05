@@ -1,0 +1,14 @@
+digraph _dl_deallocate_tls {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008ee120 -> BB008ee15b [color="green"];
+  BB008ee120 -> BB008ee13b [color="red"];
+  BB008ee13b -> BB008ee140 [color="blue"];
+  BB008ee140 -> BB008ee140 [color="green"];
+  BB008ee140 -> BB008ee15b [color="red"];
+  BB008ee15b -> BB008ee170 [color="green"];
+  BB008ee15b -> BB008ee167 [color="red"];
+  BB008ee167 -> BB008ee170 [color="red"];
+  BB008ee170 -> BB008ee180 [color="green"];
+  BB008ee170 -> BB008ee175 [color="red"];
+}

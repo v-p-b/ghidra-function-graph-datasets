@@ -1,0 +1,13 @@
+digraph _dl_sysdep_read_whole_file {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008ed5d0 -> BB008ed610 [color="green"];
+  BB008ed5d0 -> BB008ed5fa [color="red"];
+  BB008ed610 -> BB008ed632 [color="green"];
+  BB008ed610 -> BB008ed625 [color="red"];
+  BB008ed625 -> BB008ed648 [color="green"];
+  BB008ed625 -> BB008ed632 [color="red"];
+  BB008ed632 -> BB008ed639 [color="blue"];
+  BB008ed639 -> BB008ed5fa [color="blue"];
+  BB008ed648 -> BB008ed639 [color="blue"];
+}

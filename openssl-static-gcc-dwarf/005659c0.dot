@@ -1,0 +1,15 @@
+digraph ossl_cms_AuthEnvelopedData_final {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005659c0 -> BB00565a00 [color="green"];
+  BB005659c0 -> BB005659f3 [color="red"];
+  BB00565a00 -> BB00565a88 [color="green"];
+  BB00565a00 -> BB00565a11 [color="red"];
+  BB00565a11 -> BB00565a88 [color="green"];
+  BB00565a11 -> BB00565a2d [color="red"];
+  BB00565a2d -> BB00565a8a [color="green"];
+  BB00565a2d -> BB00565a46 [color="red"];
+  BB00565a46 -> BB00565a62 [color="red"];
+  BB00565a88 -> BB00565a8a [color="blue"];
+  BB00565a8a -> BB00565a62 [color="blue"];
+}

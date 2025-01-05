@@ -1,0 +1,18 @@
+digraph SSL_get_handshake_rtt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048f3d0 -> BB0048f440 [color="green"];
+  BB0048f3d0 -> BB0048f3d5 [color="red"];
+  BB0048f3d5 -> BB0048f3f0 [color="green"];
+  BB0048f3d5 -> BB0048f3db [color="red"];
+  BB0048f3db -> BB0048f3ee [color="green"];
+  BB0048f3db -> BB0048f3e5 [color="red"];
+  BB0048f3e5 -> BB0048f3f0 [color="green"];
+  BB0048f3e5 -> BB0048f3ee [color="red"];
+  BB0048f3f0 -> BB0048f3ee [color="green"];
+  BB0048f3f0 -> BB0048f3fe [color="red"];
+  BB0048f3fe -> BB0048f3ee [color="green"];
+  BB0048f3fe -> BB0048f40a [color="red"];
+  BB0048f40a -> BB0048f3ee [color="green"];
+  BB0048f40a -> BB0048f414 [color="red"];
+}

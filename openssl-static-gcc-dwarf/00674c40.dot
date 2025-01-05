@@ -1,0 +1,27 @@
+digraph X509_CRL_check_suiteb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00674c40 -> BB00674c50 [color="green"];
+  BB00674c40 -> BB00674c4a [color="red"];
+  BB00674c50 -> BB00674ce0 [color="green"];
+  BB00674c50 -> BB00674c71 [color="red"];
+  BB00674c71 -> BB00674ce0 [color="green"];
+  BB00674c71 -> BB00674c84 [color="red"];
+  BB00674c84 -> BB00674cf0 [color="green"];
+  BB00674c84 -> BB00674ca2 [color="red"];
+  BB00674ca2 -> BB00674d00 [color="green"];
+  BB00674ca2 -> BB00674cb1 [color="red"];
+  BB00674cb1 -> BB00674cf0 [color="green"];
+  BB00674cb1 -> BB00674cb8 [color="red"];
+  BB00674cb8 -> BB00674ccc [color="green"];
+  BB00674cb8 -> BB00674cbe [color="red"];
+  BB00674cbe -> BB00674ce5 [color="green"];
+  BB00674cbe -> BB00674ccc [color="red"];
+  BB00674ccc -> BB00674ce5 [color="blue"];
+  BB00674ce0 -> BB00674ce5 [color="blue"];
+  BB00674d00 -> BB00674d14 [color="green"];
+  BB00674d00 -> BB00674d06 [color="red"];
+  BB00674d06 -> BB00674ce5 [color="green"];
+  BB00674d06 -> BB00674d14 [color="red"];
+  BB00674d14 -> BB00674ce5 [color="blue"];
+}

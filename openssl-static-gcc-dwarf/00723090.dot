@@ -1,0 +1,18 @@
+digraph BN_BLINDING_invert {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00723090 -> BB00723150 [color="green"];
+  BB00723090 -> BB007230a1 [color="red"];
+  BB007230a1 -> BB00723138 [color="green"];
+  BB007230a1 -> BB007230b4 [color="red"];
+  BB007230b4 -> BB0072310f [color="green"];
+  BB007230b4 -> BB007230be [color="red"];
+  BB007230be -> BB007230fc [color="green"];
+  BB007230be -> BB007230cd [color="red"];
+  BB007230cd -> BB007230e8 [color="blue"];
+  BB007230e8 -> BB007230e8 [color="green"];
+  BB007230e8 -> BB007230fc [color="red"];
+  BB007230fc -> BB0072310f [color="blue"];
+  BB0072310f -> BB0072312b [color="red"];
+  BB00723150 -> BB0072312b [color="blue"];
+}

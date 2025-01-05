@@ -1,0 +1,28 @@
+digraph do_sign_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00465450 -> BB004654c4 [color="green"];
+  BB00465450 -> BB0046546c [color="red"];
+  BB0046546c -> BB004654d8 [color="green"];
+  BB0046546c -> BB00465492 [color="red"];
+  BB00465492 -> BB004654f8 [color="green"];
+  BB00465492 -> BB004654c4 [color="red"];
+  BB004654d8 -> BB00465492 [color="green"];
+  BB004654d8 -> BB004654e2 [color="red"];
+  BB004654e2 -> BB00465492 [color="blue"];
+  BB004654f8 -> BB004655d0 [color="green"];
+  BB004654f8 -> BB00465501 [color="red"];
+  BB00465501 -> BB00465549 [color="blue"];
+  BB00465518 -> BB004655a0 [color="green"];
+  BB00465518 -> BB00465546 [color="red"];
+  BB00465546 -> BB00465549 [color="blue"];
+  BB00465549 -> BB004655d0 [color="green"];
+  BB00465549 -> BB00465555 [color="red"];
+  BB00465555 -> BB004655a0 [color="green"];
+  BB00465555 -> BB0046557a [color="red"];
+  BB0046557a -> BB00401040 [color="green"];
+  BB0046557a -> BB00465518 [color="green"];
+  BB0046557a -> BB0046558c [color="red"];
+  BB0046558c -> BB004655a0 [color="red"];
+  BB004655a0 -> BB004654c4 [color="blue"];
+}

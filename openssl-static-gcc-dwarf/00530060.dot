@@ -1,0 +1,10 @@
+digraph BIO_meth_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00530060 -> BB005300b1 [color="green"];
+  BB00530060 -> BB00530087 [color="red"];
+  BB00530087 -> BB005300b1 [color="green"];
+  BB00530087 -> BB005300a5 [color="red"];
+  BB005300a5 -> BB005300a9 [color="blue"];
+  BB005300b1 -> BB005300a9 [color="blue"];
+}

@@ -1,0 +1,9 @@
+digraph X509_get0_authority_serial {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0066af40 -> BB0066af60 [color="green"];
+  BB0066af40 -> BB0066af4d [color="red"];
+  BB0066af4d -> BB0066af5d [color="green"];
+  BB0066af4d -> BB0066af59 [color="red"];
+  BB0066af59 -> BB0066af5d [color="blue"];
+}

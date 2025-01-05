@@ -1,0 +1,12 @@
+digraph dlfcn_load {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00740810 -> BB00740958 [color="green"];
+  BB00740810 -> BB00740836 [color="red"];
+  BB00740836 -> BB007408f0 [color="green"];
+  BB00740836 -> BB00740861 [color="red"];
+  BB00740861 -> BB00740890 [color="green"];
+  BB00740861 -> BB00740878 [color="red"];
+  BB00740878 -> BB00740882 [color="blue"];
+  BB00740958 -> BB00740882 [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph hmac_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006dab80 -> BB006dabc7 [color="green"];
+  BB006dab80 -> BB006dab96 [color="red"];
+  BB006dab96 -> BB006dabd8 [color="green"];
+  BB006dab96 -> BB006dabb4 [color="red"];
+  BB006dabb4 -> BB006dabd8 [color="green"];
+  BB006dabb4 -> BB006dabc3 [color="red"];
+  BB006dabc3 -> BB006dabc7 [color="blue"];
+  BB006dabd8 -> BB006dabc7 [color="blue"];
+}

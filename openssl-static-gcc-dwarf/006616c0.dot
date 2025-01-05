@@ -1,0 +1,22 @@
+digraph do_ext_i2d {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006616c0 -> BB00661760 [color="green"];
+  BB006616c0 -> BB006616e6 [color="red"];
+  BB006616e6 -> BB00661848 [color="green"];
+  BB006616e6 -> BB00661700 [color="red"];
+  BB00661700 -> BB006617b0 [color="green"];
+  BB00661700 -> BB00661711 [color="red"];
+  BB00661711 -> BB00661810 [color="green"];
+  BB00661711 -> BB00661740 [color="red"];
+  BB00661760 -> BB00661880 [color="green"];
+  BB00661760 -> BB00661775 [color="red"];
+  BB00661775 -> BB006618b0 [color="green"];
+  BB00661775 -> BB00661796 [color="red"];
+  BB00661796 -> BB00661700 [color="blue"];
+  BB006617b0 -> BB006617e0 [color="red"];
+  BB00661810 -> BB006617e0 [color="blue"];
+  BB00661848 -> BB006617e0 [color="blue"];
+  BB00661880 -> BB006618b0 [color="red"];
+  BB006618b0 -> BB006617e0 [color="blue"];
+}

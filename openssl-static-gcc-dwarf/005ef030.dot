@@ -1,0 +1,11 @@
+digraph CRYPTO_secure_malloc_done {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005ef030 -> BB005ef040 [color="green"];
+  BB005ef030 -> BB005ef03a [color="red"];
+  BB005ef040 -> BB005ef0a5 [color="green"];
+  BB005ef040 -> BB005ef099 [color="red"];
+  BB005ef099 -> BB005ef100 [color="green"];
+  BB005ef099 -> BB005ef0a5 [color="red"];
+  BB005ef100 -> BB005ef0a5 [color="blue"];
+}

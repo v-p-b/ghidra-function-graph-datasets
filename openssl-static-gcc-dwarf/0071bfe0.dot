@@ -1,0 +1,33 @@
+digraph ASN1_verify {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0071bfe0 -> BB0071c1f0 [color="green"];
+  BB0071bfe0 -> BB0071c00f [color="red"];
+  BB0071c00f -> BB0071c230 [color="green"];
+  BB0071c00f -> BB0071c032 [color="red"];
+  BB0071c032 -> BB0071c100 [color="green"];
+  BB0071c032 -> BB0071c03c [color="red"];
+  BB0071c03c -> BB0071c1b0 [color="green"];
+  BB0071c03c -> BB0071c04c [color="red"];
+  BB0071c04c -> BB0071c286 [color="green"];
+  BB0071c04c -> BB0071c06c [color="red"];
+  BB0071c06c -> BB0071c148 [color="green"];
+  BB0071c06c -> BB0071c09b [color="red"];
+  BB0071c09b -> BB0071c0b2 [color="red"];
+  BB0071c0b2 -> BB0071c0c3 [color="red"];
+  BB0071c0c3 -> BB0071c0e5 [color="red"];
+  BB0071c100 -> BB0071c03c [color="green"];
+  BB0071c100 -> BB0071c10a [color="red"];
+  BB0071c10a -> BB0071c0e5 [color="blue"];
+  BB0071c148 -> BB0071c180 [color="green"];
+  BB0071c148 -> BB0071c176 [color="red"];
+  BB0071c176 -> BB0071c0b2 [color="blue"];
+  BB0071c180 -> BB0071c270 [color="green"];
+  BB0071c180 -> BB0071c19f [color="red"];
+  BB0071c19f -> BB0071c0e5 [color="blue"];
+  BB0071c1b0 -> BB0071c0e5 [color="blue"];
+  BB0071c1f0 -> BB0071c0e5 [color="blue"];
+  BB0071c230 -> BB0071c0e5 [color="blue"];
+  BB0071c270 -> BB0071c0c3 [color="blue"];
+  BB0071c286 -> BB0071c0e5 [color="blue"];
+}

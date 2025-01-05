@@ -1,0 +1,32 @@
+digraph aesni_ocb_init_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005b7030 -> BB005b7108 [color="green"];
+  BB005b7030 -> BB005b7063 [color="red"];
+  BB005b7063 -> BB005b7120 [color="green"];
+  BB005b7063 -> BB005b706c [color="red"];
+  BB005b706c -> BB005b7190 [color="green"];
+  BB005b706c -> BB005b7083 [color="red"];
+  BB005b7083 -> BB005b7180 [color="green"];
+  BB005b7083 -> BB005b70ad [color="red"];
+  BB005b70ad -> BB005b70b4 [color="blue"];
+  BB005b70b4 -> BB005b7106 [color="green"];
+  BB005b70b4 -> BB005b70db [color="red"];
+  BB005b70db -> BB005b71d0 [color="green"];
+  BB005b70db -> BB005b70e4 [color="red"];
+  BB005b70e4 -> BB005b7210 [color="green"];
+  BB005b70e4 -> BB005b7106 [color="red"];
+  BB005b7106 -> BB005b7108 [color="blue"];
+  BB005b7120 -> BB005b7160 [color="green"];
+  BB005b7120 -> BB005b7131 [color="red"];
+  BB005b7131 -> BB00401070 [color="green"];
+  BB005b7131 -> BB005b7140 [color="red"];
+  BB005b7160 -> BB005b7140 [color="blue"];
+  BB005b7180 -> BB005b70b4 [color="blue"];
+  BB005b7190 -> BB005b7108 [color="blue"];
+  BB005b71d0 -> BB005b71ea [color="green"];
+  BB005b71d0 -> BB005b71da [color="red"];
+  BB005b71da -> BB005b70e4 [color="green"];
+  BB005b71da -> BB005b71ea [color="red"];
+  BB005b7210 -> BB005b71ea [color="blue"];
+}

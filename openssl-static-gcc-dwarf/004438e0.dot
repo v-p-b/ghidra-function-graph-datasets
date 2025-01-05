@@ -1,0 +1,15 @@
+digraph count_reads_callback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004438e0 -> BB00443930 [color="green"];
+  BB004438e0 -> BB0044390c [color="red"];
+  BB0044390c -> BB00443930 [color="green"];
+  BB0044390c -> BB00443911 [color="red"];
+  BB00443911 -> BB00443943 [color="green"];
+  BB00443911 -> BB0044391b [color="red"];
+  BB00443930 -> BB00443911 [color="green"];
+  BB00443930 -> BB00443935 [color="red"];
+  BB00443935 -> BB0044391b [color="green"];
+  BB00443935 -> BB00443943 [color="red"];
+  BB00443943 -> BB0044391b [color="blue"];
+}

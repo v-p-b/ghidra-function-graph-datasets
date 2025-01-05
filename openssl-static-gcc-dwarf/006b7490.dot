@@ -1,0 +1,34 @@
+digraph ec_to_SubjectPublicKeyInfo_der_encode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006b7490 -> BB006b74a9 [color="green"];
+  BB006b7490 -> BB006b74a3 [color="red"];
+  BB006b74a3 -> BB006b74f0 [color="green"];
+  BB006b74a3 -> BB006b74a9 [color="red"];
+  BB006b74a9 -> BB006b74dc [color="red"];
+  BB006b74f0 -> BB006b7620 [color="green"];
+  BB006b74f0 -> BB006b74fc [color="red"];
+  BB006b74fc -> BB006b7610 [color="green"];
+  BB006b74fc -> BB006b7519 [color="red"];
+  BB006b7519 -> BB006b7537 [color="green"];
+  BB006b7519 -> BB006b751e [color="red"];
+  BB006b751e -> BB006b7610 [color="green"];
+  BB006b751e -> BB006b7537 [color="red"];
+  BB006b7537 -> BB006b7613 [color="green"];
+  BB006b7537 -> BB006b756d [color="red"];
+  BB006b756d -> BB006b7688 [color="green"];
+  BB006b756d -> BB006b7591 [color="red"];
+  BB006b7591 -> BB006b7658 [color="green"];
+  BB006b7591 -> BB006b75a2 [color="red"];
+  BB006b75a2 -> BB006b7688 [color="green"];
+  BB006b75a2 -> BB006b75ba [color="red"];
+  BB006b75ba -> BB006b7688 [color="green"];
+  BB006b75ba -> BB006b75ef [color="red"];
+  BB006b75ef -> BB006b7600 [color="red"];
+  BB006b7600 -> BB006b7613 [color="blue"];
+  BB006b7610 -> BB006b7613 [color="blue"];
+  BB006b7613 -> BB006b74dc [color="blue"];
+  BB006b7620 -> BB006b74dc [color="blue"];
+  BB006b7658 -> BB006b7688 [color="red"];
+  BB006b7688 -> BB006b7600 [color="blue"];
+}

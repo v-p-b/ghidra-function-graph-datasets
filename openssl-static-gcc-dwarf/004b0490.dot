@@ -1,0 +1,16 @@
+digraph ossl_quic_set_connect_state {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b0490 -> BB004b04f8 [color="green"];
+  BB004b0490 -> BB004b0499 [color="red"];
+  BB004b0499 -> BB004b04d8 [color="green"];
+  BB004b0499 -> BB004b04a0 [color="red"];
+  BB004b04a0 -> BB004b04ce [color="green"];
+  BB004b04a0 -> BB004b04a5 [color="red"];
+  BB004b04a5 -> BB004b04ca [color="red"];
+  BB004b04ca -> BB004b051d [color="green"];
+  BB004b04ca -> BB004b04ce [color="red"];
+  BB004b04d8 -> BB004b04ce [color="green"];
+  BB004b04d8 -> BB004b04e3 [color="red"];
+  BB004b04f8 -> BB004b04ca [color="blue"];
+}

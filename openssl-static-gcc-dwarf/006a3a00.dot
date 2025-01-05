@@ -1,0 +1,34 @@
+digraph sm4_xts_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006a3a00 -> BB006a3af0 [color="green"];
+  BB006a3a00 -> BB006a3a24 [color="red"];
+  BB006a3a24 -> BB006a3af0 [color="green"];
+  BB006a3a24 -> BB006a3a34 [color="red"];
+  BB006a3a34 -> BB006a3af0 [color="green"];
+  BB006a3a34 -> BB006a3a44 [color="red"];
+  BB006a3a44 -> BB006a3af0 [color="green"];
+  BB006a3a44 -> BB006a3a53 [color="red"];
+  BB006a3a53 -> BB006a3af0 [color="green"];
+  BB006a3a53 -> BB006a3a67 [color="red"];
+  BB006a3a67 -> BB006a3af0 [color="green"];
+  BB006a3a67 -> BB006a3a71 [color="red"];
+  BB006a3a71 -> BB006a3ac0 [color="green"];
+  BB006a3a71 -> BB006a3a7a [color="red"];
+  BB006a3a7a -> BB006a3b00 [color="green"];
+  BB006a3a7a -> BB006a3a8f [color="red"];
+  BB006a3a8f -> BB006a3b27 [color="green"];
+  BB006a3a8f -> BB006a3a9f [color="red"];
+  BB006a3a9f -> BB006a3ab5 [color="blue"];
+  BB006a3ab5 -> BB006a3af2 [color="blue"];
+  BB006a3ac0 -> BB006a3af0 [color="red"];
+  BB006a3af0 -> BB006a3af2 [color="blue"];
+  BB006a3b00 -> BB006a3a9f [color="green"];
+  BB006a3b00 -> BB006a3b0c [color="red"];
+  BB006a3b0c -> BB006a3ab5 [color="green"];
+  BB006a3b0c -> BB006a3b25 [color="red"];
+  BB006a3b25 -> BB006a3af0 [color="blue"];
+  BB006a3b27 -> BB006a3ab5 [color="green"];
+  BB006a3b27 -> BB006a3b44 [color="red"];
+  BB006a3b44 -> BB006a3af0 [color="blue"];
+}

@@ -1,0 +1,24 @@
+digraph tls_parse_ctos_supported_groups {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004dafc0 -> BB004dafea [color="green"];
+  BB004dafc0 -> BB004dafd4 [color="red"];
+  BB004dafd4 -> BB004db030 [color="green"];
+  BB004dafd4 -> BB004dafea [color="red"];
+  BB004dafea -> BB004db020 [color="red"];
+  BB004db030 -> BB004dafea [color="green"];
+  BB004db030 -> BB004db051 [color="red"];
+  BB004db051 -> BB004dafea [color="green"];
+  BB004db051 -> BB004db056 [color="red"];
+  BB004db056 -> BB004db098 [color="green"];
+  BB004db056 -> BB004db060 [color="red"];
+  BB004db060 -> BB004db081 [color="green"];
+  BB004db060 -> BB004db071 [color="red"];
+  BB004db071 -> BB004db081 [color="green"];
+  BB004db071 -> BB004db07a [color="red"];
+  BB004db07a -> BB004db098 [color="green"];
+  BB004db07a -> BB004db081 [color="red"];
+  BB004db098 -> BB004db081 [color="green"];
+  BB004db098 -> BB004db0e3 [color="red"];
+  BB004db0e3 -> BB004db020 [color="blue"];
+}

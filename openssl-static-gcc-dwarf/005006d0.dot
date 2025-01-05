@@ -1,0 +1,21 @@
+digraph ossl_quic_lcidm_enrol_odcid {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005006d0 -> BB005007b0 [color="green"];
+  BB005006d0 -> BB005006d9 [color="red"];
+  BB005006d9 -> BB00500708 [color="green"];
+  BB005006d9 -> BB005006f2 [color="red"];
+  BB005006f2 -> BB005006f4 [color="blue"];
+  BB00500708 -> BB00500790 [color="green"];
+  BB00500708 -> BB0050072a [color="red"];
+  BB0050072a -> BB005006f2 [color="green"];
+  BB0050072a -> BB00500730 [color="red"];
+  BB00500730 -> BB005006f2 [color="green"];
+  BB00500730 -> BB0050075e [color="red"];
+  BB0050075e -> BB005006f2 [color="green"];
+  BB0050075e -> BB00500771 [color="red"];
+  BB00500771 -> BB005006f4 [color="blue"];
+  BB00500790 -> BB005006f2 [color="green"];
+  BB00500790 -> BB005007a7 [color="red"];
+  BB005007a7 -> BB0050072a [color="blue"];
+}

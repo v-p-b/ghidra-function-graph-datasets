@@ -1,0 +1,15 @@
+digraph BN_num_bits {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0053fdf0 -> BB0053fe38 [color="green"];
+  BB0053fdf0 -> BB0053fe0b [color="red"];
+  BB0053fe0b -> BB0053fe25 [color="green"];
+  BB0053fe0b -> BB0053fe0f [color="red"];
+  BB0053fe0f -> BB0053fe25 [color="red"];
+  BB0053fe38 -> BB0053ff68 [color="green"];
+  BB0053fe38 -> BB0053fe56 [color="red"];
+  BB0053fe56 -> BB0053fe60 [color="blue"];
+  BB0053fe60 -> BB0053fe60 [color="green"];
+  BB0053fe60 -> BB0053ff4d [color="red"];
+  BB0053ff68 -> BB0053fe25 [color="blue"];
+}

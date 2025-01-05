@@ -1,0 +1,33 @@
+digraph OPENSSL_sk_deep_copy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00648d20 -> BB00648d8b [color="green"];
+  BB00648d20 -> BB00648d57 [color="red"];
+  BB00648d57 -> BB00648ea0 [color="green"];
+  BB00648d57 -> BB00648d60 [color="red"];
+  BB00648d60 -> BB00648da0 [color="green"];
+  BB00648d60 -> BB00648d79 [color="red"];
+  BB00648d79 -> BB00648d8b [color="blue"];
+  BB00648da0 -> BB00648e71 [color="green"];
+  BB00648da0 -> BB00648ddb [color="red"];
+  BB00648ddb -> BB00648d8b [color="green"];
+  BB00648ddb -> BB00648de3 [color="red"];
+  BB00648de3 -> BB00648dfc [color="blue"];
+  BB00648df0 -> BB00648df4 [color="blue"];
+  BB00648df4 -> BB00648d8b [color="green"];
+  BB00648df4 -> BB00648dfc [color="red"];
+  BB00648dfc -> BB00648df4 [color="green"];
+  BB00648dfc -> BB00648e14 [color="red"];
+  BB00648e14 -> BB00648df0 [color="green"];
+  BB00648e14 -> BB00648e26 [color="red"];
+  BB00648e26 -> BB00648e71 [color="green"];
+  BB00648e26 -> BB00648e34 [color="red"];
+  BB00648e34 -> BB00648e50 [color="blue"];
+  BB00648e50 -> BB00648e68 [color="green"];
+  BB00648e50 -> BB00648e59 [color="red"];
+  BB00648e59 -> BB00648e68 [color="blue"];
+  BB00648e68 -> BB00648e50 [color="green"];
+  BB00648e68 -> BB00648e71 [color="red"];
+  BB00648e71 -> BB00648d8b [color="blue"];
+  BB00648ea0 -> BB00648d79 [color="blue"];
+}

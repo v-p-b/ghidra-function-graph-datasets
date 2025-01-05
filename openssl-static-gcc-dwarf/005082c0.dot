@@ -1,0 +1,10 @@
+digraph ossl_quic_tx_packetiser_schedule_conn_close {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005082c0 -> BB0050834e [color="green"];
+  BB005082c0 -> BB005082e3 [color="red"];
+  BB005082e3 -> BB00508330 [color="green"];
+  BB005082e3 -> BB005082f4 [color="red"];
+  BB00508330 -> BB005082f4 [color="green"];
+  BB00508330 -> BB0050834e [color="red"];
+}

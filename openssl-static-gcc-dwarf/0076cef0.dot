@@ -1,0 +1,13 @@
+digraph rc2_ctrl {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0076cef0 -> BB0076cf10 [color="green"];
+  BB0076cef0 -> BB0076cefa [color="red"];
+  BB0076cefa -> BB0076cf60 [color="green"];
+  BB0076cefa -> BB0076ceff [color="red"];
+  BB0076ceff -> BB0076cf30 [color="green"];
+  BB0076ceff -> BB0076cf08 [color="red"];
+  BB0076cf60 -> BB0076cf08 [color="green"];
+  BB0076cf60 -> BB0076cf66 [color="red"];
+  BB0076cf66 -> BB0076cf08 [color="blue"];
+}

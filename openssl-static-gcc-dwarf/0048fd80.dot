@@ -1,0 +1,15 @@
+digraph SSL_get_current_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048fd80 -> BB0048fdb0 [color="green"];
+  BB0048fd80 -> BB0048fd85 [color="red"];
+  BB0048fd85 -> BB0048fd9b [color="green"];
+  BB0048fd85 -> BB0048fd8b [color="red"];
+  BB0048fd8b -> BB0048fdb2 [color="green"];
+  BB0048fd8b -> BB0048fd92 [color="red"];
+  BB0048fd92 -> BB0048fdb2 [color="green"];
+  BB0048fd92 -> BB0048fd9b [color="red"];
+  BB0048fd9b -> BB0048fdb2 [color="green"];
+  BB0048fd9b -> BB0048fda7 [color="red"];
+  BB0048fdb0 -> BB0048fdb2 [color="blue"];
+}

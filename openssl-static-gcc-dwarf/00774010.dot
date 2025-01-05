@@ -1,0 +1,24 @@
+digraph IDEA_cfb64_encrypt {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00774010 -> BB007741a0 [color="green"];
+  BB00774010 -> BB0077402e [color="red"];
+  BB0077402e -> BB007740e0 [color="green"];
+  BB0077402e -> BB00774046 [color="red"];
+  BB00774046 -> BB00774180 [color="green"];
+  BB00774046 -> BB0077404f [color="red"];
+  BB0077404f -> BB0077408e [color="blue"];
+  BB00774060 -> BB00774180 [color="green"];
+  BB00774060 -> BB0077408e [color="red"];
+  BB0077408e -> BB00774060 [color="green"];
+  BB0077408e -> BB00774092 [color="red"];
+  BB00774092 -> BB00774060 [color="blue"];
+  BB007740e0 -> BB00774125 [color="green"];
+  BB007740e0 -> BB007740ed [color="red"];
+  BB007740ed -> BB00774180 [color="blue"];
+  BB007740f8 -> BB00774180 [color="green"];
+  BB007740f8 -> BB00774125 [color="red"];
+  BB00774125 -> BB007740f8 [color="green"];
+  BB00774125 -> BB00774129 [color="red"];
+  BB00774129 -> BB007740f8 [color="blue"];
+}

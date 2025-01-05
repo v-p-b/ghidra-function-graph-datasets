@@ -1,0 +1,14 @@
+digraph frame_heapsort {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00929fa0 -> BB00929ff0 [color="green"];
+  BB00929fa0 -> BB00929fd2 [color="red"];
+  BB00929fd2 -> BB00929fd8 [color="blue"];
+  BB00929fd8 -> BB00929fd8 [color="green"];
+  BB00929fd8 -> BB00929ff0 [color="red"];
+  BB00929ff0 -> BB0092a035 [color="green"];
+  BB00929ff0 -> BB0092a001 [color="red"];
+  BB0092a001 -> BB0092a008 [color="blue"];
+  BB0092a008 -> BB0092a008 [color="green"];
+  BB0092a008 -> BB0092a035 [color="red"];
+}

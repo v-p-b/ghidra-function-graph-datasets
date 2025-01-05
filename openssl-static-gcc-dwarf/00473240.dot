@@ -1,0 +1,12 @@
+digraph verify_cookie_callback {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00473240 -> BB00473250 [color="green"];
+  BB00473240 -> BB0047324a [color="red"];
+  BB00473250 -> BB00473291 [color="green"];
+  BB00473250 -> BB00473273 [color="red"];
+  BB00473273 -> BB00473291 [color="green"];
+  BB00473273 -> BB0047327e [color="red"];
+  BB0047327e -> BB004010d8 [color="green"];
+  BB0047327e -> BB00473291 [color="red"];
+}

@@ -1,0 +1,11 @@
+digraph __libc_accept {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008603c0 -> BB008603e0 [color="green"];
+  BB008603c0 -> BB008603cc [color="red"];
+  BB008603cc -> BB00860430 [color="green"];
+  BB008603cc -> BB008603db [color="red"];
+  BB008603e0 -> BB00860448 [color="green"];
+  BB008603e0 -> BB00860417 [color="red"];
+  BB00860448 -> BB00860417 [color="blue"];
+}

@@ -1,0 +1,22 @@
+digraph ASN1_TIME_cmp_time_t {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00518270 -> BB00518300 [color="green"];
+  BB00518270 -> BB00518285 [color="red"];
+  BB00518285 -> BB00518350 [color="green"];
+  BB00518285 -> BB0051829d [color="red"];
+  BB0051829d -> BB005182a2 [color="blue"];
+  BB005182a2 -> BB00518350 [color="green"];
+  BB005182a2 -> BB005182b8 [color="red"];
+  BB005182b8 -> BB00518350 [color="green"];
+  BB005182b8 -> BB005182d1 [color="red"];
+  BB005182d1 -> BB005182ef [color="green"];
+  BB005182d1 -> BB005182de [color="red"];
+  BB005182de -> BB005182ef [color="green"];
+  BB005182de -> BB005182e6 [color="red"];
+  BB005182e6 -> BB005182ef [color="blue"];
+  BB00518300 -> BB005182a2 [color="green"];
+  BB00518300 -> BB0051834a [color="red"];
+  BB0051834a -> BB005182ef [color="blue"];
+  BB00518350 -> BB005182ef [color="blue"];
+}

@@ -1,0 +1,12 @@
+digraph tls_construct_ctos_post_handshake_auth {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d5db0 -> BB004d5e60 [color="green"];
+  BB004d5db0 -> BB004d5dc3 [color="red"];
+  BB004d5dc3 -> BB004d5e20 [color="green"];
+  BB004d5dc3 -> BB004d5de6 [color="red"];
+  BB004d5de6 -> BB004d5e20 [color="green"];
+  BB004d5de6 -> BB004d5df7 [color="red"];
+  BB004d5df7 -> BB004d5e20 [color="green"];
+  BB004d5df7 -> BB004d5e03 [color="red"];
+}

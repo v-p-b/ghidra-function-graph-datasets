@@ -1,0 +1,9 @@
+digraph krb5kdf_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006c7250 -> BB006c7281 [color="green"];
+  BB006c7250 -> BB006c7263 [color="red"];
+  BB006c7263 -> BB006c7281 [color="green"];
+  BB006c7263 -> BB006c727e [color="red"];
+  BB006c727e -> BB006c7281 [color="blue"];
+}

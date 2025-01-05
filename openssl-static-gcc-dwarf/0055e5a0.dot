@@ -1,0 +1,16 @@
+digraph process_non_polling_request {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0055e5a0 -> BB0055e620 [color="green"];
+  BB0055e5a0 -> BB0055e5b3 [color="red"];
+  BB0055e5b3 -> BB0055e620 [color="green"];
+  BB0055e5b3 -> BB0055e5bc [color="red"];
+  BB0055e5bc -> BB0055e620 [color="green"];
+  BB0055e5bc -> BB0055e5c4 [color="red"];
+  BB0055e5c4 -> BB0055e620 [color="green"];
+  BB0055e5c4 -> BB0055e5cb [color="red"];
+  BB0055e5cb -> BB0055e638 [color="green"];
+  BB0055e5cb -> BB0055e5d8 [color="red"];
+  BB0055e620 -> BB0055e623 [color="blue"];
+  BB0055e638 -> BB0055e623 [color="blue"];
+}

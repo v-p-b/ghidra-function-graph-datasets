@@ -1,0 +1,9 @@
+digraph __do_global_dtors_aux {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00402790 -> BB004027c0 [color="green"];
+  BB00402790 -> BB00402799 [color="red"];
+  BB00402799 -> BB004027b6 [color="green"];
+  BB00402799 -> BB004027ac [color="red"];
+  BB004027ac -> BB004027b6 [color="red"];
+}

@@ -1,0 +1,19 @@
+digraph BIO_ADDR_copy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0052acb0 -> BB0052ad10 [color="green"];
+  BB0052acb0 -> BB0052acb8 [color="red"];
+  BB0052acb8 -> BB0052ad10 [color="green"];
+  BB0052acb8 -> BB0052acbd [color="red"];
+  BB0052acbd -> BB0052ace0 [color="green"];
+  BB0052acbd -> BB0052acc5 [color="red"];
+  BB0052acc5 -> BB0052ad20 [color="green"];
+  BB0052acc5 -> BB0052accb [color="red"];
+  BB0052accb -> BB0052ad30 [color="green"];
+  BB0052accb -> BB0052acd1 [color="red"];
+  BB0052acd1 -> BB0052ad50 [color="green"];
+  BB0052acd1 -> BB0052acda [color="red"];
+  BB0052ad20 -> BB0052acda [color="blue"];
+  BB0052ad30 -> BB0052acda [color="blue"];
+  BB0052ad50 -> BB0052acda [color="blue"];
+}

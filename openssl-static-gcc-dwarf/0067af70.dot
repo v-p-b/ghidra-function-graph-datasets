@@ -1,0 +1,31 @@
+digraph X509_cmp_current_time {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0067af70 -> BB0067afd0 [color="green"];
+  BB0067af70 -> BB0067af85 [color="red"];
+  BB0067af85 -> BB0067afc0 [color="green"];
+  BB0067af85 -> BB0067af8a [color="red"];
+  BB0067af8a -> BB0067afc0 [color="green"];
+  BB0067af8a -> BB0067af8f [color="red"];
+  BB0067af8f -> BB0067afa7 [color="blue"];
+  BB0067af98 -> BB0067afe0 [color="green"];
+  BB0067af98 -> BB0067afa7 [color="red"];
+  BB0067afa7 -> BB0067af98 [color="green"];
+  BB0067afa7 -> BB0067afb9 [color="red"];
+  BB0067afb9 -> BB0067afc0 [color="blue"];
+  BB0067afc0 -> BB0067afc2 [color="blue"];
+  BB0067afd0 -> BB0067af8f [color="green"];
+  BB0067afd0 -> BB0067afd5 [color="red"];
+  BB0067afd5 -> BB0067afc0 [color="blue"];
+  BB0067afe0 -> BB0067afc0 [color="green"];
+  BB0067afe0 -> BB0067afec [color="red"];
+  BB0067afec -> BB0067b057 [color="green"];
+  BB0067afec -> BB0067b011 [color="red"];
+  BB0067b011 -> BB0067b057 [color="green"];
+  BB0067b011 -> BB0067b028 [color="red"];
+  BB0067b028 -> BB0067b042 [color="green"];
+  BB0067b028 -> BB0067b035 [color="red"];
+  BB0067b035 -> BB0067b042 [color="blue"];
+  BB0067b042 -> BB0067afc2 [color="blue"];
+  BB0067b057 -> BB0067b042 [color="blue"];
+}

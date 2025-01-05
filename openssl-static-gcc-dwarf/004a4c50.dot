@@ -1,0 +1,16 @@
+digraph ssl_print_hexbuf {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004a4c50 -> BB004a4d50 [color="green"];
+  BB004a4c50 -> BB004a4c61 [color="red"];
+  BB004a4c61 -> BB004a4c91 [color="green"];
+  BB004a4c61 -> BB004a4c87 [color="red"];
+  BB004a4c87 -> BB004a4c91 [color="blue"];
+  BB004a4c91 -> BB004a4cc0 [color="green"];
+  BB004a4c91 -> BB004a4ca9 [color="red"];
+  BB004a4cc0 -> BB004a4d19 [color="green"];
+  BB004a4cc0 -> BB004a4ced [color="red"];
+  BB004a4ced -> BB004a4d00 [color="blue"];
+  BB004a4d00 -> BB004a4d00 [color="green"];
+  BB004a4d00 -> BB004a4d19 [color="red"];
+}

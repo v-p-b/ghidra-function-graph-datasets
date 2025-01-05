@@ -1,0 +1,17 @@
+digraph tls_parse_stoc_server_cert_type {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004d7f00 -> BB004d7f70 [color="green"];
+  BB004d7f00 -> BB004d7f10 [color="red"];
+  BB004d7f10 -> BB004d7fe0 [color="green"];
+  BB004d7f10 -> BB004d7f32 [color="red"];
+  BB004d7f32 -> BB004d8010 [color="green"];
+  BB004d7f32 -> BB004d7f42 [color="red"];
+  BB004d7f42 -> BB004010b8 [color="green"];
+  BB004d7f42 -> BB004d7fb0 [color="green"];
+  BB004d7f42 -> BB004d7f56 [color="red"];
+  BB004d7f70 -> BB004d7f94 [color="red"];
+  BB004d7fb0 -> BB004d7f94 [color="blue"];
+  BB004d7fe0 -> BB004d7f94 [color="blue"];
+  BB004d8010 -> BB004d7f94 [color="blue"];
+}

@@ -1,0 +1,10 @@
+digraph sha256_multi_block_avx2 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00845520 -> BB00845660 [color="blue"];
+  BB00845660 -> BB00846620 [color="blue"];
+  BB00846620 -> BB00846620 [color="green"];
+  BB00846620 -> BB0084779e [color="red"];
+  BB0084779e -> BB00845660 [color="green"];
+  BB0084779e -> BB008478a7 [color="red"];
+}

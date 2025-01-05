@@ -1,0 +1,20 @@
+digraph uint_set_merge_adjacent {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004c5b10 -> BB004c5b2a [color="green"];
+  BB004c5b10 -> BB004c5b1c [color="red"];
+  BB004c5b1c -> BB004c5b30 [color="green"];
+  BB004c5b1c -> BB004c5b2a [color="red"];
+  BB004c5b30 -> BB004c5b90 [color="green"];
+  BB004c5b30 -> BB004c5b40 [color="red"];
+  BB004c5b40 -> BB004c5b80 [color="green"];
+  BB004c5b40 -> BB004c5b4a [color="red"];
+  BB004c5b4a -> BB004c5b55 [color="green"];
+  BB004c5b4a -> BB004c5b4f [color="red"];
+  BB004c5b4f -> BB004c5b55 [color="blue"];
+  BB004c5b55 -> BB004c5b5e [color="green"];
+  BB004c5b55 -> BB004c5b5a [color="red"];
+  BB004c5b5a -> BB004c5b5e [color="blue"];
+  BB004c5b80 -> BB004c5b4a [color="blue"];
+  BB004c5b90 -> BB004c5b40 [color="blue"];
+}

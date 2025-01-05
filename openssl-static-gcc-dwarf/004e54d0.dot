@@ -1,0 +1,29 @@
+digraph ssl3_check_cert_and_algorithm {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004e54d0 -> BB004e5500 [color="green"];
+  BB004e54d0 -> BB004e54e7 [color="red"];
+  BB004e54e7 -> BB004e54ed [color="blue"];
+  BB004e5500 -> BB004e55d0 [color="green"];
+  BB004e5500 -> BB004e5526 [color="red"];
+  BB004e5526 -> BB004e55d0 [color="green"];
+  BB004e5526 -> BB004e5531 [color="red"];
+  BB004e5531 -> BB004e5543 [color="green"];
+  BB004e5531 -> BB004e5537 [color="red"];
+  BB004e5537 -> BB004e5618 [color="green"];
+  BB004e5537 -> BB004e5543 [color="red"];
+  BB004e5543 -> BB004e5557 [color="green"];
+  BB004e5543 -> BB004e5549 [color="red"];
+  BB004e5549 -> BB004e5640 [color="green"];
+  BB004e5549 -> BB004e5557 [color="red"];
+  BB004e5557 -> BB004e54e7 [color="green"];
+  BB004e5557 -> BB004e556c [color="red"];
+  BB004e556c -> BB004e54e7 [color="green"];
+  BB004e556c -> BB004e5574 [color="red"];
+  BB004e5574 -> BB004e54e7 [color="green"];
+  BB004e5574 -> BB004e558e [color="red"];
+  BB004e558e -> BB004e54ed [color="blue"];
+  BB004e55d0 -> BB004e55f4 [color="red"];
+  BB004e5618 -> BB004e55f4 [color="blue"];
+  BB004e5640 -> BB004e54ed [color="blue"];
+}

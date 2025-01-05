@@ -1,0 +1,26 @@
+digraph ossl_policy_data_new {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00856210 -> BB0085631c [color="green"];
+  BB00856210 -> BB00856226 [color="red"];
+  BB00856226 -> BB00856248 [color="green"];
+  BB00856226 -> BB00856234 [color="red"];
+  BB00856234 -> BB0085631c [color="green"];
+  BB00856234 -> BB00856248 [color="red"];
+  BB00856248 -> BB0085632d [color="green"];
+  BB00856248 -> BB0085626a [color="red"];
+  BB0085626a -> BB008562d0 [color="green"];
+  BB0085626a -> BB00856279 [color="red"];
+  BB00856279 -> BB008562b0 [color="green"];
+  BB00856279 -> BB0085627e [color="red"];
+  BB0085627e -> BB008562bd [color="green"];
+  BB0085627e -> BB00856283 [color="red"];
+  BB00856283 -> BB0085629e [color="green"];
+  BB00856283 -> BB0085628d [color="red"];
+  BB0085628d -> BB0085629e [color="blue"];
+  BB008562b0 -> BB00856283 [color="green"];
+  BB008562b0 -> BB008562bd [color="red"];
+  BB008562bd -> BB0085628d [color="blue"];
+  BB008562d0 -> BB0085631c [color="red"];
+  BB0085632d -> BB0085629e [color="blue"];
+}

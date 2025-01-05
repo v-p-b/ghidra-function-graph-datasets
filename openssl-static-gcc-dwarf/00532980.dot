@@ -1,0 +1,15 @@
+digraph BIO_get_host_ip {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00532980 -> BB00532a10 [color="green"];
+  BB00532980 -> BB005329b2 [color="red"];
+  BB005329b2 -> BB00532a40 [color="green"];
+  BB005329b2 -> BB005329c4 [color="red"];
+  BB005329c4 -> BB005329fb [color="red"];
+  BB00532a40 -> BB005329fb [color="green"];
+  BB00532a40 -> BB00532a66 [color="red"];
+  BB00532a66 -> BB00532a8d [color="green"];
+  BB00532a66 -> BB00532a6e [color="red"];
+  BB00532a6e -> BB005329fb [color="blue"];
+  BB00532a8d -> BB005329fb [color="blue"];
+}

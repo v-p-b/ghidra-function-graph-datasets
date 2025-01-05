@@ -1,0 +1,25 @@
+digraph epki2pki_decode {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006ad7b0 -> BB006ad9dd [color="green"];
+  BB006ad7b0 -> BB006ad7ff [color="red"];
+  BB006ad7ff -> BB006ad9dd [color="green"];
+  BB006ad7ff -> BB006ad829 [color="red"];
+  BB006ad829 -> BB006ada38 [color="green"];
+  BB006ad829 -> BB006ad870 [color="red"];
+  BB006ad870 -> BB006ad9f8 [color="green"];
+  BB006ad870 -> BB006ad8b9 [color="red"];
+  BB006ad8b9 -> BB006ad971 [color="green"];
+  BB006ad8b9 -> BB006ad945 [color="red"];
+  BB006ad945 -> BB006ad971 [color="red"];
+  BB006ad971 -> BB006ad97a [color="blue"];
+  BB006ad97a -> BB006ad982 [color="red"];
+  BB006ad982 -> BB006ad9c1 [color="green"];
+  BB006ad982 -> BB006ad9a6 [color="red"];
+  BB006ad9a6 -> BB006ada48 [color="green"];
+  BB006ad9a6 -> BB006ad9c1 [color="red"];
+  BB006ad9c1 -> BB006ad9dd [color="red"];
+  BB006ad9f8 -> BB006ad97a [color="blue"];
+  BB006ada38 -> BB006ad982 [color="blue"];
+  BB006ada48 -> BB006ad9c1 [color="blue"];
+}

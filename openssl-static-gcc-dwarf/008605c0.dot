@@ -1,0 +1,11 @@
+digraph __libc_sendto {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008605c0 -> BB008605e0 [color="green"];
+  BB008605c0 -> BB008605cf [color="red"];
+  BB008605cf -> BB00860650 [color="green"];
+  BB008605cf -> BB008605de [color="red"];
+  BB008605e0 -> BB00860668 [color="green"];
+  BB008605e0 -> BB00860634 [color="red"];
+  BB00860668 -> BB00860634 [color="blue"];
+}

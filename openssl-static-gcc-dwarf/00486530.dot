@@ -1,0 +1,13 @@
+digraph ssl_async_wait_ctx_cb {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00486530 -> BB00486549 [color="green"];
+  BB00486530 -> BB00486535 [color="red"];
+  BB00486535 -> BB00486550 [color="green"];
+  BB00486535 -> BB0048653b [color="red"];
+  BB0048653b -> BB00486549 [color="green"];
+  BB0048653b -> BB00486540 [color="red"];
+  BB00486540 -> BB00486553 [color="green"];
+  BB00486540 -> BB00486549 [color="red"];
+  BB00486550 -> BB00486553 [color="blue"];
+}

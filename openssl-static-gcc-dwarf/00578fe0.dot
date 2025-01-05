@@ -1,0 +1,13 @@
+digraph dh_copy_parameters {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00578fe0 -> BB00579040 [color="green"];
+  BB00578fe0 -> BB00578ff0 [color="red"];
+  BB00578ff0 -> BB00579055 [color="green"];
+  BB00578ff0 -> BB00579009 [color="red"];
+  BB00579009 -> BB00579030 [color="green"];
+  BB00579009 -> BB00579015 [color="red"];
+  BB00579030 -> BB00579015 [color="blue"];
+  BB00579040 -> BB00578ff0 [color="green"];
+  BB00579040 -> BB00579055 [color="red"];
+}

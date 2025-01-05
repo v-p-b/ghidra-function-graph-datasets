@@ -1,0 +1,10 @@
+digraph X509v3_asid_validate_path {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00661220 -> BB00661258 [color="green"];
+  BB00661220 -> BB00661230 [color="red"];
+  BB00661230 -> BB00661258 [color="green"];
+  BB00661230 -> BB00661239 [color="red"];
+  BB00661239 -> BB00661258 [color="green"];
+  BB00661239 -> BB00661240 [color="red"];
+}

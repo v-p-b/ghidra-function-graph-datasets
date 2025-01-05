@@ -1,0 +1,18 @@
+digraph tls13_validate_record_header {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005099d0 -> BB005099f0 [color="green"];
+  BB005099d0 -> BB005099dc [color="red"];
+  BB005099dc -> BB00509a50 [color="green"];
+  BB005099dc -> BB005099e1 [color="red"];
+  BB005099e1 -> BB00509a5a [color="green"];
+  BB005099e1 -> BB005099e6 [color="red"];
+  BB005099e6 -> BB00509a5a [color="green"];
+  BB005099e6 -> BB005099f0 [color="red"];
+  BB005099f0 -> BB00509a10 [color="green"];
+  BB005099f0 -> BB005099f8 [color="red"];
+  BB005099f8 -> BB00509a98 [color="green"];
+  BB005099f8 -> BB00509a0b [color="red"];
+  BB00509a50 -> BB005099f0 [color="green"];
+  BB00509a50 -> BB00509a5a [color="red"];
+}

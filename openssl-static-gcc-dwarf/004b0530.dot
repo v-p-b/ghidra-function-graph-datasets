@@ -1,0 +1,16 @@
+digraph ossl_quic_set_accept_state {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b0530 -> BB004b0598 [color="green"];
+  BB004b0530 -> BB004b0539 [color="red"];
+  BB004b0539 -> BB004b0578 [color="green"];
+  BB004b0539 -> BB004b0540 [color="red"];
+  BB004b0540 -> BB004b056e [color="green"];
+  BB004b0540 -> BB004b0545 [color="red"];
+  BB004b0545 -> BB004b056a [color="red"];
+  BB004b056a -> BB004b05bd [color="green"];
+  BB004b056a -> BB004b056e [color="red"];
+  BB004b0578 -> BB004b056e [color="green"];
+  BB004b0578 -> BB004b0583 [color="red"];
+  BB004b0598 -> BB004b056a [color="blue"];
+}

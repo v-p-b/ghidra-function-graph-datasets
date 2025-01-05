@@ -1,0 +1,27 @@
+digraph tls1_generate_master_secret {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0049ca90 -> BB0049cb70 [color="green"];
+  BB0049ca90 -> BB0049cac5 [color="red"];
+  BB0049cac5 -> BB0049caf0 [color="green"];
+  BB0049cac5 -> BB0049cad6 [color="red"];
+  BB0049cad6 -> BB0049cad8 [color="blue"];
+  BB0049caf0 -> BB0049cad6 [color="green"];
+  BB0049caf0 -> BB0049cb0e [color="red"];
+  BB0049cb0e -> BB0049cad6 [color="green"];
+  BB0049cb0e -> BB0049cb48 [color="red"];
+  BB0049cb48 -> BB0049cb55 [color="red"];
+  BB0049cb55 -> BB0049cad8 [color="blue"];
+  BB0049cb70 -> BB0049ce28 [color="green"];
+  BB0049cb70 -> BB0049cb81 [color="red"];
+  BB0049cb81 -> BB0049ce20 [color="green"];
+  BB0049cb81 -> BB0049cba7 [color="red"];
+  BB0049cba7 -> BB0049ce20 [color="green"];
+  BB0049cba7 -> BB0049cbc7 [color="red"];
+  BB0049cbc7 -> BB0049ce60 [color="green"];
+  BB0049cbc7 -> BB0049cdd6 [color="red"];
+  BB0049cdd6 -> BB0049cad8 [color="blue"];
+  BB0049ce20 -> BB0049cdd6 [color="blue"];
+  BB0049ce28 -> BB0049cad6 [color="blue"];
+  BB0049ce60 -> BB0049cb55 [color="blue"];
+}

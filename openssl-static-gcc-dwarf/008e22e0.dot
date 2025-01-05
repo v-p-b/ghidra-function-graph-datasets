@@ -1,0 +1,11 @@
+digraph __resolv_context_get_preinit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008e22e0 -> BB008e2310 [color="green"];
+  BB008e22e0 -> BB008e22f8 [color="red"];
+  BB008e2310 -> BB008e236a [color="green"];
+  BB008e2310 -> BB008e232d [color="red"];
+  BB008e232d -> BB008e2380 [color="green"];
+  BB008e232d -> BB008e236a [color="red"];
+  BB008e2380 -> BB008e236a [color="blue"];
+}

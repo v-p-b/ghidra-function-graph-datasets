@@ -1,0 +1,25 @@
+digraph check_cert_attributes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00469aa0 -> BB00469bf0 [color="green"];
+  BB00469aa0 -> BB00469aa9 [color="red"];
+  BB00469aa9 -> BB00469be0 [color="green"];
+  BB00469aa9 -> BB00469ad2 [color="red"];
+  BB00469ad2 -> BB00469b1d [color="green"];
+  BB00469ad2 -> BB00469aeb [color="red"];
+  BB00469aeb -> BB00469b1d [color="red"];
+  BB00469b1d -> BB00469b2a [color="blue"];
+  BB00469b2a -> BB00469b83 [color="green"];
+  BB00469b2a -> BB00469b2f [color="red"];
+  BB00469b2f -> BB00469b76 [color="green"];
+  BB00469b2f -> BB00469b45 [color="red"];
+  BB00469b45 -> BB00469b76 [color="red"];
+  BB00469b76 -> BB00469b83 [color="blue"];
+  BB00469b83 -> BB00469bcd [color="green"];
+  BB00469b83 -> BB00469b88 [color="red"];
+  BB00469b88 -> BB00469bc3 [color="green"];
+  BB00469b88 -> BB00469b9b [color="red"];
+  BB00469b9b -> BB00469bc3 [color="red"];
+  BB00469bc3 -> BB00469bcd [color="blue"];
+  BB00469be0 -> BB00469b2a [color="blue"];
+}

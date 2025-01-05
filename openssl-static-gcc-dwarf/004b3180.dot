@@ -1,0 +1,37 @@
+digraph ossl_quic_detach_stream {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004b3180 -> BB004b3340 [color="green"];
+  BB004b3180 -> BB004b31a0 [color="red"];
+  BB004b31a0 -> BB004b32d0 [color="green"];
+  BB004b31a0 -> BB004b31ae [color="red"];
+  BB004b31ae -> BB004b31f0 [color="green"];
+  BB004b31ae -> BB004b31b3 [color="red"];
+  BB004b31b3 -> BB004b31d8 [color="red"];
+  BB004b31d8 -> BB004b32f0 [color="green"];
+  BB004b31d8 -> BB004b31e0 [color="red"];
+  BB004b31e0 -> BB004b31e3 [color="blue"];
+  BB004b31f0 -> BB004b3209 [color="blue"];
+  BB004b3209 -> BB004b31e0 [color="green"];
+  BB004b3209 -> BB004b3233 [color="red"];
+  BB004b3233 -> BB004b323b [color="blue"];
+  BB004b323b -> BB004b3298 [color="green"];
+  BB004b323b -> BB004b3240 [color="red"];
+  BB004b3240 -> BB004b31e3 [color="green"];
+  BB004b3240 -> BB004b3254 [color="red"];
+  BB004b3254 -> BB004b32b4 [color="green"];
+  BB004b3254 -> BB004b3270 [color="red"];
+  BB004b3270 -> BB004b3308 [color="green"];
+  BB004b3270 -> BB004b327e [color="red"];
+  BB004b3298 -> BB004b3320 [color="green"];
+  BB004b3298 -> BB004b32b4 [color="red"];
+  BB004b32d0 -> BB004b323b [color="blue"];
+  BB004b32f0 -> BB004b3233 [color="green"];
+  BB004b32f0 -> BB004b32fc [color="red"];
+  BB004b32fc -> BB004b3209 [color="blue"];
+  BB004b3320 -> BB004b336a [color="green"];
+  BB004b3320 -> BB004b332a [color="red"];
+  BB004b332a -> BB004b31e0 [color="blue"];
+  BB004b3340 -> BB004b31d8 [color="blue"];
+  BB004b336a -> BB004b31e0 [color="blue"];
+}

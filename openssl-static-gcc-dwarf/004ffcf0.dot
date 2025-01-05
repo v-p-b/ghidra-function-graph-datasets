@@ -1,0 +1,8 @@
+digraph ossl_quic_txfc_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ffcf0 -> BB004ffd00 [color="green"];
+  BB004ffcf0 -> BB004ffcf5 [color="red"];
+  BB004ffcf5 -> BB004ffd00 [color="green"];
+  BB004ffcf5 -> BB004ffcfd [color="red"];
+}

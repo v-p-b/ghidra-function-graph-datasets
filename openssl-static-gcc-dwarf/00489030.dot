@@ -1,0 +1,14 @@
+digraph SSL_get0_dane {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00489030 -> BB00489060 [color="green"];
+  BB00489030 -> BB00489035 [color="red"];
+  BB00489035 -> BB0048904c [color="green"];
+  BB00489035 -> BB0048903b [color="red"];
+  BB0048903b -> BB00489053 [color="green"];
+  BB0048903b -> BB00489043 [color="red"];
+  BB00489043 -> BB00489053 [color="green"];
+  BB00489043 -> BB0048904c [color="red"];
+  BB0048904c -> BB00489053 [color="blue"];
+  BB00489060 -> BB00489053 [color="blue"];
+}

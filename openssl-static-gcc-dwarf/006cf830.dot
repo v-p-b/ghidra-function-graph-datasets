@@ -1,0 +1,33 @@
+digraph ossl_ec_dhkem_derive_private {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006cf830 -> BB006cfae0 [color="green"];
+  BB006cf830 -> BB006cf871 [color="red"];
+  BB006cf871 -> BB006cfae0 [color="green"];
+  BB006cf871 -> BB006cf885 [color="red"];
+  BB006cf885 -> BB006cfa70 [color="green"];
+  BB006cf885 -> BB006cf8ba [color="red"];
+  BB006cf8ba -> BB006cfa18 [color="green"];
+  BB006cf8ba -> BB006cf8c7 [color="red"];
+  BB006cf8c7 -> BB006cf960 [color="green"];
+  BB006cf8c7 -> BB006cf923 [color="red"];
+  BB006cf923 -> BB006cf926 [color="blue"];
+  BB006cf926 -> BB006cf948 [color="red"];
+  BB006cf960 -> BB006cf9d5 [color="blue"];
+  BB006cf990 -> BB006cf923 [color="green"];
+  BB006cf990 -> BB006cf9b1 [color="red"];
+  BB006cf9b1 -> BB006cfa80 [color="green"];
+  BB006cf9b1 -> BB006cf9be [color="red"];
+  BB006cf9be -> BB006cfac0 [color="green"];
+  BB006cf9be -> BB006cf9d5 [color="red"];
+  BB006cf9d5 -> BB006cf990 [color="green"];
+  BB006cf9d5 -> BB006cfa0e [color="red"];
+  BB006cfa0e -> BB006cf923 [color="blue"];
+  BB006cfa18 -> BB006cf926 [color="blue"];
+  BB006cfa70 -> BB006cf948 [color="blue"];
+  BB006cfa80 -> BB006cf926 [color="blue"];
+  BB006cfac0 -> BB006cf9d5 [color="green"];
+  BB006cfac0 -> BB006cfad5 [color="red"];
+  BB006cfad5 -> BB006cf926 [color="blue"];
+  BB006cfae0 -> BB006cf948 [color="blue"];
+}

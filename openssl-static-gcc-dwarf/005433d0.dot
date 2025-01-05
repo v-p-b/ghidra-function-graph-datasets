@@ -1,0 +1,28 @@
+digraph bn_mul_recursive.constprop.0 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005433d0 -> BB00543400 [color="green"];
+  BB005433d0 -> BB005433ec [color="red"];
+  BB00543400 -> BB005434e0 [color="green"];
+  BB00543400 -> BB0054340c [color="red"];
+  BB0054340c -> BB005437d8 [color="green"];
+  BB0054340c -> BB00543471 [color="red"];
+  BB00543548 -> BB005435a2 [color="red"];
+  BB005435a2 -> BB005437b8 [color="green"];
+  BB005435a2 -> BB005435cf [color="red"];
+  BB005435cf -> BB005435e5 [color="red"];
+  BB005435e5 -> BB00543616 [color="green"];
+  BB005435e5 -> BB00543600 [color="red"];
+  BB00543600 -> BB00543628 [color="green"];
+  BB00543600 -> BB00543616 [color="red"];
+  BB00543628 -> BB00543616 [color="green"];
+  BB00543628 -> BB00543632 [color="red"];
+  BB00543632 -> BB00543628 [color="green"];
+  BB00543632 -> BB0054363c [color="red"];
+  BB0054363c -> BB00543616 [color="blue"];
+  BB00543688 -> BB005435a2 [color="blue"];
+  BB005437b8 -> BB005435e5 [color="blue"];
+  BB005437d8 -> BB00543548 [color="green"];
+  BB005437d8 -> BB005437f2 [color="red"];
+  BB005437f2 -> BB00543688 [color="blue"];
+}

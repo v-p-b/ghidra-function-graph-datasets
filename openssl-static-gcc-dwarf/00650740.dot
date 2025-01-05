@@ -1,0 +1,16 @@
+digraph TS_RESP_CTX_add_policy {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00650740 -> BB00650780 [color="green"];
+  BB00650740 -> BB00650751 [color="red"];
+  BB00650751 -> BB006507a8 [color="green"];
+  BB00650751 -> BB00650761 [color="red"];
+  BB00650761 -> BB006507f0 [color="green"];
+  BB00650761 -> BB0065077a [color="red"];
+  BB00650780 -> BB00650751 [color="green"];
+  BB00650780 -> BB00650791 [color="red"];
+  BB00650791 -> BB00650801 [color="blue"];
+  BB006507a8 -> BB006507d8 [color="red"];
+  BB006507f0 -> BB00650801 [color="red"];
+  BB00650801 -> BB006507d8 [color="blue"];
+}

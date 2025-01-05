@@ -1,0 +1,12 @@
+digraph encoder_construct_pkey {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005a0ff0 -> BB005a1020 [color="green"];
+  BB005a0ff0 -> BB005a1007 [color="red"];
+  BB005a1020 -> BB005a1080 [color="green"];
+  BB005a1020 -> BB005a104a [color="red"];
+  BB005a104a -> BB005a1007 [color="green"];
+  BB005a104a -> BB005a106c [color="red"];
+  BB005a106c -> BB005a1007 [color="blue"];
+  BB005a1080 -> BB005a1007 [color="blue"];
+}

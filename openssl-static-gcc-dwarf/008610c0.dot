@@ -1,0 +1,11 @@
+digraph get_extended_indices.constprop.0 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008610c0 -> BB00861140 [color="green"];
+  BB008610c0 -> BB008610d1 [color="red"];
+  BB008610d1 -> BB00861140 [color="green"];
+  BB008610d1 -> BB008610fa [color="red"];
+  BB008610fa -> BB00861140 [color="green"];
+  BB008610fa -> BB00861121 [color="red"];
+  BB00861121 -> BB00861140 [color="blue"];
+}

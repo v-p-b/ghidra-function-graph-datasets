@@ -1,0 +1,16 @@
+digraph poly1305_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006dbfc0 -> BB006dbff0 [color="green"];
+  BB006dbfc0 -> BB006dbfdf [color="red"];
+  BB006dbff0 -> BB006dc064 [color="green"];
+  BB006dbff0 -> BB006dc004 [color="red"];
+  BB006dc004 -> BB006dc050 [color="green"];
+  BB006dc004 -> BB006dc00b [color="red"];
+  BB006dc050 -> BB006dc064 [color="red"];
+  BB006dc064 -> BB006dc090 [color="green"];
+  BB006dc064 -> BB006dc069 [color="red"];
+  BB006dc069 -> BB006dc00b [color="green"];
+  BB006dc069 -> BB006dc06f [color="red"];
+  BB006dc06f -> BB006dbfdf [color="blue"];
+}

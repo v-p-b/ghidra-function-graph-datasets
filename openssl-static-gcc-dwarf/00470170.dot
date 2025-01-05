@@ -1,0 +1,16 @@
+digraph opt_ulong {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00470170 -> BB004701e5 [color="green"];
+  BB00470170 -> BB004701aa [color="red"];
+  BB004701aa -> BB004701e5 [color="green"];
+  BB004701aa -> BB004701af [color="red"];
+  BB004701af -> BB004701e0 [color="green"];
+  BB004701af -> BB004701b5 [color="red"];
+  BB004701b5 -> BB004701c0 [color="green"];
+  BB004701b5 -> BB004701ba [color="red"];
+  BB004701ba -> BB004701e5 [color="green"];
+  BB004701ba -> BB004701c0 [color="red"];
+  BB004701e0 -> BB004701c0 [color="green"];
+  BB004701e0 -> BB004701e5 [color="red"];
+}

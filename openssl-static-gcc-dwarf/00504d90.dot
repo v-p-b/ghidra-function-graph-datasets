@@ -1,0 +1,14 @@
+digraph ossl_quic_tx_packetiser_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00504d90 -> BB00504e90 [color="green"];
+  BB00504d90 -> BB00504d99 [color="red"];
+  BB00504d99 -> BB00504dda [color="green"];
+  BB00504d99 -> BB00504dbe [color="red"];
+  BB00504dbe -> BB00504dda [color="green"];
+  BB00504dbe -> BB00504dca [color="red"];
+  BB00504dca -> BB00504dda [color="blue"];
+  BB00504dda -> BB00504e3f [color="red"];
+  BB00504e3f -> BB00504e3f [color="green"];
+  BB00504e3f -> BB00504e6a [color="red"];
+}

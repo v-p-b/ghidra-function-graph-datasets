@@ -1,0 +1,19 @@
+digraph stack_to_property_list {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0062adf0 -> BB0062af60 [color="green"];
+  BB0062adf0 -> BB0062ae18 [color="red"];
+  BB0062ae18 -> BB0062af59 [color="green"];
+  BB0062ae18 -> BB0062ae46 [color="red"];
+  BB0062ae46 -> BB0062aed8 [color="blue"];
+  BB0062ae90 -> BB0062af00 [color="green"];
+  BB0062ae90 -> BB0062aed8 [color="red"];
+  BB0062aed8 -> BB0062ae90 [color="green"];
+  BB0062aed8 -> BB0062aee5 [color="red"];
+  BB0062aee5 -> BB0062aee8 [color="blue"];
+  BB0062af00 -> BB0062af59 [color="red"];
+  BB0062af59 -> BB0062aee8 [color="blue"];
+  BB0062af60 -> BB0062af59 [color="green"];
+  BB0062af60 -> BB0062af7e [color="red"];
+  BB0062af7e -> BB0062aee5 [color="blue"];
+}

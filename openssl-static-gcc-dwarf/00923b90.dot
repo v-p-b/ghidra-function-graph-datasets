@@ -1,0 +1,16 @@
+digraph __mpn_extract_float128 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00923b90 -> BB00923bf8 [color="green"];
+  BB00923b90 -> BB00923bdc [color="red"];
+  BB00923bdc -> BB00923c10 [color="green"];
+  BB00923bdc -> BB00923be1 [color="red"];
+  BB00923be1 -> BB00923c50 [color="green"];
+  BB00923be1 -> BB00923be6 [color="red"];
+  BB00923c10 -> BB00923c50 [color="green"];
+  BB00923c10 -> BB00923c15 [color="red"];
+  BB00923c15 -> BB00923c90 [color="green"];
+  BB00923c15 -> BB00923c25 [color="red"];
+  BB00923c25 -> BB00923c36 [color="blue"];
+  BB00923c90 -> BB00923c36 [color="blue"];
+}

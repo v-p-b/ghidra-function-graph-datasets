@@ -1,0 +1,16 @@
+digraph SCT_is_complete {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00577f20 -> BB00577f40 [color="green"];
+  BB00577f20 -> BB00577f27 [color="red"];
+  BB00577f27 -> BB00577f48 [color="green"];
+  BB00577f27 -> BB00577f2b [color="red"];
+  BB00577f2b -> BB00577f38 [color="green"];
+  BB00577f2b -> BB00577f32 [color="red"];
+  BB00577f32 -> BB00577f58 [color="green"];
+  BB00577f32 -> BB00577f38 [color="red"];
+  BB00577f58 -> BB00577f38 [color="green"];
+  BB00577f58 -> BB00577f64 [color="red"];
+  BB00577f64 -> BB00577f38 [color="green"];
+  BB00577f64 -> BB00577f6b [color="red"];
+}

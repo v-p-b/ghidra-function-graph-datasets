@@ -1,0 +1,16 @@
+digraph kmac_bytepad_encode_key.constprop.0 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006db410 -> BB006db458 [color="green"];
+  BB006db410 -> BB006db43e [color="red"];
+  BB006db43e -> BB006db441 [color="blue"];
+  BB006db458 -> BB006db43e [color="green"];
+  BB006db458 -> BB006db47d [color="red"];
+  BB006db47d -> BB006db43e [color="green"];
+  BB006db47d -> BB006db486 [color="red"];
+  BB006db486 -> BB00401070 [color="green"];
+  BB006db486 -> BB006db441 [color="green"];
+  BB006db486 -> BB006db4c6 [color="red"];
+  BB006db4c6 -> BB00401080 [color="blue"];
+  BB006db4c6 -> BB006db441 [color="blue"];
+}

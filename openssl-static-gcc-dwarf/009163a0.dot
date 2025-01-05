@@ -1,0 +1,12 @@
+digraph __libc_scratch_buffer_grow {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB009163a0 -> BB009163c4 [color="green"];
+  BB009163a0 -> BB009163bb [color="red"];
+  BB009163bb -> BB009163c4 [color="red"];
+  BB009163c4 -> BB009163f0 [color="green"];
+  BB009163c4 -> BB009163c9 [color="red"];
+  BB009163c9 -> BB009163fe [color="green"];
+  BB009163c9 -> BB009163d6 [color="red"];
+  BB009163f0 -> BB009163fe [color="blue"];
+}

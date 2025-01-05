@@ -1,0 +1,15 @@
+digraph ENGINE_register_all_digests {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005a4e20 -> BB005a4e9a [color="green"];
+  BB005a4e20 -> BB005a4e30 [color="red"];
+  BB005a4e30 -> BB005a4e50 [color="blue"];
+  BB005a4e40 -> BB005a4e9a [color="green"];
+  BB005a4e40 -> BB005a4e50 [color="red"];
+  BB005a4e50 -> BB005a4e40 [color="green"];
+  BB005a4e50 -> BB005a4e59 [color="red"];
+  BB005a4e59 -> BB005a4e40 [color="green"];
+  BB005a4e59 -> BB005a4e69 [color="red"];
+  BB005a4e69 -> BB005a4e50 [color="green"];
+  BB005a4e69 -> BB005a4e9a [color="red"];
+}

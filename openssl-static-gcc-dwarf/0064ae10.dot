@@ -1,0 +1,14 @@
+digraph OSSL_STORE_close {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0064ae10 -> BB0064aeb0 [color="green"];
+  BB0064ae10 -> BB0064ae23 [color="red"];
+  BB0064ae23 -> BB0064aea0 [color="green"];
+  BB0064ae23 -> BB0064ae31 [color="red"];
+  BB0064ae31 -> BB0064ae97 [color="green"];
+  BB0064ae31 -> BB0064ae41 [color="red"];
+  BB0064ae41 -> BB0064ae78 [color="red"];
+  BB0064ae97 -> BB0064aea0 [color="blue"];
+  BB0064aea0 -> BB0064ae41 [color="blue"];
+  BB0064aeb0 -> BB0064ae78 [color="blue"];
+}

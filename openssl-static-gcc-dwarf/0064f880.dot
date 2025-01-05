@@ -1,0 +1,15 @@
+digraph TS_CONF_set_ess_cert_id_chain {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0064f880 -> BB0064f904 [color="green"];
+  BB0064f880 -> BB0064f8a2 [color="red"];
+  BB0064f8a2 -> BB0064f910 [color="green"];
+  BB0064f8a2 -> BB0064f8bd [color="red"];
+  BB0064f8bd -> BB0064f930 [color="green"];
+  BB0064f8bd -> BB0064f8c2 [color="red"];
+  BB0064f8c2 -> BB0064f904 [color="red"];
+  BB0064f930 -> BB0064f8c2 [color="green"];
+  BB0064f930 -> BB0064f936 [color="red"];
+  BB0064f936 -> BB0064f8c2 [color="green"];
+  BB0064f936 -> BB0064f93c [color="red"];
+}

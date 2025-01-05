@@ -1,0 +1,16 @@
+digraph get_rsa_payload_e4 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00762350 -> BB007623a0 [color="green"];
+  BB00762350 -> BB00762374 [color="red"];
+  BB00762374 -> BB007623a0 [color="green"];
+  BB00762374 -> BB00762385 [color="red"];
+  BB007623a0 -> BB00762385 [color="green"];
+  BB007623a0 -> BB007623bd [color="red"];
+  BB007623bd -> BB00762385 [color="green"];
+  BB007623bd -> BB007623d1 [color="red"];
+  BB007623d1 -> BB00762385 [color="green"];
+  BB007623d1 -> BB007623db [color="red"];
+  BB007623db -> BB00762385 [color="green"];
+  BB007623db -> BB007623e6 [color="red"];
+}

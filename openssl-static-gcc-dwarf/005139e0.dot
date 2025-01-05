@@ -1,0 +1,16 @@
+digraph ASN1_OBJECT_free {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005139e0 -> BB00513a80 [color="green"];
+  BB005139e0 -> BB005139e9 [color="red"];
+  BB005139e9 -> BB00513a00 [color="green"];
+  BB005139e9 -> BB005139f4 [color="red"];
+  BB005139f4 -> BB00513a38 [color="green"];
+  BB005139f4 -> BB005139f8 [color="red"];
+  BB005139f8 -> BB00513a63 [color="green"];
+  BB005139f8 -> BB005139fc [color="red"];
+  BB00513a00 -> BB005139f8 [color="green"];
+  BB00513a00 -> BB00513a38 [color="red"];
+  BB00513a38 -> BB005139fc [color="green"];
+  BB00513a38 -> BB00513a63 [color="red"];
+}

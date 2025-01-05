@@ -1,0 +1,10 @@
+digraph OCSP_id_cmp {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00610bd0 -> BB00610bf8 [color="green"];
+  BB00610bd0 -> BB00610beb [color="red"];
+  BB00610bf8 -> BB00610beb [color="green"];
+  BB00610bf8 -> BB00610c09 [color="red"];
+  BB00610c09 -> BB00610beb [color="green"];
+  BB00610c09 -> BB00610c1a [color="red"];
+}

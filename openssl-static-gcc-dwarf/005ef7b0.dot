@@ -1,0 +1,9 @@
+digraph CRYPTO_secure_allocated {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005ef7b0 -> BB005ef7d7 [color="green"];
+  BB005ef7b0 -> BB005ef7ba [color="red"];
+  BB005ef7ba -> BB005ef7d7 [color="green"];
+  BB005ef7ba -> BB005ef7c8 [color="red"];
+  BB005ef7c8 -> BB005ef7d7 [color="blue"];
+}

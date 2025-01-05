@@ -1,0 +1,32 @@
+digraph ASYNC_init_thread {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00528700 -> BB005287d0 [color="green"];
+  BB00528700 -> BB00528713 [color="red"];
+  BB00528713 -> BB00528740 [color="green"];
+  BB00528713 -> BB00528729 [color="red"];
+  BB00528729 -> BB0052872c [color="blue"];
+  BB00528740 -> BB00528729 [color="green"];
+  BB00528740 -> BB00528754 [color="red"];
+  BB00528754 -> BB00528729 [color="green"];
+  BB00528754 -> BB00528772 [color="red"];
+  BB00528772 -> BB00528918 [color="green"];
+  BB00528772 -> BB00528788 [color="red"];
+  BB00528788 -> BB00528818 [color="green"];
+  BB00528788 -> BB00528795 [color="red"];
+  BB00528795 -> BB00528870 [color="green"];
+  BB00528795 -> BB005287b7 [color="red"];
+  BB00528818 -> BB00528795 [color="green"];
+  BB00528818 -> BB0052883a [color="red"];
+  BB0052883a -> BB00528795 [color="blue"];
+  BB00528870 -> BB005288f6 [color="green"];
+  BB00528870 -> BB005288a9 [color="red"];
+  BB005288a9 -> BB005288f2 [color="green"];
+  BB005288a9 -> BB005288bd [color="red"];
+  BB005288bd -> BB005288c0 [color="blue"];
+  BB005288c0 -> BB005288c0 [color="green"];
+  BB005288c0 -> BB005288f2 [color="red"];
+  BB005288f2 -> BB005288f6 [color="blue"];
+  BB005288f6 -> BB0052872c [color="blue"];
+  BB00528918 -> BB00528729 [color="blue"];
+}

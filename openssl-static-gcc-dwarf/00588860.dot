@@ -1,0 +1,14 @@
+digraph ossl_ec_key_simple_priv2oct {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00588860 -> BB0058889e [color="green"];
+  BB00588860 -> BB00588891 [color="red"];
+  BB00588891 -> BB005888a1 [color="green"];
+  BB00588891 -> BB00588899 [color="red"];
+  BB00588899 -> BB005888b0 [color="green"];
+  BB00588899 -> BB0058889e [color="red"];
+  BB0058889e -> BB005888a1 [color="blue"];
+  BB005888b0 -> BB005888a1 [color="green"];
+  BB005888b0 -> BB005888bd [color="red"];
+  BB005888bd -> BB005888a1 [color="blue"];
+}

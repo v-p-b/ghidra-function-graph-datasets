@@ -1,0 +1,15 @@
+digraph read_int {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00879790 -> BB00879800 [color="green"];
+  BB00879790 -> BB008797ad [color="red"];
+  BB008797ad -> BB008797e8 [color="blue"];
+  BB008797c0 -> BB008797d6 [color="blue"];
+  BB008797d6 -> BB00879800 [color="green"];
+  BB008797d6 -> BB008797e8 [color="red"];
+  BB008797e8 -> BB008797d6 [color="green"];
+  BB008797e8 -> BB008797ed [color="red"];
+  BB008797ed -> BB008797c0 [color="green"];
+  BB008797ed -> BB008797f6 [color="red"];
+  BB008797f6 -> BB008797d6 [color="blue"];
+}

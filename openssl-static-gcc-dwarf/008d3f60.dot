@@ -1,0 +1,20 @@
+digraph __alloc_dir {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008d3f60 -> BB008d4008 [color="green"];
+  BB008d3f60 -> BB008d3f7b [color="red"];
+  BB008d3f7b -> BB008d3fb2 [color="green"];
+  BB008d3f7b -> BB008d3f8a [color="red"];
+  BB008d3f8a -> BB008d3fb2 [color="blue"];
+  BB008d3fb2 -> BB008d4026 [color="green"];
+  BB008d3fb2 -> BB008d3fbf [color="red"];
+  BB008d3fbf -> BB008d3ff5 [color="blue"];
+  BB008d4008 -> BB008d3f7b [color="green"];
+  BB008d4008 -> BB008d4021 [color="red"];
+  BB008d4021 -> BB008d3ff5 [color="blue"];
+  BB008d4026 -> BB008d3fbf [color="green"];
+  BB008d4026 -> BB008d403d [color="red"];
+  BB008d403d -> BB008d4021 [color="green"];
+  BB008d403d -> BB008d4042 [color="red"];
+  BB008d4042 -> BB008d3ff5 [color="blue"];
+}

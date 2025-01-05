@@ -1,0 +1,19 @@
+digraph PKCS12_init_ex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0061ed10 -> BB0061ee18 [color="green"];
+  BB0061ed10 -> BB0061ed31 [color="red"];
+  BB0061ed31 -> BB0061edc0 [color="green"];
+  BB0061ed31 -> BB0061ed42 [color="red"];
+  BB0061ed42 -> BB0061ee50 [color="green"];
+  BB0061ed42 -> BB0061ed74 [color="red"];
+  BB0061ed74 -> BB0061ede0 [color="green"];
+  BB0061ed74 -> BB0061ed79 [color="red"];
+  BB0061ed79 -> BB0061edcb [color="green"];
+  BB0061ed79 -> BB0061ed8c [color="red"];
+  BB0061ed8c -> BB0061edc0 [color="red"];
+  BB0061edc0 -> BB0061edcb [color="red"];
+  BB0061ede0 -> BB0061edc0 [color="blue"];
+  BB0061ee18 -> BB0061edcb [color="blue"];
+  BB0061ee50 -> BB0061edc0 [color="blue"];
+}

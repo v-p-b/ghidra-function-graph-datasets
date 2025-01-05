@@ -1,0 +1,9 @@
+digraph chacha20_poly1305_newctx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006a1440 -> BB006a14b4 [color="green"];
+  BB006a1440 -> BB006a144e [color="red"];
+  BB006a144e -> BB006a14b4 [color="green"];
+  BB006a144e -> BB006a146c [color="red"];
+  BB006a146c -> BB006a14b4 [color="red"];
+}

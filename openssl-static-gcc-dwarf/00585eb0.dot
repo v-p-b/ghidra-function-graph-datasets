@@ -1,0 +1,20 @@
+digraph ossl_ec_key_param_from_x509_algor {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00585eb0 -> BB00586028 [color="green"];
+  BB00585eb0 -> BB00585f06 [color="red"];
+  BB00585f06 -> BB00585fc0 [color="green"];
+  BB00585f06 -> BB00585f13 [color="red"];
+  BB00585f13 -> BB00585f70 [color="green"];
+  BB00585f13 -> BB00585f18 [color="red"];
+  BB00585f18 -> BB00585fa2 [color="green"];
+  BB00585f18 -> BB00585f37 [color="red"];
+  BB00585f37 -> BB00585fa2 [color="green"];
+  BB00585f37 -> BB00585f55 [color="red"];
+  BB00585f55 -> BB00585f5d [color="red"];
+  BB00585f70 -> BB00585fa2 [color="red"];
+  BB00585fc0 -> BB00585f5d [color="green"];
+  BB00585fc0 -> BB00585fec [color="red"];
+  BB00585fec -> BB00585fa2 [color="blue"];
+  BB00586028 -> BB00585fa2 [color="blue"];
+}

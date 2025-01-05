@@ -1,0 +1,30 @@
+digraph check_msg_with_certs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00561ed0 -> BB00561f48 [color="green"];
+  BB00561ed0 -> BB00561f12 [color="red"];
+  BB00561f12 -> BB00562090 [color="blue"];
+  BB00561f20 -> BB00561f45 [color="green"];
+  BB00561f20 -> BB00561f2d [color="red"];
+  BB00561f2d -> BB00562010 [color="green"];
+  BB00561f2d -> BB00561f45 [color="red"];
+  BB00561f45 -> BB00561f48 [color="blue"];
+  BB00561f48 -> BB00562030 [color="green"];
+  BB00561f48 -> BB00561f58 [color="red"];
+  BB00561f58 -> BB00562079 [color="green"];
+  BB00561f58 -> BB00561f6e [color="red"];
+  BB00561f6e -> BB00561f45 [color="green"];
+  BB00561f6e -> BB00561f9b [color="red"];
+  BB00561f9b -> BB00561f20 [color="green"];
+  BB00561f9b -> BB00561fae [color="red"];
+  BB00561fae -> BB00562010 [color="green"];
+  BB00561fae -> BB00561fc5 [color="red"];
+  BB00561fc5 -> BB00561f45 [color="blue"];
+  BB00562030 -> BB00562079 [color="green"];
+  BB00562030 -> BB00562035 [color="red"];
+  BB00562035 -> BB00562079 [color="green"];
+  BB00562035 -> BB0056203d [color="red"];
+  BB0056203d -> BB0056205a [color="blue"];
+  BB0056205a -> BB00562079 [color="red"];
+  BB00562090 -> BB0056205a [color="blue"];
+}

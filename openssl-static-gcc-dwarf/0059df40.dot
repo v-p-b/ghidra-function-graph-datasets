@@ -1,0 +1,28 @@
+digraph collect_decoder {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0059df40 -> BB0059df50 [color="green"];
+  BB0059df40 -> BB0059df46 [color="red"];
+  BB0059df50 -> BB0059df96 [color="green"];
+  BB0059df50 -> BB0059df82 [color="red"];
+  BB0059df82 -> BB0059e01b [color="green"];
+  BB0059df82 -> BB0059df96 [color="red"];
+  BB0059df96 -> BB0059dff6 [color="green"];
+  BB0059df96 -> BB0059dfa7 [color="red"];
+  BB0059dfa7 -> BB0059e01b [color="blue"];
+  BB0059dfb0 -> BB0059e030 [color="green"];
+  BB0059dfb0 -> BB0059dfca [color="red"];
+  BB0059dfca -> BB0059e050 [color="green"];
+  BB0059dfca -> BB0059dfe4 [color="red"];
+  BB0059dfe4 -> BB0059dfe8 [color="blue"];
+  BB0059dfe8 -> BB0059e01b [color="green"];
+  BB0059dfe8 -> BB0059dfee [color="red"];
+  BB0059dfee -> BB0059e01b [color="green"];
+  BB0059dfee -> BB0059dff6 [color="red"];
+  BB0059dff6 -> BB0059dfe8 [color="green"];
+  BB0059dff6 -> BB0059e00a [color="red"];
+  BB0059e00a -> BB0059dfb0 [color="green"];
+  BB0059e00a -> BB0059e017 [color="red"];
+  BB0059e017 -> BB0059e01b [color="blue"];
+  BB0059e050 -> BB0059e017 [color="blue"];
+}

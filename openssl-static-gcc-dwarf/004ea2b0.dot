@@ -1,0 +1,17 @@
+digraph tls_process_key_update {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004ea2b0 -> BB004ea360 [color="green"];
+  BB004ea2b0 -> BB004ea2d0 [color="red"];
+  BB004ea2d0 -> BB004ea320 [color="green"];
+  BB004ea2d0 -> BB004ea2d9 [color="red"];
+  BB004ea2d9 -> BB004ea320 [color="green"];
+  BB004ea2d9 -> BB004ea2f0 [color="red"];
+  BB004ea2f0 -> BB004ea3b0 [color="green"];
+  BB004ea2f0 -> BB004ea2f9 [color="red"];
+  BB004ea2f9 -> BB004ea3a0 [color="green"];
+  BB004ea2f9 -> BB004ea2ff [color="red"];
+  BB004ea320 -> BB004ea355 [color="red"];
+  BB004ea3a0 -> BB004ea2ff [color="blue"];
+  BB004ea3b0 -> BB004ea355 [color="blue"];
+}

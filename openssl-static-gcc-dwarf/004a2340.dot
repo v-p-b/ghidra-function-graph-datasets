@@ -1,0 +1,23 @@
+digraph tls1_set_sigalgs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004a2340 -> BB004a2367 [color="green"];
+  BB004a2340 -> BB004a2356 [color="red"];
+  BB004a2367 -> BB004a2356 [color="green"];
+  BB004a2367 -> BB004a2393 [color="red"];
+  BB004a2393 -> BB004a23dd [color="green"];
+  BB004a2393 -> BB004a239f [color="red"];
+  BB004a239f -> BB004a23a0 [color="blue"];
+  BB004a23a0 -> BB004a23c1 [color="blue"];
+  BB004a23b8 -> BB004a2420 [color="green"];
+  BB004a23b8 -> BB004a23c1 [color="red"];
+  BB004a23c1 -> BB004a23b8 [color="green"];
+  BB004a23c1 -> BB004a23c6 [color="red"];
+  BB004a23c6 -> BB004a23b8 [color="green"];
+  BB004a23c6 -> BB004a23cb [color="red"];
+  BB004a23cb -> BB004a23a0 [color="green"];
+  BB004a23cb -> BB004a23dd [color="red"];
+  BB004a23dd -> BB004a2439 [color="green"];
+  BB004a23dd -> BB004a23e5 [color="red"];
+  BB004a2420 -> BB004a2356 [color="blue"];
+}

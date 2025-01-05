@@ -1,0 +1,16 @@
+digraph gettimeofday {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008d17c0 -> BB008d1840 [color="green"];
+  BB008d17c0 -> BB008d17d2 [color="red"];
+  BB008d17d2 -> BB008d1818 [color="green"];
+  BB008d17d2 -> BB008d17de [color="red"];
+  BB008d17de -> BB008d1809 [color="green"];
+  BB008d17de -> BB008d17f2 [color="red"];
+  BB008d17f2 -> BB008d1818 [color="green"];
+  BB008d17f2 -> BB008d17f8 [color="red"];
+  BB008d17f8 -> BB008d1809 [color="blue"];
+  BB008d1818 -> BB008d17f8 [color="green"];
+  BB008d1818 -> BB008d1830 [color="red"];
+  BB008d1840 -> BB008d17d2 [color="blue"];
+}

@@ -1,0 +1,28 @@
+digraph gcm_ghash_avx {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00609500 -> BB00609940 [color="green"];
+  BB00609500 -> BB00609530 [color="red"];
+  BB00609530 -> BB00609b20 [color="green"];
+  BB00609530 -> BB006096d5 [color="red"];
+  BB006096d5 -> BB00609700 [color="blue"];
+  BB00609700 -> BB00609700 [color="green"];
+  BB00609700 -> BB0060991e [color="red"];
+  BB0060991e -> BB00609b25 [color="blue"];
+  BB00609940 -> BB00609b20 [color="green"];
+  BB00609940 -> BB0060996f [color="red"];
+  BB0060996f -> BB00609b20 [color="green"];
+  BB0060996f -> BB006099b5 [color="red"];
+  BB006099b5 -> BB00609b20 [color="green"];
+  BB006099b5 -> BB006099fb [color="red"];
+  BB006099fb -> BB00609b20 [color="green"];
+  BB006099fb -> BB00609a40 [color="red"];
+  BB00609a40 -> BB00609b20 [color="green"];
+  BB00609a40 -> BB00609a86 [color="red"];
+  BB00609a86 -> BB00609b20 [color="green"];
+  BB00609a86 -> BB00609ac8 [color="red"];
+  BB00609ac8 -> BB00609b20 [color="blue"];
+  BB00609b20 -> BB00609b25 [color="blue"];
+  BB00609b25 -> BB00609940 [color="green"];
+  BB00609b25 -> BB00609bac [color="red"];
+}

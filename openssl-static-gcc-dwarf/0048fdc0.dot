@@ -1,0 +1,14 @@
+digraph SSL_get_pending_cipher {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0048fdc0 -> BB0048fdf0 [color="green"];
+  BB0048fdc0 -> BB0048fdc5 [color="red"];
+  BB0048fdc5 -> BB0048fddc [color="green"];
+  BB0048fdc5 -> BB0048fdcb [color="red"];
+  BB0048fdcb -> BB0048fde3 [color="green"];
+  BB0048fdcb -> BB0048fdd3 [color="red"];
+  BB0048fdd3 -> BB0048fde3 [color="green"];
+  BB0048fdd3 -> BB0048fddc [color="red"];
+  BB0048fddc -> BB0048fde3 [color="blue"];
+  BB0048fdf0 -> BB0048fde3 [color="blue"];
+}

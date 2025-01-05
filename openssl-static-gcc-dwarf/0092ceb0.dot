@@ -1,0 +1,8 @@
+digraph free_mem {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0092ceb0 -> BB0092ced0 [color="green"];
+  BB0092ceb0 -> BB0092cebc [color="red"];
+  BB0092cebc -> BB0092ced0 [color="green"];
+  BB0092cebc -> BB0092cec8 [color="red"];
+}

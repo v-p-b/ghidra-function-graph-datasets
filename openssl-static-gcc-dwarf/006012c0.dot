@@ -1,0 +1,19 @@
+digraph OPENSSL_ia32_rdrand_bytes {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006012c0 -> BB00601323 [color="green"];
+  BB006012c0 -> BB006012cd [color="red"];
+  BB006012cd -> BB006012d4 [color="blue"];
+  BB006012d4 -> BB006012f0 [color="green"];
+  BB006012d4 -> BB006012da [color="red"];
+  BB006012da -> BB006012d4 [color="green"];
+  BB006012da -> BB006012df [color="red"];
+  BB006012df -> BB00601323 [color="blue"];
+  BB006012f0 -> BB00601310 [color="green"];
+  BB006012f0 -> BB006012f6 [color="red"];
+  BB006012f6 -> BB00601323 [color="green"];
+  BB006012f6 -> BB00601307 [color="red"];
+  BB00601307 -> BB006012d4 [color="blue"];
+  BB00601310 -> BB00601310 [color="green"];
+  BB00601310 -> BB00601323 [color="red"];
+}

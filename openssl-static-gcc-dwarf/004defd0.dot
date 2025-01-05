@@ -1,0 +1,12 @@
+digraph ossl_statem_accept {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004defd0 -> BB004deff8 [color="green"];
+  BB004defd0 -> BB004defd5 [color="red"];
+  BB004defd5 -> BB004defe9 [color="green"];
+  BB004defd5 -> BB004defdb [color="red"];
+  BB004defdb -> BB004deff8 [color="green"];
+  BB004defdb -> BB004defe0 [color="red"];
+  BB004defe0 -> BB004deff8 [color="green"];
+  BB004defe0 -> BB004defe9 [color="red"];
+}

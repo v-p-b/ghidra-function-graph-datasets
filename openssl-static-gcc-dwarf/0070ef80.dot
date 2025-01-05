@@ -1,0 +1,16 @@
+digraph aesni_cbc_sha256_enc_avx2 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0070ef80 -> BB0070f050 [color="blue"];
+  BB0070f050 -> BB0070f100 [color="blue"];
+  BB0070f100 -> BB0070f100 [color="green"];
+  BB0070f100 -> BB0070fad1 [color="red"];
+  BB0070fad1 -> BB007109bb [color="green"];
+  BB0070fad1 -> BB00710231 [color="red"];
+  BB00710231 -> BB00710240 [color="blue"];
+  BB00710240 -> BB00710240 [color="green"];
+  BB00710240 -> BB00710947 [color="red"];
+  BB00710947 -> BB0070f050 [color="green"];
+  BB00710947 -> BB007109b7 [color="red"];
+  BB007109b7 -> BB007109bb [color="blue"];
+}

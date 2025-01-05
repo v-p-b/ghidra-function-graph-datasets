@@ -1,0 +1,16 @@
+digraph top_check {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00885680 -> BB008856cd [color="green"];
+  BB00885680 -> BB00885693 [color="red"];
+  BB00885693 -> BB008856ce [color="green"];
+  BB00885693 -> BB0088569c [color="red"];
+  BB0088569c -> BB008856ce [color="green"];
+  BB0088569c -> BB008856a9 [color="red"];
+  BB008856a9 -> BB008856ce [color="green"];
+  BB008856a9 -> BB008856ae [color="red"];
+  BB008856ae -> BB008856cd [color="green"];
+  BB008856ae -> BB008856b7 [color="red"];
+  BB008856b7 -> BB008856ce [color="green"];
+  BB008856b7 -> BB008856cd [color="red"];
+}

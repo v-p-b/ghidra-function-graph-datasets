@@ -1,0 +1,10 @@
+digraph bn_from_mont_fixed_top {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB005428b0 -> BB00542900 [color="green"];
+  BB005428b0 -> BB005428da [color="red"];
+  BB005428da -> BB00542900 [color="green"];
+  BB005428da -> BB005428ed [color="red"];
+  BB005428ed -> BB00542903 [color="blue"];
+  BB00542900 -> BB00542903 [color="blue"];
+}

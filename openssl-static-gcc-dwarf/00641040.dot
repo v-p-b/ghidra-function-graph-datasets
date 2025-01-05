@@ -1,0 +1,30 @@
+digraph ossl_rsa_sp800_56b_generate_key {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00641040 -> BB00641110 [color="green"];
+  BB00641040 -> BB00641072 [color="red"];
+  BB00641072 -> BB00641110 [color="green"];
+  BB00641072 -> BB00641087 [color="red"];
+  BB00641087 -> BB006410cd [color="green"];
+  BB00641087 -> BB0064108f [color="red"];
+  BB0064108f -> BB00641138 [color="blue"];
+  BB00641098 -> BB006410b7 [color="green"];
+  BB00641098 -> BB006410a9 [color="red"];
+  BB006410a9 -> BB006410b7 [color="blue"];
+  BB006410b7 -> BB006410e6 [color="green"];
+  BB006410b7 -> BB006410cb [color="red"];
+  BB006410cb -> BB00641128 [color="green"];
+  BB006410cb -> BB006410cd [color="red"];
+  BB006410cd -> BB00641098 [color="green"];
+  BB006410cd -> BB006410e6 [color="red"];
+  BB006410e6 -> BB006410e8 [color="blue"];
+  BB006410e8 -> BB0064115a [color="green"];
+  BB006410e8 -> BB006410ed [color="red"];
+  BB00641128 -> BB006410e8 [color="blue"];
+  BB00641138 -> BB0064116c [color="green"];
+  BB00641138 -> BB00641145 [color="red"];
+  BB00641145 -> BB006410cd [color="green"];
+  BB00641145 -> BB0064115a [color="red"];
+  BB0064115a -> BB006410ed [color="blue"];
+  BB0064116c -> BB0064115a [color="blue"];
+}

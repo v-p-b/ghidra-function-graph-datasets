@@ -1,0 +1,14 @@
+digraph ossl_rsa_validate_pairwise {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00634150 -> BB00634190 [color="green"];
+  BB00634150 -> BB0063415b [color="red"];
+  BB0063415b -> BB00634190 [color="green"];
+  BB0063415b -> BB00634162 [color="red"];
+  BB00634162 -> BB00634190 [color="green"];
+  BB00634162 -> BB00634169 [color="red"];
+  BB00634169 -> BB00634190 [color="green"];
+  BB00634169 -> BB00634170 [color="red"];
+  BB00634170 -> BB00634190 [color="green"];
+  BB00634170 -> BB00634177 [color="red"];
+}

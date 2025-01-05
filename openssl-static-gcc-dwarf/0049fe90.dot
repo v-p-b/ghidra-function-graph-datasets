@@ -1,0 +1,37 @@
+digraph ssl_setup_sigalgs {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0049fe90 -> BB004a0120 [color="green"];
+  BB0049fe90 -> BB0049feb2 [color="red"];
+  BB0049feb2 -> BB0049ffd0 [color="green"];
+  BB0049feb2 -> BB0049feec [color="red"];
+  BB0049feec -> BB0049ffd0 [color="green"];
+  BB0049feec -> BB0049fef5 [color="red"];
+  BB0049fef5 -> BB0049ffd0 [color="green"];
+  BB0049fef5 -> BB0049ff1a [color="red"];
+  BB0049ff1a -> BB0049ff74 [color="blue"];
+  BB0049ff30 -> BB004a0020 [color="green"];
+  BB0049ff30 -> BB0049ff4f [color="red"];
+  BB0049ff4f -> BB0049ff54 [color="red"];
+  BB0049ff54 -> BB004a0030 [color="green"];
+  BB0049ff54 -> BB0049ff74 [color="red"];
+  BB0049ff74 -> BB0049ffaf [color="green"];
+  BB0049ff74 -> BB0049ffa0 [color="red"];
+  BB0049ffa0 -> BB0049ffc3 [color="green"];
+  BB0049ffa0 -> BB0049ffaf [color="red"];
+  BB0049ffaf -> BB0049ff30 [color="green"];
+  BB0049ffaf -> BB0049ffc3 [color="red"];
+  BB0049ffc3 -> BB0049ff54 [color="blue"];
+  BB0049ffd0 -> BB0049ffd3 [color="blue"];
+  BB004a0020 -> BB0049ff4f [color="blue"];
+  BB004a0030 -> BB004a00db [color="green"];
+  BB004a0030 -> BB004a003e [color="red"];
+  BB004a003e -> BB004a0050 [color="blue"];
+  BB004a0050 -> BB004a0090 [color="green"];
+  BB004a0050 -> BB004a0086 [color="red"];
+  BB004a0086 -> BB004a0090 [color="red"];
+  BB004a0090 -> BB004a0050 [color="green"];
+  BB004a0090 -> BB004a00db [color="red"];
+  BB004a00db -> BB0049ffd3 [color="blue"];
+  BB004a0120 -> BB0049ffd3 [color="blue"];
+}

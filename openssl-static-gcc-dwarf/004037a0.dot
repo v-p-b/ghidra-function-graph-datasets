@@ -1,0 +1,27 @@
+digraph process_rr {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004037a0 -> BB004038d8 [color="green"];
+  BB004037a0 -> BB004037bf [color="red"];
+  BB004037bf -> BB004038d8 [color="green"];
+  BB004037bf -> BB004037c8 [color="red"];
+  BB004037c8 -> BB00403898 [color="green"];
+  BB004037c8 -> BB004037d9 [color="red"];
+  BB004037d9 -> BB00403898 [color="green"];
+  BB004037d9 -> BB004037ea [color="red"];
+  BB004037ea -> BB0040386d [color="green"];
+  BB004037ea -> BB004037f2 [color="red"];
+  BB004037f2 -> BB0040386d [color="green"];
+  BB004037f2 -> BB004037fa [color="red"];
+  BB004037fa -> BB00403868 [color="green"];
+  BB004037fa -> BB00403815 [color="red"];
+  BB00403815 -> BB00403868 [color="green"];
+  BB00403815 -> BB00403824 [color="red"];
+  BB00403824 -> BB00403859 [color="red"];
+  BB00403868 -> BB00403880 [color="green"];
+  BB00403868 -> BB0040386d [color="red"];
+  BB00403880 -> BB00403824 [color="green"];
+  BB00403880 -> BB0040388f [color="red"];
+  BB0040388f -> BB0040386d [color="blue"];
+  BB004038d8 -> BB00403859 [color="blue"];
+}

@@ -1,0 +1,13 @@
+digraph ASN1_ENUMERATED_set {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00512950 -> BB005129a0 [color="green"];
+  BB00512950 -> BB0051296d [color="red"];
+  BB0051296d -> BB00512970 [color="blue"];
+  BB00512970 -> BB00512970 [color="green"];
+  BB00512970 -> BB00512983 [color="red"];
+  BB005129a0 -> BB005129a8 [color="blue"];
+  BB005129a8 -> BB005129a8 [color="green"];
+  BB005129a8 -> BB005129bc [color="red"];
+  BB005129bc -> BB00512983 [color="blue"];
+}

@@ -1,0 +1,18 @@
+digraph ossl_dsa_check_pub_key_partial {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0073f560 -> BB0073f628 [color="green"];
+  BB0073f560 -> BB0073f57d [color="red"];
+  BB0073f57d -> BB0073f628 [color="green"];
+  BB0073f57d -> BB0073f588 [color="red"];
+  BB0073f588 -> BB0073f5e0 [color="green"];
+  BB0073f588 -> BB0073f597 [color="red"];
+  BB0073f597 -> BB0073f650 [color="green"];
+  BB0073f597 -> BB0073f5b5 [color="red"];
+  BB0073f5b5 -> BB0073f5d2 [color="green"];
+  BB0073f5b5 -> BB0073f5c8 [color="red"];
+  BB0073f5c8 -> BB0073f5d2 [color="blue"];
+  BB0073f5e0 -> BB0073f604 [color="red"];
+  BB0073f628 -> BB0073f604 [color="blue"];
+  BB0073f650 -> BB0073f604 [color="blue"];
+}

@@ -1,0 +1,17 @@
+digraph ossl_chacha20_dinit {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006a02d0 -> BB006a0315 [color="green"];
+  BB006a02d0 -> BB006a02ef [color="red"];
+  BB006a02ef -> BB006a0330 [color="green"];
+  BB006a02ef -> BB006a02f7 [color="red"];
+  BB006a02f7 -> BB006a0304 [color="blue"];
+  BB006a0304 -> BB006a0318 [color="green"];
+  BB006a0304 -> BB006a0309 [color="red"];
+  BB006a0309 -> BB006a0318 [color="green"];
+  BB006a0309 -> BB006a0315 [color="red"];
+  BB006a0315 -> BB006a0318 [color="blue"];
+  BB006a0330 -> BB006a0304 [color="green"];
+  BB006a0330 -> BB006a0334 [color="red"];
+  BB006a0334 -> BB006a0315 [color="blue"];
+}

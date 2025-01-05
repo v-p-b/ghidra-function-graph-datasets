@@ -1,0 +1,13 @@
+digraph OSSL_CMP_MSG_write {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0055da10 -> BB0055da60 [color="green"];
+  BB0055da10 -> BB0055da1c [color="red"];
+  BB0055da1c -> BB0055da60 [color="green"];
+  BB0055da1c -> BB0055da24 [color="red"];
+  BB0055da24 -> BB0055da98 [color="green"];
+  BB0055da24 -> BB0055da38 [color="red"];
+  BB0055da38 -> BB0055da55 [color="red"];
+  BB0055da60 -> BB0055da55 [color="blue"];
+  BB0055da98 -> BB0055da55 [color="blue"];
+}

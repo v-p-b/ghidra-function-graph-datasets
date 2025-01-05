@@ -1,0 +1,25 @@
+digraph certify.constprop.0 {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB004067c0 -> BB004069ed [color="green"];
+  BB004067c0 -> BB00406802 [color="red"];
+  BB00406802 -> BB004069f8 [color="green"];
+  BB00406802 -> BB00406816 [color="red"];
+  BB00406816 -> BB004069b0 [color="green"];
+  BB00406816 -> BB0040682c [color="red"];
+  BB0040682c -> BB00406968 [color="green"];
+  BB0040682c -> BB00406849 [color="red"];
+  BB00406849 -> BB004069d0 [color="green"];
+  BB00406849 -> BB00406862 [color="red"];
+  BB00406862 -> BB00406998 [color="green"];
+  BB00406862 -> BB0040686f [color="red"];
+  BB0040686f -> BB0040693b [color="red"];
+  BB00406968 -> BB00406849 [color="green"];
+  BB00406968 -> BB0040697e [color="red"];
+  BB0040697e -> BB0040693b [color="blue"];
+  BB00406998 -> BB0040693b [color="blue"];
+  BB004069b0 -> BB0040682c [color="blue"];
+  BB004069d0 -> BB0040693b [color="blue"];
+  BB004069ed -> BB0040693b [color="blue"];
+  BB004069f8 -> BB0040693b [color="blue"];
+}

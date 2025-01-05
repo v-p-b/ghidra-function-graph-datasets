@@ -1,0 +1,11 @@
+digraph ssl_get_security_level_bits {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0047f9f0 -> BB0047fa30 [color="green"];
+  BB0047f9f0 -> BB0047f9f9 [color="red"];
+  BB0047f9f9 -> BB0047fa01 [color="red"];
+  BB0047fa01 -> BB0047fa1d [color="green"];
+  BB0047fa01 -> BB0047fa1b [color="red"];
+  BB0047fa1b -> BB0047fa1d [color="blue"];
+  BB0047fa30 -> BB0047fa01 [color="blue"];
+}

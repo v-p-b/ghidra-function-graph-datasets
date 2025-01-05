@@ -1,0 +1,16 @@
+digraph ecdsa_verify_init {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB006e9f00 -> BB006e9f2c [color="green"];
+  BB006e9f00 -> BB006e9f16 [color="red"];
+  BB006e9f16 -> BB006e9f2c [color="green"];
+  BB006e9f16 -> BB006e9f1b [color="red"];
+  BB006e9f1b -> BB006e9f38 [color="green"];
+  BB006e9f1b -> BB006e9f20 [color="red"];
+  BB006e9f20 -> BB006e9f60 [color="green"];
+  BB006e9f20 -> BB006e9f2c [color="red"];
+  BB006e9f38 -> BB006e9f70 [color="green"];
+  BB006e9f38 -> BB006e9f3f [color="red"];
+  BB006e9f60 -> BB006e9f3f [color="blue"];
+  BB006e9f70 -> BB006e9f2c [color="blue"];
+}

@@ -1,0 +1,11 @@
+digraph perror_internal {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB0086c780 -> BB0086c800 [color="green"];
+  BB0086c780 -> BB0086c7a9 [color="red"];
+  BB0086c7a9 -> BB0086c800 [color="green"];
+  BB0086c7a9 -> BB0086c7b8 [color="red"];
+  BB0086c7b8 -> BB0086c80c [color="green"];
+  BB0086c7b8 -> BB0086c7f2 [color="red"];
+  BB0086c800 -> BB0086c7b8 [color="blue"];
+}

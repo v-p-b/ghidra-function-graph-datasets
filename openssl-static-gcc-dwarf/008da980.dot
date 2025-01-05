@@ -1,0 +1,15 @@
+digraph trecurse {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB008da980 -> BB008da9a4 [color="green"];
+  BB008da980 -> BB008da998 [color="red"];
+  BB008da998 -> BB008da9d5 [color="green"];
+  BB008da998 -> BB008da9a4 [color="red"];
+  BB008da9a4 -> BB008da9e8 [color="green"];
+  BB008da9a4 -> BB008da9b6 [color="red"];
+  BB008da9b6 -> BB008daa00 [color="green"];
+  BB008da9b6 -> BB008da9cd [color="red"];
+  BB008da9cd -> BB008da9d5 [color="blue"];
+  BB008da9e8 -> BB008da9b6 [color="blue"];
+  BB008daa00 -> BB008da9cd [color="blue"];
+}

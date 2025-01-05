@@ -1,0 +1,12 @@
+digraph TS_RESP_CTX_new_ex {
+  node [shape="box"];
+  graph [splines=ortho];
+  BB00650410 -> BB0065048d [color="green"];
+  BB00650410 -> BB00650438 [color="red"];
+  BB00650438 -> BB0065045e [color="green"];
+  BB00650438 -> BB0065043d [color="red"];
+  BB0065043d -> BB00650495 [color="green"];
+  BB0065043d -> BB0065045e [color="red"];
+  BB0065045e -> BB0065048d [color="blue"];
+  BB00650495 -> BB0065048d [color="blue"];
+}
