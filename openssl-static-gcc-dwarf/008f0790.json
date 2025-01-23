@@ -1,1 +1,97 @@
-{"edges": [{"source": "BB008f0790", "target": "BB008f07c5", "attributes": {"type": "consequence"}}, {"source": "BB008f0790", "target": "BB008f07b6", "attributes": {"type": "alternative"}}, {"source": "BB008f07b6", "target": "BB00401100", "attributes": {"type": "consequence"}}, {"source": "BB008f07b6", "target": "BB008f07c5", "attributes": {"type": "alternative"}}, {"source": "BB008f07c5", "target": "BB00401100", "attributes": {"type": "consequence"}}, {"source": "BB008f07c5", "target": "BB008f0819", "attributes": {"type": "consequence"}}, {"source": "BB008f07c5", "target": "BB008f07e2", "attributes": {"type": "alternative"}}, {"source": "BB008f07e2", "target": "BB004010c0", "attributes": {"type": "consequence"}}, {"source": "BB008f07e2", "target": "BB00401070", "attributes": {"type": "consequence"}}, {"source": "BB008f07e2", "target": "BB008f080a", "attributes": {"type": "alternative"}}, {"source": "BB008f0819", "target": "BB008f080a", "attributes": {"type": "regular"}}], "nodes": [{"attributes": {"lines": 13}, "key": "BB008f0790"}, {"attributes": {"lines": 4}, "key": "BB008f07b6"}, {"attributes": {"lines": 6}, "key": "BB008f0819"}, {"attributes": {"lines": 1}, "key": "BB00401070"}, {"attributes": {"lines": 11}, "key": "BB008f07e2"}, {"attributes": {"lines": 8}, "key": "BB008f07c5"}, {"attributes": {"lines": 8}, "key": "BB008f080a"}, {"attributes": {"lines": 1}, "key": "BB00401100"}, {"attributes": {"lines": 1}, "key": "BB004010c0"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB008f0790", 
+      "target": "BB008f07c5"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB008f0790", 
+      "target": "BB008f07b6"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB008f07b6", 
+      "target": "BB008f07c5"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB008f07c5", 
+      "target": "BB008f0819"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB008f07c5", 
+      "target": "BB008f07e2"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB008f07e2", 
+      "target": "BB008f080a"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB008f0819", 
+      "target": "BB008f080a"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 13
+      }, 
+      "key": "BB008f0790"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB008f07b6"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB008f0819"
+    }, 
+    {
+      "attributes": {
+        "lines": 11
+      }, 
+      "key": "BB008f07e2"
+    }, 
+    {
+      "attributes": {
+        "lines": 8
+      }, 
+      "key": "BB008f07c5"
+    }, 
+    {
+      "attributes": {
+        "lines": 8
+      }, 
+      "key": "BB008f080a"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

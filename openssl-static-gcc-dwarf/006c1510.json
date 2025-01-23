@@ -1,1 +1,71 @@
-{"edges": [{"source": "BB006c1510", "target": "BB006c1545", "attributes": {"type": "consequence"}}, {"source": "BB006c1510", "target": "BB006c1523", "attributes": {"type": "alternative"}}, {"source": "BB006c1523", "target": "BB006c1545", "attributes": {"type": "consequence"}}, {"source": "BB006c1523", "target": "BB006c153e", "attributes": {"type": "alternative"}}, {"source": "BB006c153e", "target": "BB006c1545", "attributes": {"type": "regular"}}], "nodes": [{"attributes": {"lines": 6}, "key": "BB006c1510"}, {"attributes": {"lines": 1}, "key": "BB006c153e"}, {"attributes": {"lines": 6}, "key": "BB006c1523"}, {"attributes": {"lines": 2}, "key": "BB006c1545"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006c1510", 
+      "target": "BB006c1545"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006c1510", 
+      "target": "BB006c1523"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006c1523", 
+      "target": "BB006c1545"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006c1523", 
+      "target": "BB006c153e"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006c153e", 
+      "target": "BB006c1545"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB006c1510"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB006c153e"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB006c1523"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB006c1545"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

@@ -1,1 +1,84 @@
-{"edges": [{"source": "BB004835f0", "target": "BB00483604", "attributes": {"type": "consequence"}}, {"source": "BB004835f0", "target": "BB004835f7", "attributes": {"type": "alternative"}}, {"source": "BB004835f7", "target": "BB00483601", "attributes": {"type": "consequence"}}, {"source": "BB004835f7", "target": "BB004835fc", "attributes": {"type": "alternative"}}, {"source": "BB004835fc", "target": "BB00483601", "attributes": {"type": "regular"}}, {"source": "BB00483601", "target": "BB00483604", "attributes": {"type": "regular"}}], "nodes": [{"attributes": {"lines": 2}, "key": "BB004835f7"}, {"attributes": {"lines": 3}, "key": "BB004835f0"}, {"attributes": {"lines": 2}, "key": "BB004835fc"}, {"attributes": {"lines": 1}, "key": "BB00483604"}, {"attributes": {"lines": 1}, "key": "BB00483601"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB004835f0", 
+      "target": "BB00483604"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB004835f0", 
+      "target": "BB004835f7"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB004835f7", 
+      "target": "BB00483601"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB004835f7", 
+      "target": "BB004835fc"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB004835fc", 
+      "target": "BB00483601"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB00483601", 
+      "target": "BB00483604"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB004835f7"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB004835f0"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB004835fc"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB00483604"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB00483601"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

@@ -1,1 +1,77 @@
-{"edges": [{"source": "BB00402790", "target": "BB004027c0", "attributes": {"type": "consequence"}}, {"source": "BB00402790", "target": "BB00402799", "attributes": {"type": "alternative"}}, {"source": "BB00402799", "target": "BB004027b6", "attributes": {"type": "consequence"}}, {"source": "BB00402799", "target": "BB004027ac", "attributes": {"type": "alternative"}}, {"source": "BB004027ac", "target": "BB004027b6", "attributes": {"type": "alternative"}}], "nodes": [{"attributes": {"lines": 6}, "key": "BB00402799"}, {"attributes": {"lines": 3}, "key": "BB004027b6"}, {"attributes": {"lines": 2}, "key": "BB00402790"}, {"attributes": {"lines": 2}, "key": "BB004027ac"}, {"attributes": {"lines": 1}, "key": "BB004027c0"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00402790", 
+      "target": "BB004027c0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00402790", 
+      "target": "BB00402799"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00402799", 
+      "target": "BB004027b6"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00402799", 
+      "target": "BB004027ac"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB004027ac", 
+      "target": "BB004027b6"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB00402799"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB004027b6"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB00402790"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB004027ac"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB004027c0"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

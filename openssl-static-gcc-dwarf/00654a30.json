@@ -1,1 +1,487 @@
-{"edges": [{"source": "BB00654a30", "target": "BB00654ce4", "attributes": {"type": "consequence"}}, {"source": "BB00654a30", "target": "BB00654a51", "attributes": {"type": "alternative"}}, {"source": "BB00654a51", "target": "BB00654cf7", "attributes": {"type": "consequence"}}, {"source": "BB00654a51", "target": "BB00654a5d", "attributes": {"type": "alternative"}}, {"source": "BB00654a5d", "target": "BB00654ac9", "attributes": {"type": "consequence"}}, {"source": "BB00654a5d", "target": "BB00654a78", "attributes": {"type": "alternative"}}, {"source": "BB00654a78", "target": "BB00654a80", "attributes": {"type": "regular"}}, {"source": "BB00654a80", "target": "BB00401040", "attributes": {"type": "consequence"}}, {"source": "BB00654a80", "target": "BB00654b68", "attributes": {"type": "consequence"}}, {"source": "BB00654a80", "target": "BB00654a91", "attributes": {"type": "alternative"}}, {"source": "BB00654a91", "target": "BB00654a80", "attributes": {"type": "consequence"}}, {"source": "BB00654a91", "target": "BB00654ac9", "attributes": {"type": "alternative"}}, {"source": "BB00654ac9", "target": "BB00654c70", "attributes": {"type": "consequence"}}, {"source": "BB00654ac9", "target": "BB00654ad2", "attributes": {"type": "alternative"}}, {"source": "BB00654ad2", "target": "BB00654caa", "attributes": {"type": "consequence"}}, {"source": "BB00654ad2", "target": "BB00654ade", "attributes": {"type": "alternative"}}, {"source": "BB00654ade", "target": "BB00654d0d", "attributes": {"type": "consequence"}}, {"source": "BB00654ade", "target": "BB00654b00", "attributes": {"type": "alternative"}}, {"source": "BB00654b00", "target": "BB00654c28", "attributes": {"type": "consequence"}}, {"source": "BB00654b00", "target": "BB00654b32", "attributes": {"type": "alternative"}}, {"source": "BB00654b32", "target": "BB00654b80", "attributes": {"type": "consequence"}}, {"source": "BB00654b32", "target": "BB00654b56", "attributes": {"type": "alternative"}}, {"source": "BB00654b68", "target": "BB00654a80", "attributes": {"type": "consequence"}}, {"source": "BB00654b68", "target": "BB00654b79", "attributes": {"type": "alternative"}}, {"source": "BB00654b79", "target": "BB00654ac9", "attributes": {"type": "regular"}}, {"source": "BB00654b80", "target": "BB00654bb5", "attributes": {"type": "consequence"}}, {"source": "BB00654b80", "target": "BB00654b8a", "attributes": {"type": "alternative"}}, {"source": "BB00654bb5", "target": "BB00654b8a", "attributes": {"type": "consequence"}}, {"source": "BB00654bb5", "target": "BB00654bd9", "attributes": {"type": "alternative"}}, {"source": "BB00654bd9", "target": "BB00654b8a", "attributes": {"type": "regular"}}, {"source": "BB00654c28", "target": "BB00654b32", "attributes": {"type": "consequence"}}, {"source": "BB00654c28", "target": "BB00654c3d", "attributes": {"type": "alternative"}}, {"source": "BB00654c3d", "target": "BB00654d15", "attributes": {"type": "consequence"}}, {"source": "BB00654c3d", "target": "BB00654c48", "attributes": {"type": "alternative"}}, {"source": "BB00654c48", "target": "BB00654b56", "attributes": {"type": "regular"}}, {"source": "BB00654c70", "target": "BB00654c81", "attributes": {"type": "alternative"}}, {"source": "BB00654c81", "target": "BB00654b56", "attributes": {"type": "regular"}}, {"source": "BB00654caa", "target": "BB00654b56", "attributes": {"type": "regular"}}, {"source": "BB00654ce4", "target": "BB00654c81", "attributes": {"type": "regular"}}, {"source": "BB00654cf7", "target": "BB00654c81", "attributes": {"type": "regular"}}, {"source": "BB00654d0d", "target": "BB00654b56", "attributes": {"type": "regular"}}, {"source": "BB00654d15", "target": "BB00654c48", "attributes": {"type": "consequence"}}, {"source": "BB00654d15", "target": "BB00654d35", "attributes": {"type": "alternative"}}, {"source": "BB00654d35", "target": "BB00654c48", "attributes": {"type": "regular"}}], "nodes": [{"attributes": {"lines": 1}, "key": "BB00654a78"}, {"attributes": {"lines": 1}, "key": "BB00654b79"}, {"attributes": {"lines": 2}, "key": "BB00654c3d"}, {"attributes": {"lines": 9}, "key": "BB00654b32"}, {"attributes": {"lines": 11}, "key": "BB00654a30"}, {"attributes": {"lines": 3}, "key": "BB00654c70"}, {"attributes": {"lines": 4}, "key": "BB00654cf7"}, {"attributes": {"lines": 8}, "key": "BB00654bb5"}, {"attributes": {"lines": 13}, "key": "BB00654d35"}, {"attributes": {"lines": 12}, "key": "BB00654caa"}, {"attributes": {"lines": 4}, "key": "BB00654b68"}, {"attributes": {"lines": 5}, "key": "BB00654c28"}, {"attributes": {"lines": 4}, "key": "BB00654ce4"}, {"attributes": {"lines": 1}, "key": "BB00401040"}, {"attributes": {"lines": 14}, "key": "BB00654bd9"}, {"attributes": {"lines": 7}, "key": "BB00654ade"}, {"attributes": {"lines": 8}, "key": "BB00654a5d"}, {"attributes": {"lines": 2}, "key": "BB00654ad2"}, {"attributes": {"lines": 3}, "key": "BB00654a51"}, {"attributes": {"lines": 14}, "key": "BB00654a91"}, {"attributes": {"lines": 8}, "key": "BB00654b56"}, {"attributes": {"lines": 6}, "key": "BB00654d15"}, {"attributes": {"lines": 14}, "key": "BB00654b8a"}, {"attributes": {"lines": 6}, "key": "BB00654c48"}, {"attributes": {"lines": 2}, "key": "BB00654ac9"}, {"attributes": {"lines": 2}, "key": "BB00654d0d"}, {"attributes": {"lines": 4}, "key": "BB00654a80"}, {"attributes": {"lines": 11}, "key": "BB00654b00"}, {"attributes": {"lines": 3}, "key": "BB00654b80"}, {"attributes": {"lines": 9}, "key": "BB00654c81"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00654a30", 
+      "target": "BB00654ce4"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654a30", 
+      "target": "BB00654a51"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00654a51", 
+      "target": "BB00654cf7"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654a51", 
+      "target": "BB00654a5d"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00654a5d", 
+      "target": "BB00654ac9"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654a5d", 
+      "target": "BB00654a78"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB00654a78", 
+      "target": "BB00654a80"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00654a80", 
+      "target": "BB00654b68"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654a80", 
+      "target": "BB00654a91"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00654a91", 
+      "target": "BB00654a80"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654a91", 
+      "target": "BB00654ac9"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00654ac9", 
+      "target": "BB00654c70"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654ac9", 
+      "target": "BB00654ad2"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00654ad2", 
+      "target": "BB00654caa"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654ad2", 
+      "target": "BB00654ade"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00654ade", 
+      "target": "BB00654d0d"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654ade", 
+      "target": "BB00654b00"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00654b00", 
+      "target": "BB00654c28"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654b00", 
+      "target": "BB00654b32"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00654b32", 
+      "target": "BB00654b80"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654b32", 
+      "target": "BB00654b56"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00654b68", 
+      "target": "BB00654a80"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654b68", 
+      "target": "BB00654b79"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB00654b79", 
+      "target": "BB00654ac9"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00654b80", 
+      "target": "BB00654bb5"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654b80", 
+      "target": "BB00654b8a"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00654bb5", 
+      "target": "BB00654b8a"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654bb5", 
+      "target": "BB00654bd9"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB00654bd9", 
+      "target": "BB00654b8a"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00654c28", 
+      "target": "BB00654b32"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654c28", 
+      "target": "BB00654c3d"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00654c3d", 
+      "target": "BB00654d15"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654c3d", 
+      "target": "BB00654c48"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB00654c48", 
+      "target": "BB00654b56"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654c70", 
+      "target": "BB00654c81"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB00654c81", 
+      "target": "BB00654b56"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB00654caa", 
+      "target": "BB00654b56"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB00654ce4", 
+      "target": "BB00654c81"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB00654cf7", 
+      "target": "BB00654c81"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB00654d0d", 
+      "target": "BB00654b56"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00654d15", 
+      "target": "BB00654c48"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00654d15", 
+      "target": "BB00654d35"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB00654d35", 
+      "target": "BB00654c48"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB00654a78"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB00654b79"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB00654c3d"
+    }, 
+    {
+      "attributes": {
+        "lines": 9
+      }, 
+      "key": "BB00654b32"
+    }, 
+    {
+      "attributes": {
+        "lines": 11
+      }, 
+      "key": "BB00654a30"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB00654c70"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB00654cf7"
+    }, 
+    {
+      "attributes": {
+        "lines": 8
+      }, 
+      "key": "BB00654bb5"
+    }, 
+    {
+      "attributes": {
+        "lines": 13
+      }, 
+      "key": "BB00654d35"
+    }, 
+    {
+      "attributes": {
+        "lines": 12
+      }, 
+      "key": "BB00654caa"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB00654b68"
+    }, 
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB00654c28"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB00654ce4"
+    }, 
+    {
+      "attributes": {
+        "lines": 14
+      }, 
+      "key": "BB00654bd9"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB00654ade"
+    }, 
+    {
+      "attributes": {
+        "lines": 8
+      }, 
+      "key": "BB00654a5d"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB00654ad2"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB00654a51"
+    }, 
+    {
+      "attributes": {
+        "lines": 14
+      }, 
+      "key": "BB00654a91"
+    }, 
+    {
+      "attributes": {
+        "lines": 8
+      }, 
+      "key": "BB00654b56"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB00654d15"
+    }, 
+    {
+      "attributes": {
+        "lines": 14
+      }, 
+      "key": "BB00654b8a"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB00654c48"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB00654ac9"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB00654d0d"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB00654a80"
+    }, 
+    {
+      "attributes": {
+        "lines": 11
+      }, 
+      "key": "BB00654b00"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB00654b80"
+    }, 
+    {
+      "attributes": {
+        "lines": 9
+      }, 
+      "key": "BB00654c81"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

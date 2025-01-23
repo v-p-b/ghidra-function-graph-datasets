@@ -1,1 +1,77 @@
-{"edges": [{"source": "BB0046e800", "target": "BB0046e86a", "attributes": {"type": "regular"}}, {"source": "BB0046e86a", "target": "BB00401100", "attributes": {"type": "consequence"}}, {"source": "BB0046e86a", "target": "BB00401048", "attributes": {"type": "consequence"}}, {"source": "BB0046e86a", "target": "BB0046e8c0", "attributes": {"type": "consequence"}}, {"source": "BB0046e86a", "target": "BB0046e890", "attributes": {"type": "alternative"}}, {"source": "BB0046e890", "target": "BB0046e86a", "attributes": {"type": "consequence"}}, {"source": "BB0046e890", "target": "BB0046e89a", "attributes": {"type": "alternative"}}], "nodes": [{"attributes": {"lines": 11}, "key": "BB0046e89a"}, {"attributes": {"lines": 3}, "key": "BB0046e890"}, {"attributes": {"lines": 11}, "key": "BB0046e86a"}, {"attributes": {"lines": 1}, "key": "BB00401048"}, {"attributes": {"lines": 25}, "key": "BB0046e800"}, {"attributes": {"lines": 11}, "key": "BB0046e8c0"}, {"attributes": {"lines": 1}, "key": "BB00401100"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB0046e800", 
+      "target": "BB0046e86a"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0046e86a", 
+      "target": "BB0046e8c0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0046e86a", 
+      "target": "BB0046e890"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0046e890", 
+      "target": "BB0046e86a"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0046e890", 
+      "target": "BB0046e89a"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 11
+      }, 
+      "key": "BB0046e89a"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB0046e890"
+    }, 
+    {
+      "attributes": {
+        "lines": 11
+      }, 
+      "key": "BB0046e86a"
+    }, 
+    {
+      "attributes": {
+        "lines": 25
+      }, 
+      "key": "BB0046e800"
+    }, 
+    {
+      "attributes": {
+        "lines": 11
+      }, 
+      "key": "BB0046e8c0"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

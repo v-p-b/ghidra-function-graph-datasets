@@ -1,1 +1,1567 @@
-{"edges": [{"source": "BB005c5740", "target": "BB005c5d2a", "attributes": {"type": "consequence"}}, {"source": "BB005c5740", "target": "BB005c5777", "attributes": {"type": "alternative"}}, {"source": "BB005c5777", "target": "BB005c5c5f", "attributes": {"type": "consequence"}}, {"source": "BB005c5777", "target": "BB005c579b", "attributes": {"type": "alternative"}}, {"source": "BB005c579b", "target": "BB005c5bc0", "attributes": {"type": "consequence"}}, {"source": "BB005c579b", "target": "BB005c57b3", "attributes": {"type": "alternative"}}, {"source": "BB005c57b3", "target": "BB005c57c8", "attributes": {"type": "regular"}}, {"source": "BB005c57c8", "target": "BB005c57f0", "attributes": {"type": "consequence"}}, {"source": "BB005c57c8", "target": "BB005c57cd", "attributes": {"type": "alternative"}}, {"source": "BB005c57f0", "target": "BB005c57c8", "attributes": {"type": "consequence"}}, {"source": "BB005c57f0", "target": "BB005c57fb", "attributes": {"type": "alternative"}}, {"source": "BB005c57fb", "target": "BB005c5bc0", "attributes": {"type": "consequence"}}, {"source": "BB005c57fb", "target": "BB005c580f", "attributes": {"type": "alternative"}}, {"source": "BB005c580f", "target": "BB005c5bc0", "attributes": {"type": "consequence"}}, {"source": "BB005c580f", "target": "BB005c5819", "attributes": {"type": "alternative"}}, {"source": "BB005c5819", "target": "BB005c5bc0", "attributes": {"type": "consequence"}}, {"source": "BB005c5819", "target": "BB005c5823", "attributes": {"type": "alternative"}}, {"source": "BB005c5823", "target": "BB005c5838", "attributes": {"type": "consequence"}}, {"source": "BB005c5823", "target": "BB005c5828", "attributes": {"type": "alternative"}}, {"source": "BB005c5828", "target": "BB005c5cae", "attributes": {"type": "consequence"}}, {"source": "BB005c5828", "target": "BB005c5838", "attributes": {"type": "alternative"}}, {"source": "BB005c5838", "target": "BB005c583c", "attributes": {"type": "regular"}}, {"source": "BB005c5bc0", "target": "BB005c5bff", "attributes": {"type": "consequence"}}, {"source": "BB005c5bc0", "target": "BB005c5bd1", "attributes": {"type": "alternative"}}, {"source": "BB005c5bd1", "target": "BB005c5bff", "attributes": {"type": "alternative"}}, {"source": "BB005c5c5f", "target": "BB005c5c78", "attributes": {"type": "consequence"}}, {"source": "BB005c5c5f", "target": "BB005c5c70", "attributes": {"type": "alternative"}}, {"source": "BB005c5c70", "target": "BB005c583c", "attributes": {"type": "regular"}}, {"source": "BB005c5c78", "target": "BB005c583c", "attributes": {"type": "regular"}}, {"source": "BB005c5cae", "target": "BB005c5cf2", "attributes": {"type": "consequence"}}, {"source": "BB005c5cae", "target": "BB005c5cbf", "attributes": {"type": "alternative"}}, {"source": "BB005c5cbf", "target": "BB005c5cf2", "attributes": {"type": "alternative"}}, {"source": "BB005c5cf2", "target": "BB005c583c", "attributes": {"type": "regular"}}, {"source": "BB005c5d2a", "target": "BB005c583c", "attributes": {"type": "regular"}}], "nodes": [{"attributes": {"lines": 16}, "key": "BB005c5740"}, {"attributes": {"lines": 5}, "key": "BB005c5bc0"}, {"attributes": {"lines": 2}, "key": "BB005c57c8"}, {"attributes": {"lines": 2}, "key": "BB005c580f"}, {"attributes": {"lines": 3}, "key": "BB005c57cd"}, {"attributes": {"lines": 9}, "key": "BB005c5bd1"}, {"attributes": {"lines": 6}, "key": "BB005c579b"}, {"attributes": {"lines": 2}, "key": "BB005c5819"}, {"attributes": {"lines": 5}, "key": "BB005c5c5f"}, {"attributes": {"lines": 2}, "key": "BB005c5823"}, {"attributes": {"lines": 11}, "key": "BB005c5d2a"}, {"attributes": {"lines": 4}, "key": "BB005c5828"}, {"attributes": {"lines": 5}, "key": "BB005c5cae"}, {"attributes": {"lines": 6}, "key": "BB005c57b3"}, {"attributes": {"lines": 12}, "key": "BB005c5cf2"}, {"attributes": {"lines": 4}, "key": "BB005c57f0"}, {"attributes": {"lines": 2}, "key": "BB005c5c70"}, {"attributes": {"lines": 8}, "key": "BB005c5777"}, {"attributes": {"lines": 6}, "key": "BB005c57fb"}, {"attributes": {"lines": 1}, "key": "BB005c5838"}, {"attributes": {"lines": 11}, "key": "BB005c5c78"}, {"attributes": {"lines": 18}, "key": "BB005c5bff"}, {"attributes": {"lines": 10}, "key": "BB005c5cbf"}, {"attributes": {"lines": 7}, "key": "BB005c583c"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5740", 
+      "target": "BB005c5d2a"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5740", 
+      "target": "BB005c5777"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5777", 
+      "target": "BB005c5c5f"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5777", 
+      "target": "BB005c579b"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c579b", 
+      "target": "BB005c5bc0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c579b", 
+      "target": "BB005c57b3"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57b3", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c57c8", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c57c8", 
+      "target": "BB005c57cd"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57cd", 
+      "target": "BB005c57d4"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c5b90"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c5b60"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c5b30"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c5b00"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c5ad0"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c5aa0"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c5a70"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c5a40"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c5a10"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c59e0"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c59b0"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c5980"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c5950"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c5918"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c58e0"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c58b0"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c5880"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c57e0"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57d4", 
+      "target": "BB005c5850"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c57e0", 
+      "target": "BB005c5c40"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c57e0", 
+      "target": "BB005c57ef"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c57ef", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c57f0", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c57f0", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c57fb", 
+      "target": "BB005c5bc0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c57fb", 
+      "target": "BB005c580f"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c580f", 
+      "target": "BB005c5bc0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c580f", 
+      "target": "BB005c5819"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5819", 
+      "target": "BB005c5bc0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5819", 
+      "target": "BB005c5823"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5823", 
+      "target": "BB005c5838"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5823", 
+      "target": "BB005c5828"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5828", 
+      "target": "BB005c5cae"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5828", 
+      "target": "BB005c5838"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5838", 
+      "target": "BB005c583c"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5850", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5850", 
+      "target": "BB005c585b"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c585b", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c585b", 
+      "target": "BB005c5875"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5875", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5880", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5880", 
+      "target": "BB005c588f"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c588f", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c588f", 
+      "target": "BB005c58a9"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c58a9", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c58b0", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c58b0", 
+      "target": "BB005c58bf"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c58bf", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c58bf", 
+      "target": "BB005c58d9"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c58d9", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c58e0", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c58e0", 
+      "target": "BB005c58ef"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c58ef", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c58ef", 
+      "target": "BB005c590c"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c590c", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5918", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5918", 
+      "target": "BB005c5927"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5927", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5927", 
+      "target": "BB005c5941"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5941", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5950", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5950", 
+      "target": "BB005c595f"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c595f", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c595f", 
+      "target": "BB005c5979"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5979", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5980", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5980", 
+      "target": "BB005c598f"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c598f", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c598f", 
+      "target": "BB005c59a9"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c59a9", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c59b0", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c59b0", 
+      "target": "BB005c59bf"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c59bf", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c59bf", 
+      "target": "BB005c59d9"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c59d9", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c59e0", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c59e0", 
+      "target": "BB005c59ec"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c59ec", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c59ec", 
+      "target": "BB005c5a07"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5a07", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5a10", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5a10", 
+      "target": "BB005c5a1c"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5a1c", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5a1c", 
+      "target": "BB005c5a37"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5a37", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5a40", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5a40", 
+      "target": "BB005c5a4c"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5a4c", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5a4c", 
+      "target": "BB005c5a67"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5a67", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5a70", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5a70", 
+      "target": "BB005c5a7c"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5a7c", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5a7c", 
+      "target": "BB005c5a93"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5a93", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5aa0", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5aa0", 
+      "target": "BB005c5aac"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5aac", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5aac", 
+      "target": "BB005c5ac3"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5ac3", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5ad0", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5ad0", 
+      "target": "BB005c5adc"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5adc", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5adc", 
+      "target": "BB005c5af6"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5af6", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5b00", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5b00", 
+      "target": "BB005c5b0c"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5b0c", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5b0c", 
+      "target": "BB005c5b26"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5b26", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5b30", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5b30", 
+      "target": "BB005c5b3c"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5b3c", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5b3c", 
+      "target": "BB005c5b56"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5b56", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5b60", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5b60", 
+      "target": "BB005c5b6c"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5b6c", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5b6c", 
+      "target": "BB005c5b86"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5b86", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5b90", 
+      "target": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5b90", 
+      "target": "BB005c5b9c"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5b9c", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5b9c", 
+      "target": "BB005c5bb6"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5bb6", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5bc0", 
+      "target": "BB005c5bff"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5bc0", 
+      "target": "BB005c5bd1"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5bd1", 
+      "target": "BB005c5bff"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5c40", 
+      "target": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5c40", 
+      "target": "BB005c5c5a"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5c5a", 
+      "target": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5c5f", 
+      "target": "BB005c5c78"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5c5f", 
+      "target": "BB005c5c70"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5c70", 
+      "target": "BB005c583c"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5c78", 
+      "target": "BB005c583c"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005c5cae", 
+      "target": "BB005c5cf2"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5cae", 
+      "target": "BB005c5cbf"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005c5cbf", 
+      "target": "BB005c5cf2"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5cf2", 
+      "target": "BB005c583c"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005c5d2a", 
+      "target": "BB005c583c"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c5ac3"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c5941"
+    }, 
+    {
+      "attributes": {
+        "lines": 16
+      }, 
+      "key": "BB005c5740"
+    }, 
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB005c5bc0"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5a40"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB005c5c40"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c57c8"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c57cd"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB005c5a4c"
+    }, 
+    {
+      "attributes": {
+        "lines": 9
+      }, 
+      "key": "BB005c5bd1"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5ad0"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5950"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5850"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c5b56"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c57d4"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB005c585b"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c5c5a"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c58d9"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c59d9"
+    }, 
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB005c5c5f"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB005c595f"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB005c5adc"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c59e0"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5b60"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c58e0"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c57e0"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c5a67"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c57ef"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB005c58ef"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB005c59ec"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB005c5b6c"
+    }, 
+    {
+      "attributes": {
+        "lines": 12
+      }, 
+      "key": "BB005c5cf2"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB005c57f0"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5a70"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5c70"
+    }, 
+    {
+      "attributes": {
+        "lines": 8
+      }, 
+      "key": "BB005c5777"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c5af6"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c5875"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB005c57fb"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c5979"
+    }, 
+    {
+      "attributes": {
+        "lines": 11
+      }, 
+      "key": "BB005c5c78"
+    }, 
+    {
+      "attributes": {
+        "lines": 18
+      }, 
+      "key": "BB005c5bff"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB005c5a7c"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5880"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5980"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5b00"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c5a07"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c5b86"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c580f"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB005c588f"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB005c598f"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c590c"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB005c5b0c"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c5a93"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5b90"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5a10"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB005c579b"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5819"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5918"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB005c5a1c"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB005c5b9c"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5823"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5aa0"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB005c5927"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c5b26"
+    }, 
+    {
+      "attributes": {
+        "lines": 11
+      }, 
+      "key": "BB005c5d2a"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c58a9"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c59a9"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB005c5828"
+    }, 
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB005c5cae"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB005c5aac"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB005c57b3"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c5b30"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c59b0"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005c58b0"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c5a37"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c5bb6"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005c5838"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB005c58bf"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB005c59bf"
+    }, 
+    {
+      "attributes": {
+        "lines": 10
+      }, 
+      "key": "BB005c5cbf"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB005c583c"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB005c5b3c"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

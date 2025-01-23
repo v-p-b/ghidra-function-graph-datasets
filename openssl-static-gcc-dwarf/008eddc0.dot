@@ -21,8 +21,6 @@ digraph _dl_allocate_tls_init {
   BB008edea2 -> BB008edeb9 [color="red"];
   BB008edeb9 -> BB008ee060 [color="green"];
   BB008edeb9 -> BB008edec2 [color="red"];
-  BB008edec2 -> BB004010c0 [color="green"];
-  BB008edec2 -> BB00401080 [color="green"];
   BB008edec2 -> BB008edeec [color="red"];
   BB008edeec -> BB008edef3 [color="blue"];
   BB008edef3 -> BB008edf30 [color="green"];
@@ -39,10 +37,8 @@ digraph _dl_allocate_tls_init {
   BB008edf98 -> BB008ee09e [color="green"];
   BB008edf98 -> BB008edfb5 [color="red"];
   BB008edfb5 -> BB008edfbd [color="blue"];
-  BB008edfbd -> BB00401080 [color="blue"];
   BB008edfbd -> BB008eddf6 [color="blue"];
   BB008ee012 -> BB008ee09e [color="green"];
   BB008ee012 -> BB008ee022 [color="red"];
-  BB008ee022 -> BB00401070 [color="blue"];
   BB008ee022 -> BB008edfbd [color="blue"];
 }

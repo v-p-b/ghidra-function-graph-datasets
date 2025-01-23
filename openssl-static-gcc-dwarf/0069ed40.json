@@ -1,1 +1,71 @@
-{"edges": [{"source": "BB0069ed40", "target": "BB0069ed91", "attributes": {"type": "consequence"}}, {"source": "BB0069ed40", "target": "BB0069ed56", "attributes": {"type": "alternative"}}, {"source": "BB0069ed56", "target": "BB0069ed91", "attributes": {"type": "consequence"}}, {"source": "BB0069ed56", "target": "BB0069ed74", "attributes": {"type": "alternative"}}, {"source": "BB0069ed74", "target": "BB0069ed91", "attributes": {"type": "alternative"}}], "nodes": [{"attributes": {"lines": 7}, "key": "BB0069ed56"}, {"attributes": {"lines": 7}, "key": "BB0069ed74"}, {"attributes": {"lines": 5}, "key": "BB0069ed91"}, {"attributes": {"lines": 8}, "key": "BB0069ed40"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0069ed40", 
+      "target": "BB0069ed91"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0069ed40", 
+      "target": "BB0069ed56"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0069ed56", 
+      "target": "BB0069ed91"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0069ed56", 
+      "target": "BB0069ed74"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0069ed74", 
+      "target": "BB0069ed91"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB0069ed56"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB0069ed74"
+    }, 
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB0069ed91"
+    }, 
+    {
+      "attributes": {
+        "lines": 8
+      }, 
+      "key": "BB0069ed40"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

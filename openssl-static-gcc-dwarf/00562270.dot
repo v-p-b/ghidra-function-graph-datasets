@@ -41,6 +41,10 @@ digraph OSSL_CMP_validate_msg {
   BB005624be -> BB005624d8 [color="red"];
   BB005624d8 -> BB00562610 [color="green"];
   BB005624d8 -> BB005624f1 [color="red"];
+  BB005624f1 -> BB005624ff [color="blue"];
+  BB005624ff -> BB005623f3 [color="blue"];
+  BB005624ff -> BB00562610 [color="blue"];
+  BB005624ff -> BB005625e4 [color="blue"];
   BB00562508 -> BB0056250b [color="blue"];
   BB0056250b -> BB00562540 [color="red"];
   BB00562540 -> BB00562576 [color="red"];
@@ -54,6 +58,11 @@ digraph OSSL_CMP_validate_msg {
   BB005625a2 -> BB00562780 [color="green"];
   BB005625a2 -> BB005625ac [color="red"];
   BB005625ac -> BB005623f3 [color="blue"];
+  BB005625e4 -> BB00562610 [color="green"];
+  BB005625e4 -> BB005625f0 [color="red"];
+  BB005625f0 -> BB00562576 [color="green"];
+  BB005625f0 -> BB0056260a [color="red"];
+  BB0056260a -> BB00562610 [color="blue"];
   BB00562610 -> BB00562626 [color="blue"];
   BB00562626 -> BB005623f3 [color="blue"];
   BB00562650 -> BB0056258e [color="green"];

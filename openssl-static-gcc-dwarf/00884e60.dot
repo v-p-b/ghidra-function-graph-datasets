@@ -3,5 +3,16 @@ digraph dlinfo_doit {
   graph [splines=ortho];
   BB00884e60 -> BB00884f15 [color="green"];
   BB00884e60 -> BB00884e71 [color="red"];
-  BB00884f15 -> BB00884f0c [color="blue"];
+  BB00884e71 -> BB00884e82 [color="blue"];
+  BB00884e82 -> BB00884f15 [color="blue"];
+  BB00884e82 -> BB00884e88 [color="blue"];
+  BB00884e82 -> BB00884e98 [color="blue"];
+  BB00884e82 -> BB00884ea8 [color="blue"];
+  BB00884e82 -> BB00884eb8 [color="blue"];
+  BB00884e82 -> BB00884ed0 [color="blue"];
+  BB00884e82 -> BB00884ee8 [color="blue"];
+  BB00884e82 -> BB00884f00 [color="blue"];
+  BB00884f00 -> BB00884f30 [color="green"];
+  BB00884f00 -> BB00884f0c [color="red"];
+  BB00884f30 -> BB00884f0c [color="blue"];
 }

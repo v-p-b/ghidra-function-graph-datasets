@@ -16,7 +16,6 @@ digraph ossl_json_str {
   BB0050ff11 -> BB0050ff19 [color="red"];
   BB0050ff19 -> BB00510233 [color="green"];
   BB0050ff19 -> BB0050ff25 [color="red"];
-  BB0050ff40 -> BB00401100 [color="green"];
   BB0050ff40 -> BB0050ffdf [color="green"];
   BB0050ff40 -> BB0050ff63 [color="red"];
   BB0050ff63 -> BB0050ff80 [color="blue"];
@@ -26,6 +25,15 @@ digraph ossl_json_str {
   BB0050ff8f -> BB0050ff99 [color="red"];
   BB0050ff99 -> BB005100b8 [color="green"];
   BB0050ff99 -> BB0050ffa4 [color="red"];
+  BB0050ffa4 -> BB0050ffae [color="blue"];
+  BB0050ffae -> BB00510020 [color="blue"];
+  BB0050ffae -> BB00510108 [color="blue"];
+  BB0050ffae -> BB00510010 [color="blue"];
+  BB0050ffae -> BB005100b8 [color="blue"];
+  BB0050ffae -> BB00510000 [color="blue"];
+  BB0050ffae -> BB00510118 [color="blue"];
+  BB0050ffae -> BB0050ffb0 [color="blue"];
+  BB0050ffb0 -> BB0050ffc0 [color="blue"];
   BB0050ffc0 -> BB0050ffd5 [color="green"];
   BB0050ffc0 -> BB0050ffc4 [color="red"];
   BB0050ffc4 -> BB0050ffd5 [color="red"];
@@ -34,6 +42,9 @@ digraph ossl_json_str {
   BB0050ffdf -> BB0050ff11 [color="green"];
   BB0050ffdf -> BB0050ffe7 [color="red"];
   BB0050ffe7 -> BB0050ff11 [color="blue"];
+  BB00510000 -> BB0050ffc0 [color="blue"];
+  BB00510010 -> BB0050ffc0 [color="blue"];
+  BB00510020 -> BB0050ffc0 [color="blue"];
   BB00510030 -> BB0050ffc0 [color="green"];
   BB00510030 -> BB00510039 [color="red"];
   BB00510039 -> BB00510128 [color="green"];
@@ -60,6 +71,8 @@ digraph ossl_json_str {
   BB005100e8 -> BB0050ffd5 [color="green"];
   BB005100e8 -> BB005100f0 [color="red"];
   BB005100f0 -> BB0050ffd5 [color="blue"];
+  BB00510108 -> BB0050ffc0 [color="blue"];
+  BB00510118 -> BB0050ffc0 [color="blue"];
   BB00510128 -> BB005100dd [color="green"];
   BB00510128 -> BB0051012f [color="red"];
   BB0051012f -> BB005100dd [color="green"];

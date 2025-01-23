@@ -1,1 +1,500 @@
-{"edges": [{"source": "BB006bbcd0", "target": "BB006bbce4", "attributes": {"type": "consequence"}}, {"source": "BB006bbcd0", "target": "BB006bbcde", "attributes": {"type": "alternative"}}, {"source": "BB006bbcde", "target": "BB006bbd28", "attributes": {"type": "consequence"}}, {"source": "BB006bbcde", "target": "BB006bbce4", "attributes": {"type": "alternative"}}, {"source": "BB006bbce4", "target": "BB006bbcf5", "attributes": {"type": "alternative"}}, {"source": "BB006bbcf5", "target": "BB006bbd17", "attributes": {"type": "alternative"}}, {"source": "BB006bbd28", "target": "BB006bbe28", "attributes": {"type": "consequence"}}, {"source": "BB006bbd28", "target": "BB006bbd34", "attributes": {"type": "alternative"}}, {"source": "BB006bbd34", "target": "BB006bbd68", "attributes": {"type": "consequence"}}, {"source": "BB006bbd34", "target": "BB006bbd51", "attributes": {"type": "alternative"}}, {"source": "BB006bbd51", "target": "BB006bbcf5", "attributes": {"type": "regular"}}, {"source": "BB006bbd68", "target": "BB006bbe18", "attributes": {"type": "consequence"}}, {"source": "BB006bbd68", "target": "BB006bbd80", "attributes": {"type": "alternative"}}, {"source": "BB006bbd80", "target": "BB006bbd9b", "attributes": {"type": "consequence"}}, {"source": "BB006bbd80", "target": "BB006bbd85", "attributes": {"type": "alternative"}}, {"source": "BB006bbd85", "target": "BB006bbe18", "attributes": {"type": "consequence"}}, {"source": "BB006bbd85", "target": "BB006bbd9b", "attributes": {"type": "alternative"}}, {"source": "BB006bbd9b", "target": "BB006bbe60", "attributes": {"type": "consequence"}}, {"source": "BB006bbd9b", "target": "BB006bbda8", "attributes": {"type": "alternative"}}, {"source": "BB006bbda8", "target": "BB006bbf2f", "attributes": {"type": "consequence"}}, {"source": "BB006bbda8", "target": "BB006bbdb9", "attributes": {"type": "alternative"}}, {"source": "BB006bbdb9", "target": "BB006bbeef", "attributes": {"type": "consequence"}}, {"source": "BB006bbdb9", "target": "BB006bbdd1", "attributes": {"type": "alternative"}}, {"source": "BB006bbdd1", "target": "BB006bbf64", "attributes": {"type": "consequence"}}, {"source": "BB006bbdd1", "target": "BB006bbe02", "attributes": {"type": "alternative"}}, {"source": "BB006bbe02", "target": "BB006bbe10", "attributes": {"type": "alternative"}}, {"source": "BB006bbe10", "target": "BB006bbe18", "attributes": {"type": "alternative"}}, {"source": "BB006bbe18", "target": "BB006bbd17", "attributes": {"type": "regular"}}, {"source": "BB006bbe28", "target": "BB006bbd17", "attributes": {"type": "regular"}}, {"source": "BB006bbe60", "target": "BB006bbf2f", "attributes": {"type": "consequence"}}, {"source": "BB006bbe60", "target": "BB006bbe71", "attributes": {"type": "alternative"}}, {"source": "BB006bbe71", "target": "BB006bbf74", "attributes": {"type": "consequence"}}, {"source": "BB006bbe71", "target": "BB006bbe89", "attributes": {"type": "alternative"}}, {"source": "BB006bbe89", "target": "BB006bbfb1", "attributes": {"type": "consequence"}}, {"source": "BB006bbe89", "target": "BB006bbeb9", "attributes": {"type": "alternative"}}, {"source": "BB006bbeb9", "target": "BB006bbee2", "attributes": {"type": "consequence"}}, {"source": "BB006bbeb9", "target": "BB006bbed4", "attributes": {"type": "alternative"}}, {"source": "BB006bbed4", "target": "BB006bbee2", "attributes": {"type": "alternative"}}, {"source": "BB006bbee2", "target": "BB006bbe18", "attributes": {"type": "regular"}}, {"source": "BB006bbeef", "target": "BB006bbe18", "attributes": {"type": "regular"}}, {"source": "BB006bbf2f", "target": "BB006bbe18", "attributes": {"type": "regular"}}, {"source": "BB006bbf64", "target": "BB006bbe10", "attributes": {"type": "regular"}}, {"source": "BB006bbf74", "target": "BB006bbe18", "attributes": {"type": "regular"}}, {"source": "BB006bbfb1", "target": "BB006bbee2", "attributes": {"type": "regular"}}], "nodes": [{"attributes": {"lines": 9}, "key": "BB006bbd34"}, {"attributes": {"lines": 13}, "key": "BB006bbf74"}, {"attributes": {"lines": 8}, "key": "BB006bbcf5"}, {"attributes": {"lines": 6}, "key": "BB006bbe71"}, {"attributes": {"lines": 4}, "key": "BB006bbfb1"}, {"attributes": {"lines": 6}, "key": "BB006bbdb9"}, {"attributes": {"lines": 8}, "key": "BB006bbeb9"}, {"attributes": {"lines": 3}, "key": "BB006bbce4"}, {"attributes": {"lines": 4}, "key": "BB006bbf64"}, {"attributes": {"lines": 4}, "key": "BB006bbe60"}, {"attributes": {"lines": 3}, "key": "BB006bbee2"}, {"attributes": {"lines": 11}, "key": "BB006bbf2f"}, {"attributes": {"lines": 14}, "key": "BB006bbeef"}, {"attributes": {"lines": 3}, "key": "BB006bbd28"}, {"attributes": {"lines": 12}, "key": "BB006bbe28"}, {"attributes": {"lines": 6}, "key": "BB006bbd68"}, {"attributes": {"lines": 4}, "key": "BB006bbda8"}, {"attributes": {"lines": 4}, "key": "BB006bbed4"}, {"attributes": {"lines": 7}, "key": "BB006bbd17"}, {"attributes": {"lines": 7}, "key": "BB006bbcd0"}, {"attributes": {"lines": 2}, "key": "BB006bbe10"}, {"attributes": {"lines": 10}, "key": "BB006bbdd1"}, {"attributes": {"lines": 4}, "key": "BB006bbd51"}, {"attributes": {"lines": 2}, "key": "BB006bbcde"}, {"attributes": {"lines": 3}, "key": "BB006bbe18"}, {"attributes": {"lines": 3}, "key": "BB006bbd9b"}, {"attributes": {"lines": 6}, "key": "BB006bbd85"}, {"attributes": {"lines": 2}, "key": "BB006bbd80"}, {"attributes": {"lines": 4}, "key": "BB006bbe02"}, {"attributes": {"lines": 10}, "key": "BB006bbe89"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006bbcd0", 
+      "target": "BB006bbce4"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbcd0", 
+      "target": "BB006bbcde"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006bbcde", 
+      "target": "BB006bbd28"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbcde", 
+      "target": "BB006bbce4"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbce4", 
+      "target": "BB006bbcf5"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbcf5", 
+      "target": "BB006bbd17"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006bbd28", 
+      "target": "BB006bbe28"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbd28", 
+      "target": "BB006bbd34"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006bbd34", 
+      "target": "BB006bbd68"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbd34", 
+      "target": "BB006bbd51"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006bbd51", 
+      "target": "BB006bbcf5"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006bbd68", 
+      "target": "BB006bbe18"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbd68", 
+      "target": "BB006bbd80"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006bbd80", 
+      "target": "BB006bbd9b"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbd80", 
+      "target": "BB006bbd85"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006bbd85", 
+      "target": "BB006bbe18"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbd85", 
+      "target": "BB006bbd9b"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006bbd9b", 
+      "target": "BB006bbe60"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbd9b", 
+      "target": "BB006bbda8"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006bbda8", 
+      "target": "BB006bbf2f"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbda8", 
+      "target": "BB006bbdb9"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006bbdb9", 
+      "target": "BB006bbeef"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbdb9", 
+      "target": "BB006bbdd1"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006bbdd1", 
+      "target": "BB006bbf64"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbdd1", 
+      "target": "BB006bbe02"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbe02", 
+      "target": "BB006bbe10"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbe10", 
+      "target": "BB006bbe18"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006bbe18", 
+      "target": "BB006bbd17"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006bbe28", 
+      "target": "BB006bbd17"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006bbe60", 
+      "target": "BB006bbf2f"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbe60", 
+      "target": "BB006bbe71"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006bbe71", 
+      "target": "BB006bbf74"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbe71", 
+      "target": "BB006bbe89"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006bbe89", 
+      "target": "BB006bbfb1"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbe89", 
+      "target": "BB006bbeb9"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006bbeb9", 
+      "target": "BB006bbee2"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbeb9", 
+      "target": "BB006bbed4"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006bbed4", 
+      "target": "BB006bbee2"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006bbee2", 
+      "target": "BB006bbe18"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006bbeef", 
+      "target": "BB006bbe18"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006bbf2f", 
+      "target": "BB006bbe18"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006bbf64", 
+      "target": "BB006bbe10"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006bbf74", 
+      "target": "BB006bbe18"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006bbfb1", 
+      "target": "BB006bbee2"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 9
+      }, 
+      "key": "BB006bbd34"
+    }, 
+    {
+      "attributes": {
+        "lines": 13
+      }, 
+      "key": "BB006bbf74"
+    }, 
+    {
+      "attributes": {
+        "lines": 8
+      }, 
+      "key": "BB006bbcf5"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB006bbe71"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB006bbfb1"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB006bbdb9"
+    }, 
+    {
+      "attributes": {
+        "lines": 8
+      }, 
+      "key": "BB006bbeb9"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB006bbce4"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB006bbf64"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB006bbe60"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB006bbee2"
+    }, 
+    {
+      "attributes": {
+        "lines": 11
+      }, 
+      "key": "BB006bbf2f"
+    }, 
+    {
+      "attributes": {
+        "lines": 14
+      }, 
+      "key": "BB006bbeef"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB006bbd28"
+    }, 
+    {
+      "attributes": {
+        "lines": 12
+      }, 
+      "key": "BB006bbe28"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB006bbd68"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB006bbda8"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB006bbed4"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB006bbd17"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB006bbcd0"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB006bbe10"
+    }, 
+    {
+      "attributes": {
+        "lines": 10
+      }, 
+      "key": "BB006bbdd1"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB006bbd51"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB006bbcde"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB006bbe18"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB006bbd9b"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB006bbd85"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB006bbd80"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB006bbe02"
+    }, 
+    {
+      "attributes": {
+        "lines": 10
+      }, 
+      "key": "BB006bbe89"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

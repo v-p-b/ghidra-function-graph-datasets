@@ -7,6 +7,14 @@ digraph fd_ctrl {
   BB005397e1 -> BB005397e5 [color="red"];
   BB005397e5 -> BB00539800 [color="green"];
   BB005397e5 -> BB005397ea [color="red"];
+  BB005397ea -> BB005397fa [color="blue"];
+  BB005397fa -> BB005398a8 [color="blue"];
+  BB005397fa -> BB005398b0 [color="blue"];
+  BB005397fa -> BB0053988c [color="blue"];
+  BB005397fa -> BB00539800 [color="blue"];
+  BB005397fa -> BB005398c0 [color="blue"];
+  BB005397fa -> BB005398d0 [color="blue"];
+  BB005397fa -> BB0053986f [color="blue"];
   BB00539800 -> BB00539802 [color="blue"];
   BB00539810 -> BB005398e0 [color="green"];
   BB00539810 -> BB00539819 [color="red"];
@@ -23,8 +31,10 @@ digraph fd_ctrl {
   BB00539847 -> BB00539900 [color="green"];
   BB00539847 -> BB00539852 [color="red"];
   BB00539852 -> BB00539860 [color="blue"];
+  BB00539860 -> BB0053986f [color="blue"];
   BB00539880 -> BB00539800 [color="green"];
   BB00539880 -> BB0053988c [color="red"];
+  BB005398a8 -> BB00539823 [color="blue"];
   BB005398e0 -> BB00539917 [color="green"];
   BB005398e0 -> BB005398e7 [color="red"];
   BB005398e7 -> BB00539802 [color="green"];

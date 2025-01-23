@@ -1,1 +1,44 @@
-{"edges": [{"source": "BB005b1b40", "target": "BB005b1b60", "attributes": {"type": "consequence"}}, {"source": "BB005b1b40", "target": "BB005b1b45", "attributes": {"type": "alternative"}}], "nodes": [{"attributes": {"lines": 5}, "key": "BB005b1b45"}, {"attributes": {"lines": 2}, "key": "BB005b1b40"}, {"attributes": {"lines": 2}, "key": "BB005b1b60"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005b1b40", 
+      "target": "BB005b1b60"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005b1b40", 
+      "target": "BB005b1b45"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB005b1b45"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005b1b40"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005b1b60"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

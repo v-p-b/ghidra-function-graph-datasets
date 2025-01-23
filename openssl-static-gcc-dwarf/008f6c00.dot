@@ -48,8 +48,6 @@ digraph add_module.constprop.0 {
   BB008f6dab -> BB008f6dde [color="green"];
   BB008f6dab -> BB008f6dcc [color="red"];
   BB008f6dcc -> BB008f6dde [color="blue"];
-  BB008f6dde -> BB004010a0 [color="green"];
-  BB008f6dde -> BB00401070 [color="green"];
   BB008f6dde -> BB008f6e6a [color="green"];
   BB008f6dde -> BB008f6e42 [color="red"];
   BB008f6e42 -> BB008f6e48 [color="blue"];
@@ -57,16 +55,12 @@ digraph add_module.constprop.0 {
   BB008f6e48 -> BB008f6e5b [color="red"];
   BB008f6e6a -> BB008f6e48 [color="green"];
   BB008f6e6a -> BB008f6e8e [color="red"];
-  BB008f6e8e -> BB004010c0 [color="green"];
-  BB008f6e8e -> BB004010c0 [color="green"];
   BB008f6e8e -> BB008f6f30 [color="green"];
   BB008f6e8e -> BB008f6eee [color="red"];
-  BB008f6eee -> BB004010c0 [color="green"];
   BB008f6eee -> BB008f6f10 [color="green"];
   BB008f6eee -> BB008f6f07 [color="red"];
   BB008f6f07 -> BB008f6f10 [color="blue"];
   BB008f6f10 -> BB008f6e48 [color="blue"];
   BB008f6f28 -> BB008f6c5b [color="blue"];
-  BB008f6f30 -> BB004010c0 [color="blue"];
   BB008f6f30 -> BB008f6eee [color="blue"];
 }

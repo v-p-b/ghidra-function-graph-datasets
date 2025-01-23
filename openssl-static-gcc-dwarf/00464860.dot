@@ -3,4 +3,13 @@ digraph opt_provider {
   graph [splines=ortho];
   BB00464860 -> BB004648f9 [color="green"];
   BB00464860 -> BB0046487b [color="red"];
+  BB0046487b -> BB0046488a [color="blue"];
+  BB0046488a -> BB00464890 [color="blue"];
+  BB0046488a -> BB004648e0 [color="blue"];
+  BB0046488a -> BB004648b0 [color="blue"];
+  BB0046488a -> BB004648a0 [color="blue"];
+  BB0046488a -> BB004648f9 [color="blue"];
+  BB004648b0 -> BB004648c9 [color="green"];
+  BB004648b0 -> BB004648bd [color="red"];
+  BB004648bd -> BB004648c9 [color="blue"];
 }

@@ -1,1 +1,71 @@
-{"edges": [{"source": "BB00483890", "target": "BB004838b9", "attributes": {"type": "consequence"}}, {"source": "BB00483890", "target": "BB004838a8", "attributes": {"type": "alternative"}}, {"source": "BB004838a8", "target": "BB004838b9", "attributes": {"type": "consequence"}}, {"source": "BB004838a8", "target": "BB004838ac", "attributes": {"type": "alternative"}}, {"source": "BB004838ac", "target": "BB004838b9", "attributes": {"type": "regular"}}], "nodes": [{"attributes": {"lines": 8}, "key": "BB00483890"}, {"attributes": {"lines": 2}, "key": "BB004838b9"}, {"attributes": {"lines": 4}, "key": "BB004838ac"}, {"attributes": {"lines": 2}, "key": "BB004838a8"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00483890", 
+      "target": "BB004838b9"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00483890", 
+      "target": "BB004838a8"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB004838a8", 
+      "target": "BB004838b9"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB004838a8", 
+      "target": "BB004838ac"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB004838ac", 
+      "target": "BB004838b9"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 8
+      }, 
+      "key": "BB00483890"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB004838b9"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB004838ac"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB004838a8"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

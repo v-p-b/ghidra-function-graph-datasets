@@ -22,12 +22,10 @@ digraph ossl_rsa_verify {
   BB0063f719 -> BB0063f73c [color="red"];
   BB0063f73c -> BB0063f880 [color="green"];
   BB0063f73c -> BB0063f747 [color="red"];
-  BB0063f747 -> BB004010d8 [color="green"];
   BB0063f747 -> BB0063f880 [color="green"];
   BB0063f747 -> BB0063f76c [color="red"];
   BB0063f76c -> BB0063f7cb [color="green"];
   BB0063f76c -> BB0063f77c [color="red"];
-  BB0063f77c -> BB00401070 [color="blue"];
   BB0063f77c -> BB0063f7cb [color="blue"];
   BB0063f79b -> BB0063f868 [color="green"];
   BB0063f79b -> BB0063f7aa [color="red"];
@@ -69,6 +67,12 @@ digraph ossl_rsa_verify {
   BB0063f8ce -> BB0063f868 [color="blue"];
   BB0063f8d8 -> BB0063f8ce [color="green"];
   BB0063f8d8 -> BB0063f8e5 [color="red"];
+  BB0063f8e5 -> BB0063f8f3 [color="blue"];
+  BB0063f8f3 -> BB0063f8f8 [color="blue"];
+  BB0063f8f3 -> BB0063f8ce [color="blue"];
+  BB0063f8f3 -> BB0063f918 [color="blue"];
+  BB0063f8f3 -> BB0063f908 [color="blue"];
+  BB0063f8f8 -> BB0063f868 [color="blue"];
   BB0063f908 -> BB0063f868 [color="blue"];
   BB0063f918 -> BB0063f868 [color="blue"];
   BB0063f928 -> BB0063fa48 [color="green"];

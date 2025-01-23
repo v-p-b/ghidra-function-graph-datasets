@@ -56,6 +56,13 @@ digraph asn1_i2d_ex_primitive {
   BB00522ed2 -> BB00522ed6 [color="blue"];
   BB00522ed6 -> BB00522fc0 [color="green"];
   BB00522ed6 -> BB00522edf [color="red"];
+  BB00522edf -> BB00522eed [color="blue"];
+  BB00522eed -> BB00522fc0 [color="blue"];
+  BB00522eed -> BB00523090 [color="blue"];
+  BB00522eed -> BB00522f90 [color="blue"];
+  BB00522eed -> BB005230d8 [color="blue"];
+  BB00522eed -> BB00522dbe [color="blue"];
+  BB00522eed -> BB00523040 [color="blue"];
   BB00522ef0 -> BB00522e53 [color="green"];
   BB00522ef0 -> BB00522efa [color="red"];
   BB00522efa -> BB00522f00 [color="blue"];
@@ -74,6 +81,7 @@ digraph asn1_i2d_ex_primitive {
   BB00522f70 -> BB00522e70 [color="green"];
   BB00522f70 -> BB00522f79 [color="red"];
   BB00522f79 -> BB00522d6b [color="blue"];
+  BB00522f90 -> BB00522dbe [color="blue"];
   BB00522fc0 -> BB00523198 [color="green"];
   BB00522fc0 -> BB00522fd2 [color="red"];
   BB00522fd2 -> BB00522dbe [color="green"];
@@ -81,8 +89,24 @@ digraph asn1_i2d_ex_primitive {
   BB00522fdc -> BB00522dbe [color="green"];
   BB00522fdc -> BB00522fe5 [color="red"];
   BB00522fe5 -> BB00523066 [color="blue"];
-  BB00523066 -> BB00401070 [color="blue"];
-  BB00523066 -> BB00522dbe [color="blue"];
+  BB00523040 -> BB00522dbe [color="green"];
+  BB00523040 -> BB0052305d [color="red"];
+  BB0052305d -> BB00522dbe [color="green"];
+  BB0052305d -> BB00523066 [color="red"];
+  BB00523066 -> BB00523070 [color="blue"];
+  BB00523070 -> BB00522dbe [color="blue"];
+  BB00523090 -> BB00522dbe [color="green"];
+  BB00523090 -> BB0052309c [color="red"];
+  BB0052309c -> BB005230ba [color="green"];
+  BB0052309c -> BB005230a4 [color="red"];
+  BB005230a4 -> BB005231c0 [color="green"];
+  BB005230a4 -> BB005230b1 [color="red"];
+  BB005230b1 -> BB00522dbe [color="green"];
+  BB005230b1 -> BB005230ba [color="red"];
+  BB005230ba -> BB00523070 [color="green"];
+  BB005230ba -> BB005230cd [color="red"];
+  BB005230cd -> BB00522dbe [color="blue"];
+  BB005230d8 -> BB00522dbe [color="blue"];
   BB00523100 -> BB00522dd6 [color="green"];
   BB00523100 -> BB0052311a [color="red"];
   BB0052311a -> BB00522dd6 [color="blue"];
@@ -97,4 +121,7 @@ digraph asn1_i2d_ex_primitive {
   BB005231a2 -> BB00522dbe [color="green"];
   BB005231a2 -> BB005231ab [color="red"];
   BB005231ab -> BB00522dbe [color="blue"];
+  BB005231c0 -> BB005230ba [color="green"];
+  BB005231c0 -> BB005231c9 [color="red"];
+  BB005231c9 -> BB00522dbe [color="blue"];
 }

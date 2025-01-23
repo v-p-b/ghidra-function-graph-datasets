@@ -10,6 +10,16 @@ digraph rand_main {
   BB00435066 -> BB0043506c [color="red"];
   BB0043506c -> BB00435050 [color="green"];
   BB0043506c -> BB00435076 [color="red"];
+  BB00435076 -> BB0043507d [color="blue"];
+  BB0043507d -> BB00435110 [color="blue"];
+  BB0043507d -> BB00435050 [color="blue"];
+  BB0043507d -> BB004351b0 [color="blue"];
+  BB0043507d -> BB004351a0 [color="blue"];
+  BB0043507d -> BB00435180 [color="blue"];
+  BB0043507d -> BB00435090 [color="blue"];
+  BB0043507d -> BB00435080 [color="blue"];
+  BB00435080 -> BB00435050 [color="blue"];
+  BB00435090 -> BB00435050 [color="blue"];
   BB004350a0 -> BB004350d0 [color="green"];
   BB004350a0 -> BB004350a9 [color="red"];
   BB004350a9 -> BB00435050 [color="green"];
@@ -26,6 +36,9 @@ digraph rand_main {
   BB004350f2 -> BB00435110 [color="red"];
   BB00435110 -> BB0043512e [color="red"];
   BB0043512e -> BB00435140 [color="red"];
+  BB00435180 -> BB00435050 [color="blue"];
+  BB004351a0 -> BB00435050 [color="blue"];
+  BB004351b0 -> BB00435140 [color="blue"];
   BB004351d0 -> BB00435340 [color="green"];
   BB004351d0 -> BB004351e7 [color="red"];
   BB004351e7 -> BB00435473 [color="green"];
@@ -45,7 +58,6 @@ digraph rand_main {
   BB00435270 -> BB0043527a [color="red"];
   BB0043527a -> BB004350f2 [color="green"];
   BB0043527a -> BB00435284 [color="red"];
-  BB00435284 -> BB00401100 [color="green"];
   BB00435284 -> BB004350f2 [color="green"];
   BB00435284 -> BB004352c0 [color="red"];
   BB004352c0 -> BB004352c8 [color="blue"];
@@ -95,7 +107,6 @@ digraph rand_main {
   BB00435487 -> BB004352c8 [color="blue"];
   BB0043548e -> BB004350f2 [color="green"];
   BB0043548e -> BB00435498 [color="red"];
-  BB00435498 -> BB00401100 [color="green"];
   BB00435498 -> BB004350f2 [color="green"];
   BB00435498 -> BB004354c0 [color="red"];
   BB004354c0 -> BB004352c0 [color="blue"];
@@ -105,11 +116,9 @@ digraph rand_main {
   BB004354f2 -> BB00435520 [color="red"];
   BB00435520 -> BB00435418 [color="blue"];
   BB00435528 -> BB00435110 [color="blue"];
-  BB00435542 -> BB00401100 [color="green"];
   BB00435542 -> BB004350f2 [color="green"];
   BB00435542 -> BB0043556a [color="red"];
   BB0043556a -> BB004352c0 [color="blue"];
-  BB00435583 -> BB00401100 [color="green"];
   BB00435583 -> BB004350f2 [color="green"];
   BB00435583 -> BB004355ab [color="red"];
   BB004355ab -> BB004352c0 [color="blue"];

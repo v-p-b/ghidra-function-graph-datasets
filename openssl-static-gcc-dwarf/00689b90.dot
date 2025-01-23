@@ -3,4 +3,21 @@ digraph x509_cb {
   graph [splines=ortho];
   BB00689b90 -> BB00689c00 [color="green"];
   BB00689b90 -> BB00689b9f [color="red"];
+  BB00689b9f -> BB00689baf [color="blue"];
+  BB00689baf -> BB00689c00 [color="blue"];
+  BB00689baf -> BB00689c30 [color="blue"];
+  BB00689baf -> BB00689cb0 [color="blue"];
+  BB00689baf -> BB00689d70 [color="blue"];
+  BB00689baf -> BB00689bb8 [color="blue"];
+  BB00689baf -> BB00689e10 [color="blue"];
+  BB00689baf -> BB00689c10 [color="blue"];
+  BB00689bb8 -> BB00689c00 [color="green"];
+  BB00689bb8 -> BB00689bbd [color="red"];
+  BB00689bbd -> BB00689e30 [color="green"];
+  BB00689bbd -> BB00689bfe [color="red"];
+  BB00689bfe -> BB00689c00 [color="blue"];
+  BB00689c00 -> BB00689c05 [color="blue"];
+  BB00689c30 -> BB00689c37 [color="blue"];
+  BB00689d70 -> BB00689c37 [color="blue"];
+  BB00689e30 -> BB00689c05 [color="blue"];
 }

@@ -3,15 +3,12 @@ digraph nscd_getserv_r {
   graph [splines=ortho];
   BB008e5b60 -> BB008e5bdf [color="green"];
   BB008e5b60 -> BB008e5bd4 [color="red"];
-  BB008e5bd4 -> BB00401100 [color="green"];
   BB008e5bd4 -> BB008e5bdf [color="red"];
   BB008e5bdf -> BB008e5c08 [color="green"];
   BB008e5bdf -> BB008e5c00 [color="red"];
   BB008e5c00 -> BB008e6379 [color="green"];
   BB008e5c00 -> BB008e5c08 [color="red"];
   BB008e5c08 -> BB008e5c41 [color="blue"];
-  BB008e5c41 -> BB004010c0 [color="green"];
-  BB008e5c41 -> BB00401070 [color="green"];
   BB008e5c41 -> BB008e5cb3 [color="red"];
   BB008e5cb3 -> BB008e5e6f [color="green"];
   BB008e5cb3 -> BB008e5cbd [color="red"];
@@ -95,7 +92,6 @@ digraph nscd_getserv_r {
   BB008e60fc -> BB008e6100 [color="blue"];
   BB008e6100 -> BB008e5d87 [color="blue"];
   BB008e6120 -> BB008e5d87 [color="blue"];
-  BB008e6138 -> BB00401070 [color="green"];
   BB008e6138 -> BB008e6178 [color="red"];
   BB008e6178 -> BB008e6348 [color="green"];
   BB008e6178 -> BB008e6196 [color="red"];
@@ -108,7 +104,6 @@ digraph nscd_getserv_r {
   BB008e61d2 -> BB008e61df [color="red"];
   BB008e61df -> BB008e6258 [color="green"];
   BB008e61df -> BB008e61e4 [color="red"];
-  BB008e61e4 -> BB00401070 [color="green"];
   BB008e61e4 -> BB008e6236 [color="green"];
   BB008e61e4 -> BB008e6223 [color="red"];
   BB008e6223 -> BB008e62d1 [color="green"];
@@ -144,6 +139,5 @@ digraph nscd_getserv_r {
   BB008e63ab -> BB008e63c5 [color="red"];
   BB008e63c5 -> BB008e5fda [color="blue"];
   BB008e63fe -> BB008e603d [color="blue"];
-  BB008e6409 -> BB008e640e [color="red"];
   BB008e640e -> BB008e5dde [color="blue"];
 }

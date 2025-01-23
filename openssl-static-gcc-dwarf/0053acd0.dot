@@ -1,7 +1,6 @@
 digraph mem_puts {
   node [shape="box"];
   graph [splines=ortho];
-  BB0053acd0 -> BB00401100 [color="green"];
   BB0053acd0 -> BB0053add0 [color="green"];
   BB0053acd0 -> BB0053acfa [color="red"];
   BB0053acfa -> BB0053ad63 [color="green"];
@@ -10,13 +9,11 @@ digraph mem_puts {
   BB0053ad11 -> BB0053ad1f [color="red"];
   BB0053ad1f -> BB0053adc0 [color="green"];
   BB0053ad1f -> BB0053ad37 [color="red"];
-  BB0053ad37 -> BB00401070 [color="green"];
   BB0053ad37 -> BB0053ad63 [color="red"];
   BB0053ad78 -> BB0053ad1f [color="green"];
   BB0053ad78 -> BB0053ad81 [color="red"];
   BB0053ad81 -> BB0053ad1f [color="green"];
   BB0053ad81 -> BB0053ad96 [color="red"];
-  BB0053ad96 -> BB00401020 [color="blue"];
   BB0053ad96 -> BB0053ad1f [color="blue"];
   BB0053adc0 -> BB0053ad63 [color="blue"];
   BB0053add0 -> BB0053ad63 [color="blue"];

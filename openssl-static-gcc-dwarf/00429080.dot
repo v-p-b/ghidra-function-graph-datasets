@@ -10,6 +10,14 @@ digraph nseq_main {
   BB004290c0 -> BB004290c5 [color="red"];
   BB004290c5 -> BB004290b0 [color="green"];
   BB004290c5 -> BB004290cd [color="red"];
+  BB004290cd -> BB004290d4 [color="blue"];
+  BB004290d4 -> BB00429130 [color="blue"];
+  BB004290d4 -> BB004290b0 [color="blue"];
+  BB004290d4 -> BB004291a0 [color="blue"];
+  BB004290d4 -> BB004290e0 [color="blue"];
+  BB004290d4 -> BB00429190 [color="blue"];
+  BB004290d4 -> BB00429180 [color="blue"];
+  BB004290e0 -> BB004290b0 [color="blue"];
   BB004290f0 -> BB004290b0 [color="green"];
   BB004290f0 -> BB004290fb [color="red"];
   BB004290fb -> BB004290b0 [color="green"];
@@ -17,7 +25,11 @@ digraph nseq_main {
   BB00429104 -> BB00429155 [color="blue"];
   BB00429118 -> BB004291c0 [color="green"];
   BB00429118 -> BB00429127 [color="red"];
-  BB00429127 -> BB00429155 [color="red"];
+  BB00429127 -> BB00429130 [color="blue"];
+  BB00429130 -> BB00429155 [color="red"];
+  BB00429180 -> BB004290b0 [color="blue"];
+  BB00429190 -> BB004290b0 [color="blue"];
+  BB004291a0 -> BB00429155 [color="blue"];
   BB004291c0 -> BB00429104 [color="green"];
   BB004291c0 -> BB004291de [color="red"];
   BB004291de -> BB004292f9 [color="green"];

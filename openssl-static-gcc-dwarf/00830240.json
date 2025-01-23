@@ -1,1 +1,64 @@
-{"edges": [{"source": "BB00830240", "target": "BB00830280", "attributes": {"type": "consequence"}}, {"source": "BB00830240", "target": "BB00830248", "attributes": {"type": "alternative"}}, {"source": "BB00830248", "target": "BB00401080", "attributes": {"type": "consequence"}}, {"source": "BB00830248", "target": "BB00401070", "attributes": {"type": "consequence"}}, {"source": "BB00830248", "target": "BB00830276", "attributes": {"type": "alternative"}}, {"source": "BB00830280", "target": "BB00830276", "attributes": {"type": "regular"}}], "nodes": [{"attributes": {"lines": 4}, "key": "BB00830276"}, {"attributes": {"lines": 1}, "key": "BB00401070"}, {"attributes": {"lines": 16}, "key": "BB00830248"}, {"attributes": {"lines": 5}, "key": "BB00830240"}, {"attributes": {"lines": 12}, "key": "BB00830280"}, {"attributes": {"lines": 1}, "key": "BB00401080"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00830240", 
+      "target": "BB00830280"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00830240", 
+      "target": "BB00830248"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00830248", 
+      "target": "BB00830276"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB00830280", 
+      "target": "BB00830276"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB00830276"
+    }, 
+    {
+      "attributes": {
+        "lines": 16
+      }, 
+      "key": "BB00830248"
+    }, 
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB00830240"
+    }, 
+    {
+      "attributes": {
+        "lines": 12
+      }, 
+      "key": "BB00830280"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

@@ -10,7 +10,6 @@ digraph ossl_rsaz_mod_exp_avx512_x2 {
   BB0054d5d8 -> BB0054d5df [color="blue"];
   BB0054d5df -> BB0054df58 [color="green"];
   BB0054d5df -> BB0054d615 [color="red"];
-  BB0054d615 -> BB00401080 [color="green"];
   BB0054d615 -> BB0054deb0 [color="green"];
   BB0054d615 -> BB0054d7f5 [color="red"];
   BB0054d7f5 -> BB0054de48 [color="green"];
@@ -23,7 +22,7 @@ digraph ossl_rsaz_mod_exp_avx512_x2 {
   BB0054d868 -> BB0054d8ca [color="blue"];
   BB0054d8ca -> BB0054df38 [color="green"];
   BB0054d8ca -> BB0054d8f1 [color="red"];
-  BB0054d8f1 -> BB0054d9c0 [color="blue"];
+  BB0054d8f1 -> BB0054d9c0 [color="red"];
   BB0054d9c0 -> BB0054d9c0 [color="green"];
   BB0054d9c0 -> BB0054d9fb [color="red"];
   BB0054d9fb -> BB0054df40 [color="green"];
@@ -49,6 +48,5 @@ digraph ossl_rsaz_mod_exp_avx512_x2 {
   BB0054deb0 -> BB0054d8ca [color="blue"];
   BB0054df17 -> BB0054de39 [color="blue"];
   BB0054df38 -> BB0054d816 [color="blue"];
-  BB0054df40 -> BB0054df58 [color="red"];
   BB0054df58 -> BB0054d5bc [color="blue"];
 }

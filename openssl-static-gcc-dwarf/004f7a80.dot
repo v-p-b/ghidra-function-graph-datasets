@@ -3,6 +3,15 @@ digraph log_packet {
   graph [splines=ortho];
   BB004f7a80 -> BB004f7d0a [color="green"];
   BB004f7a80 -> BB004f7ab5 [color="red"];
+  BB004f7ab5 -> BB004f7ac6 [color="blue"];
+  BB004f7ac6 -> BB004f7d0a [color="blue"];
+  BB004f7ac6 -> BB004f7c10 [color="blue"];
+  BB004f7ac6 -> BB004f7c50 [color="blue"];
+  BB004f7ac6 -> BB004f7ad0 [color="blue"];
+  BB004f7ac6 -> BB004f7c20 [color="blue"];
+  BB004f7ac6 -> BB004f7c30 [color="blue"];
+  BB004f7ac6 -> BB004f7c40 [color="blue"];
+  BB004f7ad0 -> BB004f7ae0 [color="blue"];
   BB004f7ae0 -> BB004f7b0b [color="green"];
   BB004f7ae0 -> BB004f7af9 [color="red"];
   BB004f7af9 -> BB004f7b0b [color="red"];
@@ -28,6 +37,11 @@ digraph log_packet {
   BB004f7be3 -> BB004f7be8 [color="red"];
   BB004f7be8 -> BB004f7b99 [color="green"];
   BB004f7be8 -> BB004f7bf5 [color="red"];
+  BB004f7c10 -> BB004f7ae0 [color="blue"];
+  BB004f7c20 -> BB004f7ae0 [color="blue"];
+  BB004f7c30 -> BB004f7ae0 [color="blue"];
+  BB004f7c40 -> BB004f7ae0 [color="blue"];
+  BB004f7c50 -> BB004f7ae0 [color="blue"];
   BB004f7c70 -> BB004f7caa [color="green"];
   BB004f7c70 -> BB004f7c93 [color="red"];
   BB004f7c93 -> BB004f7caa [color="red"];

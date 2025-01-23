@@ -1,1 +1,97 @@
-{"edges": [{"source": "BB005f3010", "target": "BB005f3090", "attributes": {"type": "consequence"}}, {"source": "BB005f3010", "target": "BB005f3015", "attributes": {"type": "alternative"}}, {"source": "BB005f3015", "target": "BB005f3061", "attributes": {"type": "consequence"}}, {"source": "BB005f3015", "target": "BB005f3032", "attributes": {"type": "alternative"}}, {"source": "BB005f3032", "target": "BB005f3040", "attributes": {"type": "regular"}}, {"source": "BB005f3040", "target": "BB005f3040", "attributes": {"type": "consequence"}}, {"source": "BB005f3040", "target": "BB005f3061", "attributes": {"type": "alternative"}}], "nodes": [{"attributes": {"lines": 9}, "key": "BB005f3040"}, {"attributes": {"lines": 11}, "key": "BB005f3061"}, {"attributes": {"lines": 2}, "key": "BB005f3010"}, {"attributes": {"lines": 1}, "key": "BB005f3090"}, {"attributes": {"lines": 3}, "key": "BB005f3032"}, {"attributes": {"lines": 11}, "key": "BB005f3015"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005f3010", 
+      "target": "BB005f3090"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005f3010", 
+      "target": "BB005f3015"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005f3015", 
+      "target": "BB005f3061"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005f3015", 
+      "target": "BB005f3032"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB005f3032", 
+      "target": "BB005f3040"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB005f3040", 
+      "target": "BB005f3040"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB005f3040", 
+      "target": "BB005f3061"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 9
+      }, 
+      "key": "BB005f3040"
+    }, 
+    {
+      "attributes": {
+        "lines": 11
+      }, 
+      "key": "BB005f3061"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB005f3010"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB005f3090"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB005f3032"
+    }, 
+    {
+      "attributes": {
+        "lines": 11
+      }, 
+      "key": "BB005f3015"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

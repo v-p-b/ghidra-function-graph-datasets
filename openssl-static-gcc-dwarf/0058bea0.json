@@ -1,1 +1,415 @@
-{"edges": [{"source": "BB0058bea0", "target": "BB0058bef0", "attributes": {"type": "consequence"}}, {"source": "BB0058bea0", "target": "BB0058beb7", "attributes": {"type": "alternative"}}, {"source": "BB0058beb7", "target": "BB0058bee9", "attributes": {"type": "alternative"}}, {"source": "BB0058bef0", "target": "BB0058bf05", "attributes": {"type": "consequence"}}, {"source": "BB0058bef0", "target": "BB0058bef7", "attributes": {"type": "alternative"}}, {"source": "BB0058bef7", "target": "BB0058bf05", "attributes": {"type": "consequence"}}, {"source": "BB0058bef7", "target": "BB0058bf00", "attributes": {"type": "alternative"}}, {"source": "BB0058bf00", "target": "BB0058beb7", "attributes": {"type": "consequence"}}, {"source": "BB0058bf00", "target": "BB0058bf05", "attributes": {"type": "alternative"}}, {"source": "BB0058bf05", "target": "BB0058bf18", "attributes": {"type": "consequence"}}, {"source": "BB0058bf05", "target": "BB0058bf0f", "attributes": {"type": "alternative"}}, {"source": "BB0058bf0f", "target": "BB0058beb7", "attributes": {"type": "consequence"}}, {"source": "BB0058bf0f", "target": "BB0058bf14", "attributes": {"type": "alternative"}}, {"source": "BB0058bf14", "target": "BB0058bf80", "attributes": {"type": "consequence"}}, {"source": "BB0058bf14", "target": "BB0058bf18", "attributes": {"type": "alternative"}}, {"source": "BB0058bf18", "target": "BB0058bf98", "attributes": {"type": "consequence"}}, {"source": "BB0058bf18", "target": "BB0058bf25", "attributes": {"type": "alternative"}}, {"source": "BB0058bf25", "target": "BB0058bfb0", "attributes": {"type": "consequence"}}, {"source": "BB0058bf25", "target": "BB0058bf30", "attributes": {"type": "alternative"}}, {"source": "BB0058bf30", "target": "BB0058c008", "attributes": {"type": "consequence"}}, {"source": "BB0058bf30", "target": "BB0058bf52", "attributes": {"type": "alternative"}}, {"source": "BB0058bf52", "target": "BB0058bf66", "attributes": {"type": "regular"}}, {"source": "BB0058bf66", "target": "BB0058bee9", "attributes": {"type": "regular"}}, {"source": "BB0058bf80", "target": "BB0058bf18", "attributes": {"type": "consequence"}}, {"source": "BB0058bf80", "target": "BB0058bf89", "attributes": {"type": "alternative"}}, {"source": "BB0058bf89", "target": "BB0058bf18", "attributes": {"type": "consequence"}}, {"source": "BB0058bf89", "target": "BB0058bf8e", "attributes": {"type": "alternative"}}, {"source": "BB0058bf8e", "target": "BB0058beb7", "attributes": {"type": "regular"}}, {"source": "BB0058bf98", "target": "BB0058c048", "attributes": {"type": "consequence"}}, {"source": "BB0058bf98", "target": "BB0058bfa5", "attributes": {"type": "alternative"}}, {"source": "BB0058bfa5", "target": "BB0058bee9", "attributes": {"type": "regular"}}, {"source": "BB0058bfb0", "target": "BB0058c024", "attributes": {"type": "consequence"}}, {"source": "BB0058bfb0", "target": "BB0058bfcc", "attributes": {"type": "alternative"}}, {"source": "BB0058bfcc", "target": "BB0058bee9", "attributes": {"type": "regular"}}, {"source": "BB0058c008", "target": "BB0058bf66", "attributes": {"type": "regular"}}, {"source": "BB0058c024", "target": "BB0058bf30", "attributes": {"type": "regular"}}, {"source": "BB0058c048", "target": "BB0058bee9", "attributes": {"type": "regular"}}], "nodes": [{"attributes": {"lines": 3}, "key": "BB0058bf05"}, {"attributes": {"lines": 2}, "key": "BB0058bf00"}, {"attributes": {"lines": 3}, "key": "BB0058bf80"}, {"attributes": {"lines": 2}, "key": "BB0058bf0f"}, {"attributes": {"lines": 1}, "key": "BB0058bf8e"}, {"attributes": {"lines": 12}, "key": "BB0058bfcc"}, {"attributes": {"lines": 2}, "key": "BB0058bf89"}, {"attributes": {"lines": 8}, "key": "BB0058c008"}, {"attributes": {"lines": 12}, "key": "BB0058c048"}, {"attributes": {"lines": 2}, "key": "BB0058bf14"}, {"attributes": {"lines": 7}, "key": "BB0058bf52"}, {"attributes": {"lines": 4}, "key": "BB0058bf18"}, {"attributes": {"lines": 3}, "key": "BB0058bf98"}, {"attributes": {"lines": 5}, "key": "BB0058bf66"}, {"attributes": {"lines": 3}, "key": "BB0058bf25"}, {"attributes": {"lines": 2}, "key": "BB0058bfa5"}, {"attributes": {"lines": 8}, "key": "BB0058c024"}, {"attributes": {"lines": 7}, "key": "BB0058bea0"}, {"attributes": {"lines": 3}, "key": "BB0058bee9"}, {"attributes": {"lines": 11}, "key": "BB0058beb7"}, {"attributes": {"lines": 3}, "key": "BB0058bef7"}, {"attributes": {"lines": 3}, "key": "BB0058bef0"}, {"attributes": {"lines": 7}, "key": "BB0058bfb0"}, {"attributes": {"lines": 9}, "key": "BB0058bf30"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0058bea0", 
+      "target": "BB0058bef0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0058bea0", 
+      "target": "BB0058beb7"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0058beb7", 
+      "target": "BB0058bee9"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0058bef0", 
+      "target": "BB0058bf05"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0058bef0", 
+      "target": "BB0058bef7"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0058bef7", 
+      "target": "BB0058bf05"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0058bef7", 
+      "target": "BB0058bf00"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0058bf00", 
+      "target": "BB0058beb7"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0058bf00", 
+      "target": "BB0058bf05"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0058bf05", 
+      "target": "BB0058bf18"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0058bf05", 
+      "target": "BB0058bf0f"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0058bf0f", 
+      "target": "BB0058beb7"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0058bf0f", 
+      "target": "BB0058bf14"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0058bf14", 
+      "target": "BB0058bf80"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0058bf14", 
+      "target": "BB0058bf18"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0058bf18", 
+      "target": "BB0058bf98"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0058bf18", 
+      "target": "BB0058bf25"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0058bf25", 
+      "target": "BB0058bfb0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0058bf25", 
+      "target": "BB0058bf30"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0058bf30", 
+      "target": "BB0058c008"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0058bf30", 
+      "target": "BB0058bf52"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB0058bf52", 
+      "target": "BB0058bf66"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB0058bf66", 
+      "target": "BB0058bee9"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0058bf80", 
+      "target": "BB0058bf18"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0058bf80", 
+      "target": "BB0058bf89"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0058bf89", 
+      "target": "BB0058bf18"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0058bf89", 
+      "target": "BB0058bf8e"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB0058bf8e", 
+      "target": "BB0058beb7"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0058bf98", 
+      "target": "BB0058c048"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0058bf98", 
+      "target": "BB0058bfa5"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB0058bfa5", 
+      "target": "BB0058bee9"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0058bfb0", 
+      "target": "BB0058c024"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0058bfb0", 
+      "target": "BB0058bfcc"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB0058bfcc", 
+      "target": "BB0058bee9"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB0058c008", 
+      "target": "BB0058bf66"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB0058c024", 
+      "target": "BB0058bf30"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB0058c048", 
+      "target": "BB0058bee9"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB0058bf05"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB0058bf00"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB0058bf80"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB0058bf0f"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB0058bf8e"
+    }, 
+    {
+      "attributes": {
+        "lines": 12
+      }, 
+      "key": "BB0058bfcc"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB0058bf89"
+    }, 
+    {
+      "attributes": {
+        "lines": 8
+      }, 
+      "key": "BB0058c008"
+    }, 
+    {
+      "attributes": {
+        "lines": 12
+      }, 
+      "key": "BB0058c048"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB0058bf14"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB0058bf52"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB0058bf18"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB0058bf98"
+    }, 
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB0058bf66"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB0058bf25"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB0058bfa5"
+    }, 
+    {
+      "attributes": {
+        "lines": 8
+      }, 
+      "key": "BB0058c024"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB0058bea0"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB0058bee9"
+    }, 
+    {
+      "attributes": {
+        "lines": 11
+      }, 
+      "key": "BB0058beb7"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB0058bef7"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB0058bef0"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB0058bfb0"
+    }, 
+    {
+      "attributes": {
+        "lines": 9
+      }, 
+      "key": "BB0058bf30"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

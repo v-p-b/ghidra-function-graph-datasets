@@ -3,13 +3,9 @@ digraph _dl_exception_create {
   graph [splines=ortho];
   BB008f0790 -> BB008f07c5 [color="green"];
   BB008f0790 -> BB008f07b6 [color="red"];
-  BB008f07b6 -> BB00401100 [color="green"];
   BB008f07b6 -> BB008f07c5 [color="red"];
-  BB008f07c5 -> BB00401100 [color="green"];
   BB008f07c5 -> BB008f0819 [color="green"];
   BB008f07c5 -> BB008f07e2 [color="red"];
-  BB008f07e2 -> BB004010c0 [color="green"];
-  BB008f07e2 -> BB00401070 [color="green"];
   BB008f07e2 -> BB008f080a [color="red"];
   BB008f0819 -> BB008f080a [color="blue"];
 }

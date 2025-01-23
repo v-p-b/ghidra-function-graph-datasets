@@ -1,1 +1,474 @@
-{"edges": [{"source": "BB006efce0", "target": "BB006efdf0", "attributes": {"type": "consequence"}}, {"source": "BB006efce0", "target": "BB006efce9", "attributes": {"type": "alternative"}}, {"source": "BB006efce9", "target": "BB006efde1", "attributes": {"type": "consequence"}}, {"source": "BB006efce9", "target": "BB006efcfb", "attributes": {"type": "alternative"}}, {"source": "BB006efcfb", "target": "BB006efda4", "attributes": {"type": "consequence"}}, {"source": "BB006efcfb", "target": "BB006efd19", "attributes": {"type": "alternative"}}, {"source": "BB006efd19", "target": "BB006efdf8", "attributes": {"type": "consequence"}}, {"source": "BB006efd19", "target": "BB006efd4a", "attributes": {"type": "alternative"}}, {"source": "BB006efd4a", "target": "BB006efd70", "attributes": {"type": "consequence"}}, {"source": "BB006efd4a", "target": "BB006efd5d", "attributes": {"type": "alternative"}}, {"source": "BB006efd5d", "target": "BB006efd5f", "attributes": {"type": "regular"}}, {"source": "BB006efd70", "target": "BB006efe50", "attributes": {"type": "consequence"}}, {"source": "BB006efd70", "target": "BB006efd89", "attributes": {"type": "alternative"}}, {"source": "BB006efd89", "target": "BB006efda4", "attributes": {"type": "consequence"}}, {"source": "BB006efd89", "target": "BB006efd93", "attributes": {"type": "alternative"}}, {"source": "BB006efd93", "target": "BB006efda4", "attributes": {"type": "regular"}}, {"source": "BB006efda4", "target": "BB006efde1", "attributes": {"type": "consequence"}}, {"source": "BB006efda4", "target": "BB006efdbb", "attributes": {"type": "alternative"}}, {"source": "BB006efdbb", "target": "BB006efe38", "attributes": {"type": "consequence"}}, {"source": "BB006efdbb", "target": "BB006efde1", "attributes": {"type": "alternative"}}, {"source": "BB006efdf8", "target": "BB006efd5d", "attributes": {"type": "regular"}}, {"source": "BB006efe38", "target": "BB006efd5f", "attributes": {"type": "regular"}}, {"source": "BB006efe50", "target": "BB006efe98", "attributes": {"type": "consequence"}}, {"source": "BB006efe50", "target": "BB006efe65", "attributes": {"type": "alternative"}}, {"source": "BB006efe65", "target": "BB006efda4", "attributes": {"type": "consequence"}}, {"source": "BB006efe65", "target": "BB006efe73", "attributes": {"type": "alternative"}}, {"source": "BB006efe73", "target": "BB006efda4", "attributes": {"type": "regular"}}, {"source": "BB006efe98", "target": "BB006efedd", "attributes": {"type": "consequence"}}, {"source": "BB006efe98", "target": "BB006efead", "attributes": {"type": "alternative"}}, {"source": "BB006efead", "target": "BB006efda4", "attributes": {"type": "consequence"}}, {"source": "BB006efead", "target": "BB006efebb", "attributes": {"type": "alternative"}}, {"source": "BB006efebb", "target": "BB006efda4", "attributes": {"type": "regular"}}, {"source": "BB006efedd", "target": "BB006eff16", "attributes": {"type": "consequence"}}, {"source": "BB006efedd", "target": "BB006efef2", "attributes": {"type": "alternative"}}, {"source": "BB006efef2", "target": "BB006efda4", "attributes": {"type": "consequence"}}, {"source": "BB006efef2", "target": "BB006eff00", "attributes": {"type": "alternative"}}, {"source": "BB006eff00", "target": "BB006efda4", "attributes": {"type": "regular"}}, {"source": "BB006eff16", "target": "BB006efd5d", "attributes": {"type": "consequence"}}, {"source": "BB006eff16", "target": "BB006eff2f", "attributes": {"type": "alternative"}}, {"source": "BB006eff2f", "target": "BB006efda4", "attributes": {"type": "consequence"}}, {"source": "BB006eff2f", "target": "BB006eff3d", "attributes": {"type": "alternative"}}, {"source": "BB006eff3d", "target": "BB006efda4", "attributes": {"type": "regular"}}], "nodes": [{"attributes": {"lines": 5}, "key": "BB006efd70"}, {"attributes": {"lines": 2}, "key": "BB006efdf0"}, {"attributes": {"lines": 6}, "key": "BB006efe73"}, {"attributes": {"lines": 3}, "key": "BB006efef2"}, {"attributes": {"lines": 2}, "key": "BB006efe38"}, {"attributes": {"lines": 12}, "key": "BB006efdf8"}, {"attributes": {"lines": 7}, "key": "BB006efcfb"}, {"attributes": {"lines": 8}, "key": "BB006efdbb"}, {"attributes": {"lines": 6}, "key": "BB006efebb"}, {"attributes": {"lines": 6}, "key": "BB006eff3d"}, {"attributes": {"lines": 5}, "key": "BB006efde1"}, {"attributes": {"lines": 2}, "key": "BB006efce0"}, {"attributes": {"lines": 3}, "key": "BB006efe65"}, {"attributes": {"lines": 6}, "key": "BB006efda4"}, {"attributes": {"lines": 6}, "key": "BB006efce9"}, {"attributes": {"lines": 3}, "key": "BB006efead"}, {"attributes": {"lines": 3}, "key": "BB006eff2f"}, {"attributes": {"lines": 5}, "key": "BB006efe50"}, {"attributes": {"lines": 2}, "key": "BB006efd93"}, {"attributes": {"lines": 5}, "key": "BB006eff16"}, {"attributes": {"lines": 10}, "key": "BB006efd19"}, {"attributes": {"lines": 5}, "key": "BB006efe98"}, {"attributes": {"lines": 1}, "key": "BB006efd5d"}, {"attributes": {"lines": 5}, "key": "BB006efedd"}, {"attributes": {"lines": 4}, "key": "BB006efd5f"}, {"attributes": {"lines": 3}, "key": "BB006eff00"}, {"attributes": {"lines": 3}, "key": "BB006efd89"}, {"attributes": {"lines": 5}, "key": "BB006efd4a"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006efce0", 
+      "target": "BB006efdf0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006efce0", 
+      "target": "BB006efce9"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006efce9", 
+      "target": "BB006efde1"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006efce9", 
+      "target": "BB006efcfb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006efcfb", 
+      "target": "BB006efda4"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006efcfb", 
+      "target": "BB006efd19"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006efd19", 
+      "target": "BB006efdf8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006efd19", 
+      "target": "BB006efd4a"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006efd4a", 
+      "target": "BB006efd70"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006efd4a", 
+      "target": "BB006efd5d"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006efd5d", 
+      "target": "BB006efd5f"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006efd70", 
+      "target": "BB006efe50"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006efd70", 
+      "target": "BB006efd89"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006efd89", 
+      "target": "BB006efda4"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006efd89", 
+      "target": "BB006efd93"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006efd93", 
+      "target": "BB006efda4"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006efda4", 
+      "target": "BB006efde1"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006efda4", 
+      "target": "BB006efdbb"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006efdbb", 
+      "target": "BB006efe38"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006efdbb", 
+      "target": "BB006efde1"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006efdf8", 
+      "target": "BB006efd5d"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006efe38", 
+      "target": "BB006efd5f"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006efe50", 
+      "target": "BB006efe98"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006efe50", 
+      "target": "BB006efe65"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006efe65", 
+      "target": "BB006efda4"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006efe65", 
+      "target": "BB006efe73"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006efe73", 
+      "target": "BB006efda4"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006efe98", 
+      "target": "BB006efedd"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006efe98", 
+      "target": "BB006efead"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006efead", 
+      "target": "BB006efda4"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006efead", 
+      "target": "BB006efebb"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006efebb", 
+      "target": "BB006efda4"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006efedd", 
+      "target": "BB006eff16"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006efedd", 
+      "target": "BB006efef2"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006efef2", 
+      "target": "BB006efda4"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006efef2", 
+      "target": "BB006eff00"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006eff00", 
+      "target": "BB006efda4"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006eff16", 
+      "target": "BB006efd5d"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006eff16", 
+      "target": "BB006eff2f"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006eff2f", 
+      "target": "BB006efda4"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006eff2f", 
+      "target": "BB006eff3d"
+    }, 
+    {
+      "attributes": {
+        "type": "regular"
+      }, 
+      "source": "BB006eff3d", 
+      "target": "BB006efda4"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB006efd70"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB006efdf0"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB006efe73"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB006efef2"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB006efe38"
+    }, 
+    {
+      "attributes": {
+        "lines": 12
+      }, 
+      "key": "BB006efdf8"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB006efcfb"
+    }, 
+    {
+      "attributes": {
+        "lines": 8
+      }, 
+      "key": "BB006efdbb"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB006efebb"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB006eff3d"
+    }, 
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB006efde1"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB006efce0"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB006efe65"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB006efda4"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB006efce9"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB006efead"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB006eff2f"
+    }, 
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB006efe50"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB006efd93"
+    }, 
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB006eff16"
+    }, 
+    {
+      "attributes": {
+        "lines": 10
+      }, 
+      "key": "BB006efd19"
+    }, 
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB006efe98"
+    }, 
+    {
+      "attributes": {
+        "lines": 1
+      }, 
+      "key": "BB006efd5d"
+    }, 
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB006efedd"
+    }, 
+    {
+      "attributes": {
+        "lines": 4
+      }, 
+      "key": "BB006efd5f"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB006eff00"
+    }, 
+    {
+      "attributes": {
+        "lines": 3
+      }, 
+      "key": "BB006efd89"
+    }, 
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB006efd4a"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

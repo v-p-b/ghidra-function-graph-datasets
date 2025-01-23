@@ -1,1 +1,97 @@
-{"edges": [{"source": "BB00618660", "target": "BB006186c8", "attributes": {"type": "consequence"}}, {"source": "BB00618660", "target": "BB0061869e", "attributes": {"type": "alternative"}}, {"source": "BB0061869e", "target": "BB006186b4", "attributes": {"type": "alternative"}}, {"source": "BB006186c8", "target": "BB006186b4", "attributes": {"type": "consequence"}}, {"source": "BB006186c8", "target": "BB006186dc", "attributes": {"type": "alternative"}}, {"source": "BB006186dc", "target": "BB006186b4", "attributes": {"type": "consequence"}}, {"source": "BB006186dc", "target": "BB006186e3", "attributes": {"type": "alternative"}}], "nodes": [{"attributes": {"lines": 6}, "key": "BB0061869e"}, {"attributes": {"lines": 2}, "key": "BB006186dc"}, {"attributes": {"lines": 7}, "key": "BB006186b4"}, {"attributes": {"lines": 6}, "key": "BB006186c8"}, {"attributes": {"lines": 28}, "key": "BB006186e3"}, {"attributes": {"lines": 18}, "key": "BB00618660"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00618660", 
+      "target": "BB006186c8"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00618660", 
+      "target": "BB0061869e"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0061869e", 
+      "target": "BB006186b4"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006186c8", 
+      "target": "BB006186b4"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006186c8", 
+      "target": "BB006186dc"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB006186dc", 
+      "target": "BB006186b4"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB006186dc", 
+      "target": "BB006186e3"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB0061869e"
+    }, 
+    {
+      "attributes": {
+        "lines": 2
+      }, 
+      "key": "BB006186dc"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB006186b4"
+    }, 
+    {
+      "attributes": {
+        "lines": 6
+      }, 
+      "key": "BB006186c8"
+    }, 
+    {
+      "attributes": {
+        "lines": 28
+      }, 
+      "key": "BB006186e3"
+    }, 
+    {
+      "attributes": {
+        "lines": 18
+      }, 
+      "key": "BB00618660"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

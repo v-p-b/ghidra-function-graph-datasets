@@ -1,1 +1,90 @@
-{"edges": [{"source": "BB00428970", "target": "BB00401100", "attributes": {"type": "consequence"}}, {"source": "BB00428970", "target": "BB00401100", "attributes": {"type": "consequence"}}, {"source": "BB00428970", "target": "BB00428a18", "attributes": {"type": "consequence"}}, {"source": "BB00428970", "target": "BB0042899f", "attributes": {"type": "alternative"}}, {"source": "BB0042899f", "target": "BB004289f0", "attributes": {"type": "consequence"}}, {"source": "BB0042899f", "target": "BB004289da", "attributes": {"type": "alternative"}}, {"source": "BB00428a18", "target": "BB0042899f", "attributes": {"type": "consequence"}}, {"source": "BB00428a18", "target": "BB00428a2c", "attributes": {"type": "alternative"}}], "nodes": [{"attributes": {"lines": 16}, "key": "BB0042899f"}, {"attributes": {"lines": 5}, "key": "BB00428a18"}, {"attributes": {"lines": 7}, "key": "BB004289da"}, {"attributes": {"lines": 16}, "key": "BB00428970"}, {"attributes": {"lines": 12}, "key": "BB004289f0"}, {"attributes": {"lines": 7}, "key": "BB00428a2c"}, {"attributes": {"lines": 1}, "key": "BB00401100"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00428970", 
+      "target": "BB00428a18"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00428970", 
+      "target": "BB0042899f"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB0042899f", 
+      "target": "BB004289f0"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB0042899f", 
+      "target": "BB004289da"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00428a18", 
+      "target": "BB0042899f"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00428a18", 
+      "target": "BB00428a2c"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 16
+      }, 
+      "key": "BB0042899f"
+    }, 
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB00428a18"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB004289da"
+    }, 
+    {
+      "attributes": {
+        "lines": 16
+      }, 
+      "key": "BB00428970"
+    }, 
+    {
+      "attributes": {
+        "lines": 12
+      }, 
+      "key": "BB004289f0"
+    }, 
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB00428a2c"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

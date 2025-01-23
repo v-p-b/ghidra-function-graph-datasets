@@ -7,6 +7,12 @@ digraph CMS_is_detached {
   BB00568fa1 -> BB00568faa [color="red"];
   BB00568faa -> BB00569070 [color="green"];
   BB00568faa -> BB00568fb6 [color="red"];
+  BB00568fb6 -> BB00568fc4 [color="blue"];
+  BB00568fc4 -> BB00569038 [color="blue"];
+  BB00568fc4 -> BB00569018 [color="blue"];
+  BB00568fc4 -> BB00568fde [color="blue"];
+  BB00568fc4 -> BB00569070 [color="blue"];
+  BB00568fc4 -> BB00569050 [color="blue"];
   BB00568fd0 -> BB00569030 [color="green"];
   BB00568fd0 -> BB00568fd7 [color="red"];
   BB00568fd7 -> BB00568ff5 [color="green"];
@@ -15,8 +21,10 @@ digraph CMS_is_detached {
   BB00568ff5 -> BB00569070 [color="green"];
   BB00568ff5 -> BB00568ffc [color="red"];
   BB00568ffc -> BB00568ff3 [color="blue"];
+  BB00569018 -> BB00568ff3 [color="blue"];
   BB00569030 -> BB00569038 [color="blue"];
   BB00569038 -> BB00568ff3 [color="blue"];
+  BB00569050 -> BB00568ff3 [color="blue"];
   BB00569070 -> BB00569038 [color="green"];
   BB00569070 -> BB00569079 [color="red"];
 }

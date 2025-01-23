@@ -3,4 +3,24 @@ digraph ossl_statem_client_max_message_size {
   graph [splines=ortho];
   BB004e1290 -> BB004e12b0 [color="green"];
   BB004e1290 -> BB004e1299 [color="red"];
+  BB004e1299 -> BB004e12ad [color="blue"];
+  BB004e12ad -> BB004e12b0 [color="blue"];
+  BB004e12ad -> BB004e1360 [color="blue"];
+  BB004e12ad -> BB004e1380 [color="blue"];
+  BB004e12ad -> BB004e12b8 [color="blue"];
+  BB004e12ad -> BB004e12c0 [color="blue"];
+  BB004e12ad -> BB004e12d0 [color="blue"];
+  BB004e12ad -> BB004e12e0 [color="blue"];
+  BB004e12ad -> BB004e1310 [color="blue"];
+  BB004e12ad -> BB004e1328 [color="blue"];
+  BB004e12ad -> BB004e1330 [color="blue"];
+  BB004e12ad -> BB004e1340 [color="blue"];
+  BB004e12ad -> BB004e1350 [color="blue"];
+  BB004e12e0 -> BB004e1375 [color="green"];
+  BB004e12e0 -> BB004e12f6 [color="red"];
+  BB004e12f6 -> BB004e1370 [color="green"];
+  BB004e12f6 -> BB004e12ff [color="red"];
+  BB004e12ff -> BB004e1370 [color="green"];
+  BB004e12ff -> BB004e1306 [color="red"];
+  BB004e1370 -> BB004e1375 [color="blue"];
 }

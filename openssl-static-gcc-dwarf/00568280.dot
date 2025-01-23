@@ -7,6 +7,12 @@ digraph ossl_cms_content_bio {
   BB00568291 -> BB0056829a [color="red"];
   BB0056829a -> BB00568350 [color="green"];
   BB0056829a -> BB005682a6 [color="red"];
+  BB005682a6 -> BB005682b4 [color="blue"];
+  BB005682b4 -> BB00568338 [color="blue"];
+  BB005682b4 -> BB00568318 [color="blue"];
+  BB005682b4 -> BB005682ce [color="blue"];
+  BB005682b4 -> BB00568350 [color="blue"];
+  BB005682b4 -> BB00568340 [color="blue"];
   BB005682c0 -> BB00568330 [color="green"];
   BB005682c0 -> BB005682c7 [color="red"];
   BB005682c7 -> BB005682fd [color="green"];
@@ -19,8 +25,10 @@ digraph ossl_cms_content_bio {
   BB005682fd -> BB00568350 [color="green"];
   BB005682fd -> BB00568304 [color="red"];
   BB00568304 -> BB005682da [color="blue"];
+  BB00568318 -> BB005682da [color="blue"];
   BB00568330 -> BB00568338 [color="blue"];
   BB00568338 -> BB005682da [color="blue"];
+  BB00568340 -> BB005682da [color="blue"];
   BB00568350 -> BB00568338 [color="green"];
   BB00568350 -> BB00568359 [color="red"];
 }

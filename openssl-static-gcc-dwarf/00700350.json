@@ -1,1 +1,71 @@
-{"edges": [{"source": "BB00700350", "target": "BB007003b2", "attributes": {"type": "consequence"}}, {"source": "BB00700350", "target": "BB00700366", "attributes": {"type": "alternative"}}, {"source": "BB00700366", "target": "BB007003b2", "attributes": {"type": "consequence"}}, {"source": "BB00700366", "target": "BB00700384", "attributes": {"type": "alternative"}}, {"source": "BB00700384", "target": "BB007003b2", "attributes": {"type": "alternative"}}], "nodes": [{"attributes": {"lines": 7}, "key": "BB00700366"}, {"attributes": {"lines": 13}, "key": "BB00700384"}, {"attributes": {"lines": 5}, "key": "BB007003b2"}, {"attributes": {"lines": 8}, "key": "BB00700350"}], "options": {"type": "directed", "multi": true, "allowSelfLoops": true}, "attributes": {}}
+{
+  "attributes": {}, 
+  "edges": [
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00700350", 
+      "target": "BB007003b2"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00700350", 
+      "target": "BB00700366"
+    }, 
+    {
+      "attributes": {
+        "type": "consequence"
+      }, 
+      "source": "BB00700366", 
+      "target": "BB007003b2"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00700366", 
+      "target": "BB00700384"
+    }, 
+    {
+      "attributes": {
+        "type": "alternative"
+      }, 
+      "source": "BB00700384", 
+      "target": "BB007003b2"
+    }
+  ], 
+  "nodes": [
+    {
+      "attributes": {
+        "lines": 7
+      }, 
+      "key": "BB00700366"
+    }, 
+    {
+      "attributes": {
+        "lines": 13
+      }, 
+      "key": "BB00700384"
+    }, 
+    {
+      "attributes": {
+        "lines": 5
+      }, 
+      "key": "BB007003b2"
+    }, 
+    {
+      "attributes": {
+        "lines": 8
+      }, 
+      "key": "BB00700350"
+    }
+  ], 
+  "options": {
+    "allowSelfLoops": true, 
+    "multi": true, 
+    "type": "directed"
+  }
+}

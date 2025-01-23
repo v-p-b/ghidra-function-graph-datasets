@@ -3,6 +3,10 @@ digraph SSL_extension_supported {
   graph [splines=ortho];
   BB004d91b0 -> BB004d91e0 [color="green"];
   BB004d91b0 -> BB004d91b5 [color="red"];
+  BB004d91b5 -> BB004d91c5 [color="blue"];
+  BB004d91c5 -> BB004d91d0 [color="blue"];
+  BB004d91c5 -> BB004d91f8 [color="blue"];
+  BB004d91c5 -> BB004d91e0 [color="blue"];
   BB004d91e0 -> BB004d91d0 [color="green"];
   BB004d91e0 -> BB004d91e8 [color="red"];
 }

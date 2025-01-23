@@ -3,4 +3,21 @@ digraph on_regen_notify {
   graph [splines=ortho];
   BB005043e0 -> BB00504438 [color="green"];
   BB005043e0 -> BB005043ea [color="red"];
+  BB005043ea -> BB005043fc [color="blue"];
+  BB005043fc -> BB00504400 [color="blue"];
+  BB005043fc -> BB00504450 [color="blue"];
+  BB005043fc -> BB00504480 [color="blue"];
+  BB005043fc -> BB00504431 [color="blue"];
+  BB005043fc -> BB005044a8 [color="blue"];
+  BB005043fc -> BB005044b8 [color="blue"];
+  BB005043fc -> BB005044e8 [color="blue"];
+  BB005043fc -> BB005044f8 [color="blue"];
+  BB005043fc -> BB00504440 [color="blue"];
+  BB00504400 -> BB00504431 [color="blue"];
+  BB00504450 -> BB00504431 [color="green"];
+  BB00504450 -> BB00504464 [color="red"];
+  BB00504480 -> BB00504431 [color="green"];
+  BB00504480 -> BB00504494 [color="red"];
+  BB005044b8 -> BB00504431 [color="green"];
+  BB005044b8 -> BB005044d0 [color="red"];
 }
